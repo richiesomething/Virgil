@@ -158,13 +158,13 @@
     ],
     "description": [
       { "from": 1, "text": "Almost twice the height of a normal man, with a shaggy black beard. He rescued baby Harry from his parents’ ruined house and weeps when Dumbledore leaves him with the Dursleys." },
-      { "from": 4, "text": "He is Keeper of Keys and Grounds at Hogwarts and fiercely loyal to Dumbledore. He tells Harry the truth about his parents, and gives Dudley a pig’s tail. He was expelled from Hogwarts in his third year, so he is not supposed to do magic, and keeps his broken wand in a pink umbrella." },
+      { "from": 4, "text": "He is Keeper of Keys and Grounds at Hogwarts and fiercely loyal to Dumbledore. He tells Harry the truth about his parents, and gives Dudley a pig’s tail. He was expelled from Hogwarts in his third year, so he is not supposed to do magic, though his pink umbrella works suspiciously like a wand." },
       { "from": 5, "text": "He takes Harry shopping in Diagon Alley, buys him an owl, and collects a mysterious package from vault 713 for Dumbledore." },
       { "from": 8, "text": "He lives in a wooden hut by the Forbidden Forest with his boarhound Fang, makes rock cakes that break your teeth, and becomes a friend to Harry and Ron. He dodges questions about the Gringotts break-in." },
       { "from": 11, "text": "He loves dangerous creatures: the three-headed dog Fluffy is his. He lets slip the name Nicolas Flamel." },
       { "from": 12, "text": "For Christmas he carves Harry a wooden flute." },
-      { "from": 14, "text": "He has always wanted a dragon and wins an egg in a card game from a hooded stranger. He hatches Norbert and is heartbroken to give him up." },
-      { "from": 16, "text": "He realizes he told the stranger how to get past Fluffy: play it music." },
+      { "from": 14, "text": "He has always wanted a dragon and wins an egg in a card game from a stranger in the village pub. He hatches Norbert and is heartbroken to give him up." },
+      { "from": 16, "text": "He admits the stranger, who never took off his hood, got him talking about Fluffy, and he told him how to get past: play it music." },
       { "from": 17, "text": "Full of guilt, he gives Harry a photo album of his parents." }
     ],
     "moments": [
@@ -187,13 +187,15 @@
     "aliases": [{ "name": "the tabby cat on Privet Drive", "from": 1, "note": "she can turn into a cat" }],
     "tagline": [
       { "from": 1, "text": "A stern witch who can turn into a tabby cat." },
-      { "from": 7, "text": "Deputy head, Transfiguration teacher and head of Gryffindor." }
+      { "from": 7, "text": "Hogwarts’ deputy headmistress and head of Gryffindor." },
+      { "from": 8, "text": "Deputy headmistress, strict Transfiguration teacher and head of Gryffindor." }
     ],
     "description": [
       { "from": 1, "text": "A severe-looking witch with square glasses and her hair in a tight bun. She spends the day on Privet Drive disguised as a tabby cat, and objects strongly to leaving Harry with the Dursleys." },
       { "from": 7, "text": "She meets the first-years and runs the Sorting. She is head of Gryffindor house: strict, but fair." },
       { "from": 8, "text": "She teaches Transfiguration, a complex and dangerous subject, and turns her desk into a pig to show the class." },
-      { "from": 9, "text": "Seeing Harry’s flying, she breaks the rules to make him Gryffindor Seeker, and later sends him a Nimbus Two Thousand. She is a keen Quidditch fan." },
+      { "from": 9, "text": "Seeing Harry’s flying, she breaks the rules to make him Gryffindor Seeker. She is a keen Quidditch fan." },
+      { "from": 10, "text": "She sends Harry a Nimbus Two Thousand racing broom so he can play." },
       { "from": 15, "text": "She takes a shocking 150 points from Gryffindor after Harry, Hermione and Neville are caught out at night." },
       { "from": 16, "text": "She refuses to believe the Stone is in danger when Harry warns her." }
     ],
@@ -210,7 +212,7 @@
     "firstChapter": 7,
     "importance": "major",
     "group": "Hogwarts staff",
-    "aliases": [{ "name": "Severus Snape", "from": 7 }],
+    "aliases": [{ "name": "Severus Snape", "from": 13 }],
     "tagline": [
       { "from": 7, "text": "A sallow, hook-nosed teacher whose look makes Harry’s scar hurt." },
       { "from": 8, "text": "The Potions master, who seems to hate Harry." },
@@ -256,7 +258,7 @@
       { "from": 11, "text": "Hermione knocks him over in the stands as she runs to stop Snape." },
       { "from": 13, "text": "Harry overhears Snape menacing him in the forest. The friends believe he has protected the Stone with a spell, and that Snape is trying to make him give it up." },
       { "from": 15, "text": "Harry hears him pleading with someone, “not again, please,” and fears Snape has broken him." },
-      { "from": 17, "text": "The real villain. He jinxed Harry’s broom, let in the troll, and was trying to steal the Stone for Voldemort, whom he met in Albania; it was he, carrying Voldemort, who drank the unicorn’s blood in the forest. Voldemort’s face is on the back of his head under the turban. He cannot bear Harry’s touch, and Voldemort abandons him to die." }
+      { "from": 17, "text": "The real villain. He jinxed Harry’s broom, let in the troll, and was trying to steal the Stone for Voldemort, whom he met on his travels; it was he, carrying Voldemort, who drank the unicorn’s blood in the forest. Voldemort’s face is on the back of his head under the turban. He cannot bear Harry’s touch, and Voldemort abandons him to die." }
     ],
     "moments": [
       { "chapter": 5, "text": "Shook Harry’s hand nervously in the Leaky Cauldron." },
@@ -290,7 +292,7 @@
     ],
     "moments": [
       { "chapter": 1, "text": "Killed Lily and James Potter but failed to kill Harry." },
-      { "chapter": 17, "text": "Offered to bring back Harry’s parents in exchange for the Stone." },
+      { "chapter": 17, "text": "Tried to make Harry hand over the Stone, taunting him about his parents." },
       { "chapter": 17, "text": "Abandoned Quirrell and fled." }
     ]
   },
@@ -382,7 +384,7 @@
     ],
     "description": [
       { "from": 1, "text": "Harry’s mother and Petunia Dursley’s sister. She and her husband James were killed by Voldemort at their home in Godric’s Hollow." },
-      { "from": 4, "text": "She was a witch, and Hagrid says she and James were Head Girl and Head Boy in their day. Petunia resented her." },
+      { "from": 4, "text": "She was a witch, and her parents were proud of her; Petunia resented her and called her a freak." },
       { "from": 12, "text": "In the Mirror of Erised, Harry sees her: a pretty woman with dark red hair and eyes just like his." },
       { "from": 17, "text": "Dumbledore explains that she died to save Harry, and that love so strong left a protection in his very skin." }
     ],
@@ -398,7 +400,7 @@
     "tagline": [{ "from": 1, "text": "Harry’s father, killed by Voldemort." }],
     "description": [
       { "from": 1, "text": "Harry’s father, killed along with his wife Lily by Voldemort." },
-      { "from": 4, "text": "A wizard, and Head Boy at Hogwarts in his day." },
+      { "from": 4, "text": "A wizard, whom Petunia scorns as another freak." },
       { "from": 9, "text": "McGonagall mentions he was an excellent Quidditch player." },
       { "from": 12, "text": "Harry learns the Invisibility Cloak was his, and sees him in the mirror: tall and thin, with hair as untidy as Harry’s." },
       { "from": 17, "text": "Dumbledore reveals that James once saved Snape’s life, and that he and Snape loathed each other." }
@@ -425,7 +427,10 @@
     "importance": "minor",
     "group": "Wizarding world",
     "aliases": [],
-    "tagline": [{ "from": 1, "text": "An excitable wizard in a violet top hat." }],
+    "tagline": [
+      { "from": 1, "text": "A wizard McGonagall thinks never had much sense." },
+      { "from": 5, "text": "An excitable little wizard in a violet top hat." }
+    ],
     "description": [
       { "from": 1, "text": "McGonagall suspects him of setting off the shooting stars that celebrated Voldemort’s fall, and says he never had much sense." },
       { "from": 5, "text": "He is overjoyed to shake Harry’s hand at the Leaky Cauldron. He once bowed to Harry in a shop." }
@@ -573,7 +578,7 @@
     "description": [
       { "from": 6, "text": "The mother of the Weasley children. She kindly shows a lost Harry how to get onto platform nine and three-quarters." },
       { "from": 12, "text": "She knits Harry a lumpy emerald sweater and sends him homemade fudge for Christmas." },
-      { "from": 17, "text": "She thanks Harry warmly at King’s Cross at the end of term." }
+      { "from": 17, "text": "She greets Harry kindly at King’s Cross at the end of term." }
     ],
     "moments": [{ "chapter": 6, "text": "Helped Harry through the barrier at King’s Cross." }]
   },

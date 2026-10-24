@@ -92,7 +92,11 @@
     "tagline": [
       {
         "from": 1,
-        "text": "An excitable wizard in a violet top hat."
+        "text": "A wizard McGonagall thinks never had much sense."
+      },
+      {
+        "from": 5,
+        "text": "An excitable little wizard in a violet top hat."
       }
     ],
     "description": [
@@ -325,7 +329,7 @@
       },
       {
         "from": 4,
-        "text": "A wizard, and Head Boy at Hogwarts in his day."
+        "text": "A wizard, whom Petunia scorns as another freak."
       },
       {
         "from": 9,
@@ -371,7 +375,7 @@
       },
       {
         "from": 4,
-        "text": "She was a witch, and Hagrid says she and James were Head Girl and Head Boy in their day. Petunia resented her."
+        "text": "She was a witch, and her parents were proud of her; Petunia resented her and called her a freak."
       },
       {
         "from": 12,
@@ -409,7 +413,11 @@
       },
       {
         "from": 7,
-        "text": "Deputy head, Transfiguration teacher and head of Gryffindor."
+        "text": "Hogwarts’ deputy headmistress and head of Gryffindor."
+      },
+      {
+        "from": 8,
+        "text": "Deputy headmistress, strict Transfiguration teacher and head of Gryffindor."
       }
     ],
     "description": [
@@ -427,7 +435,11 @@
       },
       {
         "from": 9,
-        "text": "Seeing Harry’s flying, she breaks the rules to make him Gryffindor Seeker, and later sends him a Nimbus Two Thousand. She is a keen Quidditch fan."
+        "text": "Seeing Harry’s flying, she breaks the rules to make him Gryffindor Seeker. She is a keen Quidditch fan."
+      },
+      {
+        "from": 10,
+        "text": "She sends Harry a Nimbus Two Thousand racing broom so he can play."
       },
       {
         "from": 15,
@@ -541,7 +553,7 @@
       },
       {
         "from": 4,
-        "text": "He is Keeper of Keys and Grounds at Hogwarts and fiercely loyal to Dumbledore. He tells Harry the truth about his parents, and gives Dudley a pig’s tail. He was expelled from Hogwarts in his third year, so he is not supposed to do magic, and keeps his broken wand in a pink umbrella."
+        "text": "He is Keeper of Keys and Grounds at Hogwarts and fiercely loyal to Dumbledore. He tells Harry the truth about his parents, and gives Dudley a pig’s tail. He was expelled from Hogwarts in his third year, so he is not supposed to do magic, though his pink umbrella works suspiciously like a wand."
       },
       {
         "from": 5,
@@ -561,11 +573,11 @@
       },
       {
         "from": 14,
-        "text": "He has always wanted a dragon and wins an egg in a card game from a hooded stranger. He hatches Norbert and is heartbroken to give him up."
+        "text": "He has always wanted a dragon and wins an egg in a card game from a stranger in the village pub. He hatches Norbert and is heartbroken to give him up."
       },
       {
         "from": 16,
-        "text": "He realizes he told the stranger how to get past Fluffy: play it music."
+        "text": "He admits the stranger, who never took off his hood, got him talking about Fluffy, and he told him how to get past: play it music."
       },
       {
         "from": 17,
@@ -739,7 +751,7 @@
       },
       {
         "chapter": 17,
-        "text": "Offered to bring back Harry’s parents in exchange for the Stone."
+        "text": "Tried to make Harry hand over the Stone, taunting him about his parents."
       },
       {
         "chapter": 17,
@@ -943,7 +955,7 @@
       },
       {
         "from": 17,
-        "text": "The real villain. He jinxed Harry’s broom, let in the troll, and was trying to steal the Stone for Voldemort, whom he met in Albania; it was he, carrying Voldemort, who drank the unicorn’s blood in the forest. Voldemort’s face is on the back of his head under the turban. He cannot bear Harry’s touch, and Voldemort abandons him to die."
+        "text": "The real villain. He jinxed Harry’s broom, let in the troll, and was trying to steal the Stone for Voldemort, whom he met on his travels; it was he, carrying Voldemort, who drank the unicorn’s blood in the forest. Voldemort’s face is on the back of his head under the turban. He cannot bear Harry’s touch, and Voldemort abandons him to die."
       }
     ],
     "moments": [
@@ -1384,7 +1396,7 @@
       },
       {
         "from": 17,
-        "text": "She thanks Harry warmly at King’s Cross at the end of term."
+        "text": "She greets Harry kindly at King’s Cross at the end of term."
       }
     ],
     "moments": [
@@ -1890,7 +1902,7 @@
     "aliases": [
       {
         "name": "Severus Snape",
-        "from": 7
+        "from": 13
       }
     ],
     "tagline": [
