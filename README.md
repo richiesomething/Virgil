@@ -24,6 +24,23 @@ Books so far:
   moments each carry the chapter where they become known. Secret identities stay separate
   characters until the book reveals them, then fold into the real person (`mergedInto`).
 
+## Reading guide (mobile-first)
+
+- **Today**: what's up next (with a time estimate and a collapsible "Before you read" primer), today's
+  reading against your plan, where you left off, and who's in the story now. Welcome-back recap after a
+  break of four days or more.
+- **Chapter notes & glossary**: per-chapter notes on period words, money, history, references and foreign
+  phrases (Summary · Notes · People on each chapter), and a searchable, filterable glossary that grows as
+  you read.
+- **Story so far**: recap checkpoints plus the chapters since, and who matters right now.
+- **Search** from anywhere: names, nicknames, disguises, places, glossary terms and chapter numbers —
+  only what you've reached.
+- **Reading plan**: reading speed, a minutes-a-day or finish-by goal, projected finish date, today's
+  progress, streaks, pace and upcoming chapter times. Jumping ahead several chapters doesn't count
+  toward pace or streak.
+- **The bookmark** is a header chip that opens a sheet: "I finished Chapter N", back one, or choose a
+  chapter (jumping ahead asks first); every change can be undone.
+
 ## Features (Phase 2)
 
 - **Character map**: an interactive relationship graph (drag, zoom, tap a character for their
@@ -55,6 +72,9 @@ Each book lives in `src/books/<id>/`:
 - `meta.ts` — title, author, chapter count, volumes.
 - `chapters.json` — `{ number, title, volume, summary, details[], characters[] }`.
 - `relationships.json` — `{ a, b, states: [{ from, type, label }] }`; see `Relationship` in `src/types.ts`.
+- `notes.json`, `primers.json`, `recaps.json`, `word-counts.json` — the reading guide (see `Note`,
+  `Primer`, `Recap` in `src/types.ts`). Word counts for copyrighted books are estimates
+  (`wordCountsApproximate`).
 - `characters.json` — see `Character` in `src/types.ts`; `kind` is `character` (default), `object` or
   `place`. Links involving an object or place use the relationship type `tie`; in `data-src` they
   live in `things-relationships.json`. Family ties and marriages carry `kin` (parent, child, sibling,

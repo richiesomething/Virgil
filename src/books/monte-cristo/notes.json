@@ -1045,6 +1045,7 @@
     "text": "Modern (spoken) Greek, as opposed to the ancient language.",
     "quote": "a little of the Romaic dialect",
     "seeAlso": [
+      34,
       49,
       77
     ]
@@ -1055,7 +1056,10 @@
     "kind": "word",
     "chapter": 17,
     "text": "A seizure in which the body goes rigid and seems lifeless. Faria's 'attacks', with convulsions and later paralysis, sound to modern ears like epilepsy and strokes.",
-    "quote": "I am about to be seized with a fit of catalepsy"
+    "quote": "I am about to be seized with a fit of catalepsy",
+    "seeAlso": [
+      28
+    ]
   },
   {
     "id": "gothic-characters",
@@ -1210,7 +1214,10 @@
     "kind": "word",
     "chapter": 20,
     "text": "The cold, violent north-west wind that roars down the Rhône valley over Provence and out to sea.",
-    "quote": "Dantès knew that the mistral was blowing"
+    "quote": "Dantès knew that the mistral was blowing",
+    "seeAlso": [
+      26
+    ]
   },
   {
     "id": "planier",
@@ -1261,7 +1268,10 @@
     "kind": "title",
     "chapter": 21,
     "text": "The usual Mediterranean term for the master or skipper of a small trading vessel.",
-    "quote": "said the patron"
+    "quote": "said the patron",
+    "seeAlso": [
+      32
+    ]
   },
   {
     "id": "larboard",
@@ -1417,6 +1427,1145 @@
     "chapter": 23,
     "text": "The magic password that opens the robbers' treasure cave in 'Ali Baba and the Forty Thieves'. Dumas confuses Ali Baba, a woodcutter, with the fisherman of another Arabian Nights tale.",
     "quote": "opened the splendid caverns of Ali Baba to the Arabian fisherman"
+  },
+  {
+    "id": "straits-of-bonifacio",
+    "term": "Straits of Bonifacio",
+    "kind": "place",
+    "chapter": 24,
+    "text": "The narrow channel between Corsica and Sardinia, about 11 km wide, notorious for strong winds and currents.",
+    "quote": "just disappearing in the straits of Bonifacio"
+  },
+  {
+    "id": "d-dalian-labyrinth",
+    "term": "Dædalian labyrinth",
+    "kind": "reference",
+    "chapter": 24,
+    "text": "In Greek myth, Daedalus built the Labyrinth for King Minos, a maze so intricate that hardly anyone who entered could find the way out. So: a bewildering puzzle.",
+    "quote": "the Dædalian labyrinth of probabilities"
+  },
+  {
+    "id": "saltpetre",
+    "term": "saltpetre",
+    "kind": "word",
+    "chapter": 24,
+    "text": "Potassium nitrate, the key ingredient of gunpowder. A cloth soaked in it burns slowly and steadily, so it makes a simple fuse.",
+    "quote": "rolling his handkerchief in saltpetre"
+  },
+  {
+    "id": "titans",
+    "term": "Titans",
+    "kind": "reference",
+    "chapter": 24,
+    "text": "In Greek myth, the giant elder gods (and the Giants after them) who made war on Zeus, the 'father of the gods', tearing up mountains to storm heaven.",
+    "quote": "he seemed like one of the ancient Titans"
+  },
+  {
+    "id": "alaric",
+    "term": "Alaric",
+    "kind": "history",
+    "chapter": 24,
+    "text": "The Visigoth king who sacked Rome in 410. He was buried with his treasure in the bed of the Busento river, turned aside for the purpose, and legend says the captives who dug the grave were killed to keep the secret.",
+    "quote": "those who buried Alaric, and were interred with the corpse"
+  },
+  {
+    "id": "mephitic",
+    "term": "mephitic",
+    "kind": "word",
+    "chapter": 24,
+    "text": "Foul-smelling and unhealthy to breathe; used of stale or poisonous air in caves, mines and sewers.",
+    "quote": "the thick and mephitic atmosphere he had expected"
+  },
+  {
+    "id": "en-pale",
+    "term": "en pale",
+    "kind": "foreign",
+    "chapter": 24,
+    "text": "French heraldic term: set upright down the centre of the shield. The cardinal's hat above the shield marks the arms of a churchman.",
+    "quote": "a sword, en pale, on an oval shield"
+  },
+  {
+    "id": "twenty-five-thousand-crowns",
+    "term": "twenty-five thousand crowns",
+    "kind": "money",
+    "chapter": 24,
+    "text": "At Dumas's valuation of about 80 francs a coin, the coins alone come to some two million francs, when a labourer earned perhaps 500–600 francs a year. The gold bars and jewels are worth more still. Alexander VI was the Borgia pope (1492–1503).",
+    "quote": "twenty-five thousand crowns, each worth about eighty francs"
+  },
+  {
+    "id": "piastre",
+    "term": "piastre",
+    "kind": "money",
+    "chapter": 25,
+    "text": "A large silver coin worth roughly 5 francs, used all round the Mediterranean (it began as the Spanish peso). In Rome, Dumas uses the word for the papal scudo.",
+    "quote": "fifty piastres each",
+    "seeAlso": [
+      33,
+      34,
+      37
+    ]
+  },
+  {
+    "id": "a-jew-a-dealer-in-precious-stones",
+    "term": "a Jew, a dealer in precious stones",
+    "kind": "history",
+    "chapter": 25,
+    "text": "Leghorn (Livorno) had one of Europe's largest Jewish communities, invited in by the Medici in the 1590s and prominent in the gem, coral and banking trades. Dumas's bare label 'a Jew' reflects the casual prejudice of his era.",
+    "quote": "the house of a Jew, a dealer in precious stones"
+  },
+  {
+    "id": "bill-of-health",
+    "term": "bill of health",
+    "kind": "custom",
+    "chapter": 25,
+    "text": "A certificate that a ship came from a port free of plague and other contagion. Port officials checked it before anyone could land; without it, a ship could be held in quarantine.",
+    "quote": "to demand his bill of health",
+    "seeAlso": [
+      31
+    ]
+  },
+  {
+    "id": "english-passport",
+    "term": "English passport",
+    "kind": "custom",
+    "chapter": 25,
+    "text": "Passports were needed even for travel within France. A rich English 'milord' abroad was assumed to be wealthy and harmless, and had his government's protection, so officials usually waved him through with few questions.",
+    "quote": "presented an English passport he had obtained from Leghorn"
+  },
+  {
+    "id": "canebiere",
+    "term": "Canebière",
+    "kind": "place",
+    "chapter": 25,
+    "text": "Marseilles's broad main street, running up from the Old Port. Its name comes from the hemp (Provençal canebe) once worked into rope there.",
+    "quote": "as he landed on the Canebière",
+    "seeAlso": [
+      112
+    ]
+  },
+  {
+    "id": "double-napoleon",
+    "term": "double Napoleon",
+    "kind": "money",
+    "chapter": 25,
+    "text": "A 40-franc gold coin (a napoleon was 20 francs, the same as a louis). The sailor expected a 2-franc piece and was handed twenty times as much, which was probably several weeks' pay.",
+    "quote": "you gave me a double Napoleon"
+  },
+  {
+    "id": "nabob",
+    "term": "nabob",
+    "kind": "word",
+    "chapter": 25,
+    "text": "From nawab, a governor in Mughal India. In Europe it meant a man who had come home with a huge fortune made in India and spent it lavishly.",
+    "quote": "Some nabob from India"
+  },
+  {
+    "id": "seines",
+    "term": "seines",
+    "kind": "word",
+    "chapter": 25,
+    "text": "Large fishing nets that hang upright in the water, held up by floats and weighted at the bottom. A tender is a small boat that serves a larger one.",
+    "quote": "two seines and a tender"
+  },
+  {
+    "id": "porte-d-aix",
+    "term": "Porte d’Aix",
+    "kind": "place",
+    "chapter": 25,
+    "text": "Marseilles's northern gate, where the road leaves for Aix and the interior, the way to the Rhône valley.",
+    "quote": "leave Marseilles by the Porte d’Aix"
+  },
+  {
+    "id": "pont-du-gard",
+    "term": "Pont du Gard",
+    "kind": "place",
+    "chapter": 26,
+    "text": "A Roman aqueduct bridge (1st century AD) with three tiers of arches over the river Gardon near Nîmes, one of the best-preserved Roman monuments in France. The inn's sign shows it.",
+    "quote": "a grotesque representation of the Pont du Gard"
+  },
+  {
+    "id": "beaucaire",
+    "term": "Beaucaire",
+    "kind": "place",
+    "chapter": 26,
+    "text": "A town on the Rhône whose great July fair drew merchants from all over Europe and the Mediterranean. It was one of the biggest trade fairs of its day, with jewellers, cloth dealers and bankers.",
+    "quote": "between the town of Beaucaire and the village of Bellegarde",
+    "seeAlso": [
+      27,
+      29
+    ]
+  },
+  {
+    "id": "a-canal-between-beaucaire-and-aiguemortes",
+    "term": "a canal between Beaucaire and Aiguemortes",
+    "kind": "history",
+    "chapter": 26,
+    "text": "The Beaucaire canal, finished in the early 19th century, linked the Rhône to the coast. Barges took over traffic from the road, ruining roadside inns like this one.",
+    "quote": "a canal between Beaucaire and Aiguemortes had revolutionized transportation"
+  },
+  {
+    "id": "ague",
+    "term": "ague",
+    "kind": "word",
+    "chapter": 26,
+    "text": "Malarial fever, with recurring fits of shivering and chills. It was common around the marshes of the Camargue and Aigues-Mortes, which is the 'slow fever' wasting La Carconte.",
+    "quote": "went into a fit of ague"
+  },
+  {
+    "id": "cahors",
+    "term": "Cahors",
+    "kind": "word",
+    "chapter": 26,
+    "text": "A dark, strong red wine from the Lot valley in south-west France, sometimes called 'black wine'.",
+    "quote": "one of the few bottles of Cahors still remaining"
+  },
+  {
+    "id": "shagreen",
+    "term": "shagreen",
+    "kind": "word",
+    "chapter": 26,
+    "text": "Rough, grainy leather made from horse hide or the skin of sharks and rays, often dyed and used to cover small cases.",
+    "quote": "a small box covered with black shagreen"
+  },
+  {
+    "id": "galleys-of-toulon",
+    "term": "galleys of Toulon",
+    "kind": "history",
+    "chapter": 26,
+    "text": "The bagne, the convict prison at Toulon naval port. Convicts were still said to be sent 'to the galleys', though by then they did chained hard labour in the dockyards rather than rowing ships.",
+    "quote": "at the galleys of Toulon"
+  },
+  {
+    "id": "second-restoration",
+    "term": "second restoration",
+    "kind": "history",
+    "chapter": 26,
+    "text": "Louis XVIII's return to the throne in July 1815, after Waterloo ended the Hundred Days. The first restoration was in 1814, after Napoleon's first abdication.",
+    "quote": "released from prison during the second restoration",
+    "seeAlso": [
+      27,
+      28
+    ]
+  },
+  {
+    "id": "fifty-thousand-francs",
+    "term": "fifty thousand francs",
+    "kind": "money",
+    "chapter": 26,
+    "text": "When a labourer earned perhaps 500–600 francs a year, this was a life-changing sum. Invested at 5%, it would bring in about 2,500 francs a year: a modest, comfortable income, though not riches.",
+    "quote": "It was estimated at fifty thousand francs.",
+    "seeAlso": [
+      27
+    ]
+  },
+  {
+    "id": "canter",
+    "term": "canter",
+    "kind": "word",
+    "chapter": 27,
+    "text": "Someone who talks pious cant, i.e. a religious hypocrite. Caderousse's dislike of the Jesuits, a powerful Catholic order, reflects a common anticlerical feeling of the time.",
+    "quote": "I, who am no canter, and hate the Jesuits"
+  },
+  {
+    "id": "cochineal-and-indigo",
+    "term": "cochineal and indigo",
+    "kind": "word",
+    "chapter": 27,
+    "text": "Two valuable dyes: cochineal, a crimson made from dried insects, and indigo, a deep blue made from a plant. Both were expensive imports and made a rich cargo.",
+    "quote": "a cargo of cochineal and indigo",
+    "seeAlso": [
+      30
+    ]
+  },
+  {
+    "id": "battle-of-ligny",
+    "term": "battle of Ligny",
+    "kind": "history",
+    "chapter": 27,
+    "text": "16 June 1815: Napoleon's last victory, over the Prussians, two days before Waterloo. On the eve of the campaign the real General Bourmont went over to the enemy with his staff.",
+    "quote": "was at the battle of Ligny"
+  },
+  {
+    "id": "spanish-war",
+    "term": "Spanish war",
+    "kind": "history",
+    "chapter": 27,
+    "text": "In 1823 France invaded Spain to restore the absolute power of King Ferdinand VII. The storming of the Trocadero fort at Cádiz ended the campaign. Supplying the army (the commissariat) made contractors rich.",
+    "quote": "after the taking of Trocadero, he was made colonel"
+  },
+  {
+    "id": "speculated-in-the-funds",
+    "term": "speculated in the funds",
+    "kind": "custom",
+    "chapter": 27,
+    "text": "Trading in government bonds (rentes) on the Paris Bourse. Their prices rose and fell with war and political news, a quick road to riches or ruin for anyone with inside knowledge.",
+    "quote": "he speculated in the funds",
+    "seeAlso": [
+      34
+    ]
+  },
+  {
+    "id": "baron",
+    "term": "baron",
+    "kind": "title",
+    "chapter": 27,
+    "text": "The lowest French noble title; a count ranks two steps higher. Napoleon and the restored Bourbons both gave out titles freely, and rich financiers were often made barons, to the scorn of the old nobility.",
+    "quote": "now he is the Baron Danglars"
+  },
+  {
+    "id": "greek-war-of-independence",
+    "term": "Greek war of independence",
+    "kind": "history",
+    "chapter": 27,
+    "text": "The Greeks' revolt against Ottoman Turkish rule (1821–1829). Supporting Greece was a Romantic fashion across Europe, and Lord Byron died there in 1824 as a volunteer.",
+    "quote": "Greece only had risen against Turkey"
+  },
+  {
+    "id": "frailty-thy-name-is-woman",
+    "term": "Frailty, thy name is woman",
+    "kind": "reference",
+    "chapter": 27,
+    "text": "Hamlet's bitter line (Act 1, scene 2) about his mother's hasty remarriage after his father's death.",
+    "quote": "‘Frailty, thy name is woman.’"
+  },
+  {
+    "id": "rue-du-helder",
+    "term": "Rue du Helder",
+    "kind": "place",
+    "chapter": 27,
+    "text": "A smart street in Paris just off the Boulevard des Italiens, in the fashionable new quarter of bankers, officers and society people.",
+    "quote": "No. 27, Rue du Helder, Paris",
+    "seeAlso": [
+      33
+    ]
+  },
+  {
+    "id": "five-and-twenty-louis",
+    "term": "five-and-twenty louis",
+    "kind": "money",
+    "chapter": 27,
+    "text": "A louis was a 20-franc gold coin, so this purse held 500 francs. That is five times what Fernand sent by his valet, and close to a year's wages for a labourer.",
+    "quote": "it contained five-and-twenty louis"
+  },
+  {
+    "id": "nankeen",
+    "term": "nankeen",
+    "kind": "word",
+    "chapter": 28,
+    "text": "A sturdy yellowish cotton cloth, originally from Nanjing in China, popular for summer trousers.",
+    "quote": "nankeen trousers, and a white waistcoat"
+  },
+  {
+    "id": "bankruptcy",
+    "term": "bankruptcy",
+    "kind": "custom",
+    "chapter": 28,
+    "text": "Under French commercial law, a merchant who failed to pay a bill on its due date could be declared bankrupt (en faillite). That meant public disgrace, loss of civic rights and exclusion from the Bourse until every creditor was paid.",
+    "quote": "It looks more like bankruptcy!",
+    "seeAlso": [
+      29,
+      30
+    ]
+  },
+  {
+    "id": "dowry",
+    "term": "dowry",
+    "kind": "custom",
+    "chapter": 28,
+    "text": "Money or property a bride's family brought to her marriage. In respectable families a match was hard to make without one, and losing it could end an engagement.",
+    "quote": "were the dowry of my daughter",
+    "seeAlso": [
+      30
+    ]
+  },
+  {
+    "id": "brokerage",
+    "term": "brokerage",
+    "kind": "word",
+    "chapter": 28,
+    "text": "A fee for arranging a financial deal, normally a small percentage. Boville expects to sell his doubtful debt at a heavy discount, but the Englishman pays the full face value and asks for a favour instead of a fee.",
+    "quote": "I only ask a brokerage."
+  },
+  {
+    "id": "thirty-six-pound-cannon-ball",
+    "term": "thirty-six-pound cannon-ball",
+    "kind": "word",
+    "chapter": 28,
+    "text": "Guns were named by the weight of shot they fired. A 36-pounder ball weighs about 16 kg, more than enough to drag a body straight to the bottom.",
+    "quote": "after fastening a thirty-six-pound cannon-ball to their feet"
+  },
+  {
+    "id": "le-drapeau-blanc",
+    "term": "Le Drapeau Blanc",
+    "kind": "reference",
+    "chapter": 28,
+    "text": "'The White Flag', an ultra-royalist Paris newspaper named after the Bourbon white flag, the opposite of Napoleon's tricolour. It was fitting reading for an official of the restored monarchy.",
+    "quote": "was reading Le Drapeau Blanc"
+  },
+  {
+    "id": "at-the-end-of-his-teeth",
+    "term": "at the end of his teeth",
+    "kind": "foreign",
+    "chapter": 28,
+    "text": "A literal rendering of the French rire du bout des dents: to laugh only with the teeth, i.e. a forced, mirthless laugh.",
+    "quote": "he laughed as the English do, “at the end of his teeth.”"
+  },
+  {
+    "id": "sinbad-the-sailor",
+    "term": "Sinbad the Sailor",
+    "kind": "reference",
+    "chapter": 29,
+    "text": "Hero of a cycle of tales in the Arabian Nights: a Baghdad merchant who made seven fabulous voyages, survived shipwrecks, giants and monsters, and came home richer each time.",
+    "quote": "a letter signed ‘Sinbad the Sailor.’",
+    "seeAlso": [
+      30,
+      31,
+      33
+    ]
+  },
+  {
+    "id": "cocles",
+    "term": "Cocles",
+    "kind": "reference",
+    "chapter": 29,
+    "text": "The clerks' nickname echoes Horatius Cocles, the legendary one-eyed Roman who held a bridge alone against an invading army. In Latin, cocles means 'one-eyed'.",
+    "quote": "an old one-eyed cashier, called “Cocles,”",
+    "seeAlso": [
+      33
+    ]
+  },
+  {
+    "id": "fourteen-sous",
+    "term": "fourteen sous",
+    "kind": "money",
+    "chapter": 29,
+    "text": "A sou was 5 centimes, so twenty made a franc and fourteen sous is 70 centimes, perhaps a third of a day's pay. Cocles accounts for every last coin.",
+    "quote": "an overbalance of fourteen sous in his cash"
+  },
+  {
+    "id": "belvedere",
+    "term": "belvedere",
+    "kind": "word",
+    "chapter": 29,
+    "text": "A lookout room or turret on a rooftop, built for the view. From Morrel's, it looks out over the harbour.",
+    "quote": "passes a part of his time in a belvedere"
+  },
+  {
+    "id": "bills",
+    "term": "bills",
+    "kind": "custom",
+    "chapter": 29,
+    "text": "Bills of exchange were signed promises to pay a sum on a fixed date. They could be signed over ('assigned') to someone else, so a merchant's debts could be quietly bought up and presented by a stranger.",
+    "quote": "assigned to our house by the holders",
+    "seeAlso": [
+      30
+    ]
+  },
+  {
+    "id": "287-500-francs",
+    "term": "287,500 francs",
+    "kind": "money",
+    "chapter": 29,
+    "text": "A huge sum: a labourer on 500–600 francs a year would need centuries to earn it. For a merchant with his credit gone, there is no hope of raising it quickly.",
+    "quote": "in all, 287,500 francs",
+    "seeAlso": [
+      30
+    ]
+  },
+  {
+    "id": "cape-blanc-and-cape-boyador",
+    "term": "Cape Blanc and Cape Boyador",
+    "kind": "place",
+    "chapter": 29,
+    "text": "Headlands on the Atlantic coast of north-west Africa (in today's Mauritania and Western Sahara). They lie on the long route home from India around the Cape of Good Hope.",
+    "quote": "between Cape Blanc and Cape Boyador"
+  },
+  {
+    "id": "take-in-two-reefs",
+    "term": "take in two reefs",
+    "kind": "word",
+    "chapter": 29,
+    "text": "To reef is to shorten a sail by tying part of it up, so the wind has less to push on. Studding-sails and the flying jib are light extra sails. 'Scudding under bare poles' means running before a storm with no sail set at all.",
+    "quote": "Take in two reefs in the top-sails"
+  },
+  {
+    "id": "quid",
+    "term": "quid",
+    "kind": "word",
+    "chapter": 29,
+    "text": "A wad of chewing tobacco, kept in the cheek.",
+    "quote": "Penelon rolled his quid in his cheek"
+  },
+  {
+    "id": "rouleau",
+    "term": "rouleau",
+    "kind": "word",
+    "chapter": 29,
+    "text": "A roll of coins wrapped in paper, here a hundred francs' worth in each hand.",
+    "quote": "a rouleau of a hundred francs in either hand",
+    "seeAlso": [
+      50
+    ]
+  },
+  {
+    "id": "go-to-protest",
+    "term": "go to protest",
+    "kind": "custom",
+    "chapter": 30,
+    "text": "When a bill went unpaid, a notary formally recorded the refusal. This 'protest' was a public step toward a declaration of bankruptcy.",
+    "quote": "the bills would go to protest at the end of the month"
+  },
+  {
+    "id": "polytechnic-school",
+    "term": "Polytechnic School",
+    "kind": "place",
+    "chapter": 30,
+    "text": "The École Polytechnique in Paris, founded in 1794: a highly competitive state college training engineers and artillery and military officers.",
+    "quote": "passed brilliantly through the Polytechnic School"
+  },
+  {
+    "id": "the-stoic",
+    "term": "the stoic",
+    "kind": "reference",
+    "chapter": 30,
+    "text": "The Stoics, Greek and Roman philosophers, taught that a wise man does his duty and bears pain and misfortune without complaint. Hence the modern sense of 'stoic'.",
+    "quote": "he thus gained the name of “the stoic.”",
+    "seeAlso": [
+      35
+    ]
+  },
+  {
+    "id": "club-of-the-phoceens",
+    "term": "club of the Phocéens",
+    "kind": "place",
+    "chapter": 30,
+    "text": "Marseilles was founded around 600 BC by Greeks from Phocaea in Asia Minor, so its citizens were called Phocaeans. The Sémaphore was the city's commercial newspaper, which listed ship movements.",
+    "quote": "take his coffee at the club of the Phocéens"
+  },
+  {
+    "id": "stamped-paper",
+    "term": "stamped paper",
+    "kind": "custom",
+    "chapter": 30,
+    "text": "Paper bearing an official tax stamp, required by law for wills, contracts and other legal documents. That is why the sight frightens Madame Morrel.",
+    "quote": "her husband was writing on stamped paper"
+  },
+  {
+    "id": "secretaire",
+    "term": "secretaire",
+    "kind": "word",
+    "chapter": 30,
+    "text": "A writing desk with drawers and a fold-down writing flap, usually lockable. It was where wills, money and private papers were kept.",
+    "quote": "You will find my will in the secretaire in my bedroom.",
+    "seeAlso": [
+      37,
+      75
+    ]
+  },
+  {
+    "id": "blood-washes-out-dishonor",
+    "term": "Blood washes out dishonor",
+    "kind": "custom",
+    "chapter": 30,
+    "text": "Bankruptcy disgraced a merchant and his whole family. Some men of Morrel's class believed that dying rather than defaulting would save the family name, since people pitied a dead debtor where they shunned a living one.",
+    "quote": "“Blood washes out dishonor,” said Morrel."
+  },
+  {
+    "id": "epaulets",
+    "term": "epaulets",
+    "kind": "custom",
+    "chapter": 30,
+    "text": "Fringed shoulder ornaments showing an officer's rank. By taking them off, Maximilian shows he will give up his army career to support his mother and sister.",
+    "quote": "he took off his two epaulets, the insignia of his rank"
+  },
+  {
+    "id": "tower-of-saint-jean",
+    "term": "tower of Saint-Jean",
+    "kind": "place",
+    "chapter": 30,
+    "text": "Fort Saint-Jean, the medieval fortress guarding the north side of the entrance to Marseilles's Old Port.",
+    "quote": "in front of the tower of Saint-Jean"
+  },
+  {
+    "id": "carnival",
+    "term": "Carnival",
+    "kind": "custom",
+    "chapter": 31,
+    "text": "The days of feasting and masquerade before Ash Wednesday and the Lenten fast. Rome's Carnival was the most famous in Europe, centred on the Corso with masks, flower-throwing and horse races, and it drew visitors from everywhere.",
+    "quote": "They had agreed to see the Carnival at Rome that year",
+    "seeAlso": [
+      33,
+      34,
+      35,
+      36
+    ]
+  },
+  {
+    "id": "cicerone",
+    "term": "cicerone",
+    "kind": "foreign",
+    "chapter": 31,
+    "text": "Italian: a guide who shows visitors the sights. The name jokingly compares these talkative guides to the orator Cicero.",
+    "quote": "should act as cicerone to Albert",
+    "seeAlso": [
+      33,
+      34,
+      41,
+      53,
+      114
+    ]
+  },
+  {
+    "id": "quarantine",
+    "term": "quarantine",
+    "kind": "custom",
+    "chapter": 31,
+    "text": "Ships that might have been in contact with disease, or with smugglers and pirates from suspect shores, were held in isolation before anyone could land. Mediterranean ports had enforced this strictly since the plague years.",
+    "quote": "we shall have to perform quarantine for six days",
+    "seeAlso": [
+      84
+    ]
+  },
+  {
+    "id": "made-a-stiff",
+    "term": "made a stiff",
+    "kind": "custom",
+    "chapter": 31,
+    "text": "Slang for killing a man. Gaetano is excusing the Corsican vendetta: by island custom, avenging a wrong to one's family was a duty, so the outlaws in Corsica's maquis were often feud-killers rather than robbers.",
+    "quote": "they are pursued for having made a stiff"
+  },
+  {
+    "id": "s-accommodi",
+    "term": "S’accommodi",
+    "kind": "foreign",
+    "chapter": 31,
+    "text": "Italian: roughly 'make yourself at home'. Dumas compares it to the mock-Turkish word in Molière's comedy Le Bourgeois gentilhomme, which supposedly packs a whole speech into a few syllables.",
+    "quote": "S’accommodi"
+  },
+  {
+    "id": "raoul-in-the-huguenots",
+    "term": "Raoul in the Huguenots",
+    "kind": "reference",
+    "chapter": 31,
+    "text": "Meyerbeer's grand opera Les Huguenots (1836) was a Paris sensation. Its hero, Raoul, is led blindfold to a secret meeting with a mysterious lady.",
+    "quote": "those of Raoul in the Huguenots"
+  },
+  {
+    "id": "arabian-nights",
+    "term": "Arabian Nights",
+    "kind": "reference",
+    "chapter": 31,
+    "text": "The Thousand and One Nights, a collection of Middle Eastern tales hugely popular in Europe. Franz's jokes come from it: Ali Baba's treasure cave, opened by a magic word, and Aladdin with his wonderful lamp.",
+    "quote": "the wonders of the Arabian Nights",
+    "seeAlso": [
+      32
+    ]
+  },
+  {
+    "id": "amphitryon",
+    "term": "Amphitryon",
+    "kind": "reference",
+    "chapter": 31,
+    "text": "A generous host. The usage comes from Molière's comedy Amphitryon: 'the true Amphitryon is the one who gives the dinner.'",
+    "quote": "replied the singular Amphitryon"
+  },
+  {
+    "id": "old-man-of-the-mountain",
+    "term": "Old Man of the Mountain",
+    "kind": "history",
+    "chapter": 31,
+    "text": "Hassan-i Sabbah (d. 1124), leader of the Nizari Ismaili sect that Europeans called the Assassins. Marco Polo's legend says he drugged followers to give them a taste of paradise. The word 'assassin' may come from hashishin, 'hashish-users'.",
+    "quote": "of the Old Man of the Mountain"
+  },
+  {
+    "id": "monsieur-appert-and-the-man-in-the-little-blue-cloak",
+    "term": "Monsieur Appert, and the man in the little blue cloak",
+    "kind": "reference",
+    "chapter": 31,
+    "text": "Two well-known Paris philanthropists: Benjamin Appert, a campaigner for prison reform, and Edme Champion, nicknamed 'the little man in the blue cloak', who handed out food and clothing to the poor.",
+    "quote": "rival Monsieur Appert, and the man in the little blue cloak"
+  },
+  {
+    "id": "bournous",
+    "term": "bournous",
+    "kind": "word",
+    "chapter": 32,
+    "text": "A burnous: a long hooded woollen cloak worn in North Africa.",
+    "quote": "lying on his bournous in a bed of dry heather"
+  },
+  {
+    "id": "porto-vecchio",
+    "term": "Porto-Vecchio",
+    "kind": "place",
+    "chapter": 32,
+    "text": "A small port on a deep gulf on the south-east coast of Corsica, facing Sardinia.",
+    "quote": "it disappeared in the gulf of Porto-Vecchio"
+  },
+  {
+    "id": "four-great-events",
+    "term": "four great events",
+    "kind": "custom",
+    "chapter": 32,
+    "text": "Rome's great festivals: Carnival before Lent, Holy Week before Easter, Corpus Christi with its early-summer processions, and the feast of St Peter on 29 June, when St Peter's dome was lit up.",
+    "quote": "at Rome there are four great events in every year"
+  },
+  {
+    "id": "post-horses",
+    "term": "post-horses",
+    "kind": "custom",
+    "chapter": 32,
+    "text": "Horses kept at relay stations along the main roads, hired by stages to travellers and the mail. Pastrini says the few left are reserved for the official post.",
+    "quote": "but can’t we have post-horses?",
+    "seeAlso": [
+      85,
+      97
+    ]
+  },
+  {
+    "id": "lire",
+    "term": "lire",
+    "kind": "money",
+    "chapter": 32,
+    "text": "Dumas reckons Roman prices in lire, each worth roughly a franc. At 25–40 a day, hiring a carriage cost more than a labourer earned in a fortnight.",
+    "quote": "one pays twenty-five lire for common days"
+  },
+  {
+    "id": "corso",
+    "term": "Corso",
+    "kind": "place",
+    "chapter": 33,
+    "text": "The Via del Corso, Rome's long, straight main street, running from the Piazza del Popolo to the Piazza Venezia between rows of palaces. During Carnival its windows and balconies were rented out at enormous prices.",
+    "quote": "In the Corso.",
+    "seeAlso": [
+      34,
+      35,
+      36
+    ]
+  },
+  {
+    "id": "pulchinellos-or-shepherds-of-the-landes",
+    "term": "pulchinellos or shepherds of the Landes",
+    "kind": "custom",
+    "chapter": 33,
+    "text": "Pulcinella is the hook-nosed clown of Italian comedy (the ancestor of Punch). The shepherds of the Landes, the marshy pine country of south-west France, herded their flocks on tall stilts, hence Albert's joke about seeing Carnival on stilts.",
+    "quote": "monster pulchinellos or shepherds of the Landes"
+  },
+  {
+    "id": "boulevard-de-gand",
+    "term": "Boulevard de Gand",
+    "kind": "place",
+    "chapter": 33,
+    "text": "The fashionable Paris promenade now called the Boulevard des Italiens, nicknamed after Ghent, where Louis XVIII's courtiers waited out the Hundred Days. The Café de Paris was the city's most exclusive restaurant.",
+    "quote": "their walk on the Boulevard de Gand, and the Café de Paris"
+  },
+  {
+    "id": "the-decesaris-and-the-gasparones",
+    "term": "the Decesaris and the Gasparones",
+    "kind": "history",
+    "chapter": 33,
+    "text": "Real brigand chiefs of the hills south of Rome. Antonio Gasbarrone terrorized the border between the Papal States and Naples until he surrendered in 1825. Harsh papal campaigns never managed to wipe out banditry.",
+    "quote": "the Decesaris and the Gasparones were mere children"
+  },
+  {
+    "id": "let-him-die-of-corneille",
+    "term": "‘Let him die,’ of Corneille",
+    "kind": "reference",
+    "chapter": 33,
+    "text": "In Corneille's tragedy Horace (1640), old Horace is told his son fled from three enemies. Asked what the boy should have done, he answers 'Qu'il mourût!', 'He should have died!', a famous line of Roman sternness.",
+    "quote": "worthy the ‘Let him die,’ of Corneille"
+  },
+  {
+    "id": "jean-sbogar-or-lara",
+    "term": "Jean Sbogar or Lara",
+    "kind": "reference",
+    "chapter": 33,
+    "text": "Romantic outlaw heroes: Jean Sbogar, the gentleman-brigand of Charles Nodier's 1818 novel, and Lara, the mysterious, brooding chieftain of Byron's poem (1814).",
+    "quote": "like Jean Sbogar or Lara",
+    "seeAlso": [
+      36
+    ]
+  },
+  {
+    "id": "sequins",
+    "term": "sequins",
+    "kind": "money",
+    "chapter": 33,
+    "text": "The sequin (zecchino) was a Venetian gold coin worth about 12 francs. Twenty a day is some 240 francs, nearly half a year's wages for a labourer, for one window.",
+    "quote": "let to a Russian prince for twenty sequins a day"
+  },
+  {
+    "id": "roman-crowns",
+    "term": "Roman crowns",
+    "kind": "money",
+    "chapter": 33,
+    "text": "The papal scudo, worth about 5.4 francs, the same coin Dumas elsewhere calls a Roman piastre. Five hundred of them was a fortune to two orphaned farmhands.",
+    "quote": "Five hundred Roman crowns are three thousand lire",
+    "seeAlso": [
+      34,
+      36,
+      37
+    ]
+  },
+  {
+    "id": "parbleu",
+    "term": "Parbleu!",
+    "kind": "foreign",
+    "chapter": 33,
+    "text": "French: a mild oath, roughly 'by Jove!', a softened par Dieu. Pardieu, morbleu, diable and peste ('plague!') are similar exclamations.",
+    "quote": "Parbleu!",
+    "seeAlso": [
+      34,
+      35,
+      87
+    ]
+  },
+  {
+    "id": "colosseum",
+    "term": "Colosseum",
+    "kind": "place",
+    "chapter": 33,
+    "text": "The Flavian Amphitheatre, opened in AD 80, where gladiators fought before some 50,000 spectators. Seeing its ruins by moonlight was an essential experience for Romantic-era travellers.",
+    "quote": "show Albert the Colosseum by moonlight",
+    "seeAlso": [
+      34
+    ]
+  },
+  {
+    "id": "transtevere",
+    "term": "Transtevere",
+    "kind": "place",
+    "chapter": 34,
+    "text": "Trastevere, the old working-class quarter 'across the Tiber'. Its people claimed to be the truest Romans and wore a distinctive costume.",
+    "quote": "wore the Transtevere costume",
+    "seeAlso": [
+      36
+    ]
+  },
+  {
+    "id": "castle-of-st-angelo",
+    "term": "Castle of St. Angelo",
+    "kind": "place",
+    "chapter": 34,
+    "text": "The Emperor Hadrian's huge round tomb beside the Tiber, later turned into a papal fortress and prison.",
+    "quote": "I came here direct from the Castle of St. Angelo",
+    "seeAlso": [
+      36
+    ]
+  },
+  {
+    "id": "mazzolato",
+    "term": "mazzolato",
+    "kind": "foreign",
+    "chapter": 34,
+    "text": "Italian: executed with a mallet (mazza), a punishment the Papal States reserved for the most savage murderers. Decapitato simply means beheaded.",
+    "quote": "One of the culprits will be mazzolato",
+    "seeAlso": [
+      35
+    ]
+  },
+  {
+    "id": "parisina",
+    "term": "Parisina",
+    "kind": "reference",
+    "chapter": 34,
+    "text": "Donizetti's 1833 opera, based on Byron's poem: Duke Azzo learns that his wife Parisina loves Ugo when she murmurs her secret in her sleep. Donizetti also wrote Lucia di Lammermoor.",
+    "quote": "The opera of Parisina was announced"
+  },
+  {
+    "id": "viscount",
+    "term": "viscount",
+    "kind": "title",
+    "chapter": 34,
+    "text": "The rank between baron and count, often used by a count's eldest son as a courtesy title. A title 'dated merely from 1815' was new nobility, unlike old families going back to the Middle Ages.",
+    "quote": "he was a viscount—a recently created one, certainly"
+  },
+  {
+    "id": "italian-theatre-boxes",
+    "term": "Italian theatre boxes",
+    "kind": "custom",
+    "chapter": 34,
+    "text": "In Italian theatres a box was a private drawing room: people chatted, received visitors and listened to the opera only in snatches. A new visitor took the seat of honour and the earlier guest gave way.",
+    "quote": "in obedience to the Italian custom, instantly rose",
+    "seeAlso": [
+      36
+    ]
+  },
+  {
+    "id": "lord-ruthven",
+    "term": "Lord Ruthven",
+    "kind": "reference",
+    "chapter": 34,
+    "text": "The pale, fascinating aristocrat-vampire of John Polidori's tale The Vampyre (1819). He was modelled on Byron, and the story was at first published as Byron's own. It was endlessly adapted on the Paris stage.",
+    "quote": "no other than Lord Ruthven himself in a living form",
+    "seeAlso": [
+      36
+    ]
+  },
+  {
+    "id": "guzla",
+    "term": "guzla",
+    "kind": "word",
+    "chapter": 34,
+    "text": "A one-stringed bowed instrument from the Balkans, traditionally played to accompany sung epics.",
+    "quote": "the sound of a guzla reached the ears",
+    "seeAlso": [
+      36,
+      77
+    ]
+  },
+  {
+    "id": "mandaia",
+    "term": "mandaïa",
+    "kind": "foreign",
+    "chapter": 35,
+    "text": "Italian (mannaia): the Papal States' version of the guillotine. Its crescent-shaped blade drops from a lower height than the French one.",
+    "quote": "the curved knife of the mandaïa"
+  },
+  {
+    "id": "the-count-of-chalais",
+    "term": "the Count of Chalais",
+    "kind": "history",
+    "chapter": 35,
+    "text": "Henri de Talleyrand, Comte de Chalais, was beheaded in 1626 for plotting against Cardinal Richelieu. His friends spirited the executioner away, and the untrained substitute needed some thirty strokes.",
+    "quote": "the soldier who beheaded the Count of Chalais"
+  },
+  {
+    "id": "duelling",
+    "term": "duelling",
+    "kind": "custom",
+    "chapter": 35,
+    "text": "Duels were illegal in France, but juries rarely convicted, and a gentleman who refused a challenge lost his honour. Insults among the upper classes were still settled with swords or pistols.",
+    "quote": "it is to punish them that duelling is tolerated"
+  },
+  {
+    "id": "an-eye-for-an-eye",
+    "term": "an eye for an eye",
+    "kind": "reference",
+    "chapter": 35,
+    "text": "The law of retaliation, found in the Bible (Exodus 21:24) and in older codes such as Hammurabi's. The count credits it to the peoples of the East.",
+    "quote": "an eye for an eye, a tooth for a tooth"
+  },
+  {
+    "id": "torn-to-pieces-by-horses-or-broken-on-the-wheel",
+    "term": "torn to pieces by horses or broken on the wheel",
+    "kind": "history",
+    "chapter": 35,
+    "text": "Executions under the old French monarchy: quartering by horses for regicides, and the wheel, which broke the victim's limbs, for many murderers. In 1792 the Revolution replaced them with the guillotine, a quick death meant to be the same for everyone.",
+    "quote": "torn to pieces by horses or broken on the wheel"
+  },
+  {
+    "id": "al-suo-commodo",
+    "term": "Al suo commodo!",
+    "kind": "foreign",
+    "chapter": 35,
+    "text": "Italian: 'At your convenience!' In other words, breakfast is served.",
+    "quote": "Al suo commodo!"
+  },
+  {
+    "id": "castaing",
+    "term": "Castaing",
+    "kind": "history",
+    "chapter": 35,
+    "text": "Edme-Samuel Castaing, a young Paris doctor guillotined in 1823 for poisoning a friend with morphine, after a sensational trial.",
+    "quote": "I saw Castaing executed"
+  },
+  {
+    "id": "confetti",
+    "term": "confetti",
+    "kind": "custom",
+    "chapter": 35,
+    "text": "Carnival confetti were not paper. They were small sugared sweets or, more often, cheap pellets of plaster and flour, flung by the handful at everyone in sight. Pale costumes hid the white dust.",
+    "quote": "on account of the confetti (sweetmeats)",
+    "seeAlso": [
+      36
+    ]
+  },
+  {
+    "id": "piazza-del-popolo",
+    "term": "Piazza del Popolo",
+    "kind": "place",
+    "chapter": 35,
+    "text": "The great oval square inside Rome's northern gate, with an ancient Egyptian obelisk at its centre. It was the usual place for public executions, and the Corso runs from it.",
+    "quote": "the spectacle that the Piazza del Popolo presented",
+    "seeAlso": [
+      36
+    ]
+  },
+  {
+    "id": "brotherhood-of-penitents",
+    "term": "brotherhood of penitents",
+    "kind": "custom",
+    "chapter": 35,
+    "text": "Lay religious confraternities whose members wore hoods to stay anonymous. They comforted condemned prisoners, walked with them to the scaffold, and buried them.",
+    "quote": "A brotherhood of penitents, clothed from head to foot"
+  },
+  {
+    "id": "domino",
+    "term": "domino",
+    "kind": "word",
+    "chapter": 36,
+    "text": "A loose hooded cloak, usually worn with a half-mask: the standard disguise at masked balls and carnivals.",
+    "quote": "was a blue domino"
+  },
+  {
+    "id": "callot-s-temptation-of-st-anthony",
+    "term": "Callot’s Temptation of St. Anthony",
+    "kind": "reference",
+    "chapter": 36,
+    "text": "A crowded etching by Jacques Callot (1635) showing the hermit saint besieged by swarms of grotesque demons.",
+    "quote": "as in Callot’s Temptation of St. Anthony"
+  },
+  {
+    "id": "the-bear-and-the-pasha",
+    "term": "The Bear and the Pasha",
+    "kind": "reference",
+    "chapter": 36,
+    "text": "A popular Paris farce by Eugène Scribe (1820) in which a man is dressed up in a bear's skin. Odry was its star comic actor.",
+    "quote": "exactly resembling Odry’s in The Bear and the Pasha"
+  },
+  {
+    "id": "calash",
+    "term": "calash",
+    "kind": "word",
+    "chapter": 36,
+    "text": "A light carriage with a folding hood.",
+    "quote": "that calash filled with Roman peasants",
+    "seeAlso": [
+      46,
+      47
+    ]
+  },
+  {
+    "id": "m-de-rothschild",
+    "term": "M. de Rothschild",
+    "kind": "history",
+    "chapter": 36,
+    "text": "James de Rothschild, head of the family bank in Paris and reputedly the richest man in France: a byword for wealth.",
+    "quote": "being confounded with M. de Rothschild"
+  },
+  {
+    "id": "bajocco",
+    "term": "bajocco",
+    "kind": "money",
+    "chapter": 36,
+    "text": "A small papal copper coin, a hundredth of a scudo. 'Not a bajocco' means not a penny.",
+    "quote": "It does not bring him a bajocco."
+  },
+  {
+    "id": "didier-or-anthony",
+    "term": "Didier or Anthony",
+    "kind": "reference",
+    "chapter": 36,
+    "text": "Brooding heroes of Romantic drama: Didier in Victor Hugo's Marion de Lorme and Antony in Dumas's own play Antony (both 1831). Dumas is slyly quoting himself.",
+    "quote": "two or three exits worthy of Didier or Anthony"
+  },
+  {
+    "id": "gregory-xvi",
+    "term": "Gregory XVI",
+    "kind": "history",
+    "chapter": 36,
+    "text": "Pope from 1831 to 1846, head of the Church and also ruler of the Papal States. He was a firm conservative, famously suspicious of railways and revolutions alike.",
+    "quote": "the venerable and noble old man called Gregory XVI"
+  },
+  {
+    "id": "byronic-hero",
+    "term": "Byronic hero",
+    "kind": "reference",
+    "chapter": 36,
+    "text": "The type Lord Byron made famous: proud, pale, magnetic, and haunted by some secret guilt or sorrow. Manfred and Lara are two of his heroes in this mould.",
+    "quote": "Truly, a Byronic hero!"
+  },
+  {
+    "id": "barberi",
+    "term": "barberi",
+    "kind": "custom",
+    "chapter": 36,
+    "text": "Riderless horses (named after the Barbary breed) raced the length of the Corso each Carnival afternoon, driven on by the crowd and by spiked weights hung on their sides.",
+    "quote": "clear it for the barberi"
+  },
+  {
+    "id": "the-colonnas",
+    "term": "the Colonnas",
+    "kind": "history",
+    "chapter": 37,
+    "text": "One of Rome's oldest princely families, powerful since the Middle Ages, with a pope and many cardinals in its line.",
+    "quote": "one of the last heiresses of the Colonnas"
+  },
+  {
+    "id": "torlonia",
+    "term": "Torlonia",
+    "kind": "history",
+    "chapter": 37,
+    "text": "The Torlonias were Rome's great banking house, the bankers of most foreign visitors. Their fortune bought them princely titles, including the dukedom of Bracciano.",
+    "quote": "Run to Torlonia, draw from him instantly four thousand piastres"
+  },
+  {
+    "id": "letter-of-credit",
+    "term": "letter of credit",
+    "kind": "custom",
+    "chapter": 37,
+    "text": "A letter from a traveller's home bank asking bankers abroad to pay him cash up to a stated limit: the traveller's cheque of its day.",
+    "quote": "take the letter of credit from my pocket-book",
+    "seeAlso": [
+      46,
+      53
+    ]
+  },
+  {
+    "id": "galop",
+    "term": "galop",
+    "kind": "word",
+    "chapter": 37,
+    "text": "A fast, breathless ballroom dance with a hopping step, the craze of the 1830s.",
+    "quote": "I was dancing the galop at Torlonia’s"
+  },
+  {
+    "id": "appian-way",
+    "term": "Appian Way",
+    "kind": "place",
+    "chapter": 37,
+    "text": "The Via Appia, ancient Rome's great road south, begun in 312 BC. Roman law banned burial inside the city, so tombs lined the road for miles.",
+    "quote": "the ancient Appian Way, and bordered with tombs"
+  },
+  {
+    "id": "campagna",
+    "term": "Campagna",
+    "kind": "place",
+    "chapter": 37,
+    "text": "The Roman Campagna: the empty, rolling plain around Rome, malarial and thinly populated, the country of shepherds and bandits.",
+    "quote": "the irregular and broken surface of the Campagna"
+  },
+  {
+    "id": "catacombs-of-st-sebastian",
+    "term": "catacombs of St. Sebastian",
+    "kind": "place",
+    "chapter": 37,
+    "text": "Underground galleries on the Appian Way where early Christians buried their dead in niches cut into the walls, row above row. A columbarium is a chamber lined with such niches.",
+    "quote": "waiting for him in the catacombs of St. Sebastian"
+  },
+  {
+    "id": "c-sar-s-commentaries",
+    "term": "Cæsar’s Commentaries",
+    "kind": "reference",
+    "chapter": 37,
+    "text": "Julius Caesar's own brisk accounts of his wars in Gaul and his civil war, classic reading for would-be commanders.",
+    "quote": "Cæsar’s Commentaries"
+  },
+  {
+    "id": "never-awaken-me-but-for-bad-news",
+    "term": "Never awaken me but for bad news",
+    "kind": "reference",
+    "chapter": 37,
+    "text": "A maxim attributed to Napoleon: good news can wait until morning, while bad news needs action at once.",
+    "quote": "Never awaken me but for bad news"
+  },
+  {
+    "id": "salite",
+    "term": "Salite!",
+    "kind": "foreign",
+    "chapter": 37,
+    "text": "Italian: 'Come up!'",
+    "quote": "Salite!"
   },
   {
     "id": "aguado-and-rothschild",
@@ -1669,18 +2818,6 @@
     "chapter": 40,
     "text": "'Punctuality is the politeness of kings' is a saying attributed to King Louis XVIII.",
     "quote": "is the politeness of kings, according to one of your sovereigns"
-  },
-  {
-    "id": "cicerone",
-    "term": "cicerone",
-    "kind": "foreign",
-    "chapter": 41,
-    "text": "Italian: a guide who shows visitors the sights, named after the eloquent Cicero.",
-    "quote": "my services as cicerone",
-    "seeAlso": [
-      53,
-      114
-    ]
   },
   {
     "id": "leopold-robert",
@@ -1952,34 +3089,12 @@
     "quote": "a rose-colored flambeau"
   },
   {
-    "id": "calash",
-    "term": "calash",
-    "kind": "word",
-    "chapter": 46,
-    "text": "A light four-wheeled carriage with a folding hood.",
-    "quote": "a calash, drawn by a pair of magnificent English horses",
-    "seeAlso": [
-      47
-    ]
-  },
-  {
     "id": "lorgnette",
     "term": "lorgnette",
     "kind": "word",
     "chapter": 46,
     "text": "A pair of eyeglasses or opera glasses held up on a handle.",
     "quote": "by means of an excellent lorgnette"
-  },
-  {
-    "id": "letter-of-credit",
-    "term": "letter of credit",
-    "kind": "custom",
-    "chapter": 46,
-    "text": "A banker's letter authorising another bank to pay the bearer money up to a set limit, the first bank repaying it. A 'letter of advice' warns the paying bank to expect him. An 'unlimited' credit had no ceiling at all, which was almost unheard of.",
-    "quote": "gives the Count of Monte Cristo unlimited credit on our house",
-    "seeAlso": [
-      53
-    ]
   },
   {
     "id": "six-millions",
@@ -2225,14 +3340,6 @@
     "chapter": 50,
     "text": "The École Polytechnique, France's elite school for military engineers and artillery officers, where Maximilian trained.",
     "quote": "as they say at the Polytechnic School"
-  },
-  {
-    "id": "rouleau",
-    "term": "rouleau",
-    "kind": "word",
-    "chapter": 50,
-    "text": "A roll of coins wrapped in paper, the usual way cash was counted and handed over.",
-    "quote": "the last rouleau of a hundred francs"
   },
   {
     "id": "twenty-five-thousand-francs-a-year",
@@ -3665,14 +4772,6 @@
     "quote": "you know they are my witnesses"
   },
   {
-    "id": "secretaire",
-    "term": "secretaire",
-    "kind": "word",
-    "chapter": 75,
-    "text": "A writing desk with a drop-front writing surface and many small drawers, often including a hidden compartment.",
-    "quote": "an old secretaire which had been neglected"
-  },
-  {
     "id": "february-5th-1815",
     "term": "February 5th, 1815",
     "kind": "history",
@@ -3799,14 +4898,6 @@
     "chapter": 77,
     "text": "A long-stemmed Turkish tobacco pipe. Latakia is a fine, smoky tobacco from Syria.",
     "quote": "two chibouques filled with excellent latakia"
-  },
-  {
-    "id": "guzla",
-    "term": "guzla",
-    "kind": "word",
-    "chapter": 77,
-    "text": "A Balkan folk instrument, usually with a single string played with a bow.",
-    "quote": "Haydée’s guzla"
   },
   {
     "id": "byron-s-haydee",
@@ -4198,14 +5289,6 @@
     "quote": "examine the visa"
   },
   {
-    "id": "quarantine",
-    "term": "quarantine",
-    "kind": "custom",
-    "chapter": 84,
-    "text": "Travellers arriving from Ottoman lands were held in isolation for some days for fear of plague.",
-    "quote": "four days of quarantine"
-  },
-  {
     "id": "two-million-crowns",
     "term": "two million crowns",
     "kind": "money",
@@ -4272,17 +5355,6 @@
     "chapter": 85,
     "text": "King Francis I of France is said to have scratched ‘Souvent femme varie’ (‘woman often changes’) on a window at Chambord.",
     "quote": "Woman is fickle."
-  },
-  {
-    "id": "post-horses",
-    "term": "post-horses",
-    "kind": "custom",
-    "chapter": 85,
-    "text": "Travellers hired fresh horses at post stations every few leagues and paid the postilions who rode them. By keeping relays of his own horses, the count avoids the slow public system.",
-    "quote": "your post-horses going at the rate of two leagues an hour",
-    "seeAlso": [
-      97
-    ]
   },
   {
     "id": "the-railway-in-france",
@@ -4394,13 +5466,6 @@
     "chapter": 87,
     "text": "Since the Bible, Babylon has been a byword for a vast, worldly, pleasure-seeking city.",
     "quote": "this great Babylon of excitement"
-  },
-  {
-    "id": "parbleu",
-    "term": "parbleu",
-    "kind": "foreign",
-    "chapter": 87,
-    "text": "French: a mild oath, roughly ‘By Jove!’. It is a softened form of ‘par Dieu’ (‘by God’), like ‘pardieu’."
   },
   {
     "id": "throwing-the-glove",
@@ -5543,14 +6608,6 @@
     "chapter": 112,
     "text": "One of the two forts guarding the entrance to Marseilles’ Old Port. The City Hall on the quay carries carving by Pierre Puget, the city’s great Baroque sculptor.",
     "quote": "Fort Saint-Nicolas, the City Hall designed by Puget"
-  },
-  {
-    "id": "canebiere",
-    "term": "Canebière",
-    "kind": "place",
-    "chapter": 112,
-    "text": "Marseilles’ main avenue, running straight down to the Old Port.",
-    "quote": "they stopped on the Canebière"
   },
   {
     "id": "the-consigne",

@@ -40,21 +40,43 @@ export function createStore<T>(key: string, initial: T) {
   return { get: () => value, set, use }
 }
 
+export type PrimerMode = 'collapsed' | 'expanded' | 'off'
+export type Theme = 'system' | 'light' | 'dark'
+
 export interface Prefs {
-  /** Show "Before you read" primers for the next chapter. */
-  showPrimers: boolean
+  /** How "Before you read" primers appear for the next chapter. */
+  primers: PrimerMode
+  /** Books where the reader hid primers. */
+  primersHidden: string[]
   /** Reading speed used for time estimates, in words per minute. */
   wpm: number
+  theme: Theme
+  /** Dismissed "make a reading plan?" prompts, per book. */
+  planPromptDismissed: string[]
 }
 
-export const prefs = createStore<Prefs>('virgil:prefs:v1', { showPrimers: true, wpm: 230 })
+export const prefs = createStore<Prefs>('virgil:prefs:v1', {
+  primers: 'collapsed',
+  primersHidden: [],
+  wpm: 230,
+  theme: 'system',
+  planPromptDismissed: [],
+})
+
+export function applyTheme(theme: Theme) {
+  if (theme === 'system') document.documentElement.removeAttribute('data-theme')
+  else document.documentElement.setAttribute('data-theme', theme)
+}
 
 export type Goal = { type: 'minutes'; minutes: number } | { type: 'date'; date: string }
 
 export interface BookPlan {
   goal?: Goal
-  /** When each chapter was marked finished (ISO timestamps). */
-  log: { chapter: number; at: string }[]
+  /**
+   * When each chapter was marked finished. `bulk` marks chapters unlocked in a
+   * jump of two or more (catching Virgil up), which don't count toward pace or streak.
+   */
+  log: { chapter: number; at: string; bulk?: boolean }[]
 }
 
 export const plans = createStore<Record<string, BookPlan>>('virgil:plans:v1', {})
@@ -75,10 +97,16 @@ export function logBookmarkChange(bookId: string, from: number, to: number) {
     ...plan,
     log:
       to > from
-        ? [...plan.log.filter((e) => e.chapter <= from), ...Array.from({ length: to - from }, (_, i) => ({ chapter: from + 1 + i, at }))]
+        ? [
+            ...plan.log.filter((e) => e.chapter <= from),
+            ...Array.from({ length: to - from }, (_, i) => ({ chapter: from + 1 + i, at, ...(to - from > 1 ? { bulk: true } : {}) })),
+          ]
         : plan.log.filter((e) => e.chapter <= to),
   }))
 }
 
-/** Visits, for the "welcome back" recap: when the reader last opened each book before this session. */
-export const visits = createStore<Record<string, { last: string; previous?: string }>>('virgil:visits:v1', {})
+/** When the reader last had each book open, for the "welcome back" recap. */
+export const visits = createStore<Record<string, string>>('virgil:visits:v1', {})
+
+/** Recently opened search results, per book. */
+export const recents = createStore<Record<string, { kind: string; id: string; label: string }[]>>('virgil:recent-search:v1', {})

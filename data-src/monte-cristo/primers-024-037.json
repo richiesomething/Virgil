@@ -1,0 +1,92 @@
+[
+  {
+    "chapter": 24,
+    "setting": "The island of Monte Cristo, 1829",
+    "keepInMind": "Dantès faked a bad fall so the smugglers would leave him alone on Monte Cristo. He is following the carved marks on the rocks, guided by Faria's half-burnt letter, which says Cardinal Spada's treasure lies in the farthest angle of the second opening.",
+    "returning": []
+  },
+  {
+    "chapter": 25,
+    "setting": "Monte Cristo, then the ports of Leghorn, Genoa and Marseilles, 1829",
+    "keepInMind": "Dantès is now the owner of Cardinal Spada's enormous treasure, but he is still only a poor sailor in the smugglers' eyes, and they are due back for him in about six days. In fourteen years he has had no word of his father or of Mercédès.",
+    "returning": []
+  },
+  {
+    "chapter": 26,
+    "setting": "A roadside inn between Beaucaire and Bellegarde, in the south of France",
+    "keepInMind": "In Marseilles, Dantès (travelling as the Englishman Lord Wilmore) learned that Caderousse fell on hard times and now keeps a small inn on this road. Fourteen years ago Caderousse was the drunken witness when Danglars wrote the denunciation, and he kept silent at the arrest.",
+    "returning": [
+      { "id": "gaspard-caderousse", "reminder": "Dantès' envious neighbour, a tailor, who saw the denunciation written and said nothing." }
+    ]
+  },
+  {
+    "chapter": 27,
+    "setting": "",
+    "keepInMind": "The abbé has shown Caderousse a diamond worth fifty thousand francs, said to be Dantès' bequest to his old friends. Tempted, Caderousse has bolted the door to tell everything, against his wife's warnings.",
+    "returning": []
+  },
+  {
+    "chapter": 28,
+    "setting": "Marseilles, 1829",
+    "keepInMind": "Caderousse named Danglars and Fernand as the authors of the denunciation, but could say nothing about Villefort's part. He also said that Morrel's firm is close to ruin, with all its hopes on the Pharaon's return from India, and the abbé took Morrel's old red silk purse in exchange for the diamond.",
+    "returning": []
+  },
+  {
+    "chapter": 29,
+    "setting": "Marseilles, the offices of Morrel & Son",
+    "keepInMind": "A clerk from the Roman bank Thomson & French has just bought up the 200,000 francs Morrel owes M. de Boville, half of it due this month. Caderousse said Morrel's last hope is the Pharaon, now overdue from India.",
+    "returning": [
+      { "id": "pierre-morrel", "reminder": "Owner of the Pharaon and Dantès' kind old employer, who pleaded for him." }
+    ]
+  },
+  {
+    "chapter": 30,
+    "setting": "Marseilles, summer 1829",
+    "keepInMind": "The Pharaon is lost, and Morrel's bills for 287,500 francs now fall due on 5 September at eleven o'clock. The Thomson & French clerk told Julie that one day she will get a letter signed 'Sinbad the Sailor', and made her swear to obey it.",
+    "returning": []
+  },
+  {
+    "chapter": 31,
+    "setting": "Florence and the Tuscan coast, early 1838, about nine years later",
+    "keepInMind": "Dantès left Marseilles a fabulously rich man, vowing that he was done with rewarding the good and would now punish the wicked. Caderousse said Fernand has become the Count de Morcerf, husband of Mercédès and father of a son, Albert. We now meet two young Parisian aristocrats.",
+    "returning": [
+      { "id": "albert-de-morcerf", "reminder": "Son of Mercédès and Fernand, now Count de Morcerf; Caderousse mentioned 'little Albert'." }
+    ]
+  },
+  {
+    "chapter": 32,
+    "setting": "The island of Monte Cristo, the next morning",
+    "keepInMind": "Franz was led blindfold into an underground palace, dined there with a mysterious host who calls himself 'Sinbad the Sailor', took hashish and sank into a wild dream. Meanwhile Albert is waiting for him in Rome for the Carnival.",
+    "returning": []
+  },
+  {
+    "chapter": 33,
+    "setting": "Rome, the Hôtel de Londres, a few days before Carnival",
+    "keepInMind": "Franz and Albert have rooms at Signor Pastrini's crowded hotel, but no carriage can be found. The rest of their floor is taken by a very rich traveller, perhaps Sicilian or Maltese. Franz promised his sailors to say nothing about his night on Monte Cristo.",
+    "returning": []
+  },
+  {
+    "chapter": 34,
+    "setting": "Rome, by moonlight",
+    "keepInMind": "Pastrini's story of Luigi Vampa, the shepherd boy who became a bandit chief, included a traveller who called himself 'Sinbad the Sailor', and Franz was startled to hear the name. The friends are now on their way to the Colosseum, taking the streets rather than the bandit-haunted road outside the walls.",
+    "returning": []
+  },
+  {
+    "chapter": 35,
+    "setting": "Rome, 23 February, the first day of Carnival",
+    "keepInMind": "Franz now knows that their neighbour, the Count of Monte Cristo, is his host from the island, the man he saw at the opera, and the cloaked figure at the Colosseum. There he heard the man promise a bandit to save the condemned Peppino and arrange a signal: a white damask with a red cross at the middle window of the Rospoli palace.",
+    "returning": []
+  },
+  {
+    "chapter": 36,
+    "setting": "Rome, the Carnival",
+    "keepInMind": "From the count's window, Franz and Albert watched Peppino pardoned at the foot of the scaffold and the murderer Andrea put to death, with the count looking on in grim triumph. Masked revelry follows straight after the executions.",
+    "returning": []
+  },
+  {
+    "chapter": 37,
+    "setting": "Rome, the last night of Carnival",
+    "keepInMind": "Albert vanished into the crowd arm in arm with his masked peasant beauty just as the Carnival's candles went out, leaving Franz alone in the dark. Both friends are expected that night at the Duke of Bracciano's ball, along with the Countess G——.",
+    "returning": []
+  }
+]

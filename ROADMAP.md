@@ -17,20 +17,20 @@ Guiding rule: **no spoilers**. Everything is gated by the reader's bookmark.
 10. Plot threads / open questions
 
 ## Phase 3 — Help with difficult books
-11. Name decoder (nicknames, patronymics, titles, disguises → one person)
-12. Glossary of archaic and period terms, money and measures
-13. Translations of foreign-language passages
-14. Allusions explained (Bible, mythology, history, literature)
-15. Historical and cultural context per chapter
+11. ✅ Name decoder — search finds anyone by nickname, title or disguise (only once revealed)
+12. ✅ Glossary of archaic and period terms, money and measures (chapter notes + growing glossary)
+13. ✅ Translations of foreign-language passages (glossary "foreign" notes)
+14. ✅ Allusions explained (glossary "reference" notes)
+15. ✅ Historical and cultural context per chapter (glossary "history"/"custom" notes)
 16. Themes and motifs tracker
-17. "Previously on…" recap after a break
-18. Quick lookup: "who/what is this?"
+17. ✅ "Previously on…" recap after a break (welcome back + Story so far), plus "Before you read" primers
+18. ✅ Quick lookup: search from anywhere
 
 ## Phase 4 — Personal and social
 19. Notes, highlights, saved quotes
 20. Ask Virgil: chat that only knows the book up to your bookmark
 21. Discussion questions per chapter
-22. Reading stats and streaks
+22. ✅ Reading plan: goals, projected finish, stats and streaks
 23. Book club mode
 24. Study mode (quizzes, key passages; unlocked when finished)
 

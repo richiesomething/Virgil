@@ -42,6 +42,11 @@ function subscribe(listener: () => void) {
   }
 }
 
+/** Set the bookmark without touching the reading log (used by Undo). */
+export function setProgressRaw(bookId: string, n: number) {
+  write({ ...memory, [bookId]: n })
+}
+
 export function getProgress(bookId: string): number {
   return memory[bookId] ?? 0
 }

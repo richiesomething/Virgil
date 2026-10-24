@@ -32,6 +32,11 @@ export interface PlanStats {
   projectedFinish: Date | null
   /** True when the date goal can't be met at a sane pace (over 3 hours a day). */
   behind: boolean
+  bestStreak: number
+  /** Distinct days with reading in the last two weeks. */
+  activeDays: number
+  chaptersPerWeek: number | null
+  week: { day: Date; minutes: number }[]
 }
 
 export function planStats(book: BookData, upTo: number, plan: BookPlan, wpm: number, now = new Date()): PlanStats {
@@ -40,12 +45,13 @@ export function planStats(book: BookData, upTo: number, plan: BookPlan, wpm: num
   const nextChapterMinutes = upTo < total ? chapterMinutes(book, upTo + 1, wpm) : null
 
   const today = dayKey(now)
-  const todays = plan.log.filter((e) => dayKey(new Date(e.at)) === today)
+  const read = plan.log.filter((e) => !e.bulk)
+  const todays = read.filter((e) => dayKey(new Date(e.at)) === today)
   const todayMinutes = todays.reduce((s, e) => s + chapterMinutes(book, e.chapter, wpm), 0)
 
   // Streak: consecutive days with at least one chapter, counting back from today
   // (or from yesterday, so a streak isn't "lost" before today's reading).
-  const days = new Set(plan.log.map((e) => dayKey(new Date(e.at))))
+  const days = new Set(read.map((e) => dayKey(new Date(e.at))))
   let streak = 0
   let cursor = startOfDay(now)
   if (!days.has(dayKey(cursor))) cursor = new Date(cursor.getTime() - DAY)
@@ -55,7 +61,7 @@ export function planStats(book: BookData, upTo: number, plan: BookPlan, wpm: num
   }
 
   const since = now.getTime() - 14 * DAY
-  const recent = plan.log.filter((e) => new Date(e.at).getTime() >= since)
+  const recent = read.filter((e) => new Date(e.at).getTime() >= since)
   const firstRecent = recent.length ? Math.min(...recent.map((e) => new Date(e.at).getTime())) : null
   const spanDays = firstRecent === null ? 0 : Math.max(1, Math.ceil((now.getTime() - firstRecent) / DAY))
   const recentPace = recent.length ? recent.reduce((s, e) => s + chapterMinutes(book, e.chapter, wpm), 0) / Math.max(spanDays, 3) : null
@@ -75,12 +81,47 @@ export function planStats(book: BookData, upTo: number, plan: BookPlan, wpm: num
       dailyTarget = remainingMinutes / daysLeft
       projectedFinish = target
       behind = dailyTarget > 180
-    } else if (recentPace && recentPace > 0) {
+    } else if (recentPace && recentPace > 0 && activeDaysFor(recent) >= 3) {
       projectedFinish = new Date(startOfDay(now).getTime() + Math.ceil(remainingMinutes / recentPace) * DAY)
     }
   }
 
-  return { remainingMinutes, nextChapterMinutes, todayMinutes, todayChapters: todays.length, streak, recentPace, dailyTarget, projectedFinish, behind }
+  // Best streak ever, and minutes read on each of the last seven days.
+  const sortedDays = [...days].sort()
+  let best = 0
+  let run = 0
+  let prev: number | null = null
+  for (const d of sortedDays) {
+    const [y, m, dd] = d.split('-').map(Number)
+    const t = new Date(y, m - 1, dd).getTime()
+    run = prev !== null && Math.round((t - prev) / DAY) === 1 ? run + 1 : 1
+    best = Math.max(best, run)
+    prev = t
+  }
+  const week = Array.from({ length: 7 }, (_, i) => {
+    const d = new Date(startOfDay(now).getTime() - (6 - i) * DAY)
+    const key = dayKey(d)
+    const minutes = read.filter((e) => dayKey(new Date(e.at)) === key).reduce((s, e) => s + chapterMinutes(book, e.chapter, wpm), 0)
+    return { day: d, minutes }
+  })
+  const activeDays = new Set(recent.map((e) => dayKey(new Date(e.at)))).size
+  const chaptersPerWeek = recent.length ? (recent.length / Math.max(spanDays, 3)) * 7 : null
+
+  return {
+    remainingMinutes,
+    nextChapterMinutes,
+    todayMinutes,
+    todayChapters: todays.length,
+    streak,
+    bestStreak: Math.max(best, streak),
+    recentPace,
+    activeDays,
+    chaptersPerWeek,
+    week,
+    dailyTarget,
+    projectedFinish,
+    behind,
+  }
 }
 
 /** "12 min", "1 hr 5 min", "38 hr". */
@@ -90,4 +131,13 @@ export function formatMinutes(m: number): string {
   const h = Math.floor(mins / 60)
   const r = mins % 60
   return h >= 10 || !r ? `${h} hr` : `${h} hr ${r} min`
+}
+
+function activeDaysFor(entries: { at: string }[]) {
+  return new Set(entries.map((e) => dayKey(new Date(e.at)))).size
+}
+
+/** "about 20 min" style estimate; approximate books get "≈". */
+export function estimate(book: BookData, minutes: number): string {
+  return (book.meta.wordCountsApproximate ? '≈ ' : '~') + formatMinutes(minutes)
 }

@@ -61,6 +61,8 @@ export interface Character {
 export interface BookMeta {
   id: string
   title: string
+  /** For tight spaces like the header; defaults to the title. */
+  shortTitle?: string
   author: string
   year: number
   chapterCount: number

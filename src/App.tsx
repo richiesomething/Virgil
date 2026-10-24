@@ -1,19 +1,29 @@
 import { useEffect } from 'react'
-import { useRoute } from './lib/router'
+import { settleScroll, useLocation } from './lib/router'
+import { applyTheme, prefs } from './lib/store'
+import { ToastHost } from './components/ui'
 import Library from './pages/Library'
 import BookShell from './pages/BookShell'
 import NotFound from './pages/NotFound'
 
 export default function App() {
-  const route = useRoute()
+  const { parts, path } = useLocation()
+  const theme = prefs.use().theme
 
-  // Selecting a character on the map changes the URL but shouldn't scroll the page.
-  const page = route[2] === 'map' ? route.slice(0, 3).join('/') : route.join('/')
+  useEffect(() => applyTheme(theme), [theme])
+  // Pages inside a book handle their own scroll restoration.
   useEffect(() => {
-    window.scrollTo(0, 0)
-  }, [page])
+    if (parts[0] !== 'b') settleScroll(path, false)
+  }, [path, parts])
 
-  if (route.length === 0) return <Library />
-  if (route[0] === 'b' && route[1]) return <BookShell bookId={route[1]} rest={route.slice(2)} />
-  return <NotFound />
+  let page
+  if (parts.length === 0) page = <Library />
+  else if (parts[0] === 'b' && parts[1]) page = <BookShell key={parts[1]} bookId={parts[1]} />
+  else page = <NotFound />
+  return (
+    <>
+      {page}
+      <ToastHost />
+    </>
+  )
 }

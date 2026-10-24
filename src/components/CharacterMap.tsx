@@ -217,7 +217,7 @@ export default function CharacterMap({ characters, connections, selected, onSele
   }
 
   return (
-    <div className="map">
+    <div className="map__canvas" style={{ position: 'relative', height: '100%' }}>
       <svg
         ref={svgRef}
         className="map__svg"

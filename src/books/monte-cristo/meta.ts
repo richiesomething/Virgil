@@ -3,6 +3,7 @@ import type { BookMeta } from '../../types'
 export const meta: BookMeta = {
   id: 'monte-cristo',
   title: 'The Count of Monte Cristo',
+  shortTitle: 'Monte Cristo',
   author: 'Alexandre Dumas',
   year: 1844,
   chapterCount: 117,
