@@ -6,111 +6,365 @@
     "importance": "major",
     "group": "Marseille, 1815",
     "aliases": [
-      { "name": "Madame de Morcerf", "from": 27, "note": "Caderousse reveals she married Fernand, now the Count de Morcerf" },
-      { "name": "Countess de Morcerf", "from": 27, "note": "her title as Fernand’s wife in Paris" },
-      { "name": "Mercédès Herrera", "from": 91, "note": "Herrera was her father’s name" }
+      {
+        "name": "Madame de Morcerf",
+        "from": 27,
+        "note": "Caderousse reveals she married Fernand, now the Count de Morcerf"
+      },
+      {
+        "name": "Countess de Morcerf",
+        "from": 27,
+        "note": "her title as Fernand’s wife in Paris"
+      },
+      {
+        "name": "Mercédès Herrera",
+        "from": 91,
+        "note": "Herrera was her father’s name"
+      }
     ],
     "tagline": [
-      { "from": 1, "text": "Edmond Dantès’ devoted fiancée, a young Catalan girl from near Marseille." },
-      { "from": 9, "text": "Dantès’ fiancée, left grieving and alone after his arrest." },
-      { "from": 27, "text": "Dantès’ lost fiancée, now married to Fernand and a rich countess in Paris." },
-      { "from": 41, "text": "The Countess de Morcerf, Albert’s mother, strangely shaken by the Count of Monte Cristo." },
-      { "from": 89, "text": "Dantès’ first love, who knew him at once and begged him to spare her son." },
-      { "from": 91, "text": "Mercédès, who has left her husband’s house and fortune with her son Albert." },
-      { "from": 106, "text": "Mercédès, living quietly in old Dantès’ house in Marseille, devoted to prayer." }
+      {
+        "from": 1,
+        "text": "Edmond Dantès’ devoted fiancée, a young Catalan girl from near Marseille."
+      },
+      {
+        "from": 9,
+        "text": "Dantès’ fiancée, left grieving and alone after his arrest."
+      },
+      {
+        "from": 27,
+        "text": "Dantès’ lost fiancée, now married to Fernand and a rich countess in Paris."
+      },
+      {
+        "from": 41,
+        "text": "The Countess de Morcerf, Albert’s mother, strangely shaken by the Count of Monte Cristo."
+      },
+      {
+        "from": 89,
+        "text": "Dantès’ first love, who knew him at once and begged him to spare her son."
+      },
+      {
+        "from": 91,
+        "text": "Mercédès, who has left her husband’s house and fortune with her son Albert."
+      },
+      {
+        "from": 106,
+        "text": "Mercédès, living quietly in old Dantès’ house in Marseille, devoted to prayer."
+      }
     ],
     "description": [
-      { "from": 1, "text": "Mercédès is Edmond Dantès’ fiancée, who lives in the Catalan village outside Marseille and has called at Morrel’s office again and again for news of his ship." },
-      { "from": 2, "text": "She is a beautiful seventeen-year-old with many admirers, often seen with a tall young cousin." },
-      { "from": 3, "text": "A poor orphan living on the village’s charity, she is honest and strong-willed. She loves her cousin Fernand only as a brother and has sworn that if Edmond dies, she will die too — a threat that keeps Fernand’s jealousy in check." },
-      { "from": 5, "text": "Radiant at the betrothal feast, she is heartbroken when Edmond is arrested and insists he is innocent." },
-      { "from": 9, "text": "Brave and dignified, she goes to Villefort herself to plead for Edmond, then spends the night numb with grief while Fernand watches over her." },
-      { "from": 13, "text": "Alone and desperate, she is kept from suicide only by her faith. She cares for Edmond’s father until he dies in her arms, and grows fonder of Fernand out of gratitude." },
-      { "from": 25, "text": "When Dantès returns to Marseille, she has vanished from the Catalan village." },
-      { "from": 27, "text": "Caderousse reveals that after eighteen months of waiting she married Fernand, in the very church where she was to have wed Edmond. She educated herself, has a son named Albert, and is now a rich countess in Paris, though Caderousse believes she is unhappy." },
-      { "from": 41, "text": "She is the Countess de Morcerf, mother of Albert. Her portrait shows her as a Catalan fisherwoman gazing at the sea, and she often weeps before it. Meeting the Count of Monte Cristo leaves her pale and shaken, and she questions Albert anxiously about him." },
-      { "from": 54, "text": "She quietly but firmly opposes Albert’s planned marriage to Eugénie Danglars, without explaining why, and keeps her distance from Madame Danglars." },
-      { "from": 68, "text": "The count fascinates and puzzles her; she talks of little else. At her summer ball she watches him closely and notices that he will not eat or drink anything under her husband’s roof — and she understands it as deliberate." },
-      { "from": 71, "text": "She pleads with him to share food with her as a sign of friendship and asks searching questions about his past, but he refuses even a grape." },
-      { "from": 88, "text": "After her husband’s disgrace she is bedridden with shame. When Albert calls the count an enemy she turns pale and begs him to remain his friend, then has her son followed, fearing what he will do." },
-      { "from": 89, "text": "She recognized Edmond by his voice from the first moment. Coming to him secretly at night, she blames herself for marrying Fernand, admits she still loves him, and learns only now why he was arrested. She begs him to spare Albert’s life." },
-      { "from": 90, "text": "By telling Albert the family secret, she saves both her son and the count from the duel." },
-      { "from": 91, "text": "She leaves her husband’s house taking nothing, urges Albert to take her father’s name, Herrera, and accepts the small treasure Edmond buried for her as a dowry for a convent." },
-      { "from": 104, "text": "She and Albert give their whole fortune to the hospitals." },
-      { "from": 106, "text": "Living in a bare, cold room, she has lost her sparkle but not her dignity. She agrees to go to Marseille, to the little house where Edmond’s money waits for her." },
-      { "from": 112, "text": "Living in old Dantès’ house, she blames herself rather than Edmond: she was weak and married Fernand. She asks only for Albert’s happiness and means to spend her life in prayer." }
+      {
+        "from": 1,
+        "text": "Mercédès is Edmond Dantès’ fiancée, who lives in the Catalan village outside Marseille and has called at Morrel’s office again and again for news of his ship."
+      },
+      {
+        "from": 2,
+        "text": "She is a beautiful seventeen-year-old with many admirers, often seen with a tall young cousin."
+      },
+      {
+        "from": 3,
+        "text": "A poor orphan living on the village’s charity, she is honest and strong-willed. She loves her cousin Fernand only as a brother and has sworn that if Edmond dies, she will die too — a threat that keeps Fernand’s jealousy in check."
+      },
+      {
+        "from": 5,
+        "text": "Radiant at the betrothal feast, she is heartbroken when Edmond is arrested and insists he is innocent."
+      },
+      {
+        "from": 9,
+        "text": "Brave and dignified, she goes to Villefort herself to plead for Edmond, then spends the night numb with grief while Fernand watches over her."
+      },
+      {
+        "from": 13,
+        "text": "Alone and desperate, she is kept from suicide only by her faith. She cares for Edmond’s father until he dies in her arms, and grows fonder of Fernand out of gratitude."
+      },
+      {
+        "from": 25,
+        "text": "When Dantès returns to Marseille, she has vanished from the Catalan village."
+      },
+      {
+        "from": 27,
+        "text": "Caderousse reveals that after eighteen months of waiting she married Fernand, in the very church where she was to have wed Edmond. She educated herself, has a son named Albert, and is now a rich countess in Paris, though Caderousse believes she is unhappy."
+      },
+      {
+        "from": 41,
+        "text": "She is the Countess de Morcerf, mother of Albert. Her portrait shows her as a Catalan fisherwoman gazing at the sea, and she often weeps before it. Meeting the Count of Monte Cristo leaves her pale and shaken, and she questions Albert anxiously about him."
+      },
+      {
+        "from": 54,
+        "text": "She quietly but firmly opposes Albert’s planned marriage to Eugénie Danglars, without explaining why, and keeps her distance from Madame Danglars."
+      },
+      {
+        "from": 68,
+        "text": "The count fascinates and puzzles her; she talks of little else. At her summer ball she watches him closely and notices that he will not eat or drink anything under her husband’s roof — and she understands it as deliberate."
+      },
+      {
+        "from": 71,
+        "text": "She pleads with him to share food with her as a sign of friendship and asks searching questions about his past, but he refuses even a grape."
+      },
+      {
+        "from": 88,
+        "text": "After her husband’s disgrace she is bedridden with shame. When Albert calls the count an enemy she turns pale and begs him to remain his friend, then has her son followed, fearing what he will do."
+      },
+      {
+        "from": 89,
+        "text": "She recognized Edmond by his voice from the first moment. Coming to him secretly at night, she blames herself for marrying Fernand, admits she still loves him, and learns only now why he was arrested. She begs him to spare Albert’s life."
+      },
+      {
+        "from": 90,
+        "text": "By telling Albert the family secret, she saves both her son and the count from the duel."
+      },
+      {
+        "from": 91,
+        "text": "She leaves her husband’s house taking nothing, urges Albert to take her father’s name, Herrera, and accepts the small treasure Edmond buried for her as a dowry for a convent."
+      },
+      {
+        "from": 104,
+        "text": "She and Albert give their whole fortune to the hospitals."
+      },
+      {
+        "from": 106,
+        "text": "Living in a bare, cold room, she has lost her sparkle but not her dignity. She agrees to go to Marseille, to the little house where Edmond’s money waits for her."
+      },
+      {
+        "from": 112,
+        "text": "Living in old Dantès’ house, she blames herself rather than Edmond: she was weak and married Fernand. She asks only for Albert’s happiness and means to spend her life in prayer."
+      }
     ],
     "moments": [
-      { "chapter": 3, "text": "Forced Fernand to shake Edmond’s hand by sheer force of will." },
-      { "chapter": 5, "text": "Saw Edmond arrested at their betrothal feast." },
-      { "chapter": 9, "text": "Went to Villefort herself to plead for Edmond." },
-      { "chapter": 13, "text": "Cared for old Dantès, who died in her arms." },
-      { "chapter": 27, "text": "Secretly dropped a purse of money from her window for the destitute Caderousse." },
-      { "chapter": 27, "text": "Married Fernand after eighteen months of waiting for Edmond." },
-      { "chapter": 41, "text": "Nearly fainted after meeting the Count, blaming the scent of the flowers." },
-      { "chapter": 70, "text": "Took the count’s arm and led the guests into the garden at her ball." },
-      { "chapter": 71, "text": "Flung the refused grapes into the bushes, crying “Inflexible man!”" },
-      { "chapter": 89, "text": "Came secretly at night and begged Edmond to spare Albert." },
-      { "chapter": 91, "text": "Left her husband’s house and accepted Edmond’s small treasure." },
-      { "chapter": 92, "text": "Left the house on her son’s arm without looking back." },
-      { "chapter": 106, "text": "Left Paris by coach for Marseille." },
-      { "chapter": 112, "text": "Told Edmond they would meet again in heaven." }
+      {
+        "chapter": 3,
+        "text": "Forced Fernand to shake Edmond’s hand by sheer force of will."
+      },
+      {
+        "chapter": 5,
+        "text": "Saw Edmond arrested at their betrothal feast."
+      },
+      {
+        "chapter": 9,
+        "text": "Went to Villefort herself to plead for Edmond."
+      },
+      {
+        "chapter": 13,
+        "text": "Cared for old Dantès, who died in her arms."
+      },
+      {
+        "chapter": 27,
+        "text": "Secretly dropped a purse of money from her window for the destitute Caderousse."
+      },
+      {
+        "chapter": 27,
+        "text": "Married Fernand after eighteen months of waiting for Edmond."
+      },
+      {
+        "chapter": 41,
+        "text": "Nearly fainted after meeting the Count, blaming the scent of the flowers."
+      },
+      {
+        "chapter": 70,
+        "text": "Took the count’s arm and led the guests into the garden at her ball."
+      },
+      {
+        "chapter": 71,
+        "text": "Flung the refused grapes into the bushes, crying “Inflexible man!”"
+      },
+      {
+        "chapter": 89,
+        "text": "Came secretly at night and begged Edmond to spare Albert."
+      },
+      {
+        "chapter": 91,
+        "text": "Left her husband’s house and accepted Edmond’s small treasure."
+      },
+      {
+        "chapter": 92,
+        "text": "Left the house on her son’s arm without looking back."
+      },
+      {
+        "chapter": 106,
+        "text": "Left Paris by coach for Marseille."
+      },
+      {
+        "chapter": 112,
+        "text": "Told Edmond they would meet again in heaven."
+      }
     ]
   },
   {
     "id": "fernand-mondego",
     "name": "Fernand",
-    "firstChapter": 2,
+    "firstChapter": 3,
     "importance": "major",
     "group": "Marseille, 1815",
     "aliases": [
-      { "name": "Count de Morcerf", "from": 27, "note": "the title Caderousse says Fernand now bears" },
-      { "name": "General de Morcerf", "from": 41, "note": "a lieutenant-general and peer of France" },
-      { "name": "Fernand Mondego", "from": 66, "note": "his full name, first given by Danglars" }
+      {
+        "name": "Count de Morcerf",
+        "from": 27,
+        "note": "the title Caderousse says Fernand now bears"
+      },
+      {
+        "name": "General de Morcerf",
+        "from": 41,
+        "note": "a lieutenant-general and peer of France"
+      },
+      {
+        "name": "Fernand Mondego",
+        "from": 66,
+        "note": "his full name, first given by Danglars"
+      }
     ],
     "tagline": [
-      { "from": 2, "text": "Mercédès’ tall, fierce Catalan cousin, jealous of her love for Dantès." },
-      { "from": 4, "text": "Mercédès’ jealous cousin, who carried off Danglars’ denunciation of Dantès." },
-      { "from": 17, "text": "Mercédès’ cousin, one of the men who sent Dantès to prison." },
-      { "from": 27, "text": "Dantès’ betrayer, now the Count de Morcerf, a rich general married to Mercédès." },
-      { "from": 41, "text": "The Count de Morcerf, Albert’s father: a general and peer of France." },
-      { "from": 78, "text": "The Count de Morcerf, publicly accused of betraying Ali Pasha at Yanina." },
-      { "from": 86, "text": "The Count de Morcerf, convicted of treason by the Chamber of Peers." },
-      { "from": 92, "text": "The disgraced Count de Morcerf, abandoned by his wife and son." }
+      {
+        "from": 3,
+        "text": "Mercédès’ tall, fierce Catalan cousin, jealous of her love for Dantès."
+      },
+      {
+        "from": 4,
+        "text": "Mercédès’ jealous cousin, who carried off Danglars’ denunciation of Dantès."
+      },
+      {
+        "from": 17,
+        "text": "Mercédès’ cousin, one of the men who sent Dantès to prison."
+      },
+      {
+        "from": 27,
+        "text": "Dantès’ betrayer, now the Count de Morcerf, a rich general married to Mercédès."
+      },
+      {
+        "from": 41,
+        "text": "The Count de Morcerf, Albert’s father: a general and peer of France."
+      },
+      {
+        "from": 78,
+        "text": "The Count de Morcerf, publicly accused of betraying Ali Pasha at Yanina."
+      },
+      {
+        "from": 86,
+        "text": "The Count de Morcerf, convicted of treason by the Chamber of Peers."
+      },
+      {
+        "from": 92,
+        "text": "The disgraced Count de Morcerf, abandoned by his wife and son."
+      }
     ],
     "description": [
-      { "from": 2, "text": "Caderousse describes a strapping, fierce-looking young Catalan of about twenty-one who escorts Mercédès and seems to be courting her." },
-      { "from": 3, "text": "Fernand is Mercédès’ cousin, a Catalan fisherman who has loved her for ten years. Jealous and quick to reach for his knife, he is held back only by her vow to die if Edmond is harmed." },
-      { "from": 4, "text": "He openly admits he hates Dantès and will do anything short of killing him. When Danglars writes an anonymous denunciation and throws it aside, Fernand secretly picks it up." },
-      { "from": 5, "text": "Pale and tense through the betrothal feast, he slips away just before the arrest and then returns to act as Mercédès’ protector." },
-      { "from": 13, "text": "He stays at Mercédès’ side through her grief, brooding over Dantès, until he is called up into Napoleon’s army. Her farewell gives him hope." },
-      { "from": 17, "text": "In prison, Dantès works out that Fernand was Danglars’ partner in the plot, driven by his love for Mercédès." },
-      { "from": 27, "text": "Caderousse reveals that Fernand posted the letter. Drafted in 1815, he deserted to the enemy with his general, rose under the restored king, and became a count after the Spanish war. As the Count de Morcerf he served Ali Pasha in Greece, came home rich, and is now a lieutenant-general living in Paris, married to Mercédès." },
-      { "from": 41, "text": "Albert’s father is a general and peer of France who looks older than his forty-odd years, with white hair and a careworn face. He dislikes his wife’s Catalan portrait, and is easily charmed by the Count of Monte Cristo’s flattery." },
-      { "from": 53, "text": "At the Opera he confirms he was inspector-general of Ali Pasha’s troops at Yanina and owes his fortune to the pasha’s generosity. He seems unsettled to hear that the Count’s companion is Greek — and she, seeing him, accuses him of selling her father to the Turks." },
-      { "from": 54, "text": "He is eager for Albert to marry Eugénie Danglars." },
-      { "from": 66, "text": "Danglars sneers that the count began life as a fisherman named Fernand Mondego, and mentions unpleasant rumours from Greece about Ali Pasha. Danglars writes to Yanina to find out more." },
-      { "from": 78, "text": "Proud and irritable, he formally asks for Eugénie’s hand for Albert, but Danglars stalls with hints of slander. A newspaper then claims that the castle of Yanina was betrayed to the Turks by a French officer named Fernand." },
-      { "from": 84, "text": "Beauchamp’s inquiries in Yanina prove that Colonel Fernand Mondego, raised by Ali to high command, surrendered the castle for two million crowns — and that he is the Count de Morcerf." },
-      { "from": 86, "text": "Named openly in the press, he defends himself before the Chamber of Peers, claiming he was negotiating for Ali when the pasha died. Haydée appears as a witness, accuses him of the false pardon, of stabbing Selim and of selling her and her mother as slaves, and produces the bill of sale. Speechless, he is convicted of treason." },
-      { "from": 89, "text": "The count tells Mercédès that Fernand posted the denunciation Danglars wrote, and lists his later betrayals: in Spain, against Ali, and against France itself." },
-      { "from": 92, "text": "Believing Albert has avenged him, then learning of the apology, he goes to fight Monte Cristo to the death. When the count reveals himself as Edmond Dantès, Fernand flees home, watches his wife and son leave him, and shoots himself." }
+      {
+        "from": 3,
+        "text": "Caderousse describes a strapping, fierce-looking young Catalan of about twenty-one who escorts Mercédès and seems to be courting her. Fernand is Mercédès’ cousin, a Catalan fisherman who has loved her for ten years. Jealous and quick to reach for his knife, he is held back only by her vow to die if Edmond is harmed."
+      },
+      {
+        "from": 4,
+        "text": "He openly admits he hates Dantès and will do anything short of killing him. When Danglars writes an anonymous denunciation and throws it aside, Fernand secretly picks it up."
+      },
+      {
+        "from": 5,
+        "text": "Pale and tense through the betrothal feast, he slips away just before the arrest and then returns to act as Mercédès’ protector."
+      },
+      {
+        "from": 13,
+        "text": "He stays at Mercédès’ side through her grief, brooding over Dantès, until he is called up into Napoleon’s army. Her farewell gives him hope."
+      },
+      {
+        "from": 17,
+        "text": "In prison, Dantès works out that Fernand was Danglars’ partner in the plot, driven by his love for Mercédès."
+      },
+      {
+        "from": 27,
+        "text": "Caderousse reveals that Fernand posted the letter. Drafted in 1815, he deserted to the enemy with his general, rose under the restored king, and became a count after the Spanish war. As the Count de Morcerf he served Ali Pasha in Greece, came home rich, and is now a lieutenant-general living in Paris, married to Mercédès."
+      },
+      {
+        "from": 41,
+        "text": "Albert’s father is a general and peer of France who looks older than his forty-odd years, with white hair and a careworn face. He dislikes his wife’s Catalan portrait, and is easily charmed by the Count of Monte Cristo’s flattery."
+      },
+      {
+        "from": 53,
+        "text": "At the Opera he confirms he was inspector-general of Ali Pasha’s troops at Yanina and owes his fortune to the pasha’s generosity. He seems unsettled to hear that the Count’s companion is Greek — and she, seeing him, accuses him of selling her father to the Turks."
+      },
+      {
+        "from": 54,
+        "text": "He is eager for Albert to marry Eugénie Danglars."
+      },
+      {
+        "from": 66,
+        "text": "Danglars sneers that the count began life as a fisherman named Fernand Mondego, and mentions unpleasant rumours from Greece about Ali Pasha. Danglars writes to Yanina to find out more."
+      },
+      {
+        "from": 78,
+        "text": "Proud and irritable, he formally asks for Eugénie’s hand for Albert, but Danglars stalls with hints of slander. A newspaper then claims that the castle of Yanina was betrayed to the Turks by a French officer named Fernand."
+      },
+      {
+        "from": 84,
+        "text": "Beauchamp’s inquiries in Yanina prove that Colonel Fernand Mondego, raised by Ali to high command, surrendered the castle for two million crowns — and that he is the Count de Morcerf."
+      },
+      {
+        "from": 86,
+        "text": "Named openly in the press, he defends himself before the Chamber of Peers, claiming he was negotiating for Ali when the pasha died. Haydée appears as a witness, accuses him of the false pardon, of stabbing Selim and of selling her and her mother as slaves, and produces the bill of sale. Speechless, he is convicted of treason."
+      },
+      {
+        "from": 89,
+        "text": "The count tells Mercédès that Fernand posted the denunciation Danglars wrote, and lists his later betrayals: in Spain, against Ali, and against France itself."
+      },
+      {
+        "from": 92,
+        "text": "Believing Albert has avenged him, then learning of the apology, he goes to fight Monte Cristo to the death. When the count reveals himself as Edmond Dantès, Fernand flees home, watches his wife and son leave him, and shoots himself."
+      }
     ],
     "moments": [
-      { "chapter": 3, "text": "Fled Mercédès’ house in despair and was drawn into drinking with Danglars and Caderousse." },
-      { "chapter": 4, "text": "Secretly picked up the crumpled denunciation and hurried off towards Marseille with it." },
-      { "chapter": 5, "text": "Vanished from the feast just before Dantès was arrested." },
-      { "chapter": 13, "text": "Was conscripted into Napoleon’s army." },
-      { "chapter": 27, "text": "Was revealed to have married Mercédès and become the Count de Morcerf." },
-      { "chapter": 41, "text": "Invited the Count of Monte Cristo to the Chamber of Peers." },
-      { "chapter": 53, "text": "Was denounced by Haydée at the Opera as the man who betrayed her father." },
-      { "chapter": 66, "text": "Became the target of Danglars’ inquiry to Yanina." },
-      { "chapter": 78, "text": "Had his proposal for Albert put off by Danglars." },
-      { "chapter": 78, "text": "Was accused in the newspaper of betraying Yanina." },
-      { "chapter": 85, "text": "Was named openly in the press as the traitor of Yanina." },
-      { "chapter": 86, "text": "Was convicted of felony and treason by a committee of the Chamber of Peers." },
-      { "chapter": 92, "text": "Recognized Monte Cristo as Edmond Dantès and fled." },
-      { "chapter": 92, "text": "Shot himself as Mercédès and Albert drove away." }
+      {
+        "chapter": 3,
+        "text": "Fled Mercédès’ house in despair and was drawn into drinking with Danglars and Caderousse."
+      },
+      {
+        "chapter": 4,
+        "text": "Secretly picked up the crumpled denunciation and hurried off towards Marseille with it."
+      },
+      {
+        "chapter": 5,
+        "text": "Vanished from the feast just before Dantès was arrested."
+      },
+      {
+        "chapter": 13,
+        "text": "Was conscripted into Napoleon’s army."
+      },
+      {
+        "chapter": 27,
+        "text": "Was revealed to have married Mercédès and become the Count de Morcerf."
+      },
+      {
+        "chapter": 41,
+        "text": "Invited the Count of Monte Cristo to the Chamber of Peers."
+      },
+      {
+        "chapter": 53,
+        "text": "Was denounced by Haydée at the Opera as the man who betrayed her father."
+      },
+      {
+        "chapter": 66,
+        "text": "Became the target of Danglars’ inquiry to Yanina."
+      },
+      {
+        "chapter": 78,
+        "text": "Had his proposal for Albert put off by Danglars."
+      },
+      {
+        "chapter": 78,
+        "text": "Was accused in the newspaper of betraying Yanina."
+      },
+      {
+        "chapter": 85,
+        "text": "Was named openly in the press as the traitor of Yanina."
+      },
+      {
+        "chapter": 86,
+        "text": "Was convicted of felony and treason by a committee of the Chamber of Peers."
+      },
+      {
+        "chapter": 92,
+        "text": "Recognized Monte Cristo as Edmond Dantès and fled."
+      },
+      {
+        "chapter": 92,
+        "text": "Shot himself as Mercédès and Albert drove away."
+      }
     ]
   },
   {
@@ -120,58 +374,199 @@
     "importance": "major",
     "group": "The Morcerf household",
     "aliases": [
-      { "name": "Albert de Morcerf", "from": 31, "note": "the Viscount Albert de Morcerf" },
-      { "name": "Viscount de Morcerf", "from": 31, "note": "his title" },
-      { "name": "Albert Herrera", "from": 91, "note": "he plans to take his mother’s family name" }
+      {
+        "name": "Albert de Morcerf",
+        "from": 31,
+        "note": "the Viscount Albert de Morcerf"
+      },
+      {
+        "name": "Viscount de Morcerf",
+        "from": 31,
+        "note": "his title"
+      },
+      {
+        "name": "Albert Herrera",
+        "from": 91,
+        "note": "he plans to take his mother’s family name"
+      }
     ],
     "tagline": [
-      { "from": 27, "text": "The young son of Mercédès and Fernand." },
-      { "from": 31, "text": "A dashing young Paris viscount on his way to the Roman Carnival." },
-      { "from": 37, "text": "Paris viscount rescued from Roman bandits by the Count of Monte Cristo." },
-      { "from": 41, "text": "Son of Mercédès and the Count de Morcerf; the Count’s first friend in Paris." },
-      { "from": 78, "text": "Fernand’s son, fiercely defending his father’s honour against a newspaper slur." },
-      { "from": 90, "text": "Fernand’s son, who learned the truth and apologized to Monte Cristo." },
-      { "from": 106, "text": "Albert, who gave up his name and fortune to serve as a cavalryman in Africa." }
+      {
+        "from": 27,
+        "text": "The young son of Mercédès and Fernand."
+      },
+      {
+        "from": 31,
+        "text": "A dashing young Paris viscount on his way to the Roman Carnival."
+      },
+      {
+        "from": 37,
+        "text": "Paris viscount rescued from Roman bandits by the Count of Monte Cristo."
+      },
+      {
+        "from": 41,
+        "text": "Son of Mercédès and the Count de Morcerf; the Count’s first friend in Paris."
+      },
+      {
+        "from": 78,
+        "text": "Fernand’s son, fiercely defending his father’s honour against a newspaper slur."
+      },
+      {
+        "from": 90,
+        "text": "Fernand’s son, who learned the truth and apologized to Monte Cristo."
+      },
+      {
+        "from": 106,
+        "text": "Albert, who gave up his name and fortune to serve as a cavalryman in Africa."
+      }
     ],
     "description": [
-      { "from": 27, "text": "Caderousse mentions little Albert, the son of Mercédès and Fernand, whom Mercédès was educating herself during the Spanish war." },
-      { "from": 31, "text": "The Viscount Albert de Morcerf is a young man of Paris high society travelling to Rome for the Carnival with his friend Franz. Morcerf is the title Caderousse said Fernand now holds — and Mercédès’ son was named Albert." },
-      { "from": 33, "text": "Breezy and self-assured, he believes a full purse can do anything, and he is brave to the point of recklessness, laughing off the bandit Vampa as a myth." },
-      { "from": 34, "text": "He is vain about his clothes and stung by his lack of romantic success in Italy, but also talented and well off, with a comfortable income. He knows some Greek." },
-      { "from": 37, "text": "Kidnapped by Vampa’s bandits, he shows remarkable coolness, sleeping soundly under threat of death. Freed by the Count of Monte Cristo, he feels eternally in his debt." },
-      { "from": 38, "text": "Grateful and carefree, he offers the Count his family’s influence in Paris and brushes off all of Franz’s suspicions. His father, the Count de Morcerf, has called him home to arrange a marriage." },
-      { "from": 39, "text": "He lives a pampered life in a pavilion in his parents’ courtyard, full of half-abandoned hobbies and a dandy’s pursuits. Gossip links him to Eugénie Danglars, a match his father is keen on." },
-      { "from": 41, "text": "His mother is the Countess de Morcerf — Mercédès. He believes his parents have been happily married for over twenty years, their only disagreement being her portrait." },
-      { "from": 54, "text": "Not yet twenty-one, he does not want to marry Eugénie. Torn between his father’s wishes and his mother’s unhappiness, he would rather displease his father, and has stalled the marriage talks." },
-      { "from": 68, "text": "He adores his mother and dreads marrying Eugénie. At his parents’ ball he is a witty guide to the guests, and presses the count to eat at his mother’s request without understanding why it matters to her." },
-      { "from": 77, "text": "He knows his father made his fortune serving Ali Pasha. Visiting the count, he is enchanted by Haydée and hears her story of her father’s betrayal." },
-      { "from": 78, "text": "When a newspaper claims Yanina was betrayed by an officer named Fernand, he furiously takes it as a slander on his father and challenges Beauchamp, the editor, to a duel." },
-      { "from": 84, "text": "Beauchamp returns from Yanina with proof that his father really did betray the castle. Albert burns the proofs, grieves for his father and fears for his mother. His engagement to Eugénie is broken off." },
-      { "from": 87, "text": "Wanting a living enemy to fight, he works out that Monte Cristo planned every step of his father’s exposure." },
-      { "from": 88, "text": "Suspecting his mother of special reasons for defending the count, he insults Monte Cristo publicly at the Opera, leading to a duel." },
-      { "from": 90, "text": "After a sleepless night he apologizes on the dueling ground, saying the count had the right to avenge himself — not for Ali’s sake, but for the fisherman Fernand’s treachery toward him." },
-      { "from": 91, "text": "His friends receive the apology coldly. He gives up his luxuries, his father’s name and his fortune, and leaves home with his mother, planning to earn his own living." },
-      { "from": 106, "text": "He has sold his watch and enlisted in the Spahis, a cavalry regiment in Africa, to make a name of his own and support his mother." },
-      { "from": 112, "text": "Now in uniform, he sails from Marseille to Algiers." }
+      {
+        "from": 27,
+        "text": "Caderousse mentions little Albert, the son of Mercédès and Fernand, whom Mercédès was educating herself during the Spanish war."
+      },
+      {
+        "from": 31,
+        "text": "The Viscount Albert de Morcerf is a young man of Paris high society travelling to Rome for the Carnival with his friend Franz. Morcerf is the title Caderousse said Fernand now holds — and Mercédès’ son was named Albert."
+      },
+      {
+        "from": 33,
+        "text": "Breezy and self-assured, he believes a full purse can do anything, and he is brave to the point of recklessness, laughing off the bandit Vampa as a myth."
+      },
+      {
+        "from": 34,
+        "text": "He is vain about his clothes and stung by his lack of romantic success in Italy, but also talented and well off, with a comfortable income. He knows some Greek."
+      },
+      {
+        "from": 37,
+        "text": "Kidnapped by Vampa’s bandits, he shows remarkable coolness, sleeping soundly under threat of death. Freed by the Count of Monte Cristo, he feels eternally in his debt."
+      },
+      {
+        "from": 38,
+        "text": "Grateful and carefree, he offers the Count his family’s influence in Paris and brushes off all of Franz’s suspicions. His father, the Count de Morcerf, has called him home to arrange a marriage."
+      },
+      {
+        "from": 39,
+        "text": "He lives a pampered life in a pavilion in his parents’ courtyard, full of half-abandoned hobbies and a dandy’s pursuits. Gossip links him to Eugénie Danglars, a match his father is keen on."
+      },
+      {
+        "from": 41,
+        "text": "His mother is the Countess de Morcerf — Mercédès. He believes his parents have been happily married for over twenty years, their only disagreement being her portrait."
+      },
+      {
+        "from": 54,
+        "text": "Not yet twenty-one, he does not want to marry Eugénie. Torn between his father’s wishes and his mother’s unhappiness, he would rather displease his father, and has stalled the marriage talks."
+      },
+      {
+        "from": 68,
+        "text": "He adores his mother and dreads marrying Eugénie. At his parents’ ball he is a witty guide to the guests, and presses the count to eat at his mother’s request without understanding why it matters to her."
+      },
+      {
+        "from": 77,
+        "text": "He knows his father made his fortune serving Ali Pasha. Visiting the count, he is enchanted by Haydée and hears her story of her father’s betrayal."
+      },
+      {
+        "from": 78,
+        "text": "When a newspaper claims Yanina was betrayed by an officer named Fernand, he furiously takes it as a slander on his father and challenges Beauchamp, the editor, to a duel."
+      },
+      {
+        "from": 84,
+        "text": "Beauchamp returns from Yanina with proof that his father really did betray the castle. Albert burns the proofs, grieves for his father and fears for his mother. His engagement to Eugénie is broken off."
+      },
+      {
+        "from": 87,
+        "text": "Wanting a living enemy to fight, he works out that Monte Cristo planned every step of his father’s exposure."
+      },
+      {
+        "from": 88,
+        "text": "Suspecting his mother of special reasons for defending the count, he insults Monte Cristo publicly at the Opera, leading to a duel."
+      },
+      {
+        "from": 90,
+        "text": "After a sleepless night he apologizes on the dueling ground, saying the count had the right to avenge himself — not for Ali’s sake, but for the fisherman Fernand’s treachery toward him."
+      },
+      {
+        "from": 91,
+        "text": "His friends receive the apology coldly. He gives up his luxuries, his father’s name and his fortune, and leaves home with his mother, planning to earn his own living."
+      },
+      {
+        "from": 106,
+        "text": "He has sold his watch and enlisted in the Spahis, a cavalry regiment in Africa, to make a name of his own and support his mother."
+      },
+      {
+        "from": 112,
+        "text": "Now in uniform, he sails from Marseille to Algiers."
+      }
     ],
     "moments": [
-      { "chapter": 31, "text": "Set off with Franz for the Carnival in Rome." },
-      { "chapter": 36, "text": "Disappeared with a masked peasant woman on the last night of the Carnival." },
-      { "chapter": 37, "text": "Was kidnapped by Vampa’s band and freed by the Count." },
-      { "chapter": 38, "text": "Agreed to receive the Count in Paris on 21 May at 10:30 a.m." },
-      { "chapter": 40, "text": "Introduced the Count to his friends at breakfast in Paris." },
-      { "chapter": 54, "text": "Arranged to take his mother to Tréport during the Count’s Auteuil dinner." },
-      { "chapter": 68, "text": "Invited the count to his parents’ summer ball on his mother’s behalf." },
-      { "chapter": 77, "text": "Met Haydée and heard the story of her father’s death." },
-      { "chapter": 78, "text": "Challenged Beauchamp to a duel, set for three weeks later." },
-      { "chapter": 84, "text": "Burned the proofs of his father’s treason." },
-      { "chapter": 85, "text": "Learned his father had been publicly named and galloped back to Paris." },
-      { "chapter": 87, "text": "Resolved to demand an explanation from Monte Cristo." },
-      { "chapter": 88, "text": "Publicly insulted Monte Cristo at the Opera." },
-      { "chapter": 90, "text": "Apologized to the count on the dueling ground." },
-      { "chapter": 91, "text": "Left his father’s house with his mother." },
-      { "chapter": 106, "text": "Enlisted in the Spahis and settled the money on his mother." },
-      { "chapter": 112, "text": "Sailed for Africa." }
+      {
+        "chapter": 31,
+        "text": "Set off with Franz for the Carnival in Rome."
+      },
+      {
+        "chapter": 36,
+        "text": "Disappeared with a masked peasant woman on the last night of the Carnival."
+      },
+      {
+        "chapter": 37,
+        "text": "Was kidnapped by Vampa’s band and freed by the Count."
+      },
+      {
+        "chapter": 38,
+        "text": "Agreed to receive the Count in Paris on 21 May at 10:30 a.m."
+      },
+      {
+        "chapter": 40,
+        "text": "Introduced the Count to his friends at breakfast in Paris."
+      },
+      {
+        "chapter": 54,
+        "text": "Arranged to take his mother to Tréport during the Count’s Auteuil dinner."
+      },
+      {
+        "chapter": 68,
+        "text": "Invited the count to his parents’ summer ball on his mother’s behalf."
+      },
+      {
+        "chapter": 77,
+        "text": "Met Haydée and heard the story of her father’s death."
+      },
+      {
+        "chapter": 78,
+        "text": "Challenged Beauchamp to a duel, set for three weeks later."
+      },
+      {
+        "chapter": 84,
+        "text": "Burned the proofs of his father’s treason."
+      },
+      {
+        "chapter": 85,
+        "text": "Learned his father had been publicly named and galloped back to Paris."
+      },
+      {
+        "chapter": 87,
+        "text": "Resolved to demand an explanation from Monte Cristo."
+      },
+      {
+        "chapter": 88,
+        "text": "Publicly insulted Monte Cristo at the Opera."
+      },
+      {
+        "chapter": 90,
+        "text": "Apologized to the count on the dueling ground."
+      },
+      {
+        "chapter": 91,
+        "text": "Left his father’s house with his mother."
+      },
+      {
+        "chapter": 106,
+        "text": "Enlisted in the Spahis and settled the money on his mother."
+      },
+      {
+        "chapter": 112,
+        "text": "Sailed for Africa."
+      }
     ]
   },
   {
@@ -180,19 +575,40 @@
     "firstChapter": 34,
     "importance": "supporting",
     "group": "The Count's household",
-    "mergedInto": { "id": "haydee", "from": 45 },
+    "mergedInto": {
+      "id": "haydee",
+      "from": 45
+    },
     "aliases": [],
     "tagline": [
-      { "from": 34, "text": "A mysterious, beautiful young woman in Greek dress seen at the Roman theatre." },
-      { "from": 40, "text": "A beautiful Greek girl the Count says he bought in Constantinople." }
+      {
+        "from": 34,
+        "text": "A mysterious, beautiful young woman in Greek dress seen at the Roman theatre."
+      },
+      {
+        "from": 40,
+        "text": "A beautiful Greek girl the Count says he bought in Constantinople."
+      }
     ],
     "description": [
-      { "from": 34, "text": "An exquisitely beautiful young woman in Greek dress who has attended every performance in Rome this season and delights in the ballet. No one knows who she is; she comes with the pale stranger in the box or with a black servant." },
-      { "from": 36, "text": "She seems to live in the Count’s apartments: Albert and Franz hear the sound of her guzla, a stringed instrument, but never see her." },
-      { "from": 40, "text": "In Paris, the Count says he bought her in Constantinople, that she speaks only modern Greek, and that everyone around him is free to leave him." }
+      {
+        "from": 34,
+        "text": "An exquisitely beautiful young woman in Greek dress who has attended every performance in Rome this season and delights in the ballet. No one knows who she is; she comes with the pale stranger in the box or with a black servant."
+      },
+      {
+        "from": 36,
+        "text": "She seems to live in the Count’s apartments: Albert and Franz hear the sound of her guzla, a stringed instrument, but never see her."
+      },
+      {
+        "from": 40,
+        "text": "In Paris, the Count says he bought her in Constantinople, that she speaks only modern Greek, and that everyone around him is free to leave him."
+      }
     ],
     "moments": [
-      { "chapter": 34, "text": "Was seen in a box at the Teatro Argentina beside the pale stranger." }
+      {
+        "chapter": 34,
+        "text": "Was seen in a box at the Teatro Argentina beside the pale stranger."
+      }
     ]
   },
   {
@@ -203,33 +619,102 @@
     "group": "The Count's household",
     "aliases": [],
     "tagline": [
-      { "from": 45, "text": "The lovely young Greek woman who lives secluded in the Count’s house." },
-      { "from": 53, "text": "The Count’s Greek ward, who accuses Morcerf of betraying her father." },
-      { "from": 77, "text": "Daughter of Ali Pasha of Yanina, sold into slavery and freed by the Count." },
-      { "from": 86, "text": "Ali Pasha’s daughter, whose testimony brought down the Count de Morcerf." },
-      { "from": 117, "text": "Ali Pasha’s daughter, who chose to stay with the count out of love." }
+      {
+        "from": 45,
+        "text": "The lovely young Greek woman who lives secluded in the Count’s house."
+      },
+      {
+        "from": 53,
+        "text": "The Count’s Greek ward, who accuses Morcerf of betraying her father."
+      },
+      {
+        "from": 77,
+        "text": "Daughter of Ali Pasha of Yanina, sold into slavery and freed by the Count."
+      },
+      {
+        "from": 86,
+        "text": "Ali Pasha’s daughter, whose testimony brought down the Count de Morcerf."
+      },
+      {
+        "from": 117,
+        "text": "Ali Pasha’s daughter, who chose to stay with the count out of love."
+      }
     ],
     "description": [
-      { "from": 45, "text": "Haydée is the beautiful Greek woman glimpsed with the Count in Rome. She arrives at his Paris house at midnight, kisses his hand with love and respect, and is given hidden apartments, kept apart from the French servants." },
-      { "from": 48, "text": "The Count calls her his slave, though he treats her lavishly; after a trying visit he goes to her as to an antidote." },
-      { "from": 49, "text": "About nineteen or twenty, from Epirus, she is devoted to the Count. She has loved only her late father, a white-bearded man of about sixty, and the Count — and she says her love for him is not a daughter’s. Told she is free, she refuses ever to leave him. He asks her to keep the secret of her birth." },
-      { "from": 53, "text": "At the Opera she dazzles the audience, then nearly faints on seeing the Count de Morcerf. When told he served her father, she cries that he sold her father to the Turks and that his fortune was the price of that treachery. Since Morcerf served Ali Pasha of Yanina, it seems her father was Ali himself." },
-      { "from": 71, "text": "The count tells Mercédès she is a prince’s daughter he bought as a slave in Constantinople and has adopted, having no one else to love." },
-      { "from": 77, "text": "She tells Albert her story: she is the daughter of Ali Tepelini, Pasha of Yanina, and his wife Vasiliki. When she was four, her father was betrayed by a French officer he trusted and killed by the sultan’s troops. She and her mother were sold as slaves, and after her mother’s death she passed through other hands until the count acquired her." },
-      { "from": 86, "text": "She has always meant to avenge her father and follows every newspaper in her seclusion. Without telling the count, she appears before the Chamber of Peers with her birth records and the bill of sale proving that Fernand Mondego sold her and her mother, and denounces Morcerf to his face." },
-      { "from": 90, "text": "Afraid for the count before his duel, she waits all night outside his door; on reading his will she tears it up, saying she will need nothing if he dies." },
-      { "from": 92, "text": "She greets the count with a joy that seems both a daughter’s and a lover’s." },
-      { "from": 111, "text": "She leaves Paris ahead of the count to wait for him." },
-      { "from": 117, "text": "The count offers to free her and restore her father’s name and wealth, but she says she would die without him, loving him “as one loves a father, brother, husband.”" }
+      {
+        "from": 45,
+        "text": "Haydée is the beautiful Greek woman glimpsed with the Count in Rome. She arrives at his Paris house at midnight, kisses his hand with love and respect, and is given hidden apartments, kept apart from the French servants."
+      },
+      {
+        "from": 48,
+        "text": "The Count calls her his slave, though he treats her lavishly; after a trying visit he goes to her as to an antidote."
+      },
+      {
+        "from": 49,
+        "text": "About nineteen or twenty, from Epirus, she is devoted to the Count. She has loved only her late father, a white-bearded man of about sixty, and the Count — and she says her love for him is not a daughter’s. Told she is free, she refuses ever to leave him. He asks her to keep the secret of her birth."
+      },
+      {
+        "from": 53,
+        "text": "At the Opera she dazzles the audience, then nearly faints on seeing the Count de Morcerf. When told he served her father, she cries that he sold her father to the Turks and that his fortune was the price of that treachery. Since Morcerf served Ali Pasha of Yanina, it seems her father was Ali himself."
+      },
+      {
+        "from": 71,
+        "text": "The count tells Mercédès she is a prince’s daughter he bought as a slave in Constantinople and has adopted, having no one else to love."
+      },
+      {
+        "from": 77,
+        "text": "She tells Albert her story: she is the daughter of Ali Tepelini, Pasha of Yanina, and his wife Vasiliki. When she was four, her father was betrayed by a French officer he trusted and killed by the sultan’s troops. She and her mother were sold as slaves, and after her mother’s death she passed through other hands until the count acquired her."
+      },
+      {
+        "from": 86,
+        "text": "She has always meant to avenge her father and follows every newspaper in her seclusion. Without telling the count, she appears before the Chamber of Peers with her birth records and the bill of sale proving that Fernand Mondego sold her and her mother, and denounces Morcerf to his face."
+      },
+      {
+        "from": 90,
+        "text": "Afraid for the count before his duel, she waits all night outside his door; on reading his will she tears it up, saying she will need nothing if he dies."
+      },
+      {
+        "from": 92,
+        "text": "She greets the count with a joy that seems both a daughter’s and a lover’s."
+      },
+      {
+        "from": 111,
+        "text": "She leaves Paris ahead of the count to wait for him."
+      },
+      {
+        "from": 117,
+        "text": "The count offers to free her and restore her father’s name and wealth, but she says she would die without him, loving him “as one loves a father, brother, husband.”"
+      }
     ],
     "moments": [
-      { "chapter": 45, "text": "Arrived at the Count’s Paris house at midnight." },
-      { "chapter": 49, "text": "Promised the Count she would never leave him." },
-      { "chapter": 53, "text": "Recognized the Count de Morcerf at the Opera and denounced him as the man who betrayed her father." },
-      { "chapter": 77, "text": "Told Albert the story of her father’s betrayal and death." },
-      { "chapter": 86, "text": "Testified before the Chamber of Peers and denounced Morcerf to his face." },
-      { "chapter": 90, "text": "Tore up the count’s will." },
-      { "chapter": 117, "text": "Declared her love for the count and sailed away with him." }
+      {
+        "chapter": 45,
+        "text": "Arrived at the Count’s Paris house at midnight."
+      },
+      {
+        "chapter": 49,
+        "text": "Promised the Count she would never leave him."
+      },
+      {
+        "chapter": 53,
+        "text": "Recognized the Count de Morcerf at the Opera and denounced him as the man who betrayed her father."
+      },
+      {
+        "chapter": 77,
+        "text": "Told Albert the story of her father’s betrayal and death."
+      },
+      {
+        "chapter": 86,
+        "text": "Testified before the Chamber of Peers and denounced Morcerf to his face."
+      },
+      {
+        "chapter": 90,
+        "text": "Tore up the count’s will."
+      },
+      {
+        "chapter": 117,
+        "text": "Declared her love for the count and sailed away with him."
+      }
     ]
   },
   {
@@ -239,22 +724,54 @@
     "importance": "supporting",
     "group": "Greece & Yanina",
     "aliases": [
-      { "name": "Ali Tepelini", "from": 53, "note": "his full name" },
-      { "name": "Pasha of Yanina", "from": 53, "note": "his title" }
+      {
+        "name": "Ali Tepelini",
+        "from": 53,
+        "note": "his full name"
+      },
+      {
+        "name": "Pasha of Yanina",
+        "from": 53,
+        "note": "his title"
+      }
     ],
     "tagline": [
-      { "from": 27, "text": "The Greek-region ruler whom Fernand served, and who left him a fortune." },
-      { "from": 53, "text": "The late pasha of Yanina, whom Morcerf served — apparently Haydée’s father." },
-      { "from": 77, "text": "Haydée’s father, the Pasha of Yanina, betrayed by a French officer and killed." }
+      {
+        "from": 27,
+        "text": "The Greek-region ruler whom Fernand served, and who left him a fortune."
+      },
+      {
+        "from": 53,
+        "text": "The late pasha of Yanina, whom Morcerf served — apparently Haydée’s father."
+      },
+      {
+        "from": 77,
+        "text": "Haydée’s father, the Pasha of Yanina, betrayed by a French officer and killed."
+      }
     ],
     "description": [
-      { "from": 27, "text": "Caderousse says Fernand served Ali Pasha in Greece as instructor-general, and that before Ali was killed he rewarded Fernand with a large sum of money." },
-      { "from": 53, "text": "Ali Tepelini, the Albanian chief of Yanina, had Morcerf as inspector-general of his troops, and Morcerf admits he owes his fortune to him. Haydée’s furious outburst suggests Ali was her father." },
-      { "from": 77, "text": "Haydée reveals he was her father. Waiting for the sultan’s verdict, he retreated to a fortified kiosk on a lake, with his gold and gunpowder guarded by the faithful Selim, and sent a French officer he trusted to negotiate. A false pardon tricked the guard into putting out the match, and Ali was killed by the sultan’s troops." },
-      { "from": 86, "text": "Before the Chamber of Peers, Morcerf produces Ali’s letters and ring, but Haydée declares that Morcerf himself brought back the false pardon." }
+      {
+        "from": 27,
+        "text": "Caderousse says Fernand served Ali Pasha in Greece as instructor-general, and that before Ali was killed he rewarded Fernand with a large sum of money."
+      },
+      {
+        "from": 53,
+        "text": "Ali Tepelini, the Albanian chief of Yanina, had Morcerf as inspector-general of his troops, and Morcerf admits he owes his fortune to him. Haydée’s furious outburst suggests Ali was her father."
+      },
+      {
+        "from": 77,
+        "text": "Haydée reveals he was her father. Waiting for the sultan’s verdict, he retreated to a fortified kiosk on a lake, with his gold and gunpowder guarded by the faithful Selim, and sent a French officer he trusted to negotiate. A false pardon tricked the guard into putting out the match, and Ali was killed by the sultan’s troops."
+      },
+      {
+        "from": 86,
+        "text": "Before the Chamber of Peers, Morcerf produces Ali’s letters and ring, but Haydée declares that Morcerf himself brought back the false pardon."
+      }
     ],
     "moments": [
-      { "chapter": 77, "text": "Was betrayed by the false pardon and killed by the sultan’s soldiers." }
+      {
+        "chapter": 77,
+        "text": "Was betrayed by the false pardon and killed by the sultan’s soldiers."
+      }
     ]
   },
   {
@@ -265,14 +782,26 @@
     "group": "Greece & Yanina",
     "aliases": [],
     "tagline": [
-      { "from": 77, "text": "Haydée’s mother, Ali Pasha’s beloved Christian wife." }
+      {
+        "from": 77,
+        "text": "Haydée’s mother, Ali Pasha’s beloved Christian wife."
+      }
     ],
     "description": [
-      { "from": 77, "text": "Haydée’s mother and Ali Pasha’s beloved wife, a Christian. After Ali’s death she was handed over to the man most responsible for it, sold to slave merchants, and died at the gates of Constantinople at the sight of Ali’s head." },
-      { "from": 86, "text": "The bill of sale shown to the Chamber of Peers proves that she and Haydée were sold together by Fernand Mondego." }
+      {
+        "from": 77,
+        "text": "Haydée’s mother and Ali Pasha’s beloved wife, a Christian. After Ali’s death she was handed over to the man most responsible for it, sold to slave merchants, and died at the gates of Constantinople at the sight of Ali’s head."
+      },
+      {
+        "from": 86,
+        "text": "The bill of sale shown to the Chamber of Peers proves that she and Haydée were sold together by Fernand Mondego."
+      }
     ],
     "moments": [
-      { "chapter": 77, "text": "Died in Constantinople at the sight of her husband’s head." }
+      {
+        "chapter": 77,
+        "text": "Died in Constantinople at the sight of her husband’s head."
+      }
     ]
   },
   {
@@ -283,14 +812,26 @@
     "group": "Greece & Yanina",
     "aliases": [],
     "tagline": [
-      { "from": 77, "text": "Ali Pasha’s faithful soldier, who guarded his gold and gunpowder." }
+      {
+        "from": 77,
+        "text": "Ali Pasha’s faithful soldier, who guarded his gold and gunpowder."
+      }
     ],
     "description": [
-      { "from": 77, "text": "Ali Pasha’s favourite soldier, who guarded a cavern of gold and gunpowder with a lit match, ready to blow it all up on Ali’s signal. He was stabbed as soon as he put out the match." },
-      { "from": 86, "text": "Haydée accuses Morcerf of having stabbed him." }
+      {
+        "from": 77,
+        "text": "Ali Pasha’s favourite soldier, who guarded a cavern of gold and gunpowder with a lit match, ready to blow it all up on Ali’s signal. He was stabbed as soon as he put out the match."
+      },
+      {
+        "from": 86,
+        "text": "Haydée accuses Morcerf of having stabbed him."
+      }
     ],
     "moments": [
-      { "chapter": 77, "text": "Put out the match on seeing Ali’s ring and was murdered." }
+      {
+        "chapter": 77,
+        "text": "Put out the match on seeing Ali’s ring and was murdered."
+      }
     ]
   },
   {
@@ -301,10 +842,16 @@
     "group": "Greece & Yanina",
     "aliases": [],
     "tagline": [
-      { "from": 77, "text": "The sultan’s commander sent to capture Ali Pasha." }
+      {
+        "from": 77,
+        "text": "The sultan’s commander sent to capture Ali Pasha."
+      }
     ],
     "description": [
-      { "from": 77, "text": "The Seraskier Kourchid was the sultan’s commander sent against Ali Pasha. His soldiers killed Selim and Ali, and he handed Vasiliki and Haydée over to their new master." }
+      {
+        "from": 77,
+        "text": "The Seraskier Kourchid was the sultan’s commander sent against Ali Pasha. His soldiers killed Selim and Ali, and he handed Vasiliki and Haydée over to their new master."
+      }
     ],
     "moments": []
   },
@@ -316,10 +863,16 @@
     "group": "Greece & Yanina",
     "aliases": [],
     "tagline": [
-      { "from": 86, "text": "The slave merchant who bought Haydée and her mother from Fernand." }
+      {
+        "from": 86,
+        "text": "The slave merchant who bought Haydée and her mother from Fernand."
+      }
     ],
     "description": [
-      { "from": 86, "text": "A slave merchant who supplied the sultan’s harem. His document records buying Vasiliki and Haydée from Fernand Mondego for 400,000 francs, and Haydée’s later purchase by the Count of Monte Cristo for an emerald." }
+      {
+        "from": 86,
+        "text": "A slave merchant who supplied the sultan’s harem. His document records buying Vasiliki and Haydée from Fernand Mondego for 400,000 francs, and Haydée’s later purchase by the Count of Monte Cristo for an emerald."
+      }
     ],
     "moments": []
   },
@@ -331,29 +884,86 @@
     "group": "Paris society",
     "aliases": [],
     "tagline": [
-      { "from": 39, "text": "Albert’s friend, a quick-witted journalist on an opposition newspaper." },
-      { "from": 78, "text": "Newspaper editor challenged by Albert over the Yanina article." },
-      { "from": 84, "text": "The journalist who proved Morcerf’s treason and offered to keep it secret." }
+      {
+        "from": 39,
+        "text": "Albert’s friend, a quick-witted journalist on an opposition newspaper."
+      },
+      {
+        "from": 78,
+        "text": "Newspaper editor challenged by Albert over the Yanina article."
+      },
+      {
+        "from": 84,
+        "text": "The journalist who proved Morcerf’s treason and offered to keep it secret."
+      }
     ],
     "description": [
-      { "from": 39, "text": "One of Albert’s friends, a journalist on an opposition paper who trades friendly political insults with Debray and is always rushing off to the Chamber of Deputies." },
-      { "from": 40, "text": "Sceptical by trade, he tries to catch the Count out, then decides the Count is a better story than any speech." },
-      { "from": 74, "text": "A cynical philosopher at heart, he doubts the Marquise de Saint-Méran really died of apoplexy." },
-      { "from": 78, "text": "As editor of l’Impartial, he refuses to retract the paragraph about Yanina under Albert’s threats, though he did not write it. He asks for three weeks to investigate, after which he will retract or fight." },
-      { "from": 84, "text": "He has secretly been to Yanina and back and found the story true. Generously, he hands Albert the only proofs to destroy and promises to keep the secret." },
-      { "from": 86, "text": "When another paper names Morcerf, he alerts Albert and watches the Chamber of Peers hearing from a hidden gallery." },
-      { "from": 87, "text": "He reveals that the banker in Yanina said Danglars had already made inquiries there, and tries to keep Albert prudent." },
-      { "from": 88, "text": "He apologizes on his own account for Albert’s insult at the Opera, then arranges the duel and serves as one of Albert’s seconds." },
-      { "from": 91, "text": "Baffled by Albert’s apology, he advises him with thin irony to leave France for a few years." },
-      { "from": 104, "text": "His newspaper hints that Villefort would have investigated the deaths in his house more closely had they happened elsewhere." }
+      {
+        "from": 39,
+        "text": "One of Albert’s friends, a journalist on an opposition paper who trades friendly political insults with Debray and is always rushing off to the Chamber of Deputies."
+      },
+      {
+        "from": 40,
+        "text": "Sceptical by trade, he tries to catch the Count out, then decides the Count is a better story than any speech."
+      },
+      {
+        "from": 74,
+        "text": "A cynical philosopher at heart, he doubts the Marquise de Saint-Méran really died of apoplexy."
+      },
+      {
+        "from": 78,
+        "text": "As editor of l’Impartial, he refuses to retract the paragraph about Yanina under Albert’s threats, though he did not write it. He asks for three weeks to investigate, after which he will retract or fight."
+      },
+      {
+        "from": 84,
+        "text": "He has secretly been to Yanina and back and found the story true. Generously, he hands Albert the only proofs to destroy and promises to keep the secret."
+      },
+      {
+        "from": 86,
+        "text": "When another paper names Morcerf, he alerts Albert and watches the Chamber of Peers hearing from a hidden gallery."
+      },
+      {
+        "from": 87,
+        "text": "He reveals that the banker in Yanina said Danglars had already made inquiries there, and tries to keep Albert prudent."
+      },
+      {
+        "from": 88,
+        "text": "He apologizes on his own account for Albert’s insult at the Opera, then arranges the duel and serves as one of Albert’s seconds."
+      },
+      {
+        "from": 91,
+        "text": "Baffled by Albert’s apology, he advises him with thin irony to leave France for a few years."
+      },
+      {
+        "from": 104,
+        "text": "His newspaper hints that Villefort would have investigated the deaths in his house more closely had they happened elsewhere."
+      }
     ],
     "moments": [
-      { "chapter": 47, "text": "Gave the Count’s bravery twenty lines in his newspaper." },
-      { "chapter": 78, "text": "Agreed to a duel with Albert after three weeks." },
-      { "chapter": 84, "text": "Gave Albert the proofs of his father’s guilt to destroy." },
-      { "chapter": 85, "text": "Sent Albert’s valet galloping to Normandy with the news." },
-      { "chapter": 86, "text": "Watched Morcerf’s hearing in secret from a gallery." },
-      { "chapter": 90, "text": "Acted as Albert’s second at the duel that ended in an apology." }
+      {
+        "chapter": 47,
+        "text": "Gave the Count’s bravery twenty lines in his newspaper."
+      },
+      {
+        "chapter": 78,
+        "text": "Agreed to a duel with Albert after three weeks."
+      },
+      {
+        "chapter": 84,
+        "text": "Gave Albert the proofs of his father’s guilt to destroy."
+      },
+      {
+        "chapter": 85,
+        "text": "Sent Albert’s valet galloping to Normandy with the news."
+      },
+      {
+        "chapter": 86,
+        "text": "Watched Morcerf’s hearing in secret from a gallery."
+      },
+      {
+        "chapter": 90,
+        "text": "Acted as Albert’s second at the duel that ended in an apology."
+      }
     ]
   },
   {
@@ -364,25 +974,70 @@
     "group": "Paris society",
     "aliases": [],
     "tagline": [
-      { "from": 39, "text": "Albert’s cool, witty friend, private secretary to the Minister of the Interior." },
-      { "from": 65, "text": "The minister’s secretary, Madame Danglars’ lover and stock-market tipster." },
-      { "from": 106, "text": "Madame Danglars’ former lover, who left her coldly once she was of no use." }
+      {
+        "from": 39,
+        "text": "Albert’s cool, witty friend, private secretary to the Minister of the Interior."
+      },
+      {
+        "from": 65,
+        "text": "The minister’s secretary, Madame Danglars’ lover and stock-market tipster."
+      },
+      {
+        "from": 106,
+        "text": "Madame Danglars’ former lover, who left her coldly once she was of no use."
+      }
     ],
     "description": [
-      { "from": 39, "text": "A tall, fair, cool young man, private secretary to the Minister of the Interior. Witty and worldly, he is one of Albert’s friends." },
-      { "from": 40, "text": "He doubts the Count exists, then promises to find out through the ministry’s police who the man really is." },
-      { "from": 47, "text": "He is a frequent and very much at-home visitor to Madame Danglars, whose boudoir they decorated together; her husband treats this as normal." },
-      { "from": 54, "text": "He lets slip that it is Madame Danglars who gambles on the stock market, and is embarrassed when Albert jokes about feeding her government news." },
-      { "from": 61, "text": "As the minister’s secretary he sees official telegraph news first, and passes it straight to Madame Danglars." },
-      { "from": 65, "text": "He is plainly Madame Danglars’ lover. Danglars accuses him of pocketing the money she made from his inside tips." },
-      { "from": 99, "text": "Friends urge him to marry Eugénie for her money, an idea he half likes but knows is hopeless." },
-      { "from": 106, "text": "He and Madame Danglars have been secret partners in speculation, turning her 100,000 francs into millions. Once she is no longer useful, he pays her share and drops her coldly, keeping over a million francs for himself." }
+      {
+        "from": 39,
+        "text": "A tall, fair, cool young man, private secretary to the Minister of the Interior. Witty and worldly, he is one of Albert’s friends."
+      },
+      {
+        "from": 40,
+        "text": "He doubts the Count exists, then promises to find out through the ministry’s police who the man really is."
+      },
+      {
+        "from": 47,
+        "text": "He is a frequent and very much at-home visitor to Madame Danglars, whose boudoir they decorated together; her husband treats this as normal."
+      },
+      {
+        "from": 54,
+        "text": "He lets slip that it is Madame Danglars who gambles on the stock market, and is embarrassed when Albert jokes about feeding her government news."
+      },
+      {
+        "from": 61,
+        "text": "As the minister’s secretary he sees official telegraph news first, and passes it straight to Madame Danglars."
+      },
+      {
+        "from": 65,
+        "text": "He is plainly Madame Danglars’ lover. Danglars accuses him of pocketing the money she made from his inside tips."
+      },
+      {
+        "from": 99,
+        "text": "Friends urge him to marry Eugénie for her money, an idea he half likes but knows is hopeless."
+      },
+      {
+        "from": 106,
+        "text": "He and Madame Danglars have been secret partners in speculation, turning her 100,000 francs into millions. Once she is no longer useful, he pays her share and drops her coldly, keeping over a million francs for himself."
+      }
     ],
     "moments": [
-      { "chapter": 39, "text": "Arrived first at Albert’s breakfast, after a night writing dispatches." },
-      { "chapter": 61, "text": "Rushed to tell the baroness that her husband must sell his Spanish bonds." },
-      { "chapter": 65, "text": "Was coolly dismissed from Madame Danglars’ rooms by her husband." },
-      { "chapter": 106, "text": "Paid Madame Danglars her share and let her go without a kind word." }
+      {
+        "chapter": 39,
+        "text": "Arrived first at Albert’s breakfast, after a night writing dispatches."
+      },
+      {
+        "chapter": 61,
+        "text": "Rushed to tell the baroness that her husband must sell his Spanish bonds."
+      },
+      {
+        "chapter": 65,
+        "text": "Was coolly dismissed from Madame Danglars’ rooms by her husband."
+      },
+      {
+        "chapter": 106,
+        "text": "Paid Madame Danglars her share and let her go without a kind word."
+      }
     ]
   },
   {
@@ -393,19 +1048,46 @@
     "group": "Paris society",
     "aliases": [],
     "tagline": [
-      { "from": 40, "text": "Albert’s well-born friend, a duellist and amateur soldier." }
+      {
+        "from": 40,
+        "text": "Albert’s well-born friend, a duellist and amateur soldier."
+      }
     ],
     "description": [
-      { "from": 40, "text": "A handsome, well-born gentleman of about thirty in Albert’s circle. He once wounded Franz d’Épinay in a duel and went to Algeria to fight “as an amateur.” He judges the Count to be a great man." },
-      { "from": 62, "text": "A fine horseman with a sharp eye, he is a regular at society gatherings and remarks on everyone." },
-      { "from": 74, "text": "He is one of Franz’s witnesses for the marriage contract." },
-      { "from": 88, "text": "He backs Albert without question in his quarrel with the count and acts as one of his seconds, finding the apology either very despicable or very noble." },
-      { "from": 109, "text": "He instinctively dislikes Madame de Villefort." },
-      { "from": 110, "text": "He remarks that Morcerf’s pistol shot seems kinder than Villefort’s public ruin." }
+      {
+        "from": 40,
+        "text": "A handsome, well-born gentleman of about thirty in Albert’s circle. He once wounded Franz d’Épinay in a duel and went to Algeria to fight “as an amateur.” He judges the Count to be a great man."
+      },
+      {
+        "from": 62,
+        "text": "A fine horseman with a sharp eye, he is a regular at society gatherings and remarks on everyone."
+      },
+      {
+        "from": 74,
+        "text": "He is one of Franz’s witnesses for the marriage contract."
+      },
+      {
+        "from": 88,
+        "text": "He backs Albert without question in his quarrel with the count and acts as one of his seconds, finding the apology either very despicable or very noble."
+      },
+      {
+        "from": 109,
+        "text": "He instinctively dislikes Madame de Villefort."
+      },
+      {
+        "from": 110,
+        "text": "He remarks that Morcerf’s pistol shot seems kinder than Villefort’s public ruin."
+      }
     ],
     "moments": [
-      { "chapter": 47, "text": "Spread the story of the Count’s bravery at the Jockey Club." },
-      { "chapter": 90, "text": "Acted as Albert’s second at the duel." }
+      {
+        "chapter": 47,
+        "text": "Spread the story of the Count’s bravery at the Jockey Club."
+      },
+      {
+        "chapter": 90,
+        "text": "Acted as Albert’s second at the duel."
+      }
     ]
   },
   {
@@ -415,32 +1097,94 @@
     "importance": "supporting",
     "group": "Paris society",
     "aliases": [
-      { "name": "Baron d’Épinay", "from": 31, "note": "his title" },
-      { "name": "Franz de Quesnel", "from": 58, "note": "his family name; his father was General de Quesnel, made Baron d’Épinay" }
+      {
+        "name": "Baron d’Épinay",
+        "from": 31,
+        "note": "his title"
+      },
+      {
+        "name": "Franz de Quesnel",
+        "from": 58,
+        "note": "his family name; his father was General de Quesnel, made Baron d’Épinay"
+      }
     ],
     "tagline": [
-      { "from": 31, "text": "Albert’s sensible friend, who meets the mysterious Sinbad on Monte Cristo." },
-      { "from": 34, "text": "Albert’s friend, uneasy about the Count of Monte Cristo after Rome." },
-      { "from": 51, "text": "Albert’s friend, engaged to marry Valentine de Villefort." },
-      { "from": 78, "text": "Albert’s friend, who broke off his engagement to Valentine." }
+      {
+        "from": 31,
+        "text": "Albert’s sensible friend, who meets the mysterious Sinbad on Monte Cristo."
+      },
+      {
+        "from": 34,
+        "text": "Albert’s friend, uneasy about the Count of Monte Cristo after Rome."
+      },
+      {
+        "from": 51,
+        "text": "Albert’s friend, engaged to marry Valentine de Villefort."
+      },
+      {
+        "from": 78,
+        "text": "Albert’s friend, who broke off his engagement to Valentine."
+      }
     ],
     "description": [
-      { "from": 31, "text": "Baron Franz d’Épinay is a young Parisian aristocrat who has lived in Italy for years and guides Albert there. Cool in danger but very curious, he dines with a mysterious host calling himself Sinbad on the island of Monte Cristo, and senses a man thirsting for revenge." },
-      { "from": 34, "text": "In Rome he pieces the clues together and realizes Sinbad is the Count of Monte Cristo. He admires the count but is repelled by his ideas and wary of him." },
-      { "from": 37, "text": "Loyal and quick-witted, he turns to the count to rescue the kidnapped Albert. Afterwards he tells Albert all he has seen, but Albert dismisses his suspicions." },
-      { "from": 51, "text": "He is Valentine de Villefort’s fiancé, a match her father insists on." },
-      { "from": 58, "text": "His mother died at his birth and his father, General de Quesnel, Baron d’Épinay, was assassinated in 1815 when Franz was two, supposedly by Bonapartists." },
-      { "from": 74, "text": "Honourable and sincere, he keeps his word to marry Valentine despite her lost inheritance, saying he seeks happiness, not money." },
-      { "from": 75, "text": "Summoned by Noirtier, he learns at last the truth about his father’s death: Noirtier killed him in a duel." },
-      { "from": 78, "text": "Shaken, he formally breaks off the engagement, writing that Villefort should have told him first. He later stands by Albert in his quarrel with the count." }
+      {
+        "from": 31,
+        "text": "Baron Franz d’Épinay is a young Parisian aristocrat who has lived in Italy for years and guides Albert there. Cool in danger but very curious, he dines with a mysterious host calling himself Sinbad on the island of Monte Cristo, and senses a man thirsting for revenge."
+      },
+      {
+        "from": 34,
+        "text": "In Rome he pieces the clues together and realizes Sinbad is the Count of Monte Cristo. He admires the count but is repelled by his ideas and wary of him."
+      },
+      {
+        "from": 37,
+        "text": "Loyal and quick-witted, he turns to the count to rescue the kidnapped Albert. Afterwards he tells Albert all he has seen, but Albert dismisses his suspicions."
+      },
+      {
+        "from": 51,
+        "text": "He is Valentine de Villefort’s fiancé, a match her father insists on."
+      },
+      {
+        "from": 58,
+        "text": "His mother died at his birth and his father, General de Quesnel, Baron d’Épinay, was assassinated in 1815 when Franz was two, supposedly by Bonapartists."
+      },
+      {
+        "from": 74,
+        "text": "Honourable and sincere, he keeps his word to marry Valentine despite her lost inheritance, saying he seeks happiness, not money."
+      },
+      {
+        "from": 75,
+        "text": "Summoned by Noirtier, he learns at last the truth about his father’s death: Noirtier killed him in a duel."
+      },
+      {
+        "from": 78,
+        "text": "Shaken, he formally breaks off the engagement, writing that Villefort should have told him first. He later stands by Albert in his quarrel with the count."
+      }
     ],
     "moments": [
-      { "chapter": 31, "text": "Dined in Sinbad’s hidden palace on Monte Cristo and tried hashish." },
-      { "chapter": 32, "text": "Searched the grotto for hours in vain for the hidden entrance." },
-      { "chapter": 34, "text": "Overheard the secret meeting in the Colosseum." },
-      { "chapter": 37, "text": "Turned to the count for help in rescuing Albert." },
-      { "chapter": 75, "text": "Read aloud the account of his father’s death, then learned Noirtier had killed him." },
-      { "chapter": 78, "text": "Broke off his engagement to Valentine." }
+      {
+        "chapter": 31,
+        "text": "Dined in Sinbad’s hidden palace on Monte Cristo and tried hashish."
+      },
+      {
+        "chapter": 32,
+        "text": "Searched the grotto for hours in vain for the hidden entrance."
+      },
+      {
+        "chapter": 34,
+        "text": "Overheard the secret meeting in the Colosseum."
+      },
+      {
+        "chapter": 37,
+        "text": "Turned to the count for help in rescuing Albert."
+      },
+      {
+        "chapter": 75,
+        "text": "Read aloud the account of his father’s death, then learned Noirtier had killed him."
+      },
+      {
+        "chapter": 78,
+        "text": "Broke off his engagement to Valentine."
+      }
     ]
   },
   {
@@ -451,10 +1195,16 @@
     "group": "The Morcerf household",
     "aliases": [],
     "tagline": [
-      { "from": 39, "text": "Albert de Morcerf’s trusted valet." }
+      {
+        "from": 39,
+        "text": "Albert de Morcerf’s trusted valet."
+      }
     ],
     "description": [
-      { "from": 39, "text": "Albert’s trusted valet, who runs his small household with an English groom named John, and announces the Count’s arrival at Albert’s breakfast." }
+      {
+        "from": 39,
+        "text": "Albert’s trusted valet, who runs his small household with an English groom named John, and announces the Count’s arrival at Albert’s breakfast."
+      }
     ],
     "moments": []
   },
@@ -466,13 +1216,22 @@
     "group": "The Morcerf household",
     "aliases": [],
     "tagline": [
-      { "from": 85, "text": "Albert’s valet, who rode to Normandy with the bad news." }
+      {
+        "from": 85,
+        "text": "Albert’s valet, who rode to Normandy with the bad news."
+      }
     ],
     "description": [
-      { "from": 85, "text": "Albert’s valet, who rides fifteen hours to bring him Beauchamp’s letter and the newspaper naming his father." }
+      {
+        "from": 85,
+        "text": "Albert’s valet, who rides fifteen hours to bring him Beauchamp’s letter and the newspaper naming his father."
+      }
     ],
     "moments": [
-      { "chapter": 85, "text": "Brought Albert the news of the second article." }
+      {
+        "chapter": 85,
+        "text": "Brought Albert the news of the second article."
+      }
     ]
   }
 ]

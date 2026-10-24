@@ -6,70 +6,246 @@
     "importance": "major",
     "group": "The Villefort household",
     "aliases": [
-      { "name": "Gérard de Villefort", "from": 7, "note": "his first name" },
-      { "name": "the king's attorney (procureur du roi)", "from": 13, "note": "his title after promotion, first at Toulouse, later in Paris" }
+      {
+        "name": "Gérard de Villefort",
+        "from": 7,
+        "note": "his first name"
+      },
+      {
+        "name": "the king's attorney (procureur du roi)",
+        "from": 13,
+        "note": "his title after promotion, first at Toulouse, later in Paris"
+      }
     ],
     "tagline": [
-      { "from": 5, "text": "The ambitious royalist deputy prosecutor handling Dantès' case in Marseilles." },
-      { "from": 7, "text": "Ambitious deputy prosecutor who buried an innocent Dantès in prison to protect his career." },
-      { "from": 13, "text": "Rising royalist magistrate, married to Renée, who kept Dantès locked away." },
-      { "from": 43, "text": "An 'upright' magistrate whom Bertuccio accuses of burying a child at Auteuil." },
-      { "from": 48, "text": "Cold, powerful king's attorney in Paris, Valentine's father and Noirtier's son." },
-      { "from": 67, "text": "Paris prosecutor haunted by his buried child and terrified Monte Cristo knows his secret." },
-      { "from": 73, "text": "King's attorney hushing up suspicious deaths in his own household." },
-      { "from": 108, "text": "Prosecutor who has unmasked his own wife as the household poisoner." },
-      { "from": 110, "text": "Disgraced prosecutor, exposed in open court as Benedetto's father." },
-      { "from": 111, "text": "Former prosecutor, driven mad by the loss of his wife and son." }
+      {
+        "from": 5,
+        "text": "The ambitious royalist deputy prosecutor handling Dantès' case in Marseilles."
+      },
+      {
+        "from": 7,
+        "text": "Ambitious deputy prosecutor who buried an innocent Dantès in prison to protect his career."
+      },
+      {
+        "from": 13,
+        "text": "Rising royalist magistrate, married to Renée, who kept Dantès locked away."
+      },
+      {
+        "from": 43,
+        "text": "An 'upright' magistrate whom Bertuccio accuses of burying a child at Auteuil."
+      },
+      {
+        "from": 48,
+        "text": "Cold, powerful king's attorney in Paris, Valentine's father and Noirtier's son."
+      },
+      {
+        "from": 67,
+        "text": "Paris prosecutor haunted by his buried child and terrified Monte Cristo knows his secret."
+      },
+      {
+        "from": 73,
+        "text": "King's attorney hushing up suspicious deaths in his own household."
+      },
+      {
+        "from": 108,
+        "text": "Prosecutor who has unmasked his own wife as the household poisoner."
+      },
+      {
+        "from": 110,
+        "text": "Disgraced prosecutor, exposed in open court as Benedetto's father."
+      },
+      {
+        "from": 111,
+        "text": "Former prosecutor, driven mad by the loss of his wife and son."
+      }
     ],
     "description": [
-      { "from": 5, "text": "The deputy prosecutor in Marseilles who takes charge of Dantès' case. He is known as a fierce royalist and an ambitious young man." },
-      { "from": 6, "text": "Young, eloquent and proud of the death sentences he wins, Villefort has given up his father's name and politics to get ahead. He is engaged to Renée de Saint-Méran, daughter of a royalist family, and leaves his own betrothal feast to examine the prisoner." },
-      { "from": 7, "text": "Gérard de Villefort is twenty-seven, rich, and practises his serious face in the mirror. He sees that Dantès is innocent, but the letter Dantès carried is addressed to his own Bonapartist father, Noirtier. To save his career he burns it, makes Dantès promise silence, and quietly arranges for him to stay locked up." },
-      { "from": 9, "text": "Sensing a political storm, he rushes to Paris to win the king's gratitude. He coldly turns away Mercédès, and feels his first pang of remorse, but ambition wins." },
-      { "from": 11, "text": "He warns Louis XVIII of Napoleon's escape from Elba, hiding his father's role, and is rewarded with the king's own cross of the Legion of Honour. Then Noirtier himself turns up at his hotel; father and son, on opposite sides, protect each other." },
-      { "from": 13, "text": "He survives Napoleon's return thanks to his father's protection, holds back Morrel's petitions, and makes sure Dantès stays buried. After Waterloo he marries Renée and becomes king's attorney at Toulouse." },
-      { "from": 28, "text": "Dantès' prison file shows his handiwork: a note in Villefort's writing brands Dantès an inveterate Bonapartist to be kept in strict solitary confinement." },
-      { "from": 43, "text": "Years later, he has the reputation of the most upright of magistrates, having served as king's attorney at Nîmes and Versailles. But Bertuccio, recognizing the Auteuil garden, calls him a villain and says he once buried a child there." },
-      { "from": 44, "text": "Bertuccio's story: in 1815 Villefort coldly refused him justice for his murdered brother. Later, at his father-in-law's house in Auteuil, Villefort secretly visited a pregnant young woman known as 'the Baroness', and one night buried a newborn in a box in the garden. Bertuccio stabbed him there, then dug up the box and found the baby still alive." },
-      { "from": 48, "text": "Villefort survived the stabbing and is now an important king's attorney in Paris, having kept his post through four revolutions. Thin, sallow, cold and rigidly correct, he is feared rather than liked. He lives with his second wife Héloïse, his daughter Valentine, his son Edward, and his paralyzed father, whose condition he believes is God's punishment for some secret sin." },
-      { "from": 58, "text": "He is determined to marry Valentine to Franz d'Épinay, and treats his father's furious opposition as an old man's whim. He visits Noirtier rarely and coldly, and darkly hints that the old man knows something about the murder of Franz's father." },
-      { "from": 62, "text": "At the Count's dinner at Auteuil his hand trembles as he arrives, and Bertuccio recognizes him as the man he stabbed in that very garden. The pregnant woman of the story was Madame Danglars, and the baby Bertuccio saved grew up to be Benedetto, now passing as Andrea Cavalcanti." },
-      { "from": 67, "text": "Alone with Madame Danglars he tells his side: he believed the baby stillborn and buried it himself, was stabbed by a Corsican, and a year later found the grave empty. He traced the child to a foundling hospital and lost the trail. Convinced Monte Cristo knows his secret, he vows to find out who the Count really is." },
-      { "from": 69, "text": "Posing as an envoy of the prefect of police, he questions the Abbé Busoni and Lord Wilmore about the Count, without learning anything that alarms him." },
-      { "from": 73, "text": "When Madame de Saint-Méran dies and Dr. d'Avrigny suspects poison, Villefort's first concern is to avoid scandal and keep his enemies from triumphing. He persuades the doctor to say nothing, and rushes Valentine's marriage contract through on the day of the funeral." },
-      { "from": 75, "text": "The engagement collapses when Noirtier proves he killed Franz's father in a duel. Villefort had always believed the general was assassinated, and Franz's harsh letter wounds his pride." },
-      { "from": 80, "text": "After Barrois dies, d'Avrigny proves poison and accuses Valentine. Villefort admits a crime has been committed but begs on his knees not to give his daughter up to justice." },
-      { "from": 99, "text": "His household lives in terror, and he admits the deaths may not have been natural. He tells the Count that condemning criminals reassures him he is not uniquely wicked, and swears before a crucifix that the culprits in his house will die, whoever they are." },
-      { "from": 102, "text": "When Valentine is found dead, the 'iron heart' of Villefort is overwhelmed by real grief for the first time." },
-      { "from": 103, "text": "Noirtier tells him privately who the murderer is. Villefort begs that the family's honour be protected and swears to take terrible revenge within three days." },
-      { "from": 108, "text": "He has known since Madame de Saint-Méran's death that a poisoner lived in his house, and after Valentine's death he no longer doubted it was his wife. To save his name from the scaffold, he orders Héloïse to take her own poison before he comes back from court." },
-      { "from": 110, "text": "At Benedetto's trial, the accused names the king's attorney as his father. Villefort admits everything, says he is in the hands of an avenging God, and leaves the court a ruined man." },
-      { "from": 111, "text": "Humbled, he rushes home resolved to save his wife and flee with her, but finds her and Edward dead. When the Count reveals he is Edmond Dantès, Villefort loses his reason and begins digging in the garden for his lost child." }
+      {
+        "from": 5,
+        "text": "The deputy prosecutor in Marseilles who takes charge of Dantès' case. He is known as a fierce royalist and an ambitious young man."
+      },
+      {
+        "from": 6,
+        "text": "Young, eloquent and proud of the death sentences he wins, Villefort has given up his father's name and politics to get ahead. He is engaged to Renée de Saint-Méran, daughter of a royalist family, and leaves his own betrothal feast to examine the prisoner."
+      },
+      {
+        "from": 7,
+        "text": "Gérard de Villefort is twenty-seven, rich, and practises his serious face in the mirror. He sees that Dantès is innocent, but the letter Dantès carried is addressed to his own Bonapartist father, Noirtier. To save his career he burns it, makes Dantès promise silence, and quietly arranges for him to stay locked up."
+      },
+      {
+        "from": 9,
+        "text": "Sensing a political storm, he rushes to Paris to win the king's gratitude. He coldly turns away Mercédès, and feels his first pang of remorse, but ambition wins."
+      },
+      {
+        "from": 11,
+        "text": "He warns Louis XVIII of Napoleon's escape from Elba, hiding his father's role, and is rewarded with the king's own cross of the Legion of Honour. Then Noirtier himself turns up at his hotel; father and son, on opposite sides, protect each other."
+      },
+      {
+        "from": 13,
+        "text": "He survives Napoleon's return thanks to his father's protection, holds back Morrel's petitions, and makes sure Dantès stays buried. After Waterloo he marries Renée and becomes king's attorney at Toulouse."
+      },
+      {
+        "from": 28,
+        "text": "Dantès' prison file shows his handiwork: a note in Villefort's writing brands Dantès an inveterate Bonapartist to be kept in strict solitary confinement."
+      },
+      {
+        "from": 43,
+        "text": "Years later, he has the reputation of the most upright of magistrates, having served as king's attorney at Nîmes and Versailles. But Bertuccio, recognizing the Auteuil garden, calls him a villain and says he once buried a child there."
+      },
+      {
+        "from": 44,
+        "text": "Bertuccio's story: in 1815 Villefort coldly refused him justice for his murdered brother. Later, at his father-in-law's house in Auteuil, Villefort secretly visited a pregnant young woman known as 'the Baroness', and one night buried a newborn in a box in the garden. Bertuccio stabbed him there, then dug up the box and found the baby still alive."
+      },
+      {
+        "from": 48,
+        "text": "Villefort survived the stabbing and is now an important king's attorney in Paris, having kept his post through four revolutions. Thin, sallow, cold and rigidly correct, he is feared rather than liked. He lives with his second wife Héloïse, his daughter Valentine, his son Edward, and his paralyzed father, whose condition he believes is God's punishment for some secret sin."
+      },
+      {
+        "from": 58,
+        "text": "He is determined to marry Valentine to Franz d'Épinay, and treats his father's furious opposition as an old man's whim. He visits Noirtier rarely and coldly, and darkly hints that the old man knows something about the murder of Franz's father."
+      },
+      {
+        "from": 62,
+        "text": "At the Count's dinner at Auteuil his hand trembles as he arrives, and Bertuccio recognizes him as the man he stabbed in that very garden. The pregnant woman of the story was Madame Danglars, and the baby Bertuccio saved grew up to be Benedetto, now passing as Andrea Cavalcanti."
+      },
+      {
+        "from": 67,
+        "text": "Alone with Madame Danglars he tells his side: he believed the baby stillborn and buried it himself, was stabbed by a Corsican, and a year later found the grave empty. He traced the child to a foundling hospital and lost the trail. Convinced Monte Cristo knows his secret, he vows to find out who the Count really is."
+      },
+      {
+        "from": 69,
+        "text": "Posing as an envoy of the prefect of police, he questions the Abbé Busoni and Lord Wilmore about the Count, without learning anything that alarms him."
+      },
+      {
+        "from": 73,
+        "text": "When Madame de Saint-Méran dies and Dr. d'Avrigny suspects poison, Villefort's first concern is to avoid scandal and keep his enemies from triumphing. He persuades the doctor to say nothing, and rushes Valentine's marriage contract through on the day of the funeral."
+      },
+      {
+        "from": 75,
+        "text": "The engagement collapses when Noirtier proves he killed Franz's father in a duel. Villefort had always believed the general was assassinated, and Franz's harsh letter wounds his pride."
+      },
+      {
+        "from": 80,
+        "text": "After Barrois dies, d'Avrigny proves poison and accuses Valentine. Villefort admits a crime has been committed but begs on his knees not to give his daughter up to justice."
+      },
+      {
+        "from": 99,
+        "text": "His household lives in terror, and he admits the deaths may not have been natural. He tells the Count that condemning criminals reassures him he is not uniquely wicked, and swears before a crucifix that the culprits in his house will die, whoever they are."
+      },
+      {
+        "from": 102,
+        "text": "When Valentine is found dead, the 'iron heart' of Villefort is overwhelmed by real grief for the first time."
+      },
+      {
+        "from": 103,
+        "text": "Noirtier tells him privately who the murderer is. Villefort begs that the family's honour be protected and swears to take terrible revenge within three days."
+      },
+      {
+        "from": 108,
+        "text": "He has known since Madame de Saint-Méran's death that a poisoner lived in his house, and after Valentine's death he no longer doubted it was his wife. To save his name from the scaffold, he orders Héloïse to take her own poison before he comes back from court."
+      },
+      {
+        "from": 110,
+        "text": "At Benedetto's trial, the accused names the king's attorney as his father. Villefort admits everything, says he is in the hands of an avenging God, and leaves the court a ruined man."
+      },
+      {
+        "from": 111,
+        "text": "Humbled, he rushes home resolved to save his wife and flee with her, but finds her and Edward dead. When the Count reveals he is Edmond Dantès, Villefort loses his reason and begins digging in the garden for his lost child."
+      }
     ],
     "moments": [
-      { "chapter": 6, "text": "Left his own betrothal feast to examine the arrested Dantès." },
-      { "chapter": 7, "text": "Burned the letter to Noirtier and made Dantès swear silence, while arranging to keep him imprisoned." },
-      { "chapter": 9, "text": "Told Mercédès coldly that Dantès was a great criminal beyond help." },
-      { "chapter": 10, "text": "Warned Louis XVIII that Napoleon was about to leave Elba." },
-      { "chapter": 11, "text": "Received the king's own Legion of Honour cross, then an unexpected visit from his father." },
-      { "chapter": 12, "text": "Destroyed his father's disguise and hurried back to Marseilles." },
-      { "chapter": 13, "text": "Married Renée de Saint-Méran after the second Restoration." },
-      { "chapter": 44, "text": "Was stabbed by Bertuccio while burying a box holding a newborn baby at Auteuil." },
-      { "chapter": 48, "text": "Visited the Count to thank him for saving his wife and son, and left shaken by their conversation." },
-      { "chapter": 58, "text": "Announced Valentine's marriage to Franz d'Épinay to the furious Noirtier." },
-      { "chapter": 62, "text": "Arrived trembling at the Count's dinner in the house at Auteuil." },
-      { "chapter": 63, "text": "Whispered to Madame Danglars that he must see her next day in his office." },
-      { "chapter": 67, "text": "Vowed to find out within a week who the Count of Monte Cristo really is." },
-      { "chapter": 69, "text": "Disguised himself as a police envoy to question the Abbé Busoni and Lord Wilmore." },
-      { "chapter": 73, "text": "Persuaded Dr. d'Avrigny to keep his suspicion of poison secret." },
-      { "chapter": 74, "text": "Rushed Franz into signing the marriage contract straight from the cemetery." },
-      { "chapter": 75, "text": "Fled the room, tempted to smother his father, after Noirtier's revelation to Franz." },
-      { "chapter": 80, "text": "Refused to give Valentine up to justice." },
-      { "chapter": 99, "text": "Swore before a crucifix that the culprits in his house would die, whoever they were." },
-      { "chapter": 103, "text": "Swore to take terrible revenge for Valentine's murder within three days." },
-      { "chapter": 108, "text": "Accused his wife of four murders and ordered her to take her own poison." },
-      { "chapter": 110, "text": "Confessed in open court that he was Benedetto's father." },
-      { "chapter": 111, "text": "Found his wife and son dead, learned the Count was Dantès, and went mad, digging in his garden for his lost child." }
+      {
+        "chapter": 6,
+        "text": "Left his own betrothal feast to examine the arrested Dantès."
+      },
+      {
+        "chapter": 7,
+        "text": "Burned the letter to Noirtier and made Dantès swear silence, while arranging to keep him imprisoned."
+      },
+      {
+        "chapter": 9,
+        "text": "Told Mercédès coldly that Dantès was a great criminal beyond help."
+      },
+      {
+        "chapter": 10,
+        "text": "Warned Louis XVIII that Napoleon was about to leave Elba."
+      },
+      {
+        "chapter": 11,
+        "text": "Received the king's own Legion of Honour cross, then an unexpected visit from his father."
+      },
+      {
+        "chapter": 12,
+        "text": "Destroyed his father's disguise and hurried back to Marseilles."
+      },
+      {
+        "chapter": 13,
+        "text": "Married Renée de Saint-Méran after the second Restoration."
+      },
+      {
+        "chapter": 44,
+        "text": "Was stabbed by Bertuccio while burying a box holding a newborn baby at Auteuil."
+      },
+      {
+        "chapter": 48,
+        "text": "Visited the Count to thank him for saving his wife and son, and left shaken by their conversation."
+      },
+      {
+        "chapter": 58,
+        "text": "Announced Valentine's marriage to Franz d'Épinay to the furious Noirtier."
+      },
+      {
+        "chapter": 62,
+        "text": "Arrived trembling at the Count's dinner in the house at Auteuil."
+      },
+      {
+        "chapter": 63,
+        "text": "Whispered to Madame Danglars that he must see her next day in his office."
+      },
+      {
+        "chapter": 67,
+        "text": "Vowed to find out within a week who the Count of Monte Cristo really is."
+      },
+      {
+        "chapter": 69,
+        "text": "Disguised himself as a police envoy to question the Abbé Busoni and Lord Wilmore."
+      },
+      {
+        "chapter": 73,
+        "text": "Persuaded Dr. d'Avrigny to keep his suspicion of poison secret."
+      },
+      {
+        "chapter": 74,
+        "text": "Rushed Franz into signing the marriage contract straight from the cemetery."
+      },
+      {
+        "chapter": 75,
+        "text": "Fled the room, tempted to smother his father, after Noirtier's revelation to Franz."
+      },
+      {
+        "chapter": 80,
+        "text": "Refused to give Valentine up to justice."
+      },
+      {
+        "chapter": 99,
+        "text": "Swore before a crucifix that the culprits in his house would die, whoever they were."
+      },
+      {
+        "chapter": 103,
+        "text": "Swore to take terrible revenge for Valentine's murder within three days."
+      },
+      {
+        "chapter": 108,
+        "text": "Accused his wife of four murders and ordered her to take her own poison."
+      },
+      {
+        "chapter": 110,
+        "text": "Confessed in open court that he was Benedetto's father."
+      },
+      {
+        "chapter": 111,
+        "text": "Found his wife and son dead, learned the Count was Dantès, and went mad, digging in his garden for his lost child."
+      }
     ]
   },
   {
@@ -79,51 +255,170 @@
     "importance": "major",
     "group": "The Villefort household",
     "aliases": [
-      { "name": "M. Noirtier de Villefort", "from": 48, "note": "his full name" },
-      { "name": "Grandpapa Noirtier", "from": 52, "note": "what the family calls him" }
+      {
+        "name": "M. Noirtier de Villefort",
+        "from": 48,
+        "note": "his full name"
+      },
+      {
+        "name": "Grandpapa Noirtier",
+        "from": 52,
+        "note": "what the family calls him"
+      }
     ],
     "tagline": [
-      { "from": 6, "text": "Villefort's father: a former revolutionary and Bonapartist senator." },
-      { "from": 7, "text": "Villefort's Bonapartist father, to whom Dantès' Elba letter was addressed." },
-      { "from": 12, "text": "Cool, fearless Bonapartist conspirator who shields his son and slips past the police." },
-      { "from": 48, "text": "Paralyzed, speechless old conspirator who speaks only with his eyes." },
-      { "from": 59, "text": "Paralyzed patriarch who disinherits Valentine to stop her marrying Franz d'Épinay." },
-      { "from": 75, "text": "Paralyzed old Bonapartist who killed Franz's father in a duel in 1815." },
-      { "from": 94, "text": "Valentine's silent protector, who has been arming her against poison." },
-      { "from": 117, "text": "Valentine's grandfather, waiting at Leghorn to bless her marriage." }
+      {
+        "from": 6,
+        "text": "Villefort's father: a former revolutionary and Bonapartist senator."
+      },
+      {
+        "from": 7,
+        "text": "Villefort's Bonapartist father, to whom Dantès' Elba letter was addressed."
+      },
+      {
+        "from": 12,
+        "text": "Cool, fearless Bonapartist conspirator who shields his son and slips past the police."
+      },
+      {
+        "from": 48,
+        "text": "Paralyzed, speechless old conspirator who speaks only with his eyes."
+      },
+      {
+        "from": 59,
+        "text": "Paralyzed patriarch who disinherits Valentine to stop her marrying Franz d'Épinay."
+      },
+      {
+        "from": 75,
+        "text": "Paralyzed old Bonapartist who killed Franz's father in a duel in 1815."
+      },
+      {
+        "from": 94,
+        "text": "Valentine's silent protector, who has been arming her against poison."
+      },
+      {
+        "from": 117,
+        "text": "Valentine's grandfather, waiting at Leghorn to bless her marriage."
+      }
     ],
     "description": [
-      { "from": 6, "text": "Villefort's father, mentioned at the royalist betrothal feast as a former Girondin revolutionary who became a senator under Napoleon and is perhaps still a Bonapartist. His son has dropped his name to escape his politics." },
-      { "from": 7, "text": "The letter Dantès carried from Elba was addressed to M. Noirtier, Rue Coq-Héron, Paris. That is why Villefort destroys it: the link to his father could ruin him." },
-      { "from": 11, "text": "He matches the police description of the man who lured the royalist General Quesnel away before his body was found in the Seine. Without warning, he walks into his son's hotel room calling him 'my dear Gérard'." },
-      { "from": 12, "text": "Witty, well informed and utterly fearless, he leads the Bonapartist club of the Rue Saint-Jacques and believes that in politics there are no murders, only obstacles removed. He shaves off his whiskers, puts on his son's clothes, and strolls past the police." },
-      { "from": 13, "text": "Powerful at Napoleon's court during the Hundred Days, he protects his son's position in return." },
-      { "from": 48, "text": "Years later he is paralyzed by a stroke and unable to speak, entirely dependent on his granddaughter Valentine. He was once a fiery Jacobin, senator and conspirator famous across Europe." },
-      { "from": 51, "text": "His mind is fully alert. He speaks with his eyes, and only Valentine can read them. He is the one person at home who truly loves her." },
-      { "from": 58, "text": "He signals yes by closing his eyes and no by blinking, and his will is as strong as ever. He detests the plan to marry Valentine to Franz d'Épinay; there was once a bitter political hatred between him and Franz's father, and Villefort hints that Noirtier knows something about that man's murder." },
-      { "from": 59, "text": "With Valentine as interpreter, he dictates a will leaving his fortune of 900,000 francs to the poor if she marries Franz. He refuses, with something like hatred, to leave anything to his son or grandson Edward." },
-      { "from": 73, "text": "He approves of Maximilian Morrel, but forbids an elopement or a duel, insisting that help will come from him alone." },
-      { "from": 75, "text": "He stops the contract by showing Franz a signed record of 5 February 1815: as president of the Bonapartist club, Noirtier killed Franz's father, General d'Épinay, in a fair duel, and was wounded three times doing it. When Franz asks who killed his father, Noirtier spells out 'myself'." },
-      { "from": 78, "text": "At Madame de Villefort's request, he makes a new will leaving everything to Valentine, on condition she never leaves him." },
-      { "from": 80, "text": "His servant Barrois dies after drinking Noirtier's lemonade. D'Avrigny believes the poison was meant for Noirtier himself, who survived only because a year of brucine treatment had accustomed his body to it." },
-      { "from": 94, "text": "He has been quietly protecting Valentine by dosing her with his own medicine, building up her resistance. When she collapses, he confirms to d'Avrigny that the hand that killed Barrois struck her too." },
-      { "from": 100, "text": "The Count believes Noirtier knows, or at least suspects, who the poisoner is." },
-      { "from": 103, "text": "After Valentine's death, he tells Villefort privately who the murderer is, and agrees to keep it secret because his son has sworn revenge." },
-      { "from": 104, "text": "After a night in which the Abbé Busoni watches over Valentine's body, Noirtier sleeps calmly, almost smiling, to everyone's surprise. He stays calm and resigned afterwards, silently reminding his son of his oath." },
-      { "from": 117, "text": "He is waiting at Leghorn to bless Valentine before her marriage to Morrel." }
+      {
+        "from": 6,
+        "text": "Villefort's father, mentioned at the royalist betrothal feast as a former Girondin revolutionary who became a senator under Napoleon and is perhaps still a Bonapartist. His son has dropped his name to escape his politics."
+      },
+      {
+        "from": 7,
+        "text": "The letter Dantès carried from Elba was addressed to M. Noirtier, Rue Coq-Héron, Paris. That is why Villefort destroys it: the link to his father could ruin him."
+      },
+      {
+        "from": 11,
+        "text": "He matches the police description of the man who lured the royalist General Quesnel away before his body was found in the Seine. Without warning, he walks into his son's hotel room calling him 'my dear Gérard'."
+      },
+      {
+        "from": 12,
+        "text": "Witty, well informed and utterly fearless, he leads the Bonapartist club of the Rue Saint-Jacques and believes that in politics there are no murders, only obstacles removed. He shaves off his whiskers, puts on his son's clothes, and strolls past the police."
+      },
+      {
+        "from": 13,
+        "text": "Powerful at Napoleon's court during the Hundred Days, he protects his son's position in return."
+      },
+      {
+        "from": 48,
+        "text": "Years later he is paralyzed by a stroke and unable to speak, entirely dependent on his granddaughter Valentine. He was once a fiery Jacobin, senator and conspirator famous across Europe."
+      },
+      {
+        "from": 51,
+        "text": "His mind is fully alert. He speaks with his eyes, and only Valentine can read them. He is the one person at home who truly loves her."
+      },
+      {
+        "from": 58,
+        "text": "He signals yes by closing his eyes and no by blinking, and his will is as strong as ever. He detests the plan to marry Valentine to Franz d'Épinay; there was once a bitter political hatred between him and Franz's father, and Villefort hints that Noirtier knows something about that man's murder."
+      },
+      {
+        "from": 59,
+        "text": "With Valentine as interpreter, he dictates a will leaving his fortune of 900,000 francs to the poor if she marries Franz. He refuses, with something like hatred, to leave anything to his son or grandson Edward."
+      },
+      {
+        "from": 73,
+        "text": "He approves of Maximilian Morrel, but forbids an elopement or a duel, insisting that help will come from him alone."
+      },
+      {
+        "from": 75,
+        "text": "He stops the contract by showing Franz a signed record of 5 February 1815: as president of the Bonapartist club, Noirtier killed Franz's father, General d'Épinay, in a fair duel, and was wounded three times doing it. When Franz asks who killed his father, Noirtier spells out 'myself'."
+      },
+      {
+        "from": 78,
+        "text": "At Madame de Villefort's request, he makes a new will leaving everything to Valentine, on condition she never leaves him."
+      },
+      {
+        "from": 80,
+        "text": "His servant Barrois dies after drinking Noirtier's lemonade. D'Avrigny believes the poison was meant for Noirtier himself, who survived only because a year of brucine treatment had accustomed his body to it."
+      },
+      {
+        "from": 94,
+        "text": "He has been quietly protecting Valentine by dosing her with his own medicine, building up her resistance. When she collapses, he confirms to d'Avrigny that the hand that killed Barrois struck her too."
+      },
+      {
+        "from": 100,
+        "text": "The Count believes Noirtier knows, or at least suspects, who the poisoner is."
+      },
+      {
+        "from": 103,
+        "text": "After Valentine's death, he tells Villefort privately who the murderer is, and agrees to keep it secret because his son has sworn revenge."
+      },
+      {
+        "from": 104,
+        "text": "After a night in which the Abbé Busoni watches over Valentine's body, Noirtier sleeps calmly, almost smiling, to everyone's surprise. He stays calm and resigned afterwards, silently reminding his son of his oath."
+      },
+      {
+        "from": 117,
+        "text": "He is waiting at Leghorn to bless Valentine before her marriage to Morrel."
+      }
     ],
     "moments": [
-      { "chapter": 11, "text": "Walked into Villefort's hotel room calling him 'my dear Gérard'." },
-      { "chapter": 12, "text": "Shaved his whiskers, put on his son's clothes and strolled past the police." },
-      { "chapter": 58, "text": "Spelled out 'notary' with Valentine's help, determined to act against the marriage." },
-      { "chapter": 59, "text": "Dictated a will leaving his fortune to the poor if Valentine marries Franz." },
-      { "chapter": 73, "text": "Promised Maximilian the contract would not be signed, and made him swear to wait." },
-      { "chapter": 74, "text": "Summoned Franz d'Épinay in the middle of the contract signing." },
-      { "chapter": 75, "text": "Spelled out 'myself' when Franz asked who killed his father." },
-      { "chapter": 78, "text": "Made Valentine his sole heir." },
-      { "chapter": 94, "text": "Revealed that he had been building up Valentine's resistance to poison." },
-      { "chapter": 102, "text": "Made Morrel understand with his eyes that something had happened to Valentine." },
-      { "chapter": 103, "text": "Revealed the culprit's name to Villefort in private." }
+      {
+        "chapter": 11,
+        "text": "Walked into Villefort's hotel room calling him 'my dear Gérard'."
+      },
+      {
+        "chapter": 12,
+        "text": "Shaved his whiskers, put on his son's clothes and strolled past the police."
+      },
+      {
+        "chapter": 58,
+        "text": "Spelled out 'notary' with Valentine's help, determined to act against the marriage."
+      },
+      {
+        "chapter": 59,
+        "text": "Dictated a will leaving his fortune to the poor if Valentine marries Franz."
+      },
+      {
+        "chapter": 73,
+        "text": "Promised Maximilian the contract would not be signed, and made him swear to wait."
+      },
+      {
+        "chapter": 74,
+        "text": "Summoned Franz d'Épinay in the middle of the contract signing."
+      },
+      {
+        "chapter": 75,
+        "text": "Spelled out 'myself' when Franz asked who killed his father."
+      },
+      {
+        "chapter": 78,
+        "text": "Made Valentine his sole heir."
+      },
+      {
+        "chapter": 94,
+        "text": "Revealed that he had been building up Valentine's resistance to poison."
+      },
+      {
+        "chapter": 102,
+        "text": "Made Morrel understand with his eyes that something had happened to Valentine."
+      },
+      {
+        "chapter": 103,
+        "text": "Revealed the culprit's name to Villefort in private."
+      }
     ]
   },
   {
@@ -134,21 +429,54 @@
     "group": "Marseille, 1815",
     "aliases": [],
     "tagline": [
-      { "from": 6, "text": "Villefort's gentle young fiancée, daughter of the royalist Saint-Mérans." },
-      { "from": 13, "text": "Villefort's bride, married after Napoleon's final defeat." },
-      { "from": 48, "text": "Villefort's late first wife and Valentine's mother." }
+      {
+        "from": 6,
+        "text": "Villefort's gentle young fiancée, daughter of the royalist Saint-Mérans."
+      },
+      {
+        "from": 13,
+        "text": "Villefort's bride, married after Napoleon's final defeat."
+      },
+      {
+        "from": 48,
+        "text": "Villefort's late first wife and Valentine's mother."
+      }
     ],
     "description": [
-      { "from": 6, "text": "Villefort's light-haired, tender-hearted fiancée. Frightened by talk of executions, she begs him to show mercy to the prisoner." },
-      { "from": 9, "text": "Upset when Villefort suddenly leaves for Paris, she comes to resent the prisoner who took him away, and does not plead for him again." },
-      { "from": 13, "text": "Her wedding is postponed during the Hundred Days, then takes place after the king's second return; Villefort soon leaves Marseilles with her." },
-      { "from": 48, "text": "She is now dead. She was Villefort's first wife and Valentine's mother, which is why Valentine is rich through her." },
-      { "from": 72, "text": "Her mother reproaches Villefort for forgetting her so soon by remarrying." },
-      { "from": 105, "text": "It was her last wish that the family vault at Père-Lachaise bear the names of both the Saint-Mérans and the Villeforts." }
+      {
+        "from": 6,
+        "text": "Villefort's light-haired, tender-hearted fiancée. Frightened by talk of executions, she begs him to show mercy to the prisoner."
+      },
+      {
+        "from": 9,
+        "text": "Upset when Villefort suddenly leaves for Paris, she comes to resent the prisoner who took him away, and does not plead for him again."
+      },
+      {
+        "from": 13,
+        "text": "Her wedding is postponed during the Hundred Days, then takes place after the king's second return; Villefort soon leaves Marseilles with her."
+      },
+      {
+        "from": 48,
+        "text": "She is now dead. She was Villefort's first wife and Valentine's mother, which is why Valentine is rich through her."
+      },
+      {
+        "from": 72,
+        "text": "Her mother reproaches Villefort for forgetting her so soon by remarrying."
+      },
+      {
+        "from": 105,
+        "text": "It was her last wish that the family vault at Père-Lachaise bear the names of both the Saint-Mérans and the Villeforts."
+      }
     ],
     "moments": [
-      { "chapter": 6, "text": "Begged Villefort to show mercy to the arrested Dantès." },
-      { "chapter": 13, "text": "Married Villefort after Waterloo." }
+      {
+        "chapter": 6,
+        "text": "Begged Villefort to show mercy to the arrested Dantès."
+      },
+      {
+        "chapter": 13,
+        "text": "Married Villefort after Waterloo."
+      }
     ]
   },
   {
@@ -159,21 +487,54 @@
     "group": "The Villefort household",
     "aliases": [],
     "tagline": [
-      { "from": 6, "text": "Renée's father, an old royalist nobleman." },
-      { "from": 51, "text": "Valentine's royalist grandfather, whose fortune she will inherit." },
-      { "from": 71, "text": "Valentine's grandfather, who died suddenly on the road to Paris." }
+      {
+        "from": 6,
+        "text": "Renée's father, an old royalist nobleman."
+      },
+      {
+        "from": 51,
+        "text": "Valentine's royalist grandfather, whose fortune she will inherit."
+      },
+      {
+        "from": 71,
+        "text": "Valentine's grandfather, who died suddenly on the road to Paris."
+      }
     ],
     "description": [
-      { "from": 6, "text": "An old royalist nobleman, father of Villefort's fiancée Renée, who toasts Louis XVIII and wants the family's political quarrels forgotten." },
-      { "from": 9, "text": "On Villefort's advice he sells his bonds and arranges the letter that gets Villefort an audience with the king. After the Restoration he stands higher at court than ever." },
-      { "from": 44, "text": "He owned the house at Auteuil, which was said to have been rented to a young widow known as 'the Baroness'. He has since sold it, to the Count." },
-      { "from": 51, "text": "He is Valentine's grandfather on her mother's side, and she is the sole heiress of him and his wife." },
-      { "from": 71, "text": "Travelling to Paris to hasten Valentine's marriage, he took his usual lozenges, fell into an unnaturally deep sleep, cried out and died. A doctor called it apoplexy." },
-      { "from": 80, "text": "After two more deaths in the household, Dr. d'Avrigny becomes convinced from his symptoms that he too was poisoned." }
+      {
+        "from": 6,
+        "text": "An old royalist nobleman, father of Villefort's fiancée Renée, who toasts Louis XVIII and wants the family's political quarrels forgotten."
+      },
+      {
+        "from": 9,
+        "text": "On Villefort's advice he sells his bonds and arranges the letter that gets Villefort an audience with the king. After the Restoration he stands higher at court than ever."
+      },
+      {
+        "from": 44,
+        "text": "He owned the house at Auteuil, which was said to have been rented to a young widow known as 'the Baroness'. He has since sold it, to the Count."
+      },
+      {
+        "from": 51,
+        "text": "He is Valentine's grandfather on her mother's side, and she is the sole heiress of him and his wife."
+      },
+      {
+        "from": 71,
+        "text": "Travelling to Paris to hasten Valentine's marriage, he took his usual lozenges, fell into an unnaturally deep sleep, cried out and died. A doctor called it apoplexy."
+      },
+      {
+        "from": 80,
+        "text": "After two more deaths in the household, Dr. d'Avrigny becomes convinced from his symptoms that he too was poisoned."
+      }
     ],
     "moments": [
-      { "chapter": 9, "text": "Arranged the letter of introduction that got Villefort to the king." },
-      { "chapter": 71, "text": "Died on the road from Marseilles while coming to Paris for Valentine's wedding." }
+      {
+        "chapter": 9,
+        "text": "Arranged the letter of introduction that got Villefort to the king."
+      },
+      {
+        "chapter": 71,
+        "text": "Died on the road from Marseilles while coming to Paris for Valentine's wedding."
+      }
     ]
   },
   {
@@ -184,20 +545,50 @@
     "group": "The Villefort household",
     "aliases": [],
     "tagline": [
-      { "from": 6, "text": "Renée's stern, fiercely royalist mother." },
-      { "from": 71, "text": "Valentine's proud grandmother, newly widowed, demanding the wedding at once." },
-      { "from": 73, "text": "Valentine's grandmother, who died suddenly days after her husband." }
+      {
+        "from": 6,
+        "text": "Renée's stern, fiercely royalist mother."
+      },
+      {
+        "from": 71,
+        "text": "Valentine's proud grandmother, newly widowed, demanding the wedding at once."
+      },
+      {
+        "from": 73,
+        "text": "Valentine's grandmother, who died suddenly days after her husband."
+      }
     ],
     "description": [
-      { "from": 6, "text": "Renée's stern, fiercely royalist mother. She keeps reminding Villefort of his father's revolutionary past and urges him to be merciless to conspirators." },
-      { "from": 51, "text": "She is Valentine's grandmother, and Valentine expects to inherit from her." },
-      { "from": 72, "text": "She arrives in Paris with the news of her husband's death. Proud and contemptuous of anyone not noble, she adores Valentine, resents Villefort's remarriage, and, feverish and sure she will die soon, demands the wedding to Franz at once. She describes a white figure that entered her room at night and touched her glass." },
-      { "from": 73, "text": "She dies after three violent convulsive attacks, her last wish being that Valentine's marriage not be delayed. Dr. d'Avrigny privately tells Villefort she was poisoned, but agrees to keep quiet." },
-      { "from": 74, "text": "She was sixty-six. Her will leaves the whole Saint-Méran fortune to Valentine, and society blames her death on grief." }
+      {
+        "from": 6,
+        "text": "Renée's stern, fiercely royalist mother. She keeps reminding Villefort of his father's revolutionary past and urges him to be merciless to conspirators."
+      },
+      {
+        "from": 51,
+        "text": "She is Valentine's grandmother, and Valentine expects to inherit from her."
+      },
+      {
+        "from": 72,
+        "text": "She arrives in Paris with the news of her husband's death. Proud and contemptuous of anyone not noble, she adores Valentine, resents Villefort's remarriage, and, feverish and sure she will die soon, demands the wedding to Franz at once. She describes a white figure that entered her room at night and touched her glass."
+      },
+      {
+        "from": 73,
+        "text": "She dies after three violent convulsive attacks, her last wish being that Valentine's marriage not be delayed. Dr. d'Avrigny privately tells Villefort she was poisoned, but agrees to keep quiet."
+      },
+      {
+        "from": 74,
+        "text": "She was sixty-six. Her will leaves the whole Saint-Méran fortune to Valentine, and society blames her death on grief."
+      }
     ],
     "moments": [
-      { "chapter": 72, "text": "Described a white figure touching her glass at night, then drank her orangeade and demanded a notary." },
-      { "chapter": 73, "text": "Died after three violent convulsive attacks." }
+      {
+        "chapter": 72,
+        "text": "Described a white figure touching her glass at night, then drank her orangeade and demanded a notary."
+      },
+      {
+        "chapter": 73,
+        "text": "Died after three violent convulsive attacks."
+      }
     ]
   },
   {
@@ -207,38 +598,117 @@
     "importance": "major",
     "group": "The Villefort household",
     "aliases": [
-      { "name": "Héloïse de Villefort", "from": 47, "note": "her first name" }
+      {
+        "name": "Héloïse de Villefort",
+        "from": 47,
+        "note": "her first name"
+      }
     ],
     "tagline": [
-      { "from": 47, "text": "Villefort's young second wife, devoted to her spoiled son Edward." },
-      { "from": 51, "text": "Valentine's smiling stepmother, who lives for her own son." },
-      { "from": 101, "text": "Valentine's stepmother, revealed as the poisoner killing so Edward will inherit." },
-      { "from": 108, "text": "Unmasked poisoner, ordered by her husband to take her own life." },
-      { "from": 111, "text": "The poisoner who died by her own hand, taking her son with her." }
+      {
+        "from": 47,
+        "text": "Villefort's young second wife, devoted to her spoiled son Edward."
+      },
+      {
+        "from": 51,
+        "text": "Valentine's smiling stepmother, who lives for her own son."
+      },
+      {
+        "from": 101,
+        "text": "Valentine's stepmother, revealed as the poisoner killing so Edward will inherit."
+      },
+      {
+        "from": 108,
+        "text": "Unmasked poisoner, ordered by her husband to take her own life."
+      },
+      {
+        "from": 111,
+        "text": "The poisoner who died by her own hand, taking her son with her."
+      }
     ],
     "description": [
-      { "from": 47, "text": "Villefort's young second wife, who dotes on her spoiled son Edward. After the Count saves them from runaway horses, she is fascinated by him and his case of remedies, and urges her husband to visit him." },
-      { "from": 51, "text": "Valentine says her stepmother hides hostility behind constant smiles, adores her own son, and has no fortune of her own." },
-      { "from": 52, "text": "She has long been fascinated by Mithridates and poisons, and knows a good deal of botany and chemistry. She keeps the Count talking about drugs and their effects, and asks for, and gets, the recipe for his elixir." },
-      { "from": 57, "text": "Valentine believes her stepmother would prefer she never married at all: if Valentine took the veil, her fortune would go to Villefort and in time to Edward. Madame de Villefort admires Monte Cristo enormously." },
-      { "from": 59, "text": "She hoped Noirtier would leave his fortune to Edward. Angry when he refuses, she still cannot hide her pleasure that Valentine has been disinherited, and keeps returning to how unfair the will is to her son." },
-      { "from": 72, "text": "When her mother-in-law arrives grieving and hostile, her presence seems to distress the old lady, so she withdraws." },
-      { "from": 78, "text": "She surprises Noirtier by visiting him, claiming she always opposed the d'Épinay marriage, and asking him to restore his fortune to Valentine." },
-      { "from": 93, "text": "When Valentine feels unwell, she tells her to go and drink a glass of water, and says she fears a serious illness." },
-      { "from": 101, "text": "The truth comes out: she is the poisoner. She creeps through Edward's room into Valentine's at night to dose her drink. The Count says she has been plotting ever since she asked him about aqua tofana in Perugia, killing so that Edward will inherit everything." },
-      { "from": 102, "text": "Standing over Valentine she feels a stir of fear and remorse, but she carefully empties and rinses the glass. She faints when d'Avrigny finds poison in it anyway." },
-      { "from": 108, "text": "Confronted by Villefort, she cannot deny the four murders. She begs for her life for Edward's sake and laughs wildly at the idea that she could ever harm him. He orders her to take her own poison before he returns." },
-      { "from": 111, "text": "Believing a good mother cannot leave her son behind, she poisoned both herself and Edward, leaving a note for her husband." }
+      {
+        "from": 47,
+        "text": "Villefort's young second wife, who dotes on her spoiled son Edward. After the Count saves them from runaway horses, she is fascinated by him and his case of remedies, and urges her husband to visit him."
+      },
+      {
+        "from": 51,
+        "text": "Valentine says her stepmother hides hostility behind constant smiles, adores her own son, and has no fortune of her own."
+      },
+      {
+        "from": 52,
+        "text": "She has long been fascinated by Mithridates and poisons, and knows a good deal of botany and chemistry. She keeps the Count talking about drugs and their effects, and asks for, and gets, the recipe for his elixir."
+      },
+      {
+        "from": 57,
+        "text": "Valentine believes her stepmother would prefer she never married at all: if Valentine took the veil, her fortune would go to Villefort and in time to Edward. Madame de Villefort admires Monte Cristo enormously."
+      },
+      {
+        "from": 59,
+        "text": "She hoped Noirtier would leave his fortune to Edward. Angry when he refuses, she still cannot hide her pleasure that Valentine has been disinherited, and keeps returning to how unfair the will is to her son."
+      },
+      {
+        "from": 72,
+        "text": "When her mother-in-law arrives grieving and hostile, her presence seems to distress the old lady, so she withdraws."
+      },
+      {
+        "from": 78,
+        "text": "She surprises Noirtier by visiting him, claiming she always opposed the d'Épinay marriage, and asking him to restore his fortune to Valentine."
+      },
+      {
+        "from": 93,
+        "text": "When Valentine feels unwell, she tells her to go and drink a glass of water, and says she fears a serious illness."
+      },
+      {
+        "from": 101,
+        "text": "The truth comes out: she is the poisoner. She creeps through Edward's room into Valentine's at night to dose her drink. The Count says she has been plotting ever since she asked him about aqua tofana in Perugia, killing so that Edward will inherit everything."
+      },
+      {
+        "from": 102,
+        "text": "Standing over Valentine she feels a stir of fear and remorse, but she carefully empties and rinses the glass. She faints when d'Avrigny finds poison in it anyway."
+      },
+      {
+        "from": 108,
+        "text": "Confronted by Villefort, she cannot deny the four murders. She begs for her life for Edward's sake and laughs wildly at the idea that she could ever harm him. He orders her to take her own poison before he returns."
+      },
+      {
+        "from": 111,
+        "text": "Believing a good mother cannot leave her son behind, she poisoned both herself and Edward, leaving a note for her husband."
+      }
     ],
     "moments": [
-      { "chapter": 47, "text": "Was rescued with her son when Madame Danglars' horses bolted at Auteuil." },
-      { "chapter": 52, "text": "Asked for, and received, the recipe for the Count's elixir." },
-      { "chapter": 63, "text": "Lent the Count her smelling bottle to revive Madame Danglars." },
-      { "chapter": 78, "text": "Asked Noirtier to make Valentine his heir again." },
-      { "chapter": 101, "text": "Was seen by Valentine pouring poison into her glass at night." },
-      { "chapter": 102, "text": "Rinsed Valentine's glass before dawn, then fainted when d'Avrigny found poison in it anyway." },
-      { "chapter": 108, "text": "Was condemned by her husband and locked in to die by her own hand." },
-      { "chapter": 111, "text": "Poisoned herself and her son Edward." }
+      {
+        "chapter": 47,
+        "text": "Was rescued with her son when Madame Danglars' horses bolted at Auteuil."
+      },
+      {
+        "chapter": 52,
+        "text": "Asked for, and received, the recipe for the Count's elixir."
+      },
+      {
+        "chapter": 63,
+        "text": "Lent the Count her smelling bottle to revive Madame Danglars."
+      },
+      {
+        "chapter": 78,
+        "text": "Asked Noirtier to make Valentine his heir again."
+      },
+      {
+        "chapter": 101,
+        "text": "Was seen by Valentine pouring poison into her glass at night."
+      },
+      {
+        "chapter": 102,
+        "text": "Rinsed Valentine's glass before dawn, then fainted when d'Avrigny found poison in it anyway."
+      },
+      {
+        "chapter": 108,
+        "text": "Was condemned by her husband and locked in to die by her own hand."
+      },
+      {
+        "chapter": 111,
+        "text": "Poisoned herself and her son Edward."
+      }
     ]
   },
   {
@@ -248,27 +718,73 @@
     "importance": "supporting",
     "group": "The Villefort household",
     "aliases": [
-      { "name": "Edward de Villefort", "from": 59, "note": "full name" }
+      {
+        "name": "Edward de Villefort",
+        "from": 59,
+        "note": "full name"
+      }
     ],
     "tagline": [
-      { "from": 47, "text": "Madame de Villefort's spoiled, crafty little son." },
-      { "from": 51, "text": "Valentine's spoiled half-brother, his mother's idol." },
-      { "from": 101, "text": "Villefort's young son, for whose inheritance the poisonings were committed." },
-      { "from": 111, "text": "Villefort's young son, poisoned by his own mother." }
+      {
+        "from": 47,
+        "text": "Madame de Villefort's spoiled, crafty little son."
+      },
+      {
+        "from": 51,
+        "text": "Valentine's spoiled half-brother, his mother's idol."
+      },
+      {
+        "from": 101,
+        "text": "Villefort's young son, for whose inheritance the poisonings were committed."
+      },
+      {
+        "from": 111,
+        "text": "Villefort's young son, poisoned by his own mother."
+      }
     ],
     "description": [
-      { "from": 47, "text": "A small, pale boy of seven or eight with a crafty look, spoiled and willful. Revived by a drop of the Count's elixir after the carriage accident, he refuses to thank Ali because he is 'too ugly'." },
-      { "from": 51, "text": "Valentine's troublesome half-brother and the object of his mother's overpowering love. He tortures the parrot and mocks his sister, and is barely scolded." },
-      { "from": 57, "text": "He inherits nothing from Valentine's mother, so he is poor beside his half-sister. He idolizes the Count, who brings him presents. Noirtier will not have him in his room and refuses to leave him anything." },
-      { "from": 93, "text": "He is still up to mischief, emptying Valentine's water decanter to make a pond for his ducks." },
-      { "from": 101, "text": "As Villefort's only son, he would eventually inherit Valentine's fortune, and the Count says the crimes in the house were committed on his account." },
-      { "from": 111, "text": "His mother, condemned by Villefort, sent for him half an hour before his father returned home. He was found dead on the sofa in her boudoir." }
+      {
+        "from": 47,
+        "text": "A small, pale boy of seven or eight with a crafty look, spoiled and willful. Revived by a drop of the Count's elixir after the carriage accident, he refuses to thank Ali because he is 'too ugly'."
+      },
+      {
+        "from": 51,
+        "text": "Valentine's troublesome half-brother and the object of his mother's overpowering love. He tortures the parrot and mocks his sister, and is barely scolded."
+      },
+      {
+        "from": 57,
+        "text": "He inherits nothing from Valentine's mother, so he is poor beside his half-sister. He idolizes the Count, who brings him presents. Noirtier will not have him in his room and refuses to leave him anything."
+      },
+      {
+        "from": 93,
+        "text": "He is still up to mischief, emptying Valentine's water decanter to make a pond for his ducks."
+      },
+      {
+        "from": 101,
+        "text": "As Villefort's only son, he would eventually inherit Valentine's fortune, and the Count says the crimes in the house were committed on his account."
+      },
+      {
+        "from": 111,
+        "text": "His mother, condemned by Villefort, sent for him half an hour before his father returned home. He was found dead on the sofa in her boudoir."
+      }
     ],
     "moments": [
-      { "chapter": 47, "text": "Was revived by one drop of the Count's red elixir." },
-      { "chapter": 74, "text": "Blurted out, 'Grandpapa Noirtier can speak now, then?'" },
-      { "chapter": 108, "text": "Was kissed and sent out of the room by his father before the confrontation with his mother." },
-      { "chapter": 111, "text": "Was found dead on a sofa in his mother's boudoir." }
+      {
+        "chapter": 47,
+        "text": "Was revived by one drop of the Count's red elixir."
+      },
+      {
+        "chapter": 74,
+        "text": "Blurted out, 'Grandpapa Noirtier can speak now, then?'"
+      },
+      {
+        "chapter": 108,
+        "text": "Was kissed and sent out of the room by his father before the confrontation with his mother."
+      },
+      {
+        "chapter": 111,
+        "text": "Was found dead on a sofa in his mother's boudoir."
+      }
     ]
   },
   {
@@ -278,53 +794,177 @@
     "importance": "major",
     "group": "The Villefort household",
     "aliases": [
-      { "name": "Mademoiselle de Villefort", "from": 48, "note": "Villefort's daughter" }
+      {
+        "name": "Mademoiselle de Villefort",
+        "from": 48,
+        "note": "Villefort's daughter"
+      }
     ],
     "tagline": [
-      { "from": 47, "text": "A young friend of Eugénie Danglars, mentioned in a letter." },
-      { "from": 48, "text": "Villefort's daughter, devoted nurse of her paralyzed grandfather." },
-      { "from": 51, "text": "Villefort's daughter, engaged to Franz but secretly in love with Maximilian Morrel." },
-      { "from": 75, "text": "Villefort's daughter, freed from her engagement to Franz, hoping to marry Maximilian." },
-      { "from": 80, "text": "Rich young heiress whom d'Avrigny suspects of a string of poisonings." },
-      { "from": 93, "text": "Villefort's daughter, struck down by poison and barely surviving." },
-      { "from": 101, "text": "Poisoning target who now knows her stepmother is trying to kill her." },
-      { "from": 102, "text": "Villefort's daughter, found dead in her bed and buried at Père-Lachaise." },
-      { "from": 117, "text": "Alive after all: her death was staged by the Count; reunited with Maximilian." }
+      {
+        "from": 47,
+        "text": "A young friend of Eugénie Danglars, mentioned in a letter."
+      },
+      {
+        "from": 48,
+        "text": "Villefort's daughter, devoted nurse of her paralyzed grandfather."
+      },
+      {
+        "from": 51,
+        "text": "Villefort's daughter, engaged to Franz but secretly in love with Maximilian Morrel."
+      },
+      {
+        "from": 75,
+        "text": "Villefort's daughter, freed from her engagement to Franz, hoping to marry Maximilian."
+      },
+      {
+        "from": 80,
+        "text": "Rich young heiress whom d'Avrigny suspects of a string of poisonings."
+      },
+      {
+        "from": 93,
+        "text": "Villefort's daughter, struck down by poison and barely surviving."
+      },
+      {
+        "from": 101,
+        "text": "Poisoning target who now knows her stepmother is trying to kill her."
+      },
+      {
+        "from": 102,
+        "text": "Villefort's daughter, found dead in her bed and buried at Père-Lachaise."
+      },
+      {
+        "from": 117,
+        "text": "Alive after all: her death was staged by the Count; reunited with Maximilian."
+      }
     ],
     "description": [
-      { "from": 47, "text": "First mentioned in a postscript to Madame de Villefort's letter, sending her love to Eugénie Danglars." },
-      { "from": 48, "text": "Villefort's daughter by his first wife, nearly eighteen. She looks after her paralyzed grandfather Noirtier." },
-      { "from": 51, "text": "She is engaged against her will to Franz d'Épinay and in love with Maximilian Morrel, whom she meets secretly at the garden gate. Neglected by her father and, she feels, quietly hated by her stepmother, her only comfort at home is her grandfather, whose eye signals only she can read." },
-      { "from": 52, "text": "Tall and graceful, with chestnut hair and blue eyes, she looks sad and has been crying. She went to Italy for her health two years ago." },
-      { "from": 57, "text": "She is rich in her own right and expects inheritances from her grandparents, which is why her stepmother once encouraged her to become a nun. She gave up the convent only because of her grandfather's despairing look. She distrusts Monte Cristo, who seems to avoid her." },
-      { "from": 59, "text": "She cares nothing for money, only for her grandfather's love. She interprets his signals for the notary as he disinherits her to block the match with Franz." },
-      { "from": 72, "text": "After her grandfather's sudden death she nurses her grandmother through a fever, not daring to mention Maximilian because of the old lady's contempt for commoners." },
-      { "from": 73, "text": "Torn between duty and love, she introduces Maximilian to Noirtier and swears by her mother's memory to run away with him rather than sign the contract." },
-      { "from": 75, "text": "When Noirtier answers Franz's question about his father's killer, she understands first; she has often seen the two scars on her grandfather's arm. The engagement is broken." },
-      { "from": 78, "text": "Freed, she tells Maximilian 'We are saved!' Noirtier makes her his heir, and with the Saint-Méran fortune she can expect a huge income." },
-      { "from": 80, "text": "It was she who carried in the lemonade that killed Barrois. D'Avrigny points out that she handled the drinks and medicines in every case and accuses her of the poisonings, though she knows nothing of it." },
-      { "from": 93, "text": "Unwell for two weeks and finding everything bitter, she has been taking spoonfuls of her grandfather's medicine on his orders. After drinking a glass of water she collapses into rigid unconsciousness." },
-      { "from": 94, "text": "She survives a heavy dose of poison, thanks to the resistance Noirtier built up in her with his medicine." },
-      { "from": 100, "text": "Still weak and troubled by night visions, she is visited by Monte Cristo, who tells her that someone has been poisoning her drinks and that he has been watching over her." },
-      { "from": 101, "text": "She learns her stepmother is the poisoner and her fortune the motive. She would rather die than denounce her, and her first thought is fear for Edward. She takes a pill from the Count's emerald box, promising to fear nothing, even if she wakes in a tomb." },
-      { "from": 102, "text": "She is found cold, rigid and breathless in her bed, and Dr. d'Avrigny pronounces her dead." },
-      { "from": 104, "text": "Her death is officially confirmed, and after a great funeral she is buried in the Saint-Méran and Villefort vault at Père-Lachaise, mourned by a crowd of young people." },
-      { "from": 117, "text": "She is alive. The Count's drug let her appear dead, and she has been waiting on the island with Haydée, whom she loves as a sister. She learns from his letter that her father is mad and her brother dead, and she is reunited with Maximilian." }
+      {
+        "from": 47,
+        "text": "First mentioned in a postscript to Madame de Villefort's letter, sending her love to Eugénie Danglars."
+      },
+      {
+        "from": 48,
+        "text": "Villefort's daughter by his first wife, nearly eighteen. She looks after her paralyzed grandfather Noirtier."
+      },
+      {
+        "from": 51,
+        "text": "She is engaged against her will to Franz d'Épinay and in love with Maximilian Morrel, whom she meets secretly at the garden gate. Neglected by her father and, she feels, quietly hated by her stepmother, her only comfort at home is her grandfather, whose eye signals only she can read."
+      },
+      {
+        "from": 52,
+        "text": "Tall and graceful, with chestnut hair and blue eyes, she looks sad and has been crying. She went to Italy for her health two years ago."
+      },
+      {
+        "from": 57,
+        "text": "She is rich in her own right and expects inheritances from her grandparents, which is why her stepmother once encouraged her to become a nun. She gave up the convent only because of her grandfather's despairing look. She distrusts Monte Cristo, who seems to avoid her."
+      },
+      {
+        "from": 59,
+        "text": "She cares nothing for money, only for her grandfather's love. She interprets his signals for the notary as he disinherits her to block the match with Franz."
+      },
+      {
+        "from": 72,
+        "text": "After her grandfather's sudden death she nurses her grandmother through a fever, not daring to mention Maximilian because of the old lady's contempt for commoners."
+      },
+      {
+        "from": 73,
+        "text": "Torn between duty and love, she introduces Maximilian to Noirtier and swears by her mother's memory to run away with him rather than sign the contract."
+      },
+      {
+        "from": 75,
+        "text": "When Noirtier answers Franz's question about his father's killer, she understands first; she has often seen the two scars on her grandfather's arm. The engagement is broken."
+      },
+      {
+        "from": 78,
+        "text": "Freed, she tells Maximilian 'We are saved!' Noirtier makes her his heir, and with the Saint-Méran fortune she can expect a huge income."
+      },
+      {
+        "from": 80,
+        "text": "It was she who carried in the lemonade that killed Barrois. D'Avrigny points out that she handled the drinks and medicines in every case and accuses her of the poisonings, though she knows nothing of it."
+      },
+      {
+        "from": 93,
+        "text": "Unwell for two weeks and finding everything bitter, she has been taking spoonfuls of her grandfather's medicine on his orders. After drinking a glass of water she collapses into rigid unconsciousness."
+      },
+      {
+        "from": 94,
+        "text": "She survives a heavy dose of poison, thanks to the resistance Noirtier built up in her with his medicine."
+      },
+      {
+        "from": 100,
+        "text": "Still weak and troubled by night visions, she is visited by Monte Cristo, who tells her that someone has been poisoning her drinks and that he has been watching over her."
+      },
+      {
+        "from": 101,
+        "text": "She learns her stepmother is the poisoner and her fortune the motive. She would rather die than denounce her, and her first thought is fear for Edward. She takes a pill from the Count's emerald box, promising to fear nothing, even if she wakes in a tomb."
+      },
+      {
+        "from": 102,
+        "text": "She is found cold, rigid and breathless in her bed, and Dr. d'Avrigny pronounces her dead."
+      },
+      {
+        "from": 104,
+        "text": "Her death is officially confirmed, and after a great funeral she is buried in the Saint-Méran and Villefort vault at Père-Lachaise, mourned by a crowd of young people."
+      },
+      {
+        "from": 117,
+        "text": "She is alive. The Count's drug let her appear dead, and she has been waiting on the island with Haydée, whom she loves as a sister. She learns from his letter that her father is mad and her brother dead, and she is reunited with Maximilian."
+      }
     ],
     "moments": [
-      { "chapter": 51, "text": "Confessed her love and unhappiness to Maximilian through the garden gate." },
-      { "chapter": 59, "text": "Interpreted Noirtier's signals as he made his will." },
-      { "chapter": 70, "text": "Signalled to Maximilian across the ballroom with her bouquet of forget-me-nots." },
-      { "chapter": 71, "text": "Fainted on hearing of her grandfather's death." },
-      { "chapter": 73, "text": "Introduced Maximilian to Noirtier and declared she would be his alone." },
-      { "chapter": 78, "text": "Told Maximilian 'We are saved!' after the engagement was broken." },
-      { "chapter": 80, "text": "Was accused of the poisonings by d'Avrigny, though innocent." },
-      { "chapter": 93, "text": "Collapsed in Noirtier's room after drinking a glass of water." },
-      { "chapter": 100, "text": "Was visited at night by the Count, who told her that her drinks were poisoned." },
-      { "chapter": 101, "text": "Swallowed a pill from the Count's emerald box, promising to fear nothing." },
-      { "chapter": 102, "text": "Was found lifeless in her bed and pronounced dead." },
-      { "chapter": 104, "text": "Was buried at Père-Lachaise after a crowded funeral." },
-      { "chapter": 117, "text": "Appeared alive at Maximilian's side." }
+      {
+        "chapter": 51,
+        "text": "Confessed her love and unhappiness to Maximilian through the garden gate."
+      },
+      {
+        "chapter": 59,
+        "text": "Interpreted Noirtier's signals as he made his will."
+      },
+      {
+        "chapter": 70,
+        "text": "Signalled to Maximilian across the ballroom with her bouquet of forget-me-nots."
+      },
+      {
+        "chapter": 71,
+        "text": "Fainted on hearing of her grandfather's death."
+      },
+      {
+        "chapter": 73,
+        "text": "Introduced Maximilian to Noirtier and declared she would be his alone."
+      },
+      {
+        "chapter": 78,
+        "text": "Told Maximilian 'We are saved!' after the engagement was broken."
+      },
+      {
+        "chapter": 80,
+        "text": "Was accused of the poisonings by d'Avrigny, though innocent."
+      },
+      {
+        "chapter": 93,
+        "text": "Collapsed in Noirtier's room after drinking a glass of water."
+      },
+      {
+        "chapter": 100,
+        "text": "Was visited at night by the Count, who told her that her drinks were poisoned."
+      },
+      {
+        "chapter": 101,
+        "text": "Swallowed a pill from the Count's emerald box, promising to fear nothing."
+      },
+      {
+        "chapter": 102,
+        "text": "Was found lifeless in her bed and pronounced dead."
+      },
+      {
+        "chapter": 104,
+        "text": "Was buried at Père-Lachaise after a crowded funeral."
+      },
+      {
+        "chapter": 117,
+        "text": "Appeared alive at Maximilian's side."
+      }
     ]
   },
   {
@@ -335,20 +975,50 @@
     "group": "The Villefort household",
     "aliases": [],
     "tagline": [
-      { "from": 58, "text": "Noirtier's faithful old servant, loyal to no other master." },
-      { "from": 79, "text": "Noirtier's devoted servant, who died after drinking his master's lemonade." }
+      {
+        "from": 58,
+        "text": "Noirtier's faithful old servant, loyal to no other master."
+      },
+      {
+        "from": 79,
+        "text": "Noirtier's devoted servant, who died after drinking his master's lemonade."
+      }
     ],
     "description": [
-      { "from": 58, "text": "Noirtier's servant of twenty-five years, who recognizes no master but Noirtier and anticipates his every wish, ignoring Villefort when he must." },
-      { "from": 73, "text": "He guards Noirtier's door, shows Maximilian out by a hidden passage, and alone knows the secret spring of his master's old desk." },
-      { "from": 74, "text": "With unusual firmness he announces to the assembled family that Noirtier demands to see Franz at once." },
-      { "from": 79, "text": "About sixty, he made Noirtier's lemonade and left it in the pantry. Hot and thirsty, he drank a glass and died in convulsions." },
-      { "from": 80, "text": "D'Avrigny says he died in another's place, poisoned by a dose meant for his master, but publicly gives the cause as apoplexy." }
+      {
+        "from": 58,
+        "text": "Noirtier's servant of twenty-five years, who recognizes no master but Noirtier and anticipates his every wish, ignoring Villefort when he must."
+      },
+      {
+        "from": 73,
+        "text": "He guards Noirtier's door, shows Maximilian out by a hidden passage, and alone knows the secret spring of his master's old desk."
+      },
+      {
+        "from": 74,
+        "text": "With unusual firmness he announces to the assembled family that Noirtier demands to see Franz at once."
+      },
+      {
+        "from": 79,
+        "text": "About sixty, he made Noirtier's lemonade and left it in the pantry. Hot and thirsty, he drank a glass and died in convulsions."
+      },
+      {
+        "from": 80,
+        "text": "D'Avrigny says he died in another's place, poisoned by a dose meant for his master, but publicly gives the cause as apoplexy."
+      }
     ],
     "moments": [
-      { "chapter": 58, "text": "Went off to fetch a notary for his master despite Villefort's objections." },
-      { "chapter": 74, "text": "Announced that Noirtier demanded to see Franz immediately." },
-      { "chapter": 79, "text": "Died in convulsions after drinking Noirtier's lemonade." }
+      {
+        "chapter": 58,
+        "text": "Went off to fetch a notary for his master despite Villefort's objections."
+      },
+      {
+        "chapter": 74,
+        "text": "Announced that Noirtier demanded to see Franz immediately."
+      },
+      {
+        "chapter": 79,
+        "text": "Died in convulsions after drinking Noirtier's lemonade."
+      }
     ]
   },
   {
@@ -358,27 +1028,73 @@
     "importance": "supporting",
     "group": "The Villefort household",
     "aliases": [
-      { "name": "Doctor d'Avrigny", "from": 73, "note": "" }
+      {
+        "name": "Doctor d'Avrigny",
+        "from": 73,
+        "note": ""
+      }
     ],
     "tagline": [
-      { "from": 72, "text": "The Villeforts' family doctor and old friend." },
-      { "from": 73, "text": "Family doctor who suspects poison in the Villefort house but agrees to keep quiet." },
-      { "from": 102, "text": "Family doctor who pronounced Valentine dead and found poison in her glass." }
+      {
+        "from": 72,
+        "text": "The Villeforts' family doctor and old friend."
+      },
+      {
+        "from": 73,
+        "text": "Family doctor who suspects poison in the Villefort house but agrees to keep quiet."
+      },
+      {
+        "from": 102,
+        "text": "Family doctor who pronounced Valentine dead and found poison in her glass."
+      }
     ],
     "description": [
-      { "from": 72, "text": "A brilliant doctor and old friend of the family who was present at Valentine's birth. He has a daughter, Madeleine. He finds the marquise's symptoms strange." },
-      { "from": 73, "text": "He is convinced Madame de Saint-Méran died of brucine or strychnine, poisons that mimic tetanus; he has been giving Noirtier brucine as treatment. He agrees to keep silent but warns Villefort that the evil may not stop." },
-      { "from": 79, "text": "When Barrois dies, he questions everyone and proves with syrup of violets that the lemonade was poisoned, linking the death to the marquise's." },
-      { "from": 80, "text": "He believes the poison was meant for Noirtier, protected by his brucine treatment, and accuses Valentine because she gains from every death. When Villefort refuses to act, he agrees to keep silent but vows never to return to the house." },
-      { "from": 94, "text": "He comes back when Valentine collapses, is astonished she survives, and works out how Noirtier has been protecting her. He orders that no one give her anything without his instructions." },
-      { "from": 102, "text": "He declares Valentine dead and, testing her drink, identifies a new poison. He regrets that his earlier silence encouraged the murderer, but agrees to keep the secret and arranges the formalities." }
+      {
+        "from": 72,
+        "text": "A brilliant doctor and old friend of the family who was present at Valentine's birth. He has a daughter, Madeleine. He finds the marquise's symptoms strange."
+      },
+      {
+        "from": 73,
+        "text": "He is convinced Madame de Saint-Méran died of brucine or strychnine, poisons that mimic tetanus; he has been giving Noirtier brucine as treatment. He agrees to keep silent but warns Villefort that the evil may not stop."
+      },
+      {
+        "from": 79,
+        "text": "When Barrois dies, he questions everyone and proves with syrup of violets that the lemonade was poisoned, linking the death to the marquise's."
+      },
+      {
+        "from": 80,
+        "text": "He believes the poison was meant for Noirtier, protected by his brucine treatment, and accuses Valentine because she gains from every death. When Villefort refuses to act, he agrees to keep silent but vows never to return to the house."
+      },
+      {
+        "from": 94,
+        "text": "He comes back when Valentine collapses, is astonished she survives, and works out how Noirtier has been protecting her. He orders that no one give her anything without his instructions."
+      },
+      {
+        "from": 102,
+        "text": "He declares Valentine dead and, testing her drink, identifies a new poison. He regrets that his earlier silence encouraged the murderer, but agrees to keep the secret and arranges the formalities."
+      }
     ],
     "moments": [
-      { "chapter": 73, "text": "Agreed to stay silent about the poisoning but warned Villefort to watch carefully." },
-      { "chapter": 79, "text": "Proved Barrois had been poisoned." },
-      { "chapter": 80, "text": "Accused Valentine of the poisonings, then withdrew from the house." },
-      { "chapter": 94, "text": "Returned to treat Valentine and took charge of everything she drank." },
-      { "chapter": 102, "text": "Declared Valentine dead and found poison in her glass." }
+      {
+        "chapter": 73,
+        "text": "Agreed to stay silent about the poisoning but warned Villefort to watch carefully."
+      },
+      {
+        "chapter": 79,
+        "text": "Proved Barrois had been poisoned."
+      },
+      {
+        "chapter": 80,
+        "text": "Accused Valentine of the poisonings, then withdrew from the house."
+      },
+      {
+        "chapter": 94,
+        "text": "Returned to treat Valentine and took charge of everything she drank."
+      },
+      {
+        "chapter": 102,
+        "text": "Declared Valentine dead and found poison in her glass."
+      }
     ]
   },
   {
@@ -389,13 +1105,22 @@
     "group": "Royal court & politics",
     "aliases": [],
     "tagline": [
-      { "from": 6, "text": "Saint-Méran family friend and chamberlain to the king's brother." }
+      {
+        "from": 6,
+        "text": "Saint-Méran family friend and chamberlain to the king's brother."
+      }
     ],
     "description": [
-      { "from": 6, "text": "An old friend of the Saint-Mérans and chamberlain to the king's brother, who reports that Louis XVIII has praised Villefort. His letter of recommendation gets Villefort his audience with the king." }
+      {
+        "from": 6,
+        "text": "An old friend of the Saint-Mérans and chamberlain to the king's brother, who reports that Louis XVIII has praised Villefort. His letter of recommendation gets Villefort his audience with the king."
+      }
     ],
     "moments": [
-      { "chapter": 9, "text": "Wrote the letter that got Villefort access to the king." }
+      {
+        "chapter": 9,
+        "text": "Wrote the letter that got Villefort access to the king."
+      }
     ]
   },
   {
@@ -406,19 +1131,46 @@
     "group": "Royal court & politics",
     "aliases": [],
     "tagline": [
-      { "from": 6, "text": "The restored Bourbon king of France." },
-      { "from": 11, "text": "The witty Bourbon king, caught off guard by Napoleon's return from Elba." }
+      {
+        "from": 6,
+        "text": "The restored Bourbon king of France."
+      },
+      {
+        "from": 11,
+        "text": "The witty Bourbon king, caught off guard by Napoleon's return from Elba."
+      }
     ],
     "description": [
-      { "from": 6, "text": "The restored Bourbon king, toasted by the royalists of Marseilles, who reportedly approves of Villefort's marriage." },
-      { "from": 10, "text": "A witty, scholarly king who annotates Horace and laughs off warnings. He knows who Villefort's father is but values the son's zeal." },
-      { "from": 11, "text": "Humiliated to learn of Napoleon's landing only by telegraph, he turns bitterly on his ministers and rewards Villefort with his own cross of the Legion of Honour." },
-      { "from": 13, "text": "He flees during the Hundred Days and is restored after Waterloo." }
+      {
+        "from": 6,
+        "text": "The restored Bourbon king, toasted by the royalists of Marseilles, who reportedly approves of Villefort's marriage."
+      },
+      {
+        "from": 10,
+        "text": "A witty, scholarly king who annotates Horace and laughs off warnings. He knows who Villefort's father is but values the son's zeal."
+      },
+      {
+        "from": 11,
+        "text": "Humiliated to learn of Napoleon's landing only by telegraph, he turns bitterly on his ministers and rewards Villefort with his own cross of the Legion of Honour."
+      },
+      {
+        "from": 13,
+        "text": "He flees during the Hundred Days and is restored after Waterloo."
+      }
     ],
     "moments": [
-      { "chapter": 10, "text": "Received Villefort's warning that Napoleon was about to leave Elba." },
-      { "chapter": 11, "text": "Gave Villefort his own Legion of Honour cross." },
-      { "chapter": 13, "text": "Returned to the throne after Waterloo." }
+      {
+        "chapter": 10,
+        "text": "Received Villefort's warning that Napoleon was about to leave Elba."
+      },
+      {
+        "chapter": 11,
+        "text": "Gave Villefort his own Legion of Honour cross."
+      },
+      {
+        "chapter": 13,
+        "text": "Returned to the throne after Waterloo."
+      }
     ]
   },
   {
@@ -429,10 +1181,16 @@
     "group": "Royal court & politics",
     "aliases": [],
     "tagline": [
-      { "from": 10, "text": "Louis XVIII's devoted, anxious adviser, who brings Villefort to the king." }
+      {
+        "from": 10,
+        "text": "Louis XVIII's devoted, anxious adviser, who brings Villefort to the king."
+      }
     ],
     "description": [
-      { "from": 10, "text": "The king's devoted and anxious adviser, who senses a Bonapartist plot and brings Villefort to the king. He is proved right, and the king praises him for persisting." }
+      {
+        "from": 10,
+        "text": "The king's devoted and anxious adviser, who senses a Bonapartist plot and brings Villefort to the king. He is proved right, and the king praises him for persisting."
+      }
     ],
     "moments": []
   },
@@ -444,10 +1202,16 @@
     "group": "Royal court & politics",
     "aliases": [],
     "tagline": [
-      { "from": 10, "text": "Louis XVIII's overconfident minister of police." }
+      {
+        "from": 10,
+        "text": "Louis XVIII's overconfident minister of police."
+      }
     ],
     "description": [
-      { "from": 10, "text": "The minister of police, who confidently reports that Napoleon is bored and perhaps going mad on Elba. Disgraced when Napoleon lands, he is grateful to Villefort for defending him." }
+      {
+        "from": 10,
+        "text": "The minister of police, who confidently reports that Napoleon is bored and perhaps going mad on Elba. Disgraced when Napoleon lands, he is grateful to Villefort for defending him."
+      }
     ],
     "moments": []
   },
@@ -458,20 +1222,50 @@
     "importance": "minor",
     "group": "Royal court & politics",
     "aliases": [
-      { "name": "General d'Épinay", "from": 60, "note": "the Count identifies Franz d'Épinay as the son of General de Quesnel, created Baron d'Épinay" },
-      { "name": "General Flavien de Quesnel, Baron d'Épinay", "from": 75, "note": "his full name, in Noirtier's account of his death" }
+      {
+        "name": "General d'Épinay",
+        "from": 60,
+        "note": "the Count identifies Franz d'Épinay as the son of General de Quesnel, created Baron d'Épinay"
+      },
+      {
+        "name": "General Flavien de Quesnel, Baron d'Épinay",
+        "from": 75,
+        "note": "his full name, in Noirtier's account of his death"
+      }
     ],
     "tagline": [
-      { "from": 11, "text": "A royalist general who vanished after visiting a Bonapartist club." },
-      { "from": 60, "text": "Royalist general, Franz d'Épinay's father, killed after a Bonapartist meeting in 1815." },
-      { "from": 75, "text": "Franz's father, killed by Noirtier in a duel in 1815." }
+      {
+        "from": 11,
+        "text": "A royalist general who vanished after visiting a Bonapartist club."
+      },
+      {
+        "from": 60,
+        "text": "Royalist general, Franz d'Épinay's father, killed after a Bonapartist meeting in 1815."
+      },
+      {
+        "from": 75,
+        "text": "Franz's father, killed by Noirtier in a duel in 1815."
+      }
     ],
     "description": [
-      { "from": 11, "text": "A general loyal to the king who disappeared after visiting a Bonapartist club in the Rue Saint-Jacques and was found in the Seine. The police believe he was murdered." },
-      { "from": 12, "text": "Noirtier tells his son the general heard the club's plans, declared himself a royalist, reluctantly swore an oath, and 'lost his way' on leaving. His words strongly suggest the general was killed." },
-      { "from": 60, "text": "He was Franz d'Épinay's father, later known as General d'Épinay (see that entry)." }
+      {
+        "from": 11,
+        "text": "A general loyal to the king who disappeared after visiting a Bonapartist club in the Rue Saint-Jacques and was found in the Seine. The police believe he was murdered."
+      },
+      {
+        "from": 12,
+        "text": "Noirtier tells his son the general heard the club's plans, declared himself a royalist, reluctantly swore an oath, and 'lost his way' on leaving. His words strongly suggest the general was killed."
+      },
+      {
+        "from": 60,
+        "text": "He was Franz d'Épinay's father, later known as General d'Épinay (see that entry)."
+      }
     ],
-    "moments": []
+    "moments": [],
+    "mergedInto": {
+      "id": "general-depinay",
+      "from": 60
+    }
   },
   {
     "id": "general-depinay",
@@ -480,22 +1274,55 @@
     "importance": "supporting",
     "group": "Royal court & politics",
     "aliases": [
-      { "name": "General d'Épinay", "from": 60, "note": "" },
-      { "name": "General de Quesnel", "from": 60, "note": "the Count calls Franz the son of General de Quesnel, created Baron d'Épinay; the same general whose disappearance is reported in ch 11" },
-      { "name": "General Flavien de Quesnel, Baron d'Épinay", "from": 75, "note": "his full name" }
+      {
+        "name": "General d'Épinay",
+        "from": 60,
+        "note": ""
+      },
+      {
+        "name": "General de Quesnel",
+        "from": 60,
+        "note": "the Count calls Franz the son of General de Quesnel, created Baron d'Épinay; the same general whose disappearance is reported in ch 11"
+      },
+      {
+        "name": "General Flavien de Quesnel, Baron d'Épinay",
+        "from": 75,
+        "note": "his full name"
+      }
     ],
     "tagline": [
-      { "from": 58, "text": "Franz d'Épinay's father, assassinated in 1815; Noirtier's old political enemy." },
-      { "from": 60, "text": "Franz's father, the royalist General de Quesnel, killed after a Bonapartist meeting." },
-      { "from": 75, "text": "Franz's father, killed by Noirtier in a fair duel in February 1815." }
+      {
+        "from": 58,
+        "text": "Franz d'Épinay's father, assassinated in 1815; Noirtier's old political enemy."
+      },
+      {
+        "from": 60,
+        "text": "Franz's father, the royalist General de Quesnel, killed after a Bonapartist meeting."
+      },
+      {
+        "from": 75,
+        "text": "Franz's father, killed by Noirtier in a fair duel in February 1815."
+      }
     ],
     "description": [
-      { "from": 58, "text": "Franz d'Épinay's father, assassinated in 1815; his killers were never found. He and Noirtier were bitter political enemies." },
-      { "from": 60, "text": "He was General de Quesnel, created Baron d'Épinay, who served under Napoleon but kept royalist sympathies. He was killed one evening after leaving a Bonapartist meeting he had been invited to, the same disappearance the police were investigating in 1815. Villefort calls him a friend." },
-      { "from": 75, "text": "Noirtier's signed record tells the truth: invited to the Bonapartist club, the general refused to break his oath to Louis XVIII, was made to swear silence, then insulted the club's president, Noirtier. They fought a fair duel on the Quai des Ormes on 5 February 1815; the general was killed and his body thrown into the river." }
+      {
+        "from": 58,
+        "text": "Franz d'Épinay's father, assassinated in 1815; his killers were never found. He and Noirtier were bitter political enemies."
+      },
+      {
+        "from": 60,
+        "text": "He was General de Quesnel, created Baron d'Épinay, who served under Napoleon but kept royalist sympathies. He was killed one evening after leaving a Bonapartist meeting he had been invited to, the same disappearance the police were investigating in 1815. Villefort calls him a friend."
+      },
+      {
+        "from": 75,
+        "text": "Noirtier's signed record tells the truth: invited to the Bonapartist club, the general refused to break his oath to Louis XVIII, was made to swear silence, then insulted the club's president, Noirtier. They fought a fair duel on the Quai des Ormes on 5 February 1815; the general was killed and his body thrown into the river."
+      }
     ],
     "moments": [
-      { "chapter": 75, "text": "Was revealed to have died in a duel with Noirtier, not by assassination." }
+      {
+        "chapter": 75,
+        "text": "Was revealed to have died in a duel with Noirtier, not by assassination."
+      }
     ]
   },
   {
@@ -506,13 +1333,22 @@
     "group": "The Villefort household",
     "aliases": [],
     "tagline": [
-      { "from": 59, "text": "The Villefort family notary." }
+      {
+        "from": 59,
+        "text": "The Villefort family notary."
+      }
     ],
     "description": [
-      { "from": 59, "text": "The Villefort family notary, who takes charge of Noirtier's sealed will. He later presides over the signing of Valentine's marriage contract and tells Franz about the will." }
+      {
+        "from": 59,
+        "text": "The Villefort family notary, who takes charge of Noirtier's sealed will. He later presides over the signing of Valentine's marriage contract and tells Franz about the will."
+      }
     ],
     "moments": [
-      { "chapter": 74, "text": "Presided over the interrupted signing of Valentine's marriage contract." }
+      {
+        "chapter": 74,
+        "text": "Presided over the interrupted signing of Valentine's marriage contract."
+      }
     ]
   },
   {
@@ -523,13 +1359,22 @@
     "group": "Paris society",
     "aliases": [],
     "tagline": [
-      { "from": 61, "text": "Gentle signal-tower operator whom the Count bribes to send false news." }
+      {
+        "from": 61,
+        "text": "Gentle signal-tower operator whom the Count bribes to send false news."
+      }
     ],
     "description": [
-      { "from": 61, "text": "A poor, gentle man of fifty-five who has worked the Montlhéry signal tower for fifteen years at 1,000 francs a year. He loves his tiny garden and his war on the dormice, and repeats signals without understanding them. The Count pays him to send a false message." }
+      {
+        "from": 61,
+        "text": "A poor, gentle man of fifty-five who has worked the Montlhéry signal tower for fifteen years at 1,000 francs a year. He loves his tiny garden and his war on the dormice, and repeats signals without understanding them. The Count pays him to send a false message."
+      }
     ],
     "moments": [
-      { "chapter": 61, "text": "Sent the Count's false signals, then fainted with emotion." }
+      {
+        "chapter": 61,
+        "text": "Sent the Count's false signals, then fainted with emotion."
+      }
     ]
   }
 ]
