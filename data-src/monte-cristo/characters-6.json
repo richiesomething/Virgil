@@ -70,7 +70,7 @@
     "tagline": [
       {
         "from": 1,
-        "text": "Fishing village outside Marseilles where Mercédès lives."
+        "text": "Village outside Marseilles where Dantès's sweetheart, Mercédès, lives."
       },
       {
         "from": 3,
@@ -139,8 +139,12 @@
         "text": "At La Réserve, Danglars writes it with his left hand to disguise his writing. It tells the king's prosecutor that Dantès carries a letter from Murat to Napoleon and another from Napoleon to the Bonapartist club in Paris. Danglars pretends it is a joke and throws it away, but Fernand picks it up."
       },
       {
+        "from": 6,
+        "text": "Delivered to the king's attorney's office, it reaches the deputy prosecutor Villefort, who reads it aloud at his betrothal feast before going to examine the prisoner."
+      },
+      {
         "from": 7,
-        "text": "The letter reaches Villefort, who questions Dantès about its charges and then has to deal with the letter Dantès really was carrying."
+        "text": "Villefort shows the letter to Dantès during his examination and questions him about its charges, then has to deal with the letter Dantès really was carrying."
       },
       {
         "from": 17,
@@ -152,7 +156,7 @@
       },
       {
         "from": 28,
-        "text": "Posing as a Thomson & French clerk, Dantès finds it in his prison file and secretly pockets it."
+        "text": "A man posing as a clerk of the Roman bank Thomson & French finds it in Dantès’s prison file and secretly pockets it."
       }
     ],
     "moments": [
@@ -165,8 +169,12 @@
         "text": "Dantès is arrested at his wedding feast on a Bonapartist charge."
       },
       {
+        "chapter": 6,
+        "text": "Villefort reads it aloud at his betrothal feast."
+      },
+      {
         "chapter": 7,
-        "text": "Villefort reads the accusation while examining Dantès."
+        "text": "Villefort shows it to Dantès while examining him."
       },
       {
         "chapter": 17,
@@ -409,7 +417,7 @@
       },
       {
         "from": 40,
-        "text": "Albert tells Paris that the Count bought the island and took his title from it."
+        "text": "At Albert's breakfast in Paris, Maximilian Morrel describes Monte Cristo as a tiny island his father's old sailors spoke of, and Albert says the Count is its lord and master, having bought his title of count in Tuscany."
       }
     ],
     "moments": [
@@ -707,7 +715,7 @@
       },
       {
         "from": 52,
-        "text": "The Count's elixir: one drop revives, ten would kill."
+        "text": "The Count's elixir: one drop revives, a few more would kill."
       }
     ],
     "description": [
@@ -717,7 +725,7 @@
       },
       {
         "from": 52,
-        "text": "The Count tells Madame de Villefort that one drop restores life, while ten would kill, and credits it to his friend the Abbé Adelmonte. After her eager questions about poisons, he offers her the preparation, warning that a small dose is a remedy and a large one a poison."
+        "text": "The Count tells Madame de Villefort that one drop revived her son but ten would have killed him, and credits the preparation to his friend the Abbé Adelmonte. After her eager questions about poisons, he offers it to her, warning that a small dose is a remedy and a large one a poison: five or six drops would kill, and in a glass of wine would not change its taste."
       }
     ],
     "moments": [
