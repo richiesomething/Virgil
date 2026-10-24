@@ -1,0 +1,3 @@
+[{"id":"edmond-dantes","name":"Edmond Dantès","firstChapter":1,"importance":"major","group":"Marseille","aliases":[{"name":"Sinbad the Sailor","from":2}],"tagline":[{"from":1,"text":"A young sailor."}],"description":[{"from":1,"text":"Placeholder."},{"from":2,"text":"Later info."}],"moments":[{"chapter":1,"text":"Brought the ship home."}]},
+ {"id":"danglars","name":"Danglars","firstChapter":1,"importance":"major","group":"Marseille","aliases":[],"tagline":[{"from":1,"text":"The supercargo."}],"description":[],"moments":[]},
+ {"id":"louis-dantes","name":"Louis Dantès","firstChapter":2,"importance":"supporting","group":"Marseille","aliases":[],"tagline":[{"from":2,"text":"Edmond's father."}],"description":[],"moments":[]}]
