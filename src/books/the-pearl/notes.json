@@ -1,1 +1,204 @@
-[]
+[
+  {
+    "id": "parable",
+    "term": "parable",
+    "kind": "reference",
+    "chapter": 1,
+    "text": "A simple story told to teach a lesson. Steinbeck heard a version of this tale, a local folk story, in La Paz during a 1940 marine-biology voyage, and his opening invites readers to find their own meaning in it."
+  },
+  {
+    "id": "la-paz",
+    "term": "La Paz",
+    "kind": "place",
+    "chapter": 1,
+    "text": "The unnamed town is modelled on La Paz, near the southern tip of Mexico's Baja California peninsula, on the Gulf of California. In the 1940s it was a small, remote port long famous for its pearls."
+  },
+  {
+    "id": "the-songs",
+    "term": "the Songs",
+    "kind": "reference",
+    "chapter": 1,
+    "text": "Steinbeck's own device: Kino's people once made songs for everything, and he still hears them in his head. The Song of the Family means wholeness and safety; the Song of Evil, or of the Enemy, signals danger. Listen for which song is playing.",
+    "seeAlso": [
+      2,
+      3,
+      4,
+      6
+    ]
+  },
+  {
+    "id": "brush-house",
+    "term": "brush house",
+    "kind": "custom",
+    "chapter": 1,
+    "text": "A hut with walls of woven sticks and brush under a thatched roof: the home of the poorest fishing families, who live on the beach at the edge of the stone-and-plaster town."
+  },
+  {
+    "id": "corncakes-and-pulque",
+    "term": "corncakes and pulque",
+    "kind": "foreign",
+    "chapter": 1,
+    "text": "The corncakes are tortillas, the everyday flatbread of Mexico, cooked on a clay griddle. Pulque is a milky, mildly alcoholic drink made from fermented agave sap, brewed since long before the Spanish arrived."
+  },
+  {
+    "id": "coyotito",
+    "term": "Coyotito",
+    "kind": "foreign",
+    "chapter": 1,
+    "text": "Spanish: 'little coyote', a diminutive and affectionate name. The coyote is the wild dog of Mexico's deserts."
+  },
+  {
+    "id": "head-shawl-rebozo",
+    "term": "head shawl (rebozo)",
+    "kind": "foreign",
+    "chapter": 1,
+    "text": "Juana's long shawl, the rebozo worn by Mexican women for centuries: as a head covering, a sling for a baby and a wrap against the cold."
+  },
+  {
+    "id": "hail-marys-and-ancient-magic",
+    "term": "Hail Marys and ancient magic",
+    "kind": "custom",
+    "chapter": 1,
+    "text": "Juana prays both Catholic prayers and older charms. Spanish missionaries converted Mexico's Indigenous peoples, but many communities blended the new faith with far older beliefs."
+  },
+  {
+    "id": "the-doctor-s-race",
+    "term": "the doctor's race",
+    "kind": "history",
+    "chapter": 1,
+    "text": "Spain conquered Mexico in the 1500s. Four centuries later, race and class still largely coincided: descendants of the Spanish colonists held wealth and power in town, while Indigenous families like Kino's lived poor on its edges."
+  },
+  {
+    "id": "the-old-language",
+    "term": "the old language",
+    "kind": "history",
+    "chapter": 1,
+    "text": "Kino's people still speak an Indigenous language among themselves; Spanish is the language of the rulers. Answering only in Spanish is a way of putting distance between oneself and one's origins."
+  },
+  {
+    "id": "pearl-diving",
+    "term": "pearl diving",
+    "kind": "custom",
+    "chapter": 2,
+    "text": "Divers like Kino worked without any breathing gear: a heavy stone took them straight to the bottom, where they filled a basket with oysters on a single breath held for around two minutes, then shot back up."
+  },
+  {
+    "id": "pearls-and-the-king-of-spain",
+    "term": "pearls and the King of Spain",
+    "kind": "history",
+    "chapter": 2,
+    "text": "Steinbeck isn't exaggerating: from the 1500s onward, pearls from these Gulf beds were shipped to Spain, adding to the crown's wealth and decorating its churches. Centuries of harvesting left them much depleted."
+  },
+  {
+    "id": "how-a-pearl-forms",
+    "term": "how a pearl forms",
+    "kind": "word",
+    "chapter": 2,
+    "text": "When a grain of sand or a parasite gets inside an oyster, the oyster coats it in layer upon layer of smooth nacre (mother-of-pearl). Most pearls are small or misshapen; a large, perfect one is extraordinarily rare."
+  },
+  {
+    "id": "poultice",
+    "term": "poultice",
+    "kind": "word",
+    "chapter": 2,
+    "text": "A soft, moist mass of plant matter pressed onto a wound or swelling to draw out poison or reduce inflammation. Juana's brown seaweed poultice is traditional folk medicine."
+  },
+  {
+    "id": "colonial-animal",
+    "term": "colonial animal",
+    "kind": "reference",
+    "chapter": 3,
+    "text": "Steinbeck was a keen amateur marine biologist. Some sea creatures, like corals, are colonies of many small organisms joined so closely they act as one body: his image for how a town thinks and feels."
+  },
+  {
+    "id": "church-wedding",
+    "term": "church wedding",
+    "kind": "custom",
+    "chapter": 3,
+    "text": "Priests charged fees for weddings and baptisms that the poorest families often couldn't afford, so many couples lived together for years without a church marriage. That is why the wedding matters so much to Kino."
+  },
+  {
+    "id": "the-rifle",
+    "term": "the rifle",
+    "kind": "custom",
+    "chapter": 3,
+    "text": "For a poor fisherman, a rifle was an almost unthinkable possession: a mark of status, independence and power, the kind of thing only better-off men owned."
+  },
+  {
+    "id": "schooling",
+    "term": "schooling",
+    "kind": "history",
+    "chapter": 3,
+    "text": "In 1940s rural Mexico many poor and Indigenous people never learned to read. Kino understands that literacy is power: someone who can read contracts and do sums is much harder to cheat."
+  },
+  {
+    "id": "alms",
+    "term": "alms",
+    "kind": "word",
+    "chapter": 3,
+    "text": "Money or food given to the poor as charity. The beggars outside the church live on alms, and a rich man is a generous man, they hope."
+  },
+  {
+    "id": "pesos",
+    "term": "pesos",
+    "kind": "money",
+    "chapter": 4,
+    "text": "Mexico's currency. In the 1940s a peso was worth roughly 20 US cents, so 1,000 pesos was about $200 then (a few thousand dollars today). Fifty thousand pesos would have been a fortune to a man who usually saw almost no cash."
+  },
+  {
+    "id": "a-single-buyer",
+    "term": "a single buyer",
+    "kind": "custom",
+    "chapter": 4,
+    "text": "If all the buyers secretly work for one man, they aren't really competing, and the seller has no way to get a fair price. Economists call a market with only one buyer a monopsony."
+  },
+  {
+    "id": "the-priest-s-sermon",
+    "term": "the priest's sermon",
+    "kind": "custom",
+    "chapter": 4,
+    "text": "The townspeople remember a yearly sermon: each person is like a soldier God has placed to guard part of the universe, and must not leave his post. For centuries such teaching urged the poor to accept their place in life."
+  },
+  {
+    "id": "breaking-a-boat",
+    "term": "breaking a boat",
+    "kind": "custom",
+    "chapter": 5,
+    "text": "For a fisherman the canoe is his living and his family's inheritance. Steinbeck says his people think it worse to kill a boat than a man, since a boat has no sons and cannot protect itself."
+  },
+  {
+    "id": "lament-for-the-dead",
+    "term": "lament for the dead",
+    "kind": "custom",
+    "chapter": 5,
+    "text": "Traditional mourning in many communities includes ritual wailing for the dead by the women of the family, sung or chanted aloud so that neighbours know and join in."
+  },
+  {
+    "id": "family-duty",
+    "term": "family duty",
+    "kind": "custom",
+    "chapter": 5,
+    "text": "In Kino's world a brother's claim on shelter and help is nearly absolute, even when giving it puts one's own family in danger."
+  },
+  {
+    "id": "baja-s-mountains",
+    "term": "Baja's mountains",
+    "kind": "place",
+    "chapter": 6,
+    "text": "Baja California is a long, mostly desert peninsula with rugged, dry mountain ranges running down its spine. Water is scarce, so people and animals alike depend on the few known springs and rock pools."
+  },
+  {
+    "id": "trackers",
+    "term": "trackers",
+    "kind": "custom",
+    "chapter": 6,
+    "text": "Expert readers of the ground who follow a trail by footprints, overturned stones, broken twigs and crushed grass. Such men were hired to hunt down people or animals."
+  },
+  {
+    "id": "white-clothes",
+    "term": "white clothes",
+    "kind": "custom",
+    "chapter": 6,
+    "text": "Poor Mexican men of the time typically wore loose white cotton shirts and trousers, cool and cheap, but very visible in the dark."
+  }
+]

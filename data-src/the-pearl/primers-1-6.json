@@ -1,0 +1,40 @@
+[
+  {
+    "chapter": 1,
+    "setting": "A beach settlement of brush huts beside a small town on the Gulf of California — dawn",
+    "keepInMind": "Steinbeck opens by calling this a story people tell, with only good and bad things in it and no in-between. Read it as a folk tale or parable as much as a realistic story.",
+    "returning": []
+  },
+  {
+    "chapter": 2,
+    "setting": "The beach and the oyster bed — the same morning",
+    "keepInMind": "A scorpion stung baby Coyotito, and the doctor refused to treat him because Kino could pay only with a few small, poor pearls. The sea is Kino's only source of money.",
+    "returning": []
+  },
+  {
+    "chapter": 3,
+    "setting": "The town, as news spreads",
+    "keepInMind": "Kino has found an enormous, perfect pearl, and the swelling on Coyotito's shoulder seemed to be going down. Remember the doctor who turned the family away from his gate.",
+    "returning": []
+  },
+  {
+    "chapter": 4,
+    "setting": "The town — the morning Kino is to sell his pearl",
+    "keepInMind": "Kino fought off an intruder in the night, and Juana begged him to throw the pearl away. He means to sell it and pay for a church wedding, a rifle and schooling for Coyotito.",
+    "returning": []
+  },
+  {
+    "chapter": 5,
+    "setting": "Kino's brush house — late that night",
+    "keepInMind": "Kino refused the buyers' low offers and vowed to sell in the capital, despite Juan Tomás's warning. He was attacked again outside the hut, and Juana again pleaded with him to give the pearl up.",
+    "returning": [
+      { "id": "apolonia", "reminder": "Juan Tomás's wife, Kino's sister-in-law, a neighbour in the brush houses." }
+    ]
+  },
+  {
+    "chapter": 6,
+    "setting": "Heading north from the town, by night",
+    "keepInMind": "Kino killed a man who attacked him; his canoe was smashed and his house burned. After hiding a day with Juan Tomás, the family has set out on foot toward the capital, still carrying the pearl.",
+    "returning": []
+  }
+]

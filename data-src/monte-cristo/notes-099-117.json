@@ -1,0 +1,801 @@
+[
+  {
+    "term": "featherless biped",
+    "kind": "reference",
+    "chapter": 99,
+    "text": "Plato is said to have defined man as a two-legged animal without feathers; Diogenes the Cynic mocked him by holding up a plucked chicken: “Here is Plato’s man.” Eugénie, in other words, barely counts Debray as human.",
+    "quote": "animals upon two legs without feathers"
+  },
+  {
+    "term": "grisette",
+    "kind": "word",
+    "chapter": 99,
+    "text": "A young working-class Parisian woman, typically a seamstress or shop girl, stereotyped in fiction as pretty, lively and free with her affections.",
+    "quote": "like prosperous grisettes"
+  },
+  {
+    "term": "hotel",
+    "kind": "word",
+    "chapter": 99,
+    "text": "From the French hôtel: here a grand private town house, not an inn. The Danglars mansion is their “hotel”.",
+    "quote": "returned to the hotel"
+  },
+  {
+    "term": "lazaretto",
+    "kind": "word",
+    "chapter": 99,
+    "text": "A quarantine hospital where people suspected of carrying plague or other contagious disease were isolated.",
+    "quote": "a lazaretto infected with the plague"
+  },
+  {
+    "term": "contempt of court",
+    "kind": "word",
+    "chapter": 99,
+    "text": "A loose translation of the French contumace: trying and sentencing an accused person who has fled and is absent. Madame Danglars hopes Andrea will escape and be condemned only on paper.",
+    "quote": "that shadow of guilt called contempt of court"
+  },
+  {
+    "term": "assizes",
+    "kind": "custom",
+    "chapter": 99,
+    "text": "The cour d’assises, the French criminal court for serious crimes such as murder, where a jury decides guilt. It sat in periodic sessions, so a case missing one session could wait months for the next.",
+    "quote": "delay the trial till the next assizes",
+    "seeAlso": [
+      108,
+      109,
+      110
+    ]
+  },
+  {
+    "term": "draught",
+    "kind": "word",
+    "chapter": 100,
+    "text": "A dose of liquid medicine, drunk in one go. Valentine’s “night draught” is the calming drink prepared for her each evening.",
+    "quote": "bringing the night draught prepared for the young girl"
+  },
+  {
+    "term": "bell-pull",
+    "kind": "word",
+    "chapter": 100,
+    "text": "A cord or tasselled strip hanging by the bed or fireplace, connected to a bell in the servants’ quarters.",
+    "quote": "seized the silken bell-pull"
+  },
+  {
+    "term": "cambric",
+    "kind": "word",
+    "chapter": 100,
+    "text": "A fine, thin white linen (originally from Cambrai), used for handkerchiefs, nightclothes and good shirts.",
+    "quote": "the embroidered cambric"
+  },
+  {
+    "term": "Locusta",
+    "kind": "reference",
+    "chapter": 101,
+    "text": "A notorious professional poisoner of first-century Rome. She was said to have supplied the poison that killed Emperor Claudius and, for Nero, his stepbrother Britannicus. Her name became a byword for a female poisoner."
+  },
+  {
+    "term": "Saint-Philippe-du-Roule",
+    "kind": "place",
+    "chapter": 101,
+    "text": "A church in the Faubourg Saint-Honoré, the wealthy Paris district where the Villeforts live; its clock is the one Valentine hears.",
+    "quote": "slower than that of Saint-Philippe-du-Roule"
+  },
+  {
+    "term": "brucine",
+    "kind": "word",
+    "chapter": 101,
+    "text": "A bitter poison extracted from the same plants as strychnine (such as nux vomica). In tiny doses it was used as a medicine for paralysis.",
+    "quote": "brucine is no longer employed",
+    "seeAlso": [
+      102
+    ]
+  },
+  {
+    "term": "200,000 livres a year",
+    "kind": "money",
+    "chapter": 101,
+    "text": "An annual income, not a lump sum; by this period “livre” was used interchangeably with the franc. At the usual 5% return it implies a fortune of around four million francs, when a labourer might earn perhaps 2 francs a day.",
+    "quote": "you have 200,000 livres a year"
+  },
+  {
+    "term": "aqua tofana",
+    "kind": "history",
+    "chapter": 101,
+    "text": "A colourless poison, probably arsenic-based, sold in seventeenth-century Italy and linked to a woman named Giulia Tofana; legend says wives bought it to rid themselves of husbands.",
+    "quote": "questioning upon _aqua tofana_"
+  },
+  {
+    "term": "pastille",
+    "kind": "word",
+    "chapter": 101,
+    "text": "A small lozenge or pill.",
+    "quote": "a pastille about the size of a pea"
+  },
+  {
+    "term": "night-light",
+    "kind": "word",
+    "chapter": 102,
+    "text": "A simple night lamp: a floating wick burning on a thin layer of oil poured over water, giving a dim glow for hours until the oil runs out.",
+    "quote": "last drops of oil which floated on the surface of the water"
+  },
+  {
+    "term": "Germain Pillon’s “Graces”",
+    "kind": "reference",
+    "chapter": 102,
+    "text": "Germain Pillon (c. 1525–1590) was a leading French Renaissance sculptor. His marble Three Graces, which once held the heart of King Henri II, is in the Louvre and is famous for its graceful figures.",
+    "quote": "Germain Pillon’s “Graces,”"
+  },
+  {
+    "term": "nitric acid test",
+    "kind": "history",
+    "chapter": 102,
+    "text": "A real chemical test of the time: nitric acid turns brucine and related plant poisons a vivid red, so d’Avrigny can identify the poison from the dregs.",
+    "quote": "a small bottle of nitric acid"
+  },
+  {
+    "term": "doctor of the dead",
+    "kind": "custom",
+    "chapter": 103,
+    "text": "In Paris a municipal doctor had to examine every body and certify the death before a burial permit was issued, partly to prevent burying anyone alive and partly to spot crimes.",
+    "quote": "is expressly named “the doctor of the dead.”"
+  },
+  {
+    "term": "chloride of lime",
+    "kind": "word",
+    "chapter": 103,
+    "text": "Bleaching powder, widely used in the nineteenth century as a disinfectant, especially after touching the sick or the dead.",
+    "quote": "dipping the fingers"
+  },
+  {
+    "term": "cassock",
+    "kind": "word",
+    "chapter": 103,
+    "text": "The long, close-fitting black robe worn by Catholic priests.",
+    "quote": "a man in a cassock"
+  },
+  {
+    "term": "winding-sheet",
+    "kind": "word",
+    "chapter": 104,
+    "text": "A shroud: the cloth in which a body was wrapped for burial.",
+    "quote": "wrapped the corpse in the winding-sheet"
+  },
+  {
+    "term": "Spanish, Haitian, or Neapolitan bonds",
+    "kind": "history",
+    "chapter": 104,
+    "text": "Foreign government loans traded on the Paris Bourse. Spain and Haiti in particular had a record of missed payments, so the count’s question is a polite jab at risky paper.",
+    "quote": "Are they Spanish, Haitian, or Neapolitan bonds?"
+  },
+  {
+    "term": "payable to bearer",
+    "kind": "money",
+    "chapter": 104,
+    "text": "Paper that anyone holding it can cash, like banknotes. Each of these five notes is worth a million francs: together, about the yearly wages of several thousand labourers.",
+    "quote": "payable to bearer"
+  },
+  {
+    "term": "Crœsus",
+    "kind": "reference",
+    "chapter": 104,
+    "text": "King of Lydia in the sixth century BC, so famously rich that “rich as Croesus” became a proverb.",
+    "quote": "what a Crœsus you are!"
+  },
+  {
+    "term": "Rothschild and Lafitte",
+    "kind": "history",
+    "chapter": 104,
+    "text": "The two great Paris banking houses of the day: James de Rothschild’s, and that of Jacques Laffitte, banker and briefly prime minister in 1830–31.",
+    "quote": "one on Rothschild, one on Lafitte",
+    "seeAlso": [
+      106
+    ]
+  },
+  {
+    "term": "Receiver-General of the charities",
+    "kind": "title",
+    "chapter": 104,
+    "text": "The official who collected and held the funds of the Paris hospitals and poor-relief charities.",
+    "quote": "Receiver-General of the charities"
+  },
+  {
+    "term": "discount",
+    "kind": "money",
+    "chapter": 104,
+    "text": "A bill payable elsewhere or later could be sold at once to a banker for slightly less than its face value; the difference was the banker’s fee. Danglars suggests losing 5,000–6,000 francs to get the money early.",
+    "quote": "a discount of 5,000 or 6,000 francs"
+  },
+  {
+    "term": "Robert Macaire",
+    "kind": "reference",
+    "chapter": 104,
+    "text": "A swaggering, cynical swindler from the melodrama L’Auberge des Adrets (1823), turned into a comic hit by the actor Frédérick Lemaître. His name became shorthand for a brazen crook.",
+    "quote": "Robert Macaire represented by Frédérick"
+  },
+  {
+    "term": "Père-Lachaise",
+    "kind": "place",
+    "chapter": 105,
+    "text": "The largest and most fashionable cemetery in Paris, opened in 1804 on a hillside in the east of the city and crowded with family vaults and monuments.",
+    "quote": "considered the cemetery of Père-Lachaise alone worthy"
+  },
+  {
+    "term": "Abélard and Héloïse",
+    "kind": "reference",
+    "chapter": 105,
+    "text": "The twelfth-century philosopher Peter Abelard and his brilliant pupil Héloïse, whose love affair ended in his castration and their separation into religious life. Their remains were moved to Père-Lachaise in 1817, and the tomb became a shrine for lovers.",
+    "quote": "the tomb of Abélard and Héloïse"
+  },
+  {
+    "term": "Malherbe to Du Périer",
+    "kind": "reference",
+    "chapter": 105,
+    "text": "François de Malherbe’s famous poem of consolation (c. 1598) to a friend whose young daughter had died, with its line that she lived as roses live, “the space of a morning”. Funeral orators borrowed from it endlessly.",
+    "quote": "the stanzas of Malherbe to Du Périer"
+  },
+  {
+    "term": "coupé",
+    "kind": "word",
+    "chapter": 105,
+    "text": "A small closed carriage for two. In a public stagecoach, the coupé was the front compartment, the most comfortable and expensive seats.",
+    "quote": "alighting from his _coupé_",
+    "seeAlso": [
+      106
+    ]
+  },
+  {
+    "term": "Asmodeus",
+    "kind": "reference",
+    "chapter": 106,
+    "text": "The demon of Alain-René Lesage’s novel Le Diable boiteux (1707), who lifts the roofs off the houses of Madrid to show a student the secret lives inside.",
+    "quote": "Asmodeus—that diabolical personage"
+  },
+  {
+    "term": "jointure",
+    "kind": "word",
+    "chapter": 106,
+    "text": "Property or income settled on a wife by her marriage contract, meant to provide for her. Debray suggests she make a show of giving hers up.",
+    "quote": "giving up your jointure"
+  },
+  {
+    "term": "a wife’s property",
+    "kind": "custom",
+    "chapter": 106,
+    "text": "Under the Napoleonic Code a married woman could not own or manage property in her own right without her husband’s authority, which is why Debray has hidden her winnings in cash.",
+    "quote": "you have no right to possess anything independent of your husband"
+  },
+  {
+    "term": "certificate in the funds",
+    "kind": "money",
+    "chapter": 106,
+    "text": "A registered share in the French government debt (the rente), paying fixed yearly interest: the safe investment of the day.",
+    "quote": "a certificate in the funds of 25,000 francs"
+  },
+  {
+    "term": "diligence",
+    "kind": "word",
+    "chapter": 106,
+    "text": "The big public stagecoach that carried passengers and mail between towns, with several compartments at different prices.",
+    "quote": "the diligences and steamboats"
+  },
+  {
+    "term": "Châlons",
+    "kind": "place",
+    "chapter": 106,
+    "text": "Chalon-sur-Saône, where travellers from Paris could board steamboats down the Saône and Rhône to Lyons and Avignon: the fastest route south in the 1830s.",
+    "quote": "the _coupé_ to Châlons",
+    "seeAlso": [
+      112
+    ]
+  },
+  {
+    "term": "3,000 francs",
+    "kind": "money",
+    "chapter": 106,
+    "text": "Albert’s budget is a useful scale: 35 francs for a coach seat, 114 for his mother’s whole journey to Marseilles, and about 2,000 francs a year for a modest life. Compare Debray’s million.",
+    "quote": "capital 3,000 francs"
+  },
+  {
+    "term": "substitute",
+    "kind": "custom",
+    "chapter": 106,
+    "text": "French conscription was by lot, and a man drawn to serve could legally pay someone else to take his place. Albert has sold himself as such a substitute.",
+    "quote": "engaged myself as substitute in the Spahis"
+  },
+  {
+    "term": "Spahis",
+    "kind": "history",
+    "chapter": 106,
+    "text": "Light cavalry raised in French-occupied Algeria in the 1830s, largely from local horsemen under French officers. France had invaded Algiers in 1830 and was still fighting for control of the country.",
+    "quote": "substitute in the Spahis"
+  },
+  {
+    "term": "Lamoricière, Changarnier, Bedeau",
+    "kind": "history",
+    "chapter": 106,
+    "text": "Young French officers who were making their names in the Algerian campaigns. Ney, Napoleon’s marshal, was the proverbial model of battlefield courage.",
+    "quote": "Has Lamoricière, that Ney of the South, been killed?"
+  },
+  {
+    "term": "deniers",
+    "kind": "money",
+    "chapter": 106,
+    "text": "The denier was an old, tiny coin, a twelfth of a sou; “a few deniers” means next to nothing.",
+    "quote": "rich with a few deniers"
+  },
+  {
+    "term": "La Force",
+    "kind": "place",
+    "chapter": 107,
+    "text": "A notorious Paris prison in the Marais district, used for those awaiting trial. It was demolished in the 1840s.",
+    "quote": "One division of La Force"
+  },
+  {
+    "term": "barrier Saint-Jacques",
+    "kind": "history",
+    "chapter": 107,
+    "text": "From 1832 public executions by guillotine in Paris took place at the Barrière Saint-Jacques, on the city’s southern edge.",
+    "quote": "the barrier Saint-Jacques"
+  },
+  {
+    "term": "La savate",
+    "kind": "foreign",
+    "chapter": 107,
+    "text": "French: “the old shoe”. The narrator explains the beating it names; the anguille (“eel”) is a sandbag cosh.",
+    "quote": "_“La savate—La savate!”_"
+  },
+  {
+    "term": "examining magistrate",
+    "kind": "title",
+    "chapter": 107,
+    "text": "The juge d’instruction, who investigates a case before trial, questions the accused and witnesses, and decides whether to send it to court.",
+    "quote": "the examining magistrate is waiting for the prisoner",
+    "seeAlso": [
+      108
+    ]
+  },
+  {
+    "term": "we burn",
+    "kind": "custom",
+    "chapter": 107,
+    "text": "From children’s hide-and-seek games: “you’re burning”, like “you’re getting warm”, means close to the hidden thing.",
+    "quote": "we burn, as they say at the game of pincette"
+  },
+  {
+    "term": "as M. Racine says",
+    "kind": "reference",
+    "chapter": 107,
+    "text": "An echo of Racine’s tragedy Phèdre (1677), where Phèdre, confessing her forbidden love, tells her nurse: “It is you who have named him.”",
+    "quote": "’Tis you who have named him, as M. Racine says"
+  },
+  {
+    "term": "Pixérécourt",
+    "kind": "reference",
+    "chapter": 107,
+    "text": "Guilbert de Pixérécourt (1773–1844), the father of French melodrama, whose plays were full of long-lost children tearfully recognising their parents.",
+    "quote": "like Monsieur Pixérécourt"
+  },
+  {
+    "term": "salad basket",
+    "kind": "word",
+    "chapter": 107,
+    "text": "Slang (panier à salade) for the police van carrying prisoners, from its grated, basket-like sides.",
+    "quote": "which they call “the salad basket.”"
+  },
+  {
+    "term": "Tarquin",
+    "kind": "reference",
+    "chapter": 108,
+    "text": "Tarquin the Proud, last king of Rome, answered his son’s messenger by silently striking off the tallest poppies in his garden: a signal to kill the leading men of a conquered town.",
+    "quote": "Tarquin lopped off the tallest poppies"
+  },
+  {
+    "term": "the Palais",
+    "kind": "place",
+    "chapter": 108,
+    "text": "The Palais de Justice on the Île de la Cité, the main law courts of Paris, where the assizes sit.",
+    "quote": "To the Palais.",
+    "seeAlso": [
+      109,
+      111
+    ]
+  },
+  {
+    "term": "conciergerie",
+    "kind": "place",
+    "chapter": 108,
+    "text": "The old prison inside the Palais de Justice, where prisoners were held before trial; Marie-Antoinette spent her last weeks there.",
+    "quote": "sleep tonight in the conciergerie"
+  },
+  {
+    "term": "the scaffold",
+    "kind": "custom",
+    "chapter": 108,
+    "text": "Murder by poison was a capital crime, punished by public execution on the guillotine.",
+    "quote": "the scaffold awaits the poisoner"
+  },
+  {
+    "term": "Café de Paris, Boulevard de Gand",
+    "kind": "place",
+    "chapter": 109,
+    "text": "Haunts of fashionable young Paris. The Boulevard de Gand was the dandies’ nickname for the Boulevard des Italiens, and the Café de Paris was its smartest restaurant.",
+    "quote": "Frequenting the Café de Paris, the Boulevard de Gand",
+    "seeAlso": [
+      115
+    ]
+  },
+  {
+    "term": "Dante for a genealogist",
+    "kind": "reference",
+    "chapter": 109,
+    "text": "The Cavalcanti were a real noble family of Florence: the poet Guido Cavalcanti was Dante’s friend, and his father appears in Dante’s Inferno.",
+    "quote": "who could boast of Dante for a genealogist"
+  },
+  {
+    "term": "phrenology",
+    "kind": "history",
+    "chapter": 109,
+    "text": "A popular pseudo-science claiming that character could be read from the shape of the skull. The skulls of executed criminals were eagerly studied for “organs” of murder and cunning.",
+    "quote": "experiments that will be made on his phrenological organs"
+  },
+  {
+    "term": "Saint-Simon",
+    "kind": "reference",
+    "chapter": 109,
+    "text": "The Duc de Saint-Simon (1675–1755), whose vast, vivid memoirs of Louis XIV’s court are full of unusual words.",
+    "quote": "you’ll find the word in Saint-Simon"
+  },
+  {
+    "term": "Beaumarchais",
+    "kind": "reference",
+    "chapter": 109,
+    "text": "The playwright of The Barber of Seville and The Marriage of Figaro, whose trial scene features a shrill-voiced court usher.",
+    "quote": "ever since the days of Beaumarchais"
+  },
+  {
+    "term": "the president",
+    "kind": "title",
+    "chapter": 110,
+    "text": "The presiding judge of the assize court. In French procedure he questions the accused directly, starting with name, age and birthplace.",
+    "quote": "“Gendarmes,” said the president"
+  },
+  {
+    "term": "indictment",
+    "kind": "custom",
+    "chapter": 110,
+    "text": "The acte d’accusation, written by the prosecutor and read aloud at the opening of the trial, setting out the crime and the accused’s whole past.",
+    "quote": "The president called for the indictment"
+  },
+  {
+    "term": "Medusa",
+    "kind": "reference",
+    "chapter": 110,
+    "text": "The Gorgon of Greek myth, whose face turned anyone who looked at it to stone.",
+    "quote": "the head of Medusa"
+  },
+  {
+    "term": "extenuating circumstances",
+    "kind": "history",
+    "chapter": 110,
+    "text": "Since 1832 French juries could find circonstances atténuantes, which reduced the sentence and usually spared the accused from the guillotine.",
+    "quote": "There will be extenuating circumstances"
+  },
+  {
+    "term": "garb of Nessus",
+    "kind": "reference",
+    "chapter": 111,
+    "text": "The centaur Nessus, dying, tricked Hercules’ wife into keeping his poisoned blood; the shirt she later soaked in it burned Hercules alive.",
+    "quote": "a veritable garb of Nessus"
+  },
+  {
+    "term": "cholera",
+    "kind": "history",
+    "chapter": 111,
+    "text": "Cholera swept Paris in 1832, killing some 18,000 people, so it was a vivid, recent image of contagion.",
+    "quote": "the typhus fever, the cholera, the plague"
+  },
+  {
+    "term": "the Titans … Ajax",
+    "kind": "reference",
+    "chapter": 111,
+    "text": "In Greek myth the Titans made war on the gods of Olympus, and Ajax the Lesser, saved from shipwreck, boasted he had escaped despite the gods and was drowned for it.",
+    "quote": "led the Titans to scale the heavens, and Ajax to defy the gods"
+  },
+  {
+    "term": "Perrault’s wicked fairies",
+    "kind": "reference",
+    "chapter": 112,
+    "text": "In Charles Perrault’s fairy tales (1697), most famously Sleeping Beauty, a fairy left off the guest list arrives at the christening to lay a curse.",
+    "quote": "the wicked fairies in Perrault’s stories"
+  },
+  {
+    "term": "Villejuif",
+    "kind": "place",
+    "chapter": 112,
+    "text": "A hill just south of Paris on the main road to Fontainebleau and the south, with a view back over the whole city.",
+    "quote": "the top of the hill Villejuif"
+  },
+  {
+    "term": "modern Babylon",
+    "kind": "reference",
+    "chapter": 112,
+    "text": "Babylon, the great city of the Bible and especially the Book of Revelation, is a traditional byword for a vast, rich and corrupt capital.",
+    "quote": "this modern Babylon"
+  },
+  {
+    "term": "league",
+    "kind": "money",
+    "chapter": 112,
+    "text": "An old measure of distance, roughly 4 kilometres (about 2.5 miles), and in practice about an hour’s walk.",
+    "quote": "Ten leagues were passed"
+  },
+  {
+    "term": "Tyre and Carthage",
+    "kind": "history",
+    "chapter": 112,
+    "text": "Marseilles was founded around 600 BC by Greek traders from Phocaea; Tyre and Carthage were the great Phoenician trading cities that ruled Mediterranean commerce before it.",
+    "quote": "the younger sister of Tyre and Carthage"
+  },
+  {
+    "term": "Fort Saint-Nicolas",
+    "kind": "place",
+    "chapter": 112,
+    "text": "One of the two forts guarding the entrance to Marseilles’ Old Port. The City Hall on the quay carries carving by Pierre Puget, the city’s great Baroque sculptor.",
+    "quote": "Fort Saint-Nicolas, the City Hall designed by Puget"
+  },
+  {
+    "term": "Canebière",
+    "kind": "place",
+    "chapter": 112,
+    "text": "Marseilles’ main avenue, running straight down to the Old Port.",
+    "quote": "they stopped on the Canebière"
+  },
+  {
+    "term": "the Consigne",
+    "kind": "place",
+    "chapter": 113,
+    "text": "The harbour health office at Marseilles, which checked arriving ships for disease; prisoners were also embarked from its quay.",
+    "quote": "advanced to the Consigne"
+  },
+  {
+    "term": "revolution of July",
+    "kind": "history",
+    "chapter": 113,
+    "text": "The July Revolution of 1830, three days of street fighting in Paris that drove out King Charles X and put Louis-Philippe on the throne.",
+    "quote": "since the revolution of July"
+  },
+  {
+    "term": "Mirabeau",
+    "kind": "history",
+    "chapter": 113,
+    "text": "The great orator of the French Revolution was held in the Château d’If in 1774 at his own father’s request. When he died in 1791, rumours spread that he had been poisoned.",
+    "quote": "the poisoning of Mirabeau"
+  },
+  {
+    "term": "meridian",
+    "kind": "word",
+    "chapter": 113,
+    "text": "A line marking the sun’s noon position: Faria’s homemade sundial for telling the time in his cell.",
+    "quote": "the meridian, drawn by the abbé on the wall"
+  },
+  {
+    "term": "the dragons’ teeth",
+    "kind": "reference",
+    "chapter": 113,
+    "text": "An adaptation of the Psalms: “thou shalt tread upon the lion and adder: the young lion and the dragon shalt thou trample under feet” (Psalm 91), with an echo of “break their teeth” (Psalm 58).",
+    "quote": "Thou shalt tear out the dragons’ teeth"
+  },
+  {
+    "term": "Bastia",
+    "kind": "place",
+    "chapter": 113,
+    "text": "The main port of northern Corsica, the nearest large harbour to the island of Monte Cristo.",
+    "quote": "in the port of Bastia"
+  },
+  {
+    "term": "Eurus",
+    "kind": "reference",
+    "chapter": 113,
+    "text": "The Greek god of the east wind.",
+    "quote": "it will be called the _Eurus_"
+  },
+  {
+    "term": "Ganymede",
+    "kind": "reference",
+    "chapter": 113,
+    "text": "In Greek myth, a beautiful Trojan youth carried up to Olympus by Zeus in the form of an eagle, to serve as cupbearer to the gods.",
+    "quote": "The story of Ganymede, Maximilian, is not a fable"
+  },
+  {
+    "term": "Legion of Honor",
+    "kind": "history",
+    "chapter": 114,
+    "text": "France’s highest decoration, founded by Napoleon in 1802; members wore its red ribbon in the buttonhole.",
+    "quote": "the ribbon of the Legion of Honor"
+  },
+  {
+    "term": "the “goddam” of Figaro",
+    "kind": "reference",
+    "chapter": 114,
+    "text": "In Beaumarchais’ Marriage of Figaro, Figaro jokes that “God-damn” is the whole basis of the English language: one word gets you anything.",
+    "quote": "like the “goddam” of Figaro"
+  },
+  {
+    "term": "La Storta",
+    "kind": "place",
+    "chapter": 114,
+    "text": "The last post station on the road from Florence, where travellers caught their first sight of Rome and the dome of St. Peter’s.",
+    "quote": "On reaching La Storta"
+  },
+  {
+    "term": "descendants of Marius and the Gracchi",
+    "kind": "reference",
+    "chapter": 114,
+    "text": "An ironic salute to Rome’s street children as heirs of the Republic’s popular heroes: the general Gaius Marius and the reforming Gracchus brothers.",
+    "quote": "Ten young descendants of Marius and the Gracchi"
+  },
+  {
+    "term": "Papal States",
+    "kind": "history",
+    "chapter": 114,
+    "text": "Rome and a broad band of central Italy were ruled by the Pope as a sovereign kingdom until 1870, with their own government and police.",
+    "quote": "little vagabonds from the Papal States",
+    "seeAlso": [
+      116
+    ]
+  },
+  {
+    "term": "cicerone",
+    "kind": "foreign",
+    "chapter": 114,
+    "text": "Italian: a guide who shows visitors the sights, named, jokingly, after the endlessly talkative Cicero.",
+    "quote": "left the hotel with the _cicerone_"
+  },
+  {
+    "term": "Dentro la testa!",
+    "kind": "foreign",
+    "chapter": 114,
+    "text": "Italian: “Heads in!” Danglars also hears Non capisco (“I don’t understand”), Scendi! (“Get down!”), Di quà (“This way”), Avanti! (“Forward!”) and Ecco! (“There!”).",
+    "quote": "“_Dentro la testa!_” answered a solemn and imperious voice"
+  },
+  {
+    "term": "the Appian Way",
+    "kind": "place",
+    "chapter": 114,
+    "text": "The ancient road south from Rome, lined with tombs. Beneath the nearby church of San Sebastiano run early Christian catacombs: miles of burial tunnels cut into the soft rock.",
+    "quote": "he must be on the Appian Way"
+  },
+  {
+    "term": "Plutarch’s Life of Alexander",
+    "kind": "reference",
+    "chapter": 114,
+    "text": "One of the Greek writer Plutarch’s Parallel Lives of famous Greeks and Romans, a favourite of ambitious readers. Vampa likes his heroes: earlier he was reading Caesar’s own war memoirs.",
+    "quote": "attentively reading Plutarch’s _Life of Alexander_"
+  },
+  {
+    "term": "8,000 crowns",
+    "kind": "money",
+    "chapter": 114,
+    "text": "The crown here is the Roman scudo; Danglars reckons it at six livres (francs), so his self-set ransom is 48,000 francs, double Albert’s and less than 1% of what he carries.",
+    "quote": "Eight thousand crowns amounted to 48,000 livres"
+  },
+  {
+    "term": "Don Quixote",
+    "kind": "reference",
+    "chapter": 115,
+    "text": "Cervantes’ comic novel (1605–15) about a deluded would-be knight, which includes plenty of battered awakenings. That it is the only book Danglars has read says a good deal.",
+    "quote": "He borrowed this from _Don Quixote_"
+  },
+  {
+    "term": "Breguet repeater",
+    "kind": "word",
+    "chapter": 115,
+    "text": "A watch by Abraham-Louis Breguet, the most celebrated watchmaker of the age. A repeater chimes the time when a button is pressed, so it works in the dark.",
+    "quote": "one of Breguet’s repeaters"
+  },
+  {
+    "term": "Che cosa?",
+    "kind": "foreign",
+    "chapter": 115,
+    "text": "Italian: “What is it?”",
+    "quote": "“_Che cosa?_” asked the bandit."
+  },
+  {
+    "term": "4,999 louis",
+    "kind": "money",
+    "chapter": 115,
+    "text": "A louis was a 20-franc gold coin, so 5,000 louis is 100,000 francs, more than a century of a labourer’s wages, for one chicken.",
+    "quote": "your excellency now owes me 4,999 louis"
+  },
+  {
+    "term": "draft at sight",
+    "kind": "money",
+    "chapter": 115,
+    "text": "A written order to a bank to pay a sum as soon as it is presented. Peppino can cash it at Thomson & French immediately.",
+    "quote": "here is a draft at sight"
+  },
+  {
+    "term": "Harpagon",
+    "kind": "reference",
+    "chapter": 116,
+    "text": "The miser in Molière’s comedy L’Avare (The Miser, 1668), whose howls over his stolen money are famous.",
+    "quote": "Harpagon30 alone"
+  },
+  {
+    "term": "usury",
+    "kind": "word",
+    "chapter": 116,
+    "text": "Lending money at extortionate interest. Vampa’s joke turns the banker’s own trade back on him.",
+    "quote": "This is a kind of usury, banker"
+  },
+  {
+    "term": "25,000 francs a bottle",
+    "kind": "money",
+    "chapter": 116,
+    "text": "A quarter of the price of a chicken, but still, for a single bottle of wine, roughly what a labourer might earn in thirty years.",
+    "quote": "Twenty-five thousand francs a bottle."
+  },
+  {
+    "term": "Amphitrite",
+    "kind": "reference",
+    "chapter": 117,
+    "text": "The sea goddess, wife of Poseidon. The setting sun is pictured as the fire god sinking into her arms.",
+    "quote": "the bosom of Amphitrite"
+  },
+  {
+    "term": "as Calypso said to Telemachus",
+    "kind": "reference",
+    "chapter": 117,
+    "text": "From Fénelon’s hugely popular novel Télémaque (1699), in which the nymph Calypso welcomes the shipwrecked son of Ulysses ashore and offers him fresh clothes.",
+    "quote": "as Calypso said to Telemachus"
+  },
+  {
+    "term": "He who is about to die salutes you",
+    "kind": "reference",
+    "chapter": 117,
+    "text": "The Latin Morituri te salutant, which the Roman historian Suetonius reports men condemned to fight said to the Emperor Claudius.",
+    "quote": "‘He who is about to die salutes you.’"
+  },
+  {
+    "term": "the ancient Romans condemned by Nero",
+    "kind": "history",
+    "chapter": 117,
+    "text": "Nero often ordered out-of-favour Romans to kill themselves. Some, like the writer Petronius, made a graceful show of it, opening their veins at a banquet among friends.",
+    "quote": "those ancient Romans, who when condemned by Nero"
+  },
+  {
+    "term": "Caryatides",
+    "kind": "word",
+    "chapter": 117,
+    "text": "Carved female figures used in place of columns, as on the Erechtheion in Athens.",
+    "quote": "similar to the Caryatides"
+  },
+  {
+    "term": "felucca",
+    "kind": "word",
+    "chapter": 117,
+    "text": "A small, swift Mediterranean sailing boat with triangular (lateen) sails.",
+    "quote": "There is a felucca for you at anchor"
+  },
+  {
+    "term": "Leghorn",
+    "kind": "place",
+    "chapter": 117,
+    "text": "The old English name for Livorno, the main port of Tuscany.",
+    "quote": "Jacopo will carry you to Leghorn"
+  },
+  {
+    "term": "Tréport",
+    "kind": "place",
+    "chapter": 117,
+    "text": "Le Tréport, a small seaside town on the Normandy coast.",
+    "quote": "my château at Tréport"
+  },
+  {
+    "term": "Fac et spera",
+    "kind": "foreign",
+    "chapter": 117,
+    "text": "Latin, literally “Act and hope”. Dumas glosses it as “Wait and hope”.",
+    "quote": "‘_Wait and hope_ (Fac et spera)!’"
+  }
+]

@@ -1,1 +1,712 @@
-[]
+[
+  {
+    "id": "muggle",
+    "term": "Muggle",
+    "kind": "lore",
+    "chapter": 1,
+    "text": "The wizarding word for a person with no magical ability. It isn't exactly an insult, though some witches and wizards use it with a sniff.",
+    "seeAlso": [
+      5,
+      6
+    ]
+  },
+  {
+    "id": "you-know-who",
+    "term": "You-Know-Who",
+    "kind": "lore",
+    "chapter": 1,
+    "text": "Most witches and wizards are too frightened to say the dark wizard's name aloud, so they use stand-ins like 'You-Know-Who'. Dumbledore is unusual in simply saying 'Voldemort'.",
+    "seeAlso": [
+      4,
+      17
+    ]
+  },
+  {
+    "id": "put-outer",
+    "term": "Put-Outer",
+    "kind": "lore",
+    "chapter": 1,
+    "text": "Dumbledore's lighter-like gadget that sucks the light out of streetlamps, one click per lamp, and can put it back again."
+  },
+  {
+    "id": "bonfire-night",
+    "term": "Bonfire Night",
+    "kind": "custom",
+    "chapter": 1,
+    "text": "Britain's 5 November celebration (also called Guy Fawkes Night), marking the foiled 1605 plot to blow up Parliament with fireworks and bonfires. The TV weatherman's joke tells us the story opens in early November."
+  },
+  {
+    "id": "surrey",
+    "term": "Surrey",
+    "kind": "place",
+    "chapter": 1,
+    "text": "A real county just south-west of London, known for commuter suburbs and tidy, respectable streets. Little Whinging, the Dursleys' town, is invented."
+  },
+  {
+    "id": "cupboard-under-the-stairs",
+    "term": "cupboard under the stairs",
+    "kind": "custom",
+    "chapter": 2,
+    "text": "In many British houses the space beneath the staircase is a small closet for coats, brooms and the vacuum cleaner. Not a bedroom by anyone's standards."
+  },
+  {
+    "id": "knickerbocker-glory",
+    "term": "knickerbocker glory",
+    "kind": "word",
+    "chapter": 2,
+    "text": "A towering British ice-cream sundae layered with fruit, jelly and cream in a tall glass, eaten with a long spoon. A very grand treat for a child."
+  },
+  {
+    "id": "boa-constrictor",
+    "term": "boa constrictor",
+    "kind": "word",
+    "chapter": 2,
+    "text": "A real, large non-venomous snake from Central and South America that kills by squeezing. Its sign says this one's species comes from Brazil."
+  },
+  {
+    "id": "smeltings",
+    "term": "Smeltings",
+    "kind": "custom",
+    "chapter": 3,
+    "text": "Uncle Vernon's old school, an invented private boarding school in the mould of Britain's expensive 'public' schools (which, confusingly, are private), with their old-fashioned uniforms and traditions."
+  },
+  {
+    "id": "boater",
+    "term": "boater",
+    "kind": "word",
+    "chapter": 3,
+    "text": "A stiff, flat-topped straw hat, part of the uniform at some traditional British schools. With maroon tailcoats and orange knickerbockers, Dudley's outfit is meant to look ridiculous."
+  },
+  {
+    "id": "comprehensive",
+    "term": "comprehensive",
+    "kind": "custom",
+    "chapter": 3,
+    "text": "A British state secondary school that takes local children of all abilities, free of charge: roughly an American public high school. Harry is to go to Stonewall High."
+  },
+  {
+    "id": "no-post-on-sundays",
+    "term": "no post on Sundays",
+    "kind": "custom",
+    "chapter": 3,
+    "text": "Britain's Royal Mail didn't deliver on Sundays, which is why Uncle Vernon is so pleased with the day, and why what happens is so alarming."
+  },
+  {
+    "id": "keeper-of-keys-and-grounds",
+    "term": "Keeper of Keys and Grounds",
+    "kind": "title",
+    "chapter": 4,
+    "text": "Hagrid's job at Hogwarts: something like a gamekeeper, groundskeeper and caretaker of the castle's outdoor lands rolled into one."
+  },
+  {
+    "id": "order-of-merlin",
+    "term": "Order of Merlin",
+    "kind": "lore",
+    "chapter": 4,
+    "text": "A wizarding honour, like a British knighthood, named after Merlin, the legendary wizard of King Arthur's court. Dumbledore's letterhead lists it among his many titles."
+  },
+  {
+    "id": "supreme-mugwump",
+    "term": "Supreme Mugwump",
+    "kind": "reference",
+    "chapter": 4,
+    "text": "A joke title. 'Mugwump' is real 19th-century American slang for an independent-minded politician or self-important bigwig, from an Algonquian word for 'great chief'."
+  },
+  {
+    "id": "owl-post",
+    "term": "owl post",
+    "kind": "lore",
+    "chapter": 4,
+    "text": "Wizards send letters and parcels by owl, which find the person they're addressed to wherever they are. That's why owls have been turning up in daylight.",
+    "seeAlso": [
+      6,
+      8
+    ]
+  },
+  {
+    "id": "pewter",
+    "term": "pewter",
+    "kind": "word",
+    "chapter": 4,
+    "text": "A dull grey alloy, mostly tin, once used for plates, mugs and pots. The school list asks for a pewter cauldron, standard size 2."
+  },
+  {
+    "id": "galleon",
+    "term": "Galleon",
+    "kind": "money",
+    "chapter": 5,
+    "text": "The largest wizard coin, made of gold. There are 17 silver Sickles to a Galleon. Rowling once joked that a Galleon is worth about five British pounds, though prices in the books are loose."
+  },
+  {
+    "id": "sickle",
+    "term": "Sickle",
+    "kind": "money",
+    "chapter": 5,
+    "text": "The silver wizard coin: 29 bronze Knuts make a Sickle, and 17 Sickles make a Galleon. Very roughly, think of it as pocket-money scale, like a modern coin of 25–30 pence."
+  },
+  {
+    "id": "knut",
+    "term": "Knut",
+    "kind": "money",
+    "chapter": 5,
+    "text": "The smallest wizard coin, made of bronze; 29 make a Sickle. Worth about as little as a penny. The awkward numbers are part of the joke: no decimals here."
+  },
+  {
+    "id": "goblin",
+    "term": "goblin",
+    "kind": "lore",
+    "chapter": 5,
+    "text": "In folklore, small, clever and often mischievous creatures. Here they are a shrewd, unsentimental race who run the wizards' bank, and are not to be trifled with."
+  },
+  {
+    "id": "leaky-cauldron",
+    "term": "Leaky Cauldron",
+    "kind": "lore",
+    "chapter": 5,
+    "text": "A shabby wizard pub on a London street; Muggles walk past without noticing it. Its back yard is the way into Diagon Alley."
+  },
+  {
+    "id": "charing-cross-road",
+    "term": "Charing Cross Road",
+    "kind": "place",
+    "chapter": 5,
+    "text": "A real street in central London, famous for its bookshops and secondhand book dealers: a fitting place to hide a magical doorway."
+  },
+  {
+    "id": "the-underground",
+    "term": "the Underground",
+    "kind": "custom",
+    "chapter": 5,
+    "text": "London's subway system, also called the Tube. Hagrid squeezing onto a Muggle train is meant to be funny."
+  },
+  {
+    "id": "wand-cores",
+    "term": "wand cores",
+    "kind": "lore",
+    "chapter": 5,
+    "text": "Ollivander says each of his wands holds a powerful magical substance: unicorn hair, a phoenix tail feather or a dragon heartstring, inside a particular wood. No two are quite alike."
+  },
+  {
+    "id": "quidditch",
+    "term": "Quidditch",
+    "kind": "lore",
+    "chapter": 5,
+    "text": "The wizarding world's favourite sport, played in the air on broomsticks. Harry has no idea what it is yet, and neither do we.",
+    "seeAlso": [
+      9,
+      10,
+      11
+    ]
+  },
+  {
+    "id": "king-s-cross",
+    "term": "King's Cross",
+    "kind": "place",
+    "chapter": 6,
+    "text": "A real, busy mainline railway station in north London, the terminus for trains to northern England and Scotland. Its platforms 9 and 10 really exist; nine and three-quarters doesn't."
+  },
+  {
+    "id": "prefect",
+    "term": "prefect",
+    "kind": "title",
+    "chapter": 6,
+    "text": "In British schools, an older pupil given some authority over younger ones: keeping order, leading the way, setting an example. They usually wear a badge."
+  },
+  {
+    "id": "pasty",
+    "term": "pasty",
+    "kind": "word",
+    "chapter": 6,
+    "text": "A British pastry turnover filled with meat and vegetables (rhymes with 'nasty', not 'tasty'). Mrs. Weasley's corned beef sandwiches and the trolley's pumpkin pasties are all part of the feast."
+  },
+  {
+    "id": "bertie-bott-s-every-flavor-beans",
+    "term": "Bertie Bott's Every Flavor Beans",
+    "kind": "lore",
+    "chapter": 6,
+    "text": "Wizard jelly beans that really do come in every flavour, including ordinary ones like chocolate and horrible ones like sprouts. Eat at your own risk.",
+    "seeAlso": [
+      17
+    ]
+  },
+  {
+    "id": "chocolate-frog-cards",
+    "term": "Chocolate Frog cards",
+    "kind": "lore",
+    "chapter": 6,
+    "text": "Each Chocolate Frog comes with a collectible card of a famous witch or wizard, like the cigarette and bubblegum trading cards Muggle children once collected. Wizard pictures move, and the people in them can wander off.",
+    "seeAlso": [
+      13
+    ]
+  },
+  {
+    "id": "alchemy",
+    "term": "alchemy",
+    "kind": "history",
+    "chapter": 6,
+    "text": "A real medieval and early modern pursuit mixing early chemistry, philosophy and mysticism; scholars such as Isaac Newton took it seriously. Dumbledore's card credits him with work on it."
+  },
+  {
+    "id": "house-system",
+    "term": "house system",
+    "kind": "custom",
+    "chapter": 7,
+    "text": "Many British boarding schools split pupils into 'houses' that live, eat and compete together. Hogwarts has four, named for its founders: Gryffindor, Hufflepuff, Ravenclaw and Slytherin.",
+    "seeAlso": [
+      17
+    ]
+  },
+  {
+    "id": "house-cup",
+    "term": "House Cup",
+    "kind": "lore",
+    "chapter": 7,
+    "text": "Teachers award and take away points for good work and bad behaviour all year; the house with the most points at the end wins the Cup. Quidditch results count too.",
+    "seeAlso": [
+      15,
+      17
+    ]
+  },
+  {
+    "id": "first-years",
+    "term": "first-years",
+    "kind": "custom",
+    "chapter": 7,
+    "text": "British schools number years rather than grades. Hogwarts has seven years, starting at age eleven, so 'first-years' are the youngest pupils."
+  },
+  {
+    "id": "poltergeist",
+    "term": "poltergeist",
+    "kind": "word",
+    "chapter": 7,
+    "text": "German for 'noisy ghost': in folklore, a spirit that makes mischief by throwing things and banging about, rather than haunting quietly."
+  },
+  {
+    "id": "yorkshire-pudding",
+    "term": "Yorkshire pudding",
+    "kind": "word",
+    "chapter": 7,
+    "text": "Not a dessert: a puffy, savoury batter baked in hot fat, traditionally served with roast beef and gravy."
+  },
+  {
+    "id": "treacle-tart",
+    "term": "treacle tart",
+    "kind": "word",
+    "chapter": 7,
+    "text": "A traditional British dessert: a pastry case filled with golden syrup (a light, honey-like syrup) and breadcrumbs. Very sweet."
+  },
+  {
+    "id": "hogwarts-subjects",
+    "term": "Hogwarts subjects",
+    "kind": "lore",
+    "chapter": 8,
+    "text": "Transfiguration is changing one thing into another; Charms covers spells like making things fly; Herbology is the study of magical plants; Potions is brewing. Defense Against the Dark Arts is just what it sounds like."
+  },
+  {
+    "id": "double-potions",
+    "term": "double Potions",
+    "kind": "custom",
+    "chapter": 8,
+    "text": "A 'double' is two class periods back to back, a familiar (and often dreaded) feature of British school timetables."
+  },
+  {
+    "id": "asphodel-and-wormwood",
+    "term": "asphodel and wormwood",
+    "kind": "reference",
+    "chapter": 8,
+    "text": "Real plants. In Greek myth asphodel grew in the underworld; wormwood is the bitter herb in absinthe and a biblical symbol of sorrow."
+  },
+  {
+    "id": "bezoar",
+    "term": "bezoar",
+    "kind": "word",
+    "chapter": 8,
+    "text": "A real hard mass of hair or fibre that forms in an animal's stomach. For centuries people believed bezoars were an antidote to poison, and kings drank from cups containing them."
+  },
+  {
+    "id": "monkshood-and-wolfsbane",
+    "term": "monkshood and wolfsbane",
+    "kind": "word",
+    "chapter": 8,
+    "text": "A trick question: they are two names for the same real plant, aconite, which is highly poisonous."
+  },
+  {
+    "id": "daily-prophet",
+    "term": "Daily Prophet",
+    "kind": "lore",
+    "chapter": 8,
+    "text": "The wizarding world's daily newspaper, delivered by owl."
+  },
+  {
+    "id": "rock-cakes",
+    "term": "rock cakes",
+    "kind": "word",
+    "chapter": 8,
+    "text": "Real British teatime buns with dried fruit, named for their rough, craggy look. They're meant to be soft inside; Hagrid's aren't."
+  },
+  {
+    "id": "remembrall",
+    "term": "Remembrall",
+    "kind": "lore",
+    "chapter": 9,
+    "text": "A glass ball that fills with red smoke when its owner has forgotten something. It doesn't tell you what."
+  },
+  {
+    "id": "seeker",
+    "term": "Seeker",
+    "kind": "lore",
+    "chapter": 9,
+    "text": "One of the positions on a Quidditch team. Oliver Wood explains the full game soon; for now, just know it calls for a fast, sharp-eyed flier.",
+    "seeAlso": [
+      10
+    ]
+  },
+  {
+    "id": "wizard-s-duel",
+    "term": "wizard's duel",
+    "kind": "custom",
+    "chapter": 9,
+    "text": "Modelled on old human duelling: two challengers fight by agreed rules, each with a 'second', a friend who arranges things and takes over if their principal can't continue."
+  },
+  {
+    "id": "alohomora",
+    "term": "Alohomora",
+    "kind": "lore",
+    "chapter": 9,
+    "text": "Hermione's unlocking spell. Like most spells in the series, it's an invented, Latin-sounding word."
+  },
+  {
+    "id": "cerberus",
+    "term": "Cerberus",
+    "kind": "reference",
+    "chapter": 9,
+    "text": "In Greek myth, the monstrous three-headed dog that guards the gates of the underworld so that no one gets in or out. Hagrid's taste in pets has a long pedigree."
+  },
+  {
+    "id": "chasers-and-the-quaffle",
+    "term": "Chasers and the Quaffle",
+    "kind": "lore",
+    "chapter": 10,
+    "text": "Three Chasers pass the Quaffle, a red ball about the size of a soccer ball, and try to throw it through one of three high hoops at each end. Each goal is worth ten points.",
+    "seeAlso": [
+      11
+    ]
+  },
+  {
+    "id": "keeper",
+    "term": "Keeper",
+    "kind": "lore",
+    "chapter": 10,
+    "text": "Quidditch's goalkeeper: guards the team's three hoops to stop the other side's Chasers scoring.",
+    "seeAlso": [
+      11
+    ]
+  },
+  {
+    "id": "beaters-and-bludgers",
+    "term": "Beaters and Bludgers",
+    "kind": "lore",
+    "chapter": 10,
+    "text": "Two Bludgers, heavy black balls, rocket around trying to knock players off their brooms. Each team's two Beaters bat them away from teammates and toward opponents with short clubs.",
+    "seeAlso": [
+      11
+    ]
+  },
+  {
+    "id": "golden-snitch",
+    "term": "Golden Snitch",
+    "kind": "lore",
+    "chapter": 10,
+    "text": "A walnut-sized winged golden ball, very fast and hard to see. The game ends only when a Seeker catches it, earning 150 points, which usually decides the match.",
+    "seeAlso": [
+      11,
+      13
+    ]
+  },
+  {
+    "id": "wingardium-leviosa",
+    "term": "Wingardium Leviosa",
+    "kind": "lore",
+    "chapter": 10,
+    "text": "The levitation charm. A mix of English 'wing' and mock-Latin from levis, 'light' (as in 'levitate'). Flitwick insists the pronunciation matters."
+  },
+  {
+    "id": "hallowe-en",
+    "term": "Hallowe'en",
+    "kind": "custom",
+    "chapter": 10,
+    "text": "Older spelling of Halloween, 31 October: 'All Hallows' Eve', the night before All Saints' Day. Hogwarts celebrates with a feast and pumpkins."
+  },
+  {
+    "id": "troll",
+    "term": "troll",
+    "kind": "reference",
+    "chapter": 10,
+    "text": "From Scandinavian folklore: huge, dim, brutish creatures living in mountains or under bridges. Rowling's trolls are very strong and very stupid."
+  },
+  {
+    "id": "quidditch-through-the-ages",
+    "term": "Quidditch Through the Ages",
+    "kind": "lore",
+    "chapter": 11,
+    "text": "Harry's library book on the history of the sport. Rowling later published a real version (2001) for charity, under the pen name of its fictional author."
+  },
+  {
+    "id": "quidditch-fouls",
+    "term": "Quidditch fouls",
+    "kind": "lore",
+    "chapter": 11,
+    "text": "Harry reads that there are seven hundred ways to commit a foul, and all of them happened in one 1473 match. A foul earns the other side a penalty shot at goal."
+  },
+  {
+    "id": "jinx",
+    "term": "jinx",
+    "kind": "lore",
+    "chapter": 11,
+    "text": "A spell meant to cause harm or trouble, generally milder than a curse. In ordinary English, a jinx is simply a bringer of bad luck."
+  },
+  {
+    "id": "staff-room",
+    "term": "staff room",
+    "kind": "custom",
+    "chapter": 11,
+    "text": "The British term for the teachers' lounge, off-limits to pupils unless invited."
+  },
+  {
+    "id": "romania",
+    "term": "Romania",
+    "kind": "place",
+    "chapter": 12,
+    "text": "A real country in south-eastern Europe whose Carpathian Mountains are wild, forested and full of legend: a natural home for dragons. Vlad 'Dracula' took his name from his father's Order of the Dragon."
+  },
+  {
+    "id": "christmas-crackers",
+    "term": "Christmas crackers",
+    "kind": "custom",
+    "chapter": 12,
+    "text": "A British Christmas tradition: a paper tube that two people pull apart with a bang, releasing a paper crown, a small toy and a bad joke. Wizard crackers are much more impressive."
+  },
+  {
+    "id": "christmas-pudding",
+    "term": "Christmas pudding",
+    "kind": "custom",
+    "chapter": 12,
+    "text": "A rich, dark steamed fruit pudding, often set alight with brandy. Traditionally a coin is hidden inside for luck; at Hogwarts it's a Sickle."
+  },
+  {
+    "id": "fifty-pence-piece",
+    "term": "fifty-pence piece",
+    "kind": "money",
+    "chapter": 12,
+    "text": "A British coin worth half a pound: in the early 1990s enough to buy a chocolate bar or two. As a Christmas present, it's a pointed insult."
+  },
+  {
+    "id": "wizard-chess",
+    "term": "wizard chess",
+    "kind": "lore",
+    "chapter": 12,
+    "text": "Chess with living pieces that move on command and smash each other when they capture. They also argue with players they don't trust.",
+    "seeAlso": [
+      16
+    ]
+  },
+  {
+    "id": "restricted-section",
+    "term": "Restricted Section",
+    "kind": "lore",
+    "chapter": 12,
+    "text": "The part of the Hogwarts library holding books on powerful dark magic. Students need a signed note from a teacher to use it."
+  },
+  {
+    "id": "head-boy",
+    "term": "Head Boy",
+    "kind": "title",
+    "chapter": 12,
+    "text": "In British schools, the senior pupil chosen to lead the prefects and represent the students: a great honour. A Head Girl is chosen too."
+  },
+  {
+    "id": "the-mirror-s-inscription",
+    "term": "the mirror's inscription",
+    "kind": "lore",
+    "chapter": 12,
+    "text": "The strange words carved across the top are English written backwards, with the spaces shifted. Try reading them in reverse, as in a mirror."
+  },
+  {
+    "id": "sorcerer-s-stone",
+    "term": "Sorcerer's Stone",
+    "kind": "reference",
+    "chapter": 13,
+    "text": "In legend and in the British edition, the Philosopher's Stone: the alchemists' great goal. The US publisher retitled the book for American readers, fearing 'philosopher' sounded too dry."
+  },
+  {
+    "id": "the-real-nicolas-flamel",
+    "term": "the real Nicolas Flamel",
+    "kind": "history",
+    "chapter": 13,
+    "text": "A real Parisian scribe and bookseller (c. 1330–1418) with his wife, Perenelle. Long after his death, legends grew that he had made the Philosopher's Stone and never really died."
+  },
+  {
+    "id": "elixir-of-life",
+    "term": "Elixir of Life",
+    "kind": "reference",
+    "chapter": 13,
+    "text": "A potion of alchemical legend said to grant eternal life or youth; alchemists believed it could be made with the Philosopher's Stone."
+  },
+  {
+    "id": "devon",
+    "term": "Devon",
+    "kind": "place",
+    "chapter": 13,
+    "text": "A real rural county in south-west England, all green hills and coastline. Rowling grew up nearby; the Flamels are said to live there quietly."
+  },
+  {
+    "id": "leg-locker-curse",
+    "term": "Leg-Locker Curse",
+    "kind": "lore",
+    "chapter": 13,
+    "text": "A schoolyard hex that sticks the victim's legs together, so they can only hop."
+  },
+  {
+    "id": "hocus-pocus",
+    "term": "hocus-pocus",
+    "kind": "word",
+    "chapter": 13,
+    "text": "An old English phrase (from the 1600s) for conjurors' patter and trickery, probably mock-Latin. Here it's used scornfully of someone's magic."
+  },
+  {
+    "id": "revise",
+    "term": "revise",
+    "kind": "word",
+    "chapter": 14,
+    "text": "British for 'review' or study for an exam. Hermione's revision timetables are colour-coded."
+  },
+  {
+    "id": "hogsmeade",
+    "term": "Hogsmeade",
+    "kind": "lore",
+    "chapter": 14,
+    "text": "The all-wizard village near Hogwarts, with its own railway station. Its pub is where Hagrid played cards."
+  },
+  {
+    "id": "norwegian-ridgeback",
+    "term": "Norwegian Ridgeback",
+    "kind": "lore",
+    "chapter": 14,
+    "text": "One of the dragon breeds in Hagrid's library books. Rowling's dragons are sorted into breeds by country, like dog breeds."
+  },
+  {
+    "id": "warlocks-convention-of-1709",
+    "term": "Warlocks' Convention of 1709",
+    "kind": "lore",
+    "chapter": 14,
+    "text": "The wizarding law Ron cites that outlawed dragon breeding, since dragons are hard to hide from Muggles. Hagrid would rather not think about it."
+  },
+  {
+    "id": "detention",
+    "term": "detention",
+    "kind": "custom",
+    "chapter": 14,
+    "text": "A school punishment: staying after hours to do a task set by a teacher. At Hogwarts it can involve rather more than writing lines.",
+    "seeAlso": [
+      15
+    ]
+  },
+  {
+    "id": "centaurs",
+    "term": "centaurs",
+    "kind": "reference",
+    "chapter": 15,
+    "text": "In Greek myth, beings with a human upper body and a horse's body. Some, like the wise Chiron, were famed for star-lore and prophecy."
+  },
+  {
+    "id": "mars-is-bright",
+    "term": "Mars is bright",
+    "kind": "reference",
+    "chapter": 15,
+    "text": "Mars is named for the Roman god of war, and in astrology a bright Mars is an omen of conflict. The centaurs read the planets and won't speak plainly."
+  },
+  {
+    "id": "unicorn",
+    "term": "unicorn",
+    "kind": "reference",
+    "chapter": 15,
+    "text": "In medieval legend, a pure, wild white horse with a single horn, a symbol of innocence; its horn was believed to cure poison. Harming one has always been a monstrous act."
+  },
+  {
+    "id": "red-and-green-sparks",
+    "term": "red and green sparks",
+    "kind": "lore",
+    "chapter": 15,
+    "text": "Hagrid's signals for the Forest: green sparks from a wand mean 'found it', red sparks mean 'in trouble, come quick'."
+  },
+  {
+    "id": "firenze",
+    "term": "Firenze",
+    "kind": "foreign",
+    "chapter": 15,
+    "text": "Italian for 'Florence', the Renaissance city of art and learning."
+  },
+  {
+    "id": "ministry-of-magic",
+    "term": "Ministry of Magic",
+    "kind": "lore",
+    "chapter": 16,
+    "text": "The government of the British wizarding world, based in London. Among other things, it keeps magic hidden from Muggles."
+  },
+  {
+    "id": "petrificus-totalus",
+    "term": "Petrificus Totalus",
+    "kind": "lore",
+    "chapter": 16,
+    "text": "The Full Body-Bind curse, which snaps the victim's arms and legs together and leaves them rigid as a board. Mock-Latin: 'totally petrified'."
+  },
+  {
+    "id": "devil-s-snare",
+    "term": "Devil's Snare",
+    "kind": "lore",
+    "chapter": 16,
+    "text": "An invented magical plant that wraps its tendrils around anything that touches it, and likes the dark and damp. Professor Sprout's Herbology lessons come in handy."
+  },
+  {
+    "id": "orpheus",
+    "term": "Orpheus",
+    "kind": "reference",
+    "chapter": 16,
+    "text": "In Greek myth, the musician Orpheus charmed Cerberus, the three-headed guard dog of the underworld, with his playing so he could slip past. Rowling borrows the trick."
+  },
+  {
+    "id": "castle",
+    "term": "castle",
+    "kind": "word",
+    "chapter": 16,
+    "text": "An old name for the rook in chess, the piece shaped like a tower. Ron uses it, and also knows his knights, bishops and checkmate."
+  },
+  {
+    "id": "the-potion-riddle",
+    "term": "the potion riddle",
+    "kind": "reference",
+    "chapter": 16,
+    "text": "A logic puzzle in verse, of a kind found in old puzzle books: you must work out from clues which bottle is which. No magic needed, only careful reasoning."
+  },
+  {
+    "id": "end-of-year-feast",
+    "term": "end-of-year feast",
+    "kind": "custom",
+    "chapter": 17,
+    "text": "Like prize-giving day at a British school: the year's final dinner, where the House Cup is presented and the Hall is decked in the winning house's colours."
+  },
+  {
+    "id": "no-magic-in-the-holidays",
+    "term": "no magic in the holidays",
+    "kind": "lore",
+    "chapter": 17,
+    "text": "Hogwarts students are warned not to use magic outside school over the holidays. The Dursleys, of course, don't know that."
+  },
+  {
+    "id": "wizard-photographs",
+    "term": "wizard photographs",
+    "kind": "lore",
+    "chapter": 17,
+    "text": "Wizarding photographs move: the people in them smile, wave and sometimes wander out of the frame, as on Harry's Chocolate Frog cards."
+  }
+]
