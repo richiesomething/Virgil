@@ -6,7 +6,10 @@ profiles — all stopping at your bookmark.
 
 **Live:** https://richiesomething.github.io/Virgil/
 
-The first book is *The Count of Monte Cristo* (Project Gutenberg #1184, 117 chapters).
+Books so far:
+
+- *The Count of Monte Cristo* (Project Gutenberg #1184, 117 chapters). Summaries and profiles were written from the public-domain text.
+- *Harry Potter and the Sorcerer’s Stone* (US edition, 17 chapters), added for testing. The book is under copyright, so no text from it is included; summaries and profiles are original, written from knowledge of the book.
 
 ## Features (Phase 1)
 

@@ -8,7 +8,8 @@ export interface Revealed {
 export interface Chapter {
   number: number
   title: string
-  volume: number
+  /** Omitted for books that aren't divided into volumes. */
+  volume?: number
   /** One or two sentences. */
   summary: string
   /** Longer summary, as paragraphs. */
@@ -59,7 +60,9 @@ export interface BookMeta {
   chapterCount: number
   blurb: string
   edition: string
-  sourceUrl: string
+  /** Link to a public-domain source text, when there is one. */
+  sourceUrl?: string
+  /** Empty for books that aren't divided into volumes. */
   volumes: { number: number; title: string; firstChapter: number }[]
   /** Accent colour for the cover. */
   color: string

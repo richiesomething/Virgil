@@ -13,7 +13,7 @@ export default function CharacterChip({ bookId, c, isNew }: { bookId: string; c:
 
 export function initials(name: string): string {
   const words = name
-    .replace(/^(the|m\.|mme\.|mlle\.|monsieur|madame|mademoiselle|signor|abbé|count|countess|baron|baroness|major|dr\.|lord|king|duc|marquis|marquise)\s+/i, '')
+    .replace(/^(the|m\.|mr\.|mrs\.|madam|professor|mme\.|mlle\.|monsieur|madame|mademoiselle|signor|abbé|count|countess|baron|baroness|major|dr\.|lord|king|duc|marquis|marquise)\s+/i, '')
     .split(/[\s-]+/)
     .filter((w) => /^[A-ZÀ-Ý]/.test(w))
   return ((words[0]?.[0] ?? name[0]) + (words.length > 1 ? words[words.length - 1][0] : '')).toUpperCase()

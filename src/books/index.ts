@@ -1,12 +1,14 @@
 import type { BookData, BookMeta } from '../types'
 import { meta as monteCristo } from './monte-cristo/meta'
+import { meta as harryPotter1 } from './harry-potter-1/meta'
 
 /** Metadata for every book in the library (cheap; loaded up front). */
-export const library: BookMeta[] = [monteCristo]
+export const library: BookMeta[] = [monteCristo, harryPotter1]
 
 /** Full book data is code-split so the library stays fast as it grows. */
 const loaders: Record<string, () => Promise<{ default: BookData }>> = {
   'monte-cristo': () => import('./monte-cristo/data'),
+  'harry-potter-1': () => import('./harry-potter-1/data'),
 }
 
 const cache = new Map<string, Promise<BookData>>()

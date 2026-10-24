@@ -30,7 +30,7 @@ export default function ChapterDetail({ book, upTo, setUpTo, n }: BookPageProps 
     <article className="chapter">
       <a className="back" href={href('b', meta.id, 'chapters')}>← All chapters</a>
       <p className="eyebrow">
-        {volume?.title} · Chapter {ch.number}
+        {volume ? `${volume.title} · ` : ''}Chapter {ch.number}
       </p>
       <h1 className="page-title">{ch.title}</h1>
       <p className="lede">{ch.summary}</p>
