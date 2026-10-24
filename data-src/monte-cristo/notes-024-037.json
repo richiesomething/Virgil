@@ -1,0 +1,677 @@
+[
+  {
+    "chapter": 24,
+    "characters": [
+      {
+        "id": "edmond-dantes",
+        "nameHere": "Dantès / Edmond",
+        "learned": "Patient and methodical even in his excitement, he works through Faria’s clues like a puzzle and steels himself against disappointment. He now owns an almost unimaginable fortune.",
+        "moment": "Found Cardinal Spada’s treasure in the second grotto on Monte Cristo."
+      },
+      {
+        "id": "abbe-faria",
+        "nameHere": "the Abbé Faria",
+        "learned": "Though dead, his teaching guides Dantès step by step, and his belief in the treasure, which others called madness, proves completely right."
+      },
+      {
+        "id": "jacopo",
+        "nameHere": "his friend Jacopo",
+        "learned": "The smuggler friend had left Dantès a horn of gunpowder, which Dantès uses to blast the boulder."
+      },
+      {
+        "id": "cardinal-spada",
+        "nameHere": "the Cardinal Spada",
+        "learned": "The long-dead cardinal hid his family fortune with great cunning: a boulder slid into place, a false stucco wall painted like granite, and a buried chest bearing the Spada arms."
+      }
+    ]
+  },
+  {
+    "chapter": 25,
+    "characters": [
+      {
+        "id": "edmond-dantes",
+        "nameHere": "Dantès",
+        "learned": "He shows great self-control and generosity, explaining his wealth with an invented inheritance from an uncle. He travels on an English passport under the name Lord Wilmore, an alias he has adopted; his face has changed so much that an old shipmate does not know him.",
+        "moment": "Returned to Marseilles unrecognized and bought his father’s old house as “Lord Wilmore.”"
+      },
+      {
+        "id": "jacopo",
+        "nameHere": "Jacopo",
+        "learned": "Rewarded with a new boat, he serves Dantès loyally as a messenger and believes the story of the inheritance.",
+        "moment": "Brought back the news that old Dantès was dead and Mercédès had disappeared."
+      },
+      {
+        "id": "louis-dantes",
+        "nameHere": "old Dantès / Louis Dantès",
+        "learned": "He has died. His rooms are now let to a young couple, and the nasturtiums he grew at his window are gone."
+      },
+      {
+        "id": "mercedes",
+        "nameHere": "Mercédès",
+        "learned": "She has disappeared from the Catalan village, and Dantès cannot account for it."
+      },
+      {
+        "id": "gaspard-caderousse",
+        "nameHere": "Caderousse the tailor",
+        "learned": "He fell on hard times and now keeps a small inn on the road between Bellegarde and Beaucaire."
+      }
+    ]
+  },
+  {
+    "chapter": 26,
+    "characters": [
+      {
+        "id": "gaspard-caderousse",
+        "nameHere": "Gaspard Caderousse",
+        "learned": "Now a poor innkeeper, he is vain, envious of others’ good fortune, and loud about his own honesty. He seems truly sorry about Dantès, but the sight of a diamond quickly loosens his tongue.",
+        "moment": "Revealed that old Dantès died of starvation."
+      },
+      {
+        "id": "carconte",
+        "nameHere": "La Carconte (Madeleine Radelle)",
+        "learned": "Caderousse’s wife, born near Arles and once beautiful, is now wasted by fever. Bitter and suspicious, she urges her husband to keep quiet because Fernand and Danglars are powerful enough to crush them."
+      },
+      {
+        "id": "edmond-dantes",
+        "nameHere": "the abbé (an Italian priest)",
+        "learned": "The narration never names the priest, but Dantès has just learned where Caderousse lives, and the abbé’s emotion at every mention of old Dantès and Mercédès makes it clear that this is Dantès in disguise. He claims Dantès died in prison and uses a diamond “legacy” as bait to draw out the truth.",
+        "moment": "Visited Caderousse’s inn disguised as a priest, with a diamond as bait."
+      },
+      {
+        "id": "louis-dantes",
+        "nameHere": "old Dantès",
+        "learned": "According to Caderousse, he died about a year after Edmond’s arrest: officially of a stomach complaint, but really of hunger. Mercédès and M. Morrel were kind to him, and he came to hate Fernand."
+      },
+      {
+        "id": "mercedes",
+        "nameHere": "Mercédès the Catalan",
+        "learned": "She was kind to old Dantès after Edmond’s arrest."
+      },
+      {
+        "id": "fernand-mondego",
+        "nameHere": "Fernand",
+        "learned": "Caderousse hints that he was no true friend, since he wanted Edmond’s bride for himself. He is now rich and powerful."
+      },
+      {
+        "id": "danglars",
+        "nameHere": "Danglars",
+        "learned": "Caderousse calls him a traitor; La Carconte says he is now powerful enough to crush them."
+      },
+      {
+        "id": "pierre-morrel",
+        "nameHere": "Monsieur Morrel",
+        "learned": "He was kind to old Dantès in his last years."
+      }
+    ]
+  },
+  {
+    "chapter": 27,
+    "characters": [
+      {
+        "id": "gaspard-caderousse",
+        "nameHere": "Caderousse",
+        "learned": "He admits he was present, drunk, when the denunciation was written, and kept silent afterwards out of fear; he says remorse haunts him. When he fell into poverty, Danglars refused to see him and Fernand sent him only a hundred francs.",
+        "moment": "Told the abbé who had denounced Dantès and received the diamond in exchange for Morrel’s red purse."
+      },
+      {
+        "id": "carconte",
+        "nameHere": "La Carconte",
+        "learned": "Ever suspicious, she thinks the diamond may be fake, and mutters that fifty thousand francs is a large sum but not a fortune."
+      },
+      {
+        "id": "edmond-dantes",
+        "nameHere": "the abbé",
+        "learned": "His murmured “Oh, Faria, Faria, how well did you judge men and things!” confirms that the priest is Dantès. He now knows exactly how he was betrayed and how his father died, and he struggles visibly to control his feelings.",
+        "moment": "Learned that Danglars wrote the denunciation and Fernand posted it."
+      },
+      {
+        "id": "louis-dantes",
+        "nameHere": "old Dantès",
+        "learned": "He refused to leave home in case Edmond returned, sold his belongings to live, and finally used a doctor’s diet as an excuse to stop eating. He died after nine days, blessing his son and cursing those who caused his misery."
+      },
+      {
+        "id": "mercedes",
+        "nameHere": "Mercédès / Madame de Morcerf",
+        "learned": "After eighteen months of waiting she married Fernand in the church of Accoules, where she was to have married Edmond. She educated herself, has a son named Albert, and is now a rich countess in Paris, though Caderousse believes she is unhappy.",
+        "moment": "Secretly dropped a purse of money from her window for the destitute Caderousse."
+      },
+      {
+        "id": "fernand-mondego",
+        "nameHere": "Fernand / the Comte de Morcerf",
+        "learned": "He posted the denunciation. Drafted in 1815, he deserted to the enemy with a general, rose under the restored king, and was made a count after the Spanish war of 1823. It is revealed that he now bears the name Comte (Count) de Morcerf. He served Ali Pasha in Greece, is a lieutenant-general, and lives at 27 Rue du Helder in Paris, married to Mercédès."
+      },
+      {
+        "id": "danglars",
+        "nameHere": "Danglars / Baron Danglars",
+        "learned": "He wrote the denunciation with his left hand to disguise his writing. Through Morrel’s recommendation he became cashier at a Spanish bank, made a fortune supplying the army, and married twice, now to a widow, Madame de Nargonne. He is a millionaire baron living in the Rue du Mont-Blanc in Paris."
+      },
+      {
+        "id": "pierre-morrel",
+        "nameHere": "M. Morrel",
+        "learned": "He pleaded for Dantès again and again and was persecuted as a Bonapartist for it; he paid for old Dantès’s funeral. Now he has lost five ships and is close to ruin, with only the Pharaon left to save him. He has a wife, a daughter, and a son who is an army lieutenant."
+      },
+      {
+        "id": "villefort",
+        "nameHere": "M. de Villefort",
+        "learned": "Mercédès begged him for help in vain. Some time after Dantès’s arrest he married Mademoiselle de Saint-Méran and left Marseilles."
+      },
+      {
+        "id": "renee-de-saint-meran",
+        "nameHere": "Mademoiselle de Saint-Méran",
+        "learned": "She married Villefort, who soon afterwards left Marseilles."
+      },
+      {
+        "id": "albert-de-morcerf",
+        "nameHere": "little Albert",
+        "learned": "The son of Mercédès and Fernand; Caderousse saw Mercédès educating him at Perpignan during the Spanish war."
+      },
+      {
+        "id": "abbe-faria",
+        "nameHere": "Faria",
+        "learned": "Everything Faria deduced in prison about who betrayed Dantès proves true."
+      },
+      {
+        "id": "ali-tebelin",
+        "nameHere": "Ali Pasha",
+        "learned": "The Greek-region ruler whom Fernand served as instructor-general; before Ali was killed, he left Fernand a large sum of money."
+      }
+    ]
+  },
+  {
+    "chapter": 28,
+    "characters": [
+      {
+        "id": "edmond-dantes",
+        "nameHere": "the Englishman (clerk of Thomson & French)",
+        "learned": "Another disguise: a calm Englishman claiming to represent a Roman bank. The text makes his identity plain: he smiles at Boville’s description of the prisoner Dantès and is called “the Abbé Faria’s pupil.” Officially recorded as drowned, he now holds proof of who denounced him and of Villefort’s part.",
+        "moment": "Bought Boville’s claim on Morrel and secretly took Danglars’s denunciation from the prison files."
+      },
+      {
+        "id": "m-de-boville",
+        "nameHere": "M. de Boville",
+        "learned": "Inspector of prisons for fourteen years, he had two hundred thousand francs, his daughter’s dowry, invested with Morrel and was in despair. He believes Dantès drowned in his escape and finds the story funny.",
+        "moment": "Sold his doubtful claim on Morrel at full value and let the Englishman search the prison registers."
+      },
+      {
+        "id": "pierre-morrel",
+        "nameHere": "M. Morrel",
+        "learned": "He has told Boville he cannot pay unless the Pharaon arrives by the 15th. The files show his 1815 petition for Dantès, which Villefort later used as proof of Dantès’s Bonapartism."
+      },
+      {
+        "id": "abbe-faria",
+        "nameHere": "the Abbé Faria",
+        "learned": "The prison remembers him as a madman obsessed with a treasure, though Boville admits he was “gentleness itself.”"
+      },
+      {
+        "id": "villefort",
+        "nameHere": "M. de Villefort",
+        "learned": "A note in his handwriting brands Dantès “an inveterate Bonapartist” to be kept in strict solitary confinement. He held back Morrel’s petition, which later sealed Dantès’s fate."
+      },
+      {
+        "id": "danglars",
+        "nameHere": "Danglars",
+        "learned": "His original anonymous denunciation, postmarked 27 February, was still in the prison file until the Englishman took it."
+      },
+      {
+        "id": "noirtier",
+        "nameHere": "Noirtier",
+        "learned": "His name was left out of the record of Dantès’s examination, a trace of how Villefort covered up the letter."
+      }
+    ]
+  },
+  {
+    "chapter": 29,
+    "characters": [
+      {
+        "id": "edmond-dantes",
+        "nameHere": "the Englishman / the clerk of Thomson & French",
+        "learned": "He watches Morrel’s misfortune with deep pity, even shedding a tear, and reveals a sailor’s expert knowledge. He introduces the name “Sinbad the Sailor” for a letter Julie will one day receive.",
+        "moment": "Granted Morrel three months’ grace and told Julie to obey a letter from “Sinbad the Sailor.”"
+      },
+      {
+        "id": "pierre-morrel",
+        "nameHere": "M. Morrel",
+        "learned": "Aged by fourteen years of trouble, he is still scrupulously honest and proud that his firm has never failed to honor a signature. He faces 287,500 francs of debts with his last ship gone.",
+        "moment": "Learned the Pharaon had sunk and thanked God that the crew was saved."
+      },
+      {
+        "id": "cocles",
+        "nameHere": "Cocles",
+        "learned": "The one-eyed cashier, nicknamed “Cocles” (cock-eye), is devoted and unshakeable, sure the firm can never stop paying because in twenty years it never has."
+      },
+      {
+        "id": "emmanuel-herbaut",
+        "nameHere": "Emmanuel",
+        "learned": "A young clerk of twenty-three or twenty-four who stays with the failing firm because he loves Morrel’s daughter."
+      },
+      {
+        "id": "julie-morrel",
+        "nameHere": "Mademoiselle Julie",
+        "learned": "Morrel’s beautiful daughter, sixteen or seventeen, devoted to her father. She blushes when the stranger hints she will marry Emmanuel.",
+        "moment": "Swore to obey a letter signed “Sinbad the Sailor.”"
+      },
+      {
+        "id": "madame-morrel",
+        "nameHere": "Madame Morrel",
+        "learned": "Morrel’s wife, who weeps at the news of the wreck but stays at her husband’s side."
+      },
+      {
+        "id": "penelon",
+        "nameHere": "Penelon",
+        "learned": "The tobacco-chewing old sailor survived the wreck and tells the story; he and his shipmates would rather wait for their wages than leave Morrel.",
+        "moment": "Described the sinking of the Pharaon and offered to work unpaid."
+      },
+      {
+        "id": "captain-gaumard",
+        "nameHere": "Captain Gaumard",
+        "learned": "The Pharaon’s captain fought the storm bravely, threatened to shoot any man who left the pumps, and had to be thrown into the lifeboat by Penelon. He stayed behind sick at Palma."
+      },
+      {
+        "id": "m-de-boville",
+        "nameHere": "M. de Boville",
+        "learned": "His claim on Morrel now belongs to Thomson & French."
+      }
+    ]
+  },
+  {
+    "chapter": 30,
+    "characters": [
+      {
+        "id": "pierre-morrel",
+        "nameHere": "M. Morrel",
+        "learned": "He would rather die than be dishonored, believing that a suicide leaves an honest name where bankruptcy would not. Danglars refused to help him.",
+        "moment": "Was saved at the stroke of eleven by Sinbad’s purse and a new Pharaon."
+      },
+      {
+        "id": "julie-morrel",
+        "nameHere": "Julie",
+        "learned": "Trusting the stranger’s instructions despite her fears, she becomes her father’s rescuer.",
+        "moment": "Fetched the red silk purse from the Allées de Meilhan and reached her father just in time."
+      },
+      {
+        "id": "maximilien-morrel",
+        "nameHere": "Maximilian Morrel",
+        "learned": "Morrel’s son, about twenty-two, trained at the Polytechnic School and a sub-lieutenant in the 53rd infantry regiment. Known as “the stoic” for his strict sense of duty, he has great influence over his father.",
+        "moment": "Agreed, heartbroken, to let his father die and to live to restore the family name."
+      },
+      {
+        "id": "madame-morrel",
+        "nameHere": "Madame Morrel",
+        "learned": "Watching through the keyhole, she fears her husband is writing his will."
+      },
+      {
+        "id": "emmanuel-herbaut",
+        "nameHere": "Emmanuel",
+        "learned": "Julie trusts him above everyone else; he escorts her toward the Allées de Meilhan and brings the news of the Pharaon."
+      },
+      {
+        "id": "cocles",
+        "nameHere": "Cocles",
+        "learned": "He is crushed when Morrel shows him the true state of the accounts."
+      },
+      {
+        "id": "penelon",
+        "nameHere": "Penelon",
+        "learned": "Newly dressed and embarrassed, he seems to have a new master; he returns aboard the new Pharaon."
+      },
+      {
+        "id": "captain-gaumard",
+        "nameHere": "Captain Gaumard",
+        "learned": "Recovered, he returns from Palma and later brings the new Pharaon into port."
+      },
+      {
+        "id": "danglars",
+        "nameHere": "Danglars",
+        "learned": "Now said to be worth six to eight million francs, he refused to help Morrel, to whom he owed the start of his fortune."
+      },
+      {
+        "id": "edmond-dantes",
+        "nameHere": "Sinbad the Sailor / the man with the black beard",
+        "learned": "It is now clear that the English clerk, “Sinbad the Sailor,” and the bearded stranger on the quay are all Dantès. Having repaid Morrel’s kindness in secret, he calls himself Heaven’s substitute and turns from gratitude to vengeance.",
+        "moment": "Saved Morrel in secret, then sailed away vowing to punish the wicked."
+      },
+      {
+        "id": "jacopo",
+        "nameHere": "Jacopo",
+        "learned": "He is still with Dantès, bringing the launch to carry him to his yacht."
+      }
+    ]
+  },
+  {
+    "chapter": 31,
+    "characters": [
+      {
+        "id": "franz-depinay",
+        "nameHere": "Baron Franz d’Épinay",
+        "learned": "A young Parisian aristocrat who has lived in Italy for several years and acts as Albert’s guide. Cool and sensible in danger but very curious, he senses that his host has suffered and suspects a thirst for revenge.",
+        "moment": "Dined in Sinbad’s hidden palace on Monte Cristo and tried hashish."
+      },
+      {
+        "id": "albert-de-morcerf",
+        "nameHere": "the Viscount Albert de Morcerf",
+        "learned": "A young man of Paris high society going to Rome for the Carnival. Readers may notice that Morcerf is the title Caderousse said Fernand now bears, and that Mercédès’s son is named Albert."
+      },
+      {
+        "id": "signor-pastrini",
+        "nameHere": "Signor Pastrini",
+        "learned": "Owner of the Hôtel de Londres in Rome, where the friends have booked rooms."
+      },
+      {
+        "id": "gaetano",
+        "nameHere": "Gaetano",
+        "learned": "Captain of Franz’s boat and a part-time smuggler who knows the signals of smugglers and bandits; he has heard rumors of the mysterious chief."
+      },
+      {
+        "id": "edmond-dantes",
+        "nameHere": "Sinbad the Sailor",
+        "learned": "Franz’s host uses the very name signed on the letter to Julie Morrel and lives in a secret palace on Monte Cristo, so the reader can recognize Dantès. He now looks about forty, pale as a man long entombed, rich beyond measure, and friendly with smugglers and bandits; he hints at vows still to fulfil and a future journey to Paris.",
+        "moment": "Received Franz blindfolded in his underground palace on Monte Cristo."
+      },
+      {
+        "id": "ali",
+        "nameHere": "Ali",
+        "learned": "A mute Nubian servant. The Bey of Tunis had his tongue cut out and was about to take his hand and head when Sinbad bought his life with a fine gun and a cutlass; Ali is utterly devoted to him."
+      }
+    ]
+  },
+  {
+    "chapter": 32,
+    "characters": [
+      {
+        "id": "franz-depinay",
+        "nameHere": "Franz",
+        "learned": "The secret of the grotto becomes an obsession, but he cannot solve it, and the night begins to feel like a dream.",
+        "moment": "Searched the grotto for hours in vain for the hidden entrance."
+      },
+      {
+        "id": "gaetano",
+        "nameHere": "Gaetano",
+        "learned": "He says Sinbad is on excellent terms with smugglers and bandits all along the coast and owns a yacht faster than any frigate."
+      },
+      {
+        "id": "edmond-dantes",
+        "nameHere": "Signor Sinbad",
+        "learned": "He leaves while Franz sleeps, sends polite apologies, and goes out of his way to land the two Corsican fugitives, a pattern of secret, law-defying help."
+      },
+      {
+        "id": "signor-pastrini",
+        "nameHere": "Signor Pastrini",
+        "learned": "An obsequious but practical innkeeper; he warns that no carriages can be had at Carnival time. The rest of his floor is let to a mysterious rich traveller."
+      },
+      {
+        "id": "albert-de-morcerf",
+        "nameHere": "Albert / Morcerf",
+        "learned": "Breezy and self-assured, he believes a full purse can make anything possible."
+      }
+    ]
+  },
+  {
+    "chapter": 33,
+    "characters": [
+      {
+        "id": "luigi-vampa",
+        "nameHere": "Luigi Vampa",
+        "learned": "A famous bandit of about twenty-two, once a shepherd of extraordinary intelligence, pride, and marksmanship. Moody and jealous, he burned the San-Felice villa to win Teresa a fine costume, killed Cucumetto, and took over his band. He executes prisoners whose ransom arrives late and hides among shepherds, fishermen, and islands such as Monte Cristo.",
+        "moment": "Shot Cucumetto dead and was chosen captain of the bandits."
+      },
+      {
+        "id": "teresa",
+        "nameHere": "Teresa",
+        "learned": "An orphan shepherdess from Valmontone, beautiful, flirtatious, and fond of finery; she is the only person who can control Vampa, and she eagerly followed him into the bandits’ life.",
+        "moment": "Was rescued from Cucumetto by Vampa’s shot."
+      },
+      {
+        "id": "cucumetto",
+        "nameHere": "Cucumetto",
+        "learned": "A notorious and brutal bandit chief who shot his own man Carlini in the back. After Vampa and Teresa hid him from soldiers, he set his sights on Teresa.",
+        "moment": "Was shot dead by Vampa while carrying Teresa off."
+      },
+      {
+        "id": "carlini",
+        "nameHere": "Carlini",
+        "learned": "One of Cucumetto’s bandits; he stabbed his beloved Rita to save her from the band, then was killed from behind by Cucumetto after swearing revenge."
+      },
+      {
+        "id": "rita",
+        "nameHere": "Rita",
+        "learned": "A surveyor’s daughter from Frosinone, kidnapped by Cucumetto and killed by her lover Carlini; her father hanged himself over her grave."
+      },
+      {
+        "id": "diavolaccio",
+        "nameHere": "Diavolaccio",
+        "learned": "A bandit in Cucumetto’s band who won the lot for Rita, only to find she had been stabbed."
+      },
+      {
+        "id": "carmela",
+        "nameHere": "Carmela",
+        "learned": "The Count of San-Felice’s beloved daughter, whose costume Teresa envied; an unknown peasant carried her from the burning villa."
+      },
+      {
+        "id": "count-of-san-felice",
+        "nameHere": "the Count of San-Felice",
+        "learned": "A rich nobleman who employed Vampa as a boy, rewarded his cleverness, and gave the Carnival ball where Teresa danced."
+      },
+      {
+        "id": "franz-depinay",
+        "nameHere": "Franz",
+        "learned": "He is startled when the name Sinbad turns up in Vampa’s story, and prudently decides to avoid the road outside the walls."
+      },
+      {
+        "id": "albert-de-morcerf",
+        "nameHere": "Albert",
+        "learned": "Brave to the point of recklessness, he would rather fight bandits than surrender, and dismisses Vampa as “a myth.” He lives in the Rue du Helder in Paris."
+      },
+      {
+        "id": "signor-pastrini",
+        "nameHere": "Signor Pastrini",
+        "learned": "He knew Vampa as a child and was once captured and released by him, receiving a fine Bréguet watch."
+      },
+      {
+        "id": "edmond-dantes",
+        "nameHere": "Sinbad the Sailor (the traveller in Vampa’s story)",
+        "learned": "Years earlier a traveller giving this name met the young Vampa, trading gold coins for a carved dagger just before Vampa became a bandit."
+      }
+    ]
+  },
+  {
+    "chapter": 34,
+    "characters": [
+      {
+        "id": "edmond-dantes",
+        "nameHere": "the man in the cloak / the Count of Monte Cristo",
+        "learned": "In Rome he is known as the Count of Monte Cristo and has rented the rest of Pastrini’s floor. Vampa’s band owes him favors, and he trusts gold to do more than daggers. His deathly pallor terrifies the Countess G——, who compares him to a vampire.",
+        "moment": "Promised Vampa to obtain a pardon for Peppino, then invited Franz and Albert to share his carriage and windows."
+      },
+      {
+        "id": "franz-depinay",
+        "nameHere": "Franz",
+        "learned": "He pieces the clues together: the voice, the windows, and the execution notice all point to Sinbad, now calling himself the Count of Monte Cristo.",
+        "moment": "Overheard the secret meeting in the Colosseum."
+      },
+      {
+        "id": "albert-de-morcerf",
+        "nameHere": "Albert de Morcerf",
+        "learned": "Vain about his clothes and stung by his lack of romantic success in Italy, he is also talented and well off: a recently created viscount with an income of 50,000 livres. He knows some Greek."
+      },
+      {
+        "id": "luigi-vampa",
+        "nameHere": "the Transteverin (Luigi Vampa)",
+        "learned": "He pays an informer inside the papal prison and is fiercely loyal to those who serve him. He pledges total obedience to the cloaked man in return for saving Peppino; the execution notice convinces Franz that he is Vampa."
+      },
+      {
+        "id": "peppino",
+        "nameHere": "Peppino (called Rocca Priori)",
+        "learned": "A shepherd condemned to the guillotine for supplying food to Vampa’s band."
+      },
+      {
+        "id": "countess-g",
+        "nameHere": "the Countess G——",
+        "learned": "A witty, beautiful Venetian aristocrat whom Franz knew in Paris. Imaginative and superstitious, she is frightened by the pale stranger and calls him a vampire."
+      },
+      {
+        "id": "haydee",
+        "nameHere": "a beautiful Greek girl",
+        "learned": "An exquisitely beautiful young woman in Greek dress who has attended every performance this season and delights in the ballet. No one knows who she is; she comes with the pale stranger or with a black servant."
+      },
+      {
+        "id": "signor-pastrini",
+        "nameHere": "Signor Pastrini",
+        "learned": "He arranges the count’s offer of carriage seats and windows, and collects execution notices for his guests’ convenience."
+      },
+      {
+        "id": "andrea-rondolo",
+        "nameHere": "Andrea Rondolo",
+        "learned": "Condemned to be killed with a mallet (mazzolato) for murdering a priest, Don César Torlini."
+      }
+    ]
+  },
+  {
+    "chapter": 35,
+    "characters": [
+      {
+        "id": "edmond-dantes",
+        "nameHere": "the Count of Monte Cristo",
+        "learned": "He reveals a deep hatred and a philosophy of revenge: suffering inflicted over years should be repaid with suffering, not a quick death or a duel. He has seen tortures in many lands, eats almost nothing, watches Albert closely, and plans to visit Paris soon.",
+        "moment": "Secured Peppino’s pardon and watched the execution unmoved, “like the Avenging Angel.”"
+      },
+      {
+        "id": "franz-depinay",
+        "nameHere": "Franz",
+        "learned": "He is repelled by the count’s ideas and nearly faints at the execution, but the signal at the windows leaves no doubt that the count was the man in the Colosseum."
+      },
+      {
+        "id": "albert-de-morcerf",
+        "nameHere": "Albert / M. de Morcerf",
+        "learned": "Charmed by the count, he thinks him a delightful host with excellent cigars, though he too is badly shaken by the execution. He promises to entertain the count in Paris."
+      },
+      {
+        "id": "bertuccio",
+        "nameHere": "Monsieur Bertuccio",
+        "learned": "The count’s steward, aged about forty-five to fifty; he looks exactly like the smuggler who led Franz into the cave on Monte Cristo but shows no sign of recognizing him."
+      },
+      {
+        "id": "peppino",
+        "nameHere": "Peppino",
+        "learned": "A handsome, sunburned man of twenty-four or twenty-five, he walked to the scaffold with a firm step, watching for his rescuer.",
+        "moment": "Was pardoned at the foot of the scaffold."
+      },
+      {
+        "id": "andrea-rondolo",
+        "nameHere": "Andrea",
+        "learned": "A short, brutal-looking man who killed the priest who raised him; when his companion is spared, he rages that he will not die alone.",
+        "moment": "Was executed with a mallet in the Piazza del Popolo."
+      },
+      {
+        "id": "luigi-vampa",
+        "nameHere": "Luigi Vampa",
+        "learned": "The notice names him as the “detestable bandit” whose accomplice Peppino was."
+      }
+    ]
+  },
+  {
+    "chapter": 36,
+    "characters": [
+      {
+        "id": "edmond-dantes",
+        "nameHere": "the Count of Monte Cristo",
+        "learned": "Franz says he takes his title from the island he bought and is a Tuscan count. Lavishly generous and learned in literature, painting, and chemistry, he fascinates like one of Byron’s heroes, yet speaks cynically of human ingratitude. He must know Franz recognizes him, but never mentions their past meetings."
+      },
+      {
+        "id": "franz-depinay",
+        "nameHere": "Franz",
+        "learned": "Increasingly uneasy, he admires the count but would rather not be in Paris when the count arrives there. He is received by the Pope."
+      },
+      {
+        "id": "albert-de-morcerf",
+        "nameHere": "Albert",
+        "learned": "Vain and romantic, he is sure his masked admirer is a noblewoman and declares himself in love.",
+        "moment": "Disappeared with a masked peasant woman on the last night of the Carnival."
+      },
+      {
+        "id": "signor-pastrini",
+        "nameHere": "Signor Pastrini",
+        "learned": "He produces ready-made peasant costumes for the friends."
+      },
+      {
+        "id": "countess-g",
+        "nameHere": "the Countess G——",
+        "learned": "She decides the count is merely an eccentric millionaire, and congratulates Albert on his romance."
+      },
+      {
+        "id": "haydee",
+        "nameHere": "the beautiful Greek",
+        "learned": "Franz imagines she is the blue domino at the count’s window; the friends hear the sound of her guzla (a stringed instrument) but do not see her."
+      },
+      {
+        "id": "peppino",
+        "nameHere": "Peppino",
+        "learned": "He slipped away into the crowd after his pardon."
+      }
+    ]
+  },
+  {
+    "chapter": 37,
+    "characters": [
+      {
+        "id": "edmond-dantes",
+        "nameHere": "the Count of Monte Cristo",
+        "learned": "Vampa’s band holds him in awe and has a pact to respect him and his friends. He handles the bandits with icy calm, yet he visibly shudders when he has to shake Albert’s hand.",
+        "moment": "Freed Albert from Vampa’s band in the catacombs without paying any ransom."
+      },
+      {
+        "id": "franz-depinay",
+        "nameHere": "Franz / the Baron Franz d’Épinay",
+        "learned": "Loyal and quick-witted, he realizes the count’s hold over Vampa and uses it to save his friend. He is left puzzling over the count’s strange shudder.",
+        "moment": "Turned to the count for help in rescuing Albert."
+      },
+      {
+        "id": "albert-de-morcerf",
+        "nameHere": "Albert / the Viscount of Morcerf",
+        "learned": "He shows remarkable coolness and courage, sleeping soundly under threat of death and joking with his captors. He feels eternally obliged to the count.",
+        "moment": "Was kidnapped by Vampa’s band and freed by the count."
+      },
+      {
+        "id": "luigi-vampa",
+        "nameHere": "Luigi Vampa",
+        "learned": "He reads Caesar’s Commentaries, admires courage, and keeps his word like a gentleman; he would punish any of his men who knowingly harmed the count’s friend.",
+        "moment": "Released Albert and apologized to the count."
+      },
+      {
+        "id": "peppino",
+        "nameHere": "Peppino",
+        "learned": "Now serving as Vampa’s messenger, he is fiercely grateful to the count, who saved his life a week earlier.",
+        "moment": "Delivered the ransom letter and guided the count to the catacombs."
+      },
+      {
+        "id": "teresa",
+        "nameHere": "Teresa",
+        "learned": "Now Vampa’s mistress, she was the masked “peasant” in the carriage who flirted with Albert during the Carnival, with Vampa’s consent."
+      },
+      {
+        "id": "beppo",
+        "nameHere": "Beppo",
+        "learned": "A fifteen-year-old member of Vampa’s band who disguised himself as a peasant girl and lured Albert into the ambush."
+      },
+      {
+        "id": "ali",
+        "nameHere": "Ali",
+        "learned": "Franz recognizes the count’s driver as the mute servant from the grotto on Monte Cristo."
+      },
+      {
+        "id": "signor-pastrini",
+        "nameHere": "Signor Pastrini",
+        "learned": "He is alarmed by the messenger and arranges Franz’s late-night audience with the count."
+      },
+      {
+        "id": "duke-of-bracciano",
+        "nameHere": "the Duke of Bracciano",
+        "learned": "A celebrated Roman banker whose balls are famous across Europe; he worries about Albert being out in the streets at night."
+      },
+      {
+        "id": "countess-g",
+        "nameHere": "the Countess G——",
+        "learned": "At the ball she worries about Albert, who arrives at two o’clock to claim the dance she had promised him."
+      }
+    ]
+  }
+]

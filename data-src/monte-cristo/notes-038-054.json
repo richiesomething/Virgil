@@ -1,0 +1,1029 @@
+[
+  {
+    "chapter": 38,
+    "characters": [
+      {
+        "id": "albert-de-morcerf",
+        "nameHere": "Albert / the Vicomte de Morcerf",
+        "learned": "Grateful and carefree, Albert offers the Count all his family's influence. His father has called him home to arrange a marriage. He dismisses every one of Franz's suspicions about the Count.",
+        "moment": "Agreed to receive the Count in Paris at 27 Rue du Helder on 21 May at 10:30 a.m."
+      },
+      {
+        "id": "franz-depinay",
+        "nameHere": "Franz / the baron",
+        "learned": "Franz feels both drawn to the Count and afraid of him; the Count's hand feels icy, like a corpse's. He is going on to Venice and plans to stay in Italy for another year or two.",
+        "moment": "Told Albert, under a promise of secrecy, everything he had seen of the Count on Monte Cristo and in Rome."
+      },
+      {
+        "id": "edmond-dantes",
+        "nameHere": "the Count of Monte Cristo",
+        "learned": "Says he has never seen Paris and asks Albert to introduce him into society, mentioning 'plans that I have long meditated' and that both inclination and 'positive necessity' draw him there. He is proud of being exactly punctual.",
+        "moment": "Fixed a meeting with Albert in Paris for 21 May, three months ahead, to the minute."
+      },
+      {
+        "id": "fernand-mondego",
+        "nameHere": "the Comte de Morcerf (Albert's father)",
+        "learned": "Albert describes his father as being of Spanish origin and having influence at the courts of France and Madrid. (Caderousse told the Abbé Busoni in chapter 27 that Fernand now goes by the name of Comte de Morcerf.)"
+      },
+      {
+        "id": "luigi-vampa",
+        "nameHere": "Vampa",
+        "learned": "Franz recalls the conversation he overheard between Vampa and the Count at the Colosseum, which shows how much power the Count has over the bandit."
+      },
+      {
+        "id": "peppino",
+        "nameHere": "the bandit Peppino",
+        "learned": "Franz reminds Albert that the Count promised to win Peppino's release, and kept his word."
+      }
+    ]
+  },
+  {
+    "chapter": 39,
+    "characters": [
+      {
+        "id": "albert-de-morcerf",
+        "nameHere": "Albert de Morcerf",
+        "learned": "Albert lives a pampered life in a pavilion in his parents' courtyard, full of half-abandoned hobbies (music, painting) and a dandy's pursuits (fencing, boxing). He is on friendly terms with Madame Danglars and with an opera singer named Rosa."
+      },
+      {
+        "id": "germain",
+        "nameHere": "Germain",
+        "learned": "Albert's trusted valet, who runs his small household along with an English groom named John."
+      },
+      {
+        "id": "mercedes",
+        "nameHere": "the Countess (Albert's mother)",
+        "learned": "Not yet named. The narrator notes that a loving mother who did not want to part from her son chose the pavilion so that he could stay close to her but live freely."
+      },
+      {
+        "id": "fernand-mondego",
+        "nameHere": "the Count of Morcerf",
+        "learned": "Lives with the Countess in a large, fashionable mansion built in the heavy imperial style; Albert's breakfast comes from his kitchen."
+      },
+      {
+        "id": "hermine-danglars",
+        "nameHere": "Madame Danglars",
+        "learned": "Sends Albert a perfumed note offering him a place in her opera box."
+      },
+      {
+        "id": "lucien-debray",
+        "nameHere": "M. Lucien Debray",
+        "learned": "A tall, fair, cool young man who is private secretary to the Minister of the Interior. He is witty, worldly and offhand about his new decoration, the order of Charles III, and dined the night before at Villefort's.",
+        "moment": "Arrived first at Albert's breakfast, after a night spent writing twenty-five dispatches."
+      },
+      {
+        "id": "beauchamp",
+        "nameHere": "M. Beauchamp",
+        "learned": "A journalist on an opposition paper who trades friendly political insults with Debray. He is always in a hurry to get to the Chamber of Deputies."
+      },
+      {
+        "id": "danglars",
+        "nameHere": "M. Danglars",
+        "learned": "Debray says the banker somehow learned government news about Spain early and made a million on the Bourse (the stock exchange)."
+      },
+      {
+        "id": "villefort",
+        "nameHere": "M. de Villefort",
+        "learned": "Mentioned in passing: Debray dined at his house and jokes that lawyers give bad dinners."
+      },
+      {
+        "id": "edmond-dantes",
+        "nameHere": "the count (expected guest)",
+        "learned": "Albert is waiting for him at 10:30 but admits he does not fully trust the promise. He teases Debray that his new acquaintance comes from 'farther still' than the end of the world."
+      }
+    ]
+  },
+  {
+    "chapter": 40,
+    "characters": [
+      {
+        "id": "edmond-dantes",
+        "nameHere": "the Count of Monte Cristo",
+        "learned": "Arrives exactly on time, looking about thirty-five. He shows great wealth (an emerald pill box, gifts to the Sultan and the Pope) and openly says he protects no society that does not protect him. Morrel's name visibly moves him, and he quietly mentions Thomson & French in front of Morrel. He already has a house on the Champs-Élysées, bought and furnished by Ali.",
+        "moment": "Made his entrance at Albert's breakfast on the stroke of half-past ten, as promised three months earlier."
+      },
+      {
+        "id": "albert-de-morcerf",
+        "nameHere": "Albert / Morcerf",
+        "learned": "Proudly tells his friends about his kidnapping and rescue. Gossip links him to Eugénie Danglars, and he admits his father is very keen on the match."
+      },
+      {
+        "id": "maximilien-morrel",
+        "nameHere": "M. Maximilian Morrel, captain of Spahis",
+        "learned": "The shipowner Morrel's son, now a dignified, brave cavalry officer in Algeria and a member of the Legion of Honor. On every 5th of September, the anniversary of his father's rescue, he tries to do some good deed. He is still looking for whoever saved his family through Thomson & French. His sister is happily married to Emmanuel Herbaut.",
+        "moment": "Saved Château-Renaud from Arab horsemen in Algeria, then gave him his cloak and shared his horse for food."
+      },
+      {
+        "id": "chateau-renaud",
+        "nameHere": "M. de Château-Renaud",
+        "learned": "A handsome, well-born gentleman of about thirty. He once fought a duel in which he wounded Franz d'Épinay in the arm, and went to Algeria to fight 'as an amateur'. He judges the Count to be a great man."
+      },
+      {
+        "id": "lucien-debray",
+        "nameHere": "Debray",
+        "learned": "Doubts the Count exists, then describes his face almost exactly. As he leaves, he promises to find out through the ministry's police who the Count really is."
+      },
+      {
+        "id": "beauchamp",
+        "nameHere": "Beauchamp",
+        "learned": "A skeptical journalist who tries to catch the Count out over the pills, and decides the Count is a better story than a speech in the Chamber."
+      },
+      {
+        "id": "eugenie-danglars",
+        "nameHere": "Mademoiselle Eugénie Danglars",
+        "learned": "Talked of as Albert's intended bride, with a dowry of two million francs. Beauchamp thinks the aristocratic Morcerfs will never accept the match."
+      },
+      {
+        "id": "danglars",
+        "nameHere": "Baron Danglars",
+        "learned": "A baron 'of a new creation': in 1829 he arranged a loan for King Charles X, who made him a baron. He is a deputy in the opposition. The Count says he has credit opened with him."
+      },
+      {
+        "id": "franz-depinay",
+        "nameHere": "Franz d'Épinay",
+        "learned": "Mentioned several times. Château-Renaud once broke his arm in a duel, and the Count says Franz has tried his sleeping pills."
+      },
+      {
+        "id": "luigi-vampa",
+        "nameHere": "Luigi Vampa",
+        "learned": "The Count says he first met Vampa as a shepherd boy more than ten years ago, later captured him and his band, and freed them on condition that they always respect him and his friends."
+      },
+      {
+        "id": "peppino",
+        "nameHere": "Peppino",
+        "learned": "Albert guesses that the 'life of a man' the Pope granted the Count in exchange for an emerald was Peppino's."
+      },
+      {
+        "id": "penelon",
+        "nameHere": "an old sailor named Penelon",
+        "learned": "Morrel says he has heard stories like Albert's from Penelon, one of the old sailors his father employed."
+      },
+      {
+        "id": "countess-g",
+        "nameHere": "the Countess G——",
+        "learned": "Albert repeats that she declared the Count a vampire."
+      },
+      {
+        "id": "pierre-morrel",
+        "nameHere": "Morrel's father",
+        "learned": "Maximilian mentions the 5th of September as the day his father was 'miraculously preserved'."
+      },
+      {
+        "id": "julie-morrel",
+        "nameHere": "Morrel's sister",
+        "learned": "Twenty-five, married for nearly nine years, and 'as happy as it is permitted to a human creature to be'. She lives in the Rue Meslay."
+      },
+      {
+        "id": "emmanuel-herbaut",
+        "nameHere": "Emmanuel Herbaut",
+        "learned": "Julie's husband, about thirty, who stayed loyal to the Morrels when their fortunes fell."
+      },
+      {
+        "id": "ali",
+        "nameHere": "Ali, the Nubian mute",
+        "learned": "Sent a week ahead to buy and furnish a house in Paris. He met the Count at the city gate with the address."
+      },
+      {
+        "id": "bertuccio",
+        "nameHere": "M. Bertuccio, the steward",
+        "learned": "A Corsican who, the Count says, has been a soldier and a smuggler and has perhaps been in trouble with the police over 'a stab with a knife'."
+      },
+      {
+        "id": "haydee",
+        "nameHere": "the Greek (the Count's slave)",
+        "learned": "Albert has seen and heard her. The Count says he bought her in Constantinople, that she speaks only Romaic (modern Greek), and that everyone around him is free to leave him."
+      },
+      {
+        "id": "germain",
+        "nameHere": "Germain",
+        "learned": "Announces the Count's arrival."
+      }
+    ]
+  },
+  {
+    "chapter": 41,
+    "characters": [
+      {
+        "id": "edmond-dantes",
+        "nameHere": "the Count of Monte Cristo",
+        "learned": "Turns pale and struggles for breath at the portrait of Albert's mother in Catalan dress, then masters himself. He flatters the Count of Morcerf with hidden irony, while reading years of secret troubles in his face. Meeting Mercédès, he is even paler than she is.",
+        "moment": "Was presented to the Count and Countess of Morcerf."
+      },
+      {
+        "id": "mercedes",
+        "nameHere": "the Countess de Morcerf / Mercédès",
+        "learned": "Revealed as Albert's mother. Her portrait shows her as a Catalan fisherwoman looking at the sea, and she often cries before it. She meets the Count pale and shaken, thanks him with deep feeling, and afterwards questions Albert anxiously about the Count's name, age and character, urging him to be careful.",
+        "moment": "Nearly fainted after meeting the Count, blaming the scent of the flowers."
+      },
+      {
+        "id": "fernand-mondego",
+        "nameHere": "the Count of Morcerf",
+        "learned": "A general and peer of France who looks older than his forty-odd years, with white hair and a careworn face. He served under the Restoration, resigned after the July Revolution of 1830, and turned to politics and industry. He dislikes his wife's Catalan portrait. Charmed by the Count's flattery, he invites him to the Chamber."
+      },
+      {
+        "id": "albert-de-morcerf",
+        "nameHere": "Albert / the viscount",
+        "learned": "Says his parents have been happily married for over twenty years, the portrait being their only disagreement. He thinks the Count is perhaps a Maltese, like one of Byron's tragic heroes."
+      },
+      {
+        "id": "bertuccio",
+        "nameHere": "M. Bertuccio",
+        "learned": "Has had a magnificent carriage ready for the Count within hours of his arrival."
+      },
+      {
+        "id": "franz-depinay",
+        "nameHere": "Franz d'Épinay",
+        "learned": "Albert tells his mother that Franz thinks the Count is 'a being returned from the other world'."
+      },
+      {
+        "id": "chateau-renaud",
+        "nameHere": "Château-Renaud",
+        "learned": "Albert says even Château-Renaud was impressed by the Count."
+      }
+    ]
+  },
+  {
+    "chapter": 42,
+    "characters": [
+      {
+        "id": "edmond-dantes",
+        "nameHere": "the Count",
+        "learned": "Pretends not to know where the house he is buying stands, but privately checks its address against a locked notebook. He has heard some confession about this house and wants to test it on Bertuccio.",
+        "moment": "Bought the house at 28 Rue de la Fontaine, Auteuil, and forced Bertuccio to come and see it that night."
+      },
+      {
+        "id": "bertuccio",
+        "nameHere": "M. Bertuccio",
+        "learned": "Goes pale at the name Auteuil, tries to talk his master into buying somewhere else, and falsely claims not to know the area around Paris."
+      },
+      {
+        "id": "ali",
+        "nameHere": "Ali",
+        "learned": "Chose the Champs-Élysées house, and greets the Count with sincere joy."
+      },
+      {
+        "id": "danglars",
+        "nameHere": "the Baron Danglars",
+        "learned": "On the Count's orders, the very first of his new visiting cards was taken to Danglars."
+      }
+    ]
+  },
+  {
+    "chapter": 43,
+    "characters": [
+      {
+        "id": "edmond-dantes",
+        "nameHere": "Monte Cristo",
+        "learned": "Coolly pushes Bertuccio to the breaking point, threatening dismissal, an asylum, or the police, and acts surprised to learn the house belonged to the Saint-Mérans. The 'Abbé Busoni' who heard Bertuccio's confession and recommended him is the priest disguise Dantès himself used at Caderousse's inn (chapters 26–27), so the Count already knows much of this story."
+      },
+      {
+        "id": "bertuccio",
+        "nameHere": "M. Bertuccio",
+        "learned": "A Corsican who confessed to the Abbé Busoni in prison at Nîmes and was then recommended to the Count. He reveals that he committed a vendetta in this garden, and that his victim was Villefort, who had just buried a child there.",
+        "moment": "Broke down in the Auteuil garden and admitted to a killing there."
+      },
+      {
+        "id": "marquis-de-saint-meran",
+        "nameHere": "the Marquis of Saint-Méran",
+        "learned": "The house's former owner, a loyal Bourbon supporter who has rarely visited it in recent years and has now sold it."
+      },
+      {
+        "id": "renee-de-saint-meran",
+        "nameHere": "the marquis's daughter",
+        "learned": "The caretaker says she married M. de Villefort and died twenty-one years ago."
+      },
+      {
+        "id": "villefort",
+        "nameHere": "M. de Villefort",
+        "learned": "Formerly king's attorney at Nîmes and then Versailles, with a reputation as the most upright of magistrates. Bertuccio calls him a villain and says he once buried his child in this garden."
+      }
+    ]
+  },
+  {
+    "chapter": 44,
+    "characters": [
+      {
+        "id": "bertuccio",
+        "nameHere": "Giovanni Bertuccio",
+        "learned": "A smuggler from Rogliano in Corsica who was raised by his older brother. When Villefort refused to investigate the brother's murder, he swore a vendetta, stabbed Villefort in the Auteuil garden, and then saved the baby Villefort was burying. In 1829 he witnessed the diamond sale at Caderousse's inn.",
+        "moment": "Stabbed Villefort and revived the newborn child buried in a box."
+      },
+      {
+        "id": "edmond-dantes",
+        "nameHere": "the Count / 'Edmond Dantès' (in La Carconte's story)",
+        "learned": "Listens closely and asks pointed questions, especially about the child and the exact date at Caderousse's inn (3 June 1829). In the story Bertuccio overheard, La Carconte says a sailor named Edmond Dantès left them the diamond before he died. The 'Abbé Busoni' in Bertuccio's story is Dantès himself in his priest's disguise, the same visit to Caderousse's inn the reader saw in chapters 26–27."
+      },
+      {
+        "id": "israel-bertuccio",
+        "nameHere": "Bertuccio's elder brother (Israel)",
+        "learned": "A lieutenant in a Corsican regiment of Napoleon's army who was murdered in Nîmes in 1815 during the royalist massacres. His death began Bertuccio's vendetta."
+      },
+      {
+        "id": "assunta",
+        "nameHere": "Assunta",
+        "learned": "Bertuccio's widowed sister-in-law, a kind woman who secretly reclaimed the abandoned baby from the foundling hospital, raised him as her own, and spoiled him."
+      },
+      {
+        "id": "villefort",
+        "nameHere": "M. de Villefort",
+        "learned": "In 1815 he coldly refused Bertuccio justice for his brother. Afraid of the vendetta, he moved to Versailles and secretly visited a young pregnant woman, 'the Baroness', at Auteuil, where he buried a newborn in a box.",
+        "moment": "Was stabbed by Bertuccio in the Auteuil garden while burying a box containing a baby."
+      },
+      {
+        "id": "marquis-de-saint-meran",
+        "nameHere": "M. de Saint-Méran",
+        "learned": "Villefort's father-in-law, who owned the Auteuil house; it was said to be rented to a young widow called 'the Baroness'."
+      },
+      {
+        "id": "benedetto",
+        "nameHere": "Benedetto",
+        "learned": "The baby Bertuccio saved, marked by linen with an H and an N under a baron's coronet. He grew up blond, blue-eyed, clever and wicked: a thief and liar who knew Bertuccio was not his father and who ran with older criminals by the age of eleven."
+      },
+      {
+        "id": "gaspard-caderousse",
+        "nameHere": "Gaspard Caderousse",
+        "learned": "Now the landlord of the inn on the Beaucaire road and a partner of the smugglers. He sold the diamond the abbé gave him to a jeweller for 45,000 francs, then exchanged dark looks with his wife."
+      },
+      {
+        "id": "carconte",
+        "nameHere": "La Carconte",
+        "learned": "Feverish and greedy, she pushed her husband to sell the diamond, then hinted that a 'real man' would not have let the jeweller reach Beaucaire alive."
+      },
+      {
+        "id": "joannes",
+        "nameHere": "Joannes, the jeweller",
+        "learned": "A Paris jeweller from the Palais Royal who bargained the diamond down to 45,000 francs, was armed with pistols, and came back to the inn to escape the storm."
+      }
+    ]
+  },
+  {
+    "chapter": 45,
+    "characters": [
+      {
+        "id": "bertuccio",
+        "nameHere": "Bertuccio",
+        "learned": "Was wrongly arrested for the inn murders and saved by the Abbé Busoni. He came back to Corsica to find that Benedetto had tortured Assunta and fled. He sees his misfortunes as punishment, and calls the Villeforts 'an accursed race'.",
+        "moment": "Was arrested, covered in La Carconte's blood, for the murder of the jeweller."
+      },
+      {
+        "id": "edmond-dantes",
+        "nameHere": "Monte Cristo",
+        "learned": "Agrees that the Villeforts are accursed, tells Bertuccio his real crime was not returning the baby to its mother, and says Benedetto may still be alive. Alone, he murmurs that the prosecutor himself may not be dead, and studies the garden as a 'plan'. Back in Paris he moves through his new house as if he already knows it. Bertuccio's account shows that, as the Abbé Busoni, Dantès visited him in prison at Nîmes, heard his confession, helped free him, and then sent him into the Count's own service.",
+        "moment": "Welcomed Haydée to her secret apartments in his Paris house at midnight."
+      },
+      {
+        "id": "gaspard-caderousse",
+        "nameHere": "Caderousse",
+        "learned": "Stabbed the jeweller to death and fled with the money and the diamond. He was later caught abroad, confessed, and was sent to the galleys (prison labor) for life.",
+        "moment": "Murdered Joannes and ran off with the diamond and money."
+      },
+      {
+        "id": "carconte",
+        "nameHere": "La Carconte",
+        "learned": "Planned the murder, and was shot dead on the stairs during the struggle.",
+        "moment": "Was killed by the jeweller's pistol shot."
+      },
+      {
+        "id": "joannes",
+        "nameHere": "the jeweller (Joannes)",
+        "learned": "Murdered in his bed at the inn after fighting back with his pistols.",
+        "moment": "Died of knife wounds."
+      },
+      {
+        "id": "benedetto",
+        "nameHere": "Benedetto",
+        "learned": "With two companions he held Assunta over a fire to make her reveal her money, robbed the house, and vanished. Bertuccio hopes he is dead.",
+        "moment": "Tortured his foster-mother Assunta for money and disappeared."
+      },
+      {
+        "id": "assunta",
+        "nameHere": "Assunta",
+        "learned": "Was found terribly burned after Benedetto's attack, and died.",
+        "moment": "Died after being burned by Benedetto and his friends."
+      },
+      {
+        "id": "villefort",
+        "nameHere": "M. de Villefort / the procureur",
+        "learned": "Bertuccio believes he killed him, but the Count's murmured remark suggests Villefort may still be alive."
+      },
+      {
+        "id": "ali",
+        "nameHere": "Ali",
+        "learned": "Explains through mime that three French maids are waiting for the new mistress of the house."
+      },
+      {
+        "id": "haydee",
+        "nameHere": "Haydée",
+        "learned": "First named here. The 'lovely Greek' from Italy, she kisses the Count's hand with love and respect and is given hidden apartments, kept apart from the French servants.",
+        "moment": "Arrived at the Count's Paris house at midnight."
+      }
+    ]
+  },
+  {
+    "chapter": 46,
+    "characters": [
+      {
+        "id": "danglars",
+        "nameHere": "Baron Danglars",
+        "learned": "Past fifty with dyed black hair, he has a cunning face and shows off his wealth. A deputy and member of the Legion of Honor, he calls himself a man of the people but likes his servants to call him 'my lord'. He suspects a hoax over the unlimited credit, but is crushed by the Count's display of money.",
+        "moment": "Agreed to give the Count credit of six million francs for the year."
+      },
+      {
+        "id": "edmond-dantes",
+        "nameHere": "the Count of Monte Cristo",
+        "learned": "Openly dislikes Danglars' face and outplays him with irony and sheer wealth. He keeps a corvette, a yacht and a steamboat ready, wants an estate with a harbor on the Normandy coast, and tells Danglars he will 'be better informed as to me and my possessions ere long'.",
+        "moment": "Pulled two 500,000-franc treasury notes from his card case to silence Danglars' doubts."
+      },
+      {
+        "id": "ali",
+        "nameHere": "Ali",
+        "learned": "The Count calls him a slave whose life belongs to him, and Ali happily agrees. The Count is unexpectedly gentle with him."
+      },
+      {
+        "id": "bertuccio",
+        "nameHere": "M. Bertuccio",
+        "learned": "Buys Danglars' horses for 32,000 francs on the Count's orders and is told to buy a Normandy estate in his own name."
+      },
+      {
+        "id": "baptistin",
+        "nameHere": "M. Baptistin",
+        "learned": "The Count's French valet, in his service for a year. He is warned never to gossip about his master and told that loyal servants share in a fund to be divided at the Count's death."
+      },
+      {
+        "id": "haydee",
+        "nameHere": "your young lady",
+        "learned": "The Count has all his horses paraded before her windows so she can choose a pair for her carriage."
+      },
+      {
+        "id": "hermine-danglars",
+        "nameHere": "the Baroness Danglars",
+        "learned": "Danglars says she comes from an ancient family (born De Servières) and was first married to the Marquis of Nargonne. The Count appears to know her husband's domestic secrets."
+      },
+      {
+        "id": "lucien-debray",
+        "nameHere": "M. Lucien Debray",
+        "learned": "Is found visiting Madame Danglars, which Danglars treats as perfectly normal."
+      },
+      {
+        "id": "albert-de-morcerf",
+        "nameHere": "the young viscount",
+        "learned": "Has amused Madame Danglars and her daughter with his bandit story."
+      },
+      {
+        "id": "franz-depinay",
+        "nameHere": "Franz d'Épinay",
+        "learned": "Mentioned: the Count's ghastly smile is the kind that used to frighten him."
+      }
+    ]
+  },
+  {
+    "chapter": 47,
+    "characters": [
+      {
+        "id": "edmond-dantes",
+        "nameHere": "Monte Cristo",
+        "learned": "Plots carefully: he stirs up trouble between Danglars and his wife, and seems to arrange the runaway at Auteuil so that he can rescue Madame de Villefort. He notices her interest in his drugs.",
+        "moment": "Returned the dappled grays to Madame Danglars with diamonds in their harness."
+      },
+      {
+        "id": "danglars",
+        "nameHere": "M. Danglars",
+        "learned": "Sold his wife's favorite horses behind her back for profit, then was humiliated when they turned up pulling the Count's carriage."
+      },
+      {
+        "id": "hermine-danglars",
+        "nameHere": "Madame Danglars / Hermine",
+        "learned": "Still handsome, she has refined taste and a temper, and treats her husband with open contempt. She is close to Debray and to Madame de Villefort.",
+        "moment": "Discovered her dappled grays had been sold and harnessed to the Count's carriage."
+      },
+      {
+        "id": "lucien-debray",
+        "nameHere": "Lucien Debray",
+        "learned": "Clearly at home in Madame Danglars' boudoir, which they decorated together. He leaves to avoid the coming quarrel."
+      },
+      {
+        "id": "heloise-de-villefort",
+        "nameHere": "Madame Héloïse de Villefort",
+        "learned": "Villefort's young second wife, who dotes on her spoiled son. She glances meaningfully at the Count's case of drugs, is fascinated by him, and urges her husband to visit him.",
+        "moment": "Was rescued with her son when Madame Danglars' horses bolted at Auteuil."
+      },
+      {
+        "id": "edouard-de-villefort",
+        "nameHere": "Edward",
+        "learned": "About seven or eight, small and pale, with a crafty look. He is spoiled and willful, grabs at the Count's bottles, and refuses to thank Ali because he is 'too ugly'.",
+        "moment": "Was revived by one drop of the Count's red elixir."
+      },
+      {
+        "id": "ali",
+        "nameHere": "Ali",
+        "learned": "A skilled lasso thrower who says he has hunted lions. Edward's insult wounds him deeply. He calms the horses completely.",
+        "moment": "Stopped the runaway carriage with his lasso."
+      },
+      {
+        "id": "eugenie-danglars",
+        "nameHere": "Eugénie",
+        "learned": "Danglars promises her 2,000 francs from the horse sale; Valentine sends her affectionate greetings."
+      },
+      {
+        "id": "valentine-de-villefort",
+        "nameHere": "Valentine",
+        "learned": "First mentioned, in a postscript to Madame de Villefort's letter, sending her love to Eugénie."
+      },
+      {
+        "id": "villefort",
+        "nameHere": "M. de Villefort",
+        "learned": "Goes against his habit of rarely visiting anyone and calls on the Count that same night in full dress to thank him."
+      },
+      {
+        "id": "albert-de-morcerf",
+        "nameHere": "Albert",
+        "learned": "Tells his mother about the Auteuil adventure."
+      },
+      {
+        "id": "chateau-renaud",
+        "nameHere": "Château-Renaud",
+        "learned": "Spreads the story at the Jockey Club."
+      },
+      {
+        "id": "beauchamp",
+        "nameHere": "Beauchamp",
+        "learned": "Gives the Count's bravery twenty lines in his newspaper."
+      }
+    ]
+  },
+  {
+    "chapter": 48,
+    "characters": [
+      {
+        "id": "villefort",
+        "nameHere": "M. de Villefort",
+        "learned": "Now an important king's attorney in Paris who has kept his place through four revolutions. He is feared, cold, rigidly correct and contemptuous of theories, and has grown thin and sallow. He believes his father's paralysis is God's punishment for some secret fault.",
+        "moment": "Visited the Count to thank him, and left shaken by their conversation."
+      },
+      {
+        "id": "edmond-dantes",
+        "nameHere": "the Count of Monte Cristo",
+        "learned": "Tells Villefort he is a man of no country with a mission from God: he wished to be Providence, to reward and punish, and became one of its agents. He says the law of retaliation is closest to God's law, admits he was once 'nearly mad', and says his end will be achieved before he grows old.",
+        "moment": "Told Villefort his parable of being tempted by Satan and choosing to be 'one of the agents of that Providence'."
+      },
+      {
+        "id": "noirtier",
+        "nameHere": "M. Noirtier de Villefort",
+        "learned": "Villefort's father, once a fiery Jacobin, senator and Bonapartist conspirator. He was struck down by a stroke and is now paralyzed and speechless, dependent on his granddaughter Valentine."
+      },
+      {
+        "id": "valentine-de-villefort",
+        "nameHere": "Valentine",
+        "learned": "Villefort's daughter by his first wife, nearly eighteen. She cares for her paralyzed grandfather."
+      },
+      {
+        "id": "edouard-de-villefort",
+        "nameHere": "Edward",
+        "learned": "Villefort counts his son, with Valentine, as God's 'compensation' for his father's condition."
+      },
+      {
+        "id": "heloise-de-villefort",
+        "nameHere": "Madame de Villefort",
+        "learned": "Pays her husband's social visits for him. Villefort says the Count has made her a friend for life."
+      },
+      {
+        "id": "renee-de-saint-meran",
+        "nameHere": "Mademoiselle Renée de Saint-Méran",
+        "learned": "Named as Villefort's first wife and Valentine's mother."
+      },
+      {
+        "id": "ali",
+        "nameHere": "Ali, my Nubian",
+        "learned": "The Count says Ali believes him to be an Arab."
+      },
+      {
+        "id": "bertuccio",
+        "nameHere": "Bertuccio, my steward",
+        "learned": "The Count says Bertuccio takes him for a Roman."
+      },
+      {
+        "id": "haydee",
+        "nameHere": "Haydée, my slave",
+        "learned": "The Count says she thinks him a Greek. He leaves to visit her right after Villefort goes, calling it 'the antidote'."
+      }
+    ]
+  },
+  {
+    "chapter": 49,
+    "characters": [
+      {
+        "id": "haydee",
+        "nameHere": "Haydée",
+        "learned": "About nineteen or twenty, from Epirus, very beautiful and devoted. She has loved only her late father (who had a long white beard and was about sixty) and the Count, and says her love for him is not a daughter's. She is told she is free but refuses ever to leave him.",
+        "moment": "Promised the Count she would never leave him."
+      },
+      {
+        "id": "edmond-dantes",
+        "nameHere": "Monte Cristo / my lord",
+        "learned": "Is gentle and fatherly with Haydée, insists she is free, and asks her to hide the secret of her birth and never name her 'illustrious father or ill-fated mother'. He looks forward to the Morrels' house as a refuge from the 'deadly warfare' he has taken on."
+      },
+      {
+        "id": "ali",
+        "nameHere": "Ali",
+        "learned": "Amazed to see his usually stern master looking happy. He is to escort Haydée whenever she goes out."
+      },
+      {
+        "id": "maximilien-morrel",
+        "nameHere": "Maximilian",
+        "learned": "Named as one of the Count's 'old acquaintances' in the Rue Meslay."
+      },
+      {
+        "id": "julie-morrel",
+        "nameHere": "Julie",
+        "learned": "Named as one of the Count's 'old acquaintances' in the Rue Meslay."
+      },
+      {
+        "id": "emmanuel-herbaut",
+        "nameHere": "Emmanuel",
+        "learned": "Named as one of the Count's 'old acquaintances' in the Rue Meslay."
+      },
+      {
+        "id": "villefort",
+        "nameHere": "Villefort",
+        "learned": "His visit has just ended; the Count turns to happier thoughts."
+      }
+    ]
+  },
+  {
+    "chapter": 50,
+    "characters": [
+      {
+        "id": "edmond-dantes",
+        "nameHere": "the Count of Monte Cristo",
+        "learned": "Is overwhelmed by the Morrels' happiness and gratitude and almost gives himself away. He invents or names a 'Lord Wilmore' to deflect Julie's questions, and is shattered to hear that old Morrel's last words named Edmond Dantès.",
+        "moment": "Held the purse and the 'Sinbad the Sailor' letter he once left for the Morrels, and left abruptly at Dantès's name."
+      },
+      {
+        "id": "maximilien-morrel",
+        "nameHere": "Maximilian Morrel",
+        "learned": "Warm and open. He tells how Julie and Emmanuel closed the family firm with honor, and reveals that his father died convinced their rescuer was Edmond Dantès. He feels the Count 'likes us'."
+      },
+      {
+        "id": "julie-morrel",
+        "nameHere": "Julie / Madame Herbault",
+        "learned": "Happily married. She longs to thank their unknown benefactor and keeps his purse, letter and diamond as relics. She feels she has heard the Count's voice before.",
+        "moment": "Showed the Count the purse and the letter signed 'Sinbad the Sailor'."
+      },
+      {
+        "id": "emmanuel-herbaut",
+        "nameHere": "Emmanuel",
+        "learned": "Ran the Morrel firm, earned 250,000 francs to match his wife's inheritance, then closed the business rather than sell the Morrel name. He thinks the Count a strange man."
+      },
+      {
+        "id": "cocles",
+        "nameHere": "Cocles",
+        "learned": "Now the Morrels' one-eyed doorkeeper. He does not recognize the Count."
+      },
+      {
+        "id": "penelon",
+        "nameHere": "Penelon",
+        "learned": "The old quartermaster, now the family gardener, who still calls Julie 'Mademoiselle'. Four years ago in Trieste he saw the 'Englishman' from 1829 boarding a yacht."
+      },
+      {
+        "id": "pierre-morrel",
+        "nameHere": "M. Morrel (the late father)",
+        "learned": "Has died, leaving 500,000 francs. He always said 'It was no Englishman that thus saved us', and his last words were 'Maximilian, it was Edmond Dantès!'"
+      },
+      {
+        "id": "baptistin",
+        "nameHere": "Baptistin",
+        "learned": "Announces the Count at the Morrels' gate."
+      },
+      {
+        "id": "lord-wilmore",
+        "nameHere": "Lord Wilmore",
+        "learned": "Named by the Count as an eccentric English friend who did good deeds in secret, did not believe in gratitude, and has left for remote lands. The reader already knows the 'Englishman' from Thomson & French was Dantès himself, so the Count is clearly steering Julie away from the truth."
+      },
+      {
+        "id": "chateau-renaud",
+        "nameHere": "Château-Renaud",
+        "learned": "Mentioned: he called the Morrels' story a family history."
+      }
+    ]
+  },
+  {
+    "chapter": 51,
+    "characters": [
+      {
+        "id": "maximilien-morrel",
+        "nameHere": "Maximilian",
+        "learned": "Is secretly and passionately in love with Valentine. He has rented the plot behind her garden, disguised as a gardener, to see her safely, and has respected all her limits. He hopes Providence will free her from her engagement.",
+        "moment": "Became a 'gardener' to meet Valentine through the boarded gate."
+      },
+      {
+        "id": "valentine-de-villefort",
+        "nameHere": "Valentine",
+        "learned": "Engaged against her will to Franz d'Épinay and in love with Maximilian. She feels neglected by her father and secretly hated by her stepmother, perhaps because of the fortune she will inherit. Her only comfort at home is her paralyzed grandfather, whose eye signals only she can read.",
+        "moment": "Admitted her love and her unhappiness to Maximilian through the garden gate."
+      },
+      {
+        "id": "franz-depinay",
+        "nameHere": "M. Franz d'Épinay",
+        "learned": "Revealed as Valentine's fiancé, a match her father insists on. He is not expected back in Paris for a year."
+      },
+      {
+        "id": "villefort",
+        "nameHere": "M. de Villefort",
+        "learned": "Cold and absent towards his daughter, and all-powerful. Hearing Maximilian's name in the paper, he started and sneered at the Bonapartist Morrels of Marseilles in 1815."
+      },
+      {
+        "id": "heloise-de-villefort",
+        "nameHere": "my stepmother / Madame de Villefort",
+        "learned": "According to Valentine, she hides her hatred behind constant smiles, adores her own son, and has no fortune of her own."
+      },
+      {
+        "id": "edouard-de-villefort",
+        "nameHere": "my troublesome brother, Edward",
+        "learned": "Valentine's spoiled half-brother, the object of his mother's 'overweening love'."
+      },
+      {
+        "id": "noirtier",
+        "nameHere": "M. Noirtier / grandfather",
+        "learned": "Paralyzed but still alert, he speaks only with his eyes, and only Valentine can understand him. He is famous across Europe as a Bonapartist plotter. He signalled that he was glad of Maximilian's honor and displeased by Villefort's and Danglars' remarks."
+      },
+      {
+        "id": "marquis-de-saint-meran",
+        "nameHere": "M. de Saint-Méran",
+        "learned": "Valentine's grandfather. She is the sole heiress of him and his wife."
+      },
+      {
+        "id": "marquise-de-saint-meran",
+        "nameHere": "Mme. de Saint-Méran",
+        "learned": "Valentine's grandmother. Valentine will inherit from her."
+      },
+      {
+        "id": "renee-de-saint-meran",
+        "nameHere": "my angel mother",
+        "learned": "Valentine's mother, who died when Valentine was young. Valentine believes she would have protected the lovers."
+      },
+      {
+        "id": "danglars",
+        "nameHere": "M. Danglars",
+        "learned": "Identified Maximilian as 'the son of the old shipowner'. Valentine thought he trembled at the Morrel name, and he laughed in a half-malicious, half-ferocious way."
+      },
+      {
+        "id": "pierre-morrel",
+        "nameHere": "Maximilian's father",
+        "learned": "Remembered in Marseilles as a deeply honest merchant and a devoted supporter of the emperor."
+      },
+      {
+        "id": "julie-morrel",
+        "nameHere": "my sister",
+        "learned": "Maximilian says he loves his sister dearly, but calmly, unlike his love for Valentine."
+      },
+      {
+        "id": "emmanuel-herbaut",
+        "nameHere": "my brother-in-law",
+        "learned": "Mentioned with Julie as dear to Maximilian."
+      },
+      {
+        "id": "edmond-dantes",
+        "nameHere": "the Count of Monte Cristo",
+        "learned": "Arrives at the Villeforts' house, which makes Maximilian wonder how he knows Villefort."
+      }
+    ]
+  },
+  {
+    "chapter": 52,
+    "characters": [
+      {
+        "id": "edmond-dantes",
+        "nameHere": "the Count",
+        "learned": "Reveals that he met Madame de Villefort two years ago at Perugia, posing as a sort of doctor, and talked with her about poisons. He now leads her on with detailed talk of undetectable poisons, and gives her his dangerous elixir. He is pleased that 'the seed sown' has found 'fruitful soil'.",
+        "moment": "Sent Madame de Villefort the recipe for his elixir, after warning her that five or six drops would kill."
+      },
+      {
+        "id": "heloise-de-villefort",
+        "nameHere": "Madame de Villefort",
+        "learned": "Has long been fascinated by Mithridates and poisons, and knows a good deal of botany and chemistry. She keeps steering the talk back to poisons that leave no trace, seems agitated when conscience comes up, and is eager to have the Count's elixir. She suspects he is himself the 'Adelmonte' he describes.",
+        "moment": "Asked for, and received, the recipe for the Count's elixir."
+      },
+      {
+        "id": "edouard-de-villefort",
+        "nameHere": "Edward",
+        "learned": "Badly behaved: he tortures the parrot, tears up an album and mocks his sister, while his mother barely scolds him. He knows the story of Mithridates from his lessons."
+      },
+      {
+        "id": "valentine-de-villefort",
+        "nameHere": "Mademoiselle de Villefort / Valentine",
+        "learned": "Nineteen, tall and graceful, with chestnut hair and blue eyes. She looks sad and has been crying. She travelled to Italy for her health two years ago."
+      },
+      {
+        "id": "villefort",
+        "nameHere": "M. de Villefort",
+        "learned": "Is out dining with the chancellor."
+      },
+      {
+        "id": "noirtier",
+        "nameHere": "M. Noirtier / grandpapa Noirtier",
+        "learned": "Is fed his 'unwelcome meal' at six o'clock. Madame de Villefort calls his mind 'faint and flickering'."
+      },
+      {
+        "id": "abbe-adelmonte",
+        "nameHere": "the Abbé Adelmonte of Taormina",
+        "learned": "A Sicilian 'terrible chemist' the Count claims as a friend. He supposedly showed how poison passed along a chain of animals could kill without trace, leaving only signs of apoplexy, and is said to have made the Count's elixir."
+      },
+      {
+        "id": "haydee",
+        "nameHere": "a Greek princess of my acquaintance",
+        "learned": "The Count's excuse for leaving: he is taking her to the opera."
+      }
+    ]
+  },
+  {
+    "chapter": 53,
+    "characters": [
+      {
+        "id": "edmond-dantes",
+        "nameHere": "the Count of Monte Cristo",
+        "learned": "Is now the talk of Paris. He won the Jockey Club cup with a horse named 'Vampa' and sent it to the Countess G—— 'from Lord Ruthven'. He wants to know whether Morcerf comes to the opera, and seems to arrange for Haydée to see Morcerf's face beside his own.",
+        "moment": "Leaned over the box with his arm around Morcerf just as Haydée looked across."
+      },
+      {
+        "id": "haydee",
+        "nameHere": "Haydée / the Greek",
+        "learned": "Dazzles the opera audience. When she sees Morcerf she nearly faints, and then reveals that he 'sold my father to the Turks' and that his fortune was the price of that treachery. The talk of Ali Tepelini's court suggests her father was Ali Pasha.",
+        "moment": "Recognized the Count of Morcerf and denounced him as the man who betrayed her father."
+      },
+      {
+        "id": "fernand-mondego",
+        "nameHere": "the Count of Morcerf",
+        "learned": "Confirms he was inspector-general of Ali Pasha's troops at Yanina and owes his fortune to the Pasha's generosity. He seems unsettled to hear the girl is Greek. Haydée accuses him of betraying her father."
+      },
+      {
+        "id": "albert-de-morcerf",
+        "nameHere": "Albert / Morcerf",
+        "learned": "Admits he finds Eugénie handsome but too severe for his taste. He works out that the Count owned the winning horse."
+      },
+      {
+        "id": "chateau-renaud",
+        "nameHere": "Château-Renaud",
+        "learned": "Insists the Count is still all Paris can talk about, and urges Albert to appreciate Eugénie."
+      },
+      {
+        "id": "countess-g",
+        "nameHere": "the Countess G——",
+        "learned": "The lovely Venetian from Rome, now in Paris. She is unnerved to receive the gold cup from 'Lord Ruthven', fearing the Count holds a grudge for her vampire jokes.",
+        "moment": "Received the Jockey Club gold cup with a note from 'Lord Ruthven'."
+      },
+      {
+        "id": "hermine-danglars",
+        "nameHere": "Madame Danglars / the baroness",
+        "learned": "Eager to meet the Count and to get an invitation to his house. She comes to the opera escorted by Debray, who is described as her 'admitted lover', and she is the one who mentions Morcerf's service with Ali Tepelini."
+      },
+      {
+        "id": "eugenie-danglars",
+        "nameHere": "Mademoiselle Eugénie Danglars",
+        "learned": "Handsome and severe, with black hair and eyes and a habitual frown. She is a gifted linguist, artist and musician, cold to Albert, and has no wish to meet the Count. She bluntly asks him whether Haydée is his daughter."
+      },
+      {
+        "id": "louise-darmilly",
+        "nameHere": "Mademoiselle Louise d'Armilly",
+        "learned": "A talented young singer without fortune who was Eugénie's schoolfellow and practices music with her daily. Eugénie avoids being seen with her in public."
+      },
+      {
+        "id": "lucien-debray",
+        "nameHere": "Lucien Debray",
+        "learned": "Escorts Madame Danglars and her daughter, and claims not to care about the Count's mysteries."
+      },
+      {
+        "id": "mercedes",
+        "nameHere": "Mercédès",
+        "learned": "Turned down the minister's opera box, which was then passed to the Danglars family."
+      },
+      {
+        "id": "danglars",
+        "nameHere": "Danglars",
+        "learned": "Refused to be seen in a minister's box because he belongs to the opposition, though happy to accept a free one for his family."
+      },
+      {
+        "id": "ali",
+        "nameHere": "Ali",
+        "learned": "Guards the box door and draws a curious crowd."
+      },
+      {
+        "id": "ali-tebelin",
+        "nameHere": "Ali Tepelini (Ali Pasha) of Yanina",
+        "learned": "The Albanian ruler whom Morcerf served as inspector-general of troops, and to whom he owes his fortune. Haydée's outburst indicates he was her father."
+      },
+      {
+        "id": "luigi-vampa",
+        "nameHere": "Vampa (the horse's name)",
+        "learned": "The Count's racehorse was entered under the bandit's name, which gave him away to Albert."
+      },
+      {
+        "id": "beauchamp",
+        "nameHere": "Beauchamp",
+        "learned": "His paper has been reporting the Count's doings."
+      },
+      {
+        "id": "franz-depinay",
+        "nameHere": "Franz",
+        "learned": "Mentioned as the one who introduced Albert to the Countess G—— in Rome."
+      }
+    ]
+  },
+  {
+    "chapter": 54,
+    "characters": [
+      {
+        "id": "albert-de-morcerf",
+        "nameHere": "Albert de Morcerf",
+        "learned": "Not yet twenty-one. He does not want to marry Eugénie and is torn between his father's wishes and his mother's unhappiness, and would rather displease his father. He faked an illness to delay the marriage talks.",
+        "moment": "Arranged to take his mother to Tréport so they would be away during the Count's Auteuil dinner."
+      },
+      {
+        "id": "lucien-debray",
+        "nameHere": "Lucien Debray",
+        "learned": "Lets slip that Madame Danglars is the one who gambles on the stock market. He is visibly embarrassed when Albert jokes about feeding her false government news. He seems to have come partly as Madame Danglars' spy.",
+        "moment": "Quietly accepted some proposal from the Count as he left."
+      },
+      {
+        "id": "edmond-dantes",
+        "nameHere": "the Count",
+        "learned": "Notices Debray's embarrassment and reads 'a hidden secret' in it. He arranges an Auteuil dinner for the Danglars and Villeforts, keeps the Morcerfs away, and says he wants to stand high in Madame de Morcerf's esteem. He announces that he will take Andrea Cavalcanti under his protection.",
+        "moment": "Ordered Bertuccio to redecorate the Auteuil house but leave the red damask bedroom and the garden untouched."
+      },
+      {
+        "id": "hermine-danglars",
+        "nameHere": "Madame Danglars / Hermine de Servieux",
+        "learned": "A daring and willful speculator on the stock exchange, who uses Debray as her eyes and ears."
+      },
+      {
+        "id": "danglars",
+        "nameHere": "M. Danglars",
+        "learned": "Made his fortune supplying the army in Spain while Morcerf served there. He has recently profited from Spanish and Haitian bonds."
+      },
+      {
+        "id": "eugenie-danglars",
+        "nameHere": "Mademoiselle Eugénie",
+        "learned": "Seventeen. Albert finds her beautiful but not to his taste, and suggests she might suit Andrea Cavalcanti instead."
+      },
+      {
+        "id": "fernand-mondego",
+        "nameHere": "the Comte de Morcerf",
+        "learned": "Has an income of about 50,000 francs a year and very much wants Albert to marry Eugénie. He was 'ruined by the revolution' before rebuilding his fortune in Spain."
+      },
+      {
+        "id": "mercedes",
+        "nameHere": "Albert's mother / the Comtesse de Morcerf",
+        "learned": "Strongly opposes the Danglars marriage for reasons Albert cannot explain, and has barely visited Madame Danglars twice. She has spoken warmly of the Count."
+      },
+      {
+        "id": "villefort",
+        "nameHere": "M. de Villefort",
+        "learned": "Has been showering the Count with courtesies, and is to be invited to Auteuil."
+      },
+      {
+        "id": "heloise-de-villefort",
+        "nameHere": "Madame de Villefort",
+        "learned": "Will be invited to the Auteuil dinner."
+      },
+      {
+        "id": "beauchamp",
+        "nameHere": "Beauchamp",
+        "learned": "Mentioned in Albert's imagined scheme as the journalist who would print the denial of a false rumor."
+      },
+      {
+        "id": "baptistin",
+        "nameHere": "Baptistin",
+        "learned": "Confirms the Count's orders to admit no one that evening but Major Cavalcanti and his son. Albert would love to employ him."
+      },
+      {
+        "id": "bartolomeo-cavalcanti",
+        "nameHere": "Major Bartolomeo Cavalcanti",
+        "learned": "Described by the Count as an Italian nobleman of very ancient family, polite and modest, whom he met in Florence, Bologna and Lucca. He once passed through Paris on the way to Moscow under the Empire."
+      },
+      {
+        "id": "andrea-cavalcanti",
+        "nameHere": "Andrea, his son (the contino)",
+        "learned": "A 'charming young man' of about Albert's age, entering Paris society backed by his father's millions, whom the Count has promised to watch over."
+      },
+      {
+        "id": "franz-depinay",
+        "nameHere": "Franz",
+        "learned": "Still in Italy and still sees the Count as mysterious. He is the son of General d'Épinay, assassinated in 1815 'by the Bonapartists', and is to marry Mademoiselle de Villefort."
+      },
+      {
+        "id": "valentine-de-villefort",
+        "nameHere": "Mademoiselle de Villefort",
+        "learned": "Albert mentions her engagement to Franz, which he thinks Franz is no keener on than he is on his own."
+      },
+      {
+        "id": "haydee",
+        "nameHere": "the beautiful Greek",
+        "learned": "Albert is curious about her story, since the Count calls her his slave yet treats her like a princess."
+      },
+      {
+        "id": "bertuccio",
+        "nameHere": "M. Bertuccio",
+        "learned": "Starts at the news of a dinner at Auteuil and seems nervous and out of his element in Paris."
+      }
+    ]
+  }
+]
