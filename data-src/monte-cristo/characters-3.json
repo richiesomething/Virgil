@@ -1,0 +1,468 @@
+[
+  {
+    "id": "danglars",
+    "name": "Danglars",
+    "firstChapter": 1,
+    "importance": "major",
+    "group": "Marseille, 1815",
+    "aliases": [
+      { "name": "Baron Danglars", "from": 27, "note": "his title; Caderousse tells the abbé he is now a millionaire baron" }
+    ],
+    "tagline": [
+      { "from": 1, "text": "The Pharaon's scheming supercargo, who envies and hates Dantès." },
+      { "from": 4, "text": "Author of the anonymous letter denouncing Dantès as a Bonapartist agent." },
+      { "from": 27, "text": "Dantès' betrayer, now a millionaire baron and banker in Paris." },
+      { "from": 46, "text": "Vain, vulgar Paris banker who has opened vast credit for the Count." },
+      { "from": 95, "text": "A banker on the edge of ruin, desperate for Andrea's millions." },
+      { "from": 104, "text": "Ruined banker fleeing Paris with money owed to the hospitals." },
+      { "from": 114, "text": "Fugitive banker held prisoner and starved by Luigi Vampa's bandits." },
+      { "from": 116, "text": "Released by Dantès, penniless and repentant, his hair turned white." }
+    ],
+    "description": [
+      { "from": 1, "text": "Danglars is the supercargo (the officer in charge of the cargo and accounts) of the Pharaon, about twenty-six years old. He fawns on his superiors, sneers at those below him, and is disliked by the crew. He resents Edmond Dantès, who is about to be made captain, and has been spying on him." },
+      { "from": 4, "text": "A cunning schemer who prefers to let others do his dirty work, Danglars gathers Dantès' rivals at La Réserve. He suggests prison as a way to part Dantès from Mercédès, and writes an anonymous denunciation with his left hand so that nothing can be traced back to him, then tosses it aside as a ‘joke’ within Fernand's reach." },
+      { "from": 5, "text": "After the arrest he fakes surprise, privately blames Fernand, and frightens Caderousse into silence. He wins the trust of the shipowner Morrel, and alone among the conspirators he sleeps peacefully: a cold calculator to whom a man's life matters less than a number." },
+      { "from": 13, "text": "Fearing Dantès' revenge when Napoleon returns, he leaves the sea and goes to Madrid to work for a Spanish merchant." },
+      { "from": 17, "text": "In prison, the Abbé Faria helps Dantès work out that Danglars wrote the denunciation, disguising his hand. Dantès remembers, too, the inaccuracies in his accounts. He becomes one of the three men Dantès swears to punish." },
+      { "from": 27, "text": "According to Caderousse, Danglars became a cashier at a Spanish bank on Morrel's recommendation, made a fortune supplying the army, and married a second time, to a widow, Madame de Nargonne. He is now a millionaire baron living in the Rue du Mont-Blanc in Paris, and refused even to see the poor Caderousse." },
+      { "from": 30, "text": "Said to be worth six to eight million francs, he refused to help Morrel, the man to whom he owed the start of his fortune." },
+      { "from": 40, "text": "He is a baron ‘of a new creation’: Charles X gave him the title in 1829 for arranging a loan. He sits as an opposition deputy and plays the stock market, where he seems to get government news early." },
+      { "from": 46, "text": "Past fifty, with dyed black hair and a cunning face, he flaunts his wealth. He calls himself a man of the people but likes his servants to call him ‘my lord’. He suspects the Count's unlimited credit is a hoax, but is crushed by the Count's display of money. At home he sells his wife's favorite horses behind her back for profit." },
+      { "from": 61, "text": "Acting on false news, he panics and sells his Spanish bonds, losing about a million francs. Pale and surly afterwards, he is rude to his wife and eager to hear that the Cavalcanti are fabulously rich." },
+      { "from": 65, "text": "His marriage is a cold business arrangement. For sixteen years he has known of his wife's affairs, including her past with Villefort, and tolerated them for his own advantage; the couple have lived apart as husband and wife for four years. He cares only for his money." },
+      { "from": 66, "text": "His fortune is shakier than it looks: he has lost about 1,700,000 francs in a month. He now fancies the rich young Andrea Cavalcanti for Eugénie instead of Albert, resents the Morcerfs' older nobility, and reveals that the Count de Morcerf was once the fisherman Fernand Mondego. He writes at once to his correspondent in Yanina." },
+      { "from": 78, "text": "Cowardly but insolent, he refuses Morcerf without explanation and gloats over the newspaper paragraph about Yanina. He then gladly accepts Andrea as Eugénie's suitor once he hears of the young man's supposed millions. Challenged by Albert, he admits writing to Yanina and says the Count advised him to do it." },
+      { "from": 95, "text": "In private he is a brutal husband and a domineering father. He admits to Eugénie that he is nearly ruined: he needs Andrea's three million, or at least the rumor of it, to cover a huge railway deposit, while he holds five and a half million belonging to charitable institutions that could be withdrawn at any time. Andrea's arrest at the contract signing leaves him humiliated, and by the end of the night his daughter has gone too." },
+      { "from": 104, "text": "Facing bankruptcy, he hands over to the Count the five million francs that belong to the charities in return for a receipt, then burns his papers and flees Paris by night, leaving his wife a letter accusing her of hiding away part of his fortune." },
+      { "from": 114, "text": "He reaches Rome and cashes the Count's receipt at Thomson & French, planning to settle in Vienna. On the road out of Rome he is kidnapped and shut in Luigi Vampa's catacomb hideout, where the bandits sell him food at ruinous prices until his millions are almost gone." },
+      { "from": 116, "text": "Starved down to his last 50,000 francs, he prays for the first time in years and repents. His captor reveals himself as Edmond Dantès, the man he betrayed, and forgives him. Danglars is released with what little money he has left, and finds his hair has turned white." }
+    ],
+    "moments": [
+      { "chapter": 1, "text": "Tried to turn Morrel against Dantès over the stop at Elba." },
+      { "chapter": 3, "text": "Muttered that the letter from Elba gave him ‘a capital idea’." },
+      { "chapter": 4, "text": "Wrote, with his left hand, an anonymous letter denouncing Dantès as a Bonapartist agent." },
+      { "chapter": 5, "text": "Frightened Caderousse into keeping quiet about the letter." },
+      { "chapter": 13, "text": "Left the sea for Madrid to work for a Spanish merchant." },
+      { "chapter": 30, "text": "Refused to help Morrel, his old benefactor." },
+      { "chapter": 46, "text": "Agreed to give the Count credit of six million francs for the year." },
+      { "chapter": 47, "text": "Sold his wife's horses behind her back, only to see them pulling the Count's carriage." },
+      { "chapter": 61, "text": "Sold his Spanish bonds in a panic on false news and lost about a million francs." },
+      { "chapter": 64, "text": "Offered Major Cavalcanti a seat in his carriage and arranged a business meeting." },
+      { "chapter": 65, "text": "Demanded his wife pay a quarter of his Spanish loss, and revealed he knew of her past with Villefort." },
+      { "chapter": 66, "text": "Revealed that Morcerf was once Fernand Mondego, and wrote to his correspondent in Yanina." },
+      { "chapter": 78, "text": "Stalled Morcerf and gloated over the Yanina article." },
+      { "chapter": 81, "text": "Accepted Andrea Cavalcanti as Eugénie's suitor." },
+      { "chapter": 87, "text": "Told Albert that Monte Cristo had advised him to write to Yanina." },
+      { "chapter": 95, "text": "Confessed to Eugénie that he was on the edge of ruin." },
+      { "chapter": 104, "text": "Took the charities' five million to the Count for a receipt, burned his papers and prepared to flee." },
+      { "chapter": 106, "text": "Fled Paris by night toward Fontainebleau." },
+      { "chapter": 114, "text": "Was kidnapped on the road out of Rome and locked in Luigi Vampa's hideout." },
+      { "chapter": 115, "text": "Signed a draft for 100,000 francs to buy a single chicken." },
+      { "chapter": 116, "text": "Was forgiven and released by Edmond Dantès, and found his hair had turned white." }
+    ]
+  },
+  {
+    "id": "hermine-danglars",
+    "name": "Madame Danglars",
+    "firstChapter": 39,
+    "importance": "major",
+    "group": "The Danglars household",
+    "aliases": [
+      { "name": "Madame de Nargonne", "from": 39, "note": "the widow Danglars married, as Caderousse told it in ch 27" },
+      { "name": "Baroness Danglars", "from": 46, "note": "her title" },
+      { "name": "Hermine", "from": 47, "note": "her first name" },
+      { "name": "Hermine de Servières", "from": 47, "note": "her maiden name (also given as de Servieux)" }
+    ],
+    "tagline": [
+      { "from": 39, "text": "Danglars' wife, a fashionable Paris baroness." },
+      { "from": 53, "text": "Danglars' elegant, scornful wife; Debray is her lover and stock-market adviser." },
+      { "from": 62, "text": "A baroness with a buried past: the pregnant woman Bertuccio saw with Villefort." },
+      { "from": 67, "text": "Mother of Villefort's lost child, who learns the baby may have lived." },
+      { "from": 106, "text": "Abandoned by husband and lover, she leaves Paris alone but rich." },
+      { "from": 110, "text": "Benedetto's mother, recognized when she collapsed at his trial." }
+    ],
+    "description": [
+      { "from": 39, "text": "Madame Danglars is the banker's wife, the widow Madame de Nargonne whom Danglars married. She moves in the best Paris circles and sends Albert de Morcerf a perfumed note offering him a seat in her opera box." },
+      { "from": 46, "text": "Danglars boasts that she comes from an ancient family, born de Servières, and that her first husband was the Marquis de Nargonne. The Count seems to know more about the couple's private life than he lets on." },
+      { "from": 47, "text": "Still handsome, she has refined taste, a temper, and open contempt for her husband. She is close to Lucien Debray, the minister's secretary, and to Madame de Villefort. She is furious to find her beloved dappled grays sold behind her back." },
+      { "from": 53, "text": "Debray is openly her lover. She is a daring, willful speculator on the stock exchange, using Debray's inside knowledge of government news to steer her husband's investments. She is eager to meet the Count and to be invited to his house." },
+      { "from": 62, "text": "At the Count's dinner at Auteuil, Bertuccio recognizes her as the young, pregnant widow he saw years ago in that very garden, waiting for Villefort, on the night Villefort buried a newborn child there. She is uneasy from the moment she arrives, and every hint the Count drops about the red room, the hidden staircase and a child shakes her more, until she faints." },
+      { "from": 65, "text": "Her husband reveals he has known about her affairs for sixteen years, including her past with Villefort, and has tolerated them for his own profit. She has made 500,000 livres this year from Debray's tips. Her first husband, M. de Nargonne, is said to have died of grief or rage on coming home after nine months away to find her six months pregnant." },
+      { "from": 67, "text": "Veiled, she secretly visits Villefort. As M. de Nargonne's widow she bore Villefort's child in the red damask room at Auteuil and was told it was born dead; she has mourned it ever since. Villefort tells her the child may have survived, and she is both overjoyed and horrified." },
+      { "from": 76, "text": "Still nervous of the Count but charmed whenever he appears, she claims to have given up speculating. She announces Eugénie's engagement to ‘Prince’ Cavalcanti with satisfaction." },
+      { "from": 99, "text": "After Andrea's arrest she fears her clever daughter, who despises her affair and money dealings with Debray. She uses her old intimacy with Villefort to beg him to let Benedetto escape or delay his trial, but he refuses." },
+      { "from": 106, "text": "Abandoned by Danglars, she hopes Debray will protect her. Instead he simply divides their profits, and she leaves him without a farewell, rich in money but humiliated." },
+      { "from": 110, "text": "She attends Benedetto's trial veiled. When he declares that his mother believed him born dead, she cries out and collapses, her veil falls, and she is recognized." }
+    ],
+    "moments": [
+      { "chapter": 47, "text": "Discovered her dappled grays had been sold and harnessed to the Count's carriage." },
+      { "chapter": 63, "text": "Fainted when the Count imagined a man carrying a sleeping child down the hidden staircase." },
+      { "chapter": 65, "text": "Turned white when her husband named Villefort among those who ‘trembled’ before him." },
+      { "chapter": 67, "text": "Secretly visited Villefort and learned their child might still be alive." },
+      { "chapter": 99, "text": "Begged Villefort to let Benedetto escape, or at least delay his trial, and was refused." },
+      { "chapter": 106, "text": "Took her 1,340,000 francs and walked out on Debray without a farewell." },
+      { "chapter": 110, "text": "Fainted at Benedetto's trial and was carried out of the courtroom." }
+    ]
+  },
+  {
+    "id": "eugenie-danglars",
+    "name": "Eugénie Danglars",
+    "firstChapter": 40,
+    "importance": "supporting",
+    "group": "The Danglars household",
+    "aliases": [
+      { "name": "Claire-Marie-Eugénie Danglars", "from": 77, "note": "her full name" },
+      { "name": "Léon d'Armilly", "from": 97, "note": "the name she travels under, disguised as a young man" }
+    ],
+    "tagline": [
+      { "from": 40, "text": "Danglars' daughter, talked of as Albert de Morcerf's future bride." },
+      { "from": 53, "text": "Danglars' proud, gifted daughter, cold toward her intended, Albert." },
+      { "from": 81, "text": "Engaged by her father to Andrea Cavalcanti, a match she merely tolerates." },
+      { "from": 97, "text": "Fled Paris disguised as a young man, to live as an artist." }
+    ],
+    "description": [
+      { "from": 40, "text": "Eugénie is Danglars' daughter, spoken of as Albert de Morcerf's intended bride, with a dowry of two million francs. Albert's friends doubt the proud Morcerfs will ever accept a banker's daughter." },
+      { "from": 53, "text": "Seventeen, handsome and severe, with black hair and eyes and a habitual frown. She is a gifted linguist, artist and musician. She treats Albert coolly and is frank to the point of rudeness: she bluntly asks the Count whether Haydée is his daughter." },
+      { "from": 57, "text": "She dislikes the idea of marrying Albert and prizes her independence; she almost wishes her father would lose his fortune so that she could live as an artist. She makes music every day with her friend Louise d'Armilly." },
+      { "from": 76, "text": "Her father now prefers Andrea Cavalcanti as a son-in-law. Cold, beautiful and satirical, she ignores Andrea's sighs, though the two are admired singing together. Albert says the two of them regard each other with mutual indifference." },
+      { "from": 84, "text": "She put up with Andrea only to be rid of Albert, and now openly dislikes him. She tells her father she loves no one, wants no husband, and believes she could earn a fortune as a singer. She agrees to sign the marriage contract only on condition that she remains entirely free, and keeps her own plans to herself." },
+      { "from": 97, "text": "Scornful of all men, she had planned to run away even before Andrea's arrest. That night she cuts off her hair, dresses as a man, and leaves Paris as ‘Léon d'Armilly’ with Louise, meaning to live as an artist in Italy. At an inn in Compiègne, Andrea falls into their room; she coldly urges him to kill himself, then has to leave through a jeering crowd." }
+    ],
+    "moments": [
+      { "chapter": 53, "text": "Bluntly asked the Count whether Haydée was his daughter." },
+      { "chapter": 95, "text": "Agreed to sign the marriage contract, on her own terms." },
+      { "chapter": 97, "text": "Fled Paris disguised as a young man." },
+      { "chapter": 98, "text": "Urged Andrea to kill himself rather than be taken." }
+    ]
+  },
+  {
+    "id": "louise-darmilly",
+    "name": "Louise d'Armilly",
+    "firstChapter": 53,
+    "importance": "supporting",
+    "group": "The Danglars household",
+    "aliases": [],
+    "tagline": [
+      { "from": 53, "text": "Eugénie Danglars' schoolfriend, a talented young singer without fortune." },
+      { "from": 97, "text": "Eugénie's companion in her flight from Paris." }
+    ],
+    "description": [
+      { "from": 53, "text": "Louise d'Armilly is a talented young singer without fortune, a schoolfellow of Eugénie Danglars who practices music with her every day. Eugénie envies her independent life as an artist, though she avoids being seen with her in public." },
+      { "from": 76, "text": "Small, delicate and fairy-like, she is Eugénie's singing teacher and confidante, often staying at the Danglars house, and will not say a word to Albert. She is going to Italy, and the Count has given her letters of introduction to theatre directors there." },
+      { "from": 97, "text": "Timid but devoted, she bought the post-chaise and keeps the money for Eugénie's flight, and travels with her, posing as her sister. When Andrea is cornered at their inn she pities him and urges him to escape." }
+    ],
+    "moments": [
+      { "chapter": 96, "text": "Thanked the Count for her letters of introduction, saying she meant to use them at once." },
+      { "chapter": 97, "text": "Escaped from Paris with Eugénie." },
+      { "chapter": 98, "text": "Rang for help at the inn, then urged the cornered Andrea to flee." }
+    ]
+  },
+  {
+    "id": "cornelie",
+    "name": "Cornélie",
+    "firstChapter": 65,
+    "importance": "minor",
+    "group": "The Danglars household",
+    "aliases": [],
+    "tagline": [
+      { "from": 65, "text": "Madame Danglars' confidential maid." }
+    ],
+    "description": [
+      { "from": 65, "text": "Mademoiselle Cornélie is Madame Danglars' trusted maid." }
+    ],
+    "moments": []
+  },
+  {
+    "id": "baron-de-nargonne",
+    "name": "M. de Nargonne",
+    "firstChapter": 65,
+    "importance": "minor",
+    "group": "The Danglars household",
+    "aliases": [],
+    "tagline": [
+      { "from": 65, "text": "Madame Danglars' late first husband." }
+    ],
+    "description": [
+      { "from": 65, "text": "M. de Nargonne was Madame Danglars' first husband, a baron. According to Danglars, he died of grief or rage when he came home after nine months away and found his wife six months pregnant." },
+      { "from": 67, "text": "His title explains the baron's coronet and the letter H embroidered on Hermine's linen." }
+    ],
+    "moments": []
+  },
+  {
+    "id": "jacopo-manfredi",
+    "name": "Jacopo Manfredi",
+    "firstChapter": 66,
+    "importance": "minor",
+    "group": "The Danglars household",
+    "aliases": [],
+    "tagline": [
+      { "from": 66, "text": "Trieste banker whose failure costs Danglars about a million francs." }
+    ],
+    "description": [
+      { "from": 66, "text": "Jacopo Manfredi is a banker of Trieste, long a reliable client of Danglars, who has suspended payments and cost him about a million francs." }
+    ],
+    "moments": []
+  },
+  {
+    "id": "benedetto",
+    "name": "Benedetto",
+    "firstChapter": 44,
+    "importance": "supporting",
+    "group": "The Count's household",
+    "mergedInto": { "id": "andrea-cavalcanti", "from": 62 },
+    "aliases": [],
+    "tagline": [
+      { "from": 44, "text": "The baby Bertuccio rescued from Villefort's garden, raised in Corsica." },
+      { "from": 45, "text": "Bertuccio's wicked foster-son, who tortured Assunta and vanished." }
+    ],
+    "description": [
+      { "from": 44, "text": "Benedetto is the newborn child that Bertuccio, in his story to the Count, saw Villefort bury in a box in the garden at Auteuil. Having stabbed Villefort, Bertuccio dug up the baby and revived it. Its fine linen was marked with an H and an N under a baron's coronet. He left the child at a Paris foundling hospital, but his widowed sister-in-law Assunta reclaimed it, named it Benedetto, and raised it in Corsica." },
+      { "from": 44, "text": "Blond, clever and spoiled by Assunta, the boy grew up a liar and a thief. He knew Bertuccio was not his father, was running with older criminals by the age of eleven, and laughed at Bertuccio's plan to send him to sea." },
+      { "from": 45, "text": "While Bertuccio was away, Benedetto and two companions held Assunta over the fire to make her give up her money, robbed the house and disappeared. Bertuccio hopes he is dead." }
+    ],
+    "moments": [
+      { "chapter": 44, "text": "Was buried alive at birth by Villefort and rescued by Bertuccio." },
+      { "chapter": 44, "text": "Mocked Bertuccio's offer to take him to sea." },
+      { "chapter": 45, "text": "Tortured his foster-mother Assunta for money and disappeared." }
+    ]
+  },
+  {
+    "id": "andrea-cavalcanti",
+    "name": "Andrea Cavalcanti",
+    "firstChapter": 54,
+    "importance": "major",
+    "group": "Paris society",
+    "aliases": [
+      { "name": "Benedetto", "from": 62, "note": "his real name; Bertuccio recognizes him" },
+      { "name": "Prince Cavalcanti", "from": 76, "note": "the title Paris society and Danglars give him" },
+      { "name": "Convict No. 59", "from": 82, "note": "his number in the galleys, as Caderousse tells it" }
+    ],
+    "tagline": [
+      { "from": 54, "text": "Major Cavalcanti's son, a young man the Count promises to launch in Paris." },
+      { "from": 56, "text": "A hired impostor playing Major Cavalcanti's long-lost son." },
+      { "from": 62, "text": "Really Benedetto, Bertuccio's foundling: son of Villefort and Madame Danglars." },
+      { "from": 81, "text": "Sham prince engaged to Eugénie Danglars, and a former galley convict." },
+      { "from": 83, "text": "Caderousse's murderer, still posing as a fashionable prince." },
+      { "from": 96, "text": "Exposed as an escaped convict and murderer at his own contract signing." },
+      { "from": 98, "text": "Benedetto, in prison awaiting trial for Caderousse's murder." },
+      { "from": 110, "text": "Benedetto, who named Villefort as his father in open court." }
+    ],
+    "description": [
+      { "from": 54, "text": "Andrea is the son of the Italian nobleman Major Cavalcanti, described by the Count as a charming young man of about Albert's age. He is about to enter Paris society backed by his father's millions, and the Count has promised to keep an eye on him." },
+      { "from": 56, "text": "The story goes that he was stolen from his father at the age of five. He is tall, with light hair, a red beard and black eyes, quick-witted and a fluent liar who reads legal papers like an expert. In fact he is a hired player: promised 50,000 livres a year to act as the major's son, he starts in fear at the news of his ‘father’, and the Count hints that his youth was ‘stormy’." },
+      { "from": 62, "text": "At the dinner at Auteuil, Bertuccio recognizes him on sight: ‘Andrea Cavalcanti’ is Benedetto. He is the newborn that Villefort buried alive in that garden, and that Bertuccio, after stabbing Villefort, dug up and revived. The baby was left at a foundling hospital, reclaimed by Bertuccio's widowed sister-in-law Assunta, and raised in Corsica." },
+      { "from": 62, "text": "There the clever, spoiled boy became a liar and a thief who ran with criminals by eleven. In the end, with two companions, he held Assunta over the fire for her money, robbed the house and vanished. The pregnant woman Bertuccio saw with Villefort that night, now recognized as Madame Danglars, is his mother." },
+      { "from": 64, "text": "Leaving the dinner, he is ambushed by Caderousse, who knew him in the past as Benedetto. Andrea says he was brought up in Corsica, and agrees to pay Caderousse 200 francs a month to keep quiet. He carries a pistol, and was alarmed to find the king's prosecutor at the table." },
+      { "from": 76, "text": "Within a fortnight he is accepted everywhere, rumored heir to the Saravezza quarries and flattered by Danglars as ‘Prince’. Vain and polished, though his low birth shows through, he openly courts Eugénie with her father's blessing, while the Count pointedly refuses to vouch for him." },
+      { "from": 81, "text": "He proposes to Eugénie and is accepted. Caderousse was his comrade in the galleys at Toulon, and they escaped together. Andrea claims to believe the Count is his real father and has left him money in his will. Under pressure from Caderousse, he draws him a plan of the Count's house and tells him when it will be empty." },
+      { "from": 82, "text": "Caught breaking into the Count's house, Caderousse tells the abbé that Andrea is Benedetto, a Corsican foundling and convict No. 59. Climbing down from the wall, Caderousse is stabbed. Before he dies he says Benedetto gave him the plan hoping one would kill the other, then lay in wait, and signs a deposition naming him as the murderer." },
+      { "from": 96, "text": "Boastful and greedy, he frets over the dowry and the three million. At the signing of the marriage contract, when the Count tells of Caderousse's bloodstained waistcoat and a letter found in it, he slips away just before police arrive to arrest him." },
+      { "from": 98, "text": "Without remorse and full of resource, he steals jewels from the wedding presents and nearly escapes over the rooftops, but is trapped at an inn in Compiègne, falling into Eugénie's room. Cornered, he refuses to kill himself, saying ‘one has friends’, and is taken to the Conciergerie. Villefort describes him as a Corsican vagabond of unknown parents, sent to the galleys at sixteen for forgery." },
+      { "from": 107, "text": "In prison he still poses as a Cavalcanti prince, sure a powerful protector will save him, and suspects the Count is his father. Bertuccio, his ‘adopted father’, visits and warns him he has fallen into terrible hands, promising to tell him his true father's name." },
+      { "from": 110, "text": "At his trial he declares that he was born at Auteuil, the son of the prosecutor M. de Villefort, who buried him alive, and that his mother believed him born dead. Rescued, left at a foundling hospital and raised in Corsica, he has no name of his own and blames his father for everything he became." }
+    ],
+    "moments": [
+      { "chapter": 56, "text": "Asked the ‘major’, as soon as they were alone, how much he was being paid to be his father." },
+      { "chapter": 64, "text": "Agreed to pay Caderousse 200 francs a month to keep him quiet." },
+      { "chapter": 76, "text": "Was invited into Eugénie's music room and sang a Corsican song." },
+      { "chapter": 81, "text": "Was accepted as Eugénie's suitor, and drew Caderousse a plan of Monte Cristo's house." },
+      { "chapter": 83, "text": "Was named by the dying Caderousse as his murderer." },
+      { "chapter": 96, "text": "Vanished just as police came to arrest him at his own contract signing." },
+      { "chapter": 98, "text": "Was arrested at Compiègne and imprisoned in the Conciergerie." },
+      { "chapter": 107, "text": "Escaped a beating from the convicts with a bandits' secret sign taught him by Caderousse." },
+      { "chapter": 110, "text": "Named the prosecutor, M. de Villefort, as his father in open court." }
+    ]
+  },
+  {
+    "id": "bartolomeo-cavalcanti",
+    "name": "Major Bartolomeo Cavalcanti",
+    "firstChapter": 54,
+    "importance": "supporting",
+    "group": "Paris society",
+    "aliases": [],
+    "tagline": [
+      { "from": 54, "text": "An Italian nobleman of ancient family whom the Count expects in Paris." },
+      { "from": 55, "text": "A shabby impostor paid to play a Lucca nobleman and Andrea's father." },
+      { "from": 76, "text": "Andrea's sham father, gone back to the gaming tables of Lucca." }
+    ],
+    "description": [
+      { "from": 54, "text": "The Count describes Major Cavalcanti as a polite, modest Italian nobleman of very ancient family whom he met in Florence, Bologna and Lucca." },
+      { "from": 55, "text": "In reality he is a man of about fifty-two in shabby, old-fashioned clothes who barely knows the story he is supposed to tell: that he is a rich noble of Lucca and former Austrian major whose son was stolen as a child. He is paid 50,000 francs to play the father, cares mainly about the money, and agrees with Andrea to play the game to the end without asking who is behind it." },
+      { "from": 62, "text": "Dressed in a major's uniform covered with medals, he looks every inch the old soldier and wisely says little at the Count's dinner. He turns his banknotes into a large diamond ring, and Danglars, dazzled, opens an account for him and his son." },
+      { "from": 76, "text": "His part played, he leaves Paris and goes back to gambling at the baths of Lucca, leaving Andrea the family papers. Letters in his name later approve Andrea's marriage, and a representative signs the contract for him." }
+    ],
+    "moments": [
+      { "chapter": 55, "text": "Received 8,000 francs on account and was told his ‘lost son’ Andrea was waiting in the next room." },
+      { "chapter": 56, "text": "Admitted to Andrea that he was paid to play his father." },
+      { "chapter": 63, "text": "Innocently asked at dinner what is done to child-murderers in France." },
+      { "chapter": 66, "text": "Cashed a 40,000-franc bond with Danglars and opened a monthly allowance for his son." }
+    ]
+  },
+  {
+    "id": "assunta",
+    "name": "Assunta",
+    "firstChapter": 44,
+    "importance": "minor",
+    "group": "The Count's household",
+    "aliases": [],
+    "tagline": [
+      { "from": 44, "text": "Bertuccio's kind, widowed sister-in-law, who raised the foundling Benedetto." }
+    ],
+    "description": [
+      { "from": 44, "text": "Assunta is Bertuccio's widowed sister-in-law in Rogliano, Corsica. A kind woman, she secretly reclaimed the baby Bertuccio had left at the foundling hospital, named him Benedetto, raised him as her own and spoiled him." },
+      { "from": 45, "text": "Benedetto and two companions held her over the fire to make her give up her money. She was found terribly burned and died." }
+    ],
+    "moments": [
+      { "chapter": 45, "text": "Died after being burned by Benedetto and his friends." }
+    ]
+  },
+  {
+    "id": "bertuccio",
+    "name": "Bertuccio",
+    "firstChapter": 35,
+    "importance": "supporting",
+    "group": "The Count's household",
+    "aliases": [
+      { "name": "Giovanni Bertuccio", "from": 44, "note": "his full name" }
+    ],
+    "tagline": [
+      { "from": 35, "text": "The Count of Monte Cristo's steward." },
+      { "from": 43, "text": "The Count's Corsican steward, haunted by a vendetta killing at Auteuil." },
+      { "from": 62, "text": "The steward who recognizes three figures from his past at Auteuil." },
+      { "from": 107, "text": "The Count's steward and Benedetto's foster-father." }
+    ],
+    "description": [
+      { "from": 35, "text": "Bertuccio is the Count's steward, a man of forty-five to fifty. He looks exactly like the smuggler who led Franz into the cave on Monte Cristo, but shows no sign of recognizing him." },
+      { "from": 40, "text": "A Corsican, he has been a soldier and a smuggler and has perhaps been in trouble with the police over ‘a stab with a knife’. He is fiercely efficient, but goes pale at the name Auteuil and tries to talk his master out of buying a house there." },
+      { "from": 43, "text": "He confessed to the Abbé Busoni in prison at Nîmes and was recommended to the Count by him. In the garden at Auteuil he breaks down and admits that he took a vendetta there: his victim was Villefort, who had just buried a child." },
+      { "from": 44, "text": "A smuggler from Rogliano raised by his older brother, he swore vengeance when Villefort refused to pursue his brother's murderer. He stabbed Villefort in the Auteuil garden and saved the newborn Villefort was burying. His sister-in-law Assunta raised the boy, Benedetto, who grew up wicked. Later he witnessed Caderousse's sale of the diamond at the inn near Beaucaire." },
+      { "from": 45, "text": "Wrongly arrested for the murders at the inn, he was saved by the Abbé Busoni. Returning to Corsica, he found that Benedetto had tortured Assunta and fled. He sees his misfortunes as punishment, and calls the Villeforts ‘an accursed race’." },
+      { "from": 62, "text": "He transforms the Auteuil house, leaving only the red room untouched. At the dinner he recognizes Madame Danglars as the woman of the garden, Villefort as the man he thought he had killed, and Andrea Cavalcanti as Benedetto. The Count then has him follow Madame Danglars before sending him to Normandy to prepare a house, a boat and relays of horses." },
+      { "from": 85, "text": "The Count says Bertuccio is alone in the world and that he holds his life in his hands. He turns pale whenever Benedetto is mentioned." },
+      { "from": 107, "text": "He recognized Benedetto long ago on the Champs-Élysées. He visits him in prison, warns him he has fallen into terrible hands, forbids him to claim the Count as his father, and promises to tell him his real father's name." }
+    ],
+    "moments": [
+      { "chapter": 43, "text": "Broke down in the Auteuil garden and admitted to a killing there." },
+      { "chapter": 44, "text": "Stabbed Villefort and revived the newborn child buried in a box." },
+      { "chapter": 45, "text": "Was arrested, covered in La Carconte's blood, for the murder of the jeweller." },
+      { "chapter": 46, "text": "Bought Danglars' horses for the Count for 32,000 francs." },
+      { "chapter": 62, "text": "Recognized Madame Danglars, Villefort and Andrea (Benedetto) at the Auteuil dinner." },
+      { "chapter": 107, "text": "Visited Benedetto in prison and promised to tell him his father's name." }
+    ]
+  },
+  {
+    "id": "israel-bertuccio",
+    "name": "Israel Bertuccio",
+    "firstChapter": 44,
+    "importance": "minor",
+    "group": "The Count's household",
+    "aliases": [],
+    "tagline": [
+      { "from": 44, "text": "Bertuccio's elder brother, murdered in Nîmes in 1815." }
+    ],
+    "description": [
+      { "from": 44, "text": "Bertuccio's older brother, who raised him, was a lieutenant in a Corsican regiment of Napoleon's army. He was murdered in Nîmes in 1815 during the royalist massacres, and Villefort's refusal to seek justice set off Bertuccio's vendetta." }
+    ],
+    "moments": []
+  },
+  {
+    "id": "gaspard-caderousse",
+    "name": "Caderousse",
+    "firstChapter": 2,
+    "importance": "major",
+    "group": "Marseille, 1815",
+    "aliases": [
+      { "name": "Gaspard Caderousse", "from": 26, "note": "his full name" },
+      { "name": "M. Pailletin", "from": 81, "note": "the name he lives under in Paris as a ‘retired baker’" }
+    ],
+    "tagline": [
+      { "from": 2, "text": "Envious tailor, neighbour of the Dantès family in Marseille." },
+      { "from": 4, "text": "Drunken witness to the plot against Dantès, too fearful to speak up." },
+      { "from": 26, "text": "Poor innkeeper near Beaucaire, rewarded by the abbé with a diamond." },
+      { "from": 45, "text": "Murderer of the jeweller Joannes, sent to the galleys for life." },
+      { "from": 64, "text": "Escaped convict blackmailing Andrea Cavalcanti, whom he knew as Benedetto." },
+      { "from": 83, "text": "Murdered by Benedetto; died repentant after learning the Count's true name." }
+    ],
+    "description": [
+      { "from": 2, "text": "Caderousse is old Dantès' neighbour, a bearded tailor of about twenty-five. Friendly on the surface, he is envious and greedy underneath and resents Edmond's good fortune, and he runs straight to Danglars with news of Mercédès' Catalan ‘cousin’." },
+      { "from": 4, "text": "At La Réserve he drinks heavily and taunts Fernand. Drunk but not blind, he protests that Dantès is his friend and calls the denunciation an infamous shame, but he is easily steered by Danglars." },
+      { "from": 5, "text": "Sober, he remembers the letter and wants to tell the truth, but fear of being called an accomplice wins out. Unable either to act or to forget, he tries to drown his guilt in brandy." },
+      { "from": 25, "text": "Years later he has fallen on hard times and keeps a poor inn on the road between Bellegarde and Beaucaire with his sickly wife, La Carconte. Vain, envious and loud about his own honesty, he seems truly sorry about Dantès, but the sight of a diamond loosens his tongue." },
+      { "from": 27, "text": "He admits he was present, drunk, when the denunciation was written, and says remorse haunts him. He tells the abbé the whole story of the betrayal and how Danglars and Fernand rose, and receives the diamond as his reward." },
+      { "from": 44, "text": "He sells the diamond to a jeweller for 45,000 francs. Egged on by his wife, he stabs the jeweller to death in the night and flees with the money and the diamond. Caught abroad, he confesses and is sent to the galleys for life." },
+      { "from": 64, "text": "Now a ragged, wolfish figure, he has slipped away from the prison at Toulon and is hiding in Paris. He knows Andrea Cavalcanti's real name, Benedetto, and his past, and means to live off him." },
+      { "from": 81, "text": "Living on the Rue Ménilmontant as a ‘retired baker’ on Andrea's money, he turns out to be Andrea's old galley comrade, with whom he escaped from Toulon. Greedy and resentful, he extorts more, takes Andrea's diamond, and studies a plan of the Count's house." },
+      { "from": 82, "text": "He breaks into the Count's house and is caught by the Abbé Busoni, to whom he insists La Carconte was the jeweller's real murderer. When the abbé threatens to expose him, he tries to stab him. Climbing back over the wall, he is stabbed three times by an accomplice." },
+      { "from": 83, "text": "Dying, he names Benedetto as his murderer and signs a deposition. He denies God until the Count whispers his real name, Edmond Dantès; then he begs God's pardon and dies." },
+      { "from": 96, "text": "His missing waistcoat turns up with a bloodstained letter to Danglars in the pocket, and his dying accusation becomes the key evidence against Benedetto." }
+    ],
+    "moments": [
+      { "chapter": 2, "text": "Reported to Danglars about Mercédès' Catalan ‘cousin’." },
+      { "chapter": 5, "text": "Agreed to ‘wait and see’ rather than speak up for Dantès." },
+      { "chapter": 26, "text": "Told the abbé that old Dantès died of starvation." },
+      { "chapter": 27, "text": "Told the abbé who had denounced Dantès and received the diamond." },
+      { "chapter": 45, "text": "Murdered the jeweller Joannes and ran off with the diamond and money." },
+      { "chapter": 64, "text": "Ambushed Andrea outside the Count's house and called him ‘Benedetto’." },
+      { "chapter": 81, "text": "Extorted more money from Andrea and studied the plan of the Count's house." },
+      { "chapter": 82, "text": "Was stabbed three times as he climbed down from the Count's wall." },
+      { "chapter": 83, "text": "Named Benedetto as his murderer and died repenting." }
+    ]
+  },
+  {
+    "id": "carconte",
+    "name": "La Carconte",
+    "firstChapter": 26,
+    "importance": "minor",
+    "group": "Marseille, 1815",
+    "aliases": [
+      { "name": "Madeleine Radelle", "from": 26, "note": "her real name" }
+    ],
+    "tagline": [
+      { "from": 26, "text": "Caderousse's bitter, fever-wasted wife." },
+      { "from": 45, "text": "Caderousse's wife, who plotted the jeweller's murder and was shot dead." }
+    ],
+    "description": [
+      { "from": 26, "text": "La Carconte is Caderousse's wife, born near Arles and once beautiful, now wasted by fever. Bitter and suspicious, she urges her husband to keep quiet because Fernand and Danglars are powerful enough to crush them, and doubts that the abbé's diamond is real." },
+      { "from": 44, "text": "Greedy as well as feverish, she pushes Caderousse to sell the diamond, then plans the murder of the jeweller. She is shot dead on the stairs in the struggle; Caderousse later insists she was the real killer." }
+    ],
+    "moments": [
+      { "chapter": 45, "text": "Was killed by the jeweller's pistol shot." }
+    ]
+  },
+  {
+    "id": "joannes",
+    "name": "Joannes",
+    "firstChapter": 44,
+    "importance": "minor",
+    "group": "Marseille, 1815",
+    "aliases": [
+      { "name": "Johannes", "from": 82, "note": "spelling used when the abbé recalls the murder" }
+    ],
+    "tagline": [
+      { "from": 44, "text": "Paris jeweller who buys Caderousse's diamond." },
+      { "from": 45, "text": "The jeweller murdered at Caderousse's inn." }
+    ],
+    "description": [
+      { "from": 44, "text": "Joannes is a jeweller from the Palais Royal in Paris who bargains Caderousse's diamond down to 45,000 francs. Armed with pistols, he returns to the inn to shelter from a storm." },
+      { "from": 45, "text": "He is murdered in his bed at the inn, after fighting back with his pistols." }
+    ],
+    "moments": [
+      { "chapter": 45, "text": "Was stabbed to death at Caderousse's inn." }
+    ]
+  },
+  {
+    "id": "abbe-adelmonte",
+    "name": "Abbé Adelmonte",
+    "firstChapter": 52,
+    "importance": "minor",
+    "group": "History & legend",
+    "aliases": [],
+    "tagline": [
+      { "from": 52, "text": "A Sicilian ‘terrible chemist’ the Count claims as a friend." }
+    ],
+    "description": [
+      { "from": 52, "text": "The Abbé Adelmonte of Taormina is a Sicilian chemist the Count tells Madame de Villefort about. He supposedly showed how poison passed along a chain of animals could kill without trace, leaving only signs of apoplexy, and is said to have made the Count's elixir." }
+    ],
+    "moments": []
+  }
+]
