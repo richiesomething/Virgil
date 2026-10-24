@@ -2,260 +2,884 @@
   {
     "chapter": 1,
     "characters": [
-      { "id": "edmond-dantes", "nameHere": "Edmond Dantès", "learned": "A tall, dark-haired sailor of about nineteen, mate of the Pharaon, skilled, calm and loved by the crew. He is devoted to his poor father and engaged to Mercédès. He once quarrelled with Danglars and proposed settling it on the island of Monte Cristo.", "moment": "Brought the Pharaon home after Captain Leclere's death and was promised the captaincy by Morrel." },
-      { "id": "pierre-morrel", "nameHere": "M. Morrel", "learned": "Owner of the shipping firm Morrel & Son: kind, fair and fond of Dantès. He seems to have quiet sympathy for Napoleon, whose old regiment included his uncle Policar.", "moment": "Told Dantès he intends to make him captain of the Pharaon." },
-      { "id": "danglars", "nameHere": "Danglars", "learned": "The Pharaon's supercargo, about twenty-six: obsequious to superiors, insolent to inferiors, and disliked by the crew. He hates Dantès and has spied on him, overhearing the captain give him a packet and a letter.", "moment": "Tried to turn Morrel against Dantès over the stop at Elba." },
-      { "id": "captain-leclere", "nameHere": "Captain Leclere", "learned": "The Pharaon's late captain, a brave old seaman who died of brain fever after leaving Naples. Before dying he asked Dantès to deliver a packet on Elba." },
-      { "id": "marshal-bertrand", "nameHere": "Marshal Bertrand", "learned": "Napoleon's grand-marshal on Elba, to whom Dantès delivered Captain Leclere's packet." },
-      { "id": "napoleon", "nameHere": "the emperor", "learned": "Exiled on the island of Elba. He chatted with Dantès there and remembered Morrel's uncle; Morrel warns that contact with him could be dangerous." },
-      { "id": "louis-dantes", "nameHere": "Dantès’ father", "learned": "Edmond's poor, proud old father, whom Edmond insists on visiting before anyone else." },
-      { "id": "mercedes", "nameHere": "Mercédès", "learned": "Dantès' fiancée from the Catalan village near Marseilles; she has asked Morrel three times for news of the ship." }
+      {
+        "id": "edmond-dantes",
+        "nameHere": "Edmond Dantès",
+        "learned": "A tall, dark-haired sailor of about nineteen, mate of the Pharaon, skilled, calm and loved by the crew. He is devoted to his poor father and engaged to Mercédès. He once quarrelled with Danglars and proposed settling it on the island of Monte Cristo.",
+        "moment": "Brought the Pharaon home after Captain Leclere's death and was promised the captaincy by Morrel."
+      },
+      {
+        "id": "pierre-morrel",
+        "nameHere": "M. Morrel",
+        "learned": "Owner of the shipping firm Morrel & Son: kind, fair and fond of Dantès. He seems to have quiet sympathy for Napoleon, whose old regiment included his uncle Policar.",
+        "moment": "Told Dantès he intends to make him captain of the Pharaon."
+      },
+      {
+        "id": "danglars",
+        "nameHere": "Danglars",
+        "learned": "The Pharaon's supercargo, about twenty-six: obsequious to superiors, insolent to inferiors, and disliked by the crew. He hates Dantès and has spied on him, overhearing the captain give him a packet and a letter.",
+        "moment": "Tried to turn Morrel against Dantès over the stop at Elba."
+      },
+      {
+        "id": "captain-leclere",
+        "nameHere": "Captain Leclere",
+        "learned": "The Pharaon's late captain, a brave old seaman who died of brain fever after leaving Naples. Before dying he asked Dantès to deliver a packet on Elba."
+      },
+      {
+        "id": "marshal-bertrand",
+        "nameHere": "Marshal Bertrand",
+        "learned": "Napoleon's grand-marshal on Elba, to whom Dantès delivered Captain Leclere's packet."
+      },
+      {
+        "id": "napoleon",
+        "nameHere": "the emperor",
+        "learned": "Exiled on the island of Elba. He chatted with Dantès there and remembered Morrel's uncle; Morrel warns that contact with him could be dangerous."
+      },
+      {
+        "id": "louis-dantes",
+        "nameHere": "Dantès’ father",
+        "learned": "Edmond's poor, proud old father, whom Edmond insists on visiting before anyone else."
+      },
+      {
+        "id": "mercedes",
+        "nameHere": "Mercédès",
+        "learned": "Dantès' fiancée from the Catalan village near Marseilles; she has asked Morrel three times for news of the ship."
+      }
     ]
   },
   {
     "chapter": 2,
     "characters": [
-      { "id": "louis-dantes", "nameHere": "old Dantès", "learned": "A frail, proud old man who loves flowers and his son. He paid off Edmond's debt to Caderousse and nearly starved for three months rather than ask anyone for help.", "moment": "Was found by Edmond with empty cupboards, having lived on sixty francs for three months." },
-      { "id": "edmond-dantes", "nameHere": "Edmond", "learned": "He is deeply devoted to his father and is horrified by his poverty. He is civil but cool towards Caderousse, whom he does not trust.", "moment": "Emptied his pockets for his father and promised him a house with a garden." },
-      { "id": "gaspard-caderousse", "nameHere": "Caderousse", "learned": "The Dantès' neighbour, a bearded tailor of about twenty-five. He is envious and greedy behind his friendly manner, and he resents Edmond's rise.", "moment": "Went straight from the Dantès home to report to Danglars and told him about Mercédès' Catalan 'cousin'." },
-      { "id": "danglars", "nameHere": "Danglars", "learned": "He is working to gather allies against Dantès, hinting that they could make him 'less than he is'." },
-      { "id": "mercedes", "nameHere": "Mercédès", "learned": "A beautiful seventeen-year-old Catalan with many admirers; Caderousse has seen her often accompanied by a tall young cousin." },
-      { "id": "fernand-mondego", "nameHere": "a tall Catalan ‘cousin’", "learned": "Caderousse describes a strapping, fierce-looking young Catalan of about twenty-one who escorts Mercédès and seems to be courting her." },
-      { "id": "pierre-morrel", "nameHere": "M. Morrel", "learned": "Mentioned as Dantès' kind patron, whose dinner invitation Edmond refused in order to see his father." }
+      {
+        "id": "louis-dantes",
+        "nameHere": "old Dantès",
+        "learned": "A frail, proud old man who loves flowers and his son. He paid off Edmond's debt to Caderousse and nearly starved for three months rather than ask anyone for help.",
+        "moment": "Was found by Edmond with empty cupboards, having lived on sixty francs for three months."
+      },
+      {
+        "id": "edmond-dantes",
+        "nameHere": "Edmond",
+        "learned": "He is deeply devoted to his father and is horrified by his poverty. He is civil but cool towards Caderousse, whom he does not trust.",
+        "moment": "Emptied his pockets for his father and promised him a house with a garden."
+      },
+      {
+        "id": "gaspard-caderousse",
+        "nameHere": "Caderousse",
+        "learned": "The Dantès' neighbour, a bearded tailor of about twenty-five. He is envious and greedy behind his friendly manner, and he resents Edmond's rise.",
+        "moment": "Went straight from the Dantès home to report to Danglars and told him about Mercédès' Catalan 'cousin'."
+      },
+      {
+        "id": "danglars",
+        "nameHere": "Danglars",
+        "learned": "He is working to gather allies against Dantès, hinting that they could make him 'less than he is'."
+      },
+      {
+        "id": "mercedes",
+        "nameHere": "Mercédès",
+        "learned": "A beautiful seventeen-year-old Catalan with many admirers; Caderousse has seen her often accompanied by a tall young cousin."
+      },
+      {
+        "id": "fernand-mondego",
+        "nameHere": "a tall Catalan ‘cousin’",
+        "learned": "Caderousse describes a strapping, fierce-looking young Catalan of about twenty-one who escorts Mercédès and seems to be courting her."
+      },
+      {
+        "id": "pierre-morrel",
+        "nameHere": "M. Morrel",
+        "learned": "Mentioned as Dantès' kind patron, whose dinner invitation Edmond refused in order to see his father."
+      }
     ]
   },
   {
     "chapter": 3,
     "characters": [
-      { "id": "mercedes", "nameHere": "Mercédès", "learned": "A poor orphan living on charity in the Catalan village. She is honest and strong-willed, loves Fernand only as a brother, and has sworn that if Edmond dies, she will die too.", "moment": "Forced Fernand to shake Edmond's hand by sheer force of will." },
-      { "id": "fernand-mondego", "nameHere": "Fernand", "learned": "Mercédès' cousin, a Catalan fisherman of about twenty-one who has loved her for ten years and is liable to be called up as a soldier. He is jealous and quick to reach for his knife, but he is held back by her threat.", "moment": "Fled Mercédès' house in despair and was drawn into drinking with Danglars and Caderousse." },
-      { "id": "edmond-dantes", "nameHere": "Edmond", "learned": "He notices Fernand's hostility at once but offers him his hand. He plans the wedding for the next day or the day after, then a trip to Paris for Captain Leclere's 'sacred' commission.", "moment": "Invited Danglars, Caderousse and Fernand to his wedding feast." },
-      { "id": "danglars", "nameHere": "Danglars", "learned": "He stays sober while the others drink, studies Fernand's pain, and realises Dantès' trip to Paris must concern the letter from Elba.", "moment": "Muttered that the letter gave him 'a capital idea'." },
-      { "id": "gaspard-caderousse", "nameHere": "Caderousse", "learned": "He drinks heavily and taunts Fernand as a rejected lover. His jealousy of Dantès shows more and more as he gets drunk." }
+      {
+        "id": "mercedes",
+        "nameHere": "Mercédès",
+        "learned": "A poor orphan living on charity in the Catalan village. She is honest and strong-willed, loves Fernand only as a brother, and has sworn that if Edmond dies, she will die too.",
+        "moment": "Forced Fernand to shake Edmond's hand by sheer force of will."
+      },
+      {
+        "id": "fernand-mondego",
+        "nameHere": "Fernand",
+        "learned": "Mercédès' cousin, a Catalan fisherman of about twenty-one who has loved her for ten years and is liable to be called up as a soldier. He is jealous and quick to reach for his knife, but he is held back by her threat.",
+        "moment": "Fled Mercédès' house in despair and was drawn into drinking with Danglars and Caderousse."
+      },
+      {
+        "id": "edmond-dantes",
+        "nameHere": "Edmond",
+        "learned": "He notices Fernand's hostility at once but offers him his hand. He plans the wedding for the next day or the day after, then a trip to Paris for Captain Leclere's 'sacred' commission.",
+        "moment": "Invited Danglars, Caderousse and Fernand to his wedding feast."
+      },
+      {
+        "id": "danglars",
+        "nameHere": "Danglars",
+        "learned": "He stays sober while the others drink, studies Fernand's pain, and realises Dantès' trip to Paris must concern the letter from Elba.",
+        "moment": "Muttered that the letter gave him 'a capital idea'."
+      },
+      {
+        "id": "gaspard-caderousse",
+        "nameHere": "Caderousse",
+        "learned": "He drinks heavily and taunts Fernand as a rejected lover. His jealousy of Dantès shows more and more as he gets drunk."
+      }
     ]
   },
   {
     "chapter": 4,
     "characters": [
-      { "id": "danglars", "nameHere": "Danglars", "learned": "He is a cunning schemer who uses others to do his dirty work. He suggests prison as a way to part the lovers and makes sure nothing can be traced back to him.", "moment": "Wrote, with his left hand, an anonymous letter denouncing Dantès as a Bonapartist agent, then tossed it aside as a 'joke'." },
-      { "id": "fernand-mondego", "nameHere": "Fernand", "learned": "He openly admits he hates Dantès and will do anything short of killing him, because of Mercédès' threat.", "moment": "Secretly picked up the crumpled denunciation and hurried off towards Marseilles with it." },
-      { "id": "gaspard-caderousse", "nameHere": "Caderousse", "learned": "Drunk but not entirely blind, he keeps protesting that Dantès is his friend and calls the letter an infamous shame. He is easily steered by Danglars." },
-      { "id": "edmond-dantes", "nameHere": "Dantès", "learned": "The letter falsely accuses him of carrying messages between Murat, Napoleon and a Bonapartist committee in Paris." },
-      { "id": "mercedes", "nameHere": "Mercédès", "learned": "Her threat to die if Edmond is harmed is what keeps Fernand from murder." }
+      {
+        "id": "danglars",
+        "nameHere": "Danglars",
+        "learned": "He is a cunning schemer who uses others to do his dirty work. He suggests prison as a way to part the lovers and makes sure nothing can be traced back to him.",
+        "moment": "Wrote, with his left hand, an anonymous letter denouncing Dantès as a Bonapartist agent, then tossed it aside as a 'joke'."
+      },
+      {
+        "id": "fernand-mondego",
+        "nameHere": "Fernand",
+        "learned": "He openly admits he hates Dantès and will do anything short of killing him, because of Mercédès' threat.",
+        "moment": "Secretly picked up the crumpled denunciation and hurried off towards Marseilles with it."
+      },
+      {
+        "id": "gaspard-caderousse",
+        "nameHere": "Caderousse",
+        "learned": "Drunk but not entirely blind, he keeps protesting that Dantès is his friend and calls the letter an infamous shame. He is easily steered by Danglars."
+      },
+      {
+        "id": "edmond-dantes",
+        "nameHere": "Dantès",
+        "learned": "The letter falsely accuses him of carrying messages between Murat, Napoleon and a Bonapartist committee in Paris."
+      },
+      {
+        "id": "mercedes",
+        "nameHere": "Mercédès",
+        "learned": "Her threat to die if Edmond is harmed is what keeps Fernand from murder."
+      }
     ]
   },
   {
     "chapter": 5,
     "characters": [
-      { "id": "edmond-dantes", "nameHere": "Edmond Dantès", "learned": "Thanks to Morrel, he has permission to marry Mercédès at once. He says his happiness almost frightens him.", "moment": "Was arrested at his wedding feast just before going to the town hall to be married." },
-      { "id": "mercedes", "nameHere": "Mercédès", "learned": "She is radiant at the feast and seats Fernand beside her as a brother. She is heartbroken by the arrest and insists Edmond is innocent." },
-      { "id": "louis-dantes", "nameHere": "old Dantès", "learned": "Dressed in his finest for the wedding, he pleads desperately with the officer and collapses at the news of the Bonapartist charge." },
-      { "id": "pierre-morrel", "nameHere": "M. Morrel", "learned": "He honours the wedding with his presence and rushes to help after the arrest. He believes in Dantès' innocence and goes to plead with Villefort.", "moment": "Gave Danglars temporary command of the Pharaon." },
-      { "id": "danglars", "nameHere": "Danglars", "learned": "He fakes surprise, suggests smuggling as the reason for the arrest, and blames Fernand in private. He wins Morrel's trust and is pleased with how things have turned out.", "moment": "Frightened Caderousse into keeping quiet about the letter." },
-      { "id": "gaspard-caderousse", "nameHere": "Caderousse", "learned": "Sober now, he remembers the letter and wants to tell the truth, but selfish fear of being called an accomplice wins out.", "moment": "Agreed to 'wait and see' rather than speak up for Dantès." },
-      { "id": "fernand-mondego", "nameHere": "Fernand", "learned": "Pale and tense throughout the feast, he disappears at the moment of the arrest and then returns to act as Mercédès' protector." },
-      { "id": "villefort", "nameHere": "M. de Villefort", "learned": "Mentioned as the deputy prosecutor handling the case, a fierce royalist said to be ambitious." }
+      {
+        "id": "edmond-dantes",
+        "nameHere": "Edmond Dantès",
+        "learned": "Thanks to Morrel, he has permission to marry Mercédès at once. He says his happiness almost frightens him.",
+        "moment": "Was arrested at his wedding feast just before going to the town hall to be married."
+      },
+      {
+        "id": "mercedes",
+        "nameHere": "Mercédès",
+        "learned": "She is radiant at the feast and seats Fernand beside her as a brother. She is heartbroken by the arrest and insists Edmond is innocent."
+      },
+      {
+        "id": "louis-dantes",
+        "nameHere": "old Dantès",
+        "learned": "Dressed in his finest for the wedding, he pleads desperately with the officer and collapses at the news of the Bonapartist charge."
+      },
+      {
+        "id": "pierre-morrel",
+        "nameHere": "M. Morrel",
+        "learned": "He honours the wedding with his presence and rushes to help after the arrest. He believes in Dantès' innocence and goes to plead with Villefort.",
+        "moment": "Gave Danglars temporary command of the Pharaon."
+      },
+      {
+        "id": "danglars",
+        "nameHere": "Danglars",
+        "learned": "He fakes surprise, suggests smuggling as the reason for the arrest, and blames Fernand in private. He wins Morrel's trust and is pleased with how things have turned out.",
+        "moment": "Frightened Caderousse into keeping quiet about the letter."
+      },
+      {
+        "id": "gaspard-caderousse",
+        "nameHere": "Caderousse",
+        "learned": "Sober now, he remembers the letter and wants to tell the truth, but selfish fear of being called an accomplice wins out.",
+        "moment": "Agreed to 'wait and see' rather than speak up for Dantès."
+      },
+      {
+        "id": "fernand-mondego",
+        "nameHere": "Fernand",
+        "learned": "Pale and tense throughout the feast, he disappears at the moment of the arrest and then returns to act as Mercédès' protector."
+      },
+      {
+        "id": "villefort",
+        "nameHere": "M. de Villefort",
+        "learned": "Mentioned as the deputy prosecutor handling the case, a fierce royalist said to be ambitious."
+      }
     ]
   },
   {
     "chapter": 6,
     "characters": [
-      { "id": "villefort", "nameHere": "M. de Villefort", "learned": "A young, eloquent deputy procureur du roi (king's deputy prosecutor) and a staunch royalist. He has given up his father's name and politics to advance his career, and he boasts of winning death sentences.", "moment": "Left his own betrothal feast to deal with the denunciation of Dantès." },
-      { "id": "renee-de-saint-meran", "nameHere": "Renée de Saint-Méran", "learned": "Villefort's gentle, light-haired fiancée. She is frightened by talk of executions and begs him to show mercy." },
-      { "id": "marquis-de-saint-meran", "nameHere": "the Marquis de Saint-Méran", "learned": "An old royalist nobleman, Renée's father, who toasts Louis XVIII and wants the family's political quarrels forgotten." },
-      { "id": "marquise-de-saint-meran", "nameHere": "the Marquise de Saint-Méran", "learned": "Renée's stern, fiercely royalist mother. She keeps reminding Villefort of his father's past and urges him to be merciless to conspirators." },
-      { "id": "comte-de-salvieux", "nameHere": "the Comte de Salvieux", "learned": "An old friend of the Saint-Mérans and chamberlain to the king's brother. He reports that Louis XVIII praised Villefort." },
-      { "id": "noirtier", "nameHere": "Noirtier", "learned": "Villefort's father: a former Girondin revolutionary who became a senator under Napoleon, and perhaps still a Bonapartist." },
-      { "id": "louis-xviii", "nameHere": "King Louis XVIII", "learned": "The restored king, toasted by the royalists, who reportedly approves of Villefort's marriage." },
-      { "id": "napoleon", "nameHere": "Napoleon / the usurper", "learned": "Mocked by the royalists as a ruined man on Elba, though Villefort fears his followers in Marseilles." },
-      { "id": "edmond-dantes", "nameHere": "Edmond Dantès", "learned": "Named in the anonymous letter Villefort reads aloud to the guests." }
+      {
+        "id": "villefort",
+        "nameHere": "M. de Villefort",
+        "learned": "A young, eloquent deputy procureur du roi (king's deputy prosecutor) and a staunch royalist. He has given up his father's name and politics to advance his career, and he boasts of winning death sentences.",
+        "moment": "Left his own betrothal feast to deal with the denunciation of Dantès."
+      },
+      {
+        "id": "renee-de-saint-meran",
+        "nameHere": "Renée de Saint-Méran",
+        "learned": "Villefort's gentle, light-haired fiancée. She is frightened by talk of executions and begs him to show mercy."
+      },
+      {
+        "id": "marquis-de-saint-meran",
+        "nameHere": "the Marquis de Saint-Méran",
+        "learned": "An old royalist nobleman, Renée's father, who toasts Louis XVIII and wants the family's political quarrels forgotten."
+      },
+      {
+        "id": "marquise-de-saint-meran",
+        "nameHere": "the Marquise de Saint-Méran",
+        "learned": "Renée's stern, fiercely royalist mother. She keeps reminding Villefort of his father's past and urges him to be merciless to conspirators."
+      },
+      {
+        "id": "comte-de-salvieux",
+        "nameHere": "the Comte de Salvieux",
+        "learned": "An old friend of the Saint-Mérans and chamberlain to the king's brother. He reports that Louis XVIII praised Villefort."
+      },
+      {
+        "id": "noirtier",
+        "nameHere": "Noirtier",
+        "learned": "Villefort's father: a former Girondin revolutionary who became a senator under Napoleon, and perhaps still a Bonapartist."
+      },
+      {
+        "id": "louis-xviii",
+        "nameHere": "King Louis XVIII",
+        "learned": "The restored king, toasted by the royalists, who reportedly approves of Villefort's marriage."
+      },
+      {
+        "id": "napoleon",
+        "nameHere": "Napoleon / the usurper",
+        "learned": "Mocked by the royalists as a ruined man on Elba, though Villefort fears his followers in Marseilles."
+      },
+      {
+        "id": "edmond-dantes",
+        "nameHere": "Edmond Dantès",
+        "learned": "Named in the anonymous letter Villefort reads aloud to the guests."
+      }
     ]
   },
   {
     "chapter": 7,
     "characters": [
-      { "id": "villefort", "nameHere": "Gérard de Villefort", "learned": "He is twenty-seven, rich and ambitious, and practises his serious expression in the mirror. He sees that Dantès is innocent, but when he learns the letter is addressed to his father, he puts his career first.", "moment": "Burned the letter to Noirtier and made Dantès swear never to mention it, while secretly arranging to keep him locked up." },
-      { "id": "edmond-dantes", "nameHere": "Edmond Dantès", "learned": "Nineteen, frank and without politics: he loves his father, respects Morrel and adores Mercédès. He trusts Villefort completely and sees him as a friend.", "moment": "Told Villefort the whole truth about the letter from Elba." },
-      { "id": "noirtier", "nameHere": "M. Noirtier", "learned": "The Elba letter was addressed to him at 13 Rue Coq-Héron, Paris. Villefort fears that his link to Noirtier will ruin him if the letter comes out." },
-      { "id": "pierre-morrel", "nameHere": "M. Morrel", "learned": "He pleads for Dantès, but Villefort treats him coldly as a suspected Bonapartist." },
-      { "id": "captain-leclere", "nameHere": "Captain Leclere", "learned": "On his deathbed he gave Dantès a ring and the packet for the grand-marshal, saying it was a matter of great importance." },
-      { "id": "renee-de-saint-meran", "nameHere": "Renée", "learned": "Villefort at first thinks of pleasing her by showing mercy." },
-      { "id": "mercedes", "nameHere": "Mercédès", "learned": "Dantès says he has loved her for three years." }
+      {
+        "id": "villefort",
+        "nameHere": "Gérard de Villefort",
+        "learned": "He is twenty-seven, rich and ambitious, and practises his serious expression in the mirror. He sees that Dantès is innocent, but when he learns the letter is addressed to his father, he puts his career first.",
+        "moment": "Burned the letter to Noirtier and made Dantès swear never to mention it, while secretly arranging to keep him locked up."
+      },
+      {
+        "id": "edmond-dantes",
+        "nameHere": "Edmond Dantès",
+        "learned": "Nineteen, frank and without politics: he loves his father, respects Morrel and adores Mercédès. He trusts Villefort completely and sees him as a friend.",
+        "moment": "Told Villefort the whole truth about the letter from Elba."
+      },
+      {
+        "id": "noirtier",
+        "nameHere": "M. Noirtier",
+        "learned": "The Elba letter was addressed to him at 13 Rue Coq-Héron, Paris. Villefort fears that his link to Noirtier will ruin him if the letter comes out."
+      },
+      {
+        "id": "pierre-morrel",
+        "nameHere": "M. Morrel",
+        "learned": "He pleads for Dantès, but Villefort treats him coldly as a suspected Bonapartist."
+      },
+      {
+        "id": "captain-leclere",
+        "nameHere": "Captain Leclere",
+        "learned": "On his deathbed he gave Dantès a ring and the packet for the grand-marshal, saying it was a matter of great importance."
+      },
+      {
+        "id": "renee-de-saint-meran",
+        "nameHere": "Renée",
+        "learned": "Villefort at first thinks of pleasing her by showing mercy."
+      },
+      {
+        "id": "mercedes",
+        "nameHere": "Mercédès",
+        "learned": "Dantès says he has loved her for three years."
+      }
     ]
   },
   {
     "chapter": 8,
     "characters": [
-      { "id": "edmond-dantes", "nameHere": "Dantès", "learned": "A famous swimmer who speaks Italian and Spanish well. Betrayed and imprisoned without trial, he swings between despair and rage.", "moment": "Was imprisoned in the Château d'If and, after threatening a jailer, thrown into an underground dungeon." },
-      { "id": "mercedes", "nameHere": "Mercédès", "learned": "Hers is the only light still burning in the Catalan village as Dantès is rowed past." },
-      { "id": "villefort", "nameHere": "M. de Villefort", "learned": "Dantès still trusts his promise, until he realises where he is being taken." }
+      {
+        "id": "edmond-dantes",
+        "nameHere": "Dantès",
+        "learned": "A famous swimmer who speaks Italian and Spanish well. Betrayed and imprisoned without trial, he swings between despair and rage.",
+        "moment": "Was imprisoned in the Château d'If and, after threatening a jailer, thrown into an underground dungeon."
+      },
+      {
+        "id": "mercedes",
+        "nameHere": "Mercédès",
+        "learned": "Hers is the only light still burning in the Catalan village as Dantès is rowed past."
+      },
+      {
+        "id": "villefort",
+        "nameHere": "M. de Villefort",
+        "learned": "Dantès still trusts his promise, until he realises where he is being taken."
+      }
     ]
   },
   {
     "chapter": 9,
     "characters": [
-      { "id": "villefort", "nameHere": "Villefort", "learned": "He expects a political upheaval and hurries to Paris to win the king's gratitude for himself. He feels real remorse for the first time, but ambition wins.", "moment": "Told Mercédès coldly that Dantès was a great criminal beyond his help." },
-      { "id": "mercedes", "nameHere": "Mercédès", "learned": "Brave and dignified, she seeks out Villefort herself, then spends the night numb with grief." },
-      { "id": "marquis-de-saint-meran", "nameHere": "the marquis", "learned": "On Villefort's advice he orders his broker to sell his bonds, and he arranges a letter of introduction to the king." },
-      { "id": "marquise-de-saint-meran", "nameHere": "the marquise", "learned": "She bids Villefort farewell as he leaves for Paris." },
-      { "id": "renee-de-saint-meran", "nameHere": "Renée", "learned": "Upset by Villefort's sudden departure, she resents the prisoner for taking him away and does not plead for him again." },
-      { "id": "comte-de-salvieux", "nameHere": "M. de Salvieux", "learned": "He writes the letter that will get Villefort access to the king." },
-      { "id": "fernand-mondego", "nameHere": "Fernand", "learned": "He stays at Mercédès' side all night, kissing a hand she does not even feel." },
-      { "id": "pierre-morrel", "nameHere": "M. Morrel", "learned": "He appeals to every influential friend he has but is refused everywhere." },
-      { "id": "gaspard-caderousse", "nameHere": "Caderousse", "learned": "Unable to act or to forget, he tries to drown his guilt in brandy." },
-      { "id": "danglars", "nameHere": "Danglars", "learned": "A cold calculator who values a man's life less than a number. He alone is happy and sleeps peacefully." },
-      { "id": "louis-dantes", "nameHere": "old Dantès", "learned": "He is sick with worry for his son." },
-      { "id": "edmond-dantes", "nameHere": "Edmond", "learned": "Doomed by Villefort's choice, though no one outside knows where he is." }
+      {
+        "id": "villefort",
+        "nameHere": "Villefort",
+        "learned": "He expects a political upheaval and hurries to Paris to win the king's gratitude for himself. He feels real remorse for the first time, but ambition wins.",
+        "moment": "Told Mercédès coldly that Dantès was a great criminal beyond his help."
+      },
+      {
+        "id": "mercedes",
+        "nameHere": "Mercédès",
+        "learned": "Brave and dignified, she seeks out Villefort herself, then spends the night numb with grief."
+      },
+      {
+        "id": "marquis-de-saint-meran",
+        "nameHere": "the marquis",
+        "learned": "On Villefort's advice he orders his broker to sell his bonds, and he arranges a letter of introduction to the king."
+      },
+      {
+        "id": "marquise-de-saint-meran",
+        "nameHere": "the marquise",
+        "learned": "She bids Villefort farewell as he leaves for Paris."
+      },
+      {
+        "id": "renee-de-saint-meran",
+        "nameHere": "Renée",
+        "learned": "Upset by Villefort's sudden departure, she resents the prisoner for taking him away and does not plead for him again."
+      },
+      {
+        "id": "comte-de-salvieux",
+        "nameHere": "M. de Salvieux",
+        "learned": "He writes the letter that will get Villefort access to the king."
+      },
+      {
+        "id": "fernand-mondego",
+        "nameHere": "Fernand",
+        "learned": "He stays at Mercédès' side all night, kissing a hand she does not even feel."
+      },
+      {
+        "id": "pierre-morrel",
+        "nameHere": "M. Morrel",
+        "learned": "He appeals to every influential friend he has but is refused everywhere."
+      },
+      {
+        "id": "gaspard-caderousse",
+        "nameHere": "Caderousse",
+        "learned": "Unable to act or to forget, he tries to drown his guilt in brandy."
+      },
+      {
+        "id": "danglars",
+        "nameHere": "Danglars",
+        "learned": "A cold calculator who values a man's life less than a number. He alone is happy and sleeps peacefully."
+      },
+      {
+        "id": "louis-dantes",
+        "nameHere": "old Dantès",
+        "learned": "He is sick with worry for his son."
+      },
+      {
+        "id": "edmond-dantes",
+        "nameHere": "Edmond",
+        "learned": "Doomed by Villefort's choice, though no one outside knows where he is."
+      }
     ]
   },
   {
     "chapter": 10,
     "characters": [
-      { "id": "louis-xviii", "nameHere": "Louis XVIII", "learned": "A witty, scholarly king who annotates Horace and laughs off warnings. He knows of Villefort's father but values the son's ruthless ambition." },
-      { "id": "duc-de-blacas", "nameHere": "the Duc de Blacas", "learned": "The king's devoted and anxious adviser, who senses a Bonapartist plot and brings Villefort to the king." },
-      { "id": "dandre", "nameHere": "M. Dandré", "learned": "The minister of police, overconfident: he reports that Napoleon is bored and possibly going mad on Elba." },
-      { "id": "villefort", "nameHere": "M. de Villefort", "learned": "He gives the king a carefully edited account, hiding the letter and his father's name and painting Dantès as a turbulent Bonapartist.", "moment": "Warned Louis XVIII that Napoleon was about to leave Elba." },
-      { "id": "napoleon", "nameHere": "Bonaparte / the usurper", "learned": "Mocked at court as harmless, though Villefort reports that he is arming ships." },
-      { "id": "comte-de-salvieux", "nameHere": "M. de Salvieux", "learned": "His letter of recommendation gets Villefort his audience." },
-      { "id": "noirtier", "nameHere": "Noirtier", "learned": "The king knows him as Villefort's father, 'Noirtier the Girondin, Noirtier the senator'." },
-      { "id": "edmond-dantes", "nameHere": "a sailor of Marseilles", "learned": "Described by Villefort to the king, falsely, as a turbulent Bonapartist he had long watched." }
+      {
+        "id": "louis-xviii",
+        "nameHere": "Louis XVIII",
+        "learned": "A witty, scholarly king who annotates Horace and laughs off warnings. He knows of Villefort's father but values the son's ruthless ambition."
+      },
+      {
+        "id": "duc-de-blacas",
+        "nameHere": "the Duc de Blacas",
+        "learned": "The king's devoted and anxious adviser, who senses a Bonapartist plot and brings Villefort to the king."
+      },
+      {
+        "id": "dandre",
+        "nameHere": "M. Dandré",
+        "learned": "The minister of police, overconfident: he reports that Napoleon is bored and possibly going mad on Elba."
+      },
+      {
+        "id": "villefort",
+        "nameHere": "M. de Villefort",
+        "learned": "He gives the king a carefully edited account, hiding the letter and his father's name and painting Dantès as a turbulent Bonapartist.",
+        "moment": "Warned Louis XVIII that Napoleon was about to leave Elba."
+      },
+      {
+        "id": "napoleon",
+        "nameHere": "Bonaparte / the usurper",
+        "learned": "Mocked at court as harmless, though Villefort reports that he is arming ships."
+      },
+      {
+        "id": "comte-de-salvieux",
+        "nameHere": "M. de Salvieux",
+        "learned": "His letter of recommendation gets Villefort his audience."
+      },
+      {
+        "id": "noirtier",
+        "nameHere": "Noirtier",
+        "learned": "The king knows him as Villefort's father, 'Noirtier the Girondin, Noirtier the senator'."
+      },
+      {
+        "id": "edmond-dantes",
+        "nameHere": "a sailor of Marseilles",
+        "learned": "Described by Villefort to the king, falsely, as a turbulent Bonapartist he had long watched."
+      }
     ]
   },
   {
     "chapter": 11,
     "characters": [
-      { "id": "louis-xviii", "nameHere": "Louis XVIII", "learned": "He is humiliated to learn of Napoleon's landing only by telegraph, and turns bitterly on his ministers.", "moment": "Gave Villefort his own Legion of Honour cross." },
-      { "id": "dandre", "nameHere": "the minister of police", "learned": "Disgraced by his failure, but grateful to Villefort for defending him." },
-      { "id": "duc-de-blacas", "nameHere": "M. de Blacas", "learned": "Proved right in his fears, and praised by the king for persisting." },
-      { "id": "villefort", "nameHere": "M. de Villefort", "learned": "He wins royal favour while shrewdly making a friend of the minister, partly so that no one questions Dantès. He is terrified that his father is the suspect in General Quesnel's death.", "moment": "Received an unexpected visit at his hotel from his father." },
-      { "id": "napoleon", "nameHere": "the usurper", "learned": "He left Elba on 26 February, landed near Antibes on 1 March, and is marching on Paris." },
-      { "id": "general-quesnel", "nameHere": "General Quesnel", "learned": "A general loyal to the king who vanished after visiting a Bonapartist club in the Rue Saint-Jacques and was found in the Seine. The police now believe he was murdered." },
-      { "id": "noirtier", "nameHere": "the stranger / Villefort’s father", "learned": "He matches the police description of the man who lured General Quesnel away: about fifty, dark, black whiskers, blue frock-coat, Legion of Honour rosette.", "moment": "Walked into Villefort's room calling him 'my dear Gérard'." }
+      {
+        "id": "louis-xviii",
+        "nameHere": "Louis XVIII",
+        "learned": "He is humiliated to learn of Napoleon's landing only by telegraph, and turns bitterly on his ministers.",
+        "moment": "Gave Villefort his own Legion of Honour cross."
+      },
+      {
+        "id": "dandre",
+        "nameHere": "the minister of police",
+        "learned": "Disgraced by his failure, but grateful to Villefort for defending him."
+      },
+      {
+        "id": "duc-de-blacas",
+        "nameHere": "M. de Blacas",
+        "learned": "Proved right in his fears, and praised by the king for persisting."
+      },
+      {
+        "id": "villefort",
+        "nameHere": "M. de Villefort",
+        "learned": "He wins royal favour while shrewdly making a friend of the minister, partly so that no one questions Dantès. He is terrified that his father is the suspect in General Quesnel's death.",
+        "moment": "Received an unexpected visit at his hotel from his father."
+      },
+      {
+        "id": "napoleon",
+        "nameHere": "the usurper",
+        "learned": "He left Elba on 26 February, landed near Antibes on 1 March, and is marching on Paris."
+      },
+      {
+        "id": "general-quesnel",
+        "nameHere": "General Quesnel",
+        "learned": "A general loyal to the king who vanished after visiting a Bonapartist club in the Rue Saint-Jacques and was found in the Seine. The police now believe he was murdered."
+      },
+      {
+        "id": "noirtier",
+        "nameHere": "the stranger / Villefort’s father",
+        "learned": "He matches the police description of the man who lured General Quesnel away: about fifty, dark, black whiskers, blue frock-coat, Legion of Honour rosette.",
+        "moment": "Walked into Villefort's room calling him 'my dear Gérard'."
+      }
     ]
   },
   {
     "chapter": 12,
     "characters": [
-      { "id": "noirtier", "nameHere": "M. Noirtier", "learned": "A cool, witty and fearless Bonapartist leader, vice-president of the Rue Saint-Jacques club. He is well informed and believes that in politics there are no murders, only obstacles removed. He survived being hunted during the Revolution.", "moment": "Shaved off his whiskers, put on his son's clothes and strolled past the police." },
-      { "id": "villefort", "nameHere": "Gérard de Villefort", "learned": "He tells his father he burned the Elba letter to save them both. He is torn between fear, disapproval and reluctant admiration for Noirtier.", "moment": "Destroyed his father's disguise clothes and hurried back to Marseilles." },
-      { "id": "general-quesnel", "nameHere": "General Quesnel", "learned": "According to Noirtier, he heard the club's plans, declared himself a royalist, swore an oath reluctantly, and 'lost his way' after leaving. Noirtier's words strongly suggest he was killed." },
-      { "id": "napoleon", "nameHere": "the emperor", "learned": "Noirtier predicts that he will reach Paris by around the 20th, welcomed everywhere." },
-      { "id": "louis-xviii", "nameHere": "the king", "learned": "Noirtier sends him a mocking message advising him to leave France to its 'real master'." }
+      {
+        "id": "noirtier",
+        "nameHere": "M. Noirtier",
+        "learned": "A cool, witty and fearless Bonapartist leader, vice-president of the Rue Saint-Jacques club. He is well informed and believes that in politics there are no murders, only obstacles removed. He survived being hunted during the Revolution.",
+        "moment": "Shaved off his whiskers, put on his son's clothes and strolled past the police."
+      },
+      {
+        "id": "villefort",
+        "nameHere": "Gérard de Villefort",
+        "learned": "He tells his father he burned the Elba letter to save them both. He is torn between fear, disapproval and reluctant admiration for Noirtier.",
+        "moment": "Destroyed his father's disguise clothes and hurried back to Marseilles."
+      },
+      {
+        "id": "general-quesnel",
+        "nameHere": "General Quesnel",
+        "learned": "According to Noirtier, he heard the club's plans, declared himself a royalist, swore an oath reluctantly, and 'lost his way' after leaving. Noirtier's words strongly suggest he was killed."
+      },
+      {
+        "id": "napoleon",
+        "nameHere": "the emperor",
+        "learned": "Noirtier predicts that he will reach Paris by around the 20th, welcomed everywhere."
+      },
+      {
+        "id": "louis-xviii",
+        "nameHere": "the king",
+        "learned": "Noirtier sends him a mocking message advising him to leave France to its 'real master'."
+      }
     ]
   },
   {
     "chapter": 13,
     "characters": [
-      { "id": "villefort", "nameHere": "Villefort", "learned": "He survives the change of regime through his father's protection. He deliberately buries Dantès and keeps a petition that brands him a Bonapartist. After Waterloo he becomes king's prosecutor at Toulouse.", "moment": "Married Renée de Saint-Méran after the king's second restoration." },
-      { "id": "noirtier", "nameHere": "Noirtier", "learned": "Powerful at Napoleon's court during the Hundred Days, he protects his son's position." },
-      { "id": "pierre-morrel", "nameHere": "M. Morrel", "learned": "A cautious but loyal man. He petitions repeatedly for Dantès, not knowing Villefort is deceiving him.", "moment": "Paid for old Dantès' funeral despite the danger of being seen to help a 'Bonapartist' family." },
-      { "id": "edmond-dantes", "nameHere": "Dantès", "learned": "Forgotten in his dungeon through the Hundred Days and after Waterloo." },
-      { "id": "napoleon", "nameHere": "the emperor", "learned": "He returns to power for the Hundred Days and then falls again at Waterloo." },
-      { "id": "louis-xviii", "nameHere": "Louis XVIII", "learned": "He flees, then is restored to the throne after Waterloo." },
-      { "id": "renee-de-saint-meran", "nameHere": "Mademoiselle de Saint-Méran", "learned": "Her marriage to Villefort is postponed during the Hundred Days, then takes place." },
-      { "id": "marquis-de-saint-meran", "nameHere": "M. de Saint-Méran", "learned": "He stands higher at court than ever after the restoration." },
-      { "id": "danglars", "nameHere": "Danglars", "learned": "Afraid of Dantès' revenge when Napoleon returns, he leaves the sea.", "moment": "Left for Madrid to work for a Spanish merchant and has not been heard of since." },
-      { "id": "fernand-mondego", "nameHere": "Fernand", "learned": "He broods on killing Dantès and deceiving Mercédès, then is conscripted into Napoleon's army. Mercédès' farewell gives him hope." },
-      { "id": "mercedes", "nameHere": "Mercédès", "learned": "Alone and grief-stricken, she is saved from suicide by her faith. She grows more fond of Fernand out of gratitude.", "moment": "Old Dantès died in her arms." },
-      { "id": "gaspard-caderousse", "nameHere": "Caderousse", "learned": "He is married and eight years older than Fernand, so he is called up but sent only to the frontier." },
-      { "id": "louis-dantes", "nameHere": "old Dantès", "learned": "Losing all hope at Napoleon's downfall, he dies about five months after his son's arrest." }
+      {
+        "id": "villefort",
+        "nameHere": "Villefort",
+        "learned": "He survives the change of regime through his father's protection. He deliberately buries Dantès and keeps a petition that brands him a Bonapartist. After Waterloo he becomes king's prosecutor at Toulouse.",
+        "moment": "Married Renée de Saint-Méran after the king's second restoration."
+      },
+      {
+        "id": "noirtier",
+        "nameHere": "Noirtier",
+        "learned": "Powerful at Napoleon's court during the Hundred Days, he protects his son's position."
+      },
+      {
+        "id": "pierre-morrel",
+        "nameHere": "M. Morrel",
+        "learned": "A cautious but loyal man. He petitions repeatedly for Dantès, not knowing Villefort is deceiving him.",
+        "moment": "Paid for old Dantès' funeral despite the danger of being seen to help a 'Bonapartist' family."
+      },
+      {
+        "id": "edmond-dantes",
+        "nameHere": "Dantès",
+        "learned": "Forgotten in his dungeon through the Hundred Days and after Waterloo."
+      },
+      {
+        "id": "napoleon",
+        "nameHere": "the emperor",
+        "learned": "He returns to power for the Hundred Days and then falls again at Waterloo."
+      },
+      {
+        "id": "louis-xviii",
+        "nameHere": "Louis XVIII",
+        "learned": "He flees, then is restored to the throne after Waterloo."
+      },
+      {
+        "id": "renee-de-saint-meran",
+        "nameHere": "Mademoiselle de Saint-Méran",
+        "learned": "Her marriage to Villefort is postponed during the Hundred Days, then takes place."
+      },
+      {
+        "id": "marquis-de-saint-meran",
+        "nameHere": "M. de Saint-Méran",
+        "learned": "He stands higher at court than ever after the restoration."
+      },
+      {
+        "id": "danglars",
+        "nameHere": "Danglars",
+        "learned": "Afraid of Dantès' revenge when Napoleon returns, he leaves the sea.",
+        "moment": "Left for Madrid to work for a Spanish merchant and has not been heard of since."
+      },
+      {
+        "id": "fernand-mondego",
+        "nameHere": "Fernand",
+        "learned": "He broods on killing Dantès and deceiving Mercédès, then is conscripted into Napoleon's army. Mercédès' farewell gives him hope."
+      },
+      {
+        "id": "mercedes",
+        "nameHere": "Mercédès",
+        "learned": "Alone and grief-stricken, she is saved from suicide by her faith. She grows more fond of Fernand out of gratitude.",
+        "moment": "Old Dantès died in her arms."
+      },
+      {
+        "id": "gaspard-caderousse",
+        "nameHere": "Caderousse",
+        "learned": "He is married and eight years older than Fernand, so he is called up but sent only to the frontier."
+      },
+      {
+        "id": "louis-dantes",
+        "nameHere": "old Dantès",
+        "learned": "Losing all hope at Napoleon's downfall, he dies about five months after his son's arrest."
+      }
     ]
   },
   {
     "chapter": 14,
     "characters": [
-      { "id": "edmond-dantes", "nameHere": "Dantès / number 34", "learned": "After seventeen months he is humbled and asks only for a trial. He still believes Villefort was kind to him.", "moment": "Began marking the days on his wall after the inspector's visit." },
-      { "id": "abbe-faria", "nameHere": "the Abbé Faria (No. 27)", "learned": "An Italian priest born in Rome, for twenty years secretary to Cardinal Spada, arrested at Piombino in 1811. He dreamed of a united Italy. Everyone thinks he is mad because he keeps offering a huge treasure for his freedom.", "moment": "Offered the inspector six million francs for his liberty and was laughed at." },
-      { "id": "villefort", "nameHere": "M. de Villefort", "learned": "Now at Toulouse. A note added to Dantès' file after his imprisonment calls Dantès a violent Bonapartist who took an active part in the return from Elba." }
+      {
+        "id": "edmond-dantes",
+        "nameHere": "Dantès / number 34",
+        "learned": "After seventeen months he is humbled and asks only for a trial. He still believes Villefort was kind to him.",
+        "moment": "Began marking the days on his wall after the inspector's visit."
+      },
+      {
+        "id": "abbe-faria",
+        "nameHere": "the Abbé Faria (No. 27)",
+        "learned": "An Italian priest born in Rome, for twenty years secretary to Cardinal Spada, arrested at Piombino in 1811. He dreamed of a united Italy. Everyone thinks he is mad because he keeps offering a huge treasure for his freedom.",
+        "moment": "Offered the inspector six million francs for his liberty and was laughed at."
+      },
+      {
+        "id": "villefort",
+        "nameHere": "M. de Villefort",
+        "learned": "Now at Toulouse. A note added to Dantès' file after his imprisonment calls Dantès a violent Bonapartist who took an active part in the return from Elba."
+      }
     ]
   },
   {
     "chapter": 15,
     "characters": [
-      { "id": "edmond-dantes", "nameHere": "Edmond Dantès", "learned": "Years of solitary confinement drive him from prayer to rage to a decision to starve himself. The sound of digging revives him, and he proves resourceful and determined.", "moment": "Tunnelled through his wall with a saucepan handle and made contact with another prisoner." },
-      { "id": "abbe-faria", "nameHere": "No. 27", "learned": "A cautious prisoner held since 1811 who has dug a long tunnel hoping to reach the sea and swim away. He miscalculated and reached Dantès' cell instead. He says he is alone in the world.", "moment": "Broke through the floor into Dantès' cell." },
-      { "id": "mercedes", "nameHere": "Mercédès", "learned": "Dantès wonders whether she still loves him." },
-      { "id": "louis-dantes", "nameHere": "his father", "learned": "Dantès believes his father, if still alive, has not forgotten him." },
-      { "id": "villefort", "nameHere": "Villefort", "learned": "The denunciation Villefort showed Dantès haunts him, and he now blames human enemies for his fate." }
+      {
+        "id": "edmond-dantes",
+        "nameHere": "Edmond Dantès",
+        "learned": "Years of solitary confinement drive him from prayer to rage to a decision to starve himself. The sound of digging revives him, and he proves resourceful and determined.",
+        "moment": "Tunnelled through his wall with a saucepan handle and made contact with another prisoner."
+      },
+      {
+        "id": "abbe-faria",
+        "nameHere": "No. 27",
+        "learned": "A cautious prisoner held since 1811 who has dug a long tunnel hoping to reach the sea and swim away. He miscalculated and reached Dantès' cell instead. He says he is alone in the world.",
+        "moment": "Broke through the floor into Dantès' cell."
+      },
+      {
+        "id": "mercedes",
+        "nameHere": "Mercédès",
+        "learned": "Dantès wonders whether she still loves him."
+      },
+      {
+        "id": "louis-dantes",
+        "nameHere": "his father",
+        "learned": "Dantès believes his father, if still alive, has not forgotten him."
+      },
+      {
+        "id": "villefort",
+        "nameHere": "Villefort",
+        "learned": "The denunciation Villefort showed Dantès haunts him, and he now blames human enemies for his fate."
+      }
     ]
   },
   {
     "chapter": 16,
     "characters": [
-      { "id": "abbe-faria", "nameHere": "the Abbé Faria", "learned": "A small, agile man of about sixty: a scholar, chemist and linguist who refuses to shed blood. He was imprisoned for plotting a united Italy and was betrayed by a ruler he trusted. He has made his own tools, pens, ink, lamp and linen 'paper' and written a book on Italian monarchy.", "moment": "Showed Dantès the chisel with which he dug fifty feet through rock." },
-      { "id": "edmond-dantes", "nameHere": "Dantès", "learned": "Inspired by Faria's persistence, he regains courage and is ready to dig, and even to kill a sentry, to escape." },
-      { "id": "napoleon", "nameHere": "Napoleon", "learned": "Faria is astonished to hear of his fall and of Louis XVIII's return." }
+      {
+        "id": "abbe-faria",
+        "nameHere": "the Abbé Faria",
+        "learned": "A small, agile man of about sixty: a scholar, chemist and linguist who refuses to shed blood. He was imprisoned for plotting a united Italy and was betrayed by a ruler he trusted. He has made his own tools, pens, ink, lamp and linen 'paper' and written a book on Italian monarchy.",
+        "moment": "Showed Dantès the chisel with which he dug fifty feet through rock."
+      },
+      {
+        "id": "edmond-dantes",
+        "nameHere": "Dantès",
+        "learned": "Inspired by Faria's persistence, he regains courage and is ready to dig, and even to kill a sentry, to escape."
+      },
+      {
+        "id": "napoleon",
+        "nameHere": "Napoleon",
+        "learned": "Faria is astonished to hear of his fall and of Louis XVIII's return."
+      }
     ]
   },
   {
     "chapter": 17,
     "characters": [
-      { "id": "abbe-faria", "nameHere": "the abbé", "learned": "A brilliant reasoner who solves the mystery of Dantès' arrest, a patient teacher, and a man of the world. He suffers from an inherited illness (catalepsy) that killed his father and grandfather on a third attack.", "moment": "Revealed that Villefort's father was Noirtier, then survived a second attack that left his right arm and leg paralysed." },
-      { "id": "edmond-dantes", "nameHere": "Edmond", "learned": "Now he knows who betrayed him and why. He has a prodigious memory, learns fast and becomes a cultured man. He is loyal: he refuses to escape without Faria.", "moment": "Swore a solemn oath of vengeance, and later swore never to leave Faria while he lived." },
-      { "id": "danglars", "nameHere": "Danglars", "learned": "Faria concludes that he wrote the denunciation, disguising his handwriting by writing with his left hand. Dantès also recalls inaccuracies in his accounts." },
-      { "id": "fernand-mondego", "nameHere": "Fernand", "learned": "Identified as Danglars' partner, with a motive: his love for Mercédès." },
-      { "id": "gaspard-caderousse", "nameHere": "Caderousse", "learned": "Dantès remembers that he was at the table, very drunk, when the pen and paper were there." },
-      { "id": "villefort", "nameHere": "M. de Villefort", "learned": "Faria shows that his apparent kindness was self-protection: he burned the letter and silenced Dantès to protect his father." },
-      { "id": "noirtier", "nameHere": "Noirtier", "learned": "It is revealed to Dantès that Noirtier was Villefort's father; Faria once knew him." },
-      { "id": "captain-leclere", "nameHere": "Captain Leclere", "learned": "His last conversation with Dantès was overheard by Danglars." },
-      { "id": "mercedes", "nameHere": "Mercédès", "learned": "Dantès never told her about the letter, so Fernand could not have known its details himself." },
-      { "id": "louis-dantes", "nameHere": "his father", "learned": "Dantès swears by his father and Mercédès that he is innocent." }
+      {
+        "id": "abbe-faria",
+        "nameHere": "the abbé",
+        "learned": "A brilliant reasoner who solves the mystery of Dantès' arrest, a patient teacher, and a man of the world. He suffers from an inherited illness (catalepsy) that killed his father and grandfather on a third attack.",
+        "moment": "Revealed that Villefort's father was Noirtier, then survived a second attack that left his right arm and leg paralysed."
+      },
+      {
+        "id": "edmond-dantes",
+        "nameHere": "Edmond",
+        "learned": "Now he knows who betrayed him and why. He has a prodigious memory, learns fast and becomes a cultured man. He is loyal: he refuses to escape without Faria.",
+        "moment": "Swore a solemn oath of vengeance, and later swore never to leave Faria while he lived."
+      },
+      {
+        "id": "danglars",
+        "nameHere": "Danglars",
+        "learned": "Faria concludes that he wrote the denunciation, disguising his handwriting by writing with his left hand. Dantès also recalls inaccuracies in his accounts."
+      },
+      {
+        "id": "fernand-mondego",
+        "nameHere": "Fernand",
+        "learned": "Identified as Danglars' partner, with a motive: his love for Mercédès."
+      },
+      {
+        "id": "gaspard-caderousse",
+        "nameHere": "Caderousse",
+        "learned": "Dantès remembers that he was at the table, very drunk, when the pen and paper were there."
+      },
+      {
+        "id": "villefort",
+        "nameHere": "M. de Villefort",
+        "learned": "Faria shows that his apparent kindness was self-protection: he burned the letter and silenced Dantès to protect his father."
+      },
+      {
+        "id": "noirtier",
+        "nameHere": "Noirtier",
+        "learned": "It is revealed to Dantès that Noirtier was Villefort's father; Faria once knew him."
+      },
+      {
+        "id": "captain-leclere",
+        "nameHere": "Captain Leclere",
+        "learned": "His last conversation with Dantès was overheard by Danglars."
+      },
+      {
+        "id": "mercedes",
+        "nameHere": "Mercédès",
+        "learned": "Dantès never told her about the letter, so Fernand could not have known its details himself."
+      },
+      {
+        "id": "louis-dantes",
+        "nameHere": "his father",
+        "learned": "Dantès swears by his father and Mercédès that he is innocent."
+      }
     ]
   },
   {
     "chapter": 18,
     "characters": [
-      { "id": "abbe-faria", "nameHere": "Faria", "learned": "He was not mad: the treasure is real. As secretary to the last Count of Spada he inherited the family papers. In 1807 he found Cardinal Spada's hidden letter written in invisible ink. He was arrested as he set out to find the treasure.", "moment": "Made Dantès heir to the Spada treasure and called him 'the child of my captivity'." },
-      { "id": "edmond-dantes", "nameHere": "Dantès", "learned": "At first he thinks Faria has relapsed into madness, then he is won over. He protests that he has no right to the treasure." },
-      { "id": "cardinal-spada", "nameHere": "Cardinal Cæsar Spada", "learned": "A rich Roman noble, made a cardinal in 1498 and then poisoned at dinner by Pope Alexander VI and Cæsar Borgia. He had foreseen the trap and hid his fortune in the caves of Monte Cristo for his nephew Guido." },
-      { "id": "count-of-spada", "nameHere": "the Count of Spada", "learned": "The last of the Spada family, Faria's patron. He was poor despite the family legend, and left Faria his library and the famous breviary." },
-      { "id": "cesare-borgia", "nameHere": "Cæsar Borgia", "learned": "Son of Pope Alexander VI. He and his father poisoned rich cardinals to seize their wealth, but they never found Spada's." }
+      {
+        "id": "abbe-faria",
+        "nameHere": "Faria",
+        "learned": "He was not mad: the treasure is real. As secretary to the last Count of Spada he inherited the family papers. In 1807 he found Cardinal Spada's hidden letter written in invisible ink. He was arrested as he set out to find the treasure.",
+        "moment": "Made Dantès heir to the Spada treasure and called him 'the child of my captivity'."
+      },
+      {
+        "id": "edmond-dantes",
+        "nameHere": "Dantès",
+        "learned": "At first he thinks Faria has relapsed into madness, then he is won over. He protests that he has no right to the treasure."
+      },
+      {
+        "id": "cardinal-spada",
+        "nameHere": "Cardinal Cæsar Spada",
+        "learned": "A rich Roman noble, made a cardinal in 1498 and then poisoned at dinner by Pope Alexander VI and Cæsar Borgia. He had foreseen the trap and hid his fortune in the caves of Monte Cristo for his nephew Guido."
+      },
+      {
+        "id": "count-of-spada",
+        "nameHere": "the Count of Spada",
+        "learned": "The last of the Spada family, Faria's patron. He was poor despite the family legend, and left Faria his library and the famous breviary."
+      },
+      {
+        "id": "cesare-borgia",
+        "nameHere": "Cæsar Borgia",
+        "learned": "Son of Pope Alexander VI. He and his father poisoned rich cardinals to seize their wealth, but they never found Spada's."
+      }
     ]
   },
   {
     "chapter": 19,
     "characters": [
-      { "id": "abbe-faria", "nameHere": "the Abbé Faria", "learned": "He spends his last months preparing Dantès to find the treasure, making him memorise the letter. He dies selflessly, refusing to let Dantès call for help.", "moment": "Died after his third attack, his last words: 'Monte Cristo, forget not Monte Cristo!'" },
-      { "id": "edmond-dantes", "nameHere": "Edmond", "learned": "He knows the island of Monte Cristo from his voyages. He values Faria's friendship and teaching above any treasure, though he thinks of the harm millions could do to his enemies.", "moment": "Tried to save Faria with the rest of the remedy, but failed." }
+      {
+        "id": "abbe-faria",
+        "nameHere": "the Abbé Faria",
+        "learned": "He spends his last months preparing Dantès to find the treasure, making him memorise the letter. He dies selflessly, refusing to let Dantès call for help.",
+        "moment": "Died after his third attack, his last words: 'Monte Cristo, forget not Monte Cristo!'"
+      },
+      {
+        "id": "edmond-dantes",
+        "nameHere": "Edmond",
+        "learned": "He knows the island of Monte Cristo from his voyages. He values Faria's friendship and teaching above any treasure, though he thinks of the harm millions could do to his enemies.",
+        "moment": "Tried to save Faria with the rest of the remedy, but failed."
+      }
     ]
   },
   {
     "chapter": 20,
     "characters": [
-      { "id": "edmond-dantes", "nameHere": "Dantès", "learned": "Grief briefly brings back thoughts of suicide, but he chooses life, revenge on his executioners and rewards for his friends. He is bold enough to risk anything.", "moment": "Sewed himself into Faria's burial sack and was thrown into the sea with a cannonball tied to his feet." },
-      { "id": "abbe-faria", "nameHere": "Faria", "learned": "His body is secretly placed in Dantès' bed so that Dantès can take his place. His homemade knife, needle and thread make the escape possible." }
+      {
+        "id": "edmond-dantes",
+        "nameHere": "Dantès",
+        "learned": "Grief briefly brings back thoughts of suicide, but he chooses life, revenge on his executioners and rewards for his friends. He is bold enough to risk anything.",
+        "moment": "Sewed himself into Faria's burial sack and was thrown into the sea with a cannonball tied to his feet."
+      },
+      {
+        "id": "abbe-faria",
+        "nameHere": "Faria",
+        "learned": "His body is secretly placed in Dantès' bed so that Dantès can take his place. His homemade knife, needle and thread make the escape possible."
+      }
     ]
   },
   {
     "chapter": 21,
     "characters": [
-      { "id": "edmond-dantes", "nameHere": "Dantès / ‘a Maltese sailor’", "learned": "A superb swimmer and a quick, convincing liar under pressure. Now thirty-three, he has been in prison exactly fourteen years and has lost track of the outside world.", "moment": "Escaped to the island of Tiboulen and was rescued by smugglers, then renewed his oath against Danglars, Fernand and Villefort." },
-      { "id": "jacopo", "nameHere": "Jacopo", "learned": "A frank, good-hearted sailor on the Genoese tartan who encouraged and rescued Dantès and urges that he be paid fairly.", "moment": "Pulled the drowning Dantès out of the sea by his hair." },
-      { "id": "captain-baldi", "nameHere": "the captain / the patron", "learned": "The cautious old pilot and master of the tartan, bound for Leghorn. He takes Dantès on after he proves his seamanship." },
-      { "id": "abbe-faria", "nameHere": "Faria", "learned": "Remembered for warning Dantès to keep his strength up for an escape." },
-      { "id": "mercedes", "nameHere": "Mercédès", "learned": "Dantès wonders what has become of her, since she must believe him dead." },
-      { "id": "danglars", "nameHere": "Danglars", "learned": "One of the three men Dantès swears vengeance against." },
-      { "id": "fernand-mondego", "nameHere": "Fernand", "learned": "One of the three men Dantès swears vengeance against." },
-      { "id": "villefort", "nameHere": "Villefort", "learned": "One of the three men Dantès swears vengeance against." }
+      {
+        "id": "edmond-dantes",
+        "nameHere": "Dantès / ‘a Maltese sailor’",
+        "learned": "A superb swimmer and a quick, convincing liar under pressure. Now thirty-three, he has been in prison exactly fourteen years and has lost track of the outside world.",
+        "moment": "Escaped to the island of Tiboulen and was rescued by smugglers, then renewed his oath against Danglars, Fernand and Villefort."
+      },
+      {
+        "id": "jacopo",
+        "nameHere": "Jacopo",
+        "learned": "A frank, good-hearted sailor on the Genoese tartan who encouraged and rescued Dantès and urges that he be paid fairly.",
+        "moment": "Pulled the drowning Dantès out of the sea by his hair."
+      },
+      {
+        "id": "captain-baldi",
+        "nameHere": "the captain / the patron",
+        "learned": "The cautious old pilot and master of the tartan, bound for Leghorn. He takes Dantès on after he proves his seamanship."
+      },
+      {
+        "id": "abbe-faria",
+        "nameHere": "Faria",
+        "learned": "Remembered for warning Dantès to keep his strength up for an escape."
+      },
+      {
+        "id": "mercedes",
+        "nameHere": "Mercédès",
+        "learned": "Dantès wonders what has become of her, since she must believe him dead."
+      },
+      {
+        "id": "danglars",
+        "nameHere": "Danglars",
+        "learned": "One of the three men Dantès swears vengeance against."
+      },
+      {
+        "id": "fernand-mondego",
+        "nameHere": "Fernand",
+        "learned": "One of the three men Dantès swears vengeance against."
+      },
+      {
+        "id": "villefort",
+        "nameHere": "Villefort",
+        "learned": "One of the three men Dantès swears vengeance against."
+      }
     ]
   },
   {
     "chapter": 22,
     "characters": [
-      { "id": "edmond-dantes", "nameHere": "Edmond", "learned": "Fourteen years have transformed him into a pale, stern, unrecognisable man who can see in the dark. He is patient and secretive, and his heart is hardening, though he grows attached to Jacopo.", "moment": "Was wounded in a smugglers' clash with customs officers and barely felt moved by a man's death." },
-      { "id": "jacopo", "nameHere": "Jacopo", "learned": "A Corsican sailor, devoted to Edmond. He nursed him when he was wounded and indignantly refused payment for it.", "moment": "Began learning navigation and astronomy from Dantès." },
-      { "id": "captain-baldi", "nameHere": "the patron of La Jeune Amélie", "learned": "A shrewd Genoese smuggler, well known to the coast guards, who speaks many languages. He trusts Dantès and wants to keep him in his crew.", "moment": "Proposed Monte Cristo as the meeting place for a big smuggling exchange." },
-      { "id": "abbe-faria", "nameHere": "the Abbé Faria", "learned": "Dantès teaches Jacopo as Faria once taught him, and still wonders if Faria's treasure is real." }
+      {
+        "id": "edmond-dantes",
+        "nameHere": "Edmond",
+        "learned": "Fourteen years have transformed him into a pale, stern, unrecognisable man who can see in the dark. He is patient and secretive, and his heart is hardening, though he grows attached to Jacopo.",
+        "moment": "Was wounded in a smugglers' clash with customs officers and barely felt moved by a man's death."
+      },
+      {
+        "id": "jacopo",
+        "nameHere": "Jacopo",
+        "learned": "A Corsican sailor, devoted to Edmond. He nursed him when he was wounded and indignantly refused payment for it.",
+        "moment": "Began learning navigation and astronomy from Dantès."
+      },
+      {
+        "id": "captain-baldi",
+        "nameHere": "the patron of La Jeune Amélie",
+        "learned": "A shrewd Genoese smuggler, well known to the coast guards, who speaks many languages. He trusts Dantès and wants to keep him in his crew.",
+        "moment": "Proposed Monte Cristo as the meeting place for a big smuggling exchange."
+      },
+      {
+        "id": "abbe-faria",
+        "nameHere": "the Abbé Faria",
+        "learned": "Dantès teaches Jacopo as Faria once taught him, and still wonders if Faria's treasure is real."
+      }
     ]
   },
   {
     "chapter": 23,
     "characters": [
-      { "id": "edmond-dantes", "nameHere": "the Maltese / Dantès", "learned": "He has become a natural leader whom the crew obeys. He is ready to deceive even friends to reach his goal, and is consumed by the hope of wealth.", "moment": "Faked a crippling fall so he could stay alone on Monte Cristo to search for the treasure." },
-      { "id": "jacopo", "nameHere": "Jacopo", "learned": "Loyal as ever, he offers to give up his share of the profits to stay and nurse Dantès." },
-      { "id": "captain-baldi", "nameHere": "Captain Baldi", "learned": "The old master of La Jeune Amélie, named for the first time. He sees Dantès as his natural successor and delays sailing out of concern for him." },
-      { "id": "cardinal-spada", "nameHere": "Cardinal Spada", "learned": "Dantès finds marks carved in the rocks that he guesses the cardinal made as a guide for his nephew." },
-      { "id": "abbe-faria", "nameHere": "Faria", "learned": "Dantès trusts that 'the wise, unerring Faria' cannot have been wrong about the treasure." }
+      {
+        "id": "edmond-dantes",
+        "nameHere": "the Maltese / Dantès",
+        "learned": "He has become a natural leader whom the crew obeys. He is ready to deceive even friends to reach his goal, and is consumed by the hope of wealth.",
+        "moment": "Faked a crippling fall so he could stay alone on Monte Cristo to search for the treasure."
+      },
+      {
+        "id": "jacopo",
+        "nameHere": "Jacopo",
+        "learned": "Loyal as ever, he offers to give up his share of the profits to stay and nurse Dantès."
+      },
+      {
+        "id": "captain-baldi",
+        "nameHere": "Captain Baldi",
+        "learned": "The old master of La Jeune Amélie, named for the first time. He sees Dantès as his natural successor and delays sailing out of concern for him."
+      },
+      {
+        "id": "cardinal-spada",
+        "nameHere": "Cardinal Spada",
+        "learned": "Dantès finds marks carved in the rocks that he guesses the cardinal made as a guide for his nephew."
+      },
+      {
+        "id": "abbe-faria",
+        "nameHere": "Faria",
+        "learned": "Dantès trusts that 'the wise, unerring Faria' cannot have been wrong about the treasure."
+      }
     ]
   }
 ]

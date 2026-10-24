@@ -9,7 +9,17 @@
       "She decides only Villefort can help, and plans to appeal to their old intimacy. Next morning she drives to his house, which now looks like a plague hospital: the porter suspects every visitor, and neighbours wonder aloud whether there will be another funeral today. Villefort receives her with a grief-stricken calm. She asks him to let “the impostor” escape, or at least to delay the trial. He corrects her: Andrea Cavalcanti, really Benedetto, is an assassin, a Corsican of unknown parents who was sent to the galleys (prison labour) at sixteen for forgery.",
       "Villefort guesses what she is thinking: that people say the deaths in his house were not natural. Before a crucifix he swears that whoever the culprits are, they will die. In a bitter outburst he admits he has sinned, perhaps more deeply than others, and says every criminal he condemns proves he is not the only wicked man. A despatch arrives: Benedetto has been taken at Compiègne. Madame Danglars leaves, pale, and Villefort gloats that a murder case will make a splendid session of the assizes (the criminal court)."
     ],
-    "characters": ["hermine-danglars", "lucien-debray", "eugenie-danglars", "louise-darmilly", "villefort", "benedetto", "valentine-de-villefort", "danglars", "mercedes"]
+    "characters": [
+      "hermine-danglars",
+      "lucien-debray",
+      "eugenie-danglars",
+      "louise-darmilly",
+      "villefort",
+      "andrea-cavalcanti",
+      "valentine-de-villefort",
+      "danglars",
+      "mercedes"
+    ]
   },
   {
     "number": 100,
@@ -21,7 +31,21 @@
       "At night Valentine is haunted by fevered visions. One night after eleven she sees the library door open without a sound and a man come towards her bed. When she reaches for her glass he stops her hand. He holds the glass up to the lamp, tastes a spoonful, and says in a living voice, “Now you may drink.” She recognizes the Count of Monte Cristo.",
       "The count says he has rented the next house and has watched for four sleepless nights from behind the hidden door. Whenever her drink was dangerous, he replaced the poison with a healthy draught. He is keeping her alive for Maximilian, who has told him everything. He explains that the Saint-Mérans and Barrois were poisoned. Noirtier's long medical treatment protected him, and Noirtier has been protecting Valentine too, by making her share his bitter-tasting drinks. But a much stronger dose four days ago would have killed her. The count has seen the poisoner. Instead of naming them, he tells her to pretend to sleep and watch at midnight, then slips back behind the door."
     ],
-    "characters": ["valentine-de-villefort", "edmond-dantes", "noirtier", "maximilien-morrel", "villefort", "dr-davrigny", "heloise-de-villefort", "edouard-de-villefort", "marquis-de-saint-meran", "marquise-de-saint-meran", "barrois", "eugenie-danglars", "benedetto"]
+    "characters": [
+      "valentine-de-villefort",
+      "edmond-dantes",
+      "noirtier",
+      "maximilien-morrel",
+      "villefort",
+      "dr-davrigny",
+      "heloise-de-villefort",
+      "edouard-de-villefort",
+      "marquis-de-saint-meran",
+      "marquise-de-saint-meran",
+      "barrois",
+      "eugenie-danglars",
+      "andrea-cavalcanti"
+    ]
   },
   {
     "number": 101,
@@ -33,7 +57,17 @@
       "The count returns and tastes the drink. It is no longer brucine but a strong narcotic that would have killed her. He explains why: Valentine has 200,000 livres a year. If she dies, her father inherits, and after him his only son, Edward. That is why the Saint-Mérans died, and why Noirtier was targeted once he made Valentine his heir. He reminds her of a man in a brown cloak at Perugia whom her stepmother questioned about aqua tofana, a famous poison. Valentine would rather die than denounce her stepmother, and she worries the crimes will fall on Edward. The count says her father is not involved, though he should have been the one protecting her.",
       "The count asks her to trust him blindly and to tell no one, not even her father. Whatever happens, even if she loses consciousness or wakes in a vault or a coffin, she must not be afraid. Thinking of Maximilian, she swallows a pea-sized pill from his little emerald box and falls asleep. He pours most of the poisoned drink into the fireplace so that it will look as if she drank it, and leaves."
     ],
-    "characters": ["valentine-de-villefort", "edmond-dantes", "heloise-de-villefort", "edouard-de-villefort", "noirtier", "villefort", "maximilien-morrel", "marquis-de-saint-meran", "marquise-de-saint-meran"]
+    "characters": [
+      "valentine-de-villefort",
+      "edmond-dantes",
+      "heloise-de-villefort",
+      "edouard-de-villefort",
+      "noirtier",
+      "villefort",
+      "maximilien-morrel",
+      "marquis-de-saint-meran",
+      "marquise-de-saint-meran"
+    ]
   },
   {
     "number": 102,
@@ -46,7 +80,15 @@
       "Madame de Villefort arrives and forces out a few tears. Then she sees d'Avrigny studying the glass, which is somehow a third full again with the same coloured liquid she is sure she threw away. The doctor tastes it and says it is no longer brucine. A drop of nitric acid turns it blood-red. She staggers out and faints in her room. Only d'Avrigny sees her go, and he sends the nurse to help her.",
       "Meanwhile Morrel comes to Noirtier's door as usual and finds the house empty and silent. Noirtier's terrified eyes tell him something has happened to Valentine. Morrel runs upstairs and hears d'Avrigny and Villefort say, “Dead!”"
     ],
-    "characters": ["heloise-de-villefort", "valentine-de-villefort", "dr-davrigny", "villefort", "maximilien-morrel", "noirtier", "edouard-de-villefort"]
+    "characters": [
+      "heloise-de-villefort",
+      "valentine-de-villefort",
+      "dr-davrigny",
+      "villefort",
+      "maximilien-morrel",
+      "noirtier",
+      "edouard-de-villefort"
+    ]
   },
   {
     "number": 103,
@@ -59,7 +101,16 @@
       "A quarter of an hour later Villefort comes back livid, holding the shreds of a quill pen. He begs both men to keep the secret. Within three days, he promises, his revenge will make the boldest heart tremble, and Noirtier confirms it. D'Avrigny agrees. Morrel kisses Valentine's cold lips and rushes out in despair.",
       "With the servants gone, d'Avrigny handles the formalities and brings the “doctor of the dead,” the official who certifies deaths, who confirms it. Villefort asks for the nearest priest, an Italian abbé who lives next door. The abbé already knows Valentine's name and has prayed for her. When Noirtier meets his eyes, he seems to read something there. Once he is alone, the abbé bolts the doors, including the one to Madame de Villefort's room."
     ],
-    "characters": ["villefort", "maximilien-morrel", "noirtier", "dr-davrigny", "valentine-de-villefort", "edmond-dantes", "heloise-de-villefort", "marquise-de-saint-meran"]
+    "characters": [
+      "villefort",
+      "maximilien-morrel",
+      "noirtier",
+      "dr-davrigny",
+      "valentine-de-villefort",
+      "edmond-dantes",
+      "heloise-de-villefort",
+      "marquise-de-saint-meran"
+    ]
   },
   {
     "number": 104,
@@ -71,7 +122,25 @@
       "The count has gone to see Danglars. The banker complains about the year's misfortunes: Morcerf dishonoured and dead, himself made ridiculous by Benedetto, and Eugénie gone abroad. The count flatters his vast wealth. Danglars proudly shows him five bonds of a million francs each, payable on sight at the Bank of France. The count is still owed 5,100,000 francs on his credit, so he pockets the bonds and hands over a receipt he wrote in advance. Danglars panics, because the money was meant for the charity fund, but he cannot refuse without admitting weakness.",
       "M. de Boville, now Receiver-General of the charities (the official who collects funds for the hospitals), arrives for the five million. Danglars shows him the count's receipt, drawn on Thomson & French of Rome, and asks him to come back tomorrow at noon. Boville mentions that Mercédès and Albert have given their whole fortune to the hospitals rather than keep money “so guiltily acquired.” Danglars claims Eugénie has gone to a strict convent with a nun. Once Boville leaves, Danglars calls him a fool, pockets the receipt, gathers about 50,000 francs, burns some papers, writes a letter to his wife, and checks that his passport is still valid."
     ],
-    "characters": ["edmond-dantes", "danglars", "m-de-boville", "villefort", "dr-davrigny", "noirtier", "lucien-debray", "chateau-renaud", "beauchamp", "eugenie-danglars", "mercedes", "albert-de-morcerf", "fernand-mondego", "benedetto", "valentine-de-villefort", "maximilien-morrel", "hermine-danglars"]
+    "characters": [
+      "edmond-dantes",
+      "danglars",
+      "m-de-boville",
+      "villefort",
+      "dr-davrigny",
+      "noirtier",
+      "lucien-debray",
+      "chateau-renaud",
+      "beauchamp",
+      "eugenie-danglars",
+      "mercedes",
+      "albert-de-morcerf",
+      "fernand-mondego",
+      "andrea-cavalcanti",
+      "valentine-de-villefort",
+      "maximilien-morrel",
+      "hermine-danglars"
+    ]
   },
   {
     "number": 105,
@@ -84,7 +153,21 @@
       "Morrel calls Julie and Emmanuel. The count stops him before he can say the name, but they embrace the count as their unknown benefactor, and Julie fetches the treasured silk purse. The count says he will leave France within a week.",
       "Alone with Morrel, the count urges him to hope. Morrel makes him promise that if he is not cured in a month, on 5 October, the count will give him pistols and a painless poison. It is 5 September, ten years to the day since the count saved Morrel's father. Morrel swears not to harm himself before then and agrees to live with the count. Haydée, the count says, left last night to wait for him."
     ],
-    "characters": ["edmond-dantes", "maximilien-morrel", "julie-morrel", "emmanuel-herbaut", "penelon", "chateau-renaud", "beauchamp", "lucien-debray", "valentine-de-villefort", "villefort", "renee-de-saint-meran", "pierre-morrel", "haydee"]
+    "characters": [
+      "edmond-dantes",
+      "maximilien-morrel",
+      "julie-morrel",
+      "emmanuel-herbaut",
+      "penelon",
+      "chateau-renaud",
+      "beauchamp",
+      "lucien-debray",
+      "valentine-de-villefort",
+      "villefort",
+      "renee-de-saint-meran",
+      "pierre-morrel",
+      "haydee"
+    ]
   },
   {
     "number": 106,
@@ -97,7 +180,18 @@
       "In a bare room upstairs live Mercédès and Albert, who moved here after giving up their fortune. Mercédès has lost her spark, and Albert tells her they have no money. His plan: she will go to the little house in the Allées de Meilhan in Marseilles, where 3,000 francs are buried in the garden. He has sold his watch and signed up for the Spahis (French cavalry serving in Africa) as a paid substitute for another man, for 2,000 francs, half paid now. He means to earn a name of his own. In six months he will be an officer, or dead.",
       "On the stairs they run into Debray. Albert introduces him as “once a friend” and politely refuses his help. Debray, with a million in his pocket, is shaken by the contrast between the two women. Next day Mercédès leaves by coach. From a window at Lafitte's bank, a hidden man watches and asks God how he can restore the happiness he has taken from these innocent people."
     ],
-    "characters": ["lucien-debray", "hermine-danglars", "danglars", "mercedes", "albert-de-morcerf", "edmond-dantes", "fernand-mondego", "valentine-de-villefort", "eugenie-danglars", "maximilien-morrel"]
+    "characters": [
+      "lucien-debray",
+      "hermine-danglars",
+      "danglars",
+      "mercedes",
+      "albert-de-morcerf",
+      "edmond-dantes",
+      "fernand-mondego",
+      "valentine-de-villefort",
+      "eugenie-danglars",
+      "maximilien-morrel"
+    ]
   },
   {
     "number": 107,
@@ -109,7 +203,13 @@
       "Then he is called to the visitors' room. He has stayed silent since his arrest, convinced that the powerful protector who gave him money, a noble father and a brilliant marriage will save him, and he does not want to offend that person. The visitor is Bertuccio, who greets him as “Benedetto” and “unhappy child” and arranges for them to talk in a private room.",
       "Andrea calls Bertuccio his adopted father. But he insists that someone else gave him 100,000 francs, invented an Italian father for him, and got him invited to the dinner at Auteuil, and he hints that his real father must be the Count of Monte Cristo. Bertuccio sternly forbids him to say so: the count is too favoured by Heaven to have such a son. Andrea has fallen into “terrible hands,” he warns, hands that can save him or crush him. Andrea demands to know his father, and Bertuccio says that is why he came. Just then the examining magistrate (the judge who questions suspects before trial) sends for the prisoner, and Bertuccio promises to return tomorrow."
     ],
-    "characters": ["benedetto", "bertuccio", "gaspard-caderousse", "edmond-dantes", "villefort"]
+    "characters": [
+      "andrea-cavalcanti",
+      "bertuccio",
+      "gaspard-caderousse",
+      "edmond-dantes",
+      "villefort"
+    ]
   },
   {
     "number": 108,
@@ -121,7 +221,21 @@
       "He works through the night. In the morning his wife sends him a cup of chocolate, and he swallows it in one gulp, almost hoping it is poisoned. It is not. When she asks to come to the trial, he sends word that she should wait for him in her room. There he sends Edward out and bolts the door.",
       "He asks her where she keeps the poison she uses, and accuses her of murdering M. and Madame de Saint-Méran, Barrois and Valentine. She cannot deny it. He reminds her that the scaffold awaits poisoners, but says he will not let his wife dishonour his name and his son. Surely, he says, she has kept some of her deadliest poison for herself. She begs for her life for Edward's sake. He replies that if she lived, she might one day kill the boy too. If he finds her alive when he returns, he warns, she will sleep in prison that night. He says farewell, and as she faints he double-locks the door behind him."
     ],
-    "characters": ["villefort", "heloise-de-villefort", "noirtier", "edouard-de-villefort", "edmond-dantes", "benedetto", "gaspard-caderousse", "bertuccio", "valentine-de-villefort", "marquis-de-saint-meran", "marquise-de-saint-meran", "barrois", "dr-davrigny"]
+    "characters": [
+      "villefort",
+      "heloise-de-villefort",
+      "noirtier",
+      "edouard-de-villefort",
+      "edmond-dantes",
+      "andrea-cavalcanti",
+      "gaspard-caderousse",
+      "bertuccio",
+      "valentine-de-villefort",
+      "marquis-de-saint-meran",
+      "marquise-de-saint-meran",
+      "barrois",
+      "dr-davrigny"
+    ]
   },
   {
     "number": 109,
@@ -133,7 +247,23 @@
       "Debray reports that the president of the court thinks Benedetto is just a commonplace rascal. Beauchamp spots a veiled lady he is sure is Madame Danglars, only ten days after her daughter's flight and three after her husband's bankruptcy. Debray blushes and says she is probably some foreign princess. They notice Madame de Villefort is not there. Debray likes her, while Château-Renaud dislikes her by instinct.",
       "Beauchamp repeats a story from a servant who left Villefort's house: little Edward has supposedly been poisoning anyone who displeased him, using a drug from his mother's laboratory. The others call it absurd. Debray says the count is keeping out of sight because the Cavalcantis tricked him out of 100,000 francs. Beauchamp points out that the count is involved anyway: Caderousse was killed as he left the count's house, and the bloodstained waistcoat holding the letter that stopped the marriage contract lies on the evidence table. Château-Renaud has called on Morrel three times without seeing him. Then the court enters."
     ],
-    "characters": ["beauchamp", "lucien-debray", "chateau-renaud", "hermine-danglars", "heloise-de-villefort", "edouard-de-villefort", "benedetto", "villefort", "edmond-dantes", "bartolomeo-cavalcanti", "gaspard-caderousse", "maximilien-morrel", "julie-morrel", "eugenie-danglars", "valentine-de-villefort"]
+    "characters": [
+      "beauchamp",
+      "lucien-debray",
+      "chateau-renaud",
+      "hermine-danglars",
+      "heloise-de-villefort",
+      "edouard-de-villefort",
+      "andrea-cavalcanti",
+      "villefort",
+      "edmond-dantes",
+      "bartolomeo-cavalcanti",
+      "gaspard-caderousse",
+      "maximilien-morrel",
+      "julie-morrel",
+      "eugenie-danglars",
+      "valentine-de-villefort"
+    ]
   },
   {
     "number": 110,
@@ -145,7 +275,18 @@
       "He cannot give his own name, he says, but he can give his father's: the king's attorney, Villefort. The court erupts. He explains that he was born at No. 28 Rue de la Fontaine in a room hung with red damask. His father told his mother the baby was dead, wrapped him in a napkin marked with an H and an N, and buried him alive in the garden. A man with a vendetta against his father stabbed him, dug up the box and took the living baby to the foundling hospital. Later a woman from Rogliano in Corsica claimed him. The reader knows these two from Bertuccio's own story: Bertuccio and his sister-in-law Assunta. His adopted father once told him the crime was his father's, not his.",
       "Asked about his mother, Benedetto says she thought him dead and is innocent. A veiled lady in the crowd shrieks and is carried out; her veil falls, and it is Madame Danglars. When the president demands proof, Benedetto says, “Look at M. de Villefort.” Villefort staggers forward, says no proof is needed, admits that everything is true and that he is “in the hands of an avenging God,” and leaves, placing himself under the authority of whoever succeeds him. The case is adjourned, and Benedetto leaves calm and more fascinating than ever."
     ],
-    "characters": ["benedetto", "villefort", "hermine-danglars", "bertuccio", "assunta", "beauchamp", "chateau-renaud", "lucien-debray", "valentine-de-villefort", "fernand-mondego"]
+    "characters": [
+      "andrea-cavalcanti",
+      "villefort",
+      "hermine-danglars",
+      "bertuccio",
+      "assunta",
+      "beauchamp",
+      "chateau-renaud",
+      "lucien-debray",
+      "valentine-de-villefort",
+      "fernand-mondego"
+    ]
   },
   {
     "number": 111,
@@ -158,7 +299,20 @@
       "Shattered, Villefort goes down to his father and finds the Abbé Busoni there. The abbé says Villefort has paid his debt and that he will pray for him. Then he pulls off his wig, and Villefort sees the Count of Monte Cristo. The count tells him to go back further, to his wedding day in Marseilles twenty-three years ago: “I am Edmond Dantès!” Villefort drags him upstairs to the bodies and cries, “Are you well avenged?”",
       "The count turns pale, feeling that he has gone beyond the bounds of vengeance. He carries Edward into Valentine's old room and tries for a quarter of an hour to revive him, but no skill can do it. He lays the boy beside his mother. Outside, Villefort is digging wildly in the garden, crying that he will find the child: he has gone mad. Doubting for the first time whether he had the right to do what he did, the count resolves to “save the last.” He leaves Paris with Morrel the next day. Haydée has gone ahead with Ali, and Bertuccio stays behind with Noirtier."
     ],
-    "characters": ["villefort", "heloise-de-villefort", "edouard-de-villefort", "edmond-dantes", "noirtier", "maximilien-morrel", "baptistin", "haydee", "ali", "bertuccio", "valentine-de-villefort", "renee-de-saint-meran"]
+    "characters": [
+      "villefort",
+      "heloise-de-villefort",
+      "edouard-de-villefort",
+      "edmond-dantes",
+      "noirtier",
+      "maximilien-morrel",
+      "baptistin",
+      "haydee",
+      "ali",
+      "bertuccio",
+      "valentine-de-villefort",
+      "renee-de-saint-meran"
+    ]
   },
   {
     "number": 112,
@@ -170,7 +324,20 @@
       "From the hill of Villejuif the count looks back over Paris and declares his mission complete. He says he leaves without pride or hatred, though with many regrets. They travel swiftly by carriage and steamboat to Marseilles. On the quay where Morrel's father once greeted the Pharaon, they see Albert, now in uniform, sailing for Algiers, while a veiled woman waves goodbye. Morrel goes to visit his father's grave.",
       "The count goes to the little house in the Allées de Meilhan, his father's old home, which he has given to Mercédès. He finds her weeping in the garden. He admits he caused her misfortunes, but she cannot hate the man who spared her son. Instead she blames herself: she was weak, she married Fernand, and she let him die. The count says he was only an instrument of God, driven on like an avenging angel. She asks only for Albert's happiness and refuses money for herself, saying she will live on the sum he left buried in the garden and spend her days in prayer. She promises they will meet again in heaven. Alone at the window, she murmurs, “Edmond, Edmond, Edmond!”"
     ],
-    "characters": ["edmond-dantes", "maximilien-morrel", "julie-morrel", "emmanuel-herbaut", "ali", "noirtier", "albert-de-morcerf", "mercedes", "pierre-morrel", "louis-dantes", "fernand-mondego", "valentine-de-villefort"]
+    "characters": [
+      "edmond-dantes",
+      "maximilien-morrel",
+      "julie-morrel",
+      "emmanuel-herbaut",
+      "ali",
+      "noirtier",
+      "albert-de-morcerf",
+      "mercedes",
+      "pierre-morrel",
+      "louis-dantes",
+      "fernand-mondego",
+      "valentine-de-villefort"
+    ]
   },
   {
     "number": 113,
@@ -182,7 +349,16 @@
       "A guide shows him his old cell and tells a local legend: a dangerous prisoner dug a tunnel to the cell of a “mad” priest, took the dead priest's place in his burial sack, and was thrown into the sea, surely to drown. He was known only as “No. 34.” Alone in the dark, the count finds the marks of his old despair and the words he scratched on the wall: “Oh, God! preserve my memory!” In Faria's cell, No. 27, he weeps. The guide sells him Faria's great manuscript, written on strips of cloth. Its epigraph, “Thou shalt tear out the dragons' teeth, and shall trample the lions under foot, saith the Lord,” seems an answer to his doubts. He gives the guide 10,000 francs. Passing the Catalans on the way back, he murmurs a woman's name, and it is Haydée's.",
       "At the cemetery he finds Morrel by his parents' graves. The count never found his own father's grave. He tells Morrel about a man who lost his father and his bride and spent fourteen years in a dungeon. That man's father died in poverty, and his bride married one of his persecutors, yet he has found peace and hopes to be happy. Morrel renews his promise. The count tells him that a yacht, the Eurus, will wait at Bastia on 4 October to bring him to the island of Monte Cristo on the 5th. Then the count leaves by steamer for Italy."
     ],
-    "characters": ["edmond-dantes", "abbe-faria", "villefort", "mercedes", "louis-dantes", "haydee", "maximilien-morrel", "pierre-morrel"]
+    "characters": [
+      "edmond-dantes",
+      "abbe-faria",
+      "villefort",
+      "mercedes",
+      "louis-dantes",
+      "haydee",
+      "maximilien-morrel",
+      "pierre-morrel"
+    ]
   },
   {
     "number": 114,
@@ -194,7 +370,17 @@
       "Danglars leaves delighted, with a letter of credit in his pocketbook, and sleeps with it under his pillow. Next afternoon he sets off on the Ancona road, planning to collect his money in Venice and Vienna. He dozes off. At a stop, fresh horses are harnessed, and a strong hand pushes him back when he tries to get out. Riders gallop on both sides, and a voice orders, “Dentro la testa!” (Heads in!). At first he fears he has been arrested. Then he realizes they have circled back past Rome onto the Appian Way.",
       "Forced out of the carriage, he is led by Peppino through tall weeds into a hole in the rock and along the catacombs to the bandit chief, who is reading Plutarch's Life of Alexander. Danglars recognizes Luigi Vampa from Albert's stories, and he is locked in the same cell Albert once occupied. Since they have not killed him, he reasons, they mean to ransom him, perhaps for 8,000 crowns, twice Albert's price, leaving him over five million. Comforted, he falls asleep."
     ],
-    "characters": ["danglars", "peppino", "luigi-vampa", "signor-pastrini", "edmond-dantes", "albert-de-morcerf", "eugenie-danglars", "louise-darmilly", "hermine-danglars"]
+    "characters": [
+      "danglars",
+      "peppino",
+      "luigi-vampa",
+      "signor-pastrini",
+      "edmond-dantes",
+      "albert-de-morcerf",
+      "eugenie-danglars",
+      "louise-darmilly",
+      "hermine-danglars"
+    ]
   },
   {
     "number": 115,
@@ -206,7 +392,12 @@
       "Then Peppino comes on duty with a pan of chickpeas and bacon, a basket of grapes and a flask of Orvieto wine. He politely offers Danglars anything he wants, as long as he pays. A youth brings in a roast fowl on a silver dish. Danglars tosses down a louis (a gold coin worth 20 francs), but Peppino says he still owes 4,999 more, a total of 100,000 francs. Danglars thinks it is a joke and refuses, and the fowl is taken away.",
       "Half an hour later he asks for dry bread. It costs the same, Peppino explains, because they have “a fixed price for all our provisions.” When Danglars protests that he does not carry 100,000 francs, Peppino reminds him that he carries 5,050,000, enough for fifty fowls and a half. At last Danglars understands. He writes a draft on Thomson & French and eats a chicken that seems very thin for its price."
     ],
-    "characters": ["danglars", "peppino", "luigi-vampa", "albert-de-morcerf"]
+    "characters": [
+      "danglars",
+      "peppino",
+      "luigi-vampa",
+      "albert-de-morcerf"
+    ]
   },
   {
     "number": 116,
@@ -218,7 +409,15 @@
       "Twelve days later, after many splendid meals, he has only 50,000 francs left. Suddenly he clings to that last sum and chooses hunger instead. He prays and weeps for the first time in years. In his delirium he sees an old man dying of hunger on a pallet. By the fifth day he is chewing the matting on the floor. He crawls to the door and begs Vampa to take his last gold and just let him live.",
       "Vampa answers that others have suffered more: men who died of hunger. A man in a cloak asks Danglars whether he repents, and Danglars says he does. The man steps into the light. He is not the Count of Monte Cristo, he says, but Edmond Dantès, whom Danglars sold and dishonoured, and whose father Danglars condemned to starve. He forgives Danglars and lets him keep the 50,000 francs. The five million Danglars stole from the hospitals has been returned to them by an unknown hand. Of Danglars' accomplices, he says, one is mad and the other dead. Danglars is fed and left free by the roadside. At dawn he bends over a stream to drink and sees that his hair has turned completely white."
     ],
-    "characters": ["danglars", "peppino", "luigi-vampa", "edmond-dantes", "louis-dantes", "villefort", "fernand-mondego"]
+    "characters": [
+      "danglars",
+      "peppino",
+      "luigi-vampa",
+      "edmond-dantes",
+      "louis-dantes",
+      "villefort",
+      "fernand-mondego"
+    ]
   },
   {
     "number": 117,
@@ -230,6 +429,20 @@
       "As his sight fades, a door opens and a beautiful young woman appears. It is Valentine, alive. The count tells her that Morrel chose death to find her, and that he himself has “vanquished death.” He hopes God will accept the saving of these two lives as his atonement. Valentine speaks of Haydée, whom she loves as a sister, and the count asks her to protect Haydée, whom he means to free tomorrow and restore to her father's name and riches. Haydée overhears. She says she would die without him and confesses that she loves him. The count accepts her love as God's pardon and leads her away.",
       "An hour later Morrel revives. Thinking the count has cheated him, he reaches for a knife, and then he sees Valentine. At dawn, walking by the sea, she tells him how the count revealed the crime and let her fake her death. Jacopo, the yacht's captain, brings a letter. Noirtier waits in Leghorn (Livorno) to bless their marriage. The grotto, the house in the Champs-Élysées and the château at Tréport are wedding gifts from Edmond Dantès, and he asks Valentine to give her father's fortune to the poor. The letter also tells her, for the first time, that her father is mad and her brother dead. It ends: all human wisdom is summed up in two words, “Wait and hope.” On the horizon, a white sail carries the count and Haydée away."
     ],
-    "characters": ["maximilien-morrel", "edmond-dantes", "valentine-de-villefort", "haydee", "ali", "jacopo", "noirtier", "villefort", "edouard-de-villefort", "heloise-de-villefort", "julie-morrel", "emmanuel-herbaut", "pierre-morrel"]
+    "characters": [
+      "maximilien-morrel",
+      "edmond-dantes",
+      "valentine-de-villefort",
+      "haydee",
+      "ali",
+      "jacopo",
+      "noirtier",
+      "villefort",
+      "edouard-de-villefort",
+      "heloise-de-villefort",
+      "julie-morrel",
+      "emmanuel-herbaut",
+      "pierre-morrel"
+    ]
   }
 ]

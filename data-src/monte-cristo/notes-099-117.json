@@ -30,7 +30,7 @@
         "moment": "Swore before a crucifix that the culprits in his house would die, whoever they were."
       },
       {
-        "id": "benedetto",
+        "id": "andrea-cavalcanti",
         "nameHere": "M. Andrea Cavalcanti, or rather M. Benedetto",
         "learned": "Villefort describes him as a Corsican vagabond of unknown parents, sent to the galleys at sixteen for forgery, who escaped and is now accused of murder.",
         "moment": "Was arrested at Compiègne."
@@ -118,7 +118,7 @@
         "learned": "News of her flight reaches Valentine."
       },
       {
-        "id": "benedetto",
+        "id": "andrea-cavalcanti",
         "nameHere": "Andrea Cavalcanti, or rather Benedetto",
         "learned": "News of his arrest for murder reaches Valentine."
       }
@@ -342,7 +342,7 @@
         "learned": "Danglars speaks of him as dishonoured and dead, and his fortune has been given away by his wife and son as “guiltily acquired.”"
       },
       {
-        "id": "benedetto",
+        "id": "andrea-cavalcanti",
         "nameHere": "Benedetto",
         "learned": "Villefort has finished drawing up the accusation against him, and Danglars blames him for making him ridiculous."
       },
@@ -500,7 +500,7 @@
     "chapter": 107,
     "characters": [
       {
-        "id": "benedetto",
+        "id": "andrea-cavalcanti",
         "nameHere": "Andrea / Benedetto",
         "learned": "In prison he still poses as a Cavalcanti prince and believes a powerful secret protector will save him. It is confirmed that he is the Benedetto raised by Bertuccio, whom he calls his adopted father. He suspects the count is his real father.",
         "moment": "Escaped a beating from the convicts by making a bandits' secret sign taught him by Caderousse."
@@ -559,7 +559,7 @@
         "learned": "His words seem to have brought Noirtier peace after Valentine's death."
       },
       {
-        "id": "benedetto",
+        "id": "andrea-cavalcanti",
         "nameHere": "Benedetto",
         "learned": "The case against him rests mainly on Caderousse's dying words, but Villefort is sure he is guilty."
       },
@@ -634,7 +634,7 @@
         "learned": "A servant's rumour, repeated by Beauchamp, claims he poisoned the victims himself. The others think it absurd."
       },
       {
-        "id": "benedetto",
+        "id": "andrea-cavalcanti",
         "nameHere": "Benedetto / the false Cavalcanti",
         "learned": "His trial for killing his chain-companion is the sensation of Paris. Many think him a victim of some plot, while the president of the court thinks him a commonplace rascal."
       },
@@ -684,7 +684,7 @@
     "chapter": 110,
     "characters": [
       {
-        "id": "benedetto",
+        "id": "andrea-cavalcanti",
         "nameHere": "Benedetto / Andrea",
         "learned": "He reveals that he was born at Auteuil on the night of 27 September 1817, the son of Villefort, who buried him alive. He was rescued, left at a foundling hospital, and raised in Corsica. He has no name of his own and blames his father for his fate.",
         "moment": "Named the prosecutor, M. de Villefort, as his father in open court."

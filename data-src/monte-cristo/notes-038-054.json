@@ -189,7 +189,7 @@
         "learned": "A Corsican who, the Count says, has been a soldier and a smuggler and has perhaps been in trouble with the police over 'a stab with a knife'."
       },
       {
-        "id": "haydee",
+        "id": "greek-girl",
         "nameHere": "the Greek (the Count's slave)",
         "learned": "Albert has seen and heard her. The Count says he bought her in Constantinople, that she speaks only Romaic (modern Greek), and that everyone around him is free to leave him."
       },
@@ -654,8 +654,8 @@
     "characters": [
       {
         "id": "edmond-dantes",
-        "nameHere": "the Count of Monte Cristo",
-        "learned": "Is overwhelmed by the Morrels' happiness and gratitude and almost gives himself away. He invents or names a 'Lord Wilmore' to deflect Julie's questions, and is shattered to hear that old Morrel's last words named Edmond Dantès.",
+        "nameHere": "the Count of Monte Cristo / Lord Wilmore",
+        "learned": "Is overwhelmed by the Morrels' happiness and gratitude and almost gives himself away. He invents or names a 'Lord Wilmore' to deflect Julie's questions, and is shattered to hear that old Morrel's last words named Edmond Dantès. Named by the Count as an eccentric English friend who did good deeds in secret, did not believe in gratitude, and has left for remote lands. The reader already knows the 'Englishman' from Thomson & French was Dantès himself, so the Count is clearly steering Julie away from the truth.",
         "moment": "Held the purse and the 'Sinbad the Sailor' letter he once left for the Morrels, and left abruptly at Dantès's name."
       },
       {
@@ -693,11 +693,6 @@
         "id": "baptistin",
         "nameHere": "Baptistin",
         "learned": "Announces the Count at the Morrels' gate."
-      },
-      {
-        "id": "lord-wilmore",
-        "nameHere": "Lord Wilmore",
-        "learned": "Named by the Count as an eccentric English friend who did good deeds in secret, did not believe in gratitude, and has left for remote lands. The reader already knows the 'Englishman' from Thomson & French was Dantès himself, so the Count is clearly steering Julie away from the truth."
       },
       {
         "id": "chateau-renaud",
