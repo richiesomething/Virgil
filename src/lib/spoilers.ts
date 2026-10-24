@@ -84,7 +84,9 @@ export function characterView(book: BookData, c: Character, upTo: number): Chara
 
   const aliases = [
     ...reached(c.aliases),
-    ...formerly.map((f) => ({ name: f.name, from: f.mergedInto!.from, note: undefined })),
+    ...formerly
+      .filter((f) => !c.aliases.some((a) => a.name === f.name && a.from <= upTo))
+      .map((f) => ({ name: f.name, from: f.mergedInto!.from, note: undefined })),
   ].sort((a, b) => a.from - b.from)
 
   const description = reached(c.description).sort((a, b) => a.from - b.from)
