@@ -42,7 +42,7 @@
       {
         "from": 41,
         "type": "love",
-        "label": "Reunited unrecognized: she is Countess de Morcerf"
+        "label": "They meet again: she is Countess de Morcerf"
       },
       {
         "from": 89,
@@ -78,7 +78,7 @@
       {
         "from": 46,
         "type": "enemy",
-        "label": "The Count draws the banker into his trap"
+        "label": "The Count humbles Danglars with “unlimited credit”"
       },
       {
         "from": 61,
@@ -207,7 +207,7 @@
       {
         "from": 5,
         "type": "work",
-        "label": "Morrel pleads for the arrested Dantès"
+        "label": "Morrel hurries to help the arrested Dantès"
       },
       {
         "from": 13,
@@ -460,6 +460,11 @@
         "from": 41,
         "type": "friend",
         "label": "The Count meets Albert’s mother, Mercédès"
+      },
+      {
+        "from": 87,
+        "type": "enemy",
+        "label": "Albert blames the Count for his father’s ruin"
       },
       {
         "from": 88,
@@ -869,7 +874,7 @@
       {
         "from": 86,
         "type": "work",
-        "label": "The Count bought Haydée from this slave merchant"
+        "label": "The Count ransomed Haydée through this merchant"
       }
     ]
   },
@@ -1048,9 +1053,9 @@
     "b": "louis-dantes",
     "states": [
       {
-        "from": 27,
+        "from": 13,
         "type": "friend",
-        "label": "She was kind to Edmond’s dying father"
+        "label": "Old Dantès dies in Mercédès’ arms"
       }
     ]
   },
@@ -1534,7 +1539,7 @@
     "b": "pierre-morrel",
     "states": [
       {
-        "from": 5,
+        "from": 7,
         "type": "work",
         "label": "Morrel pleads with Villefort for Dantès"
       },
@@ -1571,7 +1576,7 @@
     "b": "valentine-de-villefort",
     "states": [
       {
-        "from": 47,
+        "from": 48,
         "type": "family",
         "label": "Villefort’s daughter by his first wife"
       },
@@ -1870,7 +1875,7 @@
       {
         "from": 101,
         "type": "enemy",
-        "label": "She tried to poison him for Valentine’s fortune"
+        "label": "She tried to poison him to enrich Édouard"
       },
       {
         "from": 103,
@@ -1998,7 +2003,7 @@
     "b": "valentine-de-villefort",
     "states": [
       {
-        "from": 47,
+        "from": 48,
         "type": "family",
         "label": "Stepmother and stepdaughter"
       },
@@ -2040,7 +2045,7 @@
     "b": "edouard-de-villefort",
     "states": [
       {
-        "from": 47,
+        "from": 48,
         "type": "family",
         "label": "Half-siblings"
       },
@@ -2350,7 +2355,7 @@
       {
         "from": 40,
         "type": "friend",
-        "label": "Friends from Albert’s circle"
+        "label": "Introduced at Albert’s breakfast"
       }
     ]
   },
@@ -2585,8 +2590,8 @@
     "states": [
       {
         "from": 40,
-        "type": "enemy",
-        "label": "Château-Renaud once wounded Franz in a duel"
+        "type": "friend",
+        "label": "Friends, though Château-Renaud once broke Franz’s arm"
       },
       {
         "from": 74,
@@ -2678,7 +2683,7 @@
     "states": [
       {
         "from": 47,
-        "type": "love",
+        "type": "friend",
         "label": "Her constant, very at-home visitor"
       },
       {
@@ -2735,7 +2740,7 @@
       },
       {
         "from": 106,
-        "type": "love",
+        "type": "enemy",
         "label": "Danglars flees, abandoning his wife"
       }
     ]
@@ -3064,12 +3069,12 @@
       {
         "from": 64,
         "type": "enemy",
-        "label": "Old fellow convict who blackmails him"
+        "label": "Old “friend” who knows him as Benedetto"
       },
       {
         "from": 81,
         "type": "enemy",
-        "label": "Andrea steers Caderousse into a burglary"
+        "label": "Ex-convict comrades; Andrea steers him into burglary"
       },
       {
         "from": 83,
@@ -3299,7 +3304,7 @@
       {
         "from": 34,
         "type": "work",
-        "label": "Vampa’s condemned man, then his messenger"
+        "label": "Condemned for supplying Vampa’s band"
       }
     ]
   },
