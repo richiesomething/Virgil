@@ -42,6 +42,6 @@ Each book lives in `src/books/<id>/`:
   `from` chapter; `src/lib/spoilers.ts` is the only place that decides what the reader may see.
 
 `data-src/<id>/` holds the per-chapter working files (summaries and character notes written from
-the source text). `node scripts/merge-chapters.mjs <id>` rebuilds `chapters.json`, and
+the source text). `node scripts/merge-data.mjs <id>` rebuilds `chapters.json` and `characters.json`, and
 `npm run validate` checks the data for broken references and spoiler leaks (e.g. a character
 listed in a chapter before their first appearance).
