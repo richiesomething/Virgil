@@ -1,0 +1,838 @@
+[
+  {
+    "id": "edmond-dantes",
+    "name": "Edmond Dantès",
+    "firstChapter": 1,
+    "importance": "major",
+    "group": "Marseille, 1815",
+    "aliases": [
+      {
+        "name": "Number 34",
+        "from": 14,
+        "note": "his prisoner number in the Château d'If"
+      },
+      {
+        "name": "the Maltese sailor",
+        "from": 21,
+        "note": "the cover story he gives the smugglers who rescue him"
+      },
+      {
+        "name": "Lord Wilmore",
+        "from": 25,
+        "note": "the name on his English passport"
+      },
+      {
+        "name": "the Englishman from Thomson & French",
+        "from": 30,
+        "note": "the clerk of the Roman bank who visits Boville and Morrel"
+      },
+      {
+        "name": "Sinbad the Sailor",
+        "from": 30,
+        "note": "the name signed on the letter that saves the Morrels"
+      },
+      {
+        "name": "the Count of Monte Cristo",
+        "from": 34,
+        "note": "Franz recognises the Count in Rome as Sinbad"
+      },
+      {
+        "name": "Lord Ruthven",
+        "from": 34,
+        "note": "the Countess G——'s nickname for him, after Byron's vampire"
+      },
+      {
+        "name": "Abbé Busoni",
+        "from": 43,
+        "note": "his priest disguise, first named here; the abbé of ch 26–27"
+      },
+      {
+        "name": "M. Zaccone",
+        "from": 69,
+        "note": "the false identity his disguises feed to Villefort's police inquiry"
+      },
+      {
+        "name": "Giacomo Busoni",
+        "from": 94,
+        "note": "the full name the abbé uses to rent the house next to Villefort's"
+      }
+    ],
+    "tagline": [
+      {
+        "from": 1,
+        "text": "Young first mate of the Pharaon, about to be made captain and marry Mercédès."
+      },
+      {
+        "from": 5,
+        "text": "Young sailor arrested at his own wedding feast on a Bonapartist charge."
+      },
+      {
+        "from": 8,
+        "text": "Innocent young sailor locked away without trial in the Château d'If."
+      },
+      {
+        "from": 17,
+        "text": "Prisoner in the Château d'If, the Abbé Faria's pupil, who now knows who betrayed him."
+      },
+      {
+        "from": 21,
+        "text": "Escaped after fourteen years in prison, now sailing with smugglers and sworn to revenge."
+      },
+      {
+        "from": 24,
+        "text": "Escaped prisoner turned secret master of the Spada treasure of Monte Cristo."
+      },
+      {
+        "from": 25,
+        "text": "Immensely rich and unrecognised, back in Marseilles in disguise to learn the truth."
+      },
+      {
+        "from": 30,
+        "text": "Secret benefactor who saved Morrel, now turning from gratitude to vengeance."
+      },
+      {
+        "from": 31,
+        "text": "Calling himself Sinbad the Sailor, he lives in a hidden palace on Monte Cristo."
+      },
+      {
+        "from": 34,
+        "text": "The pale, mysterious Count of Monte Cristo, dazzling Rome and befriending Albert de Morcerf."
+      },
+      {
+        "from": 40,
+        "text": "The fabulously rich Count of Monte Cristo, newly arrived in Paris society."
+      },
+      {
+        "from": 47,
+        "text": "The Count, Paris's great sensation, quietly closing in on his old enemies."
+      },
+      {
+        "from": 83,
+        "text": "The Count, who has whispered his true name to the dying Caderousse: “One!”"
+      },
+      {
+        "from": 92,
+        "text": "The Count, unmasked as Edmond Dantès to Mercédès and Morcerf, pressing his vengeance."
+      },
+      {
+        "from": 100,
+        "text": "The Count, secretly guarding Valentine from a poisoner inside the Villefort house."
+      },
+      {
+        "from": 105,
+        "text": "The Count, revealed to Maximilian as Edmond Dantès, preparing to leave France."
+      },
+      {
+        "from": 111,
+        "text": "Edmond Dantès, shaken by the innocent deaths his vengeance has caused."
+      },
+      {
+        "from": 117,
+        "text": "Edmond Dantès, Count of Monte Cristo, sailing away with Haydée, his work done."
+      }
+    ],
+    "description": [
+      {
+        "from": 1,
+        "text": "A tall, dark-haired sailor of about nineteen, first mate of the merchant ship Pharaon. Skilled, calm and loved by the crew, he brings the ship home after Captain Leclere's death and is promised the captaincy by the owner, M. Morrel. He is devoted to his poor old father and engaged to the beautiful Mercédès."
+      },
+      {
+        "from": 8,
+        "text": "Open and trusting, he offered his hand even to the hostile Fernand and invited Danglars, Caderousse and Fernand to his wedding. Arrested at the feast, he told the deputy prosecutor Villefort the whole truth about the letter he carried from Elba and trusted him as a friend, but was taken without trial to the Château d'If, where he swings between despair and rage."
+      },
+      {
+        "from": 17,
+        "text": "Forgotten through the Hundred Days and after Waterloo, prisoner number 34 sank from prayer to rage to a decision to starve himself, until the sound of digging brought him back to life. His neighbour, the Abbé Faria, becomes his friend and teacher; together they work out that Danglars, Fernand and Villefort caused his ruin, and he swears vengeance. Gifted with a prodigious memory, he becomes a cultured man, and loyally refuses to escape without Faria."
+      },
+      {
+        "from": 20,
+        "text": "Faria makes him heir to the lost Spada treasure, hidden on the island of Monte Cristo. When Faria dies, Dantès chooses life, revenge on his enemies and rewards for his friends, and boldly takes the dead man's place in his burial sack."
+      },
+      {
+        "from": 24,
+        "text": "Now thirty-three, after exactly fourteen years in prison, he was rescued by smugglers, passing himself off as a Maltese sailor. Prison has made him pale, stern and unrecognisable, patient and secretive, though he grows fond of the loyal Jacopo. Following Faria's clues, he finds Cardinal Spada's treasure: an almost unimaginable fortune."
+      },
+      {
+        "from": 25,
+        "text": "He returns to Marseilles unrecognised, travelling on an English passport as Lord Wilmore, and learns that his father is dead and Mercédès has vanished."
+      },
+      {
+        "from": 30,
+        "text": "Disguised as an Italian priest, he hears from Caderousse exactly how he was betrayed and how his father starved. Then, posing as an English clerk of the bank Thomson & French, he takes Danglars's denunciation from the prison files and secretly rescues the ruined Morrel, signing himself “Sinbad the Sailor.” Having repaid kindness, he calls himself Heaven's substitute and sails off to punish the wicked."
+      },
+      {
+        "from": 35,
+        "text": "As Sinbad he lives in a secret palace on Monte Cristo, friendly with smugglers and bandits. In Rome he is the Count of Monte Cristo, a figure of deathly pallor whom the bandit Vampa respects, and he reveals a cold philosophy of revenge: suffering inflicted over years must be repaid with suffering, not a quick death or a duel. He watches young Albert de Morcerf closely."
+      },
+      {
+        "from": 41,
+        "text": "Learned, lavishly generous and cynical about gratitude, he rescues Albert from the bandits and asks him to introduce him to Paris, where 'plans long meditated' draw him. He arrives to the minute; Morrel's name moves him, and on meeting the Count and Countess of Morcerf he is paler even than Mercédès."
+      },
+      {
+        "from": 48,
+        "text": "The Abbé Busoni who sent Bertuccio into his service was Dantès himself in disguise. He buys the Auteuil house tied to a dark secret of Villefort's, keeps the young Greek Haydée in secret apartments, outplays Danglars with sheer wealth, and leads Madame de Villefort on with talk of poisons. To Villefort he calls himself one of the agents of Providence, rewarding and punishing."
+      },
+      {
+        "from": 63,
+        "text": "With the grateful Morrels he almost gives himself away, crediting their rescue to an English friend, 'Lord Wilmore'. He stages a fraud with a bogus 'Major Cavalcanti' and his 'son' Andrea, ruins Danglars with a bribed telegraph operator, and at the Auteuil dinner torments Villefort and Madame Danglars with talk of a buried newborn child."
+      },
+      {
+        "from": 83,
+        "text": "He prompts Danglars to look into what Fernand Mondego did at Yanina, and fools Villefort's police inquiry by playing both Busoni and Lord Wilmore. He refuses all food in Mercédès's house. As Busoni he catches Caderousse robbing his house and lets fate take its course, then whispers to the dying man his true name: Edmond Dantès."
+      },
+      {
+        "from": 92,
+        "text": "Morcerf's treachery at Yanina is exposed, and Albert challenges the Count, who vows to kill him. Mercédès calls him Edmond and begs for her son; he promises Albert will live and resolves to die in the duel instead. Spared by Albert's apology, he reveals himself to Morcerf as Edmond Dantès, and begins to hope for happiness with Haydée."
+      },
+      {
+        "from": 105,
+        "text": "He watched the poisonings in the Villefort house as God's justice, until he learned that Maximilian Morrel loves Valentine; from the house next door he now guards her night after night. He strips Danglars of five million francs, and stops Maximilian's suicide by revealing that he is Edmond Dantès, the man who saved his father."
+      },
+      {
+        "from": 113,
+        "text": "He reveals to Villefort that Busoni and Monte Cristo are both Edmond Dantès, but the death of the child Edward makes him doubt his right to vengeance. He takes leave of Mercédès and revisits his cell in the Château d'If, where Faria's manuscript seems to confirm his mission."
+      },
+      {
+        "from": 117,
+        "text": "He reveals himself to Danglars and pardons him. Hoping that saving Valentine and Morrel makes amends for the evil he has done, he gives them his property and sails away with Haydée, whose love he accepts as God's pardon."
+      }
+    ],
+    "moments": [
+      {
+        "chapter": 1,
+        "text": "Brought the Pharaon home after Captain Leclere's death and was promised the captaincy."
+      },
+      {
+        "chapter": 5,
+        "text": "Was arrested at his wedding feast just before going to be married."
+      },
+      {
+        "chapter": 8,
+        "text": "Was locked in the Château d'If and thrown into an underground dungeon."
+      },
+      {
+        "chapter": 15,
+        "text": "Tunnelled through his wall with a saucepan handle and made contact with another prisoner."
+      },
+      {
+        "chapter": 17,
+        "text": "Learned who betrayed him and swore a solemn oath of vengeance."
+      },
+      {
+        "chapter": 20,
+        "text": "Sewed himself into Faria's burial sack and was thrown into the sea."
+      },
+      {
+        "chapter": 21,
+        "text": "Swam to freedom and was rescued by smugglers after fourteen years in prison."
+      },
+      {
+        "chapter": 24,
+        "text": "Found Cardinal Spada's treasure in the second grotto on Monte Cristo."
+      },
+      {
+        "chapter": 25,
+        "text": "Returned to Marseilles unrecognised and bought his father's old house as Lord Wilmore."
+      },
+      {
+        "chapter": 27,
+        "text": "Disguised as a priest, learned from Caderousse that Danglars wrote the denunciation and Fernand posted it."
+      },
+      {
+        "chapter": 30,
+        "text": "Saved Morrel in secret as “Sinbad the Sailor,” then sailed away vowing to punish the wicked."
+      },
+      {
+        "chapter": 31,
+        "text": "Received Franz blindfolded in his underground palace on Monte Cristo."
+      },
+      {
+        "chapter": 37,
+        "text": "Freed Albert from Vampa's bandits without paying any ransom."
+      },
+      {
+        "chapter": 40,
+        "text": "Arrived at Albert's breakfast in Paris on the stroke of half-past ten, as promised."
+      },
+      {
+        "chapter": 61,
+        "text": "Bribed a telegraph operator to send a false message that cost Danglars a fortune."
+      },
+      {
+        "chapter": 69,
+        "text": "Pulled off Lord Wilmore's wig, whiskers, false jaw and scar after the police agent left."
+      },
+      {
+        "chapter": 83,
+        "text": "Revealed his true name to the dying Caderousse and said, “One!”"
+      },
+      {
+        "chapter": 89,
+        "text": "Promised Mercédès that her son would live."
+      },
+      {
+        "chapter": 92,
+        "text": "Revealed himself to Morcerf as Edmond Dantès."
+      },
+      {
+        "chapter": 104,
+        "text": "Took five million francs from Danglars in exchange for a receipt."
+      },
+      {
+        "chapter": 105,
+        "text": "Stopped Maximilian's suicide by revealing that he was Edmond Dantès."
+      },
+      {
+        "chapter": 111,
+        "text": "Unmasked himself to Villefort, then tried and failed to revive Edward."
+      },
+      {
+        "chapter": 113,
+        "text": "Revisited his old cell in the Château d'If and recovered Faria's manuscript."
+      },
+      {
+        "chapter": 116,
+        "text": "Revealed his identity to Danglars and pardoned him."
+      },
+      {
+        "chapter": 117,
+        "text": "Reunited Morrel with Valentine and sailed away, leaving a letter ending “Wait and hope.”"
+      }
+    ]
+  },
+  {
+    "id": "louis-dantes",
+    "name": "Old Dantès",
+    "firstChapter": 1,
+    "importance": "supporting",
+    "group": "Marseille, 1815",
+    "aliases": [
+      {
+        "name": "Louis Dantès",
+        "from": 25,
+        "note": "his full name"
+      }
+    ],
+    "tagline": [
+      {
+        "from": 1,
+        "text": "Edmond's poor, proud old father."
+      },
+      {
+        "from": 13,
+        "text": "Edmond's father, who died of grief while his son was in prison."
+      },
+      {
+        "from": 27,
+        "text": "Edmond's father, who starved himself to death waiting for his son."
+      }
+    ],
+    "description": [
+      {
+        "from": 1,
+        "text": "Edmond's poor, proud old father, whom Edmond hurries to visit before anyone else."
+      },
+      {
+        "from": 2,
+        "text": "A frail old man who loves flowers and his son. He paid off Edmond's debt to Caderousse and nearly starved for three months rather than ask anyone for help."
+      },
+      {
+        "from": 5,
+        "text": "Dressed in his best for the wedding, he pleads desperately with the officer who arrests Edmond and collapses at the news of the Bonapartist charge."
+      },
+      {
+        "from": 13,
+        "text": "Sick with worry and losing all hope after Napoleon's final fall, he dies while his son is still in prison."
+      },
+      {
+        "from": 27,
+        "text": "Caderousse tells how he refused to leave home in case Edmond returned, sold his belongings to live, and finally used a doctor's diet as an excuse to stop eating. Mercédès and M. Morrel were kind to him; he died blessing his son and cursing those who caused his misery."
+      }
+    ],
+    "moments": [
+      {
+        "chapter": 2,
+        "text": "Was found by Edmond with empty cupboards, having lived on sixty francs for three months."
+      },
+      {
+        "chapter": 5,
+        "text": "Collapsed when his son was arrested at the wedding feast."
+      },
+      {
+        "chapter": 27,
+        "text": "Died of hunger after nine days, blessing Edmond with his last words."
+      }
+    ]
+  },
+  {
+    "id": "abbe-faria",
+    "name": "the Abbé Faria",
+    "firstChapter": 14,
+    "importance": "major",
+    "group": "Prisoners & jailers",
+    "aliases": [
+      {
+        "name": "No. 27",
+        "from": 14,
+        "note": "his prisoner number in the Château d'If"
+      },
+      {
+        "name": "the mad priest",
+        "from": 14,
+        "note": "what the jailers call him"
+      }
+    ],
+    "tagline": [
+      {
+        "from": 14,
+        "text": "Italian priest in the Château d'If, thought mad for offering a treasure for his freedom."
+      },
+      {
+        "from": 17,
+        "text": "Dantès's fellow prisoner, friend and teacher, who uncovers the plot against him."
+      },
+      {
+        "from": 18,
+        "text": "Dantès's teacher, who reveals that the Spada treasure is real and makes him his heir."
+      },
+      {
+        "from": 19,
+        "text": "Dantès's beloved teacher, who died in the Château d'If and left him the Spada treasure."
+      }
+    ],
+    "description": [
+      {
+        "from": 14,
+        "text": "An Italian priest born in Rome, for twenty years secretary to Cardinal Spada, arrested at Piombino in 1811 for dreaming of a united Italy. Everyone thinks he is mad because he keeps offering a huge treasure in exchange for his freedom."
+      },
+      {
+        "from": 15,
+        "text": "Cautious and patient, he has dug a long tunnel hoping to reach the sea, but miscalculated and broke into Dantès's cell instead. He says he is alone in the world."
+      },
+      {
+        "from": 16,
+        "text": "A small, agile man of about sixty: a scholar, chemist and linguist who refuses to shed blood. In prison he has made his own tools, pens, ink, lamp and linen 'paper', and written a book on Italian monarchy."
+      },
+      {
+        "from": 17,
+        "text": "A brilliant reasoner, he works out who betrayed Dantès and why, and becomes his patient teacher in languages, science and the ways of the world. He suffers from an inherited catalepsy that killed his father and grandfather on a third attack; a second attack leaves him partly paralysed."
+      },
+      {
+        "from": 18,
+        "text": "He was never mad: as secretary to the last Count of Spada he inherited the family papers and, in 1807, found Cardinal Spada's hidden letter revealing a treasure on Monte Cristo. He makes Dantès his heir, calling him 'the child of my captivity'."
+      },
+      {
+        "from": 20,
+        "text": "He spends his last months making Dantès memorise the treasure letter and dies selflessly, refusing to let him call for help. His homemade knife, needle and thread make Dantès's escape possible."
+      },
+      {
+        "from": 27,
+        "text": "Everything he taught proves right: his clues lead Dantès to the treasure, and everything he deduced about Dantès's betrayers is confirmed."
+      }
+    ],
+    "moments": [
+      {
+        "chapter": 14,
+        "text": "Offered the inspector six million francs for his liberty and was laughed at."
+      },
+      {
+        "chapter": 15,
+        "text": "Broke through the floor into Dantès's cell."
+      },
+      {
+        "chapter": 16,
+        "text": "Showed Dantès the chisel with which he had dug fifty feet through rock."
+      },
+      {
+        "chapter": 17,
+        "text": "Revealed that Villefort's father was Noirtier, then survived a second attack that paralysed his right side."
+      },
+      {
+        "chapter": 18,
+        "text": "Made Dantès heir to the Spada treasure."
+      },
+      {
+        "chapter": 19,
+        "text": "Died after his third attack, his last words: “Monte Cristo, forget not Monte Cristo!”"
+      }
+    ]
+  },
+  {
+    "id": "jacopo",
+    "name": "Jacopo",
+    "firstChapter": 21,
+    "importance": "supporting",
+    "group": "Sailors & smugglers",
+    "aliases": [],
+    "tagline": [
+      {
+        "from": 21,
+        "text": "Good-hearted sailor who pulled the escaped Dantès out of the sea."
+      },
+      {
+        "from": 25,
+        "text": "Loyal Corsican sailor, rewarded with a boat, who serves Dantès as his messenger."
+      }
+    ],
+    "description": [
+      {
+        "from": 21,
+        "text": "A frank, good-hearted sailor on the Genoese smugglers' tartan who rescues Dantès from the sea and urges that he be paid fairly."
+      },
+      {
+        "from": 22,
+        "text": "A Corsican devoted to Edmond: he nurses him when he is wounded, indignantly refuses payment, and learns navigation and astronomy from him."
+      },
+      {
+        "from": 23,
+        "text": "Loyal as ever, he offers to give up his share of the profits to stay and nurse Dantès on Monte Cristo."
+      },
+      {
+        "from": 25,
+        "text": "Rewarded with a boat of his own, he believes the story of Dantès's inheritance and serves him loyally as a messenger."
+      }
+    ],
+    "moments": [
+      {
+        "chapter": 21,
+        "text": "Pulled the drowning Dantès out of the sea by his hair."
+      },
+      {
+        "chapter": 22,
+        "text": "Began learning navigation and astronomy from Dantès."
+      },
+      {
+        "chapter": 25,
+        "text": "Brought back the news that old Dantès was dead and Mercédès had disappeared."
+      },
+      {
+        "chapter": 117,
+        "text": "Delivered the Count's farewell letter and pointed out his departing sail."
+      }
+    ]
+  },
+  {
+    "id": "captain-baldi",
+    "name": "the patron of the tartan",
+    "firstChapter": 21,
+    "importance": "minor",
+    "group": "Sailors & smugglers",
+    "aliases": [
+      {
+        "name": "Captain Baldi",
+        "from": 23,
+        "note": "his name"
+      }
+    ],
+    "tagline": [
+      {
+        "from": 21,
+        "text": "Cautious old master of the Genoese smugglers' tartan that takes on the escaped Dantès."
+      }
+    ],
+    "description": [
+      {
+        "from": 21,
+        "text": "The cautious old pilot and master of the Genoese tartan bound for Leghorn. He takes Dantès on after he proves his seamanship."
+      },
+      {
+        "from": 23,
+        "text": "Master of La Jeune Amélie, named as Captain Baldi: a shrewd smuggler well known to the coast guards and fluent in many languages. He trusts Dantès, sees him as his natural successor and delays sailing out of concern for him."
+      }
+    ],
+    "moments": [
+      {
+        "chapter": 22,
+        "text": "Proposed Monte Cristo as the meeting place for a smuggling exchange."
+      }
+    ]
+  },
+  {
+    "id": "captain-leclere",
+    "name": "Captain Leclere",
+    "firstChapter": 1,
+    "importance": "minor",
+    "group": "Marseille, 1815",
+    "aliases": [],
+    "tagline": [
+      {
+        "from": 1,
+        "text": "The Pharaon's late captain, who died at sea and left Dantès an errand on Elba."
+      }
+    ],
+    "description": [
+      {
+        "from": 1,
+        "text": "The Pharaon's brave old captain, who died of brain fever after leaving Naples. Before dying he asked Dantès to deliver a packet on Elba."
+      },
+      {
+        "from": 7,
+        "text": "On his deathbed he gave Dantès a ring and the packet for the grand-marshal, calling it a matter of great importance."
+      }
+    ],
+    "moments": []
+  },
+  {
+    "id": "marshal-bertrand",
+    "name": "Marshal Bertrand",
+    "firstChapter": 1,
+    "importance": "minor",
+    "group": "Royal court & politics",
+    "aliases": [],
+    "tagline": [
+      {
+        "from": 1,
+        "text": "Napoleon's grand-marshal on Elba, who received Captain Leclere's packet from Dantès."
+      }
+    ],
+    "description": [
+      {
+        "from": 1,
+        "text": "Napoleon's grand-marshal on Elba, to whom Dantès delivered the packet entrusted to him by the dying Captain Leclere."
+      }
+    ],
+    "moments": []
+  },
+  {
+    "id": "napoleon",
+    "name": "the Emperor",
+    "firstChapter": 1,
+    "importance": "supporting",
+    "group": "Royal court & politics",
+    "aliases": [
+      {
+        "name": "Napoleon Bonaparte",
+        "from": 6,
+        "note": "also called “the usurper” by royalists"
+      }
+    ],
+    "tagline": [
+      {
+        "from": 1,
+        "text": "The exiled emperor on Elba, whom Dantès met while carrying his captain's packet."
+      },
+      {
+        "from": 11,
+        "text": "The exiled emperor, escaped from Elba and marching on Paris."
+      },
+      {
+        "from": 13,
+        "text": "The emperor who returned for the Hundred Days, then fell for good at Waterloo."
+      }
+    ],
+    "description": [
+      {
+        "from": 1,
+        "text": "Exiled on the island of Elba, he chatted with Dantès there and remembered Morrel's uncle. Morrel warns that any contact with him could be dangerous."
+      },
+      {
+        "from": 10,
+        "text": "The royalists mock him as a ruined man, but Villefort fears his followers and warns the king that he is arming ships."
+      },
+      {
+        "from": 11,
+        "text": "He left Elba on 26 February, landed near Antibes on 1 March and is marching on Paris."
+      },
+      {
+        "from": 13,
+        "text": "He returns to power for the Hundred Days and then falls again after Waterloo, dashing the hopes of Dantès's father and supporters alike."
+      },
+      {
+        "from": 75,
+        "text": "An old letter from Elba to the Bonapartist club announced his coming return, promising details on the arrival of Morrel's ship, the Pharaon."
+      }
+    ],
+    "moments": [
+      {
+        "chapter": 11,
+        "text": "Escaped from Elba and landed near Antibes on 1 March."
+      },
+      {
+        "chapter": 13,
+        "text": "Returned for the Hundred Days and fell again at Waterloo."
+      }
+    ]
+  },
+  {
+    "id": "cardinal-spada",
+    "name": "Cardinal Spada",
+    "firstChapter": 18,
+    "importance": "minor",
+    "group": "History & legend",
+    "aliases": [
+      {
+        "name": "Cæsar Spada",
+        "from": 18,
+        "note": "his full name"
+      }
+    ],
+    "tagline": [
+      {
+        "from": 18,
+        "text": "Renaissance cardinal poisoned by the Borgias, who hid his fortune on Monte Cristo."
+      }
+    ],
+    "description": [
+      {
+        "from": 18,
+        "text": "A rich Roman noble made a cardinal in 1498, then poisoned at dinner by Pope Alexander VI and Cæsar Borgia. He had foreseen the trap and hid his fortune in the caves of Monte Cristo for his nephew Guido, leaving a secret letter in invisible ink."
+      },
+      {
+        "from": 24,
+        "text": "He hid the treasure with great cunning: marks carved in the rocks as a guide, a boulder slid into place, a false wall painted like granite, and a buried chest bearing the Spada arms."
+      }
+    ],
+    "moments": []
+  },
+  {
+    "id": "count-of-spada",
+    "name": "the Count of Spada",
+    "firstChapter": 18,
+    "importance": "minor",
+    "group": "History & legend",
+    "aliases": [],
+    "tagline": [
+      {
+        "from": 18,
+        "text": "The last of the Spada family, Faria's patron, who left him the family papers."
+      }
+    ],
+    "description": [
+      {
+        "from": 18,
+        "text": "The last of the Spada family and Faria's patron. Poor despite the family legend of hidden wealth, he left Faria his library and the famous breviary in which the treasure letter was hidden."
+      }
+    ],
+    "moments": []
+  },
+  {
+    "id": "cesare-borgia",
+    "name": "Cæsar Borgia",
+    "firstChapter": 18,
+    "importance": "minor",
+    "group": "History & legend",
+    "aliases": [],
+    "tagline": [
+      {
+        "from": 18,
+        "text": "Son of Pope Alexander VI, who poisoned Cardinal Spada for his wealth."
+      }
+    ],
+    "description": [
+      {
+        "from": 18,
+        "text": "Son of Pope Alexander VI. He and his father poisoned rich cardinals to seize their wealth, but they never found Cardinal Spada's fortune."
+      }
+    ],
+    "moments": []
+  },
+  {
+    "id": "m-de-boville",
+    "name": "M. de Boville",
+    "firstChapter": 28,
+    "importance": "supporting",
+    "group": "Prisoners & jailers",
+    "aliases": [],
+    "tagline": [
+      {
+        "from": 28,
+        "text": "Inspector of prisons, desperate over money owed him by Morrel."
+      },
+      {
+        "from": 69,
+        "text": "Former inspector of prisons, now high in the police."
+      },
+      {
+        "from": 104,
+        "text": "Former prison inspector, now collecting funds for the Paris hospitals."
+      }
+    ],
+    "description": [
+      {
+        "from": 28,
+        "text": "Inspector of prisons for fourteen years, he had invested his daughter's dowry of two hundred thousand francs with Morrel and was in despair. He believes the prisoner Dantès drowned while escaping and finds the story funny. He sells his doubtful claim at full value to the Englishman from Thomson & French and lets him search the prison registers."
+      },
+      {
+        "from": 69,
+        "text": "Now risen to a high post in the police, he handles Villefort's request for information about the Count of Monte Cristo."
+      },
+      {
+        "from": 104,
+        "text": "Now Receiver-General of the charities, he comes to Danglars for five million francs owed to the hospitals. He does not recognise the Count, who bows to him as if they had met before."
+      }
+    ],
+    "moments": [
+      {
+        "chapter": 28,
+        "text": "Sold his claim on Morrel at full value and let the Englishman search the prison registers."
+      },
+      {
+        "chapter": 104,
+        "text": "Agreed to return the next day at noon for the hospitals' five million from Danglars."
+      }
+    ]
+  },
+  {
+    "id": "gaetano",
+    "name": "Gaetano",
+    "firstChapter": 31,
+    "importance": "minor",
+    "group": "Sailors & smugglers",
+    "aliases": [],
+    "tagline": [
+      {
+        "from": 31,
+        "text": "Captain of Franz's boat, a part-time smuggler who knows the coast's secrets."
+      }
+    ],
+    "description": [
+      {
+        "from": 31,
+        "text": "Captain of Franz's boat and a part-time smuggler who knows the signals of smugglers and bandits. He has heard rumours of a mysterious chief."
+      },
+      {
+        "from": 32,
+        "text": "He tells Franz that Sinbad is on excellent terms with smugglers and bandits all along the coast and owns a yacht faster than any frigate."
+      }
+    ],
+    "moments": []
+  },
+  {
+    "id": "penelon",
+    "name": "Penelon",
+    "firstChapter": 29,
+    "importance": "supporting",
+    "group": "The Morrel family",
+    "aliases": [],
+    "tagline": [
+      {
+        "from": 29,
+        "text": "Tobacco-chewing old sailor of the Pharaon, loyal to the Morrels."
+      },
+      {
+        "from": 50,
+        "text": "Old quartermaster of the Pharaon, now the Morrel family's gardener."
+      }
+    ],
+    "description": [
+      {
+        "from": 29,
+        "text": "A tobacco-chewing old sailor who survived the wreck of the Pharaon. He and his shipmates would rather wait for their wages than leave Morrel."
+      },
+      {
+        "from": 30,
+        "text": "Newly dressed and embarrassed, he seems to have found a new master, and returns aboard the new Pharaon."
+      },
+      {
+        "from": 50,
+        "text": "The old quartermaster is now the family gardener and still calls Julie 'Mademoiselle'. Four years ago in Trieste he saw the 'Englishman' of 1829 boarding a yacht."
+      }
+    ],
+    "moments": [
+      {
+        "chapter": 29,
+        "text": "Described the sinking of the Pharaon and offered to work unpaid."
+      }
+    ]
+  }
+]

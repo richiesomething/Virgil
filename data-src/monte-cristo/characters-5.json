@@ -1,0 +1,1145 @@
+[
+  {
+    "id": "pierre-morrel",
+    "name": "M. Morrel",
+    "firstChapter": 1,
+    "importance": "supporting",
+    "group": "The Morrel family",
+    "aliases": [
+      {
+        "name": "Pierre Morrel",
+        "from": 90,
+        "note": "his full name, given in the Count's will"
+      }
+    ],
+    "tagline": [
+      {
+        "from": 1,
+        "text": "Kind Marseille shipowner who employs Dantès and means to make him captain"
+      },
+      {
+        "from": 27,
+        "text": "Dantès' loyal old employer, now close to ruin"
+      },
+      {
+        "from": 30,
+        "text": "Shipowner saved from ruin and suicide by a mysterious benefactor"
+      },
+      {
+        "from": 50,
+        "text": "The late father of Maximilian and Julie, remembered for his honesty"
+      }
+    ],
+    "description": [
+      {
+        "from": 1,
+        "text": "M. Morrel owns the Marseille shipping firm Morrel & Son and its ship the Pharaon. He is kind, fair and fond of young Dantès, whom he plans to make captain. He seems to have a quiet sympathy for Napoleon, in whose army his uncle Policar served."
+      },
+      {
+        "from": 5,
+        "text": "He honours Dantès' betrothal feast with his presence and, when Edmond is arrested, rushes to help. Convinced of his innocence, he goes to plead with the deputy prosecutor Villefort, and meanwhile gives Danglars temporary command of the Pharaon."
+      },
+      {
+        "from": 7,
+        "text": "Villefort receives him coldly, treating him as a suspected Bonapartist. Morrel goes on to appeal to every influential friend he has, and is refused everywhere."
+      },
+      {
+        "from": 13,
+        "text": "During Napoleon's brief return to power he petitions again and again for Dantès' release, never suspecting that Villefort is deceiving him. Cautious but loyal, he pays for old Dantès' funeral even though helping a 'Bonapartist' family is dangerous."
+      },
+      {
+        "from": 27,
+        "text": "Years later, Caderousse describes how Morrel was persecuted as a Bonapartist for his petitions. Now he has lost five ships and is close to ruin, with only the Pharaon left to save him. He has a wife, a daughter, and a son who is an army lieutenant."
+      },
+      {
+        "from": 28,
+        "text": "He has told his creditors he cannot pay unless the Pharaon arrives by the 15th. The prison files show that his 1815 petition for Dantès was later used by Villefort as proof that Dantès was a dangerous Bonapartist."
+      },
+      {
+        "from": 29,
+        "text": "Aged by fourteen years of trouble, he is still scrupulously honest and proud that his firm has never failed to honour a signature. Then news comes that the Pharaon has sunk, leaving him 287,500 francs in debt and nothing to pay with; he thanks God that the crew survived."
+      },
+      {
+        "from": 30,
+        "text": "Believing a suicide leaves an honest name where bankruptcy would not, and refused help by Danglars, he prepares to shoot himself. At the stroke of eleven he is saved by a purse sent by 'Sinbad the Sailor' holding his settled debt, and a brand-new Pharaon sails into port. The reader knows the mysterious Englishman and 'Sinbad' were Edmond Dantès repaying his old patron; Morrel does not."
+      },
+      {
+        "from": 50,
+        "text": "He has since died, leaving his children comfortably off. He always insisted 'It was no Englishman that thus saved us', and his last words were 'Maximilian, it was Edmond Dantès!'"
+      },
+      {
+        "from": 51,
+        "text": "In Marseille he is remembered as a deeply honest merchant and a devoted supporter of the emperor."
+      },
+      {
+        "from": 105,
+        "text": "The Count finally tells Maximilian that he was the one who saved his father from suicide, ten years ago to the day, on 5 September."
+      },
+      {
+        "from": 113,
+        "text": "He died in his children's arms and lies in Marseille beside his wife, who died two years before him."
+      }
+    ],
+    "moments": [
+      {
+        "chapter": 1,
+        "text": "Told Dantès he intended to make him captain of the Pharaon."
+      },
+      {
+        "chapter": 5,
+        "text": "Gave Danglars temporary command of the Pharaon after Dantès' arrest."
+      },
+      {
+        "chapter": 7,
+        "text": "Pleaded with Villefort for Dantès and was coldly received."
+      },
+      {
+        "chapter": 13,
+        "text": "Paid for old Dantès' funeral despite the risk of being seen to help a 'Bonapartist' family."
+      },
+      {
+        "chapter": 29,
+        "text": "Learned the Pharaon had sunk and thanked God that the crew was saved."
+      },
+      {
+        "chapter": 30,
+        "text": "Was saved at the stroke of eleven by Sinbad's purse and a new Pharaon."
+      },
+      {
+        "chapter": 50,
+        "text": "Died saying, 'Maximilian, it was Edmond Dantès!'"
+      }
+    ]
+  },
+  {
+    "id": "maximilien-morrel",
+    "name": "Maximilian Morrel",
+    "firstChapter": 30,
+    "importance": "major",
+    "group": "The Morrel family",
+    "aliases": [
+      {
+        "name": "Captain Morrel of the Spahis",
+        "from": 40,
+        "note": "his rank as a cavalry officer in Algeria"
+      }
+    ],
+    "tagline": [
+      {
+        "from": 30,
+        "text": "Morrel's dutiful son, a young army officer nicknamed 'the stoic'"
+      },
+      {
+        "from": 40,
+        "text": "Brave cavalry captain, still seeking the stranger who saved his family"
+      },
+      {
+        "from": 51,
+        "text": "Spahi captain secretly in love with Valentine de Villefort"
+      },
+      {
+        "from": 73,
+        "text": "Valentine's desperate secret suitor, who has overheard talk of poison"
+      },
+      {
+        "from": 102,
+        "text": "Heartbroken over Valentine's death, kept alive only by his promise to the Count"
+      },
+      {
+        "from": 117,
+        "text": "Reunited with Valentine on the island of Monte Cristo"
+      }
+    ],
+    "description": [
+      {
+        "from": 30,
+        "text": "Morrel's son, about twenty-two, trained at the Polytechnic School and now a sub-lieutenant in the 53rd infantry. His strict sense of duty has earned him the nickname 'the stoic', and he has great influence over his father. Told of the family's ruin, he heartbrokenly accepts his father's choice to die and swears to live on and restore the family name, before the mysterious rescue saves them all."
+      },
+      {
+        "from": 40,
+        "text": "Years later he is a captain of Spahis (French cavalry in Algeria) and a member of the Legion of Honour, dignified and brave; he once saved Château-Renaud from Arab horsemen. Every 5 September, the anniversary of his father's rescue, he tries to do some good deed, and he is still hunting for the unknown benefactor who acted through Thomson & French. His sister is happily married to Emmanuel Herbaut. The reader knows that benefactor was Dantès."
+      },
+      {
+        "from": 50,
+        "text": "When the Count calls at the family home in the Rue Meslay, Maximilian is warm and open. He tells how Julie and Emmanuel wound up the firm with honour, and that his father died convinced their rescuer was Edmond Dantès. He feels the Count 'likes us'."
+      },
+      {
+        "from": 51,
+        "text": "He is secretly and passionately in love with Valentine de Villefort, who is engaged to Franz d'Épinay. He has rented the plot behind her garden and poses as a gardener so they can talk through a boarded gate, and he scrupulously respects every limit she sets, hoping Providence will free her."
+      },
+      {
+        "from": 57,
+        "text": "He feels a mysterious bond with Monte Cristo and half believes the Count quietly arranges good fortune for him. He keeps his love for Valentine secret even from his sister."
+      },
+      {
+        "from": 73,
+        "text": "Now thirty, he is in despair as Valentine's marriage to Franz is hurried forward, and resolves to kill himself if it goes ahead. Hiding in the garden, he overhears Dr. d'Avrigny tell Villefort that Madame de Saint-Méran was poisoned, but says nothing to Valentine. Brought before Noirtier, he swears to wait for the old man's decision."
+      },
+      {
+        "from": 78,
+        "text": "When Noirtier's revelation breaks off the engagement to Franz, Valentine tells Maximilian at the gate that they are saved, and he comes to worship the old man."
+      },
+      {
+        "from": 79,
+        "text": "Visiting the Villefort house, he witnesses the servant Barrois' collapse and slips away unseen."
+      },
+      {
+        "from": 88,
+        "text": "At the Opera he stops Albert de Morcerf from throwing his glove at the Count, then agrees to act as the Count's second, chilled by how coldly the Count speaks of killing Albert."
+      },
+      {
+        "from": 90,
+        "text": "On the morning of the duel he learns that the Count's will names him heir to twenty million francs. He admits he loves a young girl more than his life, secures the first shot for his friend, and begs him to spare Albert. Afterwards the Count promises him the use of his power whenever he needs it."
+      },
+      {
+        "from": 93,
+        "text": "Now allowed to visit Valentine twice a week, he has learned to read Noirtier's signals, and he is present when Valentine collapses."
+      },
+      {
+        "from": 94,
+        "text": "In his fear he tells Monte Cristo what he overheard about poison and confesses that he loves Valentine de Villefort."
+      },
+      {
+        "from": 102,
+        "text": "Trusting the Count's promise, he is caught off guard when he finds the house deserted, and rushes upstairs to hear that Valentine is dead."
+      },
+      {
+        "from": 103,
+        "text": "He carries Noirtier up to her deathbed, declares himself her betrothed, denounces her murder, and blames himself for never revealing what he overheard."
+      },
+      {
+        "from": 105,
+        "text": "He meant to shoot himself after the funeral; he had never loved anyone before he met Valentine at twenty-nine. The Count stops him, revealing that he is Edmond Dantès, the man who saved his father, and makes him swear to wait one month, until 5 October."
+      },
+      {
+        "from": 112,
+        "text": "Numb and hopeless, he follows the Count to Marseille and weeps at his father's grave, feeling that leaving Paris is like losing Valentine a second time."
+      },
+      {
+        "from": 113,
+        "text": "He renews his promise to wait and agrees to be brought from Bastia to the island of Monte Cristo on 5 October."
+      },
+      {
+        "from": 117,
+        "text": "Having waited a month in vain, he comes calmly to die, refusing even the Count's fortune, and swallows what he believes is a fatal drug. He wakes to find Valentine alive beside him; the Count's farewell gifts go to him as the son of his old master."
+      }
+    ],
+    "moments": [
+      {
+        "chapter": 30,
+        "text": "Agreed, heartbroken, to let his father die and to live on to restore the family name."
+      },
+      {
+        "chapter": 40,
+        "text": "Told how he saved Château-Renaud from Arab horsemen in Algeria."
+      },
+      {
+        "chapter": 50,
+        "text": "Revealed that his father died believing their rescuer was Edmond Dantès."
+      },
+      {
+        "chapter": 51,
+        "text": "Posed as a gardener to meet Valentine through the boarded gate."
+      },
+      {
+        "chapter": 57,
+        "text": "Kissed Valentine's hand through the garden gate."
+      },
+      {
+        "chapter": 73,
+        "text": "Overheard Dr. d'Avrigny tell Villefort the marquise was poisoned."
+      },
+      {
+        "chapter": 73,
+        "text": "Swore to Noirtier to await his decision."
+      },
+      {
+        "chapter": 78,
+        "text": "Heard from Valentine at the gate that they were saved."
+      },
+      {
+        "chapter": 79,
+        "text": "Witnessed Barrois' collapse and slipped away unseen."
+      },
+      {
+        "chapter": 88,
+        "text": "Stopped Albert from throwing his glove at the Count."
+      },
+      {
+        "chapter": 90,
+        "text": "Acted as the Count's second at the meeting with Albert."
+      },
+      {
+        "chapter": 94,
+        "text": "Confessed his love for Valentine to the Count."
+      },
+      {
+        "chapter": 102,
+        "text": "Rushed upstairs just in time to hear that Valentine was dead."
+      },
+      {
+        "chapter": 103,
+        "text": "Carried Noirtier to Valentine's deathbed and denounced her murder."
+      },
+      {
+        "chapter": 105,
+        "text": "Swore not to take his life before 5 October."
+      },
+      {
+        "chapter": 112,
+        "text": "Wept at his father's grave in Marseille."
+      },
+      {
+        "chapter": 113,
+        "text": "Agreed to meet the Count on the island of Monte Cristo on 5 October."
+      },
+      {
+        "chapter": 117,
+        "text": "Swallowed what he believed was a deadly drug, and woke to find Valentine beside him."
+      }
+    ]
+  },
+  {
+    "id": "julie-morrel",
+    "name": "Julie Morrel",
+    "firstChapter": 29,
+    "importance": "supporting",
+    "group": "The Morrel family",
+    "aliases": [
+      {
+        "name": "Madame Herbaut",
+        "from": 40,
+        "note": "her married name as Emmanuel Herbaut's wife"
+      }
+    ],
+    "tagline": [
+      {
+        "from": 29,
+        "text": "Morrel's devoted young daughter"
+      },
+      {
+        "from": 30,
+        "text": "Morrel's daughter, who fetched the purse that saved her father"
+      },
+      {
+        "from": 40,
+        "text": "Maximilian's happily married sister, wife of Emmanuel Herbaut"
+      }
+    ],
+    "description": [
+      {
+        "from": 29,
+        "text": "Morrel's beautiful daughter, sixteen or seventeen and devoted to her father. She blushes when a stranger from Thomson & French hints that she will marry the clerk Emmanuel, and she promises to obey a letter signed 'Sinbad the Sailor'."
+      },
+      {
+        "from": 30,
+        "text": "Trusting the letter despite her fears, she fetches a red silk purse from the Allées de Meilhan and reaches her father just in time to save him."
+      },
+      {
+        "from": 40,
+        "text": "Nearly nine years on she is twenty-five, married to Emmanuel Herbaut and, as her brother says, 'as happy as it is permitted to a human creature to be'. She lives in the Rue Meslay in Paris."
+      },
+      {
+        "from": 50,
+        "text": "She longs to thank the family's unknown benefactor and keeps his purse, letter and diamond as treasured relics, which she shows the visiting Count. She feels she has heard his voice before."
+      },
+      {
+        "from": 105,
+        "text": "When she learns that the Count is the benefactor, she brings out the purse from under its crystal globe to honour him and refuses to give it back."
+      },
+      {
+        "from": 112,
+        "text": "Sensing her brother is hiding something, she begs the Count to restore his happiness. She still trusts 'Sinbad the Sailor'."
+      }
+    ],
+    "moments": [
+      {
+        "chapter": 29,
+        "text": "Swore to obey a letter signed 'Sinbad the Sailor'."
+      },
+      {
+        "chapter": 30,
+        "text": "Fetched the red silk purse from the Allées de Meilhan and reached her father just in time."
+      },
+      {
+        "chapter": 50,
+        "text": "Showed the Count the purse and the letter signed 'Sinbad the Sailor'."
+      },
+      {
+        "chapter": 105,
+        "text": "Brought out the silk purse from under its crystal globe to honour the Count."
+      },
+      {
+        "chapter": 112,
+        "text": "Begged the Count to bring back her brother's happiness."
+      }
+    ]
+  },
+  {
+    "id": "emmanuel-herbaut",
+    "name": "Emmanuel",
+    "firstChapter": 29,
+    "importance": "supporting",
+    "group": "The Morrel family",
+    "aliases": [
+      {
+        "name": "Emmanuel Herbaut",
+        "from": 40,
+        "note": "his surname"
+      }
+    ],
+    "tagline": [
+      {
+        "from": 29,
+        "text": "Loyal young clerk who stays with Morrel's failing firm for love of Julie"
+      },
+      {
+        "from": 40,
+        "text": "Julie Morrel's devoted husband"
+      }
+    ],
+    "description": [
+      {
+        "from": 29,
+        "text": "A young clerk of twenty-three or twenty-four who stays with Morrel's failing firm because he loves Morrel's daughter Julie. She trusts him above everyone; he escorts her on her errand and brings the news of the new Pharaon."
+      },
+      {
+        "from": 40,
+        "text": "Now about thirty, he is Julie's husband, honoured for having stayed loyal to the Morrels when their fortunes fell."
+      },
+      {
+        "from": 50,
+        "text": "He ran the family firm until he had earned 250,000 francs to match his wife's inheritance, then closed the business rather than sell the Morrel name. He finds the Count a strange man."
+      },
+      {
+        "from": 88,
+        "text": "At Maximilian's request he agrees to serve as the Count's second witness at the meeting with Albert de Morcerf."
+      },
+      {
+        "from": 92,
+        "text": "When the affair ends peacefully he is overjoyed and hurries home to Julie."
+      },
+      {
+        "from": 105,
+        "text": "When the Count reveals himself as the family's benefactor, Emmanuel gently reproaches him for hiding so long. The Count asks him to watch over Maximilian."
+      },
+      {
+        "from": 112,
+        "text": "He believes the falls of Morcerf, Danglars and Villefort were directed by Providence, and calls the Count an angel."
+      }
+    ],
+    "moments": [
+      {
+        "chapter": 30,
+        "text": "Brought the news that the new Pharaon was entering port."
+      },
+      {
+        "chapter": 90,
+        "text": "Served as the Count's second witness at the meeting with Albert."
+      },
+      {
+        "chapter": 105,
+        "text": "Gently reproached the Count for hiding himself so long."
+      }
+    ]
+  },
+  {
+    "id": "madame-morrel",
+    "name": "Madame Morrel",
+    "firstChapter": 29,
+    "importance": "minor",
+    "group": "The Morrel family",
+    "aliases": [],
+    "tagline": [
+      {
+        "from": 29,
+        "text": "Morrel's faithful wife, mother of Julie and Maximilian"
+      }
+    ],
+    "description": [
+      {
+        "from": 29,
+        "text": "Morrel's wife, who weeps at the news of the wreck but stays at her husband's side, and fears, watching through the keyhole, that he is writing his will."
+      },
+      {
+        "from": 113,
+        "text": "She died two years before her husband and lies beside him in Marseille."
+      }
+    ],
+    "moments": []
+  },
+  {
+    "id": "cocles",
+    "name": "Cocles",
+    "firstChapter": 29,
+    "importance": "minor",
+    "group": "The Morrel family",
+    "aliases": [],
+    "tagline": [
+      {
+        "from": 29,
+        "text": "Morrel's devoted one-eyed cashier"
+      },
+      {
+        "from": 50,
+        "text": "The Morrels' faithful one-eyed old doorkeeper"
+      }
+    ],
+    "description": [
+      {
+        "from": 29,
+        "text": "The firm's one-eyed cashier, nicknamed 'Cocles' (cock-eye). Utterly devoted, he is sure the firm can never stop paying because in twenty years it never has, and is crushed when Morrel shows him the true accounts."
+      },
+      {
+        "from": 50,
+        "text": "He now keeps the door at the Morrels' house in Paris, and does not recognize the Count."
+      }
+    ],
+    "moments": []
+  },
+  {
+    "id": "captain-gaumard",
+    "name": "Captain Gaumard",
+    "firstChapter": 29,
+    "importance": "minor",
+    "group": "Sailors & smugglers",
+    "aliases": [],
+    "tagline": [
+      {
+        "from": 29,
+        "text": "Brave captain of Morrel's Pharaon"
+      }
+    ],
+    "description": [
+      {
+        "from": 29,
+        "text": "The Pharaon's captain fought the storm bravely, threatening to shoot any man who left the pumps, and had to be thrown into the lifeboat by Penelon. He stayed behind sick at Palma."
+      },
+      {
+        "from": 30,
+        "text": "Recovered, he returns from Palma and brings the new Pharaon into port."
+      }
+    ],
+    "moments": [
+      {
+        "chapter": 30,
+        "text": "Brought the new Pharaon into Marseille harbour."
+      }
+    ]
+  },
+  {
+    "id": "signor-pastrini",
+    "name": "Signor Pastrini",
+    "firstChapter": 31,
+    "importance": "supporting",
+    "group": "Rome & the bandits",
+    "aliases": [],
+    "tagline": [
+      {
+        "from": 31,
+        "text": "Owner of the Hôtel de Londres in Rome"
+      }
+    ],
+    "description": [
+      {
+        "from": 31,
+        "text": "Owner of the Hôtel de Londres in Rome, where Franz and Albert have booked rooms for the Carnival."
+      },
+      {
+        "from": 32,
+        "text": "An obsequious but practical innkeeper, he warns that no carriages can be had at Carnival time. The rest of his floor is let to a mysterious rich traveller."
+      },
+      {
+        "from": 33,
+        "text": "He knew the bandit Luigi Vampa as a child, and was once captured and released by him, receiving a fine Bréguet watch. He tells the friends Vampa's story."
+      },
+      {
+        "from": 34,
+        "text": "He arranges his neighbour the Count's offer of carriage seats and windows, and collects execution notices for his guests' convenience."
+      },
+      {
+        "from": 36,
+        "text": "He conjures up ready-made peasant costumes for the friends' Carnival outing."
+      },
+      {
+        "from": 37,
+        "text": "Alarmed by a messenger who arrives at night, he arranges Franz's late audience with the Count."
+      },
+      {
+        "from": 114,
+        "text": "Years later he welcomes Danglars to his hotel and interprets for him."
+      }
+    ],
+    "moments": [
+      {
+        "chapter": 33,
+        "text": "Told Franz and Albert the story of Luigi Vampa."
+      },
+      {
+        "chapter": 37,
+        "text": "Arranged Franz's late-night audience with the Count."
+      },
+      {
+        "chapter": 114,
+        "text": "Welcomed Danglars to the Hôtel de Londres."
+      }
+    ]
+  },
+  {
+    "id": "luigi-vampa",
+    "name": "Luigi Vampa",
+    "firstChapter": 33,
+    "importance": "supporting",
+    "group": "Rome & the bandits",
+    "aliases": [],
+    "tagline": [
+      {
+        "from": 33,
+        "text": "Former shepherd turned feared bandit chief of the Roman countryside"
+      },
+      {
+        "from": 34,
+        "text": "Roman bandit chief who owes total obedience to the Count"
+      },
+      {
+        "from": 114,
+        "text": "Bandit chief holding Danglars captive in the catacombs"
+      }
+    ],
+    "description": [
+      {
+        "from": 33,
+        "text": "A famous bandit of about twenty-two, once a shepherd of remarkable intelligence, pride and marksmanship. Moody and jealous, he burned the San-Felice villa to win his beloved Teresa a fine costume, then shot the brutal chief Cucumetto and took over his band. He kills prisoners whose ransom arrives late, and hides among shepherds, fishermen and islands such as Monte Cristo."
+      },
+      {
+        "from": 34,
+        "text": "He pays an informer inside the papal prison and is fiercely loyal to those who serve him. At the Colosseum Franz overhears him pledge total obedience to a cloaked man, the Count, in return for saving his man Peppino from execution."
+      },
+      {
+        "from": 37,
+        "text": "When his band kidnaps Albert, the Count comes to the catacombs and Vampa releases him at once, apologizing. He reads Caesar's Commentaries, admires courage, keeps his word like a gentleman, and would punish any man who knowingly harmed the Count's friend."
+      },
+      {
+        "from": 40,
+        "text": "The Count explains that he met Vampa as a shepherd boy more than ten years ago, later captured him and his band, and freed them on condition that they always respect him and his friends."
+      },
+      {
+        "from": 53,
+        "text": "The Count enters a racehorse in Paris under the name 'Vampa', which gives him away to Albert."
+      },
+      {
+        "from": 114,
+        "text": "He still leads his band from the catacombs of Saint Sebastian, now reading Plutarch's Life of Alexander. Danglars is led to him as a prisoner."
+      },
+      {
+        "from": 116,
+        "text": "He answers to a higher chief who has forbidden him to shed Danglars' blood. He demands the banker's whole five million as ransom, charged meal by meal, and reminds him that some men suffered worse, dying of hunger."
+      }
+    ],
+    "moments": [
+      {
+        "chapter": 33,
+        "text": "Shot Cucumetto dead and was chosen captain of the bandits."
+      },
+      {
+        "chapter": 34,
+        "text": "Pledged obedience to the cloaked man at the Colosseum in return for Peppino's life."
+      },
+      {
+        "chapter": 37,
+        "text": "Released Albert and apologized to the Count."
+      },
+      {
+        "chapter": 116,
+        "text": "Reminded Danglars that some men had suffered more, those who died of hunger."
+      }
+    ]
+  },
+  {
+    "id": "teresa",
+    "name": "Teresa",
+    "firstChapter": 33,
+    "importance": "minor",
+    "group": "Rome & the bandits",
+    "aliases": [],
+    "tagline": [
+      {
+        "from": 33,
+        "text": "Shepherdess loved by Luigi Vampa, who followed him into banditry"
+      }
+    ],
+    "description": [
+      {
+        "from": 33,
+        "text": "An orphan shepherdess from Valmontone, beautiful, flirtatious and fond of finery. She is the only person who can control Vampa, and eagerly followed him into the bandit life after he shot Cucumetto to rescue her."
+      },
+      {
+        "from": 37,
+        "text": "Now Vampa's mistress, she was the masked 'peasant' in the Carnival carriage who flirted with Albert, with Vampa's consent."
+      }
+    ],
+    "moments": [
+      {
+        "chapter": 33,
+        "text": "Was rescued from Cucumetto by Vampa's shot."
+      }
+    ]
+  },
+  {
+    "id": "peppino",
+    "name": "Peppino",
+    "firstChapter": 34,
+    "importance": "supporting",
+    "group": "Rome & the bandits",
+    "aliases": [
+      {
+        "name": "Rocca Priori",
+        "from": 34,
+        "note": "his nickname on the execution notice"
+      }
+    ],
+    "tagline": [
+      {
+        "from": 34,
+        "text": "Shepherd condemned to death for helping Vampa's bandits"
+      },
+      {
+        "from": 35,
+        "text": "Vampa's man, pardoned at the scaffold thanks to the Count"
+      },
+      {
+        "from": 114,
+        "text": "Polite bandit who sells the captive Danglars food at ruinous prices"
+      }
+    ],
+    "description": [
+      {
+        "from": 34,
+        "text": "A shepherd condemned to the guillotine for supplying food to Vampa's band. Franz overhears the cloaked Count promise Vampa to save him."
+      },
+      {
+        "from": 35,
+        "text": "A handsome, sunburned man of twenty-four or twenty-five, he walks to the scaffold with a firm step, watching for his rescuer, and is pardoned at the last moment; afterwards he slips away into the crowd."
+      },
+      {
+        "from": 37,
+        "text": "Now serving as Vampa's messenger and fiercely grateful to the Count, he brings the ransom letter for Albert and guides the Count to the catacombs."
+      },
+      {
+        "from": 40,
+        "text": "Albert guesses that the 'life of a man' the Pope granted the Count in exchange for an emerald was Peppino's."
+      },
+      {
+        "from": 114,
+        "text": "Years later he shadows Danglars through Rome and leads him into the catacombs; the bandits, helped by a clerk at Thomson & French, knew in advance what the banker would draw."
+      },
+      {
+        "from": 115,
+        "text": "An epicure who speaks perfect French, he runs the bandits' 'fixed-price' menu with flawless politeness, charging Danglars 100,000 francs for a chicken or a loaf of bread."
+      },
+      {
+        "from": 116,
+        "text": "He keeps selling Danglars food and drink at ruinous prices, and finally ignores his pleas."
+      }
+    ],
+    "moments": [
+      {
+        "chapter": 35,
+        "text": "Was pardoned at the foot of the scaffold."
+      },
+      {
+        "chapter": 37,
+        "text": "Delivered the ransom letter and guided the Count to the catacombs."
+      },
+      {
+        "chapter": 114,
+        "text": "Shadowed Danglars through Rome and led him into the catacombs."
+      },
+      {
+        "chapter": 115,
+        "text": "Charged Danglars 100,000 francs for a fowl, or for a loaf of bread."
+      }
+    ]
+  },
+  {
+    "id": "cucumetto",
+    "name": "Cucumetto",
+    "firstChapter": 33,
+    "importance": "minor",
+    "group": "Rome & the bandits",
+    "aliases": [],
+    "tagline": [
+      {
+        "from": 33,
+        "text": "Brutal bandit chief killed by the young Luigi Vampa"
+      }
+    ],
+    "description": [
+      {
+        "from": 33,
+        "text": "A notorious and brutal bandit chief from Pastrini's story, who shot his own man Carlini in the back. After Vampa and Teresa hid him from soldiers, he set his sights on Teresa and was shot dead by Vampa as he carried her off."
+      }
+    ],
+    "moments": [
+      {
+        "chapter": 33,
+        "text": "Was shot dead by Vampa while carrying Teresa off."
+      }
+    ]
+  },
+  {
+    "id": "carlini",
+    "name": "Carlini",
+    "firstChapter": 33,
+    "importance": "minor",
+    "group": "Rome & the bandits",
+    "aliases": [],
+    "tagline": [
+      {
+        "from": 33,
+        "text": "Tragic bandit in Cucumetto's band, from Pastrini's tale"
+      }
+    ],
+    "description": [
+      {
+        "from": 33,
+        "text": "One of Cucumetto's bandits. He stabbed his beloved Rita to spare her from the band, swore revenge, and was shot from behind by Cucumetto."
+      }
+    ],
+    "moments": []
+  },
+  {
+    "id": "rita",
+    "name": "Rita",
+    "firstChapter": 33,
+    "importance": "minor",
+    "group": "Rome & the bandits",
+    "aliases": [],
+    "tagline": [
+      {
+        "from": 33,
+        "text": "Carlini's beloved, kidnapped by Cucumetto in Pastrini's tale"
+      }
+    ],
+    "description": [
+      {
+        "from": 33,
+        "text": "A surveyor's daughter from Frosinone, kidnapped by Cucumetto and killed by her lover Carlini to spare her from the band; her father hanged himself over her grave."
+      }
+    ],
+    "moments": []
+  },
+  {
+    "id": "diavolaccio",
+    "name": "Diavolaccio",
+    "firstChapter": 33,
+    "importance": "minor",
+    "group": "Rome & the bandits",
+    "aliases": [],
+    "tagline": [
+      {
+        "from": 33,
+        "text": "Bandit in Cucumetto's band, from Pastrini's tale"
+      }
+    ],
+    "description": [
+      {
+        "from": 33,
+        "text": "A bandit in Cucumetto's band who won the lot for the captive Rita, only to find that Carlini had stabbed her."
+      }
+    ],
+    "moments": []
+  },
+  {
+    "id": "carmela",
+    "name": "Carmela",
+    "firstChapter": 33,
+    "importance": "minor",
+    "group": "Rome & the bandits",
+    "aliases": [],
+    "tagline": [
+      {
+        "from": 33,
+        "text": "The Count of San-Felice's daughter, whose costume Teresa envied"
+      }
+    ],
+    "description": [
+      {
+        "from": 33,
+        "text": "The Count of San-Felice's beloved daughter, whose ball costume Teresa envied. When the villa burned, an unknown peasant carried her out of the flames."
+      }
+    ],
+    "moments": []
+  },
+  {
+    "id": "count-of-san-felice",
+    "name": "the Count of San-Felice",
+    "firstChapter": 33,
+    "importance": "minor",
+    "group": "Rome & the bandits",
+    "aliases": [],
+    "tagline": [
+      {
+        "from": 33,
+        "text": "Rich nobleman who employed the boy Luigi Vampa"
+      }
+    ],
+    "description": [
+      {
+        "from": 33,
+        "text": "A rich nobleman who employed Vampa as a shepherd boy, rewarded his cleverness, and gave the Carnival ball where Teresa danced. His villa later burned down."
+      }
+    ],
+    "moments": []
+  },
+  {
+    "id": "countess-g",
+    "name": "the Countess G——",
+    "firstChapter": 34,
+    "importance": "supporting",
+    "group": "Rome & the bandits",
+    "aliases": [],
+    "tagline": [
+      {
+        "from": 34,
+        "text": "Witty Venetian countess who thinks the pale Count is a vampire"
+      }
+    ],
+    "description": [
+      {
+        "from": 34,
+        "text": "A witty, beautiful Venetian aristocrat whom Franz knew in Paris. Imaginative and superstitious, she is frightened by the pale stranger at the theatre in Rome and calls him a vampire."
+      },
+      {
+        "from": 36,
+        "text": "She later decides the Count is merely an eccentric millionaire, and teases Albert about his Carnival romance."
+      },
+      {
+        "from": 37,
+        "text": "At the Duke of Bracciano's ball she worries when Albert fails to appear to claim the dance she promised him."
+      },
+      {
+        "from": 53,
+        "text": "Now in Paris, she is unnerved when the Count's racing cup is sent to her with a note from 'Lord Ruthven', and fears he holds a grudge over her vampire jokes."
+      },
+      {
+        "from": 68,
+        "text": "She still believes the Count is Lord Ruthven, the vampire of the stories."
+      }
+    ],
+    "moments": [
+      {
+        "chapter": 34,
+        "text": "Declared the pale stranger at the theatre a vampire."
+      },
+      {
+        "chapter": 53,
+        "text": "Received the Jockey Club gold cup with a note from 'Lord Ruthven'."
+      }
+    ]
+  },
+  {
+    "id": "andrea-rondolo",
+    "name": "Andrea Rondolo",
+    "firstChapter": 34,
+    "importance": "minor",
+    "group": "Rome & the bandits",
+    "aliases": [],
+    "tagline": [
+      {
+        "from": 34,
+        "text": "Condemned murderer executed during the Roman Carnival"
+      }
+    ],
+    "description": [
+      {
+        "from": 34,
+        "text": "Condemned to be killed with a mallet for murdering the priest Don César Torlini, who had raised him. A short, brutal-looking man, he rages when his fellow prisoner Peppino is pardoned, crying that he will not die alone."
+      }
+    ],
+    "moments": [
+      {
+        "chapter": 35,
+        "text": "Was executed with a mallet in the Piazza del Popolo."
+      }
+    ]
+  },
+  {
+    "id": "beppo",
+    "name": "Beppo",
+    "firstChapter": 37,
+    "importance": "minor",
+    "group": "Rome & the bandits",
+    "aliases": [],
+    "tagline": [
+      {
+        "from": 37,
+        "text": "Teenage bandit who lured Albert into Vampa's trap"
+      }
+    ],
+    "description": [
+      {
+        "from": 37,
+        "text": "A fifteen-year-old member of Vampa's band who disguised himself as a peasant girl and lured Albert into the ambush."
+      }
+    ],
+    "moments": []
+  },
+  {
+    "id": "duke-of-bracciano",
+    "name": "the Duke of Bracciano",
+    "firstChapter": 37,
+    "importance": "minor",
+    "group": "Rome & the bandits",
+    "aliases": [],
+    "tagline": [
+      {
+        "from": 37,
+        "text": "Roman banker famous for his balls"
+      }
+    ],
+    "description": [
+      {
+        "from": 37,
+        "text": "A celebrated Roman banker whose balls are famous across Europe. At his ball he worries about Albert being out in the streets at night."
+      }
+    ],
+    "moments": []
+  },
+  {
+    "id": "ali",
+    "name": "Ali",
+    "firstChapter": 31,
+    "importance": "supporting",
+    "group": "The Count's household",
+    "aliases": [],
+    "tagline": [
+      {
+        "from": 31,
+        "text": "Sinbad's devoted mute Nubian servant"
+      },
+      {
+        "from": 37,
+        "text": "The Count's devoted mute Nubian servant"
+      }
+    ],
+    "description": [
+      {
+        "from": 31,
+        "text": "A mute Nubian servant of Franz's mysterious host on Monte Cristo. The Bey of Tunis had his tongue cut out and was about to take his hand and head when 'Sinbad' bought his life with a fine gun and a cutlass, and Ali is utterly devoted to him."
+      },
+      {
+        "from": 37,
+        "text": "In Rome, Franz recognizes the Count's driver as the mute servant from the grotto on Monte Cristo."
+      },
+      {
+        "from": 40,
+        "text": "Sent a week ahead to Paris, he buys and furnishes a house for the Count and meets him at the city gate with the address."
+      },
+      {
+        "from": 42,
+        "text": "He chose the house on the Champs-Élysées and greets his master with sincere joy."
+      },
+      {
+        "from": 46,
+        "text": "The Count calls him a slave whose life belongs to him, and Ali happily agrees, though the Count is unexpectedly gentle with him."
+      },
+      {
+        "from": 47,
+        "text": "A skilled lasso thrower who says he has hunted lions, he stops Madame de Villefort's runaway carriage single-handed and calms the horses completely."
+      },
+      {
+        "from": 49,
+        "text": "He is to escort Haydée whenever she goes out, and is amazed to see his usually stern master happy."
+      },
+      {
+        "from": 82,
+        "text": "He serves as the Count's silent, trusted aide: loading his pistols at the shooting gallery, and keeping watch at his side with a hatchet on the night of the burglary."
+      },
+      {
+        "from": 90,
+        "text": "He drives the Count's carriage at breathtaking speed, brings his pistols before the duel, and carries his sealed will to the solicitor."
+      },
+      {
+        "from": 111,
+        "text": "He goes ahead with Haydée when the Count leaves Paris."
+      },
+      {
+        "from": 112,
+        "text": "He carries a letter from the Count to Noirtier and mimes the old man's 'yes' in reply."
+      }
+    ],
+    "moments": [
+      {
+        "chapter": 40,
+        "text": "Met the Count at the Paris city gate with the address of his new house."
+      },
+      {
+        "chapter": 47,
+        "text": "Stopped Madame de Villefort's runaway carriage with his lasso."
+      },
+      {
+        "chapter": 82,
+        "text": "Waited beside the Count with a hatchet and brought him the abbé's costume."
+      },
+      {
+        "chapter": 90,
+        "text": "Took the Count's sealed will to his solicitor."
+      },
+      {
+        "chapter": 112,
+        "text": "Mimed Noirtier's 'yes' after delivering the Count's letter."
+      }
+    ]
+  },
+  {
+    "id": "baptistin",
+    "name": "M. Baptistin",
+    "firstChapter": 46,
+    "importance": "supporting",
+    "group": "The Count's household",
+    "aliases": [],
+    "tagline": [
+      {
+        "from": 46,
+        "text": "The Count's discreet French valet in Paris"
+      }
+    ],
+    "description": [
+      {
+        "from": 46,
+        "text": "The Count's French valet, in his service for a year. He is warned never to gossip about his master and told that loyal servants share a fund to be divided at the Count's death."
+      },
+      {
+        "from": 54,
+        "text": "Efficient and perfectly discreet, he recognizes the Cavalcanti visitors from his master's exact descriptions and shows them in. Albert would love to employ him."
+      },
+      {
+        "from": 82,
+        "text": "He is sharply rebuked for questioning orders when he delivers an anonymous warning letter."
+      },
+      {
+        "from": 90,
+        "text": "He follows his master to the duel with Albert in terror."
+      },
+      {
+        "from": 111,
+        "text": "He is the only servant who leaves Paris with the Count and Morrel."
+      }
+    ],
+    "moments": [
+      {
+        "chapter": 55,
+        "text": "Recognized the Cavalcanti visitors from the Count's description."
+      },
+      {
+        "chapter": 82,
+        "text": "Delivered the anonymous warning letter and was rebuked for questioning orders."
+      },
+      {
+        "chapter": 111,
+        "text": "Left Paris with the Count and Morrel, the only servant to do so."
+      }
+    ]
+  }
+]
