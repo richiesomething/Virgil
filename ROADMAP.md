@@ -11,7 +11,7 @@ Guiding rule: **no spoilers**. Everything is gated by the reader's bookmark.
 
 ## Phase 2 — Relationships and structure
 6. ✅ Character map (relationship graph, click a character for their relationships and profile, replay slider that never passes the bookmark, filters by group/importance/relationship type; profiles list relationships too)
-7. Family trees
+7. ◐ Family trees: a "Family only" view on the map (generations in rows, spouses side by side) is done; a dedicated tree is worth building when a multi-generation saga is added
 8. ✅ Places and settings (also important objects), on the map and with their own profiles
 9. Timeline of events (story order vs. telling order)
 10. Plot threads / open questions

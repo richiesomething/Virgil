@@ -6,17 +6,20 @@
       {
         "from": 1,
         "type": "family",
-        "label": "Devoted son of a poor, proud father"
+        "label": "Devoted son of a poor, proud father",
+        "kin": "child"
       },
       {
         "from": 13,
         "type": "family",
-        "label": "His father dies while Edmond is in prison"
+        "label": "His father dies while Edmond is in prison",
+        "kin": "child"
       },
       {
         "from": 25,
         "type": "family",
-        "label": "Dantès learns his father is dead"
+        "label": "Dantès learns his father is dead",
+        "kin": "child"
       }
     ]
   },
@@ -970,12 +973,14 @@
       {
         "from": 26,
         "type": "love",
-        "label": "Caderousse and his bitter, sickly wife"
+        "label": "Caderousse and his bitter, sickly wife",
+        "kin": "spouse"
       },
       {
         "from": 45,
         "type": "love",
-        "label": "Partners in the jeweller’s murder"
+        "label": "Partners in the jeweller’s murder",
+        "kin": "spouse"
       }
     ]
   },
@@ -1029,22 +1034,26 @@
       {
         "from": 3,
         "type": "love",
-        "label": "Cousin who loves her; she refuses him"
+        "label": "Cousin who loves her; she refuses him",
+        "kin": "relative"
       },
       {
         "from": 27,
         "type": "love",
-        "label": "Married: now Count and Countess de Morcerf"
+        "label": "Married: now Count and Countess de Morcerf",
+        "kin": "spouse"
       },
       {
         "from": 91,
         "type": "love",
-        "label": "She renounces his name and fortune"
+        "label": "She renounces his name and fortune",
+        "kin": "spouse"
       },
       {
         "from": 92,
         "type": "love",
-        "label": "She leaves him; he shoots himself"
+        "label": "She leaves him; he shoots himself",
+        "kin": "spouse"
       }
     ]
   },
@@ -1077,27 +1086,32 @@
       {
         "from": 27,
         "type": "family",
-        "label": "Mercédès’ son, little Albert"
+        "label": "Mercédès’ son, little Albert",
+        "kin": "parent"
       },
       {
         "from": 41,
         "type": "family",
-        "label": "Albert’s loving, anxious mother"
+        "label": "Albert’s loving, anxious mother",
+        "kin": "parent"
       },
       {
         "from": 88,
         "type": "family",
-        "label": "She begs Albert to spare the Count"
+        "label": "She begs Albert to spare the Count",
+        "kin": "parent"
       },
       {
         "from": 91,
         "type": "family",
-        "label": "Mother and son give up everything together"
+        "label": "Mother and son give up everything together",
+        "kin": "parent"
       },
       {
         "from": 106,
         "type": "family",
-        "label": "Now poor, they plan separate futures"
+        "label": "Now poor, they plan separate futures",
+        "kin": "parent"
       }
     ]
   },
@@ -1108,22 +1122,26 @@
       {
         "from": 27,
         "type": "family",
-        "label": "Fernand’s son"
+        "label": "Fernand’s son",
+        "kin": "parent"
       },
       {
         "from": 87,
         "type": "family",
-        "label": "Albert swears to avenge his father"
+        "label": "Albert swears to avenge his father",
+        "kin": "parent"
       },
       {
         "from": 91,
         "type": "family",
-        "label": "Albert renounces his father’s name"
+        "label": "Albert renounces his father’s name",
+        "kin": "parent"
       },
       {
         "from": 92,
         "type": "family",
-        "label": "Fernand watches Albert leave him forever"
+        "label": "Fernand watches Albert leave him forever",
+        "kin": "parent"
       }
     ]
   },
@@ -1225,32 +1243,38 @@
       {
         "from": 6,
         "type": "family",
-        "label": "Royalist son of a Bonapartist father"
+        "label": "Royalist son of a Bonapartist father",
+        "kin": "child"
       },
       {
         "from": 7,
         "type": "family",
-        "label": "Villefort jails Dantès to shield Noirtier"
+        "label": "Villefort jails Dantès to shield Noirtier",
+        "kin": "child"
       },
       {
         "from": 12,
         "type": "family",
-        "label": "Villefort helps his fugitive father escape"
+        "label": "Villefort helps his fugitive father escape",
+        "kin": "child"
       },
       {
         "from": 48,
         "type": "family",
-        "label": "Villefort’s father, now paralysed"
+        "label": "Villefort’s father, now paralysed",
+        "kin": "child"
       },
       {
         "from": 58,
         "type": "family",
-        "label": "Noirtier silently defies his son’s plans"
+        "label": "Noirtier silently defies his son’s plans",
+        "kin": "child"
       },
       {
         "from": 103,
         "type": "family",
-        "label": "Noirtier names the killer; Villefort swears revenge"
+        "label": "Noirtier names the killer; Villefort swears revenge",
+        "kin": "child"
       }
     ]
   },
@@ -1266,12 +1290,14 @@
       {
         "from": 13,
         "type": "love",
-        "label": "Married after Waterloo"
+        "label": "Married after Waterloo",
+        "kin": "spouse"
       },
       {
         "from": 48,
         "type": "love",
-        "label": "His late first wife"
+        "label": "His late first wife",
+        "kin": "spouse"
       }
     ]
   },
@@ -1287,12 +1313,14 @@
       {
         "from": 13,
         "type": "family",
-        "label": "Father-in-law"
+        "label": "Father-in-law",
+        "kin": "relative"
       },
       {
         "from": 71,
         "type": "family",
-        "label": "Villefort’s father-in-law dies suddenly"
+        "label": "Villefort’s father-in-law dies suddenly",
+        "kin": "relative"
       }
     ]
   },
@@ -1308,12 +1336,14 @@
       {
         "from": 13,
         "type": "family",
-        "label": "Mother-in-law"
+        "label": "Mother-in-law",
+        "kin": "relative"
       },
       {
         "from": 72,
         "type": "family",
-        "label": "She resents his remarriage"
+        "label": "She resents his remarriage",
+        "kin": "relative"
       }
     ]
   },
@@ -1324,12 +1354,14 @@
       {
         "from": 6,
         "type": "love",
-        "label": "Royalist husband and wife"
+        "label": "Royalist husband and wife",
+        "kin": "spouse"
       },
       {
         "from": 72,
         "type": "love",
-        "label": "Widowed by the marquis’ sudden death"
+        "label": "Widowed by the marquis’ sudden death",
+        "kin": "spouse"
       }
     ]
   },
@@ -1340,7 +1372,8 @@
       {
         "from": 6,
         "type": "family",
-        "label": "Renée’s father"
+        "label": "Renée’s father",
+        "kin": "parent"
       }
     ]
   },
@@ -1351,7 +1384,8 @@
       {
         "from": 6,
         "type": "family",
-        "label": "Renée’s mother"
+        "label": "Renée’s mother",
+        "kin": "parent"
       }
     ]
   },
@@ -1514,12 +1548,14 @@
       {
         "from": 58,
         "type": "family",
-        "label": "Franz’s father, assassinated in 1815"
+        "label": "Franz’s father, assassinated in 1815",
+        "kin": "parent"
       },
       {
         "from": 75,
         "type": "family",
-        "label": "Franz learns how his father truly died"
+        "label": "Franz learns how his father truly died",
+        "kin": "parent"
       }
     ]
   },
@@ -1557,17 +1593,20 @@
       {
         "from": 47,
         "type": "love",
-        "label": "Villefort’s second wife"
+        "label": "Villefort’s second wife",
+        "kin": "spouse"
       },
       {
         "from": 108,
         "type": "enemy",
-        "label": "Villefort orders his poisoner wife to die"
+        "label": "Villefort orders his poisoner wife to die",
+        "kin": "spouse"
       },
       {
         "from": 111,
         "type": "enemy",
-        "label": "He finds she has killed herself and Édouard"
+        "label": "He finds she has killed herself and Édouard",
+        "kin": "spouse"
       }
     ]
   },
@@ -1578,17 +1617,20 @@
       {
         "from": 48,
         "type": "family",
-        "label": "Villefort’s daughter by his first wife"
+        "label": "Villefort’s daughter by his first wife",
+        "kin": "parent"
       },
       {
         "from": 51,
         "type": "family",
-        "label": "Villefort insists she marry Franz"
+        "label": "Villefort insists she marry Franz",
+        "kin": "parent"
       },
       {
         "from": 103,
         "type": "family",
-        "label": "Villefort grieves his poisoned daughter"
+        "label": "Villefort grieves his poisoned daughter",
+        "kin": "parent"
       }
     ]
   },
@@ -1599,12 +1641,14 @@
       {
         "from": 47,
         "type": "family",
-        "label": "Villefort’s young son"
+        "label": "Villefort’s young son",
+        "kin": "parent"
       },
       {
         "from": 111,
         "type": "family",
-        "label": "Villefort finds his son poisoned"
+        "label": "Villefort finds his son poisoned",
+        "kin": "parent"
       }
     ]
   },
@@ -1706,7 +1750,8 @@
       {
         "from": 44,
         "type": "family",
-        "label": "Villefort buried this newborn, apparently his own"
+        "label": "Villefort buried this newborn, apparently his own",
+        "kin": "parent"
       }
     ]
   },
@@ -1717,17 +1762,20 @@
       {
         "from": 62,
         "type": "family",
-        "label": "Unknowingly, Villefort’s abandoned son Benedetto"
+        "label": "Unknowingly, Villefort’s abandoned son Benedetto",
+        "kin": "parent"
       },
       {
         "from": 99,
         "type": "enemy",
-        "label": "Villefort refuses mercy to the arrested Benedetto"
+        "label": "Villefort refuses mercy to the arrested Benedetto",
+        "kin": "parent"
       },
       {
         "from": 110,
         "type": "enemy",
-        "label": "In court, Benedetto names Villefort his father"
+        "label": "In court, Benedetto names Villefort his father",
+        "kin": "parent"
       }
     ]
   },
@@ -1775,27 +1823,32 @@
       {
         "from": 51,
         "type": "family",
-        "label": "Valentine’s paralysed grandfather"
+        "label": "Valentine’s paralysed grandfather",
+        "kin": "grandparent"
       },
       {
         "from": 58,
         "type": "family",
-        "label": "They speak through his eyes; he opposes her match"
+        "label": "They speak through his eyes; he opposes her match",
+        "kin": "grandparent"
       },
       {
         "from": 59,
         "type": "family",
-        "label": "His will forbids her marrying Franz"
+        "label": "His will forbids her marrying Franz",
+        "kin": "grandparent"
       },
       {
         "from": 78,
         "type": "family",
-        "label": "Noirtier makes her his heir"
+        "label": "Noirtier makes her his heir",
+        "kin": "grandparent"
       },
       {
         "from": 94,
         "type": "family",
-        "label": "He has secretly accustomed her to the poison"
+        "label": "He has secretly accustomed her to the poison",
+        "kin": "grandparent"
       }
     ]
   },
@@ -1859,7 +1912,8 @@
       {
         "from": 59,
         "type": "family",
-        "label": "Noirtier refuses Édouard any inheritance"
+        "label": "Noirtier refuses Édouard any inheritance",
+        "kin": "grandparent"
       }
     ]
   },
@@ -1870,17 +1924,20 @@
       {
         "from": 58,
         "type": "family",
-        "label": "Noirtier’s daughter-in-law"
+        "label": "Noirtier’s daughter-in-law",
+        "kin": "relative"
       },
       {
         "from": 101,
         "type": "enemy",
-        "label": "She tried to poison him to enrich Édouard"
+        "label": "She tried to poison him to enrich Édouard",
+        "kin": "relative"
       },
       {
         "from": 103,
         "type": "enemy",
-        "label": "Noirtier exposes her to Villefort"
+        "label": "Noirtier exposes her to Villefort",
+        "kin": "relative"
       }
     ]
   },
@@ -1913,7 +1970,8 @@
       {
         "from": 48,
         "type": "family",
-        "label": "Valentine’s late mother"
+        "label": "Valentine’s late mother",
+        "kin": "parent"
       }
     ]
   },
@@ -1924,7 +1982,8 @@
       {
         "from": 51,
         "type": "family",
-        "label": "Valentine’s grandfather, whose fortune she will inherit"
+        "label": "Valentine’s grandfather, whose fortune she will inherit",
+        "kin": "grandparent"
       }
     ]
   },
@@ -1935,12 +1994,14 @@
       {
         "from": 51,
         "type": "family",
-        "label": "Valentine’s doting grandmother"
+        "label": "Valentine’s doting grandmother",
+        "kin": "grandparent"
       },
       {
         "from": 72,
         "type": "family",
-        "label": "She demands Valentine marry Franz at once"
+        "label": "She demands Valentine marry Franz at once",
+        "kin": "grandparent"
       }
     ]
   },
@@ -2005,17 +2066,20 @@
       {
         "from": 48,
         "type": "family",
-        "label": "Stepmother and stepdaughter"
+        "label": "Stepmother and stepdaughter",
+        "kin": "relative"
       },
       {
         "from": 57,
         "type": "family",
-        "label": "Stepmother with an eye on Valentine’s fortune"
+        "label": "Stepmother with an eye on Valentine’s fortune",
+        "kin": "relative"
       },
       {
         "from": 101,
         "type": "enemy",
-        "label": "Valentine sees her stepmother poison her drink"
+        "label": "Valentine sees her stepmother poison her drink",
+        "kin": "relative"
       }
     ]
   },
@@ -2026,17 +2090,20 @@
       {
         "from": 47,
         "type": "family",
-        "label": "Doting mother and spoiled son"
+        "label": "Doting mother and spoiled son",
+        "kin": "parent"
       },
       {
         "from": 101,
         "type": "family",
-        "label": "She poisons others for his inheritance"
+        "label": "She poisons others for his inheritance",
+        "kin": "parent"
       },
       {
         "from": 111,
         "type": "family",
-        "label": "She poisons her son and herself"
+        "label": "She poisons her son and herself",
+        "kin": "parent"
       }
     ]
   },
@@ -2047,12 +2114,14 @@
       {
         "from": 48,
         "type": "family",
-        "label": "Half-siblings"
+        "label": "Half-siblings",
+        "kin": "sibling"
       },
       {
         "from": 51,
         "type": "family",
-        "label": "Her spoiled, mocking half-brother"
+        "label": "Her spoiled, mocking half-brother",
+        "kin": "sibling"
       }
     ]
   },
@@ -2142,7 +2211,8 @@
       {
         "from": 29,
         "type": "love",
-        "label": "Morrel and his faithful wife"
+        "label": "Morrel and his faithful wife",
+        "kin": "spouse"
       }
     ]
   },
@@ -2153,12 +2223,14 @@
       {
         "from": 29,
         "type": "family",
-        "label": "Morrel’s devoted daughter"
+        "label": "Morrel’s devoted daughter",
+        "kin": "parent"
       },
       {
         "from": 30,
         "type": "family",
-        "label": "Julie brings the purse that saves her father"
+        "label": "Julie brings the purse that saves her father",
+        "kin": "parent"
       }
     ]
   },
@@ -2169,12 +2241,14 @@
       {
         "from": 30,
         "type": "family",
-        "label": "Morrel’s son, an army officer"
+        "label": "Morrel’s son, an army officer",
+        "kin": "parent"
       },
       {
         "from": 50,
         "type": "family",
-        "label": "His late father, remembered with love"
+        "label": "His late father, remembered with love",
+        "kin": "parent"
       }
     ]
   },
@@ -2185,7 +2259,8 @@
       {
         "from": 29,
         "type": "family",
-        "label": "Mother and daughter"
+        "label": "Mother and daughter",
+        "kin": "parent"
       }
     ]
   },
@@ -2196,7 +2271,8 @@
       {
         "from": 30,
         "type": "family",
-        "label": "Mother and son"
+        "label": "Mother and son",
+        "kin": "parent"
       }
     ]
   },
@@ -2207,7 +2283,8 @@
       {
         "from": 30,
         "type": "family",
-        "label": "Brother and sister"
+        "label": "Brother and sister",
+        "kin": "sibling"
       }
     ]
   },
@@ -2223,7 +2300,8 @@
       {
         "from": 40,
         "type": "love",
-        "label": "Happily married"
+        "label": "Happily married",
+        "kin": "spouse"
       }
     ]
   },
@@ -2245,7 +2323,8 @@
       {
         "from": 40,
         "type": "family",
-        "label": "Brothers-in-law"
+        "label": "Brothers-in-law",
+        "kin": "relative"
       }
     ]
   },
@@ -2726,22 +2805,26 @@
       {
         "from": 39,
         "type": "love",
-        "label": "The banker and his wife"
+        "label": "The banker and his wife",
+        "kin": "spouse"
       },
       {
         "from": 47,
         "type": "love",
-        "label": "They quarrel over her dappled grays"
+        "label": "They quarrel over her dappled grays",
+        "kin": "spouse"
       },
       {
         "from": 65,
         "type": "enemy",
-        "label": "Cold marriage; he knows of her lovers"
+        "label": "Cold marriage; he knows of her lovers",
+        "kin": "spouse"
       },
       {
         "from": 106,
         "type": "enemy",
-        "label": "Danglars flees, abandoning his wife"
+        "label": "Danglars flees, abandoning his wife",
+        "kin": "spouse"
       }
     ]
   },
@@ -2752,17 +2835,20 @@
       {
         "from": 40,
         "type": "family",
-        "label": "Danglars’ daughter, with a great dowry"
+        "label": "Danglars’ daughter, with a great dowry",
+        "kin": "parent"
       },
       {
         "from": 95,
         "type": "family",
-        "label": "Near ruin, he needs her marriage; she bargains"
+        "label": "Near ruin, he needs her marriage; she bargains",
+        "kin": "parent"
       },
       {
         "from": 97,
         "type": "family",
-        "label": "Eugénie runs away from her father"
+        "label": "Eugénie runs away from her father",
+        "kin": "parent"
       }
     ]
   },
@@ -2773,7 +2859,8 @@
       {
         "from": 40,
         "type": "family",
-        "label": "Mother and daughter"
+        "label": "Mother and daughter",
+        "kin": "parent"
       }
     ]
   },
@@ -2784,7 +2871,8 @@
       {
         "from": 65,
         "type": "love",
-        "label": "Her late first husband"
+        "label": "Her late first husband",
+        "kin": "spouse"
       }
     ]
   },
@@ -2961,7 +3049,8 @@
       {
         "from": 44,
         "type": "family",
-        "label": "Bertuccio’s murdered elder brother"
+        "label": "Bertuccio’s murdered elder brother",
+        "kin": "sibling"
       }
     ]
   },
@@ -2972,7 +3061,8 @@
       {
         "from": 44,
         "type": "family",
-        "label": "Bertuccio’s widowed sister-in-law"
+        "label": "Bertuccio’s widowed sister-in-law",
+        "kin": "relative"
       }
     ]
   },
@@ -3015,7 +3105,8 @@
       {
         "from": 44,
         "type": "love",
-        "label": "Israel’s widow"
+        "label": "Israel’s widow",
+        "kin": "spouse"
       }
     ]
   },
@@ -3053,12 +3144,14 @@
       {
         "from": 62,
         "type": "family",
-        "label": "Unknowingly, her lost son by Villefort"
+        "label": "Unknowingly, her lost son by Villefort",
+        "kin": "child"
       },
       {
         "from": 110,
         "type": "family",
-        "label": "His court revelation makes her faint"
+        "label": "His court revelation makes her faint",
+        "kin": "child"
       }
     ]
   },
@@ -3117,7 +3210,8 @@
       {
         "from": 77,
         "type": "family",
-        "label": "Her father, the betrayed Pasha of Yanina"
+        "label": "Her father, the betrayed Pasha of Yanina",
+        "kin": "child"
       }
     ]
   },
@@ -3128,7 +3222,8 @@
       {
         "from": 77,
         "type": "family",
-        "label": "Haydée’s mother"
+        "label": "Haydée’s mother",
+        "kin": "child"
       }
     ]
   },
@@ -3161,7 +3256,8 @@
       {
         "from": 77,
         "type": "love",
-        "label": "Ali Pasha’s beloved Christian wife"
+        "label": "Ali Pasha’s beloved Christian wife",
+        "kin": "spouse"
       }
     ]
   },
@@ -3227,7 +3323,8 @@
       {
         "from": 18,
         "type": "family",
-        "label": "Ancestor of the last of the Spadas"
+        "label": "Ancestor of the last of the Spadas",
+        "kin": "relative"
       }
     ]
   },
@@ -3392,7 +3489,8 @@
       {
         "from": 33,
         "type": "family",
-        "label": "The count’s beloved daughter"
+        "label": "The count’s beloved daughter",
+        "kin": "parent"
       }
     ]
   },

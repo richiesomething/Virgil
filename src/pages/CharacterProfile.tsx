@@ -1,7 +1,7 @@
 import type { BookPageProps } from './BookShell'
 import { href } from '../lib/router'
-import { characterView, connectionsOf, kindOf, lookupCharacter } from '../lib/spoilers'
-import { relationLabel, relationTypes } from '../lib/relations'
+import { characterView, connectionsOf, kindOf, kinRole, lookupCharacter } from '../lib/spoilers'
+import { kinLabel, relationLabel, relationTypes } from '../lib/relations'
 import { initials } from '../components/CharacterChip'
 
 const importanceLabel = { major: 'Major', supporting: 'Supporting', minor: 'Minor' }
@@ -101,7 +101,7 @@ export default function CharacterProfile({ book, upTo, id }: BookPageProps & { i
                   </svg>
                   <span>
                     <a href={href('b', meta.id, 'characters', other.id)}><strong>{other.name}</strong></a>
-                    <span className="small muted"> · {relationLabel[l.type]}</span>
+                    <span className="small muted"> · {kinRole(l, other.id) ? kinLabel[kinRole(l, other.id)!] : relationLabel[l.type]}</span>
                     <br />
                     <span className="small">{l.label}</span>
                   </span>

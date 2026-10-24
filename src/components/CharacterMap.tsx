@@ -30,6 +30,8 @@ interface Props {
   onSelect: (id: string | null) => void
   /** Shared across renders so the layout doesn't jump when the chapter changes. */
   positions: Map<string, { x: number; y: number }>
+  /** Family view: where each character should settle (family blocks, generation rows). */
+  anchors?: Map<string, { x: number; y: number }>
 }
 
 const radius = { major: 20, supporting: 14, minor: 10 }
@@ -40,12 +42,13 @@ const isLabelled = (c: Character, count: number) => count <= 30 || c.importance 
 const labelWidth = (name: string) => name.length * 6.2
 const dashFor = Object.fromEntries(relationTypes.map((r) => [r.type, r.dash])) as Record<RelationType, string | undefined>
 
-export default function CharacterMap({ characters, connections, selected, onSelect, positions }: Props) {
+export default function CharacterMap({ characters, connections, selected, onSelect, positions, anchors }: Props) {
   const svgRef = useRef<SVGSVGElement>(null)
   const gRef = useRef<SVGGElement>(null)
   const zoomRef = useRef<ZoomBehavior<SVGSVGElement, unknown> | null>(null)
   const simRef = useRef<Simulation<Node, undefined> | null>(null)
   const fitRef = useRef<() => void>(() => {})
+  const lastAnchorKey = useRef('')
   const [, setTick] = useState(0)
   const [hovered, setHovered] = useState<string | null>(null)
 
@@ -53,6 +56,7 @@ export default function CharacterMap({ characters, connections, selected, onSele
   // not when a label or selection does.
   const nodeKey = characters.map((c) => c.id).join(',')
   const linkKey = connections.map((c) => c.a + '|' + c.b).join(',')
+  const anchorKey = anchors ? [...anchors].map(([id, p]) => `${id}${p.x},${p.y}`).join(';') : ''
   const nodes = useMemo<Node[]>(
     () =>
       characters.map((c) => {
@@ -84,6 +88,8 @@ export default function CharacterMap({ characters, connections, selected, onSele
         n.y = other.y + (Math.random() - 0.5) * 60
       }
     }
+    // Family view pins each generation to its row; other views leave y free.
+    for (const n of nodes) n.fy = anchors?.get(n.id)?.y ?? null
     const sim = forceSimulation<Node>(nodes)
       .force(
         'link',
@@ -92,10 +98,10 @@ export default function CharacterMap({ characters, connections, selected, onSele
           .distance(110)
           .strength(0.4),
       )
-      .force('charge', forceManyBody().strength(-420))
-      .force('center', forceCenter(0, 0))
-      .force('x', forceX(0).strength(0.05))
-      .force('y', forceY(0).strength(0.07))
+      .force('charge', forceManyBody().strength(anchors ? -160 : -420))
+      .force('center', anchors ? null : forceCenter(0, 0))
+      .force('x', anchors ? forceX<Node>((n) => anchors.get(n.id)?.x ?? 0).strength(0.12) : forceX(0).strength(0.05))
+      .force('y', anchors ? forceY<Node>((n) => anchors.get(n.id)?.y ?? 0).strength(0.9) : forceY(0).strength(0.07))
       .force(
         'collide',
         // Leave room for the name label as well as the dot, so labels don't overlap.
@@ -115,7 +121,9 @@ export default function CharacterMap({ characters, connections, selected, onSele
       if (!frame) frame = requestAnimationFrame(() => ((frame = 0), setTick((t) => t + 1)))
     })
 
-    if (known.length < nodes.length / 2) {
+    const layoutChanged = anchorKey !== lastAnchorKey.current
+    lastAnchorKey.current = anchorKey
+    if (known.length < nodes.length / 2 || (anchors && layoutChanged)) {
       // Mostly new: settle off-screen, then show the finished layout, fitted.
       sim.tick(300)
       save()
@@ -123,15 +131,16 @@ export default function CharacterMap({ characters, connections, selected, onSele
       fitRef.current()
     } else {
       sim.alpha(0.4).restart()
-      // When filters add characters, re-fit once they've settled in.
-      if (known.length < nodes.length) sim.on('end', () => fitRef.current())
+      // When filters add characters or switch layout, re-fit once things settle.
+      if (known.length < nodes.length || layoutChanged) sim.on('end', () => fitRef.current())
     }
     simRef.current = sim
     return () => {
       sim.stop()
       cancelAnimationFrame(frame)
     }
-  }, [nodes, pairs, nodeById, positions])
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [nodes, pairs, nodeById, positions, anchorKey])
 
   // Pan & zoom
   useEffect(() => {
@@ -163,12 +172,12 @@ export default function CharacterMap({ characters, connections, selected, onSele
       })
       .on('drag', function (e) {
         const n = nodeById.get(this.dataset.id!)
-        if (n) ((n.fx = e.x), (n.fy = e.y))
+        if (n) ((n.fx = e.x), (n.fy = anchors ? n.fy : e.y))
       })
       .on('end', function (e) {
         const n = nodeById.get(this.dataset.id!)
         if (!e.active) sim.alphaTarget(0)
-        if (n) ((n.fx = null), (n.fy = null))
+        if (n) ((n.fx = null), (n.fy = anchors?.get(n.id)?.y ?? null))
       })
     select(g).selectAll<SVGGElement, unknown>('g.node').call(behaviour)
   })

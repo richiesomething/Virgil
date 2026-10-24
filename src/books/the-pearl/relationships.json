@@ -6,22 +6,26 @@
       {
         "from": 1,
         "type": "love",
-        "label": "Devoted husband and wife"
+        "label": "Devoted husband and wife",
+        "kin": "spouse"
       },
       {
         "from": 3,
         "type": "love",
-        "label": "Married partners divided over the pearl"
+        "label": "Married partners divided over the pearl",
+        "kin": "spouse"
       },
       {
         "from": 5,
         "type": "love",
-        "label": "Kino beats Juana for trying to throw the pearl away; she stays loyal"
+        "label": "Kino beats Juana for trying to throw the pearl away; she stays loyal",
+        "kin": "spouse"
       },
       {
         "from": 6,
         "type": "love",
-        "label": "Return to town side by side, united in grief"
+        "label": "Return to town side by side, united in grief",
+        "kin": "spouse"
       }
     ]
   },
@@ -32,17 +36,20 @@
       {
         "from": 1,
         "type": "family",
-        "label": "Father and baby son"
+        "label": "Father and baby son",
+        "kin": "parent"
       },
       {
         "from": 3,
         "type": "family",
-        "label": "Kino dreams of schooling for his son"
+        "label": "Kino dreams of schooling for his son",
+        "kin": "parent"
       },
       {
         "from": 6,
         "type": "family",
-        "label": "Kino’s son, killed while Kino attacks the trackers"
+        "label": "Kino’s son, killed while Kino attacks the trackers",
+        "kin": "parent"
       }
     ]
   },
@@ -53,12 +60,14 @@
       {
         "from": 1,
         "type": "family",
-        "label": "Mother and baby son"
+        "label": "Mother and baby son",
+        "kin": "parent"
       },
       {
         "from": 6,
         "type": "family",
-        "label": "Juana carries her dead son home"
+        "label": "Juana carries her dead son home",
+        "kin": "parent"
       }
     ]
   },
@@ -69,17 +78,20 @@
       {
         "from": 1,
         "type": "family",
-        "label": "Brothers"
+        "label": "Brothers",
+        "kin": "sibling"
       },
       {
         "from": 4,
         "type": "family",
-        "label": "Brother who warns Kino of the danger"
+        "label": "Brother who warns Kino of the danger",
+        "kin": "sibling"
       },
       {
         "from": 5,
         "type": "family",
-        "label": "Brother who hides Kino’s family"
+        "label": "Brother who hides Kino’s family",
+        "kin": "sibling"
       }
     ]
   },
@@ -90,7 +102,8 @@
       {
         "from": 1,
         "type": "love",
-        "label": "Husband and wife"
+        "label": "Husband and wife",
+        "kin": "spouse"
       }
     ]
   },
@@ -101,12 +114,14 @@
       {
         "from": 1,
         "type": "family",
-        "label": "Sister-in-law"
+        "label": "Sister-in-law",
+        "kin": "relative"
       },
       {
         "from": 5,
         "type": "family",
-        "label": "Sister-in-law who helps hide the family"
+        "label": "Sister-in-law who helps hide the family",
+        "kin": "relative"
       }
     ]
   },

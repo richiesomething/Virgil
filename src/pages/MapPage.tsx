@@ -3,8 +3,8 @@ import type { BookPageProps } from './BookShell'
 import type { RelationType } from '../types'
 import CharacterMap from '../components/CharacterMap'
 import { href, navigate } from '../lib/router'
-import { connections, currentTagline, displayId, isThing, kindOf, metCharacters } from '../lib/spoilers'
-import { relationLabel, relationTypes } from '../lib/relations'
+import { connections, currentTagline, displayId, familyAnchors, isThing, kindOf, kinRole, metCharacters } from '../lib/spoilers'
+import { kinLabel, relationLabel, relationTypes } from '../lib/relations'
 
 type Scope = 'major' | 'main' | 'all'
 
@@ -27,6 +27,8 @@ export default function MapPage({ book, upTo, focusId }: BookPageProps & { focus
   // Objects and places are opt-in so the map isn't crowded.
   const [showObjects, setShowObjects] = useState(false)
   const [showPlaces, setShowPlaces] = useState(false)
+  // Family view: only family ties and marriages, laid out by generation.
+  const [familyOnly, setFamilyOnly] = useState(false)
   const objectCount = met.filter((c) => kindOf(c) === 'object').length
   const placeCount = met.filter((c) => kindOf(c) === 'place').length
   const kindShown = (k: string) => k === 'character' || (k === 'object' && showObjects) || (k === 'place' && showPlaces)
@@ -40,13 +42,20 @@ export default function MapPage({ book, upTo, focusId }: BookPageProps & { focus
 
   const inScope = met.filter(
     (c) =>
-      kindShown(kindOf(c)) &&
-      (isThing(c) || scope === 'all' || c.importance === 'major' || (scope === 'main' && c.importance === 'supporting')) &&
+      (familyOnly
+        ? !isThing(c)
+        : kindShown(kindOf(c)) &&
+          (isThing(c) || scope === 'all' || c.importance === 'major' || (scope === 'main' && c.importance === 'supporting'))) &&
       (!group || c.group === group),
   )
   const scopeIds = new Set(inScope.map((c) => c.id))
   if (selected) scopeIds.add(selected)
-  const shownLinks = all.filter((l) => !hidden.has(l.type) && scopeIds.has(l.a) && scopeIds.has(l.b))
+  const isFamily = (l: (typeof all)[number]) => !!l.kin || l.type === 'family'
+  const shownLinks = all.filter(
+    (l) => (familyOnly ? isFamily(l) : !hidden.has(l.type)) && scopeIds.has(l.a) && scopeIds.has(l.b),
+  )
+  // Narrow screens stack family blocks in a narrower column so they stay readable.
+  const anchors = familyOnly ? familyAnchors(shownLinks, window.innerWidth < 600 ? 420 : 900) : undefined
   const linked = new Set(shownLinks.flatMap((l) => [l.a, l.b]))
   if (selected) linked.add(selected)
   const shownCharacters = met.filter((c) => linked.has(c.id))
@@ -92,11 +101,24 @@ export default function MapPage({ book, upTo, focusId }: BookPageProps & { focus
       </div>
 
       <div className="filters">
+        <button
+          className={'legend__item family-toggle' + (familyOnly ? ' is-on' : '')}
+          aria-pressed={familyOnly}
+          onClick={() => setFamilyOnly(!familyOnly)}
+        >
+          <svg width="16" height="14" viewBox="0 0 16 14" aria-hidden="true">
+            <circle cx="8" cy="3" r="2.4" /><circle cx="3" cy="11" r="2.4" /><circle cx="13" cy="11" r="2.4" />
+            <path d="M8 5.4V8M3 8h10M3 8v.6M13 8v.6" fill="none" strokeWidth="1.4" />
+          </svg>
+          Family only
+        </button>
+        {!familyOnly && (
         <select className="input" value={scope} onChange={(e) => setScope(e.target.value as Scope)} aria-label="Which characters">
           <option value="major">Major characters</option>
           <option value="main">Major & supporting</option>
           <option value="all">Everyone</option>
         </select>
+        )}
         <select className="input" value={group} onChange={(e) => setGroup(e.target.value)} aria-label="Filter by group">
           <option value="">All groups</option>
           {groups.map((g) => (
@@ -126,7 +148,13 @@ export default function MapPage({ book, upTo, focusId }: BookPageProps & { focus
         </label>
       )}
 
-      {(objectCount > 0 || placeCount > 0) && (
+      {familyOnly && (
+        <p className="small muted family-note">
+          Showing family ties and marriages for everyone you’ve met, with parents above their children.
+        </p>
+      )}
+
+      {!familyOnly && (objectCount > 0 || placeCount > 0) && (
         <div className="also-show" role="group" aria-label="Also show">
           <span>Also show:</span>
           {objectCount > 0 && (
@@ -142,6 +170,7 @@ export default function MapPage({ book, upTo, focusId }: BookPageProps & { focus
         </div>
       )}
 
+      {!familyOnly && (
       <div className="legend" role="group" aria-label="Relationship types">
         {relationTypes.filter((r) => r.type !== 'tie' || showObjects || showPlaces).map((r) => {
           const off = hidden.has(r.type)
@@ -165,6 +194,7 @@ export default function MapPage({ book, upTo, focusId }: BookPageProps & { focus
           )
         })}
       </div>
+      )}
 
       <div className="map-layout">
         {shownCharacters.length ? (
@@ -174,6 +204,7 @@ export default function MapPage({ book, upTo, focusId }: BookPageProps & { focus
             selected={selected}
             onSelect={select}
             positions={positions}
+            anchors={anchors}
           />
         ) : (
           <div className="map map--empty">
@@ -205,7 +236,7 @@ export default function MapPage({ book, upTo, focusId }: BookPageProps & { focus
                         <button className="link-btn" onClick={() => pickPerson(other.id)}>
                           {other.name}
                         </button>
-                        <span className="small muted"> · {relationLabel[l.type]}</span>
+                        <span className="small muted"> · {kinRole(l, other.id) ? kinLabel[kinRole(l, other.id)!] : relationLabel[l.type]}</span>
                         <br />
                         <span className="small">{l.label}</span>
                       </span>

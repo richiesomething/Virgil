@@ -33,6 +33,8 @@ Books so far:
   have spoiler-gated profiles like characters. On the map they're diamonds (objects) and rounded
   squares (places), hidden until switched on with the "Also show" toggles; the Characters page has
   People / Objects / Places tabs.
+- **Family view**: a "Family only" toggle on the map shows just family ties and marriages, each
+  family as its own block with parents above children. Lists show roles (Parent, Spouse…).
 
 See [ROADMAP.md](ROADMAP.md) for what's next.
 
@@ -55,7 +57,8 @@ Each book lives in `src/books/<id>/`:
 - `relationships.json` — `{ a, b, states: [{ from, type, label }] }`; see `Relationship` in `src/types.ts`.
 - `characters.json` — see `Character` in `src/types.ts`; `kind` is `character` (default), `object` or
   `place`. Links involving an object or place use the relationship type `tie`; in `data-src` they
-  live in `things-relationships.json`. Every piece of information has a
+  live in `things-relationships.json`. Family ties and marriages carry `kin` (parent, child, sibling,
+  spouse, grandparent, grandchild, relative); `node scripts/set-kin.mjs <book> '<table>'` sets them. Every piece of information has a
   `from` chapter; `src/lib/spoilers.ts` is the only place that decides what the reader may see.
 
 `data-src/<id>/` holds the per-chapter working files (summaries and character notes written from

@@ -77,6 +77,8 @@ for (const book of readdirSync(root, { withFileTypes: true }).filter((d) => d.is
     let prev = 0
     for (const s of r.states ?? []) {
       if (!types.includes(s.type) || !s.label) fail(book, `${where} has a bad state at ch ${s.from}`)
+      if (s.kin && !['parent', 'child', 'sibling', 'spouse', 'grandparent', 'grandchild', 'relative'].includes(s.kin))
+        fail(book, `${where} has bad kin ${s.kin} at ch ${s.from}`)
       if ((s.type === 'tie') !== (isThing(a) || isThing(b)))
         fail(book, `${where}: links involving an object or place, and only those, use type "tie"`)
       if (s.from < Math.max(a.firstChapter, b.firstChapter))

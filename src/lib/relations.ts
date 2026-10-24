@@ -1,4 +1,4 @@
-import type { RelationType } from '../types'
+import type { Kin, RelationType } from '../types'
 
 /** Display order, legend labels and line styles; colours live in CSS (--rel-*). */
 export const relationTypes: { type: RelationType; label: string; dash?: string }[] = [
@@ -16,4 +16,14 @@ export const relationTypes: { type: RelationType; label: string; dash?: string }
 export const relationLabel = {
   ...(Object.fromEntries(relationTypes.map((r) => [r.type, r.label])) as Record<RelationType, string>),
   tie: 'Connection',
+}
+
+export const kinLabel: Record<Kin, string> = {
+  parent: 'Parent',
+  child: 'Child',
+  sibling: 'Sibling',
+  spouse: 'Spouse',
+  grandparent: 'Grandparent',
+  grandchild: 'Grandchild',
+  relative: 'Relative',
 }

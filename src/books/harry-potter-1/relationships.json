@@ -6,12 +6,14 @@
       {
         "from": 1,
         "type": "family",
-        "label": "Harry’s mother, killed by Voldemort"
+        "label": "Harry’s mother, killed by Voldemort",
+        "kin": "child"
       },
       {
         "from": 17,
         "type": "family",
-        "label": "Harry’s mother, whose sacrifice protects him"
+        "label": "Harry’s mother, whose sacrifice protects him",
+        "kin": "child"
       }
     ]
   },
@@ -22,12 +24,14 @@
       {
         "from": 1,
         "type": "family",
-        "label": "Harry’s father, killed by Voldemort"
+        "label": "Harry’s father, killed by Voldemort",
+        "kin": "child"
       },
       {
         "from": 12,
         "type": "family",
-        "label": "Harry’s father, who left him the Invisibility Cloak"
+        "label": "Harry’s father, who left him the Invisibility Cloak",
+        "kin": "child"
       }
     ]
   },
@@ -38,7 +42,8 @@
       {
         "from": 1,
         "type": "love",
-        "label": "Married; killed together"
+        "label": "Married; killed together",
+        "kin": "spouse"
       }
     ]
   },
@@ -49,12 +54,14 @@
       {
         "from": 1,
         "type": "family",
-        "label": "His aunt, left to raise him"
+        "label": "His aunt, left to raise him",
+        "kin": "relative"
       },
       {
         "from": 2,
         "type": "family",
-        "label": "His aunt, who resents and neglects him"
+        "label": "His aunt, who resents and neglects him",
+        "kin": "relative"
       }
     ]
   },
@@ -65,12 +72,14 @@
       {
         "from": 1,
         "type": "family",
-        "label": "His uncle by marriage"
+        "label": "His uncle by marriage",
+        "kin": "relative"
       },
       {
         "from": 2,
         "type": "family",
-        "label": "His uncle, who bullies and punishes him"
+        "label": "His uncle, who bullies and punishes him",
+        "kin": "relative"
       }
     ]
   },
@@ -81,12 +90,14 @@
       {
         "from": 1,
         "type": "family",
-        "label": "Cousins"
+        "label": "Cousins",
+        "kin": "relative"
       },
       {
         "from": 2,
         "type": "family",
-        "label": "Cousin and chief tormentor"
+        "label": "Cousin and chief tormentor",
+        "kin": "relative"
       }
     ]
   },
@@ -97,7 +108,8 @@
       {
         "from": 1,
         "type": "love",
-        "label": "Married"
+        "label": "Married",
+        "kin": "spouse"
       }
     ]
   },
@@ -108,7 +120,8 @@
       {
         "from": 1,
         "type": "family",
-        "label": "Father and spoiled son"
+        "label": "Father and spoiled son",
+        "kin": "parent"
       }
     ]
   },
@@ -119,7 +132,8 @@
       {
         "from": 1,
         "type": "family",
-        "label": "Mother and adored son"
+        "label": "Mother and adored son",
+        "kin": "parent"
       }
     ]
   },
@@ -130,12 +144,14 @@
       {
         "from": 1,
         "type": "family",
-        "label": "Sisters; Petunia pretends Lily doesn’t exist"
+        "label": "Sisters; Petunia pretends Lily doesn’t exist",
+        "kin": "sibling"
       },
       {
         "from": 4,
         "type": "family",
-        "label": "Sisters; Petunia resented Lily for being a witch"
+        "label": "Sisters; Petunia resented Lily for being a witch",
+        "kin": "sibling"
       }
     ]
   },
@@ -477,7 +493,8 @@
       {
         "from": 6,
         "type": "family",
-        "label": "Mother and son"
+        "label": "Mother and son",
+        "kin": "child"
       }
     ]
   },
@@ -488,7 +505,8 @@
       {
         "from": 6,
         "type": "family",
-        "label": "Brothers; the twins tease Ron"
+        "label": "Brothers; the twins tease Ron",
+        "kin": "sibling"
       }
     ]
   },
@@ -499,7 +517,8 @@
       {
         "from": 6,
         "type": "family",
-        "label": "Brothers; the twins tease Ron"
+        "label": "Brothers; the twins tease Ron",
+        "kin": "sibling"
       }
     ]
   },
@@ -510,7 +529,8 @@
       {
         "from": 6,
         "type": "family",
-        "label": "Identical twins and partners in mischief"
+        "label": "Identical twins and partners in mischief",
+        "kin": "sibling"
       }
     ]
   },
@@ -521,7 +541,8 @@
       {
         "from": 6,
         "type": "family",
-        "label": "Brothers; Percy is a pompous prefect"
+        "label": "Brothers; Percy is a pompous prefect",
+        "kin": "sibling"
       }
     ]
   },
@@ -532,7 +553,8 @@
       {
         "from": 6,
         "type": "family",
-        "label": "Brother and little sister"
+        "label": "Brother and little sister",
+        "kin": "sibling"
       }
     ]
   },
@@ -543,7 +565,8 @@
       {
         "from": 6,
         "type": "family",
-        "label": "Brothers; Bill was Head Boy"
+        "label": "Brothers; Bill was Head Boy",
+        "kin": "sibling"
       }
     ]
   },
@@ -554,7 +577,8 @@
       {
         "from": 6,
         "type": "family",
-        "label": "Brothers; Charlie works with dragons"
+        "label": "Brothers; Charlie works with dragons",
+        "kin": "sibling"
       }
     ]
   },
@@ -565,7 +589,8 @@
       {
         "from": 6,
         "type": "family",
-        "label": "Mother and daughter"
+        "label": "Mother and daughter",
+        "kin": "parent"
       }
     ]
   },
@@ -576,7 +601,8 @@
       {
         "from": 6,
         "type": "family",
-        "label": "Mother and son"
+        "label": "Mother and son",
+        "kin": "parent"
       }
     ]
   },
@@ -587,7 +613,8 @@
       {
         "from": 6,
         "type": "family",
-        "label": "Mother and son"
+        "label": "Mother and son",
+        "kin": "parent"
       }
     ]
   },
@@ -1249,6 +1276,18 @@
         "from": 14,
         "type": "work",
         "label": "Treats Ron’s dragon bite"
+      }
+    ]
+  },
+  {
+    "a": "molly-weasley",
+    "b": "george-weasley",
+    "states": [
+      {
+        "from": 6,
+        "type": "family",
+        "label": "Mother and son",
+        "kin": "parent"
       }
     ]
   },

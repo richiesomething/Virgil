@@ -356,3 +356,7 @@ button { font: inherit; }
 .shape--place { border-radius: 2px; }
 .shape--character { border-radius: 50%; background: var(--major); }
 .also-show .legend__item.is-off { text-decoration: none; opacity: 0.6; }
+
+.family-toggle svg { fill: currentColor; stroke: currentColor; }
+.family-toggle.is-on { background: var(--accent); border-color: var(--accent); color: var(--accent-text); }
+.family-note { margin: 0 0 10px; }

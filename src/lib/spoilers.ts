@@ -1,4 +1,4 @@
-import type { BookData, Character, Chapter, Kind, RelationType } from '../types'
+import type { BookData, Character, Chapter, Kin, Kind, RelationType, RelationshipState } from '../types'
 
 /**
  * Every query here takes `upTo`, the reader's bookmark, and never returns
@@ -136,10 +136,28 @@ export interface Connection {
   b: string
   type: RelationType
   label: string
+  /** How `a` is related to `b`, if they're family or married. */
+  kin?: Kin
   /** Chapter the current state became known. */
   since: number
-  /** Every state the reader has reached, oldest first. */
-  history: { from: number; type: RelationType; label: string }[]
+  /** Every state the reader has reached, oldest first (kin relative to this a/b). */
+  history: RelationshipState[]
+}
+
+const flipKin: Record<Kin, Kin> = {
+  parent: 'child',
+  child: 'parent',
+  grandparent: 'grandchild',
+  grandchild: 'grandparent',
+  sibling: 'sibling',
+  spouse: 'spouse',
+  relative: 'relative',
+}
+
+/** What `other` is to the person on the other end of `c`, e.g. 'child'. */
+export function kinRole(c: Connection, other: string): Kin | undefined {
+  if (!c.kin) return undefined
+  return other === c.b ? flipKin[c.kin] : c.kin
 }
 
 /**
@@ -153,14 +171,17 @@ export function connections(book: BookData, upTo: number): Connection[] {
     const a = displayId(book, r.a, upTo)
     const b = displayId(book, r.b, upTo)
     if (!a || !b || a === b) continue
-    const reached = r.states.filter((s) => s.from <= upTo)
-    if (!reached.length) continue
     const [x, y] = a < b ? [a, b] : [b, a]
+    // Kin is stored relative to the data's a/b; re-orient it to x/y.
+    const reached = r.states
+      .filter((s) => s.from <= upTo)
+      .map((s) => (s.kin && a !== x ? { ...s, kin: flipKin[s.kin] } : s))
+    if (!reached.length) continue
     const key = x + '|' + y
     const existing = byPair.get(key)
     const history = [...(existing?.history ?? []), ...reached].sort((p, q) => p.from - q.from)
     const latest = history[history.length - 1]
-    byPair.set(key, { a: x, b: y, type: latest.type, label: latest.label, since: latest.from, history })
+    byPair.set(key, { a: x, b: y, type: latest.type, label: latest.label, kin: latest.kin, since: latest.from, history })
   }
   return [...byPair.values()]
 }
@@ -171,3 +192,79 @@ export function connectionsOf(book: BookData, id: string, upTo: number): Connect
 
 export const kindOf = (c: Character): Kind => c.kind ?? 'character'
 export const isThing = (c: Character) => kindOf(c) !== 'character'
+
+/**
+ * Generation numbers for the family view: parents sit a row above their
+ * children, spouses and siblings share a row. Other relatives don't constrain.
+ */
+export function generations(links: Connection[]): Map<string, number> {
+  const level = new Map<string, number>()
+  const get = (id: string) => level.get(id) ?? 0
+  for (const l of links) if (l.kin) (level.set(l.a, 0), level.set(l.b, 0))
+  const below = (upper: string, lower: string, gap: number) => {
+    if (get(lower) < get(upper) + gap) return level.set(lower, get(upper) + gap), true
+    return false
+  }
+  for (let pass = 0, changed = true; changed && pass < 60; pass++) {
+    changed = false
+    for (const l of links) {
+      if (l.kin === 'parent') changed = below(l.a, l.b, 1) || changed
+      else if (l.kin === 'child') changed = below(l.b, l.a, 1) || changed
+      else if (l.kin === 'grandparent') changed = below(l.a, l.b, 2) || changed
+      else if (l.kin === 'grandchild') changed = below(l.b, l.a, 2) || changed
+      else if (l.kin === 'spouse' || l.kin === 'sibling') {
+        const m = Math.max(get(l.a), get(l.b))
+        if (get(l.a) !== m || get(l.b) !== m) (level.set(l.a, m), level.set(l.b, m), (changed = true))
+      }
+    }
+  }
+  return level
+}
+
+/**
+ * Target positions for the family view: each family (connected group) gets its
+ * own block, blocks are packed into rows, and generations stack inside a block.
+ */
+export function familyAnchors(links: Connection[], rowWidth = 900): Map<string, { x: number; y: number }> {
+  const level = generations(links)
+  const adj = new Map<string, string[]>()
+  for (const l of links) {
+    adj.set(l.a, [...(adj.get(l.a) ?? []), l.b])
+    adj.set(l.b, [...(adj.get(l.b) ?? []), l.a])
+  }
+  const seen = new Set<string>()
+  const families: string[][] = []
+  for (const id of adj.keys()) {
+    if (seen.has(id)) continue
+    const group: string[] = []
+    const stack = [id]
+    seen.add(id)
+    while (stack.length) {
+      const cur = stack.pop()!
+      group.push(cur)
+      for (const n of adj.get(cur) ?? []) if (!seen.has(n)) (seen.add(n), stack.push(n))
+    }
+    families.push(group)
+  }
+  families.sort((p, q) => q.length - p.length)
+
+  const anchors = new Map<string, { x: number; y: number }>()
+  const rowGap = 120
+  let x = 0, y = 0, rowHeight = 0
+  for (const fam of families) {
+    const rows = new Map<number, number>()
+    let maxLevel = 0
+    for (const id of fam) {
+      const l = level.get(id) ?? 0
+      rows.set(l, (rows.get(l) ?? 0) + 1)
+      maxLevel = Math.max(maxLevel, l)
+    }
+    const width = Math.max(...rows.values()) * 110 + 60
+    const height = (maxLevel + 1) * rowGap + 60
+    if (x > 0 && x + width > rowWidth) ((x = 0), (y += rowHeight), (rowHeight = 0))
+    for (const id of fam) anchors.set(id, { x: x + width / 2, y: y + (level.get(id) ?? 0) * rowGap })
+    x += width
+    rowHeight = Math.max(rowHeight, height)
+  }
+  return anchors
+}

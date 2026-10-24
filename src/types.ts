@@ -88,8 +88,19 @@ export type RelationType = 'family' | 'love' | 'friend' | 'enemy' | 'work' | 'ti
  * A relationship between two characters as the reader understands it. Each state
  * becomes visible at its chapter; the latest reached state is the current one.
  */
+/** How `a` is related to `b`: 'parent' means a is b's parent. */
+export type Kin = 'parent' | 'child' | 'sibling' | 'spouse' | 'grandparent' | 'grandchild' | 'relative'
+
+export interface RelationshipState {
+  from: number
+  type: RelationType
+  label: string
+  /** Set on family ties and marriages; drives the map's family view. */
+  kin?: Kin
+}
+
 export interface Relationship {
   a: string
   b: string
-  states: { from: number; type: RelationType; label: string }[]
+  states: RelationshipState[]
 }
