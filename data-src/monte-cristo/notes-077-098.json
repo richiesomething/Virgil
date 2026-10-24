@@ -1,0 +1,355 @@
+[
+  {
+    "chapter": 77,
+    "characters": [
+      {"id": "albert-de-morcerf", "nameHere": "Albert / the viscount / Morcerf", "learned": "Albert jokes that Andrea is his rival for Eugénie, but he plainly does not want the marriage. He knows his father made his fortune serving Ali Pasha, and he is enchanted by Haydée.", "moment": "Albert met Haydée and heard the story of her father’s death."},
+      {"id": "edmond-dantes", "nameHere": "the Count of Monte Cristo", "learned": "He controls carefully what Albert hears. He makes Albert promise never to tell Haydée that his father served hers, and in Greek he tells her to name neither the traitor nor the treason. He says he bought her from the sultan with an emerald.", "moment": "He introduced Albert to Haydée and steered her account of Yanina."},
+      {"id": "haydee", "nameHere": "Haydée", "learned": "She is the daughter of Ali Tepelini, Pasha of Yanina, and his wife Vasiliki. She was four when her father was betrayed and killed. She and her mother were sold as slaves, and after her mother’s death she passed to an Armenian and then to the Sultan Mahmoud. She speaks Greek, Italian and French, and she is devoted to the count.", "moment": "She told Albert the story of her father’s betrayal and death."},
+      {"id": "ali-tebelin", "nameHere": "Ali Tepelini, Pasha of Yanina", "learned": "The powerful ruler of Yanina (in modern Greece) retreated to a fortified kiosk on a lake while waiting for the sultan’s verdict. He trusted a French officer to negotiate for him. A false pardon tricked his guard into putting out the match, and Ali was killed by the sultan’s troops."},
+      {"id": "vasiliki", "nameHere": "Vasiliki", "learned": "Haydée’s mother and Ali’s beloved wife, a Christian. After Ali’s death she was handed to the man most responsible for it, sold to slave merchants, and died at the gates of Constantinople at the sight of Ali’s head."},
+      {"id": "selim", "nameHere": "Selim", "learned": "Ali’s favorite soldier. He guarded the cavern of gold and gunpowder with a lit match, ready to blow it all up on Ali’s signal. He was stabbed by Kourchid’s soldiers as soon as he put out the match.", "moment": "Selim put out the match on seeing Ali’s ring and was murdered."},
+      {"id": "kourchid", "nameHere": "the Seraskier Kourchid", "learned": "The sultan’s commander, sent to capture Ali. His soldiers killed Selim and Ali, and he handed Vasiliki and Haydée over to their “new master.”"},
+      {"id": "ali", "nameHere": "Ali", "learned": "The count’s mute Nubian servant brings pipes and guards Haydée’s apartments."},
+      {"id": "baptistin", "nameHere": "Baptistin", "learned": "The count’s valet serves tea instantly, but he is not allowed into Haydée’s part of the house."},
+      {"id": "benedetto", "nameHere": "M. Andrea Cavalcanti", "learned": "According to Albert, Andrea is openly courting Eugénie Danglars with languishing looks."},
+      {"id": "eugenie-danglars", "nameHere": "Mademoiselle Danglars / Eugénie", "learned": "Albert says she barely answers him. Her full name is Claire-Marie-Eugénie."},
+      {"id": "louise-darmilly", "nameHere": "Mademoiselle d’Armilly", "learned": "Eugénie’s confidante, who will not speak to Albert at all."},
+      {"id": "danglars", "nameHere": "M. Danglars / the baron", "learned": "The count says Danglars has asked him to persuade the Count of Morcerf to settle the marriage, and that Danglars is jealous of the count. There has been some misunderstanding between Danglars and Debray."},
+      {"id": "lucien-debray", "nameHere": "Debray", "learned": "He has not been seen at the Danglars’ lately because of a misunderstanding with the baron."},
+      {"id": "fernand-mondego", "nameHere": "the Comte de Morcerf (Albert’s father)", "learned": "Albert says his father made his fortune in the service of Ali Pasha. The count forbids Albert to mention this to Haydée."}
+    ]
+  },
+  {
+    "chapter": 78,
+    "characters": [
+      {"id": "franz-depinay", "nameHere": "M. Franz d’Épinay", "learned": "Shaken by what Noirtier told him, Franz formally breaks off the engagement, writing that Villefort should have spoken first.", "moment": "Franz broke off his engagement to Valentine."},
+      {"id": "villefort", "nameHere": "M. de Villefort", "learned": "He had always believed General de Quesnel was assassinated, not killed in a fair duel, because Noirtier never explained it to him. Franz’s harsh letter wounds his pride badly."},
+      {"id": "noirtier", "nameHere": "M. Noirtier", "learned": "He agrees to Madame de Villefort’s request and makes a new will leaving his whole fortune to Valentine, on condition she never leaves him.", "moment": "Noirtier made Valentine his heir."},
+      {"id": "heloise-de-villefort", "nameHere": "Madame de Villefort", "learned": "She tells the guests a false story about Noirtier having a fit. Then she visits Noirtier, claims she always opposed the marriage, and asks him to restore his fortune to Valentine. Noirtier cannot work out her motive."},
+      {"id": "valentine-de-villefort", "nameHere": "Valentine", "learned": "Freed from the engagement, she tells Maximilian “We are saved!” but keeps her grandfather’s secret until she is his wife. She becomes heiress to an expected income of 300,000 livres."},
+      {"id": "maximilien-morrel", "nameHere": "Morrel / Maximilian", "learned": "He followed Franz and guessed what was happening. He worships Noirtier for saving them.", "moment": "Valentine told him at the gate that they were saved."},
+      {"id": "fernand-mondego", "nameHere": "the Count of Morcerf", "learned": "Proud and irritable, he formally asks for Eugénie’s hand for Albert. Danglars stalls and hints at calumnies. Morcerf leaves enraged, but notably he never asks whether the problem is himself. A newspaper item soon claims that the castle of Yanina was betrayed by a French officer named Fernand, and Albert says his father’s first name is Fernand.", "moment": "Danglars put off his proposal for Albert."},
+      {"id": "danglars", "nameHere": "M. Danglars / the baron", "learned": "Cowardly but insolent, he refuses Morcerf without explanation. The next morning he smiles over the Yanina paragraph, saying it will make any explanation unnecessary.", "moment": "He stalled Morcerf and gloated over the Yanina article."},
+      {"id": "benedetto", "nameHere": "M. Cavalcanti / Andrea", "learned": "He is the last guest to leave Danglars’ house the evening Morcerf is put off."},
+      {"id": "albert-de-morcerf", "nameHere": "Albert de Morcerf", "learned": "He furiously takes the Yanina paragraph as a slander on his father, whom he believes fought honorably for Greek independence. He insists on a full retraction.", "moment": "Albert challenged Beauchamp to a duel, set for three weeks later."},
+      {"id": "edmond-dantes", "nameHere": "the Count of Monte Cristo", "learned": "He is a deadly shot, piercing playing cards with perfect precision. He advises Albert to consult Haydée, to visit Beauchamp alone, and to think about whether the story might be true. He refuses to be Albert’s second, for reasons Albert “may know at some future period.”"},
+      {"id": "baptistin", "nameHere": "Baptistin", "learned": "He tells Albert that the count is out but expected for breakfast."},
+      {"id": "ali", "nameHere": "Ali / the negro servant", "learned": "He loads the count’s pistols at the shooting gallery."},
+      {"id": "beauchamp", "nameHere": "Beauchamp", "learned": "He is chief editor of l’Impartial. He did not write the paragraph and had not noticed it, but he refuses to retract under threat. He asks for three weeks to investigate, until 21 September, and then he will retract or fight.", "moment": "He agreed to a duel with Albert after three weeks."},
+      {"id": "haydee", "nameHere": "Haydée", "learned": "The count suggests she could tell Albert whether his father had any part in Ali’s fall. Albert refuses to involve her."},
+      {"id": "chateau-renaud", "nameHere": "Château-Renaud", "learned": "He was a witness at Villefort’s house, and Albert names him as a likely second."}
+    ]
+  },
+  {
+    "chapter": 79,
+    "characters": [
+      {"id": "maximilien-morrel", "nameHere": "Morrel / Maximilian / Monsieur Officer", "learned": "He is thirty-one. He swears to wait patiently for Valentine and hides when Barrois collapses.", "moment": "He witnessed Barrois’s collapse and slipped away unseen."},
+      {"id": "barrois", "nameHere": "Barrois", "learned": "Noirtier’s devoted old servant, about sixty. He made the lemonade and left it in the pantry. Hot and thirsty, he drank a glass of it and died in convulsions.", "moment": "Barrois died after drinking Noirtier’s lemonade."},
+      {"id": "noirtier", "nameHere": "M. Noirtier / grandpapa", "learned": "He plans to move out with Valentine so that the young couple can meet under his protection. He also drank the lemonade, but felt only what he usually feels after his Sunday medicine. He watches the scene with intense attention, especially Madame de Villefort."},
+      {"id": "valentine-de-villefort", "nameHere": "Valentine", "learned": "She will come of age in about ten months and plans to marry Maximilian with her grandfather’s consent. It was she who carried the lemonade in and offered Barrois a drink."},
+      {"id": "villefort", "nameHere": "M. de Villefort / the procureur", "learned": "At first he thinks Barrois has had apoplexy. He collapses when d’Avrigny proves poisoning."},
+      {"id": "heloise-de-villefort", "nameHere": "Madame de Villefort", "learned": "She comes down slowly and looks first at Noirtier, then at the dying man. She asks whether Barrois ate anything and starts when told about the lemonade. She leaves, saying she cannot bear blood, and is later seen going down to the kitchen."},
+      {"id": "edouard-de-villefort", "nameHere": "Edward", "learned": "He is unwell, and d’Avrigny is attending him upstairs when Barrois falls ill."},
+      {"id": "dr-davrigny", "nameHere": "Doctor d’Avrigny", "learned": "He questions everyone closely, learns that Valentine carried the lemonade, and proves with syrup of violets that it was poisoned. He links the death to Madame de Saint-Méran’s.", "moment": "He proved Barrois had been poisoned."},
+      {"id": "marquise-de-saint-meran", "nameHere": "Madame de Saint-Méran", "learned": "D’Avrigny says she died of the same poison as Barrois."}
+    ]
+  },
+  {
+    "chapter": 80,
+    "characters": [
+      {"id": "dr-davrigny", "nameHere": "M. d’Avrigny", "learned": "He believes the poison was meant for Noirtier, whom his year of brucine treatment protected. He accuses Valentine of all the poisonings because of the inheritances. When Villefort refuses to act, d’Avrigny agrees to keep silent but will never return to the house. He has a daughter named Madeleine.", "moment": "He denounced Valentine as the poisoner, then withdrew from the case."},
+      {"id": "villefort", "nameHere": "M. de Villefort", "learned": "He admits a crime has been committed but begs on his knees not to hand his daughter over to justice, and says he would kill himself if she proved innocent. Afterwards he thinks he sees a gloomy smile on his wife’s lips.", "moment": "He refused to give up Valentine."},
+      {"id": "noirtier", "nameHere": "M. Noirtier", "learned": "D’Avrigny explains that a year of brucine treatment has made his body used to the poison. The lemonade was meant to kill him because his new will favors Valentine."},
+      {"id": "valentine-de-villefort", "nameHere": "Mademoiselle de Villefort / Valentine", "learned": "D’Avrigny points out that she handled the medicines and drinks in every case. The departing servants praise her goodness, and she weeps.", "moment": "She was accused of poisoning by d’Avrigny, though she knows nothing of it."},
+      {"id": "heloise-de-villefort", "nameHere": "Madame de Villefort", "learned": "As the servants leave, Villefort thinks a slight, gloomy smile passes over her thin lips."},
+      {"id": "barrois", "nameHere": "Barrois", "learned": "D’Avrigny says he died in another’s place, and publicly announces that the cause was apoplexy."},
+      {"id": "marquis-de-saint-meran", "nameHere": "M. de Saint-Méran", "learned": "D’Avrigny is convinced from his symptoms that he too was poisoned."},
+      {"id": "marquise-de-saint-meran", "nameHere": "Madame de Saint-Méran", "learned": "Counted by d’Avrigny among the poisoner’s victims."}
+    ]
+  },
+  {
+    "chapter": 81,
+    "characters": [
+      {"id": "benedetto", "nameHere": "Andrea Cavalcanti / “my little Benedetto”", "learned": "He proposes to Eugénie and is accepted, claiming his mother was Leonora Corsinari. His low birth shows through his polish. He is about twenty-one and knew Caderousse in the galleys. He claims to believe Monte Cristo is his real father and has left him 500,000 francs in his will. He draws Caderousse a plan of the count’s house and tells him when it will be empty.", "moment": "He drew Caderousse a plan of Monte Cristo’s house."},
+      {"id": "danglars", "nameHere": "M. Danglars", "learned": "He gladly accepts Andrea once he hears about the young man’s supposed millions, and promises a 500,000-franc dowry. He wonders why Monte Cristo did not make the proposal himself.", "moment": "He accepted Andrea as Eugénie’s suitor."},
+      {"id": "eugenie-danglars", "nameHere": "Mademoiselle Danglars", "learned": "Andrea declares his love for her to her father."},
+      {"id": "edmond-dantes", "nameHere": "M. de Monte Cristo / the count / “my prince”", "learned": "Andrea says the count refuses on principle to propose matches for anyone. Andrea describes his Paris house: low walls, unlocked secretaire, servants housed over the coach house, and frequent nights spent at Auteuil."},
+      {"id": "gaspard-caderousse", "nameHere": "Caderousse / M. Pailletin", "learned": "He lives on the Rue Ménilmontant as a “retired baker” on Andrea’s money. He is fifty and an old galley comrade of Andrea’s, and he planned their escape. Greedy and resentful, he wants 30,000 francs, studies the plan of the count’s house, and takes Andrea’s diamond. He hints that he would not mind hastening Andrea’s inheritance.", "moment": "He extorted more money and studied the plan of the count’s house."},
+      {"id": "bartolomeo-cavalcanti", "nameHere": "old Cavalcanti / the marquis", "learned": "Andrea tells Caderousse that the old man is paid 50,000 francs to pose as his father, and that he has now left Paris."},
+      {"id": "fernand-mondego", "nameHere": "the Count of Morcerf", "learned": "Caderousse boasts that he once dined many times with him and with Danglars."},
+      {"id": "pierre-morrel", "nameHere": "M. Morrel", "learned": "Caderousse recalls that Danglars was once an under-clerk to the good M. Morrel."}
+    ]
+  },
+  {
+    "chapter": 82,
+    "characters": [
+      {"id": "edmond-dantes", "nameHere": "the Count of Monte Cristo / the Abbé Busoni", "learned": "The text shows openly that he plays the Abbé Busoni: he puts on a cassock and wig over his coat of mail and confronts Caderousse in that character. He is preparing to leave France within a month. He makes Caderousse write a letter exposing Benedetto, and he sees the lookout waiting in the street but lets Caderousse go anyway.", "moment": "Disguised as the Abbé Busoni, he caught Caderousse robbing his house."},
+      {"id": "bertuccio", "nameHere": "Bertuccio", "learned": "Back from Normandy, he reports the house and sloop ready and relays of horses posted on the road to Tréport."},
+      {"id": "baptistin", "nameHere": "Baptistin", "learned": "He delivers the anonymous warning letter and is sharply rebuked for questioning orders."},
+      {"id": "ali", "nameHere": "Ali", "learned": "He waits beside the count, armed with a hatchet, and brings him the abbé’s costume."},
+      {"id": "gaspard-caderousse", "nameHere": "Caderousse", "learned": "He breaks into the count’s house. He insists La Carconte was the real murderer of the jeweller. He escaped from Toulon with Benedetto with help from Lord Wilmore and has lived on Benedetto’s money. When threatened with exposure he tries to stab the abbé.", "moment": "He was stabbed three times by an accomplice as he climbed down from the count’s wall."},
+      {"id": "benedetto", "nameHere": "Benedetto / Andrea Cavalcanti", "learned": "Caderousse reveals to the abbé that Benedetto, a Corsican foundling and convict No. 59, is passing as Andrea Cavalcanti and is supposed to be the count’s natural son."},
+      {"id": "lord-wilmore", "nameHere": "Lord Wilmore", "learned": "Caderousse says this Englishman gave him and Benedetto the file they used to escape from Toulon."},
+      {"id": "carconte", "nameHere": "La Carconte", "learned": "Caderousse blames his late wife for murdering the jeweller."},
+      {"id": "joannes", "nameHere": "the jeweller Johannes", "learned": "The abbé reminds Caderousse that he murdered Johannes for the diamond and the money."},
+      {"id": "danglars", "nameHere": "Baron Danglars", "learned": "The forced letter tells him that his daughter’s suitor is an escaped felon."},
+      {"id": "eugenie-danglars", "nameHere": "Mademoiselle Danglars", "learned": "Caderousse says Benedetto is going to marry her."}
+    ]
+  },
+  {
+    "chapter": 83,
+    "characters": [
+      {"id": "edmond-dantes", "nameHere": "the Count of Monte Cristo / the Abbé Busoni", "learned": "He believes he is the instrument of Providence. He reveals that Benedetto sent the warning note and that he chose not to save Caderousse. Without his wig, Caderousse takes him for Lord Wilmore, and the count says he is neither Busoni nor Wilmore, which makes it clear that both were his disguises. He swears by his father’s tomb and whispers his true name, Edmond Dantès, into the dying man’s ear.", "moment": "He revealed his true identity to the dying Caderousse and said, “One!”"},
+      {"id": "gaspard-caderousse", "nameHere": "Caderousse", "learned": "He names Benedetto as his murderer and signs a deposition. He denies God until the count whispers his real name, then begs God’s pardon and dies.", "moment": "Caderousse died, repenting at the last moment."},
+      {"id": "benedetto", "nameHere": "Benedetto / Andrea Cavalcanti", "learned": "Caderousse says Benedetto gave him the plan hoping one of them would kill the other, and then stabbed him. The signed deposition names him as the murderer."},
+      {"id": "ali", "nameHere": "Ali", "learned": "He is sent to fetch Villefort and a surgeon."},
+      {"id": "villefort", "nameHere": "M. de Villefort, the king’s attorney", "learned": "He is summoned and arrives after Caderousse’s death."},
+      {"id": "carconte", "nameHere": "La Carconte", "learned": "Caderousse again blames her for the jeweller’s murder."},
+      {"id": "joannes", "nameHere": "the Jew (the jeweller)", "learned": "His murder is listed among Caderousse’s crimes."}
+    ]
+  },
+  {
+    "chapter": 84,
+    "characters": [
+      {"id": "edmond-dantes", "nameHere": "the count", "learned": "He tells Paris he was at Auteuil during the robbery and that the Abbé Busoni happened to be staying at his house."},
+      {"id": "bertuccio", "nameHere": "Bertuccio", "learned": "He turns pale whenever Benedetto’s name is mentioned."},
+      {"id": "benedetto", "nameHere": "Count Andrea Cavalcanti", "learned": "The police search for “Benedetto” fails. Meanwhile Andrea is accepted as Eugénie’s betrothed and refuses to hear warnings about Danglars’ finances."},
+      {"id": "villefort", "nameHere": "Villefort", "learned": "He prepares the prosecution of Caderousse’s murderer with his usual zeal."},
+      {"id": "danglars", "nameHere": "the baron", "learned": "He adores his future son-in-law. He has suffered repeated losses, and he is to invest Andrea’s three million."},
+      {"id": "eugenie-danglars", "nameHere": "Mademoiselle Eugénie Danglars", "learned": "She put up with Andrea only to be rid of Morcerf. Now she openly dislikes him."},
+      {"id": "bartolomeo-cavalcanti", "nameHere": "M. Cavalcanti (the father)", "learned": "Letters say he approves the match from Parma and promises a wedding gift of 150,000 livres."},
+      {"id": "albert-de-morcerf", "nameHere": "Albert", "learned": "He learns from Beauchamp that his father really did betray Yanina. He burns the proofs, grieves for his father and fears for his mother. He tells Beauchamp the engagement to Eugénie is broken off.", "moment": "Albert burned the proofs of his father’s treason."},
+      {"id": "beauchamp", "nameHere": "Beauchamp", "learned": "He has secretly travelled to Yanina and back in three weeks. He once killed an Englishman in a duel. Having found the paragraph true, he generously offers to destroy the only proofs and keep the secret.", "moment": "He gave Albert the proofs of his father’s guilt to destroy."},
+      {"id": "fernand-mondego", "nameHere": "Count Fernand of Morcerf / Colonel Fernand Mondego", "learned": "Four leading citizens of Yanina testify that Colonel Fernand Mondego, raised by Ali to governor-general, surrendered the castle for two million crowns. Beauchamp’s inquiries prove he is the Count of Morcerf."},
+      {"id": "ali-tebelin", "nameHere": "Ali Tepelini", "learned": "The proofs say his castle was surrendered by the officer he trusted."},
+      {"id": "mercedes", "nameHere": "Albert’s mother", "learned": "Albert’s greatest fear is what the disgrace would do to her."}
+    ]
+  },
+  {
+    "chapter": 85,
+    "characters": [
+      {"id": "edmond-dantes", "nameHere": "Monte Cristo / the count", "learned": "He insists he opposed the Cavalcanti match and is only forwarding papers “like Pilate.” He calls himself a sailor who loves the sea, travels with astonishing speed, and says he holds the power of life and death over Bertuccio. When Albert reads the bad news, he murmurs that the father’s sins fall on the children.", "moment": "He took Albert to his house near Tréport just before the second article appeared."},
+      {"id": "albert-de-morcerf", "nameHere": "Albert / the viscount", "learned": "Gloomy, he gladly accepts a trip to the sea. He says his mother admires the count. On reading Beauchamp’s message he is devastated and rides back to Paris at once.", "moment": "Albert learned his father had been publicly named and galloped back to Paris."},
+      {"id": "beauchamp", "nameHere": "Beauchamp", "learned": "He stays in Paris to watch the press. When another paper names Morcerf, he sends Albert’s valet galloping to Normandy with the news."},
+      {"id": "benedetto", "nameHere": "M. Cavalcanti", "learned": "The count claims he warned Danglars that the young man’s past is unknown, since his father lost sight of him for over ten years."},
+      {"id": "danglars", "nameHere": "M. Danglars", "learned": "The count says Danglars is fascinated with his “Luccanese” and asked the count to write for the young man’s papers."},
+      {"id": "bartolomeo-cavalcanti", "nameHere": "the major", "learned": "The count has written to him for Andrea’s papers."},
+      {"id": "eugenie-danglars", "nameHere": "Mademoiselle Eugénie", "learned": "The count says she has little taste for marriage and likes him because he never urged her to give up her liberty."},
+      {"id": "louise-darmilly", "nameHere": "Mademoiselle d’Armilly", "learned": "She is reportedly going to Italy. The count has given letters of introduction to theatre directors there."},
+      {"id": "hermine-danglars", "nameHere": "Madame Danglars", "learned": "She asked the count for the letters of introduction for Mademoiselle d’Armilly."},
+      {"id": "villefort", "nameHere": "M. de Villefort", "learned": "He is pursuing the Caderousse case actively, and the count says he knew Caderousse from Marseilles."},
+      {"id": "gaspard-caderousse", "nameHere": "Caderousse", "learned": "The newspapers describe him as a Provençal burglar killed at the count’s house."},
+      {"id": "mercedes", "nameHere": "Albert’s mother", "learned": "Albert says she talks constantly of the count and calls him a noble nature, and the count sighs at this. She weeps when Beauchamp’s messenger leaves, but lets him go."},
+      {"id": "bertuccio", "nameHere": "Bertuccio", "learned": "He organizes the relays of horses. The count says Bertuccio is alone in the world and that the count holds his life in his hands."},
+      {"id": "haydee", "nameHere": "Haydée", "learned": "The count leaves everything in her care before departing."},
+      {"id": "ali", "nameHere": "Ali", "learned": "He drives the count’s carriage at breathtaking speed."},
+      {"id": "baptistin", "nameHere": "Baptistin", "learned": "He rides ahead and attends the count."},
+      {"id": "florentin", "nameHere": "Florentin", "learned": "Albert’s valet rides fifteen hours to bring Beauchamp’s letter and the newspaper.", "moment": "He brought Albert the news of the second article."},
+      {"id": "fernand-mondego", "nameHere": "the Count of Morcerf", "learned": "A newspaper now states openly that the French officer who surrendered Yanina and sold his benefactor to the Turks now calls himself the Count of Morcerf and sits among the peers."}
+    ]
+  },
+  {
+    "chapter": 86,
+    "characters": [
+      {"id": "albert-de-morcerf", "nameHere": "Albert", "learned": "He listens to Beauchamp’s account knowing that his father is guilty, and he guesses the mysterious witness is Haydée."},
+      {"id": "beauchamp", "nameHere": "Beauchamp", "learned": "He traced the article to a government paper and watched the committee hearing hidden in a gallery."},
+      {"id": "fernand-mondego", "nameHere": "the Count of Morcerf / Fernand Mondego", "learned": "He is an unpopular upstart among the peers. He claimed he was negotiating for Ali when the pasha died and that he lost track of Vasiliki and Haydée. Haydée’s evidence and her accusation (the false pardon, the ring, stabbing Selim, selling the women) leave him speechless. He hides his scarred right hand and flees.", "moment": "He was convicted of felony and treason by a committee of the Chamber of Peers."},
+      {"id": "haydee", "nameHere": "Haydée", "learned": "She has always sought to avenge her father and follows every newspaper in her seclusion. She calls the count her foster-father and says he knows nothing of her action. She produces her birth and baptism records and the bill of sale proving Fernand Mondego sold her and her mother.", "moment": "Haydée testified before the Chamber of Peers and denounced Morcerf to his face."},
+      {"id": "ali-tebelin", "nameHere": "Ali Tepelini", "learned": "Morcerf produces his letters and ring. According to Haydée, Morcerf brought back a false pardon from the sultan."},
+      {"id": "vasiliki", "nameHere": "Vasiliki", "learned": "The bill of sale shows she and Haydée were sold together by Fernand Mondego, and that she died on arriving in Constantinople."},
+      {"id": "selim", "nameHere": "Selim, the fire-keeper", "learned": "Haydée accuses Morcerf of stabbing him."},
+      {"id": "el-kobbir", "nameHere": "El-Kobbir", "learned": "A slave merchant who supplied the sultan’s harem. His document records buying Vasiliki and Haydée from Fernand Mondego for 400,000 francs, and Haydée’s later ransom by the Count of Monte Cristo for an emerald."},
+      {"id": "edmond-dantes", "nameHere": "the Count of Monte Cristo", "learned": "According to the bill of sale, he ransomed eleven-year-old Haydée with an emerald worth 800,000 francs. Haydée says he is in Normandy and unaware of her testimony."}
+    ]
+  },
+  {
+    "chapter": 87,
+    "characters": [
+      {"id": "albert-de-morcerf", "nameHere": "Albert / Morcerf", "learned": "He refuses to blame Providence and wants a living enemy to fight. He challenges Danglars and even Andrea, then works out that Monte Cristo planned every step of his father’s exposure.", "moment": "He resolved to demand an explanation from Monte Cristo."},
+      {"id": "beauchamp", "nameHere": "Beauchamp", "learned": "He reveals that the Yanina banker said Danglars had already inquired. He tries to keep Albert prudent and agrees the count must answer."},
+      {"id": "haydee", "nameHere": "that noble girl", "learned": "Beauchamp admires her pursuit of her father’s vengeance."},
+      {"id": "danglars", "nameHere": "M. Danglars", "learned": "He admits writing to Yanina, claiming it was a father’s duty, and says Monte Cristo suggested it and saw the answer. He clearly will not fight.", "moment": "He told Albert that Monte Cristo had advised him to write to Yanina."},
+      {"id": "benedetto", "nameHere": "M. Andrea Cavalcanti", "learned": "He is present at Danglars’ house and looks stupefied when Albert offers to fight him too."},
+      {"id": "edmond-dantes", "nameHere": "Monte Cristo", "learned": "Danglars says the count advised him to write to Yanina, knew Morcerf’s full name, and saw the reply. Albert concludes the count arranged everything."},
+      {"id": "fernand-mondego", "nameHere": "the Count of Morcerf / your father", "learned": "Albert believes Danglars has long hated his father out of jealousy at his peerage."}
+    ]
+  },
+  {
+    "chapter": 88,
+    "characters": [
+      {"id": "albert-de-morcerf", "nameHere": "Albert / M. de Morcerf", "learned": "He would gladly die in his father’s place. He suspects his mother of special reasons for defending the count, and he insults the count before witnesses at the Opera.", "moment": "Albert publicly insulted Monte Cristo at the Opera."},
+      {"id": "beauchamp", "nameHere": "M. Beauchamp", "learned": "He apologizes for Albert’s violence on his own account and asks for an explanation. When the count refuses, he arranges the duel: pistols, eight o’clock, Bois de Vincennes."},
+      {"id": "edmond-dantes", "nameHere": "the Count of Monte Cristo", "learned": "Ice-calm in public, he takes Albert’s glove and promises to return it around a bullet. Privately he swears to kill Albert and, angered at mention of his father, says, “I will make him suffer.” He tells Morrel that the true cause is known only to God and himself.", "moment": "He accepted Albert’s challenge and vowed to kill him."},
+      {"id": "chateau-renaud", "nameHere": "Château-Renaud", "learned": "He supports Albert without question and acts as one of his seconds."},
+      {"id": "franz-depinay", "nameHere": "Franz", "learned": "Albert asks him to come to the Opera that evening."},
+      {"id": "lucien-debray", "nameHere": "Debray", "learned": "Albert asks him to come to the Opera that evening."},
+      {"id": "maximilien-morrel", "nameHere": "Morrel / Maximilian", "learned": "He stops Albert from throwing his glove. He agrees to be the count’s second, and is chilled by how coldly the count speaks of killing Albert."},
+      {"id": "mercedes", "nameHere": "Mercédès", "learned": "Bedridden with shame, she goes pale when Albert calls the count an enemy and begs him to stay the count’s friend. She guesses Albert’s intent, has him followed, and dresses to be ready for whatever happens."},
+      {"id": "fernand-mondego", "nameHere": "M. de Morcerf (as Albert calls him)", "learned": "Mercédès notices that Albert no longer says “my father.”"},
+      {"id": "haydee", "nameHere": "Haydée", "learned": "The count tells Morrel that it was through her that the Chamber learned of the treason. Morrel had heard rumors that she was Ali Pasha’s daughter."},
+      {"id": "julie-morrel", "nameHere": "Morrel’s sister", "learned": "She is at the Opera in another box."},
+      {"id": "emmanuel-herbaut", "nameHere": "Emmanuel", "learned": "The count asks Morrel to bring him as second witness, and Morrel answers for him."}
+    ]
+  },
+  {
+    "chapter": 89,
+    "characters": [
+      {"id": "edmond-dantes", "nameHere": "Monte Cristo / Edmond", "learned": "Mercédès openly calls him Edmond. He tells her his vengeance is aimed at the fisherman Fernand, shows her Danglars’ denunciation letter (bought from the prison file in his Thomson & French disguise) and describes fourteen years in the Château d’If. Moved by her despair, he promises Albert will live, and decides to let Albert kill him in the duel.", "moment": "He promised Mercédès that her son would live."},
+      {"id": "mercedes", "nameHere": "Madame de Morcerf / Mercédès", "learned": "She recognized Edmond by his voice from the very first and has watched him ever since. She blames herself for marrying Fernand, says she still loves Edmond, and for ten years she dreamed of his supposed death at the Château d’If. She did not know why he had been arrested until he showed her the letter.", "moment": "She came secretly at night and begged Edmond to spare Albert."},
+      {"id": "albert-de-morcerf", "nameHere": "my son", "learned": "Mercédès says Albert has guessed that the count is behind his father’s misfortunes."},
+      {"id": "fernand-mondego", "nameHere": "Fernand / the fisherman Fernand", "learned": "The count says Fernand posted the denunciation Danglars wrote, and he lists his other betrayals: in Spain, against Ali, and in his loyalty to France."},
+      {"id": "danglars", "nameHere": "Danglars", "learned": "The count shows Mercédès the letter Danglars wrote under the arbor at La Réserve."},
+      {"id": "louis-dantes", "nameHere": "my father", "learned": "The count reminds Mercédès that his father starved to death while he was imprisoned."},
+      {"id": "maximilien-morrel", "nameHere": "Morrel", "learned": "The count mentions that Morrel stopped Albert from throwing the glove."},
+      {"id": "ali-tebelin", "nameHere": "Ali Tepelini", "learned": "Mercédès asks what Yanina and its vizier have to do with Edmond. He replies that Ali’s betrayal is Haydée’s affair, not his."},
+      {"id": "haydee", "nameHere": "the daughter of Vasiliki", "learned": "The count calls the Yanina affair a matter between the French captain and her."},
+      {"id": "m-de-boville", "nameHere": "M. de Boville", "learned": "It is recalled that the count took the letter from the prison file on the day he paid M. de Boville 200,000 francs."},
+      {"id": "ali", "nameHere": "Ali", "learned": "He brings the count his pistols."},
+      {"id": "baptistin", "nameHere": "Baptistin", "learned": "He shows in the veiled visitor and withdraws."}
+    ]
+  },
+  {
+    "chapter": 90,
+    "characters": [
+      {"id": "edmond-dantes", "nameHere": "Monte Cristo / the count", "learned": "Ready to die, he adds to his will that his death is voluntary and that his enemies’ punishment is only delayed. He leaves Morrel twenty million francs hidden on Monte Cristo and Haydée the rest, about sixty million. He begins to suspect Haydée loves him as more than a father. After Albert’s apology he feels confirmed as God’s emissary.", "moment": "He went to the duel intending to be killed, and received Albert’s apology instead."},
+      {"id": "mercedes", "nameHere": "that courageous woman", "learned": "The count understands that she saved both lives by telling Albert the family secret."},
+      {"id": "fernand-mondego", "nameHere": "Morcerf / the fisherman Fernand", "learned": "His son now knows of his treachery against the count."},
+      {"id": "danglars", "nameHere": "Danglars", "learned": "He is named in the count’s codicil as one of those whose punishment is only delayed."},
+      {"id": "villefort", "nameHere": "Villefort", "learned": "He is named in the count’s codicil as one of those whose punishment is only delayed."},
+      {"id": "haydee", "nameHere": "Haydée", "learned": "She waited all night outside his door. On reading the will she tears it up, saying she will need nothing if he dies, and faints.", "moment": "Haydée tore up the count’s will."},
+      {"id": "maximilien-morrel", "nameHere": "Maximilian Morrel, captain of Spahis", "learned": "He is named heir to twenty million in the will. He tells the count he loves a young girl more than his life. He secured the first shot for the count and begs him to spare Albert.", "moment": "He acted as the count’s second."},
+      {"id": "pierre-morrel", "nameHere": "Pierre Morrel, shipowner at Marseilles", "learned": "The will calls him the count’s former patron."},
+      {"id": "julie-morrel", "nameHere": "Julie", "learned": "The will allows part of Maximilian’s legacy to go to her."},
+      {"id": "emmanuel-herbaut", "nameHere": "Emmanuel", "learned": "He is the count’s second witness at the meeting."},
+      {"id": "bertuccio", "nameHere": "Bertuccio", "learned": "The will says he knows the secret of the grotto at Monte Cristo."},
+      {"id": "ali", "nameHere": "Ali", "learned": "He takes the sealed will to the count’s solicitor."},
+      {"id": "baptistin", "nameHere": "Baptistin", "learned": "He follows his master to the duel in terror."},
+      {"id": "albert-de-morcerf", "nameHere": "Albert / M. de Morcerf", "learned": "After a sleepless night he publicly apologizes. He says the count had the right to avenge himself on his father, not for Ali’s sake but for the fisherman Fernand’s treachery toward the count, and he offers his hand.", "moment": "Albert apologized to the count on the dueling ground."},
+      {"id": "beauchamp", "nameHere": "Beauchamp", "learned": "He acts as one of Albert’s seconds and is baffled by the outcome."},
+      {"id": "chateau-renaud", "nameHere": "Château-Renaud", "learned": "He acts as one of Albert’s seconds and thinks the apology either very despicable or very noble."},
+      {"id": "franz-depinay", "nameHere": "Franz", "learned": "Albert summoned him to witness the duel."},
+      {"id": "lucien-debray", "nameHere": "Debray", "learned": "Albert summoned him too. He declares that with ten Yaninas in his family he would fight ten times."},
+      {"id": "abbe-faria", "nameHere": "Faria", "learned": "The count remembers that Faria appeared in his dungeon just as he was trying to starve himself to death."}
+    ]
+  },
+  {
+    "chapter": 91,
+    "characters": [
+      {"id": "albert-de-morcerf", "nameHere": "Albert", "learned": "His friends receive his apology coldly. He gives up his luxuries, his father’s name and his fortune, and plans to earn his own living under his mother’s family name.", "moment": "Albert left his father’s house with his mother."},
+      {"id": "beauchamp", "nameHere": "Beauchamp", "learned": "With thinly veiled irony, he advises Albert to leave France for a few years."},
+      {"id": "chateau-renaud", "nameHere": "Château-Renaud", "learned": "He coolly agrees that a duel refused breeds more duels."},
+      {"id": "edmond-dantes", "nameHere": "the count (Monte Cristo)", "learned": "His letter reveals the 150 louis he buried for his betrothed twenty-four years ago under the fig tree in his father’s garden in Marseilles, and he offers them now to Mercédès.", "moment": "He offered Mercédès the money he had once saved for their marriage."},
+      {"id": "fernand-mondego", "nameHere": "the Count of Morcerf / M. de Morcerf", "learned": "He watches Albert come home from behind a curtain, questions Albert’s valet, and then drives away."},
+      {"id": "mercedes", "nameHere": "Mercédès / the countess", "learned": "She leaves her husband’s house with nothing. She suggests Albert take her father’s name, Herrera. She accepts Edmond’s gift as a dowry to take to a convent.", "moment": "Mercédès left her husband’s house and accepted Edmond’s small treasure."},
+      {"id": "franz-depinay", "nameHere": "Franz", "learned": "Albert means to borrow a little money from him."},
+      {"id": "bertuccio", "nameHere": "Bertuccio", "learned": "He delivers the count’s letter and disappears."},
+      {"id": "louis-dantes", "nameHere": "my father", "learned": "The count’s letter recalls the fig tree his father planted on the day he was born, and his father’s death in poverty."}
+    ]
+  },
+  {
+    "chapter": 92,
+    "characters": [
+      {"id": "edmond-dantes", "nameHere": "Monte Cristo / Edmond Dantès", "learned": "He begins to hope he might be happy with Haydée. Confronted by Morcerf, he lists Morcerf’s betrayals and reveals himself in a sailor’s jacket as Edmond Dantès, Mercédès’s former betrothed.", "moment": "He revealed himself to Morcerf as Edmond Dantès."},
+      {"id": "emmanuel-herbaut", "nameHere": "Emmanuel", "learned": "He is overjoyed at the peaceful end of the affair and hurries home to Julie."},
+      {"id": "maximilien-morrel", "nameHere": "Morrel / Maximilian", "learned": "He has a secret appointment of the heart. The count promises him the use of his power whenever he needs it."},
+      {"id": "bertuccio", "nameHere": "Bertuccio", "learned": "He reports that Mercédès and Albert are leaving their house."},
+      {"id": "haydee", "nameHere": "Haydée", "learned": "She greets the count with joy that seems both a daughter’s and a lover’s. He kisses her forehead."},
+      {"id": "baptistin", "nameHere": "Baptistin", "learned": "He announces the Count of Morcerf."},
+      {"id": "fernand-mondego", "nameHere": "General Morcerf / the Count of Morcerf / Fernand", "learned": "He spied on his wife, assumed Albert had avenged him, then learned of the apology. He comes to fight Monte Cristo to the death. The count accuses him of deserting at Waterloo, spying in Spain and betraying Ali. When he recognizes Edmond Dantès he flees. At home he watches his wife and son leave him, and a pistol shot rings out from his room.", "moment": "He shot himself as Mercédès and Albert drove away."},
+      {"id": "albert-de-morcerf", "nameHere": "Albert / his son", "learned": "He leads his mother out of the house, saying it is no longer their home."},
+      {"id": "mercedes", "nameHere": "Mercédès", "learned": "She leaves the house on her son’s arm without looking back."},
+      {"id": "ali-tebelin", "nameHere": "Ali", "learned": "The count names him as the benefactor Fernand betrayed, sold and murdered."}
+    ]
+  },
+  {
+    "chapter": 93,
+    "characters": [
+      {"id": "maximilien-morrel", "nameHere": "Morrel / Maximilian", "learned": "He visits twice a week with permission. He has learned to read Noirtier’s signals, and he is present when Valentine collapses."},
+      {"id": "valentine-de-villefort", "nameHere": "Valentine", "learned": "She has felt ill for two weeks. On Noirtier’s orders she takes four spoonfuls of his medicine daily, and everything tastes bitter to her. She defends Albert to Eugénie. After drinking from a glass of water she becomes dizzy, then collapses into rigid unconsciousness.", "moment": "Valentine collapsed in Noirtier’s room."},
+      {"id": "noirtier", "nameHere": "M. Noirtier / grandpapa", "learned": "He is again planning to move out for Valentine’s health, and he has been dosing her with his medicine. Alarmed by the bitter water, he asks for the glass and decanter, and both are found empty."},
+      {"id": "edouard-de-villefort", "nameHere": "Master Edward", "learned": "He emptied Valentine’s decanter to make a pond for his ducks."},
+      {"id": "barrois", "nameHere": "Barrois", "learned": "A new servant has taken his place."},
+      {"id": "hermine-danglars", "nameHere": "Madame Danglars / the baroness", "learned": "She announces Eugénie’s marriage to “Prince” Cavalcanti and says Morcerf once tried to force the match with Albert."},
+      {"id": "eugenie-danglars", "nameHere": "Eugénie", "learned": "She says frankly that she does not care for Cavalcanti and wants to be a free artist. She scorns Albert as the son of a dishonored man who apologized on the dueling ground."},
+      {"id": "heloise-de-villefort", "nameHere": "Madame de Villefort", "learned": "She tells Valentine to go and drink a glass of pure water, says she fears a serious illness, and on hearing the alarm exclaims, “I told you so!”"},
+      {"id": "benedetto", "nameHere": "Prince Cavalcanti", "learned": "Danglars calls him “prince,” and the betrothal festival is set for three days later."},
+      {"id": "albert-de-morcerf", "nameHere": "Monsieur Albert", "learned": "Paris now knows he apologized to Monte Cristo. Valentine thinks him innocent of his father’s treason."},
+      {"id": "lucien-debray", "nameHere": "M. Debray", "learned": "Madame Danglars heard about Albert’s apology from him."},
+      {"id": "edmond-dantes", "nameHere": "M. de Monte Cristo", "learned": "Everyone in the house had expected a duel between him and Albert."}
+    ]
+  },
+  {
+    "chapter": 94,
+    "characters": [
+      {"id": "villefort", "nameHere": "M. de Villefort / the procureur", "learned": "He takes Valentine’s collapse as proof that she is innocent and swears to hunt down the assassin."},
+      {"id": "maximilien-morrel", "nameHere": "Maximilian / Morrel", "learned": "He tells Monte Cristo what he overheard about poison and confesses that he loves Valentine de Villefort.", "moment": "Morrel confessed his love for Valentine to the count."},
+      {"id": "noirtier", "nameHere": "Noirtier", "learned": "He stares in terror at Madame de Villefort when she comes in. To d’Avrigny he confirms that the same hand that killed Barrois struck Valentine, and that he has been protecting her by gradually accustoming her to brucine through his medicine.", "moment": "He revealed that he had been building up Valentine’s resistance to poison."},
+      {"id": "valentine-de-villefort", "nameHere": "Valentine", "learned": "She survives a heavy dose of poison thanks to her grandfather’s precaution."},
+      {"id": "dr-davrigny", "nameHere": "M. d’Avrigny", "learned": "He returns despite his vow. He is astonished that Valentine lives and works out Noirtier’s method. He follows Noirtier’s gaze to Madame de Villefort, and he orders that no one give Valentine anything without his instructions."},
+      {"id": "edmond-dantes", "nameHere": "Monte Cristo / the count", "learned": "He knows all about the poisonings at Villefort’s house and was content to watch them, calling it God’s justice on an accursed family. Learning that Morrel loves Valentine shakes him badly. He promises she will not die. That afternoon an Italian priest calling himself Giacomo Busoni, the count’s abbé disguise, rents the house next door to Villefort’s.", "moment": "He promised Morrel that Valentine would not die."},
+      {"id": "baptistin", "nameHere": "Baptistin", "learned": "Morrel sends him to ask after Valentine."},
+      {"id": "bertuccio", "nameHere": "Bertuccio", "learned": "He brings the count some urgent news that angers him."},
+      {"id": "fernand-mondego", "nameHere": "the general / M. de Morcerf", "learned": "The count reports that he has blown his brains out, and says that a dead father is better than a dishonored one.", "moment": "His suicide was confirmed."},
+      {"id": "mercedes", "nameHere": "the countess", "learned": "Morrel pities her as a noble woman."},
+      {"id": "albert-de-morcerf", "nameHere": "Albert", "learned": "The count calls him the worthy son of the countess."},
+      {"id": "marquis-de-saint-meran", "nameHere": "M. de Saint-Méran", "learned": "The count counts him as the first death, three months ago."},
+      {"id": "marquise-de-saint-meran", "nameHere": "Madame de Saint-Méran", "learned": "Morrel overheard the conversation about poison on the night of her death."},
+      {"id": "barrois", "nameHere": "Barrois", "learned": "Noirtier confirms Barrois was poisoned by a dose meant for someone else."},
+      {"id": "heloise-de-villefort", "nameHere": "Madame de Villefort", "learned": "She arrives with every mark of motherly affection. Noirtier’s eyes fix on her in terror, and d’Avrigny notices."}
+    ]
+  },
+  {
+    "chapter": 95,
+    "characters": [
+      {"id": "danglars", "nameHere": "Baron Danglars", "learned": "In private he is a brutal husband and domineering father. He admits he is nearly ruined. He needs Andrea’s three million, or the rumor of it, to cover a four-million railway deposit, and he holds five and a half million belonging to charitable institutions that could be withdrawn at any time.", "moment": "He confessed to Eugénie that he is on the edge of ruin."},
+      {"id": "eugenie-danglars", "nameHere": "Eugénie", "learned": "She is proud and independent, loves no one, and believes she could earn a fortune as a singer. She agrees to sign the contract in three days only if she remains entirely free in her person, and she keeps her own plans secret.", "moment": "She agreed to sign the marriage contract, on her own terms."},
+      {"id": "benedetto", "nameHere": "M. Andrea Cavalcanti", "learned": "Eugénie says he is no worse than any other man, but she does not want any husband. His fortune is key to Danglars’ plans."},
+      {"id": "hermine-danglars", "nameHere": "Madame Danglars", "learned": "Eugénie suspects she has already provided for herself against her husband’s ruin."},
+      {"id": "edmond-dantes", "nameHere": "M. de Monte Cristo", "learned": "Danglars remembers a lecture from the count about a banker’s credit being his life."},
+      {"id": "louise-darmilly", "nameHere": "Mademoiselle d’Armilly", "learned": "She plays the piano for Eugénie after the interview."},
+      {"id": "heloise-de-villefort", "nameHere": "Madame de Villefort", "learned": "The Danglars women go on to visit her, in the scene told in the previous chapters."}
+    ]
+  },
+  {
+    "chapter": 96,
+    "characters": [
+      {"id": "edmond-dantes", "nameHere": "the Count of Monte Cristo", "learned": "He coldly says he took Andrea up only on the word of “Lord Wilmore and the Abbé Busoni,” his own aliases, and does not know him personally. He refuses to stand in as Andrea’s father. At the signing he reveals that Caderousse’s bloodstained waistcoat has been found with a letter to Danglars in it, and that he sent both to the king’s attorney.", "moment": "His story of the bloodstained waistcoat set off Andrea’s exposure at the contract signing."},
+      {"id": "benedetto", "nameHere": "M. Andrea Cavalcanti / Prince Cavalcanti", "learned": "He is boastful and greedy, and anxious about the dowry and the three million. When the count tells of the waistcoat, he slips away. The police come for him as an escaped galley slave accused of murdering Caderousse.", "moment": "Andrea vanished just as police came to arrest him at his own contract signing."},
+      {"id": "danglars", "nameHere": "M. Danglars / the baron", "learned": "He signs the contract first and turns slightly pale at Caderousse’s name. When soldiers enter, he shows abject terror, because “certain consciences are never calm.”"},
+      {"id": "eugenie-danglars", "nameHere": "Mademoiselle Eugénie", "learned": "She is composed and simply dressed in white, with a confident look that does not match her modest clothes."},
+      {"id": "bartolomeo-cavalcanti", "nameHere": "M. Cavalcanti, senior", "learned": "He is too old and infirm to travel, and a representative signs the contract for him."},
+      {"id": "hermine-danglars", "nameHere": "the baroness / Madame Danglars", "learned": "She mentions Villefort’s absence while signing and faints when the soldiers arrive."},
+      {"id": "lucien-debray", "nameHere": "Debray", "learned": "He is admitted to the ceremony, but only as an ordinary guest."},
+      {"id": "beauchamp", "nameHere": "Beauchamp", "learned": "He is among the guests."},
+      {"id": "chateau-renaud", "nameHere": "Château-Renaud", "learned": "He is among the guests."},
+      {"id": "heloise-de-villefort", "nameHere": "Madame de Villefort", "learned": "She attends alone, without her husband or Valentine."},
+      {"id": "valentine-de-villefort", "nameHere": "Valentine", "learned": "She is still an invalid."},
+      {"id": "louise-darmilly", "nameHere": "Mademoiselle Louise d’Armilly", "learned": "She thanks the count for her letters of introduction to Italy, which she means to use immediately."},
+      {"id": "villefort", "nameHere": "M. de Villefort", "learned": "A new development in the Caderousse case, the waistcoat and letter, keeps him away from the signing."},
+      {"id": "gaspard-caderousse", "nameHere": "Caderousse", "learned": "His missing waistcoat has turned up with a bloodstained letter to Danglars in the pocket."}
+    ]
+  },
+  {
+    "chapter": 97,
+    "characters": [
+      {"id": "danglars", "nameHere": "M. Danglars", "learned": "He is shut in his study giving statements to the police. By the end of the night he has lost his daughter."},
+      {"id": "hermine-danglars", "nameHere": "Madame Danglars", "learned": "She hides, terrified, in her boudoir."},
+      {"id": "eugenie-danglars", "nameHere": "Eugénie", "learned": "Scornful of all men, she had planned to run away even before the scandal. She cuts off her hair, dresses as a man and travels as “Léon d’Armilly.” Her plan is to live as an artist in Italy.", "moment": "Eugénie fled Paris disguised as a young man."},
+      {"id": "louise-darmilly", "nameHere": "Mademoiselle Louise d’Armilly", "learned": "She is timid and devoted. She bought the post-chaise and keeps the money, and she flees with Eugénie posing as her sister.", "moment": "She escaped from Paris with Eugénie."},
+      {"id": "benedetto", "nameHere": "M. Andrea Cavalcanti", "learned": "Louise is shocked to learn he is an escaped convict and accused murderer."},
+      {"id": "albert-de-morcerf", "nameHere": "the Morcerf", "learned": "Eugénie says she escaped him only to fall into the Cavalcanti."},
+      {"id": "lucien-debray", "nameHere": "M. Debray", "learned": "Eugénie fears she might next be married off to him."},
+      {"id": "edmond-dantes", "nameHere": "M. de Monte Cristo", "learned": "He understood Eugénie’s fear of travelling as a woman and obtained a man’s passport for her."}
+    ]
+  },
+  {
+    "chapter": 98,
+    "characters": [
+      {"id": "benedetto", "nameHere": "Andrea Cavalcanti / Benedetto", "learned": "He is clever, resourceful and without remorse. He stole jewels from the wedding presents and nearly escaped through chimneys. When cornered he refuses to kill himself, saying “one has friends,” and taunts Eugénie as he is led away.", "moment": "Andrea was arrested at Compiègne and imprisoned in the Conciergerie."},
+      {"id": "eugenie-danglars", "nameHere": "Eugénie / Mademoiselle Danglars", "learned": "She is caught at the inn when Andrea falls into her room. She coldly urges him to kill himself, and then has to leave through a jeering crowd, humiliated.", "moment": "She urged Andrea to kill himself rather than be taken."},
+      {"id": "louise-darmilly", "nameHere": "Mademoiselle d’Armilly", "learned": "She rings for help, then pities Andrea and urges him to flee."},
+      {"id": "gaspard-caderousse", "nameHere": "Caderousse", "learned": "The telegraph orders the arrest of his murderer across the country."},
+      {"id": "danglars", "nameHere": "your father", "learned": "Andrea counts on the Danglars family wanting to hush up the scandal, and he mockingly offers to carry a message to the banker."}
+    ]
+  }
+]
