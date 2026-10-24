@@ -16,6 +16,12 @@
   --serif: 'Cormorant Garamond', Georgia, 'Times New Roman', serif;
   --sans: 'Inter', system-ui, -apple-system, 'Segoe UI', sans-serif;
   --radius: 14px;
+  /* Relationship colours, validated as a set against --surface (light). */
+  --rel-family: #2a78d6;
+  --rel-love: #e87ba4;
+  --rel-friend: #008300;
+  --rel-enemy: #eda100;
+  --rel-work: #9a9083;
   color-scheme: light;
 }
 
@@ -35,6 +41,12 @@
     --supporting: #86a9bf;
     --minor: #8f8577;
     --shadow: 0 1px 2px rgb(0 0 0 / 0.3), 0 4px 16px rgb(0 0 0 / 0.25);
+    /* Same hues stepped for the dark surface, validated as a set. */
+    --rel-family: #3987e5;
+    --rel-love: #d55181;
+    --rel-friend: #008300;
+    --rel-enemy: #c98500;
+    --rel-work: #7d7468;
     color-scheme: dark;
   }
 }
@@ -257,4 +269,67 @@ button { font: inherit; }
   .profile__head { flex-direction: column; gap: 12px; }
   .timeline__ch { min-width: 44px; }
   .bookmark__label { width: 100%; }
+}
+
+/* Character map */
+.rel { stroke-width: 2; stroke-linecap: round; fill: none; }
+.rel--family { stroke: var(--rel-family); }
+.rel--love { stroke: var(--rel-love); }
+.rel--friend { stroke: var(--rel-friend); }
+.rel--enemy { stroke: var(--rel-enemy); }
+.rel--work { stroke: var(--rel-work); stroke-width: 1.5; }
+
+.map-page__head { margin-bottom: 8px; }
+.timeline-slider { display: flex; flex-direction: column; gap: 4px; margin: 4px 0 12px; font-size: 0.92rem; }
+.timeline-slider input { width: 100%; accent-color: var(--accent); }
+.link-btn {
+  background: none; border: 0; padding: 0; margin-left: 8px; color: var(--accent); font: inherit; cursor: pointer;
+}
+.link-btn:hover { text-decoration: underline; }
+.rel-list .link-btn { margin-left: 0; font-weight: 600; text-align: left; }
+
+.legend { display: flex; flex-wrap: wrap; gap: 6px; margin-bottom: 12px; }
+.legend__item {
+  display: inline-flex; align-items: center; gap: 6px; padding: 4px 10px; border-radius: 999px;
+  border: 1px solid var(--border); background: var(--surface); color: var(--text); font: 500 0.85rem var(--sans); cursor: pointer;
+}
+.legend__item.is-off { opacity: 0.45; text-decoration: line-through; }
+
+.map-layout { display: grid; grid-template-columns: minmax(0, 1fr) 280px; gap: 16px; align-items: start; }
+.map {
+  position: relative; height: min(70vh, 640px); background: var(--surface); border: 1px solid var(--border);
+  border-radius: var(--radius); overflow: hidden; box-shadow: var(--shadow);
+}
+.map--empty { display: grid; place-items: center; }
+.map__svg { width: 100%; height: 100%; display: block; touch-action: none; cursor: grab; }
+.map__svg:active { cursor: grabbing; }
+.map__zoom { position: absolute; right: 10px; bottom: 10px; display: flex; flex-direction: column; gap: 6px; }
+.map__link { transition: opacity 0.15s; }
+.map__link.is-dim { opacity: 0.12; }
+.map__link-hit { stroke: transparent; stroke-width: 12; }
+.node { cursor: pointer; transition: opacity 0.15s; outline: none; }
+.node.is-dim { opacity: 0.25; }
+.node__hit { fill: transparent; }
+.node__dot { fill: var(--minor); stroke: var(--surface); stroke-width: 2; }
+.node--major .node__dot { fill: var(--major); }
+.node--supporting .node__dot { fill: var(--supporting); }
+.node.is-selected .node__dot, .node:focus-visible .node__dot { stroke: var(--gold); stroke-width: 3; }
+.node__initials { fill: #fff; text-anchor: middle; font-family: var(--serif); font-weight: 600; pointer-events: none; }
+.node__label {
+  fill: var(--text); text-anchor: middle; font: 500 11px var(--sans); pointer-events: none;
+  paint-order: stroke; stroke: var(--surface); stroke-width: 3px; stroke-linejoin: round;
+}
+@media (prefers-color-scheme: dark) { .node__initials { fill: #17140f; } }
+
+.map-panel { position: sticky; top: 140px; max-height: min(70vh, 640px); overflow: auto; margin: 0; }
+.map-panel h2 { font-size: 1.5rem; margin-bottom: 4px; }
+.map-panel__title { font: 600 0.8rem var(--sans); text-transform: uppercase; letter-spacing: 0.06em; color: var(--gold); margin: 16px 0 8px; }
+.rel-list { list-style: none; margin: 0; padding: 0; display: grid; gap: 10px; }
+.rel-list li { display: flex; gap: 8px; align-items: flex-start; line-height: 1.35; }
+.rel-list svg { flex: none; margin-top: 5px; }
+
+@media (max-width: 760px) {
+  .map-layout { grid-template-columns: 1fr; }
+  .map { height: 60vh; }
+  .map-panel { position: static; max-height: none; }
 }

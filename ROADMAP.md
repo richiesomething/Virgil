@@ -10,7 +10,7 @@ Guiding rule: **no spoilers**. Everything is gated by the reader's bookmark.
 5. Spoiler-aware character profiles
 
 ## Phase 2 — Relationships and structure
-6. Character map (relationship graph, click a character for their profile, timeline slider that never passes the bookmark, filters by group/importance)
+6. ✅ Character map (relationship graph, click a character for their relationships and profile, replay slider that never passes the bookmark, filters by group/importance/relationship type; profiles list relationships too)
 7. Family trees
 8. Places and settings
 9. Timeline of events (story order vs. telling order)

@@ -72,4 +72,17 @@ export interface BookData {
   meta: BookMeta
   chapters: Chapter[]
   characters: Character[]
+  relationships: Relationship[]
+}
+
+export type RelationType = 'family' | 'love' | 'friend' | 'enemy' | 'work'
+
+/**
+ * A relationship between two characters as the reader understands it. Each state
+ * becomes visible at its chapter; the latest reached state is the current one.
+ */
+export interface Relationship {
+  a: string
+  b: string
+  states: { from: number; type: RelationType; label: string }[]
 }

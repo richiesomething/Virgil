@@ -23,6 +23,12 @@ Books so far:
   moments each carry the chapter where they become known. Secret identities stay separate
   characters until the book reveals them, then fold into the real person (`mergedInto`).
 
+## Features (Phase 2)
+
+- **Character map**: an interactive relationship graph (drag, zoom, tap a character for their
+  relationships). Relationships change over the book and are gated like everything else; a replay
+  slider shows the map at any earlier chapter. Profiles list relationships too.
+
 See [ROADMAP.md](ROADMAP.md) for what's next.
 
 ## Development
@@ -41,6 +47,7 @@ Each book lives in `src/books/<id>/`:
 
 - `meta.ts` — title, author, chapter count, volumes.
 - `chapters.json` — `{ number, title, volume, summary, details[], characters[] }`.
+- `relationships.json` — `{ a, b, states: [{ from, type, label }] }`; see `Relationship` in `src/types.ts`.
 - `characters.json` — see `Character` in `src/types.ts`. Every piece of information has a
   `from` chapter; `src/lib/spoilers.ts` is the only place that decides what the reader may see.
 

@@ -1,0 +1,1255 @@
+[
+  {
+    "a": "harry-potter",
+    "b": "lily-potter",
+    "states": [
+      {
+        "from": 1,
+        "type": "family",
+        "label": "Harry’s mother, killed by Voldemort"
+      },
+      {
+        "from": 17,
+        "type": "family",
+        "label": "Harry’s mother, whose sacrifice protects him"
+      }
+    ]
+  },
+  {
+    "a": "harry-potter",
+    "b": "james-potter",
+    "states": [
+      {
+        "from": 1,
+        "type": "family",
+        "label": "Harry’s father, killed by Voldemort"
+      },
+      {
+        "from": 12,
+        "type": "family",
+        "label": "Harry’s father, who left him the Invisibility Cloak"
+      }
+    ]
+  },
+  {
+    "a": "lily-potter",
+    "b": "james-potter",
+    "states": [
+      {
+        "from": 1,
+        "type": "love",
+        "label": "Married; killed together"
+      }
+    ]
+  },
+  {
+    "a": "harry-potter",
+    "b": "petunia-dursley",
+    "states": [
+      {
+        "from": 1,
+        "type": "family",
+        "label": "His aunt, left to raise him"
+      },
+      {
+        "from": 2,
+        "type": "family",
+        "label": "His aunt, who resents and neglects him"
+      }
+    ]
+  },
+  {
+    "a": "harry-potter",
+    "b": "vernon-dursley",
+    "states": [
+      {
+        "from": 1,
+        "type": "family",
+        "label": "His uncle by marriage"
+      },
+      {
+        "from": 2,
+        "type": "family",
+        "label": "His uncle, who bullies and punishes him"
+      }
+    ]
+  },
+  {
+    "a": "harry-potter",
+    "b": "dudley-dursley",
+    "states": [
+      {
+        "from": 1,
+        "type": "family",
+        "label": "Cousins"
+      },
+      {
+        "from": 2,
+        "type": "family",
+        "label": "Cousin and chief tormentor"
+      }
+    ]
+  },
+  {
+    "a": "vernon-dursley",
+    "b": "petunia-dursley",
+    "states": [
+      {
+        "from": 1,
+        "type": "love",
+        "label": "Married"
+      }
+    ]
+  },
+  {
+    "a": "vernon-dursley",
+    "b": "dudley-dursley",
+    "states": [
+      {
+        "from": 1,
+        "type": "family",
+        "label": "Father and spoiled son"
+      }
+    ]
+  },
+  {
+    "a": "petunia-dursley",
+    "b": "dudley-dursley",
+    "states": [
+      {
+        "from": 1,
+        "type": "family",
+        "label": "Mother and adored son"
+      }
+    ]
+  },
+  {
+    "a": "petunia-dursley",
+    "b": "lily-potter",
+    "states": [
+      {
+        "from": 1,
+        "type": "family",
+        "label": "Sisters; Petunia pretends Lily doesn’t exist"
+      },
+      {
+        "from": 4,
+        "type": "family",
+        "label": "Sisters; Petunia resented Lily for being a witch"
+      }
+    ]
+  },
+  {
+    "a": "harry-potter",
+    "b": "voldemort",
+    "states": [
+      {
+        "from": 1,
+        "type": "enemy",
+        "label": "Tried to kill baby Harry and failed"
+      },
+      {
+        "from": 15,
+        "type": "enemy",
+        "label": "Harry fears he is trying to return"
+      },
+      {
+        "from": 17,
+        "type": "enemy",
+        "label": "Harry foils his attempt to return"
+      }
+    ]
+  },
+  {
+    "a": "voldemort",
+    "b": "lily-potter",
+    "states": [
+      {
+        "from": 1,
+        "type": "enemy",
+        "label": "Killed her"
+      },
+      {
+        "from": 17,
+        "type": "enemy",
+        "label": "Killed her; she died protecting Harry"
+      }
+    ]
+  },
+  {
+    "a": "voldemort",
+    "b": "james-potter",
+    "states": [
+      {
+        "from": 1,
+        "type": "enemy",
+        "label": "Killed him"
+      }
+    ]
+  },
+  {
+    "a": "albus-dumbledore",
+    "b": "voldemort",
+    "states": [
+      {
+        "from": 1,
+        "type": "enemy",
+        "label": "The only wizard Voldemort ever feared"
+      }
+    ]
+  },
+  {
+    "a": "harry-potter",
+    "b": "albus-dumbledore",
+    "states": [
+      {
+        "from": 1,
+        "type": "friend",
+        "label": "Leaves baby Harry with the Dursleys"
+      },
+      {
+        "from": 7,
+        "type": "work",
+        "label": "Headmaster of Harry’s school"
+      },
+      {
+        "from": 12,
+        "type": "friend",
+        "label": "Gently guides Harry at the Mirror of Erised"
+      },
+      {
+        "from": 17,
+        "type": "friend",
+        "label": "Saves Harry and explains the truth; sent him the cloak"
+      }
+    ]
+  },
+  {
+    "a": "harry-potter",
+    "b": "rubeus-hagrid",
+    "states": [
+      {
+        "from": 1,
+        "type": "friend",
+        "label": "Rescued baby Harry and carried him to Privet Drive"
+      },
+      {
+        "from": 4,
+        "type": "friend",
+        "label": "Tells Harry he’s a wizard; his first friend"
+      },
+      {
+        "from": 17,
+        "type": "friend",
+        "label": "Loyal friend; gives Harry an album of his parents"
+      }
+    ]
+  },
+  {
+    "a": "harry-potter",
+    "b": "minerva-mcgonagall",
+    "states": [
+      {
+        "from": 1,
+        "type": "friend",
+        "label": "Worries about Harry being raised by the Dursleys"
+      },
+      {
+        "from": 7,
+        "type": "work",
+        "label": "Head of Harry’s house"
+      },
+      {
+        "from": 9,
+        "type": "work",
+        "label": "Makes Harry the Gryffindor Seeker"
+      },
+      {
+        "from": 15,
+        "type": "work",
+        "label": "Strict head of house; takes fifty points from him"
+      }
+    ]
+  },
+  {
+    "a": "albus-dumbledore",
+    "b": "minerva-mcgonagall",
+    "states": [
+      {
+        "from": 1,
+        "type": "work",
+        "label": "Old colleagues; she trusts his judgment"
+      },
+      {
+        "from": 4,
+        "type": "work",
+        "label": "Headmaster and Deputy Headmistress"
+      }
+    ]
+  },
+  {
+    "a": "albus-dumbledore",
+    "b": "rubeus-hagrid",
+    "states": [
+      {
+        "from": 1,
+        "type": "work",
+        "label": "Hagrid trusts Dumbledore with his life"
+      },
+      {
+        "from": 4,
+        "type": "work",
+        "label": "Hagrid’s revered employer"
+      }
+    ]
+  },
+  {
+    "a": "rubeus-hagrid",
+    "b": "sirius-black",
+    "states": [
+      {
+        "from": 1,
+        "type": "friend",
+        "label": "Lent Hagrid his flying motorbike"
+      }
+    ]
+  },
+  {
+    "a": "albus-dumbledore",
+    "b": "nicolas-flamel",
+    "states": [
+      {
+        "from": 6,
+        "type": "friend",
+        "label": "Partners in alchemy"
+      },
+      {
+        "from": 17,
+        "type": "friend",
+        "label": "Agree together to destroy the Stone"
+      }
+    ]
+  },
+  {
+    "a": "harry-potter",
+    "b": "ron-weasley",
+    "states": [
+      {
+        "from": 6,
+        "type": "friend",
+        "label": "Meet on the train and hit it off"
+      },
+      {
+        "from": 7,
+        "type": "friend",
+        "label": "Best friends and fellow Gryffindors"
+      }
+    ]
+  },
+  {
+    "a": "harry-potter",
+    "b": "hermione-granger",
+    "states": [
+      {
+        "from": 6,
+        "type": "work",
+        "label": "Bossy girl Harry meets on the train"
+      },
+      {
+        "from": 7,
+        "type": "work",
+        "label": "Gryffindor classmates; she’s a know-it-all"
+      },
+      {
+        "from": 10,
+        "type": "friend",
+        "label": "Friends after the troll"
+      }
+    ]
+  },
+  {
+    "a": "ron-weasley",
+    "b": "hermione-granger",
+    "states": [
+      {
+        "from": 6,
+        "type": "work",
+        "label": "Ron finds her bossy"
+      },
+      {
+        "from": 10,
+        "type": "work",
+        "label": "Ron mocks her, but helps save her from the troll"
+      },
+      {
+        "from": 10,
+        "type": "friend",
+        "label": "Friends after the troll"
+      }
+    ]
+  },
+  {
+    "a": "harry-potter",
+    "b": "pale-boy",
+    "states": [
+      {
+        "from": 5,
+        "type": "enemy",
+        "label": "Harry dislikes him at once"
+      }
+    ]
+  },
+  {
+    "a": "harry-potter",
+    "b": "draco-malfoy",
+    "states": [
+      {
+        "from": 6,
+        "type": "enemy",
+        "label": "Harry refuses his friendship; rivals"
+      },
+      {
+        "from": 9,
+        "type": "enemy",
+        "label": "Bitter rivals; Draco tries to get Harry expelled"
+      }
+    ]
+  },
+  {
+    "a": "pale-boy",
+    "b": "rubeus-hagrid",
+    "states": [
+      {
+        "from": 5,
+        "type": "enemy",
+        "label": "Sneers at Hagrid as a savage"
+      }
+    ]
+  },
+  {
+    "a": "ron-weasley",
+    "b": "draco-malfoy",
+    "states": [
+      {
+        "from": 6,
+        "type": "enemy",
+        "label": "Draco sneers at the Weasleys"
+      }
+    ]
+  },
+  {
+    "a": "draco-malfoy",
+    "b": "vincent-crabbe",
+    "states": [
+      {
+        "from": 6,
+        "type": "friend",
+        "label": "Draco’s hulking sidekick"
+      }
+    ]
+  },
+  {
+    "a": "draco-malfoy",
+    "b": "gregory-goyle",
+    "states": [
+      {
+        "from": 6,
+        "type": "friend",
+        "label": "Draco’s hulking sidekick"
+      }
+    ]
+  },
+  {
+    "a": "draco-malfoy",
+    "b": "pansy-parkinson",
+    "states": [
+      {
+        "from": 9,
+        "type": "friend",
+        "label": "Fellow Slytherins who mock Neville"
+      }
+    ]
+  },
+  {
+    "a": "ron-weasley",
+    "b": "molly-weasley",
+    "states": [
+      {
+        "from": 6,
+        "type": "family",
+        "label": "Mother and son"
+      }
+    ]
+  },
+  {
+    "a": "ron-weasley",
+    "b": "fred-weasley",
+    "states": [
+      {
+        "from": 6,
+        "type": "family",
+        "label": "Brothers; the twins tease Ron"
+      }
+    ]
+  },
+  {
+    "a": "ron-weasley",
+    "b": "george-weasley",
+    "states": [
+      {
+        "from": 6,
+        "type": "family",
+        "label": "Brothers; the twins tease Ron"
+      }
+    ]
+  },
+  {
+    "a": "fred-weasley",
+    "b": "george-weasley",
+    "states": [
+      {
+        "from": 6,
+        "type": "family",
+        "label": "Identical twins and partners in mischief"
+      }
+    ]
+  },
+  {
+    "a": "ron-weasley",
+    "b": "percy-weasley",
+    "states": [
+      {
+        "from": 6,
+        "type": "family",
+        "label": "Brothers; Percy is a pompous prefect"
+      }
+    ]
+  },
+  {
+    "a": "ron-weasley",
+    "b": "ginny-weasley",
+    "states": [
+      {
+        "from": 6,
+        "type": "family",
+        "label": "Brother and little sister"
+      }
+    ]
+  },
+  {
+    "a": "ron-weasley",
+    "b": "bill-weasley",
+    "states": [
+      {
+        "from": 6,
+        "type": "family",
+        "label": "Brothers; Bill was Head Boy"
+      }
+    ]
+  },
+  {
+    "a": "ron-weasley",
+    "b": "charlie-weasley",
+    "states": [
+      {
+        "from": 6,
+        "type": "family",
+        "label": "Brothers; Charlie works with dragons"
+      }
+    ]
+  },
+  {
+    "a": "molly-weasley",
+    "b": "ginny-weasley",
+    "states": [
+      {
+        "from": 6,
+        "type": "family",
+        "label": "Mother and daughter"
+      }
+    ]
+  },
+  {
+    "a": "molly-weasley",
+    "b": "fred-weasley",
+    "states": [
+      {
+        "from": 6,
+        "type": "family",
+        "label": "Mother and son"
+      }
+    ]
+  },
+  {
+    "a": "molly-weasley",
+    "b": "percy-weasley",
+    "states": [
+      {
+        "from": 6,
+        "type": "family",
+        "label": "Mother and son"
+      }
+    ]
+  },
+  {
+    "a": "ron-weasley",
+    "b": "scabbers",
+    "states": [
+      {
+        "from": 6,
+        "type": "friend",
+        "label": "Ron’s sleepy hand-me-down rat"
+      }
+    ]
+  },
+  {
+    "a": "harry-potter",
+    "b": "molly-weasley",
+    "states": [
+      {
+        "from": 6,
+        "type": "friend",
+        "label": "Helps Harry onto the platform"
+      },
+      {
+        "from": 12,
+        "type": "friend",
+        "label": "Knits Harry a Christmas sweater"
+      }
+    ]
+  },
+  {
+    "a": "harry-potter",
+    "b": "fred-weasley",
+    "states": [
+      {
+        "from": 6,
+        "type": "friend",
+        "label": "Helps Harry with his trunk"
+      },
+      {
+        "from": 10,
+        "type": "friend",
+        "label": "Quidditch teammates"
+      }
+    ]
+  },
+  {
+    "a": "harry-potter",
+    "b": "george-weasley",
+    "states": [
+      {
+        "from": 6,
+        "type": "friend",
+        "label": "Helps Harry with his trunk"
+      },
+      {
+        "from": 10,
+        "type": "friend",
+        "label": "Quidditch teammates"
+      }
+    ]
+  },
+  {
+    "a": "fred-weasley",
+    "b": "lee-jordan",
+    "states": [
+      {
+        "from": 6,
+        "type": "friend",
+        "label": "Friends"
+      }
+    ]
+  },
+  {
+    "a": "george-weasley",
+    "b": "lee-jordan",
+    "states": [
+      {
+        "from": 6,
+        "type": "friend",
+        "label": "Friends"
+      }
+    ]
+  },
+  {
+    "a": "harry-potter",
+    "b": "hedwig",
+    "states": [
+      {
+        "from": 6,
+        "type": "friend",
+        "label": "Harry’s owl, a birthday gift from Hagrid"
+      }
+    ]
+  },
+  {
+    "a": "rubeus-hagrid",
+    "b": "fang",
+    "states": [
+      {
+        "from": 8,
+        "type": "friend",
+        "label": "Hagrid’s boarhound"
+      }
+    ]
+  },
+  {
+    "a": "rubeus-hagrid",
+    "b": "three-headed-dog",
+    "states": [
+      {
+        "from": 11,
+        "type": "friend",
+        "label": "Hagrid’s beloved pet, Fluffy"
+      }
+    ]
+  },
+  {
+    "a": "albus-dumbledore",
+    "b": "three-headed-dog",
+    "states": [
+      {
+        "from": 11,
+        "type": "work",
+        "label": "Lent to Dumbledore as a guard"
+      }
+    ]
+  },
+  {
+    "a": "harry-potter",
+    "b": "three-headed-dog",
+    "states": [
+      {
+        "from": 9,
+        "type": "enemy",
+        "label": "Nearly attacks Harry and his friends"
+      },
+      {
+        "from": 16,
+        "type": "enemy",
+        "label": "Lulled to sleep by Harry’s flute"
+      }
+    ]
+  },
+  {
+    "a": "rubeus-hagrid",
+    "b": "norbert",
+    "states": [
+      {
+        "from": 14,
+        "type": "friend",
+        "label": "Hagrid hatches and dotes on him"
+      }
+    ]
+  },
+  {
+    "a": "charlie-weasley",
+    "b": "norbert",
+    "states": [
+      {
+        "from": 14,
+        "type": "work",
+        "label": "Takes Norbert to Romania"
+      }
+    ]
+  },
+  {
+    "a": "rubeus-hagrid",
+    "b": "ron-weasley",
+    "states": [
+      {
+        "from": 8,
+        "type": "friend",
+        "label": "Friends who visit for tea"
+      }
+    ]
+  },
+  {
+    "a": "rubeus-hagrid",
+    "b": "hermione-granger",
+    "states": [
+      {
+        "from": 11,
+        "type": "friend",
+        "label": "Friends who visit for tea"
+      }
+    ]
+  },
+  {
+    "a": "harry-potter",
+    "b": "severus-snape",
+    "states": [
+      {
+        "from": 7,
+        "type": "enemy",
+        "label": "A teacher whose glance makes Harry’s scar hurt"
+      },
+      {
+        "from": 8,
+        "type": "enemy",
+        "label": "Snape picks on Harry from the first lesson"
+      },
+      {
+        "from": 11,
+        "type": "enemy",
+        "label": "Harry suspects him of jinxing his broom"
+      },
+      {
+        "from": 13,
+        "type": "enemy",
+        "label": "Harry believes he is after the Stone"
+      },
+      {
+        "from": 17,
+        "type": "friend",
+        "label": "Loathes Harry, yet secretly protected him"
+      }
+    ]
+  },
+  {
+    "a": "severus-snape",
+    "b": "james-potter",
+    "states": [
+      {
+        "from": 17,
+        "type": "enemy",
+        "label": "Hated each other; James once saved Snape’s life"
+      }
+    ]
+  },
+  {
+    "a": "severus-snape",
+    "b": "neville-longbottom",
+    "states": [
+      {
+        "from": 8,
+        "type": "enemy",
+        "label": "Snape blames and terrifies Neville"
+      }
+    ]
+  },
+  {
+    "a": "severus-snape",
+    "b": "hermione-granger",
+    "states": [
+      {
+        "from": 8,
+        "type": "work",
+        "label": "Snape ignores her raised hand"
+      },
+      {
+        "from": 11,
+        "type": "enemy",
+        "label": "She sets his robes alight, suspecting him"
+      }
+    ]
+  },
+  {
+    "a": "severus-snape",
+    "b": "quirinus-quirrell",
+    "states": [
+      {
+        "from": 7,
+        "type": "work",
+        "label": "Fellow teachers"
+      },
+      {
+        "from": 13,
+        "type": "enemy",
+        "label": "Snape menaces Quirrell in the forest"
+      },
+      {
+        "from": 17,
+        "type": "enemy",
+        "label": "Snape suspected Quirrell and tried to stop him"
+      }
+    ]
+  },
+  {
+    "a": "albus-dumbledore",
+    "b": "severus-snape",
+    "states": [
+      {
+        "from": 7,
+        "type": "work",
+        "label": "Headmaster and Potions master"
+      }
+    ]
+  },
+  {
+    "a": "albus-dumbledore",
+    "b": "quirinus-quirrell",
+    "states": [
+      {
+        "from": 7,
+        "type": "work",
+        "label": "Headmaster and teacher"
+      },
+      {
+        "from": 17,
+        "type": "enemy",
+        "label": "Dumbledore arrives to save Harry from him"
+      }
+    ]
+  },
+  {
+    "a": "quirinus-quirrell",
+    "b": "voldemort",
+    "states": [
+      {
+        "from": 17,
+        "type": "work",
+        "label": "Quirrell serves Voldemort, who shares his body"
+      }
+    ]
+  },
+  {
+    "a": "harry-potter",
+    "b": "hooded-figure",
+    "states": [
+      {
+        "from": 15,
+        "type": "enemy",
+        "label": "Glides toward Harry in the forest"
+      }
+    ]
+  },
+  {
+    "a": "harry-potter",
+    "b": "quirinus-quirrell",
+    "states": [
+      {
+        "from": 5,
+        "type": "work",
+        "label": "Nervous teacher Harry meets at the Leaky Cauldron"
+      },
+      {
+        "from": 8,
+        "type": "work",
+        "label": "Harry’s Defence Against the Dark Arts teacher"
+      },
+      {
+        "from": 17,
+        "type": "enemy",
+        "label": "Tries to kill Harry for the Stone"
+      }
+    ]
+  },
+  {
+    "a": "quirinus-quirrell",
+    "b": "mountain-troll",
+    "states": [
+      {
+        "from": 17,
+        "type": "work",
+        "label": "Quirrell let the troll into the castle"
+      }
+    ]
+  },
+  {
+    "a": "harry-potter",
+    "b": "mountain-troll",
+    "states": [
+      {
+        "from": 10,
+        "type": "enemy",
+        "label": "Harry fights it to save Hermione"
+      }
+    ]
+  },
+  {
+    "a": "hermione-granger",
+    "b": "mountain-troll",
+    "states": [
+      {
+        "from": 10,
+        "type": "enemy",
+        "label": "Corners Hermione in the bathroom"
+      }
+    ]
+  },
+  {
+    "a": "harry-potter",
+    "b": "neville-longbottom",
+    "states": [
+      {
+        "from": 6,
+        "type": "work",
+        "label": "Forgetful boy Harry meets on the train"
+      },
+      {
+        "from": 7,
+        "type": "work",
+        "label": "Gryffindor classmates"
+      },
+      {
+        "from": 13,
+        "type": "friend",
+        "label": "Harry encourages him after Malfoy’s bullying"
+      },
+      {
+        "from": 16,
+        "type": "friend",
+        "label": "Neville bravely tries to stop Harry’s plan"
+      }
+    ]
+  },
+  {
+    "a": "neville-longbottom",
+    "b": "draco-malfoy",
+    "states": [
+      {
+        "from": 9,
+        "type": "enemy",
+        "label": "Draco steals his Remembrall"
+      },
+      {
+        "from": 13,
+        "type": "enemy",
+        "label": "Draco hexes him with a Leg-Locker Curse"
+      }
+    ]
+  },
+  {
+    "a": "hermione-granger",
+    "b": "neville-longbottom",
+    "states": [
+      {
+        "from": 6,
+        "type": "friend",
+        "label": "Helps him look for his toad"
+      },
+      {
+        "from": 16,
+        "type": "friend",
+        "label": "Hermione freezes him to get past"
+      }
+    ]
+  },
+  {
+    "a": "harry-potter",
+    "b": "oliver-wood",
+    "states": [
+      {
+        "from": 9,
+        "type": "work",
+        "label": "Gryffindor captain and his new Seeker"
+      }
+    ]
+  },
+  {
+    "a": "harry-potter",
+    "b": "percy-weasley",
+    "states": [
+      {
+        "from": 7,
+        "type": "work",
+        "label": "Gryffindor prefect"
+      }
+    ]
+  },
+  {
+    "a": "harry-potter",
+    "b": "garrick-ollivander",
+    "states": [
+      {
+        "from": 5,
+        "type": "work",
+        "label": "Sells Harry his wand"
+      }
+    ]
+  },
+  {
+    "a": "harry-potter",
+    "b": "griphook",
+    "states": [
+      {
+        "from": 5,
+        "type": "work",
+        "label": "Takes Harry down to his vault"
+      }
+    ]
+  },
+  {
+    "a": "harry-potter",
+    "b": "firenze",
+    "states": [
+      {
+        "from": 15,
+        "type": "friend",
+        "label": "Saves Harry from the hooded figure"
+      }
+    ]
+  },
+  {
+    "a": "firenze",
+    "b": "bane",
+    "states": [
+      {
+        "from": 15,
+        "type": "enemy",
+        "label": "Bane is furious Firenze helps a human"
+      }
+    ]
+  },
+  {
+    "a": "ronan",
+    "b": "bane",
+    "states": [
+      {
+        "from": 15,
+        "type": "friend",
+        "label": "Fellow centaurs of the forest"
+      }
+    ]
+  },
+  {
+    "a": "rubeus-hagrid",
+    "b": "ronan",
+    "states": [
+      {
+        "from": 15,
+        "type": "friend",
+        "label": "Hagrid knows the centaurs well"
+      }
+    ]
+  },
+  {
+    "a": "harry-potter",
+    "b": "dedalus-diggle",
+    "states": [
+      {
+        "from": 5,
+        "type": "friend",
+        "label": "An admirer who once bowed to Harry"
+      }
+    ]
+  },
+  {
+    "a": "harry-potter",
+    "b": "arabella-figg",
+    "states": [
+      {
+        "from": 2,
+        "type": "work",
+        "label": "Neighbour who minds Harry"
+      }
+    ]
+  },
+  {
+    "a": "dudley-dursley",
+    "b": "piers-polkiss",
+    "states": [
+      {
+        "from": 2,
+        "type": "friend",
+        "label": "Best friends who bully Harry together"
+      }
+    ]
+  },
+  {
+    "a": "harry-potter",
+    "b": "piers-polkiss",
+    "states": [
+      {
+        "from": 2,
+        "type": "enemy",
+        "label": "Holds Harry while Dudley hits him"
+      }
+    ]
+  },
+  {
+    "a": "harry-potter",
+    "b": "argus-filch",
+    "states": [
+      {
+        "from": 8,
+        "type": "enemy",
+        "label": "A caretaker eager to catch Harry"
+      },
+      {
+        "from": 14,
+        "type": "enemy",
+        "label": "Catches Harry out of bed"
+      }
+    ]
+  },
+  {
+    "a": "argus-filch",
+    "b": "mrs-norris",
+    "states": [
+      {
+        "from": 8,
+        "type": "friend",
+        "label": "Filch’s cat and spy"
+      }
+    ]
+  },
+  {
+    "a": "harry-potter",
+    "b": "sorting-hat",
+    "states": [
+      {
+        "from": 7,
+        "type": "work",
+        "label": "Puts Harry in Gryffindor at his request"
+      }
+    ]
+  },
+  {
+    "a": "harry-potter",
+    "b": "marcus-flint",
+    "states": [
+      {
+        "from": 11,
+        "type": "enemy",
+        "label": "Fouls Harry during the match"
+      }
+    ]
+  },
+  {
+    "a": "harry-potter",
+    "b": "seamus-finnigan",
+    "states": [
+      {
+        "from": 7,
+        "type": "work",
+        "label": "Gryffindor dorm-mates"
+      }
+    ]
+  },
+  {
+    "a": "harry-potter",
+    "b": "dean-thomas",
+    "states": [
+      {
+        "from": 7,
+        "type": "work",
+        "label": "Gryffindor dorm-mates"
+      }
+    ]
+  },
+  {
+    "a": "harry-potter",
+    "b": "madam-pomfrey",
+    "states": [
+      {
+        "from": 17,
+        "type": "work",
+        "label": "Nurses Harry in the hospital wing"
+      }
+    ]
+  },
+  {
+    "a": "ron-weasley",
+    "b": "madam-pomfrey",
+    "states": [
+      {
+        "from": 14,
+        "type": "work",
+        "label": "Treats Ron’s dragon bite"
+      }
+    ]
+  }
+]

@@ -1,0 +1,3421 @@
+[
+  {
+    "a": "edmond-dantes",
+    "b": "louis-dantes",
+    "states": [
+      {
+        "from": 1,
+        "type": "family",
+        "label": "Devoted son of a poor, proud father"
+      },
+      {
+        "from": 13,
+        "type": "family",
+        "label": "His father dies while Edmond is in prison"
+      },
+      {
+        "from": 25,
+        "type": "family",
+        "label": "Dantès learns his father is dead"
+      }
+    ]
+  },
+  {
+    "a": "edmond-dantes",
+    "b": "mercedes",
+    "states": [
+      {
+        "from": 1,
+        "type": "love",
+        "label": "Betrothed sweethearts"
+      },
+      {
+        "from": 5,
+        "type": "love",
+        "label": "Wedding day cut short by Edmond’s arrest"
+      },
+      {
+        "from": 27,
+        "type": "love",
+        "label": "Dantès learns she married Fernand"
+      },
+      {
+        "from": 41,
+        "type": "love",
+        "label": "Reunited unrecognized: she is Countess de Morcerf"
+      },
+      {
+        "from": 89,
+        "type": "love",
+        "label": "She knows him as Edmond; he spares Albert"
+      },
+      {
+        "from": 112,
+        "type": "love",
+        "label": "A last, sorrowful farewell in Marseilles"
+      }
+    ]
+  },
+  {
+    "a": "edmond-dantes",
+    "b": "danglars",
+    "states": [
+      {
+        "from": 1,
+        "type": "work",
+        "label": "Jealous supercargo on Dantès’ ship"
+      },
+      {
+        "from": 4,
+        "type": "enemy",
+        "label": "Danglars secretly denounces Dantès"
+      },
+      {
+        "from": 17,
+        "type": "enemy",
+        "label": "Dantès now knows Danglars denounced him"
+      },
+      {
+        "from": 46,
+        "type": "enemy",
+        "label": "The Count draws the banker into his trap"
+      },
+      {
+        "from": 61,
+        "type": "enemy",
+        "label": "The Count’s false telegraph costs Danglars dearly"
+      },
+      {
+        "from": 104,
+        "type": "enemy",
+        "label": "The Count drains Danglars of five million"
+      },
+      {
+        "from": 116,
+        "type": "enemy",
+        "label": "Dantès reveals himself, forgives and frees Danglars"
+      }
+    ]
+  },
+  {
+    "a": "edmond-dantes",
+    "b": "fernand-mondego",
+    "states": [
+      {
+        "from": 3,
+        "type": "enemy",
+        "label": "Mercédès’ jealous cousin and rival suitor"
+      },
+      {
+        "from": 4,
+        "type": "enemy",
+        "label": "Fernand pockets the denunciation of Dantès"
+      },
+      {
+        "from": 17,
+        "type": "enemy",
+        "label": "Dantès now knows Fernand denounced him"
+      },
+      {
+        "from": 27,
+        "type": "enemy",
+        "label": "Fernand, now Count de Morcerf, married Mercédès"
+      },
+      {
+        "from": 41,
+        "type": "enemy",
+        "label": "The Count meets Morcerf, hiding his hatred"
+      },
+      {
+        "from": 66,
+        "type": "enemy",
+        "label": "The Count steers Danglars toward Yanina"
+      },
+      {
+        "from": 92,
+        "type": "enemy",
+        "label": "Dantès unmasks himself; Morcerf kills himself"
+      }
+    ]
+  },
+  {
+    "a": "edmond-dantes",
+    "b": "gaspard-caderousse",
+    "states": [
+      {
+        "from": 2,
+        "type": "enemy",
+        "label": "Envious neighbour who resents Dantès’ luck"
+      },
+      {
+        "from": 26,
+        "type": "friend",
+        "label": "Disguised as an abbé, Dantès gives him a diamond"
+      },
+      {
+        "from": 82,
+        "type": "enemy",
+        "label": "Catches Caderousse burgling his house"
+      },
+      {
+        "from": 83,
+        "type": "enemy",
+        "label": "Reveals himself to the dying, repentant Caderousse"
+      }
+    ]
+  },
+  {
+    "a": "edmond-dantes",
+    "b": "villefort",
+    "states": [
+      {
+        "from": 7,
+        "type": "enemy",
+        "label": "Villefort buries Dantès to protect his father"
+      },
+      {
+        "from": 17,
+        "type": "enemy",
+        "label": "Dantès now knows Villefort betrayed him"
+      },
+      {
+        "from": 48,
+        "type": "enemy",
+        "label": "The Count spars with Villefort, hiding his identity"
+      },
+      {
+        "from": 63,
+        "type": "enemy",
+        "label": "The Count rattles Villefort with the buried infant"
+      },
+      {
+        "from": 111,
+        "type": "enemy",
+        "label": "Dantès reveals himself; Villefort goes mad"
+      }
+    ]
+  },
+  {
+    "a": "edmond-dantes",
+    "b": "pierre-morrel",
+    "states": [
+      {
+        "from": 1,
+        "type": "work",
+        "label": "Kind shipowner who means to make him captain"
+      },
+      {
+        "from": 5,
+        "type": "work",
+        "label": "Morrel pleads for the arrested Dantès"
+      },
+      {
+        "from": 13,
+        "type": "work",
+        "label": "Morrel petitions for Dantès’ release"
+      },
+      {
+        "from": 29,
+        "type": "friend",
+        "label": "Disguised, Dantès grants Morrel time to pay"
+      },
+      {
+        "from": 30,
+        "type": "friend",
+        "label": "Dantès secretly saves Morrel from ruin and suicide"
+      },
+      {
+        "from": 50,
+        "type": "friend",
+        "label": "Morrel died guessing his saviour was Edmond"
+      }
+    ]
+  },
+  {
+    "a": "edmond-dantes",
+    "b": "captain-leclere",
+    "states": [
+      {
+        "from": 1,
+        "type": "work",
+        "label": "Dantès’ late captain, who left him an errand"
+      }
+    ]
+  },
+  {
+    "a": "edmond-dantes",
+    "b": "marshal-bertrand",
+    "states": [
+      {
+        "from": 1,
+        "type": "work",
+        "label": "Dantès delivered Leclere’s packet to the marshal"
+      }
+    ]
+  },
+  {
+    "a": "edmond-dantes",
+    "b": "napoleon",
+    "states": [
+      {
+        "from": 1,
+        "type": "work",
+        "label": "Dantès met the exiled emperor on Elba"
+      }
+    ]
+  },
+  {
+    "a": "edmond-dantes",
+    "b": "abbe-faria",
+    "states": [
+      {
+        "from": 15,
+        "type": "friend",
+        "label": "Fellow prisoners who tunnel into each other"
+      },
+      {
+        "from": 17,
+        "type": "friend",
+        "label": "Faria becomes Dantès’ teacher and friend"
+      },
+      {
+        "from": 18,
+        "type": "friend",
+        "label": "Faria names Dantès his heir and son"
+      },
+      {
+        "from": 19,
+        "type": "friend",
+        "label": "Faria dies; Dantès escapes in his place"
+      }
+    ]
+  },
+  {
+    "a": "edmond-dantes",
+    "b": "jacopo",
+    "states": [
+      {
+        "from": 21,
+        "type": "friend",
+        "label": "Sailor who pulls Dantès from the sea"
+      },
+      {
+        "from": 22,
+        "type": "friend",
+        "label": "Devoted shipmate Dantès teaches to navigate"
+      },
+      {
+        "from": 25,
+        "type": "work",
+        "label": "Rewarded with a boat, he serves as messenger"
+      }
+    ]
+  },
+  {
+    "a": "edmond-dantes",
+    "b": "captain-baldi",
+    "states": [
+      {
+        "from": 21,
+        "type": "work",
+        "label": "Smuggler captain who takes Dantès aboard"
+      }
+    ]
+  },
+  {
+    "a": "edmond-dantes",
+    "b": "m-de-boville",
+    "states": [
+      {
+        "from": 28,
+        "type": "work",
+        "label": "Disguised Dantès buys Boville’s loan to Morrel"
+      }
+    ]
+  },
+  {
+    "a": "edmond-dantes",
+    "b": "julie-morrel",
+    "states": [
+      {
+        "from": 29,
+        "type": "friend",
+        "label": "Mysterious clerk tells her to obey “Sinbad”"
+      },
+      {
+        "from": 30,
+        "type": "friend",
+        "label": "Her unknown benefactor sends the saving purse"
+      },
+      {
+        "from": 50,
+        "type": "friend",
+        "label": "The Count admires her relics of “Sinbad”"
+      },
+      {
+        "from": 105,
+        "type": "friend",
+        "label": "She learns the Count is their benefactor"
+      }
+    ]
+  },
+  {
+    "a": "edmond-dantes",
+    "b": "emmanuel-herbaut",
+    "states": [
+      {
+        "from": 29,
+        "type": "friend",
+        "label": "The disguised Dantès hints he will marry Julie"
+      },
+      {
+        "from": 50,
+        "type": "friend",
+        "label": "Emmanuel finds the visiting Count strange"
+      },
+      {
+        "from": 88,
+        "type": "friend",
+        "label": "Serves as the Count’s second"
+      },
+      {
+        "from": 105,
+        "type": "friend",
+        "label": "Learns the Count is the family’s benefactor"
+      }
+    ]
+  },
+  {
+    "a": "edmond-dantes",
+    "b": "maximilien-morrel",
+    "states": [
+      {
+        "from": 40,
+        "type": "friend",
+        "label": "The Count is visibly moved by Morrel’s son"
+      },
+      {
+        "from": 88,
+        "type": "friend",
+        "label": "The Count’s trusted friend and second"
+      },
+      {
+        "from": 94,
+        "type": "friend",
+        "label": "Confides his love; the Count vows to save Valentine"
+      },
+      {
+        "from": 105,
+        "type": "friend",
+        "label": "Learns the Count is Dantès, his family’s saviour"
+      },
+      {
+        "from": 117,
+        "type": "friend",
+        "label": "The Count reunites him with Valentine"
+      }
+    ]
+  },
+  {
+    "a": "edmond-dantes",
+    "b": "franz-depinay",
+    "states": [
+      {
+        "from": 31,
+        "type": "friend",
+        "label": "Mysterious “Sinbad” hosts Franz on Monte Cristo"
+      },
+      {
+        "from": 34,
+        "type": "friend",
+        "label": "Franz recognizes Sinbad as the Count, warily"
+      },
+      {
+        "from": 37,
+        "type": "friend",
+        "label": "Franz turns to the Count to rescue Albert"
+      }
+    ]
+  },
+  {
+    "a": "edmond-dantes",
+    "b": "albert-de-morcerf",
+    "states": [
+      {
+        "from": 34,
+        "type": "friend",
+        "label": "Neighbours at Pastrini’s hotel in Rome"
+      },
+      {
+        "from": 37,
+        "type": "friend",
+        "label": "The Count rescues Albert from Vampa"
+      },
+      {
+        "from": 38,
+        "type": "friend",
+        "label": "Albert promises to launch the Count in Paris"
+      },
+      {
+        "from": 41,
+        "type": "friend",
+        "label": "The Count meets Albert’s mother, Mercédès"
+      },
+      {
+        "from": 88,
+        "type": "enemy",
+        "label": "Albert publicly insults and challenges the Count"
+      },
+      {
+        "from": 90,
+        "type": "friend",
+        "label": "Albert apologizes on the dueling ground"
+      }
+    ]
+  },
+  {
+    "a": "edmond-dantes",
+    "b": "luigi-vampa",
+    "states": [
+      {
+        "from": 33,
+        "type": "friend",
+        "label": "Vampa once met the traveller “Sinbad”"
+      },
+      {
+        "from": 34,
+        "type": "friend",
+        "label": "Vampa pledges total obedience to the Count"
+      },
+      {
+        "from": 40,
+        "type": "friend",
+        "label": "The Count once spared Vampa’s band, on terms"
+      },
+      {
+        "from": 114,
+        "type": "work",
+        "label": "Vampa seizes Danglars for the Count"
+      }
+    ]
+  },
+  {
+    "a": "edmond-dantes",
+    "b": "peppino",
+    "states": [
+      {
+        "from": 34,
+        "type": "friend",
+        "label": "The Count promises to save condemned Peppino"
+      },
+      {
+        "from": 35,
+        "type": "friend",
+        "label": "Pardoned at the scaffold thanks to the Count"
+      },
+      {
+        "from": 37,
+        "type": "friend",
+        "label": "Grateful Peppino guides the Count to Vampa"
+      }
+    ]
+  },
+  {
+    "a": "edmond-dantes",
+    "b": "andrea-rondolo",
+    "states": [
+      {
+        "from": 35,
+        "type": "enemy",
+        "label": "The Count watches the murderer’s execution in triumph"
+      }
+    ]
+  },
+  {
+    "a": "edmond-dantes",
+    "b": "signor-pastrini",
+    "states": [
+      {
+        "from": 34,
+        "type": "work",
+        "label": "Wealthy guest at Pastrini’s Rome hotel"
+      }
+    ]
+  },
+  {
+    "a": "edmond-dantes",
+    "b": "countess-g",
+    "states": [
+      {
+        "from": 34,
+        "type": "friend",
+        "label": "She thinks the pale stranger a vampire"
+      },
+      {
+        "from": 53,
+        "type": "friend",
+        "label": "The Count teases her as “Lord Ruthven”"
+      }
+    ]
+  },
+  {
+    "a": "edmond-dantes",
+    "b": "ali",
+    "states": [
+      {
+        "from": 31,
+        "type": "work",
+        "label": "Mute servant devoted to “Sinbad”"
+      },
+      {
+        "from": 37,
+        "type": "work",
+        "label": "The Count’s mute Nubian servant"
+      },
+      {
+        "from": 82,
+        "type": "work",
+        "label": "The Count’s silent, trusted aide"
+      }
+    ]
+  },
+  {
+    "a": "edmond-dantes",
+    "b": "greek-girl",
+    "states": [
+      {
+        "from": 34,
+        "type": "friend",
+        "label": "Mysterious Greek beauty in the Count’s box"
+      },
+      {
+        "from": 40,
+        "type": "work",
+        "label": "The Count says he bought her in Constantinople"
+      }
+    ]
+  },
+  {
+    "a": "edmond-dantes",
+    "b": "haydee",
+    "states": [
+      {
+        "from": 45,
+        "type": "friend",
+        "label": "The Count’s Greek ward arrives in Paris"
+      },
+      {
+        "from": 49,
+        "type": "friend",
+        "label": "Free to leave, she vows never to leave him"
+      },
+      {
+        "from": 53,
+        "type": "friend",
+        "label": "His ward, daughter of a betrayed pasha"
+      },
+      {
+        "from": 86,
+        "type": "friend",
+        "label": "Her testimony completes his revenge on Morcerf"
+      },
+      {
+        "from": 117,
+        "type": "love",
+        "label": "She confesses her love; they sail away together"
+      }
+    ]
+  },
+  {
+    "a": "edmond-dantes",
+    "b": "bertuccio",
+    "states": [
+      {
+        "from": 35,
+        "type": "work",
+        "label": "The Count’s steward"
+      },
+      {
+        "from": 43,
+        "type": "work",
+        "label": "Steward recommended by the Abbé Busoni"
+      },
+      {
+        "from": 45,
+        "type": "work",
+        "label": "Busoni once saved him from a false charge"
+      }
+    ]
+  },
+  {
+    "a": "edmond-dantes",
+    "b": "baptistin",
+    "states": [
+      {
+        "from": 46,
+        "type": "work",
+        "label": "The Count’s discreet French valet"
+      }
+    ]
+  },
+  {
+    "a": "edmond-dantes",
+    "b": "hermine-danglars",
+    "states": [
+      {
+        "from": 47,
+        "type": "friend",
+        "label": "The Count returns her horses with diamonds"
+      },
+      {
+        "from": 63,
+        "type": "enemy",
+        "label": "The Count’s dinner stirs her buried secret"
+      }
+    ]
+  },
+  {
+    "a": "edmond-dantes",
+    "b": "heloise-de-villefort",
+    "states": [
+      {
+        "from": 47,
+        "type": "friend",
+        "label": "Ali saves her; the Count revives her son"
+      },
+      {
+        "from": 52,
+        "type": "friend",
+        "label": "The Count feeds her interest in poisons"
+      },
+      {
+        "from": 101,
+        "type": "enemy",
+        "label": "The Count foils her plot against Valentine"
+      }
+    ]
+  },
+  {
+    "a": "edmond-dantes",
+    "b": "edouard-de-villefort",
+    "states": [
+      {
+        "from": 47,
+        "type": "friend",
+        "label": "The Count revives him with an elixir"
+      },
+      {
+        "from": 57,
+        "type": "friend",
+        "label": "Édouard idolizes the gift-bearing Count"
+      }
+    ]
+  },
+  {
+    "a": "edmond-dantes",
+    "b": "valentine-de-villefort",
+    "states": [
+      {
+        "from": 57,
+        "type": "friend",
+        "label": "Valentine distrusts the Count"
+      },
+      {
+        "from": 94,
+        "type": "friend",
+        "label": "The Count promises Maximilian she will live"
+      },
+      {
+        "from": 100,
+        "type": "friend",
+        "label": "Her secret protector, swapping poisoned drinks"
+      },
+      {
+        "from": 117,
+        "type": "friend",
+        "label": "The Count leaves her and Maximilian his fortune"
+      }
+    ]
+  },
+  {
+    "a": "edmond-dantes",
+    "b": "noirtier",
+    "states": [
+      {
+        "from": 111,
+        "type": "friend",
+        "label": "Busoni reveals himself to Noirtier as Dantès"
+      }
+    ]
+  },
+  {
+    "a": "edmond-dantes",
+    "b": "lucien-debray",
+    "states": [
+      {
+        "from": 40,
+        "type": "friend",
+        "label": "Society acquaintance from Albert’s breakfast"
+      }
+    ]
+  },
+  {
+    "a": "edmond-dantes",
+    "b": "beauchamp",
+    "states": [
+      {
+        "from": 40,
+        "type": "friend",
+        "label": "Sceptical journalist who finds the Count fascinating"
+      }
+    ]
+  },
+  {
+    "a": "edmond-dantes",
+    "b": "chateau-renaud",
+    "states": [
+      {
+        "from": 40,
+        "type": "friend",
+        "label": "Society acquaintance who thinks him a great man"
+      }
+    ]
+  },
+  {
+    "a": "edmond-dantes",
+    "b": "eugenie-danglars",
+    "states": [
+      {
+        "from": 53,
+        "type": "friend",
+        "label": "Society acquaintance; she questions him bluntly"
+      },
+      {
+        "from": 97,
+        "type": "friend",
+        "label": "She flees on a passport obtained through him"
+      }
+    ]
+  },
+  {
+    "a": "edmond-dantes",
+    "b": "louise-darmilly",
+    "states": [
+      {
+        "from": 85,
+        "type": "friend",
+        "label": "The Count gives her theatre introductions"
+      }
+    ]
+  },
+  {
+    "a": "edmond-dantes",
+    "b": "bartolomeo-cavalcanti",
+    "states": [
+      {
+        "from": 55,
+        "type": "work",
+        "label": "The Count hires him to play a nobleman"
+      }
+    ]
+  },
+  {
+    "a": "edmond-dantes",
+    "b": "andrea-cavalcanti",
+    "states": [
+      {
+        "from": 56,
+        "type": "work",
+        "label": "The Count launches the impostor in Paris"
+      },
+      {
+        "from": 81,
+        "type": "work",
+        "label": "Andrea claims the Count is his real father"
+      },
+      {
+        "from": 96,
+        "type": "enemy",
+        "label": "The Count’s story triggers Andrea’s exposure"
+      }
+    ]
+  },
+  {
+    "a": "edmond-dantes",
+    "b": "telegraph-operator",
+    "states": [
+      {
+        "from": 61,
+        "type": "work",
+        "label": "The Count bribes him to send false news"
+      }
+    ]
+  },
+  {
+    "a": "edmond-dantes",
+    "b": "abbe-adelmonte",
+    "states": [
+      {
+        "from": 52,
+        "type": "friend",
+        "label": "Sicilian chemist the Count claims as a friend"
+      }
+    ]
+  },
+  {
+    "a": "edmond-dantes",
+    "b": "el-kobbir",
+    "states": [
+      {
+        "from": 86,
+        "type": "work",
+        "label": "The Count bought Haydée from this slave merchant"
+      }
+    ]
+  },
+  {
+    "a": "danglars",
+    "b": "gaspard-caderousse",
+    "states": [
+      {
+        "from": 2,
+        "type": "friend",
+        "label": "Envious drinking companions spying on Dantès"
+      },
+      {
+        "from": 5,
+        "type": "enemy",
+        "label": "Danglars frightens Caderousse into silence"
+      }
+    ]
+  },
+  {
+    "a": "danglars",
+    "b": "fernand-mondego",
+    "states": [
+      {
+        "from": 3,
+        "type": "friend",
+        "label": "Danglars eggs on the jealous Fernand"
+      },
+      {
+        "from": 4,
+        "type": "friend",
+        "label": "Co-conspirators against Dantès"
+      },
+      {
+        "from": 40,
+        "type": "friend",
+        "label": "Old accomplices, planning to marry their children"
+      },
+      {
+        "from": 66,
+        "type": "enemy",
+        "label": "Danglars sneers at Morcerf and writes to Yanina"
+      },
+      {
+        "from": 87,
+        "type": "enemy",
+        "label": "Danglars’ Yanina inquiry helped ruin Morcerf"
+      }
+    ]
+  },
+  {
+    "a": "fernand-mondego",
+    "b": "gaspard-caderousse",
+    "states": [
+      {
+        "from": 3,
+        "type": "friend",
+        "label": "Drinking companions plotting against Dantès"
+      }
+    ]
+  },
+  {
+    "a": "danglars",
+    "b": "pierre-morrel",
+    "states": [
+      {
+        "from": 1,
+        "type": "work",
+        "label": "Morrel’s supercargo on the Pharaon"
+      },
+      {
+        "from": 30,
+        "type": "work",
+        "label": "Rich Danglars refuses Morrel help"
+      }
+    ]
+  },
+  {
+    "a": "gaspard-caderousse",
+    "b": "louis-dantes",
+    "states": [
+      {
+        "from": 2,
+        "type": "work",
+        "label": "Neighbour repaid by the old man for Edmond’s debt"
+      }
+    ]
+  },
+  {
+    "a": "gaspard-caderousse",
+    "b": "carconte",
+    "states": [
+      {
+        "from": 26,
+        "type": "love",
+        "label": "Caderousse and his bitter, sickly wife"
+      },
+      {
+        "from": 45,
+        "type": "love",
+        "label": "Partners in the jeweller’s murder"
+      }
+    ]
+  },
+  {
+    "a": "gaspard-caderousse",
+    "b": "joannes",
+    "states": [
+      {
+        "from": 44,
+        "type": "work",
+        "label": "Jeweller who buys Caderousse’s diamond"
+      },
+      {
+        "from": 45,
+        "type": "enemy",
+        "label": "Murdered at Caderousse’s inn"
+      }
+    ]
+  },
+  {
+    "a": "carconte",
+    "b": "joannes",
+    "states": [
+      {
+        "from": 45,
+        "type": "enemy",
+        "label": "She plots the jeweller’s murder; both die"
+      }
+    ]
+  },
+  {
+    "a": "gaspard-caderousse",
+    "b": "bertuccio",
+    "states": [
+      {
+        "from": 44,
+        "type": "work",
+        "label": "Bertuccio secretly watches Caderousse’s diamond sale"
+      },
+      {
+        "from": 45,
+        "type": "enemy",
+        "label": "Bertuccio jailed for Caderousse’s crime"
+      }
+    ]
+  },
+  {
+    "a": "mercedes",
+    "b": "fernand-mondego",
+    "states": [
+      {
+        "from": 3,
+        "type": "love",
+        "label": "Cousin who loves her; she refuses him"
+      },
+      {
+        "from": 27,
+        "type": "love",
+        "label": "Married: now Count and Countess de Morcerf"
+      },
+      {
+        "from": 91,
+        "type": "love",
+        "label": "She renounces his name and fortune"
+      },
+      {
+        "from": 92,
+        "type": "love",
+        "label": "She leaves him; he shoots himself"
+      }
+    ]
+  },
+  {
+    "a": "mercedes",
+    "b": "louis-dantes",
+    "states": [
+      {
+        "from": 27,
+        "type": "friend",
+        "label": "She was kind to Edmond’s dying father"
+      }
+    ]
+  },
+  {
+    "a": "mercedes",
+    "b": "villefort",
+    "states": [
+      {
+        "from": 9,
+        "type": "enemy",
+        "label": "Villefort brushes off her pleas for Edmond"
+      }
+    ]
+  },
+  {
+    "a": "mercedes",
+    "b": "albert-de-morcerf",
+    "states": [
+      {
+        "from": 27,
+        "type": "family",
+        "label": "Mercédès’ son, little Albert"
+      },
+      {
+        "from": 41,
+        "type": "family",
+        "label": "Albert’s loving, anxious mother"
+      },
+      {
+        "from": 88,
+        "type": "family",
+        "label": "She begs Albert to spare the Count"
+      },
+      {
+        "from": 91,
+        "type": "family",
+        "label": "Mother and son give up everything together"
+      },
+      {
+        "from": 106,
+        "type": "family",
+        "label": "Now poor, they plan separate futures"
+      }
+    ]
+  },
+  {
+    "a": "fernand-mondego",
+    "b": "albert-de-morcerf",
+    "states": [
+      {
+        "from": 27,
+        "type": "family",
+        "label": "Fernand’s son"
+      },
+      {
+        "from": 87,
+        "type": "family",
+        "label": "Albert swears to avenge his father"
+      },
+      {
+        "from": 91,
+        "type": "family",
+        "label": "Albert renounces his father’s name"
+      },
+      {
+        "from": 92,
+        "type": "family",
+        "label": "Fernand watches Albert leave him forever"
+      }
+    ]
+  },
+  {
+    "a": "fernand-mondego",
+    "b": "ali-tebelin",
+    "states": [
+      {
+        "from": 27,
+        "type": "work",
+        "label": "Fernand served Ali Pasha and was rewarded"
+      },
+      {
+        "from": 53,
+        "type": "enemy",
+        "label": "Haydée says Morcerf sold Ali to the Turks"
+      },
+      {
+        "from": 86,
+        "type": "enemy",
+        "label": "Proven before the peers: Fernand betrayed Ali"
+      }
+    ]
+  },
+  {
+    "a": "fernand-mondego",
+    "b": "haydee",
+    "states": [
+      {
+        "from": 53,
+        "type": "enemy",
+        "label": "Haydée says he sold her father"
+      },
+      {
+        "from": 77,
+        "type": "enemy",
+        "label": "Her father’s betrayer, who sold her into slavery"
+      },
+      {
+        "from": 86,
+        "type": "enemy",
+        "label": "Haydée’s testimony ruins him before the peers"
+      }
+    ]
+  },
+  {
+    "a": "fernand-mondego",
+    "b": "vasiliki",
+    "states": [
+      {
+        "from": 86,
+        "type": "enemy",
+        "label": "Fernand sold Ali’s widow into slavery"
+      }
+    ]
+  },
+  {
+    "a": "fernand-mondego",
+    "b": "selim",
+    "states": [
+      {
+        "from": 86,
+        "type": "enemy",
+        "label": "Haydée accuses Fernand of stabbing Selim"
+      }
+    ]
+  },
+  {
+    "a": "fernand-mondego",
+    "b": "el-kobbir",
+    "states": [
+      {
+        "from": 86,
+        "type": "work",
+        "label": "Fernand sold Haydée and Vasiliki to him"
+      }
+    ]
+  },
+  {
+    "a": "fernand-mondego",
+    "b": "beauchamp",
+    "states": [
+      {
+        "from": 78,
+        "type": "enemy",
+        "label": "Beauchamp’s paper reports a traitor Fernand"
+      },
+      {
+        "from": 84,
+        "type": "enemy",
+        "label": "Beauchamp finds proof of Morcerf’s treason"
+      }
+    ]
+  },
+  {
+    "a": "villefort",
+    "b": "noirtier",
+    "states": [
+      {
+        "from": 6,
+        "type": "family",
+        "label": "Royalist son of a Bonapartist father"
+      },
+      {
+        "from": 7,
+        "type": "family",
+        "label": "Villefort jails Dantès to shield Noirtier"
+      },
+      {
+        "from": 12,
+        "type": "family",
+        "label": "Villefort helps his fugitive father escape"
+      },
+      {
+        "from": 48,
+        "type": "family",
+        "label": "Villefort’s father, now paralysed"
+      },
+      {
+        "from": 58,
+        "type": "family",
+        "label": "Noirtier silently defies his son’s plans"
+      },
+      {
+        "from": 103,
+        "type": "family",
+        "label": "Noirtier names the killer; Villefort swears revenge"
+      }
+    ]
+  },
+  {
+    "a": "villefort",
+    "b": "renee-de-saint-meran",
+    "states": [
+      {
+        "from": 6,
+        "type": "love",
+        "label": "Betrothed"
+      },
+      {
+        "from": 13,
+        "type": "love",
+        "label": "Married after Waterloo"
+      },
+      {
+        "from": 48,
+        "type": "love",
+        "label": "His late first wife"
+      }
+    ]
+  },
+  {
+    "a": "villefort",
+    "b": "marquis-de-saint-meran",
+    "states": [
+      {
+        "from": 6,
+        "type": "family",
+        "label": "Villefort’s royalist future father-in-law"
+      },
+      {
+        "from": 13,
+        "type": "family",
+        "label": "Father-in-law"
+      },
+      {
+        "from": 71,
+        "type": "family",
+        "label": "Villefort’s father-in-law dies suddenly"
+      }
+    ]
+  },
+  {
+    "a": "villefort",
+    "b": "marquise-de-saint-meran",
+    "states": [
+      {
+        "from": 6,
+        "type": "family",
+        "label": "Stern future mother-in-law"
+      },
+      {
+        "from": 13,
+        "type": "family",
+        "label": "Mother-in-law"
+      },
+      {
+        "from": 72,
+        "type": "family",
+        "label": "She resents his remarriage"
+      }
+    ]
+  },
+  {
+    "a": "marquis-de-saint-meran",
+    "b": "marquise-de-saint-meran",
+    "states": [
+      {
+        "from": 6,
+        "type": "love",
+        "label": "Royalist husband and wife"
+      },
+      {
+        "from": 72,
+        "type": "love",
+        "label": "Widowed by the marquis’ sudden death"
+      }
+    ]
+  },
+  {
+    "a": "marquis-de-saint-meran",
+    "b": "renee-de-saint-meran",
+    "states": [
+      {
+        "from": 6,
+        "type": "family",
+        "label": "Renée’s father"
+      }
+    ]
+  },
+  {
+    "a": "marquise-de-saint-meran",
+    "b": "renee-de-saint-meran",
+    "states": [
+      {
+        "from": 6,
+        "type": "family",
+        "label": "Renée’s mother"
+      }
+    ]
+  },
+  {
+    "a": "comte-de-salvieux",
+    "b": "marquis-de-saint-meran",
+    "states": [
+      {
+        "from": 6,
+        "type": "friend",
+        "label": "Old friend of the Saint-Mérans"
+      }
+    ]
+  },
+  {
+    "a": "comte-de-salvieux",
+    "b": "villefort",
+    "states": [
+      {
+        "from": 9,
+        "type": "friend",
+        "label": "His letter wins Villefort a royal audience"
+      }
+    ]
+  },
+  {
+    "a": "villefort",
+    "b": "louis-xviii",
+    "states": [
+      {
+        "from": 10,
+        "type": "work",
+        "label": "Villefort warns the king of Napoleon’s plot"
+      },
+      {
+        "from": 11,
+        "type": "work",
+        "label": "The king rewards Villefort’s zeal"
+      }
+    ]
+  },
+  {
+    "a": "villefort",
+    "b": "duc-de-blacas",
+    "states": [
+      {
+        "from": 10,
+        "type": "work",
+        "label": "Blacas brings Villefort to the king"
+      }
+    ]
+  },
+  {
+    "a": "villefort",
+    "b": "dandre",
+    "states": [
+      {
+        "from": 11,
+        "type": "friend",
+        "label": "Grateful minister defended by Villefort"
+      }
+    ]
+  },
+  {
+    "a": "louis-xviii",
+    "b": "duc-de-blacas",
+    "states": [
+      {
+        "from": 10,
+        "type": "work",
+        "label": "The king’s anxious, devoted adviser"
+      }
+    ]
+  },
+  {
+    "a": "louis-xviii",
+    "b": "dandre",
+    "states": [
+      {
+        "from": 10,
+        "type": "work",
+        "label": "The king’s complacent police minister"
+      },
+      {
+        "from": 11,
+        "type": "work",
+        "label": "Disgraced minister, humiliated by Napoleon’s landing"
+      }
+    ]
+  },
+  {
+    "a": "louis-xviii",
+    "b": "napoleon",
+    "states": [
+      {
+        "from": 10,
+        "type": "enemy",
+        "label": "Restored king and exiled emperor"
+      },
+      {
+        "from": 13,
+        "type": "enemy",
+        "label": "Napoleon drives out the king for the Hundred Days"
+      }
+    ]
+  },
+  {
+    "a": "napoleon",
+    "b": "marshal-bertrand",
+    "states": [
+      {
+        "from": 1,
+        "type": "work",
+        "label": "Napoleon’s grand-marshal on Elba"
+      }
+    ]
+  },
+  {
+    "a": "napoleon",
+    "b": "noirtier",
+    "states": [
+      {
+        "from": 12,
+        "type": "friend",
+        "label": "Noirtier, leading Bonapartist, works for his return"
+      }
+    ]
+  },
+  {
+    "a": "general-quesnel",
+    "b": "noirtier",
+    "states": [
+      {
+        "from": 12,
+        "type": "enemy",
+        "label": "Noirtier’s club is linked to Quesnel’s death"
+      }
+    ]
+  },
+  {
+    "a": "general-depinay",
+    "b": "noirtier",
+    "states": [
+      {
+        "from": 58,
+        "type": "enemy",
+        "label": "Bitter political enemies"
+      },
+      {
+        "from": 75,
+        "type": "enemy",
+        "label": "Noirtier killed him in a fair duel"
+      }
+    ]
+  },
+  {
+    "a": "general-depinay",
+    "b": "franz-depinay",
+    "states": [
+      {
+        "from": 58,
+        "type": "family",
+        "label": "Franz’s father, assassinated in 1815"
+      },
+      {
+        "from": 75,
+        "type": "family",
+        "label": "Franz learns how his father truly died"
+      }
+    ]
+  },
+  {
+    "a": "general-depinay",
+    "b": "villefort",
+    "states": [
+      {
+        "from": 60,
+        "type": "friend",
+        "label": "Villefort calls the late general a friend"
+      }
+    ]
+  },
+  {
+    "a": "villefort",
+    "b": "pierre-morrel",
+    "states": [
+      {
+        "from": 5,
+        "type": "work",
+        "label": "Morrel pleads with Villefort for Dantès"
+      },
+      {
+        "from": 13,
+        "type": "enemy",
+        "label": "Villefort turns Morrel’s petition against Dantès"
+      }
+    ]
+  },
+  {
+    "a": "villefort",
+    "b": "heloise-de-villefort",
+    "states": [
+      {
+        "from": 47,
+        "type": "love",
+        "label": "Villefort’s second wife"
+      },
+      {
+        "from": 108,
+        "type": "enemy",
+        "label": "Villefort orders his poisoner wife to die"
+      },
+      {
+        "from": 111,
+        "type": "enemy",
+        "label": "He finds she has killed herself and Édouard"
+      }
+    ]
+  },
+  {
+    "a": "villefort",
+    "b": "valentine-de-villefort",
+    "states": [
+      {
+        "from": 47,
+        "type": "family",
+        "label": "Villefort’s daughter by his first wife"
+      },
+      {
+        "from": 51,
+        "type": "family",
+        "label": "Villefort insists she marry Franz"
+      },
+      {
+        "from": 103,
+        "type": "family",
+        "label": "Villefort grieves his poisoned daughter"
+      }
+    ]
+  },
+  {
+    "a": "villefort",
+    "b": "edouard-de-villefort",
+    "states": [
+      {
+        "from": 47,
+        "type": "family",
+        "label": "Villefort’s young son"
+      },
+      {
+        "from": 111,
+        "type": "family",
+        "label": "Villefort finds his son poisoned"
+      }
+    ]
+  },
+  {
+    "a": "villefort",
+    "b": "franz-depinay",
+    "states": [
+      {
+        "from": 51,
+        "type": "family",
+        "label": "Villefort’s chosen son-in-law"
+      },
+      {
+        "from": 78,
+        "type": "enemy",
+        "label": "Franz breaks the engagement, reproaching Villefort"
+      }
+    ]
+  },
+  {
+    "a": "villefort",
+    "b": "maximilien-morrel",
+    "states": [
+      {
+        "from": 103,
+        "type": "enemy",
+        "label": "Maximilian demands justice for Valentine"
+      }
+    ]
+  },
+  {
+    "a": "villefort",
+    "b": "dr-davrigny",
+    "states": [
+      {
+        "from": 72,
+        "type": "friend",
+        "label": "Family doctor and old friend"
+      },
+      {
+        "from": 73,
+        "type": "friend",
+        "label": "D’Avrigny warns of poison but keeps silent"
+      },
+      {
+        "from": 80,
+        "type": "enemy",
+        "label": "D’Avrigny accuses Valentine and leaves the house"
+      },
+      {
+        "from": 103,
+        "type": "friend",
+        "label": "At Villefort’s plea, he keeps the secret"
+      }
+    ]
+  },
+  {
+    "a": "villefort",
+    "b": "m-de-boville",
+    "states": [
+      {
+        "from": 69,
+        "type": "work",
+        "label": "Boville handles Villefort’s police inquiry"
+      }
+    ]
+  },
+  {
+    "a": "villefort",
+    "b": "bertuccio",
+    "states": [
+      {
+        "from": 43,
+        "type": "enemy",
+        "label": "Bertuccio stabbed Villefort in a vendetta"
+      },
+      {
+        "from": 62,
+        "type": "enemy",
+        "label": "Bertuccio sees his victim alive"
+      }
+    ]
+  },
+  {
+    "a": "villefort",
+    "b": "israel-bertuccio",
+    "states": [
+      {
+        "from": 44,
+        "type": "enemy",
+        "label": "Villefort refused justice for his murder"
+      }
+    ]
+  },
+  {
+    "a": "villefort",
+    "b": "benedetto",
+    "states": [
+      {
+        "from": 44,
+        "type": "family",
+        "label": "Villefort buried this newborn, apparently his own"
+      }
+    ]
+  },
+  {
+    "a": "villefort",
+    "b": "andrea-cavalcanti",
+    "states": [
+      {
+        "from": 62,
+        "type": "family",
+        "label": "Unknowingly, Villefort’s abandoned son Benedetto"
+      },
+      {
+        "from": 99,
+        "type": "enemy",
+        "label": "Villefort refuses mercy to the arrested Benedetto"
+      },
+      {
+        "from": 110,
+        "type": "enemy",
+        "label": "In court, Benedetto names Villefort his father"
+      }
+    ]
+  },
+  {
+    "a": "villefort",
+    "b": "hermine-danglars",
+    "states": [
+      {
+        "from": 62,
+        "type": "love",
+        "label": "Former lovers from the Auteuil house"
+      },
+      {
+        "from": 67,
+        "type": "love",
+        "label": "Secret meeting about their buried child"
+      },
+      {
+        "from": 99,
+        "type": "enemy",
+        "label": "She begs him to spare Andrea; he refuses"
+      },
+      {
+        "from": 110,
+        "type": "love",
+        "label": "Their son publicly exposes their past"
+      }
+    ]
+  },
+  {
+    "a": "villefort",
+    "b": "danglars",
+    "states": [
+      {
+        "from": 65,
+        "type": "enemy",
+        "label": "Danglars knows Villefort was his wife’s lover"
+      }
+    ]
+  },
+  {
+    "a": "noirtier",
+    "b": "valentine-de-villefort",
+    "states": [
+      {
+        "from": 51,
+        "type": "family",
+        "label": "Valentine’s paralysed grandfather"
+      },
+      {
+        "from": 58,
+        "type": "family",
+        "label": "They speak through his eyes; he opposes her match"
+      },
+      {
+        "from": 59,
+        "type": "family",
+        "label": "His will forbids her marrying Franz"
+      },
+      {
+        "from": 78,
+        "type": "family",
+        "label": "Noirtier makes her his heir"
+      },
+      {
+        "from": 94,
+        "type": "family",
+        "label": "He has secretly accustomed her to the poison"
+      }
+    ]
+  },
+  {
+    "a": "noirtier",
+    "b": "franz-depinay",
+    "states": [
+      {
+        "from": 58,
+        "type": "enemy",
+        "label": "Noirtier opposes Franz’s marriage to Valentine"
+      },
+      {
+        "from": 75,
+        "type": "enemy",
+        "label": "Noirtier reveals he killed Franz’s father"
+      }
+    ]
+  },
+  {
+    "a": "noirtier",
+    "b": "maximilien-morrel",
+    "states": [
+      {
+        "from": 73,
+        "type": "friend",
+        "label": "Noirtier vows to stop Valentine’s marriage for him"
+      },
+      {
+        "from": 79,
+        "type": "friend",
+        "label": "Noirtier blesses their future marriage"
+      },
+      {
+        "from": 103,
+        "type": "friend",
+        "label": "Maximilian carries Noirtier to Valentine’s deathbed"
+      }
+    ]
+  },
+  {
+    "a": "noirtier",
+    "b": "barrois",
+    "states": [
+      {
+        "from": 58,
+        "type": "work",
+        "label": "Noirtier’s faithful servant of twenty-five years"
+      },
+      {
+        "from": 79,
+        "type": "work",
+        "label": "Barrois dies drinking his master’s lemonade"
+      }
+    ]
+  },
+  {
+    "a": "noirtier",
+    "b": "edouard-de-villefort",
+    "states": [
+      {
+        "from": 59,
+        "type": "family",
+        "label": "Noirtier refuses Édouard any inheritance"
+      }
+    ]
+  },
+  {
+    "a": "noirtier",
+    "b": "heloise-de-villefort",
+    "states": [
+      {
+        "from": 58,
+        "type": "family",
+        "label": "Noirtier’s daughter-in-law"
+      },
+      {
+        "from": 101,
+        "type": "enemy",
+        "label": "She tried to poison him for Valentine’s fortune"
+      },
+      {
+        "from": 103,
+        "type": "enemy",
+        "label": "Noirtier exposes her to Villefort"
+      }
+    ]
+  },
+  {
+    "a": "noirtier",
+    "b": "deschamps",
+    "states": [
+      {
+        "from": 59,
+        "type": "work",
+        "label": "Notary who takes Noirtier’s will"
+      }
+    ]
+  },
+  {
+    "a": "noirtier",
+    "b": "dr-davrigny",
+    "states": [
+      {
+        "from": 73,
+        "type": "work",
+        "label": "D’Avrigny treats Noirtier with brucine"
+      }
+    ]
+  },
+  {
+    "a": "renee-de-saint-meran",
+    "b": "valentine-de-villefort",
+    "states": [
+      {
+        "from": 48,
+        "type": "family",
+        "label": "Valentine’s late mother"
+      }
+    ]
+  },
+  {
+    "a": "marquis-de-saint-meran",
+    "b": "valentine-de-villefort",
+    "states": [
+      {
+        "from": 51,
+        "type": "family",
+        "label": "Valentine’s grandfather, whose fortune she will inherit"
+      }
+    ]
+  },
+  {
+    "a": "marquise-de-saint-meran",
+    "b": "valentine-de-villefort",
+    "states": [
+      {
+        "from": 51,
+        "type": "family",
+        "label": "Valentine’s doting grandmother"
+      },
+      {
+        "from": 72,
+        "type": "family",
+        "label": "She demands Valentine marry Franz at once"
+      }
+    ]
+  },
+  {
+    "a": "marquise-de-saint-meran",
+    "b": "dr-davrigny",
+    "states": [
+      {
+        "from": 72,
+        "type": "work",
+        "label": "D’Avrigny attends the dying marquise"
+      },
+      {
+        "from": 73,
+        "type": "work",
+        "label": "D’Avrigny privately says she was poisoned"
+      }
+    ]
+  },
+  {
+    "a": "marquise-de-saint-meran",
+    "b": "heloise-de-villefort",
+    "states": [
+      {
+        "from": 72,
+        "type": "family",
+        "label": "She resents Villefort’s second wife"
+      },
+      {
+        "from": 101,
+        "type": "enemy",
+        "label": "Poisoned by Madame de Villefort"
+      }
+    ]
+  },
+  {
+    "a": "marquis-de-saint-meran",
+    "b": "heloise-de-villefort",
+    "states": [
+      {
+        "from": 101,
+        "type": "enemy",
+        "label": "Poisoned by Madame de Villefort"
+      }
+    ]
+  },
+  {
+    "a": "barrois",
+    "b": "heloise-de-villefort",
+    "states": [
+      {
+        "from": 101,
+        "type": "enemy",
+        "label": "Died of poison she meant for Noirtier"
+      }
+    ]
+  },
+  {
+    "a": "heloise-de-villefort",
+    "b": "valentine-de-villefort",
+    "states": [
+      {
+        "from": 47,
+        "type": "family",
+        "label": "Stepmother and stepdaughter"
+      },
+      {
+        "from": 57,
+        "type": "family",
+        "label": "Stepmother with an eye on Valentine’s fortune"
+      },
+      {
+        "from": 101,
+        "type": "enemy",
+        "label": "Valentine sees her stepmother poison her drink"
+      }
+    ]
+  },
+  {
+    "a": "heloise-de-villefort",
+    "b": "edouard-de-villefort",
+    "states": [
+      {
+        "from": 47,
+        "type": "family",
+        "label": "Doting mother and spoiled son"
+      },
+      {
+        "from": 101,
+        "type": "family",
+        "label": "She poisons others for his inheritance"
+      },
+      {
+        "from": 111,
+        "type": "family",
+        "label": "She poisons her son and herself"
+      }
+    ]
+  },
+  {
+    "a": "valentine-de-villefort",
+    "b": "edouard-de-villefort",
+    "states": [
+      {
+        "from": 47,
+        "type": "family",
+        "label": "Half-siblings"
+      },
+      {
+        "from": 51,
+        "type": "family",
+        "label": "Her spoiled, mocking half-brother"
+      }
+    ]
+  },
+  {
+    "a": "valentine-de-villefort",
+    "b": "dr-davrigny",
+    "states": [
+      {
+        "from": 72,
+        "type": "work",
+        "label": "Family doctor present at her birth"
+      },
+      {
+        "from": 80,
+        "type": "enemy",
+        "label": "D’Avrigny accuses Valentine of the poisonings"
+      },
+      {
+        "from": 94,
+        "type": "work",
+        "label": "D’Avrigny is amazed she survives"
+      },
+      {
+        "from": 102,
+        "type": "work",
+        "label": "D’Avrigny pronounces Valentine dead"
+      }
+    ]
+  },
+  {
+    "a": "valentine-de-villefort",
+    "b": "barrois",
+    "states": [
+      {
+        "from": 73,
+        "type": "friend",
+        "label": "Grandfather’s loyal servant who helps her"
+      }
+    ]
+  },
+  {
+    "a": "ali",
+    "b": "heloise-de-villefort",
+    "states": [
+      {
+        "from": 47,
+        "type": "friend",
+        "label": "Ali stops her runaway carriage"
+      }
+    ]
+  },
+  {
+    "a": "maximilien-morrel",
+    "b": "valentine-de-villefort",
+    "states": [
+      {
+        "from": 51,
+        "type": "love",
+        "label": "Secret lovers meeting at the garden gate"
+      },
+      {
+        "from": 73,
+        "type": "love",
+        "label": "She promises to run away with him"
+      },
+      {
+        "from": 79,
+        "type": "love",
+        "label": "Noirtier lets them hope to marry"
+      },
+      {
+        "from": 102,
+        "type": "love",
+        "label": "Maximilian arrives to hear she is dead"
+      },
+      {
+        "from": 117,
+        "type": "love",
+        "label": "Reunited: Valentine is alive"
+      }
+    ]
+  },
+  {
+    "a": "pierre-morrel",
+    "b": "madame-morrel",
+    "states": [
+      {
+        "from": 29,
+        "type": "love",
+        "label": "Morrel and his faithful wife"
+      }
+    ]
+  },
+  {
+    "a": "pierre-morrel",
+    "b": "julie-morrel",
+    "states": [
+      {
+        "from": 29,
+        "type": "family",
+        "label": "Morrel’s devoted daughter"
+      },
+      {
+        "from": 30,
+        "type": "family",
+        "label": "Julie brings the purse that saves her father"
+      }
+    ]
+  },
+  {
+    "a": "pierre-morrel",
+    "b": "maximilien-morrel",
+    "states": [
+      {
+        "from": 30,
+        "type": "family",
+        "label": "Morrel’s son, an army officer"
+      },
+      {
+        "from": 50,
+        "type": "family",
+        "label": "His late father, remembered with love"
+      }
+    ]
+  },
+  {
+    "a": "madame-morrel",
+    "b": "julie-morrel",
+    "states": [
+      {
+        "from": 29,
+        "type": "family",
+        "label": "Mother and daughter"
+      }
+    ]
+  },
+  {
+    "a": "madame-morrel",
+    "b": "maximilien-morrel",
+    "states": [
+      {
+        "from": 30,
+        "type": "family",
+        "label": "Mother and son"
+      }
+    ]
+  },
+  {
+    "a": "julie-morrel",
+    "b": "maximilien-morrel",
+    "states": [
+      {
+        "from": 30,
+        "type": "family",
+        "label": "Brother and sister"
+      }
+    ]
+  },
+  {
+    "a": "julie-morrel",
+    "b": "emmanuel-herbaut",
+    "states": [
+      {
+        "from": 29,
+        "type": "love",
+        "label": "Loyal clerk who loves Julie"
+      },
+      {
+        "from": 40,
+        "type": "love",
+        "label": "Happily married"
+      }
+    ]
+  },
+  {
+    "a": "emmanuel-herbaut",
+    "b": "pierre-morrel",
+    "states": [
+      {
+        "from": 29,
+        "type": "work",
+        "label": "Loyal clerk of the failing firm"
+      }
+    ]
+  },
+  {
+    "a": "emmanuel-herbaut",
+    "b": "maximilien-morrel",
+    "states": [
+      {
+        "from": 40,
+        "type": "family",
+        "label": "Brothers-in-law"
+      }
+    ]
+  },
+  {
+    "a": "pierre-morrel",
+    "b": "cocles",
+    "states": [
+      {
+        "from": 29,
+        "type": "work",
+        "label": "Morrel’s devoted one-eyed cashier"
+      }
+    ]
+  },
+  {
+    "a": "pierre-morrel",
+    "b": "penelon",
+    "states": [
+      {
+        "from": 29,
+        "type": "work",
+        "label": "Loyal old sailor of the Pharaon"
+      }
+    ]
+  },
+  {
+    "a": "pierre-morrel",
+    "b": "captain-gaumard",
+    "states": [
+      {
+        "from": 29,
+        "type": "work",
+        "label": "Captain of Morrel’s Pharaon"
+      }
+    ]
+  },
+  {
+    "a": "penelon",
+    "b": "captain-gaumard",
+    "states": [
+      {
+        "from": 29,
+        "type": "work",
+        "label": "Penelon throws his captain into the lifeboat"
+      }
+    ]
+  },
+  {
+    "a": "penelon",
+    "b": "julie-morrel",
+    "states": [
+      {
+        "from": 50,
+        "type": "work",
+        "label": "Old sailor turned the family’s gardener"
+      }
+    ]
+  },
+  {
+    "a": "cocles",
+    "b": "julie-morrel",
+    "states": [
+      {
+        "from": 50,
+        "type": "work",
+        "label": "Doorkeeper at the Morrels’ Paris house"
+      }
+    ]
+  },
+  {
+    "a": "pierre-morrel",
+    "b": "louis-dantes",
+    "states": [
+      {
+        "from": 13,
+        "type": "friend",
+        "label": "Morrel pays for old Dantès’ funeral"
+      }
+    ]
+  },
+  {
+    "a": "pierre-morrel",
+    "b": "m-de-boville",
+    "states": [
+      {
+        "from": 28,
+        "type": "work",
+        "label": "Boville is Morrel’s anxious creditor"
+      }
+    ]
+  },
+  {
+    "a": "maximilien-morrel",
+    "b": "chateau-renaud",
+    "states": [
+      {
+        "from": 40,
+        "type": "friend",
+        "label": "Morrel saved his life in Algeria"
+      }
+    ]
+  },
+  {
+    "a": "maximilien-morrel",
+    "b": "albert-de-morcerf",
+    "states": [
+      {
+        "from": 40,
+        "type": "friend",
+        "label": "Friends from Albert’s circle"
+      }
+    ]
+  },
+  {
+    "a": "albert-de-morcerf",
+    "b": "franz-depinay",
+    "states": [
+      {
+        "from": 31,
+        "type": "friend",
+        "label": "Close friends travelling to the Roman Carnival"
+      },
+      {
+        "from": 37,
+        "type": "friend",
+        "label": "Franz saves the kidnapped Albert"
+      },
+      {
+        "from": 90,
+        "type": "friend",
+        "label": "Franz attends Albert’s duel"
+      }
+    ]
+  },
+  {
+    "a": "albert-de-morcerf",
+    "b": "beauchamp",
+    "states": [
+      {
+        "from": 39,
+        "type": "friend",
+        "label": "Friends in Albert’s Paris circle"
+      },
+      {
+        "from": 78,
+        "type": "enemy",
+        "label": "Albert challenges Beauchamp over the Yanina story"
+      },
+      {
+        "from": 84,
+        "type": "friend",
+        "label": "Beauchamp hands Albert the proofs to burn"
+      },
+      {
+        "from": 88,
+        "type": "friend",
+        "label": "Beauchamp acts as Albert’s second"
+      }
+    ]
+  },
+  {
+    "a": "albert-de-morcerf",
+    "b": "lucien-debray",
+    "states": [
+      {
+        "from": 39,
+        "type": "friend",
+        "label": "Friends in Albert’s Paris circle"
+      }
+    ]
+  },
+  {
+    "a": "albert-de-morcerf",
+    "b": "chateau-renaud",
+    "states": [
+      {
+        "from": 40,
+        "type": "friend",
+        "label": "Friends in Albert’s Paris circle"
+      },
+      {
+        "from": 88,
+        "type": "friend",
+        "label": "Château-Renaud acts as Albert’s second"
+      }
+    ]
+  },
+  {
+    "a": "albert-de-morcerf",
+    "b": "eugenie-danglars",
+    "states": [
+      {
+        "from": 40,
+        "type": "love",
+        "label": "Intended bride, by family arrangement"
+      },
+      {
+        "from": 54,
+        "type": "love",
+        "label": "Albert dreads marrying cold Eugénie"
+      },
+      {
+        "from": 81,
+        "type": "love",
+        "label": "Eugénie’s hand goes to Andrea instead"
+      }
+    ]
+  },
+  {
+    "a": "albert-de-morcerf",
+    "b": "danglars",
+    "states": [
+      {
+        "from": 40,
+        "type": "family",
+        "label": "Danglars’ intended son-in-law"
+      },
+      {
+        "from": 66,
+        "type": "family",
+        "label": "Danglars privately cools on the match"
+      },
+      {
+        "from": 87,
+        "type": "enemy",
+        "label": "Albert confronts Danglars over Yanina"
+      }
+    ]
+  },
+  {
+    "a": "albert-de-morcerf",
+    "b": "haydee",
+    "states": [
+      {
+        "from": 77,
+        "type": "friend",
+        "label": "Haydée tells Albert her story"
+      },
+      {
+        "from": 86,
+        "type": "enemy",
+        "label": "Her testimony ruins Albert’s father"
+      }
+    ]
+  },
+  {
+    "a": "albert-de-morcerf",
+    "b": "luigi-vampa",
+    "states": [
+      {
+        "from": 37,
+        "type": "enemy",
+        "label": "Vampa kidnaps Albert for ransom"
+      }
+    ]
+  },
+  {
+    "a": "albert-de-morcerf",
+    "b": "teresa",
+    "states": [
+      {
+        "from": 37,
+        "type": "love",
+        "label": "His masked Carnival flirt was Vampa’s Teresa"
+      }
+    ]
+  },
+  {
+    "a": "albert-de-morcerf",
+    "b": "beppo",
+    "states": [
+      {
+        "from": 37,
+        "type": "enemy",
+        "label": "Disguised Beppo lures Albert into the trap"
+      }
+    ]
+  },
+  {
+    "a": "albert-de-morcerf",
+    "b": "signor-pastrini",
+    "states": [
+      {
+        "from": 32,
+        "type": "work",
+        "label": "Albert’s hotel-keeper in Rome"
+      }
+    ]
+  },
+  {
+    "a": "albert-de-morcerf",
+    "b": "countess-g",
+    "states": [
+      {
+        "from": 36,
+        "type": "friend",
+        "label": "She teases Albert about his Carnival romance"
+      }
+    ]
+  },
+  {
+    "a": "albert-de-morcerf",
+    "b": "germain",
+    "states": [
+      {
+        "from": 39,
+        "type": "work",
+        "label": "Albert’s trusted valet"
+      }
+    ]
+  },
+  {
+    "a": "albert-de-morcerf",
+    "b": "florentin",
+    "states": [
+      {
+        "from": 85,
+        "type": "work",
+        "label": "Albert’s valet brings the ruinous news"
+      }
+    ]
+  },
+  {
+    "a": "franz-depinay",
+    "b": "valentine-de-villefort",
+    "states": [
+      {
+        "from": 51,
+        "type": "love",
+        "label": "Her unwanted, arranged fiancé"
+      },
+      {
+        "from": 78,
+        "type": "love",
+        "label": "Franz breaks off the engagement"
+      }
+    ]
+  },
+  {
+    "a": "franz-depinay",
+    "b": "chateau-renaud",
+    "states": [
+      {
+        "from": 40,
+        "type": "enemy",
+        "label": "Château-Renaud once wounded Franz in a duel"
+      },
+      {
+        "from": 74,
+        "type": "friend",
+        "label": "Witness at Franz’s marriage contract"
+      }
+    ]
+  },
+  {
+    "a": "franz-depinay",
+    "b": "signor-pastrini",
+    "states": [
+      {
+        "from": 31,
+        "type": "work",
+        "label": "Franz’s hotel-keeper in Rome"
+      }
+    ]
+  },
+  {
+    "a": "franz-depinay",
+    "b": "gaetano",
+    "states": [
+      {
+        "from": 31,
+        "type": "work",
+        "label": "Captain of Franz’s boat"
+      }
+    ]
+  },
+  {
+    "a": "franz-depinay",
+    "b": "countess-g",
+    "states": [
+      {
+        "from": 34,
+        "type": "friend",
+        "label": "Franz’s witty friend from Paris"
+      }
+    ]
+  },
+  {
+    "a": "franz-depinay",
+    "b": "duke-of-bracciano",
+    "states": [
+      {
+        "from": 37,
+        "type": "friend",
+        "label": "Franz attends the duke’s ball"
+      }
+    ]
+  },
+  {
+    "a": "countess-g",
+    "b": "duke-of-bracciano",
+    "states": [
+      {
+        "from": 37,
+        "type": "friend",
+        "label": "Guest at the duke’s ball"
+      }
+    ]
+  },
+  {
+    "a": "lucien-debray",
+    "b": "beauchamp",
+    "states": [
+      {
+        "from": 39,
+        "type": "friend",
+        "label": "Friends who trade political insults"
+      }
+    ]
+  },
+  {
+    "a": "beauchamp",
+    "b": "chateau-renaud",
+    "states": [
+      {
+        "from": 88,
+        "type": "friend",
+        "label": "Fellow seconds for Albert"
+      }
+    ]
+  },
+  {
+    "a": "lucien-debray",
+    "b": "hermine-danglars",
+    "states": [
+      {
+        "from": 47,
+        "type": "love",
+        "label": "Her constant, very at-home visitor"
+      },
+      {
+        "from": 61,
+        "type": "work",
+        "label": "Debray feeds her government news to speculate"
+      },
+      {
+        "from": 65,
+        "type": "love",
+        "label": "Plainly Madame Danglars’ lover"
+      },
+      {
+        "from": 106,
+        "type": "enemy",
+        "label": "Debray pays her share and coldly drops her"
+      }
+    ]
+  },
+  {
+    "a": "lucien-debray",
+    "b": "danglars",
+    "states": [
+      {
+        "from": 47,
+        "type": "friend",
+        "label": "Danglars tolerates Debray’s visits"
+      },
+      {
+        "from": 65,
+        "type": "enemy",
+        "label": "Danglars sends Debray away and accuses him"
+      }
+    ]
+  },
+  {
+    "a": "danglars",
+    "b": "hermine-danglars",
+    "states": [
+      {
+        "from": 39,
+        "type": "love",
+        "label": "The banker and his wife"
+      },
+      {
+        "from": 47,
+        "type": "love",
+        "label": "They quarrel over her dappled grays"
+      },
+      {
+        "from": 65,
+        "type": "enemy",
+        "label": "Cold marriage; he knows of her lovers"
+      },
+      {
+        "from": 106,
+        "type": "love",
+        "label": "Danglars flees, abandoning his wife"
+      }
+    ]
+  },
+  {
+    "a": "danglars",
+    "b": "eugenie-danglars",
+    "states": [
+      {
+        "from": 40,
+        "type": "family",
+        "label": "Danglars’ daughter, with a great dowry"
+      },
+      {
+        "from": 95,
+        "type": "family",
+        "label": "Near ruin, he needs her marriage; she bargains"
+      },
+      {
+        "from": 97,
+        "type": "family",
+        "label": "Eugénie runs away from her father"
+      }
+    ]
+  },
+  {
+    "a": "hermine-danglars",
+    "b": "eugenie-danglars",
+    "states": [
+      {
+        "from": 40,
+        "type": "family",
+        "label": "Mother and daughter"
+      }
+    ]
+  },
+  {
+    "a": "hermine-danglars",
+    "b": "baron-de-nargonne",
+    "states": [
+      {
+        "from": 65,
+        "type": "love",
+        "label": "Her late first husband"
+      }
+    ]
+  },
+  {
+    "a": "hermine-danglars",
+    "b": "cornelie",
+    "states": [
+      {
+        "from": 65,
+        "type": "work",
+        "label": "Madame Danglars’ trusted maid"
+      }
+    ]
+  },
+  {
+    "a": "eugenie-danglars",
+    "b": "louise-darmilly",
+    "states": [
+      {
+        "from": 53,
+        "type": "friend",
+        "label": "Schoolfriends who make music daily"
+      },
+      {
+        "from": 76,
+        "type": "friend",
+        "label": "Singing teacher and confidante"
+      },
+      {
+        "from": 97,
+        "type": "friend",
+        "label": "Companions in a planned escape from Paris"
+      }
+    ]
+  },
+  {
+    "a": "danglars",
+    "b": "jacopo-manfredi",
+    "states": [
+      {
+        "from": 66,
+        "type": "work",
+        "label": "Trieste banker whose failure costs Danglars"
+      }
+    ]
+  },
+  {
+    "a": "danglars",
+    "b": "bartolomeo-cavalcanti",
+    "states": [
+      {
+        "from": 64,
+        "type": "work",
+        "label": "Dazzled, Danglars opens accounts for the major"
+      }
+    ]
+  },
+  {
+    "a": "danglars",
+    "b": "andrea-cavalcanti",
+    "states": [
+      {
+        "from": 66,
+        "type": "work",
+        "label": "Danglars prefers rich Andrea for Eugénie"
+      },
+      {
+        "from": 81,
+        "type": "family",
+        "label": "Danglars accepts Andrea as son-in-law"
+      },
+      {
+        "from": 96,
+        "type": "enemy",
+        "label": "Andrea exposed as a murderer at the signing"
+      }
+    ]
+  },
+  {
+    "a": "danglars",
+    "b": "m-de-boville",
+    "states": [
+      {
+        "from": 104,
+        "type": "work",
+        "label": "Boville comes to collect the hospitals’ millions"
+      }
+    ]
+  },
+  {
+    "a": "danglars",
+    "b": "luigi-vampa",
+    "states": [
+      {
+        "from": 114,
+        "type": "enemy",
+        "label": "Vampa’s bandits kidnap Danglars"
+      },
+      {
+        "from": 116,
+        "type": "enemy",
+        "label": "Vampa starves Danglars of his five million"
+      }
+    ]
+  },
+  {
+    "a": "danglars",
+    "b": "peppino",
+    "states": [
+      {
+        "from": 114,
+        "type": "enemy",
+        "label": "Peppino shadows and captures Danglars"
+      },
+      {
+        "from": 115,
+        "type": "enemy",
+        "label": "Peppino sells him food at ruinous prices"
+      }
+    ]
+  },
+  {
+    "a": "danglars",
+    "b": "signor-pastrini",
+    "states": [
+      {
+        "from": 114,
+        "type": "work",
+        "label": "Pastrini welcomes Danglars to his hotel"
+      }
+    ]
+  },
+  {
+    "a": "eugenie-danglars",
+    "b": "andrea-cavalcanti",
+    "states": [
+      {
+        "from": 76,
+        "type": "love",
+        "label": "Andrea courts the indifferent Eugénie"
+      },
+      {
+        "from": 81,
+        "type": "love",
+        "label": "Engaged; she merely tolerates him"
+      },
+      {
+        "from": 96,
+        "type": "enemy",
+        "label": "Andrea is exposed at their contract signing"
+      },
+      {
+        "from": 98,
+        "type": "enemy",
+        "label": "He falls into her room; she scorns him"
+      }
+    ]
+  },
+  {
+    "a": "louise-darmilly",
+    "b": "andrea-cavalcanti",
+    "states": [
+      {
+        "from": 98,
+        "type": "friend",
+        "label": "Louise pities Andrea and urges escape"
+      }
+    ]
+  },
+  {
+    "a": "bertuccio",
+    "b": "israel-bertuccio",
+    "states": [
+      {
+        "from": 44,
+        "type": "family",
+        "label": "Bertuccio’s murdered elder brother"
+      }
+    ]
+  },
+  {
+    "a": "bertuccio",
+    "b": "assunta",
+    "states": [
+      {
+        "from": 44,
+        "type": "family",
+        "label": "Bertuccio’s widowed sister-in-law"
+      }
+    ]
+  },
+  {
+    "a": "bertuccio",
+    "b": "benedetto",
+    "states": [
+      {
+        "from": 44,
+        "type": "family",
+        "label": "Bertuccio rescued him; a wicked foster-son"
+      },
+      {
+        "from": 45,
+        "type": "enemy",
+        "label": "Benedetto tortured Assunta and fled"
+      }
+    ]
+  },
+  {
+    "a": "assunta",
+    "b": "benedetto",
+    "states": [
+      {
+        "from": 44,
+        "type": "family",
+        "label": "She raised the foundling as her own"
+      },
+      {
+        "from": 45,
+        "type": "enemy",
+        "label": "Benedetto tortures her for money"
+      }
+    ]
+  },
+  {
+    "a": "assunta",
+    "b": "israel-bertuccio",
+    "states": [
+      {
+        "from": 44,
+        "type": "love",
+        "label": "Israel’s widow"
+      }
+    ]
+  },
+  {
+    "a": "bertuccio",
+    "b": "andrea-cavalcanti",
+    "states": [
+      {
+        "from": 62,
+        "type": "family",
+        "label": "Bertuccio recognizes Andrea as Benedetto"
+      },
+      {
+        "from": 107,
+        "type": "family",
+        "label": "His foster-father visits him in prison"
+      }
+    ]
+  },
+  {
+    "a": "andrea-cavalcanti",
+    "b": "bartolomeo-cavalcanti",
+    "states": [
+      {
+        "from": 56,
+        "type": "work",
+        "label": "Paid impostors playing father and son"
+      }
+    ]
+  },
+  {
+    "a": "andrea-cavalcanti",
+    "b": "hermine-danglars",
+    "states": [
+      {
+        "from": 62,
+        "type": "family",
+        "label": "Unknowingly, her lost son by Villefort"
+      },
+      {
+        "from": 110,
+        "type": "family",
+        "label": "His court revelation makes her faint"
+      }
+    ]
+  },
+  {
+    "a": "andrea-cavalcanti",
+    "b": "gaspard-caderousse",
+    "states": [
+      {
+        "from": 64,
+        "type": "enemy",
+        "label": "Old fellow convict who blackmails him"
+      },
+      {
+        "from": 81,
+        "type": "enemy",
+        "label": "Andrea steers Caderousse into a burglary"
+      },
+      {
+        "from": 83,
+        "type": "enemy",
+        "label": "Andrea murdered Caderousse"
+      }
+    ]
+  },
+  {
+    "a": "greek-girl",
+    "b": "ali",
+    "states": [
+      {
+        "from": 34,
+        "type": "work",
+        "label": "Black servant who escorts her"
+      }
+    ]
+  },
+  {
+    "a": "haydee",
+    "b": "ali",
+    "states": [
+      {
+        "from": 49,
+        "type": "work",
+        "label": "Ali escorts Haydée when she goes out"
+      }
+    ]
+  },
+  {
+    "a": "haydee",
+    "b": "ali-tebelin",
+    "states": [
+      {
+        "from": 53,
+        "type": "family",
+        "label": "Haydée’s outburst suggests Ali was her father"
+      },
+      {
+        "from": 77,
+        "type": "family",
+        "label": "Her father, the betrayed Pasha of Yanina"
+      }
+    ]
+  },
+  {
+    "a": "haydee",
+    "b": "vasiliki",
+    "states": [
+      {
+        "from": 77,
+        "type": "family",
+        "label": "Haydée’s mother"
+      }
+    ]
+  },
+  {
+    "a": "haydee",
+    "b": "kourchid",
+    "states": [
+      {
+        "from": 77,
+        "type": "enemy",
+        "label": "He handed Haydée and her mother over"
+      }
+    ]
+  },
+  {
+    "a": "haydee",
+    "b": "el-kobbir",
+    "states": [
+      {
+        "from": 86,
+        "type": "enemy",
+        "label": "Slave merchant who bought and sold her"
+      }
+    ]
+  },
+  {
+    "a": "ali-tebelin",
+    "b": "vasiliki",
+    "states": [
+      {
+        "from": 77,
+        "type": "love",
+        "label": "Ali Pasha’s beloved Christian wife"
+      }
+    ]
+  },
+  {
+    "a": "ali-tebelin",
+    "b": "selim",
+    "states": [
+      {
+        "from": 77,
+        "type": "work",
+        "label": "Ali’s faithful guard of gold and gunpowder"
+      }
+    ]
+  },
+  {
+    "a": "ali-tebelin",
+    "b": "kourchid",
+    "states": [
+      {
+        "from": 77,
+        "type": "enemy",
+        "label": "The sultan’s commander sent against Ali"
+      }
+    ]
+  },
+  {
+    "a": "kourchid",
+    "b": "selim",
+    "states": [
+      {
+        "from": 77,
+        "type": "enemy",
+        "label": "Kourchid’s soldiers kill Selim"
+      }
+    ]
+  },
+  {
+    "a": "vasiliki",
+    "b": "el-kobbir",
+    "states": [
+      {
+        "from": 86,
+        "type": "enemy",
+        "label": "Slave merchant who bought her"
+      }
+    ]
+  },
+  {
+    "a": "abbe-faria",
+    "b": "count-of-spada",
+    "states": [
+      {
+        "from": 18,
+        "type": "work",
+        "label": "Faria’s patron, who left him the family papers"
+      }
+    ]
+  },
+  {
+    "a": "cardinal-spada",
+    "b": "count-of-spada",
+    "states": [
+      {
+        "from": 18,
+        "type": "family",
+        "label": "Ancestor of the last of the Spadas"
+      }
+    ]
+  },
+  {
+    "a": "cardinal-spada",
+    "b": "cesare-borgia",
+    "states": [
+      {
+        "from": 18,
+        "type": "enemy",
+        "label": "Borgia poisoned the cardinal for his wealth"
+      }
+    ]
+  },
+  {
+    "a": "jacopo",
+    "b": "captain-baldi",
+    "states": [
+      {
+        "from": 21,
+        "type": "work",
+        "label": "Sailor under Captain Baldi"
+      }
+    ]
+  },
+  {
+    "a": "luigi-vampa",
+    "b": "teresa",
+    "states": [
+      {
+        "from": 33,
+        "type": "love",
+        "label": "Shepherd lovers; she follows him into banditry"
+      }
+    ]
+  },
+  {
+    "a": "luigi-vampa",
+    "b": "cucumetto",
+    "states": [
+      {
+        "from": 33,
+        "type": "enemy",
+        "label": "Vampa shoots Cucumetto and takes his band"
+      }
+    ]
+  },
+  {
+    "a": "luigi-vampa",
+    "b": "count-of-san-felice",
+    "states": [
+      {
+        "from": 33,
+        "type": "work",
+        "label": "The count employed young Vampa as shepherd"
+      }
+    ]
+  },
+  {
+    "a": "luigi-vampa",
+    "b": "signor-pastrini",
+    "states": [
+      {
+        "from": 33,
+        "type": "friend",
+        "label": "Childhood acquaintance; once his well-treated captive"
+      }
+    ]
+  },
+  {
+    "a": "luigi-vampa",
+    "b": "peppino",
+    "states": [
+      {
+        "from": 34,
+        "type": "work",
+        "label": "Vampa’s condemned man, then his messenger"
+      }
+    ]
+  },
+  {
+    "a": "luigi-vampa",
+    "b": "beppo",
+    "states": [
+      {
+        "from": 37,
+        "type": "work",
+        "label": "Young bandit in Vampa’s band"
+      }
+    ]
+  },
+  {
+    "a": "cucumetto",
+    "b": "teresa",
+    "states": [
+      {
+        "from": 33,
+        "type": "enemy",
+        "label": "Cucumetto tries to carry Teresa off"
+      }
+    ]
+  },
+  {
+    "a": "cucumetto",
+    "b": "carlini",
+    "states": [
+      {
+        "from": 33,
+        "type": "enemy",
+        "label": "Cucumetto shoots his own man in the back"
+      }
+    ]
+  },
+  {
+    "a": "cucumetto",
+    "b": "rita",
+    "states": [
+      {
+        "from": 33,
+        "type": "enemy",
+        "label": "Cucumetto kidnaps Rita"
+      }
+    ]
+  },
+  {
+    "a": "cucumetto",
+    "b": "diavolaccio",
+    "states": [
+      {
+        "from": 33,
+        "type": "work",
+        "label": "Bandit in Cucumetto’s band"
+      }
+    ]
+  },
+  {
+    "a": "carlini",
+    "b": "rita",
+    "states": [
+      {
+        "from": 33,
+        "type": "love",
+        "label": "Carlini kills his beloved to spare her"
+      }
+    ]
+  },
+  {
+    "a": "diavolaccio",
+    "b": "rita",
+    "states": [
+      {
+        "from": 33,
+        "type": "enemy",
+        "label": "Wins the lot for the captive Rita"
+      }
+    ]
+  },
+  {
+    "a": "count-of-san-felice",
+    "b": "carmela",
+    "states": [
+      {
+        "from": 33,
+        "type": "family",
+        "label": "The count’s beloved daughter"
+      }
+    ]
+  },
+  {
+    "a": "carmela",
+    "b": "teresa",
+    "states": [
+      {
+        "from": 33,
+        "type": "friend",
+        "label": "Carmela invites Teresa to dance at the ball"
+      }
+    ]
+  },
+  {
+    "a": "peppino",
+    "b": "andrea-rondolo",
+    "states": [
+      {
+        "from": 34,
+        "type": "work",
+        "label": "Condemned to die on the same scaffold"
+      },
+      {
+        "from": 35,
+        "type": "enemy",
+        "label": "Andrea rages at Peppino’s pardon"
+      }
+    ]
+  }
+]

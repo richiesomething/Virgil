@@ -1,4 +1,4 @@
-import type { BookData, Character, Chapter } from '../types'
+import type { BookData, Character, Chapter, RelationType } from '../types'
 
 /**
  * Every query here takes `upTo`, the reader's bookmark, and never returns
@@ -128,4 +128,43 @@ export function currentTagline(c: Character, upTo: number): string {
 
 export function currentAliases(c: Character, upTo: number): string[] {
   return c.aliases.filter((a) => a.from <= upTo).map((a) => a.name)
+}
+
+export interface Connection {
+  /** Display ids (after resolving disguises the reader has seen through). */
+  a: string
+  b: string
+  type: RelationType
+  label: string
+  /** Chapter the current state became known. */
+  since: number
+  /** Every state the reader has reached, oldest first. */
+  history: { from: number; type: RelationType; label: string }[]
+}
+
+/**
+ * Relationships as the reader knows them at `upTo`. Links to a disguise fold onto
+ * the real character once the reader knows who it is; if that leaves several
+ * links between the same pair, the most recently revealed state wins.
+ */
+export function connections(book: BookData, upTo: number): Connection[] {
+  const byPair = new Map<string, Connection>()
+  for (const r of book.relationships) {
+    const a = displayId(book, r.a, upTo)
+    const b = displayId(book, r.b, upTo)
+    if (!a || !b || a === b) continue
+    const reached = r.states.filter((s) => s.from <= upTo)
+    if (!reached.length) continue
+    const [x, y] = a < b ? [a, b] : [b, a]
+    const key = x + '|' + y
+    const existing = byPair.get(key)
+    const history = [...(existing?.history ?? []), ...reached].sort((p, q) => p.from - q.from)
+    const latest = history[history.length - 1]
+    byPair.set(key, { a: x, b: y, type: latest.type, label: latest.label, since: latest.from, history })
+  }
+  return [...byPair.values()]
+}
+
+export function connectionsOf(book: BookData, id: string, upTo: number): Connection[] {
+  return connections(book, upTo).filter((c) => c.a === id || c.b === id)
 }

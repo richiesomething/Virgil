@@ -1,6 +1,7 @@
 import type { BookPageProps } from './BookShell'
 import { href } from '../lib/router'
-import { characterView, lookupCharacter } from '../lib/spoilers'
+import { characterView, connectionsOf, lookupCharacter } from '../lib/spoilers'
+import { relationLabel, relationTypes } from '../lib/relations'
 import { initials } from '../components/CharacterChip'
 
 const importanceLabel = { major: 'Major character', supporting: 'Supporting character', minor: 'Minor character' }
@@ -34,6 +35,10 @@ export default function CharacterProfile({ book, upTo, id }: BookPageProps & { i
 
   const v = characterView(book, found.character, upTo)
   const c = v.character
+  const byId = new Map(book.characters.map((x) => [x.id, x]))
+  const rels = connectionsOf(book, c.id, upTo).sort(
+    (p, q) => relationTypes.findIndex((r) => r.type === p.type) - relationTypes.findIndex((r) => r.type === q.type),
+  )
 
   return (
     <article className="profile">
@@ -75,6 +80,33 @@ export default function CharacterProfile({ book, upTo, id }: BookPageProps & { i
               {d.from > c.firstChapter && <span className="since"> ch. {d.from}</span>}
             </p>
           ))}
+        </section>
+      )}
+
+      {rels.length > 0 && (
+        <section>
+          <div className="card__head">
+            <h2 className="section-title">Relationships</h2>
+            <a className="link-more" href={href('b', meta.id, 'map', c.id)}>See on the map →</a>
+          </div>
+          <ul className="rel-list rel-list--profile">
+            {rels.map((l) => {
+              const other = byId.get(l.a === c.id ? l.b : l.a)!
+              return (
+                <li key={other.id}>
+                  <svg width="20" height="10" aria-hidden="true">
+                    <line x1="1" y1="5" x2="19" y2="5" className={`rel rel--${l.type}`} strokeDasharray={relationTypes.find((r) => r.type === l.type)?.dash} />
+                  </svg>
+                  <span>
+                    <a href={href('b', meta.id, 'characters', other.id)}><strong>{other.name}</strong></a>
+                    <span className="small muted"> · {relationLabel[l.type]}</span>
+                    <br />
+                    <span className="small">{l.label}</span>
+                  </span>
+                </li>
+              )
+            })}
+          </ul>
         </section>
       )}
 

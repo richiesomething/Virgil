@@ -12,6 +12,7 @@ import ChapterList from './ChapterList'
 import ChapterDetail from './ChapterDetail'
 import CharacterList from './CharacterList'
 import CharacterProfile from './CharacterProfile'
+import MapPage from './MapPage'
 
 export interface BookPageProps {
   book: BookData
@@ -61,6 +62,7 @@ function LoadedBook({ book, rest }: { book: BookData; rest: string[] }) {
   else if (section === 'chapters') page = <ChapterDetail {...props} n={Number(param)} />
   else if (section === 'characters' && !param) page = <CharacterList {...props} />
   else if (section === 'characters') page = <CharacterProfile {...props} id={param} />
+  else if (section === 'map') page = <MapPage {...props} focusId={param} />
   else return <NotFound />
 
   const tab = (name: string, label: string) => (
@@ -85,6 +87,7 @@ function LoadedBook({ book, rest }: { book: BookData; rest: string[] }) {
             {tab('', 'Overview')}
             {tab('chapters', 'Chapters')}
             {tab('characters', 'Characters')}
+            {tab('map', 'Map')}
           </nav>
         </div>
       </div>

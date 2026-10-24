@@ -32,3 +32,9 @@ if (characters.length) {
 } else if (!existsSync(join('src/books', book, 'characters.json'))) {
   console.warn('No characters-*.json found')
 }
+
+const relPath = join(dir, 'relationships.json')
+if (existsSync(relPath)) {
+  writeFileSync(join('src/books', book, 'relationships.json'), readFileSync(relPath, 'utf8'))
+  console.log(`Copied relationships for ${book}`)
+}
