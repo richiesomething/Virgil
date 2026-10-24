@@ -407,11 +407,11 @@
       },
       {
         "from": 48,
-        "text": "The Abbé Busoni who sent Bertuccio into his service was Dantès himself in disguise. He buys the Auteuil house tied to a dark secret of Villefort's, keeps the young Greek Haydée in secret apartments, outplays Danglars with sheer wealth, and leads Madame de Villefort on with talk of poisons. To Villefort he calls himself one of the agents of Providence, rewarding and punishing."
+        "text": "The Abbé Busoni who sent Bertuccio into his service was Dantès himself in disguise. He buys the Auteuil house tied to a dark secret of Villefort's, keeps the young Greek Haydée in secret apartments, and outplays Danglars with sheer wealth. To Villefort he calls himself one of the agents of Providence, rewarding and punishing."
       },
       {
         "from": 63,
-        "text": "With the grateful Morrels he almost gives himself away, crediting their rescue to an English friend, 'Lord Wilmore'. He stages a fraud with a bogus 'Major Cavalcanti' and his 'son' Andrea, ruins Danglars with a bribed telegraph operator, and at the Auteuil dinner torments Villefort and Madame Danglars with talk of a buried newborn child."
+        "text": "With the grateful Morrels he almost gives himself away, crediting their rescue to an English friend, 'Lord Wilmore'. He leads Madame de Villefort on with talk of poisons, stages a fraud with a bogus 'Major Cavalcanti' and his 'son' Andrea, costs Danglars a fortune with a bribed telegraph operator, and at the Auteuil dinner torments Villefort and Madame Danglars with talk of a buried newborn child."
       },
       {
         "from": 83,
@@ -472,8 +472,8 @@
         "text": "Returned to Marseilles unrecognised and bought his father's old house as Lord Wilmore."
       },
       {
-        "chapter": 27,
-        "text": "Disguised as a priest, learned from Caderousse that Danglars wrote the denunciation and Fernand posted it."
+        "chapter": 30,
+        "text": "Turned out to be the Italian priest who had learned from Caderousse that Danglars wrote the denunciation and Fernand posted it."
       },
       {
         "chapter": 30,
@@ -481,7 +481,7 @@
       },
       {
         "chapter": 31,
-        "text": "Received Franz blindfolded in his underground palace on Monte Cristo."
+        "text": "Received the blindfolded Franz in his underground palace on Monte Cristo."
       },
       {
         "chapter": 37,
@@ -525,7 +525,7 @@
       },
       {
         "chapter": 113,
-        "text": "Revisited his old cell in the Château d'If and recovered Faria's manuscript."
+        "text": "Revisited his old cell in the Château d'If and bought Faria's manuscript from the guide."
       },
       {
         "chapter": 116,
@@ -672,13 +672,17 @@
       },
       {
         "from": 106,
+        "text": "Mercédès, now poor, leaving Paris for the little house in Marseille that Edmond has left her."
+      },
+      {
+        "from": 112,
         "text": "Mercédès, living quietly in old Dantès’ house in Marseille, devoted to prayer."
       }
     ],
     "description": [
       {
         "from": 1,
-        "text": "Mercédès is Edmond Dantès’ fiancée, who lives in the Catalan village outside Marseille and has called at Morrel’s office again and again for news of his ship."
+        "text": "Mercédès is Edmond Dantès’ fiancée, who lives in the Catalan village outside Marseille and has called on Morrel three times for news of his ship."
       },
       {
         "from": 2,
@@ -718,7 +722,11 @@
       },
       {
         "from": 68,
-        "text": "The count fascinates and puzzles her; she talks of little else. At her summer ball she watches him closely and notices that he will not eat or drink anything under her husband’s roof — and she understands it as deliberate."
+        "text": "The count fascinates and puzzles her; she talks of little else, imagines him a Cagliostro, and begs Albert to make sure he comes to her summer ball."
+      },
+      {
+        "from": 70,
+        "text": "At her summer ball she watches him closely and notices that he will not eat or drink anything under her husband’s roof — and she understands it as deliberate."
       },
       {
         "from": 71,
@@ -2104,7 +2112,7 @@
       },
       {
         "from": 16,
-        "text": "A small, agile man of about sixty: a scholar, chemist and linguist who refuses to shed blood. In prison he has made his own tools, pens, ink, lamp and linen 'paper', and written a book on Italian monarchy."
+        "text": "A small, agile man of about sixty: a scholar, chemist and linguist who refuses to shed blood. In prison he has made his own tools, pens, ink and linen 'paper', and written a book on Italian monarchy."
       },
       {
         "from": 17,
@@ -2433,7 +2441,11 @@
       },
       {
         "from": 39,
-        "text": "He lives a pampered life in a pavilion in his parents’ courtyard, full of half-abandoned hobbies and a dandy’s pursuits. Gossip links him to Eugénie Danglars, a match his father is keen on."
+        "text": "He lives a pampered life in a pavilion in his parents’ courtyard, full of half-abandoned hobbies and a dandy’s pursuits."
+      },
+      {
+        "from": 40,
+        "text": "Paris gossip links him to Eugénie Danglars, daughter of the newly made Baron Danglars, a match his father is most anxious for."
       },
       {
         "from": 41,
@@ -2445,7 +2457,11 @@
       },
       {
         "from": 68,
-        "text": "He adores his mother and dreads marrying Eugénie. At his parents’ ball he is a witty guide to the guests, and presses the count to eat at his mother’s request without understanding why it matters to her."
+        "text": "He adores his mother — what he really wants is a wife like her — and dreads marrying Eugénie."
+      },
+      {
+        "from": 70,
+        "text": "At his parents’ ball he is a witty guide to the guests, and presses the count to eat at his mother’s request without understanding why it matters to her."
       },
       {
         "from": 77,
@@ -3265,7 +3281,11 @@
       },
       {
         "from": 78,
-        "text": "Shaken, he formally breaks off the engagement, writing that Villefort should have told him first. He later stands by Albert in his quarrel with the count."
+        "text": "Shaken, he formally breaks off the engagement, writing that Villefort should have told him first. Albert names him as one of the seconds he wants in his quarrel with Beauchamp."
+      },
+      {
+        "from": 90,
+        "text": "At Albert’s request he attends the duel with Monte Cristo, and is bewildered when Albert apologizes."
       }
     ],
     "moments": [
@@ -4289,7 +4309,11 @@
       },
       {
         "from": 88,
-        "text": "He backs Albert without question in his quarrel with the count and acts as one of his seconds, finding the apology either very despicable or very noble."
+        "text": "He backs Albert without question in his quarrel with the count and agrees to act as one of his seconds."
+      },
+      {
+        "from": 90,
+        "text": "At the duel he is stunned by Albert’s apology, which he finds either very despicable or very noble."
       },
       {
         "from": 109,
@@ -4577,7 +4601,7 @@
       },
       {
         "from": 48,
-        "text": "The Count calls her his slave, though he treats her lavishly; after a trying visit he goes to her as to an antidote."
+        "text": "The Count speaks of her as his slave."
       },
       {
         "from": 49,
