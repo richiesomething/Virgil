@@ -10,5 +10,6 @@ export const meta: BookMeta = {
     'An orphan raised in a cupboard under the stairs learns on his eleventh birthday that he is a wizard — and famous.',
   edition: 'US edition (Scholastic, 1998), 17 chapters',
   volumes: [],
+  wordCountsApproximate: true,
   color: '#3b3470',
 }

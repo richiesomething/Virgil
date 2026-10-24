@@ -1,4 +1,4 @@
-import type { BookData, Character, Chapter, Kin, Kind, RelationType, RelationshipState } from '../types'
+import type { BookData, Character, Chapter, Kin, Kind, Note, Primer, Recap, RelationType, RelationshipState } from '../types'
 
 /**
  * Every query here takes `upTo`, the reader's bookmark, and never returns
@@ -267,4 +267,53 @@ export function familyAnchors(links: Connection[], rowWidth = 900): Map<string, 
     rowHeight = Math.max(rowHeight, height)
   }
   return anchors
+}
+
+// ── Reading guide ──────────────────────────────────────────────────────────
+
+/** Every note the reader has reached (the book's glossary so far). */
+export function notesUpTo(book: BookData, upTo: number): Note[] {
+  return book.notes.filter((n) => n.chapter <= upTo)
+}
+
+/** Notes for a chapter: terms introduced there, then ones that come back there. */
+export function notesForChapter(book: BookData, n: number, upTo: number): { introduced: Note[]; returning: Note[] } {
+  if (n > upTo) return { introduced: [], returning: [] }
+  return {
+    introduced: book.notes.filter((x) => x.chapter === n),
+    returning: book.notes.filter((x) => x.chapter < n && x.seeAlso?.includes(n)),
+  }
+}
+
+/** The primer for chapter n — only for chapters the reader has reached or is about to read. */
+export function primerFor(book: BookData, n: number, upTo: number): Primer | undefined {
+  if (n > upTo + 1) return undefined
+  return book.primers.find((p) => p.chapter === n)
+}
+
+/** The latest "story so far" checkpoint reached, and the chapters since it. */
+export function recapFor(book: BookData, upTo: number): { checkpoint?: Recap; since: Chapter[] } {
+  const checkpoint = [...book.recaps].reverse().find((r) => r.through <= upTo)
+  const from = checkpoint ? checkpoint.through + 1 : 1
+  return { checkpoint, since: book.chapters.filter((c) => c.number >= from && c.number <= upTo) }
+}
+
+/** People most present in the last few chapters read, most recent weighted highest. */
+export function whoMattersNow(book: BookData, upTo: number, limit = 6, window = 5): Character[] {
+  const score = new Map<string, number>()
+  for (let n = Math.max(1, upTo - window + 1); n <= upTo; n++) {
+    const ch = book.chapters[n - 1]
+    if (!ch) continue
+    const weight = 1 + (n - (upTo - window)) / window
+    for (const c of charactersInChapter(book, ch, upTo)) {
+      if (isThing(c)) continue
+      const bonus = c.importance === 'major' ? 1.3 : c.importance === 'supporting' ? 1.1 : 1
+      score.set(c.id, (score.get(c.id) ?? 0) + weight * bonus)
+    }
+  }
+  const byId = new Map(book.characters.map((c) => [c.id, c]))
+  return [...score.entries()]
+    .sort((a, b) => b[1] - a[1])
+    .slice(0, limit)
+    .map(([id]) => byId.get(id)!)
 }

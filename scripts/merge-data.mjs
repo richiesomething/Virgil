@@ -41,3 +41,31 @@ if (relationships.length) {
   writeFileSync(join('src/books', book, 'relationships.json'), JSON.stringify(relationships, null, 2) + '\n')
   console.log(`Wrote ${relationships.length} relationships for ${book}`)
 }
+
+// Reading guide: notes (deduplicated by term, earliest chapter wins), primers, recaps, word counts.
+const slug = (s) =>
+  s.normalize('NFD').replace(/[̀-ͯ]/g, '').toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '')
+const rawNotes = read(/^notes-\d+-\d+\.json$/).sort((a, b) => a.chapter - b.chapter)
+const notes = new Map()
+for (const n of rawNotes) {
+  const id = slug(n.term)
+  const prev = notes.get(id)
+  if (!prev) {
+    notes.set(id, { id, term: n.term, kind: n.kind, chapter: n.chapter, text: n.text, ...(n.quote ? { quote: n.quote } : {}), seeAlso: [...(n.seeAlso ?? [])] })
+  } else {
+    prev.seeAlso = [...new Set([...prev.seeAlso, n.chapter, ...(n.seeAlso ?? [])])].filter((c) => c > prev.chapter).sort((a, b) => a - b)
+  }
+}
+const noteList = [...notes.values()].map((n) => (n.seeAlso.length ? n : (({ seeAlso, ...rest }) => rest)(n)))
+if (rawNotes.length) {
+  writeFileSync(join('src/books', book, 'notes.json'), JSON.stringify(noteList, null, 2) + '\n')
+  console.log(`Wrote ${noteList.length} notes for ${book} (${rawNotes.length - noteList.length} duplicates merged)`)
+}
+const primers = read(/^primers-\d+-\d+\.json$/).sort((a, b) => a.chapter - b.chapter)
+if (primers.length) {
+  writeFileSync(join('src/books', book, 'primers.json'), JSON.stringify(primers, null, 2) + '\n')
+  console.log(`Wrote ${primers.length} primers for ${book}`)
+}
+for (const f of ['recaps.json', 'word-counts.json']) {
+  if (existsSync(join(dir, f))) writeFileSync(join('src/books', book, f), readFileSync(join(dir, f), 'utf8'))
+}

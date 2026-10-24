@@ -1,4 +1,5 @@
 import { useCallback, useSyncExternalStore } from 'react'
+import { logBookmarkChange } from './store'
 
 /** Bookmark = the last chapter the reader has finished (0 = not started). */
 const KEY = 'virgil:progress:v1'
@@ -54,6 +55,7 @@ export function useBookmark(bookId: string, chapterCount: number) {
   const setChapter = useCallback(
     (n: number) => {
       const clamped = Math.max(0, Math.min(chapterCount, Math.round(n)))
+      logBookmarkChange(bookId, memory[bookId] ?? 0, clamped)
       write({ ...memory, [bookId]: clamped })
     },
     [bookId, chapterCount],

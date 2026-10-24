@@ -72,6 +72,8 @@ export interface BookMeta {
   volumes: { number: number; title: string; firstChapter: number }[]
   /** Accent colour for the cover. */
   color: string
+  /** True when word counts are estimates (no source text available). */
+  wordCountsApproximate?: boolean
 }
 
 export interface BookData {
@@ -79,6 +81,11 @@ export interface BookData {
   chapters: Chapter[]
   characters: Character[]
   relationships: Relationship[]
+  notes: Note[]
+  primers: Primer[]
+  recaps: Recap[]
+  /** Words per chapter, index 0 = chapter 1. */
+  wordCounts: number[]
 }
 
 /** 'tie' is used for every link that involves an object or place. */
@@ -103,4 +110,34 @@ export interface Relationship {
   a: string
   b: string
   states: RelationshipState[]
+}
+
+export type NoteKind = 'word' | 'title' | 'money' | 'history' | 'reference' | 'foreign' | 'custom' | 'place' | 'lore'
+
+/** A glossary/context note, shown from the chapter where the reader first meets the term. */
+export interface Note {
+  id: string
+  term: string
+  kind: NoteKind
+  chapter: number
+  text: string
+  /** A short phrase from the text (public-domain books only). */
+  quote?: string
+  /** Later chapters where the term matters again. */
+  seeAlso?: number[]
+}
+
+/** "Before you read": orientation for a chapter, safe to read before it. */
+export interface Primer {
+  chapter: number
+  setting: string
+  keepInMind: string
+  returning: { id: string; reminder: string }[]
+}
+
+/** A "story so far" recap of chapters 1..through. */
+export interface Recap {
+  through: number
+  title: string
+  text: string[]
 }

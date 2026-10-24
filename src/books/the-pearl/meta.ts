@@ -10,5 +10,6 @@ export const meta: BookMeta = {
     'A poor pearl diver finds the greatest pearl in the world, and with it a hope of escaping poverty for his family.',
   edition: 'six-chapter text (Viking, 1947)',
   volumes: [],
+  wordCountsApproximate: true,
   color: '#1f5c63',
 }

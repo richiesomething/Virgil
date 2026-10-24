@@ -89,12 +89,43 @@ for (const book of readdirSync(root, { withFileTypes: true }).filter((d) => d.is
     }
   }
 
+  // Reading guide
+  const optional = (f) => (existsSync(join(root, book, f)) ? load(f) : [])
+  const kinds = ['word', 'title', 'money', 'history', 'reference', 'foreign', 'custom', 'place', 'lore']
+  const notes = optional('notes.json')
+  const noteIds = new Set()
+  for (const n of notes) {
+    if (noteIds.has(n.id)) fail(book, `duplicate note ${n.id}`)
+    noteIds.add(n.id)
+    if (!n.term || !n.text || !kinds.includes(n.kind)) fail(book, `note ${n.id} is missing term/text or has a bad kind`)
+    if (!(n.chapter >= 1 && n.chapter <= count)) fail(book, `note ${n.id} has bad chapter ${n.chapter}`)
+    for (const c of n.seeAlso ?? []) if (!(c > n.chapter && c <= count)) fail(book, `note ${n.id} seeAlso ${c} is out of range`)
+  }
+  const primers = optional('primers.json')
+  for (const p of primers) {
+    if (!(p.chapter >= 1 && p.chapter <= count) || typeof p.keepInMind !== 'string') fail(book, `primer for ch ${p.chapter} is malformed`)
+    for (const r of p.returning ?? []) {
+      const c = byId.get(r.id)
+      if (!c) fail(book, `primer ch ${p.chapter} lists unknown character ${r.id}`)
+      // A returning character must already be known before the chapter is read.
+      else if (c.firstChapter >= p.chapter) fail(book, `primer ch ${p.chapter}: ${r.id} hasn't appeared before ch ${p.chapter}`)
+    }
+  }
+  if (new Set(primers.map((p) => p.chapter)).size !== primers.length) fail(book, 'duplicate primers')
+  const recaps = optional('recaps.json')
+  recaps.forEach((r, i) => {
+    if (!(r.through >= 1 && r.through <= count) || !r.title || !r.text?.length) fail(book, `recap ${i} is malformed`)
+    if (i && r.through <= recaps[i - 1].through) fail(book, 'recaps must be in chapter order')
+  })
+  const words = optional('word-counts.json')
+  if (words.length && words.length !== count) fail(book, `word-counts has ${words.length} entries, expected ${count}`)
+
   for (const c of characters) {
     if (!chapters.some((ch) => ch.characters.includes(c.id)))
       console.warn(`! [${book}] character ${c.id} is not listed in any chapter`)
   }
 
-  console.log(`✓ [${book}] ${chapters.length} chapters, ${characters.length} characters, ${relationships.length} relationships checked`)
+  console.log(`✓ [${book}] ${chapters.length} chapters, ${characters.length} characters, ${relationships.length} relationships, ${notes.length} notes, ${primers.length} primers, ${recaps.length} recaps checked`)
 }
 
 if (errors) {
