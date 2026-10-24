@@ -1,0 +1,155 @@
+[
+  {
+    "chapter": 38,
+    "setting": "Rome, the morning after Albert's release",
+    "keepInMind": "The Count of Monte Cristo has just talked Luigi Vampa into freeing Albert without ransom. Franz, who met the same man as 'Sinbad' on Monte Cristo and overheard him at the Colosseum, saw him shudder as he shook Albert's hand.",
+    "returning": []
+  },
+  {
+    "chapter": 39,
+    "setting": "Paris, 21 May 1838: three months later",
+    "keepInMind": "In Rome the Count promised to call on Albert at No. 27 Rue du Helder on 21 May at exactly half-past ten. Albert's father has summoned him home to arrange a marriage.",
+    "returning": []
+  },
+  {
+    "chapter": 40,
+    "setting": "Albert's rooms, Rue du Helder, the same morning",
+    "keepInMind": "Albert's breakfast guests, Debray and Beauchamp, are waiting, and Albert has two more expected, among them his mysterious guest from Rome. Nobody but Albert believes the Count will turn up on time.",
+    "returning": [
+      {
+        "id": "maximilien-morrel",
+        "reminder": "Morrel's son, the upright young officer nicknamed 'the stoic'"
+      }
+    ]
+  },
+  {
+    "chapter": 41,
+    "setting": "Albert's pavilion and his parents' house",
+    "keepInMind": "Remember what Caderousse told the abbé: Fernand rose to become the Count de Morcerf, a rich general, and married Mercédès. Albert de Morcerf is their son, and he has promised to introduce the Count to his parents.",
+    "returning": [
+      {
+        "id": "mercedes",
+        "reminder": "Dantès' Catalan fiancée, who later married Fernand"
+      },
+      {
+        "id": "fernand-mondego",
+        "reminder": "Mercédès' jealous cousin who posted the denunciation; now Count de Morcerf"
+      }
+    ]
+  },
+  {
+    "chapter": 42,
+    "setting": "The Count's new house on the Champs-Élysées",
+    "keepInMind": "Ali went ahead to find and furnish a Paris house. The Count told the breakfast party that his steward is a Corsican who may once have been mixed up in 'a stab with a knife'.",
+    "returning": [
+      {
+        "id": "bertuccio",
+        "reminder": "The Count's Corsican steward from Rome, a former soldier and smuggler"
+      }
+    ]
+  },
+  {
+    "chapter": 43,
+    "setting": "Auteuil, just outside Paris, that evening",
+    "keepInMind": "The Count has bought a country house at Auteuil without seeing it. Bertuccio went white at the address and begged him to buy elsewhere, but must now show him round it tonight.",
+    "returning": []
+  },
+  {
+    "chapter": 44,
+    "setting": "The garden at Auteuil, at night; Bertuccio's story begins in 1815",
+    "keepInMind": "Bertuccio has admitted that he stabbed M. de Villefort in this garden as an act of vendetta, and that Villefort had just buried something there. Think back to 1815: Napoleon's Hundred Days, Waterloo, and the royalist revenge that followed.",
+    "returning": []
+  },
+  {
+    "chapter": 45,
+    "setting": "Bertuccio's story continues: an inn near Beaucaire, June 1829",
+    "keepInMind": "Hidden in the shed, Bertuccio watched Caderousse and La Carconte sell the abbé's diamond to the jeweller Joannes for 45,000 francs. A violent storm has just driven the jeweller back to spend the night at the inn.",
+    "returning": []
+  },
+  {
+    "chapter": 46,
+    "setting": "The Count's house in Paris, the next afternoon",
+    "keepInMind": "The Count's first engraved card went to Baron Danglars, on whom he holds credit through Thomson & French. Albert is expected to marry Danglars' daughter Eugénie.",
+    "returning": [
+      {
+        "id": "danglars",
+        "reminder": "Wrote the denunciation that jailed Dantès; now a rich Paris banker and baron"
+      }
+    ]
+  },
+  {
+    "chapter": 47,
+    "setting": "Baron Danglars' house in the Chaussée d'Antin",
+    "keepInMind": "The Count has had Danglars' prized horses bought at double the price and harnessed to his own carriage, then driven to the banker's house to be introduced to the baroness. Lucien Debray is with her.",
+    "returning": []
+  },
+  {
+    "chapter": 48,
+    "setting": "The Count's house on the Champs-Élysées",
+    "keepInMind": "Ali saved Madame de Villefort and her son from the runaway horses, and Villefort has come in person to give thanks. In Bertuccio's story, Villefort survived the stabbing in the Auteuil garden.",
+    "returning": [
+      {
+        "id": "villefort",
+        "reminder": "Marseilles prosecutor who buried Dantès in the Château d'If; now powerful in Paris"
+      }
+    ]
+  },
+  {
+    "chapter": 49,
+    "setting": "Haydée's apartments in the Count's house",
+    "keepInMind": "Haydée, the Count's Greek companion from Rome, arrived secretly at midnight and lives in hidden rooms. The Count calls her his slave, though under French law any slave on French soil is free. He is also about to visit old friends in the Rue Meslay.",
+    "returning": []
+  },
+  {
+    "chapter": 50,
+    "setting": "The Morrels' house, Rue Meslay, Paris",
+    "keepInMind": "Maximilian invited the Count to meet his sister Julie and her husband Emmanuel. Nine years ago Morrel was saved at the last moment by the red silk purse and a letter signed 'Sinbad the Sailor'.",
+    "returning": [
+      {
+        "id": "julie-morrel",
+        "reminder": "Morrel's daughter, who found the red purse that saved her father"
+      },
+      {
+        "id": "emmanuel-herbaut",
+        "reminder": "The loyal young clerk who loved Julie and stayed with the failing firm"
+      },
+      {
+        "id": "cocles",
+        "reminder": "Morrel & Son's devoted one-eyed cashier"
+      },
+      {
+        "id": "penelon",
+        "reminder": "Old sailor who survived the Pharaon's wreck"
+      }
+    ]
+  },
+  {
+    "chapter": 51,
+    "setting": "Behind a grand house in the Faubourg Saint-Honoré, on a warm spring evening",
+    "keepInMind": "Remember the Villefort household: the stern prosecutor, his second wife Héloïse and their spoiled son Edward, and Valentine, his daughter by his first marriage, who cares for her paralyzed grandfather Noirtier.",
+    "returning": []
+  },
+  {
+    "chapter": 52,
+    "setting": "Madame de Villefort's drawing room",
+    "keepInMind": "The Count is returning Villefort's visit. When he revived Edward with a single drop from a blood-red phial, Madame de Villefort took a long look at his casket of bottles.",
+    "returning": []
+  },
+  {
+    "chapter": 53,
+    "setting": "The Paris Opéra, at a performance of Robert le Diable",
+    "keepInMind": "The Count said he would take a Greek princess to the opera. Albert's thoughts are on his arranged match with Eugénie Danglars. In Rome a witty Venetian countess nicknamed the Count 'Lord Ruthven', after a famous fictional vampire.",
+    "returning": [
+      {
+        "id": "countess-g",
+        "reminder": "Witty Venetian countess in Rome who decided the pale Count was a vampire"
+      }
+    ]
+  },
+  {
+    "chapter": 54,
+    "setting": "The Count's house on the Champs-Élysées, a few days later",
+    "keepInMind": "Albert's marriage to Eugénie Danglars is being pushed forward, though he is unenthusiastic. At the Opéra, Haydée accused the Count de Morcerf of selling her father to the Turks. Debray is close to Madame Danglars.",
+    "returning": []
+  }
+]

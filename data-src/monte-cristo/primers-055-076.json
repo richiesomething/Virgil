@@ -1,0 +1,164 @@
+[
+  {
+    "chapter": 55,
+    "setting": "Paris, the count's house on the Champs-Élysées, 1838",
+    "keepInMind": "The count turned down Albert's invitation by saying he was expecting an Italian, Major Cavalcanti, whose son is also coming to Paris. Remember that 'the Abbé Busoni' is a disguise Edmond has used before, when he visited Caderousse.",
+    "returning": []
+  },
+  {
+    "chapter": 56,
+    "setting": "The count's house, a few minutes later",
+    "keepInMind": "The count has just coached 'Major Cavalcanti' through a ready-made family history and left him waiting to meet his 'lost son'. 'Sinbad the Sailor' is the name the count used when he saved the Morrels and entertained Franz on Monte Cristo.",
+    "returning": []
+  },
+  {
+    "chapter": 57,
+    "setting": "Paris, the gate at the bottom of the Villefort garden",
+    "keepInMind": "Maximilian Morrel and Valentine de Villefort meet in secret through a boarded-up gate in her family's garden (ch 51). She is engaged, against her wishes, to Albert's friend Franz d'Épinay, who is still in Italy.",
+    "returning": []
+  },
+  {
+    "chapter": 58,
+    "setting": "The Villefort house, the same afternoon",
+    "keepInMind": "Valentine's grandfather Noirtier, once a fiery Jacobin and Bonapartist conspirator, is now paralysed and speechless; she is the one person he loves. Villefort is determined to marry her to Franz d'Épinay.",
+    "returning": [
+      {
+        "id": "noirtier",
+        "reminder": "Villefort's father: an old revolutionary conspirator, now paralysed and devoted to Valentine."
+      }
+    ]
+  },
+  {
+    "chapter": 59,
+    "setting": "",
+    "keepInMind": "Furious at the news of Valentine's engagement to Franz, Noirtier made her understand that he wants a notary. Over Villefort's objections, the loyal servant Barrois has gone to fetch one.",
+    "returning": []
+  },
+  {
+    "chapter": 60,
+    "setting": "The Villefort house, the same day",
+    "keepInMind": "Noirtier has just dictated a will: if Valentine marries Franz d'Épinay, his 900,000 francs will go to the poor rather than to the family. He and Franz's father were bitter political enemies.",
+    "returning": []
+  },
+  {
+    "chapter": 61,
+    "setting": "South of Paris, on the road to Orléans, the next morning",
+    "keepInMind": "Leaving the Villeforts, the count said he was off to look at a telegraph tower on the Spanish line. Danglars speculates heavily on the Bourse, and Madame Danglars, a close friend of the minister's secretary Debray, dabbles there too.",
+    "returning": []
+  },
+  {
+    "chapter": 62,
+    "setting": "The count's house at Auteuil, the Saturday of his dinner",
+    "keepInMind": "The Auteuil house once belonged to Villefort's in-laws, the Saint-Mérans. Bertuccio told the count what he witnessed in its garden years ago: a pregnant woman waiting in the house, and a man burying a box under the trees, whom Bertuccio stabbed in vendetta.",
+    "returning": [
+      {
+        "id": "bertuccio",
+        "reminder": "The count's Corsican steward, haunted by his vendetta killing in the Auteuil garden."
+      }
+    ]
+  },
+  {
+    "chapter": 63,
+    "setting": "Auteuil, the dinner party",
+    "keepInMind": "Peering at the guests, Bertuccio recognized Madame Danglars as the woman from the garden, Villefort as the man he thought he had killed, and 'Andrea Cavalcanti' as Benedetto, the boy he raised.",
+    "returning": []
+  },
+  {
+    "chapter": 64,
+    "setting": "Auteuil, as the guests leave",
+    "keepInMind": "At dinner the count showed his guests the red bedroom and its hidden staircase and announced that a newborn's skeleton had been dug up in the garden. Madame Danglars fainted, and Villefort whispered that he must see her the next day.",
+    "returning": []
+  },
+  {
+    "chapter": 65,
+    "setting": "Paris, that night: the Danglars house",
+    "keepInMind": "Debray rode back from Auteuil with the Villeforts' carriage, which is taking Madame Danglars home. Danglars has just lost heavily by selling his Spanish bonds on the false telegraph news (ch 61).",
+    "returning": []
+  },
+  {
+    "chapter": 66,
+    "setting": "Paris, the next day",
+    "keepInMind": "Danglars has confronted his wife over his Spanish losses and named her lovers, Villefort among them. Remember that the Comte de Morcerf, Albert's father, is Fernand, the Catalan fisherman who helped betray Edmond, and who once served Ali Pasha (ch 53).",
+    "returning": []
+  },
+  {
+    "chapter": 67,
+    "setting": "Paris, the same morning: the Palais de Justice",
+    "keepInMind": "At the dinner Villefort asked Madame Danglars to meet him at his office. Recall Bertuccio's story (ch 44): after stabbing the man in the Auteuil garden, he dug up the buried box and found the baby inside still alive.",
+    "returning": []
+  },
+  {
+    "chapter": 68,
+    "setting": "Paris: the Rue du Helder and the count's house, the same day",
+    "keepInMind": "Albert and his mother left Paris for the seaside to avoid meeting Danglars at the Auteuil dinner. Danglars now prefers Andrea Cavalcanti to Albert for Eugénie, and on the count's hint has written to Yanina about Morcerf's past.",
+    "returning": [
+      {
+        "id": "mercedes",
+        "reminder": "Albert's mother, the Countess de Morcerf: once Edmond's fiancée in Marseilles."
+      }
+    ]
+  },
+  {
+    "chapter": 69,
+    "setting": "Paris",
+    "keepInMind": "Villefort swore to Madame Danglars that within a week he would find out who the Count of Monte Cristo really is. The count says the Cavalcantis came to him through two acquaintances: the Abbé Busoni and an eccentric Englishman, Lord Wilmore.",
+    "returning": [
+      {
+        "id": "m-de-boville",
+        "reminder": "Former inspector of prisons who showed the 'Englishman' Dantès' prison records."
+      }
+    ]
+  },
+  {
+    "chapter": 70,
+    "setting": "The Morcerfs' house, a hot Saturday night in July",
+    "keepInMind": "Albert told the count that his mother particularly wanted him at their ball. At the opera, Haydée recognized the Comte de Morcerf as the man who betrayed her father (ch 53). Villefort's inquiries produced a harmless official story about the count.",
+    "returning": []
+  },
+  {
+    "chapter": 71,
+    "setting": "The Morcerfs' garden, during the ball",
+    "keepInMind": "Mercédès noticed that the count has refused all food and drink under her husband's roof. She has just taken his arm to lead the guests out into the garden.",
+    "returning": []
+  },
+  {
+    "chapter": 72,
+    "setting": "The Villefort house, the same night",
+    "keepInMind": "News reached the ball that the Marquis de Saint-Méran, Valentine's grandfather, had died on the road to Paris, where he was coming to hurry on her marriage to Franz. Villefort has been brooding over who could know his Auteuil secret.",
+    "returning": [
+      {
+        "id": "marquise-de-saint-meran",
+        "reminder": "Renée's mother and Valentine's grandmother: proud, stern and fiercely royalist."
+      }
+    ]
+  },
+  {
+    "chapter": 73,
+    "setting": "The gate at the bottom of the Villefort garden",
+    "keepInMind": "Feverish with grief, Madame de Saint-Méran demands that Valentine marry Franz at once and has sent for a notary. While Dr d'Avrigny examined her grandmother, Valentine went down to the garden and heard Maximilian calling her.",
+    "returning": []
+  },
+  {
+    "chapter": 74,
+    "setting": "Paris, two days later",
+    "keepInMind": "Madame de Saint-Méran has died. Dr d'Avrigny privately told Villefort he believes she was poisoned, and they agreed to keep silent. Noirtier made Maximilian swear to wait, promising that the marriage contract would not be signed.",
+    "returning": [
+      {
+        "id": "beauchamp",
+        "reminder": "Albert's sceptical journalist friend, who writes for an opposition newspaper."
+      }
+    ]
+  },
+  {
+    "chapter": 75,
+    "setting": "Noirtier's room, moments later",
+    "keepInMind": "Franz's father, General d'Épinay (born de Quesnel), was a royalist killed in 1815 after leaving a Bonapartist club, and the crime was never solved. Noirtier hated him, and has summoned Franz just as the contract was about to be signed.",
+    "returning": []
+  },
+  {
+    "chapter": 76,
+    "setting": "Paris, a couple of weeks later",
+    "keepInMind": "Danglars has been warming to Andrea as a husband for Eugénie and cooling toward Albert. On the count's suggestion he wrote to his correspondent at Yanina to ask what part Fernand Mondego played in Ali Pasha's downfall.",
+    "returning": []
+  }
+]

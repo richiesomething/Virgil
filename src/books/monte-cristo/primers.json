@@ -1,1 +1,468 @@
-[]
+[
+  {
+    "chapter": 38,
+    "setting": "Rome, the morning after Albert's release",
+    "keepInMind": "The Count of Monte Cristo has just talked Luigi Vampa into freeing Albert without ransom. Franz, who met the same man as 'Sinbad' on Monte Cristo and overheard him at the Colosseum, saw him shudder as he shook Albert's hand.",
+    "returning": []
+  },
+  {
+    "chapter": 39,
+    "setting": "Paris, 21 May 1838: three months later",
+    "keepInMind": "In Rome the Count promised to call on Albert at No. 27 Rue du Helder on 21 May at exactly half-past ten. Albert's father has summoned him home to arrange a marriage.",
+    "returning": []
+  },
+  {
+    "chapter": 40,
+    "setting": "Albert's rooms, Rue du Helder, the same morning",
+    "keepInMind": "Albert's breakfast guests, Debray and Beauchamp, are waiting, and Albert has two more expected, among them his mysterious guest from Rome. Nobody but Albert believes the Count will turn up on time.",
+    "returning": [
+      {
+        "id": "maximilien-morrel",
+        "reminder": "Morrel's son, the upright young officer nicknamed 'the stoic'"
+      }
+    ]
+  },
+  {
+    "chapter": 41,
+    "setting": "Albert's pavilion and his parents' house",
+    "keepInMind": "Remember what Caderousse told the abbé: Fernand rose to become the Count de Morcerf, a rich general, and married Mercédès. Albert de Morcerf is their son, and he has promised to introduce the Count to his parents.",
+    "returning": [
+      {
+        "id": "mercedes",
+        "reminder": "Dantès' Catalan fiancée, who later married Fernand"
+      },
+      {
+        "id": "fernand-mondego",
+        "reminder": "Mercédès' jealous cousin who posted the denunciation; now Count de Morcerf"
+      }
+    ]
+  },
+  {
+    "chapter": 42,
+    "setting": "The Count's new house on the Champs-Élysées",
+    "keepInMind": "Ali went ahead to find and furnish a Paris house. The Count told the breakfast party that his steward is a Corsican who may once have been mixed up in 'a stab with a knife'.",
+    "returning": [
+      {
+        "id": "bertuccio",
+        "reminder": "The Count's Corsican steward from Rome, a former soldier and smuggler"
+      }
+    ]
+  },
+  {
+    "chapter": 43,
+    "setting": "Auteuil, just outside Paris, that evening",
+    "keepInMind": "The Count has bought a country house at Auteuil without seeing it. Bertuccio went white at the address and begged him to buy elsewhere, but must now show him round it tonight.",
+    "returning": []
+  },
+  {
+    "chapter": 44,
+    "setting": "The garden at Auteuil, at night; Bertuccio's story begins in 1815",
+    "keepInMind": "Bertuccio has admitted that he stabbed M. de Villefort in this garden as an act of vendetta, and that Villefort had just buried something there. Think back to 1815: Napoleon's Hundred Days, Waterloo, and the royalist revenge that followed.",
+    "returning": []
+  },
+  {
+    "chapter": 45,
+    "setting": "Bertuccio's story continues: an inn near Beaucaire, June 1829",
+    "keepInMind": "Hidden in the shed, Bertuccio watched Caderousse and La Carconte sell the abbé's diamond to the jeweller Joannes for 45,000 francs. A violent storm has just driven the jeweller back to spend the night at the inn.",
+    "returning": []
+  },
+  {
+    "chapter": 46,
+    "setting": "The Count's house in Paris, the next afternoon",
+    "keepInMind": "The Count's first engraved card went to Baron Danglars, on whom he holds credit through Thomson & French. Albert is expected to marry Danglars' daughter Eugénie.",
+    "returning": [
+      {
+        "id": "danglars",
+        "reminder": "Wrote the denunciation that jailed Dantès; now a rich Paris banker and baron"
+      }
+    ]
+  },
+  {
+    "chapter": 47,
+    "setting": "Baron Danglars' house in the Chaussée d'Antin",
+    "keepInMind": "The Count has had Danglars' prized horses bought at double the price and harnessed to his own carriage, then driven to the banker's house to be introduced to the baroness. Lucien Debray is with her.",
+    "returning": []
+  },
+  {
+    "chapter": 48,
+    "setting": "The Count's house on the Champs-Élysées",
+    "keepInMind": "Ali saved Madame de Villefort and her son from the runaway horses, and Villefort has come in person to give thanks. In Bertuccio's story, Villefort survived the stabbing in the Auteuil garden.",
+    "returning": [
+      {
+        "id": "villefort",
+        "reminder": "Marseilles prosecutor who buried Dantès in the Château d'If; now powerful in Paris"
+      }
+    ]
+  },
+  {
+    "chapter": 49,
+    "setting": "Haydée's apartments in the Count's house",
+    "keepInMind": "Haydée, the Count's Greek companion from Rome, arrived secretly at midnight and lives in hidden rooms. The Count calls her his slave, though under French law any slave on French soil is free. He is also about to visit old friends in the Rue Meslay.",
+    "returning": []
+  },
+  {
+    "chapter": 50,
+    "setting": "The Morrels' house, Rue Meslay, Paris",
+    "keepInMind": "Maximilian invited the Count to meet his sister Julie and her husband Emmanuel. Nine years ago Morrel was saved at the last moment by the red silk purse and a letter signed 'Sinbad the Sailor'.",
+    "returning": [
+      {
+        "id": "julie-morrel",
+        "reminder": "Morrel's daughter, who found the red purse that saved her father"
+      },
+      {
+        "id": "emmanuel-herbaut",
+        "reminder": "The loyal young clerk who loved Julie and stayed with the failing firm"
+      },
+      {
+        "id": "cocles",
+        "reminder": "Morrel & Son's devoted one-eyed cashier"
+      },
+      {
+        "id": "penelon",
+        "reminder": "Old sailor who survived the Pharaon's wreck"
+      }
+    ]
+  },
+  {
+    "chapter": 51,
+    "setting": "Behind a grand house in the Faubourg Saint-Honoré, on a warm spring evening",
+    "keepInMind": "Remember the Villefort household: the stern prosecutor, his second wife Héloïse and their spoiled son Edward, and Valentine, his daughter by his first marriage, who cares for her paralyzed grandfather Noirtier.",
+    "returning": []
+  },
+  {
+    "chapter": 52,
+    "setting": "Madame de Villefort's drawing room",
+    "keepInMind": "The Count is returning Villefort's visit. When he revived Edward with a single drop from a blood-red phial, Madame de Villefort took a long look at his casket of bottles.",
+    "returning": []
+  },
+  {
+    "chapter": 53,
+    "setting": "The Paris Opéra, at a performance of Robert le Diable",
+    "keepInMind": "The Count said he would take a Greek princess to the opera. Albert's thoughts are on his arranged match with Eugénie Danglars. In Rome a witty Venetian countess nicknamed the Count 'Lord Ruthven', after a famous fictional vampire.",
+    "returning": [
+      {
+        "id": "countess-g",
+        "reminder": "Witty Venetian countess in Rome who decided the pale Count was a vampire"
+      }
+    ]
+  },
+  {
+    "chapter": 54,
+    "setting": "The Count's house on the Champs-Élysées, a few days later",
+    "keepInMind": "Albert's marriage to Eugénie Danglars is being pushed forward, though he is unenthusiastic. At the Opéra, Haydée accused the Count de Morcerf of selling her father to the Turks. Debray is close to Madame Danglars.",
+    "returning": []
+  },
+  {
+    "chapter": 55,
+    "setting": "Paris, the count's house on the Champs-Élysées, 1838",
+    "keepInMind": "The count turned down Albert's invitation by saying he was expecting an Italian, Major Cavalcanti, whose son is also coming to Paris. Remember that 'the Abbé Busoni' is a disguise Edmond has used before, when he visited Caderousse.",
+    "returning": []
+  },
+  {
+    "chapter": 56,
+    "setting": "The count's house, a few minutes later",
+    "keepInMind": "The count has just coached 'Major Cavalcanti' through a ready-made family history and left him waiting to meet his 'lost son'. 'Sinbad the Sailor' is the name the count used when he saved the Morrels and entertained Franz on Monte Cristo.",
+    "returning": []
+  },
+  {
+    "chapter": 57,
+    "setting": "Paris, the gate at the bottom of the Villefort garden",
+    "keepInMind": "Maximilian Morrel and Valentine de Villefort meet in secret through a boarded-up gate in her family's garden (ch 51). She is engaged, against her wishes, to Albert's friend Franz d'Épinay, who is still in Italy.",
+    "returning": []
+  },
+  {
+    "chapter": 58,
+    "setting": "The Villefort house, the same afternoon",
+    "keepInMind": "Valentine's grandfather Noirtier, once a fiery Jacobin and Bonapartist conspirator, is now paralysed and speechless; she is the one person he loves. Villefort is determined to marry her to Franz d'Épinay.",
+    "returning": [
+      {
+        "id": "noirtier",
+        "reminder": "Villefort's father: an old revolutionary conspirator, now paralysed and devoted to Valentine."
+      }
+    ]
+  },
+  {
+    "chapter": 59,
+    "setting": "",
+    "keepInMind": "Furious at the news of Valentine's engagement to Franz, Noirtier made her understand that he wants a notary. Over Villefort's objections, the loyal servant Barrois has gone to fetch one.",
+    "returning": []
+  },
+  {
+    "chapter": 60,
+    "setting": "The Villefort house, the same day",
+    "keepInMind": "Noirtier has just dictated a will: if Valentine marries Franz d'Épinay, his 900,000 francs will go to the poor rather than to the family. He and Franz's father were bitter political enemies.",
+    "returning": []
+  },
+  {
+    "chapter": 61,
+    "setting": "South of Paris, on the road to Orléans, the next morning",
+    "keepInMind": "Leaving the Villeforts, the count said he was off to look at a telegraph tower on the Spanish line. Danglars speculates heavily on the Bourse, and Madame Danglars, a close friend of the minister's secretary Debray, dabbles there too.",
+    "returning": []
+  },
+  {
+    "chapter": 62,
+    "setting": "The count's house at Auteuil, the Saturday of his dinner",
+    "keepInMind": "The Auteuil house once belonged to Villefort's in-laws, the Saint-Mérans. Bertuccio told the count what he witnessed in its garden years ago: a pregnant woman waiting in the house, and a man burying a box under the trees, whom Bertuccio stabbed in vendetta.",
+    "returning": [
+      {
+        "id": "bertuccio",
+        "reminder": "The count's Corsican steward, haunted by his vendetta killing in the Auteuil garden."
+      }
+    ]
+  },
+  {
+    "chapter": 63,
+    "setting": "Auteuil, the dinner party",
+    "keepInMind": "Peering at the guests, Bertuccio recognized Madame Danglars as the woman from the garden, Villefort as the man he thought he had killed, and 'Andrea Cavalcanti' as Benedetto, the boy he raised.",
+    "returning": []
+  },
+  {
+    "chapter": 64,
+    "setting": "Auteuil, as the guests leave",
+    "keepInMind": "At dinner the count showed his guests the red bedroom and its hidden staircase and announced that a newborn's skeleton had been dug up in the garden. Madame Danglars fainted, and Villefort whispered that he must see her the next day.",
+    "returning": []
+  },
+  {
+    "chapter": 65,
+    "setting": "Paris, that night: the Danglars house",
+    "keepInMind": "Debray rode back from Auteuil with the Villeforts' carriage, which is taking Madame Danglars home. Danglars has just lost heavily by selling his Spanish bonds on the false telegraph news (ch 61).",
+    "returning": []
+  },
+  {
+    "chapter": 66,
+    "setting": "Paris, the next day",
+    "keepInMind": "Danglars has confronted his wife over his Spanish losses and named her lovers, Villefort among them. Remember that the Comte de Morcerf, Albert's father, is Fernand, the Catalan fisherman who helped betray Edmond, and who once served Ali Pasha (ch 53).",
+    "returning": []
+  },
+  {
+    "chapter": 67,
+    "setting": "Paris, the same morning: the Palais de Justice",
+    "keepInMind": "At the dinner Villefort asked Madame Danglars to meet him at his office. Recall Bertuccio's story (ch 44): after stabbing the man in the Auteuil garden, he dug up the buried box and found the baby inside still alive.",
+    "returning": []
+  },
+  {
+    "chapter": 68,
+    "setting": "Paris: the Rue du Helder and the count's house, the same day",
+    "keepInMind": "Albert and his mother left Paris for the seaside to avoid meeting Danglars at the Auteuil dinner. Danglars now prefers Andrea Cavalcanti to Albert for Eugénie, and on the count's hint has written to Yanina about Morcerf's past.",
+    "returning": [
+      {
+        "id": "mercedes",
+        "reminder": "Albert's mother, the Countess de Morcerf: once Edmond's fiancée in Marseilles."
+      }
+    ]
+  },
+  {
+    "chapter": 69,
+    "setting": "Paris",
+    "keepInMind": "Villefort swore to Madame Danglars that within a week he would find out who the Count of Monte Cristo really is. The count says the Cavalcantis came to him through two acquaintances: the Abbé Busoni and an eccentric Englishman, Lord Wilmore.",
+    "returning": [
+      {
+        "id": "m-de-boville",
+        "reminder": "Former inspector of prisons who showed the 'Englishman' Dantès' prison records."
+      }
+    ]
+  },
+  {
+    "chapter": 70,
+    "setting": "The Morcerfs' house, a hot Saturday night in July",
+    "keepInMind": "Albert told the count that his mother particularly wanted him at their ball. At the opera, Haydée recognized the Comte de Morcerf as the man who betrayed her father (ch 53). Villefort's inquiries produced a harmless official story about the count.",
+    "returning": []
+  },
+  {
+    "chapter": 71,
+    "setting": "The Morcerfs' garden, during the ball",
+    "keepInMind": "Mercédès noticed that the count has refused all food and drink under her husband's roof. She has just taken his arm to lead the guests out into the garden.",
+    "returning": []
+  },
+  {
+    "chapter": 72,
+    "setting": "The Villefort house, the same night",
+    "keepInMind": "News reached the ball that the Marquis de Saint-Méran, Valentine's grandfather, had died on the road to Paris, where he was coming to hurry on her marriage to Franz. Villefort has been brooding over who could know his Auteuil secret.",
+    "returning": [
+      {
+        "id": "marquise-de-saint-meran",
+        "reminder": "Renée's mother and Valentine's grandmother: proud, stern and fiercely royalist."
+      }
+    ]
+  },
+  {
+    "chapter": 73,
+    "setting": "The gate at the bottom of the Villefort garden",
+    "keepInMind": "Feverish with grief, Madame de Saint-Méran demands that Valentine marry Franz at once and has sent for a notary. While Dr d'Avrigny examined her grandmother, Valentine went down to the garden and heard Maximilian calling her.",
+    "returning": []
+  },
+  {
+    "chapter": 74,
+    "setting": "Paris, two days later",
+    "keepInMind": "Madame de Saint-Méran has died. Dr d'Avrigny privately told Villefort he believes she was poisoned, and they agreed to keep silent. Noirtier made Maximilian swear to wait, promising that the marriage contract would not be signed.",
+    "returning": [
+      {
+        "id": "beauchamp",
+        "reminder": "Albert's sceptical journalist friend, who writes for an opposition newspaper."
+      }
+    ]
+  },
+  {
+    "chapter": 75,
+    "setting": "Noirtier's room, moments later",
+    "keepInMind": "Franz's father, General d'Épinay (born de Quesnel), was a royalist killed in 1815 after leaving a Bonapartist club, and the crime was never solved. Noirtier hated him, and has summoned Franz just as the contract was about to be signed.",
+    "returning": []
+  },
+  {
+    "chapter": 76,
+    "setting": "Paris, a couple of weeks later",
+    "keepInMind": "Danglars has been warming to Andrea as a husband for Eugénie and cooling toward Albert. On the count's suggestion he wrote to his correspondent at Yanina to ask what part Fernand Mondego played in Ali Pasha's downfall.",
+    "returning": []
+  },
+  {
+    "chapter": 99,
+    "setting": "Paris, the night of the contract scandal and the next morning",
+    "keepInMind": "Andrea Cavalcanti has been exposed as Benedetto, an escaped convict wanted for Caderousse’s murder, and Eugénie has secretly fled. Remember what the reader knows and they do not: Andrea is the baby Villefort buried at Auteuil, his son by Madame Danglars.",
+    "returning": []
+  },
+  {
+    "chapter": 100,
+    "setting": "Villefort’s house in Paris: Valentine’s sickroom",
+    "keepInMind": "Valentine collapsed after drinking poisoned water; Noirtier had been quietly building up her resistance with his own medicine. Monte Cristo promised Maximilian she would not die, and the Abbé Busoni, the count in another of his guises, has rented the house next door.",
+    "returning": []
+  },
+  {
+    "chapter": 101,
+    "setting": "Valentine’s room, at midnight",
+    "keepInMind": "The count, who has been secretly swapping Valentine’s poisoned drinks for safe ones, has told her to lie still and pretend to sleep, so that she can see for herself who comes.",
+    "returning": []
+  },
+  {
+    "chapter": 102,
+    "setting": "Valentine’s room, later that night",
+    "keepInMind": "Valentine has seen her stepmother pour poison into her glass and heard the motive: her fortune would pass, through her father, to little Edward. She has promised to put herself entirely in the count’s hands.",
+    "returning": []
+  },
+  {
+    "chapter": 103,
+    "setting": "Villefort’s house, the same morning",
+    "keepInMind": "Valentine has been found dead and d’Avrigny has detected poison in her glass. Maximilian, whose love her father knew nothing of, arrived to hear the word “Dead!” Recall that he once overheard d’Avrigny warn Villefort, in the garden, that someone in the house was a poisoner.",
+    "returning": []
+  },
+  {
+    "chapter": 104,
+    "setting": "Paris, the morning of Valentine’s funeral",
+    "keepInMind": "Villefort has sworn a terrible revenge within three days, and the Abbé Busoni is keeping watch over Valentine with Noirtier. Recall too that Danglars, close to ruin, holds millions belonging to the Paris charities, and that Monte Cristo has unlimited credit at his bank.",
+    "returning": []
+  },
+  {
+    "chapter": 105,
+    "setting": "Paris: the cemetery of Père-Lachaise",
+    "keepInMind": "Maximilian left Valentine’s deathbed in despair, feeling the count had broken his promise that she would live. Neither he nor Monte Cristo appeared at the funeral reception.",
+    "returning": [
+      {
+        "id": "penelon",
+        "reminder": "Old quartermaster of the Pharaon, now the Morrel family’s gardener."
+      }
+    ]
+  },
+  {
+    "chapter": 106,
+    "setting": "Paris: a modest house in the Rue Saint-Germain-des-Prés",
+    "keepInMind": "Danglars was quietly preparing to flee after handing the count the hospitals’ five million. Madame Danglars and Debray have long speculated together on the Bourse. Albert and Mercédès gave up the Morcerf name and fortune; the count told Mercédès of a small sum he buried for her in Marseilles.",
+    "returning": [
+      {
+        "id": "mercedes",
+        "reminder": "Dantès’ first love, who left Morcerf’s house and fortune; she knows the count is Edmond."
+      },
+      {
+        "id": "albert-de-morcerf",
+        "reminder": "Mercédès’ son, who renounced his father’s name and fortune after Morcerf’s disgrace."
+      }
+    ]
+  },
+  {
+    "chapter": 107,
+    "setting": "La Force prison, Paris",
+    "keepInMind": "Andrea, alias Benedetto, was arrested at Compiègne. As he was taken he told Eugénie that “one has friends”: he is convinced a powerful secret patron has been behind his whole rise.",
+    "returning": [
+      {
+        "id": "bertuccio",
+        "reminder": "The count’s Corsican steward, who saved the baby Benedetto and helped raise him."
+      }
+    ]
+  },
+  {
+    "chapter": 108,
+    "setting": "Villefort’s house, in the days before Benedetto’s trial",
+    "keepInMind": "Noirtier named Valentine’s murderer to Villefort alone, and Villefort swore that the culprit would be punished sooner than the law could manage. Bertuccio has promised to return and tell Benedetto who his father is.",
+    "returning": []
+  },
+  {
+    "chapter": 109,
+    "setting": "The Palais de Justice, Paris, on a bright September day",
+    "keepInMind": "That morning Villefort accused his wife of four murders and ordered her to be dead before he came home from court. He has gone to prosecute Benedetto with no idea that the accused is his own son.",
+    "returning": []
+  },
+  {
+    "chapter": 110,
+    "setting": "The assize court, Paris",
+    "keepInMind": "Bertuccio has visited Benedetto a second time, as promised, to tell him his father’s name. In the crowd, Beauchamp is sure a veiled lady is Madame Danglars.",
+    "returning": []
+  },
+  {
+    "chapter": 111,
+    "setting": "Paris, leaving the Palais de Justice",
+    "keepInMind": "Before he left for court, Villefort told his wife to take her own poison before he returned, or he would arrest her with his own hands. The Abbé Busoni has stayed close to Noirtier since Valentine’s death.",
+    "returning": []
+  },
+  {
+    "chapter": 112,
+    "setting": "Paris: the Morrels’ home in the Rue Meslay",
+    "keepInMind": "Monte Cristo has told Maximilian that they leave Paris tomorrow. Maximilian has sworn not to take his life for one month, until 5 October, and is now in the count’s keeping.",
+    "returning": []
+  },
+  {
+    "chapter": 113,
+    "setting": "Marseilles",
+    "keepInMind": "Since Edward’s death the count has begun, for the first time, to doubt his right to the vengeance he has taken. He has just said farewell to Mercédès, and Maximilian has gone to weep at his father’s grave.",
+    "returning": []
+  },
+  {
+    "chapter": 114,
+    "setting": "Italy: the post road from Florence to Rome",
+    "keepInMind": "Danglars fled Paris with the count’s receipt for over five million francs, payable by the bank of Thomson & French in Rome. The count, for his part, told the Morrels he had to be in Rome within five days.",
+    "returning": [
+      {
+        "id": "signor-pastrini",
+        "reminder": "Roman innkeeper who hosted Franz and Albert at Carnival time."
+      },
+      {
+        "id": "peppino",
+        "reminder": "Vampa’s man, whom the count saved from the scaffold in Rome."
+      },
+      {
+        "id": "luigi-vampa",
+        "reminder": "Roman bandit chief who kidnapped Albert, and who obeys the count."
+      }
+    ]
+  },
+  {
+    "chapter": 115,
+    "setting": "A cell in the catacombs of Saint Sebastian, outside Rome",
+    "keepInMind": "Danglars is the prisoner of Vampa’s bandits. Remembering that Albert was ransomed for 4,000 crowns, he expects to buy his freedom cheaply and keep the rest of his five million.",
+    "returning": []
+  },
+  {
+    "chapter": 116,
+    "setting": "The bandits’ catacombs outside Rome",
+    "keepInMind": "The bandits have left Danglars his money but charge 100,000 francs for a chicken, paid by drafts on Thomson & French. He has already signed the first.",
+    "returning": []
+  },
+  {
+    "chapter": 117,
+    "setting": "The Mediterranean, off the island of Monte Cristo: 5 October, evening",
+    "keepInMind": "A month ago Monte Cristo swore that if Maximilian was still not consoled by 5 October, he would set pistols and a gentle poison before him himself. He arranged for the yacht Eurus to bring Maximilian from Bastia to meet him on the island.",
+    "returning": [
+      {
+        "id": "jacopo",
+        "reminder": "Corsican sailor who pulled the escaped Dantès from the sea; loyal to him ever since."
+      }
+    ]
+  }
+]

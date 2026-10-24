@@ -1,0 +1,1189 @@
+[
+  {
+    "term": "Notre-Dame de la Garde",
+    "kind": "place",
+    "chapter": 1,
+    "text": "The hilltop church above Marseilles harbour. Its height made it the port's lookout post, from which approaching ships were signalled to the town.",
+    "quote": "the look-out at Notre-Dame de la Garde"
+  },
+  {
+    "term": "supercargo",
+    "kind": "word",
+    "chapter": 1,
+    "text": "The officer on a merchant ship in charge of the cargo, its buying and selling, and the accounts: the owner's business agent at sea, not a navigator.",
+    "quote": "here is your supercargo, M. Danglars"
+  },
+  {
+    "term": "brain-fever",
+    "kind": "word",
+    "chapter": 1,
+    "text": "An old catch-all diagnosis for a sudden high fever with delirium. Today it might be called meningitis or encephalitis.",
+    "quote": "he died of brain-fever in dreadful agony"
+  },
+  {
+    "term": "burial at sea",
+    "kind": "custom",
+    "chapter": 1,
+    "text": "A sailor who died on a voyage was sewn into his hammock or a canvas sack, weighted with cannon shot so that it would sink, and lowered into the sea after prayers.",
+    "quote": "sewn up in his hammock with a thirty-six-pound shot"
+  },
+  {
+    "term": "cross of honor",
+    "kind": "history",
+    "chapter": 1,
+    "text": "The Legion of Honour, France's highest decoration, created by Napoleon in 1802. Leclere won his through long service, the 'ten years' of war against Britain under the Revolution and Empire.",
+    "quote": "his sword and cross of honor"
+  },
+  {
+    "term": "francs",
+    "kind": "money",
+    "chapter": 1,
+    "text": "France's basic currency. In 1815 a labourer might earn one or two francs a day, so 25,000 francs, the profit on a single voyage, was a very large sum.",
+    "quote": "not to take 25,000 francs for the profits"
+  },
+  {
+    "term": "Elba",
+    "kind": "history",
+    "chapter": 1,
+    "text": "A small island off the coast of Tuscany. Napoleon abdicated in April 1814 and was given Elba to rule in exile. In February 1815 he was living there, a few days' sail from France.",
+    "quote": "a day and a half at the Island of Elba"
+  },
+  {
+    "term": "Porto-Ferrajo",
+    "kind": "place",
+    "chapter": 1,
+    "text": "Portoferraio, the chief port and town of Elba, where Napoleon and his small court lived.",
+    "quote": "his landing at Porto-Ferrajo"
+  },
+  {
+    "term": "Pardieu! / Peste!",
+    "kind": "foreign",
+    "chapter": 1,
+    "text": "Mild French oaths. 'Pardieu' means 'by God!'; 'peste', literally 'plague!', is more like 'good heavens!'",
+    "quote": "_Pardieu!_ and that is true!",
+    "seeAlso": [7]
+  },
+  {
+    "term": "Phocéens",
+    "kind": "history",
+    "chapter": 1,
+    "text": "Marseilles was founded around 600 BC by Greek colonists from Phocaea in Asia Minor, so its people are poetically called Phocaeans. La Canebière is its proud main street, running down to the harbour.",
+    "quote": "the modern Phocéens are so proud"
+  },
+  {
+    "term": "louis",
+    "kind": "money",
+    "chapter": 2,
+    "text": "A gold coin worth 20 francs. A hundred louis, or 2,000 francs a year, was handsome pay for a young captain, and many times a labourer's earnings.",
+    "quote": "a captain at twenty, with a hundred louis pay"
+  },
+  {
+    "term": "sixty francs",
+    "kind": "money",
+    "chapter": 2,
+    "text": "Sixty francs for three months comes to about two-thirds of a franc a day: barely enough for bread. That is why the cupboards are empty.",
+    "quote": "you have lived for three months on sixty francs"
+  },
+  {
+    "term": "smuggled coffee and tobacco",
+    "kind": "custom",
+    "chapter": 2,
+    "text": "Sailors routinely brought in a little contraband for themselves. Tobacco was a heavily taxed state monopoly in France, and coffee carried high duties, so neither was thought of as a real crime.",
+    "quote": "some smuggled coffee and most capital tobacco"
+  },
+  {
+    "term": "Ma foi!",
+    "kind": "foreign",
+    "chapter": 2,
+    "text": "French: 'my faith!', meaning 'upon my word!' or 'well, really!'",
+    "quote": "“_Ma foi!_ it will be as well if he is not,”"
+  },
+  {
+    "term": "the Catalane",
+    "kind": "word",
+    "chapter": 2,
+    "text": "The French feminine of 'Catalan': a Catalan woman, here Mercédès.",
+    "quote": "is he still in love with the Catalane?"
+  },
+  {
+    "term": "Père Pamphile",
+    "kind": "title",
+    "chapter": 2,
+    "text": "'Père' ('Father') was a familiar title for an older tradesman, here the keeper of La Réserve, a tavern by the harbour. It does not mean he is a priest.",
+    "quote": "Père Pamphile had seen Dantès pass"
+  },
+  {
+    "term": "posada",
+    "kind": "foreign",
+    "chapter": 3,
+    "text": "Spanish: an inn. The Catalans' houses are whitewashed inside like a Spanish inn.",
+    "quote": "coated with whitewash, like a Spanish posada"
+  },
+  {
+    "term": "Provençal",
+    "kind": "word",
+    "chapter": 3,
+    "text": "The language of Provence. It is a Romance language distinct from French, and in 1815 it was the everyday speech of most people in Marseilles.",
+    "quote": "One of its chiefs, who understood Provençal"
+  },
+  {
+    "term": "Arlesian Venus",
+    "kind": "reference",
+    "chapter": 3,
+    "text": "The Venus of Arles, a Roman marble statue found at Arles in 1651 and now in the Louvre. It was a classic standard of female beauty.",
+    "quote": "modelled after those of the Arlesian Venus"
+  },
+  {
+    "term": "a sacred law to intermarry",
+    "kind": "custom",
+    "chapter": 3,
+    "text": "Close-knit communities like the Catalans expected their young people to marry within the group, and marriage between cousins was common. Mercédès points out that this is a custom, not a law.",
+    "quote": "it is among the Catalans a sacred law to intermarry"
+  },
+  {
+    "term": "conscription",
+    "kind": "history",
+    "chapter": 3,
+    "text": "Napoleonic France drafted young men by annual levy. Even with peace restored, Fernand is on the rolls and could be called up at any time.",
+    "quote": "You are included in the conscription"
+  },
+  {
+    "term": "dirk",
+    "kind": "word",
+    "chapter": 3,
+    "text": "A short stabbing dagger of the kind sailors carried.",
+    "quote": "cross your Catalan knife with his dirk"
+  },
+  {
+    "term": "bandilleros",
+    "kind": "foreign",
+    "chapter": 3,
+    "text": "Spanish banderilleros: the bullfighters who plant barbed darts in the bull's shoulders to goad it into charging.",
+    "quote": "as the bull is by the bandilleros"
+  },
+  {
+    "term": "the grand marshal",
+    "kind": "title",
+    "chapter": 3,
+    "text": "Grand Marshal of the Palace, the head of Napoleon's household. Marshal Bertrand held the post and followed him to Elba.",
+    "quote": "the letter which the grand marshal gave him"
+  },
+  {
+    "term": "seek, and you shall find",
+    "kind": "reference",
+    "chapter": 4,
+    "text": "Christ's words in the Gospel of Matthew (7:7), which Danglars borrows to nudge Fernand.",
+    "quote": "in the words of the gospel, seek, and you shall find"
+  },
+  {
+    "term": "Tous les méchants sont buveurs d’eau",
+    "kind": "foreign",
+    "chapter": 4,
+    "text": "French drinking song: 'All wicked men drink water; the Flood proves it.' Caderousse uses it to excuse his drinking.",
+    "quote": "Tous les méchants sont buveurs d’eau"
+  },
+  {
+    "term": "king’s procureur / king’s attorney",
+    "kind": "title",
+    "chapter": 4,
+    "text": "The procureur du roi was the state prosecutor for a district, responsible for criminal cases including political ones. A deputy (substitut) acted in his absence.",
+    "quote": "denounce him to the king’s procureur",
+    "seeAlso": [6, 7]
+  },
+  {
+    "term": "Bonapartist",
+    "kind": "history",
+    "chapter": 4,
+    "text": "A supporter of Napoleon. Under the restored Bourbon king Louis XVIII, plotting for the exiled emperor was treason, and royalist officials were quick to suspect it.",
+    "quote": "as a Bonapartist agent",
+    "seeAlso": [5, 6]
+  },
+  {
+    "term": "Murat",
+    "kind": "history",
+    "chapter": 4,
+    "text": "Joachim Murat, Napoleon's brother-in-law and dashing cavalry marshal, made King of Naples in 1808 and still on that throne in 1815. A letter 'from Murat' suggests a plot reaching from Naples to Elba.",
+    "quote": "has been intrusted by Murat with a letter"
+  },
+  {
+    "term": "the usurper",
+    "kind": "history",
+    "chapter": 4,
+    "text": "Royalists' name for Napoleon, implying that he had stolen the throne from the rightful Bourbon kings.",
+    "quote": "a letter for the usurper"
+  },
+  {
+    "term": "the Accoules",
+    "kind": "place",
+    "chapter": 4,
+    "text": "The bell tower of the old church of Notre-Dame des Accoules, a landmark of Marseilles' old quarter.",
+    "quote": "go up into the belfry of the Accoules"
+  },
+  {
+    "term": "the Mayor at the city hall",
+    "kind": "custom",
+    "chapter": 5,
+    "text": "Since the Revolution a French marriage became legal only before the mayor at the town hall. Banns had to be published first and a waiting period observed. Morrel's influence, and a fee, let the couple skip the delay.",
+    "quote": "We have purchased permission to waive the usual delay"
+  },
+  {
+    "term": "the contract—the settlement",
+    "kind": "custom",
+    "chapter": 5,
+    "text": "Families with property drew up a marriage contract before a notary, fixing the bride's dowry and what each spouse brought. Dantès jokes that with nothing on either side, theirs was quick and cheap.",
+    "quote": "the other formalities—the contract—the settlement?"
+  },
+  {
+    "term": "the aged dandies of 1796",
+    "kind": "history",
+    "chapter": 5,
+    "text": "After the Terror, flamboyant young Parisians (the Incroyables) paraded their extravagant clothes in the city's gardens. Old Dantès's finery is a generation out of date.",
+    "quote": "one of the aged dandies of 1796"
+  },
+  {
+    "term": "echinus / clovis",
+    "kind": "word",
+    "chapter": 5,
+    "text": "The echinus is the sea urchin; clovis are small clams. Together with the lobsters and prawns they make up the 'fruits of the sea' (fruits de mer).",
+    "quote": "the echinus with its prickly outside"
+  },
+  {
+    "term": "official scarf",
+    "kind": "custom",
+    "chapter": 5,
+    "text": "A sash worn by French magistrates and police commissaries as a sign of office when acting in the name of the law.",
+    "quote": "a magistrate, wearing his official scarf"
+  },
+  {
+    "term": "the abdication of Napoleon",
+    "kind": "history",
+    "chapter": 5,
+    "text": "Napoleon gave up his throne in April 1814 after the allied armies took Paris. Regretting his fall, or serving the 'other government' as Morrel's uncle did, made a man politically suspect.",
+    "quote": "regretting the abdication of Napoleon"
+  },
+  {
+    "term": "Palais de Justice",
+    "kind": "place",
+    "chapter": 5,
+    "text": "The law courts of Marseilles, which housed the prosecutors' offices and connected to a holding prison.",
+    "quote": "in the direction of the Palais de Justice",
+    "seeAlso": [8]
+  },
+  {
+    "term": "cross of Saint Louis",
+    "kind": "title",
+    "chapter": 6,
+    "text": "A royal military order founded by Louis XIV and revived at the Restoration. Its cross marked an officer loyal to the old monarchy.",
+    "quote": "decorated with the cross of Saint Louis"
+  },
+  {
+    "term": "Hartwell",
+    "kind": "history",
+    "chapter": 6,
+    "text": "Hartwell House in Buckinghamshire, England, where Louis XVIII lived in exile from 1809 until he took the throne in 1814.",
+    "quote": "the patient exile of Hartwell"
+  },
+  {
+    "term": "Reign of Terror",
+    "kind": "history",
+    "chapter": 6,
+    "text": "1793–94, when the Revolutionary government guillotined thousands of suspected enemies, many of them nobles. Exiled nobles' lands were seized and sold off cheaply.",
+    "quote": "for a mere trifle during the Reign of Terror"
+  },
+  {
+    "term": "Girondin",
+    "kind": "history",
+    "chapter": 6,
+    "text": "A member of the moderate republican faction of the Revolution. Many Girondins were themselves purged and guillotined by the radical Jacobins in 1793. Some had voted for Louis XVI's execution, which is why Villefort says his father did not.",
+    "quote": "the son of a Girondin"
+  },
+  {
+    "term": "the 9th Thermidor and the 4th of April",
+    "kind": "history",
+    "chapter": 6,
+    "text": "9 Thermidor (27 July 1794, by the Revolutionary calendar) was the day Robespierre fell, ending the Terror. Early April 1814 saw Napoleon forced to abdicate. Royalists celebrated both dates.",
+    "quote": "the 9th Thermidor and the 4th of April"
+  },
+  {
+    "term": "Place Louis Quinze / Place Vendôme",
+    "kind": "place",
+    "chapter": 6,
+    "text": "Two Paris squares. The Place Louis XV (now the Place de la Concorde) held the guillotine that executed Louis XVI and later Robespierre. In the Place Vendôme stands a bronze column, cast from captured cannon, that celebrates Napoleon's victories.",
+    "quote": "his scaffold in the Place Louis Quinze"
+  },
+  {
+    "term": "half-pay officers",
+    "kind": "history",
+    "chapter": 6,
+    "text": "When the army was cut back in 1814, thousands of Napoleon's officers were put on half pay. Idle, poor and resentful, they were a natural pool of Bonapartist feeling.",
+    "quote": "Marseilles is filled with half-pay officers"
+  },
+  {
+    "term": "Holy Alliance",
+    "kind": "history",
+    "chapter": 6,
+    "text": "A pact of Russia, Austria and Prussia, formally signed only in September 1815, so Dumas uses the name loosely for the victorious allies. Saint Helena, where they talk of sending Napoleon, is a tiny British island in the remote South Atlantic.",
+    "quote": "the Holy Alliance purpose removing him from thence"
+  },
+  {
+    "term": "league",
+    "kind": "money",
+    "chapter": 6,
+    "text": "An old measure of distance, about 4 km (2.5 miles). Two thousand leagues is roughly 8,000 km.",
+    "quote": "at least two thousand leagues from here"
+  },
+  {
+    "term": "Cedant arma togæ",
+    "kind": "foreign",
+    "chapter": 6,
+    "text": "Latin, from Cicero: 'let arms yield to the toga', meaning that civil authority should rule over the military. Villefort means that the magistrate's robe now counts for more than the soldier's sword.",
+    "quote": "“_Cedant arma togæ_,” said Villefort with a bow."
+  },
+  {
+    "term": "commissary of police",
+    "kind": "title",
+    "chapter": 7,
+    "text": "The commissaire de police, the local police official who made arrests and gathered evidence for the prosecutor.",
+    "quote": "he met the commissary of police"
+  },
+  {
+    "term": "fifty thousand crowns",
+    "kind": "money",
+    "chapter": 7,
+    "text": "A crown (écu) is reckoned here at three francs, so Renée's dowry is about 150,000 francs, with half a million more to come. Either sum was a fortune when a labourer earned a franc or two a day.",
+    "quote": "The dowry of his wife amounted to fifty thousand crowns"
+  },
+  {
+    "term": "the third heaven",
+    "kind": "reference",
+    "chapter": 7,
+    "text": "Saint Paul's phrase (2 Corinthians 12:2) for the highest heaven, used here to mean the height of bliss.",
+    "quote": "recalled Villefort from the third heaven to earth"
+  },
+  {
+    "term": "Carbonari",
+    "kind": "history",
+    "chapter": 7,
+    "text": "Secret revolutionary societies that began in the Kingdom of Naples (the name means 'charcoal burners'). To a royalist the word stood for any conspiracy.",
+    "quote": "a member of some Carbonari society"
+  },
+  {
+    "term": "gendarmes",
+    "kind": "title",
+    "chapter": 7,
+    "text": "France's armed military police, used for arrests, escorts and guarding prisoners.",
+    "quote": "full of police agents and gendarmes"
+  },
+  {
+    "term": "the trial justice",
+    "kind": "title",
+    "chapter": 7,
+    "text": "The juge d'instruction, or examining magistrate, who formally investigated a case before any trial. Villefort claims he must consult him.",
+    "quote": "I must consult the trial justice"
+  },
+  {
+    "term": "Frioul",
+    "kind": "place",
+    "chapter": 8,
+    "text": "The Frioul islands off Marseilles (Pomègue, Ratonneau and the little Île d'If) and the waters around them, just outside the harbour mouth.",
+    "quote": "they were, as Dantès knew, in the Frioul"
+  },
+  {
+    "term": "like a Tuscan … like a Castilian",
+    "kind": "custom",
+    "chapter": 8,
+    "text": "Tuscan Italian and Castilian Spanish were the prestige forms of each language, so Dantès speaks both like a well-spoken native.",
+    "quote": "He spoke Italian like a Tuscan, and Spanish like a Castilian"
+  },
+  {
+    "term": "ten sous",
+    "kind": "money",
+    "chapter": 8,
+    "text": "A sou was a twentieth of a franc, so ten sous is half a franc a day, the allowance the jailer draws for each prisoner.",
+    "quote": "every prisoner is worth ten sous a day"
+  },
+  {
+    "term": "a hundred crowns",
+    "kind": "money",
+    "chapter": 8,
+    "text": "The jailer works out a hundred crowns as three hundred francs, a big bribe but small beside his post, worth 2,000 francs a year.",
+    "quote": "I will give you a hundred crowns"
+  },
+  {
+    "term": "abbé",
+    "kind": "title",
+    "chapter": 8,
+    "text": "The courtesy title of a French secular cleric, often a scholar or tutor rather than a parish priest. It does not mean the abbot of a monastery.",
+    "quote": "that an abbé became mad",
+    "seeAlso": [14]
+  },
+  {
+    "term": "Brutus",
+    "kind": "reference",
+    "chapter": 9,
+    "text": "Lucius Junius Brutus, legendary founder of the Roman Republic, who sentenced his own sons to death for plotting to bring back the kings. He became a byword for stern duty.",
+    "quote": "Guardian of the State, Royalist, Brutus"
+  },
+  {
+    "term": "the Corsican ogre",
+    "kind": "history",
+    "chapter": 9,
+    "text": "A royalist nickname for Napoleon, who was born in Corsica in 1769. It comes from propaganda that showed him as a monster devouring France's young men.",
+    "quote": "Has the Corsican ogre broken loose?",
+    "seeAlso": [11, 12]
+  },
+  {
+    "term": "the funds",
+    "kind": "money",
+    "chapter": 9,
+    "text": "French government bonds (rentes), traded on the Paris Bourse. Their price swung with political news, so selling 'at the market price' before bad news broke would save a fortune.",
+    "quote": "All my fortune is in the funds"
+  },
+  {
+    "term": "keeper of the seals",
+    "kind": "title",
+    "chapter": 9,
+    "text": "The Garde des Sceaux, France's minister of justice, who outranked every prosecutor and had the right to see the king at any hour.",
+    "quote": "address yourself to the keeper of the seals"
+  },
+  {
+    "term": "Virgil’s wounded hero",
+    "kind": "reference",
+    "chapter": 9,
+    "text": "From Book 4 of Virgil's Aeneid: the deer that runs on with the hunter's arrow still in its side, an image for a wound that cannot be escaped.",
+    "quote": "like Virgil’s wounded hero, he carried the arrow"
+  },
+  {
+    "term": "postilions",
+    "kind": "word",
+    "chapter": 9,
+    "text": "Riders who guided post-horses. Changing to fresh horses at relay stations every few leagues let a traveller cross France fast, and quicker still for extra fees.",
+    "quote": "ordering the postilions to drive"
+  },
+  {
+    "term": "Hoffmann",
+    "kind": "reference",
+    "chapter": 9,
+    "text": "E. T. A. Hoffmann (1776–1822), German author of eerie, fantastical tales, said to have written fuelled by punch.",
+    "quote": "spectres such as Hoffmann strews over his punch-drenched pages"
+  },
+  {
+    "term": "the Tuileries",
+    "kind": "place",
+    "chapter": 10,
+    "text": "The royal palace in Paris beside the Louvre, the seat of government for Napoleon and the Bourbons alike. It burned in 1871.",
+    "quote": "enter at the Tuileries the little room"
+  },
+  {
+    "term": "Louis Philippe",
+    "kind": "history",
+    "chapter": 10,
+    "text": "King of the French from 1830 to 1848, and on the throne when Dumas wrote the novel in 1844. Dumas is reminding readers that the same study served three rulers.",
+    "quote": "and now of Louis Philippe"
+  },
+  {
+    "term": "the seven fat kine and the seven lean kine",
+    "kind": "reference",
+    "chapter": 10,
+    "text": "Pharaoh's dream in Genesis 41, which Joseph explains as seven years of plenty followed by seven years of famine. 'Kine' is an old plural of 'cow'.",
+    "quote": "the seven fat kine and the seven lean kine"
+  },
+  {
+    "term": "Canimus surdis",
+    "kind": "foreign",
+    "chapter": 10,
+    "text": "Latin: 'we sing to the deaf'. The king is saying that warnings would fall on deaf ears.",
+    "quote": "“_Canimus surdis_,” replied the king"
+  },
+  {
+    "term": "Pastor quum traheret",
+    "kind": "reference",
+    "chapter": 10,
+    "text": "The opening words of Horace's Odes 1.15: 'When the shepherd [Paris] was carrying off [Helen]'. In this ode the sea god Nereus warns Paris of the war his crime will bring. 'Mala ducis avi domum' ('with evil omen you lead her home') and 'molli fugiens anhelitu' ('fleeing, softly panting') come from the same poem.",
+    "quote": "a delightful note on the _Pastor quum traheret_"
+  },
+  {
+    "term": "bella, horrida bella",
+    "kind": "foreign",
+    "chapter": 10,
+    "text": "Latin, from Virgil's Aeneid (6.86): 'wars, terrible wars', the Sibyl's prophecy to Aeneas.",
+    "quote": "_bella, horrida bella_"
+  },
+  {
+    "term": "Marengo or Austerlitz",
+    "kind": "history",
+    "chapter": 10,
+    "text": "Two of Napoleon's most famous victories, over the Austrians in 1800 and the Austrians and Russians in 1805.",
+    "quote": "as if he had gained another Marengo or Austerlitz"
+  },
+  {
+    "term": "Virgil’s shepherds",
+    "kind": "reference",
+    "chapter": 10,
+    "text": "In Virgil's Eclogues, pairs of shepherds compete in song by answering each other verse for verse, just as the king and his minister take turns here.",
+    "quote": "spoke alternately, like Virgil’s shepherds"
+  },
+  {
+    "term": "telegraph",
+    "kind": "history",
+    "chapter": 10,
+    "text": "The Chappe optical telegraph: a chain of hilltop towers whose movable arms relayed coded signals. It could carry a message across France in hours, but only in daylight and clear weather.",
+    "quote": "we have a telegraph which transmits messages in three or four hours",
+    "seeAlso": [11]
+  },
+  {
+    "term": "Justum et tenacem propositi virum",
+    "kind": "foreign",
+    "chapter": 10,
+    "text": "Latin, from Horace (Odes 3.3): 'the man who is just and firm of purpose'. 'Tenax', the motto the king jokingly offers Blacas, means 'tenacious'.",
+    "quote": "“_Justum et tenacem propositi virum_.”"
+  },
+  {
+    "term": "the Gulf of Juan",
+    "kind": "history",
+    "chapter": 11,
+    "text": "Golfe-Juan, a bay near Antibes on the Riviera, where Napoleon came ashore on 1 March 1815. He then took the mountain road north through Gap and Sisteron, still known as the Route Napoléon.",
+    "quote": "near Antibes, in the Gulf of Juan"
+  },
+  {
+    "term": "seven conjoined and allied armies",
+    "kind": "history",
+    "chapter": 11,
+    "text": "The coalition of European powers, including Russia, Prussia, Austria and Britain, that defeated Napoleon in 1813–14 and put Louis XVIII on the throne after his 25 years in exile.",
+    "quote": "seven conjoined and allied armies overthrew that man"
+  },
+  {
+    "term": "learnt nothing, forgotten nothing",
+    "kind": "history",
+    "chapter": 11,
+    "text": "A famous jibe at the Bourbons and their returning émigrés, usually credited to Talleyrand. It meant that exile had taught them nothing, and that they had forgotten none of their old privileges or grudges.",
+    "quote": "We have learnt nothing, forgotten nothing!"
+  },
+  {
+    "term": "the scaffold of my brother, Louis XVI.",
+    "kind": "history",
+    "chapter": 11,
+    "text": "Louis XVIII's elder brother, King Louis XVI, was guillotined by the Revolution in January 1793.",
+    "quote": "mount the scaffold of my brother, Louis XVI."
+  },
+  {
+    "term": "secret service money",
+    "kind": "money",
+    "chapter": 11,
+    "text": "A million and a half francs a year for spies and informers, an enormous budget at a time when a skilled worker might earn under a thousand francs a year.",
+    "quote": "fifteen hundred thousand francs for secret service money"
+  },
+  {
+    "term": "officer of the Legion of Honor",
+    "kind": "title",
+    "chapter": 11,
+    "text": "The Legion has grades. A knight (chevalier) wears a plain red ribbon, while an officer wears a rosette and a cross of higher rank, more than a young provincial magistrate could expect. A brevet is the official certificate of the award.",
+    "quote": "this is an officer’s cross"
+  },
+  {
+    "term": "hackney-coach",
+    "kind": "word",
+    "chapter": 11,
+    "text": "A horse-drawn cab for hire, the taxi of its day.",
+    "quote": "looking about him for a hackney-coach"
+  },
+  {
+    "term": "the mountaineers",
+    "kind": "history",
+    "chapter": 12,
+    "text": "The Montagnards ('the Mountain'), the radical Jacobin deputies who sat on the high benches of the Revolutionary assembly. In 1793 they drove out and hunted down the Girondins.",
+    "quote": "proscribed by the mountaineers"
+  },
+  {
+    "term": "the sin which ruined our first parents",
+    "kind": "reference",
+    "chapter": 12,
+    "text": "Curiosity: Eve and Adam ate the forbidden fruit of knowledge in Genesis. Germain has been listening at the door.",
+    "quote": "the sin which ruined our first parents"
+  },
+  {
+    "term": "the Restoration",
+    "kind": "history",
+    "chapter": 12,
+    "text": "The return of the Bourbon kings in 1814, when Louis XVIII came back after Napoleon's fall.",
+    "quote": "will the Restoration adopt imperial methods so promptly?"
+  },
+  {
+    "term": "the barrier",
+    "kind": "word",
+    "chapter": 12,
+    "text": "The toll gates in the wall around Paris, where goods were taxed and travellers could be watched.",
+    "quote": "half an hour after you had passed the barrier"
+  },
+  {
+    "term": "Corsican ogre … usurper … Bonaparte … emperor",
+    "kind": "reference",
+    "chapter": 12,
+    "text": "This echoes a famous, probably invented, joke about Paris newspapers in March 1815. Their headlines supposedly grew more respectful each day as Napoleon came nearer, from 'the monster has landed' to 'His Majesty has entered Paris'.",
+    "quote": "you call the Corsican ogre, who at Nevers is styled the usurper"
+  },
+  {
+    "term": "his own eagles",
+    "kind": "history",
+    "chapter": 12,
+    "text": "Napoleon's regiments carried standards topped with gilded eagles. His proclamation on landing promised that 'the eagle' would fly from steeple to steeple all the way to Notre-Dame.",
+    "quote": "as rapidly as his own eagles"
+  },
+  {
+    "term": "grandson of Saint Louis",
+    "kind": "history",
+    "chapter": 12,
+    "text": "Louis IX (reigned 1226–70) was made a saint, and the Bourbon kings proudly claimed descent from him.",
+    "quote": "a grandson of Saint Louis"
+  },
+  {
+    "term": "Arcola",
+    "kind": "history",
+    "chapter": 12,
+    "text": "A battle in northern Italy in 1796, famous for the young General Bonaparte leading a charge across a bridge under fire, flag in hand.",
+    "quote": "the man of Arcola, Marengo, Austerlitz"
+  },
+  {
+    "term": "The Hundred Days",
+    "kind": "history",
+    "chapter": 13,
+    "text": "Napoleon's brief return to power in 1815, from his arrival in Paris on 20 March until his final abdication in late June, roughly a hundred days.",
+    "quote": "Twice during the Hundred Days had Morrel renewed his demand"
+  },
+  {
+    "term": "Waterloo",
+    "kind": "history",
+    "chapter": 13,
+    "text": "The battle in Belgium on 18 June 1815 where Wellington and Blücher defeated Napoleon. It ended the Hundred Days, and Louis XVIII returned to the throne in July (the 'second restoration').",
+    "quote": "At last there was Waterloo"
+  },
+  {
+    "term": "Fenestrelles, Pignerol, Sainte-Marguérite",
+    "kind": "place",
+    "chapter": 13,
+    "text": "Fortress prisons for state prisoners: two in the Piedmontese Alps and one on an island off Cannes. Pignerol and Sainte-Marguerite famously held the 'Man in the Iron Mask'.",
+    "quote": "taken to Fenestrelles, to Pignerol, or to the Sainte-Marguérite islands"
+  },
+  {
+    "term": "since the reign of Louis XIV.",
+    "kind": "history",
+    "chapter": 13,
+    "text": "Under the old monarchy a sealed royal order, the lettre de cachet, could lock someone up indefinitely without trial. Villefort suggests that such 'disappearances' never really stopped.",
+    "quote": "since the reign of Louis XIV."
+  },
+  {
+    "term": "prefect of the department",
+    "kind": "title",
+    "chapter": 13,
+    "text": "The government-appointed head of a département, one of France's administrative regions, with charge of police and prisons.",
+    "quote": "the governors of the prison or the prefect of the department"
+  },
+  {
+    "term": "the south was aflame",
+    "kind": "history",
+    "chapter": 13,
+    "text": "After Waterloo, royalist mobs in Provence and Languedoc attacked and murdered suspected Bonapartists, the so-called White Terror of 1815. Helping the family of a 'Bonapartist' took courage.",
+    "quote": "the south was aflame"
+  },
+  {
+    "term": "inspector-general of prisons",
+    "kind": "title",
+    "chapter": 14,
+    "text": "A senior official sent from Paris to tour prisons, check conditions and hear prisoners' complaints.",
+    "quote": "a visit was made by the inspector-general of prisons"
+  },
+  {
+    "term": "Charenton",
+    "kind": "place",
+    "chapter": 14,
+    "text": "The great lunatic asylum just outside Paris.",
+    "quote": "I made some curious observations on this at Charenton"
+  },
+  {
+    "term": "Archimedes",
+    "kind": "reference",
+    "chapter": 14,
+    "text": "The Greek mathematician, said to have been killed by a Roman soldier at the fall of Syracuse (212 BC) while absorbed in drawing geometric figures.",
+    "quote": "as Archimedes was when the soldier of Marcellus slew him"
+  },
+  {
+    "term": "kingdom of Rome for his infant son",
+    "kind": "history",
+    "chapter": 14,
+    "text": "Napoleon annexed Rome to his empire and gave his son, born in 1811, the title 'King of Rome' at birth. Much of Italy was carved into French départements.",
+    "quote": "the emperor had created the kingdom of Rome for his infant son",
+    "seeAlso": [16]
+  },
+  {
+    "term": "the dream of Machiavelli",
+    "kind": "reference",
+    "chapter": 14,
+    "text": "In The Prince (1513), the Florentine thinker Niccolò Machiavelli called for a strong ruler to unite and free Italy, and held up Cesare Borgia as a model.",
+    "quote": "the dream of Machiavelli and Cæsar Borgia"
+  },
+  {
+    "term": "having eyes see not",
+    "kind": "reference",
+    "chapter": 14,
+    "text": "A biblical phrase (Psalm 115; Mark 8:18) for people who refuse to see what is in front of them.",
+    "quote": "having eyes see not, and having ears hear not"
+  },
+  {
+    "term": "Caligula or Nero",
+    "kind": "history",
+    "chapter": 14,
+    "text": "Roman emperors notorious for wild extravagance. Nero once sent men digging in Africa for the legendary buried gold of Queen Dido.",
+    "quote": "Caligula or Nero, those treasure-seekers"
+  },
+  {
+    "term": "the galleys",
+    "kind": "history",
+    "chapter": 15,
+    "text": "Convicts 'sent to the galleys' by then served hard labour at the naval prisons of Toulon or Brest. They were branded, dressed in red, and chained in pairs, but they worked in the open air.",
+    "quote": "the infamous costume, the chain, and the brand"
+  },
+  {
+    "term": "Martin’s Babylonian pictures",
+    "kind": "reference",
+    "chapter": 15,
+    "text": "John Martin (1789–1854), English painter of vast, apocalyptic scenes of ancient cities, such as Belshazzar's Feast and The Fall of Babylon.",
+    "quote": "in Martin’s Babylonian pictures"
+  },
+  {
+    "term": "Ugolino",
+    "kind": "reference",
+    "chapter": 15,
+    "text": "In Dante's Inferno (cantos 32–33), Count Ugolino was starved to death in a tower with his sons. In hell he gnaws forever at the skull of Archbishop Ruggieri, who betrayed him.",
+    "quote": "as the implacable Ugolino devours the skull of Archbishop Roger"
+  },
+  {
+    "term": "mene, mene, tekel upharsin",
+    "kind": "reference",
+    "chapter": 15,
+    "text": "The 'writing on the wall' in Daniel 5. A ghostly hand writes these words at King Belshazzar's feast, foretelling his downfall.",
+    "quote": "the _mene, mene, tekel upharsin_ of Belshazzar"
+  },
+  {
+    "term": "Tantalus",
+    "kind": "reference",
+    "chapter": 15,
+    "text": "In Greek myth, Tantalus was punished in the underworld by standing in water beneath fruit trees, with food and drink always just out of reach. Dantès is a 'voluntary' one because he refuses his own food.",
+    "quote": "like a voluntary Tantalus, he refused himself"
+  },
+  {
+    "term": "where two or three are gathered together",
+    "kind": "reference",
+    "chapter": 15,
+    "text": "Christ's promise in Matthew 18:20: 'where two or three are gathered together in my name, there am I in the midst of them.'",
+    "quote": "prayers where two or three are gathered together"
+  },
+  {
+    "term": "After Charles I., Cromwell",
+    "kind": "history",
+    "chapter": 16,
+    "text": "Faria compares France with England. There, Charles I was executed (1649), Cromwell ruled, the monarchy returned under Charles II, and James II was ousted in 1688 by his son-in-law William of Orange, stadtholder (head of state) of Holland. Parliament's rights then grew.",
+    "quote": "After Charles I., Cromwell; after Cromwell, Charles II."
+  },
+  {
+    "term": "Alexander VI. and Clement VII.",
+    "kind": "history",
+    "chapter": 16,
+    "text": "Two Renaissance popes with dreams of power in Italy. Alexander VI (Rodrigo Borgia, pope 1492–1503) was Cesare Borgia's father; Clement VII (Giulio de' Medici, pope 1523–34) belonged to the Florentine banking dynasty.",
+    "quote": "It was the plan of Alexander VI. and Clement VII.",
+    "seeAlso": [18]
+  },
+  {
+    "term": "celebrated cases of escape",
+    "kind": "history",
+    "chapter": 16,
+    "text": "Famous jailbreaks. The Duc de Beaufort escaped the fortress of Vincennes in 1648, and Latude got out of the Bastille in 1756 down a rope ladder made from his linen.",
+    "quote": "the escape of the Duc de Beaufort from the Château de Vincennes"
+  },
+  {
+    "term": "Lavoisier … Cabanis",
+    "kind": "history",
+    "chapter": 16,
+    "text": "Antoine Lavoisier, founder of modern chemistry, was guillotined in 1794. Pierre Cabanis (1757–1808) was a celebrated physician and philosopher.",
+    "quote": "I know Lavoisier, and was the intimate friend of Cabanis",
+    "seeAlso": [17]
+  },
+  {
+    "term": "quarto",
+    "kind": "word",
+    "chapter": 16,
+    "text": "A large book size, made by folding each printed sheet twice to give four leaves.",
+    "quote": "will make one large quarto volume"
+  },
+  {
+    "term": "Strada, Jornandes",
+    "kind": "reference",
+    "chapter": 16,
+    "text": "The less familiar names on Faria's list. Famiano Strada was a 17th-century Jesuit historian of the Dutch wars; Jordanes was a 6th-century historian of the Goths.",
+    "quote": "Titus Livius, Tacitus, Strada, Jornandes"
+  },
+  {
+    "term": "maigre days",
+    "kind": "custom",
+    "chapter": 16,
+    "text": "Catholic fast days ('lean' days) when meat was forbidden and fish was served instead. Faria names Wednesday, Friday and Saturday.",
+    "quote": "served to us on _maigre_ days"
+  },
+  {
+    "term": "Guzerat and Golconda",
+    "kind": "place",
+    "chapter": 17,
+    "text": "Gujarat in western India and Golconda near Hyderabad, whose legendary diamond mines and markets made 'Golconda' a byword for fabulous riches.",
+    "quote": "the mines of Guzerat and Golconda"
+  },
+  {
+    "term": "to whom … could be in any way advantageous",
+    "kind": "reference",
+    "chapter": 17,
+    "text": "The old Roman legal question 'cui bono?' ('who benefits?'), a detective's first rule long before detective stories.",
+    "quote": "seek first to discover the person to whom the perpetration"
+  },
+  {
+    "term": "twelve thousand livres … civil list",
+    "kind": "money",
+    "chapter": 17,
+    "text": "The livre was the old French money unit, replaced by the nearly equal franc in 1795. The civil list is the yearly sum granted to a monarch for his household. Faria's point is that 12,000 livres matters as much to a clerk as 12 million does to a king.",
+    "quote": "these twelve thousand livres are his civil list"
+  },
+  {
+    "term": "Descartes’ theory",
+    "kind": "reference",
+    "chapter": 17,
+    "text": "René Descartes pictured the universe as whirling vortices of matter pressing on one another, an image for the jostling of competing interests.",
+    "quote": "as in Descartes’ theory of pressure and impulsion"
+  },
+  {
+    "term": "Queen of Etruria",
+    "kind": "history",
+    "chapter": 17,
+    "text": "Napoleon turned Tuscany into the short-lived Kingdom of Etruria (1801–07) for a branch of the Bourbons. Its queen, Maria Luisa of Spain, kept a court in Florence.",
+    "quote": "at the court of the Queen of Etruria"
+  },
+  {
+    "term": "Romaic",
+    "kind": "word",
+    "chapter": 17,
+    "text": "Modern (spoken) Greek, as opposed to the ancient language.",
+    "quote": "a little of the Romaic dialect"
+  },
+  {
+    "term": "catalepsy",
+    "kind": "word",
+    "chapter": 17,
+    "text": "A seizure in which the body goes rigid and seems lifeless. Faria's 'attacks', with convulsions and later paralysis, sound to modern ears like epilepsy and strokes.",
+    "quote": "I am about to be seized with a fit of catalepsy"
+  },
+  {
+    "term": "Gothic characters",
+    "kind": "word",
+    "chapter": 18,
+    "text": "Blackletter, the heavy, angular script used in late-medieval manuscripts.",
+    "quote": "traces of Gothic characters"
+  },
+  {
+    "term": "Romagna",
+    "kind": "history",
+    "chapter": 18,
+    "text": "A region of north-eastern Italy, nominally papal, which Cesare Borgia conquered in 1499–1503 with French backing from King Louis XII.",
+    "quote": "The great wars of Romagna had ended"
+  },
+  {
+    "term": "the two hats to sell",
+    "kind": "custom",
+    "chapter": 18,
+    "text": "A cardinal's red hat is the symbol of his rank. Selling church offices (simony) was a notorious scandal of the Borgia papacy.",
+    "quote": "he had the two hats to sell besides"
+  },
+  {
+    "term": "legate à latere",
+    "kind": "title",
+    "chapter": 18,
+    "text": "Latin 'from the side': a papal envoy sent as the pope's personal representative, as if from his own side.",
+    "quote": "it was a legate _à latere_"
+  },
+  {
+    "term": "breviary",
+    "kind": "word",
+    "chapter": 18,
+    "text": "The book of daily prayers, psalms and readings that every priest was bound to recite.",
+    "quote": "my breviary with the gold corners"
+  },
+  {
+    "term": "annuity",
+    "kind": "money",
+    "chapter": 18,
+    "text": "Handing over capital in exchange for a fixed income for life. It raises your income, but nothing is left to your heirs.",
+    "quote": "I advised him to invest all he had in an annuity"
+  },
+  {
+    "term": "the Arabian Nights",
+    "kind": "reference",
+    "chapter": 18,
+    "text": "The Thousand and One Nights, the great collection of Middle Eastern tales, full of genies guarding treasure in caves. It was hugely popular in Europe from the 1700s.",
+    "quote": "like the treasures of the Arabian Nights",
+    "seeAlso": [23]
+  },
+  {
+    "term": "sympathetic ink",
+    "kind": "word",
+    "chapter": 18,
+    "text": "Invisible ink that shows only when heated or treated, made from lemon juice, for example.",
+    "quote": "traced in mysterious and sympathetic ink"
+  },
+  {
+    "term": "two millions of Roman crowns",
+    "kind": "money",
+    "chapter": 18,
+    "text": "The Roman crown (scudo) was a papal silver coin. Faria's 'thirteen millions' in francs was an almost unimaginable fortune when a comfortable family could live on a few thousand francs a year.",
+    "quote": "Two millions of Roman crowns; nearly thirteen millions of our money"
+  },
+  {
+    "term": "entail",
+    "kind": "custom",
+    "chapter": 18,
+    "text": "A legal arrangement that keeps family property intact and unsellable from generation to generation, so heirs may be 'rich' in jewels they cannot touch.",
+    "quote": "handed down by entail, and which they cannot touch"
+  },
+  {
+    "term": "Pianosa",
+    "kind": "place",
+    "chapter": 19,
+    "text": "A low, flat island south-west of Elba in the Tuscan archipelago.",
+    "quote": "situated twenty-five miles from Pianosa"
+  },
+  {
+    "term": "terra firma",
+    "kind": "foreign",
+    "chapter": 19,
+    "text": "Latin: 'solid ground', dry land.",
+    "quote": "which we take for _terra firma_"
+  },
+  {
+    "term": "galvanic",
+    "kind": "word",
+    "chapter": 19,
+    "text": "Like an electric shock. The word comes from Luigi Galvani, whose experiments made dead frogs' legs twitch with electricity.",
+    "quote": "The draught produced a galvanic effect"
+  },
+  {
+    "term": "Let the irons be heated",
+    "kind": "custom",
+    "chapter": 19,
+    "text": "A red-hot iron pressed to the heel was a standard way to confirm death. Fear of being buried alive was widespread in the period.",
+    "quote": "“Let the irons be heated,” said the doctor"
+  },
+  {
+    "term": "monomania",
+    "kind": "word",
+    "chapter": 19,
+    "text": "A fashionable 19th-century psychiatric diagnosis: madness on a single subject in someone otherwise sane.",
+    "quote": "the sort of malady which we call monomania"
+  },
+  {
+    "term": "requiem",
+    "kind": "word",
+    "chapter": 19,
+    "text": "The Catholic Mass for the dead.",
+    "quote": "he might have had his requiem"
+  },
+  {
+    "term": "guillotine",
+    "kind": "history",
+    "chapter": 20,
+    "text": "France's method of execution from 1792. A capital crime committed in prison, such as killing a guard, would have led to it.",
+    "quote": "then they will guillotine me"
+  },
+  {
+    "term": "hand-bier",
+    "kind": "word",
+    "chapter": 20,
+    "text": "A flat frame with handles at each end, used for carrying a body.",
+    "quote": "the noise they made in putting down the hand-bier"
+  },
+  {
+    "term": "mistral",
+    "kind": "word",
+    "chapter": 20,
+    "text": "The cold, violent north-west wind that roars down the Rhône valley over Provence and out to sea.",
+    "quote": "Dantès knew that the mistral was blowing"
+  },
+  {
+    "term": "Planier",
+    "kind": "place",
+    "chapter": 21,
+    "text": "A lighthouse on a rocky islet south-west of Marseilles, which ships steered by.",
+    "quote": "he saw the light of Planier"
+  },
+  {
+    "term": "Genoese tartan",
+    "kind": "word",
+    "chapter": 21,
+    "text": "A tartan is a small Mediterranean coasting vessel with one main mast and a lateen sail, a large triangular sail on a long slanting yard. Craft like this were favoured by traders and smugglers.",
+    "quote": "he knew it to be a Genoese tartan"
+  },
+  {
+    "term": "a vow, to our Lady of the Grotto",
+    "kind": "custom",
+    "chapter": 21,
+    "text": "Mediterranean sailors in peril often made vows to the Virgin Mary, such as leaving their hair and beard uncut for a set time, so Dantès's excuse sounds perfectly natural.",
+    "quote": "I made a vow, to our Lady of the Grotto"
+  },
+  {
+    "term": "Leghorn",
+    "kind": "place",
+    "chapter": 21,
+    "text": "The old English name for Livorno, Tuscany's busy free port and a hub of Mediterranean trade, legal and otherwise.",
+    "quote": "“To Leghorn.”"
+  },
+  {
+    "term": "fathoms",
+    "kind": "money",
+    "chapter": 21,
+    "text": "A fathom is six feet (about 1.8 m), so twenty fathoms is about 36 metres: a close shave past the rocks.",
+    "quote": "You shall pass it by twenty fathoms"
+  },
+  {
+    "term": "patron",
+    "kind": "title",
+    "chapter": 21,
+    "text": "The usual Mediterranean term for the master or skipper of a small trading vessel.",
+    "quote": "said the patron"
+  },
+  {
+    "term": "Larboard",
+    "kind": "word",
+    "chapter": 21,
+    "text": "The old word for the left-hand (port) side of a ship, facing forward.",
+    "quote": "“Larboard your helm,” cried the captain"
+  },
+  {
+    "term": "the alarm gun",
+    "kind": "custom",
+    "chapter": 21,
+    "text": "A fortress fired a cannon to announce an escape, warning the coast and boats to watch for the fugitive.",
+    "quote": "they are firing the alarm gun"
+  },
+  {
+    "term": "Titian",
+    "kind": "reference",
+    "chapter": 22,
+    "text": "The great Venetian painter (c. 1488–1576), whose portraits often show grave, full-bearded men.",
+    "quote": "one of Titian’s portraits"
+  },
+  {
+    "term": "lugger",
+    "kind": "word",
+    "chapter": 22,
+    "text": "Strictly, a small boat with four-cornered lugsails. Here it is used loosely for the tartan.",
+    "quote": "handled the lugger"
+  },
+  {
+    "term": "the country of Paoli and Napoleon",
+    "kind": "history",
+    "chapter": 22,
+    "text": "Corsica. Pasquale Paoli led the island's fight for independence from Genoa and France (1755–69), and Napoleon was born there.",
+    "quote": "the country of Paoli and Napoleon"
+  },
+  {
+    "term": "culverins … shallops",
+    "kind": "word",
+    "chapter": 22,
+    "text": "Culverins were small, long-barrelled cannon. Shallops were light open boats used for ferrying cargo to shore.",
+    "quote": "mounted two small culverins"
+  },
+  {
+    "term": "a hundred Tuscan livres",
+    "kind": "money",
+    "chapter": 22,
+    "text": "Tuscan lire, worth less than the franc. Eighty francs for one night's work was perhaps a labourer's wages for a month or two.",
+    "quote": "a hundred Tuscan livres, or about eighty francs"
+  },
+  {
+    "term": "Pain, thou art not an evil",
+    "kind": "reference",
+    "chapter": 22,
+    "text": "Words of the Stoic philosopher Posidonius, who said this while racked by gout, as told by Cicero. The Stoics held that pain does not harm a man's virtue.",
+    "quote": "“Pain, thou art not an evil.”"
+  },
+  {
+    "term": "Doctor Pangloss",
+    "kind": "reference",
+    "chapter": 22,
+    "text": "The relentlessly optimistic tutor in Voltaire's satire Candide (1759), who insists that all is for the best in the best of all possible worlds.",
+    "quote": "Doctor Pangloss believed it"
+  },
+  {
+    "term": "piastres",
+    "kind": "money",
+    "chapter": 22,
+    "text": "Large silver coins (Spanish dollars and their Italian equivalents) used across the Mediterranean, worth roughly five francs each. A hundred piastres is about 500 francs.",
+    "quote": "he had amassed a hundred piastres"
+  },
+  {
+    "term": "Mercury",
+    "kind": "reference",
+    "chapter": 22,
+    "text": "The Roman messenger god, patron of merchants, travellers and thieves alike, hence Dumas's joke about smugglers.",
+    "quote": "Mercury, the god of merchants and robbers"
+  },
+  {
+    "term": "lingua franca",
+    "kind": "foreign",
+    "chapter": 22,
+    "text": "The mixed trade language of Mediterranean ports, built from Italian, Spanish, French, Arabic and Greek.",
+    "quote": "jumbled in a _lingua franca_"
+  },
+  {
+    "term": "knots",
+    "kind": "money",
+    "chapter": 23,
+    "text": "A knot is a speed of one nautical mile (about 1.85 km) per hour, so ten knots is brisk sailing for a small vessel. 'Knots an hour' is a common slip.",
+    "quote": "They were making nearly ten knots an hour"
+  },
+  {
+    "term": "kissed his mother earth",
+    "kind": "reference",
+    "chapter": 23,
+    "text": "In Livy, an oracle said the first man to kiss his mother would rule Rome. Lucius Brutus pretended to stumble and kissed the earth, the mother of all.",
+    "quote": "like Lucius Brutus, have “kissed his mother earth.”"
+  },
+  {
+    "term": "a second Pelion",
+    "kind": "reference",
+    "chapter": 23,
+    "text": "Mount Pelion in Greece. In myth, giants piled Pelion on Mount Ossa to storm heaven. Dumas is evoking a wild, rugged mountain.",
+    "quote": "the rocky hills of this second Pelion"
+  },
+  {
+    "term": "Monte Pulciano",
+    "kind": "word",
+    "chapter": 23,
+    "text": "Montepulciano, a Tuscan red wine.",
+    "quote": "a flask of Monte Pulciano"
+  },
+  {
+    "term": "nabobs",
+    "kind": "word",
+    "chapter": 23,
+    "text": "From an Indian title for a provincial governor. It came to mean Europeans who came home from India with vast fortunes and flaunted them.",
+    "quote": "the insolence of nabobs"
+  },
+  {
+    "term": "chamois",
+    "kind": "word",
+    "chapter": 23,
+    "text": "A nimble wild goat-antelope of the Alps, famous for leaping from rock to rock.",
+    "quote": "with the boldness of a chamois"
+  },
+  {
+    "term": "Open Sesame",
+    "kind": "reference",
+    "chapter": 23,
+    "text": "The magic password that opens the robbers' treasure cave in 'Ali Baba and the Forty Thieves'. Dumas confuses Ali Baba, a woodcutter, with the fisherman of another Arabian Nights tale.",
+    "quote": "opened the splendid caverns of Ali Baba to the Arabian fisherman"
+  }
+]

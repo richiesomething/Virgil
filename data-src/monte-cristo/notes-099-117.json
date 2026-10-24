@@ -144,7 +144,7 @@
     "kind": "word",
     "chapter": 103,
     "text": "Bleaching powder, widely used in the nineteenth century as a disinfectant, especially after touching the sick or the dead.",
-    "quote": "dipping the fingers"
+    "quote": "in chloride of lime"
   },
   {
     "term": "cassock",
@@ -263,13 +263,6 @@
     "chapter": 106,
     "text": "Under the Napoleonic Code a married woman could not own or manage property in her own right without her husband’s authority, which is why Debray has hidden her winnings in cash.",
     "quote": "you have no right to possess anything independent of your husband"
-  },
-  {
-    "term": "certificate in the funds",
-    "kind": "money",
-    "chapter": 106,
-    "text": "A registered share in the French government debt (the rente), paying fixed yearly interest: the safe investment of the day.",
-    "quote": "a certificate in the funds of 25,000 francs"
   },
   {
     "term": "diligence",
@@ -499,7 +492,7 @@
     "kind": "reference",
     "chapter": 111,
     "text": "In Greek myth the Titans made war on the gods of Olympus, and Ajax the Lesser, saved from shipwreck, boasted he had escaped despite the gods and was drowned for it.",
-    "quote": "led the Titans to scale the heavens, and Ajax to defy the gods"
+    "quote": "Ajax to defy the gods"
   },
   {
     "term": "Perrault’s wicked fairies",
@@ -718,8 +711,7 @@
     "term": "Harpagon",
     "kind": "reference",
     "chapter": 116,
-    "text": "The miser in Molière’s comedy L’Avare (The Miser, 1668), whose howls over his stolen money are famous.",
-    "quote": "Harpagon30 alone"
+    "text": "The miser in Molière’s comedy L’Avare (The Miser, 1668), whose howls over his stolen money are famous."
   },
   {
     "term": "usury",
@@ -732,7 +724,7 @@
     "term": "25,000 francs a bottle",
     "kind": "money",
     "chapter": 116,
-    "text": "A quarter of the price of a chicken, but still, for a single bottle of wine, roughly what a labourer might earn in thirty years.",
+    "text": "A quarter of the price of a chicken, but still, for a single bottle of wine, several decades of a labourer’s wages.",
     "quote": "Twenty-five thousand francs a bottle."
   },
   {
