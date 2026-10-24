@@ -33,6 +33,11 @@ interface Props {
 }
 
 const radius = { major: 20, supporting: 14, minor: 10 }
+
+/** Small maps label everyone; big ones label minor characters only around the focus. */
+const isLabelled = (c: Character, count: number) => count <= 30 || c.importance !== 'minor'
+/** Rough width of an 11px label; close enough for spacing nodes apart. */
+const labelWidth = (name: string) => name.length * 6.2
 const dashFor = Object.fromEntries(relationTypes.map((r) => [r.type, r.dash])) as Record<RelationType, string | undefined>
 
 export default function CharacterMap({ characters, connections, selected, onSelect, positions }: Props) {
@@ -91,7 +96,14 @@ export default function CharacterMap({ characters, connections, selected, onSele
       .force('center', forceCenter(0, 0))
       .force('x', forceX(0).strength(0.05))
       .force('y', forceY(0).strength(0.07))
-      .force('collide', forceCollide<Node>((n) => radius[n.character.importance] + 22))
+      .force(
+        'collide',
+        // Leave room for the name label as well as the dot, so labels don't overlap.
+        forceCollide<Node>((n) => {
+          const dot = radius[n.character.importance] + 22
+          return isLabelled(n.character, nodes.length) ? Math.max(dot, labelWidth(n.character.name) / 2 + 10) : dot
+        }).iterations(3),
+      )
       .stop()
 
     const save = () => {
@@ -232,8 +244,7 @@ export default function CharacterMap({ characters, connections, selected, onSele
               const c = n.character
               const r = radius[c.importance]
               const dim = neighbours && !neighbours.has(n.id)
-              // Small maps label everyone; big ones label minor characters only around the focus.
-              const showLabel = nodes.length <= 30 || c.importance !== 'minor' || (neighbours?.has(n.id) ?? false)
+              const showLabel = isLabelled(c, nodes.length) || (neighbours?.has(n.id) ?? false)
               return (
                 <g
                   key={n.id}
