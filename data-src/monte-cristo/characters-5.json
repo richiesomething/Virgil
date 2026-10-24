@@ -69,7 +69,7 @@
       },
       {
         "from": 51,
-        "text": "In Marseille he is remembered as a deeply honest merchant and a devoted supporter of the emperor."
+        "text": "Maximilian recalls that his father was wholly devoted to the emperor, just as Villefort was to the Bourbons."
       },
       {
         "from": 105,
@@ -189,7 +189,11 @@
       },
       {
         "from": 90,
-        "text": "On the morning of the duel he learns that the Count's will names him heir to twenty million francs. He admits he loves a young girl more than his life, secures the first shot for his friend, and begs him to spare Albert. Afterwards the Count promises him the use of his power whenever he needs it."
+        "text": "On the morning of the duel the Count sends his will to the solicitor, telling Maximilian to examine it if he dies. Maximilian admits he loves a young girl more than his life, secures the first shot for his friend, and begs him to spare Albert."
+      },
+      {
+        "from": 92,
+        "text": "Riding back from the duel, the Count reminds him that he has great power and will gladly use it for those he loves."
       },
       {
         "from": 93,
@@ -401,7 +405,11 @@
     "description": [
       {
         "from": 29,
-        "text": "A young clerk of twenty-three or twenty-four who stays with Morrel's failing firm because he loves Morrel's daughter Julie. She trusts him above everyone; he escorts her on her errand and brings the news of the new Pharaon."
+        "text": "A young clerk of twenty-three or twenty-four who stays with Morrel's failing firm because he loves Morrel's daughter Julie."
+      },
+      {
+        "from": 30,
+        "text": "Julie trusts him above everyone: he urges her to obey the Sinbad letter, escorts her on her errand, and brings the news of the new Pharaon."
       },
       {
         "from": 40,
@@ -417,7 +425,7 @@
       },
       {
         "from": 92,
-        "text": "When the affair ends peacefully he is overjoyed and hurries home to Julie."
+        "text": "When the affair ends peacefully he does not hide his joy and hurries home to Julie."
       },
       {
         "from": 105,
@@ -453,13 +461,21 @@
     "tagline": [
       {
         "from": 29,
+        "text": "Morrel's faithful wife"
+      },
+      {
+        "from": 30,
         "text": "Morrel's faithful wife, mother of Julie and Maximilian"
       }
     ],
     "description": [
       {
         "from": 29,
-        "text": "Morrel's wife, who weeps at the news of the wreck but stays at her husband's side, and fears, watching through the keyhole, that he is writing his will."
+        "text": "Morrel's wife, who weeps at the news of the wreck and stays at her husband's side."
+      },
+      {
+        "from": 30,
+        "text": "As the fatal day nears she watches through the keyhole and fears that he is writing his will."
       },
       {
         "from": 113,
@@ -488,7 +504,11 @@
     "description": [
       {
         "from": 29,
-        "text": "The firm's one-eyed cashier, nicknamed 'Cocles' (cock-eye). Utterly devoted, he is sure the firm can never stop paying because in twenty years it never has, and is crushed when Morrel shows him the true accounts."
+        "text": "The firm's one-eyed cashier, nicknamed 'Cocles' (cock-eye). Utterly devoted, he is sure the firm can never stop paying because in twenty years it never has."
+      },
+      {
+        "from": 30,
+        "text": "He is crushed when Morrel goes through the true accounts with him, and sits bewildered in the courtyard."
       },
       {
         "from": 50,
@@ -581,7 +601,7 @@
       },
       {
         "chapter": 114,
-        "text": "Welcomed Danglars to the Hôtel de Londres."
+        "text": "Welcomed Danglars to his hotel in Rome."
       }
     ]
   },
@@ -916,7 +936,7 @@
       },
       {
         "from": 37,
-        "text": "At the Duke of Bracciano's ball she worries when Albert fails to appear to claim the dance she promised him."
+        "text": "At the Duke of Bracciano's ball she shares the duke's unease that Albert is out in the streets at night; once rescued, he arrives to dance with her."
       },
       {
         "from": 53,
@@ -948,13 +968,21 @@
     "tagline": [
       {
         "from": 34,
-        "text": "Condemned murderer executed during the Roman Carnival"
+        "text": "Condemned murderer due to die during the Roman Carnival"
+      },
+      {
+        "from": 35,
+        "text": "Murderer executed during the Roman Carnival"
       }
     ],
     "description": [
       {
         "from": 34,
-        "text": "Condemned to be killed with a mallet for murdering the priest Don César Torlini, who had raised him. A short, brutal-looking man, he rages when his fellow prisoner Peppino is pardoned, crying that he will not die alone."
+        "text": "Condemned to be killed with a mallet for murdering the priest Don César Torlini, who had raised him. He is to die in the Piazza del Popolo on the first day of the Carnival, alongside Peppino."
+      },
+      {
+        "from": 35,
+        "text": "A short, brutal-looking man, he rages when his fellow prisoner Peppino is pardoned, crying that he will not die alone, and is clubbed and stabbed to death."
       }
     ],
     "moments": [
@@ -995,13 +1023,13 @@
     "tagline": [
       {
         "from": 37,
-        "text": "Roman banker famous for his balls"
+        "text": "Roman duke famous for his balls"
       }
     ],
     "description": [
       {
         "from": 37,
-        "text": "A celebrated Roman banker whose balls are famous across Europe. At his ball he worries about Albert being out in the streets at night."
+        "text": "A Roman duke whose house is one of the most delightful in Rome; his duchess, a Colonna heiress, gives fêtes famous across Europe. At his ball he worries about Albert being out in the streets at night."
       }
     ],
     "moments": []
@@ -1054,11 +1082,19 @@
       },
       {
         "from": 82,
-        "text": "He serves as the Count's silent, trusted aide: loading his pistols at the shooting gallery, and keeping watch at his side with a hatchet on the night of the burglary."
+        "text": "He serves as the Count's silent, trusted aide: on the night of the burglary he keeps watch at his side with a hatchet and brings him the abbé's disguise."
+      },
+      {
+        "from": 85,
+        "text": "He drives the Count's carriage on the road to Normandy at breathtaking speed, in his element like a 'child of the desert'."
+      },
+      {
+        "from": 89,
+        "text": "He brings the Count his pistols on the eve of the duel."
       },
       {
         "from": 90,
-        "text": "He drives the Count's carriage at breathtaking speed, brings his pistols before the duel, and carries his sealed will to the solicitor."
+        "text": "On the morning of the duel he carries the Count's sealed will to the solicitor."
       },
       {
         "from": 111,
@@ -1112,7 +1148,11 @@
       },
       {
         "from": 54,
-        "text": "Efficient and perfectly discreet, he recognizes the Cavalcanti visitors from his master's exact descriptions and shows them in. Albert would love to employ him."
+        "text": "Efficient and perfectly discreet, he has orders to admit no one but Major Cavalcanti and his son. Albert would love to employ him."
+      },
+      {
+        "from": 55,
+        "text": "He recognizes the major from his master's exact description and shows him in."
       },
       {
         "from": 82,

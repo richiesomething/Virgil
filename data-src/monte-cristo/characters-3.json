@@ -35,11 +35,15 @@
       },
       {
         "from": 104,
-        "text": "Ruined banker fleeing Paris with money owed to the hospitals."
+        "text": "Ruined banker preparing to flee Paris with money owed to the hospitals."
       },
       {
         "from": 114,
-        "text": "Fugitive banker held prisoner and starved by Luigi Vampa's bandits."
+        "text": "Fugitive banker kidnapped by Luigi Vampa's bandits outside Rome."
+      },
+      {
+        "from": 115,
+        "text": "Prisoner of Luigi Vampa's bandits, forced to buy each meal for a fortune."
       },
       {
         "from": 116,
@@ -112,12 +116,20 @@
         "text": "When soldiers burst in to arrest Andrea at the contract signing, Danglars shows abject terror, and is left humiliated and questioned by the police. By the end of the night his daughter has gone too."
       },
       {
+        "from": 104,
+        "text": "Facing bankruptcy, he lets the Count walk off with the five million francs that belong to the charities in return for a receipt on Thomson & French of Rome. Telling the charities' Receiver-General to come back tomorrow, he gathers about 50,000 francs, burns some papers, writes to his wife and checks his passport."
+      },
+      {
         "from": 106,
-        "text": "Facing bankruptcy, he hands over to the Count the five million francs that belong to the charities in return for a receipt, then burns his papers and flees Paris by night, leaving his wife a letter accusing her of hiding away part of his fortune."
+        "text": "He burns his papers and flees Paris by night, leaving his wife a mocking letter that accuses her of hiding away part of his fortune and leaves her ‘rich, but little respected’."
+      },
+      {
+        "from": 114,
+        "text": "He reaches Rome and cashes the Count's receipt at Thomson & French, planning to collect his money in Venice and Vienna, unaware that the bandit Peppino is shadowing him. On the road out of Rome he is kidnapped and shut in Luigi Vampa's catacomb hideout. Since they have not killed him, he expects to be ransomed and still left rich."
       },
       {
         "from": 115,
-        "text": "He reaches Rome and cashes the Count's receipt at Thomson & French, planning to settle in Vienna. On the road out of Rome he is kidnapped and shut in Luigi Vampa's catacomb hideout. Finding his money untouched, he expects to be ransomed, but the bandits give him nothing to eat except at ruinous prices, and hunger soon forces him to pay them."
+        "text": "Starved by his captors, who will sell him food only at ruinous prices (100,000 francs for a chicken), he soon has to sign drafts on his own fortune to eat."
       },
       {
         "from": 116,
@@ -191,7 +203,7 @@
       },
       {
         "chapter": 104,
-        "text": "Took the charities' five million to the Count for a receipt, burned his papers and prepared to flee."
+        "text": "Let the Count take the charities' five million for a receipt, then burned papers and prepared to flee."
       },
       {
         "chapter": 106,
@@ -246,7 +258,11 @@
       },
       {
         "from": 53,
-        "text": "Danglars' elegant, scornful wife; Debray is her lover and stock-market adviser."
+        "text": "Danglars' elegant, scornful wife, escorted to the opera by Debray."
+      },
+      {
+        "from": 54,
+        "text": "Danglars' elegant, scornful wife, who gambles on the stock market with Debray's tips."
       },
       {
         "from": 62,
@@ -258,7 +274,7 @@
       },
       {
         "from": 106,
-        "text": "Abandoned by husband and lover, she leaves Paris alone but rich."
+        "text": "Abandoned by husband and lover, she is left alone but rich."
       },
       {
         "from": 110,
@@ -393,11 +409,11 @@
       },
       {
         "from": 53,
-        "text": "Seventeen, handsome and severe, with black hair and eyes and a habitual frown. She is a gifted linguist, artist and musician. She treats Albert coolly and is frank to the point of rudeness: she bluntly asks the Count whether Haydée is his daughter."
+        "text": "Handsome and severe, with black hair and eyes and a habitual frown. She is a gifted linguist, artist and musician. She treats Albert coolly and is frank to the point of rudeness: she bluntly asks the Count whether Haydée is his daughter."
       },
       {
         "from": 57,
-        "text": "She dislikes the idea of marrying Albert and prizes her independence; she almost wishes her father would lose his fortune so that she could live as an artist. She makes music every day with her friend Louise d'Armilly."
+        "text": "Still only seventeen, she dislikes the idea of marrying Albert and prizes her independence; she almost wishes her father would lose his fortune so that she could live as an artist. She makes music every day with her friend Louise d'Armilly."
       },
       {
         "from": 76,
@@ -459,15 +475,23 @@
     "description": [
       {
         "from": 53,
-        "text": "Louise d'Armilly is a talented young singer without fortune, a schoolfellow of Eugénie Danglars who practices music with her every day. Eugénie envies her independent life as an artist, though she avoids being seen with her in public."
+        "text": "Louise d'Armilly is a talented young singer without fortune, a schoolfellow of Eugénie Danglars who practices music with her every day. Because Louise is destined for the stage, Eugénie takes care never to be seen with her in public."
       },
       {
         "from": 76,
-        "text": "Small, delicate and fairy-like, she is Eugénie's singing teacher and confidante, often staying at the Danglars house, and will not say a word to Albert. She is going to Italy, and the Count has given her letters of introduction to theatre directors there."
+        "text": "Small, delicate and fairy-like, she is Eugénie's singing teacher and confidante, often staying at the Danglars house, and will not say a word to Albert."
+      },
+      {
+        "from": 85,
+        "text": "She is going to Italy, and the Count has given her letters of introduction to theatre directors there."
       },
       {
         "from": 97,
-        "text": "Timid but devoted, she bought the post-chaise and keeps the money for Eugénie's flight, and travels with her, posing as her sister. When Andrea is cornered at their inn she pities him and urges him to escape."
+        "text": "Timid but devoted, she bought the post-chaise and keeps the money for Eugénie's flight, and travels with her, posing as her sister."
+      },
+      {
+        "from": 98,
+        "text": "When Andrea falls into their room at the inn in Compiègne, she rings for help, then pities him and urges him to escape."
       }
     ],
     "moments": [
@@ -522,11 +546,11 @@
     "description": [
       {
         "from": 65,
-        "text": "M. de Nargonne was Madame Danglars' first husband, a baron. According to Danglars, he died of grief or rage when he came home after nine months away and found his wife six months pregnant."
+        "text": "M. de Nargonne was Madame Danglars' first husband. According to Danglars, he died of grief or rage when he came home after nine months away and found his wife six months pregnant."
       },
       {
         "from": 67,
-        "text": "His title explains the baron's coronet and the letter H embroidered on Hermine's linen."
+        "text": "He was a baron, which explains the baron's coronet over the letter H (for Hermine) on her linen."
       }
     ],
     "moments": []
@@ -636,7 +660,11 @@
       },
       {
         "from": 62,
-        "text": "Really Benedetto, Bertuccio's foundling: son of Villefort and Madame Danglars."
+        "text": "Really Benedetto, the baby Villefort buried at Auteuil and Bertuccio saved."
+      },
+      {
+        "from": 67,
+        "text": "Really Benedetto: the lost son of Villefort and Madame Danglars."
       },
       {
         "from": 81,
@@ -674,7 +702,7 @@
       },
       {
         "from": 62,
-        "text": "There the clever, spoiled boy became a liar and a thief who ran with criminals by eleven. In the end, with two companions, he held Assunta over the fire for her money, robbed the house and vanished. The pregnant woman Bertuccio saw with Villefort that night, now recognized as Madame Danglars, is his mother."
+        "text": "There the clever, spoiled boy became a liar and a thief who ran with criminals by eleven. In the end, with two companions, he held Assunta over the fire for her money, robbed the house and vanished. At the same dinner Bertuccio recognizes Madame Danglars as the pregnant woman he saw waiting for Villefort in the garden that night."
       },
       {
         "from": 64,
@@ -792,7 +820,11 @@
       },
       {
         "from": 84,
-        "text": "Letters in his name approve Andrea's marriage from Parma and promise a wedding gift; later, too ‘infirm’ to travel, he has a representative sign the contract for him."
+        "text": "Letters in his name approve Andrea's marriage from Parma, regret that he cannot leave, and promise a wedding gift of 150,000 livres."
+      },
+      {
+        "from": 96,
+        "text": "He does not come to the contract signing; a representative signs for him."
       }
     ],
     "moments": [
@@ -990,6 +1022,10 @@
       },
       {
         "from": 26,
+        "text": "Poor innkeeper near Beaucaire, tempted by an abbé's diamond."
+      },
+      {
+        "from": 27,
         "text": "Poor innkeeper near Beaucaire, rewarded by the abbé with a diamond."
       },
       {

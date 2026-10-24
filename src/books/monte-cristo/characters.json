@@ -60,11 +60,15 @@
       },
       {
         "from": 104,
-        "text": "Ruined banker fleeing Paris with money owed to the hospitals."
+        "text": "Ruined banker preparing to flee Paris with money owed to the hospitals."
       },
       {
         "from": 114,
-        "text": "Fugitive banker held prisoner and starved by Luigi Vampa's bandits."
+        "text": "Fugitive banker kidnapped by Luigi Vampa's bandits outside Rome."
+      },
+      {
+        "from": 115,
+        "text": "Prisoner of Luigi Vampa's bandits, forced to buy each meal for a fortune."
       },
       {
         "from": 116,
@@ -137,12 +141,20 @@
         "text": "When soldiers burst in to arrest Andrea at the contract signing, Danglars shows abject terror, and is left humiliated and questioned by the police. By the end of the night his daughter has gone too."
       },
       {
+        "from": 104,
+        "text": "Facing bankruptcy, he lets the Count walk off with the five million francs that belong to the charities in return for a receipt on Thomson & French of Rome. Telling the charities' Receiver-General to come back tomorrow, he gathers about 50,000 francs, burns some papers, writes to his wife and checks his passport."
+      },
+      {
         "from": 106,
-        "text": "Facing bankruptcy, he hands over to the Count the five million francs that belong to the charities in return for a receipt, then burns his papers and flees Paris by night, leaving his wife a letter accusing her of hiding away part of his fortune."
+        "text": "He burns his papers and flees Paris by night, leaving his wife a mocking letter that accuses her of hiding away part of his fortune and leaves her ‘rich, but little respected’."
+      },
+      {
+        "from": 114,
+        "text": "He reaches Rome and cashes the Count's receipt at Thomson & French, planning to collect his money in Venice and Vienna, unaware that the bandit Peppino is shadowing him. On the road out of Rome he is kidnapped and shut in Luigi Vampa's catacomb hideout. Since they have not killed him, he expects to be ransomed and still left rich."
       },
       {
         "from": 115,
-        "text": "He reaches Rome and cashes the Count's receipt at Thomson & French, planning to settle in Vienna. On the road out of Rome he is kidnapped and shut in Luigi Vampa's catacomb hideout. Finding his money untouched, he expects to be ransomed, but the bandits give him nothing to eat except at ruinous prices, and hunger soon forces him to pay them."
+        "text": "Starved by his captors, who will sell him food only at ruinous prices (100,000 francs for a chicken), he soon has to sign drafts on his own fortune to eat."
       },
       {
         "from": 116,
@@ -216,7 +228,7 @@
       },
       {
         "chapter": 104,
-        "text": "Took the charities' five million to the Count for a receipt, burned his papers and prepared to flee."
+        "text": "Let the Count take the charities' five million for a receipt, then burned papers and prepared to flee."
       },
       {
         "chapter": 106,
@@ -950,7 +962,7 @@
       },
       {
         "from": 51,
-        "text": "In Marseille he is remembered as a deeply honest merchant and a devoted supporter of the emperor."
+        "text": "Maximilian recalls that his father was wholly devoted to the emperor, just as Villefort was to the Bourbons."
       },
       {
         "from": 105,
@@ -1021,6 +1033,10 @@
       },
       {
         "from": 26,
+        "text": "Poor innkeeper near Beaucaire, tempted by an abbé's diamond."
+      },
+      {
+        "from": 27,
         "text": "Poor innkeeper near Beaucaire, rewarded by the abbé with a diamond."
       },
       {
@@ -1318,7 +1334,7 @@
       {
         "name": "the king's attorney (procureur du roi)",
         "from": 13,
-        "note": "his title after promotion, first at Toulouse, later in Paris"
+        "note": "his title after promotion, first at Toulouse"
       }
     ],
     "tagline": [
@@ -1348,7 +1364,7 @@
       },
       {
         "from": 73,
-        "text": "King's attorney hushing up suspicious deaths in his own household."
+        "text": "King's attorney hushing up a suspected poisoning in his own household."
       },
       {
         "from": 108,
@@ -1382,7 +1398,11 @@
       },
       {
         "from": 11,
-        "text": "He warns Louis XVIII of Napoleon's escape from Elba, hiding his father's role, and is rewarded with the king's own cross of the Legion of Honour. Then Noirtier himself turns up at his hotel; father and son, on opposite sides, protect each other."
+        "text": "He warns Louis XVIII of Napoleon's escape from Elba, hiding his father's role, and is rewarded with the king's own cross of the Legion of Honour. Then a stranger matching the police description of the suspect in General Quesnel's death walks into his hotel room: his father, Noirtier."
+      },
+      {
+        "from": 12,
+        "text": "Father and son, on opposite sides, protect each other: Villefort warns Noirtier of the police description, Noirtier disguises himself in his son's clothes and promises to shield him in return, and Villefort hurries back to Marseilles."
       },
       {
         "from": 13,
@@ -1402,7 +1422,7 @@
       },
       {
         "from": 48,
-        "text": "Villefort survived the stabbing and is now an important king's attorney in Paris, having kept his post through four revolutions. Thin, sallow, cold and rigidly correct, he is feared rather than liked. He lives with his second wife Héloïse, his daughter Valentine, his son Edward, and his paralyzed father, whose condition he believes is God's punishment for some secret sin."
+        "text": "Villefort survived the stabbing and is now an important king's attorney in Paris, having kept his post through four revolutions. Thin, sallow, cold and rigidly correct, he is feared rather than liked. He lives with his second wife Héloïse, his daughter Valentine, his son Edward, and his paralyzed father, whose condition he believes is God's punishment for some fault unknown to human justice."
       },
       {
         "from": 58,
@@ -1422,15 +1442,23 @@
       },
       {
         "from": 73,
-        "text": "When Madame de Saint-Méran dies and Dr. d'Avrigny suspects poison, Villefort's first concern is to avoid scandal and keep his enemies from triumphing. He persuades the doctor to say nothing, and rushes Valentine's marriage contract through on the day of the funeral."
+        "text": "When Madame de Saint-Méran dies and Dr. d'Avrigny suspects poison, Villefort's first concern is to avoid scandal and keep his enemies from triumphing. He persuades the doctor to say nothing."
+      },
+      {
+        "from": 74,
+        "text": "Citing the marquise's dying wish, he rushes Franz into signing Valentine's marriage contract straight from the funeral."
       },
       {
         "from": 75,
-        "text": "The engagement collapses when Noirtier proves he killed Franz's father in a duel. Villefort had always believed the general was assassinated, and Franz's harsh letter wounds his pride."
+        "text": "Noirtier reveals to Franz that he killed Franz's father in a duel. Villefort flees the room, tempted to smother what life remains in the old man."
+      },
+      {
+        "from": 78,
+        "text": "Franz's harsh letter breaking off the engagement wounds Villefort's pride; he had always believed the general was assassinated, not killed in a fair duel."
       },
       {
         "from": 80,
-        "text": "After Barrois dies, d'Avrigny proves poison and accuses Valentine. Villefort admits a crime has been committed but begs on his knees not to give his daughter up to justice."
+        "text": "After Barrois is poisoned, d'Avrigny accuses Valentine. Villefort admits a crime has been committed but begs on his knees not to give his daughter up to justice."
       },
       {
         "from": 99,
@@ -1568,7 +1596,11 @@
     "description": [
       {
         "from": 6,
-        "text": "An old friend of the Saint-Mérans and chamberlain to the king's brother, who reports that Louis XVIII has praised Villefort. His letter of recommendation gets Villefort his audience with the king."
+        "text": "An old friend of the Saint-Mérans and chamberlain to the king's brother, who reports that Louis XVIII has praised Villefort."
+      },
+      {
+        "from": 9,
+        "text": "His letter of recommendation gets Villefort his audience with the king."
       }
     ],
     "moments": [
@@ -1656,7 +1688,11 @@
       },
       {
         "from": 9,
-        "text": "On Villefort's advice he sells his bonds and arranges the letter that gets Villefort an audience with the king. After the Restoration he stands higher at court than ever."
+        "text": "On Villefort's advice he sells his bonds and arranges the letter that gets Villefort an audience with the king."
+      },
+      {
+        "from": 13,
+        "text": "After the Restoration he stands higher at court than ever."
       },
       {
         "from": 44,
@@ -1668,7 +1704,11 @@
       },
       {
         "from": 71,
-        "text": "Travelling to Paris to hasten Valentine's marriage, he took his usual lozenges, fell into an unnaturally deep sleep, cried out and died. A doctor called it apoplexy."
+        "text": "News reaches Paris that he has died on the road from Marseilles while travelling to hasten Valentine's marriage."
+      },
+      {
+        "from": 72,
+        "text": "His widow tells how, unwell but determined to see Valentine, he took his usual lozenges, fell into an unnaturally deep sleep, cried out and died. A doctor called it apoplexy."
       },
       {
         "from": 80,
@@ -1700,7 +1740,11 @@
       },
       {
         "from": 71,
-        "text": "Valentine's proud grandmother, newly widowed, demanding the wedding at once."
+        "text": "Valentine's proud grandmother, just arrived in Paris with news of her husband's death."
+      },
+      {
+        "from": 72,
+        "text": "Valentine's proud, newly widowed grandmother, demanding the wedding at once."
       },
       {
         "from": 73,
@@ -1773,6 +1817,10 @@
       },
       {
         "from": 48,
+        "text": "Paralyzed, speechless old conspirator, dependent on his granddaughter Valentine."
+      },
+      {
+        "from": 51,
         "text": "Paralyzed, speechless old conspirator who speaks only with his eyes."
       },
       {
@@ -1803,11 +1851,11 @@
       },
       {
         "from": 11,
-        "text": "He matches the police description of the man who lured the royalist General Quesnel away before his body was found in the Seine. Without warning, he walks into his son's hotel room calling him 'my dear Gérard'."
+        "text": "He matches the police description of the man who lured the royalist General Quesnel to a Bonapartist club shortly before the general was found dead. Without warning, he walks into his son's hotel room calling him 'my dear Gérard'."
       },
       {
         "from": 12,
-        "text": "Witty, well informed and utterly fearless, he leads the Bonapartist club of the Rue Saint-Jacques and believes that in politics there are no murders, only obstacles removed. He shaves off his whiskers, puts on his son's clothes, and strolls past the police."
+        "text": "Witty, well informed and utterly fearless, he is vice-president of the Bonapartist club of the Rue Saint-Jacques and believes that in politics there are no murders, only obstacles removed. He shaves off his whiskers, puts on his son's clothes, and strolls past the police."
       },
       {
         "from": 13,
@@ -1859,7 +1907,11 @@
       },
       {
         "from": 104,
-        "text": "After a night in which the Abbé Busoni watches over Valentine's body, Noirtier sleeps calmly, almost smiling, to everyone's surprise. He stays calm and resigned afterwards, silently reminding his son of his oath."
+        "text": "After a night in which the Abbé Busoni watches over Valentine's body, Noirtier sleeps calmly, almost smiling, to everyone's surprise."
+      },
+      {
+        "from": 108,
+        "text": "Ever since the abbé's vigil he has been calm and resigned. In the garden he glares with hatred at Madame de Villefort, then at his son, silently reminding him of his oath."
       },
       {
         "from": 117,
@@ -1949,7 +2001,11 @@
       },
       {
         "from": 48,
-        "text": "She is now dead. She was Villefort's first wife and Valentine's mother, which is why Valentine is rich through her."
+        "text": "She is now dead. She was Villefort's first wife and Valentine's mother."
+      },
+      {
+        "from": 51,
+        "text": "Valentine is rich through her mother's fortune, which Edward, her half-brother, has no share in."
       },
       {
         "from": 72,
@@ -1987,7 +2043,11 @@
     "description": [
       {
         "from": 10,
-        "text": "The minister of police, who confidently reports that Napoleon is bored and perhaps going mad on Elba. Disgraced when Napoleon lands, he is grateful to Villefort for defending him."
+        "text": "The minister of police, who confidently reports that Napoleon is bored and perhaps going mad on Elba."
+      },
+      {
+        "from": 11,
+        "text": "Disgraced when Napoleon lands, he is grateful to Villefort for defending him before the king."
       }
     ],
     "moments": []
@@ -2008,7 +2068,11 @@
     "description": [
       {
         "from": 10,
-        "text": "The king's devoted and anxious adviser, who senses a Bonapartist plot and brings Villefort to the king. He is proved right, and the king praises him for persisting."
+        "text": "The king's devoted and anxious adviser, who senses a Bonapartist plot and brings Villefort to the king."
+      },
+      {
+        "from": 11,
+        "text": "He is proved right when Napoleon lands, and the king praises him for persisting."
       }
     ],
     "moments": []
@@ -2048,11 +2112,11 @@
     "description": [
       {
         "from": 11,
-        "text": "A general loyal to the king who disappeared after visiting a Bonapartist club in the Rue Saint-Jacques and was found in the Seine. The police believe he was murdered."
+        "text": "A general loyal to the king who disappeared after visiting a Bonapartist club in the Rue Saint-Jacques and was found dead. The police believe he was murdered, not a suicide."
       },
       {
         "from": 12,
-        "text": "Noirtier tells his son the general heard the club's plans, declared himself a royalist, reluctantly swore an oath, and 'lost his way' on leaving. His words strongly suggest the general was killed."
+        "text": "He was found in the Seine the day after leaving home. Noirtier tells his son the general heard the club's plans, declared himself a royalist, reluctantly swore an oath, and 'lost his way' on leaving. His words strongly suggest the general was killed."
       },
       {
         "from": 60,
@@ -2724,7 +2788,11 @@
     "description": [
       {
         "from": 29,
-        "text": "The firm's one-eyed cashier, nicknamed 'Cocles' (cock-eye). Utterly devoted, he is sure the firm can never stop paying because in twenty years it never has, and is crushed when Morrel shows him the true accounts."
+        "text": "The firm's one-eyed cashier, nicknamed 'Cocles' (cock-eye). Utterly devoted, he is sure the firm can never stop paying because in twenty years it never has."
+      },
+      {
+        "from": 30,
+        "text": "He is crushed when Morrel goes through the true accounts with him, and sits bewildered in the courtyard."
       },
       {
         "from": 50,
@@ -2759,7 +2827,11 @@
     "description": [
       {
         "from": 29,
-        "text": "A young clerk of twenty-three or twenty-four who stays with Morrel's failing firm because he loves Morrel's daughter Julie. She trusts him above everyone; he escorts her on her errand and brings the news of the new Pharaon."
+        "text": "A young clerk of twenty-three or twenty-four who stays with Morrel's failing firm because he loves Morrel's daughter Julie."
+      },
+      {
+        "from": 30,
+        "text": "Julie trusts him above everyone: he urges her to obey the Sinbad letter, escorts her on her errand, and brings the news of the new Pharaon."
       },
       {
         "from": 40,
@@ -2775,7 +2847,7 @@
       },
       {
         "from": 92,
-        "text": "When the affair ends peacefully he is overjoyed and hurries home to Julie."
+        "text": "When the affair ends peacefully he does not hide his joy and hurries home to Julie."
       },
       {
         "from": 105,
@@ -2887,13 +2959,21 @@
     "tagline": [
       {
         "from": 29,
+        "text": "Morrel's faithful wife"
+      },
+      {
+        "from": 30,
         "text": "Morrel's faithful wife, mother of Julie and Maximilian"
       }
     ],
     "description": [
       {
         "from": 29,
-        "text": "Morrel's wife, who weeps at the news of the wreck but stays at her husband's side, and fears, watching through the keyhole, that he is writing his will."
+        "text": "Morrel's wife, who weeps at the news of the wreck and stays at her husband's side."
+      },
+      {
+        "from": 30,
+        "text": "As the fatal day nears she watches through the keyhole and fears that he is writing his will."
       },
       {
         "from": 113,
@@ -3018,7 +3098,11 @@
       },
       {
         "from": 90,
-        "text": "On the morning of the duel he learns that the Count's will names him heir to twenty million francs. He admits he loves a young girl more than his life, secures the first shot for his friend, and begs him to spare Albert. Afterwards the Count promises him the use of his power whenever he needs it."
+        "text": "On the morning of the duel the Count sends his will to the solicitor, telling Maximilian to examine it if he dies. Maximilian admits he loves a young girl more than his life, secures the first shot for his friend, and begs him to spare Albert."
+      },
+      {
+        "from": 92,
+        "text": "Riding back from the duel, the Count reminds him that he has great power and will gladly use it for those he loves."
       },
       {
         "from": 93,
@@ -3176,11 +3260,19 @@
       },
       {
         "from": 82,
-        "text": "He serves as the Count's silent, trusted aide: loading his pistols at the shooting gallery, and keeping watch at his side with a hatchet on the night of the burglary."
+        "text": "He serves as the Count's silent, trusted aide: on the night of the burglary he keeps watch at his side with a hatchet and brings him the abbé's disguise."
+      },
+      {
+        "from": 85,
+        "text": "He drives the Count's carriage on the road to Normandy at breathtaking speed, in his element like a 'child of the desert'."
+      },
+      {
+        "from": 89,
+        "text": "He brings the Count his pistols on the eve of the duel."
       },
       {
         "from": 90,
-        "text": "He drives the Count's carriage at breathtaking speed, brings his pistols before the duel, and carries his sealed will to the solicitor."
+        "text": "On the morning of the duel he carries the Count's sealed will to the solicitor."
       },
       {
         "from": 111,
@@ -3394,7 +3486,7 @@
       },
       {
         "chapter": 114,
-        "text": "Welcomed Danglars to the Hôtel de Londres."
+        "text": "Welcomed Danglars to his hotel in Rome."
       }
     ]
   },
@@ -3639,13 +3731,21 @@
     "tagline": [
       {
         "from": 34,
-        "text": "Condemned murderer executed during the Roman Carnival"
+        "text": "Condemned murderer due to die during the Roman Carnival"
+      },
+      {
+        "from": 35,
+        "text": "Murderer executed during the Roman Carnival"
       }
     ],
     "description": [
       {
         "from": 34,
-        "text": "Condemned to be killed with a mallet for murdering the priest Don César Torlini, who had raised him. A short, brutal-looking man, he rages when his fellow prisoner Peppino is pardoned, crying that he will not die alone."
+        "text": "Condemned to be killed with a mallet for murdering the priest Don César Torlini, who had raised him. He is to die in the Piazza del Popolo on the first day of the Carnival, alongside Peppino."
+      },
+      {
+        "from": 35,
+        "text": "A short, brutal-looking man, he rages when his fellow prisoner Peppino is pardoned, crying that he will not die alone, and is clubbed and stabbed to death."
       }
     ],
     "moments": [
@@ -3679,7 +3779,7 @@
       },
       {
         "from": 37,
-        "text": "At the Duke of Bracciano's ball she worries when Albert fails to appear to claim the dance she promised him."
+        "text": "At the Duke of Bracciano's ball she shares the duke's unease that Albert is out in the streets at night; once rescued, he arrives to dance with her."
       },
       {
         "from": 53,
@@ -3946,13 +4046,13 @@
     "tagline": [
       {
         "from": 37,
-        "text": "Roman banker famous for his balls"
+        "text": "Roman duke famous for his balls"
       }
     ],
     "description": [
       {
         "from": 37,
-        "text": "A celebrated Roman banker whose balls are famous across Europe. At his ball he worries about Albert being out in the streets at night."
+        "text": "A Roman duke whose house is one of the most delightful in Rome; his duchess, a Colonna heiress, gives fêtes famous across Europe. At his ball he worries about Albert being out in the streets at night."
       }
     ],
     "moments": []
@@ -4103,7 +4203,11 @@
       },
       {
         "from": 53,
-        "text": "Danglars' elegant, scornful wife; Debray is her lover and stock-market adviser."
+        "text": "Danglars' elegant, scornful wife, escorted to the opera by Debray."
+      },
+      {
+        "from": 54,
+        "text": "Danglars' elegant, scornful wife, who gambles on the stock market with Debray's tips."
       },
       {
         "from": 62,
@@ -4115,7 +4219,7 @@
       },
       {
         "from": 106,
-        "text": "Abandoned by husband and lover, she leaves Paris alone but rich."
+        "text": "Abandoned by husband and lover, she is left alone but rich."
       },
       {
         "from": 110,
@@ -4378,11 +4482,11 @@
       },
       {
         "from": 53,
-        "text": "Seventeen, handsome and severe, with black hair and eyes and a habitual frown. She is a gifted linguist, artist and musician. She treats Albert coolly and is frank to the point of rudeness: she bluntly asks the Count whether Haydée is his daughter."
+        "text": "Handsome and severe, with black hair and eyes and a habitual frown. She is a gifted linguist, artist and musician. She treats Albert coolly and is frank to the point of rudeness: she bluntly asks the Count whether Haydée is his daughter."
       },
       {
         "from": 57,
-        "text": "She dislikes the idea of marrying Albert and prizes her independence; she almost wishes her father would lose his fortune so that she could live as an artist. She makes music every day with her friend Louise d'Armilly."
+        "text": "Still only seventeen, she dislikes the idea of marrying Albert and prizes her independence; she almost wishes her father would lose his fortune so that she could live as an artist. She makes music every day with her friend Louise d'Armilly."
       },
       {
         "from": 76,
@@ -4691,7 +4795,11 @@
       },
       {
         "from": 54,
-        "text": "Efficient and perfectly discreet, he recognizes the Cavalcanti visitors from his master's exact descriptions and shows them in. Albert would love to employ him."
+        "text": "Efficient and perfectly discreet, he has orders to admit no one but Major Cavalcanti and his son. Albert would love to employ him."
+      },
+      {
+        "from": 55,
+        "text": "He recognizes the major from his master's exact description and shows him in."
       },
       {
         "from": 82,
@@ -4763,7 +4871,11 @@
       },
       {
         "from": 57,
-        "text": "He inherits nothing from Valentine's mother, so he is poor beside his half-sister. He idolizes the Count, who brings him presents. Noirtier will not have him in his room and refuses to leave him anything."
+        "text": "He inherits nothing from Valentine's mother, so he is poor beside his half-sister. He idolizes the Count, who brings him presents."
+      },
+      {
+        "from": 59,
+        "text": "Noirtier refuses to have him sent to his room, and refuses, with something like hatred, to leave him anything in his will."
       },
       {
         "from": 93,
@@ -4851,11 +4963,15 @@
       },
       {
         "from": 59,
-        "text": "She hoped Noirtier would leave his fortune to Edward. Angry when he refuses, she still cannot hide her pleasure that Valentine has been disinherited, and keeps returning to how unfair the will is to her son."
+        "text": "She hoped Noirtier would leave his fortune to Edward, and is angry when he refuses, but she cannot hide her joy that Valentine has been disinherited."
+      },
+      {
+        "from": 60,
+        "text": "She suggests Valentine and Noirtier planned the will together, and keeps returning to how unfair it is to Edward."
       },
       {
         "from": 72,
-        "text": "When her mother-in-law arrives grieving and hostile, her presence seems to distress the old lady, so she withdraws."
+        "text": "When the grieving Marquise de Saint-Méran, her husband's first mother-in-law, arrives, her presence seems to distress the old lady, so she withdraws."
       },
       {
         "from": 78,
@@ -4944,7 +5060,7 @@
         "text": "Villefort's daughter, engaged to Franz but secretly in love with Maximilian Morrel."
       },
       {
-        "from": 75,
+        "from": 78,
         "text": "Villefort's daughter, freed from her engagement to Franz, hoping to marry Maximilian."
       },
       {
@@ -4953,6 +5069,10 @@
       },
       {
         "from": 93,
+        "text": "Villefort's daughter, who collapses after drinking a bitter glass of water."
+      },
+      {
+        "from": 94,
         "text": "Villefort's daughter, struck down by poison and barely surviving."
       },
       {
@@ -4961,6 +5081,10 @@
       },
       {
         "from": 102,
+        "text": "Villefort's daughter, found dead in her bed."
+      },
+      {
+        "from": 105,
         "text": "Villefort's daughter, found dead in her bed and buried at Père-Lachaise."
       },
       {
@@ -5003,11 +5127,11 @@
       },
       {
         "from": 75,
-        "text": "When Noirtier answers Franz's question about his father's killer, she understands first; she has often seen the two scars on her grandfather's arm. The engagement is broken."
+        "text": "When Noirtier answers Franz's question about his father's killer, she understands first; she has often seen the two scars on her grandfather's arm."
       },
       {
         "from": 78,
-        "text": "Freed, she tells Maximilian 'We are saved!' Noirtier makes her his heir, and with the Saint-Méran fortune she can expect a huge income."
+        "text": "Franz breaks off the engagement. Freed, she tells Maximilian 'We are saved!' Noirtier makes her his heir, and with the Saint-Méran fortune she can expect a huge income."
       },
       {
         "from": 80,
@@ -5034,7 +5158,7 @@
         "text": "She is found cold, rigid and breathless in her bed, and Dr. d'Avrigny pronounces her dead."
       },
       {
-        "from": 104,
+        "from": 105,
         "text": "Her death is officially confirmed, and after a great funeral she is buried in the Saint-Méran and Villefort vault at Père-Lachaise, mourned by a crowd of young people."
       },
       {
@@ -5088,7 +5212,7 @@
         "text": "Was found lifeless in her bed and pronounced dead."
       },
       {
-        "chapter": 104,
+        "chapter": 105,
         "text": "Was buried at Père-Lachaise after a crowded funeral."
       },
       {
@@ -5138,15 +5262,23 @@
     "description": [
       {
         "from": 53,
-        "text": "Louise d'Armilly is a talented young singer without fortune, a schoolfellow of Eugénie Danglars who practices music with her every day. Eugénie envies her independent life as an artist, though she avoids being seen with her in public."
+        "text": "Louise d'Armilly is a talented young singer without fortune, a schoolfellow of Eugénie Danglars who practices music with her every day. Because Louise is destined for the stage, Eugénie takes care never to be seen with her in public."
       },
       {
         "from": 76,
-        "text": "Small, delicate and fairy-like, she is Eugénie's singing teacher and confidante, often staying at the Danglars house, and will not say a word to Albert. She is going to Italy, and the Count has given her letters of introduction to theatre directors there."
+        "text": "Small, delicate and fairy-like, she is Eugénie's singing teacher and confidante, often staying at the Danglars house, and will not say a word to Albert."
+      },
+      {
+        "from": 85,
+        "text": "She is going to Italy, and the Count has given her letters of introduction to theatre directors there."
       },
       {
         "from": 97,
-        "text": "Timid but devoted, she bought the post-chaise and keeps the money for Eugénie's flight, and travels with her, posing as her sister. When Andrea is cornered at their inn she pities him and urges him to escape."
+        "text": "Timid but devoted, she bought the post-chaise and keeps the money for Eugénie's flight, and travels with her, posing as her sister."
+      },
+      {
+        "from": 98,
+        "text": "When Andrea falls into their room at the inn in Compiègne, she rings for help, then pities him and urges him to escape."
       }
     ],
     "moments": [
@@ -5198,7 +5330,11 @@
       },
       {
         "from": 62,
-        "text": "Really Benedetto, Bertuccio's foundling: son of Villefort and Madame Danglars."
+        "text": "Really Benedetto, the baby Villefort buried at Auteuil and Bertuccio saved."
+      },
+      {
+        "from": 67,
+        "text": "Really Benedetto: the lost son of Villefort and Madame Danglars."
       },
       {
         "from": 81,
@@ -5236,7 +5372,7 @@
       },
       {
         "from": 62,
-        "text": "There the clever, spoiled boy became a liar and a thief who ran with criminals by eleven. In the end, with two companions, he held Assunta over the fire for her money, robbed the house and vanished. The pregnant woman Bertuccio saw with Villefort that night, now recognized as Madame Danglars, is his mother."
+        "text": "There the clever, spoiled boy became a liar and a thief who ran with criminals by eleven. In the end, with two companions, he held Assunta over the fire for her money, robbed the house and vanished. At the same dinner Bertuccio recognizes Madame Danglars as the pregnant woman he saw waiting for Villefort in the garden that night."
       },
       {
         "from": 64,
@@ -5354,7 +5490,11 @@
       },
       {
         "from": 84,
-        "text": "Letters in his name approve Andrea's marriage from Parma and promise a wedding gift; later, too ‘infirm’ to travel, he has a representative sign the contract for him."
+        "text": "Letters in his name approve Andrea's marriage from Parma, regret that he cannot leave, and promise a wedding gift of 150,000 livres."
+      },
+      {
+        "from": 96,
+        "text": "He does not come to the contract signing; a representative signs for him."
       }
     ],
     "moments": [
@@ -5400,11 +5540,15 @@
       },
       {
         "from": 73,
-        "text": "He guards Noirtier's door, shows Maximilian out by a hidden passage, and alone knows the secret spring of his master's old desk."
+        "text": "He guards Noirtier's door and shows Maximilian out by a hidden passage."
       },
       {
         "from": 74,
         "text": "With unusual firmness he announces to the assembled family that Noirtier demands to see Franz at once."
+      },
+      {
+        "from": 75,
+        "text": "He alone knows the secret spring of his master's old writing desk, and opens it to bring out the record of General d'Épinay's death."
       },
       {
         "from": 79,
@@ -5504,7 +5648,11 @@
     "description": [
       {
         "from": 59,
-        "text": "The Villefort family notary, who takes charge of Noirtier's sealed will. He later presides over the signing of Valentine's marriage contract and tells Franz about the will."
+        "text": "The Villefort family notary, who takes charge of Noirtier's sealed will."
+      },
+      {
+        "from": 74,
+        "text": "He presides over the signing of Valentine's marriage contract and tells Franz about Noirtier's will."
       }
     ],
     "moments": [
@@ -5556,11 +5704,11 @@
     "description": [
       {
         "from": 65,
-        "text": "M. de Nargonne was Madame Danglars' first husband, a baron. According to Danglars, he died of grief or rage when he came home after nine months away and found his wife six months pregnant."
+        "text": "M. de Nargonne was Madame Danglars' first husband. According to Danglars, he died of grief or rage when he came home after nine months away and found his wife six months pregnant."
       },
       {
         "from": 67,
-        "text": "His title explains the baron's coronet and the letter H embroidered on Hermine's linen."
+        "text": "He was a baron, which explains the baron's coronet over the letter H (for Hermine) on her linen."
       }
     ],
     "moments": []
@@ -5657,7 +5805,11 @@
       },
       {
         "from": 102,
-        "text": "He declares Valentine dead and, testing her drink, identifies a new poison. He regrets that his earlier silence encouraged the murderer, but agrees to keep the secret and arranges the formalities."
+        "text": "He declares Valentine dead and, testing her drink, identifies a new poison."
+      },
+      {
+        "from": 103,
+        "text": "He regrets that his earlier silence encouraged the murderer, but at Villefort's plea agrees to keep the secret and arranges the formalities."
       }
     ],
     "moments": [

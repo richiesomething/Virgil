@@ -14,7 +14,7 @@
       {
         "name": "the king's attorney (procureur du roi)",
         "from": 13,
-        "note": "his title after promotion, first at Toulouse, later in Paris"
+        "note": "his title after promotion, first at Toulouse"
       }
     ],
     "tagline": [
@@ -44,7 +44,7 @@
       },
       {
         "from": 73,
-        "text": "King's attorney hushing up suspicious deaths in his own household."
+        "text": "King's attorney hushing up a suspected poisoning in his own household."
       },
       {
         "from": 108,
@@ -78,7 +78,11 @@
       },
       {
         "from": 11,
-        "text": "He warns Louis XVIII of Napoleon's escape from Elba, hiding his father's role, and is rewarded with the king's own cross of the Legion of Honour. Then Noirtier himself turns up at his hotel; father and son, on opposite sides, protect each other."
+        "text": "He warns Louis XVIII of Napoleon's escape from Elba, hiding his father's role, and is rewarded with the king's own cross of the Legion of Honour. Then a stranger matching the police description of the suspect in General Quesnel's death walks into his hotel room: his father, Noirtier."
+      },
+      {
+        "from": 12,
+        "text": "Father and son, on opposite sides, protect each other: Villefort warns Noirtier of the police description, Noirtier disguises himself in his son's clothes and promises to shield him in return, and Villefort hurries back to Marseilles."
       },
       {
         "from": 13,
@@ -98,7 +102,7 @@
       },
       {
         "from": 48,
-        "text": "Villefort survived the stabbing and is now an important king's attorney in Paris, having kept his post through four revolutions. Thin, sallow, cold and rigidly correct, he is feared rather than liked. He lives with his second wife Héloïse, his daughter Valentine, his son Edward, and his paralyzed father, whose condition he believes is God's punishment for some secret sin."
+        "text": "Villefort survived the stabbing and is now an important king's attorney in Paris, having kept his post through four revolutions. Thin, sallow, cold and rigidly correct, he is feared rather than liked. He lives with his second wife Héloïse, his daughter Valentine, his son Edward, and his paralyzed father, whose condition he believes is God's punishment for some fault unknown to human justice."
       },
       {
         "from": 58,
@@ -118,15 +122,23 @@
       },
       {
         "from": 73,
-        "text": "When Madame de Saint-Méran dies and Dr. d'Avrigny suspects poison, Villefort's first concern is to avoid scandal and keep his enemies from triumphing. He persuades the doctor to say nothing, and rushes Valentine's marriage contract through on the day of the funeral."
+        "text": "When Madame de Saint-Méran dies and Dr. d'Avrigny suspects poison, Villefort's first concern is to avoid scandal and keep his enemies from triumphing. He persuades the doctor to say nothing."
+      },
+      {
+        "from": 74,
+        "text": "Citing the marquise's dying wish, he rushes Franz into signing Valentine's marriage contract straight from the funeral."
       },
       {
         "from": 75,
-        "text": "The engagement collapses when Noirtier proves he killed Franz's father in a duel. Villefort had always believed the general was assassinated, and Franz's harsh letter wounds his pride."
+        "text": "Noirtier reveals to Franz that he killed Franz's father in a duel. Villefort flees the room, tempted to smother what life remains in the old man."
+      },
+      {
+        "from": 78,
+        "text": "Franz's harsh letter breaking off the engagement wounds Villefort's pride; he had always believed the general was assassinated, not killed in a fair duel."
       },
       {
         "from": 80,
-        "text": "After Barrois dies, d'Avrigny proves poison and accuses Valentine. Villefort admits a crime has been committed but begs on his knees not to give his daughter up to justice."
+        "text": "After Barrois is poisoned, d'Avrigny accuses Valentine. Villefort admits a crime has been committed but begs on his knees not to give his daughter up to justice."
       },
       {
         "from": 99,
@@ -281,6 +293,10 @@
       },
       {
         "from": 48,
+        "text": "Paralyzed, speechless old conspirator, dependent on his granddaughter Valentine."
+      },
+      {
+        "from": 51,
         "text": "Paralyzed, speechless old conspirator who speaks only with his eyes."
       },
       {
@@ -311,11 +327,11 @@
       },
       {
         "from": 11,
-        "text": "He matches the police description of the man who lured the royalist General Quesnel away before his body was found in the Seine. Without warning, he walks into his son's hotel room calling him 'my dear Gérard'."
+        "text": "He matches the police description of the man who lured the royalist General Quesnel to a Bonapartist club shortly before the general was found dead. Without warning, he walks into his son's hotel room calling him 'my dear Gérard'."
       },
       {
         "from": 12,
-        "text": "Witty, well informed and utterly fearless, he leads the Bonapartist club of the Rue Saint-Jacques and believes that in politics there are no murders, only obstacles removed. He shaves off his whiskers, puts on his son's clothes, and strolls past the police."
+        "text": "Witty, well informed and utterly fearless, he is vice-president of the Bonapartist club of the Rue Saint-Jacques and believes that in politics there are no murders, only obstacles removed. He shaves off his whiskers, puts on his son's clothes, and strolls past the police."
       },
       {
         "from": 13,
@@ -367,7 +383,11 @@
       },
       {
         "from": 104,
-        "text": "After a night in which the Abbé Busoni watches over Valentine's body, Noirtier sleeps calmly, almost smiling, to everyone's surprise. He stays calm and resigned afterwards, silently reminding his son of his oath."
+        "text": "After a night in which the Abbé Busoni watches over Valentine's body, Noirtier sleeps calmly, almost smiling, to everyone's surprise."
+      },
+      {
+        "from": 108,
+        "text": "Ever since the abbé's vigil he has been calm and resigned. In the garden he glares with hatred at Madame de Villefort, then at his son, silently reminding him of his oath."
       },
       {
         "from": 117,
@@ -457,7 +477,11 @@
       },
       {
         "from": 48,
-        "text": "She is now dead. She was Villefort's first wife and Valentine's mother, which is why Valentine is rich through her."
+        "text": "She is now dead. She was Villefort's first wife and Valentine's mother."
+      },
+      {
+        "from": 51,
+        "text": "Valentine is rich through her mother's fortune, which Edward, her half-brother, has no share in."
       },
       {
         "from": 72,
@@ -507,7 +531,11 @@
       },
       {
         "from": 9,
-        "text": "On Villefort's advice he sells his bonds and arranges the letter that gets Villefort an audience with the king. After the Restoration he stands higher at court than ever."
+        "text": "On Villefort's advice he sells his bonds and arranges the letter that gets Villefort an audience with the king."
+      },
+      {
+        "from": 13,
+        "text": "After the Restoration he stands higher at court than ever."
       },
       {
         "from": 44,
@@ -519,7 +547,11 @@
       },
       {
         "from": 71,
-        "text": "Travelling to Paris to hasten Valentine's marriage, he took his usual lozenges, fell into an unnaturally deep sleep, cried out and died. A doctor called it apoplexy."
+        "text": "News reaches Paris that he has died on the road from Marseilles while travelling to hasten Valentine's marriage."
+      },
+      {
+        "from": 72,
+        "text": "His widow tells how, unwell but determined to see Valentine, he took his usual lozenges, fell into an unnaturally deep sleep, cried out and died. A doctor called it apoplexy."
       },
       {
         "from": 80,
@@ -551,7 +583,11 @@
       },
       {
         "from": 71,
-        "text": "Valentine's proud grandmother, newly widowed, demanding the wedding at once."
+        "text": "Valentine's proud grandmother, just arrived in Paris with news of her husband's death."
+      },
+      {
+        "from": 72,
+        "text": "Valentine's proud, newly widowed grandmother, demanding the wedding at once."
       },
       {
         "from": 73,
@@ -645,11 +681,15 @@
       },
       {
         "from": 59,
-        "text": "She hoped Noirtier would leave his fortune to Edward. Angry when he refuses, she still cannot hide her pleasure that Valentine has been disinherited, and keeps returning to how unfair the will is to her son."
+        "text": "She hoped Noirtier would leave his fortune to Edward, and is angry when he refuses, but she cannot hide her joy that Valentine has been disinherited."
+      },
+      {
+        "from": 60,
+        "text": "She suggests Valentine and Noirtier planned the will together, and keeps returning to how unfair it is to Edward."
       },
       {
         "from": 72,
-        "text": "When her mother-in-law arrives grieving and hostile, her presence seems to distress the old lady, so she withdraws."
+        "text": "When the grieving Marquise de Saint-Méran, her husband's first mother-in-law, arrives, her presence seems to distress the old lady, so she withdraws."
       },
       {
         "from": 78,
@@ -753,7 +793,11 @@
       },
       {
         "from": 57,
-        "text": "He inherits nothing from Valentine's mother, so he is poor beside his half-sister. He idolizes the Count, who brings him presents. Noirtier will not have him in his room and refuses to leave him anything."
+        "text": "He inherits nothing from Valentine's mother, so he is poor beside his half-sister. He idolizes the Count, who brings him presents."
+      },
+      {
+        "from": 59,
+        "text": "Noirtier refuses to have him sent to his room, and refuses, with something like hatred, to leave him anything in his will."
       },
       {
         "from": 93,
@@ -814,7 +858,7 @@
         "text": "Villefort's daughter, engaged to Franz but secretly in love with Maximilian Morrel."
       },
       {
-        "from": 75,
+        "from": 78,
         "text": "Villefort's daughter, freed from her engagement to Franz, hoping to marry Maximilian."
       },
       {
@@ -823,6 +867,10 @@
       },
       {
         "from": 93,
+        "text": "Villefort's daughter, who collapses after drinking a bitter glass of water."
+      },
+      {
+        "from": 94,
         "text": "Villefort's daughter, struck down by poison and barely surviving."
       },
       {
@@ -831,6 +879,10 @@
       },
       {
         "from": 102,
+        "text": "Villefort's daughter, found dead in her bed."
+      },
+      {
+        "from": 105,
         "text": "Villefort's daughter, found dead in her bed and buried at Père-Lachaise."
       },
       {
@@ -873,11 +925,11 @@
       },
       {
         "from": 75,
-        "text": "When Noirtier answers Franz's question about his father's killer, she understands first; she has often seen the two scars on her grandfather's arm. The engagement is broken."
+        "text": "When Noirtier answers Franz's question about his father's killer, she understands first; she has often seen the two scars on her grandfather's arm."
       },
       {
         "from": 78,
-        "text": "Freed, she tells Maximilian 'We are saved!' Noirtier makes her his heir, and with the Saint-Méran fortune she can expect a huge income."
+        "text": "Franz breaks off the engagement. Freed, she tells Maximilian 'We are saved!' Noirtier makes her his heir, and with the Saint-Méran fortune she can expect a huge income."
       },
       {
         "from": 80,
@@ -904,7 +956,7 @@
         "text": "She is found cold, rigid and breathless in her bed, and Dr. d'Avrigny pronounces her dead."
       },
       {
-        "from": 104,
+        "from": 105,
         "text": "Her death is officially confirmed, and after a great funeral she is buried in the Saint-Méran and Villefort vault at Père-Lachaise, mourned by a crowd of young people."
       },
       {
@@ -958,7 +1010,7 @@
         "text": "Was found lifeless in her bed and pronounced dead."
       },
       {
-        "chapter": 104,
+        "chapter": 105,
         "text": "Was buried at Père-Lachaise after a crowded funeral."
       },
       {
@@ -991,11 +1043,15 @@
       },
       {
         "from": 73,
-        "text": "He guards Noirtier's door, shows Maximilian out by a hidden passage, and alone knows the secret spring of his master's old desk."
+        "text": "He guards Noirtier's door and shows Maximilian out by a hidden passage."
       },
       {
         "from": 74,
         "text": "With unusual firmness he announces to the assembled family that Noirtier demands to see Franz at once."
+      },
+      {
+        "from": 75,
+        "text": "He alone knows the secret spring of his master's old writing desk, and opens it to bring out the record of General d'Épinay's death."
       },
       {
         "from": 79,
@@ -1071,7 +1127,11 @@
       },
       {
         "from": 102,
-        "text": "He declares Valentine dead and, testing her drink, identifies a new poison. He regrets that his earlier silence encouraged the murderer, but agrees to keep the secret and arranges the formalities."
+        "text": "He declares Valentine dead and, testing her drink, identifies a new poison."
+      },
+      {
+        "from": 103,
+        "text": "He regrets that his earlier silence encouraged the murderer, but at Villefort's plea agrees to keep the secret and arranges the formalities."
       }
     ],
     "moments": [
@@ -1113,7 +1173,11 @@
     "description": [
       {
         "from": 6,
-        "text": "An old friend of the Saint-Mérans and chamberlain to the king's brother, who reports that Louis XVIII has praised Villefort. His letter of recommendation gets Villefort his audience with the king."
+        "text": "An old friend of the Saint-Mérans and chamberlain to the king's brother, who reports that Louis XVIII has praised Villefort."
+      },
+      {
+        "from": 9,
+        "text": "His letter of recommendation gets Villefort his audience with the king."
       }
     ],
     "moments": [
@@ -1189,7 +1253,11 @@
     "description": [
       {
         "from": 10,
-        "text": "The king's devoted and anxious adviser, who senses a Bonapartist plot and brings Villefort to the king. He is proved right, and the king praises him for persisting."
+        "text": "The king's devoted and anxious adviser, who senses a Bonapartist plot and brings Villefort to the king."
+      },
+      {
+        "from": 11,
+        "text": "He is proved right when Napoleon lands, and the king praises him for persisting."
       }
     ],
     "moments": []
@@ -1210,7 +1278,11 @@
     "description": [
       {
         "from": 10,
-        "text": "The minister of police, who confidently reports that Napoleon is bored and perhaps going mad on Elba. Disgraced when Napoleon lands, he is grateful to Villefort for defending him."
+        "text": "The minister of police, who confidently reports that Napoleon is bored and perhaps going mad on Elba."
+      },
+      {
+        "from": 11,
+        "text": "Disgraced when Napoleon lands, he is grateful to Villefort for defending him before the king."
       }
     ],
     "moments": []
@@ -1250,11 +1322,11 @@
     "description": [
       {
         "from": 11,
-        "text": "A general loyal to the king who disappeared after visiting a Bonapartist club in the Rue Saint-Jacques and was found in the Seine. The police believe he was murdered."
+        "text": "A general loyal to the king who disappeared after visiting a Bonapartist club in the Rue Saint-Jacques and was found dead. The police believe he was murdered, not a suicide."
       },
       {
         "from": 12,
-        "text": "Noirtier tells his son the general heard the club's plans, declared himself a royalist, reluctantly swore an oath, and 'lost his way' on leaving. His words strongly suggest the general was killed."
+        "text": "He was found in the Seine the day after leaving home. Noirtier tells his son the general heard the club's plans, declared himself a royalist, reluctantly swore an oath, and 'lost his way' on leaving. His words strongly suggest the general was killed."
       },
       {
         "from": 60,
@@ -1341,7 +1413,11 @@
     "description": [
       {
         "from": 59,
-        "text": "The Villefort family notary, who takes charge of Noirtier's sealed will. He later presides over the signing of Valentine's marriage contract and tells Franz about the will."
+        "text": "The Villefort family notary, who takes charge of Noirtier's sealed will."
+      },
+      {
+        "from": 74,
+        "text": "He presides over the signing of Valentine's marriage contract and tells Franz about Noirtier's will."
       }
     ],
     "moments": [
