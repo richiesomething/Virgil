@@ -78,10 +78,7 @@ button { font: inherit; }
 .site-header__inner { display: flex; align-items: center; gap: 14px; height: 56px; }
 .brand { display: flex; align-items: center; gap: 10px; color: var(--text); }
 .brand:hover { text-decoration: none; }
-.brand__mark {
-  width: 30px; height: 30px; border-radius: 8px; display: grid; place-items: center;
-  background: var(--accent); color: var(--accent-text); font: 700 18px/1 var(--serif);
-}
+.brand__mark { width: 32px; height: 32px; display: block; }
 .brand__name { font: 700 1.4rem/1 var(--serif); letter-spacing: 0.02em; }
 .site-header__book {
   color: var(--muted); font-size: 0.9rem; border-left: 1px solid var(--border); padding-left: 14px;
