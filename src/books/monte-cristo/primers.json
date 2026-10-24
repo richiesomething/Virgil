@@ -315,6 +315,176 @@
     "returning": []
   },
   {
+    "chapter": 77,
+    "setting": "Paris: the count’s house on the Champs-Élysées, late in the evening",
+    "keepInMind": "Danglars has asked the count to press the Morcerfs for a decision on Albert’s marriage to Eugénie, and has just had news from Greece about ‘Fernand and Yanina’. The count lives with a beautiful Greek girl, Haydée, whom few people have ever met.",
+    "returning": [
+      {
+        "id": "ali",
+        "reminder": "The count’s mute Nubian servant, utterly devoted to him."
+      }
+    ]
+  },
+  {
+    "chapter": 78,
+    "setting": "Paris: the same day",
+    "keepInMind": "In front of Villefort, Noirtier has just shown Franz that Franz’s father died in a fair duel in 1815 and that Noirtier himself was his opponent. Separately, Danglars wrote to Yanina asking about Fernand’s past, and Albert has promised the count never to tell Haydée that his father served hers.",
+    "returning": []
+  },
+  {
+    "chapter": 79,
+    "setting": "Paris: the Villefort house in the Faubourg Saint-Honoré, a few days later",
+    "keepInMind": "Franz has broken off the engagement, and Noirtier has made Valentine his heir on condition that she never leaves him. Remember Dr. d’Avrigny’s secret warning to Villefort after Madame de Saint-Méran’s death: he believes she was poisoned.",
+    "returning": []
+  },
+  {
+    "chapter": 80,
+    "setting": "The Villefort house, moments later",
+    "keepInMind": "Barrois has just died after drinking from Noirtier’s lemonade, which Valentine had handed to him. D’Avrigny’s syrup-of-violets test proved it was poisoned, he says with the same poison that killed Madame de Saint-Méran.",
+    "returning": []
+  },
+  {
+    "chapter": 81,
+    "setting": "Paris: the evening Morcerf left Danglars’ house",
+    "keepInMind": "Danglars has put off Morcerf’s proposal for Albert, and Andrea Cavalcanti has been courting Eugénie with Danglars’ encouragement. Ever since the dinner at Auteuil, Andrea has been paying Caderousse a monthly allowance to stay quiet.",
+    "returning": [
+      {
+        "id": "gaspard-caderousse",
+        "reminder": "Escaped convict who knew Andrea in prison as Benedetto; now blackmailing him."
+      }
+    ]
+  },
+  {
+    "chapter": 82,
+    "setting": "Auteuil and the Champs-Élysées: the next day and night",
+    "keepInMind": "Andrea drew Caderousse a plan of the count’s house, showed him the secretaire in the dressing-room, and told him the count would spend this night at Auteuil.",
+    "returning": [
+      {
+        "id": "bertuccio",
+        "reminder": "The count’s Corsican steward, sent to Normandy to prepare a house and boat."
+      }
+    ]
+  },
+  {
+    "chapter": 83,
+    "setting": "The count’s house on the Champs-Élysées, straight afterwards",
+    "keepInMind": "Caught in the act by the count disguised as the Abbé Busoni, Caderousse was made to write a letter exposing Andrea and was let go by the window. Outside the garden wall, a man waiting in the shadows stabbed him three times.",
+    "returning": []
+  },
+  {
+    "chapter": 84,
+    "setting": "Paris: the following three weeks",
+    "keepInMind": "Before he died, Caderousse signed a statement naming Benedetto, alias Andrea Cavalcanti, as his murderer, and the count revealed his true identity to him. Beauchamp has been away almost all of the three weeks he asked for before answering Albert’s challenge over the Yanina paragraph.",
+    "returning": []
+  },
+  {
+    "chapter": 85,
+    "setting": "Paris: the count’s house on the Champs-Élysées",
+    "keepInMind": "Beauchamp has brought back proof from Yanina that Fernand Mondego, Albert’s father, betrayed Ali Pasha. Albert burned the papers, and the two friends have decided to call on the count. The count’s steward has a house and boat ready on the Normandy coast.",
+    "returning": []
+  },
+  {
+    "chapter": 86,
+    "setting": "Paris: Beauchamp’s rooms, early the next morning",
+    "keepInMind": "A second newspaper, a pro-government one, has openly named the Count of Morcerf as the French officer who betrayed Yanina. Albert has ridden through the night from Normandy to find Beauchamp.",
+    "returning": []
+  },
+  {
+    "chapter": 87,
+    "setting": "Paris: Beauchamp’s rooms, the same morning",
+    "keepInMind": "Beauchamp is finishing his account of the inquiry in the Chamber of Peers, which found Albert’s father guilty after Haydée gave evidence. Remember that Danglars wrote to Yanina for news of Fernand just before he turned down Morcerf’s proposal.",
+    "returning": []
+  },
+  {
+    "chapter": 88,
+    "setting": "Paris: outside Danglars’ house, the same day",
+    "keepInMind": "Danglars has told Albert it was the count who advised him to write to Yanina. Albert now believes the count planned his father’s ruin from the start, and Beauchamp agrees that the count owes him an explanation.",
+    "returning": [
+      {
+        "id": "julie-morrel",
+        "reminder": "Maximilian’s sister, Morrel the shipowner’s daughter, happily married to Emmanuel."
+      },
+      {
+        "id": "emmanuel-herbaut",
+        "reminder": "Julie’s husband, the former Morrel clerk; Maximilian’s brother-in-law."
+      }
+    ]
+  },
+  {
+    "chapter": 89,
+    "setting": "The count’s house, that night after the Opera",
+    "keepInMind": "At the Opera Albert publicly challenged the count to a duel with pistols, at eight next morning in the Bois de Vincennes. The count told Maximilian he would kill Albert. Earlier, Mercédès had ordered a servant to follow her son wherever he went.",
+    "returning": []
+  },
+  {
+    "chapter": 90,
+    "setting": "The count’s house, through the night and into the morning",
+    "keepInMind": "Mercédès called him Edmond and begged for her son’s life. The count promised that Albert would live, which, he told her, means letting Albert kill him in the duel.",
+    "returning": []
+  },
+  {
+    "chapter": 91,
+    "setting": "The dueling ground in the Bois de Vincennes, then the Morcerf house",
+    "keepInMind": "Instead of fighting, Albert publicly apologized and declared the count had been right to avenge himself on Albert’s father. The count saw Mercédès’s hand in it: she must have told her son the truth.",
+    "returning": []
+  },
+  {
+    "chapter": 92,
+    "setting": "Paris: the same morning",
+    "keepInMind": "Albert and Mercédès are leaving the Morcerf house for good, giving up its name and fortune. They have accepted the count’s small gift of the money he once buried for Mercédès. Riding home, Albert glimpsed his father watching from behind a curtain.",
+    "returning": []
+  },
+  {
+    "chapter": 93,
+    "setting": "The Villefort house: the same morning",
+    "keepInMind": "After Barrois’s death, d’Avrigny accused Valentine of the poisonings and said he would never come to the house again. Villefort refused to believe him and kept the secret, and all the servants left. Noirtier means to move out and take Valentine with him, and he has blessed her future with Maximilian.",
+    "returning": [
+      {
+        "id": "valentine-de-villefort",
+        "reminder": "Villefort’s daughter, Noirtier’s heir, secretly engaged to Maximilian; the doctor suspects her."
+      },
+      {
+        "id": "noirtier",
+        "reminder": "Valentine’s paralysed grandfather, who speaks with his eyes; Barrois drank his poisoned lemonade."
+      }
+    ]
+  },
+  {
+    "chapter": 94,
+    "setting": "Paris: moments later",
+    "keepInMind": "Valentine collapsed in front of Maximilian and Noirtier after drinking water that tasted bitter. For some time she had been taking spoonfuls of Noirtier’s medicine on his orders. That same morning the count told Maximilian to come to him if he ever needed help.",
+    "returning": [
+      {
+        "id": "dr-davrigny",
+        "reminder": "The Villeforts’ doctor, who proved Barrois was poisoned and suspects Valentine."
+      }
+    ]
+  },
+  {
+    "chapter": 95,
+    "setting": "Danglars’ house: earlier that same morning",
+    "keepInMind": "The story steps back a few hours, to before the Danglars ladies’ visit. Eugénie has never wanted a husband; she dreams of an artist’s independent life with her friend Louise d’Armilly. Danglars has suffered heavy losses in recent months.",
+    "returning": []
+  },
+  {
+    "chapter": 96,
+    "setting": "Paris: three days later, the evening the marriage contract is to be signed",
+    "keepInMind": "Eugénie has agreed to sign the contract with Andrea on condition that she stays free in her own person. The police are still searching for Caderousse’s murderer.",
+    "returning": []
+  },
+  {
+    "chapter": 97,
+    "setting": "Danglars’ house: minutes after the contract scene",
+    "keepInMind": "The police burst in to arrest Andrea for Caderousse’s murder, but he had already slipped away. Louise d’Armilly has letters of introduction from the count for theatres in Italy.",
+    "returning": []
+  },
+  {
+    "chapter": 98,
+    "setting": "Paris and the road north: the same night",
+    "keepInMind": "Andrea vanished from the contract party moments before the police arrived. Eugénie, dressed as a young man, and Louise have left Paris by post-chaise for Belgium.",
+    "returning": []
+  },
+  {
     "chapter": 99,
     "setting": "Paris, the night of the contract scandal and the next morning",
     "keepInMind": "Andrea Cavalcanti has been exposed as Benedetto, an escaped convict wanted for Caderousse’s murder, and Eugénie has secretly fled. Remember what the reader knows and they do not: Andrea is the baby Villefort buried at Auteuil, his son by Madame Danglars.",

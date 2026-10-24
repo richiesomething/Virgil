@@ -60,8 +60,10 @@
     "kind": "foreign",
     "chapter": 1,
     "text": "Mild French oaths. 'Pardieu' means 'by God!'; 'peste', literally 'plague!', is more like 'good heavens!'",
-    "quote": "_Pardieu!_ and that is true!",
-    "seeAlso": [7]
+    "quote": "Pardieu! and that is true!",
+    "seeAlso": [
+      7
+    ]
   },
   {
     "term": "Phocéens",
@@ -96,7 +98,7 @@
     "kind": "foreign",
     "chapter": 2,
     "text": "French: 'my faith!', meaning 'upon my word!' or 'well, really!'",
-    "quote": "“_Ma foi!_ it will be as well if he is not,”"
+    "quote": "“Ma foi! it will be as well if he is not,”"
   },
   {
     "term": "the Catalane",
@@ -188,7 +190,10 @@
     "chapter": 4,
     "text": "The procureur du roi was the state prosecutor for a district, responsible for criminal cases including political ones. A deputy (substitut) acted in his absence.",
     "quote": "denounce him to the king’s procureur",
-    "seeAlso": [6, 7]
+    "seeAlso": [
+      6,
+      7
+    ]
   },
   {
     "term": "Bonapartist",
@@ -196,7 +201,10 @@
     "chapter": 4,
     "text": "A supporter of Napoleon. Under the restored Bourbon king Louis XVIII, plotting for the exiled emperor was treason, and royalist officials were quick to suspect it.",
     "quote": "as a Bonapartist agent",
-    "seeAlso": [5, 6]
+    "seeAlso": [
+      5,
+      6
+    ]
   },
   {
     "term": "Murat",
@@ -267,7 +275,9 @@
     "chapter": 5,
     "text": "The law courts of Marseilles, which housed the prosecutors' offices and connected to a holding prison.",
     "quote": "in the direction of the Palais de Justice",
-    "seeAlso": [8]
+    "seeAlso": [
+      8
+    ]
   },
   {
     "term": "cross of Saint Louis",
@@ -337,7 +347,7 @@
     "kind": "foreign",
     "chapter": 6,
     "text": "Latin, from Cicero: 'let arms yield to the toga', meaning that civil authority should rule over the military. Villefort means that the magistrate's robe now counts for more than the soldier's sword.",
-    "quote": "“_Cedant arma togæ_,” said Villefort with a bow."
+    "quote": "“Cedant arma togæ,” said Villefort with a bow."
   },
   {
     "term": "commissary of police",
@@ -415,7 +425,9 @@
     "chapter": 8,
     "text": "The courtesy title of a French secular cleric, often a scholar or tutor rather than a parish priest. It does not mean the abbot of a monastery.",
     "quote": "that an abbé became mad",
-    "seeAlso": [14]
+    "seeAlso": [
+      14
+    ]
   },
   {
     "term": "Brutus",
@@ -430,7 +442,10 @@
     "chapter": 9,
     "text": "A royalist nickname for Napoleon, who was born in Corsica in 1769. It comes from propaganda that showed him as a monster devouring France's young men.",
     "quote": "Has the Corsican ogre broken loose?",
-    "seeAlso": [11, 12]
+    "seeAlso": [
+      11,
+      12
+    ]
   },
   {
     "term": "the funds",
@@ -493,21 +508,21 @@
     "kind": "foreign",
     "chapter": 10,
     "text": "Latin: 'we sing to the deaf'. The king is saying that warnings would fall on deaf ears.",
-    "quote": "“_Canimus surdis_,” replied the king"
+    "quote": "“Canimus surdis,” replied the king"
   },
   {
     "term": "Pastor quum traheret",
     "kind": "reference",
     "chapter": 10,
     "text": "The opening words of Horace's Odes 1.15: 'When the shepherd [Paris] was carrying off [Helen]'. In this ode the sea god Nereus warns Paris of the war his crime will bring. 'Mala ducis avi domum' ('with evil omen you lead her home') and 'molli fugiens anhelitu' ('fleeing, softly panting') come from the same poem.",
-    "quote": "a delightful note on the _Pastor quum traheret_"
+    "quote": "a delightful note on the Pastor quum traheret"
   },
   {
     "term": "bella, horrida bella",
     "kind": "foreign",
     "chapter": 10,
     "text": "Latin, from Virgil's Aeneid (6.86): 'wars, terrible wars', the Sibyl's prophecy to Aeneas.",
-    "quote": "_bella, horrida bella_"
+    "quote": "bella, horrida bella"
   },
   {
     "term": "Marengo or Austerlitz",
@@ -529,14 +544,16 @@
     "chapter": 10,
     "text": "The Chappe optical telegraph: a chain of hilltop towers whose movable arms relayed coded signals. It could carry a message across France in hours, but only in daylight and clear weather.",
     "quote": "we have a telegraph which transmits messages in three or four hours",
-    "seeAlso": [11]
+    "seeAlso": [
+      11
+    ]
   },
   {
     "term": "Justum et tenacem propositi virum",
     "kind": "foreign",
     "chapter": 10,
     "text": "Latin, from Horace (Odes 3.3): 'the man who is just and firm of purpose'. 'Tenax', the motto the king jokingly offers Blacas, means 'tenacious'.",
-    "quote": "“_Justum et tenacem propositi virum_.”"
+    "quote": "“Justum et tenacem propositi virum.”"
   },
   {
     "term": "the Gulf of Juan",
@@ -712,7 +729,9 @@
     "chapter": 14,
     "text": "Napoleon annexed Rome to his empire and gave his son, born in 1811, the title 'King of Rome' at birth. Much of Italy was carved into French départements.",
     "quote": "the emperor had created the kingdom of Rome for his infant son",
-    "seeAlso": [16]
+    "seeAlso": [
+      16
+    ]
   },
   {
     "term": "the dream of Machiavelli",
@@ -761,7 +780,7 @@
     "kind": "reference",
     "chapter": 15,
     "text": "The 'writing on the wall' in Daniel 5. A ghostly hand writes these words at King Belshazzar's feast, foretelling his downfall.",
-    "quote": "the _mene, mene, tekel upharsin_ of Belshazzar"
+    "quote": "the mene, mene, tekel upharsin of Belshazzar"
   },
   {
     "term": "Tantalus",
@@ -790,7 +809,9 @@
     "chapter": 16,
     "text": "Two Renaissance popes with dreams of power in Italy. Alexander VI (Rodrigo Borgia, pope 1492–1503) was Cesare Borgia's father; Clement VII (Giulio de' Medici, pope 1523–34) belonged to the Florentine banking dynasty.",
     "quote": "It was the plan of Alexander VI. and Clement VII.",
-    "seeAlso": [18]
+    "seeAlso": [
+      18
+    ]
   },
   {
     "term": "celebrated cases of escape",
@@ -805,7 +826,9 @@
     "chapter": 16,
     "text": "Antoine Lavoisier, founder of modern chemistry, was guillotined in 1794. Pierre Cabanis (1757–1808) was a celebrated physician and philosopher.",
     "quote": "I know Lavoisier, and was the intimate friend of Cabanis",
-    "seeAlso": [17]
+    "seeAlso": [
+      17
+    ]
   },
   {
     "term": "quarto",
@@ -826,7 +849,7 @@
     "kind": "custom",
     "chapter": 16,
     "text": "Catholic fast days ('lean' days) when meat was forbidden and fish was served instead. Faria names Wednesday, Friday and Saturday.",
-    "quote": "served to us on _maigre_ days"
+    "quote": "served to us on maigre days"
   },
   {
     "term": "Guzerat and Golconda",
@@ -903,7 +926,7 @@
     "kind": "title",
     "chapter": 18,
     "text": "Latin 'from the side': a papal envoy sent as the pope's personal representative, as if from his own side.",
-    "quote": "it was a legate _à latere_"
+    "quote": "it was a legate à latere"
   },
   {
     "term": "breviary",
@@ -925,7 +948,9 @@
     "chapter": 18,
     "text": "The Thousand and One Nights, the great collection of Middle Eastern tales, full of genies guarding treasure in caves. It was hugely popular in Europe from the 1700s.",
     "quote": "like the treasures of the Arabian Nights",
-    "seeAlso": [23]
+    "seeAlso": [
+      23
+    ]
   },
   {
     "term": "sympathetic ink",
@@ -960,7 +985,7 @@
     "kind": "foreign",
     "chapter": 19,
     "text": "Latin: 'solid ground', dry land.",
-    "quote": "which we take for _terra firma_"
+    "quote": "which we take for terra firma"
   },
   {
     "term": "galvanic",
@@ -1135,7 +1160,7 @@
     "kind": "foreign",
     "chapter": 22,
     "text": "The mixed trade language of Mediterranean ports, built from Italian, Spanish, French, Arabic and Greek.",
-    "quote": "jumbled in a _lingua franca_"
+    "quote": "jumbled in a lingua franca"
   },
   {
     "term": "knots",
