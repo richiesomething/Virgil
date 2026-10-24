@@ -3,7 +3,7 @@ import { href } from '../lib/router'
 
 export default function CharacterChip({ bookId, c, isNew }: { bookId: string; c: Character; isNew?: boolean }) {
   return (
-    <a className={`chip chip--${c.importance}`} href={href('b', bookId, 'characters', c.id)}>
+    <a className={`chip chip--${c.importance} chip--${c.kind ?? 'character'}`} href={href('b', bookId, 'characters', c.id)}>
       <span className="avatar avatar--sm" aria-hidden="true">{initials(c.name)}</span>
       {c.name}
       {isNew && <span className="badge">New</span>}

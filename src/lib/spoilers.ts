@@ -1,4 +1,4 @@
-import type { BookData, Character, Chapter, RelationType } from '../types'
+import type { BookData, Character, Chapter, Kind, RelationType } from '../types'
 
 /**
  * Every query here takes `upTo`, the reader's bookmark, and never returns
@@ -168,3 +168,6 @@ export function connections(book: BookData, upTo: number): Connection[] {
 export function connectionsOf(book: BookData, id: string, upTo: number): Connection[] {
   return connections(book, upTo).filter((c) => c.a === id || c.b === id)
 }
+
+export const kindOf = (c: Character): Kind => c.kind ?? 'character'
+export const isThing = (c: Character) => kindOf(c) !== 'character'

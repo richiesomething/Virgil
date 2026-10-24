@@ -21,6 +21,9 @@ export interface Chapter {
 
 export type Importance = 'major' | 'supporting' | 'minor'
 
+/** Characters are people (or creatures); objects and places can matter to a story too. */
+export type Kind = 'character' | 'object' | 'place'
+
 export interface Alias {
   name: string
   from: number
@@ -34,6 +37,8 @@ export interface Moment {
 
 export interface Character {
   id: string
+  /** Defaults to 'character'. */
+  kind?: Kind
   /** The name the reader first knows them by — must be spoiler-safe at `firstChapter`. */
   name: string
   firstChapter: number
@@ -76,7 +81,8 @@ export interface BookData {
   relationships: Relationship[]
 }
 
-export type RelationType = 'family' | 'love' | 'friend' | 'enemy' | 'work'
+/** 'tie' is used for every link that involves an object or place. */
+export type RelationType = 'family' | 'love' | 'friend' | 'enemy' | 'work' | 'tie'
 
 /**
  * A relationship between two characters as the reader understands it. Each state

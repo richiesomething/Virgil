@@ -1,10 +1,11 @@
 import type { BookPageProps } from './BookShell'
 import { href } from '../lib/router'
-import { characterView, connectionsOf, lookupCharacter } from '../lib/spoilers'
+import { characterView, connectionsOf, kindOf, lookupCharacter } from '../lib/spoilers'
 import { relationLabel, relationTypes } from '../lib/relations'
 import { initials } from '../components/CharacterChip'
 
-const importanceLabel = { major: 'Major character', supporting: 'Supporting character', minor: 'Minor character' }
+const importanceLabel = { major: 'Major', supporting: 'Supporting', minor: 'Minor' }
+const kindLabel = { character: 'character', object: 'object', place: 'place' }
 
 export default function CharacterProfile({ book, upTo, id }: BookPageProps & { id: string }) {
   const { meta } = book
@@ -13,8 +14,8 @@ export default function CharacterProfile({ book, upTo, id }: BookPageProps & { i
   if (found.status === 'hidden') {
     return (
       <div className="empty">
-        <h1>You haven’t met this character yet</h1>
-        <p>Keep reading. Their profile appears once they show up in the story.</p>
+        <h1>You haven’t come across this yet</h1>
+        <p>Keep reading. The profile appears once it shows up in the story.</p>
         <a className="btn btn--ghost" href={href('b', meta.id, 'characters')}>All characters</a>
       </div>
     )
@@ -45,12 +46,13 @@ export default function CharacterProfile({ book, upTo, id }: BookPageProps & { i
       <a className="back" href={href('b', meta.id, 'characters')}>← All characters</a>
 
       <header className="profile__head">
-        <span className={`avatar avatar--lg avatar--${c.importance}`} aria-hidden="true">{initials(c.name)}</span>
+        <span className={`avatar avatar--lg avatar--${c.importance} avatar--${kindOf(c)}`} aria-hidden="true">{initials(c.name)}</span>
         <div>
           <h1 className="page-title">{c.name}</h1>
           {v.tagline && <p className="lede">{v.tagline}</p>}
           <p className="small muted">
-            {importanceLabel[c.importance]} · {c.group} · First appears in{' '}
+            {importanceLabel[c.importance]} {kindLabel[kindOf(c)]}
+            {kindOf(c) === 'character' && ` · ${c.group}`} · First appears in{' '}
             <a href={href('b', meta.id, 'chapters', c.firstChapter)}>chapter {c.firstChapter}</a>
           </p>
         </div>

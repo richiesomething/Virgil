@@ -33,8 +33,11 @@ if (characters.length) {
   console.warn('No characters-*.json found')
 }
 
-const relPath = join(dir, 'relationships.json')
-if (existsSync(relPath)) {
-  writeFileSync(join('src/books', book, 'relationships.json'), readFileSync(relPath, 'utf8'))
-  console.log(`Copied relationships for ${book}`)
+// People's relationships and links to objects/places are kept in separate source files.
+const relationships = ['relationships.json', 'things-relationships.json']
+  .filter((f) => existsSync(join(dir, f)))
+  .flatMap((f) => JSON.parse(readFileSync(join(dir, f), 'utf8')))
+if (relationships.length) {
+  writeFileSync(join('src/books', book, 'relationships.json'), JSON.stringify(relationships, null, 2) + '\n')
+  console.log(`Wrote ${relationships.length} relationships for ${book}`)
 }

@@ -226,7 +226,7 @@
     "name": "The Pearl of the World",
     "firstChapter": 2,
     "importance": "major",
-    "group": "The pearl trade",
+    "group": "Objects",
     "aliases": [],
     "tagline": [
       {
@@ -281,7 +281,8 @@
         "chapter": 6,
         "text": "Was thrown back into the sea."
       }
-    ]
+    ],
+    "kind": "object"
   },
   {
     "id": "the-doctor",

@@ -297,6 +297,49 @@
     ]
   },
   {
+    "id": "kinos-house",
+    "kind": "place",
+    "name": "Kino’s brush house",
+    "firstChapter": 1,
+    "importance": "supporting",
+    "group": "Places",
+    "aliases": [],
+    "tagline": [
+      {
+        "from": 1,
+        "text": "The family’s small brush hut near the beach."
+      },
+      {
+        "from": 5,
+        "text": "The family’s hut, burned to the ground."
+      }
+    ],
+    "description": [
+      {
+        "from": 1,
+        "text": "A hut of brush near the shore, where Kino, Juana and Coyotito live among their neighbours. Coyotito sleeps in a box hanging from the roof."
+      },
+      {
+        "from": 3,
+        "text": "Kino hides the pearl in a hole in its floor. In the night an intruder creeps in to search for it."
+      },
+      {
+        "from": 5,
+        "text": "It is set on fire and burns down, leaving the family with nowhere to go."
+      }
+    ],
+    "moments": [
+      {
+        "chapter": 3,
+        "text": "Was searched by an intruder in the night."
+      },
+      {
+        "chapter": 5,
+        "text": "Was burned to the ground."
+      }
+    ]
+  },
+  {
     "id": "the-beggars",
     "name": "The beggars",
     "firstChapter": 1,
@@ -440,11 +483,98 @@
     ]
   },
   {
+    "id": "kinos-canoe",
+    "kind": "object",
+    "name": "Kino’s canoe",
+    "firstChapter": 2,
+    "importance": "supporting",
+    "group": "Objects",
+    "aliases": [],
+    "tagline": [
+      {
+        "from": 2,
+        "text": "Kino’s canoe, his most valuable possession."
+      },
+      {
+        "from": 5,
+        "text": "Kino’s canoe, smashed by an unknown enemy."
+      }
+    ],
+    "description": [
+      {
+        "from": 2,
+        "text": "An old canoe handed down from Kino’s grandfather, which he uses to dive for oysters. It is the one thing of value he owns, the means of feeding his family."
+      },
+      {
+        "from": 5,
+        "text": "When Kino goes to prepare it for their escape, he finds a hole smashed in its bottom. To him this is a worse crime than killing a man, because a canoe is a man’s livelihood."
+      }
+    ],
+    "moments": [
+      {
+        "chapter": 2,
+        "text": "Carried Kino out to the oyster bed where he found the pearl."
+      },
+      {
+        "chapter": 5,
+        "text": "Was found with a hole smashed in its bottom."
+      }
+    ]
+  },
+  {
+    "id": "the-gulf",
+    "kind": "place",
+    "name": "The Gulf",
+    "firstChapter": 2,
+    "importance": "supporting",
+    "group": "Places",
+    "aliases": [
+      {
+        "name": "the sea",
+        "from": 2
+      }
+    ],
+    "tagline": [
+      {
+        "from": 2,
+        "text": "The sea where Kino dives for oysters."
+      },
+      {
+        "from": 6,
+        "text": "The sea that takes the pearl back."
+      }
+    ],
+    "description": [
+      {
+        "from": 2,
+        "text": "The calm waters off the beach, with an oyster bed where the pearl divers work. Kino finds the great pearl there."
+      },
+      {
+        "from": 3,
+        "text": "Juana wants to throw the pearl back into it."
+      },
+      {
+        "from": 6,
+        "text": "Kino throws the pearl far out into the water, and it sinks to the bottom."
+      }
+    ],
+    "moments": [
+      {
+        "chapter": 2,
+        "text": "Gave up the great pearl from its oyster bed."
+      },
+      {
+        "chapter": 6,
+        "text": "Received the pearl back."
+      }
+    ]
+  },
+  {
     "id": "the-pearl",
     "name": "The Pearl of the World",
     "firstChapter": 2,
     "importance": "major",
-    "group": "The pearl trade",
+    "group": "Objects",
     "aliases": [],
     "tagline": [
       {
@@ -499,7 +629,8 @@
         "chapter": 6,
         "text": "Was thrown back into the sea."
       }
-    ]
+    ],
+    "kind": "object"
   },
   {
     "id": "the-night-attackers",
@@ -604,6 +735,59 @@
       {
         "chapter": 3,
         "text": "Visited Kino after hearing about the pearl."
+      }
+    ]
+  },
+  {
+    "id": "the-capital",
+    "kind": "place",
+    "name": "The capital",
+    "firstChapter": 4,
+    "importance": "minor",
+    "group": "Places",
+    "aliases": [],
+    "tagline": [
+      {
+        "from": 4,
+        "text": "The distant city where Kino hopes to sell his pearl."
+      }
+    ],
+    "description": [
+      {
+        "from": 4,
+        "text": "After the town’s buyers try to cheat him, Kino decides to take the pearl to the capital and sell it there. Juan Tomás reminds him of men who set out to sell pearls there and never returned."
+      },
+      {
+        "from": 5,
+        "text": "The family flees north toward it."
+      }
+    ],
+    "moments": []
+  },
+  {
+    "id": "the-mountain-pool",
+    "kind": "place",
+    "name": "The mountain pool",
+    "firstChapter": 6,
+    "importance": "minor",
+    "group": "Places",
+    "aliases": [],
+    "tagline": [
+      {
+        "from": 6,
+        "text": "A pool of water high in the rocks, with caves above it."
+      }
+    ],
+    "description": [
+      {
+        "from": 6,
+        "text": "A small pool fed by a spring, high in the mountains, where animals and travellers come to drink. Juana and Coyotito hide in a cave above it, and the trackers make camp beside it."
+      }
+    ],
+    "moments": [
+      {
+        "chapter": 6,
+        "text": "Was where the trackers made camp, below the family’s hiding place."
       }
     ]
   },

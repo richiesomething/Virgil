@@ -1,0 +1,734 @@
+[
+  {
+    "id": "pharaon",
+    "kind": "object",
+    "name": "The Pharaon",
+    "firstChapter": 1,
+    "importance": "major",
+    "group": "Objects",
+    "aliases": [],
+    "tagline": [
+      {
+        "from": 1,
+        "text": "Morrel's three-masted merchant ship, brought home to Marseilles by young Dantès."
+      },
+      {
+        "from": 29,
+        "text": "Morrel's last ship and last hope, lost at sea."
+      },
+      {
+        "from": 30,
+        "text": "Morrel's lost ship, mysteriously replaced by an identical new Pharaon."
+      }
+    ],
+    "description": [
+      {
+        "from": 1,
+        "text": "A three-masted merchant ship owned by Morrel & Son of Marseilles. Her captain, Leclere, died on the voyage home, and the nineteen-year-old mate Edmond Dantès brought her in, stopping at Elba on the dead captain's orders. Morrel means to make Dantès her captain, which the supercargo Danglars bitterly resents."
+      },
+      {
+        "from": 29,
+        "text": "Years later the Pharaon is the last ship the struggling Morrel firm has left. News comes that she has sunk in a storm; Captain Gaumard and the crew were saved, but the loss leaves Morrel facing bankruptcy."
+      },
+      {
+        "from": 30,
+        "text": "On the very day Morrel means to shoot himself, a ship exactly like the Pharaon, with the same name and a cargo of the same goods, sails into Marseilles, sent by the unknown benefactor who also paid his debts."
+      }
+    ],
+    "moments": [
+      {
+        "chapter": 1,
+        "text": "Sails into Marseilles under Dantès after Captain Leclere's death at sea."
+      },
+      {
+        "chapter": 29,
+        "text": "Reported sunk in a storm; the crew survive but Morrel is ruined."
+      },
+      {
+        "chapter": 30,
+        "text": "A new Pharaon enters the harbour just as Morrel is saved."
+      },
+      {
+        "chapter": 105,
+        "text": "The Count tells Maximilian that he was the one who sent the Pharaon to old Morrel."
+      }
+    ]
+  },
+  {
+    "id": "catalans",
+    "kind": "place",
+    "name": "The Catalans",
+    "firstChapter": 1,
+    "importance": "supporting",
+    "group": "Places",
+    "aliases": [
+      {
+        "name": "the Catalan village",
+        "from": 3
+      }
+    ],
+    "tagline": [
+      {
+        "from": 1,
+        "text": "Fishing village outside Marseilles where Mercédès lives."
+      },
+      {
+        "from": 3,
+        "text": "Village of Spanish-descended fishermen outside Marseilles, home of Mercédès and Fernand."
+      }
+    ],
+    "description": [
+      {
+        "from": 1,
+        "text": "A village just outside Marseilles where Dantès's sweetheart, Mercédès, lives."
+      },
+      {
+        "from": 3,
+        "text": "It was founded long ago by Spanish settlers whose descendants keep their own language and customs and marry among themselves. Here Mercédès refuses her cousin Fernand, a fisherman of the village, and makes him shake hands with Dantès."
+      },
+      {
+        "from": 25,
+        "text": "Returning to Marseilles under a false name, Dantès visits the village and learns that Mercédès is no longer there."
+      }
+    ],
+    "moments": [
+      {
+        "chapter": 3,
+        "text": "Mercédès rejects Fernand here, then greets Dantès."
+      },
+      {
+        "chapter": 25,
+        "text": "The returning Dantès finds Mercédès gone from the village."
+      },
+      {
+        "chapter": 41,
+        "text": "The Count turns pale before a portrait of the Countess de Morcerf in Catalan dress."
+      },
+      {
+        "chapter": 113,
+        "text": "Passing the Catalans after visiting the Château d'If, the Count murmurs Haydée's name."
+      }
+    ]
+  },
+  {
+    "id": "denunciation-letter",
+    "kind": "object",
+    "name": "The anonymous denunciation",
+    "firstChapter": 4,
+    "importance": "major",
+    "group": "Objects",
+    "aliases": [
+      {
+        "name": "the anonymous letter",
+        "from": 4
+      }
+    ],
+    "tagline": [
+      {
+        "from": 4,
+        "text": "Anonymous letter accusing Dantès of being a Bonapartist agent."
+      },
+      {
+        "from": 28,
+        "text": "The anonymous letter that sent Dantès to prison, now taken from the prison files."
+      }
+    ],
+    "description": [
+      {
+        "from": 4,
+        "text": "At La Réserve, Danglars writes it with his left hand to disguise his writing. It tells the king's prosecutor that Dantès carries a letter from Murat to Napoleon and another from Napoleon to the Bonapartist club in Paris. Danglars pretends it is a joke and throws it away, but Fernand picks it up."
+      },
+      {
+        "from": 7,
+        "text": "The letter reaches Villefort, who questions Dantès about its charges and then has to deal with the letter Dantès really was carrying."
+      },
+      {
+        "from": 17,
+        "text": "Faria helps Dantès work out that Danglars wrote it and Fernand sent it."
+      },
+      {
+        "from": 27,
+        "text": "Caderousse confirms the story to the abbé: Danglars wrote the denunciation and Fernand posted it."
+      },
+      {
+        "from": 28,
+        "text": "Posing as a Thomson & French clerk, Dantès finds it in his prison file and secretly pockets it."
+      }
+    ],
+    "moments": [
+      {
+        "chapter": 4,
+        "text": "Danglars writes it left-handed; Fernand picks it up after it is thrown away."
+      },
+      {
+        "chapter": 5,
+        "text": "Dantès is arrested at his wedding feast on a Bonapartist charge."
+      },
+      {
+        "chapter": 7,
+        "text": "Villefort reads the accusation while examining Dantès."
+      },
+      {
+        "chapter": 17,
+        "text": "Faria reconstructs who wrote it and why."
+      },
+      {
+        "chapter": 28,
+        "text": "The disguised Dantès takes it from the prison register."
+      },
+      {
+        "chapter": 89,
+        "text": "The Count shows the faded letter to Mercédès."
+      }
+    ]
+  },
+  {
+    "id": "elba-letter",
+    "kind": "object",
+    "name": "The letter from Elba",
+    "firstChapter": 4,
+    "importance": "major",
+    "group": "Objects",
+    "aliases": [],
+    "tagline": [
+      {
+        "from": 4,
+        "text": "A letter Dantès is accused of carrying from Elba to Bonapartists in Paris."
+      },
+      {
+        "from": 7,
+        "text": "Bonapartist letter from Elba addressed to Villefort's father, Noirtier."
+      }
+    ],
+    "description": [
+      {
+        "from": 4,
+        "text": "Danglars's denunciation claims that Dantès, after stopping at Elba, is carrying a letter from Napoleon to the Bonapartist club in Paris."
+      },
+      {
+        "from": 7,
+        "text": "There really is a letter. On his deathbed Captain Leclere asked Dantès to take a packet to the grand-marshal on Elba, who gave him a letter to deliver in Paris. Dantès never knew what was in it. It is addressed to M. Noirtier, Rue Coq-Héron, and when Villefort sees the name of his own father he burns it."
+      },
+      {
+        "from": 12,
+        "text": "Villefort tells Noirtier that he burned the letter, which would otherwise have ruined his father."
+      }
+    ],
+    "moments": [
+      {
+        "chapter": 7,
+        "text": "Villefort learns it is addressed to Noirtier and burns it in front of Dantès."
+      },
+      {
+        "chapter": 12,
+        "text": "Villefort tells his father the letter has been destroyed."
+      },
+      {
+        "chapter": 17,
+        "text": "Faria explains to Dantès why the letter's address doomed him."
+      }
+    ]
+  },
+  {
+    "id": "chateau-dif",
+    "kind": "place",
+    "name": "The Château d'If",
+    "firstChapter": 8,
+    "importance": "major",
+    "group": "Places",
+    "aliases": [],
+    "tagline": [
+      {
+        "from": 8,
+        "text": "Grim island fortress off Marseilles where Dantès is imprisoned without trial."
+      },
+      {
+        "from": 21,
+        "text": "Island prison off Marseilles from which Dantès escaped after fourteen years."
+      }
+    ],
+    "description": [
+      {
+        "from": 8,
+        "text": "A grim fortress on a rocky island at the mouth of Marseilles harbour, used for political prisoners. Dantès is rowed there at night instead of being freed and is thrown into an underground dungeon."
+      },
+      {
+        "from": 14,
+        "text": "The Abbé Faria, thought mad for offering a treasure for his freedom, is held in another of its dungeons."
+      },
+      {
+        "from": 20,
+        "text": "The prison has no cemetery: dead prisoners are sewn into a sack, weighted with a cannonball and thrown off the cliffs into the sea."
+      },
+      {
+        "from": 113,
+        "text": "Years later it no longer holds prisoners, and guides show visitors the cells of the legendary No. 34 and the 'mad' priest."
+      }
+    ],
+    "moments": [
+      {
+        "chapter": 8,
+        "text": "Dantès is taken here by night and thrown into a dungeon."
+      },
+      {
+        "chapter": 14,
+        "text": "An inspector visits the dungeons and hears Dantès and Faria."
+      },
+      {
+        "chapter": 15,
+        "text": "Faria's tunnel breaks through into Dantès's cell."
+      },
+      {
+        "chapter": 19,
+        "text": "Faria dies here after his third attack."
+      },
+      {
+        "chapter": 20,
+        "text": "Dantès, sewn into Faria's burial sack, is thrown from the cliffs into the sea."
+      },
+      {
+        "chapter": 21,
+        "text": "From the sea Dantès hears the fortress gun announce his escape."
+      },
+      {
+        "chapter": 113,
+        "text": "The Count revisits his old cell and buys Faria's manuscript from the guide."
+      }
+    ]
+  },
+  {
+    "id": "spada-treasure",
+    "kind": "object",
+    "name": "The treasure of Cardinal Spada",
+    "firstChapter": 14,
+    "importance": "major",
+    "group": "Objects",
+    "aliases": [
+      {
+        "name": "Faria's treasure",
+        "from": 14
+      },
+      {
+        "name": "the Spada treasure",
+        "from": 18
+      }
+    ],
+    "tagline": [
+      {
+        "from": 14,
+        "text": "The vast treasure the 'mad' Abbé Faria offers in exchange for his freedom."
+      },
+      {
+        "from": 18,
+        "text": "Cardinal Spada's lost fortune, hidden in the caves of Monte Cristo."
+      },
+      {
+        "from": 24,
+        "text": "Cardinal Spada's fortune in gold and jewels, found by Dantès on Monte Cristo."
+      }
+    ],
+    "description": [
+      {
+        "from": 14,
+        "text": "The Abbé Faria offers the visiting inspector millions from a hidden treasure in return for his release. The prison staff take it as proof that he is mad."
+      },
+      {
+        "from": 18,
+        "text": "In 1498 Cardinal Spada was poisoned by Cæsar Borgia and the pope, but his fortune was never found. Faria, secretary to the last of the Spada family, discovered a half-burnt letter in invisible ink revealing that the cardinal buried nearly two million Roman crowns in gold, jewels and coin in the caves of the island of Monte Cristo. With the family extinct, Faria makes Dantès his heir."
+      },
+      {
+        "from": 24,
+        "text": "Following Faria's clues, Dantès finds the chest in the furthest corner of the second grotto, overflowing with gold coins, gold bars and jewels."
+      },
+      {
+        "from": 25,
+        "text": "Dantès leaves most of it hidden, sells a few gems, and begins to use the fortune to build a new life and a new identity."
+      }
+    ],
+    "moments": [
+      {
+        "chapter": 14,
+        "text": "Faria offers the inspector his treasure in exchange for freedom."
+      },
+      {
+        "chapter": 18,
+        "text": "Faria shows Dantès the scorched Spada letter and tells its story."
+      },
+      {
+        "chapter": 19,
+        "text": "Faria, dying, urges Dantès: 'Monte Cristo, forget not Monte Cristo!'"
+      },
+      {
+        "chapter": 24,
+        "text": "Dantès blasts away the rock and finds the cardinal's chest."
+      },
+      {
+        "chapter": 25,
+        "text": "He sells some gems and buys a yacht."
+      }
+    ]
+  },
+  {
+    "id": "monte-cristo-island",
+    "kind": "place",
+    "name": "The island of Monte Cristo",
+    "firstChapter": 18,
+    "importance": "major",
+    "group": "Places",
+    "aliases": [],
+    "tagline": [
+      {
+        "from": 18,
+        "text": "Small rocky island in the Mediterranean where Cardinal Spada hid his treasure."
+      },
+      {
+        "from": 24,
+        "text": "Small rocky island where Dantès found Cardinal Spada's treasure."
+      },
+      {
+        "from": 31,
+        "text": "Barren island where the mysterious 'Sinbad the Sailor' keeps an underground palace."
+      }
+    ],
+    "description": [
+      {
+        "from": 18,
+        "text": "A small, uninhabited island between Corsica and Elba. According to the letter Faria found, Cardinal Spada buried his fortune in its caves."
+      },
+      {
+        "from": 22,
+        "text": "Dantès's smuggler crew choose it as the meeting place for their next job."
+      },
+      {
+        "from": 24,
+        "text": "Left alone there, Dantès blasts away a great rock and finds the treasure in a second, hidden grotto."
+      },
+      {
+        "from": 31,
+        "text": "Years later Franz d'Épinay lands there to hunt goats and is led blindfold into a splendid underground palace by a host calling himself Sinbad the Sailor. Next morning he cannot find the entrance."
+      },
+      {
+        "from": 40,
+        "text": "Albert tells Paris that the Count bought the island and took his title from it."
+      }
+    ],
+    "moments": [
+      {
+        "chapter": 18,
+        "text": "Faria reveals that Spada's treasure is buried in its caves."
+      },
+      {
+        "chapter": 23,
+        "text": "Dantès finds carved marks on the rocks and fakes an injury to be left behind."
+      },
+      {
+        "chapter": 24,
+        "text": "Dantès makes his way through two grottoes to the treasure."
+      },
+      {
+        "chapter": 31,
+        "text": "Franz is entertained by 'Sinbad the Sailor' in a hidden underground palace."
+      },
+      {
+        "chapter": 32,
+        "text": "Franz wakes in a bare grotto and finds his host gone."
+      },
+      {
+        "chapter": 113,
+        "text": "The Count tells Maximilian to come to the island on 5 October."
+      },
+      {
+        "chapter": 117,
+        "text": "Maximilian comes to the island to die and finds Valentine alive."
+      }
+    ]
+  },
+  {
+    "id": "caderousse-diamond",
+    "kind": "object",
+    "name": "The abbé's diamond",
+    "firstChapter": 26,
+    "importance": "supporting",
+    "group": "Objects",
+    "aliases": [],
+    "tagline": [
+      {
+        "from": 26,
+        "text": "Diamond an Italian abbé says Dantès left to be shared among his friends."
+      },
+      {
+        "from": 27,
+        "text": "Diamond worth 50,000 francs, given to Caderousse by the abbé."
+      },
+      {
+        "from": 45,
+        "text": "Caderousse's diamond, which led to a murder at his inn."
+      }
+    ],
+    "description": [
+      {
+        "from": 26,
+        "text": "The abbé who visits Caderousse's inn says that Dantès, dying in prison, left a diamond, given to him by a rich fellow prisoner, to be divided among the people who loved him."
+      },
+      {
+        "from": 27,
+        "text": "Once Caderousse has told the whole story of Dantès's betrayal, the abbé gives him the diamond, worth about 50,000 francs, for himself."
+      },
+      {
+        "from": 44,
+        "text": "Bertuccio, hiding at the inn, watches Caderousse sell the diamond to a jeweller for 45,000 francs."
+      },
+      {
+        "from": 45,
+        "text": "That night Caderousse and his wife murder the jeweller to get the money and the diamond back."
+      }
+    ],
+    "moments": [
+      {
+        "chapter": 26,
+        "text": "The abbé shows Caderousse the diamond."
+      },
+      {
+        "chapter": 27,
+        "text": "The abbé gives Caderousse the diamond in exchange for the red silk purse."
+      },
+      {
+        "chapter": 44,
+        "text": "Caderousse sells it to the jeweller Joannes."
+      },
+      {
+        "chapter": 45,
+        "text": "The jeweller is murdered at the inn for it."
+      }
+    ]
+  },
+  {
+    "id": "pont-du-gard-inn",
+    "kind": "place",
+    "name": "The Pont du Gard inn",
+    "firstChapter": 26,
+    "importance": "supporting",
+    "group": "Places",
+    "aliases": [],
+    "tagline": [
+      {
+        "from": 26,
+        "text": "Caderousse's struggling roadside inn between Beaucaire and Bellegarde."
+      },
+      {
+        "from": 45,
+        "text": "Caderousse's roadside inn, scene of a jeweller's murder."
+      }
+    ],
+    "description": [
+      {
+        "from": 26,
+        "text": "A small, failing inn on the road between Beaucaire and Bellegarde, kept by Caderousse and his sickly wife, La Carconte. Here the Italian abbé hears the story of Dantès's betrayal."
+      },
+      {
+        "from": 44,
+        "text": "Bertuccio, smuggling in the region, uses the inn as a hiding place and, hidden in it, watches Caderousse sell the abbé's diamond."
+      },
+      {
+        "from": 45,
+        "text": "The jeweller is murdered there that night; La Carconte is killed too, Caderousse flees, and Bertuccio is arrested for the crime."
+      }
+    ],
+    "moments": [
+      {
+        "chapter": 26,
+        "text": "The abbé arrives and talks with Caderousse."
+      },
+      {
+        "chapter": 27,
+        "text": "Caderousse tells the abbé the whole story of the plot against Dantès."
+      },
+      {
+        "chapter": 44,
+        "text": "Bertuccio, hidden at the inn, watches the diamond being sold."
+      },
+      {
+        "chapter": 45,
+        "text": "The jeweller is murdered; Bertuccio is arrested."
+      }
+    ]
+  },
+  {
+    "id": "red-silk-purse",
+    "kind": "object",
+    "name": "The red silk purse",
+    "firstChapter": 27,
+    "importance": "supporting",
+    "group": "Objects",
+    "aliases": [],
+    "tagline": [
+      {
+        "from": 27,
+        "text": "Morrel's purse, left on old Dantès's mantelpiece and kept by Caderousse."
+      },
+      {
+        "from": 30,
+        "text": "The purse that brings Morrel his paid debts and Julie's dowry diamond."
+      },
+      {
+        "from": 50,
+        "text": "The Morrels' treasured relic of their unknown benefactor."
+      }
+    ],
+    "description": [
+      {
+        "from": 27,
+        "text": "A long purse of faded red silk that Morrel left on old Dantès's mantelpiece; the money in it paid the old man's debts and his burial. Caderousse kept it, and the abbé takes it in exchange for the diamond."
+      },
+      {
+        "from": 30,
+        "text": "Following the instructions of a letter signed 'Sinbad the Sailor', Julie Morrel finds it in old Dantès's former room. Inside are Morrel's receipted bill for 287,500 francs and a diamond for her dowry. Morrel half remembers that it was once his."
+      },
+      {
+        "from": 50,
+        "text": "The Morrel children keep it under a crystal globe on a velvet cushion as a relic of their benefactor."
+      }
+    ],
+    "moments": [
+      {
+        "chapter": 27,
+        "text": "Caderousse gives the purse to the abbé."
+      },
+      {
+        "chapter": 30,
+        "text": "Julie brings it to her father minutes before he means to shoot himself."
+      },
+      {
+        "chapter": 50,
+        "text": "Maximilian shows it to the Count, who is visibly moved."
+      },
+      {
+        "chapter": 105,
+        "text": "The Count reveals he sent it; Julie refuses to give it back."
+      }
+    ]
+  },
+  {
+    "id": "house-at-auteuil",
+    "kind": "place",
+    "name": "The house at Auteuil",
+    "firstChapter": 42,
+    "importance": "major",
+    "group": "Places",
+    "aliases": [
+      {
+        "name": "No. 28, Rue de la Fontaine",
+        "from": 42
+      }
+    ],
+    "tagline": [
+      {
+        "from": 42,
+        "text": "Country house near Paris the Count buys without seeing it."
+      },
+      {
+        "from": 43,
+        "text": "The Count's country house, where Bertuccio once tried to kill Villefort."
+      },
+      {
+        "from": 67,
+        "text": "The Count's country house, where Villefort buried his newborn child."
+      }
+    ],
+    "description": [
+      {
+        "from": 42,
+        "text": "A country house at Auteuil, just outside Paris, which the Count buys without looking at it. His steward Bertuccio goes pale at the address."
+      },
+      {
+        "from": 43,
+        "text": "It once belonged to the Marquis de Saint-Méran. Bertuccio confesses that years ago, in its garden, he stabbed M. de Villefort, whom he believed he had killed."
+      },
+      {
+        "from": 44,
+        "text": "That night Villefort had been burying a box in the garden. Bertuccio dug it up and found a newborn baby still alive, whom he took away and saved."
+      },
+      {
+        "from": 62,
+        "text": "At the Count's dinner there, Bertuccio recognises Madame Danglars as the woman who was in the house that night, and Villefort as the man he stabbed."
+      },
+      {
+        "from": 67,
+        "text": "Villefort admits to Madame Danglars that the baby was theirs; he buried it believing it dead, and when he returned a year later the box was gone."
+      }
+    ],
+    "moments": [
+      {
+        "chapter": 42,
+        "text": "The Count buys the house and takes Bertuccio to see it."
+      },
+      {
+        "chapter": 43,
+        "text": "Bertuccio confesses the stabbing in the garden."
+      },
+      {
+        "chapter": 47,
+        "text": "Ali stops Madame de Villefort's runaway horses outside the house."
+      },
+      {
+        "chapter": 60,
+        "text": "The Count unsettles Villefort by mentioning that the house was Saint-Méran's."
+      },
+      {
+        "chapter": 62,
+        "text": "Bertuccio is horrified to recognise the dinner guests."
+      },
+      {
+        "chapter": 63,
+        "text": "The Count shows the red damask room and tells of a newborn's skeleton dug up in the garden."
+      },
+      {
+        "chapter": 67,
+        "text": "Villefort and Madame Danglars discuss what happened there."
+      },
+      {
+        "chapter": 110,
+        "text": "At his trial Benedetto declares he was born at Auteuil and buried alive by his father."
+      }
+    ]
+  },
+  {
+    "id": "the-elixir",
+    "kind": "object",
+    "name": "The Count's elixir",
+    "firstChapter": 47,
+    "importance": "supporting",
+    "group": "Objects",
+    "aliases": [],
+    "tagline": [
+      {
+        "from": 47,
+        "text": "Blood-red drug the Count uses to revive little Edward de Villefort."
+      },
+      {
+        "from": 52,
+        "text": "The Count's elixir: one drop revives, ten would kill."
+      }
+    ],
+    "description": [
+      {
+        "from": 47,
+        "text": "After the carriage accident at Auteuil, the Count revives the unconscious Edward de Villefort with a single drop of a blood-red liquid from his case of drugs. Madame de Villefort notices the case."
+      },
+      {
+        "from": 52,
+        "text": "The Count tells Madame de Villefort that one drop restores life, while ten would kill, and credits it to his friend the Abbé Adelmonte. After her eager questions about poisons, he offers her the preparation, warning that a small dose is a remedy and a large one a poison."
+      }
+    ],
+    "moments": [
+      {
+        "chapter": 47,
+        "text": "A single drop revives Edward after the runaway-horse accident."
+      },
+      {
+        "chapter": 52,
+        "text": "The Count offers it to Madame de Villefort."
+      }
+    ]
+  }
+]

@@ -2,13 +2,13 @@ import type { BookPageProps } from './BookShell'
 import ProgressBar from '../components/ProgressBar'
 import CharacterChip from '../components/CharacterChip'
 import { href } from '../lib/router'
-import { chapter, metCharacters, newInChapter } from '../lib/spoilers'
+import { chapter, isThing, metCharacters, newInChapter } from '../lib/spoilers'
 
 export default function Overview({ book, upTo, setUpTo }: BookPageProps) {
   const { meta } = book
   const current = chapter(book, upTo, upTo)
   const fresh = newInChapter(book, upTo, upTo)
-  const met = metCharacters(book, upTo)
+  const met = metCharacters(book, upTo).filter((c) => !isThing(c))
   const pct = Math.round((upTo / meta.chapterCount) * 100)
 
   if (upTo === 0) {
@@ -77,7 +77,7 @@ export default function Overview({ book, upTo, setUpTo }: BookPageProps) {
             ))}
           </div>
         ) : (
-          <p className="muted">No new characters in this chapter.</p>
+          <p className="muted">Nobody new in this chapter.</p>
         )}
       </section>
 

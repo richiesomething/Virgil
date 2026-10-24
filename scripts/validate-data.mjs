@@ -30,6 +30,7 @@ for (const book of readdirSync(root, { withFileTypes: true }).filter((d) => d.is
 
   for (const c of characters) {
     const where = `character ${c.id}`
+    if (c.kind !== undefined && !['character', 'object', 'place'].includes(c.kind)) fail(book, `${where} has bad kind ${c.kind}`)
     if (!c.name || !c.group || !['major', 'supporting', 'minor'].includes(c.importance))
       fail(book, `${where} is missing name/group/importance`)
     if (!(c.firstChapter >= 1 && c.firstChapter <= count)) fail(book, `${where} has bad firstChapter`)
@@ -61,7 +62,8 @@ for (const book of readdirSync(root, { withFileTypes: true }).filter((d) => d.is
     }
   }
   const relationships = existsSync(join(root, book, 'relationships.json')) ? load('relationships.json') : []
-  const types = ['family', 'love', 'friend', 'enemy', 'work']
+  const types = ['family', 'love', 'friend', 'enemy', 'work', 'tie']
+  const isThing = (c) => c.kind === 'object' || c.kind === 'place'
   const pairs = new Set()
   for (const r of relationships) {
     const where = `relationship ${r.a}–${r.b}`
@@ -75,6 +77,8 @@ for (const book of readdirSync(root, { withFileTypes: true }).filter((d) => d.is
     let prev = 0
     for (const s of r.states ?? []) {
       if (!types.includes(s.type) || !s.label) fail(book, `${where} has a bad state at ch ${s.from}`)
+      if ((s.type === 'tie') !== (isThing(a) || isThing(b)))
+        fail(book, `${where}: links involving an object or place, and only those, use type "tie"`)
       if (s.from < Math.max(a.firstChapter, b.firstChapter))
         fail(book, `${where} state at ch ${s.from} precedes a character's first appearance`)
       if (s.from > count) fail(book, `${where} state at ch ${s.from} is past the last chapter`)

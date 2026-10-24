@@ -13,7 +13,9 @@
       "edmond-dantes",
       "abbe-faria",
       "jacopo",
-      "cardinal-spada"
+      "cardinal-spada",
+      "spada-treasure",
+      "monte-cristo-island"
     ]
   },
   {
@@ -31,7 +33,10 @@
       "jacopo",
       "louis-dantes",
       "mercedes",
-      "gaspard-caderousse"
+      "gaspard-caderousse",
+      "catalans",
+      "spada-treasure",
+      "monte-cristo-island"
     ]
   },
   {
@@ -52,7 +57,9 @@
       "mercedes",
       "fernand-mondego",
       "danglars",
-      "pierre-morrel"
+      "pierre-morrel",
+      "caderousse-diamond",
+      "pont-du-gard-inn"
     ]
   },
   {
@@ -78,7 +85,13 @@
       "renee-de-saint-meran",
       "albert-de-morcerf",
       "abbe-faria",
-      "ali-tebelin"
+      "ali-tebelin",
+      "pharaon",
+      "catalans",
+      "denunciation-letter",
+      "caderousse-diamond",
+      "pont-du-gard-inn",
+      "red-silk-purse"
     ]
   },
   {
@@ -98,7 +111,10 @@
       "abbe-faria",
       "villefort",
       "danglars",
-      "noirtier"
+      "noirtier",
+      "pharaon",
+      "denunciation-letter",
+      "chateau-dif"
     ]
   },
   {
@@ -120,7 +136,8 @@
       "madame-morrel",
       "penelon",
       "captain-gaumard",
-      "m-de-boville"
+      "m-de-boville",
+      "pharaon"
     ]
   },
   {
@@ -144,7 +161,9 @@
       "captain-gaumard",
       "danglars",
       "edmond-dantes",
-      "jacopo"
+      "jacopo",
+      "pharaon",
+      "red-silk-purse"
     ]
   },
   {
@@ -163,7 +182,8 @@
       "signor-pastrini",
       "gaetano",
       "edmond-dantes",
-      "ali"
+      "ali",
+      "monte-cristo-island"
     ]
   },
   {
@@ -181,7 +201,8 @@
       "gaetano",
       "edmond-dantes",
       "signor-pastrini",
-      "albert-de-morcerf"
+      "albert-de-morcerf",
+      "monte-cristo-island"
     ]
   },
   {

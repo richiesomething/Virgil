@@ -17,7 +17,9 @@
       "napoleon",
       "marshal-bertrand",
       "louis-dantes",
-      "mercedes"
+      "mercedes",
+      "pharaon",
+      "catalans"
     ]
   },
   {
@@ -36,7 +38,9 @@
       "gaspard-caderousse",
       "danglars",
       "pierre-morrel",
-      "mercedes"
+      "mercedes",
+      "pharaon",
+      "catalans"
     ]
   },
   {
@@ -54,7 +58,9 @@
       "fernand-mondego",
       "edmond-dantes",
       "danglars",
-      "gaspard-caderousse"
+      "gaspard-caderousse",
+      "pharaon",
+      "catalans"
     ]
   },
   {
@@ -72,7 +78,10 @@
       "fernand-mondego",
       "gaspard-caderousse",
       "edmond-dantes",
-      "mercedes"
+      "mercedes",
+      "pharaon",
+      "denunciation-letter",
+      "elba-letter"
     ]
   },
   {
@@ -93,7 +102,9 @@
       "danglars",
       "gaspard-caderousse",
       "fernand-mondego",
-      "villefort"
+      "villefort",
+      "pharaon",
+      "denunciation-letter"
     ]
   },
   {
@@ -135,7 +146,10 @@
       "noirtier",
       "captain-leclere",
       "renee-de-saint-meran",
-      "mercedes"
+      "mercedes",
+      "pharaon",
+      "denunciation-letter",
+      "elba-letter"
     ]
   },
   {
@@ -151,7 +165,8 @@
     "characters": [
       "edmond-dantes",
       "mercedes",
-      "villefort"
+      "villefort",
+      "chateau-dif"
     ]
   },
   {
@@ -235,7 +250,8 @@
       "villefort",
       "general-quesnel",
       "napoleon",
-      "louis-xviii"
+      "louis-xviii",
+      "elba-letter"
     ]
   },
   {
@@ -277,7 +293,9 @@
     "characters": [
       "edmond-dantes",
       "abbe-faria",
-      "villefort"
+      "villefort",
+      "chateau-dif",
+      "spada-treasure"
     ]
   },
   {
@@ -295,7 +313,8 @@
       "abbe-faria",
       "mercedes",
       "louis-dantes",
-      "villefort"
+      "villefort",
+      "chateau-dif"
     ]
   },
   {
@@ -311,7 +330,8 @@
     "characters": [
       "abbe-faria",
       "edmond-dantes",
-      "napoleon"
+      "napoleon",
+      "chateau-dif"
     ]
   },
   {
@@ -335,7 +355,11 @@
       "noirtier",
       "captain-leclere",
       "mercedes",
-      "louis-dantes"
+      "louis-dantes",
+      "pharaon",
+      "denunciation-letter",
+      "elba-letter",
+      "chateau-dif"
     ]
   },
   {
@@ -353,7 +377,10 @@
       "edmond-dantes",
       "cardinal-spada",
       "count-of-spada",
-      "cesare-borgia"
+      "cesare-borgia",
+      "chateau-dif",
+      "spada-treasure",
+      "monte-cristo-island"
     ]
   },
   {
@@ -368,7 +395,10 @@
     ],
     "characters": [
       "abbe-faria",
-      "edmond-dantes"
+      "edmond-dantes",
+      "chateau-dif",
+      "spada-treasure",
+      "monte-cristo-island"
     ]
   },
   {
@@ -383,7 +413,8 @@
     ],
     "characters": [
       "edmond-dantes",
-      "abbe-faria"
+      "abbe-faria",
+      "chateau-dif"
     ]
   },
   {
@@ -404,7 +435,8 @@
       "mercedes",
       "danglars",
       "fernand-mondego",
-      "villefort"
+      "villefort",
+      "chateau-dif"
     ]
   },
   {
@@ -421,7 +453,8 @@
       "edmond-dantes",
       "jacopo",
       "captain-baldi",
-      "abbe-faria"
+      "abbe-faria",
+      "monte-cristo-island"
     ]
   },
   {
@@ -440,7 +473,9 @@
       "jacopo",
       "captain-baldi",
       "cardinal-spada",
-      "abbe-faria"
+      "abbe-faria",
+      "spada-treasure",
+      "monte-cristo-island"
     ]
   },
   {
@@ -457,7 +492,9 @@
       "edmond-dantes",
       "abbe-faria",
       "jacopo",
-      "cardinal-spada"
+      "cardinal-spada",
+      "spada-treasure",
+      "monte-cristo-island"
     ]
   },
   {
@@ -475,7 +512,10 @@
       "jacopo",
       "louis-dantes",
       "mercedes",
-      "gaspard-caderousse"
+      "gaspard-caderousse",
+      "catalans",
+      "spada-treasure",
+      "monte-cristo-island"
     ]
   },
   {
@@ -496,7 +536,9 @@
       "mercedes",
       "fernand-mondego",
       "danglars",
-      "pierre-morrel"
+      "pierre-morrel",
+      "caderousse-diamond",
+      "pont-du-gard-inn"
     ]
   },
   {
@@ -522,7 +564,13 @@
       "renee-de-saint-meran",
       "albert-de-morcerf",
       "abbe-faria",
-      "ali-tebelin"
+      "ali-tebelin",
+      "pharaon",
+      "catalans",
+      "denunciation-letter",
+      "caderousse-diamond",
+      "pont-du-gard-inn",
+      "red-silk-purse"
     ]
   },
   {
@@ -542,7 +590,10 @@
       "abbe-faria",
       "villefort",
       "danglars",
-      "noirtier"
+      "noirtier",
+      "pharaon",
+      "denunciation-letter",
+      "chateau-dif"
     ]
   },
   {
@@ -564,7 +615,8 @@
       "madame-morrel",
       "penelon",
       "captain-gaumard",
-      "m-de-boville"
+      "m-de-boville",
+      "pharaon"
     ]
   },
   {
@@ -588,7 +640,9 @@
       "captain-gaumard",
       "danglars",
       "edmond-dantes",
-      "jacopo"
+      "jacopo",
+      "pharaon",
+      "red-silk-purse"
     ]
   },
   {
@@ -607,7 +661,8 @@
       "signor-pastrini",
       "gaetano",
       "edmond-dantes",
-      "ali"
+      "ali",
+      "monte-cristo-island"
     ]
   },
   {
@@ -625,7 +680,8 @@
       "gaetano",
       "edmond-dantes",
       "signor-pastrini",
-      "albert-de-morcerf"
+      "albert-de-morcerf",
+      "monte-cristo-island"
     ]
   },
   {
@@ -812,7 +868,8 @@
       "ali",
       "bertuccio",
       "greek-girl",
-      "germain"
+      "germain",
+      "monte-cristo-island"
     ]
   },
   {
@@ -832,7 +889,8 @@
       "fernand-mondego",
       "bertuccio",
       "franz-depinay",
-      "chateau-renaud"
+      "chateau-renaud",
+      "catalans"
     ]
   },
   {
@@ -849,7 +907,8 @@
       "edmond-dantes",
       "ali",
       "bertuccio",
-      "danglars"
+      "danglars",
+      "house-at-auteuil"
     ]
   },
   {
@@ -867,7 +926,8 @@
       "bertuccio",
       "marquis-de-saint-meran",
       "renee-de-saint-meran",
-      "villefort"
+      "villefort",
+      "house-at-auteuil"
     ]
   },
   {
@@ -890,7 +950,10 @@
       "benedetto",
       "gaspard-caderousse",
       "carconte",
-      "joannes"
+      "joannes",
+      "caderousse-diamond",
+      "pont-du-gard-inn",
+      "house-at-auteuil"
     ]
   },
   {
@@ -913,7 +976,10 @@
       "assunta",
       "villefort",
       "ali",
-      "haydee"
+      "haydee",
+      "caderousse-diamond",
+      "pont-du-gard-inn",
+      "house-at-auteuil"
     ]
   },
   {
@@ -962,7 +1028,9 @@
       "villefort",
       "albert-de-morcerf",
       "chateau-renaud",
-      "beauchamp"
+      "beauchamp",
+      "house-at-auteuil",
+      "the-elixir"
     ]
   },
   {
@@ -1027,7 +1095,9 @@
       "penelon",
       "pierre-morrel",
       "baptistin",
-      "chateau-renaud"
+      "chateau-renaud",
+      "pharaon",
+      "red-silk-purse"
     ]
   },
   {
@@ -1076,7 +1146,8 @@
       "villefort",
       "noirtier",
       "abbe-adelmonte",
-      "haydee"
+      "haydee",
+      "the-elixir"
     ]
   },
   {
@@ -1137,7 +1208,8 @@
       "franz-depinay",
       "valentine-de-villefort",
       "haydee",
-      "bertuccio"
+      "bertuccio",
+      "house-at-auteuil"
     ]
   },
   {
@@ -1172,7 +1244,8 @@
       "andrea-cavalcanti",
       "bartolomeo-cavalcanti",
       "danglars",
-      "baptistin"
+      "baptistin",
+      "house-at-auteuil"
     ]
   },
   {
@@ -1262,7 +1335,8 @@
       "franz-depinay",
       "general-depinay",
       "valentine-de-villefort",
-      "marquis-de-saint-meran"
+      "marquis-de-saint-meran",
+      "house-at-auteuil"
     ]
   },
   {
@@ -1308,7 +1382,8 @@
       "benedetto",
       "villefort",
       "heloise-de-villefort",
-      "baptistin"
+      "baptistin",
+      "house-at-auteuil"
     ]
   },
   {
@@ -1334,7 +1409,8 @@
       "andrea-cavalcanti",
       "baptistin",
       "marquis-de-saint-meran",
-      "valentine-de-villefort"
+      "valentine-de-villefort",
+      "house-at-auteuil"
     ]
   },
   {
@@ -1422,7 +1498,8 @@
       "bertuccio",
       "andrea-cavalcanti",
       "assunta",
-      "danglars"
+      "danglars",
+      "house-at-auteuil"
     ]
   },
   {
@@ -1962,7 +2039,9 @@
       "ali-tebelin",
       "haydee",
       "louis-dantes",
-      "m-de-boville"
+      "m-de-boville",
+      "denunciation-letter",
+      "chateau-dif"
     ]
   },
   {
@@ -2352,7 +2431,9 @@
       "villefort",
       "renee-de-saint-meran",
       "pierre-morrel",
-      "haydee"
+      "haydee",
+      "pharaon",
+      "red-silk-purse"
     ]
   },
   {
@@ -2471,7 +2552,8 @@
       "chateau-renaud",
       "lucien-debray",
       "valentine-de-villefort",
-      "fernand-mondego"
+      "fernand-mondego",
+      "house-at-auteuil"
     ]
   },
   {
@@ -2543,7 +2625,10 @@
       "louis-dantes",
       "haydee",
       "maximilien-morrel",
-      "pierre-morrel"
+      "pierre-morrel",
+      "catalans",
+      "chateau-dif",
+      "monte-cristo-island"
     ]
   },
   {
@@ -2628,7 +2713,8 @@
       "heloise-de-villefort",
       "julie-morrel",
       "emmanuel-herbaut",
-      "pierre-morrel"
+      "pierre-morrel",
+      "monte-cristo-island"
     ]
   }
 ]

@@ -3,7 +3,7 @@ import type { BookPageProps } from './BookShell'
 import type { RelationType } from '../types'
 import CharacterMap from '../components/CharacterMap'
 import { href, navigate } from '../lib/router'
-import { connections, currentTagline, displayId, metCharacters } from '../lib/spoilers'
+import { connections, currentTagline, displayId, isThing, kindOf, metCharacters } from '../lib/spoilers'
 import { relationLabel, relationTypes } from '../lib/relations'
 
 type Scope = 'major' | 'main' | 'all'
@@ -19,22 +19,29 @@ export default function MapPage({ book, upTo, focusId }: BookPageProps & { focus
   const met = metCharacters(book, asOf)
   // Start small for big casts; readers can widen it.
   const [scope, setScope] = useState<Scope>(() => {
-    const n = metCharacters(book, upTo).length
+    const n = metCharacters(book, upTo).filter((c) => !isThing(c)).length
     return n > 50 ? 'major' : n > 30 ? 'main' : 'all'
   })
   const [group, setGroup] = useState('')
   const [hidden, setHidden] = useState<Set<RelationType>>(new Set())
+  // Objects and places are opt-in so the map isn't crowded.
+  const [showObjects, setShowObjects] = useState(false)
+  const [showPlaces, setShowPlaces] = useState(false)
+  const objectCount = met.filter((c) => kindOf(c) === 'object').length
+  const placeCount = met.filter((c) => kindOf(c) === 'place').length
+  const kindShown = (k: string) => k === 'character' || (k === 'object' && showObjects) || (k === 'place' && showPlaces)
 
   // A focus id in the URL may name a disguise the reader has since seen through.
   const selected = focusId ? (displayId(book, focusId, asOf) ?? null) : null
   const select = (id: string | null) => navigate(id ? href('b', meta.id, 'map', id) : href('b', meta.id, 'map'))
 
   const all = useMemo(() => connections(book, asOf), [book, asOf])
-  const groups = useMemo(() => [...new Set(met.map((c) => c.group))].sort(), [met])
+  const groups = [...new Set(met.filter((c) => kindShown(kindOf(c))).map((c) => c.group))].sort()
 
   const inScope = met.filter(
     (c) =>
-      (scope === 'all' || c.importance === 'major' || (scope === 'main' && c.importance === 'supporting')) &&
+      kindShown(kindOf(c)) &&
+      (isThing(c) || scope === 'all' || c.importance === 'major' || (scope === 'main' && c.importance === 'supporting')) &&
       (!group || c.group === group),
   )
   const scopeIds = new Set(inScope.map((c) => c.id))
@@ -58,7 +65,9 @@ export default function MapPage({ book, upTo, focusId }: BookPageProps & { focus
   const pickPerson = (id: string) => {
     const c = byId.get(id)
     if (c && !inScope.some((x) => x.id === id)) {
-      setScope('all')
+      if (kindOf(c) === 'object') setShowObjects(true)
+      else if (kindOf(c) === 'place') setShowPlaces(true)
+      else setScope('all')
       setGroup('')
     }
     select(id)
@@ -117,8 +126,24 @@ export default function MapPage({ book, upTo, focusId }: BookPageProps & { focus
         </label>
       )}
 
+      {(objectCount > 0 || placeCount > 0) && (
+        <div className="also-show" role="group" aria-label="Also show">
+          <span>Also show:</span>
+          {objectCount > 0 && (
+            <button className={'legend__item' + (showObjects ? '' : ' is-off')} aria-pressed={showObjects} onClick={() => setShowObjects(!showObjects)}>
+              <span className="shape shape--object" aria-hidden="true" /> Objects ({objectCount})
+            </button>
+          )}
+          {placeCount > 0 && (
+            <button className={'legend__item' + (showPlaces ? '' : ' is-off')} aria-pressed={showPlaces} onClick={() => setShowPlaces(!showPlaces)}>
+              <span className="shape shape--place" aria-hidden="true" /> Places ({placeCount})
+            </button>
+          )}
+        </div>
+      )}
+
       <div className="legend" role="group" aria-label="Relationship types">
-        {relationTypes.map((r) => {
+        {relationTypes.filter((r) => r.type !== 'tie' || showObjects || showPlaces).map((r) => {
           const off = hidden.has(r.type)
           return (
             <button

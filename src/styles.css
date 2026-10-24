@@ -22,6 +22,8 @@
   --rel-friend: #008300;
   --rel-enemy: #eda100;
   --rel-work: #9a9083;
+  --rel-tie: #b3a999;
+  --thing: #a87b2c;
   color-scheme: light;
 }
 
@@ -47,6 +49,8 @@
     --rel-friend: #008300;
     --rel-enemy: #c98500;
     --rel-work: #7d7468;
+    --rel-tie: #6b6358;
+    --thing: #d4ad62;
     color-scheme: dark;
   }
 }
@@ -275,6 +279,7 @@ button { font: inherit; }
 .rel--friend { stroke: var(--rel-friend); }
 .rel--enemy { stroke: var(--rel-enemy); }
 .rel--work { stroke: var(--rel-work); stroke-width: 1.5; }
+.rel--tie { stroke: var(--rel-tie); stroke-width: 1.25; }
 
 .map-page__head { margin-bottom: 8px; }
 .timeline-slider { display: flex; flex-direction: column; gap: 4px; margin: 4px 0 12px; font-size: 0.92rem; }
@@ -330,3 +335,24 @@ button { font: inherit; }
   .map { height: 60vh; }
   .map-panel { position: static; max-height: none; }
 }
+
+/* Objects and places: gold, and a different shape from people */
+.avatar--object, .avatar--place, .chip--object .avatar, .chip--place .avatar { background: var(--thing); }
+.avatar--object, .chip--object .avatar { clip-path: polygon(50% 0, 100% 50%, 50% 100%, 0 50%); border-radius: 0; }
+.avatar--place, .chip--place .avatar { border-radius: 22%; }
+.node--object .node__dot, .node--place .node__dot { fill: var(--thing); }
+
+.kind-tabs { display: flex; gap: 4px; margin: 16px 0 0; border-bottom: 1px solid var(--border); flex-wrap: wrap; }
+.kind-tab {
+  background: none; border: 0; border-bottom: 2px solid transparent; padding: 8px 12px; margin-bottom: -1px;
+  font: 500 0.95rem var(--sans); color: var(--muted); cursor: pointer;
+}
+.kind-tab.is-active { color: var(--accent); border-bottom-color: var(--accent); }
+.kind-tab .count { font-size: 0.8rem; color: var(--muted); margin-left: 4px; }
+
+.also-show { display: flex; flex-wrap: wrap; gap: 6px; align-items: center; margin-bottom: 8px; font-size: 0.85rem; color: var(--muted); }
+.shape { display: inline-block; width: 10px; height: 10px; background: var(--thing); }
+.shape--object { clip-path: polygon(50% 0, 100% 50%, 50% 100%, 0 50%); }
+.shape--place { border-radius: 2px; }
+.shape--character { border-radius: 50%; background: var(--major); }
+.also-show .legend__item.is-off { text-decoration: none; opacity: 0.6; }

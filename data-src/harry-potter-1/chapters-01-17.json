@@ -21,7 +21,8 @@
       "harry-potter",
       "rubeus-hagrid",
       "sirius-black",
-      "dedalus-diggle"
+      "dedalus-diggle",
+      "privet-drive"
     ]
   },
   {
@@ -40,7 +41,8 @@
       "vernon-dursley",
       "petunia-dursley",
       "arabella-figg",
-      "piers-polkiss"
+      "piers-polkiss",
+      "privet-drive"
     ]
   },
   {
@@ -56,7 +58,8 @@
       "harry-potter",
       "vernon-dursley",
       "petunia-dursley",
-      "dudley-dursley"
+      "dudley-dursley",
+      "privet-drive"
     ]
   },
   {
@@ -77,7 +80,8 @@
       "lily-potter",
       "james-potter",
       "voldemort",
-      "albus-dumbledore"
+      "albus-dumbledore",
+      "hogwarts"
     ]
   },
   {
@@ -100,7 +104,12 @@
       "pale-boy",
       "garrick-ollivander",
       "voldemort",
-      "albus-dumbledore"
+      "albus-dumbledore",
+      "grubby-package",
+      "harrys-wand",
+      "gringotts",
+      "diagon-alley",
+      "platform-nine-and-three-quarters"
     ]
   },
   {
@@ -133,7 +142,10 @@
       "draco-malfoy",
       "vincent-crabbe",
       "gregory-goyle",
-      "rubeus-hagrid"
+      "rubeus-hagrid",
+      "hogwarts",
+      "gringotts",
+      "platform-nine-and-three-quarters"
     ]
   },
   {
@@ -169,7 +181,10 @@
       "peeves",
       "fat-lady",
       "vincent-crabbe",
-      "gregory-goyle"
+      "gregory-goyle",
+      "hogwarts",
+      "third-floor-corridor",
+      "forbidden-forest"
     ]
   },
   {
@@ -198,7 +213,11 @@
       "draco-malfoy",
       "rubeus-hagrid",
       "fang",
-      "hedwig"
+      "hedwig",
+      "grubby-package",
+      "hogwarts",
+      "forbidden-forest",
+      "gringotts"
     ]
   },
   {
@@ -227,7 +246,9 @@
       "peeves",
       "fat-lady",
       "three-headed-dog",
-      "mrs-norris"
+      "mrs-norris",
+      "grubby-package",
+      "third-floor-corridor"
     ]
   },
   {
@@ -252,7 +273,9 @@
       "albus-dumbledore",
       "mountain-troll",
       "severus-snape",
-      "percy-weasley"
+      "percy-weasley",
+      "nimbus-2000",
+      "harrys-wand"
     ]
   },
   {
@@ -281,7 +304,9 @@
       "quirinus-quirrell",
       "three-headed-dog",
       "nicolas-flamel",
-      "neville-longbottom"
+      "neville-longbottom",
+      "nimbus-2000",
+      "third-floor-corridor"
     ]
   },
   {
@@ -311,7 +336,9 @@
       "lily-potter",
       "james-potter",
       "draco-malfoy",
-      "nicolas-flamel"
+      "nicolas-flamel",
+      "invisibility-cloak",
+      "mirror-of-erised"
     ]
   },
   {
@@ -336,7 +363,9 @@
       "quirinus-quirrell",
       "rubeus-hagrid",
       "vincent-crabbe",
-      "gregory-goyle"
+      "gregory-goyle",
+      "sorcerers-stone",
+      "forbidden-forest"
     ]
   },
   {
@@ -365,7 +394,9 @@
       "charlie-weasley",
       "madam-pomfrey",
       "fang",
-      "argus-filch"
+      "argus-filch",
+      "sorcerers-stone",
+      "invisibility-cloak"
     ]
   },
   {
@@ -394,7 +425,10 @@
       "bane",
       "hooded-figure",
       "firenze",
-      "voldemort"
+      "voldemort",
+      "sorcerers-stone",
+      "invisibility-cloak",
+      "forbidden-forest"
     ]
   },
   {
@@ -419,7 +453,10 @@
       "severus-snape",
       "voldemort",
       "peeves",
-      "mountain-troll"
+      "mountain-troll",
+      "sorcerers-stone",
+      "invisibility-cloak",
+      "third-floor-corridor"
     ]
   },
   {
@@ -454,7 +491,11 @@
       "ginny-weasley",
       "vernon-dursley",
       "petunia-dursley",
-      "dudley-dursley"
+      "dudley-dursley",
+      "sorcerers-stone",
+      "invisibility-cloak",
+      "mirror-of-erised",
+      "gringotts"
     ]
   }
 ]

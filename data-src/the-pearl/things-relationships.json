@@ -1,0 +1,271 @@
+[
+  {
+    "a": "kino",
+    "b": "the-pearl",
+    "states": [
+      {
+        "from": 2,
+        "type": "tie",
+        "label": "Kino’s great find and hope"
+      },
+      {
+        "from": 3,
+        "type": "tie",
+        "label": "Kino’s dreams depend on it"
+      },
+      {
+        "from": 5,
+        "type": "tie",
+        "label": "Kino would kill to keep it; calls it his soul"
+      },
+      {
+        "from": 6,
+        "type": "tie",
+        "label": "Kino throws it back into the sea"
+      }
+    ]
+  },
+  {
+    "a": "juana",
+    "b": "the-pearl",
+    "states": [
+      {
+        "from": 2,
+        "type": "tie",
+        "label": "An answer to Juana’s prayer"
+      },
+      {
+        "from": 3,
+        "type": "tie",
+        "label": "Juana believes it is evil"
+      },
+      {
+        "from": 5,
+        "type": "tie",
+        "label": "She tries to throw it into the sea"
+      },
+      {
+        "from": 6,
+        "type": "tie",
+        "label": "She refuses it when Kino offers it"
+      }
+    ]
+  },
+  {
+    "a": "the-doctor",
+    "b": "the-pearl",
+    "states": [
+      {
+        "from": 3,
+        "type": "tie",
+        "label": "Tries to learn where it is hidden"
+      }
+    ]
+  },
+  {
+    "a": "the-priest",
+    "b": "the-pearl",
+    "states": [
+      {
+        "from": 3,
+        "type": "tie",
+        "label": "Hopes it will pay for church repairs"
+      }
+    ]
+  },
+  {
+    "a": "the-pearl-buyers",
+    "b": "the-pearl",
+    "states": [
+      {
+        "from": 3,
+        "type": "tie",
+        "label": "Plan to get it cheaply"
+      },
+      {
+        "from": 4,
+        "type": "tie",
+        "label": "Call it a worthless curiosity"
+      }
+    ]
+  },
+  {
+    "a": "the-night-attackers",
+    "b": "the-pearl",
+    "states": [
+      {
+        "from": 3,
+        "type": "tie",
+        "label": "Try to steal it"
+      }
+    ]
+  },
+  {
+    "a": "the-beggars",
+    "b": "the-pearl",
+    "states": [
+      {
+        "from": 3,
+        "type": "tie",
+        "label": "Hope it will bring them alms"
+      }
+    ]
+  },
+  {
+    "a": "kino",
+    "b": "kinos-canoe",
+    "states": [
+      {
+        "from": 2,
+        "type": "tie",
+        "label": "Kino’s inherited canoe and livelihood"
+      },
+      {
+        "from": 5,
+        "type": "tie",
+        "label": "Kino finds it smashed"
+      }
+    ]
+  },
+  {
+    "a": "kino",
+    "b": "kinos-house",
+    "states": [
+      {
+        "from": 1,
+        "type": "tie",
+        "label": "Kino’s family home"
+      },
+      {
+        "from": 5,
+        "type": "tie",
+        "label": "Burned down"
+      }
+    ]
+  },
+  {
+    "a": "juana",
+    "b": "kinos-house",
+    "states": [
+      {
+        "from": 1,
+        "type": "tie",
+        "label": "Juana’s home"
+      }
+    ]
+  },
+  {
+    "a": "coyotito",
+    "b": "kinos-house",
+    "states": [
+      {
+        "from": 1,
+        "type": "tie",
+        "label": "Stung in his hanging box here"
+      }
+    ]
+  },
+  {
+    "a": "the-night-attackers",
+    "b": "kinos-house",
+    "states": [
+      {
+        "from": 3,
+        "type": "tie",
+        "label": "An intruder searches it at night"
+      }
+    ]
+  },
+  {
+    "a": "kino",
+    "b": "the-gulf",
+    "states": [
+      {
+        "from": 2,
+        "type": "tie",
+        "label": "Dives its oyster bed for a living"
+      },
+      {
+        "from": 6,
+        "type": "tie",
+        "label": "Throws the pearl back into it"
+      }
+    ]
+  },
+  {
+    "a": "the-pearl",
+    "b": "the-gulf",
+    "states": [
+      {
+        "from": 2,
+        "type": "tie",
+        "label": "Found in its oyster bed"
+      },
+      {
+        "from": 6,
+        "type": "tie",
+        "label": "Sinks back to its bottom"
+      }
+    ]
+  },
+  {
+    "a": "kino",
+    "b": "the-capital",
+    "states": [
+      {
+        "from": 4,
+        "type": "tie",
+        "label": "Where Kino plans to sell the pearl"
+      },
+      {
+        "from": 5,
+        "type": "tie",
+        "label": "Where the family is fleeing"
+      }
+    ]
+  },
+  {
+    "a": "juan-tomas",
+    "b": "the-capital",
+    "states": [
+      {
+        "from": 4,
+        "type": "tie",
+        "label": "Warns of sellers who vanished on the way"
+      }
+    ]
+  },
+  {
+    "a": "the-trackers",
+    "b": "the-mountain-pool",
+    "states": [
+      {
+        "from": 6,
+        "type": "tie",
+        "label": "Camp beside it"
+      }
+    ]
+  },
+  {
+    "a": "juana",
+    "b": "the-mountain-pool",
+    "states": [
+      {
+        "from": 6,
+        "type": "tie",
+        "label": "Hides with Coyotito in a cave above it"
+      }
+    ]
+  },
+  {
+    "a": "kino",
+    "b": "the-mountain-pool",
+    "states": [
+      {
+        "from": 6,
+        "type": "tie",
+        "label": "Creeps down to attack the trackers"
+      }
+    ]
+  }
+]

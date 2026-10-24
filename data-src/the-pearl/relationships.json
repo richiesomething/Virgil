@@ -193,58 +193,6 @@
   },
   {
     "a": "kino",
-    "b": "the-pearl",
-    "states": [
-      {
-        "from": 2,
-        "type": "friend",
-        "label": "Kino’s great find and hope"
-      },
-      {
-        "from": 3,
-        "type": "friend",
-        "label": "Kino’s dreams depend on it, though it brings danger"
-      },
-      {
-        "from": 5,
-        "type": "enemy",
-        "label": "Kino would kill to keep it; he calls it his soul"
-      },
-      {
-        "from": 6,
-        "type": "enemy",
-        "label": "Kino throws it back into the sea"
-      }
-    ]
-  },
-  {
-    "a": "juana",
-    "b": "the-pearl",
-    "states": [
-      {
-        "from": 2,
-        "type": "friend",
-        "label": "An answer to Juana’s prayer"
-      },
-      {
-        "from": 3,
-        "type": "enemy",
-        "label": "Juana believes it is evil"
-      },
-      {
-        "from": 5,
-        "type": "enemy",
-        "label": "She tries to throw it into the sea"
-      },
-      {
-        "from": 6,
-        "type": "enemy",
-        "label": "She refuses it when Kino offers it to her"
-      }
-    ]
-  },
-  {
-    "a": "kino",
     "b": "the-night-attackers",
     "states": [
       {

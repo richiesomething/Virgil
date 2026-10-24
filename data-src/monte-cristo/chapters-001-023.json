@@ -17,7 +17,9 @@
       "napoleon",
       "marshal-bertrand",
       "louis-dantes",
-      "mercedes"
+      "mercedes",
+      "pharaon",
+      "catalans"
     ]
   },
   {
@@ -36,7 +38,9 @@
       "gaspard-caderousse",
       "danglars",
       "pierre-morrel",
-      "mercedes"
+      "mercedes",
+      "pharaon",
+      "catalans"
     ]
   },
   {
@@ -54,7 +58,9 @@
       "fernand-mondego",
       "edmond-dantes",
       "danglars",
-      "gaspard-caderousse"
+      "gaspard-caderousse",
+      "pharaon",
+      "catalans"
     ]
   },
   {
@@ -72,7 +78,10 @@
       "fernand-mondego",
       "gaspard-caderousse",
       "edmond-dantes",
-      "mercedes"
+      "mercedes",
+      "pharaon",
+      "denunciation-letter",
+      "elba-letter"
     ]
   },
   {
@@ -93,7 +102,9 @@
       "danglars",
       "gaspard-caderousse",
       "fernand-mondego",
-      "villefort"
+      "villefort",
+      "pharaon",
+      "denunciation-letter"
     ]
   },
   {
@@ -135,7 +146,10 @@
       "noirtier",
       "captain-leclere",
       "renee-de-saint-meran",
-      "mercedes"
+      "mercedes",
+      "pharaon",
+      "denunciation-letter",
+      "elba-letter"
     ]
   },
   {
@@ -151,7 +165,8 @@
     "characters": [
       "edmond-dantes",
       "mercedes",
-      "villefort"
+      "villefort",
+      "chateau-dif"
     ]
   },
   {
@@ -235,7 +250,8 @@
       "villefort",
       "general-quesnel",
       "napoleon",
-      "louis-xviii"
+      "louis-xviii",
+      "elba-letter"
     ]
   },
   {
@@ -277,7 +293,9 @@
     "characters": [
       "edmond-dantes",
       "abbe-faria",
-      "villefort"
+      "villefort",
+      "chateau-dif",
+      "spada-treasure"
     ]
   },
   {
@@ -295,7 +313,8 @@
       "abbe-faria",
       "mercedes",
       "louis-dantes",
-      "villefort"
+      "villefort",
+      "chateau-dif"
     ]
   },
   {
@@ -311,7 +330,8 @@
     "characters": [
       "abbe-faria",
       "edmond-dantes",
-      "napoleon"
+      "napoleon",
+      "chateau-dif"
     ]
   },
   {
@@ -335,7 +355,11 @@
       "noirtier",
       "captain-leclere",
       "mercedes",
-      "louis-dantes"
+      "louis-dantes",
+      "pharaon",
+      "denunciation-letter",
+      "elba-letter",
+      "chateau-dif"
     ]
   },
   {
@@ -353,7 +377,10 @@
       "edmond-dantes",
       "cardinal-spada",
       "count-of-spada",
-      "cesare-borgia"
+      "cesare-borgia",
+      "chateau-dif",
+      "spada-treasure",
+      "monte-cristo-island"
     ]
   },
   {
@@ -368,7 +395,10 @@
     ],
     "characters": [
       "abbe-faria",
-      "edmond-dantes"
+      "edmond-dantes",
+      "chateau-dif",
+      "spada-treasure",
+      "monte-cristo-island"
     ]
   },
   {
@@ -383,7 +413,8 @@
     ],
     "characters": [
       "edmond-dantes",
-      "abbe-faria"
+      "abbe-faria",
+      "chateau-dif"
     ]
   },
   {
@@ -404,7 +435,8 @@
       "mercedes",
       "danglars",
       "fernand-mondego",
-      "villefort"
+      "villefort",
+      "chateau-dif"
     ]
   },
   {
@@ -421,7 +453,8 @@
       "edmond-dantes",
       "jacopo",
       "captain-baldi",
-      "abbe-faria"
+      "abbe-faria",
+      "monte-cristo-island"
     ]
   },
   {
@@ -440,7 +473,9 @@
       "jacopo",
       "captain-baldi",
       "cardinal-spada",
-      "abbe-faria"
+      "abbe-faria",
+      "spada-treasure",
+      "monte-cristo-island"
     ]
   }
 ]

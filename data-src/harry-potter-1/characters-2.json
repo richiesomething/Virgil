@@ -1,0 +1,516 @@
+[
+  {
+    "id": "grubby-package",
+    "kind": "object",
+    "name": "The grubby little package",
+    "firstChapter": 5,
+    "importance": "supporting",
+    "group": "Objects",
+    "aliases": [],
+    "tagline": [
+      {
+        "from": 5,
+        "text": "A mysterious package Hagrid collects from Gringotts for Dumbledore."
+      },
+      {
+        "from": 9,
+        "text": "The package Harry suspects the three-headed dog is guarding."
+      }
+    ],
+    "description": [
+      {
+        "from": 5,
+        "text": "A small, grubby package wrapped in brown paper, which Hagrid takes from vault 713 on secret Hogwarts business. He won’t say what it is."
+      },
+      {
+        "from": 8,
+        "text": "The Daily Prophet reports that vault 713 was broken into on the very day Hagrid emptied it. Whatever the thieves wanted, Hagrid got there first."
+      },
+      {
+        "from": 9,
+        "text": "After finding the dog on the trapdoor, Harry thinks he knows where the package went."
+      }
+    ],
+    "moments": [
+      {
+        "chapter": 5,
+        "text": "Was collected from vault 713 by Hagrid."
+      }
+    ],
+    "mergedInto": {
+      "id": "sorcerers-stone",
+      "from": 13
+    }
+  },
+  {
+    "id": "sorcerers-stone",
+    "kind": "object",
+    "name": "The Sorcerer’s Stone",
+    "firstChapter": 13,
+    "importance": "major",
+    "group": "Objects",
+    "aliases": [
+      {
+        "name": "the Philosopher’s Stone",
+        "from": 13,
+        "note": "its name in the UK edition"
+      }
+    ],
+    "tagline": [
+      {
+        "from": 13,
+        "text": "A legendary stone that makes gold and grants eternal life."
+      },
+      {
+        "from": 17,
+        "text": "The Stone Voldemort wanted to return, now destroyed."
+      }
+    ],
+    "description": [
+      {
+        "from": 13,
+        "text": "The legendary substance made by the alchemist Nicolas Flamel: it turns any metal into pure gold and produces the Elixir of Life, which makes the drinker immortal. The friends realize it is what the three-headed dog guards, and that it was Hagrid’s package."
+      },
+      {
+        "from": 14,
+        "text": "Hagrid reveals that several teachers have each added a protection around it."
+      },
+      {
+        "from": 15,
+        "text": "Harry believes Snape wants it for Voldemort, who could use it to return to power."
+      },
+      {
+        "from": 17,
+        "text": "Dumbledore had hidden it inside the Mirror of Erised, so only someone who wanted to find it but not use it could get it out. Harry did. It has now been destroyed, with Flamel’s agreement."
+      }
+    ],
+    "moments": [
+      {
+        "chapter": 13,
+        "text": "Was identified as what the three-headed dog guards."
+      },
+      {
+        "chapter": 17,
+        "text": "Appeared in Harry’s pocket from the mirror."
+      },
+      {
+        "chapter": 17,
+        "text": "Was destroyed."
+      }
+    ]
+  },
+  {
+    "id": "invisibility-cloak",
+    "kind": "object",
+    "name": "The Invisibility Cloak",
+    "firstChapter": 12,
+    "importance": "major",
+    "group": "Objects",
+    "aliases": [],
+    "tagline": [
+      {
+        "from": 12,
+        "text": "A silvery cloak that makes its wearer invisible, once Harry’s father’s."
+      }
+    ],
+    "description": [
+      {
+        "from": 12,
+        "text": "An anonymous Christmas present: fluid, silvery cloth that makes the wearer invisible, with a note saying it belonged to Harry’s father. Harry uses it to explore the castle at night."
+      },
+      {
+        "from": 14,
+        "text": "Harry and Hermione use it to carry Norbert to the tower, then leave it behind at the top."
+      },
+      {
+        "from": 15,
+        "text": "It is returned to Harry with a note: “Just in case.”"
+      },
+      {
+        "from": 17,
+        "text": "Dumbledore admits he was the one who gave it to Harry."
+      }
+    ],
+    "moments": [
+      {
+        "chapter": 12,
+        "text": "Was given to Harry for Christmas."
+      },
+      {
+        "chapter": 14,
+        "text": "Was left at the top of the tower."
+      },
+      {
+        "chapter": 16,
+        "text": "Hid the friends on the way to the trapdoor."
+      }
+    ]
+  },
+  {
+    "id": "mirror-of-erised",
+    "kind": "object",
+    "name": "The Mirror of Erised",
+    "firstChapter": 12,
+    "importance": "major",
+    "group": "Objects",
+    "aliases": [],
+    "tagline": [
+      {
+        "from": 12,
+        "text": "A tall mirror that shows your deepest desire."
+      },
+      {
+        "from": 17,
+        "text": "The mirror that guarded the Stone."
+      }
+    ],
+    "description": [
+      {
+        "from": 12,
+        "text": "A magnificent mirror in an unused classroom, with a strange inscription. Harry sees his family in it; Ron sees himself as Head Boy and Quidditch captain. Dumbledore explains it shows the deepest desire of your heart, which can drive people mad, and has it moved."
+      },
+      {
+        "from": 17,
+        "text": "It was the final protection around the Stone. Quirrell could see himself presenting the Stone to his master but couldn’t get it out; Harry saw himself put it in his pocket, and it was there."
+      }
+    ],
+    "moments": [
+      {
+        "chapter": 12,
+        "text": "Showed Harry the family he never knew."
+      },
+      {
+        "chapter": 17,
+        "text": "Gave the Stone to Harry."
+      }
+    ]
+  },
+  {
+    "id": "nimbus-2000",
+    "kind": "object",
+    "name": "The Nimbus Two Thousand",
+    "firstChapter": 10,
+    "importance": "minor",
+    "group": "Objects",
+    "aliases": [],
+    "tagline": [
+      {
+        "from": 10,
+        "text": "Harry’s top-of-the-range racing broom."
+      }
+    ],
+    "description": [
+      {
+        "from": 10,
+        "text": "A sleek racing broom McGonagall has delivered to Harry so he can play Seeker."
+      },
+      {
+        "from": 11,
+        "text": "During his first match it bucks and rolls as though trying to throw him off; Hermione is sure Snape is jinxing it."
+      },
+      {
+        "from": 17,
+        "text": "Quirrell admits he was the one who jinxed it; Snape was muttering a counter-curse."
+      }
+    ],
+    "moments": [
+      {
+        "chapter": 11,
+        "text": "Went wild during the Quidditch match."
+      }
+    ]
+  },
+  {
+    "id": "harrys-wand",
+    "kind": "object",
+    "name": "Harry’s wand",
+    "firstChapter": 5,
+    "importance": "minor",
+    "group": "Objects",
+    "aliases": [],
+    "tagline": [
+      {
+        "from": 5,
+        "text": "Holly and phoenix feather, eleven inches, chosen at Ollivanders."
+      }
+    ],
+    "description": [
+      {
+        "from": 5,
+        "text": "After many wrong wands, this one sends sparks flying. Mr. Ollivander notes that its phoenix-feather core has a twin: the wand that gave Harry his scar."
+      },
+      {
+        "from": 10,
+        "text": "Harry jams it up the troll’s nose."
+      }
+    ],
+    "moments": [
+      {
+        "chapter": 5,
+        "text": "Chose Harry at Ollivanders."
+      }
+    ]
+  },
+  {
+    "id": "hogwarts",
+    "kind": "place",
+    "name": "Hogwarts",
+    "firstChapter": 4,
+    "importance": "major",
+    "group": "Places",
+    "aliases": [
+      {
+        "name": "Hogwarts School of Witchcraft and Wizardry",
+        "from": 4
+      }
+    ],
+    "tagline": [
+      {
+        "from": 4,
+        "text": "Hogwarts School of Witchcraft and Wizardry."
+      }
+    ],
+    "description": [
+      {
+        "from": 4,
+        "text": "The school of magic where Harry has had a place since birth, run by Albus Dumbledore."
+      },
+      {
+        "from": 6,
+        "text": "A vast castle on a mountain above a black lake, reached by boat for first-years."
+      },
+      {
+        "from": 7,
+        "text": "Students are sorted into four houses (Gryffindor, Hufflepuff, Ravenclaw and Slytherin) and compete for the House Cup. The Great Hall’s ceiling is enchanted to look like the sky."
+      },
+      {
+        "from": 8,
+        "text": "Its staircases move, some doors are fake, and Peeves causes trouble everywhere."
+      }
+    ],
+    "moments": [
+      {
+        "chapter": 4,
+        "text": "Offered Harry a place."
+      },
+      {
+        "chapter": 17,
+        "text": "Gryffindor won its House Cup."
+      }
+    ]
+  },
+  {
+    "id": "third-floor-corridor",
+    "kind": "place",
+    "name": "The forbidden third-floor corridor",
+    "firstChapter": 7,
+    "importance": "supporting",
+    "group": "Places",
+    "aliases": [],
+    "tagline": [
+      {
+        "from": 7,
+        "text": "A corridor Dumbledore forbids on pain of a very painful death."
+      },
+      {
+        "from": 9,
+        "text": "Where a three-headed dog guards a trapdoor."
+      }
+    ],
+    "description": [
+      {
+        "from": 7,
+        "text": "At the start-of-term feast Dumbledore warns that the right-hand corridor on the third floor is out of bounds to anyone who doesn’t want to die a very painful death."
+      },
+      {
+        "from": 9,
+        "text": "Fleeing Filch, Harry and his friends stumble into it and find a three-headed dog standing on a trapdoor."
+      },
+      {
+        "from": 16,
+        "text": "Beneath the trapdoor lie a series of enchanted obstacles, each set by a different teacher."
+      }
+    ],
+    "moments": [
+      {
+        "chapter": 9,
+        "text": "Was entered by Harry, Ron, Hermione and Neville."
+      },
+      {
+        "chapter": 16,
+        "text": "Harry, Ron and Hermione went through its trapdoor."
+      }
+    ]
+  },
+  {
+    "id": "forbidden-forest",
+    "kind": "place",
+    "name": "The Forbidden Forest",
+    "firstChapter": 7,
+    "importance": "supporting",
+    "group": "Places",
+    "aliases": [],
+    "tagline": [
+      {
+        "from": 7,
+        "text": "The dark forest on the school grounds, forbidden to students."
+      }
+    ],
+    "description": [
+      {
+        "from": 7,
+        "text": "Dumbledore reminds first-years that the forest is out of bounds."
+      },
+      {
+        "from": 8,
+        "text": "Hagrid’s hut stands at its edge."
+      },
+      {
+        "from": 13,
+        "text": "Harry follows Snape there on his broom and overhears him threatening Quirrell."
+      },
+      {
+        "from": 15,
+        "text": "Something is killing unicorns in it. Centaurs live there, and during his detention Harry sees a hooded figure drinking unicorn blood."
+      }
+    ],
+    "moments": [
+      {
+        "chapter": 15,
+        "text": "Was where Harry’s detention took place."
+      }
+    ]
+  },
+  {
+    "id": "gringotts",
+    "kind": "place",
+    "name": "Gringotts",
+    "firstChapter": 5,
+    "importance": "supporting",
+    "group": "Places",
+    "aliases": [],
+    "tagline": [
+      {
+        "from": 5,
+        "text": "The wizarding bank, run by goblins."
+      }
+    ],
+    "description": [
+      {
+        "from": 5,
+        "text": "A snowy-white bank in Diagon Alley, run by goblins, with vaults deep underground reached by rattling carts. Hagrid says only a madman would try to rob it."
+      },
+      {
+        "from": 8,
+        "text": "The Daily Prophet reports a break-in at a high-security vault, on the day Hagrid emptied vault 713."
+      },
+      {
+        "from": 17,
+        "text": "Quirrell admits he was the one who tried to steal from it."
+      }
+    ],
+    "moments": [
+      {
+        "chapter": 8,
+        "text": "Was broken into on Harry’s birthday."
+      }
+    ]
+  },
+  {
+    "id": "diagon-alley",
+    "kind": "place",
+    "name": "Diagon Alley",
+    "firstChapter": 5,
+    "importance": "minor",
+    "group": "Places",
+    "aliases": [],
+    "tagline": [
+      {
+        "from": 5,
+        "text": "London’s hidden wizarding shopping street."
+      }
+    ],
+    "description": [
+      {
+        "from": 5,
+        "text": "A crowded, crooked street reached through a brick wall behind the Leaky Cauldron, with shops selling cauldrons, owls, robes, books and wands."
+      }
+    ],
+    "moments": [
+      {
+        "chapter": 5,
+        "text": "Was where Harry bought his school things."
+      }
+    ]
+  },
+  {
+    "id": "privet-drive",
+    "kind": "place",
+    "name": "Number four, Privet Drive",
+    "firstChapter": 1,
+    "importance": "supporting",
+    "group": "Places",
+    "aliases": [
+      {
+        "name": "Privet Drive",
+        "from": 1
+      }
+    ],
+    "tagline": [
+      {
+        "from": 1,
+        "text": "The Dursleys’ perfectly ordinary house."
+      },
+      {
+        "from": 2,
+        "text": "Harry’s home, a cupboard under its stairs."
+      }
+    ],
+    "description": [
+      {
+        "from": 1,
+        "text": "The Dursleys’ tidy suburban home, where Dumbledore leaves baby Harry on the doorstep."
+      },
+      {
+        "from": 2,
+        "text": "Harry sleeps in the cupboard under the stairs."
+      },
+      {
+        "from": 3,
+        "text": "Letters for Harry flood the house until Uncle Vernon flees with the family."
+      }
+    ],
+    "moments": [
+      {
+        "chapter": 1,
+        "text": "Baby Harry was left on its doorstep."
+      }
+    ]
+  },
+  {
+    "id": "platform-nine-and-three-quarters",
+    "kind": "place",
+    "name": "Platform nine and three-quarters",
+    "firstChapter": 5,
+    "importance": "minor",
+    "group": "Places",
+    "aliases": [],
+    "tagline": [
+      {
+        "from": 5,
+        "text": "The secret platform for the Hogwarts Express."
+      }
+    ],
+    "description": [
+      {
+        "from": 5,
+        "text": "The platform printed on Harry’s train ticket, which doesn’t seem to exist."
+      },
+      {
+        "from": 6,
+        "text": "Mrs. Weasley shows Harry how to reach it: walk straight at the barrier between platforms nine and ten."
+      }
+    ],
+    "moments": []
+  }
+]

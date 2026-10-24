@@ -1,8 +1,8 @@
 import { useMemo, useState } from 'react'
 import type { BookPageProps } from './BookShell'
-import type { Importance } from '../types'
+import type { Importance, Kind } from '../types'
 import { href } from '../lib/router'
-import { currentAliases, currentTagline, metCharacters } from '../lib/spoilers'
+import { currentAliases, currentTagline, kindOf, metCharacters } from '../lib/spoilers'
 import { initials } from '../components/CharacterChip'
 
 type Sort = 'appearance' | 'name' | 'recent'
@@ -14,8 +14,12 @@ export default function CharacterList({ book, upTo }: BookPageProps) {
   const [group, setGroup] = useState('')
   const [sort, setSort] = useState<Sort>('appearance')
   const [minorToo, setMinorToo] = useState(true)
+  const [kind, setKind] = useState<Kind>('character')
 
-  const met = metCharacters(book, upTo)
+  const everything = metCharacters(book, upTo)
+  const counts = { character: 0, object: 0, place: 0 }
+  for (const c of everything) counts[kindOf(c)]++
+  const met = everything.filter((c) => kindOf(c) === kind)
   const groups = useMemo(() => [...new Set(met.map((c) => c.group))].sort(), [met])
 
   const q = query.trim().toLowerCase()
@@ -39,12 +43,41 @@ export default function CharacterList({ book, upTo }: BookPageProps) {
     <div>
       <h1 className="page-title">Characters</h1>
       <p className="muted">
-        {met.length} character{met.length === 1 ? '' : 's'} met through chapter {upTo}. Profiles
-        only include what you’ve read so far.
+        Everyone (and everything important) you’ve met through chapter {upTo}. Profiles only include
+        what you’ve read so far.
       </p>
+      {(counts.object > 0 || counts.place > 0) && (
+        <div className="kind-tabs" role="tablist" aria-label="Show">
+          {(
+            [
+              ['character', 'People'],
+              ['object', 'Objects'],
+              ['place', 'Places'],
+            ] as const
+          )
+            .filter(([k]) => k === 'character' || counts[k] > 0)
+            .map(([k, label]) => (
+              <button
+                key={k}
+                role="tab"
+                aria-selected={kind === k}
+                className={'kind-tab' + (kind === k ? ' is-active' : '')}
+                onClick={() => {
+                  setKind(k)
+                  setGroup('')
+                }}
+              >
+                <span className={`shape shape--${k}`} aria-hidden="true" /> {label}
+                <span className="count">{counts[k]}</span>
+              </button>
+            ))}
+        </div>
+      )}
 
       {met.length === 0 ? (
-        <p className="empty">Set your bookmark to start meeting characters.</p>
+        <p className="empty">
+          {everything.length ? 'Nothing here yet.' : 'Set your bookmark to start meeting characters.'}
+        </p>
       ) : (
         <>
           <div className="filters">
@@ -69,7 +102,7 @@ export default function CharacterList({ book, upTo }: BookPageProps) {
             </select>
             <label className="check">
               <input type="checkbox" checked={minorToo} onChange={(e) => setMinorToo(e.target.checked)} />
-              Include minor characters
+              Include minor ones
             </label>
           </div>
 
@@ -79,7 +112,7 @@ export default function CharacterList({ book, upTo }: BookPageProps) {
               return (
                 <li key={c.id}>
                   <a className="character-row" href={href('b', meta.id, 'characters', c.id)}>
-                    <span className={`avatar avatar--${c.importance}`} aria-hidden="true">{initials(c.name)}</span>
+                    <span className={`avatar avatar--${c.importance} avatar--${kindOf(c)}`} aria-hidden="true">{initials(c.name)}</span>
                     <span className="character-row__body">
                       <span className="character-row__name">
                         {c.name}

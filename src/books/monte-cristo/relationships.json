@@ -3422,5 +3422,921 @@
         "label": "Andrea rages at Peppino’s pardon"
       }
     ]
+  },
+  {
+    "a": "edmond-dantes",
+    "b": "pharaon",
+    "states": [
+      {
+        "from": 1,
+        "type": "tie",
+        "label": "First mate, promised its captaincy"
+      },
+      {
+        "from": 30,
+        "type": "tie",
+        "label": "Secretly sent a new Pharaon to save Morrel"
+      }
+    ]
+  },
+  {
+    "a": "pierre-morrel",
+    "b": "pharaon",
+    "states": [
+      {
+        "from": 1,
+        "type": "tie",
+        "label": "Owner of the ship"
+      },
+      {
+        "from": 29,
+        "type": "tie",
+        "label": "Ruined when his ship sinks"
+      },
+      {
+        "from": 30,
+        "type": "tie",
+        "label": "Saved as a new Pharaon sails in"
+      }
+    ]
+  },
+  {
+    "a": "danglars",
+    "b": "pharaon",
+    "states": [
+      {
+        "from": 1,
+        "type": "tie",
+        "label": "Its supercargo, jealous of Dantès"
+      }
+    ]
+  },
+  {
+    "a": "captain-leclere",
+    "b": "pharaon",
+    "states": [
+      {
+        "from": 1,
+        "type": "tie",
+        "label": "Its captain, who died at sea"
+      }
+    ]
+  },
+  {
+    "a": "captain-gaumard",
+    "b": "pharaon",
+    "states": [
+      {
+        "from": 29,
+        "type": "tie",
+        "label": "Its captain when it sank"
+      }
+    ]
+  },
+  {
+    "a": "penelon",
+    "b": "pharaon",
+    "states": [
+      {
+        "from": 29,
+        "type": "tie",
+        "label": "Old sailor who survived its sinking"
+      }
+    ]
+  },
+  {
+    "a": "mercedes",
+    "b": "catalans",
+    "states": [
+      {
+        "from": 1,
+        "type": "tie",
+        "label": "Lives in the village"
+      }
+    ]
+  },
+  {
+    "a": "fernand-mondego",
+    "b": "catalans",
+    "states": [
+      {
+        "from": 3,
+        "type": "tie",
+        "label": "Fisherman of the village, Mercédès's cousin"
+      }
+    ]
+  },
+  {
+    "a": "edmond-dantes",
+    "b": "catalans",
+    "states": [
+      {
+        "from": 3,
+        "type": "tie",
+        "label": "Comes here to see Mercédès"
+      },
+      {
+        "from": 25,
+        "type": "tie",
+        "label": "Returns to find Mercédès gone"
+      }
+    ]
+  },
+  {
+    "a": "danglars",
+    "b": "denunciation-letter",
+    "states": [
+      {
+        "from": 4,
+        "type": "tie",
+        "label": "Wrote it left-handed to ruin Dantès"
+      }
+    ]
+  },
+  {
+    "a": "fernand-mondego",
+    "b": "denunciation-letter",
+    "states": [
+      {
+        "from": 4,
+        "type": "tie",
+        "label": "Picked it up after Danglars threw it away"
+      },
+      {
+        "from": 27,
+        "type": "tie",
+        "label": "Posted it, Caderousse reveals"
+      }
+    ]
+  },
+  {
+    "a": "gaspard-caderousse",
+    "b": "denunciation-letter",
+    "states": [
+      {
+        "from": 4,
+        "type": "tie",
+        "label": "Watched it being written, drunk"
+      },
+      {
+        "from": 27,
+        "type": "tie",
+        "label": "Tells the abbé who wrote and posted it"
+      }
+    ]
+  },
+  {
+    "a": "edmond-dantes",
+    "b": "denunciation-letter",
+    "states": [
+      {
+        "from": 5,
+        "type": "tie",
+        "label": "Arrested because of it"
+      },
+      {
+        "from": 17,
+        "type": "tie",
+        "label": "Learns from Faria who wrote it"
+      },
+      {
+        "from": 28,
+        "type": "tie",
+        "label": "Took it from his prison file"
+      },
+      {
+        "from": 89,
+        "type": "tie",
+        "label": "Shows it to Mercédès"
+      }
+    ]
+  },
+  {
+    "a": "villefort",
+    "b": "denunciation-letter",
+    "states": [
+      {
+        "from": 7,
+        "type": "tie",
+        "label": "Read it while examining Dantès"
+      }
+    ]
+  },
+  {
+    "a": "abbe-faria",
+    "b": "denunciation-letter",
+    "states": [
+      {
+        "from": 17,
+        "type": "tie",
+        "label": "Worked out who wrote it"
+      }
+    ]
+  },
+  {
+    "a": "mercedes",
+    "b": "denunciation-letter",
+    "states": [
+      {
+        "from": 89,
+        "type": "tie",
+        "label": "Shown it by the Count"
+      }
+    ]
+  },
+  {
+    "a": "edmond-dantes",
+    "b": "elba-letter",
+    "states": [
+      {
+        "from": 4,
+        "type": "tie",
+        "label": "Accused of carrying it to Paris"
+      },
+      {
+        "from": 7,
+        "type": "tie",
+        "label": "Carried it from Elba, unaware of its contents"
+      }
+    ]
+  },
+  {
+    "a": "danglars",
+    "b": "elba-letter",
+    "states": [
+      {
+        "from": 4,
+        "type": "tie",
+        "label": "Denounced Dantès for carrying it"
+      }
+    ]
+  },
+  {
+    "a": "marshal-bertrand",
+    "b": "elba-letter",
+    "states": [
+      {
+        "from": 7,
+        "type": "tie",
+        "label": "Gave it to Dantès on Elba"
+      }
+    ]
+  },
+  {
+    "a": "noirtier",
+    "b": "elba-letter",
+    "states": [
+      {
+        "from": 7,
+        "type": "tie",
+        "label": "Its addressee in Paris"
+      }
+    ]
+  },
+  {
+    "a": "villefort",
+    "b": "elba-letter",
+    "states": [
+      {
+        "from": 7,
+        "type": "tie",
+        "label": "Burned it to shield his father"
+      }
+    ]
+  },
+  {
+    "a": "edmond-dantes",
+    "b": "chateau-dif",
+    "states": [
+      {
+        "from": 8,
+        "type": "tie",
+        "label": "Imprisoned here without trial"
+      },
+      {
+        "from": 21,
+        "type": "tie",
+        "label": "Escaped after fourteen years here"
+      },
+      {
+        "from": 113,
+        "type": "tie",
+        "label": "Revisits his old cell"
+      }
+    ]
+  },
+  {
+    "a": "villefort",
+    "b": "chateau-dif",
+    "states": [
+      {
+        "from": 8,
+        "type": "tie",
+        "label": "Had Dantès locked up here"
+      }
+    ]
+  },
+  {
+    "a": "abbe-faria",
+    "b": "chateau-dif",
+    "states": [
+      {
+        "from": 14,
+        "type": "tie",
+        "label": "Prisoner here, thought mad"
+      },
+      {
+        "from": 19,
+        "type": "tie",
+        "label": "Died a prisoner here"
+      }
+    ]
+  },
+  {
+    "a": "m-de-boville",
+    "b": "chateau-dif",
+    "states": [
+      {
+        "from": 28,
+        "type": "tie",
+        "label": "Inspected it; keeps its prison records"
+      }
+    ]
+  },
+  {
+    "a": "abbe-faria",
+    "b": "spada-treasure",
+    "states": [
+      {
+        "from": 14,
+        "type": "tie",
+        "label": "Offers it in exchange for freedom"
+      },
+      {
+        "from": 18,
+        "type": "tie",
+        "label": "Found the clue to its hiding place"
+      }
+    ]
+  },
+  {
+    "a": "cardinal-spada",
+    "b": "spada-treasure",
+    "states": [
+      {
+        "from": 18,
+        "type": "tie",
+        "label": "Hid his fortune before being poisoned"
+      }
+    ]
+  },
+  {
+    "a": "cesare-borgia",
+    "b": "spada-treasure",
+    "states": [
+      {
+        "from": 18,
+        "type": "tie",
+        "label": "Poisoned Spada but never found it"
+      }
+    ]
+  },
+  {
+    "a": "count-of-spada",
+    "b": "spada-treasure",
+    "states": [
+      {
+        "from": 18,
+        "type": "tie",
+        "label": "Last heir; left Faria the papers"
+      }
+    ]
+  },
+  {
+    "a": "edmond-dantes",
+    "b": "spada-treasure",
+    "states": [
+      {
+        "from": 18,
+        "type": "tie",
+        "label": "Named Faria's heir to it"
+      },
+      {
+        "from": 24,
+        "type": "tie",
+        "label": "Found the treasure Faria described"
+      }
+    ]
+  },
+  {
+    "a": "monte-cristo-island",
+    "b": "spada-treasure",
+    "states": [
+      {
+        "from": 18,
+        "type": "tie",
+        "label": "Hidden in the island's caves"
+      }
+    ]
+  },
+  {
+    "a": "abbe-faria",
+    "b": "monte-cristo-island",
+    "states": [
+      {
+        "from": 18,
+        "type": "tie",
+        "label": "Knew the treasure was hidden here"
+      }
+    ]
+  },
+  {
+    "a": "cardinal-spada",
+    "b": "monte-cristo-island",
+    "states": [
+      {
+        "from": 18,
+        "type": "tie",
+        "label": "Hid his treasure in its caves"
+      }
+    ]
+  },
+  {
+    "a": "edmond-dantes",
+    "b": "monte-cristo-island",
+    "states": [
+      {
+        "from": 18,
+        "type": "tie",
+        "label": "Faria's heir to its hidden treasure"
+      },
+      {
+        "from": 24,
+        "type": "tie",
+        "label": "Found the treasure in its caves"
+      },
+      {
+        "from": 31,
+        "type": "tie",
+        "label": "Keeps a secret palace here as Sinbad"
+      },
+      {
+        "from": 40,
+        "type": "tie",
+        "label": "Takes his title from the island"
+      }
+    ]
+  },
+  {
+    "a": "captain-baldi",
+    "b": "monte-cristo-island",
+    "states": [
+      {
+        "from": 22,
+        "type": "tie",
+        "label": "Chose it as his smugglers' meeting place"
+      }
+    ]
+  },
+  {
+    "a": "jacopo",
+    "b": "monte-cristo-island",
+    "states": [
+      {
+        "from": 23,
+        "type": "tie",
+        "label": "Offered to stay with the 'injured' Dantès"
+      }
+    ]
+  },
+  {
+    "a": "franz-depinay",
+    "b": "monte-cristo-island",
+    "states": [
+      {
+        "from": 31,
+        "type": "tie",
+        "label": "Entertained here by Sinbad the Sailor"
+      }
+    ]
+  },
+  {
+    "a": "gaetano",
+    "b": "monte-cristo-island",
+    "states": [
+      {
+        "from": 31,
+        "type": "tie",
+        "label": "Steers Franz to the island"
+      }
+    ]
+  },
+  {
+    "a": "maximilien-morrel",
+    "b": "monte-cristo-island",
+    "states": [
+      {
+        "from": 113,
+        "type": "tie",
+        "label": "Summoned here for 5 October"
+      },
+      {
+        "from": 117,
+        "type": "tie",
+        "label": "Comes here meaning to die"
+      }
+    ]
+  },
+  {
+    "a": "edmond-dantes",
+    "b": "caderousse-diamond",
+    "states": [
+      {
+        "from": 26,
+        "type": "tie",
+        "label": "Brings it as the Italian abbé"
+      },
+      {
+        "from": 27,
+        "type": "tie",
+        "label": "Gives it to Caderousse"
+      }
+    ]
+  },
+  {
+    "a": "gaspard-caderousse",
+    "b": "caderousse-diamond",
+    "states": [
+      {
+        "from": 26,
+        "type": "tie",
+        "label": "Promised a share of it"
+      },
+      {
+        "from": 27,
+        "type": "tie",
+        "label": "Received it from the abbé"
+      },
+      {
+        "from": 44,
+        "type": "tie",
+        "label": "Sold it to a jeweller"
+      }
+    ]
+  },
+  {
+    "a": "carconte",
+    "b": "caderousse-diamond",
+    "states": [
+      {
+        "from": 26,
+        "type": "tie",
+        "label": "Covets it with her husband"
+      },
+      {
+        "from": 45,
+        "type": "tie",
+        "label": "Plotted the jeweller's murder for it"
+      }
+    ]
+  },
+  {
+    "a": "joannes",
+    "b": "caderousse-diamond",
+    "states": [
+      {
+        "from": 44,
+        "type": "tie",
+        "label": "Jeweller who bought it"
+      },
+      {
+        "from": 45,
+        "type": "tie",
+        "label": "Murdered for it"
+      }
+    ]
+  },
+  {
+    "a": "bertuccio",
+    "b": "caderousse-diamond",
+    "states": [
+      {
+        "from": 44,
+        "type": "tie",
+        "label": "Secretly watched it being sold"
+      }
+    ]
+  },
+  {
+    "a": "gaspard-caderousse",
+    "b": "pont-du-gard-inn",
+    "states": [
+      {
+        "from": 26,
+        "type": "tie",
+        "label": "Keeps the inn"
+      },
+      {
+        "from": 45,
+        "type": "tie",
+        "label": "Fled after the murder here"
+      }
+    ]
+  },
+  {
+    "a": "carconte",
+    "b": "pont-du-gard-inn",
+    "states": [
+      {
+        "from": 26,
+        "type": "tie",
+        "label": "Runs the inn with Caderousse"
+      },
+      {
+        "from": 45,
+        "type": "tie",
+        "label": "Killed here the night of the murder"
+      }
+    ]
+  },
+  {
+    "a": "edmond-dantes",
+    "b": "pont-du-gard-inn",
+    "states": [
+      {
+        "from": 26,
+        "type": "tie",
+        "label": "Visits disguised as an Italian abbé"
+      }
+    ]
+  },
+  {
+    "a": "bertuccio",
+    "b": "pont-du-gard-inn",
+    "states": [
+      {
+        "from": 44,
+        "type": "tie",
+        "label": "Hid here while smuggling"
+      },
+      {
+        "from": 45,
+        "type": "tie",
+        "label": "Arrested for the murder here"
+      }
+    ]
+  },
+  {
+    "a": "joannes",
+    "b": "pont-du-gard-inn",
+    "states": [
+      {
+        "from": 44,
+        "type": "tie",
+        "label": "Came here to buy the diamond"
+      },
+      {
+        "from": 45,
+        "type": "tie",
+        "label": "Murdered here"
+      }
+    ]
+  },
+  {
+    "a": "pierre-morrel",
+    "b": "red-silk-purse",
+    "states": [
+      {
+        "from": 27,
+        "type": "tie",
+        "label": "Left it for old Dantès"
+      },
+      {
+        "from": 30,
+        "type": "tie",
+        "label": "Saved by what it contained"
+      }
+    ]
+  },
+  {
+    "a": "louis-dantes",
+    "b": "red-silk-purse",
+    "states": [
+      {
+        "from": 27,
+        "type": "tie",
+        "label": "Left on his mantelpiece by Morrel"
+      }
+    ]
+  },
+  {
+    "a": "gaspard-caderousse",
+    "b": "red-silk-purse",
+    "states": [
+      {
+        "from": 27,
+        "type": "tie",
+        "label": "Kept it, then gave it to the abbé"
+      }
+    ]
+  },
+  {
+    "a": "edmond-dantes",
+    "b": "red-silk-purse",
+    "states": [
+      {
+        "from": 27,
+        "type": "tie",
+        "label": "Took it from Caderousse as the abbé"
+      },
+      {
+        "from": 30,
+        "type": "tie",
+        "label": "Returned it to the Morrels, filled"
+      }
+    ]
+  },
+  {
+    "a": "julie-morrel",
+    "b": "red-silk-purse",
+    "states": [
+      {
+        "from": 30,
+        "type": "tie",
+        "label": "Found it and brought it to her father"
+      },
+      {
+        "from": 50,
+        "type": "tie",
+        "label": "Keeps it as a sacred relic"
+      }
+    ]
+  },
+  {
+    "a": "maximilien-morrel",
+    "b": "red-silk-purse",
+    "states": [
+      {
+        "from": 50,
+        "type": "tie",
+        "label": "Shows it to the Count as a relic"
+      }
+    ]
+  },
+  {
+    "a": "edmond-dantes",
+    "b": "house-at-auteuil",
+    "states": [
+      {
+        "from": 42,
+        "type": "tie",
+        "label": "Bought it sight unseen"
+      },
+      {
+        "from": 62,
+        "type": "tie",
+        "label": "Hosts a pointed dinner here"
+      }
+    ]
+  },
+  {
+    "a": "bertuccio",
+    "b": "house-at-auteuil",
+    "states": [
+      {
+        "from": 42,
+        "type": "tie",
+        "label": "Turns pale at its address"
+      },
+      {
+        "from": 43,
+        "type": "tie",
+        "label": "Stabbed Villefort in its garden"
+      }
+    ]
+  },
+  {
+    "a": "villefort",
+    "b": "house-at-auteuil",
+    "states": [
+      {
+        "from": 43,
+        "type": "tie",
+        "label": "Stabbed in its garden by Bertuccio"
+      },
+      {
+        "from": 44,
+        "type": "tie",
+        "label": "Buried a baby in its garden"
+      }
+    ]
+  },
+  {
+    "a": "marquis-de-saint-meran",
+    "b": "house-at-auteuil",
+    "states": [
+      {
+        "from": 43,
+        "type": "tie",
+        "label": "Its former owner"
+      }
+    ]
+  },
+  {
+    "a": "benedetto",
+    "b": "house-at-auteuil",
+    "states": [
+      {
+        "from": 44,
+        "type": "tie",
+        "label": "Buried alive here as a newborn"
+      },
+      {
+        "from": 110,
+        "type": "tie",
+        "label": "Tells the court he was born here"
+      }
+    ]
+  },
+  {
+    "a": "hermine-danglars",
+    "b": "house-at-auteuil",
+    "states": [
+      {
+        "from": 62,
+        "type": "tie",
+        "label": "The woman Bertuccio saw here that night"
+      },
+      {
+        "from": 67,
+        "type": "tie",
+        "label": "Mother of the child buried here"
+      }
+    ]
+  },
+  {
+    "a": "heloise-de-villefort",
+    "b": "house-at-auteuil",
+    "states": [
+      {
+        "from": 47,
+        "type": "tie",
+        "label": "Her runaway horses stopped outside"
+      }
+    ]
+  },
+  {
+    "a": "edmond-dantes",
+    "b": "the-elixir",
+    "states": [
+      {
+        "from": 47,
+        "type": "tie",
+        "label": "Revived Edward with one drop"
+      },
+      {
+        "from": 52,
+        "type": "tie",
+        "label": "Offers it to Madame de Villefort"
+      }
+    ]
+  },
+  {
+    "a": "edouard-de-villefort",
+    "b": "the-elixir",
+    "states": [
+      {
+        "from": 47,
+        "type": "tie",
+        "label": "Revived by it after the accident"
+      }
+    ]
+  },
+  {
+    "a": "heloise-de-villefort",
+    "b": "the-elixir",
+    "states": [
+      {
+        "from": 47,
+        "type": "tie",
+        "label": "Saw it revive her son"
+      },
+      {
+        "from": 52,
+        "type": "tie",
+        "label": "Offered it by the Count"
+      }
+    ]
+  },
+  {
+    "a": "abbe-adelmonte",
+    "b": "the-elixir",
+    "states": [
+      {
+        "from": 52,
+        "type": "tie",
+        "label": "Its inventor, the Count claims"
+      }
+    ]
   }
 ]

@@ -72,7 +72,8 @@
       "ali",
       "bertuccio",
       "greek-girl",
-      "germain"
+      "germain",
+      "monte-cristo-island"
     ]
   },
   {
@@ -92,7 +93,8 @@
       "fernand-mondego",
       "bertuccio",
       "franz-depinay",
-      "chateau-renaud"
+      "chateau-renaud",
+      "catalans"
     ]
   },
   {
@@ -109,7 +111,8 @@
       "edmond-dantes",
       "ali",
       "bertuccio",
-      "danglars"
+      "danglars",
+      "house-at-auteuil"
     ]
   },
   {
@@ -127,7 +130,8 @@
       "bertuccio",
       "marquis-de-saint-meran",
       "renee-de-saint-meran",
-      "villefort"
+      "villefort",
+      "house-at-auteuil"
     ]
   },
   {
@@ -150,7 +154,10 @@
       "benedetto",
       "gaspard-caderousse",
       "carconte",
-      "joannes"
+      "joannes",
+      "caderousse-diamond",
+      "pont-du-gard-inn",
+      "house-at-auteuil"
     ]
   },
   {
@@ -173,7 +180,10 @@
       "assunta",
       "villefort",
       "ali",
-      "haydee"
+      "haydee",
+      "caderousse-diamond",
+      "pont-du-gard-inn",
+      "house-at-auteuil"
     ]
   },
   {
@@ -222,7 +232,9 @@
       "villefort",
       "albert-de-morcerf",
       "chateau-renaud",
-      "beauchamp"
+      "beauchamp",
+      "house-at-auteuil",
+      "the-elixir"
     ]
   },
   {
@@ -287,7 +299,9 @@
       "penelon",
       "pierre-morrel",
       "baptistin",
-      "chateau-renaud"
+      "chateau-renaud",
+      "pharaon",
+      "red-silk-purse"
     ]
   },
   {
@@ -336,7 +350,8 @@
       "villefort",
       "noirtier",
       "abbe-adelmonte",
-      "haydee"
+      "haydee",
+      "the-elixir"
     ]
   },
   {
@@ -397,7 +412,8 @@
       "franz-depinay",
       "valentine-de-villefort",
       "haydee",
-      "bertuccio"
+      "bertuccio",
+      "house-at-auteuil"
     ]
   }
 ]

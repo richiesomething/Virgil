@@ -18,7 +18,8 @@
       "apolonia",
       "the-beggars",
       "the-doctor",
-      "the-doctors-servant"
+      "the-doctors-servant",
+      "kinos-house"
     ]
   },
   {
@@ -34,7 +35,9 @@
       "kino",
       "juana",
       "coyotito",
-      "the-pearl"
+      "the-pearl",
+      "kinos-canoe",
+      "the-gulf"
     ]
   },
   {
@@ -59,7 +62,9 @@
       "the-doctors-servant",
       "juan-tomas",
       "the-neighbors",
-      "the-night-attackers"
+      "the-night-attackers",
+      "kinos-house",
+      "the-gulf"
     ]
   },
   {
@@ -79,7 +84,8 @@
       "the-neighbors",
       "the-pearl-buyers",
       "juan-tomas",
-      "the-night-attackers"
+      "the-night-attackers",
+      "the-capital"
     ]
   },
   {
@@ -100,7 +106,10 @@
       "the-night-attackers",
       "juan-tomas",
       "apolonia",
-      "the-neighbors"
+      "the-neighbors",
+      "kinos-house",
+      "kinos-canoe",
+      "the-capital"
     ]
   },
   {
@@ -118,7 +127,9 @@
       "juana",
       "coyotito",
       "the-pearl",
-      "the-trackers"
+      "the-trackers",
+      "the-gulf",
+      "the-mountain-pool"
     ]
   }
 ]

@@ -1,0 +1,702 @@
+[
+  {
+    "a": "rubeus-hagrid",
+    "b": "grubby-package",
+    "states": [
+      {
+        "from": 5,
+        "type": "tie",
+        "label": "Collects it from vault 713"
+      }
+    ]
+  },
+  {
+    "a": "albus-dumbledore",
+    "b": "grubby-package",
+    "states": [
+      {
+        "from": 5,
+        "type": "tie",
+        "label": "Hagrid fetches it on Dumbledore’s business"
+      }
+    ]
+  },
+  {
+    "a": "grubby-package",
+    "b": "gringotts",
+    "states": [
+      {
+        "from": 5,
+        "type": "tie",
+        "label": "Kept in vault 713"
+      },
+      {
+        "from": 8,
+        "type": "tie",
+        "label": "Its vault was raided after Hagrid emptied it"
+      }
+    ]
+  },
+  {
+    "a": "three-headed-dog",
+    "b": "grubby-package",
+    "states": [
+      {
+        "from": 9,
+        "type": "tie",
+        "label": "Harry guesses the dog guards it"
+      }
+    ]
+  },
+  {
+    "a": "nicolas-flamel",
+    "b": "sorcerers-stone",
+    "states": [
+      {
+        "from": 13,
+        "type": "tie",
+        "label": "Flamel made it"
+      },
+      {
+        "from": 17,
+        "type": "tie",
+        "label": "Agrees it should be destroyed"
+      }
+    ]
+  },
+  {
+    "a": "albus-dumbledore",
+    "b": "sorcerers-stone",
+    "states": [
+      {
+        "from": 13,
+        "type": "tie",
+        "label": "Dumbledore is keeping it safe for Flamel"
+      },
+      {
+        "from": 17,
+        "type": "tie",
+        "label": "Hid it in the mirror; then destroyed it"
+      }
+    ]
+  },
+  {
+    "a": "three-headed-dog",
+    "b": "sorcerers-stone",
+    "states": [
+      {
+        "from": 13,
+        "type": "tie",
+        "label": "Guards it"
+      }
+    ]
+  },
+  {
+    "a": "severus-snape",
+    "b": "sorcerers-stone",
+    "states": [
+      {
+        "from": 13,
+        "type": "tie",
+        "label": "Harry believes Snape is after it"
+      },
+      {
+        "from": 17,
+        "type": "tie",
+        "label": "Snape was trying to protect it"
+      }
+    ]
+  },
+  {
+    "a": "quirinus-quirrell",
+    "b": "sorcerers-stone",
+    "states": [
+      {
+        "from": 13,
+        "type": "tie",
+        "label": "Thought to be protecting it"
+      },
+      {
+        "from": 17,
+        "type": "tie",
+        "label": "Tried to steal it for Voldemort"
+      }
+    ]
+  },
+  {
+    "a": "voldemort",
+    "b": "sorcerers-stone",
+    "states": [
+      {
+        "from": 15,
+        "type": "tie",
+        "label": "Harry fears Voldemort wants it to return"
+      },
+      {
+        "from": 17,
+        "type": "tie",
+        "label": "Wanted it to make himself a new body"
+      }
+    ]
+  },
+  {
+    "a": "harry-potter",
+    "b": "sorcerers-stone",
+    "states": [
+      {
+        "from": 13,
+        "type": "tie",
+        "label": "Determined to stop it being stolen"
+      },
+      {
+        "from": 17,
+        "type": "tie",
+        "label": "Got it from the mirror"
+      }
+    ]
+  },
+  {
+    "a": "hermione-granger",
+    "b": "sorcerers-stone",
+    "states": [
+      {
+        "from": 13,
+        "type": "tie",
+        "label": "Found the book that explains it"
+      }
+    ]
+  },
+  {
+    "a": "sorcerers-stone",
+    "b": "mirror-of-erised",
+    "states": [
+      {
+        "from": 17,
+        "type": "tie",
+        "label": "Hidden inside the mirror"
+      }
+    ]
+  },
+  {
+    "a": "harry-potter",
+    "b": "invisibility-cloak",
+    "states": [
+      {
+        "from": 12,
+        "type": "tie",
+        "label": "Christmas gift; belonged to his father"
+      },
+      {
+        "from": 14,
+        "type": "tie",
+        "label": "Left behind at the top of the tower"
+      },
+      {
+        "from": 15,
+        "type": "tie",
+        "label": "Returned to him: “Just in case”"
+      }
+    ]
+  },
+  {
+    "a": "james-potter",
+    "b": "invisibility-cloak",
+    "states": [
+      {
+        "from": 12,
+        "type": "tie",
+        "label": "Once belonged to him"
+      }
+    ]
+  },
+  {
+    "a": "albus-dumbledore",
+    "b": "invisibility-cloak",
+    "states": [
+      {
+        "from": 17,
+        "type": "tie",
+        "label": "Sent it to Harry"
+      }
+    ]
+  },
+  {
+    "a": "hermione-granger",
+    "b": "invisibility-cloak",
+    "states": [
+      {
+        "from": 14,
+        "type": "tie",
+        "label": "Shares it with Harry to move Norbert"
+      }
+    ]
+  },
+  {
+    "a": "harry-potter",
+    "b": "mirror-of-erised",
+    "states": [
+      {
+        "from": 12,
+        "type": "tie",
+        "label": "Shows Harry his family"
+      },
+      {
+        "from": 17,
+        "type": "tie",
+        "label": "Gives Harry the Stone"
+      }
+    ]
+  },
+  {
+    "a": "ron-weasley",
+    "b": "mirror-of-erised",
+    "states": [
+      {
+        "from": 12,
+        "type": "tie",
+        "label": "Shows Ron as Head Boy and captain"
+      }
+    ]
+  },
+  {
+    "a": "albus-dumbledore",
+    "b": "mirror-of-erised",
+    "states": [
+      {
+        "from": 12,
+        "type": "tie",
+        "label": "Explains it and has it moved"
+      },
+      {
+        "from": 17,
+        "type": "tie",
+        "label": "Used it to hide the Stone"
+      }
+    ]
+  },
+  {
+    "a": "quirinus-quirrell",
+    "b": "mirror-of-erised",
+    "states": [
+      {
+        "from": 17,
+        "type": "tie",
+        "label": "Can’t get the Stone out of it"
+      }
+    ]
+  },
+  {
+    "a": "harry-potter",
+    "b": "nimbus-2000",
+    "states": [
+      {
+        "from": 10,
+        "type": "tie",
+        "label": "Harry’s racing broom"
+      },
+      {
+        "from": 11,
+        "type": "tie",
+        "label": "Bucks wildly during his first match"
+      }
+    ]
+  },
+  {
+    "a": "minerva-mcgonagall",
+    "b": "nimbus-2000",
+    "states": [
+      {
+        "from": 10,
+        "type": "tie",
+        "label": "Sends it to Harry"
+      }
+    ]
+  },
+  {
+    "a": "draco-malfoy",
+    "b": "nimbus-2000",
+    "states": [
+      {
+        "from": 10,
+        "type": "tie",
+        "label": "Tries to get Harry in trouble for it"
+      }
+    ]
+  },
+  {
+    "a": "severus-snape",
+    "b": "nimbus-2000",
+    "states": [
+      {
+        "from": 11,
+        "type": "tie",
+        "label": "Hermione thinks he is jinxing it"
+      },
+      {
+        "from": 17,
+        "type": "tie",
+        "label": "Was muttering a counter-curse to save it"
+      }
+    ]
+  },
+  {
+    "a": "quirinus-quirrell",
+    "b": "nimbus-2000",
+    "states": [
+      {
+        "from": 17,
+        "type": "tie",
+        "label": "Jinxed it"
+      }
+    ]
+  },
+  {
+    "a": "harry-potter",
+    "b": "harrys-wand",
+    "states": [
+      {
+        "from": 5,
+        "type": "tie",
+        "label": "Chose Harry at Ollivanders"
+      }
+    ]
+  },
+  {
+    "a": "garrick-ollivander",
+    "b": "harrys-wand",
+    "states": [
+      {
+        "from": 5,
+        "type": "tie",
+        "label": "Sold it, intrigued by its twin core"
+      }
+    ]
+  },
+  {
+    "a": "voldemort",
+    "b": "harrys-wand",
+    "states": [
+      {
+        "from": 5,
+        "type": "tie",
+        "label": "Its twin gave Harry his scar"
+      }
+    ]
+  },
+  {
+    "a": "harry-potter",
+    "b": "hogwarts",
+    "states": [
+      {
+        "from": 4,
+        "type": "tie",
+        "label": "Has a place there"
+      },
+      {
+        "from": 7,
+        "type": "tie",
+        "label": "Harry’s school and new home"
+      }
+    ]
+  },
+  {
+    "a": "albus-dumbledore",
+    "b": "hogwarts",
+    "states": [
+      {
+        "from": 4,
+        "type": "tie",
+        "label": "Headmaster"
+      }
+    ]
+  },
+  {
+    "a": "rubeus-hagrid",
+    "b": "hogwarts",
+    "states": [
+      {
+        "from": 4,
+        "type": "tie",
+        "label": "Keeper of Keys and Grounds"
+      }
+    ]
+  },
+  {
+    "a": "minerva-mcgonagall",
+    "b": "hogwarts",
+    "states": [
+      {
+        "from": 4,
+        "type": "tie",
+        "label": "Deputy Headmistress"
+      }
+    ]
+  },
+  {
+    "a": "albus-dumbledore",
+    "b": "third-floor-corridor",
+    "states": [
+      {
+        "from": 7,
+        "type": "tie",
+        "label": "Forbids it on pain of death"
+      }
+    ]
+  },
+  {
+    "a": "harry-potter",
+    "b": "third-floor-corridor",
+    "states": [
+      {
+        "from": 9,
+        "type": "tie",
+        "label": "Stumbles in and finds the dog"
+      },
+      {
+        "from": 16,
+        "type": "tie",
+        "label": "Goes through the trapdoor"
+      }
+    ]
+  },
+  {
+    "a": "three-headed-dog",
+    "b": "third-floor-corridor",
+    "states": [
+      {
+        "from": 9,
+        "type": "tie",
+        "label": "Guards a trapdoor here"
+      }
+    ]
+  },
+  {
+    "a": "severus-snape",
+    "b": "third-floor-corridor",
+    "states": [
+      {
+        "from": 11,
+        "type": "tie",
+        "label": "Harry suspects he tried to get past the dog"
+      }
+    ]
+  },
+  {
+    "a": "albus-dumbledore",
+    "b": "forbidden-forest",
+    "states": [
+      {
+        "from": 7,
+        "type": "tie",
+        "label": "Forbids it to students"
+      }
+    ]
+  },
+  {
+    "a": "rubeus-hagrid",
+    "b": "forbidden-forest",
+    "states": [
+      {
+        "from": 8,
+        "type": "tie",
+        "label": "His hut stands at its edge"
+      },
+      {
+        "from": 15,
+        "type": "tie",
+        "label": "Leads the detention through it"
+      }
+    ]
+  },
+  {
+    "a": "harry-potter",
+    "b": "forbidden-forest",
+    "states": [
+      {
+        "from": 13,
+        "type": "tie",
+        "label": "Follows Snape there"
+      },
+      {
+        "from": 15,
+        "type": "tie",
+        "label": "Serves detention there"
+      }
+    ]
+  },
+  {
+    "a": "firenze",
+    "b": "forbidden-forest",
+    "states": [
+      {
+        "from": 15,
+        "type": "tie",
+        "label": "Lives there"
+      }
+    ]
+  },
+  {
+    "a": "hooded-figure",
+    "b": "forbidden-forest",
+    "states": [
+      {
+        "from": 15,
+        "type": "tie",
+        "label": "Drinks unicorn blood there"
+      }
+    ]
+  },
+  {
+    "a": "quirinus-quirrell",
+    "b": "forbidden-forest",
+    "states": [
+      {
+        "from": 13,
+        "type": "tie",
+        "label": "Cornered there by Snape"
+      }
+    ]
+  },
+  {
+    "a": "griphook",
+    "b": "gringotts",
+    "states": [
+      {
+        "from": 5,
+        "type": "tie",
+        "label": "A goblin who works there"
+      }
+    ]
+  },
+  {
+    "a": "harry-potter",
+    "b": "gringotts",
+    "states": [
+      {
+        "from": 5,
+        "type": "tie",
+        "label": "Has a vault of gold there"
+      }
+    ]
+  },
+  {
+    "a": "quirinus-quirrell",
+    "b": "gringotts",
+    "states": [
+      {
+        "from": 17,
+        "type": "tie",
+        "label": "Tried to rob it"
+      }
+    ]
+  },
+  {
+    "a": "harry-potter",
+    "b": "diagon-alley",
+    "states": [
+      {
+        "from": 5,
+        "type": "tie",
+        "label": "Shops there for school"
+      }
+    ]
+  },
+  {
+    "a": "garrick-ollivander",
+    "b": "diagon-alley",
+    "states": [
+      {
+        "from": 5,
+        "type": "tie",
+        "label": "Has his wand shop there"
+      }
+    ]
+  },
+  {
+    "a": "madam-malkin",
+    "b": "diagon-alley",
+    "states": [
+      {
+        "from": 5,
+        "type": "tie",
+        "label": "Has her robe shop there"
+      }
+    ]
+  },
+  {
+    "a": "harry-potter",
+    "b": "privet-drive",
+    "states": [
+      {
+        "from": 1,
+        "type": "tie",
+        "label": "Left on its doorstep as a baby"
+      },
+      {
+        "from": 2,
+        "type": "tie",
+        "label": "Lives in the cupboard under the stairs"
+      }
+    ]
+  },
+  {
+    "a": "vernon-dursley",
+    "b": "privet-drive",
+    "states": [
+      {
+        "from": 1,
+        "type": "tie",
+        "label": "Lives at number four"
+      }
+    ]
+  },
+  {
+    "a": "petunia-dursley",
+    "b": "privet-drive",
+    "states": [
+      {
+        "from": 1,
+        "type": "tie",
+        "label": "Lives at number four"
+      }
+    ]
+  },
+  {
+    "a": "dudley-dursley",
+    "b": "privet-drive",
+    "states": [
+      {
+        "from": 1,
+        "type": "tie",
+        "label": "Lives at number four"
+      }
+    ]
+  },
+  {
+    "a": "harry-potter",
+    "b": "platform-nine-and-three-quarters",
+    "states": [
+      {
+        "from": 5,
+        "type": "tie",
+        "label": "On his ticket"
+      },
+      {
+        "from": 6,
+        "type": "tie",
+        "label": "Gets through the barrier"
+      }
+    ]
+  },
+  {
+    "a": "molly-weasley",
+    "b": "platform-nine-and-three-quarters",
+    "states": [
+      {
+        "from": 6,
+        "type": "tie",
+        "label": "Shows Harry how to get through"
+      }
+    ]
+  }
+]

@@ -29,6 +29,10 @@ Books so far:
 - **Character map**: an interactive relationship graph (drag, zoom, tap a character for their
   relationships). Relationships change over the book and are gated like everything else; a replay
   slider shows the map at any earlier chapter. Profiles list relationships too.
+- **Objects and places**: important things (the Pearl, the Invisibility Cloak, the Château d’If…)
+  have spoiler-gated profiles like characters. On the map they're diamonds (objects) and rounded
+  squares (places), hidden until switched on with the "Also show" toggles; the Characters page has
+  People / Objects / Places tabs.
 
 See [ROADMAP.md](ROADMAP.md) for what's next.
 
@@ -49,7 +53,9 @@ Each book lives in `src/books/<id>/`:
 - `meta.ts` — title, author, chapter count, volumes.
 - `chapters.json` — `{ number, title, volume, summary, details[], characters[] }`.
 - `relationships.json` — `{ a, b, states: [{ from, type, label }] }`; see `Relationship` in `src/types.ts`.
-- `characters.json` — see `Character` in `src/types.ts`. Every piece of information has a
+- `characters.json` — see `Character` in `src/types.ts`; `kind` is `character` (default), `object` or
+  `place`. Links involving an object or place use the relationship type `tie`; in `data-src` they
+  live in `things-relationships.json`. Every piece of information has a
   `from` chapter; `src/lib/spoilers.ts` is the only place that decides what the reader may see.
 
 `data-src/<id>/` holds the per-chapter working files (summaries and character notes written from

@@ -123,6 +123,8 @@ export default function CharacterMap({ characters, connections, selected, onSele
       fitRef.current()
     } else {
       sim.alpha(0.4).restart()
+      // When filters add characters, re-fit once they've settled in.
+      if (known.length < nodes.length) sim.on('end', () => fitRef.current())
     }
     simRef.current = sim
     return () => {
@@ -249,7 +251,7 @@ export default function CharacterMap({ characters, connections, selected, onSele
                 <g
                   key={n.id}
                   data-id={n.id}
-                  className={`node node--${c.importance}` + (dim ? ' is-dim' : '') + (selected === n.id ? ' is-selected' : '')}
+                  className={`node node--${c.importance} node--${c.kind ?? 'character'}` + (dim ? ' is-dim' : '') + (selected === n.id ? ' is-selected' : '')}
                   transform={`translate(${n.x},${n.y})`}
                   onClick={(e) => {
                     e.stopPropagation()
@@ -263,7 +265,7 @@ export default function CharacterMap({ characters, connections, selected, onSele
                   onKeyDown={(e) => (e.key === 'Enter' || e.key === ' ') && (e.preventDefault(), onSelect(n.id))}
                 >
                   <circle r={r + 8} className="node__hit" />
-                  <circle r={r} className="node__dot" />
+                  <NodeShape kind={c.kind ?? 'character'} r={r} />
                   {r >= 14 && (
                     <text className="node__initials" dy="0.35em" fontSize={r * 0.75}>
                       {initials(c.name)}
@@ -287,4 +289,17 @@ export default function CharacterMap({ characters, connections, selected, onSele
       </div>
     </div>
   )
+}
+
+/** People are circles, objects diamonds, places rounded squares. */
+function NodeShape({ kind, r }: { kind: string; r: number }) {
+  if (kind === 'object') {
+    const d = r * 1.25
+    return <path className="node__dot" d={`M0 ${-d} L${d} 0 L0 ${d} L${-d} 0 Z`} />
+  }
+  if (kind === 'place') {
+    const h = r * 0.9
+    return <rect className="node__dot" x={-h} y={-h} width={h * 2} height={h * 2} rx={h * 0.35} />
+  }
+  return <circle className="node__dot" r={r} />
 }
