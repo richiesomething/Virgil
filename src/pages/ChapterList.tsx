@@ -23,7 +23,7 @@ export default function ChapterList({ book, upTo, setUpTo }: BookPageProps) {
                 <a className="chapter-row" href={href('b', meta.id, 'chapters', c.number)}>
                   <span className="chapter-row__num">{c.number}</span>
                   <span className="chapter-row__body">
-                    <span className="chapter-row__title">{c.title}</span>
+                    <span className="chapter-row__title">{c.title || `Chapter ${c.number}`}</span>
                     <span className="chapter-row__summary">{c.summary}</span>
                   </span>
                 </a>

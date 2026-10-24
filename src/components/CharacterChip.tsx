@@ -12,9 +12,10 @@ export default function CharacterChip({ bookId, c, isNew }: { bookId: string; c:
 }
 
 export function initials(name: string): string {
-  const words = name
+  const stripped = name
     .replace(/^(the|m\.|mr\.|mrs\.|madam|professor|mme\.|mlle\.|monsieur|madame|mademoiselle|signor|abbé|count|countess|baron|baroness|major|dr\.|lord|king|duc|marquis|marquise)\s+/i, '')
-    .split(/[\s-]+/)
-    .filter((w) => /^[A-ZÀ-Ý]/.test(w))
-  return ((words[0]?.[0] ?? name[0]) + (words.length > 1 ? words[words.length - 1][0] : '')).toUpperCase()
+  const words = stripped.split(/[\s-]+/).filter((w) => /^[A-ZÀ-Ý]/.test(w))
+  // Names like "The doctor" have no capitalized word once "The" is dropped.
+  if (!words.length) return (stripped[0] ?? name[0]).toUpperCase()
+  return (words[0][0] + (words.length > 1 ? words[words.length - 1][0] : '')).toUpperCase()
 }

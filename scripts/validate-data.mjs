@@ -19,7 +19,7 @@ for (const book of readdirSync(root, { withFileTypes: true }).filter((d) => d.is
   if (chapters.length !== count) fail(book, `expected ${count} chapters, found ${chapters.length}`)
   chapters.forEach((c, i) => {
     if (c.number !== i + 1) fail(book, `chapter at index ${i} is numbered ${c.number}`)
-    if (!c.title || !c.summary || !c.details?.length) fail(book, `chapter ${c.number} is missing title/summary/details`)
+    if (typeof c.title !== 'string' || !c.summary || !c.details?.length) fail(book, `chapter ${c.number} is missing title/summary/details`)
   })
 
   const byId = new Map()

@@ -15,7 +15,7 @@ export default function BookmarkBar({ book, upTo, setUpTo }: Props) {
   const label = (n: number) => {
     if (n === 0) return 'Not started yet'
     const ch = book.chapters.find((c) => c.number === n)
-    return n <= upTo && ch ? `Chapter ${n} · ${ch.title}` : `Chapter ${n}`
+    return n <= upTo && ch?.title ? `Chapter ${n} · ${ch.title}` : `Chapter ${n}`
   }
 
   return (

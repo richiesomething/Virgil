@@ -7,6 +7,7 @@ export interface Revealed {
 
 export interface Chapter {
   number: number
+  /** Empty for books whose chapters are only numbered. */
   title: string
   /** Omitted for books that aren't divided into volumes. */
   volume?: number

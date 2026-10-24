@@ -58,7 +58,7 @@ export default function Overview({ book, upTo, setUpTo }: BookPageProps) {
           <p className="eyebrow">Last chapter you finished</p>
           <h2>
             <a href={href('b', meta.id, 'chapters', current.number)}>
-              Chapter {current.number}: {current.title}
+              Chapter {current.number}{current.title && `: ${current.title}`}
             </a>
           </h2>
           <p>{current.summary}</p>

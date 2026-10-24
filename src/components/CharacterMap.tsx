@@ -180,7 +180,7 @@ export default function CharacterMap({ characters, connections, selected, onSele
     const xs = pts.map((n) => n.x!)
     const ys = pts.map((n) => n.y!)
     const [x0, x1, y0, y1] = [Math.min(...xs), Math.max(...xs), Math.min(...ys), Math.max(...ys)]
-    const pad = 60
+    const pad = 90 // room for name labels and the zoom buttons
     const k = Math.min(1.4, width / (x1 - x0 + pad * 2), height / (y1 - y0 + pad * 2))
     select(svg).call(
       z.transform,
@@ -232,7 +232,8 @@ export default function CharacterMap({ characters, connections, selected, onSele
               const c = n.character
               const r = radius[c.importance]
               const dim = neighbours && !neighbours.has(n.id)
-              const showLabel = c.importance !== 'minor' || (neighbours?.has(n.id) ?? false)
+              // Small maps label everyone; big ones label minor characters only around the focus.
+              const showLabel = nodes.length <= 30 || c.importance !== 'minor' || (neighbours?.has(n.id) ?? false)
               return (
                 <g
                   key={n.id}

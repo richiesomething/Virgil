@@ -10,6 +10,7 @@ Books so far:
 
 - *The Count of Monte Cristo* (Project Gutenberg #1184, 117 chapters). Summaries and profiles were written from the public-domain text.
 - *Harry Potter and the Sorcerer’s Stone* (US edition, 17 chapters), added for testing. The book is under copyright, so no text from it is included; summaries and profiles are original, written from knowledge of the book.
+- *The Pearl* by John Steinbeck (6 chapters). Also under copyright; handled the same way as Harry Potter.
 
 ## Features (Phase 1)
 
