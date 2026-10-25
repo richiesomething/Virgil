@@ -87,7 +87,7 @@
     "chapter": 5,
     "kind": "craft",
     "title": "Things done in plain sight",
-    "text": "Hagrid collects a small, grubby package from a vault, calls it ‘Hogwarts business’ and refuses to say more. Rowling stages the moment with care and then moves briskly on to wands and ice cream. She shows you exactly what Harry sees and no more, and trusts you to keep it in mind.",
+    "text": "Hagrid collects a small, grubby package from a vault, calls it ‘Hogwarts business’ and refuses to say more. Rowling stages the moment with care and then moves briskly on to wands and ice cream. She shows you exactly what Harry sees and no more, and leaves you as curious as he is.",
     "themes": []
   },
   {
@@ -212,9 +212,9 @@
   {
     "chapter": 11,
     "kind": "question",
-    "title": "How strong is the case?",
-    "text": "A bloodied leg, a broom that goes wild, a teacher staring and muttering. The friends build a case from things they saw and things they guessed. They are certain. Before you agree, it is worth sorting what each of them actually saw from what they decided it meant.",
-    "themes": []
+    "title": "Hermione lights a fire",
+    "text": "Hermione, who two chapters ago was most worried about being expelled, sets a teacher’s robes alight in the middle of a match because she believes Harry’s life depends on it. What has changed in her, and what does it say about what the friendship now means to her?",
+    "themes": ["rules", "friendship"]
   },
   {
     "chapter": 11,
@@ -269,7 +269,7 @@
     "chapter": 13,
     "kind": "theme",
     "title": "Gold and endless life",
-    "text": "The Stone offers the two things people have chased in every age: unlimited wealth and escape from death. Flamel, its maker, has used it quietly to live a long life with his wife. Ask yourself who else might want such a thing, and what they would do to get it.",
+    "text": "The Stone offers the two things people have chased in every age: unlimited wealth and escape from death. Flamel, its maker, has used it quietly to live a long life with his wife. Ron’s verdict is simple: anyone would want it.",
     "themes": ["desire"]
   },
   {

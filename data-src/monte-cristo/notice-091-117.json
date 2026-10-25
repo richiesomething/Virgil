@@ -220,14 +220,14 @@
     "chapter": 102,
     "kind": "craft",
     "title": "The poisoner by the bed",
-    "text": "Dumas lets us stay with Madame de Villefort as she inspects her work, caught “between fascination and remorse” until the lamp goes out. It is a rare scene inside the mind of a murderer, and she is not a cartoon villain. Then comes the detail that undoes her: the glass she emptied is a third full again.",
+    "text": "Dumas lets us stay with Madame de Villefort as she inspects her work, caught “between fascination and remorse” until the lamp goes out. It is a rare scene inside the mind of a murderer, and she is not a cartoon villain. Then comes the detail that shakes her: the glass she emptied is a third full again.",
     "themes": []
   },
   {
     "chapter": 102,
     "kind": "question",
-    "title": "What did the pill do?",
-    "text": "The house declares Valentine dead, and the doctor’s test proves poison. But you watched the count give her a pill and tell her to fear nothing, even in a tomb. How much weight do you put on that promise, and how does holding it change the way you read Maximilian’s arrival at the end?",
+    "title": "The count’s part in this night",
+    "text": "The house declares Valentine dead, and the doctor’s test proves poison. Yet only hours earlier the count was in this room, tasting the glass and giving her a pill from his emerald box. What do you make of his part in what happened that night?",
     "themes": ["hope-despair"]
   },
   {
@@ -346,7 +346,7 @@
     "chapter": 108,
     "kind": "question",
     "title": "Is Villefort right?",
-    "text": "Madame de Villefort begs for her life for Edward’s sake, and Villefort answers that if she lived she might one day kill the boy too. Is his sentence a judge’s cold logic, a husband’s cruelty, or a kind of mercy? Notice that he says nothing about his own secret, which no one has yet exposed.",
+    "text": "Madame de Villefort begs for her life for Edward’s sake, and Villefort answers that if she lived she might one day kill the boy too. Is his sentence a judge’s cold logic, a husband’s cruelty, or a kind of mercy? Notice that he says nothing about his own secret, which no one in the room knows.",
     "themes": ["revenge-justice"]
   },
   {
@@ -360,7 +360,7 @@
     "chapter": 109,
     "kind": "craft",
     "title": "A veiled lady in the crowd",
-    "text": "Beauchamp is sure the veiled woman is Madame Danglars, and Debray blushes. We know she has every reason to be here, and more than the young men suspect. Keep an eye on her as the trial begins.",
+    "text": "Beauchamp is sure the veiled woman is Madame Danglars, and Debray blushes. We know she has every reason to be here, and more than the young men suspect: the man on trial is her son.",
     "themes": ["identity-disguise", "the-past-returns"]
   },
   {

@@ -60,7 +60,8 @@ export function ThemePage({ themeId }: { themeId: string }) {
       </div>
     )
   }
-  const stages = themeStages(theme, upTo)
+  // The latest stage is the lead; the list shows how the reader got there.
+  const stages = themeStages(theme, upTo).slice(0, -1)
   const insights = insightsForTheme(book, theme.id, upTo)
   const resolution = afterwordFor(book, upTo)?.themes.find((r) => r.theme === theme.id)
   return (
@@ -69,7 +70,7 @@ export function ThemePage({ themeId }: { themeId: string }) {
       <h1 className="page-title">{theme.name}</h1>
       <p className="lead">{themeSummary(theme, upTo)}</p>
 
-      {stages.length > 1 && (
+      {stages.length > 0 && (
         <section className="section">
           <p className="group-title">How it has built</p>
           <ol className="stages">
