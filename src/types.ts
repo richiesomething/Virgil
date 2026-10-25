@@ -76,6 +76,10 @@ export interface BookMeta {
   color: string
   /** True when word counts are estimates (no source text available). */
   wordCountsApproximate?: boolean
+  /** Position in the library. */
+  order?: number
+  /** 'text': built from the book's own text; 'knowledge': from what's known about it (no text). */
+  source?: 'text' | 'knowledge'
 }
 
 export interface BookData {
@@ -93,6 +97,8 @@ export interface BookData {
   insights?: Insight[]
   afterword?: Afterword
   timeline?: TimelineEvent[]
+  /** What the reader learns late; checked by the validator, not shown. */
+  reveals?: Reveal[]
 }
 
 /** 'tie' is used for every link that involves an object or place. */
@@ -279,4 +285,14 @@ export interface TimelineEvent {
   flashback?: boolean
   places?: string[]
   people?: string[]
+}
+
+/** Something the reader learns late (a disguise, a secret, a name). Used to catch leaks. */
+export interface Reveal {
+  id: string
+  /** First chapter at the end of which the reader knows it. */
+  chapter: number
+  secret: string
+  /** Words that give it away; none may appear in anything shown before `chapter`. */
+  terms?: string[]
 }

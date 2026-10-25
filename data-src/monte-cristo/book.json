@@ -1,0 +1,41 @@
+{
+  "id": "monte-cristo",
+  "title": "The Count of Monte Cristo",
+  "shortTitle": "Monte Cristo",
+  "author": "Alexandre Dumas",
+  "year": 1844,
+  "chapterCount": 117,
+  "blurb": "A young sailor, betrayed on the eve of his wedding and locked away in an island fortress, plots his return.",
+  "edition": "Project Gutenberg #1184 (anonymous 1846 English translation, 117 chapters)",
+  "sourceUrl": "https://www.gutenberg.org/ebooks/1184",
+  "volumes": [
+    {
+      "number": 1,
+      "title": "Volume One",
+      "firstChapter": 1
+    },
+    {
+      "number": 2,
+      "title": "Volume Two",
+      "firstChapter": 28
+    },
+    {
+      "number": 3,
+      "title": "Volume Three",
+      "firstChapter": 48
+    },
+    {
+      "number": 4,
+      "title": "Volume Four",
+      "firstChapter": 74
+    },
+    {
+      "number": 5,
+      "title": "Volume Five",
+      "firstChapter": 96
+    }
+  ],
+  "color": "#7a2e2a",
+  "order": 1,
+  "source": "text"
+}

@@ -1,23 +1,21 @@
 import type { BookData, BookMeta } from '../types'
-import { meta as monteCristo } from './monte-cristo/meta'
-import { meta as harryPotter1 } from './harry-potter-1/meta'
-import { meta as thePearl } from './the-pearl/meta'
+
+// Every book is a folder in src/books/ built by `node scripts/merge-data.mjs` from data-src/<book>/.
+// Adding a book needs no code: its book.json is found here and its data.json is loaded on demand.
+
+const metas = import.meta.glob<BookMeta>('./*/book.json', { eager: true, import: 'default' })
+const datas = import.meta.glob<Omit<BookData, 'meta'>>('./*/data.json', { import: 'default' })
 
 /** Metadata for every book in the library (cheap; loaded up front). */
-export const library: BookMeta[] = [monteCristo, harryPotter1, thePearl]
-
-/** Full book data is code-split so the library stays fast as it grows. */
-const loaders: Record<string, () => Promise<{ default: BookData }>> = {
-  'monte-cristo': () => import('./monte-cristo/data'),
-  'harry-potter-1': () => import('./harry-potter-1/data'),
-  'the-pearl': () => import('./the-pearl/data'),
-}
+export const library: BookMeta[] = Object.values(metas).sort((a, b) => (a.order ?? 99) - (b.order ?? 99) || a.title.localeCompare(b.title))
 
 const cache = new Map<string, Promise<BookData>>()
 
+/** Full book data is code-split so the library stays fast as it grows. */
 export function loadBook(id: string): Promise<BookData> | undefined {
-  const loader = loaders[id]
-  if (!loader) return undefined
-  if (!cache.has(id)) cache.set(id, loader().then((m) => m.default))
+  const meta = library.find((b) => b.id === id)
+  const load = datas[`./${id}/data.json`]
+  if (!meta || !load) return undefined
+  if (!cache.has(id)) cache.set(id, load().then((data) => ({ meta, ...data })))
   return cache.get(id)
 }

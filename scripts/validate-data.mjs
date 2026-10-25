@@ -10,11 +10,32 @@ const fail = (book, msg) => {
 }
 
 for (const book of readdirSync(root, { withFileTypes: true }).filter((d) => d.isDirectory()).map((d) => d.name)) {
-  const load = (f) => JSON.parse(readFileSync(join(root, book, f), 'utf8'))
+  if (!existsSync(join(root, book, 'book.json')) || !existsSync(join(root, book, 'data.json'))) {
+    fail(book, 'missing book.json or data.json (run node scripts/merge-data.mjs)')
+    continue
+  }
+  const meta = JSON.parse(readFileSync(join(root, book, 'book.json'), 'utf8'))
+  const data = JSON.parse(readFileSync(join(root, book, 'data.json'), 'utf8'))
+  // Each part of the book by its old file name, so the checks below read naturally.
+  const parts = {
+    'chapters.json': data.chapters,
+    'characters.json': data.characters,
+    'relationships.json': data.relationships?.length ? data.relationships : undefined,
+    'notes.json': data.notes?.length ? data.notes : undefined,
+    'primers.json': data.primers?.length ? data.primers : undefined,
+    'recaps.json': data.recaps?.length ? data.recaps : undefined,
+    'word-counts.json': data.wordCounts?.length ? data.wordCounts : undefined,
+    'atlas.json': data.atlas,
+    'understanding.json': data.themes || data.insights || data.afterword || data.timeline ? { themes: data.themes, insights: data.insights, afterword: data.afterword, timeline: data.timeline } : undefined,
+  }
+  const load = (f) => parts[f]
+  const exists = (f) => parts[f] !== undefined
   const chapters = load('chapters.json')
   const characters = load('characters.json')
-  const meta = readFileSync(join(root, book, 'meta.ts'), 'utf8')
-  const count = Number(meta.match(/chapterCount:\s*(\d+)/)?.[1])
+  const count = meta.chapterCount
+  for (const k of ['id', 'title', 'author', 'year', 'chapterCount', 'blurb', 'edition', 'color']) if (meta[k] === undefined || meta[k] === '') fail(book, `book.json is missing ${k}`)
+  if (meta.id !== book) fail(book, `book.json id is "${meta.id}"`)
+  if (meta.source && !['text', 'knowledge'].includes(meta.source)) fail(book, `book.json has bad source "${meta.source}"`)
 
   if (chapters.length !== count) fail(book, `expected ${count} chapters, found ${chapters.length}`)
   chapters.forEach((c, i) => {
@@ -61,7 +82,7 @@ for (const book of readdirSync(root, { withFileTypes: true }).filter((d) => d.is
         fail(book, `chapter ${ch.number} lists ${id}, whose firstChapter is ${c.firstChapter}`)
     }
   }
-  const relationships = existsSync(join(root, book, 'relationships.json')) ? load('relationships.json') : []
+  const relationships = exists('relationships.json') ? load('relationships.json') : []
   const types = ['family', 'love', 'friend', 'enemy', 'work', 'tie']
   const isThing = (c) => c.kind === 'object' || c.kind === 'place'
   const pairs = new Set()
@@ -90,7 +111,7 @@ for (const book of readdirSync(root, { withFileTypes: true }).filter((d) => d.is
   }
 
   // Reading guide
-  const optional = (f) => (existsSync(join(root, book, f)) ? load(f) : [])
+  const optional = (f) => (exists(f) ? load(f) : [])
   const kinds = ['word', 'title', 'money', 'history', 'reference', 'foreign', 'custom', 'place', 'lore']
   const notes = optional('notes.json')
   const noteIds = new Set()
@@ -121,7 +142,7 @@ for (const book of readdirSync(root, { withFileTypes: true }).filter((d) => d.is
   if (words.length && words.length !== count) fail(book, `word-counts has ${words.length} entries, expected ${count}`)
 
   // Atlas: places, settings and journeys, gated like everything else.
-  if (existsSync(join(root, book, 'atlas.json'))) {
+  if (exists('atlas.json')) {
     const atlas = load('atlas.json')
     const frames = new Map(atlas.frames.map((f) => [f.id, f]))
     const places = new Map()
@@ -198,7 +219,7 @@ for (const book of readdirSync(root, { withFileTypes: true }).filter((d) => d.is
   }
 
   // Understanding: themes, insights, afterword, timeline.
-  if (existsSync(join(root, book, 'understanding.json'))) {
+  if (exists('understanding.json')) {
     const u = load('understanding.json')
     const themes = new Map((u.themes ?? []).map((th) => [th.id, th]))
     for (const th of u.themes ?? []) {
@@ -230,7 +251,7 @@ for (const book of readdirSync(root, { withFileTypes: true }).filter((d) => d.is
       for (const r of a.themes ?? []) if (!themes.has(r.theme)) fail(book, `afterword resolves unknown theme ${r.theme}`)
       for (const id of themes.keys()) if (!(a.themes ?? []).some((r) => r.theme === id)) fail(book, `afterword has no resolution for theme ${id}`)
     }
-    const placeIds = existsSync(join(root, book, 'atlas.json')) ? new Set(load('atlas.json').places.map((p) => p.id)) : new Set()
+    const placeIds = exists('atlas.json') ? new Set(load('atlas.json').places.map((p) => p.id)) : new Set()
     for (const e of u.timeline ?? []) {
       const where = `timeline ${e.id}`
       if (!/^\d{4}(-\d{2}(-\d{2})?)?$/.test(e.date) || !e.label || !e.title) fail(book, `${where} is malformed`)
