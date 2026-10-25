@@ -10,7 +10,8 @@
       { "from": 16, "text": "On foot in a diving suit, Aronnax crosses sunlit sand and underwater forests. The deep stops being a specimen seen through glass and becomes a landscape to walk through, with its own light, silence and dangers." },
       { "from": 25, "text": "Aronnax admits the pull openly. He wants to \"see what no man has seen yet,\" even at the cost of his life. His curiosity now competes with his duty to his companions and their wish to go home." },
       { "from": 33, "text": "The wonders grow grander and stranger: a tunnel under Suez, a boiling eruption off Santorini, and the drowned ruins of Atlantis lit by a volcano. Science and legend meet on the seafloor." },
-      { "from": 38, "text": "Nemo pushes the Nautilus to a record depth, photographs rocks no one has seen, and then fixes the sun at the South Pole. Exploration has become a matter of firsts, and of who gets to claim them." },
+      { "from": 35, "text": "Nemo takes the Nautilus down to a record depth of 16,000 meters and photographs rocks that have never seen daylight. Seeing is no longer enough: Aronnax wants proof he can bring back." },
+      { "from": 38, "text": "Nemo fixes the sun at the South Pole, where no one has ever stood. Exploration has become a matter of firsts, and of who gets to claim them." },
       { "from": 47, "text": "Home again, Aronnax rests his authority on what he has seen: he has \"earned the right to speak of these seas.\" He hopes the scientist in Nemo will outlast the man of hate. For Aronnax, wonder may be the cure for vengeance." }
     ]
   },
@@ -26,7 +27,8 @@
       { "from": 30, "text": "In the Mediterranean, Ned makes Aronnax promise to escape at the first real chance. From here every coastline is measured by its escape chances, and each one seems to slip away as the Nautilus dives or turns." },
       { "from": 36, "text": "Weeks of open ocean far from any shore wear Ned down. A man used to action and open air grows sullen in a steel hull, and his resentment of Nemo hardens." },
       { "from": 43, "text": "Aronnax finally asks Nemo outright to free them and calls their life \"outright slavery.\" Nemo refuses, but points out that he never asked for their word. The right to escape is theirs, if they can manage it." },
-      { "from": 46, "text": "In the end freedom comes by flight, not permission: a skiff, a dark night, and the Maelstrom. Nemo, who claimed the sea's freedom for himself, is last seen as a man bound by his own grief." }
+      { "from": 46, "text": "Permission never comes, so the three try flight: a skiff, a dark night, and then the Maelstrom. Nemo, who claimed the sea's freedom for himself, is last seen as a man bound by his own grief." },
+      { "from": 47, "text": "Freedom arrives by chance, not by plan. The three wake on a Norwegian island, free, with no idea how they got out of the whirlpool. The man who called the sea the one free place is left behind in it." }
     ]
   },
   {
