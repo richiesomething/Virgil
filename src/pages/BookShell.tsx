@@ -1,6 +1,7 @@
 import { useCallback, useEffect, useMemo, useRef, useState } from 'react'
 import type { BookData } from '../types'
 import { loadBook } from '../books'
+import { useCopy } from '../lib/copies'
 import { getProgress, setProgressRaw, useBookmark } from '../lib/progress'
 import { href, settleScroll, useLocation } from '../lib/router'
 import { isThing, lookupCharacter, newInChapter } from '../lib/spoilers'
@@ -52,9 +53,16 @@ export default function BookShell({ bookId }: { bookId: string }) {
     }
   }, [bookId])
 
+  // When the reader's own copy of the book is on this device, its real word counts replace the estimates.
+  const copy = useCopy(bookId)
+  const withCounts = useMemo(() => {
+    if (!book || copy.status !== 'ready' || !book.meta.wordCountsApproximate || copy.info.wordCounts.length !== book.meta.chapterCount) return book
+    return { ...book, meta: { ...book.meta, wordCountsApproximate: false }, wordCounts: copy.info.wordCounts }
+  }, [book, copy])
+
   if (failed) return <NotFound message="We couldn’t find that book." />
-  if (!book) return <div className="wrap screen muted">Opening the book…</div>
-  return <LoadedBook book={book} />
+  if (!withCounts) return <div className="wrap screen muted">Opening the book…</div>
+  return <LoadedBook book={withCounts} />
 }
 
 const WELCOME_DAYS = 4

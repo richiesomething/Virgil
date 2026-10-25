@@ -834,3 +834,12 @@ a.chip-btn { display: inline-flex; align-items: center; }
 .reader__stage > .empty { display: grid; gap: 10px; justify-items: center; }
 .reader__stage > .empty .btn { margin-top: 4px; }
 .reader__end .link { justify-self: center; }
+.import-progress { display: grid; gap: 8px; padding: 10px 0; }
+.import-error { color: var(--accent); margin: 10px 0 0; font-size: 0.95rem; }
+.candidate { align-items: flex-start; cursor: pointer; }
+.candidate input { width: 22px; height: 22px; margin: 2px 12px 0 0; accent-color: var(--accent); flex: none; }
+.is-blurred { filter: blur(5px); user-select: none; }
+.speed-row { display: flex; align-items: center; justify-content: space-between; gap: 8px; padding: 4px 4px 0; font-size: 0.95rem; }
+.speed-row > span:last-child { display: inline-flex; }
+.action-bar--two { display: grid; gap: 8px; }
+.action-bar--two .btn { max-width: 640px; width: 100%; margin: 0 auto; }

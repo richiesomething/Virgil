@@ -11,3 +11,7 @@
 5. `npm run merge -- <id>`, then `npm run validate`, then `npm run build`.
 
 **Not shipped:** `roster.json`, `reveals.json`, `pipeline.json`, `research-*.json` and `source/`. The app only sees `src/books/<id>/`.
+
+## The book's text (reader)
+
+Public-domain books ship their text so the reader can read them in Virgil's flash reader: `node scripts/pipeline/export-text.mjs <id>` after the split, then `text.status = "shipped"` in `book.json`. Books still in copyright get `"text": { "status": "upload" }`: the app offers **Add your copy** and parses the reader's own EPUB, PDF or text file on their device. See `docs/reading-spec.md`.

@@ -4,6 +4,8 @@ import type { BookData, Note, NoteKind } from '../types'
 import { Segmented, Sheet, leaveSheetTo } from './ui'
 import { href } from '../lib/router'
 import { prefs, applyTheme, type PrimerMode, type Theme } from '../lib/store'
+import { library } from '../books'
+import { useCopy } from '../lib/copies'
 
 export const kindLabel: Record<NoteKind, string> = {
   word: 'Word',
@@ -109,11 +111,51 @@ export function SettingsSheet({ open, onClose, bookId }: { open: boolean; onClos
 
       <p className="group-title">Reading speed</p>
       <p className="small muted" style={{ margin: '0 4px' }}>
-        {p.wpm} words a minute. Change it in the reading plan.
+        Estimates assume {p.wpm} words a minute. Change it in the reading plan.
       </p>
+      <div className="speed-row" role="group" aria-label="Flash reader speed">
+        <span>
+          Flash reader: <strong>{p.rsvpWpm}</strong> words a minute
+        </span>
+        <span>
+          <button className="icon-btn" aria-label="Slower" onClick={() => prefs.set((x) => ({ ...x, rsvpWpm: Math.max(100, x.rsvpWpm - 25) }))}>
+            <Icon name="minus" />
+          </button>
+          <button className="icon-btn" aria-label="Faster" onClick={() => prefs.set((x) => ({ ...x, rsvpWpm: Math.min(900, x.rsvpWpm + 25) }))}>
+            <Icon name="plus" />
+          </button>
+        </span>
+      </div>
+      {bookId && <YourCopyRow bookId={bookId} />}
       <p className="small muted" style={{ margin: '24px 4px 0' }}>
         Your bookmarks and reading history are saved in this browser only.
       </p>
     </Sheet>
+  )
+}
+
+/** For books Virgil can't ship the text of: where the reader's own copy stands. */
+function YourCopyRow({ bookId }: { bookId: string }) {
+  const meta = library.find((b) => b.id === bookId)
+  const copy = useCopy(bookId)
+  if (!meta || meta.text?.status === 'shipped') return null
+  return (
+    <>
+      <p className="group-title">Your copy of the book</p>
+      <a
+        className="row"
+        href={href('b', bookId, 'text')}
+        onClick={(e) => {
+          e.preventDefault()
+          leaveSheetTo(href('b', bookId, 'text'))
+        }}
+      >
+        <span className="row__body">
+          <span className="row__title">{copy.status === 'ready' ? copy.info.file.name : 'Add your copy'}</span>
+          <span className="row__sub">{copy.status === 'ready' ? 'Read it here, or remove it from this device' : 'EPUB, PDF or text. It stays on this device.'}</span>
+        </span>
+        <Icon name="chevronRight" className="icon--sm chev" />
+      </a>
+    </>
   )
 }

@@ -1,5 +1,6 @@
 import Icon from '../components/Icon'
 import Primer from '../components/Primer'
+import ReadButton from '../components/ReadButton'
 import WhereCard from '../components/WhereCard'
 import InsightCard from '../components/InsightCard'
 import { insightsForChapter } from '../lib/understanding'
@@ -90,6 +91,8 @@ function ReadChapter({ n }: { n: number }) {
             ))}
           </div>
         )}
+
+        {tab === 'summary' && <ReadButton n={n} primary={false} again />}
 
         {tab === 'summary' && insights.length > 0 && (
           <button className="card notice-teaser" onClick={() => setTab('insights')}>
@@ -211,8 +214,9 @@ function UpNextPage({ n }: { n: number }) {
       </p>
       <Primer book={book} n={n} upTo={upTo} forceOpen />
       <p className="small muted">Its summary, notes and characters appear once you’ve finished it.</p>
-      <div className="action-bar">
-        <button className="btn btn--primary btn--lg btn--block" onClick={() => setBookmark(n)}>
+      <div className="action-bar action-bar--two">
+        <ReadButton n={n} />
+        <button className="btn btn--secondary btn--block" onClick={() => setBookmark(n)}>
           <Icon name="check" /> I finished Chapter {n}
         </button>
       </div>

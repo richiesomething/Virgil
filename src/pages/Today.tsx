@@ -1,6 +1,7 @@
 import { useState } from 'react'
 import Icon from '../components/Icon'
 import Primer from '../components/Primer'
+import ReadButton from '../components/ReadButton'
 import { initials } from '../components/CharacterChip'
 import { Ring } from '../components/ui'
 import { useBook } from '../lib/book-context'
@@ -77,9 +78,12 @@ function UpNext() {
           {words ? ` · ${book.meta.wordCountsApproximate ? 'about ' : ''}${words.toLocaleString()} words` : ''}
         </p>
         <Primer book={book} n={n} upTo={upTo} />
-        <button className="btn btn--primary btn--lg btn--block" onClick={() => setBookmark(n)}>
-          <Icon name="check" /> I finished Chapter {n}
-        </button>
+        <div className="stack" style={{ gap: 10 }}>
+          <ReadButton n={n} />
+          <button className="btn btn--secondary btn--block" onClick={() => setBookmark(n)}>
+            <Icon name="check" /> I finished Chapter {n}
+          </button>
+        </div>
       </div>
     </section>
   )
@@ -286,9 +290,12 @@ function NotStarted() {
         <h2 style={{ marginBottom: 6 }}>Where are you in the book?</h2>
         <p className="muted">Virgil shows summaries, notes and characters only up to the chapter you’ve finished.</p>
         <Primer book={book} n={1} upTo={0} />
-        <button className="btn btn--primary btn--lg btn--block" onClick={() => setBookmark(1)}>
-          <Icon name="check" /> I finished Chapter 1
-        </button>
+        <div className="stack" style={{ gap: 10 }}>
+          <ReadButton n={1} />
+          <button className="btn btn--secondary btn--block" onClick={() => setBookmark(1)}>
+            <Icon name="check" /> I finished Chapter 1
+          </button>
+        </div>
         <div style={{ textAlign: 'center' }}>
           <button className="link" onClick={openBookmark}>
             I’m already partway through
