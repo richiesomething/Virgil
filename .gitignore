@@ -3,3 +3,6 @@ dist
 *.local
 .DS_Store
 data-src/*/source/
+.claude/worktrees/
+test-results/
+playwright-report/
