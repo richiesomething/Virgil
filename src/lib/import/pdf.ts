@@ -11,9 +11,19 @@ interface Line {
 }
 
 export async function parsePdf(data: ArrayBuffer, onProgress?: (done: number, total: number) => void): Promise<Para[]> {
-  const pdfjs = await import('pdfjs-dist')
-  const worker = await import('pdfjs-dist/build/pdf.worker.min.mjs?url')
-  pdfjs.GlobalWorkerOptions.workerSrc = worker.default
+  // pdf.js uses Promise.try and Promise.withResolvers, which older Safari (before iOS 18.2 / 17.4) lacks;
+  // polyfill them here and inside the worker, which has its own global scope.
+  polyfillPromises(Promise)
+  const pdfjs = await import('pdfjs-dist/legacy/build/pdf.mjs')
+  const worker = await import('pdfjs-dist/legacy/build/pdf.worker.min.mjs?url')
+  const workerUrl = new URL(worker.default, location.href).href
+  try {
+    // A static import, so the worker's message handler exists before pdf.js sends its first message.
+    const wrapper = `(${polyfillPromises.toString()})(Promise);\nimport ${JSON.stringify(workerUrl)};`
+    pdfjs.GlobalWorkerOptions.workerPort = new Worker(URL.createObjectURL(new Blob([wrapper], { type: 'text/javascript' })), { type: 'module' })
+  } catch {
+    pdfjs.GlobalWorkerOptions.workerSrc = workerUrl
+  }
   const doc = await pdfjs.getDocument({ data: new Uint8Array(data) }).promise
   const items: TextItem[][] = []
   for (let i = 1; i <= doc.numPages; i++) {
@@ -140,4 +150,19 @@ function paragraphsOf(pages: Line[][], bodySize: number): Para[] {
   }
   flush()
   return out
+}
+
+/** Promise.withResolvers (Safari 17.4) and Promise.try (Safari 18.2), for browsers without them. Must stay self-contained: it is also run as source text inside the worker. */
+function polyfillPromises(P: PromiseConstructor & { try?: unknown; withResolvers?: unknown }) {
+  if (!P.withResolvers)
+    P.withResolvers = function <T>() {
+      let resolve!: (v: T | PromiseLike<T>) => void
+      let reject!: (e?: unknown) => void
+      const promise = new P<T>((res, rej) => ((resolve = res), (reject = rej)))
+      return { promise, resolve, reject }
+    }
+  if (!P.try)
+    P.try = function (fn: (...a: unknown[]) => unknown, ...args: unknown[]) {
+      return new P((resolve) => resolve(fn(...args)))
+    }
 }
