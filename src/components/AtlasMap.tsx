@@ -313,8 +313,21 @@ export default function AtlasMap(props: AtlasMapProps) {
             const a = legPos(l.fromPlace)
             const b = legPos(l.toPlace)
             if (!a || !b || Math.hypot(a[0] - b[0], a[1] - b[1]) < 10) return []
-            const via = frame.type === 'geo' && positionIn(frame, l.fromPlace) && positionIn(frame, l.toPlace) ? (l.via ?? []).map(toScreen) : []
-            const d = lineGen.curve(curveCatmullRom.alpha(0.5))([a, ...via, b]) ?? ''
+            const bothHere = frame.type === 'geo' && positionIn(frame, l.fromPlace) && positionIn(frame, l.toPlace)
+            const curve = lineGen.curve(curveCatmullRom.alpha(0.5))
+            let d: string
+            if (bothHere && l.fromPlace.lonlat && l.toPlace.lonlat) {
+              // A leg across the date line breaks there and carries on from the other edge of the map.
+              const pts: XY[] = [l.fromPlace.lonlat, ...(l.via ?? []), l.toPlace.lonlat]
+              const runs: XY[][] = [[pts[0]]]
+              for (let i = 1; i < pts.length; i++) {
+                if (Math.abs(pts[i][0] - pts[i - 1][0]) > 180) runs.push([])
+                runs.at(-1)!.push(pts[i])
+              }
+              d = runs.map((r) => (r.length > 1 ? (curve(r.map(toScreen)) ?? '') : '')).join('')
+            } else {
+              d = curve([a, b]) ?? ''
+            }
             return [{ key: `${l.journey.id}-${l.chapter}-${l.from}-${l.to}`, d, mode: l.mode, recent: l.chapter >= asOf - 1 }]
           })
       : []

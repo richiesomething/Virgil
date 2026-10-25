@@ -1,0 +1,1136 @@
+{
+  "places": [
+    {
+      "id": "vigo-bay",
+      "name": "The Bay of Vigo",
+      "role": "setting",
+      "firstChapter": 32,
+      "precision": "exact",
+      "lonlat": [
+        -8.8,
+        42.24
+      ],
+      "today": "The Ría de Vigo in Galicia, north-west Spain.",
+      "tagline": [
+        {
+          "from": 32,
+          "text": "Spanish bay where the Nautilus visits the sunken treasure galleons of 1702."
+        },
+        {
+          "from": 33,
+          "text": "Spanish bay the Nautilus leaves behind, turning its back on Europe."
+        }
+      ]
+    },
+    {
+      "id": "atlantis",
+      "name": "Atlantis",
+      "role": "setting",
+      "firstChapter": 33,
+      "precision": "approximate",
+      "lonlat": [
+        -16.283,
+        33.367
+      ],
+      "radiusKm": 150,
+      "today": "Legendary. The text places it off Madeira; the Canaries, Azores and Cape Verde Islands are said to be its surviving peaks.",
+      "tagline": [
+        {
+          "from": 33,
+          "text": "Plato's lost continent, its ruined city found on the seafloor by night. Shown at the noon position the text gives: 33°22′ N, 16°17′ W."
+        },
+        {
+          "from": 34,
+          "text": "Drowned plains of the lost continent, crossed by the Nautilus on its way south."
+        }
+      ]
+    },
+    {
+      "id": "canary-islands",
+      "name": "The Canary Islands",
+      "role": "mentioned",
+      "firstChapter": 33,
+      "precision": "exact",
+      "lonlat": [
+        -15.6,
+        28.3
+      ],
+      "radiusKm": 250,
+      "today": "The Canary Islands, a Spanish archipelago off north-west Africa.",
+      "tagline": [
+        {
+          "from": 33,
+          "text": "Atlantic islands named as surviving peaks of drowned Atlantis."
+        }
+      ]
+    },
+    {
+      "id": "cape-sao-roque",
+      "name": "Cape São Roque",
+      "role": "mentioned",
+      "firstChapter": 33,
+      "precision": "exact",
+      "lonlat": [
+        -35.261,
+        -5.489
+      ],
+      "today": "Cabo de São Roque, Rio Grande do Norte, Brazil.",
+      "tagline": [
+        {
+          "from": 33,
+          "text": "Brazilian cape that outward-bound sailing ships make for to catch good winds."
+        },
+        {
+          "from": 41,
+          "text": "South America's easternmost tip, passed by the Nautilus on April 9."
+        }
+      ]
+    },
+    {
+      "id": "volcano-harbor",
+      "name": "The harbor in the extinct volcano",
+      "role": "setting",
+      "firstChapter": 34,
+      "precision": "approximate",
+      "lonlat": [
+        -20.0,
+        27.0
+      ],
+      "radiusKm": 300,
+      "tagline": [
+        {
+          "from": 34,
+          "text": "Captain Nemo's secret home port: a lake inside a hollow volcanic islet, entered by an underwater channel. Its position is never given; the text only guesses at the Canaries or Cape Verde Islands."
+        }
+      ]
+    },
+    {
+      "id": "sargasso-sea",
+      "name": "The Sargasso Sea",
+      "role": "setting",
+      "firstChapter": 35,
+      "precision": "approximate",
+      "lonlat": [
+        -40.0,
+        28.0
+      ],
+      "radiusKm": 900,
+      "today": "The Sargasso Sea, a region of the North Atlantic bounded by currents rather than coasts.",
+      "tagline": [
+        {
+          "from": 35,
+          "text": "Still 'lake' of floating gulfweed at the centre of the Atlantic's currents, where the Nautilus spends February 22."
+        }
+      ]
+    },
+    {
+      "id": "deep-sounding",
+      "name": "The great deep sounding",
+      "role": "setting",
+      "firstChapter": 35,
+      "precision": "exact",
+      "lonlat": [
+        -37.883,
+        -45.617
+      ],
+      "tagline": [
+        {
+          "from": 35,
+          "text": "Spot in the South Atlantic, 45°37′ S, 37°53′ W, where the Nautilus dives to record-breaking depths."
+        }
+      ]
+    },
+    {
+      "id": "whale-grounds",
+      "name": "Where the sperm whales attack",
+      "role": "setting",
+      "firstChapter": 36,
+      "precision": "approximate",
+      "lonlat": [
+        -47.5,
+        -51.5
+      ],
+      "radiusKm": 300,
+      "tagline": [
+        {
+          "from": 36,
+          "text": "Far southern waters where Ned Land spots baleen whales and the Nautilus turns on a herd of sperm whales."
+        }
+      ]
+    },
+    {
+      "id": "ice-bank",
+      "name": "The Ice Bank",
+      "role": "setting",
+      "firstChapter": 37,
+      "precision": "exact",
+      "lonlat": [
+        -51.5,
+        -67.65
+      ],
+      "radiusKm": 200,
+      "tagline": [
+        {
+          "from": 37,
+          "text": "Great wall of Antarctic ice at 67°39′ S, 51°30′ W, which the Nautilus dives beneath."
+        },
+        {
+          "from": 39,
+          "text": "Frozen ceiling the Nautilus must pass under again on its way back north."
+        },
+        {
+          "from": 40,
+          "text": "Where the Nautilus is trapped in the ice, its air running out."
+        }
+      ],
+      "aliases": [
+        {
+          "name": "the Ice Bank",
+          "from": 37
+        }
+      ]
+    },
+    {
+      "id": "south-pole",
+      "name": "The South Pole",
+      "role": "setting",
+      "firstChapter": 38,
+      "precision": "exact",
+      "lonlat": [
+        -50,
+        -89.9
+      ],
+      "today": "The geographic South Pole lies on the high Antarctic ice sheet, first reached overland in 1911.",
+      "tagline": [
+        {
+          "from": 38,
+          "text": "Open sea and a rocky shore at the bottom of the world, where Captain Nemo plants his flag on March 21."
+        }
+      ]
+    },
+    {
+      "id": "cape-horn",
+      "name": "Cape Horn",
+      "role": "setting",
+      "firstChapter": 35,
+      "precision": "exact",
+      "lonlat": [
+        -67.263,
+        -55.977
+      ],
+      "today": "Cabo de Hornos, Chile.",
+      "tagline": [
+        {
+          "from": 35,
+          "text": "Southern tip of South America, which Aronnax expects the Nautilus to round into the Pacific."
+        },
+        {
+          "from": 41,
+          "text": "Southern tip of South America, passed on March 31 as the Nautilus heads north up the Atlantic."
+        }
+      ]
+    },
+    {
+      "id": "tierra-del-fuego",
+      "name": "Tierra del Fuego",
+      "role": "mentioned",
+      "firstChapter": 41,
+      "precision": "exact",
+      "lonlat": [
+        -68.5,
+        -54.5
+      ],
+      "radiusKm": 150,
+      "today": "Tierra del Fuego, an archipelago shared by Chile and Argentina.",
+      "tagline": [
+        {
+          "from": 41,
+          "text": "The 'Land of Fire', sighted to the west on April 1."
+        }
+      ]
+    },
+    {
+      "id": "falkland-islands",
+      "name": "The Falkland Islands",
+      "role": "setting",
+      "firstChapter": 41,
+      "precision": "exact",
+      "lonlat": [
+        -59.538,
+        -51.949
+      ],
+      "radiusKm": 120,
+      "today": "The Falkland Islands (Islas Malvinas), a British overseas territory claimed by Argentina.",
+      "tagline": [
+        {
+          "from": 41,
+          "text": "Rugged islands where the crew nets seaweed and jellyfish on the way north."
+        }
+      ]
+    },
+    {
+      "id": "rio-de-la-plata",
+      "name": "The mouth of the Rio de la Plata",
+      "role": "mentioned",
+      "firstChapter": 41,
+      "precision": "exact",
+      "lonlat": [
+        -55.5,
+        -35.6
+      ],
+      "radiusKm": 80,
+      "today": "The Río de la Plata estuary between Uruguay and Argentina.",
+      "tagline": [
+        {
+          "from": 41,
+          "text": "Wide estuary passed on April 3, fifty miles out from Uruguay."
+        }
+      ]
+    },
+    {
+      "id": "amazon-mouth",
+      "name": "The mouth of the Amazon",
+      "role": "setting",
+      "firstChapter": 41,
+      "precision": "approximate",
+      "lonlat": [
+        -49.0,
+        0.8
+      ],
+      "radiusKm": 120,
+      "today": "The Amazon delta, Pará and Amapá, Brazil.",
+      "tagline": [
+        {
+          "from": 41,
+          "text": "Huge estuary whose outflow freshens the sea; here the Nautilus cuts the Equator and fishes off Guiana."
+        }
+      ]
+    },
+    {
+      "id": "maroni-mouth",
+      "name": "The mouth of the Maroni",
+      "role": "setting",
+      "firstChapter": 41,
+      "precision": "exact",
+      "lonlat": [
+        -53.97,
+        5.75
+      ],
+      "today": "The Maroni (Marowijne) river, the border between Suriname and French Guiana.",
+      "tagline": [
+        {
+          "from": 41,
+          "text": "River mouth off Dutch Guiana where the crew catch manatees and turtles."
+        }
+      ]
+    },
+    {
+      "id": "martinique",
+      "name": "Martinique",
+      "role": "mentioned",
+      "firstChapter": 42,
+      "precision": "exact",
+      "lonlat": [
+        -60.962,
+        14.611
+      ],
+      "today": "Martinique, an overseas department of France.",
+      "tagline": [
+        {
+          "from": 42,
+          "text": "West Indian island glimpsed from thirty miles off on April 16."
+        }
+      ]
+    },
+    {
+      "id": "guadeloupe",
+      "name": "Guadeloupe",
+      "role": "mentioned",
+      "firstChapter": 42,
+      "precision": "exact",
+      "lonlat": [
+        -61.569,
+        16.253
+      ],
+      "today": "Guadeloupe, an overseas department of France.",
+      "tagline": [
+        {
+          "from": 42,
+          "text": "West Indian island glimpsed with Martinique, out of reach of the would-be escapers."
+        }
+      ]
+    },
+    {
+      "id": "bahamas",
+      "name": "The Bahamas",
+      "role": "mentioned",
+      "firstChapter": 42,
+      "precision": "exact",
+      "lonlat": [
+        -76.5,
+        24.5
+      ],
+      "radiusKm": 300,
+      "today": "The Commonwealth of The Bahamas.",
+      "tagline": [
+        {
+          "from": 42,
+          "text": "Island group 'scattered like cobblestones', the nearest land to the deep cliffs the Nautilus explores."
+        }
+      ]
+    },
+    {
+      "id": "devilfish-waters",
+      "name": "The cliffs off the Bahamas",
+      "role": "setting",
+      "firstChapter": 42,
+      "precision": "approximate",
+      "lonlat": [
+        -73.0,
+        25.5
+      ],
+      "radiusKm": 150,
+      "tagline": [
+        {
+          "from": 42,
+          "text": "Deep underwater cliffs and caves near the Bahamas, where giant squid swarm the Nautilus on April 20."
+        }
+      ]
+    },
+    {
+      "id": "coral-cemetery",
+      "name": "The coral cemetery",
+      "role": "mentioned",
+      "firstChapter": 39,
+      "precision": "unknown",
+      "tagline": [
+        {
+          "from": 39,
+          "text": "Captain Nemo's underwater burial ground, one of the memories of the voyage so far."
+        },
+        {
+          "from": 43,
+          "text": "Resting place of the crew, which the sailor lost to the devilfish can never share."
+        }
+      ]
+    },
+    {
+      "id": "gulf-stream",
+      "name": "The Gulf Stream",
+      "role": "setting",
+      "firstChapter": 35,
+      "precision": "approximate",
+      "lonlat": [
+        -74.5,
+        34.0
+      ],
+      "radiusKm": 300,
+      "today": "The Gulf Stream, flowing up the North American coast and across to Europe.",
+      "tagline": [
+        {
+          "from": 35,
+          "text": "Great warm current whose loops enclose the Sargasso Sea."
+        },
+        {
+          "from": 43,
+          "text": "The 'river in the ocean' the Nautilus rides north from the Bahamas in May."
+        }
+      ]
+    },
+    {
+      "id": "cape-hatteras",
+      "name": "Cape Hatteras",
+      "role": "mentioned",
+      "firstChapter": 43,
+      "precision": "exact",
+      "lonlat": [
+        -75.528,
+        35.225
+      ],
+      "today": "Cape Hatteras National Seashore, North Carolina.",
+      "tagline": [
+        {
+          "from": 43,
+          "text": "North Carolina cape passed on May 8, thirty miles from tempting American shores."
+        }
+      ]
+    },
+    {
+      "id": "long-island",
+      "name": "Long Island",
+      "role": "mentioned",
+      "firstChapter": 43,
+      "precision": "exact",
+      "lonlat": [
+        -73.099,
+        40.851
+      ],
+      "radiusKm": 60,
+      "today": "Long Island, New York.",
+      "tagline": [
+        {
+          "from": 43,
+          "text": "Island off New York near which the great storm breaks."
+        }
+      ]
+    },
+    {
+      "id": "gulf-stream-storm",
+      "name": "The storm off Long Island",
+      "role": "setting",
+      "firstChapter": 43,
+      "precision": "approximate",
+      "lonlat": [
+        -73.2,
+        40.2
+      ],
+      "radiusKm": 60,
+      "tagline": [
+        {
+          "from": 43,
+          "text": "Where Captain Nemo rides out a hurricane on the surface on May 13, a few miles from the approaches to New York."
+        }
+      ]
+    },
+    {
+      "id": "grand-banks",
+      "name": "The Grand Banks of Newfoundland",
+      "role": "setting",
+      "firstChapter": 44,
+      "precision": "approximate",
+      "lonlat": [
+        -50.5,
+        44.0
+      ],
+      "radiusKm": 250,
+      "today": "The Grand Banks, south-east of Newfoundland, Canada.",
+      "tagline": [
+        {
+          "from": 44,
+          "text": "Fog-bound shallows of the cod fisheries, reached on May 15."
+        }
+      ]
+    },
+    {
+      "id": "atlantic-cable",
+      "name": "The transatlantic cable",
+      "role": "setting",
+      "firstChapter": 44,
+      "precision": "approximate",
+      "lonlat": [
+        -32.0,
+        51.5
+      ],
+      "radiusKm": 700,
+      "tagline": [
+        {
+          "from": 44,
+          "text": "The telegraph cable between Ireland and Newfoundland, followed by the Nautilus across the ocean floor."
+        }
+      ]
+    },
+    {
+      "id": "cape-clear",
+      "name": "Cape Clear",
+      "role": "mentioned",
+      "firstChapter": 44,
+      "precision": "exact",
+      "lonlat": [
+        -9.498,
+        51.437
+      ],
+      "today": "Cape Clear Island (Oileán Chléire), County Cork, Ireland.",
+      "tagline": [
+        {
+          "from": 44,
+          "text": "Irish cape glimpsed as the Nautilus swings around Ireland and heads south."
+        }
+      ]
+    },
+    {
+      "id": "lands-end",
+      "name": "Land's End",
+      "role": "mentioned",
+      "firstChapter": 44,
+      "precision": "exact",
+      "lonlat": [
+        -5.715,
+        50.066
+      ],
+      "today": "Land's End, Cornwall.",
+      "tagline": [
+        {
+          "from": 44,
+          "text": "England's westernmost tip, passed on May 30 with the Scilly Isles to starboard."
+        }
+      ]
+    },
+    {
+      "id": "avenger-wreck",
+      "name": "The wreck of the Avenger",
+      "role": "setting",
+      "firstChapter": 44,
+      "precision": "exact",
+      "lonlat": [
+        -17.467,
+        47.4
+      ],
+      "tagline": [
+        {
+          "from": 44,
+          "text": "French warship sunk in 1794 rather than surrender, at 47°24′ N, 17°28′ W as the text gives it; Captain Nemo comes here on June 1, the anniversary."
+        }
+      ],
+      "aliases": [
+        {
+          "name": "the Marseillais",
+          "from": 44
+        }
+      ]
+    },
+    {
+      "id": "warship-encounter",
+      "name": "Where the warship is met",
+      "role": "setting",
+      "firstChapter": 45,
+      "precision": "approximate",
+      "lonlat": [
+        -7.0,
+        48.3
+      ],
+      "radiusKm": 150,
+      "tagline": [
+        {
+          "from": 45,
+          "text": "Open sea off the mouth of the English Channel where an unidentified ironclad attacks and the Nautilus strikes back on June 2."
+        }
+      ]
+    },
+    {
+      "id": "maelstrom",
+      "name": "The Maelstrom",
+      "role": "setting",
+      "firstChapter": 46,
+      "precision": "exact",
+      "lonlat": [
+        12.799,
+        67.811
+      ],
+      "radiusKm": 15,
+      "today": "The Moskstraumen, a powerful tidal current off the Lofoten Islands, Norway.",
+      "tagline": [
+        {
+          "from": 46,
+          "text": "Legendary whirlpool off the Norwegian coast that seizes the Nautilus."
+        },
+        {
+          "from": 47,
+          "text": "Whirlpool from which the three companions escape; the Nautilus's fate is unknown."
+        }
+      ]
+    },
+    {
+      "id": "lofoten-islands",
+      "name": "The Lofoten Islands",
+      "role": "setting",
+      "firstChapter": 46,
+      "precision": "exact",
+      "lonlat": [
+        13.9,
+        68.2
+      ],
+      "radiusKm": 70,
+      "today": "The Lofoten archipelago, Nordland, Norway.",
+      "tagline": [
+        {
+          "from": 46,
+          "text": "Norwegian islands that border the waters of the Maelstrom."
+        },
+        {
+          "from": 47,
+          "text": "Where Aronnax wakes in a fisherman's hut and writes up his story."
+        }
+      ]
+    }
+  ],
+  "settings": {
+    "33": [
+      "atlantis"
+    ],
+    "34": [
+      "atlantis",
+      "volcano-harbor"
+    ],
+    "35": [
+      "sargasso-sea",
+      "deep-sounding"
+    ],
+    "36": [
+      "whale-grounds"
+    ],
+    "37": [
+      "ice-bank"
+    ],
+    "38": [
+      "south-pole"
+    ],
+    "39": [
+      "ice-bank",
+      "south-pole"
+    ],
+    "40": [
+      "ice-bank"
+    ],
+    "41": [
+      "cape-horn",
+      "falkland-islands",
+      "amazon-mouth",
+      "maroni-mouth"
+    ],
+    "42": [
+      "devilfish-waters"
+    ],
+    "43": [
+      "gulf-stream",
+      "gulf-stream-storm"
+    ],
+    "44": [
+      "avenger-wreck",
+      "grand-banks",
+      "atlantic-cable"
+    ],
+    "45": [
+      "warship-encounter",
+      "avenger-wreck"
+    ],
+    "46": [
+      "maelstrom"
+    ],
+    "47": [
+      "lofoten-islands"
+    ]
+  },
+  "journeys": [
+    {
+      "id": "nautilus-voyage-3",
+      "name": "The Nautilus's voyage: the Atlantic and the Pole",
+      "who": [
+        "pierre-aronnax",
+        "conseil",
+        "ned-land"
+      ],
+      "legs": [
+        {
+          "chapter": 33,
+          "from": "vigo-bay",
+          "to": "atlantis",
+          "mode": "sea",
+          "via": [
+            [
+              -8.88,
+              42.14
+            ],
+            [
+              -9.5,
+              42.0
+            ],
+            [
+              -11,
+              40
+            ],
+            [
+              -14,
+              36
+            ]
+          ]
+        },
+        {
+          "chapter": 34,
+          "from": "atlantis",
+          "to": "volcano-harbor",
+          "mode": "sea",
+          "via": [
+            [
+              -15.6,
+              32.5
+            ]
+          ]
+        },
+        {
+          "chapter": 35,
+          "from": "volcano-harbor",
+          "to": "sargasso-sea",
+          "mode": "sea",
+          "via": [
+            [
+              -28,
+              27.5
+            ]
+          ]
+        },
+        {
+          "chapter": 35,
+          "from": "sargasso-sea",
+          "to": "deep-sounding",
+          "mode": "sea",
+          "via": [
+            [
+              -35,
+              10
+            ],
+            [
+              -30,
+              -5
+            ],
+            [
+              -32,
+              -25
+            ]
+          ]
+        },
+        {
+          "chapter": 36,
+          "from": "deep-sounding",
+          "to": "whale-grounds",
+          "mode": "sea"
+        },
+        {
+          "chapter": 37,
+          "from": "whale-grounds",
+          "to": "ice-bank",
+          "mode": "sea",
+          "via": [
+            [
+              -50,
+              -58
+            ],
+            [
+              -51,
+              -62.5
+            ],
+            [
+              -55,
+              -66.5
+            ]
+          ]
+        },
+        {
+          "chapter": 38,
+          "from": "ice-bank",
+          "to": "south-pole",
+          "mode": "sea",
+          "via": [
+            [
+              -52,
+              -75
+            ],
+            [
+              -52,
+              -85
+            ]
+          ]
+        },
+        {
+          "chapter": 39,
+          "from": "south-pole",
+          "to": "ice-bank",
+          "mode": "sea",
+          "via": [
+            [
+              -52,
+              -85
+            ],
+            [
+              -52,
+              -75
+            ]
+          ]
+        },
+        {
+          "chapter": 41,
+          "from": "ice-bank",
+          "to": "cape-horn",
+          "mode": "sea",
+          "via": [
+            [
+              -50,
+              -62
+            ],
+            [
+              -58,
+              -59
+            ],
+            [
+              -66,
+              -57
+            ]
+          ]
+        },
+        {
+          "chapter": 41,
+          "from": "cape-horn",
+          "to": "falkland-islands",
+          "mode": "sea",
+          "via": [
+            [
+              -64,
+              -55.5
+            ]
+          ]
+        },
+        {
+          "chapter": 41,
+          "from": "falkland-islands",
+          "to": "rio-de-la-plata",
+          "mode": "sea",
+          "via": [
+            [
+              -58,
+              -46
+            ],
+            [
+              -55,
+              -38
+            ]
+          ]
+        },
+        {
+          "chapter": 41,
+          "from": "rio-de-la-plata",
+          "to": "cape-sao-roque",
+          "mode": "sea",
+          "via": [
+            [
+              -50,
+              -34
+            ],
+            [
+              -37,
+              -23.4
+            ],
+            [
+              -36,
+              -15
+            ],
+            [
+              -34,
+              -8
+            ]
+          ]
+        },
+        {
+          "chapter": 41,
+          "from": "cape-sao-roque",
+          "to": "amazon-mouth",
+          "mode": "sea",
+          "via": [
+            [
+              -34,
+              -3
+            ],
+            [
+              -38,
+              -1.5
+            ],
+            [
+              -44,
+              0.5
+            ]
+          ]
+        },
+        {
+          "chapter": 41,
+          "from": "amazon-mouth",
+          "to": "maroni-mouth",
+          "mode": "sea",
+          "via": [
+            [
+              -50,
+              3.5
+            ]
+          ]
+        },
+        {
+          "chapter": 42,
+          "from": "maroni-mouth",
+          "to": "devilfish-waters",
+          "mode": "sea",
+          "via": [
+            [
+              -55,
+              8
+            ],
+            [
+              -60.3,
+              14.6
+            ],
+            [
+              -60.6,
+              16.3
+            ],
+            [
+              -62,
+              19
+            ],
+            [
+              -68,
+              23
+            ]
+          ]
+        },
+        {
+          "chapter": 43,
+          "from": "devilfish-waters",
+          "to": "gulf-stream",
+          "mode": "sea",
+          "via": [
+            [
+              -76.5,
+              28.5
+            ]
+          ]
+        },
+        {
+          "chapter": 43,
+          "from": "gulf-stream",
+          "to": "gulf-stream-storm",
+          "mode": "sea",
+          "via": [
+            [
+              -74.6,
+              36
+            ],
+            [
+              -72.5,
+              39.5
+            ]
+          ]
+        },
+        {
+          "chapter": 44,
+          "from": "gulf-stream-storm",
+          "to": "grand-banks",
+          "mode": "sea",
+          "via": [
+            [
+              -65,
+              41
+            ]
+          ]
+        },
+        {
+          "chapter": 44,
+          "from": "grand-banks",
+          "to": "atlantic-cable",
+          "mode": "sea",
+          "via": [
+            [
+              -48,
+              47
+            ],
+            [
+              -42,
+              50
+            ]
+          ]
+        },
+        {
+          "chapter": 44,
+          "from": "atlantic-cable",
+          "to": "cape-clear",
+          "mode": "sea",
+          "via": [
+            [
+              -12,
+              51
+            ]
+          ]
+        },
+        {
+          "chapter": 44,
+          "from": "cape-clear",
+          "to": "lands-end",
+          "mode": "sea",
+          "via": [
+            [
+              -9.4,
+              51.2
+            ],
+            [
+              -7,
+              50.5
+            ],
+            [
+              -6.0,
+              50.0
+            ]
+          ]
+        },
+        {
+          "chapter": 44,
+          "from": "lands-end",
+          "to": "avenger-wreck",
+          "mode": "sea",
+          "via": [
+            [
+              -6.0,
+              49.9
+            ],
+            [
+              -8,
+              49
+            ]
+          ]
+        },
+        {
+          "chapter": 45,
+          "from": "avenger-wreck",
+          "to": "warship-encounter",
+          "mode": "sea"
+        },
+        {
+          "chapter": 46,
+          "from": "warship-encounter",
+          "to": "maelstrom",
+          "mode": "sea",
+          "via": [
+            [
+              -8,
+              51
+            ],
+            [
+              -11.5,
+              54
+            ],
+            [
+              -9,
+              58.8
+            ],
+            [
+              -4,
+              61
+            ],
+            [
+              5,
+              64.5
+            ],
+            [
+              10.5,
+              67.2
+            ],
+            [
+              11.8,
+              67.85
+            ]
+          ]
+        },
+        {
+          "chapter": 47,
+          "from": "maelstrom",
+          "to": "lofoten-islands",
+          "mode": "boat"
+        }
+      ]
+    }
+  ]
+}
