@@ -6,13 +6,13 @@ No one who had seen the magistrate at this moment, so thoroughly unnerved by the
 
 Hardly had he read the letter, when his wife entered. The sudden departure of Franz, after being summoned by M. Noirtier, had so much astonished everyone, that the position of Madame de Villefort, left alone with the notary and the witnesses, became every moment more embarrassing. Determined to bear it no longer, she arose and left the room; saying she would go and make some inquiries into the cause of his sudden disappearance.
 
-M. de Villefort’s communications on the subject were very limited and concise; he told her, in fact, that an explanation had taken place between M. Noirtier, M. d’Épinay, and himself, and that the marriage of Valentine and Franz would consequently be broken off. This was an awkward and unpleasant thing to have to report to those who were waiting. She therefore contented herself with saying that M. Noirtier having at the commencement of the discussion been attacked by a sort of apoplectic fit, the affair would necessarily be deferred for some days longer. This news, false as it was following so singularly in the train of the two similar misfortunes which had so recently occurred, evidently astonished the auditors, and they retired without a word.
+M. de Villefort’s communications on the subject were very limited and concise; he told her, in fact, that an explanation had taken place between M. Noirtier, M. d’Épinay, and himself, and that the marriage of Valentine and Franz would consequently be broken off. This was an awkward and unpleasant thing to have to report to those who were waiting. She therefore contented herself with saying that M. Noirtier having at the commencement of the discussion been attacked by a sort of apoplectic fit, the affair would necessarily be deferred for some days longer. This news, false as it was, following so singularly in the train of the two similar misfortunes which had so recently occurred, evidently astonished the auditors, and they retired without a word.
 
 During this time Valentine, at once terrified and happy, after having embraced and thanked the feeble old man for thus breaking with a single blow the chain which she had been accustomed to consider as irrefragable, asked leave to retire to her own room, in order to recover her composure. Noirtier looked the permission which she solicited. But instead of going to her own room, Valentine, having once gained her liberty, entered the gallery, and, opening a small door at the end of it, found herself at once in the garden.
 
 In the midst of all the strange events which had crowded one on the other, an indefinable sentiment of dread had taken possession of Valentine’s mind. She expected every moment that she should see Morrel appear, pale and trembling, to forbid the signing of the contract, like the Laird of Ravenswood in The Bride of Lammermoor.
 
-It was high time for her to make her appearance at the gate, for Maximilian had long awaited her coming. He had half guessed what was going on when he saw Franz quit the cemetery with M. de Villefort. He followed M. d’Épinay, saw him enter, afterwards go out, and then re-enter with Albert and Château-Renaud. He had no longer any doubts as to the nature of the conference; he therefore quickly went to the gate in the clover-patch, prepared to hear the result of the proceedings, and very certain that Valentine would hasten to him the first moment she should be set at liberty. He was not mistaken; peering through the crevices of the wooden partition, he soon discovered the young girl, who cast aside all her usual precautions and walked at once to the barrier. The first glance which Maximilian directed towards her entirely reassured him, and the first words she spoke made his heart bound with delight.
+It was high time for her to make her appearance at the gate, for Maximilian had long awaited her coming. He had half guessed what was going on when he saw Franz quit the cemetery with M. de Villefort. He followed M. d’Épinay, saw him enter, afterwards go out, and then reenter with Albert and Château-Renaud. He had no longer any doubts as to the nature of the conference; he therefore quickly went to the gate in the clover-patch, prepared to hear the result of the proceedings, and very certain that Valentine would hasten to him the first moment she should be set at liberty. He was not mistaken; peering through the crevices of the wooden partition, he soon discovered the young girl, who cast aside all her usual precautions and walked at once to the barrier. The first glance which Maximilian directed towards her entirely reassured him, and the first words she spoke made his heart bound with delight.
 
 “We are saved!” said Valentine.
 
@@ -48,7 +48,7 @@ Noirtier regarded his daughter-in-law with the look of a man desiring an explana
 
 Noirtier’s eyes demanded the nature of her mission.
 
-“I come to entreat you, sir,” continued Madame de Villefort, “as the only one who has the right of doing so, inasmuch as I am the only one who will receive no personal benefit from the transaction,—I come to entreat you to restore, not your love, for that she has always possessed, but to restore your fortune to your granddaughter.”
+“I come to entreat you, sir,” continued Madame de Villefort, “as the only one who has the right of doing so, inasmuch as I am the only one who will receive no personal benefit from the transaction—I come to entreat you to restore, not your love, for that she has always possessed, but to restore your fortune to your granddaughter.”
 
 There was a doubtful expression in Noirtier’s eyes; he was evidently trying to discover the motive of this proceeding, and he could not succeed in doing so.
 
@@ -64,7 +64,7 @@ While all the proceedings relative to the dissolution of the marriage-contract w
 
 Danglars was balancing his monthly accounts, and it was perhaps not the most favorable moment for finding him in his best humor. At the first sight of his old friend, Danglars assumed his majestic air, and settled himself in his easy-chair.
 
-Morcerf, usually so stiff and formal, accosted the banker in an affable and smiling manner, and, feeling sure that the overture he was about to make would be well received, he did not consider it necessary to adopt any manœuvres in order to gain his end, but went at once straight to the point.
+Morcerf, usually so stiff and formal, accosted the banker in an affable and smiling manner, and, feeling sure that the overture he was about to make would be well received, he did not consider it necessary to adopt any manoeuvres in order to gain his end, but went at once straight to the point.
 
 “Well, baron,” said he, “here I am at last; some time has elapsed since our plans were formed, and they are not yet executed.”
 
@@ -88,7 +88,7 @@ But Danglars, instead of receiving this address in the favorable manner which Mo
 
 “I do not understand you, baron,” said Morcerf.
 
-“What I mean to say is this, sir,—that during the last fortnight unforeseen circumstances have occurred——”
+“What I mean to say is this, sir—that during the last fortnight unforeseen circumstances have occurred—”
 
 “Excuse me,” said Morcerf, “but is it a play we are acting?”
 
@@ -162,7 +162,7 @@ And clutching his gloves in anger, he left the apartment. Danglars observed that
 
 That evening he had a long conference with several friends; and M. Cavalcanti, who had remained in the drawing-room with the ladies, was the last to leave the banker’s house.
 
-The next morning, as soon as he awoke, Danglars asked for the newspapers; they were brought to him; he laid aside three or four, and at last fixed on l’Impartial, the paper of which Beauchamp was the chief editor. He hastily tore off the cover, opened the journal with nervous precipitation, passed contemptuously over the Paris jottings, and arriving at the miscellaneous intelligence, stopped with a malicious smile, at a paragraph headed
+The next morning, as soon as he awoke, Danglars asked for the newspapers; they were brought to him; he laid aside three or four, and at last fixed on L’Impartial, the paper of which Beauchamp was the chief editor. He hastily tore off the cover, opened the journal with nervous precipitation, passed contemptuously over the Paris jottings, and arriving at the miscellaneous intelligence, stopped with a malicious smile, at a paragraph headed
 
 We hear from Yanina.
 
@@ -318,9 +318,9 @@ Both men entered Monte Cristo’s carriage, which in the course of a few minutes
 
 “No you will not, for he will tell you, what is very true, that perhaps there were fifty officers in the Greek army bearing the same name.”
 
-“We will fight, nevertheless. I will efface that blot on my father’s character. My father, who was such a brave soldier, whose career was so brilliant——”
+“We will fight, nevertheless. I will efface that blot on my father’s character. My father, who was such a brave soldier, whose career was so brilliant—”
 
-“Oh, well, he will add, ‘We are warranted in believing that this Fernand is not the illustrious Count of Morcerf, who also bears the same Christian name.’”
+“Oh, well, he will add, ‘We are warranted in believing that this Fernand is not the illustrious Count of Morcerf, who also bears the same Christian name.’ ”
 
 “I am determined not to be content with anything short of an entire retractation.”
 
@@ -348,7 +348,7 @@ Both men entered Monte Cristo’s carriage, which in the course of a few minutes
 
 “Ah, my dear count, you are far too indulgent.”
 
-“And you are far too exacting. Supposing, for instance, and do not be angry at what I am going to say——”
+“And you are far too exacting. Supposing, for instance, and do not be angry at what I am going to say—”
 
 “Well.”
 
@@ -384,7 +384,7 @@ Both men entered Monte Cristo’s carriage, which in the course of a few minutes
 
 “Why, what can be the use of mixing a woman up in the affair?—what can she do in it?”
 
-“She can declare to you, for example, that your father had no hand whatever in the defeat and death of the vizier; or if by chance he had, indeed, the misfortune to——”
+“She can declare to you, for example, that your father had no hand whatever in the defeat and death of the vizier; or if by chance he had, indeed, the misfortune to—”
 
 “I have told you, my dear count, that I would not for one moment admit of such a proposition.”
 
@@ -412,13 +412,13 @@ Both men entered Monte Cristo’s carriage, which in the course of a few minutes
 
 “Explain yourself.”
 
-“I will do so. If Beauchamp be disposed to retract, you ought at least to give him the opportunity of doing it of his own free will,—the satisfaction to you will be the same. If, on the contrary, he refuses to do so, it will then be quite time enough to admit two strangers into your secret.”
+“I will do so. If Beauchamp be disposed to retract, you ought at least to give him the opportunity of doing it of his own free will—the satisfaction to you will be the same. If, on the contrary, he refuses to do so, it will then be quite time enough to admit two strangers into your secret.”
 
 “They will not be strangers, they will be friends.”
 
 “Ah, but the friends of today are the enemies of tomorrow; Beauchamp, for instance.”
 
-“So you recommend——”
+“So you recommend—”
 
 “I recommend you to be prudent.”
 
@@ -444,7 +444,7 @@ Both men entered Monte Cristo’s carriage, which in the course of a few minutes
 
 “Why?”
 
-“Perhaps you may know at some future period, and in the mean time I request you to excuse my declining to put you in possession of my reasons.”
+“Perhaps you may know at some future period, and in the meantime I request you to excuse my declining to put you in possession of my reasons.”
 
 “Well, I will have Franz and Château-Renaud; they will be the very men for it.”
 
@@ -458,7 +458,7 @@ Both men entered Monte Cristo’s carriage, which in the course of a few minutes
 
 “You are right—that is the principle on which I wish to act.”
 
-“We will say no more about it, then. Good-bye, count.”
+“We will say no more about it, then. Goodbye, count.”
 
 Morcerf took his hat, and left the room. He found his carriage at the door, and doing his utmost to restrain his anger he went at once to find Beauchamp, who was in his office. It was a gloomy, dusty-looking apartment, such as journalists’ offices have always been from time immemorial. The servant announced M. Albert de Morcerf. Beauchamp repeated the name to himself, as though he could scarcely believe that he had heard aright, and then gave orders for him to be admitted. Albert entered.
 
@@ -516,7 +516,7 @@ Albert resumed his seat, and Beauchamp read, with more attention than at first, 
 
 “Permit me to remind you that you are not in the Chamber, my dear viscount.”
 
-“Nor do I wish to be there,” replied the young man, rising. “I repeat that I am determined to have the announcement of yesterday contradicted. You have known me long enough,” continued Albert, biting his lips convulsively, for he saw that Beauchamp’s anger was beginning to rise,—“you have been my friend, and therefore sufficiently intimate with me to be aware that I am likely to maintain my resolution on this point.”
+“Nor do I wish to be there,” replied the young man, rising. “I repeat that I am determined to have the announcement of yesterday contradicted. You have known me long enough,” continued Albert, biting his lips convulsively, for he saw that Beauchamp’s anger was beginning to rise—“you have been my friend, and therefore sufficiently intimate with me to be aware that I am likely to maintain my resolution on this point.”
 
 “If I have been your friend, Morcerf, your present manner of speaking would almost lead me to forget that I ever bore that title. But wait a moment, do not let us get angry, or at least not yet. You are irritated and vexed—tell me how this Fernand is related to you?”
 
@@ -572,9 +572,9 @@ Beauchamp looked at Albert with the smile which was so peculiar to him, and whic
 
 “Three weeks!” cried Albert; “they will pass as slowly as three centuries when I am all the time suffering dishonor.”
 
-“Had you continued to remain on amicable terms with me, I should have said, ‘Patience, my friend;’ but you have constituted yourself my enemy, therefore I say, ‘What does that signify to me, sir?’”
+“Had you continued to remain on amicable terms with me, I should have said, ‘Patience, my friend;’ but you have constituted yourself my enemy, therefore I say, ‘What does that signify to me, sir?’ ”
 
-“Well, let it be three weeks then,” said Morcerf; “but remember, at the expiration of that time no delay or subterfuge will justify you in——”
+“Well, let it be three weeks then,” said Morcerf; “but remember, at the expiration of that time no delay or subterfuge will justify you in—”
 
 “M. Albert de Morcerf,” said Beauchamp, rising in his turn, “I cannot throw you out of window for three weeks—that is to say, for twenty-four days to come—nor have you any right to split my skull open till that time has elapsed. Today is the 29th of August; the 21st of September will, therefore, be the conclusion of the term agreed on, and till that time arrives—and it is the advice of a gentleman which I am about to give you—till then we will refrain from growling and barking like two dogs chained within sight of each other.”
 

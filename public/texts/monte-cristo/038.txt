@@ -48,7 +48,7 @@ Franz did not doubt that these plans were the same concerning which the count ha
 
 “Day for day, hour for hour,” said Albert; “that will suit me to a dot.”
 
-“So be it, then,” replied the count, and extending his hand towards a calendar, suspended near the chimney-piece, he said, “today is the 21st of February;” and drawing out his watch, added, “it is exactly half-past ten o’clock. Now promise me to remember this, and expect me the 21st of May at the same hour in the forenoon.”
+“So be it, then,” replied the count, and extending his hand towards a calendar, suspended near the chimneypiece, he said, “today is the 21st of February;” and drawing out his watch, added, “it is exactly half-past ten o’clock. Now promise me to remember this, and expect me the 21st of May at the same hour in the forenoon.”
 
 “Capital!” exclaimed Albert; “your breakfast shall be waiting.”
 
@@ -62,7 +62,7 @@ Franz did not doubt that these plans were the same concerning which the count ha
 
 “Quite sufficient,” replied the count, as, taking out his tablets, he wrote down “No. 27, Rue du Helder, 21st May, half-past ten in the morning.”
 
-“Now then,” said the count, returning his tablets to his pocket, “make yourself perfectly easy; the hand of your time-piece will not be more accurate in marking the time than myself.”
+“Now then,” said the count, returning his tablets to his pocket, “make yourself perfectly easy; the hand of your timepiece will not be more accurate in marking the time than myself.”
 
 “Shall I see you again ere my departure?” asked Albert.
 
@@ -124,11 +124,11 @@ Franz then related to his friend the history of his excursion to the Island of M
 
 He recounted, with circumstantial exactitude, all the particulars of the supper, the hashish, the statues, the dream, and how, at his awakening, there remained no proof or trace of all these events, save the small yacht, seen in the distant horizon driving under full sail toward Porto-Vecchio.
 
-Then he detailed the conversation overheard by him at the Colosseum, between the count and Vampa, in which the count had promised to obtain the release of the bandit Peppino,—an engagement which, as our readers are aware, he most faithfully fulfilled.
+Then he detailed the conversation overheard by him at the Colosseum, between the count and Vampa, in which the count had promised to obtain the release of the bandit Peppino—an engagement which, as our readers are aware, he most faithfully fulfilled.
 
 At last he arrived at the adventure of the preceding night, and the embarrassment in which he found himself placed by not having sufficient cash by six or seven hundred piastres to make up the sum required, and finally of his application to the count and the picturesque and satisfactory result that followed. Albert listened with the most profound attention.
 
-“Well,” said he, when Franz had concluded, “what do you find to object to in all you have related? The count is fond of travelling, and, being rich, possesses a vessel of his own. Go but to Portsmouth or Southampton, and you will find the harbors crowded with the yachts belonging to such of the English as can afford the expense, and have the same liking for this amusement. Now, by way of having a resting-place during his excursions, avoiding the wretched cookery—which has been trying its best to poison me during the last four months, while you have manfully resisted its effects for as many years,—and obtaining a bed on which it is possible to slumber, Monte Cristo has furnished for himself a temporary abode where you first found him; but, to prevent the possibility of the Tuscan government taking a fancy to his enchanted palace, and thereby depriving him of the advantages naturally expected from so large an outlay of capital, he has wisely enough purchased the island, and taken its name. Just ask yourself, my good fellow, whether there are not many persons of our acquaintance who assume the names of lands and properties they never in their lives were masters of?”
+“Well,” said he, when Franz had concluded, “what do you find to object to in all you have related? The count is fond of travelling, and, being rich, possesses a vessel of his own. Go but to Portsmouth or Southampton, and you will find the harbors crowded with the yachts belonging to such of the English as can afford the expense, and have the same liking for this amusement. Now, by way of having a resting-place during his excursions, avoiding the wretched cookery—which has been trying its best to poison me during the last four months, while you have manfully resisted its effects for as many years—and obtaining a bed on which it is possible to slumber, Monte Cristo has furnished for himself a temporary abode where you first found him; but, to prevent the possibility of the Tuscan government taking a fancy to his enchanted palace, and thereby depriving him of the advantages naturally expected from so large an outlay of capital, he has wisely enough purchased the island, and taken its name. Just ask yourself, my good fellow, whether there are not many persons of our acquaintance who assume the names of lands and properties they never in their lives were masters of?”
 
 “But,” said Franz, “the Corsican bandits that were among the crew of his vessel?”
 
@@ -160,4 +160,4 @@ Franz silently assented; and the following afternoon, at half-past five o’cloc
 
 But, ere he entered his travelling carriage, Albert, fearing that his expected guest might forget the engagement he had entered into, placed in the care of a waiter at the hotel a card to be delivered to the Count of Monte Cristo, on which, beneath the name of Viscount Albert de Morcerf, he had written in pencil:
 
-“27, Rue du Helder, on the 21st May, half-past ten A.M.”
+“27, Rue du Helder, on the 21st May, half-past ten a.m.”

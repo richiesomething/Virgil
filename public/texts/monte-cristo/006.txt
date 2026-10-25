@@ -1,10 +1,10 @@
-In one of the aristocratic mansions built by Puget in the Rue du Grand Cours opposite the Medusa fountain, a second marriage feast was being celebrated, almost at the same hour with the nuptial repast given by Dantès. In this case, however, although the occasion of the entertainment was similar, the company was strikingly dissimilar. Instead of a rude mixture of sailors, soldiers, and those belonging to the humblest grade of life, the present assembly was composed of the very flower of Marseilles society,—magistrates who had resigned their office during the usurper’s reign; officers who had deserted from the imperial army and joined forces with Condé; and younger members of families, brought up to hate and execrate the man whom five years of exile would convert into a martyr, and fifteen of restoration elevate to the rank of a god.
+In one of the aristocratic mansions built by Puget in the Rue du Grand Cours opposite the Medusa fountain, a second marriage feast was being celebrated, almost at the same hour with the nuptial repast given by Dantès. In this case, however, although the occasion of the entertainment was similar, the company was strikingly dissimilar. Instead of a rude mixture of sailors, soldiers, and those belonging to the humblest grade of life, the present assembly was composed of the very flower of Marseilles society—magistrates who had resigned their office during the usurper’s reign; officers who had deserted from the imperial army and joined forces with Condé; and younger members of families, brought up to hate and execrate the man whom five years of exile would convert into a martyr, and fifteen of restoration elevate to the rank of a god.
 
 The guests were still at table, and the heated and energetic conversation that prevailed betrayed the violent and vindictive passions that then agitated each dweller of the South, where unhappily, for five centuries religious strife had long given increased bitterness to the violence of party feeling.
 
-The emperor, now king of the petty Island of Elba, after having held sovereign sway over one-half of the world, counting as his subjects a small population of five or six thousand souls,—after having been accustomed to hear the “Vive Napoléons” of a hundred and twenty millions of human beings, uttered in ten different languages,—was looked upon here as a ruined man, separated forever from any fresh connection with France or claim to her throne.
+The emperor, now king of the petty Island of Elba, after having held sovereign sway over one-half of the world, counting as his subjects a small population of five or six thousand souls—after having been accustomed to hear the “Vive Napoléons” of a hundred and twenty millions of human beings, uttered in ten different languages—was looked upon here as a ruined man, separated forever from any fresh connection with France or claim to her throne.
 
-The magistrates freely discussed their political views; the military part of the company talked unreservedly of Moscow and Leipsic, while the women commented on the divorce of Josephine. It was not over the downfall of the man, but over the defeat of the Napoleonic idea, that they rejoiced, and in this they foresaw for themselves the bright and cheering prospect of a revivified political existence.
+The magistrates freely discussed their political views; the military part of the company talked unreservedly of Moscow and Leipzig, while the women commented on the divorce of Josephine. It was not over the downfall of the man, but over the defeat of the Napoleonic idea, that they rejoiced, and in this they foresaw for themselves the bright and cheering prospect of a revivified political existence.
 
 An old man, decorated with the cross of Saint Louis, now rose and proposed the health of King Louis XVIII. It was the Marquis de Saint-Méran. This toast, recalling at once the patient exile of Hartwell and the peace-loving King of France, excited universal enthusiasm; glasses were elevated in the air à l’Anglaise, and the ladies, snatching their bouquets from their fair bosoms, strewed the table with their floral treasures. In a word, an almost poetical fervor prevailed.
 
@@ -14,13 +14,13 @@ An old man, decorated with the cross of Saint Louis, now rose and proposed the h
 
 “Marquise, marquise!” interposed the old nobleman who had proposed the toast, “let the young people alone; let me tell you, on one’s wedding day there are more agreeable subjects of conversation than dry politics.”
 
-“Never mind, dearest mother,” said a young and lovely girl, with a profusion of light brown hair, and eyes that seemed to float in liquid crystal, “’tis all my fault for seizing upon M. de Villefort, so as to prevent his listening to what you said. But there—now take him—he is your own for as long as you like. M. Villefort, I beg to remind you my mother speaks to you.”
+“Never mind, dearest mother,” said a young and lovely girl, with a profusion of light brown hair, and eyes that seemed to float in liquid crystal, “ ’tis all my fault for seizing upon M. de Villefort, so as to prevent his listening to what you said. But there—now take him—he is your own for as long as you like. M. Villefort, I beg to remind you my mother speaks to you.”
 
 “If the marquise will deign to repeat the words I but imperfectly caught, I shall be delighted to answer,” said M. de Villefort.
 
 “Never mind, Renée,” replied the marquise, with a look of tenderness that seemed out of keeping with her harsh dry features; but, however all other feelings may be withered in a woman’s nature, there is always one bright smiling spot in the desert of her heart, and that is the shrine of maternal love. “I forgive you. What I was saying, Villefort, was, that the Bonapartists had not our sincerity, enthusiasm, or devotion.”
 
-“They had, however, what supplied the place of those fine qualities,” replied the young man, “and that was fanaticism. Napoleon is the Mahomet of the West, and is worshipped by his commonplace but ambitious followers, not only as a leader and lawgiver, but also as the personification of equality.”
+“They had, however, what supplied the place of those fine qualities,” replied the young man, “and that was fanaticism. Napoleon is the Muhammad of the West, and is worshipped by his commonplace but ambitious followers, not only as a leader and lawgiver, but also as the personification of equality.”
 
 “He!” cried the marquise: “Napoleon the type of equality! For mercy’s sake, then, what would you call Robespierre? Come, come, do not strip the latter of his just rights to bestow them on the Corsican, who, to my mind, has usurped quite enough.”
 
@@ -28,7 +28,7 @@ An old man, decorated with the cross of Saint Louis, now rose and proposed the h
 
 “Do you know, Villefort, that you are talking in a most dreadfully revolutionary strain? But I excuse it, it is impossible to expect the son of a Girondin to be free from a small spice of the old leaven.” A deep crimson suffused the countenance of Villefort.
 
-“’Tis true, madame,” answered he, “that my father was a Girondin, but he was not among the number of those who voted for the king’s death; he was an equal sufferer with yourself during the Reign of Terror, and had well-nigh lost his head on the same scaffold on which your father perished.”
+“ ’Tis true, madame,” answered he, “that my father was a Girondin, but he was not among the number of those who voted for the king’s death; he was an equal sufferer with yourself during the Reign of Terror, and had well-nigh lost his head on the same scaffold on which your father perished.”
 
 “True,” replied the marquise, without wincing in the slightest degree at the tragic remembrance thus called up; “but bear in mind, if you please, that our respective parents underwent persecution and proscription from diametrically opposite principles; in proof of which I may remark, that while my family remained among the staunchest adherents of the exiled princes, your father lost no time in joining the new government; and that while the Citizen Noirtier was a Girondin, the Count Noirtier became a senator.”
 
@@ -72,7 +72,7 @@ An old man, decorated with the cross of Saint Louis, now rose and proposed the h
 
 “Oh, M. de Villefort,” cried a beautiful young creature, daughter to the Comte de Salvieux, and the cherished friend of Mademoiselle de Saint-Méran, “do try and get up some famous trial while we are at Marseilles. I never was in a law-court; I am told it is so very amusing!”
 
-“Amusing, certainly,” replied the young man, “inasmuch as, instead of shedding tears as at the fictitious tale of woe produced at a theatre, you behold in a law-court a case of real and genuine distress—a drama of life. The prisoner whom you there see pale, agitated, and alarmed, instead of—as is the case when a curtain falls on a tragedy—going home to sup peacefully with his family, and then retiring to rest, that he may recommence his mimic woes on the morrow,—is removed from your sight merely to be reconducted to his prison and delivered up to the executioner. I leave you to judge how far your nerves are calculated to bear you through such a scene. Of this, however, be assured, that should any favorable opportunity present itself, I will not fail to offer you the choice of being present.”
+“Amusing, certainly,” replied the young man, “inasmuch as, instead of shedding tears as at the fictitious tale of woe produced at a theatre, you behold in a law-court a case of real and genuine distress—a drama of life. The prisoner whom you there see pale, agitated, and alarmed, instead of—as is the case when a curtain falls on a tragedy—going home to sup peacefully with his family, and then retiring to rest, that he may recommence his mimic woes on the morrow—is removed from your sight merely to be reconducted to his prison and delivered up to the executioner. I leave you to judge how far your nerves are calculated to bear you through such a scene. Of this, however, be assured, that should any favorable opportunity present itself, I will not fail to offer you the choice of being present.”
 
 “For shame, M. de Villefort!” said Renée, becoming quite pale; “don’t you see how you are frightening us?—and yet you laugh.”
 
@@ -88,7 +88,7 @@ An old man, decorated with the cross of Saint Louis, now rose and proposed the h
 
 “What a splendid business that last case of yours was, my dear Villefort!” remarked a third; “I mean the trial of the man for murdering his father. Upon my word, you killed him ere the executioner had laid his hand upon him.”
 
-“Oh, as for parricides, and such dreadful people as that,” interposed Renée, “it matters very little what is done to them; but as regards poor unfortunate creatures whose only crime consists in having mixed themselves up in political intrigues——”
+“Oh, as for parricides, and such dreadful people as that,” interposed Renée, “it matters very little what is done to them; but as regards poor unfortunate creatures whose only crime consists in having mixed themselves up in political intrigues—”
 
 “Why, that is the very worst offence they could possibly commit; for, don’t you see, Renée, the king is the father of his people, and he who shall plot or contrive aught against the life and safety of the parent of thirty-two millions of souls, is a parricide upon a fearfully great scale?”
 
@@ -96,9 +96,9 @@ An old man, decorated with the cross of Saint Louis, now rose and proposed the h
 
 “Make yourself quite easy on that point,” answered Villefort, with one of his sweetest smiles; “you and I will always consult upon our verdicts.”
 
-“My love,” said the marquise, “attend to your doves, your lap-dogs, and embroidery, but do not meddle with what you do not understand. Nowadays the military profession is in abeyance and the magisterial robe is the badge of honor. There is a wise Latin proverb that is very much in point.”
+“My love,” said the marquise, “attend to your doves, your lapdogs, and embroidery, but do not meddle with what you do not understand. Nowadays the military profession is in abeyance and the magisterial robe is the badge of honor. There is a wise Latin proverb that is very much in point.”
 
-“Cedant arma togæ,” said Villefort with a bow.
+“Cedant arma togae,” said Villefort with a bow.
 
 “I cannot speak Latin,” responded the marquise.
 
@@ -112,7 +112,7 @@ An old man, decorated with the cross of Saint Louis, now rose and proposed the h
 
 “Madame,” replied Villefort, with a mournful smile, “I have already had the honor to observe that my father has—at least, I hope so—abjured his past errors, and that he is, at the present moment, a firm and zealous friend to religion and order—a better royalist, possibly, than his son; for he has to atone for past dereliction, while I have no other impulse than warm, decided preference and conviction.” Having made this well-turned speech, Villefort looked carefully around to mark the effect of his oratory, much as he would have done had he been addressing the bench in open court.
 
-“Do you know, my dear Villefort,” cried the Comte de Salvieux, “that is exactly what I myself said the other day at the Tuileries, when questioned by his majesty’s principal chamberlain touching the singularity of an alliance between the son of a Girondin and the daughter of an officer of the Duc de Condé; and I assure you he seemed fully to comprehend that this mode of reconciling political differences was based upon sound and excellent principles. Then the king, who, without our suspecting it, had overheard our conversation, interrupted us by saying, ‘Villefort’—observe that the king did not pronounce the word Noirtier, but, on the contrary, placed considerable emphasis on that of Villefort—‘Villefort,’ said his majesty, ‘is a young man of great judgment and discretion, who will be sure to make a figure in his profession; I like him much, and it gave me great pleasure to hear that he was about to become the son-in-law of the Marquis and Marquise de Saint-Méran. I should myself have recommended the match, had not the noble marquis anticipated my wishes by requesting my consent to it.’”
+“Do you know, my dear Villefort,” cried the Comte de Salvieux, “that is exactly what I myself said the other day at the Tuileries, when questioned by his majesty’s principal chamberlain touching the singularity of an alliance between the son of a Girondin and the daughter of an officer of the Duc de Condé; and I assure you he seemed fully to comprehend that this mode of reconciling political differences was based upon sound and excellent principles. Then the king, who, without our suspecting it, had overheard our conversation, interrupted us by saying, ‘Villefort’—observe that the king did not pronounce the word Noirtier, but, on the contrary, placed considerable emphasis on that of Villefort—‘Villefort,’ said his majesty, ‘is a young man of great judgment and discretion, who will be sure to make a figure in his profession; I like him much, and it gave me great pleasure to hear that he was about to become the son-in-law of the Marquis and Marquise de Saint-Méran. I should myself have recommended the match, had not the noble marquis anticipated my wishes by requesting my consent to it.’ ”
 
 “Is it possible the king could have condescended so far as to express himself so favorably of me?” asked the enraptured Villefort.
 
@@ -124,13 +124,13 @@ An old man, decorated with the cross of Saint Louis, now rose and proposed the h
 
 “That is right,” cried the marquise. “I love to see you thus. Now, then, were a conspirator to fall into your hands, he would be most welcome.”
 
-“For my part, dear mother,” interposed Renée, “I trust your wishes will not prosper, and that Providence will only permit petty offenders, poor debtors, and miserable cheats to fall into M. de Villefort’s hands,—then I shall be contented.”
+“For my part, dear mother,” interposed Renée, “I trust your wishes will not prosper, and that Providence will only permit petty offenders, poor debtors, and miserable cheats to fall into M. de Villefort’s hands—then I shall be contented.”
 
 “Just the same as though you prayed that a physician might only be called upon to prescribe for headaches, measles, and the stings of wasps, or any other slight affection of the epidermis. If you wish to see me the king’s attorney, you must desire for me some of those violent and dangerous diseases from the cure of which so much honor redounds to the physician.”
 
 At this moment, and as though the utterance of Villefort’s wish had sufficed to effect its accomplishment, a servant entered the room, and whispered a few words in his ear. Villefort immediately rose from table and quitted the room upon the plea of urgent business; he soon, however, returned, his whole face beaming with delight. Renée regarded him with fond affection; and certainly his handsome features, lit up as they then were with more than usual fire and animation, seemed formed to excite the innocent admiration with which she gazed on her graceful and intelligent lover.
 
-“You were wishing just now,” said Villefort, addressing her, “that I were a doctor instead of a lawyer. Well, I at least resemble the disciples of Esculapius in one thing [people spoke in this style in 1815], that of not being able to call a day my own, not even that of my betrothal.”
+“You were wishing just now,” said Villefort, addressing her, “that I were a doctor instead of a lawyer. Well, I at least resemble the disciples of Esculapius in one thing (people spoke in this style in 1815), that of not being able to call a day my own, not even that of my betrothal.”
 
 “And wherefore were you called away just now?” asked Mademoiselle de Saint-Méran, with an air of deep interest.
 
@@ -146,7 +146,7 @@ At this moment, and as though the utterance of Villefort’s wish had sufficed t
 
 “I will read you the letter containing the accusation, at least,” said Villefort:
 
-“‘The king’s attorney is informed by a friend to the throne and the religious institutions of his country, that one named Edmond Dantès, mate of the ship Pharaon, this day arrived from Smyrna, after having touched at Naples and Porto-Ferrajo, has been the bearer of a letter from Murat to the usurper, and again taken charge of another letter from the usurper to the Bonapartist club in Paris. Ample corroboration of this statement may be obtained by arresting the above-mentioned Edmond Dantès, who either carries the letter for Paris about with him, or has it at his father’s abode. Should it not be found in the possession of father or son, then it will assuredly be discovered in the cabin belonging to the said Dantès on board the Pharaon.’”
+“ ‘The king’s attorney is informed by a friend to the throne and the religious institutions of his country, that one named Edmond Dantès, mate of the ship Pharaon, this day arrived from Smyrna, after having touched at Naples and Porto-Ferrajo, has been the bearer of a letter from Murat to the usurper, and again taken charge of another letter from the usurper to the Bonapartist club in Paris. Ample corroboration of this statement may be obtained by arresting the above-mentioned Edmond Dantès, who either carries the letter for Paris about with him, or has it at his father’s abode. Should it not be found in the possession of father or son, then it will assuredly be discovered in the cabin belonging to the said Dantès on board the Pharaon.’ ”
 
 “But,” said Renée, “this letter, which, after all, is but an anonymous scrawl, is not even addressed to you, but to the king’s attorney.”
 

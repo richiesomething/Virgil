@@ -6,7 +6,7 @@ Monte Cristo uttered a joyful exclamation on seeing the young men together. “A
 
 “What is it?” said Albert; “arranging your papers, apparently.”
 
-“My papers, thank God, no,—my papers are all in capital order, because I have none; but M. Cavalcanti’s.”
+“My papers, thank God, no—my papers are all in capital order, because I have none; but M. Cavalcanti’s.”
 
 “M. Cavalcanti’s?” asked Beauchamp.
 
@@ -94,7 +94,7 @@ Monte Cristo uttered a joyful exclamation on seeing the young men together. “A
 
 “What? you have been to sea?”
 
-“Yes; I have just made a little excursion to the Borromean Islands18.”
+“Yes; I have just made a little excursion to the Borromean Islands.”
 
 “What of that? come with us,” said Albert.
 
@@ -106,7 +106,7 @@ Albert and Beauchamp parted, the last pressure of their hands expressing what th
 
 “Beauchamp is a worthy fellow,” said Monte Cristo, when the journalist was gone; “is he not, Albert?”
 
-“Yes, and a sincere friend; I love him devotedly. But now we are alone,—although it is immaterial to me,—where are we going?”
+“Yes, and a sincere friend; I love him devotedly. But now we are alone—although it is immaterial to me—where are we going?”
 
 “Into Normandy, if you like.”
 
@@ -124,7 +124,7 @@ Albert and Beauchamp parted, the last pressure of their hands expressing what th
 
 “You forget, count, that I have often told you of the deep interest my mother takes in you.”
 
-“‘Woman is fickle.’ said Francis I.; ‘woman is like a wave of the sea,’ said Shakespeare; both the great king and the great poet ought to have known woman’s nature well.”
+“ ‘Woman is fickle,’ said Francis I; ‘woman is like a wave of the sea,’ said Shakespeare; both the great king and the great poet ought to have known woman’s nature well.”
 
 “Woman’s, yes; my mother is not woman, but a woman.”
 
@@ -138,7 +138,7 @@ Albert and Beauchamp parted, the last pressure of their hands expressing what th
 
 “And does she try to make you dislike me?”
 
-“On the contrary, she often says, ‘Morcerf, I believe the count has a noble nature; try to gain his esteem.’”
+“On the contrary, she often says, ‘Morcerf, I believe the count has a noble nature; try to gain his esteem.’ ”
 
 “Indeed?” said Monte Cristo, sighing.
 
@@ -224,13 +224,13 @@ The whole journey was performed with equal rapidity; the thirty-two horses, disp
 
 Albert bathed, took his supper, and went to bed. All night he was lulled by the melancholy noise of the surf. On rising, he went to his window, which opened on a terrace, having the sea in front, and at the back a pretty park bounded by a small forest.
 
-In a creek lay a little sloop, with a narrow keel and high masts, bearing on its flag the Monte Cristo arms which were a mountain or, on a sea azure, with a cross gules in chief which might be an allusion to his name that recalled Calvary, the mount rendered by our Lord’s passion more precious than gold, and to the degrading cross which his blood had rendered holy; or it might be some personal remembrance of suffering and regeneration buried in the night of this mysterious personage’s past life.
+In a creek lay a little sloop, with a narrow keel and high masts, bearing on its flag the Monte Cristo arms which were a mountain or, on a sea azure, with a cross gules in chief, which might be an allusion to his name that recalled Calvary, the mount rendered by our Lord’s passion more precious than gold, and to the degrading cross which his blood had rendered holy; or it might be some personal remembrance of suffering and regeneration buried in the night of this mysterious personage’s past life.
 
 Around the schooner lay a number of small fishing-boats belonging to the fishermen of the neighboring village, like humble subjects awaiting orders from their queen. There, as in every spot where Monte Cristo stopped, if but for two days, luxury abounded and life went on with the utmost ease.
 
-Albert found in his anteroom two guns, with all the accoutrements for hunting; a lofty room on the ground floor containing all the ingenious instruments the English—eminent in piscatory pursuits, since they are patient and sluggish—have invented for fishing. The day passed in pursuing those exercises in which Monte Cristo excelled. They killed a dozen pheasants in the park, as many trout in the stream, dined in a summer-house overlooking the ocean, and took tea in the library.
+Albert found in his anteroom two guns, with all the accoutrements for hunting; a lofty room on the ground floor containing all the ingenious instruments the English—eminent in piscatory pursuits, since they are patient and sluggish—have invented for fishing. The day passed in pursuing those exercises in which Monte Cristo excelled. They killed a dozen pheasants in the park, as many trout in the stream, dined in a summerhouse overlooking the ocean, and took tea in the library.
 
-Towards the evening of the third day. Albert, completely exhausted with the exercise which invigorated Monte Cristo, was sleeping in an armchair near the window, while the count was designing with his architect the plan of a conservatory in his house, when the sound of a horse at full speed on the high road made Albert look up. He was disagreeably surprised to see his own valet de chambre, whom he had not brought, that he might not inconvenience Monte Cristo.
+Towards the evening of the third day, Albert, completely exhausted with the exercise which invigorated Monte Cristo, was sleeping in an armchair near the window, while the count was designing with his architect the plan of a conservatory in his house, when the sound of a horse at full speed on the high road made Albert look up. He was disagreeably surprised to see his own valet de chambre, whom he had not brought, that he might not inconvenience Monte Cristo.
 
 “Florentin here!” cried he, starting up; “is my mother ill?” And he hastened to the door. Monte Cristo watched and saw him approach the valet, who drew a small sealed parcel from his pocket, containing a newspaper and a letter.
 
@@ -254,7 +254,7 @@ Meanwhile Albert had revived, and, continuing to read, he threw back his head, s
 
 “In what state was the house when you left?”
 
-“All was quiet, but on returning from M. Beauchamp’s, I found madame in tears; she had sent for me to know when you would return. I told her my orders from M. Beauchamp; she first extended her arms to prevent me, but after a moment’s reflection, ‘Yes, go, Florentin,’ said she, ‘and may he come quickly.’”
+“All was quiet, but on returning from M. Beauchamp’s, I found madame in tears; she had sent for me to know when you would return. I told her my orders from M. Beauchamp; she first extended her arms to prevent me, but after a moment’s reflection, ‘Yes, go, Florentin,’ said she, ‘and may he come quickly.’ ”
 
 “Yes, my mother,” said Albert, “I will return, and woe to the infamous wretch! But first of all I must get there.”
 
@@ -276,9 +276,7 @@ Albert reeled as if he had been shot, and fell on a chair near the door. Monte C
 
 These words restored Albert; he darted from the room, followed by the count.
 
-“Thank you!” cried he, throwing himself on his horse.
-
-“Return as soon as you can, Florentin. Must I use any password to procure a horse?”
+“Thank you!” cried he, throwing himself on his horse. “Return as soon as you can, Florentin. Must I use any password to procure a horse?”
 
 “Only dismount; another will be immediately saddled.”
 
@@ -286,6 +284,6 @@ Albert hesitated a moment. “You may think my departure strange and foolish,”
 
 While the count picked up the paper he put spurs to his horse, which leaped in astonishment at such an unusual stimulus, and shot away with the rapidity of an arrow. The count watched him with a feeling of compassion, and when he had completely disappeared, read as follows:
 
-“The French officer in the service of Ali Pasha of Yanina alluded to three weeks since in l’Impartial, who not only surrendered the castle of Yanina, but sold his benefactor to the Turks, styled himself truly at that time Fernand, as our esteemed contemporary states; but he has since added to his Christian name a title of nobility and a family name. He now calls himself the Count of Morcerf, and ranks among the peers.”
+“The French officer in the service of Ali Pasha of Yanina alluded to three weeks since in L’Impartial, who not only surrendered the castle of Yanina, but sold his benefactor to the Turks, styled himself truly at that time Fernand, as our esteemed contemporary states; but he has since added to his Christian name a title of nobility and a family name. He now calls himself the Count of Morcerf, and ranks among the peers.”
 
 Thus the terrible secret, which Beauchamp had so generously destroyed, appeared again like an armed phantom; and another paper, deriving its information from some malicious source, had published two days after Albert’s departure for Normandy the few lines which had rendered the unfortunate young man almost crazy.

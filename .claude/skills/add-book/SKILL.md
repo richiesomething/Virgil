@@ -32,7 +32,7 @@ Use `pipeline/templates/` (one brief per stage) and `docs/data-format.md`. Every
 **Text stage (text mode only, right after the manifest):** the reader can read the book itself (docs/reading-spec.md).
 - Run `node scripts/pipeline/export-text.mjs <id>`. It writes `public/texts/<id>/NNN.txt` and `manifest.json` from `source/chapters/` and recounts `word-counts.json`.
 - Check the "Dropped heading lines" it prints: each chapter should lose only its heading (number and title). If a real first line was dropped, or a heading was kept, fix the heading rule or the split and rerun.
-- Set `text` in `book.json`: `{ "status": "shipped", "edition": "…", "license": "Public domain", "sourceUrl": "…" }`. Prefer the most readable public-domain edition (a modern translation released to the public domain, else Gutenberg).
+- Set `text` in `book.json`: `{ "status": "shipped", "edition": "…", "license": "Public domain", "sourceUrl": "…" }`. Prefer the most readable public-domain edition: a modern translation released to the public domain, else Standard Ebooks (modernised spelling, fixed typos; fetch `…/text/single-page` with a browser User-Agent and run `node scripts/pipeline/split-xhtml.mjs <id> <file>`), else Gutenberg.
 - Knowledge mode (no text): set `"text": { "status": "upload" }` so the app offers **Add your copy**. Mark the stage `skipped`.
 
 ## What can run at the same time

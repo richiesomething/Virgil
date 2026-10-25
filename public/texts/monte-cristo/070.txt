@@ -26,7 +26,7 @@ And the two carriages passed on towards their different destinations. Madame Dan
 
 “I confess it,” replied Albert. “Could you have been so cruel as not to bring her?”
 
-“Calm yourself. She has met Mademoiselle de Villefort, and has taken her arm; see, they are following us, both in white dresses, one with a bouquet of camellias, the other with one of myosotis. But tell me——”
+“Calm yourself. She has met Mademoiselle de Villefort, and has taken her arm; see, they are following us, both in white dresses, one with a bouquet of camellias, the other with one of myosotis. But tell me—”
 
 “Well, what do you wish to know?”
 
@@ -50,7 +50,7 @@ And the two carriages passed on towards their different destinations. Madame Dan
 
 “Ah, indeed? And did the eccentric person commit any new originality?”
 
-“Can he be seen without doing so? Elssler was dancing in Le Diable boiteux; the Greek princess was in ecstasies. After the cachucha he placed a magnificent ring on the stem of a bouquet, and threw it to the charming danseuse, who, in the third act, to do honor to the gift, reappeared with it on her finger. And the Greek princess,—will she be here?”
+“Can he be seen without doing so? Elssler was dancing in Le Diable boiteux; the Greek princess was in ecstasies. After the cachucha he placed a magnificent ring on the stem of a bouquet, and threw it to the charming danseuse, who, in the third act, to do honor to the gift, reappeared with it on her finger. And the Greek princess—will she be here?”
 
 “No, you will be deprived of that pleasure; her position in the count’s establishment is not sufficiently understood.”
 
@@ -74,7 +74,7 @@ Albert bowed to Madame Danglars, and advanced towards Madame de Villefort, whose
 
 “Not at all. It is not of him that I am now thinking. I was going to ask you if you had received any news of Monsieur Franz.”
 
-“Yes,—yesterday.”
+“Yes—yesterday.”
 
 “What did he tell you?”
 
@@ -98,7 +98,7 @@ Albert bowed to Madame Danglars, and advanced towards Madame de Villefort, whose
 
 “He is a Maltese.”
 
-“That is also possible.
+“That is also possible.”
 
 “The son of a shipowner.”
 
@@ -118,7 +118,7 @@ Albert bowed to Madame Danglars, and advanced towards Madame de Villefort, whose
 
 “The police.”
 
-“Then the news originated——”
+“Then the news originated—”
 
 “At the prefect’s last night. Paris, you can understand, is astonished at the sight of such unusual splendor, and the police have made inquiries.”
 
@@ -142,11 +142,11 @@ This answer, and especially the tone in which it was uttered, chilled the heart 
 
 The salutation was so well understood that Morrel, with the same expression in his eyes, placed his handkerchief to his mouth; and these two living statues, whose hearts beat so violently under their marble aspect, separated from each other by the whole length of the room, forgot themselves for a moment, or rather forgot the world in their mutual contemplation. They might have remained much longer lost in one another, without anyone noticing their abstraction. The Count of Monte Cristo had just entered.
 
-We have already said that there was something in the count which attracted universal attention wherever he appeared. It was not the coat, unexceptional in its cut, though simple and unornamented; it was not the plain white waistcoat; it was not the trousers, that displayed the foot so perfectly formed—it was none of these things that attracted the attention,—it was his pale complexion, his waving black hair, his calm and serene expression, his dark and melancholy eye, his mouth, chiselled with such marvellous delicacy, which so easily expressed such high disdain,—these were what fixed the attention of all upon him.
+We have already said that there was something in the count which attracted universal attention wherever he appeared. It was not the coat, unexceptional in its cut, though simple and unornamented; it was not the plain white waistcoat; it was not the trousers, that displayed the foot so perfectly formed—it was none of these things that attracted the attention—it was his pale complexion, his waving black hair, his calm and serene expression, his dark and melancholy eye, his mouth, chiselled with such marvellous delicacy, which so easily expressed such high disdain—these were what fixed the attention of all upon him.
 
 Many men might have been handsomer, but certainly there could be none whose appearance was more significant, if the expression may be used. Everything about the count seemed to have its meaning, for the constant habit of thought which he had acquired had given an ease and vigor to the expression of his face, and even to the most trifling gesture, scarcely to be understood. Yet the Parisian world is so strange, that even all this might not have won attention had there not been connected with it a mysterious story gilded by an immense fortune.
 
-Meanwhile he advanced through the assemblage of guests under a battery of curious glances towards Madame de Morcerf, who, standing before a mantle-piece ornamented with flowers, had seen his entrance in a looking-glass placed opposite the door, and was prepared to receive him. She turned towards him with a serene smile just at the moment he was bowing to her. No doubt she fancied the count would speak to her, while on his side the count thought she was about to address him; but both remained silent, and after a mere bow, Monte Cristo directed his steps to Albert, who received him cordially.
+Meanwhile he advanced through the assemblage of guests under a battery of curious glances towards Madame de Morcerf, who, standing before a mantelpiece ornamented with flowers, had seen his entrance in a looking-glass placed opposite the door, and was prepared to receive him. She turned towards him with a serene smile just at the moment he was bowing to her. No doubt she fancied the count would speak to her, while on his side the count thought she was about to address him; but both remained silent, and after a mere bow, Monte Cristo directed his steps to Albert, who received him cordially.
 
 “Have you seen my mother?” asked Albert.
 
@@ -164,7 +164,7 @@ Meanwhile he advanced through the assemblage of guests under a battery of curiou
 
 “And who can that person be who has taken it into his head to wrap himself up in a blue coat embroidered with green?”
 
-“Oh, that coat is not his own idea; it is the Republic’s, which deputed David12 to devise a uniform for the Academicians.”
+“Oh, that coat is not his own idea; it is the Republic’s, which deputed David to devise a uniform for the Academicians.”
 
 “Indeed?” said Monte Cristo; “so this gentleman is an Academician?”
 
@@ -180,7 +180,7 @@ Meanwhile he advanced through the assemblage of guests under a battery of curiou
 
 “But what has the French Academy to do with all this?”
 
-“I was going to tell you. It seems——”
+“I was going to tell you. It seems—”
 
 “That his experiments have very considerably advanced the cause of science, doubtless?”
 
@@ -228,11 +228,11 @@ Albert laughed.
 
 “Ah, mon Dieu!” exclaimed Danglars, “they have drawn on me for 200,000 francs!”
 
-“Well, you can throw out the draft; their signature is worth five per cent.”
+“Well, you can throw out the draft; their signature is worth five percent.”
 
 “Yes, but it is too late,” said Danglars, “I have honored their bills.”
 
-“Then,” said Monte Cristo, “here are 200,000 francs gone after——”
+“Then,” said Monte Cristo, “here are 200,000 francs gone after—”
 
 “Hush, do not mention these things,” said Danglars; then, approaching Monte Cristo, he added, “especially before young M. Cavalcanti;” after which he smiled, and turned towards the young man in question.
 
@@ -282,7 +282,7 @@ A minute afterwards the blinds were thrown open, and through the jessamine and c
 
 “Do not detain those gentlemen here, count,” she said; “they would prefer, I should think, to breathe in the garden rather than suffocate here, since they are not playing.”
 
-“Ah,” said a gallant old general, who, in 1809, had sung Partant pour la Syrie,—“we will not go alone to the garden.”
+“Ah,” said a gallant old general, who, in 1809, had sung “Partant pour la Syrie”—“we will not go alone to the garden.”
 
 “Then,” said Mercédès, “I will lead the way.”
 

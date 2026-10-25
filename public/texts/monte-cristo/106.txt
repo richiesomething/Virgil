@@ -8,7 +8,7 @@ The day after Monte Cristo had called upon Danglars, the mysterious lodger enter
 
 “Oh, Lucien—oh, my friend!”
 
-The concierge therefore heard for the first time that the lodger’s name was Lucien; still, as he was the very perfection of a door-keeper, he made up his mind not to tell his wife.
+The concierge therefore heard for the first time that the lodger’s name was Lucien; still, as he was the very perfection of a doorkeeper, he made up his mind not to tell his wife.
 
 “Well, what is the matter, my dear?” asked the gentleman whose name the lady’s agitation revealed; “tell me what is the matter.”
 
@@ -16,7 +16,7 @@ The concierge therefore heard for the first time that the lodger’s name was Lu
 
 “Of course, you know you can do so. But what can be the matter? Your note of this morning has completely bewildered me. This precipitation—this unusual appointment. Come, ease me of my anxiety, or else frighten me at once.”
 
-“Lucien, a great event has happened!” said the lady, glancing inquiringly at Lucien,—“M. Danglars left last night!”
+“Lucien, a great event has happened!” said the lady, glancing inquiringly at Lucien—“M. Danglars left last night!”
 
 “Left?—M. Danglars left? Where has he gone?”
 
@@ -26,7 +26,7 @@ The concierge therefore heard for the first time that the lodger’s name was Lu
 
 “Undoubtedly;—at ten o’clock at night his horses took him to the barrier of Charenton; there a post-chaise was waiting for him—he entered it with his valet de chambre, saying that he was going to Fontainebleau.”
 
-“Then what did you mean——”
+“Then what did you mean—”
 
 “Stay—he left a letter for me.”
 
@@ -36,7 +36,7 @@ The concierge therefore heard for the first time that the lodger’s name was Lu
 
 And the baroness took from her pocket a letter which she gave to Debray. Debray paused a moment before reading, as if trying to guess its contents, or perhaps while making up his mind how to act, whatever it might contain. No doubt his ideas were arranged in a few minutes, for he began reading the letter which caused so much uneasiness in the heart of the baroness, and which ran as follows:
 
-“‘Madame and most faithful wife.’”
+“ ‘Madame and most faithful wife.’ ”
 
 Debray mechanically stopped and looked at the baroness, whose face became covered with blushes.
 
@@ -44,11 +44,11 @@ Debray mechanically stopped and looked at the baroness, whose face became covere
 
 Debray continued:
 
-“‘When you receive this, you will no longer have a husband. Oh, you need not be alarmed, you will only have lost him as you have lost your daughter; I mean that I shall be travelling on one of the thirty or forty roads leading out of France. I owe you some explanations for my conduct, and as you are a woman that can perfectly understand me, I will give them. Listen, then. I received this morning five millions which I paid away; almost directly afterwards another demand for the same sum was presented to me; I put this creditor off till tomorrow and I intend leaving today, to escape that tomorrow, which would be rather too unpleasant for me to endure. You understand this, do you not, my most precious wife? I say you understand this, because you are as conversant with my affairs as I am; indeed, I think you understand them better, since I am ignorant of what has become of a considerable portion of my fortune, once very tolerable, while I am sure, madame, that you know perfectly well. For women have infallible instincts; they can even explain the marvellous by an algebraic calculation they have invented; but I, who only understand my own figures, know nothing more than that one day these figures deceived me. Have you admired the rapidity of my fall? Have you been slightly dazzled at the sudden fusion of my ingots? I confess I have seen nothing but the fire; let us hope you have found some gold among the ashes. With this consoling idea, I leave you, madame, and most prudent wife, without any conscientious reproach for abandoning you; you have friends left, and the ashes I have already mentioned, and above all the liberty I hasten to restore to you. And here, madame, I must add another word of explanation. So long as I hoped you were working for the good of our house and for the fortune of our daughter, I philosophically closed my eyes; but as you have transformed that house into a vast ruin I will not be the foundation of another man’s fortune. You were rich when I married you, but little respected. Excuse me for speaking so very candidly, but as this is intended only for ourselves, I do not see why I should weigh my words. I have augmented our fortune, and it has continued to increase during the last fifteen years, till extraordinary and unexpected catastrophes have suddenly overturned it,—without any fault of mine, I can honestly declare. You, madame, have only sought to increase your own, and I am convinced that you have succeeded. I leave you, therefore, as I took you,—rich, but little respected. Adieu! I also intend from this time to work on my own account. Accept my acknowledgments for the example you have set me, and which I intend following.
+“ ‘When you receive this, you will no longer have a husband. Oh, you need not be alarmed, you will only have lost him as you have lost your daughter; I mean that I shall be travelling on one of the thirty or forty roads leading out of France. I owe you some explanations for my conduct, and as you are a woman that can perfectly understand me, I will give them. Listen, then. I received this morning five millions which I paid away; almost directly afterwards another demand for the same sum was presented to me; I put this creditor off till tomorrow and I intend leaving today, to escape that tomorrow, which would be rather too unpleasant for me to endure. You understand this, do you not, my most precious wife? I say you understand this, because you are as conversant with my affairs as I am; indeed, I think you understand them better, since I am ignorant of what has become of a considerable portion of my fortune, once very tolerable, while I am sure, madame, that you know perfectly well. For women have infallible instincts; they can even explain the marvellous by an algebraic calculation they have invented; but I, who only understand my own figures, know nothing more than that one day these figures deceived me. Have you admired the rapidity of my fall? Have you been slightly dazzled at the sudden fusion of my ingots? I confess I have seen nothing but the fire; let us hope you have found some gold among the ashes. With this consoling idea, I leave you, madame, and most prudent wife, without any conscientious reproach for abandoning you; you have friends left, and the ashes I have already mentioned, and above all the liberty I hasten to restore to you. And here, madame, I must add another word of explanation. So long as I hoped you were working for the good of our house and for the fortune of our daughter, I philosophically closed my eyes; but as you have transformed that house into a vast ruin I will not be the foundation of another man’s fortune. You were rich when I married you, but little respected. Excuse me for speaking so very candidly, but as this is intended only for ourselves, I do not see why I should weigh my words. I have augmented our fortune, and it has continued to increase during the last fifteen years, till extraordinary and unexpected catastrophes have suddenly overturned it—without any fault of mine, I can honestly declare. You, madame, have only sought to increase your own, and I am convinced that you have succeeded. I leave you, therefore, as I took you—rich, but little respected. Adieu! I also intend from this time to work on my own account. Accept my acknowledgments for the example you have set me, and which I intend following.
 
-“‘Your very devoted husband,
+“ ‘Your very devoted husband,
 
-“‘Baron Danglars.’”
+“ ‘Baron Danglars.’ ”
 
 The baroness had watched Debray while he read this long and painful letter, and saw him, notwithstanding his self-control, change color once or twice. When he had ended the perusal, he folded the letter and resumed his pensive attitude.
 
@@ -74,7 +74,7 @@ Debray, instead of answering, allowed her to remain in an attitude of nervous in
 
 “Well?” she said at length, “do you not answer me?”
 
-“I have but one question to ask you,—what do you intend to do?”
+“I have but one question to ask you—what do you intend to do?”
 
 “I was going to ask you,” replied the baroness with a beating heart.
 
@@ -94,17 +94,17 @@ The dread with which the pale and motionless baroness listened to this, was equa
 
 These were the only words that this proud and violently enamoured woman could utter in response to Debray.
 
-“But then you are rich,—very rich, indeed,” continued Debray, taking out some papers from his pocket-book, which he spread upon the table. Madame Danglars did not see them; she was engaged in stilling the beatings of her heart, and restraining the tears which were ready to gush forth. At length a sense of dignity prevailed, and if she did not entirely master her agitation, she at least succeeded in preventing the fall of a single tear.
+“But then you are rich—very rich, indeed,” continued Debray, taking out some papers from his pocketbook, which he spread upon the table. Madame Danglars did not see them; she was engaged in stilling the beatings of her heart, and restraining the tears which were ready to gush forth. At length a sense of dignity prevailed, and if she did not entirely master her agitation, she at least succeeded in preventing the fall of a single tear.
 
-“Madame,” said Debray, “it is nearly six months since we have been associated. You furnished a principal of 100,000 francs. Our partnership began in the month of April. In May we commenced operations, and in the course of the month gained 450,000 francs. In June the profit amounted to 900,000. In July we added 1,700,000 francs,—it was, you know, the month of the Spanish bonds. In August we lost 300,000 francs at the beginning of the month, but on the 13th we made up for it, and we now find that our accounts, reckoning from the first day of partnership up to yesterday, when I closed them, showed a capital of 2,400,000 francs, that is, 1,200,000 for each of us. Now, madame,” said Debray, delivering up his accounts in the methodical manner of a stockbroker, “there are still 80,000 francs, the interest of this money, in my hands.”
+“Madame,” said Debray, “it is nearly six months since we have been associated. You furnished a principal of 100,000 francs. Our partnership began in the month of April. In May we commenced operations, and in the course of the month gained 450,000 francs. In June the profit amounted to 900,000. In July we added 1,700,000 francs—it was, you know, the month of the Spanish bonds. In August we lost 300,000 francs at the beginning of the month, but on the 13th we made up for it, and we now find that our accounts, reckoning from the first day of partnership up to yesterday, when I closed them, showed a capital of 2,400,000 francs, that is, 1,200,000 for each of us. Now, madame,” said Debray, delivering up his accounts in the methodical manner of a stockbroker, “there are still 80,000 francs, the interest of this money, in my hands.”
 
 “But,” said the baroness, “I thought you never put the money out to interest.”
 
-“Excuse me, madame,” said Debray coldly, “I had your permission to do so, and I have made use of it. There are, then, 40,000 francs for your share, besides the 100,000 you furnished me to begin with, making in all 1,340,000 francs for your portion. Now, madame, I took the precaution of drawing out your money the day before yesterday; it is not long ago, you see, and I was in continual expectation of being called on to deliver up my accounts. There is your money,—half in bank-notes, the other half in checks payable to bearer. I say there, for as I did not consider my house safe enough, or lawyers sufficiently discreet, and as landed property carries evidence with it, and moreover since you have no right to possess anything independent of your husband, I have kept this sum, now your whole fortune, in a chest concealed under that closet, and for greater security I myself concealed it there.
+“Excuse me, madame,” said Debray coldly, “I had your permission to do so, and I have made use of it. There are, then, 40,000 francs for your share, besides the 100,000 you furnished me to begin with, making in all 1,340,000 francs for your portion. Now, madame, I took the precaution of drawing out your money the day before yesterday; it is not long ago, you see, and I was in continual expectation of being called on to deliver up my accounts. There is your money—half in banknotes, the other half in checks payable to bearer. I say there, for as I did not consider my house safe enough, or lawyers sufficiently discreet, and as landed property carries evidence with it, and moreover since you have no right to possess anything independent of your husband, I have kept this sum, now your whole fortune, in a chest concealed under that closet, and for greater security I myself concealed it there.
 
 “Now, madame,” continued Debray, first opening the closet, then the chest;—“now, madame, here are 800 notes of 1,000 francs each, resembling, as you see, a large book bound in iron; to this I add a certificate in the funds of 25,000 francs; then, for the odd cash, making I think about 110,000 francs, here is a check upon my banker, who, not being M. Danglars, will pay you the amount, you may rest assured.”
 
-Madame Danglars mechanically took the check, the bond, and the heap of bank-notes. This enormous fortune made no great appearance on the table. Madame Danglars, with tearless eyes, but with her breast heaving with concealed emotion, placed the bank-notes in her bag, put the certificate and check into her pocket-book, and then, standing pale and mute, awaited one kind word of consolation.
+Madame Danglars mechanically took the check, the bond, and the heap of banknotes. This enormous fortune made no great appearance on the table. Madame Danglars, with tearless eyes, but with her breast heaving with concealed emotion, placed the banknotes in her bag, put the certificate and check into her pocketbook, and then, standing pale and mute, awaited one kind word of consolation.
 
 But she waited in vain.
 
@@ -152,7 +152,7 @@ Winter approached. Mercédès had no fire in that cold and naked room—she, who
 
 “Capital—nothing!” replied Mercédès with a mournful smile.
 
-“No, mother,—capital 3,000 francs. And I have an idea of our leading a delightful life upon this 3,000 francs.”
+“No, mother—capital 3,000 francs. And I have an idea of our leading a delightful life upon this 3,000 francs.”
 
 “Child!” sighed Mercédès.
 
@@ -168,7 +168,19 @@ Winter approached. Mercédès had no fire in that cold and naked room—she, who
 
 Albert then took a pen, and wrote:
 
-Frs. Coupé, thirty-five francs.............................. 35. From Châlons to Lyons you will go on by the steamboat.. 6. From Lyons to Avignon (still by steamboat)............. 16. From Avignon to Marseilles, seven francs............... 7. Expenses on the road, about fifty francs............... 50. Total................................................. 114 frs.
+Frs.
+
+Coupé, thirty-five francs
+
+From Châlons to Lyons you will go on by the steamboat, six francs
+
+From Lyons to Avignon (still by steamboat), sixteen francs
+
+From Avignon to Marseilles, seven francs
+
+Expenses on the road, about fifty francs
+
+Total
 
 “Let us put down 120,” added Albert, smiling. “You see I am generous, am I not, mother?”
 
@@ -186,9 +198,9 @@ Frs. Coupé, thirty-five francs.............................. 35. From Châlons 
 
 “But we owe something in this house?”
 
-“Thirty francs; but I pay that out of my 150 francs,—that is understood,—and as I require only eighty francs for my journey, you see I am overwhelmed with luxury. But that is not all. What do you say to this, mother?”
+“Thirty francs; but I pay that out of my 150 francs—that is understood—and as I require only eighty francs for my journey, you see I am overwhelmed with luxury. But that is not all. What do you say to this, mother?”
 
-And Albert took out of a little pocket-book with golden clasps, a remnant of his old fancies, or perhaps a tender souvenir from one of the mysterious and veiled ladies who used to knock at his little door,—Albert took out of this pocket-book a note of 1,000 francs.
+And Albert took out of a little pocketbook with golden clasps, a remnant of his old fancies, or perhaps a tender souvenir from one of the mysterious and veiled ladies who used to knock at his little door—Albert took out of this pocketbook a note of 1,000 francs.
 
 “What is this?” asked Mercédès.
 
@@ -204,9 +216,9 @@ And Albert took out of a little pocket-book with golden clasps, a remnant of his
 
 “Have we come to any?”
 
-“Yes; it is decided that you are to live at Marseilles, and that I am to leave for Africa, where I will earn for myself the right to use the name I now bear, instead of the one I have thrown aside.” Mercédès sighed. “Well, mother, I yesterday engaged myself as substitute in the Spahis,”25 added the young man, lowering his eyes with a certain feeling of shame, for even he was unconscious of the sublimity of his self-abasement. “I thought my body was my own, and that I might sell it. I yesterday took the place of another. I sold myself for more than I thought I was worth,” he added, attempting to smile; “I fetched 2,000 francs.”
+“Yes; it is decided that you are to live at Marseilles, and that I am to leave for Africa, where I will earn for myself the right to use the name I now bear, instead of the one I have thrown aside.” Mercédès sighed. “Well, mother, I yesterday engaged myself as substitute in the Spahis,” added the young man, lowering his eyes with a certain feeling of shame, for even he was unconscious of the sublimity of his self-abasement. “I thought my body was my own, and that I might sell it. I yesterday took the place of another. I sold myself for more than I thought I was worth,” he added, attempting to smile; “I fetched 2,000 francs.”
 
-“Then these 1,000 francs——” said Mercédès, shuddering.
+“Then these 1,000 francs—” said Mercédès, shuddering.
 
 “Are the half of the sum, mother; the other will be paid in a year.”
 
@@ -240,7 +252,7 @@ These words were uttered in so mournful a tone that their real meaning did not e
 
 “It is well,” replied Mercédès, with her eloquent glance; “you are right, my love; let us prove to those who are watching our actions that we are worthy of compassion.”
 
-“But let us not yield to gloomy apprehensions,” said the young man; “I assure you we are, or rather we shall be, very happy. You are a woman at once full of spirit and resignation; I have become simple in my tastes, and am without passion, I hope. Once in service, I shall be rich—once in M. Dantès’ house, you will be at rest. Let us strive, I beseech you,—let us strive to be cheerful.”
+“But let us not yield to gloomy apprehensions,” said the young man; “I assure you we are, or rather we shall be, very happy. You are a woman at once full of spirit and resignation; I have become simple in my tastes, and am without passion, I hope. Once in service, I shall be rich—once in M. Dantès’ house, you will be at rest. Let us strive, I beseech you—let us strive to be cheerful.”
 
 “Yes, let us strive, for you ought to live, and to be happy, Albert.”
 
@@ -266,11 +278,11 @@ Someone was walking down before them, and this person, hearing the rustling of a
 
 “I say so, M. Debray, because I have no friends now, and I ought not to have any. I thank you for having recognized me, sir.” Debray stepped forward, and cordially pressed the hand of his interlocutor.
 
-“Believe me, dear Albert,” he said, with all the emotion he was capable of feeling,—“believe me, I feel deeply for your misfortunes, and if in any way I can serve you, I am yours.”
+“Believe me, dear Albert,” he said, with all the emotion he was capable of feeling—“believe me, I feel deeply for your misfortunes, and if in any way I can serve you, I am yours.”
 
 “Thank you, sir,” said Albert, smiling. “In the midst of our misfortunes, we are still rich enough not to require assistance from anyone. We are leaving Paris, and when our journey is paid, we shall have 5,000 francs left.”
 
-The blood mounted to the temples of Debray, who held a million in his pocket-book, and unimaginative as he was he could not help reflecting that the same house had contained two women, one of whom, justly dishonored, had left it poor with 1,500,000 francs under her cloak, while the other, unjustly stricken, but sublime in her misfortune, was yet rich with a few deniers. This parallel disturbed his usual politeness, the philosophy he witnessed appalled him, he muttered a few words of general civility and ran downstairs.
+The blood mounted to the temples of Debray, who held a million in his pocketbook, and unimaginative as he was he could not help reflecting that the same house had contained two women, one of whom, justly dishonored, had left it poor with 1,500,000 francs under her cloak, while the other, unjustly stricken, but sublime in her misfortune, was yet rich with a few deniers. This parallel disturbed his usual politeness, the philosophy he witnessed appalled him, he muttered a few words of general civility and ran downstairs.
 
 That day the minister’s clerks and the subordinates had a great deal to put up with from his ill-humor. But that same night, he found himself the possessor of a fine house, situated on the Boulevard de la Madeleine, and an income of 50,000 livres.
 

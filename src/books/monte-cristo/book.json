@@ -6,8 +6,8 @@
   "year": 1844,
   "chapterCount": 117,
   "blurb": "A young sailor, betrayed on the eve of his wedding and locked away in an island fortress, plots his return.",
-  "edition": "Project Gutenberg #1184 (anonymous 1846 English translation, 117 chapters)",
-  "sourceUrl": "https://www.gutenberg.org/ebooks/1184",
+  "edition": "Standard Ebooks edition of the 1846 Chapman & Hall translation (117 chapters; same chapters as Project Gutenberg #1184)",
+  "sourceUrl": "https://standardebooks.org/ebooks/alexandre-dumas/the-count-of-monte-cristo/chapman-and-hall",
   "volumes": [
     {
       "number": 1,
@@ -40,8 +40,8 @@
   "source": "text",
   "text": {
     "status": "shipped",
-    "edition": "Project Gutenberg #1184: the anonymous 1846 English translation (Chapman & Hall)",
-    "license": "Public domain",
-    "sourceUrl": "https://www.gutenberg.org/ebooks/1184"
+    "edition": "Standard Ebooks: the 1846 Chapman & Hall translation with modernised spelling and punctuation",
+    "license": "Public domain (Standard Ebooks, CC0)",
+    "sourceUrl": "https://standardebooks.org/ebooks/alexandre-dumas/the-count-of-monte-cristo/chapman-and-hall"
   }
 }

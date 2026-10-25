@@ -12,13 +12,13 @@ The old man uttered a cry, and turned round; then, seeing his son, he fell into 
 
 “Yes, yes, my boy, so we will—so we will,” replied the old man; “but how shall we be happy? Shall you never leave me again? Come, tell me all the good fortune that has befallen you.”
 
-“God forgive me,” said the young man, “for rejoicing at happiness derived from the misery of others, but, Heaven knows, I did not seek this good fortune; it has happened, and I really cannot pretend to lament it. The good Captain Leclere is dead, father, and it is probable that, with the aid of M. Morrel, I shall have his place. Do you understand, father? Only imagine me a captain at twenty, with a hundred louis pay, and a share in the profits! Is this not more than a poor sailor like me could have hoped for?”
+“God forgive me,” said the young man, “for rejoicing at happiness derived from the misery of others, but, Heaven knows, I did not seek this good fortune; it has happened, and I really cannot pretend to lament it. The good Captain Leclère is dead, father, and it is probable that, with the aid of M. Morrel, I shall have his place. Do you understand, father? Only imagine me a captain at twenty, with a hundred louis pay, and a share in the profits! Is this not more than a poor sailor like me could have hoped for?”
 
 “Yes, my dear boy,” replied the old man, “it is very fortunate.”
 
 “Well, then, with the first money I touch, I mean you to have a small house, with a garden in which to plant clematis, nasturtiums, and honeysuckle. But what ails you, father? Are you not well?”
 
-“’Tis nothing, nothing; it will soon pass away”—and as he said so the old man’s strength failed him, and he fell backwards.
+“ ’Tis nothing, nothing; it will soon pass away”—and as he said so the old man’s strength failed him, and he fell backwards.
 
 “Come, come,” said the young man, “a glass of wine, father, will revive you. Where do you keep your wine?”
 
@@ -32,9 +32,9 @@ The old man uttered a cry, and turned round; then, seeing his son, he fell into 
 
 “I want nothing now that I have you,” said the old man.
 
-“Yet,” stammered Dantès, wiping the perspiration from his brow,—“yet I gave you two hundred francs when I left, three months ago.”
+“Yet,” stammered Dantès, wiping the perspiration from his brow—“yet I gave you two hundred francs when I left, three months ago.”
 
-“Yes, yes, Edmond, that is true, but you forgot at that time a little debt to our neighbor, Caderousse. He reminded me of it, telling me if I did not pay for you, he would be paid by M. Morrel; and so, you see, lest he might do you an injury——”
+“Yes, yes, Edmond, that is true, but you forgot at that time a little debt to our neighbor, Caderousse. He reminded me of it, telling me if I did not pay for you, he would be paid by M. Morrel; and so, you see, lest he might do you an injury—”
 
 “Well?”
 
@@ -70,7 +70,7 @@ The old man nodded.
 
 “Do as you please; but, first of all, pray have a servant, father. I will not have you left alone so long. I have some smuggled coffee and most capital tobacco, in a small chest in the hold, which you shall have tomorrow. But, hush, here comes somebody.”
 
-“’Tis Caderousse, who has heard of your arrival, and no doubt comes to congratulate you on your fortunate return.”
+“ ’Tis Caderousse, who has heard of your arrival, and no doubt comes to congratulate you on your fortunate return.”
 
 “Ah, lips that say one thing, while the heart thinks another,” murmured Edmond. “But, never mind, he is a neighbor who has done us a service on a time, so he’s welcome.”
 
@@ -86,11 +86,11 @@ As Edmond paused, the black and bearded head of Caderousse appeared at the door.
 
 “What’s the use of mentioning that? What is done is done. Let us talk of your happy return, my boy. I had gone on the quay to match a piece of mulberry cloth, when I met friend Danglars. ‘You at Marseilles?’—‘Yes,’ says he.
 
-“‘I thought you were at Smyrna.’—‘I was; but am now back again.’
+“ ‘I thought you were at Smyrna.’—‘I was; but am now back again.’
 
-“‘And where is the dear boy, our little Edmond?’
+“ ‘And where is the dear boy, our little Edmond?’
 
-“‘Why, with his father, no doubt,’ replied Danglars. And so I came,” added Caderousse, “as fast as I could to have the pleasure of shaking hands with a friend.”
+“ ‘Why, with his father, no doubt,’ replied Danglars. And so I came,” added Caderousse, “as fast as I could to have the pleasure of shaking hands with a friend.”
 
 “Worthy Caderousse!” said the old man, “he is so much attached to us.”
 
@@ -102,7 +102,7 @@ The young man remarked the greedy glance which shone in the dark eyes of his nei
 
 “It was offered with good will,” said Dantès.
 
-“No doubt, my boy; no doubt. Well, you stand well with M. Morrel I hear,—you insinuating dog, you!”
+“No doubt, my boy; no doubt. Well, you stand well with M. Morrel I hear—you insinuating dog, you!”
 
 “M. Morrel has always been exceedingly kind to me,” replied Dantès.
 
@@ -146,13 +146,13 @@ The young man remarked the greedy glance which shone in the dark eyes of his nei
 
 “Ah, yes,” continued Caderousse, “and capital offers, too; but you know, you will be captain, and who could refuse you then?”
 
-“Meaning to say,” replied Dantès, with a smile which but ill-concealed his trouble, “that if I were not a captain——”
+“Meaning to say,” replied Dantès, with a smile which but ill-concealed his trouble, “that if I were not a captain—”
 
 “Eh—eh!” said Caderousse, shaking his head.
 
 “Come, come,” said the sailor, “I have a better opinion than you of women in general, and of Mercédès in particular; and I am certain that, captain or not, she will remain ever faithful to me.”
 
-“So much the better—so much the better,” said Caderousse. “When one is going to be married, there is nothing like implicit confidence; but never mind that, my boy,—go and announce your arrival, and let her know all your hopes and prospects.”
+“So much the better—so much the better,” said Caderousse. “When one is going to be married, there is nothing like implicit confidence; but never mind that, my boy—go and announce your arrival, and let her know all your hopes and prospects.”
 
 “I will go directly,” was Edmond’s reply; and, embracing his father, and nodding to Caderousse, he left the apartment.
 

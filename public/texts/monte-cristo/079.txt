@@ -16,9 +16,9 @@ Valentine cast down her eyes; this was a good omen for Morrel, for he knew that 
 
 “My grandfather intends leaving this house,” said she, “and Barrois is looking out for suitable apartments for him in another.”
 
-“But you, Mademoiselle de Villefort,—you, who are necessary to M. Noirtier’s happiness——”
+“But you, Mademoiselle de Villefort—you, who are necessary to M. Noirtier’s happiness—”
 
-“I?” interrupted Valentine; “I shall not leave my grandfather,—that is an understood thing between us. My apartment will be close to his. Now, M. de Villefort must either give his consent to this plan or his refusal; in the first case, I shall leave directly, and in the second, I shall wait till I am of age, which will be in about ten months. Then I shall be free, I shall have an independent fortune, and”—
+“I?” interrupted Valentine; “I shall not leave my grandfather—that is an understood thing between us. My apartment will be close to his. Now, M. de Villefort must either give his consent to this plan or his refusal; in the first case, I shall leave directly, and in the second, I shall wait till I am of age, which will be in about ten months. Then I shall be free, I shall have an independent fortune, and”—
 
 “And what?” demanded Morrel.
 
@@ -34,7 +34,7 @@ Valentine pronounced these last few words in such a low tone, that nothing but M
 
 “Oh,” cried Morrel, almost tempted to throw himself on his knees before Noirtier and Valentine, and to adore them as two superior beings, “what have I ever done in my life to merit such unbounded happiness?”
 
-“Until that time,” continued the young girl in a calm and self-possessed tone of voice, “we will conform to circumstances, and be guided by the wishes of our friends, so long as those wishes do not tend finally to separate us; in a word, and I repeat it, because it expresses all I wish to convey,—we will wait.”
+“Until that time,” continued the young girl in a calm and self-possessed tone of voice, “we will conform to circumstances, and be guided by the wishes of our friends, so long as those wishes do not tend finally to separate us; in a word, and I repeat it, because it expresses all I wish to convey—we will wait.”
 
 “And I swear to make all the sacrifices which this word imposes, sir,” said Morrel, “not only with resignation, but with cheerfulness.”
 
@@ -54,13 +54,13 @@ Noirtier directed their attention to a waiter, on which was placed a decanter co
 
 “Take some, then, and come back immediately.”
 
-Barrois took away the waiter, and hardly was he outside the door, which in his haste he forgot to shut, than they saw him throw back his head and empty to the very dregs the glass which Valentine had filled. Valentine and Morrel were exchanging their adieux in the presence of Noirtier when a ring was heard at the door-bell. It was the signal of a visit. Valentine looked at her watch.
+Barrois took away the waiter, and hardly was he outside the door, which in his haste he forgot to shut, than they saw him throw back his head and empty to the very dregs the glass which Valentine had filled. Valentine and Morrel were exchanging their adieux in the presence of Noirtier when a ring was heard at the doorbell. It was the signal of a visit. Valentine looked at her watch.
 
 “It is past noon,” said she, “and today is Saturday; I dare say it is the doctor, grandpapa.”
 
 Noirtier looked his conviction that she was right in her supposition.
 
-“He will come in here, and M. Morrel had better go,—do you not think so, grandpapa?”
+“He will come in here, and M. Morrel had better go—do you not think so, grandpapa?”
 
 “Yes,” signed the old man.
 
@@ -102,7 +102,7 @@ Villefort seemed stupefied with astonishment, and remained gazing intently on th
 
 “Doctor, doctor! come instantly, pray come!”
 
-“Madame, madame!” cried Valentine, calling her step-mother, and running upstairs to meet her; “come quick, quick!—and bring your bottle of smelling-salts with you.”
+“Madame, madame!” cried Valentine, calling her stepmother, and running upstairs to meet her; “come quick, quick!—and bring your bottle of smelling-salts with you.”
 
 “What is the matter?” said Madame de Villefort in a harsh and constrained tone.
 
@@ -290,7 +290,7 @@ Villefort sprang into the passage, exclaiming, “The emetic! the emetic!—is i
 
 A groan from Barrois, accompanied by a yawn which seemed to crack the very jawbones, attracted the attention of M. d’Avrigny; he left M. Noirtier, and returned to the sick man.
 
-“Barrois,” said the doctor, “can you speak?” Barrois muttered a few unintelligible words. “Try and make an effort to do so, my good man.” said d’Avrigny. Barrois reopened his bloodshot eyes.
+“Barrois,” said the doctor, “can you speak?” Barrois muttered a few unintelligible words. “Try and make an effort to do so, my good man,” said d’Avrigny. Barrois reopened his bloodshot eyes.
 
 “Who made the lemonade?”
 

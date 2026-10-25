@@ -34,11 +34,11 @@ Villefort tried to smile.
 
 “My dear,” said Madame de Villefort, who had just entered the room, “perhaps you exaggerate the evil.”
 
-“Good-morning, madame,” said the count, bowing.
+“Good morning, madame,” said the count, bowing.
 
 Madame de Villefort acknowledged the salutation with one of her most gracious smiles.
 
-“What is this that M. de Villefort has been telling me?” demanded Monte Cristo “and what incomprehensible misfortune——”
+“What is this that M. de Villefort has been telling me?” demanded Monte Cristo “and what incomprehensible misfortune—”
 
 “Incomprehensible is the word!” interrupted the procureur, shrugging his shoulders. “It is an old man’s caprice!”
 
@@ -62,7 +62,7 @@ The count, who perceived that M. and Madame de Villefort were beginning to speak
 
 Monte Cristo, who pretended not to be listening, heard however, every word that was said.
 
-“Madame,” replied Villefort “I can truly say that I have always entertained a high respect for my father, because, to the natural feeling of relationship was added the consciousness of his moral superiority. The name of father is sacred in two senses; he should be reverenced as the author of our being and as a master whom we ought to obey. But, under the present circumstances, I am justified in doubting the wisdom of an old man who, because he hated the father, vents his anger on the son. It would be ridiculous in me to regulate my conduct by such caprices. I shall still continue to preserve the same respect toward M. Noirtier; I will suffer, without complaint, the pecuniary deprivation to which he has subjected me; but I shall remain firm in my determination, and the world shall see which party has reason on his side. Consequently I shall marry my daughter to the Baron Franz d’Épinay, because I consider it would be a proper and eligible match for her to make, and, in short, because I choose to bestow my daughter’s hand on whomever I please.”
+“Madame,” replied Villefort, “I can truly say that I have always entertained a high respect for my father, because, to the natural feeling of relationship was added the consciousness of his moral superiority. The name of father is sacred in two senses; he should be reverenced as the author of our being and as a master whom we ought to obey. But, under the present circumstances, I am justified in doubting the wisdom of an old man who, because he hated the father, vents his anger on the son. It would be ridiculous in me to regulate my conduct by such caprices. I shall still continue to preserve the same respect toward M. Noirtier; I will suffer, without complaint, the pecuniary deprivation to which he has subjected me; but I shall remain firm in my determination, and the world shall see which party has reason on his side. Consequently I shall marry my daughter to the Baron Franz d’Épinay, because I consider it would be a proper and eligible match for her to make, and, in short, because I choose to bestow my daughter’s hand on whomever I please.”
 
 “What?” said the count, the approbation of whose eye Villefort had frequently solicited during this speech. “What? Do you say that M. Noirtier disinherits Mademoiselle de Villefort because she is going to marry M. le Baron Franz d’Épinay?”
 
@@ -74,7 +74,7 @@ Monte Cristo, who pretended not to be listening, heard however, every word that 
 
 “But I want to know in what way M. d’Épinay can have displeased your father more than any other person?”
 
-“I believe I know M. Franz d’Épinay,” said the count; “is he not the son of General de Quesnel, who was created Baron d’Épinay by Charles X.?”
+“I believe I know M. Franz d’Épinay,” said the count; “is he not the son of General de Quesnel, who was created Baron d’Épinay by Charles X?”
 
 “The same,” said Villefort.
 
@@ -82,7 +82,7 @@ Monte Cristo, who pretended not to be listening, heard however, every word that 
 
 “He is, which makes me believe that it is only an excuse of M. Noirtier to prevent his granddaughter marrying; old men are always so selfish in their affection,” said Madame de Villefort.
 
-“But,” said Monte Cristo “do you not know any cause for this hatred?”
+“But,” said Monte Cristo, “do you not know any cause for this hatred?”
 
 “Ah, ma foi! who is to know?”
 
@@ -92,7 +92,7 @@ Monte Cristo, who pretended not to be listening, heard however, every word that 
 
 “Was not your father a Bonapartist?” asked Monte Cristo; “I think I remember that you told me something of that kind.”
 
-“My father has been a Jacobin more than anything else,” said Villefort, carried by his emotion beyond the bounds of prudence; “and the senator’s robe, which Napoleon cast on his shoulders, only served to disguise the old man without in any degree changing him. When my father conspired, it was not for the emperor, it was against the Bourbons; for M. Noirtier possessed this peculiarity, he never projected any Utopian schemes which could never be realized, but strove for possibilities, and he applied to the realization of these possibilities the terrible theories of The Mountain,—theories that never shrank from any means that were deemed necessary to bring about the desired result.”
+“My father has been a Jacobin more than anything else,” said Villefort, carried by his emotion beyond the bounds of prudence; “and the senator’s robe, which Napoleon cast on his shoulders, only served to disguise the old man without in any degree changing him. When my father conspired, it was not for the emperor, it was against the Bourbons; for M. Noirtier possessed this peculiarity, he never projected any Utopian schemes which could never be realized, but strove for possibilities, and he applied to the realization of these possibilities the terrible theories of The Mountain—theories that never shrank from any means that were deemed necessary to bring about the desired result.”
 
 “Well,” said Monte Cristo, “it is just as I thought; it was politics which brought Noirtier and M. d’Épinay into personal contact. Although General d’Épinay served under Napoleon, did he not still retain royalist sentiments? And was he not the person who was assassinated one evening on leaving a Bonapartist meeting to which he had been invited on the supposition that he favored the cause of the emperor?”
 
@@ -150,7 +150,7 @@ At the conclusion of these words, the count rose to depart.
 
 “And,” said Villefort, “is it at your house in the Champs-Élysées that you receive your visitors?”
 
-“No,” said Monte Cristo, “which is precisely the reason which renders your kindness more meritorious,—it is in the country.”
+“No,” said Monte Cristo, “which is precisely the reason which renders your kindness more meritorious—it is in the country.”
 
 “In the country?”
 
@@ -158,7 +158,7 @@ At the conclusion of these words, the count rose to depart.
 
 “Where is it, then? Near Paris, is it not?”
 
-“Very near, only half a league from the Barriers,—it is at Auteuil.”
+“Very near, only half a league from the Barriers—it is at Auteuil.”
 
 “At Auteuil?” said Villefort; “true, Madame de Villefort told me you lived at Auteuil, since it was to your house that she was taken. And in what part of Auteuil do you reside?”
 
@@ -172,7 +172,7 @@ At the conclusion of these words, the count rose to depart.
 
 “Did it belong to M. de Saint-Méran?” demanded Monte Cristo.
 
-“Yes,” replied Madame de Villefort; “and, would you believe it, count——”
+“Yes,” replied Madame de Villefort; “and, would you believe it, count—”
 
 “Believe what?”
 
@@ -188,11 +188,11 @@ At the conclusion of these words, the count rose to depart.
 
 “But I hope you will not carry your antipathy so far as to deprive me of the pleasure of your company, sir,” said Monte Cristo.
 
-“No, count,—I hope—I assure you I shall do my best,” stammered Villefort.
+“No, count—I hope—I assure you I shall do my best,” stammered Villefort.
 
 “Oh,” said Monte Cristo, “I allow of no excuse. On Saturday, at six o’clock. I shall be expecting you, and if you fail to come, I shall think—for how do I know to the contrary?—that this house, which has remained uninhabited for twenty years, must have some gloomy tradition or dreadful legend connected with it.”
 
-“I will come, count,—I will be sure to come,” said Villefort eagerly.
+“I will come, count—I will be sure to come,” said Villefort eagerly.
 
 “Thank you,” said Monte Cristo; “now you must permit me to take my leave of you.”
 
@@ -228,7 +228,7 @@ At the conclusion of these words, the count rose to depart.
 
 “The Spanish one, you mean, I suppose?”
 
-“Yes; should you like a letter to the minister that they might explain to you——”
+“Yes; should you like a letter to the minister that they might explain to you—”
 
 “No,” said Monte Cristo; “since, as I told you before, I do not wish to comprehend it. The moment I understand it there will no longer exist a telegraph for me; it will be nothing more than a sign from M. Duchâtel, or from M. Montalivet, transmitted to the prefect of Bayonne, mystified by two Greek words, têle, graphein. It is the insect with black claws, and the awful word which I wish to retain in my imagination in all its purity and all its importance.”
 
@@ -246,6 +246,6 @@ At the conclusion of these words, the count rose to depart.
 
 “Yes.”
 
-“Thank you. Good-bye. On Saturday I will tell you my impressions concerning the telegraph.”
+“Thank you. Goodbye. On Saturday I will tell you my impressions concerning the telegraph.”
 
 At the door the count was met by the two notaries, who had just completed the act which was to disinherit Valentine, and who were leaving under the conviction of having done a thing which could not fail of redounding considerably to their credit.

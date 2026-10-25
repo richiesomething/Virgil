@@ -18,7 +18,7 @@ Rule: the **easiest-to-read edition that is legally shippable**, and our chapter
 
 | Book | Text | Why |
 |---|---|---|
-| The Count of Monte Cristo | Project Gutenberg #1184: the anonymous 1846 English translation (Chapman & Hall), 117 chapters | The only complete English translation in the public domain. The modern translations (Robin Buss, Penguin 1996) are copyrighted, so a reader who owns one can add it as their copy. Our chapter data already follows #1184. Standard Ebooks' edition is the same translation with modernised spelling, but its downloads were not reachable from the build environment; it can replace #1184 later with no format change. |
+| The Count of Monte Cristo | Standard Ebooks edition of the anonymous 1846 English translation (Chapman & Hall), 117 chapters, CC0 | The only complete English translation in the public domain, in Standard Ebooks' cleaned-up form: modernised spelling and punctuation, typos fixed, footnotes removed. The modern translations (Robin Buss, Penguin 1996) are copyrighted, so a reader who owns one can add it as their copy. Our chapter data follows the same 117 chapters. Fetched as the single-page XHTML and split with `scripts/pipeline/split-xhtml.mjs`. |
 | 20,000 Leagues Under the Seas | Project Gutenberg #2488: F. P. Walter's 1991 translation, released to the public domain | Contemporary English. Already the edition our data follows. |
 | The Pearl (1947) | Still in copyright in the US | Add your copy |
 | Harry Potter and the Sorcerer's Stone | In copyright | Add your copy |
