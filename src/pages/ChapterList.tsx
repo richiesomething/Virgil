@@ -36,19 +36,6 @@ export default function ChapterList() {
         </div>
       )}
 
-      {next && (
-        <div className="group" style={{ marginTop: 12 }}>
-          <a className="row ch-row ch-row--next" href={href('b', meta.id, 'chapters', next)}>
-            <span className="ch-row__num">{next}</span>
-            <span className="row__body">
-              <span className="row__title">Up next · Chapter {next}</span>
-              <span className="row__sub">{estimate(book, chapterMinutes(book, next, wpm))}</span>
-            </span>
-            <Icon name="chevronRight" className="icon--sm chev" />
-          </a>
-        </div>
-      )}
-
       {groupByVolume(meta.volumes, chapters).map(({ title, chapters: inGroup }) => (
         <section key={title || 'all'}>
           {title ? <h2 className="vol-head">{title}</h2> : <div style={{ height: 16 }} />}
@@ -66,6 +53,19 @@ export default function ChapterList() {
         </section>
       ))}
 
+      {next && (
+        <div className="group" style={{ marginTop: 12 }}>
+          <a className="row ch-row ch-row--next" href={href('b', meta.id, 'chapters', next)}>
+            <span className="ch-row__num">{next}</span>
+            <span className="row__body">
+              <span className="row__title">Up next · Chapter {next}</span>
+              <span className="row__sub">{estimate(book, chapterMinutes(book, next, wpm))}</span>
+            </span>
+            <Icon name="chevronRight" className="icon--sm chev" />
+          </a>
+        </div>
+      )}
+
       {remaining > 1 && (
         <p className="locked-note">
           <Icon name="lock" className="icon--sm" />
@@ -76,12 +76,10 @@ export default function ChapterList() {
   )
 }
 
-/** Newest first; books without volumes get a single untitled group. */
+/** In reading order; books without volumes get a single untitled group. */
 function groupByVolume(volumes: BookMeta['volumes'], chapters: Chapter[]) {
-  const newestFirst = [...chapters].reverse()
-  if (!volumes.length) return newestFirst.length ? [{ title: '', chapters: newestFirst }] : []
-  return [...volumes]
-    .reverse()
-    .map((v) => ({ title: v.title, chapters: newestFirst.filter((c) => c.volume === v.number) }))
+  if (!volumes.length) return chapters.length ? [{ title: '', chapters }] : []
+  return volumes
+    .map((v) => ({ title: v.title, chapters: chapters.filter((c) => c.volume === v.number) }))
     .filter((g) => g.chapters.length)
 }
