@@ -1,0 +1,116 @@
+[
+  {
+    "id": "revenge-justice",
+    "name": "Revenge and justice",
+    "from": 5,
+    "summary": [
+      { "from": 5, "text": "Dantès is arrested at his own wedding feast on an anonymous charge. The men who gain from his fall did it with a letter, not a weapon, and the question of what such a wrong deserves is planted." },
+      { "from": 17, "text": "Faria works out who denounced Dantès and why Villefort buried him, and Dantès swears revenge on the spot. Faria regrets telling him: knowing the truth has put something hard into his gentle pupil." },
+      { "from": 30, "text": "Free and rich, Dantès settles accounts in order, reward first. Caderousse gets a diamond and Morrel is saved at the last minute. Then he says the rewarding is done and the punishing begins." },
+      { "from": 35, "text": "In Rome the Count sets out his creed. The law's punishments are too quick and too mild for the worst wrongs, so a wronged man must take his own revenge, slowly and in kind. At the execution he watches with a satisfaction that chills Franz." },
+      { "from": 61, "text": "In Paris his revenge is patient and indirect. He rarely strikes. He places temptations and openings in front of people, like a talk about poisons or a false telegraph message, and lets their own vices do the work." },
+      { "from": 86, "text": "The blows land, and each one exposes something true: Danglars bleeds money and Haydée proves Morcerf's treachery before the peers. But Albert and Mercédès, who did nothing, are hurt as badly as the guilty man." },
+      { "from": 111, "text": "Morcerf has shot himself. Madame de Villefort has poisoned herself and her little son, and Villefort has lost his mind. Edward was innocent, and for the first time the Count is frightened by what his revenge has done." },
+      { "from": 116, "text": "The last enemy is starved until he repents, and then pardoned and set free. Revenge ends in mercy, as if the Count has finally learned where justice stops and his own anger began." }
+    ]
+  },
+  {
+    "id": "loyalty-betrayal",
+    "name": "Loyalty and betrayal",
+    "from": 4,
+    "summary": [
+      { "from": 4, "text": "Danglars writes the letter, Fernand picks it up, and Caderousse is too drunk to stop them. The betrayal comes from envy and jealousy among men who drink with Dantès and call themselves his friends." },
+      { "from": 13, "text": "Loyalty turns out to be costly and fragile. Morrel keeps pleading for Dantès, but Villefort turns his petition into evidence against him. The prisoner is forgotten and his father dies alone." },
+      { "from": 27, "text": "Caderousse's story sorts everyone out. Morrel stayed true and was nearly ruined; Danglars and Fernand betrayed and grew rich; Mercédès waited, then married Fernand. Caderousse himself tells all of it to a stranger for a diamond." },
+      { "from": 30, "text": "Morrel's faithfulness is repaid in full, down to his own lost purse. The book keeps a ledger: loyalty is remembered as precisely as treachery, and Jacopo, who nursed Dantès, is rewarded too." },
+      { "from": 53, "text": "Haydée's horror at the opera reveals that Morcerf sold her father to the Turks. Fernand's betrayal of Dantès was not a single lapse. It was the pattern of his whole career." },
+      { "from": 83, "text": "Caderousse blackmails Andrea, and Andrea sets him up and stabs him. The book's betrayers end up betraying each other, because no one in that partnership can trust anyone." },
+      { "from": 92, "text": "Albert apologises publicly to the Count, choosing truth over defending his father. Mercédès and Albert walk out of the Morcerf house, and Fernand is left alone with the name he got by betrayal. He shoots himself." }
+    ]
+  },
+  {
+    "id": "prison-freedom",
+    "name": "Prisons and freedom",
+    "from": 8,
+    "summary": [
+      { "from": 8, "text": "The Château d'If holds men not for crimes but for being inconvenient. It is a political prison, where a regime puts the people it would rather forget, and Dantès vanishes into it without a trial." },
+      { "from": 16, "text": "Faria shows that a prison for the body need not be one for the mind. He has made his own pens, ink and tools and written a book. Learning is a way out before any tunnel is." },
+      { "from": 20, "text": "Dantès escapes inside a dead man's sack. Freedom comes through a kind of death and rebirth, and the sea that carried him to prison now carries him away from it." },
+      { "from": 49, "text": "Haydée was bought as a slave, and the Count tells her she is free in France and may leave him. She refuses. Freedom given as a gift raises the question of how free she can really be." },
+      { "from": 59, "text": "Noirtier, the conspirator who once walked past the police, is now trapped in a paralysed body. Yet with only his eyes he outwits his son and rewrites his will. His mind is the freest one in the house." },
+      { "from": 97, "text": "For Eugénie, the prison is marriage. She cuts her hair, dresses as a man and leaves Paris by night: the book's most cheerful escape, and one made by a woman on her own terms." },
+      { "from": 113, "text": "The Count goes back to the Château d'If. It is empty now, a place where guides tell his story as a legend, and in his old cell he must face what fourteen years there made of him." }
+    ]
+  },
+  {
+    "id": "hope-despair",
+    "name": "Hope and despair",
+    "from": 13,
+    "summary": [
+      { "from": 13, "text": "During the Hundred Days, hope works against Dantès. Each change of government that might free him only buries him deeper, and his father dies waiting for him." },
+      { "from": 15, "text": "Despair reaches bottom when Dantès decides to starve himself. What brings him back is not an idea but a sound: someone else digging behind the wall." },
+      { "from": 19, "text": "Faria's death takes away Dantès's only companion. Out of that despair comes the boldest hope in the book: he will take the dead man's place." },
+      { "from": 30, "text": "Morrel sits with a pistol as the clock nears eleven and is saved at the last moment. The book now has a pattern: despair is carried to the very edge, and then rescue comes." },
+      { "from": 105, "text": "Maximilian, broken by Valentine's death, is about to shoot himself when the Count stops him. He reveals who he is and asks Maximilian to live one more month on trust alone." },
+      { "from": 117, "text": "The book ends on the Count's two words, \"Wait and hope.\" They are not cheap comfort. They come from a man who knows despair from the inside and found that waiting can be rewarded." }
+    ]
+  },
+  {
+    "id": "identity-disguise",
+    "name": "Identity and disguise",
+    "from": 25,
+    "summary": [
+      { "from": 25, "text": "Fourteen years in prison have given Dantès a new face, and no one in Marseilles knows him. He travels as Lord Wilmore. His first disguise is simply the man he has become." },
+      { "from": 30, "text": "An Italian abbé, an English clerk, a letter signed Sinbad the Sailor: one man plays many parts. Each one is chosen for the person he is dealing with, and none of them is Edmond Dantès." },
+      { "from": 41, "text": "Paris is full of new names. The Count of Monte Cristo meets the Count de Morcerf, who was the fisherman Fernand, and his wife, who was Mercédès. His disguise is matched by his enemies' respectability." },
+      { "from": 56, "text": "The Count now makes identities for other people. Two paid impostors agree to be the Cavalcantis, father and son. Paris will accept them because they arrive with papers and money." },
+      { "from": 69, "text": "Bertuccio has recognised Andrea as Benedetto, the child from the garden. Then the Count, as Busoni and as Lord Wilmore, feeds false stories to a police agent who is really Villefort. In this book everyone investigating is also in disguise." },
+      { "from": 89, "text": "Mercédès comes to him at night and calls him Edmond. She knew him by his voice from the start. The one disguise that never worked was the one against the person who loved him." },
+      { "from": 116, "text": "To each enemy at the end he gives the same final blow: his real name. For Caderousse, Morcerf, Villefort and Danglars, learning who he is matters as much as what he has done." }
+    ]
+  },
+  {
+    "id": "providence",
+    "name": "Providence and playing God",
+    "from": 30,
+    "summary": [
+      { "from": 30, "text": "Leaving Marseilles, Dantès thanks God, then says that having rewarded the good like Providence, he will now punish the wicked. He has given himself a role that belongs to heaven." },
+      { "from": 35, "text": "In Rome the Count claims a right to judge beyond human law. He seems to know everything and arrange everything, and Franz senses something not quite human in him." },
+      { "from": 48, "text": "He tells Villefort plainly that he is an agent of Providence, above ordinary men and laws. Villefort answers with his father, struck down by paralysis, as a reminder that even proud men can be humbled in an instant." },
+      { "from": 63, "text": "At Auteuil he stages a dinner like a play. He seats guests in the house of their crime and tells a story about a buried child. Playing God, for him, means writing the scenes his enemies must act out." },
+      { "from": 83, "text": "At Caderousse's deathbed the Count insists that God's justice has caught up with him, though the trap was his own. The line between Providence and the Count's planning is getting hard to see." },
+      { "from": 111, "text": "Edward's death breaks the Count's certainty. He wanted to punish the guilty and has killed a child as well, and he prays that he has not already done too much." },
+      { "from": 113, "text": "At the Château d'If he finds Faria's manuscript and its line from the Psalms. He reads it as a sign that his mission was meant, and his doubts ease." },
+      { "from": 117, "text": "He saves two lives and hopes God will take that as his atonement. He leaves admitting that only God sees the whole future. The man who played God ends by asking for forgiveness." }
+    ]
+  },
+  {
+    "id": "wealth-status",
+    "name": "Wealth, rank and society",
+    "from": 24,
+    "summary": [
+      { "from": 24, "text": "The Spada treasure puts unimaginable wealth in a sailor's hands. Money becomes the tool that makes everything else possible, from travel and disguise to rescue and revenge." },
+      { "from": 27, "text": "The traitors have risen. Danglars is a baron and banker, Fernand a count and peer, while honest Morrel is close to ruin. In France after Napoleon, rank can be earned by war, by luck or by lies." },
+      { "from": 40, "text": "In Paris, status is a show. The Count dazzles Albert's friends with his wealth, his strangeness and his perfect timing, and within an hour all society wants to know him." },
+      { "from": 46, "text": "Danglars asks how much credit the Count needs and gets the answer \"unlimited.\" A banker's power rests on belief and appearance, and the Count turns it against him, down to the horses in his stable." },
+      { "from": 61, "text": "One false telegraph message costs Danglars a fortune. Money in this new Paris moves with information, and a man who controls the news controls the market." },
+      { "from": 76, "text": "Marriages are deals. Eugénie is passed from Albert to the richer Andrea, Valentine is pledged to Franz, and Noirtier uses his will to buy back his granddaughter's choice. Love barely enters the arithmetic." },
+      { "from": 106, "text": "Debray hands Madame Danglars her share of their gains and walks away. Upstairs, Mercédès and Albert have given up the Morcerf fortune. Poverty, chosen honestly, is the only dignity left in the house." },
+      { "from": 115, "text": "Danglars pays a hundred thousand francs for a chicken. The Count's last joke on the banker reduces money to what it really is: worth only what a starving man will give for it." }
+    ]
+  },
+  {
+    "id": "the-past-returns",
+    "name": "The past returns",
+    "from": 44,
+    "summary": [
+      { "from": 44, "text": "Bertuccio's story brings an old crime into the open: a stabbing and a buried baby in the garden at Auteuil. The Count has bought that very house, and the past now has an address." },
+      { "from": 53, "text": "At the opera Haydée sees Morcerf and nearly faints. A betrayal from far-off Yanina has walked into a Paris theatre in evening dress." },
+      { "from": 63, "text": "The Count seats his guests in the house of their secret, shows them the bedroom and the staircase, and tells them a child's bones were found in the garden. Madame Danglars faints, and the Villefort secret is alive again." },
+      { "from": 86, "text": "The past arrives in print, then in person. Beauchamp's paper names the traitor of Yanina, and Haydée stands before the Chamber of Peers with the proof." },
+      { "from": 89, "text": "Mercédès and Edmond face their own past, the letter and the fourteen years and the wedding that never happened. Both suffered, and neither can undo it." },
+      { "from": 110, "text": "The buried child comes back literally. In open court Benedetto names his birthplace, Auteuil, and his father, the prosecutor himself." },
+      { "from": 113, "text": "The Count goes back to Marseilles and the Château d'If. The last past he must face is his own, the prisoner he was and what that prisoner swore." }
+    ]
+  }
+]

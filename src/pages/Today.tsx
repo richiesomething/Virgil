@@ -7,6 +7,7 @@ import { useBook } from '../lib/book-context'
 import { href } from '../lib/router'
 import { chapter, newInChapter, notesUpTo, recapFor, whoMattersNow } from '../lib/spoilers'
 import { bestFrame, currentPlace } from '../lib/atlas'
+import { activeThemes, afterwordFor, insightsForChapter, themeSummary } from '../lib/understanding'
 import { atlasHref } from '../components/AtlasView'
 import { planFor, plans, prefs } from '../lib/store'
 import { chapterMinutes, estimate, formatMinutes, planStats } from '../lib/planner'
@@ -24,6 +25,7 @@ export default function Today() {
       <UpNext />
       <PlannerStrip />
       <LeftOff />
+      <ThemesNow />
       <StoryNow />
     </div>
   )
@@ -147,6 +149,7 @@ function LeftOff() {
   const id = book.meta.id
   const here = currentPlace(book, upTo)
   const frame = here && bestFrame(book, here, upTo)
+  const [insight] = insightsForChapter(book, upTo, upTo)
   return (
     <section aria-labelledby="left-off">
       <p className="eyebrow" id="left-off">Where you left off</p>
@@ -163,6 +166,15 @@ function LeftOff() {
         <p className="clamp-3" style={{ margin: 0 }}>
           {ch.summary}
         </p>
+        {insight && (
+          <a className="notice-line" href={href('b', id, 'chapters', ch.number) + '?tab=insights'}>
+            <Icon name="sparkle" className="icon--sm" />
+            <span>
+              <span className="muted">Worth noticing: </span>
+              {insight.title}
+            </span>
+          </a>
+        )}
         <div style={{ display: 'flex', justifyContent: 'space-between', gap: 12, marginTop: 4 }}>
           <a className="link" href={href('b', id, 'chapters', ch.number)}>
             Full summary <Icon name="chevronRight" className="icon--sm" />
@@ -171,6 +183,34 @@ function LeftOff() {
             Story so far <Icon name="chevronRight" className="icon--sm" />
           </a>
         </div>
+      </div>
+    </section>
+  )
+}
+
+function ThemesNow() {
+  const { book, upTo } = useBook()
+  const id = book.meta.id
+  const themes = activeThemes(book, upTo, 3)
+  if (!themes.length) return null
+  return (
+    <section aria-labelledby="themes-now">
+      <div className="section-head">
+        <p className="eyebrow" id="themes-now">Themes you’re following</p>
+        <a className="link" href={href('b', id, 'themes')}>
+          All <Icon name="chevronRight" className="icon--sm" />
+        </a>
+      </div>
+      <div className="group">
+        {themes.map((t) => (
+          <a key={t.id} className="row" href={href('b', id, 'themes', t.id)}>
+            <span className="row__body">
+              <span className="row__title">{t.name}</span>
+              <span className="row__sub clamp-1">{themeSummary(t, upTo)}</span>
+            </span>
+            <Icon name="chevronRight" className="icon--sm chev" />
+          </a>
+        ))}
       </div>
     </section>
   )
@@ -285,6 +325,18 @@ function Finished() {
         </p>
         <p style={{ margin: 0 }}>Everything is open to you now — the full cast, every note, the whole map.</p>
       </section>
+      {afterwordFor(book, upTo) && (
+        <a className="card afterword-card" href={href('b', id, 'afterword')}>
+          <p className="eyebrow">After you finish</p>
+          <h2>The full picture</h2>
+          <p className="muted" style={{ margin: 0 }}>
+            The ending explained, how the themes resolve, the big debates, and what to read next.
+          </p>
+          <span className="link">
+            Read it <Icon name="chevronRight" className="icon--sm" />
+          </span>
+        </a>
+      )}
       <div className="group">
         <a className="row" href={href('b', id, 'recap')}>
           <span className="row__body">
@@ -298,6 +350,14 @@ function Finished() {
           </span>
           <Icon name="chevronRight" className="icon--sm chev" />
         </a>
+        {(book.themes?.length ?? 0) > 0 && (
+          <a className="row" href={href('b', id, 'themes')}>
+            <span className="row__body">
+              <span className="row__title">Themes · {book.themes!.length}</span>
+            </span>
+            <Icon name="chevronRight" className="icon--sm chev" />
+          </a>
+        )}
         <a className="row" href={href('b', id, 'glossary')}>
           <span className="row__body">
             <span className="row__title">Glossary · {notesUpTo(book, upTo).length} terms</span>

@@ -1,0 +1,156 @@
+[
+  {
+    "id": "good-evil",
+    "name": "Good and evil",
+    "from": 1,
+    "summary": [
+      {
+        "from": 1,
+        "text": "The Songs divide Kino's world into the Family and Evil, and a scorpion brings evil into a perfect morning; the story is framed as a parable with nothing in between."
+      },
+      {
+        "from": 2,
+        "text": "A pearl begins as a grain of sand that wounds an oyster; the great pearl arrives as luck, with no clear sign of whether it is a blessing."
+      },
+      {
+        "from": 3,
+        "text": "Kino's plans set off a struggle in the dark: an intruder, a wound, and Juana's conviction that the pearl is evil."
+      },
+      {
+        "from": 5,
+        "text": "Kino beats Juana and kills a man; good and evil are no longer outside him but in his own hands."
+      },
+      {
+        "from": 6,
+        "text": "In the hills Kino fights as the Songs of the Family and the Enemy clash, and he is forced to weigh what the pearl has cost."
+      }
+    ]
+  },
+  {
+    "id": "family",
+    "name": "Family and the songs",
+    "from": 1,
+    "summary": [
+      {
+        "from": 1,
+        "text": "The Song of the Family means wholeness: Kino, Juana and Coyotito, a fire, corncakes. Juana is the one who acts when Coyotito is stung."
+      },
+      {
+        "from": 2,
+        "text": "Juana treats the baby with what she knows and prays for Kino's luck; the canoe, an heirloom, keeps the family alive."
+      },
+      {
+        "from": 3,
+        "text": "Kino's dreams are for the family, above all school for Coyotito; Juana begins to fear the pearl will destroy them."
+      },
+      {
+        "from": 4,
+        "text": "Kino's manhood and Juana's fear pull against each other, while Juan Tomás warns his brother with love."
+      },
+      {
+        "from": 5,
+        "text": "Kino strikes Juana, yet she chooses to stay with him; Juan Tomás and Apolonia shelter them at great risk."
+      },
+      {
+        "from": 6,
+        "text": "On the run, the family's song turns fierce and protective, and everything rests on keeping Coyotito safe."
+      }
+    ]
+  },
+  {
+    "id": "colonial-power",
+    "name": "Power and the poor",
+    "from": 1,
+    "summary": [
+      {
+        "from": 1,
+        "text": "The doctor, from the race that conquered Kino's people, refuses to treat a poor Indigenous baby; the servant will not speak his own language."
+      },
+      {
+        "from": 2,
+        "text": "Juana's free remedy is worth nothing in a world that values only what is paid for."
+      },
+      {
+        "from": 3,
+        "text": "Every powerful figure in town, priest and doctor included, plans to profit from Kino's pearl."
+      },
+      {
+        "from": 4,
+        "text": "The buyers' rigged market and the priest's sermon about staying in one's place show a whole system set against Kino."
+      },
+      {
+        "from": 6,
+        "text": "Hired trackers and a rifleman hunt the family across the hills."
+      }
+    ]
+  },
+  {
+    "id": "nature",
+    "name": "Nature and survival",
+    "from": 2,
+    "summary": [
+      {
+        "from": 2,
+        "text": "The Gulf's haze makes seeing uncertain, and a pearl is the sea's accident, a grain of sand turned treasure."
+      },
+      {
+        "from": 3,
+        "text": "In the estuary small fish flee great fish, and night hawks hunt mice, a quiet mirror of the town."
+      },
+      {
+        "from": 5,
+        "text": "After the killing Kino becomes like an animal, living only to hide and survive."
+      },
+      {
+        "from": 6,
+        "text": "Across a dry, thorny land every creature hunts or hides; the mountain pool draws life, and so draws killers."
+      }
+    ]
+  },
+  {
+    "id": "greed",
+    "name": "Greed and corruption",
+    "from": 3,
+    "summary": [
+      {
+        "from": 3,
+        "text": "News of the pearl reveals what everyone already wanted; the doctor treats the baby only now there may be payment."
+      },
+      {
+        "from": 4,
+        "text": "The pearl buyers fake a competition to cheat Kino of the pearl's worth."
+      },
+      {
+        "from": 5,
+        "text": "The violence spreads: a canoe smashed, a house burned, a man dead, and Kino says the pearl has become his soul."
+      },
+      {
+        "from": 6,
+        "text": "Men are sent to hunt the family down for the pearl, and Kino sees it at last for what it has brought them."
+      }
+    ]
+  },
+  {
+    "id": "dreams",
+    "name": "Dreams and ambition",
+    "from": 3,
+    "summary": [
+      {
+        "from": 3,
+        "text": "Kino sees his future in the pearl: a church wedding, clothes, a rifle, and schooling for Coyotito."
+      },
+      {
+        "from": 4,
+        "text": "Refusing the buyers, Kino stakes everything on selling the pearl in the capital."
+      },
+      {
+        "from": 5,
+        "text": "Kino clings to the dream even as it costs him his boat and his home."
+      },
+      {
+        "from": 6,
+        "text": "Hope flickers again on the road north, but the pictures in the pearl begin to darken."
+      }
+    ]
+  }
+]

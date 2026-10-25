@@ -129,3 +129,19 @@ if (existsSync(join(atlasDir, 'frames.json'))) {
     writeFileSync(join('src/books', book, 'atlas', f.replace(/^art-/, '')), readFileSync(join(atlasDir, f), 'utf8'))
   }
 }
+
+// Understanding: themes, "what to notice" insights, the afterword and (some books) a timeline.
+{
+  const out = {}
+  if (existsSync(join(dir, 'themes.json'))) out.themes = JSON.parse(readFileSync(join(dir, 'themes.json'), 'utf8'))
+  const insights = read(/^notice-\d+-\d+\.json$/)
+    .sort((a, b) => a.chapter - b.chapter)
+    .map((n, i, all) => ({ id: `${n.chapter}-${all.slice(0, i).filter((m) => m.chapter === n.chapter).length + 1}`, ...n, themes: n.themes ?? [] }))
+  if (insights.length) out.insights = insights
+  if (existsSync(join(dir, 'afterword.json'))) out.afterword = JSON.parse(readFileSync(join(dir, 'afterword.json'), 'utf8'))
+  if (existsSync(join(dir, 'timeline.json'))) {
+    out.timeline = JSON.parse(readFileSync(join(dir, 'timeline.json'), 'utf8')).events.sort((a, b) => a.date.localeCompare(b.date) || a.revealed - b.revealed)
+  }
+  writeFileSync(join('src/books', book, 'understanding.json'), JSON.stringify(out, null, 1) + '\n')
+  console.log(`Wrote understanding for ${book}: ${out.themes?.length ?? 0} themes, ${insights.length} insights, ${out.afterword ? 'afterword' : 'no afterword'}, ${out.timeline?.length ?? 0} timeline events`)
+}

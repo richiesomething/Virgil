@@ -19,6 +19,9 @@ import ChapterDetail from './ChapterDetail'
 import Cast, { MapScreen } from './Cast'
 import CharacterProfile from './CharacterProfile'
 import PlacePage from './PlacePage'
+import Themes, { ThemePage } from './Themes'
+import Afterword from './Afterword'
+import Timeline from './Timeline'
 import { placeAt } from '../lib/atlas'
 import Glossary from './Glossary'
 import Recap from './Recap'
@@ -165,6 +168,10 @@ function LoadedBook({ book }: { book: BookData }) {
   else if (section === 'chapters') ((page = <ChapterDetail n={Number(param)} />), (title = `Chapter ${param}`), (isRoot = false))
   else if (section === 'cast' || (section === 'characters' && !param)) page = <Cast segment={(loc.query.get('seg') as 'people' | 'places' | 'things') ?? 'people'} />
   else if (section === 'map') ((page = <MapScreen focusId={param} />), (title = 'Connections'), (isRoot = false))
+  else if (section === 'themes' && !param) ((page = <Themes />), (title = 'Themes'), (isRoot = false))
+  else if (section === 'themes') ((page = <ThemePage themeId={param} />), (title = 'Theme'), (isRoot = false))
+  else if (section === 'afterword') ((page = <Afterword />), (title = 'After you finish'), (isRoot = false))
+  else if (section === 'timeline') ((page = <Timeline />), (title = 'Timeline'), (isRoot = false))
   else if (section === 'places' && param) ((page = <PlacePage id={param} />), (title = placeAt(book, param, upTo)?.name ?? 'Place'), (isRoot = false))
   else if (section === 'characters') {
     page = <CharacterProfile id={param} />

@@ -1,0 +1,548 @@
+[
+  {
+    "chapter": 91,
+    "kind": "craft",
+    "title": "Two packings, one gesture",
+    "text": "In separate rooms, without consulting each other, Albert and Mercédès do exactly the same thing: they leave everything in order, make an inventory, and take almost nothing. Dumas mirrors the two scenes so that we see a shared moral instinct without a word of discussion. Set against them is the pale face of the father at the window, the man who gained all this property and now keeps none of his family.",
+    "themes": ["wealth-status", "loyalty-betrayal"]
+  },
+  {
+    "chapter": 91,
+    "kind": "motif",
+    "title": "Treasure under a fig tree",
+    "text": "Buried treasure has driven this whole story, from Spada’s hoard to the count’s limitless credit. Here it shrinks to 150 louis, a young sailor’s savings, hidden in his father’s garden for his bride and found untouched after twenty-four years. Of everything the count could give, the gift that reaches Mercédès is the one that belongs to the time before.",
+    "themes": ["the-past-returns", "wealth-status"]
+  },
+  {
+    "chapter": 91,
+    "kind": "theme",
+    "title": "Giving up a name",
+    "text": "In this novel names are bought, invented and polished: Morcerf itself was acquired, and Paris is full of a “Prince” Cavalcanti. Albert does the opposite and takes his mother’s maiden name, Herrera, because the one he was born with is no longer honest. Notice that he and Mercédès are the first Parisians to choose a smaller identity rather than a grander one.",
+    "themes": ["identity-disguise", "wealth-status"]
+  },
+  {
+    "chapter": 92,
+    "kind": "craft",
+    "title": "Unmasking by costume",
+    "text": "The count does not simply say who he is. He leaves the room and comes back in a sailor’s jacket and hat, and lets Morcerf say the name himself. Identity in this book has always been a matter of clothes and titles, so the great revelation is staged as a disguise worn in reverse.",
+    "themes": ["identity-disguise", "the-past-returns"]
+  },
+  {
+    "chapter": 92,
+    "kind": "theme",
+    "title": "“Two Mercédès in the world”",
+    "text": "Before Morcerf arrives, Dumas gives us a quiet scene: Haydée’s joy, and the count wondering whether he might still be happy. For hundreds of pages his life has seemed to be nothing but his mission. This is the first time he allows himself to imagine a future that is not about the past.",
+    "themes": ["hope-despair"]
+  },
+  {
+    "chapter": 92,
+    "kind": "craft",
+    "title": "Watching from behind the curtain",
+    "text": "Dumas places us with Morcerf, hidden, as his wife and son walk down the stairs and away. Neither looks back, and Albert’s words, “this is no longer our home,” are the real sentence passed on him. The shot itself is reported from outside, at the moment the coach passes through the gate, so his death is tied to their leaving.",
+    "themes": ["loyalty-betrayal"]
+  },
+  {
+    "chapter": 92,
+    "kind": "question",
+    "title": "Whose hand?",
+    "text": "The count never touched Morcerf. He exposed the truth, refused a duel, and named himself; Morcerf did the rest. Is the count responsible for this death, or did Morcerf’s own past simply catch up with him? Consider how the count himself would answer, and whether you agree.",
+    "themes": ["revenge-justice", "providence"]
+  },
+  {
+    "chapter": 93,
+    "kind": "craft",
+    "title": "Poison among household things",
+    "text": "The danger arrives through the most ordinary objects: a glass of sugared water, a decanter, spoonfuls of medicine. Dumas even lets little Édouard empty the decanter to make a pond for his ducks, a child’s game that destroys the evidence. Watch Noirtier, who can do nothing but fix his eyes on the door, and how much tension Dumas draws from a man who cannot move.",
+    "themes": []
+  },
+  {
+    "chapter": 93,
+    "kind": "theme",
+    "title": "Two daughters, two kinds of captivity",
+    "text": "In the same room, Eugénie announces that she wants to be a free artist and cares nothing for the man she is to marry, while Valentine is shut in a house where she cannot even be sure what she drinks. Dumas places the two young women in the same scene so we feel how narrow the choices were for daughters of good family, and how differently each one meets them.",
+    "themes": ["prison-freedom"]
+  },
+  {
+    "chapter": 94,
+    "kind": "theme",
+    "title": "“Between the culprit and the victim I have no choice”",
+    "text": "The count admits he has been watching the Villefort house as if it were God’s justice at work, and he tells Morrel to look away. It is his clearest statement of the role he has given himself: not a judge who intervenes but a spectator of punishment. Then Morrel says Valentine’s name, and the spectator is suddenly involved.",
+    "themes": ["providence", "revenge-justice"]
+  },
+  {
+    "chapter": 94,
+    "kind": "craft",
+    "title": "The lion roars",
+    "text": "The count has been almost inhumanly composed for most of the book. Here he “roars like a wounded lion” and calls Valentine the daughter of an accursed race, before mastering himself within moments. Dumas rarely lets us see the passion under the mask, so moments like this show how much the calm costs him.",
+    "themes": ["identity-disguise"]
+  },
+  {
+    "chapter": 94,
+    "kind": "motif",
+    "title": "Poison as medicine",
+    "text": "Noirtier has been giving Valentine small doses of his own medicine so that her body grows used to it. This is the Mithridates method the count described to Madame de Villefort in their conversation about toxicology. The same knowledge that serves the poisoner now serves the protector, and the line between remedy and weapon is just a matter of dose.",
+    "themes": []
+  },
+  {
+    "chapter": 94,
+    "kind": "craft",
+    "title": "A name only the reader understands",
+    "text": "The chapter ends with an Italian priest, Signor Busoni, renting the house next door to the Villeforts. Nobody in the house thinks twice about it. We know who Busoni is, and Dumas trusts us to feel the click without a word of comment.",
+    "themes": ["identity-disguise"]
+  },
+  {
+    "chapter": 95,
+    "kind": "craft",
+    "title": "Stepping back in time",
+    "text": "This chapter goes back to the morning of the same day, before the visit that ended with Valentine’s collapse. Dumas, writing for serial publication, often doubles back like this to follow a second thread up to the moment where the first one stopped. Notice how it changes Eugénie’s cool behaviour at the Villeforts’ once you know what she agreed to that morning.",
+    "themes": []
+  },
+  {
+    "chapter": 95,
+    "kind": "context",
+    "title": "A banker’s credit is his life",
+    "text": "Danglars is nearly ruined, yet he can survive if people simply believe he is rich. In the speculative Paris of the 1830s and 1840s, with railway concessions and foreign bonds, a bank ran on confidence, and a rumour of three million could matter more than the money itself. Eugénie grasps this exactly when she tells him to rely on the rumour.",
+    "themes": ["wealth-status"]
+  },
+  {
+    "chapter": 95,
+    "kind": "theme",
+    "title": "A daughter as an asset",
+    "text": "Danglars drops the mask of the indulgent father and states plainly that the marriage is business. Eugénie answers in the same language and bargains: she will sign, on condition that she stays free in her person. It is one of the most unsentimental father-daughter scenes in the novel, and both of them are better at it than at affection.",
+    "themes": ["wealth-status", "prison-freedom"]
+  },
+  {
+    "chapter": 96,
+    "kind": "craft",
+    "title": "The count withdraws his hand",
+    "text": "When Andrea thanks the count for his success, the count calmly lists who vouched for Andrea: Lord Wilmore, the Abbé Busoni, a father’s name. Every one of those is a mask the reader knows. The count is stepping back from the young man he launched, in words that are technically true and entirely misleading.",
+    "themes": ["identity-disguise"]
+  },
+  {
+    "chapter": 96,
+    "kind": "craft",
+    "title": "Exposure at the moment of signing",
+    "text": "Dumas times the blow for maximum public effect: the contract read aloud, the baroness signing, the notary calling for “Prince Cavalcanti,” then soldiers at the doors. Compare Morcerf’s exposure in the Chamber of Peers. In both cases the fall is staged before an audience, because in this society shame only counts if it is witnessed.",
+    "themes": ["revenge-justice", "wealth-status"]
+  },
+  {
+    "chapter": 96,
+    "kind": "question",
+    "title": "What the reader knows about this marriage",
+    "text": "We know, as the guests do not, who Andrea’s parents are, and so we know what kind of match Danglars was about to celebrate. Does that knowledge make this scene comic, horrifying, or both? Think about how much of the count’s plan seems to depend on secrets the people involved do not even know they share.",
+    "themes": ["the-past-returns"]
+  },
+  {
+    "chapter": 97,
+    "kind": "theme",
+    "title": "Freedom in a man’s coat",
+    "text": "Eugénie cuts off her hair and travels as “M. Léon d’Armilly, artist.” For a woman of her time, freedom of movement, money of one’s own and a career on the stage were far easier to claim as a man. In a novel full of disguises used to deceive and punish, this one is used simply to get out.",
+    "themes": ["identity-disguise", "prison-freedom"]
+  },
+  {
+    "chapter": 97,
+    "kind": "craft",
+    "title": "“M. Danglars no longer had a daughter”",
+    "text": "The chapter ends on a single dry sentence. Dumas could have shown us Danglars discovering the empty room; instead he closes the door on it and lets the sentence do the work. Notice how often a chapter here ends on a line built to be quoted.",
+    "themes": []
+  },
+  {
+    "chapter": 98,
+    "kind": "craft",
+    "title": "Coincidence as comedy",
+    "text": "Of all the rooms in all the inns on the road north, Andrea falls down the chimney into the one where Eugénie is sleeping. Dumas does not pretend this is likely; he plays it for farce, down to the rooftop chase and the brigadier at the keyhole. The novel can move from tragedy to comic adventure in a single chapter, and this is one of its lightest moments.",
+    "themes": []
+  },
+  {
+    "chapter": 98,
+    "kind": "question",
+    "title": "“One has friends”",
+    "text": "Andrea throws down his knife rather than use it on himself, confident that someone will protect him. Who does he think that friend is, and what has he done to deserve one? Consider how much of Andrea’s career so far has depended on a patron whose motives he has never understood.",
+    "themes": ["providence"]
+  },
+  {
+    "chapter": 99,
+    "kind": "craft",
+    "title": "Pleading for a stranger who is not one",
+    "text": "Madame Danglars begs Villefort to go easy on “the impostor” to spare her family scandal, and Villefort refuses. Neither of them knows what the reader knows: that this convict is their own child, the baby born at Auteuil and buried in the garden. Dumas builds the whole scene on that gap, so every word they say about Benedetto lands differently on us.",
+    "themes": ["the-past-returns"]
+  },
+  {
+    "chapter": 99,
+    "kind": "theme",
+    "title": "A prosecutor who knows he is guilty",
+    "text": "Villefort swears before a crucifix that the culprits in his house will die, and then admits he has sinned, perhaps more deeply than others. Every criminal he condemns, he says, proves he is not the only wicked man. Notice how his severity as a judge has become a way of managing his own guilt.",
+    "themes": ["revenge-justice"]
+  },
+  {
+    "chapter": 99,
+    "kind": "motif",
+    "title": "The house as a plague hospital",
+    "text": "The Villefort house now looks like a lazaretto, with a suspicious porter and neighbours wondering aloud about the next funeral. Dumas keeps returning to images of contagion for this family, as if guilt were a disease that spreads through the walls. Watch how the house itself becomes a character.",
+    "themes": []
+  },
+  {
+    "chapter": 100,
+    "kind": "craft",
+    "title": "Ghost story, then explanation",
+    "text": "Dumas writes the count’s entrance as a Gothic apparition: a feverish girl, a door that opens without a sound, a figure at the bed. Only after Valentine, and we, have been frightened does he give the practical explanation of the hidden door and the swapped drinks. The scene gets both thrills, the supernatural and the rational, one after the other.",
+    "themes": []
+  },
+  {
+    "chapter": 100,
+    "kind": "theme",
+    "title": "The watcher behind the wall",
+    "text": "For four sleepless nights the count has watched Valentine through a hidden door and replaced poison with a safe draught. It is the same power he has used everywhere, to see what others cannot and to arrange events unseen. Here, for once, that godlike watching is used to keep someone alive.",
+    "themes": ["providence"]
+  },
+  {
+    "chapter": 101,
+    "kind": "context",
+    "title": "Why “Locusta”",
+    "text": "Locusta was the poisoner of ancient Rome said to have supplied the drug that killed Emperor Claudius so that Nero could inherit. The title points at the motive the count spells out here: a mother clearing the way for her son’s inheritance. Remember the count’s remark, in the conversation about toxicology, about Lady Macbeth wanting a throne for her son.",
+    "themes": ["wealth-status"]
+  },
+  {
+    "chapter": 101,
+    "kind": "question",
+    "title": "The count’s share in this",
+    "text": "The count reminds Valentine of the man in the brown cloak at Perugia whom her stepmother questioned about aqua tofana. We know that man was the count, and that he later talked poisons with Madame de Villefort and sent her a recipe. How much of what has happened in this house did he cause, and how much did he merely allow?",
+    "themes": ["providence", "revenge-justice"]
+  },
+  {
+    "chapter": 101,
+    "kind": "craft",
+    "title": "Seeing through half-closed eyes",
+    "text": "Most of this chapter is filtered through Valentine pretending to sleep: a whisper, a white dressing-gown, a phial emptied into a glass. Dumas limits us to what she can glimpse, so the identity of the poisoner arrives as a shock of recognition. Then he hands her, and us, a strange instruction: whatever happens, even waking in a tomb, do not be afraid.",
+    "themes": ["hope-despair"]
+  },
+  {
+    "chapter": 102,
+    "kind": "craft",
+    "title": "The poisoner by the bed",
+    "text": "Dumas lets us stay with Madame de Villefort as she inspects her work, caught “between fascination and remorse” until the lamp goes out. It is a rare scene inside the mind of a murderer, and she is not a cartoon villain. Then comes the detail that undoes her: the glass she emptied is a third full again.",
+    "themes": []
+  },
+  {
+    "chapter": 102,
+    "kind": "question",
+    "title": "What did the pill do?",
+    "text": "The house declares Valentine dead, and the doctor’s test proves poison. But you watched the count give her a pill and tell her to fear nothing, even in a tomb. How much weight do you put on that promise, and how does holding it change the way you read Maximilian’s arrival at the end?",
+    "themes": ["hope-despair"]
+  },
+  {
+    "chapter": 103,
+    "kind": "theme",
+    "title": "An avenger, not a priest",
+    "text": "Morrel refuses to say a quiet farewell: Valentine, he says, needs an avenger. The word puts this gentle young soldier on the same path the count has walked for years. Notice that the call for vengeance now comes from the side of the victims of a Villefort, and that Villefort himself is the one who must answer it.",
+    "themes": ["revenge-justice"]
+  },
+  {
+    "chapter": 103,
+    "kind": "craft",
+    "title": "Noirtier’s silent verdict",
+    "text": "Dumas keeps Noirtier’s accusation off the page. We see only Villefort coming back livid, holding the shreds of a quill pen, and swearing a terrible revenge within three days. The scene is more powerful for what is left out, and it shows the paralysed old man as the most formidable figure in the room.",
+    "themes": ["revenge-justice"]
+  },
+  {
+    "chapter": 103,
+    "kind": "craft",
+    "title": "The abbé from next door",
+    "text": "Villefort sends for the nearest priest and gets an Italian abbé who already knows Valentine’s name. We know who lives next door. Notice the look between the abbé and Noirtier, and what it seems to give the old man.",
+    "themes": ["identity-disguise"]
+  },
+  {
+    "chapter": 104,
+    "kind": "theme",
+    "title": "Ruin by receipt",
+    "text": "The count does not steal from Danglars. He simply draws on the credit Danglars himself opened for him, at the one moment the banker cannot afford it, and Danglars is too proud to refuse. As with Morcerf, the trap is built out of the victim’s own character: here, vanity about his wealth.",
+    "themes": ["revenge-justice", "wealth-status"]
+  },
+  {
+    "chapter": 104,
+    "kind": "craft",
+    "title": "Money set against money",
+    "text": "In the same chapter Danglars is about to flee with money owed to the hospitals, and Boville mentions that Mercédès and Albert have given their whole fortune to those same hospitals. Dumas lets the two facts sit side by side without comment. The contrast tells us how to judge both families.",
+    "themes": ["wealth-status", "loyalty-betrayal"]
+  },
+  {
+    "chapter": 104,
+    "kind": "motif",
+    "title": "The old names return",
+    "text": "M. de Boville, the prison inspector the count bought the Morrel debts from long ago, reappears as Receiver-General of the charities. Thomson & French, the bank behind the Morrel rescue, is the bank on the receipt. Dumas is gathering threads from the Marseilles chapters into the Paris ending.",
+    "themes": ["the-past-returns"]
+  },
+  {
+    "chapter": 105,
+    "kind": "theme",
+    "title": "Revealing himself to save, not to punish",
+    "text": "Morcerf heard the name Edmond Dantès as a sentence. Maximilian hears it as a reason to live: the man who saved his father, sent the purse and returned the Pharaon. It is the same revelation, used for the opposite purpose, and the count stops Maximilian before he can say it aloud to Julie and Emmanuel.",
+    "themes": ["identity-disguise", "loyalty-betrayal"]
+  },
+  {
+    "chapter": 105,
+    "kind": "motif",
+    "title": "The red silk purse",
+    "text": "Julie fetches the purse the unknown benefactor left long ago, kept as a family relic. In a novel of vast sums, it is one of the few objects that carries feeling rather than value. It ties this scene back to the count’s first act of gratitude, before any revenge began.",
+    "themes": ["the-past-returns", "loyalty-betrayal"]
+  },
+  {
+    "chapter": 105,
+    "kind": "question",
+    "title": "Why ask for a month?",
+    "text": "The count does not argue Maximilian out of despair. He asks only for time, one month, until 5 October, and promises the means of a painless death if hope has not returned. Why would he bargain like this rather than simply forbid it? Think about what the count himself learned about waiting in his own years of despair.",
+    "themes": ["hope-despair"]
+  },
+  {
+    "chapter": 106,
+    "kind": "craft",
+    "title": "One staircase, two households",
+    "text": "Dumas sets two scenes in the same plain building: downstairs, Debray coolly divides millions with his mistress and drops her; upstairs, Mercédès and Albert count out the last of their francs. The house is a cross-section of the novel’s moral world. Notice which household is richer by the end of the chapter, and which is happier.",
+    "themes": ["wealth-status"]
+  },
+  {
+    "chapter": 106,
+    "kind": "theme",
+    "title": "Earning a name",
+    "text": "Albert has sold his watch and enlisted in the Spahis as a paid substitute. He means to earn a name of his own, in six months an officer or dead. His father bought a title and a fortune; Albert chooses to start where Edmond Dantès once started, with nothing but his work.",
+    "themes": ["identity-disguise", "wealth-status"]
+  },
+  {
+    "chapter": 106,
+    "kind": "context",
+    "title": "A wife’s money was never her own",
+    "text": "Danglars’ parting letter leaves his wife “rich, but little respected,” and suspects her of hiding his fortune. Under the Napoleonic Code a married woman could not freely own or manage property, which is why Madame Danglars has speculated in secret through Debray. Her secret fortune is both her rescue and the measure of her disgrace.",
+    "themes": ["wealth-status"]
+  },
+  {
+    "chapter": 107,
+    "kind": "craft",
+    "title": "The reader knows more than the prisoner",
+    "text": "Andrea hints that his secret protector, perhaps his real father, is the Count of Monte Cristo. We know better: we heard Bertuccio’s story of Auteuil, and Villefort’s confession to Madame Danglars. Dumas lets Andrea’s guess hang in the air, and Bertuccio’s stern refusal tells us how wrong it is.",
+    "themes": ["the-past-returns", "identity-disguise"]
+  },
+  {
+    "chapter": 107,
+    "kind": "motif",
+    "title": "The prince in the lions’ den",
+    "text": "Andrea’s fine clothes are torn but carefully brushed, and he still plays the Cavalcanti prince to keepers who laugh at him. He survives the convicts only with a bandits’ sign learned from Caderousse. The two identities, prince and galley slave, sit side by side in one cell.",
+    "themes": ["identity-disguise", "prison-freedom"]
+  },
+  {
+    "chapter": 108,
+    "kind": "theme",
+    "title": "Justice for the family name",
+    "text": "Villefort does not send his wife to trial. He tells her to poison herself, so that his name and his son will be spared the scaffold and the scandal. Notice what he is protecting: not the law he serves, but the reputation of the Villeforts.",
+    "themes": ["revenge-justice", "wealth-status"]
+  },
+  {
+    "chapter": 108,
+    "kind": "craft",
+    "title": "The cup of chocolate",
+    "text": "Villefort drinks his wife’s chocolate in one gulp, almost hoping it is poisoned. One small gesture tells us how far gone he is: a man so weary of his own house that death would be a relief. Dumas often reveals character this way, through an action rather than a speech.",
+    "themes": ["hope-despair"]
+  },
+  {
+    "chapter": 108,
+    "kind": "question",
+    "title": "Is Villefort right?",
+    "text": "Madame de Villefort begs for her life for Edward’s sake, and Villefort answers that if she lived she might one day kill the boy too. Is his sentence a judge’s cold logic, a husband’s cruelty, or a kind of mercy? Notice that he says nothing about his own secret, which no one has yet exposed.",
+    "themes": ["revenge-justice"]
+  },
+  {
+    "chapter": 109,
+    "kind": "craft",
+    "title": "The chorus in the gallery",
+    "text": "Dumas makes us wait for the trial by sitting us beside Beauchamp, Debray and Château-Renaud as they gossip. These three young men have been his chorus all through the Paris chapters: they report what society thinks, and they are often wrong. Their rumours about Edward and the absent count show how Paris turns tragedy into entertainment.",
+    "themes": ["wealth-status"]
+  },
+  {
+    "chapter": 109,
+    "kind": "craft",
+    "title": "A veiled lady in the crowd",
+    "text": "Beauchamp is sure the veiled woman is Madame Danglars, and Debray blushes. We know she has every reason to be here, and more than the young men suspect. Keep an eye on her as the trial begins.",
+    "themes": ["identity-disguise", "the-past-returns"]
+  },
+  {
+    "chapter": 110,
+    "kind": "craft",
+    "title": "Answering in his own order",
+    "text": "Benedetto turns the court’s routine questions into a weapon. Name, age, birthplace, profession: he answers each in an order he chooses, so that “Auteuil” and “27 September 1817” land before the name of his father. Watch how Dumas uses the formal procedure of a French trial to build suspense one answer at a time.",
+    "themes": ["the-past-returns"]
+  },
+  {
+    "chapter": 110,
+    "kind": "theme",
+    "title": "The prosecutor in the dock",
+    "text": "Villefort has spent his career sending others to the scaffold, and in Madame Danglars’ presence he once said his place should be on the prisoner’s bench, not the judge’s seat. Now that is exactly where his own son puts him. The garden at Auteuil, the red damask room and the buried box all return in open court.",
+    "themes": ["revenge-justice", "the-past-returns"]
+  },
+  {
+    "chapter": 110,
+    "kind": "theme",
+    "title": "“In the hands of an avenging God”",
+    "text": "Villefort does not deny anything. He calls himself the prisoner of an avenging God and walks out. Notice that he does not blame any human enemy: he reads his fall as providence, which is how the count has asked us to read every fall in the book.",
+    "themes": ["providence"]
+  },
+  {
+    "chapter": 110,
+    "kind": "question",
+    "title": "Who is the real criminal here?",
+    "text": "Benedetto is a forger, thief and murderer, but he tells the court his adopted father taught him the crime was his father’s, not his. Is he right? Think about how much of Benedetto’s life was made by a single night at Auteuil, and how much by his own choices.",
+    "themes": ["revenge-justice"]
+  },
+  {
+    "chapter": 111,
+    "kind": "craft",
+    "title": "Too late by half an hour",
+    "text": "In the carriage Villefort changes his mind: his wife must live, they will flee together, she will repent and raise Edward. Dumas lets us share his hope for a few pages, then has him find the bolted door. The forgotten fan in the carriage is a small, painful touch, reminding him of the sentence he passed that morning.",
+    "themes": ["hope-despair"]
+  },
+  {
+    "chapter": 111,
+    "kind": "theme",
+    "title": "“Are you well avenged?”",
+    "text": "The count’s unmasking before Villefort should be his triumph, and Dumas stages it as one: the wig pulled off, the wedding day in Marseilles recalled. But Villefort drags him upstairs to the bodies, and the question turns back on the avenger. For the first time the count’s vengeance has struck a child who did nothing.",
+    "themes": ["revenge-justice", "identity-disguise"]
+  },
+  {
+    "chapter": 111,
+    "kind": "theme",
+    "title": "The limits of playing God",
+    "text": "The count tries for a quarter of an hour to revive Edward, and none of his skill can do it. The man who has seemed to control life and death, who has spoken of himself as the hand of providence, meets something he cannot undo. Watch how this shakes his certainty that he had the right.",
+    "themes": ["providence"]
+  },
+  {
+    "chapter": 111,
+    "kind": "motif",
+    "title": "Digging in the garden",
+    "text": "Mad Villefort digs wildly in the garden, crying that he will find the child. It is the act of that night at Auteuil, repeated as madness. The buried child has come back to him in court, and now his mind returns to the burial.",
+    "themes": ["the-past-returns"]
+  },
+  {
+    "chapter": 112,
+    "kind": "craft",
+    "title": "Returning to the first harbour",
+    "text": "The count and Maximilian arrive at the quay in Marseilles where the Pharaon came in at the very start of the novel. Albert now sails from it for Africa, with a veiled woman waving. Dumas brings the story back to its opening setting so that we measure how much has changed.",
+    "themes": ["the-past-returns"]
+  },
+  {
+    "chapter": 112,
+    "kind": "theme",
+    "title": "Mercédès blames herself",
+    "text": "The count admits he caused her misfortunes, and Mercédès refuses to hate him. Instead she accuses herself: she was weak, she married Fernand, she let Edmond be lost. Of everyone the count has confronted, she is the only one who takes on guilt rather than deflecting it, and that changes the tone of their meeting.",
+    "themes": ["loyalty-betrayal", "hope-despair"]
+  },
+  {
+    "chapter": 112,
+    "kind": "question",
+    "title": "“Without pride or hatred”",
+    "text": "Looking back over Paris from Villejuif, the count declares his mission complete and says he leaves without pride or hatred, though with many regrets. Do you believe him? Consider what he has seen in the last few days, and whether his words sound like a conclusion or a man trying to convince himself.",
+    "themes": ["revenge-justice", "providence"]
+  },
+  {
+    "chapter": 113,
+    "kind": "craft",
+    "title": "Hearing his own story as legend",
+    "text": "The guide at the Château d’If tells the tale of No. 34, the prisoner who took the dead priest’s place in the sack, as a local legend, and assumes he drowned. The count stands in his old cell and hears himself turned into a story. It is a neat way for Dumas to retell the novel’s founding events from the outside.",
+    "themes": ["the-past-returns", "identity-disguise"]
+  },
+  {
+    "chapter": 113,
+    "kind": "motif",
+    "title": "Faria’s manuscript",
+    "text": "The great treatise on strips of cloth returns, and its epigraph, about trampling dragons and lions, seems to answer the count’s doubts. Faria was the first to give Edmond knowledge, a fortune and a purpose. Notice that the count looks for reassurance not in his own wealth but in the words of his old teacher.",
+    "themes": ["providence", "prison-freedom"]
+  },
+  {
+    "chapter": 113,
+    "kind": "craft",
+    "title": "The name he murmurs",
+    "text": "Passing the Catalans, the village where Mercédès lived, the count murmurs a woman’s name, and Dumas tells us it is Haydée’s. It is a tiny sentence placed exactly where we expect the other name. Pay attention to small turns like this; Dumas uses them to show change without explaining it.",
+    "themes": ["hope-despair"]
+  },
+  {
+    "chapter": 114,
+    "kind": "craft",
+    "title": "Rome again",
+    "text": "Pastrini’s hotel, the catacombs of Saint Sebastian, Luigi Vampa reading Plutarch, even the cell where Albert was once held: the Roman carnival chapters come back almost scene for scene. Dumas uses the repetition for comedy, with Danglars, who knows no Italian beyond musical terms, stumbling through a setup the reader recognises at once.",
+    "themes": ["the-past-returns"]
+  },
+  {
+    "chapter": 114,
+    "kind": "theme",
+    "title": "The banker who counts everything",
+    "text": "Kidnapped and locked in a bandit’s cave, Danglars comforts himself with arithmetic: twice Albert’s ransom would still leave him over five million. Even in terror he thinks in sums. Dumas is setting up a punishment fitted precisely to the man’s mind.",
+    "themes": ["wealth-status", "revenge-justice"]
+  },
+  {
+    "chapter": 115,
+    "kind": "craft",
+    "title": "A punishment played as comedy",
+    "text": "A hundred thousand francs for a chicken, and the same for dry bread, because the bandits keep “a fixed price for all our provisions.” Dumas writes the scene as broad farce, with Peppino unfailingly polite. The joke is that Danglars is being charged by the rules of his own trade.",
+    "themes": ["wealth-status", "revenge-justice"]
+  },
+  {
+    "chapter": 115,
+    "kind": "motif",
+    "title": "Hunger",
+    "text": "Watch how Dumas makes us feel the hunger: the guards’ bread, cheese and onions, which start to look surprisingly appetizing, and the chicken that seems very thin for its price. Remember who in this story once died of hunger, and whose doing it was.",
+    "themes": ["the-past-returns"]
+  },
+  {
+    "chapter": 116,
+    "kind": "theme",
+    "title": "A punishment shaped to the crime",
+    "text": "Danglars is not killed; his blood must not be shed. Instead he is made to starve with gold in his pocket, until he dreams of an old man dying of hunger on a pallet. The count’s revenge on each enemy has been fitted to the man: exposure for Morcerf, the law for Villefort, and for Danglars, money and hunger.",
+    "themes": ["revenge-justice", "the-past-returns"]
+  },
+  {
+    "chapter": 116,
+    "kind": "theme",
+    "title": "Forgiveness",
+    "text": "For the first time the count says “I forgive you” to one of his enemies. He lets Danglars keep the last 50,000 francs and returns the stolen millions to the hospitals. Compare this ending with the deaths and madness of the last few chapters, and think about what changed in the count between Edward’s death and this cave.",
+    "themes": ["revenge-justice", "providence"]
+  },
+  {
+    "chapter": 116,
+    "kind": "craft",
+    "title": "“Not the Count of Monte Cristo, but Edmond Dantès”",
+    "text": "Each enemy has now heard the same name: Morcerf from a sailor’s costume, Villefort from a priest without his wig, Danglars from a man in a cloak. Dumas uses the unmasking three times, each in a different key. Here it comes only after Danglars repents, as part of a pardon rather than a sentence.",
+    "themes": ["identity-disguise"]
+  },
+  {
+    "chapter": 116,
+    "kind": "motif",
+    "title": "Hair turned white",
+    "text": "At dawn Danglars bends over a stream and sees that his hair has turned completely white. It is the oldest mark of terror in storytelling, a sign that something has aged him beyond his years. He is free and alive, but changed in a way that shows on his face.",
+    "themes": ["prison-freedom"]
+  },
+  {
+    "chapter": 117,
+    "kind": "craft",
+    "title": "A death scene turned inside out",
+    "text": "Dumas builds the chapter as a suicide: the date kept, the jewelled box, the greenish drug, Morrel’s sight fading. Then a door opens. The whole novel’s pattern of burial and return, from the sack thrown into the sea onward, is replayed one last time for someone else.",
+    "themes": ["hope-despair", "prison-freedom"]
+  },
+  {
+    "chapter": 117,
+    "kind": "theme",
+    "title": "Saving as atonement",
+    "text": "The count hopes God will accept the saving of these two lives as his atonement. After Edward, he no longer speaks as the sure agent of providence; he speaks as a man asking to be forgiven. Haydée’s confession of love is the answer he chooses to read as God’s pardon.",
+    "themes": ["providence", "revenge-justice"]
+  },
+  {
+    "chapter": 117,
+    "kind": "theme",
+    "title": "“Wait and hope”",
+    "text": "The novel ends on two words, which the count says sum up all human wisdom. Think back to the prisoner who despaired and wanted to starve himself in his cell, and to the month he asked of Maximilian. The phrase gathers up the book’s long argument between hope and despair.",
+    "themes": ["hope-despair"]
+  },
+  {
+    "chapter": 117,
+    "kind": "question",
+    "title": "A white sail on the horizon",
+    "text": "The count leaves his fortune, his houses and his name in Paris behind, and sails away with Haydée. Is this a happy ending for Edmond Dantès, or a man escaping a world he can no longer live in? Consider what he gained, what he lost, and what he chose to give away.",
+    "themes": ["identity-disguise", "wealth-status"]
+  }
+]

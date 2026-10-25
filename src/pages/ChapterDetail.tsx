@@ -1,6 +1,8 @@
 import Icon from '../components/Icon'
 import Primer from '../components/Primer'
 import WhereCard from '../components/WhereCard'
+import InsightCard from '../components/InsightCard'
+import { insightsForChapter } from '../lib/understanding'
 import { initials } from '../components/CharacterChip'
 import { NoteBody, kindLabel } from '../components/Sheets'
 import { Segmented } from '../components/ui'
@@ -10,7 +12,7 @@ import { chapter, charactersInChapter, currentTagline, kindOf, notesForChapter }
 import { prefs } from '../lib/store'
 import { chapterMinutes, estimate } from '../lib/planner'
 
-type Tab = 'summary' | 'notes' | 'people'
+type Tab = 'summary' | 'insights' | 'notes' | 'people'
 
 export default function ChapterDetail({ n }: { n: number }) {
   const { book, upTo } = useBook()
@@ -51,8 +53,9 @@ function ReadChapter({ n }: { n: number }) {
   const notes = notesForChapter(book, n, upTo)
   const noteCount = notes.introduced.length + notes.returning.length
   const people = charactersInChapter(book, ch, upTo)
+  const insights = insightsForChapter(book, n, upTo)
   const requested = (loc.query.get('tab') as Tab) ?? 'summary'
-  const tab: Tab = requested === 'notes' && !noteCount ? 'summary' : requested
+  const tab: Tab = (requested === 'notes' && !noteCount) || (requested === 'insights' && !insights.length) ? 'summary' : requested
   const volume = meta.volumes.find((v) => v.number === ch.volume)
   const setTab = (t: Tab) => navigate(withQuery(href('b', meta.id, 'chapters', n), { tab: t === 'summary' ? undefined : t }), { replace: true })
 
@@ -71,6 +74,7 @@ function ReadChapter({ n }: { n: number }) {
           onChange={setTab}
           options={[
             { value: 'summary', label: 'Summary' },
+            ...(insights.length ? [{ value: 'insights' as Tab, label: 'Insights', count: insights.length }] : []),
             ...(noteCount ? [{ value: 'notes' as Tab, label: 'Notes', count: noteCount }] : []),
             { value: 'people', label: 'People', count: people.length },
           ]}
@@ -84,6 +88,30 @@ function ReadChapter({ n }: { n: number }) {
             {ch.details.map((p, i) => (
               <p key={i}>{p}</p>
             ))}
+          </div>
+        )}
+
+        {tab === 'summary' && insights.length > 0 && (
+          <button className="card notice-teaser" onClick={() => setTab('insights')}>
+            <span className="eyebrow">Worth noticing</span>
+            <strong>{insights[0].title}</strong>
+            <span className="muted small">
+              {insights.length > 1 ? `and ${insights.length - 1} more` : 'Read the note'} <Icon name="chevronRight" className="icon--sm" />
+            </span>
+          </button>
+        )}
+
+        {tab === 'insights' && (
+          <div className="insights">
+            <p className="muted small" style={{ margin: '0 0 4px' }}>
+              What’s worth noticing in this chapter.
+            </p>
+            {insights.map((i) => (
+              <InsightCard key={i.id} insight={i} />
+            ))}
+            <a className="link" href={href('b', meta.id, 'themes')}>
+              All themes <Icon name="chevronRight" className="icon--sm" />
+            </a>
           </div>
         )}
 

@@ -1,0 +1,40 @@
+{
+ "themes": [
+  {
+   "id": "good-evil",
+   "name": "Good and evil",
+   "from": 1,
+   "summary": []
+  },
+  {
+   "id": "family",
+   "name": "Family and the songs",
+   "from": 1,
+   "summary": []
+  },
+  {
+   "id": "colonial-power",
+   "name": "Power and the poor",
+   "from": 1,
+   "summary": []
+  },
+  {
+   "id": "nature",
+   "name": "Nature and survival",
+   "from": 2,
+   "summary": []
+  },
+  {
+   "id": "greed",
+   "name": "Greed and corruption",
+   "from": 3,
+   "summary": []
+  },
+  {
+   "id": "dreams",
+   "name": "Dreams and ambition",
+   "from": 3,
+   "summary": []
+  }
+ ]
+}

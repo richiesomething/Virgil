@@ -89,6 +89,10 @@ export interface BookData {
   /** Words per chapter, index 0 = chapter 1. */
   wordCounts: number[]
   atlas?: Atlas
+  themes?: Theme[]
+  insights?: Insight[]
+  afterword?: Afterword
+  timeline?: TimelineEvent[]
 }
 
 /** 'tie' is used for every link that involves an object or place. */
@@ -227,4 +231,50 @@ export interface Atlas {
   /** Chapter number → place ids where its scenes happen, main one first. */
   settings: Record<string, string[]>
   journeys: Journey[]
+}
+
+/** A big idea the book keeps returning to; its summary grows as the reader does. */
+export interface Theme {
+  id: string
+  name: string
+  from: number
+  summary: Revealed[]
+}
+
+export type InsightKind = 'theme' | 'motif' | 'craft' | 'context' | 'question'
+
+/** "What to notice" in a chapter. */
+export interface Insight {
+  id: string
+  chapter: number
+  kind: InsightKind
+  title: string
+  text: string
+  themes: string[]
+}
+
+/** "After you finish": shown only once the book is finished. */
+export interface Afterword {
+  ending: string[]
+  themes: { theme: string; text: string }[]
+  interpretations: { title: string; text: string }[]
+  context: { title: string; text: string }[]
+  adaptations: { title: string; year: number; kind: string; note: string }[]
+  readNext: { title: string; author: string; why: string }[]
+  questions: string[]
+}
+
+export interface TimelineEvent {
+  id: string
+  date: string
+  label: string
+  approx?: boolean
+  title: string
+  text: Revealed[]
+  /** First chapter at the end of which the reader knows this happened. */
+  revealed: number
+  chapters: number[]
+  flashback?: boolean
+  places?: string[]
+  people?: string[]
 }

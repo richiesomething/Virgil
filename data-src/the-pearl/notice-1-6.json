@@ -1,0 +1,212 @@
+[
+  {
+    "chapter": 1,
+    "kind": "craft",
+    "title": "A story told as a parable",
+    "text": "Before the story starts, Steinbeck says this is a tale the town retells, a world of good and bad with nothing in between, and that each reader may take their own meaning from it. That framing explains a lot. Most people have no names, only roles: the doctor, the servant, the beggars. Read it as a fable as much as a novel, and ask what each figure stands for.",
+    "themes": ["good-evil"]
+  },
+  {
+    "chapter": 1,
+    "kind": "motif",
+    "title": "Music in Kino's head",
+    "text": "Kino hears songs instead of thinking in words. The Song of the Family is calm and whole; the Song of Evil comes in with the scorpion. Steinbeck uses them as a gauge of danger and safety. Notice how quickly one song can drown out the other.",
+    "themes": ["family", "good-evil"]
+  },
+  {
+    "chapter": 1,
+    "kind": "motif",
+    "title": "The ant and the scorpion",
+    "text": "Early that morning Kino idly watches an ant struggling to escape an ant lion's sand trap, and he does nothing, as detached as a god. Minutes later a small creature threatens his own child. Steinbeck sets the family inside a world of hunters and hunted from the first page. Who in the town plays the ant lion?",
+    "themes": ["good-evil"]
+  },
+  {
+    "chapter": 1,
+    "kind": "theme",
+    "title": "Two worlds at the doctor's gate",
+    "text": "The walk into town crosses a line: from brush huts to stone walls, from Kino's language to Spanish. The doctor is drawn through his comforts, his chocolate and his memories of Paris, and he speaks of the family as if they were animals. Kino's feelings mix fear, anger and an old habit of deference, and they are four centuries old.",
+    "themes": ["colonial-power"]
+  },
+  {
+    "chapter": 1,
+    "kind": "theme",
+    "title": "Juana's strength",
+    "text": "It is Juana, not Kino, who sucks the poison from the wound and who demands the doctor. Steinbeck shows her mixing Hail Marys with older charms, and acting while everyone else stares. Watch how often she sees a danger first.",
+    "themes": ["family"]
+  },
+  {
+    "chapter": 2,
+    "kind": "motif",
+    "title": "The uncertain air of the Gulf",
+    "text": "Steinbeck opens with a haze over the water that makes distant things look near and near things blur, so that no one can trust what they see. It is a real effect of the Gulf, but he says it also shapes how people imagine. A chapter about finding something wonderful begins by warning us about seeing clearly.",
+    "themes": ["nature"]
+  },
+  {
+    "chapter": 2,
+    "kind": "theme",
+    "title": "The remedy that costs nothing",
+    "text": "Juana's seaweed poultice may work as well as anything the doctor could offer, the narrator says, but no one values it because it is free. That one line turns the doctor's refusal from the last chapter into a comment on how worth is measured. Knowledge counts only when it is paid for and comes from the right people.",
+    "themes": ["colonial-power", "family"]
+  },
+  {
+    "chapter": 2,
+    "kind": "motif",
+    "title": "The Song of the Pearl That Might Be",
+    "text": "Under the water Kino hears a new, secret song, a melody of hope rather than of home. Note the name: it is a song of possibility, not of anything he has. It is the first song in the book about wanting.",
+    "themes": ["family"]
+  },
+  {
+    "chapter": 2,
+    "kind": "craft",
+    "title": "Slowing down before the opening",
+    "text": "Kino does not open the big oyster first. He opens the small ones, and is reluctant to want anything too openly in case it drives luck away. Steinbeck stretches the moment so the reveal lands, and he lets us feel the family's superstitious caution about hope itself.",
+    "themes": ["good-evil"]
+  },
+  {
+    "chapter": 2,
+    "kind": "context",
+    "title": "A pearl is an accident",
+    "text": "Steinbeck explains that a pearl forms when a grain of sand irritates an oyster and it coats the intruder in layers, over and over. The most prized thing in the Gulf begins as a wound. He also says the divers' whole trade depends on chance, on God or the gods placing a pearl here and not there.",
+    "themes": ["nature"]
+  },
+  {
+    "chapter": 3,
+    "kind": "theme",
+    "title": "A town wakes up wanting",
+    "text": "Steinbeck calls the town a living creature with a nervous system, and the news runs through it. Then he goes round the town person by person: priest, shopkeepers, beggars, buyers, doctor. Each sees the pearl as the answer to his own wish, and none of them thinks of Kino. The pearl has not made anyone greedy; it has shown what was already there.",
+    "themes": ["greed", "colonial-power"]
+  },
+  {
+    "chapter": 3,
+    "kind": "motif",
+    "title": "Pictures in the pearl",
+    "text": "When Kino looks into the pearl, he sees his plans on its surface: the wedding, the clothes, the rifle, Coyotito at a desk. The pearl does not show the future. It shows Kino what he wants. Keep watching what he sees in it, because it is the clearest view we get of his mind.",
+    "themes": ["dreams"]
+  },
+  {
+    "chapter": 3,
+    "kind": "question",
+    "title": "Why does the rifle matter so much?",
+    "text": "Kino's list moves from things his people might hope for, a church wedding and new clothes, to a rifle, and then to schooling. Steinbeck says that once he has named the rifle, every barrier seems to fall. What does each item mean to him, and what changes in him as he says them out loud?",
+    "themes": ["dreams", "colonial-power"]
+  },
+  {
+    "chapter": 3,
+    "kind": "motif",
+    "title": "Small fish and great fish",
+    "text": "In the middle of the evening Steinbeck turns away to the estuary, where a school of small fish flees larger ones, and to night hawks hunting mice. These quiet passages are never just scenery. Ask who in the human story is the hunter and who the prey.",
+    "themes": ["nature", "greed"]
+  },
+  {
+    "chapter": 3,
+    "kind": "craft",
+    "title": "Darkness enters the house",
+    "text": "The pearl glows with gathered light, but this chapter ends in a dark hut with an unseen intruder. Watch how Steinbeck handles light: candle and firelight for family, blackness for the threat. Juana's answer is to want the pearl gone; Kino's is to fight.",
+    "themes": ["good-evil", "family"]
+  },
+  {
+    "chapter": 4,
+    "kind": "theme",
+    "title": "A market that is a stage",
+    "text": "The buyers act out a competition, one after another, but the town suspects a single man owns them all. Kino cannot prove the trick, but he can feel it. Steinbeck shows a system that cheats the poor without anyone breaking a rule.",
+    "themes": ["colonial-power", "greed"]
+  },
+  {
+    "chapter": 4,
+    "kind": "motif",
+    "title": "The coin on the knuckles",
+    "text": "The first buyer rolls a coin back and forth across his knuckles while he talks. It is a show of ease and control, a small sleight of hand. Notice what his hand does as the bargaining turns against him.",
+    "themes": ["greed"]
+  },
+  {
+    "chapter": 4,
+    "kind": "context",
+    "title": "Stay in your place",
+    "text": "Juan Tomás recalls the priest's yearly sermon: each person is like a soldier given a post in a castle, and leaving it is a sin. Seen next to the buyers' deal, the sermon reads as one more piece of the same structure. Juan Tomás warns that Kino has defied not just the buyers but a whole way of life.",
+    "themes": ["colonial-power"]
+  },
+  {
+    "chapter": 4,
+    "kind": "question",
+    "title": "What does Kino mean by 'I am a man'?",
+    "text": "Kino answers Juana's fear with his manhood. Is it courage, pride, or something forced on him by the town? Weigh his defiance of the buyers against what it is costing the family, and ask whether Juana sees something he cannot.",
+    "themes": ["dreams", "family"]
+  },
+  {
+    "chapter": 4,
+    "kind": "theme",
+    "title": "The neighbours' chorus",
+    "text": "The whole neighbourhood follows Kino to the buyers and then talks it over afterwards, half admiring and half afraid. Like a chorus in a Greek play, they voice what the community thinks. Their mixed feelings show how dangerous it is for one of them to step out of line.",
+    "themes": ["colonial-power", "dreams"]
+  },
+  {
+    "chapter": 5,
+    "kind": "theme",
+    "title": "Juana sees him clearly",
+    "text": "After Kino beats her, the chapter stays with Juana's mind. She feels no anger. She knows men are part mad and part god, and she decides to follow him anyway. It is a hard passage: Steinbeck gives her understanding and endurance, but asks us to accept her obedience too.",
+    "themes": ["family", "good-evil"]
+  },
+  {
+    "chapter": 5,
+    "kind": "motif",
+    "title": "Kino becomes an animal",
+    "text": "After the killing Steinbeck says Kino is now like an animal, living only to hide, attack and protect his own. In the first chapter he watched the hunters and the hunted from above. Now he is one of the hunted.",
+    "themes": ["nature", "good-evil"]
+  },
+  {
+    "chapter": 5,
+    "kind": "craft",
+    "title": "Losing everything in one night",
+    "text": "Canoe, house and safety vanish in quick succession, one blow after another. Steinbeck keeps the sentences plain and the pace fast, and lets the canoe hurt most: it was his grandfather's, and his living. Ask what Kino still owns by the end of the night.",
+    "themes": ["greed", "family"]
+  },
+  {
+    "chapter": 5,
+    "kind": "question",
+    "title": "Who owns whom?",
+    "text": "Kino tells his brother that the pearl has become his soul and that to give it up would be to lose himself. In chapter 3 it held his hopes for his family. What has changed, and is Kino still choosing, or has the pearl taken hold of him?",
+    "themes": ["greed", "dreams"]
+  },
+  {
+    "chapter": 5,
+    "kind": "theme",
+    "title": "Juan Tomás and Apolonia",
+    "text": "Hiding a man who has killed puts Juan Tomás at real risk, yet he does it without hesitation and lies for them. Apolonia's mourning for the family she believes dead shows how seriously the community grieves. Against the town's greed, the bond between brothers holds.",
+    "themes": ["family"]
+  },
+  {
+    "chapter": 6,
+    "kind": "motif",
+    "title": "Hunters like hounds",
+    "text": "The trackers bend over the ground like hunting dogs, reading signs Kino cannot hide. The whole chapter is a chase across a dry land full of creatures that kill or flee. Steinbeck notes that the mountain pool draws life with its water, and so draws killers too.",
+    "themes": ["nature", "colonial-power"]
+  },
+  {
+    "chapter": 6,
+    "kind": "motif",
+    "title": "The songs turn fierce",
+    "text": "In the hills the Song of the Family returns, but it is no longer peaceful. It becomes fierce and cold, like the snarl of a wild animal guarding its young, and the Song of the Enemy is loud in Kino's ears. Listen to how the songs sound now compared with that first quiet morning.",
+    "themes": ["family", "good-evil"]
+  },
+  {
+    "chapter": 6,
+    "kind": "craft",
+    "title": "Light and dark in the final night",
+    "text": "Kino strips off his white clothes to become part of the dark, while the moon rises and threatens to expose him. Steinbeck has used light and dark all along; here they become a matter of life and death. Notice how a sound, not a sight, decides everything.",
+    "themes": ["good-evil"]
+  },
+  {
+    "chapter": 6,
+    "kind": "motif",
+    "title": "The last look into the pearl",
+    "text": "Watch what Kino sees in the pearl now compared with chapter 3. The bright pictures of his future turn into images of violence and loss, and the pearl itself looks ugly to him. It was always a mirror of his mind.",
+    "themes": ["dreams", "greed"]
+  },
+  {
+    "chapter": 6,
+    "kind": "craft",
+    "title": "Side by side",
+    "text": "Kino and Juana walk back into town side by side, not with Juana behind him. The town watches in silence. At the shore Kino offers the pearl to Juana first, and she gives the choice back to him. Steinbeck tells this in a slow, ceremonial rhythm, as a legend the town will retell.",
+    "themes": ["family", "good-evil"]
+  }
+]

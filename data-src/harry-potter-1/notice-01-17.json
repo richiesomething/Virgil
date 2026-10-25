@@ -1,0 +1,373 @@
+[
+  {
+    "chapter": 1,
+    "kind": "craft",
+    "title": "Starting with the wrong family",
+    "text": "A book about a boy wizard opens not with Harry but with Vernon Dursley, seen through his own smug eyes. We meet magic as he does: owls, cloaks, a cat reading a map, all irritating intrusions into a normal Tuesday. It is a clever door in. The ordinary world is set up first so the strange one can break into it.",
+    "themes": ["belonging"]
+  },
+  {
+    "chapter": 1,
+    "kind": "context",
+    "title": "The Dursleys as satire",
+    "text": "The Dursleys are a sharp send-up of a certain kind of English suburban snobbery: pride in being normal, terror of what the neighbours think, a drill company, a spoiled son. Rowling exaggerates them into comedy, which is why they are fun to hate. Notice that their worst sin, already, is a refusal to be curious about anything.",
+    "themes": []
+  },
+  {
+    "chapter": 1,
+    "kind": "question",
+    "title": "Was Dumbledore right?",
+    "text": "McGonagall argues hard against leaving Harry with these people, and Dumbledore overrules her. He gives reasons: fame would spoil a child, and they are his only family. Are those good enough reasons to hand a baby to people we have just watched for a whole chapter?",
+    "themes": ["love-loss", "belonging"]
+  },
+  {
+    "chapter": 2,
+    "kind": "motif",
+    "title": "The cupboard under the stairs",
+    "text": "Harry sleeps where you keep brooms and spiders. The cupboard tells you everything about his place in the house: tolerated, stored away, out of sight. Watch how Rowling describes space in this family. Dudley has two bedrooms; Harry has a cupboard.",
+    "themes": ["belonging"]
+  },
+  {
+    "chapter": 2,
+    "kind": "craft",
+    "title": "Magic as feeling",
+    "text": "The odd things that happen around Harry, the regrown hair, the shrunken jumper, the vanishing glass, all happen when he is frightened, humiliated or angry. Rowling never says this outright. She lets the pattern speak, and it makes Harry’s powers feel like part of his inner life rather than a trick.",
+    "themes": []
+  },
+  {
+    "chapter": 2,
+    "kind": "theme",
+    "title": "A fellow prisoner",
+    "text": "The one creature at the zoo Harry really talks to is a snake who has never seen its home and spends its days stared at through glass. The parallel is gentle but plain. Harry recognises a captive because he is one.",
+    "themes": ["belonging"]
+  },
+  {
+    "chapter": 3,
+    "kind": "craft",
+    "title": "Comedy by escalation",
+    "text": "One letter, then three, then twelve through the mail slot, then dozens down the chimney. Rowling builds the chapter like a farce, each step more absurd than the last, while Vernon’s attempts to stop them grow more desperate. The joke is that he is fighting the post, and losing.",
+    "themes": []
+  },
+  {
+    "chapter": 3,
+    "kind": "question",
+    "title": "Who knows about the cupboard?",
+    "text": "The first letter is addressed not just to Harry but to the cupboard under the stairs. Whoever wrote it knows exactly where he sleeps. It is a funny detail and an unsettling one. What does it suggest about who has been paying attention to Harry, and how closely?",
+    "themes": ["belonging"]
+  },
+  {
+    "chapter": 4,
+    "kind": "theme",
+    "title": "Petunia’s outburst",
+    "text": "When the truth comes out, Petunia’s bitterness about her sister spills over: the parents who were proud of Lily, the word ‘freak’, the hurt that has gone sour. For a moment the comic villain has a history. Her hatred of Harry looks less like snobbery and more like old jealousy and grief.",
+    "themes": ["love-loss", "belonging"]
+  },
+  {
+    "chapter": 4,
+    "kind": "craft",
+    "title": "Exposition with feeling",
+    "text": "Hagrid has to tell Harry, and us, a great deal of backstory. Rowling makes it work by giving the job to someone who cares too much: he gets angry, cries, refuses to say Voldemort’s name and loses his temper with Vernon. The facts come through a person, not a lecture.",
+    "themes": ["love-loss"]
+  },
+  {
+    "chapter": 4,
+    "kind": "question",
+    "title": "Famous for what?",
+    "text": "Harry learns he is famous for surviving something he cannot remember. His first reaction is doubt: surely there has been a mistake. What is it like to be celebrated for something you did not do, and does his doubt tell us anything about him?",
+    "themes": ["belonging"]
+  },
+  {
+    "chapter": 5,
+    "kind": "craft",
+    "title": "Building a world from small things",
+    "text": "Diagon Alley is made of shop signs, odd coins, a tottering pile of cauldrons and a bank run by goblins. Rowling builds her wizarding world from everyday, slightly silly objects rather than grand history. It feels real because it has shopping, prices and bad service.",
+    "themes": []
+  },
+  {
+    "chapter": 5,
+    "kind": "craft",
+    "title": "Things done in plain sight",
+    "text": "Hagrid collects a small, grubby package from a vault, calls it ‘Hogwarts business’ and refuses to say more. Rowling stages the moment with care and then moves briskly on to wands and ice cream. She shows you exactly what Harry sees and no more, and trusts you to keep it in mind.",
+    "themes": []
+  },
+  {
+    "chapter": 5,
+    "kind": "motif",
+    "title": "The wand chooses the wizard",
+    "text": "Ollivander says it is the wand that picks its owner, and Harry’s wand has a troubling twin. The idea that objects can know something about you, before you know it yourself, runs through the chapter. It also hands Harry an uncomfortable link to the person who killed his parents.",
+    "themes": ["belonging"]
+  },
+  {
+    "chapter": 5,
+    "kind": "theme",
+    "title": "The boy in the robe shop",
+    "text": "Harry’s first conversation with a wizard his own age is with a pale, drawling boy who talks about blood, houses and who ought to be let in. Harry does not know enough to answer, but he does not like him. Notice that the first thing the wizarding world teaches Harry is that it has snobs too.",
+    "themes": ["belonging"]
+  },
+  {
+    "chapter": 6,
+    "kind": "motif",
+    "title": "Through the barrier",
+    "text": "To reach the train you have to run straight at a solid wall and trust it will let you through. It is a perfect threshold image, the step from one life to another that takes nerve and a little faith. Harry makes it only with help from a kind stranger.",
+    "themes": ["belonging"]
+  },
+  {
+    "chapter": 6,
+    "kind": "theme",
+    "title": "Buying the whole trolley",
+    "text": "For the first time in his life Harry has money and someone to share with. He buys far too many sweets and splits them with Ron, who has squashed sandwiches and hand-me-downs. The friendship starts with sharing and a little embarrassment on both sides, which is how real ones often start.",
+    "themes": ["friendship", "belonging"]
+  },
+  {
+    "chapter": 6,
+    "kind": "theme",
+    "title": "Two offers of friendship",
+    "text": "Ron offers sweets and stories; Draco Malfoy offers advice about which families are the ‘wrong sort’. Harry turns down the hand Malfoy holds out. Rowling sets the two offers side by side in a single train journey, and Harry’s refusal is his first real choice in this new world.",
+    "themes": ["friendship"]
+  },
+  {
+    "chapter": 7,
+    "kind": "theme",
+    "title": "Harry asks the Hat",
+    "text": "The Sorting Hat says Harry could do well in Slytherin, and Harry silently begs it not to put him there. The Hat listens. It is a small moment with a big idea inside it: what you are capable of is one thing, and what you want to be is another.",
+    "themes": ["choices", "belonging"]
+  },
+  {
+    "chapter": 7,
+    "kind": "context",
+    "title": "The house system",
+    "text": "Houses, points and a cup are borrowed from real British boarding schools, where pupils were split into competing groups for sport and discipline. Rowling makes the houses stand for character traits. That gives the school instant drama, but it also raises the question of whether sorting eleven-year-olds by type is wise.",
+    "themes": ["belonging", "courage"]
+  },
+  {
+    "chapter": 7,
+    "kind": "craft",
+    "title": "Nonsense and menace in one speech",
+    "text": "Dumbledore’s welcome is a string of silly words, and then, a few minutes later, a flat warning that a corridor is out of bounds unless you want to die painfully. Rowling mixes whimsy and danger so casually that you laugh before you notice the threat. Watch for that mix; it is the book’s signature tone.",
+    "themes": []
+  },
+  {
+    "chapter": 8,
+    "kind": "craft",
+    "title": "A teacher who wants to frighten",
+    "text": "Snape’s first lesson is a performance: a hushed speech about bottling fame, then three questions he knows Harry cannot answer. Rowling makes him memorable fast. Notice that his dislike seems personal and immediate, and that Harry has no idea why.",
+    "themes": []
+  },
+  {
+    "chapter": 8,
+    "kind": "craft",
+    "title": "Letting the reader connect the dots",
+    "text": "Harry reads about a Gringotts break-in on the very day he was there, at a vault already emptied. Rowling lets him, and us, make the link rather than spelling it out. It turns the reader into a detective alongside Harry, which is a large part of the book’s pleasure.",
+    "themes": []
+  },
+  {
+    "chapter": 8,
+    "kind": "context",
+    "title": "Boarding-school ordinariness",
+    "text": "Moving staircases and talking portraits aside, this chapter is pure school story: getting lost, a timetable, a teacher with favourites, tea with a grown-up friend. Rowling’s magic works partly because it is laid over such familiar routines. Hogwarts is a school before it is a castle of wonders.",
+    "themes": ["belonging"]
+  },
+  {
+    "chapter": 9,
+    "kind": "theme",
+    "title": "Punished, then rewarded",
+    "text": "Harry disobeys a direct order and takes off on a broom to get back Neville’s Remembrall. He expects expulsion. Instead McGonagall makes him Seeker. The book is already telling us that breaking a rule for the right reason can be the right thing, and that adults do not always enforce rules the way children fear.",
+    "themes": ["rules", "courage"]
+  },
+  {
+    "chapter": 9,
+    "kind": "craft",
+    "title": "Hermione’s priorities",
+    "text": "Having escaped a monstrous three-headed dog, Hermione’s chief worry is that they might have been expelled. It is one of the book’s best jokes, and it does character work too. At this point Hermione measures danger by the rule book.",
+    "themes": ["rules"]
+  },
+  {
+    "chapter": 9,
+    "kind": "question",
+    "title": "What is it standing on?",
+    "text": "Hermione is the one who notices the dog is standing on a trapdoor. Everyone else was looking at the teeth. A guard dog means something is being guarded. What do the friends already know that might connect to it?",
+    "themes": []
+  },
+  {
+    "chapter": 10,
+    "kind": "theme",
+    "title": "Friendship forged by a troll",
+    "text": "Ron and Harry have been rude about Hermione, and she is crying in a bathroom. Then they save her and she lies to protect them. The narrator says flatly that some things bind you together, and knocking out a troll is one. Friendship here is not built from liking each other but from facing something together.",
+    "themes": ["friendship", "courage"]
+  },
+  {
+    "chapter": 10,
+    "kind": "theme",
+    "title": "The rule-keeper lies",
+    "text": "Hermione, who loves rules, tells a teacher a straight lie to keep Harry and Ron out of trouble. It is a turning point for her. She has decided that loyalty to friends can matter more than being right in the eyes of authority.",
+    "themes": ["rules", "friendship"]
+  },
+  {
+    "chapter": 10,
+    "kind": "craft",
+    "title": "Rules of a made-up game",
+    "text": "Rowling explains Quidditch through Oliver Wood, whose enthusiasm carries the details. Four balls and seven players could be a dry lecture. Instead it becomes a scene about a boy being trusted with something important by someone who badly wants to win.",
+    "themes": ["belonging"]
+  },
+  {
+    "chapter": 11,
+    "kind": "question",
+    "title": "How strong is the case?",
+    "text": "A bloodied leg, a broom that goes wild, a teacher staring and muttering. The friends build a case from things they saw and things they guessed. They are certain. Before you agree, it is worth sorting what each of them actually saw from what they decided it meant.",
+    "themes": []
+  },
+  {
+    "chapter": 11,
+    "kind": "craft",
+    "title": "Hagrid, the leaky vessel",
+    "text": "Hagrid cannot keep a secret. He snaps at the children to stop asking, and in the same breath tells them a name he should not. It is played for comedy, and it is also how Rowling feeds her mystery: through a kind man whose loyalty is bigger than his discretion.",
+    "themes": ["friendship"]
+  },
+  {
+    "chapter": 11,
+    "kind": "context",
+    "title": "School sport as glory",
+    "text": "The whole school turns out to watch, faces painted, banners waving. School stories have long made sport the stage where a child earns status, from cricket and rugby in Victorian tales onwards. Quidditch gives Harry what the Dursleys never did: a place where he is good at something and everyone can see it.",
+    "themes": ["belonging"]
+  },
+  {
+    "chapter": 12,
+    "kind": "theme",
+    "title": "What the mirror shows",
+    "text": "Harry sees his parents and a crowd of relatives. Ron sees himself as Head Boy and Quidditch captain, outshining his brothers. The same mirror reveals two very different hungers: a boy who wants a family, and a boy who wants to stand out in one. Their wishes tell you who they are.",
+    "themes": ["desire", "love-loss"]
+  },
+  {
+    "chapter": 12,
+    "kind": "theme",
+    "title": "Dumbledore’s warning",
+    "text": "Dumbledore tells Harry that men have wasted away before this mirror and that it does not do to dwell on dreams and forget to live. It is the book’s plainest statement of wisdom so far. Harry has finally seen his parents, and he is being asked to walk away.",
+    "themes": ["desire", "choices", "love-loss"]
+  },
+  {
+    "chapter": 12,
+    "kind": "motif",
+    "title": "Presents from strangers and friends",
+    "text": "Harry’s first proper Christmas gives him a lumpy jumper from Mrs Weasley and his father’s Invisibility Cloak from an unknown sender. One says he belongs to a family now; the other reaches back to the family he lost. Gifts in this chapter are signs of being thought of.",
+    "themes": ["belonging", "love-loss"]
+  },
+  {
+    "chapter": 12,
+    "kind": "question",
+    "title": "Thick woollen socks",
+    "text": "Asked what he sees in the mirror, Dumbledore says socks. Harry suspects that may not have been quite true. What might a man like Dumbledore see, and why would he not say?",
+    "themes": ["desire"]
+  },
+  {
+    "chapter": 13,
+    "kind": "theme",
+    "title": "Worth twelve Malfoys",
+    "text": "Neville hops in under a Leg-Locker Curse, close to tears, convinced he is not brave enough for Gryffindor. Harry gives him his last Chocolate Frog and tells him he is worth twelve of Malfoy. It is a small kindness, and a sign that Harry is learning to give others the confidence no one gave him.",
+    "themes": ["courage", "friendship"]
+  },
+  {
+    "chapter": 13,
+    "kind": "theme",
+    "title": "Gold and endless life",
+    "text": "The Stone offers the two things people have chased in every age: unlimited wealth and escape from death. Flamel, its maker, has used it quietly to live a long life with his wife. Ask yourself who else might want such a thing, and what they would do to get it.",
+    "themes": ["desire"]
+  },
+  {
+    "chapter": 13,
+    "kind": "craft",
+    "title": "The overheard scene",
+    "text": "Harry learns things in this book by eavesdropping as often as by being told: here, from a broom above the trees, he catches fragments of a tense exchange between two teachers. Overheard scenes are a mystery writer’s favourite tool. They give the hero urgent news while leaving him, and us, to fill in the gaps.",
+    "themes": []
+  },
+  {
+    "chapter": 14,
+    "kind": "theme",
+    "title": "Hagrid’s heart’s desire",
+    "text": "Hagrid has always wanted a dragon, and when one is handed to him he cannot see the danger or the law. His longing is touching and foolish. Like the mirror, the dragon shows how badly wanting something can blind even a good person.",
+    "themes": ["desire", "friendship"]
+  },
+  {
+    "chapter": 14,
+    "kind": "craft",
+    "title": "A comic caper with a sting",
+    "text": "Smuggling a dragon up a tower at midnight is played as a romp, complete with a bitten hand and a gloating Malfoy. Then the last lines turn it round: the friends forget the Cloak and walk straight into Filch. Rowling often lets a comic chapter end on a drop.",
+    "themes": ["rules"]
+  },
+  {
+    "chapter": 14,
+    "kind": "theme",
+    "title": "Breaking rules for a friend",
+    "text": "The friends break several rules, including laws about dragons, to protect Hagrid from his own mistake. Earlier, rule-breaking won Harry a place on the team. This time the book is less clear that it will be rewarded.",
+    "themes": ["rules", "friendship"]
+  },
+  {
+    "chapter": 15,
+    "kind": "theme",
+    "title": "From hero to outcast",
+    "text": "In a single morning Harry goes from celebrated Seeker to the boy who lost Gryffindor 150 points. The whole school turns. Rowling shows how quickly belonging can be withdrawn, and how much of it depended on what Harry could do for the house.",
+    "themes": ["belonging", "rules"]
+  },
+  {
+    "chapter": 15,
+    "kind": "theme",
+    "title": "A cursed life",
+    "text": "Firenze explains that drinking unicorn blood will keep you alive, but at a terrible price: a half-life, cursed from the moment the blood touches your lips. Only someone with nothing left to lose would do it. It is the book’s darkest picture yet of wanting to live at any cost.",
+    "themes": ["desire", "choices"]
+  },
+  {
+    "chapter": 15,
+    "kind": "question",
+    "title": "Reading the stars",
+    "text": "Bane is angry that Firenze has helped a human; the centaurs read the planets and believe in not interfering with what is foretold. Firenze chooses to act. Is it wiser to accept what seems fated, or to step in?",
+    "themes": ["choices", "courage"]
+  },
+  {
+    "chapter": 16,
+    "kind": "theme",
+    "title": "Neville stands in the way",
+    "text": "Neville, who is frightened of almost everything, plants himself in front of the portrait hole to stop his friends. It takes a different kind of courage to stand up to the people you like. Hermione has to put him under a spell to get past.",
+    "themes": ["courage", "rules"]
+  },
+  {
+    "chapter": 16,
+    "kind": "craft",
+    "title": "A trial for each friend",
+    "text": "Each obstacle under the trapdoor calls on a different gift: Harry’s flying, Ron’s chess, Hermione’s cool logic. Rowling has spent the book showing us these skills, often in passing. Now the structure turns into a test of whether the three, together, add up to enough.",
+    "themes": ["friendship"]
+  },
+  {
+    "chapter": 16,
+    "kind": "theme",
+    "title": "Ron’s sacrifice",
+    "text": "Ron, often the comic sidekick, sees that someone must be taken for the others to win, and chooses to be that piece. Hermione, for her part, says books and cleverness matter less than friendship and bravery. Both are surprising things for them to say, and both show how far they have come.",
+    "themes": ["courage", "friendship", "choices"]
+  },
+  {
+    "chapter": 17,
+    "kind": "craft",
+    "title": "The fair-play twist",
+    "text": "Quirrell, not Snape. Look back and the evidence was there: the turban, the stutter that comes and goes, his presence wherever trouble began. Rowling let Harry’s dislike of Snape steer us, and we followed. The reveal surprises without cheating because we were shown the facts and misread them along with Harry.",
+    "themes": []
+  },
+  {
+    "chapter": 17,
+    "kind": "theme",
+    "title": "Find it, not use it",
+    "text": "The Stone can only be taken by someone who wants to find it but not use it. Harry gets it because he wants to stop Voldemort, not to live forever or be rich. The test is a moral one disguised as a puzzle, and it turns the mirror from a trap into a reward for the right kind of wanting.",
+    "themes": ["desire", "choices"]
+  },
+  {
+    "chapter": 17,
+    "kind": "theme",
+    "title": "A mark you cannot see",
+    "text": "Dumbledore tells Harry that his mother’s love, given in dying for him, left a protection in his very skin. That is why Quirrell burns at his touch. The scar was the visible mark of that night; the love is the invisible one, and it turns out to be the stronger.",
+    "themes": ["love-loss"]
+  },
+  {
+    "chapter": 17,
+    "kind": "theme",
+    "title": "Ten points for Neville",
+    "text": "Dumbledore’s last-minute points go to Ron, Hermione, Harry and then Neville, for standing up to his friends. That final award is the one that wins the Cup. The book ends by saying that the quietest kind of courage counts as much as the loudest.",
+    "themes": ["courage", "belonging", "rules"]
+  }
+]

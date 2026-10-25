@@ -1,0 +1,163 @@
+[
+  {
+    "id": "belonging",
+    "name": "Belonging",
+    "from": 1,
+    "summary": [
+      {
+        "from": 1,
+        "text": "A baby is left on the doorstep of relatives who want nothing to do with magic, while a whole hidden world drinks to his name."
+      },
+      {
+        "from": 2,
+        "text": "Harry lives in a cupboard, unwanted and unexplained, the odd one out in a house built around Dudley."
+      },
+      {
+        "from": 4,
+        "text": "Harry learns there is a world where he is known, and even famous, though he fears he will not live up to it."
+      },
+      {
+        "from": 6,
+        "text": "The Weasleys, the train and Ron’s friendship give Harry his first taste of being welcome among people like him."
+      },
+      {
+        "from": 7,
+        "text": "The Sorting gives Harry a house and a table to sit at, and he has some say in which one."
+      },
+      {
+        "from": 15,
+        "text": "Losing 150 points shows that belonging can be withdrawn overnight, and that a house’s warmth can depend on winning."
+      }
+    ]
+  },
+  {
+    "id": "love-loss",
+    "name": "Love and loss",
+    "from": 1,
+    "summary": [
+      {
+        "from": 1,
+        "text": "Harry’s parents are dead before the story begins, and their loss is the reason for everything that happens to him."
+      },
+      {
+        "from": 4,
+        "text": "Hagrid’s tearful account turns a car crash into murder, and Petunia’s bitterness shows grief can sour into hatred."
+      },
+      {
+        "from": 12,
+        "text": "The Cloak and the mirror let Harry touch his father’s things and see his parents’ faces, and he has to learn to step away."
+      }
+    ]
+  },
+  {
+    "id": "friendship",
+    "name": "Friendship",
+    "from": 6,
+    "summary": [
+      {
+        "from": 6,
+        "text": "Harry’s friendship with Ron begins with shared sweets on a train, and he turns down Malfoy’s offer of the ‘right sort’ of friends."
+      },
+      {
+        "from": 10,
+        "text": "Saving Hermione from the troll, and her lie to protect them, turns two boys and a bossy girl into a trio."
+      },
+      {
+        "from": 13,
+        "text": "Harry learns to give friendship as well as receive it, building up Neville when he is at his lowest."
+      },
+      {
+        "from": 14,
+        "text": "The friends risk serious trouble to rescue Hagrid from his own soft-hearted mistake."
+      }
+    ]
+  },
+  {
+    "id": "courage",
+    "name": "Courage",
+    "from": 7,
+    "summary": [
+      {
+        "from": 7,
+        "text": "The Sorting Hat prizes bravery in Gryffindor, but no one yet knows what that will mean for Harry or for timid Neville."
+      },
+      {
+        "from": 9,
+        "text": "Harry’s courage first shows as an impulse, flying after Neville’s Remembrall against orders."
+      },
+      {
+        "from": 10,
+        "text": "Facing the troll together, Harry and Ron find bravery in doing what needs doing for someone else."
+      },
+      {
+        "from": 13,
+        "text": "Neville feels he is not brave enough for his house; Harry tells him he is worth more than his bullies."
+      }
+    ]
+  },
+  {
+    "id": "choices",
+    "name": "Choices and who you are",
+    "from": 7,
+    "summary": [
+      {
+        "from": 7,
+        "text": "Harry asks the Hat not to put him in Slytherin, suggesting that what you choose matters as much as what you are."
+      },
+      {
+        "from": 12,
+        "text": "Dumbledore warns that dwelling on dreams can swallow a life; walking away from the mirror is a choice Harry has to make."
+      },
+      {
+        "from": 15,
+        "text": "Unicorn blood shows a monstrous choice, and Firenze’s rescue of Harry shows a brave one against his herd’s wishes."
+      }
+    ]
+  },
+  {
+    "id": "rules",
+    "name": "Rules and when to break them",
+    "from": 9,
+    "summary": [
+      {
+        "from": 9,
+        "text": "Harry breaks a direct order and is rewarded, while Hermione treats rules as the measure of everything."
+      },
+      {
+        "from": 10,
+        "text": "Hermione lies to a teacher to protect her new friends, deciding loyalty can matter more than obedience."
+      },
+      {
+        "from": 14,
+        "text": "Breaking rules to help Hagrid ends in disaster, and the book asks whether good intentions are enough."
+      },
+      {
+        "from": 15,
+        "text": "The whole school punishes Harry for lost points, showing how rules and reputation are bound together."
+      }
+    ]
+  },
+  {
+    "id": "desire",
+    "name": "What we desire",
+    "from": 12,
+    "summary": [
+      {
+        "from": 12,
+        "text": "The Mirror of Erised shows each person their deepest wish, and Dumbledore warns how easily such wishes can trap you."
+      },
+      {
+        "from": 13,
+        "text": "The Sorcerer’s Stone offers gold and endless life, the things people have always wanted most."
+      },
+      {
+        "from": 14,
+        "text": "Hagrid’s lifelong wish for a dragon blinds him to danger and the law."
+      },
+      {
+        "from": 15,
+        "text": "A hooded figure drinks unicorn blood, the picture of wanting to live at any price."
+      }
+    ]
+  }
+]

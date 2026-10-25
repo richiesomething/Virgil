@@ -14,7 +14,7 @@ export const tabs: { id: Tab; label: string; icon: IconName; path: string }[] = 
 ]
 
 export function tabOf(section: string | undefined): Tab {
-  if (section === 'chapters') return 'chapters'
+  if (section === 'chapters' || section === 'themes' || section === 'timeline') return 'chapters'
   if (section === 'cast' || section === 'characters' || section === 'map' || section === 'places') return 'cast'
   if (section === 'glossary') return 'glossary'
   return 'today'

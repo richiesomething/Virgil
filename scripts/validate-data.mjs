@@ -172,6 +172,52 @@ for (const book of readdirSync(root, { withFileTypes: true }).filter((d) => d.is
     console.log(`✓ [${book}] atlas: ${atlas.frames.length} frames, ${atlas.places.length} places, ${atlas.journeys.length} journeys`)
   }
 
+  // Understanding: themes, insights, afterword, timeline.
+  if (existsSync(join(root, book, 'understanding.json'))) {
+    const u = load('understanding.json')
+    const themes = new Map((u.themes ?? []).map((th) => [th.id, th]))
+    for (const th of u.themes ?? []) {
+      if (!th.name || !(th.from >= 1 && th.from <= count)) fail(book, `theme ${th.id} is malformed`)
+      if (!th.summary?.length) fail(book, `theme ${th.id} has no summary`)
+      else if (th.summary[0].from !== th.from) fail(book, `theme ${th.id}'s first summary must be at its from (${th.from})`)
+      for (const [i, s] of (th.summary ?? []).entries()) {
+        if (!s.text || !(s.from >= th.from && s.from <= count)) fail(book, `theme ${th.id} summary ${i} is malformed`)
+        if (i && s.from <= th.summary[i - 1].from) fail(book, `theme ${th.id} summaries must be in chapter order`)
+      }
+    }
+    const kinds = ['theme', 'motif', 'craft', 'context', 'question']
+    const perChapter = new Map()
+    for (const ins of u.insights ?? []) {
+      const where = `insight ${ins.id}`
+      if (!(ins.chapter >= 1 && ins.chapter <= count) || !kinds.includes(ins.kind) || !ins.title || !ins.text) fail(book, `${where} is malformed`)
+      for (const id of ins.themes) {
+        const th = themes.get(id)
+        if (!th) fail(book, `${where} uses unknown theme ${id}`)
+        else if (th.from > ins.chapter) fail(book, `${where} tags theme ${id} before it begins (ch ${th.from})`)
+      }
+      if (/\b(later in the (book|novel)|will (later|eventually)|foreshadow(s|ing)? (his|her|their|the) (death|fate|downfall))\b/i.test(ins.text)) fail(book, `${where} looks ahead ("${ins.text.slice(0, 60)}…")`)
+      perChapter.set(ins.chapter, (perChapter.get(ins.chapter) ?? 0) + 1)
+    }
+    if (u.insights?.length) for (let n = 1; n <= count; n++) if (!perChapter.get(n)) console.warn(`! [${book}] chapter ${n} has no insights`)
+    if (u.afterword) {
+      const a = u.afterword
+      for (const k of ['ending', 'themes', 'interpretations', 'context', 'adaptations', 'readNext', 'questions']) if (!Array.isArray(a[k])) fail(book, `afterword.${k} is missing`)
+      for (const r of a.themes ?? []) if (!themes.has(r.theme)) fail(book, `afterword resolves unknown theme ${r.theme}`)
+      for (const id of themes.keys()) if (!(a.themes ?? []).some((r) => r.theme === id)) fail(book, `afterword has no resolution for theme ${id}`)
+    }
+    const placeIds = existsSync(join(root, book, 'atlas.json')) ? new Set(load('atlas.json').places.map((p) => p.id)) : new Set()
+    for (const e of u.timeline ?? []) {
+      const where = `timeline ${e.id}`
+      if (!/^\d{4}(-\d{2}(-\d{2})?)?$/.test(e.date) || !e.label || !e.title) fail(book, `${where} is malformed`)
+      if (!(e.revealed >= 1 && e.revealed <= count)) fail(book, `${where} has bad revealed`)
+      if (!e.text?.length || e.text[0].from < e.revealed) fail(book, `${where} text must start at its revealed chapter`)
+      for (const c of e.chapters ?? []) if (!(c >= 1 && c <= count)) fail(book, `${where} has bad chapter ${c}`)
+      for (const id of e.people ?? []) if (!byId.has(id)) fail(book, `${where} has unknown person ${id}`)
+      for (const id of e.places ?? []) if (!placeIds.has(id)) fail(book, `${where} has unknown place ${id}`)
+    }
+    console.log(`✓ [${book}] understanding: ${themes.size} themes, ${u.insights?.length ?? 0} insights, ${u.afterword ? 'afterword' : 'no afterword'}, ${u.timeline?.length ?? 0} timeline events`)
+  }
+
   for (const c of characters) {
     if (!chapters.some((ch) => ch.characters.includes(c.id)))
       console.warn(`! [${book}] character ${c.id} is not listed in any chapter`)

@@ -1,0 +1,52 @@
+{
+ "themes": [
+  {
+   "id": "revenge-justice",
+   "name": "Revenge and justice",
+   "from": 5,
+   "summary": []
+  },
+  {
+   "id": "loyalty-betrayal",
+   "name": "Loyalty and betrayal",
+   "from": 4,
+   "summary": []
+  },
+  {
+   "id": "prison-freedom",
+   "name": "Prisons and freedom",
+   "from": 8,
+   "summary": []
+  },
+  {
+   "id": "hope-despair",
+   "name": "Hope and despair",
+   "from": 13,
+   "summary": []
+  },
+  {
+   "id": "identity-disguise",
+   "name": "Identity and disguise",
+   "from": 25,
+   "summary": []
+  },
+  {
+   "id": "providence",
+   "name": "Providence and playing God",
+   "from": 30,
+   "summary": []
+  },
+  {
+   "id": "wealth-status",
+   "name": "Wealth, rank and society",
+   "from": 24,
+   "summary": []
+  },
+  {
+   "id": "the-past-returns",
+   "name": "The past returns",
+   "from": 44,
+   "summary": []
+  }
+ ]
+}

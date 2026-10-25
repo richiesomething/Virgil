@@ -1,3 +1,4 @@
+import { hasTimeline } from '../lib/understanding'
 import Icon from '../components/Icon'
 import { useBook } from '../lib/book-context'
 import { href } from '../lib/router'
@@ -16,7 +17,23 @@ export default function ChapterList() {
 
   return (
     <div>
-      <h1 className="large-title">Chapters</h1>
+      <div className="title-row">
+        <h1 className="large-title">Chapters</h1>
+        {upTo > 0 && (
+          <span style={{ display: 'flex', gap: 8 }}>
+            {(book.themes?.length ?? 0) > 0 && (
+              <a className="pill-btn" href={href('b', book.meta.id, 'themes')}>
+                <Icon name="sparkle" className="icon--sm" /> Themes
+              </a>
+            )}
+            {hasTimeline(book) && (
+              <a className="pill-btn" href={href('b', book.meta.id, 'timeline')}>
+                <Icon name="clock" className="icon--sm" /> Timeline
+              </a>
+            )}
+          </span>
+        )}
+      </div>
       <p className="muted" style={{ marginBottom: 8 }}>
         {upTo === 0 ? `${meta.chapterCount} chapters` : `${upTo} of ${meta.chapterCount} read`}
       </p>
