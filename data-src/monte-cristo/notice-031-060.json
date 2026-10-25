@@ -150,7 +150,7 @@
     "chapter": 37,
     "kind": "question",
     "title": "The shudder",
-    "text": "Shaking Albert’s hand, the Count shudders. We know Albert’s father and mother. What does it cost this man to be thanked by that young man? And how much of the Roman adventure, from the bandits to the rescue, has he simply been watching?",
+    "text": "Shaking Albert’s hand, the Count shudders. We know Albert’s father and mother. What does it cost this man to be thanked by that young man? And what is he looking for in this young man’s face?",
     "themes": ["revenge-justice", "identity-disguise"]
   },
   {
@@ -395,7 +395,7 @@
     "chapter": 48,
     "kind": "theme",
     "title": "Wishing to be Providence",
-    "text": "This is the Count’s clearest statement about himself. Offered the world by Satan, he says, he asked instead to be Providence, because nothing is finer than to reward and punish. He has rewarded the Morrels and punished no one yet, but he speaks as if the bargain has been struck and he would strike it again.",
+    "text": "This is the Count’s clearest statement about himself. Offered the world by Satan, he says, he asked instead to be Providence, because nothing is finer than to reward and punish. So far we have seen him only reward, yet he speaks as if the bargain has been struck and he would strike it again.",
     "themes": ["providence"]
   },
   {
@@ -668,7 +668,7 @@
     "chapter": 60,
     "kind": "question",
     "title": "A lonely tower on the Spanish line",
-    "text": "The Count says he is going to see a telegraph, and he chooses an isolated station on the line to Spain rather than an official one. Remember that Danglars made a million from early Spanish news, and that Debray accepted something from the Count. What could a man want with the machine that carries the government’s news?",
+    "text": "The Count says he is going to see a telegraph, and he chooses an isolated station on the line to Spain rather than an official one. Why would a man of his tastes want to see the machine that carries the government’s messages, and why such an out-of-the-way one?",
     "themes": ["wealth-status"]
   }
 ]
