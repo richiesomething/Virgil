@@ -16,7 +16,7 @@ import NotFound from './NotFound'
 import Today from './Today'
 import ChapterList from './ChapterList'
 import ChapterDetail from './ChapterDetail'
-import Cast from './Cast'
+import Cast, { MapScreen } from './Cast'
 import CharacterProfile from './CharacterProfile'
 import Glossary from './Glossary'
 import Recap from './Recap'
@@ -161,8 +161,8 @@ function LoadedBook({ book }: { book: BookData }) {
   else if (section === 'plan') ((page = <Planner />), (title = 'Reading plan'), (isRoot = false))
   else if (section === 'chapters' && !param) page = <ChapterList />
   else if (section === 'chapters') ((page = <ChapterDetail n={Number(param)} />), (title = `Chapter ${param}`), (isRoot = false))
-  else if (section === 'cast' || (section === 'characters' && !param)) page = <Cast segment={(loc.query.get('seg') as 'people' | 'things' | 'map') ?? 'people'} />
-  else if (section === 'map') page = <Cast segment="map" focusId={param} />
+  else if (section === 'cast' || (section === 'characters' && !param)) page = <Cast segment={(loc.query.get('seg') as 'people' | 'places' | 'things') ?? 'people'} />
+  else if (section === 'map') ((page = <MapScreen focusId={param} />), (title = 'Map'), (isRoot = false))
   else if (section === 'characters') {
     page = <CharacterProfile id={param} />
     title = book.characters.find((c) => c.id === param)?.name

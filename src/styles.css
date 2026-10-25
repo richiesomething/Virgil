@@ -430,7 +430,7 @@ details.section > .section__body { padding-bottom: 16px; }
 /* ─── Map ──────────────────────────────────────────────────────────────── */
 .map-screen { position: relative; }
 .map {
-  position: relative; height: calc(100dvh - var(--header-h) - var(--safe-top) - var(--tabbar-h) - var(--safe-bottom) - 140px);
+  position: relative; height: calc(100dvh - var(--header-h) - var(--safe-top) - var(--tabbar-h) - var(--safe-bottom) - 110px);
   min-height: 360px; background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius); overflow: hidden;
 }
 .map--empty { display: grid; place-items: center; padding: 24px; text-align: center; }
@@ -549,3 +549,6 @@ details.section > .section__body { padding-bottom: 16px; }
 .pill-select { position: relative; }
 .pill-select select { position: absolute; inset: 0; opacity: 0; width: 100%; cursor: pointer; font-size: 16px; }
 .primer__returning a + a { margin-top: 2px; }
+
+.title-row { display: flex; align-items: center; justify-content: space-between; gap: 12px; }
+.title-row .pill-btn { min-height: 40px; padding: 0 14px; font-size: 0.875rem; }

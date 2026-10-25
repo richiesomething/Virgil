@@ -1,5 +1,5 @@
 import { useMemo, useState } from 'react'
-import type { Importance, Kind } from '../types'
+import type { Importance } from '../types'
 import Icon from '../components/Icon'
 import { initials } from '../components/CharacterChip'
 import { Segmented, Sheet, Switch } from '../components/ui'
@@ -9,31 +9,40 @@ import { href, navigate, withQuery } from '../lib/router'
 import { currentAliases, currentTagline, isThing, kindOf, metCharacters } from '../lib/spoilers'
 import { fold } from '../lib/search'
 
-type Segment = 'people' | 'things' | 'map'
+type Segment = 'people' | 'places' | 'things'
 type Sort = 'appearance' | 'name' | 'recent'
 const rank: Record<Importance, number> = { major: 0, supporting: 1, minor: 2 }
 
-export default function Cast({ segment, focusId }: { segment: Segment; focusId?: string }) {
+/** People · Places · Things, with the map one tap away. */
+export default function Cast({ segment }: { segment: Segment }) {
   const { book, upTo } = useBook()
   const id = book.meta.id
   const met = metCharacters(book, upTo)
   const people = met.filter((c) => !isThing(c))
-  const things = met.filter(isThing)
-  const go = (s: Segment) =>
-    navigate(s === 'map' ? href('b', id, 'map') : withQuery(href('b', id, 'cast'), { seg: s === 'people' ? undefined : s }), { replace: true })
+  const places = met.filter((c) => kindOf(c) === 'place')
+  const things = met.filter((c) => kindOf(c) === 'object')
+  const go = (s: Segment) => navigate(withQuery(href('b', id, 'cast'), { seg: s === 'people' ? undefined : s }), { replace: true })
+  const current: Segment = segment === 'places' && !places.length ? 'people' : segment === 'things' && !things.length ? 'people' : segment
 
   return (
     <div>
-      <h1 className="large-title">Cast</h1>
+      <div className="title-row">
+        <h1 className="large-title">Cast</h1>
+        {upTo > 0 && (
+          <a className="pill-btn" href={href('b', id, 'map')}>
+            <Icon name="map" className="icon--sm" /> Map
+          </a>
+        )}
+      </div>
       <div className="sticky-sub">
         <Segmented<Segment>
           label="Cast sections"
-          value={segment}
+          value={current}
           onChange={go}
           options={[
             { value: 'people', label: 'People', count: people.length },
+            ...(places.length ? [{ value: 'places' as Segment, label: 'Places', count: places.length }] : []),
             ...(things.length ? [{ value: 'things' as Segment, label: 'Things', count: things.length }] : []),
-            { value: 'map', label: 'Map' },
           ]}
         />
       </div>
@@ -42,14 +51,31 @@ export default function Cast({ segment, focusId }: { segment: Segment; focusId?:
           <div className="empty">
             <p>Set your bookmark to start meeting characters.</p>
           </div>
-        ) : segment === 'map' ? (
-          <MapView focusId={focusId} />
-        ) : segment === 'things' ? (
-          <ThingsList />
+        ) : current === 'places' ? (
+          <CharacterRows list={places} />
+        ) : current === 'things' ? (
+          <CharacterRows list={things} />
         ) : (
           <PeopleList />
         )}
       </div>
+    </div>
+  )
+}
+
+/** The relationship map, as its own screen pushed from Cast. */
+export function MapScreen({ focusId }: { focusId?: string }) {
+  const { upTo } = useBook()
+  return (
+    <div>
+      <h1 className="page-title">Character map</h1>
+      {upTo === 0 ? (
+        <div className="empty">
+          <p>Set your bookmark, and the map fills in as you meet characters.</p>
+        </div>
+      ) : (
+        <MapView focusId={focusId} />
+      )}
     </div>
   )
 }
@@ -123,35 +149,6 @@ function PeopleList() {
           Show {shown.length} {shown.length === 1 ? 'person' : 'people'}
         </button>
       </Sheet>
-    </>
-  )
-}
-
-function ThingsList() {
-  const { book, upTo } = useBook()
-  const [kind, setKind] = useState<Kind | null>(null)
-  const things = metCharacters(book, upTo).filter(isThing)
-  const objects = things.filter((c) => kindOf(c) === 'object').length
-  const places = things.length - objects
-  const shown = things.filter((c) => !kind || kindOf(c) === kind)
-  return (
-    <>
-      <div className="chips" style={{ margin: '0 -16px 4px' }}>
-        <button className="chip-btn" aria-pressed={kind === null} onClick={() => setKind(null)}>
-          All {things.length}
-        </button>
-        {objects > 0 && (
-          <button className="chip-btn" aria-pressed={kind === 'object'} onClick={() => setKind(kind === 'object' ? null : 'object')}>
-            ◆ Objects {objects}
-          </button>
-        )}
-        {places > 0 && (
-          <button className="chip-btn" aria-pressed={kind === 'place'} onClick={() => setKind(kind === 'place' ? null : 'place')}>
-            ■ Places {places}
-          </button>
-        )}
-      </div>
-      <CharacterRows list={shown} />
     </>
   )
 }
