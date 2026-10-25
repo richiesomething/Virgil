@@ -16,8 +16,9 @@ const only = process.argv[2]
   for (const id of fs.readdirSync('src/books').filter((d) => fs.existsSync(`src/books/${d}/data.json`) && (!only || d === only))) {
     const d = JSON.parse(fs.readFileSync(`src/books/${id}/data.json`))
     const total = d.chapters.length
-    const paths = [...d.characters.map((c) => 'characters/' + c.id), ...(d.atlas?.places ?? []).map((x) => 'places/' + x.id), ...d.chapters.map((c) => 'chapters/' + c.number), ...d.chapters.map((c) => 'chapters/' + c.number + '?tab=insights'), ...(d.themes ?? []).map((t) => 'themes/' + t.id), 'cast', 'cast?seg=places', 'cast?seg=things', 'glossary', 'recap', 'plan', 'map', 'afterword', 'timeline', 'text', 'read/' + Math.min(total, up + 1), 'read/' + Math.max(1, up), '']
+    const fixed = [...d.characters.map((c) => 'characters/' + c.id), ...(d.atlas?.places ?? []).map((x) => 'places/' + x.id), ...d.chapters.map((c) => 'chapters/' + c.number), ...d.chapters.map((c) => 'chapters/' + c.number + '?tab=insights'), ...(d.themes ?? []).map((t) => 'themes/' + t.id), 'cast', 'cast?seg=places', 'cast?seg=things', 'glossary', 'recap', 'plan', 'map', 'afterword', 'timeline', 'text', '']
     for (const up of [1, Math.ceil(total / 2), total]) {
+      const paths = [...fixed, 'read/' + Math.min(total, up + 1), 'read/' + Math.max(1, up)]
       await p.evaluate(([id, up]) => localStorage.setItem('virgil:progress:v1', JSON.stringify({ [id]: up })), [id, up])
       await p.goto(base + '#/b/' + id); await p.reload()
       await p.waitForFunction(() => !/Opening the book/.test(document.body.innerText))

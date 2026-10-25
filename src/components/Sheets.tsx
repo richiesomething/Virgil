@@ -126,7 +126,7 @@ export function SettingsSheet({ open, onClose, bookId }: { open: boolean; onClos
           </button>
         </span>
       </div>
-      {bookId && <YourCopyRow bookId={bookId} />}
+      <YourCopies bookId={bookId} />
       <p className="small muted" style={{ margin: '24px 4px 0' }}>
         Your bookmarks and reading history are saved in this browser only.
       </p>
@@ -135,13 +135,25 @@ export function SettingsSheet({ open, onClose, bookId }: { open: boolean; onClos
 }
 
 /** For books Virgil can't ship the text of: where the reader's own copy stands. */
-function YourCopyRow({ bookId }: { bookId: string }) {
-  const meta = library.find((b) => b.id === bookId)
-  const copy = useCopy(bookId)
-  if (!meta || meta.text?.status === 'shipped') return null
+function YourCopies({ bookId }: { bookId?: string }) {
+  const books = library.filter((b) => b.text?.status !== 'shipped' && (!bookId || b.id === bookId))
+  if (!books.length) return null
   return (
     <>
-      <p className="group-title">Your copy of the book</p>
+      <p className="group-title">{books.length === 1 ? 'Your copy of the book' : 'Your copies of books'}</p>
+      {books.map((b) => (
+        <YourCopyRow key={b.id} bookId={b.id} showTitle={books.length > 1} />
+      ))}
+    </>
+  )
+}
+
+function YourCopyRow({ bookId, showTitle }: { bookId: string; showTitle: boolean }) {
+  const meta = library.find((b) => b.id === bookId)!
+  const copy = useCopy(bookId)
+  const title = meta.shortTitle ?? meta.title
+  return (
+    <>
       <a
         className="row"
         href={href('b', bookId, 'text')}
@@ -151,8 +163,10 @@ function YourCopyRow({ bookId }: { bookId: string }) {
         }}
       >
         <span className="row__body">
-          <span className="row__title">{copy.status === 'ready' ? copy.info.file.name : 'Add your copy'}</span>
-          <span className="row__sub">{copy.status === 'ready' ? 'Read it here, or remove it from this device' : 'EPUB, PDF or text. It stays on this device.'}</span>
+          <span className="row__title">{showTitle ? title : copy.status === 'ready' ? copy.info.file.name : 'Add your copy'}</span>
+          <span className="row__sub">
+            {copy.status === 'ready' ? `${showTitle ? copy.info.file.name + ' · ' : ''}Read it here, or remove it from this device` : showTitle ? 'Add your copy: EPUB, PDF or text. It stays on this device.' : 'EPUB, PDF or text. It stays on this device.'}
+          </span>
         </span>
         <Icon name="chevronRight" className="icon--sm chev" />
       </a>

@@ -99,7 +99,7 @@ Chapter text is cached in memory per session. At 80% of a chapter the next one i
 ### 5.1 Entry points
 
 - Today → Up next card → **Add your copy** (upload books with no imported text).
-- Settings sheet → "Your copy of the book" section: import, or show the file name, date, chapter count and **Remove**.
+- Settings (gear on the library screen) → "Your copies of books": one row per copyrighted book, showing the file name when a copy is on this device; it opens the import page, which has **Remove**.
 - Route `#/b/<id>/text`: the import page.
 
 ### 5.2 Formats
