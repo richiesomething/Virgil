@@ -1,0 +1,450 @@
+[
+  {
+    "chapter": 1,
+    "kind": "craft",
+    "title": "A novel that opens like a news file",
+    "text": "No hero, no scene, no dialogue. Chapter 1 reads like a dossier: ship names, dates, latitudes, lengths in feet and meters. Verne wants the \"enormous thing\" to arrive as evidence, logged by sober captains, before anyone tells a story about it. Notice how much of the chapter's tension comes from numbers alone.",
+    "themes": []
+  },
+  {
+    "chapter": 1,
+    "kind": "context",
+    "title": "Moby Dick, krakens and the press",
+    "text": "The newspapers drag out every sea monster they can find: Melville's white whale (1851), the kraken, Pontoppidan's Norwegian serpents. Verne is poking fun at a real 1860s appetite for marvels and hoaxes. His line \"Wit had defeated science\" sets up the book's question: who gets to explain the unexplained, the joker or the scientist?",
+    "themes": []
+  },
+  {
+    "chapter": 1,
+    "kind": "craft",
+    "title": "Why a page on the Cunard line?",
+    "text": "Just before the Scotia is struck, Verne stops to list Cunard's ships, horsepower and record: 2,000 crossings without losing \"a man, a craft, or even a letter.\" The digression has a job. The more reliable the company, the more shocking the neat triangular hole in its hull. It is also a taste of Verne's habit of stopping the story to catalogue facts.",
+    "themes": []
+  },
+  {
+    "chapter": 1,
+    "kind": "motif",
+    "title": "The wound in the hull",
+    "text": "The Scotia's gash is described with a surveyor's care: an isosceles triangle, cut cleaner than a punch could make, by something that then pulled itself back out. It is the one piece of hard physical evidence in a chapter of rumors.",
+    "themes": []
+  },
+  {
+    "chapter": 2,
+    "kind": "theme",
+    "title": "Reasoning by elimination",
+    "text": "Aronnax works the problem like a scientist. A drifting reef can't move that fast; neither can a wreck; each rival theory is tested and dropped. What is left must be an animal, and among known animals, a narwhal scaled up tenfold. The logic is careful, and he stakes his name on it in The New York Herald.",
+    "themes": ["wonder-of-the-deep"]
+  },
+  {
+    "chapter": 2,
+    "kind": "craft",
+    "title": "The professor's loophole",
+    "text": "Aronnax ends his article with an escape clause, \"unless it's something else entirely,\" and then admits it was \"cowardly\" of him. It's a charming, self-mocking moment. The narrator is a real expert, but also a man worried about being laughed at. Verne lets us see the scientist and his vanity at once.",
+    "themes": ["wonder-of-the-deep"]
+  },
+  {
+    "chapter": 2,
+    "kind": "context",
+    "title": "Who pays for the hunt",
+    "text": "Scientists treat the creature as a puzzle, but the people who launch the expedition are insurers, shipping papers and the U.S. Navy. Premiums are threatened; transatlantic trade is at stake. Notice the two kinds of interest Verne sets side by side: knowledge, and commerce protected by guns.",
+    "themes": ["wonder-of-the-deep"]
+  },
+  {
+    "chapter": 3,
+    "kind": "theme",
+    "title": "\"As master wishes\"",
+    "text": "Aronnax warns Conseil this voyage may be one \"from which people don't always come back.\" Conseil answers with the same three words each time. Verne plays his devotion for comedy, with the third-person address and the unbroken calm, but under the joke is total loyalty, given without a moment's thought.",
+    "themes": ["loyalty-companionship"]
+  },
+  {
+    "chapter": 3,
+    "kind": "craft",
+    "title": "Conseil the classifier",
+    "text": "Conseil can run \"up and down the whole ladder\" of class, order, family and genus, yet couldn't tell a sperm whale from a baleen whale. He even packs shirts \"as expertly as birds and mammals.\" He is a gentle satire of science as pure system: knowing where a thing goes without knowing the thing.",
+    "themes": ["wonder-of-the-deep"]
+  },
+  {
+    "chapter": 3,
+    "kind": "craft",
+    "title": "A narrator writing afterward",
+    "text": "Aronnax mentions an expedition \"whose true story might well meet with some skepticism.\" He is telling this from after the events, and he expects doubt. Like many travel narratives, the book presents itself as a true account. That is one reason he piles up names, streets and fares: it's how a witness builds trust.",
+    "themes": []
+  },
+  {
+    "chapter": 4,
+    "kind": "theme",
+    "title": "Ned Land, the man of action",
+    "text": "Ned is introduced as an instrument: \"a powerful telescope that could double as a cannon.\" He trusts his eyes and his arm, not books. Notice the irony. The one professional whaler aboard is the only one who doesn't believe in the giant whale, because he knows what real whales can and can't do.",
+    "themes": ["loyalty-companionship"]
+  },
+  {
+    "chapter": 4,
+    "kind": "craft",
+    "title": "Science lesson as dialogue",
+    "text": "Aronnax argues Ned round with figures: one atmosphere for every 32 feet of water, 17,000 square centimeters of skin, millions of kilograms of pressure. Verne teaches real physics by making it a duel between a professor and a skeptic. Ned's \"You can make figures do anything you want!\" is the reader's objection, voiced so it can be answered.",
+    "themes": ["wonder-of-the-deep"]
+  },
+  {
+    "chapter": 4,
+    "kind": "motif",
+    "title": "Knights and dragons",
+    "text": "Farragut believes in the monster \"out of faith, not reason,\" like a Knight of Rhodes setting out to slay a dragon. Verne frames the hunt in the language of old romance. Set against that, the professor's careful classification chain, \"to dissect it called for catching it,\" sounds almost comically modern.",
+    "themes": []
+  },
+  {
+    "chapter": 4,
+    "kind": "context",
+    "title": "French Canada",
+    "text": "Aronnax says \"to say Canadian is to say French,\" and he bonds with Ned over the old French still spoken in Quebec. For a French reader in 1870, Ned is a cousin from a lost colony, ceded to Britain a century earlier. It helps explain the instant liking between the Parisian professor and the rough harpooner.",
+    "themes": ["loyalty-companionship"]
+  },
+  {
+    "chapter": 5,
+    "kind": "craft",
+    "title": "Comedy by numbers",
+    "text": "The crew's mood is \"three-tenths shame and seven-tenths fury.\" Sailors with night vision have their odds raised \"by fifty percent.\" Verne measures emotions the way he measures ships, and the mock-precision is a joke at the expense of his own scientific style. The narrator enjoys his habit even as he teases it.",
+    "themes": []
+  },
+  {
+    "chapter": 5,
+    "kind": "theme",
+    "title": "Belief and boredom",
+    "text": "Three months of empty ocean turn the hunt's keenest believers into its loudest opponents. Verne shows how certainty runs on excitement, not evidence. Farragut asks for three more days \"like Christopher Columbus,\" and the comparison reminds us that great discoveries also looked like folly until the last moment.",
+    "themes": ["wonder-of-the-deep"]
+  },
+  {
+    "chapter": 5,
+    "kind": "theme",
+    "title": "Conseil's quiet verdict",
+    "text": "Asked whether people will mock them, Conseil serenely agrees: \"it will serve master right!\" Behind the formal manners, the servant sees the professor's rush into the hunt clearly. Their friendship has room for honesty, delivered with perfect politeness.",
+    "themes": ["loyalty-companionship"]
+  },
+  {
+    "chapter": 6,
+    "kind": "theme",
+    "title": "The hunter hunted",
+    "text": "\"Built to pursue, it was being pursued.\" The frigate meant to kill the monster spends the night running from it, and by day it can't gain a fathom however much steam it raises. This is the classic sea hunt, the whaling story, turned upside down. The creature, not the frigate, sets the terms of the chase.",
+    "themes": ["wonder-of-the-deep"]
+  },
+  {
+    "chapter": 6,
+    "kind": "craft",
+    "title": "A chase told in gauges",
+    "text": "The suspense rises through readings: 18.5 miles per hour, then valves charged to ten atmospheres, then 19.3. The creature matches each figure exactly. Verne builds excitement out of engineering data, and Aronnax admits he too wished to risk blowing up the ship.",
+    "themes": []
+  },
+  {
+    "chapter": 6,
+    "kind": "craft",
+    "title": "Classification stalls",
+    "text": "Watching the creature spout, Aronnax classifies it down to order Cetacea, then stops: family, genus, species and variety must wait \"with the aid of Heaven and Commander Farragut.\" It is the same method he uses on everything, and Verne lets it look slightly absurd in the middle of a battle.",
+    "themes": ["wonder-of-the-deep"]
+  },
+  {
+    "chapter": 6,
+    "kind": "question",
+    "title": "What did the officers see?",
+    "text": "An officer calls the glow phosphorescent particles. Aronnax insists it is \"electric in nature.\" Farragut settles on an electric narwhal. Each man reads the same light through what he already knows. How far would you trust each of their explanations?",
+    "themes": []
+  },
+  {
+    "chapter": 7,
+    "kind": "theme",
+    "title": "Conseil jumps in",
+    "text": "\"Being in master's employ, I followed master.\" Conseil leaps overboard after Aronnax as if it were part of the job, cuts away his clothes, and tows him for hours, swearing he'll drown first. Then Ned pulls them both out of the sea. In one night three very different men become a team.",
+    "themes": ["loyalty-companionship"]
+  },
+  {
+    "chapter": 7,
+    "kind": "theme",
+    "title": "Made by the hand of man",
+    "text": "The monster is riveted steel. Aronnax says a real mythical beast would have shocked him less: prodigies are expected from the Creator, but \"the impossible had been mysteriously achieved by man himself.\" Here is the book's founding twist. The most frightening thing in the sea is human engineering.",
+    "themes": ["technology-power", "wonder-of-the-deep"]
+  },
+  {
+    "chapter": 7,
+    "kind": "craft",
+    "title": "Every clue reread",
+    "text": "Once the secret is out, look back: the harpoon that rang, the shell that bounced off, the light that went out \"all at once,\" the precise triangular wound in the Scotia. Verne played fair. The evidence was always mechanical, and every expert, the narrator included, read it as biology.",
+    "themes": ["technology-power"]
+  },
+  {
+    "chapter": 7,
+    "kind": "motif",
+    "title": "Jonah and the whale",
+    "text": "\"Gone are the days when Jonahs took refuge in the bellies of whales!\" Aronnax jokes as he drowns, and minutes later the three are dragged into the belly of the \"steel fish.\" The old story of a man swallowed by a sea beast hangs over the chapter's ending.",
+    "themes": []
+  },
+  {
+    "chapter": 7,
+    "kind": "question",
+    "title": "Masks and music",
+    "text": "In the night Aronnax half-hears \"distant musical chords\" from inside the hull. At dawn eight silent men \"with faces like masks\" haul them below. What kind of people would build such a machine, and live inside it?",
+    "themes": []
+  },
+  {
+    "chapter": 8,
+    "kind": "theme",
+    "title": "Rescued into a cell",
+    "text": "Pulled from the sea, the three are shut in a dark iron room with no visible door. Salvation and imprisonment arrive together. Aronnax at least reads one hopeful sign in the sudden light: \"If you want to consign people to oblivion, you don't light up their dungeons.\"",
+    "themes": ["freedom-captivity"]
+  },
+  {
+    "chapter": 8,
+    "kind": "context",
+    "title": "Reading faces",
+    "text": "Aronnax sizes up the tall stranger by physiognomy, the 19th-century belief that character could be read from the skull, brow and hands. He cites Gratiolet and Engel and even palmistry. The confidence is very much of its time. It also shows the naturalist classifying people the way he classifies fish.",
+    "themes": []
+  },
+  {
+    "chapter": 8,
+    "kind": "craft",
+    "title": "Four languages, no answer",
+    "text": "The story is told four times: in French, in Ned's furious English (habeas corpus and all), in Conseil's surprising German, and in Aronnax's rusty Latin. The silence that meets them is comic and unnerving. Each telling also shows its teller: Ned's outrage, Conseil's composure, the professor's schoolroom.",
+    "themes": ["freedom-captivity"]
+  },
+  {
+    "chapter": 8,
+    "kind": "motif",
+    "title": "Mobilis in Mobili",
+    "text": "The dishes bear an N and the motto \"moving within the moving element.\" Aronnax lingers on the grammar: within, not upon. It's a fitting emblem for a craft that lives inside the sea, and the initial is the first trace of its commander's identity.",
+    "themes": ["technology-power"]
+  },
+  {
+    "chapter": 9,
+    "kind": "craft",
+    "title": "Thinking about air",
+    "text": "Short of breath, Aronnax runs through the options like a lecture: chemical oxygen from potassium chlorate, compressed tanks, or simply surfacing \"like a cetacean.\" Even in a crisis he reasons. The answer arrives as a gust of iodine-scented sea air, and Verne turns a physical fact into the chapter's relief.",
+    "themes": ["technology-power"]
+  },
+  {
+    "chapter": 9,
+    "kind": "theme",
+    "title": "Ned in the cage",
+    "text": "Ned paces \"like a wild beast in a cage\" and plans to take the ship from its crew. He gives his word to stay calm, then throttles the steward the moment the door opens. For the man of action, confinement is unbearable in itself. Aronnax can wait and observe; Ned cannot.",
+    "themes": ["freedom-captivity", "loyalty-companionship"]
+  },
+  {
+    "chapter": 9,
+    "kind": "craft",
+    "title": "The narrator's swinging verdict",
+    "text": "Hours of hunger undo all of Aronnax's earlier reading of the commander's noble face. Now he pictures a man \"cruel and merciless,\" the sworn enemy of humanity. Verne shows how quickly judgement follows the stomach, and how little the professor really knows.",
+    "themes": ["freedom-captivity"]
+  },
+  {
+    "chapter": 10,
+    "kind": "context",
+    "title": "Nemo means \"no one\"",
+    "text": "The footnote glosses it: in Latin, nemo is \"no one.\" Readers of Homer may think of Odysseus telling the Cyclops his name is \"Nobody.\" The commander gives a name that is also a refusal to be named, at the very moment he tells Aronnax he has \"severed all ties with society.\"",
+    "themes": ["nemo-mystery"]
+  },
+  {
+    "chapter": 10,
+    "kind": "theme",
+    "title": "\"I'm not what you term a civilized man\"",
+    "text": "Aronnax appeals to the conduct of a civilized man, and Nemo flashes with anger and scorn: he obeys none of society's rules. Aronnax glimpses \"a fearsome past\" and realizes that no court can reach a man beneath the sea. The Nautilus is a world outside every law.",
+    "themes": ["civilization-escape", "nemo-mystery", "technology-power"]
+  },
+  {
+    "chapter": 10,
+    "kind": "theme",
+    "title": "The freedom to pace a cell",
+    "text": "Nemo offers them the run of his ship, forever. Aronnax calls it \"the freedom that every prisoner has.\" Nemo calls them prisoners of war, since they hunted him. Notice that he asks no promise of Ned not to escape, and none is given. The terms are clear on both sides.",
+    "themes": ["freedom-captivity"]
+  },
+  {
+    "chapter": 10,
+    "kind": "theme",
+    "title": "The scientist's weak side",
+    "text": "Nemo has read Aronnax's book. He promises \"a land of wonders\" and \"the ultimate secrets of our planet.\" Aronnax admits he was caught \"on my weak side,\" and briefly forgets his lost freedom. Captor and captive meet as fellow students. The bargain works on him in a way it never could on Ned.",
+    "themes": ["wonder-of-the-deep", "freedom-captivity"]
+  },
+  {
+    "chapter": 10,
+    "kind": "theme",
+    "title": "The sea belongs to no tyrant",
+    "text": "Over a breakfast drawn entirely from the sea, from turtle loin to anemone marmalade, Nemo speaks of the ocean as food, clothing and refuge. Thirty feet down, tyrants' power \"vanishes.\" \"Here I'm free!\" Then he checks himself, as if he has said too much. Love of the sea and hatred of something on land come out in the same breath.",
+    "themes": ["humans-and-the-sea", "nemo-mystery"]
+  },
+  {
+    "chapter": 10,
+    "kind": "motif",
+    "title": "The hand not offered",
+    "text": "Aronnax expects Nemo to shake on their agreement. \"He did nothing of the sort. I regretted that.\" A small gesture withheld says more than a speech. In this first meeting, courtesy and coldness come together.",
+    "themes": ["nemo-mystery"]
+  },
+  {
+    "chapter": 11,
+    "kind": "theme",
+    "title": "The library of a man who left",
+    "text": "Twelve thousand books, \"my sole remaining ties with dry land,\" bought up to the day the Nautilus first dived. Masterpieces from Homer to Hugo, a wall of science, and not one book on economics. Nemo walked away from society but took its finest thinking with him. What he left out is telling too.",
+    "themes": ["civilization-escape", "nemo-mystery"]
+  },
+  {
+    "chapter": 11,
+    "kind": "craft",
+    "title": "The professor as detective",
+    "text": "Spotting Bertrand's Founders of Astronomy, published in 1865, Aronnax works out that the ship can't have been fitted out earlier, so Nemo's undersea life began three years ago at most. He reads the shelves as evidence. It's the same deductive habit he turned on the monster, now turned on its master.",
+    "themes": ["nemo-mystery"]
+  },
+  {
+    "chapter": 11,
+    "kind": "theme",
+    "title": "\"I'm dead, professor\"",
+    "text": "Among paintings by Raphael and Delacroix and music by Mozart and Wagner, Nemo says all chronology fades \"in the annals of the dead,\" and that he is as dead as those buried on land. Then he drifts into reverie and forgets his guest. The treasures are \"mementos of those shores that are now dead for me.\"",
+    "themes": ["nemo-mystery", "civilization-escape"]
+  },
+  {
+    "chapter": 11,
+    "kind": "craft",
+    "title": "The catalogue as rapture",
+    "text": "Verne gives a whole page to corals, shells and pearls, name after Latin name. This is the book's signature style, and it can test a modern reader. Try reading it as Aronnax feels it, his \"professorial glee\" let loose in the finest collection he has ever seen. The lists are how a naturalist expresses joy.",
+    "themes": ["wonder-of-the-deep"]
+  },
+  {
+    "chapter": 11,
+    "kind": "motif",
+    "title": "A monk's cabin",
+    "text": "Beside the gilded lounge, Nemo's own stateroom is bare: an iron bed, a worktable, \"just the bare necessities.\" He keeps luxury for display and sleeps like an ascetic. The contrast is one more piece of the puzzle he presents.",
+    "themes": ["nemo-mystery"]
+  },
+  {
+    "chapter": 12,
+    "kind": "context",
+    "title": "1860s electricity",
+    "text": "When Verne wrote, electricity lit lighthouses and ran the telegraph, but no one could drive a ship with it. Bunsen cells and Ruhmkorff coils were real laboratory equipment. Verne takes them and makes one leap, sodium from seawater giving a nearly unlimited power, then explains it so carefully that the leap feels small.",
+    "themes": ["technology-power"]
+  },
+  {
+    "chapter": 12,
+    "kind": "craft",
+    "title": "Where Verne stops explaining",
+    "text": "Nemo answers every question until speed: \"my electricity isn't the run-of-the-mill variety.\" Aronnax admits \"there lay a mystery.\" Verne's own footnote hints that an inventor may have met Nemo. Notice the method. Real detail everywhere, and one carefully sealed gap where the impossible lives.",
+    "themes": ["technology-power"]
+  },
+  {
+    "chapter": 12,
+    "kind": "theme",
+    "title": "\"I'm not so certain they'll find it\"",
+    "text": "Aronnax says all mankind will one day discover the true power of electricity. Nemo replies \"icily.\" For the professor, invention belongs to humanity's progress. For Nemo, it seems to be his alone, and he isn't eager to share it with a world he has left.",
+    "themes": ["technology-power", "civilization-escape"]
+  },
+  {
+    "chapter": 12,
+    "kind": "craft",
+    "title": "A ship you can draw",
+    "text": "Dining room 5 meters, library 5, lounge 10, stateroom 5, air tanks 7.5. Verne walks us down the hull compartment by compartment so we can map it in our heads. The closed door of the crew's quarters is the one gap: Aronnax still can't count how many men run the ship.",
+    "themes": ["technology-power"]
+  },
+  {
+    "chapter": 13,
+    "kind": "craft",
+    "title": "Plausibility by arithmetic",
+    "text": "Seventy meters long, eight wide, 1,507.2 cubic meters, ballast of 150.72 tons, water compressing .0000436 per atmosphere. \"Clear?\" \"Clear.\" Verne bets that a reader who can check the sums will believe the ship. Much of it is sound naval physics, and Aronnax is left \"without a single objection.\"",
+    "themes": ["technology-power"]
+  },
+  {
+    "chapter": 13,
+    "kind": "theme",
+    "title": "Built in secret, from everywhere",
+    "text": "The keel from Le Creusot, plates from Laird's in Liverpool, the engine from Krupp, the spur from Sweden, each ordered under a different name and assembled on a deserted islet, then every trace burned. The parts come from the industrial nations; the whole belongs to none of them. Money and genius have bought one man independence.",
+    "themes": ["technology-power", "civilization-escape"]
+  },
+  {
+    "chapter": 13,
+    "kind": "theme",
+    "title": "Accident or attack?",
+    "text": "Nemo calls the Scotia collision \"entirely accidental\" and the Abraham Lincoln a ship that attacked him first. He only disabled it, he says. The world saw a monster; Nemo sees himself defending his home. Whose version of the hunt do you find more convincing?",
+    "themes": ["technology-power", "nemo-mystery"]
+  },
+  {
+    "chapter": 13,
+    "kind": "question",
+    "title": "\"Infinitely rich\"",
+    "text": "Nemo says he could pay off France's whole national debt. Aronnax wonders if he is being mocked. Where could such wealth come from, for a man who has cut every tie with the land?",
+    "themes": ["nemo-mystery"]
+  },
+  {
+    "chapter": 14,
+    "kind": "craft",
+    "title": "The ocean by the numbers",
+    "text": "The chapter opens with the sea's area in square myriameters, its weight in quintillions of tons, and a geological history. Before the windows open, Verne wants us to feel the scale of what we're about to enter. The figures work like an overture.",
+    "themes": ["wonder-of-the-deep"]
+  },
+  {
+    "chapter": 14,
+    "kind": "question",
+    "title": "West of which meridian?",
+    "text": "Aronnax asks which meridian Nemo's longitude uses, hoping for a clue to his nationality. Nemo keeps clocks set to Paris, Greenwich and Washington and picks Paris \"in your honor.\" The dodge is perfect. What else might a man so careful about his origins be hiding?",
+    "themes": ["nemo-mystery"]
+  },
+  {
+    "chapter": 14,
+    "kind": "theme",
+    "title": "Ned names, Conseil classifies",
+    "text": "Ned sorts fish into \"fish we eat and fish we don't eat\"; Conseil can recite six orders of bony fish but can't recognize a single one. At the window they combine: Ned says \"Chinese triggerfish,\" Conseil adds \"genus Balistes.\" Together, Aronnax jokes, they make one outstanding naturalist. Practical knowledge and book knowledge each need the other.",
+    "themes": ["wonder-of-the-deep", "loyalty-companionship"]
+  },
+  {
+    "chapter": 14,
+    "kind": "theme",
+    "title": "The window opens",
+    "text": "The panels slide back on \"liquid light.\" Aronnax insists this is no aquarium, because the fish are free as birds; it is the observers who are behind glass. For the first time he sees these animals \"alive and at large.\" Even Ned forgets his escape plans for two hours.",
+    "themes": ["wonder-of-the-deep", "freedom-captivity"]
+  },
+  {
+    "chapter": 15,
+    "kind": "motif",
+    "title": "\"Nautron respoc lorni virch\"",
+    "text": "Each morning the chief officer scans the horizon and says the same untranslatable phrase. Verne never glosses it. Like the crew's whole private language, it marks a world the guests live inside but can't enter.",
+    "themes": ["nemo-mystery", "freedom-captivity"]
+  },
+  {
+    "chapter": 15,
+    "kind": "craft",
+    "title": "A diary on eelgrass paper",
+    "text": "On November 10 Aronnax begins the journal that this book claims to be built from, written on paper made from seaweed. It is a small, neat touch. Even the record of the voyage is a product of the sea, and the date-stamped entries strengthen the book's pose as a true account.",
+    "themes": ["humans-and-the-sea"]
+  },
+  {
+    "chapter": 15,
+    "kind": "craft",
+    "title": "Every objection answered",
+    "text": "Over breakfast Aronnax raises doubt after doubt: air supply, light, firing underwater. Nemo answers each with a real invention, the Rouquayrol-Denayrouze diving apparatus (patented by two Frenchmen in the 1860s), the Ruhmkorff lamp, an air rifle with electric bullets. The scene is a Socratic dialogue in which the engineer always wins.",
+    "themes": ["technology-power"]
+  },
+  {
+    "chapter": 15,
+    "kind": "theme",
+    "title": "Free of the hose",
+    "text": "Nemo scorns the standard diving suit because its air hose is \"an actual chain that fetters him to the shore.\" His own gear lets a man walk free on the seafloor. Freedom, for Nemo, is always freedom from the land. It's a striking image from a man who keeps three guests on a tether of their own.",
+    "themes": ["freedom-captivity", "technology-power"]
+  },
+  {
+    "chapter": 16,
+    "kind": "theme",
+    "title": "A hunt without a hunter",
+    "text": "Ned, the King of Harpooners, refuses the diving suit and stays aboard with a sarcastic \"happy hunting.\" The man of action is grounded by a world he can't fight on his terms. The professor and the servant go walking on the seafloor instead.",
+    "themes": ["freedom-captivity", "loyalty-companionship"]
+  },
+  {
+    "chapter": 16,
+    "kind": "theme",
+    "title": "From specimen to landscape",
+    "text": "Until now the deep has been seen through glass. Here Aronnax walks it: sunlit sand like a mirror, rainbow edges where light refracts, meadows of algae, jellyfish shading him like parasols. Archimedes makes his heavy suit feel light. The sea becomes a country to cross on foot.",
+    "themes": ["wonder-of-the-deep", "humans-and-the-sea"]
+  },
+  {
+    "chapter": 16,
+    "kind": "craft",
+    "title": "\"Words are powerless\"",
+    "text": "Aronnax says no pen can capture this, and then writes paragraphs of colors and Latin names. The protest is a traditional travel writer's move, and the catalogue is Verne's answer to it. When description fails, he names and counts, and he trusts the reader to see.",
+    "themes": ["wonder-of-the-deep"]
+  },
+  {
+    "chapter": 16,
+    "kind": "motif",
+    "title": "Silent in the copper helmet",
+    "text": "Aronnax longs to share his wonder with Conseil but can only talk to himself inside his helmet, wasting air. Nemo and his crewman speak with prearranged signals. The professor who tells the whole story is, down here, the one person who can't communicate.",
+    "themes": ["wonder-of-the-deep", "nemo-mystery"]
+  }
+]

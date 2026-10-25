@@ -4,7 +4,7 @@
     "name": "Conseil",
     "firstChapter": 3,
     "importance": "major",
-    "group": "Aboard the Nautilus",
+    "group": "Aronnax’s party",
     "tagline": [
       {
         "from": 3,
@@ -133,7 +133,7 @@
     "name": "Ned Land",
     "firstChapter": 4,
     "importance": "major",
-    "group": "Aboard the Nautilus",
+    "group": "Aronnax’s party",
     "tagline": [
       {
         "from": 4,
@@ -312,26 +312,12 @@
   {
     "id": "nautilus",
     "kind": "object",
-    "name": "The submarine",
-    "firstChapter": 7,
+    "name": "The Nautilus",
+    "firstChapter": 10,
     "importance": "major",
     "group": "Objects",
-    "aliases": [
-      {
-        "name": "the Nautilus",
-        "from": 10,
-        "note": "the name Captain Nemo gives it"
-      }
-    ],
+    "aliases": [],
     "tagline": [
-      {
-        "from": 7,
-        "text": "The 'monster' unmasked: an underwater boat of riveted steel, built by human hands."
-      },
-      {
-        "from": 8,
-        "text": "A mysterious underwater vessel, lit by electricity, whose silent crew hold the three as prisoners."
-      },
       {
         "from": 10,
         "text": "The Nautilus: Captain Nemo's submarine, and now the three men's home and prison."
@@ -351,15 +337,15 @@
     ],
     "description": [
       {
-        "from": 7,
+        "from": 10,
         "text": "The thing the whole world took for a sea monster is a machine. Its back is smooth and rings like metal, its plates are held by rivets, and a propeller drives it. At dawn it begins to sink, a hatch opens, and masked men drag the three castaways inside."
       },
       {
-        "from": 8,
+        "from": 10,
         "text": "Inside, the same electric light that glowed around the \"monster\" floods an iron cell. Everything the prisoners are served bears an N inside the motto \"Mobilis in Mobili,\" \"moving within the moving element.\""
       },
       {
-        "from": 9,
+        "from": 10,
         "text": "Like a whale, the vessel must surface to renew its air, which explains the \"bellowing\" heard from the frigate."
       },
       {
@@ -408,14 +394,6 @@
       }
     ],
     "moments": [
-      {
-        "chapter": 7,
-        "text": "Revealed as a riveted steel underwater boat; its crew haul the three aboard."
-      },
-      {
-        "chapter": 8,
-        "text": "Its tableware bears an N and the motto \"Mobilis in Mobili.\""
-      },
       {
         "chapter": 10,
         "text": "Named the Nautilus by its commander."
@@ -500,6 +478,14 @@
       {
         "from": 6,
         "text": "The glowing giant that outran the frigate and shrugged off a cannon shell."
+      },
+      {
+        "from": 7,
+        "text": "The 'monster' unmasked: an underwater boat of riveted steel, built by human hands."
+      },
+      {
+        "from": 8,
+        "text": "A mysterious underwater vessel, lit by electricity, whose silent crew hold the three as prisoners."
       }
     ],
     "description": [
@@ -514,6 +500,18 @@
       {
         "from": 6,
         "text": "When the Abraham Lincoln finally finds it, it glows with an intense light under the water, blows two great jets of water and steam, and matches the frigate's every burst of speed. A cannon shell bounces off its rounded back, and Ned Land's harpoon strikes something hard. Then it rams the frigate."
+      },
+      {
+        "from": 7,
+        "text": "The thing the whole world took for a sea monster is a machine. Its back is smooth and rings like metal, its plates are held by rivets, and a propeller drives it. At dawn it begins to sink, a hatch opens, and masked men drag the three castaways inside."
+      },
+      {
+        "from": 8,
+        "text": "Inside, the same electric light that glowed around the \"monster\" floods an iron cell. Everything the prisoners are served bears an N inside the motto \"Mobilis in Mobili,\" \"moving within the moving element.\""
+      },
+      {
+        "from": 9,
+        "text": "Like a whale, the vessel must surface to renew its air, which explains the \"bellowing\" heard from the frigate."
       }
     ],
     "moments": [
@@ -536,11 +534,19 @@
       {
         "chapter": 6,
         "text": "Outruns the frigate all day; a shell bounces off it; harpooned, it rams the ship."
+      },
+      {
+        "chapter": 7,
+        "text": "Revealed as a riveted steel underwater boat; its crew haul the three aboard."
+      },
+      {
+        "chapter": 8,
+        "text": "Its tableware bears an N and the motto \"Mobilis in Mobili.\""
       }
     ],
     "mergedInto": {
       "id": "nautilus",
-      "from": 7
+      "from": 10
     }
   },
   {

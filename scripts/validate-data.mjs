@@ -279,6 +279,7 @@ for (const book of readdirSync(root, { withFileTypes: true }).filter((d) => d.is
     }
     for (const c of characters) {
       add(c.firstChapter, c.name, `character ${c.id} name`)
+      add(c.firstChapter, c.group, `character ${c.id} group`)
       for (const a of c.aliases ?? []) add(a.from, a.name + ' ' + (a.note ?? ''), `character ${c.id} alias`)
       for (const x of c.tagline ?? []) add(x.from, x.text, `character ${c.id} tagline`)
       for (const x of c.description ?? []) add(x.from, x.text, `character ${c.id} description`)

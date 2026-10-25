@@ -26,7 +26,9 @@
     "chapter": 1,
     "text": "Latitude is degrees north or south of the equator; longitude is degrees east or west of a chosen 'prime meridian'. In 1866 there was no agreed one: British and American charts counted from Greenwich, French ones from Paris. Greenwich became the world standard only in 1884, so the book's positions shift between the two.",
     "quote": "west of the meridian of Greenwich",
-    "seeAlso": [14]
+    "seeAlso": [
+      14
+    ]
   },
   {
     "term": "knot",
@@ -34,7 +36,9 @@
     "chapter": 1,
     "text": "A ship's speed in nautical miles per hour; a nautical mile is 1,852 meters, a little longer than a land mile. The Moravian's thirteen knots is about 15 miles per hour, a good speed for an 1860s liner. The narrator switches freely between knots and miles per hour.",
     "quote": "a speed of thirteen knots",
-    "seeAlso": [6]
+    "seeAlso": [
+      6
+    ]
   },
   {
     "term": "cable length",
@@ -65,19 +69,14 @@
     "quote": "after the Great Eastern, the biggest ever to plow the seas"
   },
   {
-    "term": "watertight bulkheads",
+    "term": "phosphorescence of the sea",
     "kind": "word",
     "chapter": 1,
-    "text": "Solid walls dividing a hull into sealed compartments, so that a hole floods only one section and the ship stays afloat. In the 1860s this was a new and much-praised safety feature of iron ships; it is why the Scotia can limp home with a hole in its side.",
-    "quote": "watertight bulkheads",
-    "seeAlso": [12]
-  },
-  {
-    "term": "Hippolytus and Phaedra",
-    "kind": "reference",
-    "chapter": 1,
-    "text": "In Greek myth, retold in Racine's tragedy Phèdre (1677), the chaste young Hippolytus scornfully rejects the love of his stepmother Phaedra. The comparison is a joke: the columnist dismisses the monster with the same lofty disgust.",
-    "quote": "Hippolytus repulsing the amorous advances"
+    "text": "Patches or trails of sea that glow at night, caused by swarms of tiny light-making organisms such as plankton, salps and jellyfish. Sailors knew it well, which is why the glow in the reports seems natural at first, and why Aronnax later stresses that the light he sees is far too strong and steady for that.",
+    "quote": "sometimes giving off a phosphorescent glow",
+    "seeAlso": [
+      6
+    ]
   },
   {
     "term": "Paris Museum and Botanical Gardens",
@@ -147,7 +146,7 @@
     "kind": "history",
     "chapter": 2,
     "text": "A fictional officer, but readers of 1870 would hear the name of David Farragut, the Civil War hero who became the US Navy's first full admiral in 1866, famous for 'Damn the torpedoes!' at Mobile Bay. Verne borrows the name as shorthand for American naval daring.",
-    "quote": "the naval arsenals were unlocked for Commander Farragut"
+    "quote": "The naval arsenals were unlocked for Commander Farragut"
   },
   {
     "term": "Northwest Passage",
@@ -176,7 +175,9 @@
     "chapter": 3,
     "text": "From Flanders, the Dutch-speaking north of Belgium and a corner of northern France. Flemings had a reputation for steadiness and hard work, and their language is close to German, which matters when Conseil speaks it.",
     "quote": "a gallant Flemish boy",
-    "seeAlso": [8]
+    "seeAlso": [
+      8
+    ]
   },
   {
     "term": "addressing 'master' in the third person",
@@ -205,7 +206,11 @@
     "chapter": 3,
     "text": "A unit of pressure equal to the weight of the air at sea level, about one kilogram on every square centimeter. Boiler steam was measured in atmospheres; so is water pressure, which adds one atmosphere for roughly every ten meters (32 feet) of depth, as Aronnax explains to Ned.",
     "quote": "seven atmospheres",
-    "seeAlso": [4, 6, 13]
+    "seeAlso": [
+      4,
+      6,
+      13
+    ]
   },
   {
     "term": "thirty-nine stars",
@@ -213,6 +218,13 @@
     "chapter": 3,
     "text": "The American flag of 1867 had thirty-seven stars, Nebraska having joined the Union that March. Verne's thirty-nine is a slip; a 39-star flag never officially existed.",
     "quote": "whose thirty-nine stars gleamed"
+  },
+  {
+    "term": "leeward and windward",
+    "kind": "word",
+    "chapter": 3,
+    "text": "Windward is the side the wind blows from; leeward (said 'loo-ard') is the side it blows toward, the sheltered side. The harbor pilot's schooner waits to leeward of the frigate; 'to leeward of the coast' means downwind of it.",
+    "quote": "waiting for him to leeward"
   },
   {
     "term": "leviathan",
@@ -271,19 +283,15 @@
     "quote": "Some gigantic devilfish maybe"
   },
   {
-    "term": "leeward and windward",
-    "kind": "word",
-    "chapter": 4,
-    "text": "Windward is the side the wind blows from; leeward (said 'loo-ard') is the side it blows toward, the sheltered side. 'To leeward of the coast' means downwind of it.",
-    "quote": "thirty miles to leeward"
-  },
-  {
     "term": "Arago",
     "kind": "history",
     "chapter": 4,
     "text": "François Arago (1786–1853), astronomer, physicist and politician, director of the Paris Observatory and one of the most famous French scientists of the century. His name stands for French science generally; his complete works sit in a library later on.",
     "quote": "a famous catchphrase of the scientist Arago",
-    "seeAlso": [8, 11]
+    "seeAlso": [
+      8,
+      11
+    ]
   },
   {
     "term": "American whalers",
@@ -335,13 +343,6 @@
     "quote": "Submerged some fathoms below"
   },
   {
-    "term": "phosphorescence of the sea",
-    "kind": "word",
-    "chapter": 6,
-    "text": "Patches or trails of sea that glow at night, caused by swarms of tiny light-making organisms (plankton, salps, jellyfish). Sailors knew it well, which is why the officer's first guess is phosphorescence and why Aronnax stresses that this light is far too strong and too steady.",
-    "quote": "This was no mere phosphorescent phenomenon"
-  },
-  {
     "term": "electric eel and electric ray",
     "kind": "word",
     "chapter": 6,
@@ -353,8 +354,7 @@
     "kind": "word",
     "chapter": 6,
     "text": "The old way to measure speed: a wooden float on a line knotted at fixed intervals was thrown astern, and sailors counted how many knots ran out in a set time. That is where the 'knot' comes from.",
-    "quote": "Heaving the log",
-    "seeAlso": [1]
+    "quote": "Heaving the log"
   },
   {
     "term": "bowsprit, bobstays and martingale",
@@ -509,7 +509,9 @@
     "chapter": 10,
     "text": "The filaments are byssus, the silky threads with which the Mediterranean fan mussel (pen shell) anchors itself to rocks. Since antiquity small amounts were woven into a rare golden-brown cloth, as Aronnax explains to Conseil.",
     "quote": "the masses of filaments that anchor certain seashells",
-    "seeAlso": [15]
+    "seeAlso": [
+      15
+    ]
   },
   {
     "term": "zoophytes",
@@ -517,7 +519,9 @@
     "chapter": 10,
     "text": "Literally 'plant-animals': an old category for creatures that seem halfway between the two, such as corals, sponges, sea anemones and, in Cuvier's scheme, starfish and sea urchins. Science has since dropped the group, but Aronnax uses it constantly.",
     "quote": "the four zoophyte groups",
-    "seeAlso": [11]
+    "seeAlso": [
+      11
+    ]
   },
   {
     "term": "fucus",
@@ -525,7 +529,9 @@
     "chapter": 10,
     "text": "A genus of brown seaweeds, the wracks found on northern rocky shores; Verne uses the word loosely for big seaweeds in general. They contain a sweet substance, mannitol, which is the 'sugar' on Nemo's table.",
     "quote": "sugar from the huge fucus plants",
-    "seeAlso": [16]
+    "seeAlso": [
+      16
+    ]
   },
   {
     "term": "Nemo's scientists",
@@ -540,7 +546,9 @@
     "chapter": 11,
     "text": "Matthew Fontaine Maury (1806–1873), US Navy officer and founder of oceanography, whose wind and current charts shortened voyages worldwide. A Virginian, he sided with the Confederacy in the Civil War and went into exile afterward, which is the ruined career Aronnax mentions.",
     "quote": "Commander Maury",
-    "seeAlso": [14]
+    "seeAlso": [
+      14
+    ]
   },
   {
     "term": "Nemo's picture gallery",
@@ -590,7 +598,9 @@
     "chapter": 12,
     "text": "The two keys to finding a ship's position. A sextant measures the sun's height at noon, which gives latitude. A chronometer, a very accurate clock set to the time at a home meridian, gives longitude: every four minutes' difference between local noon and home time means one degree.",
     "quote": "chronometers, which allow me to calculate my longitude",
-    "seeAlso": [14]
+    "seeAlso": [
+      14
+    ]
   },
   {
     "term": "storm glass",
@@ -612,7 +622,9 @@
     "chapter": 12,
     "text": "Real devices of the day. The Bunsen cell (1841), invented by the German chemist Robert Bunsen, was a powerful zinc-and-carbon battery. Heinrich Ruhmkorff, a German instrument-maker in Paris, built the induction coil that turns battery current into high voltage. Nemo's swap of sodium for zinc is Verne's invention.",
     "quote": "I use Bunsen cells, not Ruhmkorff cells",
-    "seeAlso": [15]
+    "seeAlso": [
+      15
+    ]
   },
   {
     "term": "Italian clocks",
@@ -661,8 +673,7 @@
     "kind": "custom",
     "chapter": 14,
     "text": "French navigators measured longitude from the Paris Observatory, about 2°20′ east of Greenwich. Since sailors kept chronometers set to their own country's meridian, Aronnax hopes the choice will betray Nemo's nationality. Nemo has clocks for Paris, Greenwich and Washington.",
-    "quote": "west of the meridian of Paris",
-    "seeAlso": [1, 12]
+    "quote": "west of the meridian of Paris"
   },
   {
     "term": "Galileo",
@@ -704,8 +715,7 @@
     "kind": "lore",
     "chapter": 15,
     "text": "The officer's morning phrase is in the crew's private language, the same one Aronnax failed to place earlier. The words match no known language, so for now it is simply part of the ship's mystery.",
-    "quote": "Nautron respoc lorni virch",
-    "seeAlso": [8]
+    "quote": "Nautron respoc lorni virch"
   },
   {
     "term": "Crespo Island",
