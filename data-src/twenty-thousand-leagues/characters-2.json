@@ -191,15 +191,11 @@
       },
       {
         "from": 14,
-        "text": "He is a simple, honest man of appetite, not a scholar: at the lounge windows he names each fish and rates it by how good it is to eat. He scorns the diving suits."
+        "text": "He is a simple, honest man of appetite, not a scholar: at the lounge windows he names each fish and rates it by how good it is to eat."
       },
       {
         "from": 21,
         "text": "He lights up at any chance of solid ground, fresh meat or a hunt. On Gueboroa he roasts breadfruit and brings down a wild pig and a dozen kangaroos."
-      },
-      {
-        "from": 29,
-        "text": "In the Red Sea he kills a giant dugong after a dangerous chase that nearly swamps the skiff."
       },
       {
         "from": 26,
@@ -208,6 +204,10 @@
       {
         "from": 27,
         "text": "On the pearl bank he drives his harpoon into a shark's heart as its jaws open over Captain Nemo. He tells Nemo he owed it to him. It does not soften his wish to leave."
+      },
+      {
+        "from": 29,
+        "text": "In the Red Sea he kills a giant dugong after a dangerous chase that nearly swamps the skiff."
       },
       {
         "from": 30,
@@ -338,11 +338,11 @@
     "description": [
       {
         "from": 10,
-        "text": "The thing the whole world took for a sea monster is a machine. Its back is smooth and rings like metal, its plates are held by rivets, and a propeller drives it. At dawn it begins to sink, a hatch opens, and masked men drag the three castaways inside."
+        "text": "The Nautilus is the \"monster\" the whole world was hunting: not an animal but an underwater boat. Its back is smooth and rings like metal, its plates are held by rivets, and a propeller drives it. When the three castaways clung to its back, eight silent crewmen with mask-like faces dragged them inside."
       },
       {
         "from": 10,
-        "text": "Inside, the same electric light that glowed around the \"monster\" floods an iron cell. Everything the prisoners are served bears an N inside the motto \"Mobilis in Mobili,\" \"moving within the moving element.\""
+        "text": "It is lit by the same electric glow that sailors saw around the \"monster.\" Its tableware bears an N inside the motto \"Mobilis in Mobili,\" \"moving within the moving element.\""
       },
       {
         "from": 10,
@@ -350,7 +350,7 @@
       },
       {
         "from": 10,
-        "text": "Its commander names it: the Nautilus. For the three prisoners it is now both home and prison, since no one who boards it may ever leave."
+        "text": "Its commander, Captain Nemo, calls it the Nautilus. For the three captives it is now both home and prison: he will never let them leave."
       },
       {
         "from": 11,
@@ -503,7 +503,7 @@
       },
       {
         "from": 7,
-        "text": "The thing the whole world took for a sea monster is a machine. Its back is smooth and rings like metal, its plates are held by rivets, and a propeller drives it. At dawn it begins to sink, a hatch opens, and masked men drag the three castaways inside."
+        "text": "The thing the whole world took for a sea monster is a machine. Its back is smooth and rings like metal, its plates are held by rivets, and a propeller drives it. At dawn it begins to sink, a hatch opens, and eight silent men with mask-like faces drag the three castaways inside."
       },
       {
         "from": 8,
@@ -707,10 +707,6 @@
       {
         "chapter": 1,
         "text": "Brings the holed Scotia safely into Liverpool."
-      },
-      {
-        "chapter": 44,
-        "text": "A Captain Anderson also commands the Great Eastern in Aronnax's history of the Atlantic cable."
       }
     ]
   },

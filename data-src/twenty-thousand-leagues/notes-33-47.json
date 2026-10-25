@@ -770,13 +770,6 @@
     "quote": "a long pennant streaming from the peak of its mainmast"
   },
   {
-    "term": "\"O ship of an accursed nation\"",
-    "kind": "history",
-    "chapter": 45,
-    "text": "Verne deliberately never names the warship's country. His letters show that he first imagined Nemo as a Polish nobleman avenging Russia's brutal crushing of the Polish uprising of 1863. His publisher, Pierre-Jules Hetzel, wary of offending Russia, persuaded him to keep the nationality secret. Readers have argued about it ever since.",
-    "quote": "O ship of an accursed nation"
-  },
-  {
     "term": "black flag",
     "kind": "custom",
     "chapter": 45,
@@ -822,7 +815,7 @@
     "term": "Maelstrom",
     "kind": "place",
     "chapter": 46,
-    "text": "The Moskstraumen, a fierce tidal current with whirlpools off the southern tip of Norway's Lofoten Islands. It's real but was hugely exaggerated in legend. Poe's story \"A Descent into the Maelström\" (1841), about a fisherman who survives being sucked into it, made it famous, and Verne's account echoes it. Verne places it loosely: the Faroes are far away. The name became the general word for any whirlpool.",
+    "text": "The Moskstraumen, a fierce tidal current with whirlpools off the southern tip of Norway's Lofoten Islands. It's real but was hugely exaggerated in legend. Poe's story \"A Descent into the Maelström\" (1841) made it famous. Verne places it loosely: the Faroes are far away. The name became the general word for any whirlpool.",
     "quote": "Maelstrom! Maelstrom!"
   },
   {
