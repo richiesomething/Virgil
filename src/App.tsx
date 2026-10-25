@@ -5,6 +5,7 @@ import { ToastHost } from './components/ui'
 import Library from './pages/Library'
 import BookShell from './pages/BookShell'
 import NotFound from './pages/NotFound'
+import ErrorBoundary from './components/ErrorBoundary'
 
 export default function App() {
   const { parts, path } = useLocation()
@@ -22,7 +23,9 @@ export default function App() {
   else page = <NotFound />
   return (
     <>
-      {page}
+      <ErrorBoundary key={path} fallback={<NotFound message="Something went wrong showing this page." />}>
+        {page}
+      </ErrorBoundary>
       <ToastHost />
     </>
   )

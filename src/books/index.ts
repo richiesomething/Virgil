@@ -16,6 +16,15 @@ export function loadBook(id: string): Promise<BookData> | undefined {
   const meta = library.find((b) => b.id === id)
   const load = datas[`./${id}/data.json`]
   if (!meta || !load) return undefined
-  if (!cache.has(id)) cache.set(id, load().then((data) => ({ meta, ...data })))
+  if (!cache.has(id))
+    cache.set(
+      id,
+      load()
+        .then((data) => ({ meta, ...data }))
+        .catch((e) => {
+          cache.delete(id) // let the next visit try again
+          throw e
+        }),
+    )
   return cache.get(id)
 }

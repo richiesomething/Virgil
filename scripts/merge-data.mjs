@@ -43,7 +43,10 @@ function mergeBook(book) {
     }))
   log.push(`${chapters.length} chapters`)
 
-  const characters = read(/^characters-\d+\.json$/).sort((a, b) => a.firstChapter - b.firstChapter || a.id.localeCompare(b.id))
+  // Lists the format lets authors leave out are filled in, so the app can rely on them.
+  const characters = read(/^characters-\d+\.json$/)
+    .map((c) => ({ ...c, aliases: c.aliases ?? [], tagline: c.tagline ?? [], description: c.description ?? [], moments: c.moments ?? [] }))
+    .sort((a, b) => a.firstChapter - b.firstChapter || a.id.localeCompare(b.id))
   log.push(`${characters.length} characters`)
 
   // People's relationships and links to objects/places are kept in separate source files.

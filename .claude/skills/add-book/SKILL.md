@@ -93,9 +93,10 @@ A book with no meaningful geography can skip the atlas: mark it `skipped`.
 ## 8. Publish
 
 1. Run `node scripts/merge-data.mjs <id>`, then `npm run build`.
-2. Preview and check the new book's pages on a phone-sized viewport: Today, Chapters, a chapter's tabs, Cast, Places List and Map, Themes, Afterword (at the last chapter) and Timeline. Use Playwright screenshots against `npx vite preview`.
-3. Commit on a branch with the attribution lines. When the user approves, merge to main and push main and phase-1 (that deploys).
-4. Mark everything done in `pipeline.json`.
+2. With `npx vite preview --port 4182` running, run `node scripts/check-pages.cjs <id>`: it opens every page of the book at three bookmarks and must report `bad 0`.
+3. Preview and check the new book's pages on a phone-sized viewport: Today, Chapters, a chapter's tabs, Cast, Places List and Map, Themes, Afterword (at the last chapter) and Timeline. Use Playwright screenshots against `npx vite preview`.
+4. Commit on a branch with the attribution lines. When the user approves, merge to main and push main and phase-1 (that deploys).
+5. Mark everything done in `pipeline.json`.
 
 ## Keeping track
 

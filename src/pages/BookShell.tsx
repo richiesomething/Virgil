@@ -13,6 +13,7 @@ import SearchOverlay from '../components/SearchOverlay'
 import { NoteSheet, SettingsSheet } from '../components/Sheets'
 import { showToast } from '../components/ui'
 import NotFound from './NotFound'
+import ErrorBoundary from '../components/ErrorBoundary'
 import Today from './Today'
 import ChapterList from './ChapterList'
 import ChapterDetail from './ChapterDetail'
@@ -195,12 +196,27 @@ function LoadedBook({ book }: { book: BookData }) {
         onBookmark={() => setBookmarkOpen(true)}
         onSearch={openSearch}
       />
-      <main className="wrap screen">{page}</main>
+      <main className="wrap screen">
+        <ErrorBoundary key={loc.path + loc.query.toString()} fallback={<PageFailed />}>
+          {page}
+        </ErrorBoundary>
+      </main>
       <TabBar bookId={id} current={tab} />
       <BookmarkSheet open={bookmarkOpen} onClose={() => setBookmarkOpen(false)} book={book} upTo={upTo} wpm={wpm} onSet={setBookmark} />
       <SearchOverlay ref={searchInput} open={searchOpen} onClose={() => setSearchOpen(false)} book={book} upTo={upTo} onNote={setNoteId} />
       <NoteSheet note={note} onClose={() => setNoteId(null)} book={book} upTo={upTo} />
       <SettingsSheet open={settingsOpen} onClose={() => setSettingsOpen(false)} bookId={id} />
     </BookContext.Provider>
+  )
+}
+
+function PageFailed() {
+  return (
+    <div className="empty">
+      <p>Something went wrong showing this page.</p>
+      <button className="btn btn--secondary" onClick={() => history.back()}>
+        Go back
+      </button>
+    </div>
   )
 }

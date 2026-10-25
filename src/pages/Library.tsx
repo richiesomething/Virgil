@@ -1,7 +1,7 @@
-import { useState } from 'react'
+import { useEffect, useState } from 'react'
 import Icon from '../components/Icon'
 import { SettingsSheet } from '../components/Sheets'
-import { library } from '../books'
+import { library, loadBook } from '../books'
 import { useAllProgress } from '../lib/progress'
 import { href } from '../lib/router'
 import type { BookMeta } from '../types'
@@ -43,6 +43,7 @@ export default function Library() {
             </p>
           </section>
         )}
+        {reading.length > 0 && <Preload ids={reading.map((b) => b.id)} />}
         {reading.length > 0 && (
           <section>
             <h1 className="large-title" style={{ marginBottom: 12 }}>Continue reading</h1>
@@ -101,4 +102,14 @@ function ContinueCard({ book, done }: { book: BookMeta; done: number }) {
       <Icon name="chevronRight" className="icon--sm chev" />
     </a>
   )
+}
+
+/** Fetch the books being read in the background, so opening one is instant. */
+function Preload({ ids }: { ids: string[] }) {
+  const key = ids.join()
+  useEffect(() => {
+    const t = setTimeout(() => key.split(',').forEach((id) => loadBook(id)?.catch(() => {})), 300)
+    return () => clearTimeout(t)
+  }, [key])
+  return null
 }
