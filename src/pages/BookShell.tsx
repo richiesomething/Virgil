@@ -18,6 +18,8 @@ import ChapterList from './ChapterList'
 import ChapterDetail from './ChapterDetail'
 import Cast, { MapScreen } from './Cast'
 import CharacterProfile from './CharacterProfile'
+import PlacePage from './PlacePage'
+import { placeAt } from '../lib/atlas'
 import Glossary from './Glossary'
 import Recap from './Recap'
 import Planner from './Planner'
@@ -90,7 +92,7 @@ function LoadedBook({ book }: { book: BookData }) {
   const samePage = useRef('')
   useEffect(() => {
     rememberTab(id, tab, window.location.hash || href('b', id))
-    const pageKey = section === 'map' ? 'map' : loc.path
+    const pageKey = section === 'map' ? 'map' : section === 'cast' && loc.query.get('view') === 'map' ? 'atlas' : loc.path
     settleScroll(loc.path, pageKey === samePage.current)
     samePage.current = pageKey
   }, [id, tab, section, loc.path, loc.query])
@@ -162,7 +164,8 @@ function LoadedBook({ book }: { book: BookData }) {
   else if (section === 'chapters' && !param) page = <ChapterList />
   else if (section === 'chapters') ((page = <ChapterDetail n={Number(param)} />), (title = `Chapter ${param}`), (isRoot = false))
   else if (section === 'cast' || (section === 'characters' && !param)) page = <Cast segment={(loc.query.get('seg') as 'people' | 'places' | 'things') ?? 'people'} />
-  else if (section === 'map') ((page = <MapScreen focusId={param} />), (title = 'Map'), (isRoot = false))
+  else if (section === 'map') ((page = <MapScreen focusId={param} />), (title = 'Connections'), (isRoot = false))
+  else if (section === 'places' && param) ((page = <PlacePage id={param} />), (title = placeAt(book, param, upTo)?.name ?? 'Place'), (isRoot = false))
   else if (section === 'characters') {
     page = <CharacterProfile id={param} />
     title = book.characters.find((c) => c.id === param)?.name

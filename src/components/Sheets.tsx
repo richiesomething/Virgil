@@ -1,3 +1,5 @@
+import Icon from './Icon'
+import { placeAt } from '../lib/atlas'
 import type { BookData, Note, NoteKind } from '../types'
 import { Segmented, Sheet, leaveSheetTo } from './ui'
 import { href } from '../lib/router'
@@ -20,6 +22,8 @@ export function NoteBody({ note, book, upTo, inSheet }: { note: Note; book: Book
   // Only show later appearances the reader has already reached.
   const seeAlso = (note.seeAlso ?? []).filter((c) => c <= upTo)
   const go = (n: number) => (inSheet ? leaveSheetTo(href('b', book.meta.id, 'chapters', n)) : (window.location.hash = href('b', book.meta.id, 'chapters', n)))
+  const place = note.placeId ? placeAt(book, note.placeId, upTo) : undefined
+  const placeHref = place && href('b', book.meta.id, 'places', place.id)
   return (
     <>
       <p className="note-card__text">{note.text}</p>
@@ -33,6 +37,11 @@ export function NoteBody({ note, book, upTo, inSheet }: { note: Note; book: Book
             </button>
           ))}
         </div>
+      )}
+      {placeHref && (
+        <button className="link" style={{ marginTop: 8 }} onClick={() => (inSheet ? leaveSheetTo(placeHref) : (window.location.hash = placeHref))}>
+          <Icon name="pin" className="icon--sm" /> {place!.name} on the map
+        </button>
       )}
     </>
   )

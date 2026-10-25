@@ -1,0 +1,349 @@
+[
+  {
+    "id": "mediterranean",
+    "type": "geo",
+    "title": "France & the Mediterranean",
+    "short": "Mediterranean",
+    "bounds": [
+      [
+        -5.5,
+        35.2
+      ],
+      [
+        27.5,
+        51.6
+      ]
+    ],
+    "labels": [
+      {
+        "text": "Mediterranean Sea",
+        "at": [
+          5.5,
+          38.6
+        ],
+        "kind": "sea"
+      },
+      {
+        "text": "Tyrrhenian Sea",
+        "at": [
+          11.8,
+          40.3
+        ],
+        "kind": "sea"
+      },
+      {
+        "text": "Adriatic Sea",
+        "at": [
+          15.6,
+          43.0
+        ],
+        "kind": "sea"
+      },
+      {
+        "text": "Ionian Sea",
+        "at": [
+          18.6,
+          37.4
+        ],
+        "kind": "sea"
+      },
+      {
+        "text": "Gulf of Lion",
+        "at": [
+          4.2,
+          42.75
+        ],
+        "kind": "sea"
+      },
+      {
+        "text": "Bay of Biscay",
+        "at": [
+          -3.6,
+          45.6
+        ],
+        "kind": "sea"
+      },
+      {
+        "text": "English Channel",
+        "at": [
+          -2.2,
+          50.1
+        ],
+        "kind": "sea"
+      },
+      {
+        "text": "FRANCE",
+        "at": [
+          2.4,
+          46.6
+        ],
+        "kind": "region"
+      },
+      {
+        "text": "SPAIN",
+        "at": [
+          -3.6,
+          40.2
+        ],
+        "kind": "region"
+      },
+      {
+        "text": "ITALY",
+        "at": [
+          13.2,
+          42.6
+        ],
+        "kind": "region"
+      },
+      {
+        "text": "OTTOMAN EMPIRE",
+        "at": [
+          23.5,
+          41.6
+        ],
+        "kind": "region"
+      },
+      {
+        "text": "AFRICA",
+        "at": [
+          3.5,
+          35.8
+        ],
+        "kind": "region"
+      },
+      {
+        "text": "Corsica",
+        "at": [
+          9.05,
+          42.15
+        ],
+        "kind": "area"
+      },
+      {
+        "text": "Sardinia",
+        "at": [
+          9.0,
+          40.1
+        ],
+        "kind": "area"
+      },
+      {
+        "text": "Sicily",
+        "at": [
+          14.2,
+          37.55
+        ],
+        "kind": "area"
+      },
+      {
+        "text": "Alps",
+        "at": [
+          7.6,
+          45.6
+        ],
+        "kind": "area"
+      }
+    ]
+  },
+  {
+    "id": "marseilles",
+    "type": "geo",
+    "title": "Marseilles & its bay",
+    "short": "Marseilles",
+    "parent": "mediterranean",
+    "bounds": [
+      [
+        5.22,
+        43.19
+      ],
+      [
+        5.45,
+        43.345
+      ]
+    ],
+    "labels": [
+      {
+        "text": "Gulf of Marseilles",
+        "at": [
+          5.27,
+          43.245
+        ],
+        "kind": "sea"
+      },
+      {
+        "text": "Frioul islands",
+        "at": [
+          5.305,
+          43.262
+        ],
+        "kind": "minor"
+      }
+    ],
+    "place": "marseilles"
+  },
+  {
+    "id": "paris",
+    "type": "geo",
+    "title": "Paris, 1830s",
+    "short": "Paris",
+    "parent": "mediterranean",
+    "bounds": [
+      [
+        2.215,
+        48.815
+      ],
+      [
+        2.425,
+        48.905
+      ]
+    ],
+    "note": "The dashed line is the city wall of the 1830s (the Farmers-General wall); villages like Auteuil and Passy lay outside it.",
+    "labels": [
+      {
+        "text": "Seine",
+        "at": [
+          2.272,
+          48.848
+        ],
+        "kind": "water"
+      },
+      {
+        "text": "Montmartre",
+        "at": [
+          2.341,
+          48.888
+        ],
+        "kind": "area"
+      },
+      {
+        "text": "Passy",
+        "at": [
+          2.279,
+          48.858
+        ],
+        "kind": "area"
+      },
+      {
+        "text": "Belleville",
+        "at": [
+          2.386,
+          48.874
+        ],
+        "kind": "area"
+      },
+      {
+        "text": "Vaugirard",
+        "at": [
+          2.298,
+          48.838
+        ],
+        "kind": "area"
+      },
+      {
+        "text": "Neuilly",
+        "at": [
+          2.262,
+          48.886
+        ],
+        "kind": "area"
+      }
+    ],
+    "place": "paris"
+  },
+  {
+    "id": "rome",
+    "type": "geo",
+    "title": "Rome, 1838",
+    "short": "Rome",
+    "parent": "mediterranean",
+    "bounds": [
+      [
+        12.435,
+        41.845
+      ],
+      [
+        12.535,
+        41.93
+      ]
+    ],
+    "note": "The dashed line is the ancient Aurelian wall, which still enclosed the city.",
+    "labels": [
+      {
+        "text": "Tiber",
+        "at": [
+          12.4745,
+          41.9135
+        ],
+        "kind": "water"
+      },
+      {
+        "text": "Palatine",
+        "at": [
+          12.4875,
+          41.8893
+        ],
+        "kind": "area"
+      },
+      {
+        "text": "Janiculum",
+        "at": [
+          12.4625,
+          41.8915
+        ],
+        "kind": "area"
+      },
+      {
+        "text": "Pincio",
+        "at": [
+          12.4795,
+          41.9115
+        ],
+        "kind": "area"
+      }
+    ],
+    "place": "rome"
+  },
+  {
+    "id": "monte-cristo",
+    "type": "plan",
+    "title": "The island of Monte Cristo",
+    "short": "Monte Cristo",
+    "parent": "mediterranean",
+    "anchor": [
+      10.31,
+      42.335
+    ],
+    "size": [
+      1000,
+      700
+    ],
+    "note": "Drawn from Dumas’s descriptions, not to scale.",
+    "landmarks": {
+      "summit": [
+        520,
+        250
+      ],
+      "little creek where boats land (south-west)": [
+        250,
+        540
+      ],
+      "rocky shore path": [
+        380,
+        450
+      ],
+      "the great rock / hidden entrance (east of creek)": [
+        600,
+        380
+      ],
+      "inner grotto (beneath the rock)": [
+        640,
+        350
+      ],
+      "east shore": [
+        850,
+        400
+      ]
+    },
+    "place": "monte-cristo-island"
+  }
+]

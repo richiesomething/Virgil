@@ -40,7 +40,8 @@
     "term": "Surrey",
     "kind": "place",
     "chapter": 1,
-    "text": "A real county just south-west of London, known for commuter suburbs and tidy, respectable streets. Little Whinging, the Dursleys' town, is invented."
+    "text": "A real county just south-west of London, known for commuter suburbs and tidy, respectable streets. Little Whinging, the Dursleys' town, is invented.",
+    "placeId": "privet-drive"
   },
   {
     "id": "cupboard-under-the-stairs",
@@ -163,14 +164,16 @@
     "term": "Leaky Cauldron",
     "kind": "lore",
     "chapter": 5,
-    "text": "A shabby wizard pub on a London street; Muggles walk past without noticing it. Its back yard is the way into Diagon Alley."
+    "text": "A shabby wizard pub on a London street; Muggles walk past without noticing it. Its back yard is the way into Diagon Alley.",
+    "placeId": "leaky-cauldron"
   },
   {
     "id": "charing-cross-road",
     "term": "Charing Cross Road",
     "kind": "place",
     "chapter": 5,
-    "text": "A real street in central London, famous for its bookshops and secondhand book dealers: a fitting place to hide a magical doorway."
+    "text": "A real street in central London, famous for its bookshops and secondhand book dealers: a fitting place to hide a magical doorway.",
+    "placeId": "charing-cross-road"
   },
   {
     "id": "the-underground",
@@ -203,7 +206,8 @@
     "term": "King's Cross",
     "kind": "place",
     "chapter": 6,
-    "text": "A real, busy mainline railway station in north London, the terminus for trains to northern England and Scotland. Its platforms 9 and 10 really exist; nine and three-quarters doesn't."
+    "text": "A real, busy mainline railway station in north London, the terminus for trains to northern England and Scotland. Its platforms 9 and 10 really exist; nine and three-quarters doesn't.",
+    "placeId": "kings-cross"
   },
   {
     "id": "prefect",
@@ -470,14 +474,16 @@
     "term": "staff room",
     "kind": "custom",
     "chapter": 11,
-    "text": "The British term for the teachers' lounge, off-limits to pupils unless invited."
+    "text": "The British term for the teachers' lounge, off-limits to pupils unless invited.",
+    "placeId": "staff-room"
   },
   {
     "id": "romania",
     "term": "Romania",
     "kind": "place",
     "chapter": 12,
-    "text": "A real country in south-eastern Europe whose Carpathian Mountains are wild, forested and full of legend: a natural home for dragons. Vlad 'Dracula' took his name from his father's Order of the Dragon."
+    "text": "A real country in south-eastern Europe whose Carpathian Mountains are wild, forested and full of legend: a natural home for dragons. Vlad 'Dracula' took his name from his father's Order of the Dragon.",
+    "placeId": "romania"
   },
   {
     "id": "christmas-crackers",
@@ -515,7 +521,8 @@
     "term": "Restricted Section",
     "kind": "lore",
     "chapter": 12,
-    "text": "The part of the Hogwarts library holding books on powerful dark magic. Students need a signed note from a teacher to use it."
+    "text": "The part of the Hogwarts library holding books on powerful dark magic. Students need a signed note from a teacher to use it.",
+    "placeId": "library"
   },
   {
     "id": "head-boy",
@@ -557,7 +564,8 @@
     "term": "Devon",
     "kind": "place",
     "chapter": 13,
-    "text": "A real rural county in south-west England, all green hills and coastline. Rowling grew up nearby; the Flamels are said to live there quietly."
+    "text": "A real rural county in south-west England, all green hills and coastline. Rowling grew up nearby; the Flamels are said to live there quietly.",
+    "placeId": "devon"
   },
   {
     "id": "leg-locker-curse",
@@ -585,7 +593,8 @@
     "term": "Hogsmeade",
     "kind": "lore",
     "chapter": 14,
-    "text": "The all-wizard village near Hogwarts, with its own railway station. Its pub is where Hagrid played cards."
+    "text": "The all-wizard village near Hogwarts, with its own railway station. Its pub is where Hagrid played cards.",
+    "placeId": "hogsmeade"
   },
   {
     "id": "norwegian-ridgeback",
@@ -651,7 +660,8 @@
     "term": "Ministry of Magic",
     "kind": "lore",
     "chapter": 16,
-    "text": "The government of the British wizarding world, based in London. Among other things, it keeps magic hidden from Muggles."
+    "text": "The government of the British wizarding world, based in London. Among other things, it keeps magic hidden from Muggles.",
+    "placeId": "ministry-of-magic"
   },
   {
     "id": "petrificus-totalus",

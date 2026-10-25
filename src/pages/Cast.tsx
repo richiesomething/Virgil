@@ -4,10 +4,12 @@ import Icon from '../components/Icon'
 import { initials } from '../components/CharacterChip'
 import { Segmented, Sheet, Switch } from '../components/ui'
 import MapView from '../components/MapView'
+import AtlasView, { chapterRange } from '../components/AtlasView'
 import { useBook } from '../lib/book-context'
-import { href, navigate, withQuery } from '../lib/router'
+import { href, navigate, useLocation, withQuery } from '../lib/router'
 import { currentAliases, currentTagline, isThing, kindOf, metCharacters } from '../lib/spoilers'
 import { fold } from '../lib/search'
+import { bestFrame, chaptersAt, hasAtlas, offMapPlaces, placeAliases, placeTagline, visiblePlaces } from '../lib/atlas'
 
 type Segment = 'people' | 'places' | 'things'
 type Sort = 'appearance' | 'name' | 'recent'
@@ -19,10 +21,14 @@ export default function Cast({ segment }: { segment: Segment }) {
   const id = book.meta.id
   const met = metCharacters(book, upTo)
   const people = met.filter((c) => !isThing(c))
-  const places = met.filter((c) => kindOf(c) === 'place')
+  const atlas = hasAtlas(book)
+  const places = atlas ? visiblePlaces(book, upTo) : met.filter((c) => kindOf(c) === 'place')
+  const view = useLocation().query.get('view') === 'map' ? 'map' : 'list'
   const things = met.filter((c) => kindOf(c) === 'object')
   const go = (s: Segment) => navigate(withQuery(href('b', id, 'cast'), { seg: s === 'people' ? undefined : s }), { replace: true })
   const current: Segment = segment === 'places' && !places.length ? 'people' : segment === 'things' && !things.length ? 'people' : segment
+
+  if (current === 'places' && atlas && view === 'map' && upTo > 0) return <AtlasView />
 
   return (
     <div>
@@ -30,7 +36,7 @@ export default function Cast({ segment }: { segment: Segment }) {
         <h1 className="large-title">Cast</h1>
         {upTo > 0 && (
           <a className="pill-btn" href={href('b', id, 'map')}>
-            <Icon name="map" className="icon--sm" /> Map
+            <Icon name="nodes" className="icon--sm" /> Connections
           </a>
         )}
       </div>
@@ -51,8 +57,23 @@ export default function Cast({ segment }: { segment: Segment }) {
           <div className="empty">
             <p>Set your bookmark to start meeting characters.</p>
           </div>
+        ) : current === 'places' && atlas ? (
+          <>
+            <div className="view-toggle">
+              <Segmented<'list' | 'map'>
+                label="Show places as"
+                value={view}
+                onChange={(v) => navigate(withQuery(href('b', id, 'cast'), { seg: 'places', view: v === 'map' ? 'map' : undefined }), { replace: true })}
+                options={[
+                  { value: 'list', label: 'List' },
+                  { value: 'map', label: 'Map' },
+                ]}
+              />
+            </div>
+            <PlacesList />
+          </>
         ) : current === 'places' ? (
-          <CharacterRows list={places} />
+          <CharacterRows list={met.filter((c) => kindOf(c) === 'place')} />
         ) : current === 'things' ? (
           <CharacterRows list={things} />
         ) : (
@@ -63,12 +84,12 @@ export default function Cast({ segment }: { segment: Segment }) {
   )
 }
 
-/** The relationship map, as its own screen pushed from Cast. */
+/** The relationship map ("Connections"), as its own screen pushed from Cast. */
 export function MapScreen({ focusId }: { focusId?: string }) {
   const { upTo } = useBook()
   return (
     <div>
-      <h1 className="page-title">Character map</h1>
+      <h1 className="page-title">Connections</h1>
       {upTo === 0 ? (
         <div className="empty">
           <p>Set your bookmark, and the map fills in as you meet characters.</p>
@@ -172,4 +193,75 @@ function CharacterRows({ list }: { list: ReturnType<typeof metCharacters> }) {
       ))}
     </div>
   )
+}
+
+/** Every place reached so far, grouped by the map it belongs to. */
+function PlacesList() {
+  const { book, upTo } = useBook()
+  const id = book.meta.id
+  const [q, setQ] = useState('')
+  const [openGroups, setOpenGroups] = useState<Set<string>>(new Set())
+  const fq = fold(q.trim())
+  const all = visiblePlaces(book, upTo).filter((p) => !fq || [p.name, ...placeAliases(p, upTo)].some((s) => fold(s).includes(fq)))
+  const off = new Set(offMapPlaces(book, upTo).map((p) => p.id))
+  const groups = new Map<string, { title: string; list: typeof all }>()
+  for (const p of all) {
+    const f = off.has(p.id) ? undefined : bestFrame(book, p, upTo)
+    const key = f?.id ?? 'off'
+    if (!groups.has(key)) groups.set(key, { title: f?.title ?? 'Elsewhere', list: [] })
+    groups.get(key)!.list.push(p)
+  }
+  const order = [...groups.entries()].sort((a, b) => (a[0] === 'off' ? 1 : b[0] === 'off' ? -1 : 0))
+  return (
+    <>
+      <div className="toolbar">
+        <label className="field">
+          <Icon name="search" className="icon--sm" />
+          <input type="search" placeholder="Find a place" value={q} onChange={(e) => setQ(e.target.value)} aria-label="Find a place" />
+        </label>
+      </div>
+      {order.map(([key, g]) => {
+        const scenes = g.list.filter((p) => p.role === 'setting').sort((a, b) => a.firstChapter - b.firstChapter)
+        const mentioned = g.list.filter((p) => p.role === 'mentioned').sort((a, b) => a.name.localeCompare(b.name))
+        const open = openGroups.has(key) || !!fq || !scenes.length
+        return (
+          <section key={key}>
+            <h2 className="letter-head">{g.title}</h2>
+            <div className="group">
+              {scenes.map((p) => (
+                <PlaceRow key={p.id} p={p} />
+              ))}
+              {mentioned.length > 0 && !open && (
+                <button className="row row--more" onClick={() => setOpenGroups(new Set([...openGroups, key]))}>
+                  <span className="row__body">
+                    <span className="row__title">Also mentioned</span>
+                  </span>
+                  <span className="row__meta">{mentioned.length}</span>
+                  <Icon name="chevronDown" className="icon--sm chev" />
+                </button>
+              )}
+              {open && mentioned.map((p) => <PlaceRow key={p.id} p={p} />)}
+            </div>
+          </section>
+        )
+      })}
+      {all.length === 0 && <p className="empty">No places match.</p>}
+    </>
+  )
+
+  function PlaceRow({ p }: { p: (typeof all)[number] }) {
+    const chs = chaptersAt(book, p.id, upTo)
+    return (
+      <a className="row row--avatar" href={href('b', id, 'places', p.id)} style={{ minHeight: 60 }}>
+        <span className={`avatar avatar--place${p.role === 'mentioned' ? ' avatar--quiet' : ''}`} aria-hidden="true">
+          <Icon name="pin" className="icon--sm" />
+        </span>
+        <span className="row__body">
+          <span className="row__title">{p.name}</span>
+          <span className="row__sub clamp-1">{placeTagline(p, upTo)}</span>
+        </span>
+        {p.firstChapter === upTo ? <span className="tag tag--new">New</span> : chs.length > 0 && <span className="row__meta">{chapterRange(chs)}</span>}
+      </a>
+    )
+  }
 }

@@ -6,6 +6,8 @@ import { showToast } from './ui'
 import { href } from '../lib/router'
 import { prefs } from '../lib/store'
 import { lookupCharacter, primerFor } from '../lib/spoilers'
+import { bestFrame, upcomingSetting } from '../lib/atlas'
+import { atlasHref } from './AtlasView'
 
 // Remember, per book, whether the reader last left the primer open.
 const openState = new Map<string, boolean>()
@@ -23,6 +25,9 @@ export default function Primer({ book, n, upTo, forceOpen }: { book: BookData; n
   const returning = primer.returning
     .map((r) => ({ ...r, look: lookupCharacter(book, r.id, upTo) }))
     .filter((r) => r.look.status !== 'hidden')
+  const wherePlace = upcomingSetting(book, n, upTo)
+  const whereFrame = wherePlace && bestFrame(book, wherePlace, upTo)
+  const where = wherePlace && whereFrame ? { place: wherePlace, frame: whereFrame } : undefined
   const count = (primer.setting ? 1 : 0) + (primer.keepInMind ? 1 : 0) + returning.length
   const toggle = () => {
     openState.set(id, !open)
@@ -51,7 +56,14 @@ export default function Primer({ book, n, upTo, forceOpen }: { book: BookData; n
           {primer.setting && (
             <div className="primer__item">
               <span className="primer__label">Setting</span>
-              <span>{primer.setting}</span>
+              <span>
+                {primer.setting}
+                {where && (
+                  <a className="primer__map" href={atlasHref(id, { place: where.place.id, frame: where.frame.id })}>
+                    <Icon name="pin" className="icon--sm" /> {where.place.name} on the map
+                  </a>
+                )}
+              </span>
             </div>
           )}
           {primer.keepInMind && (

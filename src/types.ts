@@ -88,6 +88,7 @@ export interface BookData {
   recaps: Recap[]
   /** Words per chapter, index 0 = chapter 1. */
   wordCounts: number[]
+  atlas?: Atlas
 }
 
 /** 'tie' is used for every link that involves an object or place. */
@@ -127,6 +128,8 @@ export interface Note {
   quote?: string
   /** Later chapters where the term matters again. */
   seeAlso?: number[]
+  /** The Atlas place this note is about. */
+  placeId?: string
 }
 
 /** "Before you read": orientation for a chapter, safe to read before it. */
@@ -142,4 +145,86 @@ export interface Recap {
   through: number
   title: string
   text: string[]
+}
+
+/** One map surface: real geography (lon/lat) or our own drawing (x/y). */
+export interface AtlasFrame {
+  id: string
+  type: 'geo' | 'plan'
+  title: string
+  short: string
+  parent?: string
+  /** geo: [[west, south], [east, north]] */
+  bounds?: [[number, number], [number, number]]
+  /** plan: drawing size */
+  size?: [number, number]
+  /** Where a child frame sits in its parent (lon/lat or x/y in the parent's space). */
+  anchor?: [number, number]
+  /** For frames whose real location is unknown: an edge marker in another frame. */
+  offmap?: { frame: string; dir: 'N' | 'S' | 'E' | 'W'; label: string; badge?: string }
+  /** The place this frame is a close-up of (its pin gives way to the frame's badge). */
+  place?: string
+  note?: string
+  labels?: MapLabel[]
+}
+
+export interface MapLabel {
+  text: string
+  at: [number, number]
+  kind: 'sea' | 'region' | 'area' | 'water' | 'minor' | 'floor' | 'street'
+  rot?: number
+}
+
+/** A drawing (plan frame) or base geography (geo frame), loaded on demand. */
+export interface FrameArt {
+  bg: string
+  features?: { k: string; poly?: [number, number][]; line?: [number, number][]; at?: [number, number]; r?: number; curve?: boolean; w?: number }[]
+  labels?: MapLabel[]
+  land?: [number, number][][][]
+  water?: [number, number][][][]
+  parks?: [number, number][][][]
+  rivers?: { line: [number, number][]; w?: number; curve?: boolean }[]
+  walls?: [number, number][][]
+}
+
+export type Precision = 'exact' | 'approximate' | 'fictional' | 'unknown'
+
+export interface Place {
+  id: string
+  name: string
+  role: 'setting' | 'mentioned'
+  firstChapter: number
+  precision: Precision
+  lonlat?: [number, number]
+  radiusKm?: number
+  xy?: Record<string, [number, number]>
+  parent?: string
+  today?: string
+  note?: string
+  tagline: Revealed[]
+  aliases?: Alias[]
+  mergedInto?: { id: string; from: number }
+}
+
+export interface JourneyLeg {
+  chapter: number
+  from: string
+  to: string
+  mode: string
+  via?: [number, number][]
+}
+
+export interface Journey {
+  id: string
+  name: string
+  who: string[]
+  legs: JourneyLeg[]
+}
+
+export interface Atlas {
+  frames: AtlasFrame[]
+  places: Place[]
+  /** Chapter number → place ids where its scenes happen, main one first. */
+  settings: Record<string, string[]>
+  journeys: Journey[]
 }

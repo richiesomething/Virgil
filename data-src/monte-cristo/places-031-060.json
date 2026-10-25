@@ -1,0 +1,1377 @@
+{
+  "places": [
+    {
+      "id": "monte-cristo-island",
+      "name": "The island of Monte Cristo",
+      "role": "setting",
+      "firstChapter": 18,
+      "precision": "exact",
+      "lonlat": [
+        10.31,
+        42.335
+      ],
+      "xy": {
+        "monte-cristo": [
+          520,
+          250
+        ]
+      },
+      "today": "Montecristo, a strict nature reserve in the Tuscan Archipelago; visits are tightly limited.",
+      "tagline": [
+        {
+          "from": 31,
+          "text": "Barren island where the mysterious 'Sinbad the Sailor' keeps an underground palace."
+        }
+      ]
+    },
+    {
+      "id": "mc-creek",
+      "name": "The little creek",
+      "role": "setting",
+      "firstChapter": 24,
+      "precision": "fictional",
+      "xy": {
+        "monte-cristo": [
+          250,
+          540
+        ]
+      },
+      "parent": "monte-cristo-island",
+      "tagline": [
+        {
+          "from": 31,
+          "text": "Hidden creek where Franz's boat lands beside the smugglers' fire."
+        }
+      ]
+    },
+    {
+      "id": "mc-grotto",
+      "name": "The grotto",
+      "role": "setting",
+      "firstChapter": 24,
+      "precision": "fictional",
+      "xy": {
+        "monte-cristo": [
+          640,
+          350
+        ]
+      },
+      "parent": "monte-cristo-island",
+      "tagline": [
+        {
+          "from": 31,
+          "text": "Caves under the rock where Sinbad receives Franz in a splendid hidden palace."
+        },
+        {
+          "from": 32,
+          "text": "Plain-looking grotto whose secret door Franz cannot find again."
+        }
+      ]
+    },
+    {
+      "id": "pianosa",
+      "name": "Pianosa",
+      "role": "mentioned",
+      "firstChapter": 31,
+      "precision": "exact",
+      "lonlat": [
+        10.0986,
+        42.5873
+      ],
+      "today": "Pianosa, part of the Tuscan Archipelago National Park; a former prison island.",
+      "tagline": [
+        {
+          "from": 31,
+          "text": "Flat island south of Elba where Franz hunts without luck before heading for Monte Cristo."
+        }
+      ]
+    },
+    {
+      "id": "naples",
+      "name": "Naples",
+      "role": "mentioned",
+      "firstChapter": 31,
+      "precision": "exact",
+      "lonlat": [
+        14.2681,
+        40.8518
+      ],
+      "tagline": [
+        {
+          "from": 31,
+          "text": "Southern Italian city Albert visits before the Roman Carnival."
+        }
+      ]
+    },
+    {
+      "id": "florence",
+      "name": "Florence",
+      "role": "mentioned",
+      "firstChapter": 32,
+      "precision": "exact",
+      "lonlat": [
+        11.2558,
+        43.7696
+      ],
+      "tagline": [
+        {
+          "from": 32,
+          "text": "Tuscan city where Franz finishes his business before going on to Rome."
+        }
+      ]
+    },
+    {
+      "id": "malaga",
+      "name": "Málaga",
+      "role": "mentioned",
+      "firstChapter": 32,
+      "precision": "exact",
+      "lonlat": [
+        -4.4214,
+        36.7213
+      ],
+      "tagline": [
+        {
+          "from": 32,
+          "text": "Spanish port where Sinbad says urgent business calls him."
+        }
+      ]
+    },
+    {
+      "id": "porto-vecchio",
+      "name": "Porto-Vecchio",
+      "role": "mentioned",
+      "firstChapter": 32,
+      "precision": "exact",
+      "lonlat": [
+        9.2795,
+        41.5912
+      ],
+      "note": "Porto-Vecchio",
+      "tagline": [
+        {
+          "from": 32,
+          "text": "Corsican gulf where Sinbad's yacht disappears, landing the bandits."
+        }
+      ]
+    },
+    {
+      "id": "pastrini-hotel",
+      "name": "Signor Pastrini's Hôtel de Londres",
+      "role": "setting",
+      "firstChapter": 31,
+      "precision": "approximate",
+      "lonlat": [
+        12.48236,
+        41.90564
+      ],
+      "radiusKm": 0.2,
+      "parent": "rome",
+      "today": "The Hôtel de Londres stood on the Piazza di Spagna.",
+      "tagline": [
+        {
+          "from": 31,
+          "text": "Rome hotel where Albert and Franz book rooms for the Carnival."
+        },
+        {
+          "from": 34,
+          "text": "Rome hotel where Franz and Albert share a floor with the Count of Monte Cristo."
+        }
+      ]
+    },
+    {
+      "id": "san-felice-farm",
+      "name": "The Count of San-Felice's farm",
+      "role": "mentioned",
+      "firstChapter": 33,
+      "precision": "approximate",
+      "lonlat": [
+        12.7207,
+        41.8918
+      ],
+      "radiusKm": 8,
+      "today": "Near ancient Gabii, east of Rome, toward Palestrina.",
+      "tagline": [
+        {
+          "from": 33,
+          "text": "Estate in the Roman countryside where Luigi Vampa and Teresa grew up as shepherds."
+        }
+      ]
+    },
+    {
+      "id": "corso",
+      "name": "The Corso",
+      "role": "setting",
+      "firstChapter": 33,
+      "precision": "exact",
+      "lonlat": [
+        12.4802,
+        41.9015
+      ],
+      "parent": "rome",
+      "note": "Corso",
+      "today": "Via del Corso.",
+      "tagline": [
+        {
+          "from": 33,
+          "text": "Rome's long main street, where Carnival windows are rented at huge prices."
+        },
+        {
+          "from": 36,
+          "text": "Rome's main street, scene of the Carnival's battles of flowers and candles."
+        }
+      ]
+    },
+    {
+      "id": "colosseum",
+      "name": "The Colosseum",
+      "role": "setting",
+      "firstChapter": 33,
+      "precision": "exact",
+      "lonlat": [
+        12.49223,
+        41.89021
+      ],
+      "parent": "rome",
+      "note": "Colosseum",
+      "tagline": [
+        {
+          "from": 33,
+          "text": "Ancient amphitheatre Franz plans to see by moonlight."
+        },
+        {
+          "from": 34,
+          "text": "Moonlit ruin where Franz overhears a cloaked man bargain with a bandit."
+        }
+      ]
+    },
+    {
+      "id": "teatro-argentina",
+      "name": "Teatro Argentina",
+      "role": "setting",
+      "firstChapter": 34,
+      "precision": "exact",
+      "lonlat": [
+        12.47593,
+        41.89556
+      ],
+      "parent": "rome",
+      "today": "Still a working theatre on Largo di Torre Argentina.",
+      "tagline": [
+        {
+          "from": 34,
+          "text": "Rome theatre where Franz glimpses Sinbad in a box beside a Greek girl."
+        }
+      ]
+    },
+    {
+      "id": "rospoli-palace",
+      "name": "The Rospoli Palace",
+      "role": "setting",
+      "firstChapter": 34,
+      "precision": "exact",
+      "lonlat": [
+        12.47871,
+        41.9043
+      ],
+      "parent": "rome",
+      "today": "Palazzo Ruspoli, Via del Corso.",
+      "tagline": [
+        {
+          "from": 34,
+          "text": "Palace on the Corso where the Count of Monte Cristo has rented windows."
+        },
+        {
+          "from": 36,
+          "text": "Palace on the Corso where the friends watch the Carnival from the Count's windows."
+        }
+      ]
+    },
+    {
+      "id": "castle-st-angelo",
+      "name": "Castle of St. Angelo",
+      "role": "mentioned",
+      "firstChapter": 34,
+      "precision": "exact",
+      "lonlat": [
+        12.46637,
+        41.90309
+      ],
+      "parent": "rome",
+      "note": "Castle of St. Angelo",
+      "today": "Castel Sant'Angelo, now a museum.",
+      "tagline": [
+        {
+          "from": 34,
+          "text": "Papal fortress and prison beside the Tiber."
+        }
+      ]
+    },
+    {
+      "id": "trastevere",
+      "name": "Trastevere",
+      "role": "mentioned",
+      "firstChapter": 34,
+      "precision": "approximate",
+      "lonlat": [
+        12.4694,
+        41.889
+      ],
+      "radiusKm": 0.6,
+      "parent": "rome",
+      "note": "Transtevere",
+      "tagline": [
+        {
+          "from": 34,
+          "text": "Old Roman quarter across the Tiber, proud of its own costume."
+        }
+      ]
+    },
+    {
+      "id": "piazza-del-popolo",
+      "name": "Piazza del Popolo",
+      "role": "setting",
+      "firstChapter": 35,
+      "precision": "exact",
+      "lonlat": [
+        12.47634,
+        41.91066
+      ],
+      "parent": "rome",
+      "note": "Piazza del Popolo",
+      "tagline": [
+        {
+          "from": 35,
+          "text": "Great square inside Rome's northern gate, used for public executions."
+        }
+      ]
+    },
+    {
+      "id": "san-giacomo",
+      "name": "Church of San Giacomo",
+      "role": "setting",
+      "firstChapter": 36,
+      "precision": "exact",
+      "lonlat": [
+        12.47728,
+        41.90775
+      ],
+      "parent": "rome",
+      "today": "San Giacomo in Augusta, Via del Corso.",
+      "tagline": [
+        {
+          "from": 36,
+          "text": "Church on the Corso where Albert's mysterious masked beauty arranges to meet him."
+        }
+      ]
+    },
+    {
+      "id": "vatican",
+      "name": "The Vatican",
+      "role": "mentioned",
+      "firstChapter": 36,
+      "precision": "exact",
+      "lonlat": [
+        12.4534,
+        41.9029
+      ],
+      "parent": "rome",
+      "tagline": [
+        {
+          "from": 36,
+          "text": "Papal residence, where Franz is received by Pope Gregory XVI."
+        }
+      ]
+    },
+    {
+      "id": "bracciano-palace",
+      "name": "The Duke of Bracciano's palace",
+      "role": "setting",
+      "firstChapter": 37,
+      "precision": "approximate",
+      "lonlat": [
+        12.4829,
+        41.8962
+      ],
+      "radiusKm": 0.3,
+      "parent": "rome",
+      "today": "The Torlonia family (Dukes of Bracciano) had their palace on Piazza Venezia; demolished c. 1900.",
+      "tagline": [
+        {
+          "from": 37,
+          "text": "Roman palace where the Duke of Bracciano gives the Carnival's closing ball."
+        }
+      ]
+    },
+    {
+      "id": "appian-way",
+      "name": "The Appian Way",
+      "role": "setting",
+      "firstChapter": 37,
+      "precision": "approximate",
+      "lonlat": [
+        12.5079,
+        41.8653
+      ],
+      "radiusKm": 1.5,
+      "note": "Appian Way",
+      "today": "Via Appia Antica, now a regional park.",
+      "tagline": [
+        {
+          "from": 37,
+          "text": "Ancient road south of Rome, lined with tombs, out to the catacombs."
+        }
+      ]
+    },
+    {
+      "id": "catacombs-st-sebastian",
+      "name": "Catacombs of Saint Sebastian",
+      "role": "setting",
+      "firstChapter": 37,
+      "precision": "exact",
+      "lonlat": [
+        12.5158,
+        41.85593
+      ],
+      "note": "catacombs of St. Sebastian",
+      "tagline": [
+        {
+          "from": 37,
+          "text": "Underground burial galleries on the Appian Way, used as a bandits' lair."
+        }
+      ]
+    },
+    {
+      "id": "campagna",
+      "name": "The Roman Campagna",
+      "role": "mentioned",
+      "firstChapter": 37,
+      "precision": "approximate",
+      "lonlat": [
+        12.6,
+        41.85
+      ],
+      "radiusKm": 25,
+      "note": "Campagna",
+      "tagline": [
+        {
+          "from": 37,
+          "text": "Empty, malarial plain around Rome, country of shepherds and bandits."
+        }
+      ]
+    },
+    {
+      "id": "venice",
+      "name": "Venice",
+      "role": "mentioned",
+      "firstChapter": 38,
+      "precision": "exact",
+      "lonlat": [
+        12.3155,
+        45.4408
+      ],
+      "tagline": [
+        {
+          "from": 38,
+          "text": "Where Franz goes after parting from Albert in Rome."
+        }
+      ]
+    },
+    {
+      "id": "morcerf-house",
+      "name": "The Morcerf house",
+      "role": "setting",
+      "firstChapter": 38,
+      "precision": "approximate",
+      "lonlat": [
+        2.33492,
+        48.87189
+      ],
+      "radiusKm": 0.2,
+      "parent": "paris",
+      "aliases": [
+        {
+          "name": "No. 27, Rue du Helder",
+          "from": 38
+        }
+      ],
+      "note": "Rue du Helder",
+      "tagline": [
+        {
+          "from": 38,
+          "text": "Albert de Morcerf's family home in Paris, No. 27 Rue du Helder."
+        },
+        {
+          "from": 39,
+          "text": "Grand Paris house of the Count and Countess of Morcerf; Albert has a pavilion in its courtyard."
+        }
+      ]
+    },
+    {
+      "id": "bourse",
+      "name": "The Bourse",
+      "role": "mentioned",
+      "firstChapter": 39,
+      "precision": "exact",
+      "lonlat": [
+        2.34137,
+        48.86929
+      ],
+      "parent": "paris",
+      "note": "the Bourse",
+      "today": "Palais Brongniart, Place de la Bourse.",
+      "tagline": [
+        {
+          "from": 39,
+          "text": "The Paris stock exchange, where early news can make a fortune."
+        }
+      ]
+    },
+    {
+      "id": "bois-de-boulogne",
+      "name": "The Bois de Boulogne",
+      "role": "mentioned",
+      "firstChapter": 39,
+      "precision": "approximate",
+      "lonlat": [
+        2.2496,
+        48.8625
+      ],
+      "radiusKm": 1.5,
+      "note": "the Bois de Boulogne",
+      "tagline": [
+        {
+          "from": 39,
+          "text": "Great wooded park west of Paris where fashionable people ride and drive."
+        }
+      ]
+    },
+    {
+      "id": "villefort-house-paris",
+      "name": "The Villefort house",
+      "role": "setting",
+      "firstChapter": 39,
+      "precision": "approximate",
+      "lonlat": [
+        2.31585,
+        48.87138
+      ],
+      "radiusKm": 0.5,
+      "parent": "paris",
+      "note": "the Faubourg Saint-Honoré",
+      "tagline": [
+        {
+          "from": 39,
+          "text": "Paris home of M. de Villefort."
+        },
+        {
+          "from": 47,
+          "text": "Paris home of the king's attorney Villefort, in the Faubourg Saint-Honoré."
+        },
+        {
+          "from": 51,
+          "text": "Villefort's grand house in the Faubourg Saint-Honoré, home also to his paralysed father Noirtier."
+        }
+      ]
+    },
+    {
+      "id": "villefort-garden-gate",
+      "name": "The gate in the Villefort garden",
+      "role": "setting",
+      "firstChapter": 51,
+      "precision": "approximate",
+      "lonlat": [
+        2.3155,
+        48.8718
+      ],
+      "radiusKm": 0.5,
+      "parent": "villefort-house-paris",
+      "aliases": [
+        {
+          "name": "the lucern patch",
+          "from": 57
+        }
+      ],
+      "tagline": [
+        {
+          "from": 51,
+          "text": "Boarded-up gate at the end of the Villefort garden, where Valentine and Maximilian meet in secret."
+        },
+        {
+          "from": 57,
+          "text": "The lovers' secret meeting place, by a lucern patch behind the Villefort garden."
+        }
+      ]
+    },
+    {
+      "id": "danglars-house",
+      "name": "The Danglars house",
+      "role": "setting",
+      "firstChapter": 42,
+      "precision": "approximate",
+      "lonlat": [
+        2.33182,
+        48.87635
+      ],
+      "radiusKm": 0.3,
+      "parent": "paris",
+      "note": "Faubourg Saint-Germain / Chaussée d’Antin",
+      "tagline": [
+        {
+          "from": 42,
+          "text": "Paris house of the banker Baron Danglars."
+        },
+        {
+          "from": 46,
+          "text": "Baron Danglars's showy mansion in the Chaussée d'Antin, district of bankers."
+        }
+      ]
+    },
+    {
+      "id": "count-house-champs-elysees",
+      "name": "The Count's house on the Champs-Élysées",
+      "role": "setting",
+      "firstChapter": 40,
+      "precision": "approximate",
+      "lonlat": [
+        2.30845,
+        48.86989
+      ],
+      "radiusKm": 0.2,
+      "parent": "paris",
+      "note": "the Champs-Élysées",
+      "tagline": [
+        {
+          "from": 40,
+          "text": "Paris house the Count's servant Ali has bought and furnished for him."
+        },
+        {
+          "from": 42,
+          "text": "The Count of Monte Cristo's Paris mansion, No. 30 Champs-Élysées."
+        },
+        {
+          "from": 45,
+          "text": "The Count's Paris mansion, where a young Greek woman lives in secret apartments."
+        }
+      ]
+    },
+    {
+      "id": "morrel-house-paris",
+      "name": "The Morrels' house",
+      "role": "setting",
+      "firstChapter": 40,
+      "precision": "approximate",
+      "lonlat": [
+        2.36183,
+        48.86734
+      ],
+      "radiusKm": 0.2,
+      "parent": "paris",
+      "tagline": [
+        {
+          "from": 40,
+          "text": "Paris house where Maximilian's sister Julie lives with her husband Emmanuel."
+        },
+        {
+          "from": 50,
+          "text": "Cheerful house in the Rue Meslay of Julie, Emmanuel and Maximilian Morrel."
+        }
+      ]
+    },
+    {
+      "id": "house-at-auteuil",
+      "name": "The house at Auteuil",
+      "role": "setting",
+      "firstChapter": 42,
+      "precision": "approximate",
+      "lonlat": [
+        2.27254,
+        48.85122
+      ],
+      "radiusKm": 0.3,
+      "aliases": [
+        {
+          "name": "No. 28, Rue de la Fontaine",
+          "from": 42
+        }
+      ],
+      "today": "Auteuil is now part of Paris (16th arrondissement); the street is Rue La Fontaine.",
+      "tagline": [
+        {
+          "from": 42,
+          "text": "Country house near Paris the Count buys without seeing it."
+        },
+        {
+          "from": 43,
+          "text": "The Count's country house, where Bertuccio once tried to kill Villefort."
+        }
+      ]
+    },
+    {
+      "id": "ranelagh",
+      "name": "Ranelagh",
+      "role": "mentioned",
+      "firstChapter": 47,
+      "precision": "exact",
+      "lonlat": [
+        2.27,
+        48.858
+      ],
+      "note": "Ranelagh",
+      "today": "Jardin du Ranelagh, 16th arrondissement.",
+      "tagline": [
+        {
+          "from": 47,
+          "text": "Park and open-air ballroom at Passy, where the runaway grays began their dash."
+        }
+      ]
+    },
+    {
+      "id": "foundling-hospital",
+      "name": "The foundling hospital",
+      "role": "mentioned",
+      "firstChapter": 44,
+      "precision": "approximate",
+      "lonlat": [
+        2.3337,
+        48.83771
+      ],
+      "radiusKm": 0.3,
+      "parent": "paris",
+      "today": "Later the Hôpital Saint-Vincent-de-Paul, Avenue Denfert-Rochereau.",
+      "tagline": [
+        {
+          "from": 44,
+          "text": "Paris hospital for abandoned babies, where Bertuccio leaves the child he saved."
+        }
+      ]
+    },
+    {
+      "id": "opera-paris",
+      "name": "The Opéra",
+      "role": "setting",
+      "firstChapter": 53,
+      "precision": "exact",
+      "lonlat": [
+        2.33824,
+        48.8721
+      ],
+      "parent": "paris",
+      "note": "the Académie",
+      "today": "The Salle Le Peletier, the Opéra of the 1830s, burned down in 1873.",
+      "tagline": [
+        {
+          "from": 53,
+          "text": "The Paris Opéra, where all fashionable Paris comes to see and be seen."
+        }
+      ]
+    },
+    {
+      "id": "hotel-des-princes",
+      "name": "Hôtel des Princes",
+      "role": "mentioned",
+      "firstChapter": 55,
+      "precision": "approximate",
+      "lonlat": [
+        2.33953,
+        48.8709
+      ],
+      "radiusKm": 0.2,
+      "parent": "paris",
+      "tagline": [
+        {
+          "from": 55,
+          "text": "Paris hotel where Major Cavalcanti's luggage awaits him."
+        }
+      ]
+    },
+    {
+      "id": "nimes",
+      "name": "Nîmes",
+      "role": "mentioned",
+      "firstChapter": 43,
+      "precision": "exact",
+      "lonlat": [
+        4.3601,
+        43.8367
+      ],
+      "tagline": [
+        {
+          "from": 43,
+          "text": "Southern French city where Villefort was once king's attorney."
+        },
+        {
+          "from": 44,
+          "text": "City where Bertuccio's brother was murdered in 1815, and where Villefort refused him justice."
+        },
+        {
+          "from": 45,
+          "text": "City where Bertuccio was imprisoned and confessed to the Abbé Busoni."
+        }
+      ]
+    },
+    {
+      "id": "versailles",
+      "name": "Versailles",
+      "role": "mentioned",
+      "firstChapter": 44,
+      "precision": "exact",
+      "lonlat": [
+        2.1301,
+        48.8049
+      ],
+      "tagline": [
+        {
+          "from": 44,
+          "text": "Royal town near Paris where Bertuccio tracks Villefort."
+        }
+      ]
+    },
+    {
+      "id": "rogliano",
+      "name": "Rogliano, Cap Corse",
+      "role": "mentioned",
+      "firstChapter": 44,
+      "precision": "exact",
+      "lonlat": [
+        9.4168,
+        42.955
+      ],
+      "note": "Cap Corse",
+      "tagline": [
+        {
+          "from": 44,
+          "text": "Bertuccio's home village at the northern tip of Corsica, where his sister-in-law Assunta raises the rescued child."
+        }
+      ]
+    },
+    {
+      "id": "epirus",
+      "name": "Epirus",
+      "role": "mentioned",
+      "firstChapter": 49,
+      "precision": "approximate",
+      "lonlat": [
+        20.75,
+        39.65
+      ],
+      "radiusKm": 70,
+      "note": "Epirus",
+      "tagline": [
+        {
+          "from": 49,
+          "text": "Mountainous region of north-western Greece; Haydée wears its costume."
+        }
+      ]
+    },
+    {
+      "id": "trieste",
+      "name": "Trieste",
+      "role": "mentioned",
+      "firstChapter": 50,
+      "precision": "exact",
+      "lonlat": [
+        13.7768,
+        45.6495
+      ],
+      "tagline": [
+        {
+          "from": 50,
+          "text": "Adriatic port where Penelon saw the mysterious Englishman board a yacht."
+        }
+      ]
+    },
+    {
+      "id": "perugia",
+      "name": "Perugia",
+      "role": "mentioned",
+      "firstChapter": 52,
+      "precision": "exact",
+      "lonlat": [
+        12.3888,
+        43.1122
+      ],
+      "tagline": [
+        {
+          "from": 52,
+          "text": "Italian city where Madame de Villefort once discussed poisons with a stranger."
+        }
+      ]
+    },
+    {
+      "id": "yanina",
+      "name": "Yanina",
+      "role": "mentioned",
+      "firstChapter": 53,
+      "precision": "exact",
+      "lonlat": [
+        20.85228,
+        39.66398
+      ],
+      "today": "Ioannina, Greece.",
+      "tagline": [
+        {
+          "from": 53,
+          "text": "Capital of Ali Pasha in Epirus, where the Count of Morcerf served and made his fortune."
+        }
+      ]
+    },
+    {
+      "id": "treport",
+      "name": "Tréport",
+      "role": "mentioned",
+      "firstChapter": 54,
+      "precision": "exact",
+      "lonlat": [
+        1.38277,
+        50.05911
+      ],
+      "note": "Tréport",
+      "today": "Le Tréport, Seine-Maritime.",
+      "tagline": [
+        {
+          "from": 54,
+          "text": "Normandy seaside resort where Albert plans to take his mother."
+        }
+      ]
+    },
+    {
+      "id": "lucca",
+      "name": "Lucca",
+      "role": "mentioned",
+      "firstChapter": 55,
+      "precision": "exact",
+      "lonlat": [
+        10.5027,
+        43.8429
+      ],
+      "note": "Lucca",
+      "tagline": [
+        {
+          "from": 55,
+          "text": "Tuscan city whose old nobility Major Cavalcanti claims to belong to."
+        }
+      ]
+    },
+    {
+      "id": "pont-de-beauvoisin",
+      "name": "Pont-de-Beauvoisin",
+      "role": "mentioned",
+      "firstChapter": 56,
+      "precision": "exact",
+      "lonlat": [
+        5.67045,
+        45.53597
+      ],
+      "note": "Pont-de-Beauvoisin",
+      "tagline": [
+        {
+          "from": 56,
+          "text": "Frontier town between France and Savoy, where travellers from Italy enter France."
+        }
+      ]
+    },
+    {
+      "id": "pont-du-gard-inn",
+      "name": "The Pont du Gard inn",
+      "role": "setting",
+      "firstChapter": 26,
+      "precision": "approximate",
+      "lonlat": [
+        4.58,
+        43.78
+      ],
+      "radiusKm": 4,
+      "tagline": [
+        {
+          "from": 44,
+          "text": "Caderousse's roadside inn, where Bertuccio hides from customs officers."
+        },
+        {
+          "from": 45,
+          "text": "Caderousse's roadside inn, scene of a jeweller's murder."
+        }
+      ]
+    }
+  ],
+  "settings": {
+    "31": [
+      "monte-cristo-island",
+      "mc-creek",
+      "mc-grotto"
+    ],
+    "32": [
+      "mc-grotto",
+      "monte-cristo-island",
+      "pastrini-hotel"
+    ],
+    "33": [
+      "pastrini-hotel"
+    ],
+    "34": [
+      "colosseum",
+      "teatro-argentina",
+      "pastrini-hotel"
+    ],
+    "35": [
+      "pastrini-hotel",
+      "piazza-del-popolo"
+    ],
+    "36": [
+      "corso",
+      "rospoli-palace",
+      "teatro-argentina",
+      "san-giacomo"
+    ],
+    "37": [
+      "catacombs-st-sebastian",
+      "bracciano-palace",
+      "pastrini-hotel",
+      "appian-way"
+    ],
+    "38": [
+      "pastrini-hotel"
+    ],
+    "39": [
+      "morcerf-house"
+    ],
+    "40": [
+      "morcerf-house"
+    ],
+    "41": [
+      "morcerf-house"
+    ],
+    "42": [
+      "count-house-champs-elysees"
+    ],
+    "43": [
+      "house-at-auteuil"
+    ],
+    "44": [
+      "house-at-auteuil",
+      "pont-du-gard-inn"
+    ],
+    "45": [
+      "house-at-auteuil",
+      "pont-du-gard-inn",
+      "count-house-champs-elysees"
+    ],
+    "46": [
+      "count-house-champs-elysees",
+      "danglars-house"
+    ],
+    "47": [
+      "danglars-house",
+      "house-at-auteuil"
+    ],
+    "48": [
+      "count-house-champs-elysees"
+    ],
+    "49": [
+      "count-house-champs-elysees"
+    ],
+    "50": [
+      "morrel-house-paris"
+    ],
+    "51": [
+      "villefort-garden-gate"
+    ],
+    "52": [
+      "villefort-house-paris"
+    ],
+    "53": [
+      "opera-paris"
+    ],
+    "54": [
+      "count-house-champs-elysees"
+    ],
+    "55": [
+      "count-house-champs-elysees"
+    ],
+    "56": [
+      "count-house-champs-elysees"
+    ],
+    "57": [
+      "villefort-garden-gate"
+    ],
+    "58": [
+      "villefort-house-paris"
+    ],
+    "59": [
+      "villefort-house-paris"
+    ],
+    "60": [
+      "villefort-house-paris"
+    ]
+  },
+  "journeys": [
+    {
+      "id": "franz-to-monte-cristo",
+      "name": "Franz's voyage to Monte Cristo",
+      "who": [
+        "franz-depinay",
+        "gaetano"
+      ],
+      "legs": [
+        {
+          "chapter": 31,
+          "from": "elba",
+          "to": "pianosa",
+          "mode": "sea"
+        },
+        {
+          "chapter": 31,
+          "from": "pianosa",
+          "to": "monte-cristo-island",
+          "mode": "sea"
+        },
+        {
+          "chapter": 32,
+          "from": "monte-cristo-island",
+          "to": "leghorn",
+          "mode": "sea",
+          "via": [
+            [
+              10,
+              42.75
+            ],
+            [
+              10,
+              43.2
+            ]
+          ]
+        },
+        {
+          "chapter": 32,
+          "from": "leghorn",
+          "to": "florence",
+          "mode": "road"
+        },
+        {
+          "chapter": 32,
+          "from": "florence",
+          "to": "pastrini-hotel",
+          "mode": "road"
+        }
+      ]
+    },
+    {
+      "id": "sinbad-to-corsica",
+      "name": "Sinbad's yacht lands the Corsican bandits",
+      "who": [
+        "edmond-dantes"
+      ],
+      "legs": [
+        {
+          "chapter": 32,
+          "from": "monte-cristo-island",
+          "to": "porto-vecchio",
+          "mode": "sea",
+          "via": [
+            [
+              9.75,
+              41.95
+            ],
+            [
+              9.45,
+              41.6
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "albert-naples-rome",
+      "name": "Albert comes up from Naples for the Carnival",
+      "who": [
+        "albert-de-morcerf"
+      ],
+      "legs": [
+        {
+          "chapter": 32,
+          "from": "naples",
+          "to": "pastrini-hotel",
+          "mode": "road"
+        }
+      ]
+    },
+    {
+      "id": "catacombs-rescue",
+      "name": "The night drive to the catacombs",
+      "who": [
+        "edmond-dantes",
+        "franz-depinay",
+        "peppino",
+        "ali"
+      ],
+      "legs": [
+        {
+          "chapter": 37,
+          "from": "pastrini-hotel",
+          "to": "catacombs-st-sebastian",
+          "mode": "road"
+        },
+        {
+          "chapter": 37,
+          "from": "catacombs-st-sebastian",
+          "to": "bracciano-palace",
+          "mode": "road"
+        }
+      ]
+    },
+    {
+      "id": "albert-home-to-paris",
+      "name": "Albert returns to Paris",
+      "who": [
+        "albert-de-morcerf"
+      ],
+      "legs": [
+        {
+          "chapter": 38,
+          "from": "pastrini-hotel",
+          "to": "morcerf-house",
+          "mode": "road"
+        }
+      ]
+    },
+    {
+      "id": "franz-to-venice",
+      "name": "Franz leaves for Venice",
+      "who": [
+        "franz-depinay"
+      ],
+      "legs": [
+        {
+          "chapter": 38,
+          "from": "pastrini-hotel",
+          "to": "venice",
+          "mode": "road"
+        }
+      ]
+    },
+    {
+      "id": "count-comes-to-paris",
+      "name": "The Count of Monte Cristo arrives in Paris",
+      "who": [
+        "edmond-dantes"
+      ],
+      "legs": [
+        {
+          "chapter": 40,
+          "from": "rome",
+          "to": "morcerf-house",
+          "mode": "road"
+        }
+      ]
+    },
+    {
+      "id": "bertuccio-vendetta",
+      "name": "Bertuccio's vendetta",
+      "who": [
+        "bertuccio"
+      ],
+      "legs": [
+        {
+          "chapter": 44,
+          "from": "rogliano",
+          "to": "marseilles",
+          "mode": "sea",
+          "via": [
+            [
+              9.35,
+              43.08
+            ],
+            [
+              7,
+              43
+            ],
+            [
+              5.6,
+              43.1
+            ],
+            [
+              5.33,
+              43.2
+            ]
+          ]
+        },
+        {
+          "chapter": 44,
+          "from": "marseilles",
+          "to": "nimes",
+          "mode": "road"
+        },
+        {
+          "chapter": 44,
+          "from": "nimes",
+          "to": "versailles",
+          "mode": "road"
+        },
+        {
+          "chapter": 44,
+          "from": "versailles",
+          "to": "house-at-auteuil",
+          "mode": "road"
+        },
+        {
+          "chapter": 44,
+          "from": "house-at-auteuil",
+          "to": "foundling-hospital",
+          "mode": "road"
+        }
+      ]
+    },
+    {
+      "id": "auteuil-visit",
+      "name": "The Count takes Bertuccio to Auteuil",
+      "who": [
+        "edmond-dantes",
+        "bertuccio"
+      ],
+      "legs": [
+        {
+          "chapter": 43,
+          "from": "count-house-champs-elysees",
+          "to": "house-at-auteuil",
+          "mode": "road"
+        },
+        {
+          "chapter": 45,
+          "from": "house-at-auteuil",
+          "to": "count-house-champs-elysees",
+          "mode": "road"
+        }
+      ]
+    },
+    {
+      "id": "cavalcanti-to-paris",
+      "name": "Major Cavalcanti travels to Paris",
+      "who": [
+        "bartolomeo-cavalcanti"
+      ],
+      "legs": [
+        {
+          "chapter": 55,
+          "from": "lucca",
+          "to": "count-house-champs-elysees",
+          "mode": "road"
+        }
+      ]
+    },
+    {
+      "id": "andrea-to-paris",
+      "name": "Andrea Cavalcanti enters France",
+      "who": [
+        "andrea-cavalcanti"
+      ],
+      "legs": [
+        {
+          "chapter": 56,
+          "from": "pont-de-beauvoisin",
+          "to": "count-house-champs-elysees",
+          "mode": "road"
+        }
+      ]
+    }
+  ]
+}

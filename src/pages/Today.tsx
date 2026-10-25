@@ -6,6 +6,8 @@ import { Ring } from '../components/ui'
 import { useBook } from '../lib/book-context'
 import { href } from '../lib/router'
 import { chapter, newInChapter, notesUpTo, recapFor, whoMattersNow } from '../lib/spoilers'
+import { bestFrame, currentPlace } from '../lib/atlas'
+import { atlasHref } from '../components/AtlasView'
 import { planFor, plans, prefs } from '../lib/store'
 import { chapterMinutes, estimate, formatMinutes, planStats } from '../lib/planner'
 
@@ -143,10 +145,17 @@ function LeftOff() {
   const { book, upTo } = useBook()
   const ch = chapter(book, upTo, upTo)!
   const id = book.meta.id
+  const here = currentPlace(book, upTo)
+  const frame = here && bestFrame(book, here, upTo)
   return (
     <section aria-labelledby="left-off">
       <p className="eyebrow" id="left-off">Where you left off</p>
       <div className="card">
+        {here && (
+          <a className="where-line" href={frame ? atlasHref(id, { place: here.id, frame: frame.id }) : href('b', id, 'places', here.id)}>
+            <Icon name="pin" className="icon--sm" /> {here.name}
+          </a>
+        )}
         <h3 style={{ fontSize: '1.25rem', marginBottom: 6 }}>
           Ch {ch.number}
           {ch.title ? ` · ${ch.title}` : ''}

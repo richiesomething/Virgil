@@ -69,3 +69,63 @@ if (primers.length) {
 for (const f of ['recaps.json', 'word-counts.json']) {
   if (existsSync(join(dir, f))) writeFileSync(join('src/books', book, f), readFileSync(join(dir, f), 'utf8'))
 }
+
+// Atlas: frames + plan art (hand-authored) and places/settings/journeys (one or more files, merged by id).
+const atlasDir = join(dir, 'atlas')
+if (existsSync(join(atlasDir, 'frames.json'))) {
+  const frames = JSON.parse(readFileSync(join(atlasDir, 'frames.json'), 'utf8')).map(({ landmarks, ...f }) => f)
+  const files = readdirSync(dir).filter((f) => /^places-.*\.json$/.test(f)).sort()
+  const records = new Map()
+  const settings = {}
+  const journeys = []
+  for (const f of files) {
+    const d = JSON.parse(readFileSync(join(dir, f), 'utf8'))
+    for (const p of d.places) records.set(p.id, [...(records.get(p.id) ?? []), p])
+    for (const [ch, ids] of Object.entries(d.settings ?? {})) settings[ch] = [...new Set([...(settings[ch] ?? []), ...ids])]
+    journeys.push(...(d.journeys ?? []))
+  }
+  const used = new Set(Object.values(settings).flat())
+  const places = [...records.values()].map((recs) => {
+    // The record that introduces the place wins for name, position and precision; the rest add to it.
+    const [primary] = [...recs].sort((a, b) => a.firstChapter - b.firstChapter)
+    const byFrom = new Map()
+    for (const t of recs.flatMap((r) => r.tagline ?? [])) if (!byFrom.has(t.from)) byFrom.set(t.from, t)
+    const aliases = new Map()
+    for (const a of recs.flatMap((r) => r.aliases ?? [])) if (!aliases.has(a.name)) aliases.set(a.name, a)
+    const xy = Object.assign({}, ...recs.map((r) => r.xy ?? {}).reverse(), primary.xy ?? {})
+    const pick = (k) => primary[k] ?? recs.find((r) => r[k] != null)?.[k]
+    const place = {
+      id: primary.id,
+      name: primary.name,
+      role: used.has(primary.id) || recs.some((r) => r.role === 'setting') ? 'setting' : 'mentioned',
+      firstChapter: primary.firstChapter,
+      precision: primary.precision,
+      ...(primary.lonlat ? { lonlat: primary.lonlat } : {}),
+      ...(primary.radiusKm ? { radiusKm: primary.radiusKm } : {}),
+      ...(Object.keys(xy).length ? { xy } : {}),
+      ...(pick('parent') ? { parent: pick('parent') } : {}),
+      ...(pick('today') ? { today: pick('today') } : {}),
+      ...(pick('note') ? { note: pick('note') } : {}),
+      tagline: [...byFrom.values()].sort((a, b) => a.from - b.from),
+      ...(aliases.size ? { aliases: [...aliases.values()].sort((a, b) => a.from - b.from) } : {}),
+      ...(pick('mergedInto') ? { mergedInto: pick('mergedInto') } : {}),
+    }
+    return place
+  }).sort((a, b) => a.firstChapter - b.firstChapter || a.id.localeCompare(b.id))
+  const seen = new Set()
+  for (const j of journeys) {
+    while (seen.has(j.id)) j.id += '-2'
+    seen.add(j.id)
+  }
+  // Glossary notes about a place point back at it.
+  const byTerm = new Map(noteList.map((n) => [n.term, n]))
+  for (const p of places) if (p.note && byTerm.has(p.note)) byTerm.get(p.note).placeId = p.id
+  if (rawNotes.length) writeFileSync(join('src/books', book, 'notes.json'), JSON.stringify(noteList, null, 2) + '\n')
+  const atlas = { frames, places, settings, journeys }
+  writeFileSync(join('src/books', book, 'atlas.json'), JSON.stringify(atlas, null, 1) + '\n')
+  console.log(`Wrote atlas for ${book}: ${frames.length} frames, ${places.length} places, ${journeys.length} journeys`)
+  // Plan-frame drawings ship as their own lazily loaded files.
+  for (const f of readdirSync(atlasDir).filter((f) => /^art-.*\.json$/.test(f))) {
+    writeFileSync(join('src/books', book, 'atlas', f.replace(/^art-/, '')), readFileSync(join(atlasDir, f), 'utf8'))
+  }
+}

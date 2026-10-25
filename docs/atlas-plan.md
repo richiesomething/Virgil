@@ -1,6 +1,12 @@
 # Atlas: a physical map for Virgil (plan)
 
-Status: proposal, not built. Working name **Atlas**, to keep it distinct from the existing relationship map.
+Status: **built** (October 2026) for all three books. The data format is in `docs/atlas-data-spec.md`.
+
+The build differs from this plan in four ways:
+- **No line through every setting.** The "story path" through all settings was dropped: in city frames it turned into spaghetti. What the book's movement actually is now comes from authored **journeys**, with "recent" legs drawn by default. The current chapter's places are drawn in gold, plus a "you are here" lantern pulse.
+- **Map view is full-screen.** It sits between the header and the tab bar, with a "List" pill. It is not an inline map under the segment control.
+- **Basemaps** are built by `scripts/atlas/build-basemaps.mjs` from Natural Earth and OpenStreetMap. Drawings are authored in `scripts/atlas/draw-plans.py`.
+- **20,000 Leagues** isn't in the library yet. Its ocean frame and depth profile are still to do.
 
 ## 1. What readers need
 

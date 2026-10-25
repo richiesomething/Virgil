@@ -1,5 +1,6 @@
 import Icon from '../components/Icon'
 import Primer from '../components/Primer'
+import WhereCard from '../components/WhereCard'
 import { initials } from '../components/CharacterChip'
 import { NoteBody, kindLabel } from '../components/Sheets'
 import { Segmented } from '../components/ui'
@@ -77,6 +78,7 @@ function ReadChapter({ n }: { n: number }) {
       </div>
 
       <div style={{ marginTop: 16 }}>
+        {tab === 'summary' && <WhereCard n={n} />}
         {tab === 'summary' && (
           <div className="prose">
             {ch.details.map((p, i) => (

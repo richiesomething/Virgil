@@ -120,6 +120,58 @@ for (const book of readdirSync(root, { withFileTypes: true }).filter((d) => d.is
   const words = optional('word-counts.json')
   if (words.length && words.length !== count) fail(book, `word-counts has ${words.length} entries, expected ${count}`)
 
+  // Atlas: places, settings and journeys, gated like everything else.
+  if (existsSync(join(root, book, 'atlas.json'))) {
+    const atlas = load('atlas.json')
+    const frames = new Map(atlas.frames.map((f) => [f.id, f]))
+    const places = new Map()
+    for (const f of atlas.frames) {
+      if (!['geo', 'plan'].includes(f.type) || !f.title || !f.short) fail(book, `frame ${f.id} is malformed`)
+      if (f.type === 'geo' && !existsSync(join(root, book, 'atlas', `${f.id}.json`))) fail(book, `frame ${f.id} has no basemap (run scripts/atlas/build-basemaps.mjs)`)
+      if (f.type === 'plan' && !existsSync(join(root, book, 'atlas', `${f.id}.json`))) fail(book, `frame ${f.id} has no drawing`)
+      if (f.parent && !frames.has(f.parent)) fail(book, `frame ${f.id} has unknown parent ${f.parent}`)
+    }
+    for (const p of atlas.places) {
+      const where = `place ${p.id}`
+      if (places.has(p.id)) fail(book, `duplicate place id ${p.id}`)
+      places.set(p.id, p)
+      if (!p.name || !['setting', 'mentioned'].includes(p.role)) fail(book, `${where} is missing name/role`)
+      if (!['exact', 'approximate', 'fictional', 'unknown'].includes(p.precision)) fail(book, `${where} has bad precision`)
+      if (!(p.firstChapter >= 1 && p.firstChapter <= count)) fail(book, `${where} has bad firstChapter`)
+      if (!p.tagline?.length || p.tagline[0].from > p.firstChapter) fail(book, `${where} needs a tagline at its first chapter (${p.firstChapter})`)
+      for (const x of [...(p.tagline ?? []), ...(p.aliases ?? [])]) if (x.from < p.firstChapter) fail(book, `${where} reveals something (from ${x.from}) before it appears (${p.firstChapter})`)
+      if (p.lonlat && !(Math.abs(p.lonlat[0]) <= 180 && Math.abs(p.lonlat[1]) <= 90)) fail(book, `${where} has bad lonlat`)
+      for (const [fid, xy] of Object.entries(p.xy ?? {})) {
+        const f = frames.get(fid)
+        if (!f || f.type !== 'plan') fail(book, `${where} is placed in unknown plan frame ${fid}`)
+        else if (!(xy[0] >= 0 && xy[1] >= 0 && xy[0] <= f.size[0] && xy[1] <= f.size[1])) fail(book, `${where} is outside frame ${fid}`)
+      }
+      if (p.precision !== 'unknown' && !p.lonlat && !p.xy) fail(book, `${where} has no position but isn't marked unknown`)
+    }
+    for (const p of atlas.places) if (p.parent && !places.has(p.parent)) fail(book, `place ${p.id} has unknown parent ${p.parent}`)
+    for (const [ch, ids] of Object.entries(atlas.settings)) {
+      if (!(Number(ch) >= 1 && Number(ch) <= count)) fail(book, `settings for bad chapter ${ch}`)
+      for (const id of ids) {
+        const p = places.get(id)
+        if (!p) fail(book, `chapter ${ch} is set at unknown place ${id}`)
+        else if (p.firstChapter > Number(ch)) fail(book, `chapter ${ch} is set at ${id}, which doesn't appear until ch ${p.firstChapter}`)
+      }
+    }
+    for (let n = 1; n <= count; n++) if (!atlas.settings[String(n)]?.length) console.warn(`! [${book}] chapter ${n} has no setting`)
+    for (const j of atlas.journeys) {
+      if (!j.name || !j.legs?.length) fail(book, `journey ${j.id} is malformed`)
+      for (const id of j.who) if (!byId.has(id)) fail(book, `journey ${j.id} has unknown traveller ${id}`)
+      for (const l of j.legs) {
+        for (const id of [l.from, l.to]) {
+          const p = places.get(id)
+          if (!p) fail(book, `journey ${j.id} uses unknown place ${id}`)
+          else if (p.firstChapter > l.chapter) fail(book, `journey ${j.id} reaches ${id} in ch ${l.chapter}, before it appears (ch ${p.firstChapter})`)
+        }
+      }
+    }
+    console.log(`✓ [${book}] atlas: ${atlas.frames.length} frames, ${atlas.places.length} places, ${atlas.journeys.length} journeys`)
+  }
+
   for (const c of characters) {
     if (!chapters.some((ch) => ch.characters.includes(c.id)))
       console.warn(`! [${book}] character ${c.id} is not listed in any chapter`)

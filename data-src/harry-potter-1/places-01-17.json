@@ -1,0 +1,1301 @@
+{
+  "places": [
+    {
+      "id": "privet-drive",
+      "name": "Number four, Privet Drive",
+      "role": "setting",
+      "firstChapter": 1,
+      "precision": "approximate",
+      "lonlat": [
+        -0.341,
+        51.272
+      ],
+      "radiusKm": 12,
+      "tagline": [
+        {
+          "from": 1,
+          "text": "The Dursleys’ perfectly ordinary house in Little Whinging, Surrey."
+        },
+        {
+          "from": 2,
+          "text": "Harry’s home: a cupboard under its stairs."
+        }
+      ],
+      "note": "Surrey",
+      "aliases": [
+        {
+          "name": "Privet Drive",
+          "from": 1
+        },
+        {
+          "name": "Little Whinging, Surrey",
+          "from": 1
+        }
+      ]
+    },
+    {
+      "id": "godrics-hollow",
+      "name": "Godric’s Hollow",
+      "role": "mentioned",
+      "firstChapter": 1,
+      "precision": "unknown",
+      "tagline": [
+        {
+          "from": 1,
+          "text": "Where the Potters lived, and where the dark wizard came for them."
+        }
+      ]
+    },
+    {
+      "id": "bristol",
+      "name": "Bristol",
+      "role": "mentioned",
+      "firstChapter": 1,
+      "precision": "exact",
+      "lonlat": [
+        -2.58791,
+        51.45452
+      ],
+      "today": "A major city in south-west England.",
+      "tagline": [
+        {
+          "from": 1,
+          "text": "Baby Harry fell asleep as Hagrid flew over it."
+        }
+      ]
+    },
+    {
+      "id": "london-zoo",
+      "name": "The zoo",
+      "role": "setting",
+      "firstChapter": 2,
+      "precision": "exact",
+      "lonlat": [
+        -0.15481,
+        51.53481
+      ],
+      "today": "ZSL London Zoo, Regent’s Park. The book just says “the zoo”; it is usually taken to be London Zoo.",
+      "tagline": [
+        {
+          "from": 2,
+          "text": "Where Dudley spends his birthday; in the reptile house the glass vanishes."
+        }
+      ],
+      "aliases": [
+        {
+          "name": "London Zoo",
+          "from": 2
+        }
+      ]
+    },
+    {
+      "id": "railview-hotel",
+      "name": "The Railview Hotel, Cokeworth",
+      "role": "setting",
+      "firstChapter": 3,
+      "precision": "unknown",
+      "tagline": [
+        {
+          "from": 3,
+          "text": "Gloomy hotel where the fleeing Dursleys spend a night; letters for Harry arrive there too."
+        }
+      ]
+    },
+    {
+      "id": "hut-on-the-rock",
+      "name": "The hut on the rock",
+      "role": "setting",
+      "firstChapter": 3,
+      "precision": "unknown",
+      "tagline": [
+        {
+          "from": 3,
+          "text": "A miserable shack on a rock out at sea, where Uncle Vernon hides the family from the letters."
+        },
+        {
+          "from": 4,
+          "text": "Where Hagrid finds Harry at midnight on his eleventh birthday."
+        }
+      ]
+    },
+    {
+      "id": "charing-cross-road",
+      "name": "Charing Cross Road",
+      "role": "mentioned",
+      "firstChapter": 5,
+      "precision": "exact",
+      "lonlat": [
+        -0.1291,
+        51.5127
+      ],
+      "xy": {
+        "diagon-alley": [
+          40,
+          260
+        ]
+      },
+      "today": "Still lined with bookshops, between Oxford Street and Trafalgar Square.",
+      "tagline": [
+        {
+          "from": 5,
+          "text": "Busy London street of bookshops; the Leaky Cauldron hides on it."
+        }
+      ],
+      "note": "Charing Cross Road"
+    },
+    {
+      "id": "leaky-cauldron",
+      "name": "The Leaky Cauldron",
+      "role": "setting",
+      "firstChapter": 5,
+      "precision": "fictional",
+      "lonlat": [
+        -0.129,
+        51.5125
+      ],
+      "radiusKm": 0.3,
+      "xy": {
+        "diagon-alley": [
+          140,
+          260
+        ]
+      },
+      "parent": "charing-cross-road",
+      "tagline": [
+        {
+          "from": 5,
+          "text": "Dingy wizard pub on Charing Cross Road that Muggles can’t see; its back yard leads to Diagon Alley."
+        }
+      ],
+      "note": "Leaky Cauldron"
+    },
+    {
+      "id": "diagon-alley",
+      "name": "Diagon Alley",
+      "role": "setting",
+      "firstChapter": 5,
+      "precision": "fictional",
+      "lonlat": [
+        -0.1288,
+        51.5126
+      ],
+      "radiusKm": 0.3,
+      "xy": {
+        "diagon-alley": [
+          560,
+          260
+        ]
+      },
+      "tagline": [
+        {
+          "from": 5,
+          "text": "London’s hidden wizarding shopping street, through a brick wall behind the Leaky Cauldron."
+        }
+      ]
+    },
+    {
+      "id": "gringotts",
+      "name": "Gringotts",
+      "role": "setting",
+      "firstChapter": 5,
+      "precision": "fictional",
+      "lonlat": [
+        -0.1286,
+        51.51265
+      ],
+      "radiusKm": 0.3,
+      "xy": {
+        "diagon-alley": [
+          900,
+          240
+        ]
+      },
+      "parent": "diagon-alley",
+      "tagline": [
+        {
+          "from": 5,
+          "text": "The goblin-run wizarding bank, with vaults deep underground reached by rattling carts."
+        },
+        {
+          "from": 8,
+          "text": "A high-security vault there was broken into on Harry’s birthday; it had been emptied that same day."
+        }
+      ]
+    },
+    {
+      "id": "madam-malkins",
+      "name": "Madam Malkin’s Robes for All Occasions",
+      "role": "setting",
+      "firstChapter": 5,
+      "precision": "fictional",
+      "xy": {
+        "diagon-alley": [
+          500,
+          165
+        ]
+      },
+      "parent": "diagon-alley",
+      "tagline": [
+        {
+          "from": 5,
+          "text": "Robe shop where Harry meets a pale, drawling boy."
+        }
+      ]
+    },
+    {
+      "id": "ollivanders",
+      "name": "Ollivanders",
+      "role": "setting",
+      "firstChapter": 5,
+      "precision": "fictional",
+      "xy": {
+        "diagon-alley": [
+          740,
+          355
+        ]
+      },
+      "parent": "diagon-alley",
+      "tagline": [
+        {
+          "from": 5,
+          "text": "Narrow, dusty wand shop where Harry’s holly and phoenix-feather wand chooses him."
+        }
+      ]
+    },
+    {
+      "id": "kings-cross",
+      "name": "King’s Cross station",
+      "role": "setting",
+      "firstChapter": 5,
+      "precision": "exact",
+      "lonlat": [
+        -0.1229,
+        51.5306
+      ],
+      "today": "King’s Cross station, London; a luggage trolley half-vanishes into a wall there for visitors.",
+      "tagline": [
+        {
+          "from": 5,
+          "text": "London station named on Harry’s ticket to Hogwarts."
+        },
+        {
+          "from": 6,
+          "text": "London’s mainline station for the north, where Uncle Vernon drops Harry off."
+        }
+      ],
+      "note": "King's Cross"
+    },
+    {
+      "id": "platform-nine-and-three-quarters",
+      "name": "Platform nine and three-quarters",
+      "role": "setting",
+      "firstChapter": 5,
+      "precision": "fictional",
+      "lonlat": [
+        -0.1235,
+        51.5315
+      ],
+      "radiusKm": 0.1,
+      "parent": "kings-cross",
+      "tagline": [
+        {
+          "from": 5,
+          "text": "The secret platform for the Hogwarts Express."
+        },
+        {
+          "from": 6,
+          "text": "Reached by walking straight through the barrier between platforms nine and ten."
+        }
+      ]
+    },
+    {
+      "id": "ministry-of-magic",
+      "name": "The Ministry of Magic",
+      "role": "mentioned",
+      "firstChapter": 16,
+      "precision": "approximate",
+      "lonlat": [
+        -0.1276,
+        51.5072
+      ],
+      "radiusKm": 4,
+      "tagline": [
+        {
+          "from": 16,
+          "text": "The wizarding government in London; an urgent owl calls Dumbledore away there."
+        }
+      ],
+      "note": "Ministry of Magic"
+    },
+    {
+      "id": "devon",
+      "name": "Devon",
+      "role": "mentioned",
+      "firstChapter": 13,
+      "precision": "approximate",
+      "lonlat": [
+        -3.661,
+        50.724
+      ],
+      "radiusKm": 50,
+      "tagline": [
+        {
+          "from": 13,
+          "text": "Rural county in south-west England where Nicolas Flamel lives quietly."
+        }
+      ],
+      "note": "Devon"
+    },
+    {
+      "id": "romania",
+      "name": "Romania",
+      "role": "mentioned",
+      "firstChapter": 12,
+      "precision": "approximate",
+      "lonlat": [
+        24.686,
+        45.985
+      ],
+      "radiusKm": 200,
+      "tagline": [
+        {
+          "from": 12,
+          "text": "Where Ron’s brother Charlie studies dragons."
+        },
+        {
+          "from": 14,
+          "text": "Where Charlie’s friends take Norbert."
+        }
+      ],
+      "note": "Romania"
+    },
+    {
+      "id": "hogwarts",
+      "name": "Hogwarts",
+      "role": "setting",
+      "firstChapter": 4,
+      "precision": "unknown",
+      "xy": {
+        "hogwarts": [
+          500,
+          230
+        ]
+      },
+      "tagline": [
+        {
+          "from": 4,
+          "text": "Hogwarts School of Witchcraft and Wizardry."
+        },
+        {
+          "from": 6,
+          "text": "A vast castle perched high above a great black lake."
+        }
+      ],
+      "aliases": [
+        {
+          "name": "Hogwarts School of Witchcraft and Wizardry",
+          "from": 4
+        }
+      ]
+    },
+    {
+      "id": "hogsmeade-station",
+      "name": "Hogsmeade station",
+      "role": "setting",
+      "firstChapter": 6,
+      "precision": "fictional",
+      "xy": {
+        "hogwarts": [
+          170,
+          690
+        ]
+      },
+      "tagline": [
+        {
+          "from": 6,
+          "text": "Little station where the Hogwarts Express stops; Hagrid gathers the first-years there."
+        }
+      ]
+    },
+    {
+      "id": "hogsmeade",
+      "name": "Hogsmeade",
+      "role": "mentioned",
+      "firstChapter": 14,
+      "precision": "fictional",
+      "xy": {
+        "hogwarts": [
+          90,
+          640
+        ]
+      },
+      "tagline": [
+        {
+          "from": 14,
+          "text": "The wizarding village near Hogwarts; Hagrid won his dragon egg at cards in its pub."
+        }
+      ],
+      "note": "Hogsmeade"
+    },
+    {
+      "id": "great-lake",
+      "name": "The lake",
+      "role": "setting",
+      "firstChapter": 6,
+      "precision": "fictional",
+      "xy": {
+        "hogwarts": [
+          520,
+          520
+        ]
+      },
+      "parent": "hogwarts",
+      "tagline": [
+        {
+          "from": 6,
+          "text": "The great black lake below the castle, crossed by the first-years in little boats."
+        }
+      ]
+    },
+    {
+      "id": "underground-harbour",
+      "name": "The underground harbour",
+      "role": "setting",
+      "firstChapter": 6,
+      "precision": "fictional",
+      "xy": {
+        "hogwarts": [
+          500,
+          345
+        ]
+      },
+      "parent": "hogwarts",
+      "tagline": [
+        {
+          "from": 6,
+          "text": "Where the boats land, through a curtain of ivy in the cliff below the castle."
+        }
+      ]
+    },
+    {
+      "id": "hagrids-hut",
+      "name": "Hagrid’s hut",
+      "role": "setting",
+      "firstChapter": 8,
+      "precision": "fictional",
+      "xy": {
+        "hogwarts": [
+          800,
+          330
+        ]
+      },
+      "parent": "hogwarts",
+      "tagline": [
+        {
+          "from": 8,
+          "text": "Hagrid’s wooden house at the edge of the Forbidden Forest, with Fang and rock cakes."
+        },
+        {
+          "from": 14,
+          "text": "Where Hagrid hatches a baby dragon in the fire."
+        }
+      ]
+    },
+    {
+      "id": "greenhouses",
+      "name": "The greenhouses",
+      "role": "setting",
+      "firstChapter": 8,
+      "precision": "fictional",
+      "xy": {
+        "hogwarts": [
+          680,
+          300
+        ]
+      },
+      "parent": "hogwarts",
+      "tagline": [
+        {
+          "from": 8,
+          "text": "Behind the castle, where Professor Sprout teaches Herbology."
+        }
+      ]
+    },
+    {
+      "id": "forbidden-forest",
+      "name": "The Forbidden Forest",
+      "role": "setting",
+      "firstChapter": 7,
+      "precision": "fictional",
+      "xy": {
+        "hogwarts": [
+          905,
+          430
+        ]
+      },
+      "parent": "hogwarts",
+      "tagline": [
+        {
+          "from": 7,
+          "text": "The dark forest on the school grounds, forbidden to students."
+        },
+        {
+          "from": 15,
+          "text": "Something is killing unicorns in it; centaurs live there."
+        }
+      ]
+    },
+    {
+      "id": "flying-lawn",
+      "name": "The lawn for flying lessons",
+      "role": "setting",
+      "firstChapter": 9,
+      "precision": "fictional",
+      "xy": {
+        "hogwarts": [
+          360,
+          360
+        ]
+      },
+      "parent": "hogwarts",
+      "tagline": [
+        {
+          "from": 9,
+          "text": "Flat lawn across the grounds from the forest, where Madam Hooch teaches flying and Harry turns out to be a natural."
+        }
+      ]
+    },
+    {
+      "id": "quidditch-pitch",
+      "name": "The Quidditch pitch",
+      "role": "setting",
+      "firstChapter": 9,
+      "precision": "fictional",
+      "xy": {
+        "hogwarts": [
+          210,
+          250
+        ]
+      },
+      "parent": "hogwarts",
+      "tagline": [
+        {
+          "from": 9,
+          "text": "The school’s Quidditch field, with hoops at each end."
+        },
+        {
+          "from": 11,
+          "text": "Where Harry’s broom goes wild in his first match."
+        }
+      ]
+    },
+    {
+      "id": "entrance-hall",
+      "name": "The Entrance Hall",
+      "role": "setting",
+      "firstChapter": 7,
+      "precision": "fictional",
+      "xy": {
+        "castle": [
+          300,
+          585
+        ]
+      },
+      "parent": "hogwarts",
+      "tagline": [
+        {
+          "from": 7,
+          "text": "Huge stone hall inside the oak front doors, with a marble staircase."
+        }
+      ]
+    },
+    {
+      "id": "great-hall",
+      "name": "The Great Hall",
+      "role": "setting",
+      "firstChapter": 7,
+      "precision": "fictional",
+      "xy": {
+        "castle": [
+          560,
+          585
+        ]
+      },
+      "parent": "hogwarts",
+      "tagline": [
+        {
+          "from": 7,
+          "text": "Where the school eats and the Sorting happens, under a ceiling enchanted to look like the sky."
+        }
+      ]
+    },
+    {
+      "id": "gryffindor-tower",
+      "name": "Gryffindor Tower",
+      "role": "setting",
+      "firstChapter": 7,
+      "precision": "fictional",
+      "xy": {
+        "castle": [
+          230,
+          110
+        ]
+      },
+      "parent": "hogwarts",
+      "tagline": [
+        {
+          "from": 7,
+          "text": "Gryffindor’s common room and dormitories, behind the portrait of the Fat Lady."
+        }
+      ]
+    },
+    {
+      "id": "potions-dungeon",
+      "name": "The Potions dungeon",
+      "role": "setting",
+      "firstChapter": 8,
+      "precision": "fictional",
+      "xy": {
+        "castle": [
+          400,
+          665
+        ]
+      },
+      "parent": "hogwarts",
+      "tagline": [
+        {
+          "from": 8,
+          "text": "Cold dungeon classroom where Snape teaches Potions."
+        }
+      ]
+    },
+    {
+      "id": "trophy-room",
+      "name": "The trophy room",
+      "role": "setting",
+      "firstChapter": 9,
+      "precision": "approximate",
+      "xy": {
+        "castle": [
+          360,
+          365
+        ]
+      },
+      "parent": "hogwarts",
+      "tagline": [
+        {
+          "from": 9,
+          "text": "Where Malfoy challenges Harry to a midnight duel, then never turns up."
+        }
+      ]
+    },
+    {
+      "id": "third-floor-corridor",
+      "name": "The forbidden third-floor corridor",
+      "role": "setting",
+      "firstChapter": 7,
+      "precision": "fictional",
+      "xy": {
+        "castle": [
+          640,
+          365
+        ]
+      },
+      "parent": "hogwarts",
+      "tagline": [
+        {
+          "from": 7,
+          "text": "A corridor Dumbledore forbids on pain of a very painful death."
+        },
+        {
+          "from": 9,
+          "text": "Where a three-headed dog guards a trapdoor."
+        }
+      ]
+    },
+    {
+      "id": "hospital-wing",
+      "name": "The hospital wing",
+      "role": "setting",
+      "firstChapter": 9,
+      "precision": "approximate",
+      "xy": {
+        "castle": [
+          700,
+          510
+        ]
+      },
+      "parent": "hogwarts",
+      "tagline": [
+        {
+          "from": 9,
+          "text": "Madam Pomfrey’s infirmary."
+        },
+        {
+          "from": 17,
+          "text": "Where Harry wakes after the fight below the trapdoor."
+        }
+      ]
+    },
+    {
+      "id": "girls-bathroom",
+      "name": "The girls’ bathroom",
+      "role": "setting",
+      "firstChapter": 10,
+      "precision": "approximate",
+      "xy": {
+        "castle": [
+          420,
+          510
+        ]
+      },
+      "parent": "hogwarts",
+      "tagline": [
+        {
+          "from": 10,
+          "text": "Where Harry and Ron save Hermione from a mountain troll."
+        }
+      ]
+    },
+    {
+      "id": "staff-room",
+      "name": "The staff room",
+      "role": "setting",
+      "firstChapter": 11,
+      "precision": "approximate",
+      "xy": {
+        "castle": [
+          800,
+          585
+        ]
+      },
+      "parent": "hogwarts",
+      "tagline": [
+        {
+          "from": 11,
+          "text": "The teachers’ room, where Harry finds Snape nursing a mauled leg."
+        }
+      ],
+      "note": "staff room"
+    },
+    {
+      "id": "library",
+      "name": "The library",
+      "role": "setting",
+      "firstChapter": 11,
+      "precision": "approximate",
+      "xy": {
+        "castle": [
+          620,
+          250
+        ]
+      },
+      "parent": "hogwarts",
+      "tagline": [
+        {
+          "from": 11,
+          "text": "The school library."
+        },
+        {
+          "from": 12,
+          "text": "Its Restricted Section holds books on dark magic."
+        }
+      ],
+      "note": "Restricted Section"
+    },
+    {
+      "id": "mirror-classroom",
+      "name": "The unused classroom",
+      "role": "setting",
+      "firstChapter": 12,
+      "precision": "approximate",
+      "xy": {
+        "castle": [
+          380,
+          250
+        ]
+      },
+      "parent": "hogwarts",
+      "tagline": [
+        {
+          "from": 12,
+          "text": "Empty classroom where Harry finds the Mirror of Erised; Dumbledore says it will be moved."
+        },
+        {
+          "from": 17,
+          "text": "The mirror was moved down below the trapdoor."
+        }
+      ]
+    },
+    {
+      "id": "tallest-tower",
+      "name": "The tallest tower",
+      "role": "setting",
+      "firstChapter": 14,
+      "precision": "fictional",
+      "xy": {
+        "castle": [
+          800,
+          70
+        ]
+      },
+      "parent": "hogwarts",
+      "tagline": [
+        {
+          "from": 14,
+          "text": "Top of the tallest tower, where Charlie’s friends collect Norbert at midnight."
+        }
+      ]
+    },
+    {
+      "id": "devils-snare-chamber",
+      "name": "The Devil’s Snare chamber",
+      "role": "setting",
+      "firstChapter": 16,
+      "precision": "fictional",
+      "xy": {
+        "castle": [
+          600,
+          752
+        ]
+      },
+      "parent": "hogwarts",
+      "tagline": [
+        {
+          "from": 16,
+          "text": "First chamber below the trapdoor: a strangling plant, Professor Sprout’s protection."
+        }
+      ]
+    },
+    {
+      "id": "winged-keys-chamber",
+      "name": "The chamber of winged keys",
+      "role": "setting",
+      "firstChapter": 16,
+      "precision": "fictional",
+      "xy": {
+        "castle": [
+          690,
+          752
+        ]
+      },
+      "parent": "hogwarts",
+      "tagline": [
+        {
+          "from": 16,
+          "text": "A bright room full of flying keys; Harry must catch the right one on a broom."
+        }
+      ]
+    },
+    {
+      "id": "chessboard-chamber",
+      "name": "The giant chessboard",
+      "role": "setting",
+      "firstChapter": 16,
+      "precision": "fictional",
+      "xy": {
+        "castle": [
+          780,
+          752
+        ]
+      },
+      "parent": "hogwarts",
+      "tagline": [
+        {
+          "from": 16,
+          "text": "A huge chessboard to be played across; Ron sacrifices himself so Harry can win."
+        }
+      ]
+    },
+    {
+      "id": "troll-chamber",
+      "name": "The troll’s chamber",
+      "role": "setting",
+      "firstChapter": 16,
+      "precision": "fictional",
+      "xy": {
+        "castle": [
+          870,
+          752
+        ]
+      },
+      "parent": "hogwarts",
+      "tagline": [
+        {
+          "from": 16,
+          "text": "A troll lies already knocked out here."
+        }
+      ]
+    },
+    {
+      "id": "potions-chamber",
+      "name": "The chamber of potions and fire",
+      "role": "setting",
+      "firstChapter": 16,
+      "precision": "fictional",
+      "xy": {
+        "castle": [
+          870,
+          805
+        ]
+      },
+      "parent": "hogwarts",
+      "tagline": [
+        {
+          "from": 16,
+          "text": "Seven bottles and a logic riddle between two fires; Hermione solves it."
+        }
+      ]
+    },
+    {
+      "id": "final-chamber",
+      "name": "The last chamber",
+      "role": "setting",
+      "firstChapter": 16,
+      "precision": "fictional",
+      "xy": {
+        "castle": [
+          760,
+          805
+        ]
+      },
+      "parent": "hogwarts",
+      "tagline": [
+        {
+          "from": 16,
+          "text": "Beyond the black flames, where the Stone should be. Someone is already there."
+        },
+        {
+          "from": 17,
+          "text": "Where Harry faces Quirrell and Voldemort before the Mirror of Erised, which hides the Stone."
+        }
+      ]
+    }
+  ],
+  "settings": {
+    "1": [
+      "privet-drive"
+    ],
+    "2": [
+      "london-zoo",
+      "privet-drive"
+    ],
+    "3": [
+      "privet-drive",
+      "railview-hotel",
+      "hut-on-the-rock"
+    ],
+    "4": [
+      "hut-on-the-rock"
+    ],
+    "5": [
+      "diagon-alley",
+      "leaky-cauldron",
+      "gringotts",
+      "madam-malkins",
+      "ollivanders",
+      "hut-on-the-rock"
+    ],
+    "6": [
+      "platform-nine-and-three-quarters",
+      "kings-cross",
+      "hogsmeade-station",
+      "great-lake",
+      "underground-harbour"
+    ],
+    "7": [
+      "great-hall",
+      "entrance-hall",
+      "gryffindor-tower"
+    ],
+    "8": [
+      "potions-dungeon",
+      "hagrids-hut",
+      "greenhouses",
+      "great-hall"
+    ],
+    "9": [
+      "third-floor-corridor",
+      "flying-lawn",
+      "trophy-room",
+      "gryffindor-tower"
+    ],
+    "10": [
+      "girls-bathroom",
+      "great-hall",
+      "quidditch-pitch"
+    ],
+    "11": [
+      "quidditch-pitch",
+      "staff-room",
+      "hagrids-hut"
+    ],
+    "12": [
+      "mirror-classroom",
+      "library",
+      "gryffindor-tower",
+      "great-hall"
+    ],
+    "13": [
+      "forbidden-forest",
+      "quidditch-pitch",
+      "gryffindor-tower",
+      "library"
+    ],
+    "14": [
+      "hagrids-hut",
+      "tallest-tower",
+      "library",
+      "hospital-wing"
+    ],
+    "15": [
+      "forbidden-forest",
+      "hagrids-hut",
+      "gryffindor-tower"
+    ],
+    "16": [
+      "third-floor-corridor",
+      "devils-snare-chamber",
+      "winged-keys-chamber",
+      "chessboard-chamber",
+      "troll-chamber",
+      "potions-chamber",
+      "final-chamber",
+      "hagrids-hut",
+      "gryffindor-tower"
+    ],
+    "17": [
+      "final-chamber",
+      "hospital-wing",
+      "great-hall",
+      "platform-nine-and-three-quarters",
+      "kings-cross"
+    ]
+  },
+  "journeys": [
+    {
+      "id": "hagrid-brings-harry",
+      "name": "Hagrid brings baby Harry to Privet Drive",
+      "who": [
+        "rubeus-hagrid",
+        "harry-potter"
+      ],
+      "legs": [
+        {
+          "chapter": 1,
+          "from": "godrics-hollow",
+          "to": "bristol",
+          "mode": "air"
+        },
+        {
+          "chapter": 1,
+          "from": "bristol",
+          "to": "privet-drive",
+          "mode": "air"
+        }
+      ]
+    },
+    {
+      "id": "fleeing-the-letters",
+      "name": "Fleeing the letters",
+      "who": [
+        "vernon-dursley",
+        "petunia-dursley",
+        "dudley-dursley",
+        "harry-potter"
+      ],
+      "legs": [
+        {
+          "chapter": 3,
+          "from": "privet-drive",
+          "to": "railview-hotel",
+          "mode": "road"
+        },
+        {
+          "chapter": 3,
+          "from": "railview-hotel",
+          "to": "hut-on-the-rock",
+          "mode": "road"
+        }
+      ]
+    },
+    {
+      "id": "to-london-with-hagrid",
+      "name": "To London with Hagrid",
+      "who": [
+        "harry-potter",
+        "rubeus-hagrid"
+      ],
+      "legs": [
+        {
+          "chapter": 5,
+          "from": "hut-on-the-rock",
+          "to": "leaky-cauldron",
+          "mode": "rail"
+        },
+        {
+          "chapter": 5,
+          "from": "leaky-cauldron",
+          "to": "privet-drive",
+          "mode": "rail"
+        }
+      ]
+    },
+    {
+      "id": "hogwarts-express",
+      "name": "The Hogwarts Express",
+      "who": [
+        "harry-potter",
+        "ron-weasley",
+        "hermione-granger",
+        "neville-longbottom",
+        "draco-malfoy"
+      ],
+      "legs": [
+        {
+          "chapter": 6,
+          "from": "privet-drive",
+          "to": "kings-cross",
+          "mode": "road"
+        },
+        {
+          "chapter": 6,
+          "from": "kings-cross",
+          "to": "platform-nine-and-three-quarters",
+          "mode": "foot"
+        },
+        {
+          "chapter": 6,
+          "from": "platform-nine-and-three-quarters",
+          "to": "hogsmeade-station",
+          "mode": "rail"
+        }
+      ]
+    },
+    {
+      "id": "boats-across-the-lake",
+      "name": "The boats across the lake",
+      "who": [
+        "rubeus-hagrid",
+        "harry-potter",
+        "ron-weasley",
+        "hermione-granger",
+        "neville-longbottom"
+      ],
+      "legs": [
+        {
+          "chapter": 6,
+          "from": "hogsmeade-station",
+          "to": "underground-harbour",
+          "mode": "boat"
+        }
+      ]
+    },
+    {
+      "id": "norberts-departure",
+      "name": "Norbert to the tallest tower",
+      "who": [
+        "harry-potter",
+        "hermione-granger",
+        "norbert"
+      ],
+      "legs": [
+        {
+          "chapter": 14,
+          "from": "hagrids-hut",
+          "to": "tallest-tower",
+          "mode": "foot"
+        },
+        {
+          "chapter": 14,
+          "from": "tallest-tower",
+          "to": "romania",
+          "mode": "air"
+        }
+      ]
+    },
+    {
+      "id": "through-the-trapdoor",
+      "name": "Through the trapdoor",
+      "who": [
+        "harry-potter",
+        "ron-weasley",
+        "hermione-granger"
+      ],
+      "legs": [
+        {
+          "chapter": 16,
+          "from": "gryffindor-tower",
+          "to": "third-floor-corridor",
+          "mode": "foot"
+        },
+        {
+          "chapter": 16,
+          "from": "third-floor-corridor",
+          "to": "devils-snare-chamber",
+          "mode": "foot"
+        },
+        {
+          "chapter": 16,
+          "from": "devils-snare-chamber",
+          "to": "winged-keys-chamber",
+          "mode": "foot"
+        },
+        {
+          "chapter": 16,
+          "from": "winged-keys-chamber",
+          "to": "chessboard-chamber",
+          "mode": "foot"
+        },
+        {
+          "chapter": 16,
+          "from": "chessboard-chamber",
+          "to": "troll-chamber",
+          "mode": "foot"
+        },
+        {
+          "chapter": 16,
+          "from": "troll-chamber",
+          "to": "potions-chamber",
+          "mode": "foot"
+        },
+        {
+          "chapter": 16,
+          "from": "potions-chamber",
+          "to": "final-chamber",
+          "mode": "foot"
+        }
+      ]
+    },
+    {
+      "id": "home-for-the-summer",
+      "name": "Home for the summer",
+      "who": [
+        "harry-potter",
+        "ron-weasley",
+        "hermione-granger",
+        "vernon-dursley"
+      ],
+      "legs": [
+        {
+          "chapter": 17,
+          "from": "hogsmeade-station",
+          "to": "platform-nine-and-three-quarters",
+          "mode": "rail"
+        },
+        {
+          "chapter": 17,
+          "from": "platform-nine-and-three-quarters",
+          "to": "kings-cross",
+          "mode": "foot"
+        },
+        {
+          "chapter": 17,
+          "from": "kings-cross",
+          "to": "privet-drive",
+          "mode": "road"
+        }
+      ]
+    }
+  ]
+}

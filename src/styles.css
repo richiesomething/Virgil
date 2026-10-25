@@ -33,6 +33,10 @@
   --rel-work: #9a9083;
   --rel-tie: #b3a999;
   --thing: #a87b2c;
+  /* Atlas (paper & ink). */
+  --map-sea: #dce6e4; --map-land: #f7f0e1; --map-coast: #b3a487; --map-water: #c4d6d8; --map-green: #e4e6cc;
+  --map-forest: #c3cfa7; --map-rock: #ddd1bb; --map-building: #d3c3a5; --map-paper: #f3ead8; --map-paper-2: #e9dcc4;
+  --map-deep: #d6cab5; --map-ink: #7b6e5d; --map-label-sea: #6c8a8e; --map-label: #4a4037;
   color-scheme: light;
 }
 
@@ -46,6 +50,12 @@
     --shadow: 0 1px 2px rgb(0 0 0 / 0.3), 0 4px 16px rgb(0 0 0 / 0.25); --shadow-lift: 0 -2px 24px rgb(0 0 0 / 0.4);
     --rel-family: #3987e5; --rel-love: #d55181; --rel-friend: #008300; --rel-enemy: #c98500;
     --rel-work: #7d7468; --rel-tie: #6b6358; --thing: #d4ad62;
+  --map-sea: #142028; --map-land: #252019; --map-coast: #4f4535; --map-water: #1f3a45; --map-green: #232a1d;
+  --map-forest: #2c3a24; --map-rock: #3a3228; --map-building: #4a3f31; --map-paper: #2a241c; --map-paper-2: #332b21;
+  --map-deep: #1b1712; --map-ink: #a39580; --map-label-sea: #7ea3ab; --map-label: #e6dccb;
+    --map-sea: #142028; --map-land: #252019; --map-coast: #4f4535; --map-water: #1f3a45; --map-green: #232a1d;
+    --map-forest: #2c3a24; --map-rock: #3a3228; --map-building: #4a3f31; --map-paper: #2a241c; --map-paper-2: #332b21;
+    --map-deep: #1b1712; --map-ink: #a39580; --map-label-sea: #7ea3ab; --map-label: #e6dccb;
     color-scheme: dark;
   }
 }
@@ -552,3 +562,153 @@ details.section > .section__body { padding-bottom: 16px; }
 
 .title-row { display: flex; align-items: center; justify-content: space-between; gap: 12px; }
 .title-row .pill-btn { min-height: 40px; padding: 0 14px; font-size: 0.875rem; }
+
+/* ─── Atlas ────────────────────────────────────────────────────────────── */
+.atlas { position: relative; width: 100%; height: 100%; overflow: hidden; background: var(--map-sea); }
+.atlas__svg { display: block; touch-action: none; user-select: none; -webkit-user-select: none; }
+.atlas--live .atlas__svg { cursor: grab; }
+.atlas--live .atlas__svg:active { cursor: grabbing; }
+.atlas__loading { position: absolute; inset: 0; display: grid; place-items: center; color: var(--muted); font-size: 0.875rem; }
+.atlas__zoom { bottom: 84px; }
+.atlas-bg--sea { fill: var(--map-sea); }
+.atlas-bg--land, .atlas-bg--dry { fill: var(--map-land); }
+.atlas-bg--grass { fill: var(--map-green); }
+.atlas-bg--sky { fill: var(--map-paper); }
+.atlas-bg--brick { fill: var(--map-paper-2); }
+.atlas-land, .atlas-park, .atlas-water { fill-rule: evenodd; }
+.atlas-land { fill: var(--map-land); stroke: var(--map-coast); stroke-width: 0.8; vector-effect: non-scaling-stroke; stroke-linejoin: round; }
+.atlas-park { fill: var(--map-green); }
+.atlas-water { fill: var(--map-water); stroke: color-mix(in srgb, var(--map-water) 70%, var(--map-ink)); stroke-width: 0.5; vector-effect: non-scaling-stroke; }
+.atlas-river { fill: none; stroke: var(--map-water); stroke-width: 1.4; stroke-linecap: round; stroke-linejoin: round; }
+.atlas-wall { fill: none; stroke: var(--map-ink); stroke-width: 1.2; stroke-dasharray: 5 4; opacity: 0.7; }
+
+.art { stroke: none; }
+.art--line { fill: none; stroke-linecap: round; stroke-linejoin: round; }
+.art--water, .art--glass { fill: var(--map-water); }
+.art--glass { stroke: var(--map-ink); stroke-width: 0.6; vector-effect: non-scaling-stroke; }
+.art--grass, .art--garden, .art--mangrove, .art--scrub { fill: var(--map-green); }
+.art--garden { fill: color-mix(in srgb, var(--gold) 30%, var(--map-green)); }
+.art--mangrove, .art--scrub { fill: color-mix(in srgb, var(--map-forest) 70%, var(--map-green)); }
+.art--forest { fill: var(--map-forest); }
+.art--tree { fill: color-mix(in srgb, var(--map-forest) 75%, var(--map-ink)); opacity: 0.55; }
+.art--rock, .art--peak, .art--roof { fill: var(--map-rock); }
+.art--peak { fill: color-mix(in srgb, var(--map-rock) 80%, var(--map-ink)); }
+.art--boulder { fill: color-mix(in srgb, var(--map-rock) 70%, var(--map-ink)); }
+.art--building, .art--hut, .art--church, .art--shop { fill: var(--map-building); stroke: color-mix(in srgb, var(--map-building) 60%, var(--map-ink)); stroke-width: 0.8; vector-effect: non-scaling-stroke; }
+.art--hut { fill: color-mix(in srgb, var(--gold) 25%, var(--map-building)); }
+.art--church { fill: color-mix(in srgb, var(--map-building) 80%, var(--map-ink)); }
+.art--marble { fill: var(--surface); stroke: var(--map-ink); stroke-width: 1; vector-effect: non-scaling-stroke; }
+.art--sand, .art--town, .art--plaza, .art--yard, .art--cobbles { fill: var(--map-paper); }
+.art--sand { fill: color-mix(in srgb, var(--gold) 18%, var(--map-paper)); }
+.art--plaza, .art--cobbles { fill: var(--map-paper-2); }
+.art--road { fill: var(--map-paper-2); }
+.art--road.art--line { stroke: var(--map-paper-2); }
+.art--floor { fill: var(--map-paper-2); stroke: color-mix(in srgb, var(--map-paper-2) 50%, var(--map-ink)); stroke-width: 1; vector-effect: non-scaling-stroke; }
+.art--deep { fill: var(--map-deep); }
+.art--chamber { fill: var(--map-paper); stroke: var(--map-ink); stroke-width: 1; vector-effect: non-scaling-stroke; }
+.art--pitch { fill: color-mix(in srgb, var(--map-forest) 45%, var(--map-green)); stroke: var(--surface); stroke-width: 1.5; vector-effect: non-scaling-stroke; }
+.art--pitch-line { stroke: var(--surface); stroke-width: 1.5; vector-effect: non-scaling-stroke; }
+.art--path { stroke: color-mix(in srgb, var(--map-paper-2) 60%, var(--map-ink)); stroke-width: 2.5; stroke-dasharray: 1 5; vector-effect: non-scaling-stroke; }
+.art--rail { stroke: var(--map-ink); stroke-width: 2; stroke-dasharray: 6 3; vector-effect: non-scaling-stroke; }
+.art--wall { fill: none; stroke: var(--map-ink); stroke-width: 1.5; vector-effect: non-scaling-stroke; }
+.art--stair { stroke: var(--map-ink); stroke-width: 1.5; stroke-dasharray: 3 3; vector-effect: non-scaling-stroke; }
+.art--shaft { stroke: var(--accent); stroke-width: 2; stroke-dasharray: 4 4; vector-effect: non-scaling-stroke; }
+.art--passage { stroke: var(--map-ink); stroke-width: 2; vector-effect: non-scaling-stroke; }
+
+.atlas-label { font-family: var(--serif); fill: var(--map-label); paint-order: stroke; stroke: color-mix(in srgb, var(--map-land) 85%, transparent); stroke-width: 3px; stroke-linejoin: round; pointer-events: none; }
+.atlas-label--sea, .atlas-label--water { font-style: italic; font-size: 14px; fill: var(--map-label-sea); stroke: none; letter-spacing: 0.02em; }
+.atlas-label--water { font-size: 12px; }
+.atlas-label--region { font-family: var(--sans); font-size: 10.5px; font-weight: 600; letter-spacing: 0.22em; fill: var(--map-ink); opacity: 0.7; stroke: none; }
+.atlas-label--area { font-size: 13px; font-style: italic; fill: var(--map-ink); }
+.atlas-label--minor { font-family: var(--sans); font-size: 10.5px; fill: var(--map-ink); }
+.atlas-label--floor { font-family: var(--sans); font-size: 10px; font-weight: 700; letter-spacing: 0.08em; text-transform: uppercase; fill: var(--map-ink); stroke: none; dominant-baseline: middle; }
+.atlas-label--street { font-family: var(--sans); font-size: 11px; font-weight: 600; fill: var(--map-ink); stroke: none; letter-spacing: 0.06em; }
+
+.atlas-leg { fill: none; stroke-width: 1.8; stroke-linecap: round; opacity: 0.55; pointer-events: none; }
+.atlas-leg.is-recent { opacity: 0.95; stroke-width: 2.2; }
+.atlas-leg--water { stroke: var(--supporting); stroke-dasharray: 7 5; }
+.atlas-leg--land { stroke: var(--accent); stroke-dasharray: 2 5; }
+.atlas-leg--air { stroke: var(--gold); stroke-dasharray: 10 4 2 4; }
+.atlas-arrow { fill: var(--map-ink); }
+
+.atlas-portal { cursor: pointer; outline: none; }
+.atlas-portal__box { fill: color-mix(in srgb, var(--surface) 22%, transparent); stroke: var(--accent); stroke-width: 1.4; stroke-dasharray: 6 4; }
+.atlas-portal__badge { fill: var(--surface); stroke: var(--border); stroke-width: 1; filter: drop-shadow(0 1px 3px rgb(40 25 10 / 0.18)); }
+.atlas-portal__label { font: 600 12.5px var(--sans); fill: var(--accent); pointer-events: none; }
+.atlas-portal__leader { stroke: var(--accent); stroke-width: 1.2; }
+.atlas-portal__anchor { fill: var(--accent); stroke: var(--surface); stroke-width: 1.5; }
+.atlas-portal.is-here .atlas-portal__badge { stroke: var(--gold); stroke-width: 2.5; }
+.atlas-portal:focus-visible .atlas-portal__badge { stroke: var(--gold); stroke-width: 3; }
+
+.atlas-place { cursor: pointer; outline: none; }
+.atlas--static .atlas-place { cursor: inherit; }
+.atlas-place__hit { fill: transparent; }
+.atlas-place__area { fill: color-mix(in srgb, var(--accent) 9%, transparent); stroke: var(--accent); stroke-width: 1.2; stroke-dasharray: 4 4; opacity: 0.8; }
+.atlas-place__pin { fill: var(--accent); stroke: var(--surface); stroke-width: 1.5; paint-order: stroke; transition: transform 0.15s; }
+.atlas-place__dot { fill: var(--map-ink); stroke: var(--surface); stroke-width: 1.25; }
+.atlas-place.is-hl .atlas-place__pin, .atlas-place.is-hl .atlas-place__dot { fill: var(--gold); }
+.atlas-place.is-selected .atlas-place__pin { stroke: var(--text); }
+.atlas-place:focus-visible .atlas-place__pin, .atlas-place:focus-visible .atlas-place__dot { stroke: var(--gold); stroke-width: 3; }
+.atlas-place__label { font-family: var(--sans); font-weight: 600; fill: var(--map-label); paint-order: stroke; stroke: color-mix(in srgb, var(--map-land) 90%, transparent); stroke-width: 3.5px; stroke-linejoin: round; pointer-events: none; }
+.atlas-place--mentioned .atlas-place__label { font-weight: 500; }
+.atlas-place__pulse { fill: none; stroke: var(--gold); stroke-width: 2; transform-box: fill-box; transform-origin: center; animation: atlas-pulse 2.2s ease-out infinite; }
+@keyframes atlas-pulse { from { opacity: 0.9; transform: scale(0.6); } to { opacity: 0; transform: scale(2.2); } }
+@media (prefers-reduced-motion: reduce) { .atlas-place__pulse { animation: none; opacity: 0.8; } }
+
+/* Atlas screen inside Cast → Places */
+.view-toggle { margin: 10px 0 8px; }
+.atlas-stage {
+  position: fixed; z-index: 5; left: 0; right: 0; overflow: hidden;
+  top: calc(var(--header-h) + var(--safe-top)); bottom: calc(var(--tabbar-h) + var(--safe-bottom));
+}
+.atlas-list { pointer-events: auto; flex: none; margin-left: 10px; }
+.atlas-credit { position: absolute; right: 8px; bottom: 66px; font-size: 9.5px; color: var(--muted); background: color-mix(in srgb, var(--surface) 70%, transparent); padding: 1px 6px; border-radius: 6px; z-index: 1; pointer-events: none; }
+.atlas-top { position: absolute; top: 10px; left: 0; right: 10px; display: flex; gap: 8px; align-items: center; z-index: 2; pointer-events: none; }
+.atlas-frames { flex: 1; display: flex; gap: 6px; overflow-x: auto; scrollbar-width: none; padding: 2px 4px; pointer-events: auto; mask-image: linear-gradient(90deg, #000 85%, transparent); }
+.atlas-frames::-webkit-scrollbar { display: none; }
+.atlas-chip {
+  flex: none; min-height: 36px; padding: 0 14px; border-radius: 999px; border: 1px solid var(--border); background: color-mix(in srgb, var(--surface) 94%, transparent);
+  box-shadow: var(--shadow); font: 600 0.8125rem var(--sans); color: var(--text); cursor: pointer; backdrop-filter: blur(8px);
+}
+.atlas-chip[aria-selected='true'] { background: var(--accent); border-color: var(--accent); color: var(--accent-text); }
+.atlas-filter { pointer-events: auto; width: 40px; padding: 0; justify-content: center; flex: none; }
+.atlas-up { position: absolute; top: 56px; left: 10px; z-index: 2; }
+.atlas-dock { gap: 10px; }
+.atlas-dock__label { min-width: 0; max-width: 46%; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.atlas-legend { display: flex; flex-wrap: wrap; gap: 10px 16px; margin: 14px 0 4px; font-size: 0.8125rem; color: var(--muted); }
+.atlas-legend span { display: inline-flex; align-items: center; gap: 6px; }
+.atlas-legend__gold { fill: var(--gold); }
+
+.place-head { display: flex; gap: 12px; align-items: center; }
+.place-head .avatar { color: var(--accent-text); }
+.place-tags { display: flex; flex-wrap: wrap; gap: 6px; margin: 10px 0 2px; }
+.tag--approximate, .tag--unknown { background: var(--surface-2); color: var(--muted); }
+.tag--fictional { background: var(--accent-soft); color: var(--accent); }
+.place-actions { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 18px; }
+.place-actions .btn { flex: 1 1 auto; }
+.people-strip { display: flex; gap: 12px; overflow-x: auto; scrollbar-width: none; margin: 0 -16px; padding: 2px 16px 6px; }
+.people-strip::-webkit-scrollbar { display: none; }
+.people-strip a, .people-strip button { flex: none; width: 64px; display: grid; justify-items: center; gap: 4px; background: none; border: 0; padding: 0; color: var(--text); font: inherit; cursor: pointer; }
+.people-strip .name { font-size: 0.75rem; line-height: 1.2; text-align: center; overflow: hidden; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; }
+.leg-list { list-style: none; margin: 0; padding: 0; display: grid; gap: 6px; font-size: 0.9rem; }
+.avatar--place svg { color: var(--accent-text); }
+.avatar--quiet { background: var(--surface-2); }
+.avatar--quiet svg { color: var(--muted); }
+.row--more .row__title { color: var(--muted); font-weight: 500; }
+
+.place-page .section { margin-top: 20px; }
+.place-map { position: relative; display: block; height: 210px; margin: 0 -16px; border-bottom: 1px solid var(--border); overflow: hidden; }
+@media (min-width: 720px) { .place-map { margin: 0; border: 1px solid var(--border); border-radius: var(--radius); } }
+.place-map__cta { position: absolute; right: 10px; bottom: 10px; display: inline-flex; align-items: center; gap: 6px; padding: 6px 12px; border-radius: 999px; background: var(--surface); border: 1px solid var(--border); box-shadow: var(--shadow); font: 600 0.8125rem var(--sans); color: var(--accent); }
+.lead { font-size: 1.05rem; }
+
+/* "Where" card on chapters and Today */
+.where-card { display: block; position: relative; border-radius: var(--radius); overflow: hidden; border: 1px solid var(--border); background: var(--surface); color: inherit; margin: 12px 0 16px; }
+.where-card__map { height: 150px; }
+.where-card__text { display: flex; align-items: center; gap: 10px; padding: 10px 14px; }
+.where-card__text .icon { color: var(--accent); flex: none; }
+.where-card__text strong { display: block; font-size: 0.95rem; }
+.where-card__text span span { font-size: 0.8125rem; color: var(--muted); }
+.where-line { display: inline-flex; align-items: center; gap: 6px; font-size: 0.875rem; color: var(--muted); margin: 0 0 6px; }
+.where-line .icon { color: var(--accent); }
+.primer__map { display: flex; align-items: center; gap: 4px; margin-top: 4px; font-size: 0.8125rem; font-weight: 600; min-height: 32px; }

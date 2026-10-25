@@ -1,4 +1,4 @@
-import type { BookData, Chapter, Character, Note, Primer, Recap, Relationship } from '../../types'
+import type { Atlas, BookData, Chapter, Character, Note, Primer, Recap, Relationship } from '../../types'
 import { meta } from './meta'
 import chapters from './chapters.json'
 import characters from './characters.json'
@@ -7,6 +7,7 @@ import notes from './notes.json'
 import primers from './primers.json'
 import recaps from './recaps.json'
 import wordCounts from './word-counts.json'
+import atlas from './atlas.json'
 
 const data: BookData = {
   meta,
@@ -17,6 +18,7 @@ const data: BookData = {
   primers: primers as Primer[],
   recaps: recaps as Recap[],
   wordCounts,
+  atlas: atlas as unknown as Atlas,
 }
 
 export default data

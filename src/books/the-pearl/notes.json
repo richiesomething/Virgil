@@ -11,7 +11,8 @@
     "term": "La Paz",
     "kind": "place",
     "chapter": 1,
-    "text": "The unnamed town is modelled on La Paz, near the southern tip of Mexico's Baja California peninsula, on the Gulf of California. In the 1940s it was a small, remote port long famous for its pearls."
+    "text": "The unnamed town is modelled on La Paz, near the southern tip of Mexico's Baja California peninsula, on the Gulf of California. In the 1940s it was a small, remote port long famous for its pearls.",
+    "placeId": "the-town"
   },
   {
     "id": "the-songs",
@@ -31,7 +32,8 @@
     "term": "brush house",
     "kind": "custom",
     "chapter": 1,
-    "text": "A hut with walls of woven sticks and brush under a thatched roof: the home of the poorest fishing families, who live on the beach at the edge of the stone-and-plaster town."
+    "text": "A hut with walls of woven sticks and brush under a thatched roof: the home of the poorest fishing families, who live on the beach at the edge of the stone-and-plaster town.",
+    "placeId": "kinos-house"
   },
   {
     "id": "corncakes-and-pulque",
@@ -80,7 +82,8 @@
     "term": "pearl diving",
     "kind": "custom",
     "chapter": 2,
-    "text": "Divers like Kino worked without any breathing gear: a heavy stone took them straight to the bottom, where they filled a basket with oysters on a single breath held for around two minutes, then shot back up."
+    "text": "Divers like Kino worked without any breathing gear: a heavy stone took them straight to the bottom, where they filled a basket with oysters on a single breath held for around two minutes, then shot back up.",
+    "placeId": "oyster-bed"
   },
   {
     "id": "pearls-and-the-king-of-spain",
@@ -150,7 +153,8 @@
     "term": "a single buyer",
     "kind": "custom",
     "chapter": 4,
-    "text": "If all the buyers secretly work for one man, they aren't really competing, and the seller has no way to get a fair price. Economists call a market with only one buyer a monopsony."
+    "text": "If all the buyers secretly work for one man, they aren't really competing, and the seller has no way to get a fair price. Economists call a market with only one buyer a monopsony.",
+    "placeId": "pearl-buyers-offices"
   },
   {
     "id": "the-priest-s-sermon",
@@ -185,7 +189,8 @@
     "term": "Baja's mountains",
     "kind": "place",
     "chapter": 6,
-    "text": "Baja California is a long, mostly desert peninsula with rugged, dry mountain ranges running down its spine. Water is scarce, so people and animals alike depend on the few known springs and rock pools."
+    "text": "Baja California is a long, mostly desert peninsula with rugged, dry mountain ranges running down its spine. Water is scarce, so people and animals alike depend on the few known springs and rock pools.",
+    "placeId": "the-mountains"
   },
   {
     "id": "trackers",

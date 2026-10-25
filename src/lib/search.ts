@@ -1,11 +1,13 @@
-import type { BookData, Character, Chapter, Note } from '../types'
+import type { BookData, Character, Chapter, Note, Place } from '../types'
 import { currentAliases, currentTagline, isThing, metCharacters, notesUpTo, unlockedChapters } from './spoilers'
+import { placeAliases, placeTagline, visiblePlaces } from './atlas'
 
 export type SearchHit =
   | { kind: 'character'; character: Character; matched: string; detail: string; score: number }
   | { kind: 'thing'; character: Character; matched: string; detail: string; score: number }
   | { kind: 'note'; note: Note; score: number }
   | { kind: 'chapter'; chapter: Chapter; score: number }
+  | { kind: 'place'; place: Place; detail: string; score: number }
 
 /** Lowercase and strip accents, so "dantes" finds "Dantès" and "mercedes" finds "Mercédès". */
 export const fold = (s: string) =>
@@ -39,6 +41,12 @@ export function search(book: BookData, upTo: number, query: string): SearchHit[]
     const detail = currentTagline(c, upTo)
     const score = best ? best * 10 + (c.importance === 'major' ? 3 : c.importance === 'supporting' ? 2 : 1) : rank(detail, q) ? 2 : 0
     if (score) hits.push({ kind: isThing(c) ? 'thing' : 'character', character: c, matched, detail, score })
+  }
+  const met = new Set(metCharacters(book, upTo).map((c) => c.id))
+  for (const p of visiblePlaces(book, upTo)) {
+    if (met.has(p.id)) continue // already found as a cast place
+    const best = Math.max(...[p.name, ...placeAliases(p, upTo)].map((n) => rank(n, q)))
+    if (best) hits.push({ kind: 'place', place: p, detail: placeTagline(p, upTo), score: best * 10 + (p.role === 'setting' ? 2 : 0) })
   }
   for (const n of notesUpTo(book, upTo)) {
     const r = rank(n.term, q)

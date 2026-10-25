@@ -7,6 +7,7 @@ import { href } from '../lib/router'
 import { recents } from '../lib/store'
 import { kindOf, metCharacters, notesUpTo, whoMattersNow } from '../lib/spoilers'
 import { leaveSheetTo } from './ui'
+import { placeAt } from '../lib/atlas'
 
 interface Props {
   open: boolean
@@ -16,8 +17,8 @@ interface Props {
   onNote: (id: string) => void
 }
 
-type Group = 'chapter' | 'character' | 'thing' | 'note'
-const groupTitle: Record<Group, string> = { chapter: 'Chapters', character: 'People', thing: 'Objects & places', note: 'Glossary' }
+type Group = 'chapter' | 'character' | 'thing' | 'place' | 'note'
+const groupTitle: Record<Group, string> = { chapter: 'Chapters', character: 'People', thing: 'Objects & places', place: 'On the map', note: 'Glossary' }
 
 /**
  * Full-screen lookup. The input stays mounted so it can be focused inside the
@@ -58,7 +59,7 @@ const SearchOverlay = forwardRef<HTMLInputElement, Props>(function SearchOverlay
   const grouped = useMemo(() => {
     const g = new Map<Group, SearchHit[]>()
     for (const h of hits) g.set(h.kind, [...(g.get(h.kind) ?? []), h])
-    return (['chapter', 'character', 'thing', 'note'] as Group[]).filter((k) => g.has(k)).map((k) => [k, g.get(k)!] as const)
+    return (['chapter', 'character', 'thing', 'place', 'note'] as Group[]).filter((k) => g.has(k)).map((k) => [k, g.get(k)!] as const)
   }, [hits])
   const visible = grouped.flatMap(([k, list]) => (expanded.has(k) ? list : list.slice(0, 3)))
 
@@ -81,6 +82,12 @@ const SearchOverlay = forwardRef<HTMLInputElement, Props>(function SearchOverlay
       leaveSheetTo(href('b', bookId, 'chapters', h.chapter.number))
       return
     }
+    if (h.kind === 'place') {
+      remember('place', h.place.id, h.place.name)
+      onClose()
+      leaveSheetTo(href('b', bookId, 'places', h.place.id))
+      return
+    }
     remember('character', h.character.id, h.character.name)
     onClose()
     leaveSheetTo(href('b', bookId, 'characters', h.character.id))
@@ -94,6 +101,9 @@ const SearchOverlay = forwardRef<HTMLInputElement, Props>(function SearchOverlay
     } else if (r.kind === 'chapter') {
       onClose()
       leaveSheetTo(href('b', bookId, 'chapters', r.id))
+    } else if (r.kind === 'place') {
+      onClose()
+      leaveSheetTo(href('b', bookId, 'places', r.id))
     } else {
       onClose()
       leaveSheetTo(href('b', bookId, 'characters', r.id))
@@ -105,7 +115,9 @@ const SearchOverlay = forwardRef<HTMLInputElement, Props>(function SearchOverlay
       ? Number(r.id) <= upTo
       : r.kind === 'note'
         ? notesUpTo(book, upTo).some((n) => n.id === r.id)
-        : metCharacters(book, upTo).some((c) => c.id === r.id),
+        : r.kind === 'place'
+          ? !!placeAt(book, r.id, upTo)
+          : metCharacters(book, upTo).some((c) => c.id === r.id),
   )
 
   const examples = useMemo(() => {
@@ -248,7 +260,7 @@ const SearchOverlay = forwardRef<HTMLInputElement, Props>(function SearchOverlay
 export default SearchOverlay
 
 function key(h: SearchHit) {
-  return h.kind === 'note' ? 'n' + h.note.id : h.kind === 'chapter' ? 'c' + h.chapter.number : 'p' + h.character.id
+  return h.kind === 'note' ? 'n' + h.note.id : h.kind === 'chapter' ? 'c' + h.chapter.number : h.kind === 'place' ? 'pl' + h.place.id : 'p' + h.character.id
 }
 
 function ResultRow({ hit, id, active, highlight, onOpen }: { hit: SearchHit; id: string; active: boolean; highlight: (s: string) => ReactNode; onOpen: () => void }) {
@@ -273,6 +285,20 @@ function ResultRow({ hit, id, active, highlight, onOpen }: { hit: SearchHit; id:
           <span className="row__sub clamp-1">{n.text}</span>
         </span>
         <span className="tag">{n.kind}</span>
+      </button>
+    )
+  }
+  if (hit.kind === 'place') {
+    const p = hit.place
+    return (
+      <button id={id} role="option" aria-selected={active} className="row row--avatar" onClick={onOpen}>
+        <span className="avatar avatar--sm avatar--place" aria-hidden="true">
+          <Icon name="pin" className="icon--sm" />
+        </span>
+        <span className="row__body">
+          <span className="row__title">{highlight(p.name)}</span>
+          <span className="row__sub clamp-1">{hit.detail}</span>
+        </span>
       </button>
     )
   }

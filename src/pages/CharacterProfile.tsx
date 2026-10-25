@@ -3,6 +3,8 @@ import { initials } from '../components/CharacterChip'
 import { useBook } from '../lib/book-context'
 import { href } from '../lib/router'
 import { characterView, connectionsOf, kindOf, kinRole, lookupCharacter } from '../lib/spoilers'
+import { placeAt, placesOf } from '../lib/atlas'
+import { chapterRange } from '../components/AtlasView'
 import { kinLabel, relationLabel, relationTypes } from '../lib/relations'
 
 const importanceLabel = { major: 'Major', supporting: 'Supporting', minor: 'Minor' }
@@ -46,6 +48,8 @@ export default function CharacterProfile({ id }: { id: string }) {
   )
   const moments = v.moments
   const recentMoments = moments.slice(-5)
+  const atlasPlace = kind === 'place' ? placeAt(book, c.id, upTo) : undefined
+  const travels = kind === 'character' ? placesOf(book, c.id, upTo).sort((a, b) => b.chapters.length - a.chapters.length) : []
 
   return (
     <article>
@@ -63,6 +67,19 @@ export default function CharacterProfile({ id }: { id: string }) {
         {kind === 'character' && ` · ${c.group}`} · First appears in{' '}
         <a href={href('b', meta.id, 'chapters', c.firstChapter)}>chapter {c.firstChapter}</a>
       </p>
+
+      {atlasPlace && (
+        <a className="where-card" href={href('b', meta.id, 'places', atlasPlace.id)}>
+          <span className="where-card__text">
+            <Icon name="map" />
+            <span>
+              <strong>On the map</strong>
+              <span>Where it is, and the scenes set there</span>
+            </span>
+            <Icon name="chevronRight" className="icon--sm chev" />
+          </span>
+        </a>
+      )}
 
       {v.description.length > 0 && (
         <details className="section" open>
@@ -125,7 +142,7 @@ export default function CharacterProfile({ id }: { id: string }) {
               })}
             </ul>
             <a className="link" href={href('b', meta.id, 'map', c.id)}>
-              See on the map <Icon name="chevronRight" className="icon--sm" />
+              See their connections <Icon name="chevronRight" className="icon--sm" />
             </a>
           </div>
         </details>
@@ -138,6 +155,27 @@ export default function CharacterProfile({ id }: { id: string }) {
           </summary>
           <div className="section__body">
             <Moments all={moments} recent={recentMoments} bookId={meta.id} />
+          </div>
+        </details>
+      )}
+
+      {travels.length > 0 && (
+        <details className="section" open={travels.length <= 6}>
+          <summary>
+            Where they’ve been · {travels.length} <Icon name="chevronDown" className="icon--sm chev" />
+          </summary>
+          <div className="section__body">
+            <div className="group">
+              {travels.map(({ place, chapters }) => (
+                <a key={place.id} className="row" href={href('b', meta.id, 'places', place.id)}>
+                  <span className="row__body">
+                    <span className="row__title">{place.name}</span>
+                  </span>
+                  <span className="row__meta">{chapterRange(chapters)}</span>
+                  <Icon name="chevronRight" className="icon--sm chev" />
+                </a>
+              ))}
+            </div>
           </div>
         </details>
       )}

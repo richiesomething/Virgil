@@ -1,0 +1,847 @@
+{
+  "places": [
+    {
+      "role": "setting",
+      "tagline": [],
+      "id": "paris",
+      "name": "Paris",
+      "firstChapter": 1,
+      "precision": "approximate",
+      "radiusKm": 4,
+      "lonlat": [
+        2.35222,
+        48.85661
+      ]
+    },
+    {
+      "role": "setting",
+      "tagline": [],
+      "id": "marseilles",
+      "name": "Marseilles",
+      "firstChapter": 1,
+      "precision": "approximate",
+      "radiusKm": 3,
+      "lonlat": [
+        5.36978,
+        43.29648
+      ]
+    },
+    {
+      "role": "setting",
+      "tagline": [],
+      "id": "house-at-auteuil",
+      "name": "The house at Auteuil",
+      "firstChapter": 42,
+      "precision": "approximate",
+      "radiusKm": 0.3,
+      "lonlat": [
+        2.26538,
+        48.84855
+      ],
+      "today": "The Rue de la Fontaine is today’s Rue Jean de La Fontaine, in the 16th arrondissement."
+    },
+    {
+      "role": "setting",
+      "tagline": [
+        {
+          "from": 82,
+          "text": "The Count’s Paris mansion, No. 30 Champs-Élysées, broken into one night while he was thought to be at Auteuil."
+        }
+      ],
+      "id": "count-house-champs-elysees",
+      "name": "The Count’s house on the Champs-Élysées",
+      "firstChapter": 40,
+      "precision": "approximate",
+      "radiusKm": 0.4,
+      "lonlat": [
+        2.30222,
+        48.8715
+      ]
+    },
+    {
+      "role": "setting",
+      "tagline": [],
+      "id": "danglars-house",
+      "name": "The Danglars house",
+      "firstChapter": 46,
+      "precision": "approximate",
+      "radiusKm": 0.3,
+      "lonlat": [
+        2.33403,
+        48.87127
+      ]
+    },
+    {
+      "role": "setting",
+      "tagline": [
+        {
+          "from": 73,
+          "text": "Villefort’s Paris home, where Madame de Saint-Méran died suddenly, and the doctor suspects poison."
+        },
+        {
+          "from": 79,
+          "text": "Villefort’s Paris home, where a hidden poisoner has now killed more than once."
+        }
+      ],
+      "id": "villefort-house-paris",
+      "name": "Villefort’s house in Paris",
+      "firstChapter": 48,
+      "precision": "approximate",
+      "radiusKm": 0.5,
+      "lonlat": [
+        2.30875,
+        48.87369
+      ]
+    },
+    {
+      "role": "setting",
+      "tagline": [
+        {
+          "from": 70,
+          "text": "The Morcerf family’s mansion in the Rue du Helder, with a lantern-lit garden for their summer ball."
+        }
+      ],
+      "id": "morcerf-house",
+      "name": "The Morcerf mansion",
+      "firstChapter": 27,
+      "precision": "approximate",
+      "radiusKm": 0.2,
+      "lonlat": [
+        2.33492,
+        48.87189
+      ]
+    },
+    {
+      "role": "setting",
+      "tagline": [],
+      "id": "opera-paris",
+      "name": "The Opera",
+      "firstChapter": 53,
+      "precision": "exact",
+      "lonlat": [
+        2.33962,
+        48.8738
+      ]
+    },
+    {
+      "role": "setting",
+      "tagline": [
+        {
+          "from": 74,
+          "text": "Paris’s great hillside cemetery, where the Villefort family vault lies."
+        }
+      ],
+      "id": "pere-lachaise",
+      "name": "Père-Lachaise cemetery",
+      "firstChapter": 74,
+      "precision": "exact",
+      "lonlat": [
+        2.39401,
+        48.86113
+      ],
+      "note": "Père-Lachaise",
+      "today": "Still Paris’s most famous cemetery, in the 20th arrondissement."
+    },
+    {
+      "role": "setting",
+      "tagline": [
+        {
+          "from": 67,
+          "text": "The Paris law courts on the Île de la Cité, where Villefort has his office as king’s attorney."
+        }
+      ],
+      "id": "palais-de-justice-paris",
+      "name": "The Palais de Justice (Paris)",
+      "firstChapter": 67,
+      "precision": "exact",
+      "lonlat": [
+        2.34611,
+        48.85568
+      ],
+      "note": "the Palais … the Salle des Pas-Perdus",
+      "today": "Still the Paris law courts, on the Île de la Cité."
+    },
+    {
+      "role": "mentioned",
+      "tagline": [
+        {
+          "from": 77,
+          "text": "Ali Pasha’s lakeside capital in Epirus, Haydée’s childhood home, lost to the sultan’s army."
+        },
+        {
+          "from": 78,
+          "text": "Ali Pasha’s capital, whose castle a newspaper says was handed to the Turks by a French officer named Fernand."
+        },
+        {
+          "from": 84,
+          "text": "Ali Pasha’s capital, whose castle Fernand Mondego, now the Count of Morcerf, surrendered for money."
+        }
+      ],
+      "id": "yanina",
+      "name": "Yanina",
+      "firstChapter": 53,
+      "precision": "exact",
+      "lonlat": [
+        20.85228,
+        39.66398
+      ]
+    },
+    {
+      "role": "mentioned",
+      "tagline": [],
+      "id": "treport",
+      "name": "Tréport",
+      "firstChapter": 54,
+      "precision": "exact",
+      "lonlat": [
+        1.38277,
+        50.05911
+      ]
+    },
+    {
+      "role": "setting",
+      "tagline": [
+        {
+          "from": 61,
+          "text": "Ruined medieval keep south of Paris, used as a station on the telegraph line to Spain."
+        }
+      ],
+      "id": "montlhery-tower",
+      "name": "The tower of Montlhéry",
+      "firstChapter": 61,
+      "precision": "exact",
+      "lonlat": [
+        2.27207,
+        48.63496
+      ],
+      "note": "the tower of Montlhéry",
+      "today": "The keep of the ruined castle still stands on its hill at Montlhéry and can be visited."
+    },
+    {
+      "role": "mentioned",
+      "tagline": [
+        {
+          "from": 61,
+          "text": "Toll gate in the south wall of Paris, on the road out towards Orléans."
+        }
+      ],
+      "id": "barriere-d-enfer",
+      "name": "Barrière d’Enfer",
+      "firstChapter": 61,
+      "precision": "exact",
+      "lonlat": [
+        2.33196,
+        48.83419
+      ],
+      "parent": "paris",
+      "note": "Barrière d'Enfer",
+      "today": "Place Denfert-Rochereau; two of the old toll-house pavilions still stand."
+    },
+    {
+      "role": "mentioned",
+      "tagline": [
+        {
+          "from": 61,
+          "text": "City in central France where the Spanish pretender Don Carlos is held."
+        }
+      ],
+      "id": "bourges",
+      "name": "Bourges",
+      "firstChapter": 61,
+      "precision": "exact",
+      "lonlat": [
+        2.39913,
+        47.08117
+      ]
+    },
+    {
+      "role": "mentioned",
+      "tagline": [
+        {
+          "from": 64,
+          "text": "Naval port whose prison galleys hold convicts at hard labour; Caderousse has escaped from them."
+        }
+      ],
+      "id": "toulon",
+      "name": "Toulon",
+      "firstChapter": 64,
+      "precision": "exact",
+      "lonlat": [
+        5.93049,
+        43.12573
+      ]
+    },
+    {
+      "role": "setting",
+      "tagline": [
+        {
+          "from": 66,
+          "text": "The Palais Bourbon, where the elected lower house of parliament sits; Danglars is a deputy."
+        }
+      ],
+      "id": "chamber-of-deputies",
+      "name": "The Chamber of Deputies",
+      "firstChapter": 66,
+      "precision": "exact",
+      "lonlat": [
+        2.31791,
+        48.8616
+      ],
+      "parent": "paris",
+      "today": "The Palais Bourbon, still home of the French National Assembly."
+    },
+    {
+      "role": "mentioned",
+      "tagline": [
+        {
+          "from": 66,
+          "text": "Austrian port on the Adriatic, where a banker’s failure costs Danglars a million."
+        }
+      ],
+      "id": "trieste",
+      "name": "Trieste",
+      "firstChapter": 66,
+      "precision": "exact",
+      "lonlat": [
+        13.77728,
+        45.64965
+      ]
+    },
+    {
+      "role": "setting",
+      "tagline": [
+        {
+          "from": 46,
+          "text": "An estate on the Normandy coast that the Count tells Bertuccio to find for him."
+        },
+        {
+          "from": 68,
+          "text": "Small estate on the Normandy coast that the Count sends Bertuccio to find."
+        },
+        {
+          "from": 85,
+          "text": "The Count’s house by the sea near Tréport, with his sloop waiting in the creek below."
+        }
+      ],
+      "id": "count-house-normandy",
+      "name": "The Count’s house in Normandy",
+      "firstChapter": 46,
+      "precision": "approximate",
+      "radiusKm": 4,
+      "lonlat": [
+        1.37,
+        50.064
+      ]
+    },
+    {
+      "role": "setting",
+      "tagline": [
+        {
+          "from": 69,
+          "text": "The Abbé Busoni’s austere little house beside Saint-Sulpice, where a police visitor comes calling at night."
+        }
+      ],
+      "id": "busoni-house",
+      "name": "The Abbé Busoni’s house",
+      "firstChapter": 69,
+      "precision": "approximate",
+      "radiusKm": 0.2,
+      "lonlat": [
+        2.33402,
+        48.84957
+      ],
+      "parent": "paris"
+    },
+    {
+      "role": "setting",
+      "tagline": [
+        {
+          "from": 69,
+          "text": "Rooms rented by the Englishman Lord Wilmore, who turns out to be the Count in another disguise."
+        }
+      ],
+      "id": "wilmore-lodgings",
+      "name": "Lord Wilmore’s lodgings",
+      "firstChapter": 69,
+      "precision": "approximate",
+      "radiusKm": 0.3,
+      "lonlat": [
+        2.3344,
+        48.88129
+      ],
+      "parent": "paris"
+    },
+    {
+      "role": "mentioned",
+      "tagline": [
+        {
+          "from": 71,
+          "text": "The Ottoman capital, where the Count bought the young woman seen with him at the Opera."
+        },
+        {
+          "from": 77,
+          "text": "The Ottoman capital, where Haydée was sold as a slave and her mother died."
+        }
+      ],
+      "id": "constantinople",
+      "name": "Constantinople",
+      "firstChapter": 71,
+      "precision": "exact",
+      "lonlat": [
+        28.97587,
+        41.00638
+      ],
+      "today": "Istanbul."
+    },
+    {
+      "role": "mentioned",
+      "tagline": [
+        {
+          "from": 75,
+          "text": "Secret meeting place of a Bonapartist club, where General de Quesnel was brought blindfolded on 5 February 1815."
+        }
+      ],
+      "id": "rue-saint-jacques-club",
+      "name": "The Bonapartist club, Rue Saint-Jacques",
+      "firstChapter": 75,
+      "precision": "approximate",
+      "radiusKm": 0.6,
+      "lonlat": [
+        2.34605,
+        48.85178
+      ],
+      "parent": "paris"
+    },
+    {
+      "role": "mentioned",
+      "tagline": [
+        {
+          "from": 75,
+          "text": "Seine quay where General de Quesnel was killed in a duel on the night of 5 February 1815."
+        }
+      ],
+      "id": "quai-des-ormes",
+      "name": "The Quai des Ormes",
+      "firstChapter": 75,
+      "precision": "approximate",
+      "radiusKm": 0.2,
+      "lonlat": [
+        2.3565,
+        48.85413
+      ],
+      "parent": "paris",
+      "note": "the Quai des Ormes",
+      "today": "Now the eastern end of the Quai de l’Hôtel de Ville."
+    },
+    {
+      "role": "mentioned",
+      "tagline": [
+        {
+          "from": 76,
+          "text": "Tuscan spa town whose gaming tables Major Cavalcanti goes back to."
+        }
+      ],
+      "id": "bagni-di-lucca",
+      "name": "The baths of Lucca",
+      "firstChapter": 76,
+      "precision": "exact",
+      "lonlat": [
+        10.59063,
+        44.00998
+      ],
+      "note": "the baths of Lucca",
+      "today": "Bagni di Lucca, Tuscany."
+    },
+    {
+      "role": "mentioned",
+      "tagline": [
+        {
+          "from": 76,
+          "text": "Marble quarries in Tuscany where gossip says Andrea’s family riches lie buried."
+        }
+      ],
+      "id": "seravezza",
+      "name": "The quarries of Saravezza",
+      "firstChapter": 76,
+      "precision": "approximate",
+      "radiusKm": 3,
+      "lonlat": [
+        10.2287,
+        44.01936
+      ],
+      "note": "the quarries of Saravezza",
+      "today": "Seravezza, near Carrara, still quarries marble."
+    },
+    {
+      "role": "mentioned",
+      "tagline": [
+        {
+          "from": 77,
+          "text": "Pavilion on the lake where Ali Pasha made his last stand above a cavern of gold and gunpowder."
+        }
+      ],
+      "id": "yanina-lake-kiosk",
+      "name": "The kiosk on the lake of Yanina",
+      "firstChapter": 77,
+      "precision": "approximate",
+      "radiusKm": 1.5,
+      "lonlat": [
+        20.8889,
+        39.6738
+      ],
+      "parent": "yanina",
+      "today": "Ali Pasha died in 1822 at the monastery of St Panteleimon on the island in Lake Pamvotis, now a small museum."
+    },
+    {
+      "role": "setting",
+      "tagline": [
+        {
+          "from": 78,
+          "text": "Pistol gallery near the Champs-Élysées where the Count shoots playing cards to pieces."
+        }
+      ],
+      "id": "gosset-shooting-gallery",
+      "name": "Gosset’s shooting gallery",
+      "firstChapter": 78,
+      "precision": "approximate",
+      "radiusKm": 0.3,
+      "lonlat": [
+        2.30433,
+        48.86598
+      ],
+      "parent": "paris",
+      "note": "Gosset’s shooting-gallery"
+    },
+    {
+      "role": "setting",
+      "tagline": [
+        {
+          "from": 78,
+          "text": "Offices of Beauchamp’s newspaper, which printed the paragraph about Yanina."
+        }
+      ],
+      "id": "beauchamp-newspaper",
+      "name": "The office of l’Impartial",
+      "firstChapter": 78,
+      "precision": "unknown",
+      "parent": "paris"
+    },
+    {
+      "role": "setting",
+      "tagline": [
+        {
+          "from": 81,
+          "text": "Rooms on the poor eastern edge of Paris where Caderousse lives as “M. Pailletin, retired baker”."
+        }
+      ],
+      "id": "caderousse-lodging",
+      "name": "Caderousse’s lodging, Rue Ménilmontant",
+      "firstChapter": 81,
+      "precision": "approximate",
+      "radiusKm": 0.5,
+      "lonlat": [
+        2.377,
+        48.8653
+      ],
+      "parent": "paris",
+      "today": "The old Rue de Ménilmontant inside the wall is today’s Rue Oberkampf."
+    },
+    {
+      "role": "setting",
+      "tagline": [
+        {
+          "from": 86,
+          "text": "The upper house of parliament, in the Luxembourg Palace, where Morcerf faces his fellow peers."
+        }
+      ],
+      "id": "chamber-of-peers",
+      "name": "The Chamber of Peers",
+      "firstChapter": 86,
+      "precision": "exact",
+      "lonlat": [
+        2.33778,
+        48.84854
+      ],
+      "parent": "paris",
+      "note": "Rue de Vaugirard",
+      "today": "The Luxembourg Palace, now the French Senate."
+    },
+    {
+      "role": "setting",
+      "tagline": [
+        {
+          "from": 88,
+          "text": "Large wood on the eastern edge of Paris, a favourite duelling ground."
+        }
+      ],
+      "id": "bois-de-vincennes",
+      "name": "The Bois de Vincennes",
+      "firstChapter": 88,
+      "precision": "approximate",
+      "radiusKm": 1.5,
+      "lonlat": [
+        2.43415,
+        48.83155
+      ],
+      "note": "Bois de Vincennes"
+    }
+  ],
+  "settings": {
+    "61": [
+      "montlhery-tower",
+      "danglars-house"
+    ],
+    "62": [
+      "house-at-auteuil"
+    ],
+    "63": [
+      "house-at-auteuil"
+    ],
+    "64": [
+      "house-at-auteuil",
+      "paris"
+    ],
+    "65": [
+      "danglars-house"
+    ],
+    "66": [
+      "count-house-champs-elysees",
+      "danglars-house",
+      "chamber-of-deputies"
+    ],
+    "67": [
+      "palais-de-justice-paris"
+    ],
+    "68": [
+      "count-house-champs-elysees"
+    ],
+    "69": [
+      "busoni-house",
+      "wilmore-lodgings",
+      "villefort-house-paris"
+    ],
+    "70": [
+      "morcerf-house"
+    ],
+    "71": [
+      "morcerf-house"
+    ],
+    "72": [
+      "villefort-house-paris"
+    ],
+    "73": [
+      "villefort-house-paris"
+    ],
+    "74": [
+      "pere-lachaise",
+      "villefort-house-paris"
+    ],
+    "75": [
+      "villefort-house-paris"
+    ],
+    "76": [
+      "danglars-house"
+    ],
+    "77": [
+      "count-house-champs-elysees"
+    ],
+    "78": [
+      "villefort-house-paris",
+      "danglars-house",
+      "gosset-shooting-gallery",
+      "beauchamp-newspaper"
+    ],
+    "79": [
+      "villefort-house-paris"
+    ],
+    "80": [
+      "villefort-house-paris"
+    ],
+    "81": [
+      "caderousse-lodging",
+      "danglars-house"
+    ],
+    "82": [
+      "count-house-champs-elysees",
+      "house-at-auteuil"
+    ],
+    "83": [
+      "count-house-champs-elysees"
+    ],
+    "84": [
+      "morcerf-house"
+    ],
+    "85": [
+      "count-house-normandy",
+      "count-house-champs-elysees"
+    ],
+    "86": [
+      "chamber-of-peers",
+      "paris"
+    ],
+    "87": [
+      "danglars-house"
+    ],
+    "88": [
+      "opera-paris",
+      "morcerf-house",
+      "count-house-champs-elysees"
+    ],
+    "89": [
+      "count-house-champs-elysees"
+    ],
+    "90": [
+      "bois-de-vincennes",
+      "count-house-champs-elysees"
+    ]
+  },
+  "journeys": [
+    {
+      "id": "montlhery-telegraph",
+      "name": "The Count’s ride to the Montlhéry telegraph",
+      "who": [
+        "edmond-dantes"
+      ],
+      "legs": [
+        {
+          "chapter": 61,
+          "from": "count-house-champs-elysees",
+          "to": "montlhery-tower",
+          "mode": "road"
+        }
+      ]
+    },
+    {
+      "id": "caderousse-flight-toulon",
+      "name": "Caderousse’s flight from Toulon",
+      "who": [
+        "gaspard-caderousse"
+      ],
+      "legs": [
+        {
+          "chapter": 64,
+          "from": "toulon",
+          "to": "paris",
+          "mode": "road"
+        }
+      ]
+    },
+    {
+      "id": "treport-return",
+      "name": "Back from the seaside at Tréport",
+      "who": [
+        "mercedes",
+        "albert-de-morcerf"
+      ],
+      "legs": [
+        {
+          "chapter": 68,
+          "from": "treport",
+          "to": "morcerf-house",
+          "mode": "road"
+        }
+      ]
+    },
+    {
+      "id": "bertuccio-normandy",
+      "name": "Bertuccio goes to find a house in Normandy",
+      "who": [
+        "bertuccio"
+      ],
+      "legs": [
+        {
+          "chapter": 68,
+          "from": "count-house-champs-elysees",
+          "to": "count-house-normandy",
+          "mode": "road"
+        }
+      ]
+    },
+    {
+      "id": "saint-meran-journey",
+      "name": "The Saint-Mérans’ journey from Marseilles",
+      "who": [
+        "marquise-de-saint-meran",
+        "marquis-de-saint-meran"
+      ],
+      "legs": [
+        {
+          "chapter": 71,
+          "from": "marseilles",
+          "to": "villefort-house-paris",
+          "mode": "road"
+        }
+      ]
+    },
+    {
+      "id": "beauchamp-yanina",
+      "name": "Beauchamp’s trip to Yanina",
+      "who": [
+        "beauchamp"
+      ],
+      "legs": [
+        {
+          "chapter": 84,
+          "from": "paris",
+          "to": "yanina",
+          "mode": "road"
+        },
+        {
+          "chapter": 84,
+          "from": "yanina",
+          "to": "morcerf-house",
+          "mode": "road"
+        }
+      ]
+    },
+    {
+      "id": "normandy-trip",
+      "name": "Seaside holiday in Normandy",
+      "who": [
+        "edmond-dantes",
+        "albert-de-morcerf",
+        "ali"
+      ],
+      "legs": [
+        {
+          "chapter": 85,
+          "from": "count-house-champs-elysees",
+          "to": "count-house-normandy",
+          "mode": "road"
+        }
+      ]
+    },
+    {
+      "id": "albert-rides-back",
+      "name": "Albert’s gallop back to Paris",
+      "who": [
+        "albert-de-morcerf"
+      ],
+      "legs": [
+        {
+          "chapter": 85,
+          "from": "count-house-normandy",
+          "to": "paris",
+          "mode": "road"
+        }
+      ]
+    },
+    {
+      "id": "to-the-duel",
+      "name": "To the duelling ground",
+      "who": [
+        "edmond-dantes",
+        "maximilien-morrel",
+        "emmanuel-herbaut"
+      ],
+      "legs": [
+        {
+          "chapter": 90,
+          "from": "count-house-champs-elysees",
+          "to": "bois-de-vincennes",
+          "mode": "road"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,100 @@
+[
+  {
+    "id": "gulf",
+    "type": "geo",
+    "title": "The Gulf & the mountains",
+    "short": "The Gulf",
+    "bounds": [
+      [
+        -111.05,
+        23.85
+      ],
+      [
+        -109.75,
+        24.95
+      ]
+    ],
+    "note": "Steinbeck never names the town; it is modelled on La Paz, Baja California Sur. Inland places are approximate.",
+    "labels": [
+      {
+        "text": "Gulf of California",
+        "at": [
+          -110.0,
+          24.62
+        ],
+        "kind": "sea"
+      },
+      {
+        "text": "Bay of La Paz",
+        "at": [
+          -110.47,
+          24.33
+        ],
+        "kind": "sea"
+      },
+      {
+        "text": "Sierra de la Giganta",
+        "at": [
+          -110.82,
+          24.78
+        ],
+        "kind": "area"
+      }
+    ]
+  },
+  {
+    "id": "town",
+    "type": "plan",
+    "title": "The town & the beach",
+    "short": "The town",
+    "parent": "gulf",
+    "anchor": [
+      -110.31,
+      24.155
+    ],
+    "size": [
+      1000,
+      700
+    ],
+    "note": "Drawn from the book’s descriptions, not to scale.",
+    "landmarks": {
+      "the gulf / estuary water (bottom band y>570)": [
+        450,
+        640
+      ],
+      "the beach where canoes are drawn up": [
+        300,
+        545
+      ],
+      "brush houses along the beach (band y 430-510, x 100-700)": [
+        400,
+        470
+      ],
+      "the mangrove estuary (east, x>760)": [
+        870,
+        520
+      ],
+      "the stone-and-plaster town up the slope (north, y 60-380)": [
+        500,
+        230
+      ],
+      "the church on its square": [
+        520,
+        170
+      ],
+      "the doctor's house with its gate in the wall": [
+        690,
+        250
+      ],
+      "the street of the pearl buyers' offices": [
+        400,
+        300
+      ],
+      "the road out of town to the north (toward the mountains and the capital)": [
+        520,
+        30
+      ]
+    },
+    "place": "the-town"
+  }
+]

@@ -1,0 +1,348 @@
+[
+  {
+    "id": "britain",
+    "type": "geo",
+    "title": "Britain",
+    "short": "Britain",
+    "bounds": [
+      [
+        -6.2,
+        49.9
+      ],
+      [
+        2.0,
+        55.9
+      ]
+    ],
+    "labels": [
+      {
+        "text": "ENGLAND",
+        "at": [
+          -1.4,
+          52.7
+        ],
+        "kind": "region"
+      },
+      {
+        "text": "WALES",
+        "at": [
+          -3.7,
+          52.3
+        ],
+        "kind": "region"
+      },
+      {
+        "text": "SCOTLAND",
+        "at": [
+          -3.9,
+          55.55
+        ],
+        "kind": "region"
+      },
+      {
+        "text": "North Sea",
+        "at": [
+          1.4,
+          54.3
+        ],
+        "kind": "sea"
+      },
+      {
+        "text": "English Channel",
+        "at": [
+          -2.4,
+          50.25
+        ],
+        "kind": "sea"
+      },
+      {
+        "text": "Irish Sea",
+        "at": [
+          -5.0,
+          53.8
+        ],
+        "kind": "sea"
+      },
+      {
+        "text": "Bristol Channel",
+        "at": [
+          -4.1,
+          51.32
+        ],
+        "kind": "sea"
+      }
+    ]
+  },
+  {
+    "id": "london",
+    "type": "geo",
+    "title": "London",
+    "short": "London",
+    "parent": "britain",
+    "bounds": [
+      [
+        -0.205,
+        51.49
+      ],
+      [
+        -0.065,
+        51.548
+      ]
+    ],
+    "labels": [
+      {
+        "text": "Thames",
+        "at": [
+          -0.1045,
+          51.5072
+        ],
+        "kind": "water"
+      },
+      {
+        "text": "Hyde Park",
+        "at": [
+          -0.1655,
+          51.5075
+        ],
+        "kind": "area"
+      },
+      {
+        "text": "the City",
+        "at": [
+          -0.0915,
+          51.5152
+        ],
+        "kind": "area"
+      },
+      {
+        "text": "Westminster",
+        "at": [
+          -0.1335,
+          51.4985
+        ],
+        "kind": "area"
+      },
+      {
+        "text": "Bloomsbury",
+        "at": [
+          -0.1255,
+          51.5215
+        ],
+        "kind": "area"
+      }
+    ]
+  },
+  {
+    "id": "diagon-alley",
+    "type": "plan",
+    "title": "The Leaky Cauldron & Diagon Alley",
+    "short": "Diagon Alley",
+    "parent": "london",
+    "anchor": [
+      -0.1285,
+      51.5125
+    ],
+    "size": [
+      1000,
+      520
+    ],
+    "note": "Drawn from the book’s descriptions, not to scale.",
+    "landmarks": {
+      "Charing Cross Road (left edge, vertical street)": [
+        40,
+        260
+      ],
+      "the Leaky Cauldron pub": [
+        140,
+        260
+      ],
+      "walled back courtyard with the dustbins / brick archway": [
+        250,
+        260
+      ],
+      "the alley entrance (west end)": [
+        300,
+        260
+      ],
+      "north side shops, west to east": [
+        [
+          380,
+          170
+        ],
+        [
+          500,
+          165
+        ],
+        [
+          620,
+          160
+        ],
+        [
+          740,
+          165
+        ]
+      ],
+      "south side shops, west to east": [
+        [
+          380,
+          350
+        ],
+        [
+          500,
+          355
+        ],
+        [
+          620,
+          360
+        ],
+        [
+          740,
+          355
+        ]
+      ],
+      "Gringotts, the white marble bank at the east end": [
+        900,
+        240
+      ]
+    },
+    "place": "diagon-alley"
+  },
+  {
+    "id": "hogwarts",
+    "type": "plan",
+    "title": "Hogwarts & its grounds",
+    "short": "Grounds",
+    "size": [
+      1000,
+      760
+    ],
+    "offmap": {
+      "frame": "britain",
+      "dir": "N",
+      "label": "Hogwarts — the book never says where it is",
+      "badge": "Hogwarts"
+    },
+    "note": "Drawn from the book’s descriptions, not to scale.",
+    "landmarks": {
+      "the castle, on a high cliff on the north shore of the lake": [
+        500,
+        230
+      ],
+      "underground harbour below the castle where the boats land": [
+        500,
+        345
+      ],
+      "the great black lake": [
+        520,
+        520
+      ],
+      "Hogsmeade station, south-west across the lake": [
+        170,
+        690
+      ],
+      "where the first years board the boats": [
+        290,
+        625
+      ],
+      "greenhouses, east of the castle": [
+        680,
+        300
+      ],
+      "Hagrid's hut, at the edge of the forest": [
+        800,
+        330
+      ],
+      "the Forbidden Forest (eastern band)": [
+        905,
+        430
+      ],
+      "the Quidditch pitch, west of the castle": [
+        210,
+        250
+      ],
+      "the front steps / great oak doors": [
+        470,
+        320
+      ]
+    }
+  },
+  {
+    "id": "castle",
+    "type": "plan",
+    "title": "Inside the castle",
+    "short": "Castle",
+    "parent": "hogwarts",
+    "anchor": [
+      500,
+      230
+    ],
+    "size": [
+      1000,
+      840
+    ],
+    "note": "A cut-away diagram by floor. Book 1 rarely says which floor a room is on; those are marked as approximate.",
+    "landmarks": {
+      "tops of towers band (y 40-150)": [
+        500,
+        95
+      ],
+      "Gryffindor Tower, seventh floor & up, left side": [
+        230,
+        110
+      ],
+      "the tallest tower (Astronomy), right side": [
+        800,
+        70
+      ],
+      "upper floors band (y 160-320)": [
+        500,
+        240
+      ],
+      "third floor band (y 330-400)": [
+        500,
+        365
+      ],
+      "the forbidden third-floor corridor": [
+        640,
+        365
+      ],
+      "the trophy room (third floor)": [
+        360,
+        365
+      ],
+      "second floor band (y 410-470)": [
+        500,
+        440
+      ],
+      "first floor band (y 480-540)": [
+        500,
+        510
+      ],
+      "ground floor band (y 550-620)": [
+        500,
+        585
+      ],
+      "Entrance Hall": [
+        300,
+        585
+      ],
+      "the Great Hall": [
+        560,
+        585
+      ],
+      "dungeons band (y 630-700)": [
+        500,
+        665
+      ],
+      "Potions classroom in the dungeons": [
+        400,
+        665
+      ],
+      "far below: chambers beneath the trapdoor (y 720-810)": [
+        640,
+        765
+      ]
+    },
+    "place": "hogwarts"
+  }
+]

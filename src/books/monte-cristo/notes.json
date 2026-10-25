@@ -5,7 +5,8 @@
     "kind": "place",
     "chapter": 1,
     "text": "The hilltop church above Marseilles harbour. Its height made it the port's lookout post, from which approaching ships were signalled to the town.",
-    "quote": "the look-out at Notre-Dame de la Garde"
+    "quote": "the look-out at Notre-Dame de la Garde",
+    "placeId": "notre-dame-de-la-garde"
   },
   {
     "id": "supercargo",
@@ -61,7 +62,8 @@
     "kind": "place",
     "chapter": 1,
     "text": "Portoferraio, the chief port and town of Elba, where Napoleon and his small court lived.",
-    "quote": "his landing at Porto-Ferrajo"
+    "quote": "his landing at Porto-Ferrajo",
+    "placeId": "elba"
   },
   {
     "id": "pardieu-peste",
@@ -261,7 +263,8 @@
     "kind": "place",
     "chapter": 4,
     "text": "The bell tower of the old church of Notre-Dame des Accoules, a landmark of Marseilles' old quarter.",
-    "quote": "go up into the belfry of the Accoules"
+    "quote": "go up into the belfry of the Accoules",
+    "placeId": "accoules"
   },
   {
     "id": "the-mayor-at-the-city-hall",
@@ -320,7 +323,8 @@
     "quote": "in the direction of the Palais de Justice",
     "seeAlso": [
       8
-    ]
+    ],
+    "placeId": "palais-de-justice-marseilles"
   },
   {
     "id": "cross-of-saint-louis",
@@ -466,7 +470,8 @@
     "kind": "place",
     "chapter": 8,
     "text": "The Frioul islands off Marseilles (Pomègue, Ratonneau and the little Île d'If) and the waters around them, just outside the harbour mouth.",
-    "quote": "they were, as Dantès knew, in the Frioul"
+    "quote": "they were, as Dantès knew, in the Frioul",
+    "placeId": "chateau-dif"
   },
   {
     "id": "like-a-tuscan-like-a-castilian",
@@ -569,7 +574,8 @@
     "kind": "place",
     "chapter": 10,
     "text": "The royal palace in Paris beside the Louvre, the seat of government for Napoleon and the Bourbons alike. It burned in 1871.",
-    "quote": "enter at the Tuileries the little room"
+    "quote": "enter at the Tuileries the little room",
+    "placeId": "tuileries"
   },
   {
     "id": "louis-philippe",
@@ -1150,7 +1156,8 @@
     "kind": "place",
     "chapter": 19,
     "text": "A low, flat island south-west of Elba in the Tuscan archipelago.",
-    "quote": "situated twenty-five miles from Pianosa"
+    "quote": "situated twenty-five miles from Pianosa",
+    "placeId": "pianosa"
   },
   {
     "id": "terra-firma",
@@ -1225,7 +1232,8 @@
     "kind": "place",
     "chapter": 21,
     "text": "A lighthouse on a rocky islet south-west of Marseilles, which ships steered by.",
-    "quote": "he saw the light of Planier"
+    "quote": "he saw the light of Planier",
+    "placeId": "planier"
   },
   {
     "id": "genoese-tartan",
@@ -1252,7 +1260,8 @@
     "quote": "“To Leghorn.”",
     "seeAlso": [
       117
-    ]
+    ],
+    "placeId": "leghorn"
   },
   {
     "id": "fathoms",
@@ -1434,7 +1443,8 @@
     "kind": "place",
     "chapter": 24,
     "text": "The narrow channel between Corsica and Sardinia, about 11 km wide, notorious for strong winds and currents.",
-    "quote": "just disappearing in the straits of Bonifacio"
+    "quote": "just disappearing in the straits of Bonifacio",
+    "placeId": "straits-of-bonifacio"
   },
   {
     "id": "d-dalian-labyrinth",
@@ -1541,7 +1551,8 @@
     "quote": "as he landed on the Canebière",
     "seeAlso": [
       112
-    ]
+    ],
+    "placeId": "canebiere"
   },
   {
     "id": "double-napoleon",
@@ -1581,7 +1592,8 @@
     "kind": "place",
     "chapter": 26,
     "text": "A Roman aqueduct bridge (1st century AD) with three tiers of arches over the river Gardon near Nîmes, one of the best-preserved Roman monuments in France. The inn's sign shows it.",
-    "quote": "a grotesque representation of the Pont du Gard"
+    "quote": "a grotesque representation of the Pont du Gard",
+    "placeId": "pont-du-gard-inn"
   },
   {
     "id": "beaucaire",
@@ -1593,7 +1605,8 @@
     "seeAlso": [
       27,
       29
-    ]
+    ],
+    "placeId": "beaucaire"
   },
   {
     "id": "a-canal-between-beaucaire-and-aiguemortes",
@@ -1737,7 +1750,8 @@
     "quote": "No. 27, Rue du Helder, Paris",
     "seeAlso": [
       33
-    ]
+    ],
+    "placeId": "morcerf-house"
   },
   {
     "id": "five-and-twenty-louis",
@@ -1984,7 +1998,8 @@
     "kind": "place",
     "chapter": 30,
     "text": "Fort Saint-Jean, the medieval fortress guarding the north side of the entrance to Marseilles's Old Port.",
-    "quote": "in front of the tower of Saint-Jean"
+    "quote": "in front of the tower of Saint-Jean",
+    "placeId": "fort-saint-jean"
   },
   {
     "id": "carnival",
@@ -2099,7 +2114,8 @@
     "kind": "place",
     "chapter": 32,
     "text": "A small port on a deep gulf on the south-east coast of Corsica, facing Sardinia.",
-    "quote": "it disappeared in the gulf of Porto-Vecchio"
+    "quote": "it disappeared in the gulf of Porto-Vecchio",
+    "placeId": "porto-vecchio"
   },
   {
     "id": "four-great-events",
@@ -2140,7 +2156,8 @@
       34,
       35,
       36
-    ]
+    ],
+    "placeId": "corso"
   },
   {
     "id": "pulchinellos-or-shepherds-of-the-landes",
@@ -2228,7 +2245,8 @@
     "quote": "show Albert the Colosseum by moonlight",
     "seeAlso": [
       34
-    ]
+    ],
+    "placeId": "colosseum"
   },
   {
     "id": "transtevere",
@@ -2239,7 +2257,8 @@
     "quote": "wore the Transtevere costume",
     "seeAlso": [
       36
-    ]
+    ],
+    "placeId": "trastevere"
   },
   {
     "id": "castle-of-st-angelo",
@@ -2250,7 +2269,8 @@
     "quote": "I came here direct from the Castle of St. Angelo",
     "seeAlso": [
       36
-    ]
+    ],
+    "placeId": "castle-st-angelo"
   },
   {
     "id": "mazzolato",
@@ -2389,7 +2409,8 @@
     "quote": "the spectacle that the Piazza del Popolo presented",
     "seeAlso": [
       36
-    ]
+    ],
+    "placeId": "piazza-del-popolo"
   },
   {
     "id": "brotherhood-of-penitents",
@@ -2525,7 +2546,8 @@
     "kind": "place",
     "chapter": 37,
     "text": "The Via Appia, ancient Rome's great road south, begun in 312 BC. Roman law banned burial inside the city, so tombs lined the road for miles.",
-    "quote": "the ancient Appian Way, and bordered with tombs"
+    "quote": "the ancient Appian Way, and bordered with tombs",
+    "placeId": "appian-way"
   },
   {
     "id": "campagna",
@@ -2533,7 +2555,8 @@
     "kind": "place",
     "chapter": 37,
     "text": "The Roman Campagna: the empty, rolling plain around Rome, malarial and thinly populated, the country of shepherds and bandits.",
-    "quote": "the irregular and broken surface of the Campagna"
+    "quote": "the irregular and broken surface of the Campagna",
+    "placeId": "campagna"
   },
   {
     "id": "catacombs-of-st-sebastian",
@@ -2541,7 +2564,8 @@
     "kind": "place",
     "chapter": 37,
     "text": "Underground galleries on the Appian Way where early Christians buried their dead in niches cut into the walls, row above row. A columbarium is a chamber lined with such niches.",
-    "quote": "waiting for him in the catacombs of St. Sebastian"
+    "quote": "waiting for him in the catacombs of St. Sebastian",
+    "placeId": "catacombs-st-sebastian"
   },
   {
     "id": "c-sar-s-commentaries",
@@ -2684,7 +2708,8 @@
     "quote": "it had already transpired on the Bourse",
     "seeAlso": [
       54
-    ]
+    ],
+    "placeId": "bourse"
   },
   {
     "id": "the-chamber",
@@ -2707,7 +2732,8 @@
     "kind": "place",
     "chapter": 39,
     "text": "The great wooded park on the western edge of Paris, where fashionable people rode and drove to be seen.",
-    "quote": "At the Bois de Boulogne"
+    "quote": "At the Bois de Boulogne",
+    "placeId": "bois-de-boulogne"
   },
   {
     "id": "peste",
@@ -2809,7 +2835,8 @@
     "seeAlso": [
       42,
       50
-    ]
+    ],
+    "placeId": "danglars-house"
   },
   {
     "id": "the-politeness-of-kings",
@@ -2895,7 +2922,8 @@
     "kind": "place",
     "chapter": 42,
     "text": "In 1838 the avenue was grand but still semi-rural, running out to the edge of Paris between gardens and scattered mansions.",
-    "quote": "as you ascend the Champs-Élysées"
+    "quote": "as you ascend the Champs-Élysées",
+    "placeId": "count-house-champs-elysees"
   },
   {
     "id": "fifty-five-thousand-francs",
@@ -3008,7 +3036,8 @@
     "kind": "place",
     "chapter": 44,
     "text": "The long, narrow peninsula at Corsica's northern tip; Rogliano is one of its villages.",
-    "quote": "the little village of Rogliano, at the extremity of Cap Corse"
+    "quote": "the little village of Rogliano, at the extremity of Cap Corse",
+    "placeId": "rogliano"
   },
   {
     "id": "the-foundling-asylum",
@@ -3185,7 +3214,8 @@
     "kind": "place",
     "chapter": 47,
     "text": "A popular park and open-air ballroom at Passy, on the edge of the Bois de Boulogne.",
-    "quote": "Your horses got as far as Ranelagh"
+    "quote": "Your horses got as far as Ranelagh",
+    "placeId": "ranelagh"
   },
   {
     "id": "the-faubourg-saint-honore",
@@ -3196,7 +3226,8 @@
     "quote": "her residence in the Faubourg Saint-Honoré",
     "seeAlso": [
       51
-    ]
+    ],
+    "placeId": "villefort-house-paris"
   },
   {
     "id": "the-jockey-club",
@@ -3299,7 +3330,8 @@
     "kind": "place",
     "chapter": 49,
     "text": "A mountainous region of north-western Greece and southern Albania, then part of the Ottoman Empire, with the Pindus range at its back.",
-    "quote": "that of the women of Epirus"
+    "quote": "that of the women of Epirus",
+    "placeId": "epirus"
   },
   {
     "id": "parian-marble",
@@ -3491,7 +3523,8 @@
     "quote": "to escort to the Académie a Greek princess",
     "seeAlso": [
       53
-    ]
+    ],
+    "placeId": "opera-paris"
   },
   {
     "id": "robert-le-diable",
@@ -3640,7 +3673,8 @@
       82,
       85,
       117
-    ]
+    ],
+    "placeId": "treport"
   },
   {
     "id": "dante-s-tenth-canto",
@@ -3672,7 +3706,8 @@
     "kind": "place",
     "chapter": 55,
     "text": "A small city-state in Tuscany, in 1838 still an independent duchy. Its old families claimed proud descent, which makes it a handy birthplace for an invented nobleman.",
-    "quote": "a worthy patrician of Lucca"
+    "quote": "a worthy patrician of Lucca",
+    "placeId": "lucca"
   },
   {
     "id": "ex-major-in-the-austrian-service",
@@ -3739,7 +3774,8 @@
     "kind": "place",
     "chapter": 56,
     "text": "A town on the frontier between France and Savoy, which then belonged to the Kingdom of Sardinia. Crossing there meant entering France from Italy.",
-    "quote": "from Pont-de-Beauvoisin to Paris"
+    "quote": "from Pont-de-Beauvoisin to Paris",
+    "placeId": "pont-de-beauvoisin"
   },
   {
     "id": "slaves-in-asia-minor",
@@ -3963,7 +3999,8 @@
     "kind": "place",
     "chapter": 61,
     "text": "One of the gates in the customs wall on the south side of Paris, leading to the Orléans road. Its name means 'Gate of Hell'; the square there is today's Place Denfert-Rochereau.",
-    "quote": "the Barrière d’Enfer, taking the road to"
+    "quote": "the Barrière d’Enfer, taking the road to",
+    "placeId": "barriere-d-enfer"
   },
   {
     "id": "the-tower-of-montlhery",
@@ -3971,7 +4008,8 @@
     "kind": "place",
     "chapter": 61,
     "text": "The keep of a ruined medieval castle on a hill about 25 km south of Paris. A real telegraph station was set up on it, on the Paris–Bayonne line toward Spain.",
-    "quote": "reached the tower of Montlhéry"
+    "quote": "reached the tower of Montlhéry",
+    "placeId": "montlhery-tower"
   },
   {
     "id": "dormice-as-the-romans-did",
@@ -4331,7 +4369,8 @@
     "kind": "place",
     "chapter": 67,
     "text": "The Palais de Justice, the law courts on the Île de la Cité, entered from the Rue de Harlay. The Salle des Pas-Perdus ('hall of lost footsteps') is its vast waiting hall, always crowded with lawyers and clients.",
-    "quote": "Madame Danglars soon reached the Salle des Pas-Perdus"
+    "quote": "Madame Danglars soon reached the Salle des Pas-Perdus",
+    "placeId": "palais-de-justice-paris"
   },
   {
     "id": "deed-of-resilition",
@@ -4713,7 +4752,8 @@
     "quote": "the cemetery of Père-Lachaise",
     "seeAlso": [
       105
-    ]
+    ],
+    "placeId": "pere-lachaise"
   },
   {
     "id": "mourning-coaches",
@@ -4801,7 +4841,8 @@
     "kind": "place",
     "chapter": 75,
     "text": "A quay on the Right Bank of the Seine near the Hôtel de Ville, where steps led down to the river.",
-    "quote": "at that part of the Quai des Ormes"
+    "quote": "at that part of the Quai des Ormes",
+    "placeId": "quai-des-ormes"
   },
   {
     "id": "honorable-reparation",
@@ -4817,7 +4858,8 @@
     "kind": "place",
     "chapter": 76,
     "text": "Bagni di Lucca, a spa town in the Tuscan hills whose casino was one of the first licensed gambling houses in Europe.",
-    "quote": "at the gaming-table of the baths of Lucca"
+    "quote": "at the gaming-table of the baths of Lucca",
+    "placeId": "bagni-di-lucca"
   },
   {
     "id": "the-quarries-of-saravezza",
@@ -4825,7 +4867,8 @@
     "kind": "place",
     "chapter": 76,
     "text": "Seravezza, near Carrara, is famous for its marble quarries; Michelangelo took stone from there.",
-    "quote": "buried in the quarries of Saravezza"
+    "quote": "buried in the quarries of Saravezza",
+    "placeId": "seravezza"
   },
   {
     "id": "the-shield-of-minerva-sappho",
@@ -4976,7 +5019,8 @@
     "kind": "place",
     "chapter": 78,
     "text": "A real pistol gallery near the Champs-Élysées where Parisian gentlemen kept their aim sharp. The Allée des Veuves (now the Avenue Montaigne) was then a quiet, shady lane.",
-    "quote": "Gosset’s shooting-gallery"
+    "quote": "Gosset’s shooting-gallery",
+    "placeId": "gosset-shooting-gallery"
   },
   {
     "id": "second",
@@ -5457,7 +5501,8 @@
     "kind": "place",
     "chapter": 87,
     "text": "The Chamber of Peers met in the Luxembourg Palace, which has an entrance on this Left Bank street.",
-    "quote": "opening into the Rue de Vaugirard"
+    "quote": "opening into the Rue de Vaugirard",
+    "placeId": "chamber-of-peers"
   },
   {
     "id": "babylon",
@@ -5492,7 +5537,8 @@
     "quote": "in the Bois de Vincennes",
     "seeAlso": [
       90
-    ]
+    ],
+    "placeId": "bois-de-vincennes"
   },
   {
     "id": "lara-manfred-lord-ruthven",
@@ -5638,7 +5684,8 @@
     "kind": "place",
     "chapter": 91,
     "text": "A modest street on the Left Bank of Paris, a world away from the Morcerf mansion.",
-    "quote": "a small furnished house to let in the Rue des Saints-Pères"
+    "quote": "a small furnished house to let in the Rue des Saints-Pères",
+    "placeId": "rue-des-saints-peres"
   },
   {
     "id": "a-hundred-and-fifty-louis",
@@ -5654,7 +5701,8 @@
     "kind": "place",
     "chapter": 91,
     "text": "A tree-lined avenue in Marseilles, where the Dantès family’s little house stood.",
-    "quote": "on the Allées de Meilhan"
+    "quote": "on the Allées de Meilhan",
+    "placeId": "old-dantes-house"
   },
   {
     "id": "convent",
@@ -5995,7 +6043,8 @@
     "kind": "place",
     "chapter": 97,
     "text": "A toll gate in the wall around Paris, on the road north. Just beyond it lay the village of La Villette.",
-    "quote": "the Barrière Saint-Martin"
+    "quote": "the Barrière Saint-Martin",
+    "placeId": "barriere-saint-martin"
   },
   {
     "id": "corbeille",
@@ -6034,7 +6083,8 @@
     "kind": "place",
     "chapter": 98,
     "text": "A town about 80 km north of Paris, with a royal palace and a great forest.",
-    "quote": "Compiègne, that royal residence and fortified town"
+    "quote": "Compiègne, that royal residence and fortified town",
+    "placeId": "compiegne"
   },
   {
     "id": "achilles-with-deidamia",
@@ -6148,7 +6198,8 @@
     "kind": "place",
     "chapter": 101,
     "text": "A church in the Faubourg Saint-Honoré, the wealthy Paris district where the Villeforts live; its clock is the one Valentine hears.",
-    "quote": "slower than that of Saint-Philippe-du-Roule"
+    "quote": "slower than that of Saint-Philippe-du-Roule",
+    "placeId": "saint-philippe-du-roule"
   },
   {
     "id": "200-000-livres-a-year",
@@ -6341,7 +6392,8 @@
     "quote": "the _coupé_ to Châlons",
     "seeAlso": [
       112
-    ]
+    ],
+    "placeId": "chalon-sur-saone"
   },
   {
     "id": "3-000-francs",
@@ -6389,7 +6441,8 @@
     "kind": "place",
     "chapter": 107,
     "text": "A notorious Paris prison in the Marais district, used for those awaiting trial. It was demolished in the 1840s.",
-    "quote": "One division of La Force"
+    "quote": "One division of La Force",
+    "placeId": "la-force"
   },
   {
     "id": "barrier-saint-jacques",
@@ -6583,7 +6636,8 @@
     "kind": "place",
     "chapter": 112,
     "text": "A hill just south of Paris on the main road to Fontainebleau and the south, with a view back over the whole city.",
-    "quote": "the top of the hill Villejuif"
+    "quote": "the top of the hill Villejuif",
+    "placeId": "villejuif"
   },
   {
     "id": "modern-babylon",
@@ -6607,7 +6661,8 @@
     "kind": "place",
     "chapter": 112,
     "text": "One of the two forts guarding the entrance to Marseilles’ Old Port. The City Hall on the quay carries carving by Pierre Puget, the city’s great Baroque sculptor.",
-    "quote": "Fort Saint-Nicolas, the City Hall designed by Puget"
+    "quote": "Fort Saint-Nicolas, the City Hall designed by Puget",
+    "placeId": "fort-saint-nicolas"
   },
   {
     "id": "the-consigne",
@@ -6615,7 +6670,8 @@
     "kind": "place",
     "chapter": 113,
     "text": "The harbour health office at Marseilles, which checked arriving ships for disease; prisoners were also embarked from its quay.",
-    "quote": "advanced to the Consigne"
+    "quote": "advanced to the Consigne",
+    "placeId": "consigne-marseilles"
   },
   {
     "id": "revolution-of-july",
@@ -6655,7 +6711,8 @@
     "kind": "place",
     "chapter": 113,
     "text": "The main port of northern Corsica, the nearest large harbour to the island of Monte Cristo.",
-    "quote": "in the port of Bastia"
+    "quote": "in the port of Bastia",
+    "placeId": "bastia"
   },
   {
     "id": "eurus",
@@ -6695,7 +6752,8 @@
     "kind": "place",
     "chapter": 114,
     "text": "The last post station on the road from Florence, where travellers caught their first sight of Rome and the dome of St. Peter’s.",
-    "quote": "On reaching La Storta"
+    "quote": "On reaching La Storta",
+    "placeId": "la-storta"
   },
   {
     "id": "descendants-of-marius-and-the-gracchi",

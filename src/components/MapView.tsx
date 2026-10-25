@@ -8,6 +8,7 @@ import { useBook } from '../lib/book-context'
 import { href } from '../lib/router'
 import { connections, currentTagline, displayId, familyAnchors, isThing, kindOf, kinRole, metCharacters } from '../lib/spoilers'
 import { kinLabel, relationLabel, relationTypes } from '../lib/relations'
+import { placeAt } from '../lib/atlas'
 
 type Scope = 'major' | 'main' | 'all'
 
@@ -203,9 +204,16 @@ export default function MapView({ focusId }: { focusId?: string }) {
                 </p>
               </div>
             </div>
-            <button className="link" onClick={() => leaveSheetTo(href('b', meta.id, 'characters', selChar.id))}>
-              Open profile <Icon name="chevronRight" className="icon--sm" />
-            </button>
+            <div style={{ display: 'flex', gap: 16, flexWrap: 'wrap' }}>
+              <button className="link" onClick={() => leaveSheetTo(href('b', meta.id, 'characters', selChar.id))}>
+                Open profile <Icon name="chevronRight" className="icon--sm" />
+              </button>
+              {kindOf(selChar) === 'place' && placeAt(book, selChar.id, upTo) && (
+                <button className="link" onClick={() => leaveSheetTo(href('b', meta.id, 'places', selChar.id))}>
+                  <Icon name="pin" className="icon--sm" /> On the map
+                </button>
+              )}
+            </div>
             <p className="group-title">
               {selLinks.length} relationship{selLinks.length === 1 ? '' : 's'}
             </p>
