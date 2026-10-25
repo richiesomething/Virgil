@@ -1,0 +1,431 @@
+[
+  {
+    "a": "captain-baker",
+    "b": "the-monster",
+    "states": [
+      {
+        "from": 1,
+        "type": "tie",
+        "label": "Takes it for an uncharted reef until it spouts"
+      }
+    ]
+  },
+  {
+    "a": "captain-anderson",
+    "b": "the-monster",
+    "states": [
+      {
+        "from": 1,
+        "type": "tie",
+        "label": "It holes his liner, the Scotia"
+      }
+    ]
+  },
+  {
+    "a": "pierre-aronnax",
+    "b": "the-monster",
+    "states": [
+      {
+        "from": 2,
+        "type": "tie",
+        "label": "Argues in print that it is a giant narwhal"
+      },
+      {
+        "from": 7,
+        "type": "tie",
+        "label": "Castaway on its back, he finds it is a steel machine"
+      },
+      {
+        "from": 8,
+        "type": "tie",
+        "label": "A prisoner inside it"
+      }
+    ]
+  },
+  {
+    "a": "ned-land",
+    "b": "the-monster",
+    "states": [
+      {
+        "from": 4,
+        "type": "tie",
+        "label": "The one man who doubts it exists"
+      },
+      {
+        "from": 6,
+        "type": "tie",
+        "label": "Harpoons it; the harpoon rings as if on metal"
+      },
+      {
+        "from": 7,
+        "type": "tie",
+        "label": "Climbs onto its steel back and hauls the others up"
+      },
+      {
+        "from": 8,
+        "type": "tie",
+        "label": "A prisoner inside it, ready to fight his way out"
+      }
+    ]
+  },
+  {
+    "a": "conseil",
+    "b": "the-monster",
+    "states": [
+      {
+        "from": 7,
+        "type": "tie",
+        "label": "Hauled onto its steel back"
+      },
+      {
+        "from": 8,
+        "type": "tie",
+        "label": "A prisoner inside it"
+      }
+    ]
+  },
+  {
+    "a": "commander-farragut",
+    "b": "the-monster",
+    "states": [
+      {
+        "from": 2,
+        "type": "tie",
+        "label": "Sworn to rid the seas of it"
+      },
+      {
+        "from": 6,
+        "type": "tie",
+        "label": "Chases it all day and loses"
+      }
+    ]
+  },
+  {
+    "a": "old-gunner",
+    "b": "the-monster",
+    "states": [
+      {
+        "from": 6,
+        "type": "tie",
+        "label": "Hits it; the shell bounces off"
+      }
+    ]
+  },
+  {
+    "a": "j-b-hobson",
+    "b": "the-monster",
+    "states": [
+      {
+        "from": 2,
+        "type": "tie",
+        "label": "The U.S. Navy sends a frigate to hunt it"
+      }
+    ]
+  },
+  {
+    "a": "abraham-lincoln",
+    "b": "the-monster",
+    "states": [
+      {
+        "from": 2,
+        "type": "tie",
+        "label": "Fitted out to hunt it"
+      },
+      {
+        "from": 6,
+        "type": "tie",
+        "label": "Outrun, then crippled when the monster rams it"
+      }
+    ]
+  },
+  {
+    "a": "the-commander",
+    "b": "the-monster",
+    "states": [
+      {
+        "from": 8,
+        "type": "tie",
+        "label": "Commands it"
+      }
+    ]
+  },
+  {
+    "a": "chief-officer",
+    "b": "the-monster",
+    "states": [
+      {
+        "from": 8,
+        "type": "tie",
+        "label": "One of its officers"
+      }
+    ]
+  },
+  {
+    "a": "steward",
+    "b": "the-monster",
+    "states": [
+      {
+        "from": 8,
+        "type": "tie",
+        "label": "Serves the prisoners aboard"
+      }
+    ]
+  },
+  {
+    "a": "captain-nemo",
+    "b": "nautilus",
+    "states": [
+      {
+        "from": 10,
+        "type": "tie",
+        "label": "His ship, where he has cut himself off from the world"
+      },
+      {
+        "from": 13,
+        "type": "tie",
+        "label": "Designed it and had it built in secret"
+      },
+      {
+        "from": 36,
+        "type": "tie",
+        "label": "Uses its steel spur as a weapon"
+      },
+      {
+        "from": 45,
+        "type": "tie",
+        "label": "Rams and sinks a warship with it"
+      }
+    ]
+  },
+  {
+    "a": "pierre-aronnax",
+    "b": "nautilus",
+    "states": [
+      {
+        "from": 10,
+        "type": "tie",
+        "label": "His home and prison for life"
+      },
+      {
+        "from": 11,
+        "type": "tie",
+        "label": "Given a stateroom next to the captain's"
+      },
+      {
+        "from": 46,
+        "type": "tie",
+        "label": "Flees it in the skiff as the Maelstrom takes it"
+      }
+    ]
+  },
+  {
+    "a": "ned-land",
+    "b": "nautilus",
+    "states": [
+      {
+        "from": 10,
+        "type": "tie",
+        "label": "A prison he means to escape"
+      },
+      {
+        "from": 32,
+        "type": "tie",
+        "label": "Readies its skiff for an escape that fails"
+      },
+      {
+        "from": 46,
+        "type": "tie",
+        "label": "Escapes it in the skiff as the Maelstrom takes it"
+      }
+    ]
+  },
+  {
+    "a": "conseil",
+    "b": "nautilus",
+    "states": [
+      {
+        "from": 10,
+        "type": "tie",
+        "label": "Captive aboard, content to see everything"
+      },
+      {
+        "from": 46,
+        "type": "tie",
+        "label": "Leaves it in the skiff with his master"
+      }
+    ]
+  },
+  {
+    "a": "chief-officer",
+    "b": "nautilus",
+    "states": [
+      {
+        "from": 10,
+        "type": "tie",
+        "label": "Its chief officer"
+      },
+      {
+        "from": 18,
+        "type": "tie",
+        "label": "Marks its position on the chart each day"
+      }
+    ]
+  },
+  {
+    "a": "steward",
+    "b": "nautilus",
+    "states": [
+      {
+        "from": 10,
+        "type": "tie",
+        "label": "Serves aboard"
+      }
+    ]
+  },
+  {
+    "a": "nautilus-crew",
+    "b": "nautilus",
+    "states": [
+      {
+        "from": 16,
+        "type": "tie",
+        "label": "The men who work it"
+      },
+      {
+        "from": 40,
+        "type": "tie",
+        "label": "Dig it out of the ice"
+      }
+    ]
+  },
+  {
+    "a": "wounded-crewman",
+    "b": "nautilus",
+    "states": [
+      {
+        "from": 24,
+        "type": "tie",
+        "label": "Fatally hurt aboard when an engine lever cracks"
+      }
+    ]
+  },
+  {
+    "a": "french-crewman",
+    "b": "nautilus",
+    "states": [
+      {
+        "from": 42,
+        "type": "tie",
+        "label": "Carried off its platform by a giant squid"
+      }
+    ]
+  },
+  {
+    "a": "papuan-islanders",
+    "b": "nautilus",
+    "states": [
+      {
+        "from": 22,
+        "type": "tie",
+        "label": "Besiege it while it lies aground; the railing throws them back"
+      }
+    ]
+  },
+  {
+    "a": "nicolas",
+    "b": "nautilus",
+    "states": [
+      {
+        "from": 30,
+        "type": "tie",
+        "label": "Swims up to its lounge window"
+      }
+    ]
+  },
+  {
+    "a": "commander-farragut",
+    "b": "abraham-lincoln",
+    "states": [
+      {
+        "from": 2,
+        "type": "tie",
+        "label": "Commands it"
+      },
+      {
+        "from": 7,
+        "type": "tie",
+        "label": "His crippled frigate drifts away"
+      }
+    ]
+  },
+  {
+    "a": "pierre-aronnax",
+    "b": "abraham-lincoln",
+    "states": [
+      {
+        "from": 3,
+        "type": "tie",
+        "label": "Sails on it to hunt the monster"
+      },
+      {
+        "from": 6,
+        "type": "tie",
+        "label": "Thrown overboard in the collision"
+      }
+    ]
+  },
+  {
+    "a": "conseil",
+    "b": "abraham-lincoln",
+    "states": [
+      {
+        "from": 3,
+        "type": "tie",
+        "label": "Sails on it with his master"
+      },
+      {
+        "from": 7,
+        "type": "tie",
+        "label": "Jumps overboard after Aronnax"
+      }
+    ]
+  },
+  {
+    "a": "ned-land",
+    "b": "abraham-lincoln",
+    "states": [
+      {
+        "from": 4,
+        "type": "tie",
+        "label": "Its harpooner"
+      },
+      {
+        "from": 6,
+        "type": "tie",
+        "label": "Thrown overboard in the collision"
+      }
+    ]
+  },
+  {
+    "a": "old-gunner",
+    "b": "abraham-lincoln",
+    "states": [
+      {
+        "from": 6,
+        "type": "tie",
+        "label": "One of its gunners"
+      }
+    ]
+  },
+  {
+    "a": "j-b-hobson",
+    "b": "abraham-lincoln",
+    "states": [
+      {
+        "from": 2,
+        "type": "tie",
+        "label": "His Navy fits it out for the hunt"
+      }
+    ]
+  }
+]

@@ -1,0 +1,683 @@
+[
+  {
+    "a": "pierre-aronnax",
+    "b": "conseil",
+    "states": [
+      {
+        "from": 3,
+        "type": "work",
+        "label": "His servant of ten years, who follows him anywhere: \"As master wishes\""
+      },
+      {
+        "from": 7,
+        "type": "work",
+        "label": "The servant who dived in after him and kept him afloat all night"
+      },
+      {
+        "from": 14,
+        "type": "work",
+        "label": "Master and servant sharing a naturalist's dream voyage as captives"
+      },
+      {
+        "from": 40,
+        "type": "work",
+        "label": "The servant who, with Ned, gave him the last of the air under the ice"
+      },
+      {
+        "from": 47,
+        "type": "work",
+        "label": "Safe at his bedside in the Lofoten Islands"
+      }
+    ]
+  },
+  {
+    "a": "pierre-aronnax",
+    "b": "ned-land",
+    "states": [
+      {
+        "from": 4,
+        "type": "friend",
+        "label": "Shipmates who share French; the skeptical harpooner he can't convince"
+      },
+      {
+        "from": 7,
+        "type": "friend",
+        "label": "The harpooner who hauled him out of the sea onto the 'monster'"
+      },
+      {
+        "from": 10,
+        "type": "friend",
+        "label": "Fellow captive, and the constant voice of escape"
+      },
+      {
+        "from": 25,
+        "type": "friend",
+        "label": "Friends at odds: Ned pushes to escape, Aronnax wants to see more"
+      },
+      {
+        "from": 30,
+        "type": "friend",
+        "label": "Ned makes him promise to escape at the first real chance"
+      },
+      {
+        "from": 40,
+        "type": "friend",
+        "label": "Ned and Conseil revive him with the last air in a tank"
+      },
+      {
+        "from": 46,
+        "type": "friend",
+        "label": "Partners in the night escape in the skiff"
+      },
+      {
+        "from": 47,
+        "type": "friend",
+        "label": "Survivors together in the Lofoten Islands"
+      }
+    ]
+  },
+  {
+    "a": "conseil",
+    "b": "ned-land",
+    "states": [
+      {
+        "from": 4,
+        "type": "friend",
+        "label": "Shipmates on the Abraham Lincoln"
+      },
+      {
+        "from": 7,
+        "type": "friend",
+        "label": "Ned pulls him and his master from the sea"
+      },
+      {
+        "from": 14,
+        "type": "friend",
+        "label": "One names the fish, the other classifies them: one complete naturalist"
+      },
+      {
+        "from": 20,
+        "type": "friend",
+        "label": "Good friends with opposite moods: Conseil content, Ned longing to leave"
+      },
+      {
+        "from": 40,
+        "type": "friend",
+        "label": "Together they save Aronnax with the last of their air"
+      },
+      {
+        "from": 46,
+        "type": "friend",
+        "label": "Conseil keeps a close, worried watch on his despairing friend"
+      }
+    ]
+  },
+  {
+    "a": "pierre-aronnax",
+    "b": "the-commander",
+    "states": [
+      {
+        "from": 8,
+        "type": "enemy",
+        "label": "His captor: a tall, silent stranger whose noble face reassures him"
+      },
+      {
+        "from": 9,
+        "type": "enemy",
+        "label": "The captor who, it turns out, understood every word in French"
+      }
+    ]
+  },
+  {
+    "a": "ned-land",
+    "b": "the-commander",
+    "states": [
+      {
+        "from": 8,
+        "type": "enemy",
+        "label": "The captor Ned would gladly overpower"
+      },
+      {
+        "from": 9,
+        "type": "enemy",
+        "label": "Stops Ned throttling the steward with a sharp word in French"
+      }
+    ]
+  },
+  {
+    "a": "conseil",
+    "b": "the-commander",
+    "states": [
+      {
+        "from": 8,
+        "type": "enemy",
+        "label": "The silent captor of Conseil and his master"
+      }
+    ]
+  },
+  {
+    "a": "the-commander",
+    "b": "chief-officer",
+    "states": [
+      {
+        "from": 8,
+        "type": "work",
+        "label": "Visit the captives' cell together; the stocky man seems his second"
+      }
+    ]
+  },
+  {
+    "a": "the-commander",
+    "b": "steward",
+    "states": [
+      {
+        "from": 9,
+        "type": "work",
+        "label": "His man, whom he rescues from Ned's grip"
+      }
+    ]
+  },
+  {
+    "a": "pierre-aronnax",
+    "b": "captain-nemo",
+    "states": [
+      {
+        "from": 10,
+        "type": "enemy",
+        "label": "His captor for life, who welcomes him as a fellow scientist"
+      },
+      {
+        "from": 11,
+        "type": "friend",
+        "label": "Captor and host, proudly showing him the treasures of his ship"
+      },
+      {
+        "from": 13,
+        "type": "friend",
+        "label": "His host and guide, who confides how he built the Nautilus"
+      },
+      {
+        "from": 17,
+        "type": "friend",
+        "label": "Throws him flat to hide him from passing sharks"
+      },
+      {
+        "from": 23,
+        "type": "enemy",
+        "label": "Has him locked away and drugged without explanation"
+      },
+      {
+        "from": 24,
+        "type": "friend",
+        "label": "Asks him, as a doctor, to treat a dying crewman"
+      },
+      {
+        "from": 25,
+        "type": "friend",
+        "label": "A host he admires and fears, and wonders what he is hiding"
+      },
+      {
+        "from": 32,
+        "type": "friend",
+        "label": "Shows him the Vigo treasure, and hints his wealth helps the oppressed"
+      },
+      {
+        "from": 33,
+        "type": "friend",
+        "label": "Takes him alone across the seafloor to the ruins of Atlantis"
+      },
+      {
+        "from": 43,
+        "type": "enemy",
+        "label": "Refuses outright his plea to free the three captives"
+      },
+      {
+        "from": 44,
+        "type": "friend",
+        "label": "Shows him the wreck of the Avenger, with strange emotion"
+      },
+      {
+        "from": 45,
+        "type": "enemy",
+        "label": "Has made him witness a ship sunk with all hands; admiration turns to horror"
+      },
+      {
+        "from": 46,
+        "type": "enemy",
+        "label": "The man he slips past at the organ, crying \"Enough!\", as he flees"
+      }
+    ]
+  },
+  {
+    "a": "ned-land",
+    "b": "captain-nemo",
+    "states": [
+      {
+        "from": 10,
+        "type": "enemy",
+        "label": "The captor Ned refuses to promise he won't escape"
+      },
+      {
+        "from": 27,
+        "type": "enemy",
+        "label": "Ned saves his life with a harpoon, but still means to escape"
+      },
+      {
+        "from": 36,
+        "type": "enemy",
+        "label": "Forbids Ned's whale hunt; Ned's resentment burns"
+      },
+      {
+        "from": 42,
+        "type": "enemy",
+        "label": "Saves Ned from a giant squid: \"Tit for tat\""
+      },
+      {
+        "from": 43,
+        "type": "enemy",
+        "label": "Refuses to free him; Ned vows to escape whatever the weather"
+      },
+      {
+        "from": 45,
+        "type": "enemy",
+        "label": "Knocks Ned down when he waves at the warship"
+      }
+    ]
+  },
+  {
+    "a": "conseil",
+    "b": "captain-nemo",
+    "states": [
+      {
+        "from": 10,
+        "type": "enemy",
+        "label": "His captor, whom Conseil accepts with calm good grace"
+      },
+      {
+        "from": 16,
+        "type": "enemy",
+        "label": "Captor and guide on walks across the seafloor"
+      },
+      {
+        "from": 25,
+        "type": "enemy",
+        "label": "A captor Conseil sees as a misunderstood genius"
+      }
+    ]
+  },
+  {
+    "a": "captain-nemo",
+    "b": "chief-officer",
+    "states": [
+      {
+        "from": 10,
+        "type": "work",
+        "label": "His chief officer"
+      },
+      {
+        "from": 15,
+        "type": "work",
+        "label": "Second-in-command, who scans the horizon every morning"
+      },
+      {
+        "from": 23,
+        "type": "work",
+        "label": "Spots something on the horizon and argues with him about it"
+      },
+      {
+        "from": 24,
+        "type": "work",
+        "label": "The officer a dying crewman saved in his place"
+      },
+      {
+        "from": 42,
+        "type": "work",
+        "label": "Fights the giant squid at his side"
+      }
+    ]
+  },
+  {
+    "a": "captain-nemo",
+    "b": "steward",
+    "states": [
+      {
+        "from": 10,
+        "type": "work",
+        "label": "Serves the captain's table"
+      }
+    ]
+  },
+  {
+    "a": "captain-nemo",
+    "b": "nautilus-crew",
+    "states": [
+      {
+        "from": 16,
+        "type": "work",
+        "label": "His silent crew, who speak only their own language with him"
+      },
+      {
+        "from": 24,
+        "type": "work",
+        "label": "His crew and brothers: each will die for the other"
+      },
+      {
+        "from": 42,
+        "type": "work",
+        "label": "He weeps for the man the squid carried off"
+      },
+      {
+        "from": 46,
+        "type": "work",
+        "label": "Unseen for weeks after the warship sinks"
+      }
+    ]
+  },
+  {
+    "a": "captain-nemo",
+    "b": "wounded-crewman",
+    "states": [
+      {
+        "from": 24,
+        "type": "work",
+        "label": "His crewman, fatally hurt; Nemo mourns and buries him"
+      }
+    ]
+  },
+  {
+    "a": "captain-nemo",
+    "b": "french-crewman",
+    "states": [
+      {
+        "from": 42,
+        "type": "work",
+        "label": "His crewman, seized by a squid; Nemo fights for him and weeps"
+      }
+    ]
+  },
+  {
+    "a": "chief-officer",
+    "b": "wounded-crewman",
+    "states": [
+      {
+        "from": 24,
+        "type": "work",
+        "label": "Saved by this crewman, who took a fatal blow for him"
+      }
+    ]
+  },
+  {
+    "a": "chief-officer",
+    "b": "nautilus-crew",
+    "states": [
+      {
+        "from": 16,
+        "type": "work",
+        "label": "Their officer"
+      }
+    ]
+  },
+  {
+    "a": "pierre-aronnax",
+    "b": "wounded-crewman",
+    "states": [
+      {
+        "from": 24,
+        "type": "work",
+        "label": "The dying man Aronnax is asked to treat, and can't save"
+      }
+    ]
+  },
+  {
+    "a": "pierre-aronnax",
+    "b": "french-crewman",
+    "states": [
+      {
+        "from": 42,
+        "type": "work",
+        "label": "A fellow countryman aboard, whose cry for help he can't forget"
+      }
+    ]
+  },
+  {
+    "a": "pierre-aronnax",
+    "b": "chief-officer",
+    "states": [
+      {
+        "from": 8,
+        "type": "enemy",
+        "label": "The commander's silent companion, whose nationality he can't place"
+      },
+      {
+        "from": 25,
+        "type": "enemy",
+        "label": "Tests him with loud French and decides he doesn't understand it"
+      }
+    ]
+  },
+  {
+    "a": "ned-land",
+    "b": "steward",
+    "states": [
+      {
+        "from": 9,
+        "type": "enemy",
+        "label": "Ned throws him down and chokes him when food is slow to come"
+      }
+    ]
+  },
+  {
+    "a": "pierre-aronnax",
+    "b": "steward",
+    "states": [
+      {
+        "from": 8,
+        "type": "work",
+        "label": "Brings the captives clothes and a fine meal without a word"
+      }
+    ]
+  },
+  {
+    "a": "ned-land",
+    "b": "kate-tender",
+    "states": [
+      {
+        "from": 26,
+        "type": "love",
+        "label": "His former fiancée, who married someone else"
+      }
+    ]
+  },
+  {
+    "a": "pierre-aronnax",
+    "b": "commander-farragut",
+    "states": [
+      {
+        "from": 3,
+        "type": "work",
+        "label": "Welcomes Aronnax aboard his frigate for the hunt"
+      },
+      {
+        "from": 7,
+        "type": "work",
+        "label": "Out of reach as the frigate drifts away from the castaways"
+      }
+    ]
+  },
+  {
+    "a": "ned-land",
+    "b": "commander-farragut",
+    "states": [
+      {
+        "from": 4,
+        "type": "work",
+        "label": "Hired as the frigate's chief weapon"
+      }
+    ]
+  },
+  {
+    "a": "conseil",
+    "b": "commander-farragut",
+    "states": [
+      {
+        "from": 3,
+        "type": "work",
+        "label": "Aboard his frigate with his master"
+      }
+    ]
+  },
+  {
+    "a": "commander-farragut",
+    "b": "old-gunner",
+    "states": [
+      {
+        "from": 6,
+        "type": "work",
+        "label": "A gunner on his frigate whose shell bounces off the monster"
+      }
+    ]
+  },
+  {
+    "a": "j-b-hobson",
+    "b": "pierre-aronnax",
+    "states": [
+      {
+        "from": 2,
+        "type": "work",
+        "label": "Invites him to join the hunt for France"
+      }
+    ]
+  },
+  {
+    "a": "j-b-hobson",
+    "b": "commander-farragut",
+    "states": [
+      {
+        "from": 2,
+        "type": "work",
+        "label": "The Navy Secretary who backs Farragut's hunt"
+      }
+    ]
+  },
+  {
+    "a": "captain-nemo",
+    "b": "la-perouse",
+    "states": [
+      {
+        "from": 19,
+        "type": "friend",
+        "label": "Found the proof of his crew's fate and honors his memory"
+      }
+    ]
+  },
+  {
+    "a": "pierre-aronnax",
+    "b": "la-perouse",
+    "states": [
+      {
+        "from": 19,
+        "type": "friend",
+        "label": "A great navigator whose wreck Nemo shows him"
+      }
+    ]
+  },
+  {
+    "a": "la-perouse",
+    "b": "dumont-durville",
+    "states": [
+      {
+        "from": 19,
+        "type": "work",
+        "label": "D'Urville raised relics from his wrecks and built him a monument"
+      }
+    ]
+  },
+  {
+    "a": "captain-nemo",
+    "b": "dumont-durville",
+    "states": [
+      {
+        "from": 22,
+        "type": "friend",
+        "label": "A navigator he admires as one of the greatest"
+      }
+    ]
+  },
+  {
+    "a": "captain-nemo",
+    "b": "papuan-islanders",
+    "states": [
+      {
+        "from": 22,
+        "type": "enemy",
+        "label": "Besiege his ship; he drives them off without wanting any to die"
+      }
+    ]
+  },
+  {
+    "a": "pierre-aronnax",
+    "b": "papuan-islanders",
+    "states": [
+      {
+        "from": 22,
+        "type": "enemy",
+        "label": "Drive him off the island; a sling stone smashes his rare shell"
+      }
+    ]
+  },
+  {
+    "a": "ned-land",
+    "b": "papuan-islanders",
+    "states": [
+      {
+        "from": 22,
+        "type": "enemy",
+        "label": "Drive him and his feast off the beach"
+      }
+    ]
+  },
+  {
+    "a": "conseil",
+    "b": "papuan-islanders",
+    "states": [
+      {
+        "from": 22,
+        "type": "enemy",
+        "label": "He fires back when a stone shatters the shell in his hands"
+      }
+    ]
+  },
+  {
+    "a": "captain-nemo",
+    "b": "ceylon-pearl-diver",
+    "states": [
+      {
+        "from": 27,
+        "type": "friend",
+        "label": "Saves him from a shark and gives him a bag of pearls"
+      }
+    ]
+  },
+  {
+    "a": "ned-land",
+    "b": "ceylon-pearl-diver",
+    "states": [
+      {
+        "from": 27,
+        "type": "friend",
+        "label": "Kills the shark in the rescue"
+      }
+    ]
+  },
+  {
+    "a": "captain-nemo",
+    "b": "nicolas",
+    "states": [
+      {
+        "from": 30,
+        "type": "friend",
+        "label": "A famous diver who knows Nemo and exchanges signals with him"
+      }
+    ]
+  }
+]
