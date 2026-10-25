@@ -1,0 +1,1350 @@
+{
+  "places": [
+    {
+      "id": "crespo-island",
+      "name": "Crespo Island",
+      "role": "setting",
+      "firstChapter": 15,
+      "precision": "approximate",
+      "lonlat": [
+        -167.83,
+        32.67
+      ],
+      "radiusKm": 60,
+      "today": "A ‘phantom’ island: old charts showed it, but no island exists at the position Verne gives.",
+      "tagline": [
+        {
+          "from": 15,
+          "text": "Islet in the North Pacific where Nemo invites his guests to hunt in his forests."
+        },
+        {
+          "from": 17,
+          "text": "Islet whose underwater forests the party walks through on foot, turning back at its granite base."
+        }
+      ]
+    },
+    {
+      "id": "hawaiian-islands",
+      "name": "The Hawaiian Islands",
+      "role": "mentioned",
+      "firstChapter": 5,
+      "precision": "exact",
+      "lonlat": [
+        -155.5,
+        19.6
+      ],
+      "radiusKm": 250,
+      "today": "The US state of Hawaii.",
+      "tagline": [
+        {
+          "from": 5,
+          "text": "Pacific islands the Abraham Lincoln keeps well clear of on its way to the China seas."
+        },
+        {
+          "from": 18,
+          "text": "Islands the Nautilus passes on 27 November; Aronnax sees Hawaii and Mauna Kea from two miles out."
+        }
+      ]
+    },
+    {
+      "id": "tuamotu-islands",
+      "name": "The Tuamotu Islands",
+      "role": "mentioned",
+      "firstChapter": 5,
+      "precision": "exact",
+      "lonlat": [
+        -142.0,
+        -17.0
+      ],
+      "radiusKm": 500,
+      "today": "Part of French Polynesia.",
+      "tagline": [
+        {
+          "from": 5,
+          "text": "Pacific island group the Abraham Lincoln keeps well clear of on its hunt."
+        },
+        {
+          "from": 19,
+          "text": "The ‘dangerous group’ of coral atolls, where Aronnax studies how polyps build islands."
+        }
+      ]
+    },
+    {
+      "id": "nuku-hiva",
+      "name": "Nuku Hiva",
+      "role": "mentioned",
+      "firstChapter": 18,
+      "precision": "exact",
+      "lonlat": [
+        -140.12,
+        -8.87
+      ],
+      "radiusKm": 20,
+      "today": "Nuku Hiva, Marquesas Islands, French Polynesia.",
+      "tagline": [
+        {
+          "from": 18,
+          "text": "Chief island of the French Marquesas, seen from three miles off on 4 December."
+        }
+      ]
+    },
+    {
+      "id": "florida-wreck",
+      "name": "The sinking Florida",
+      "role": "setting",
+      "firstChapter": 18,
+      "precision": "approximate",
+      "lonlat": [
+        -138.5,
+        -13.0
+      ],
+      "radiusKm": 300,
+      "tagline": [
+        {
+          "from": 18,
+          "text": "Open Pacific where, on 11 December, the travelers watch the three-master Florida of Sunderland go down with her dead aboard."
+        }
+      ]
+    },
+    {
+      "id": "crete",
+      "name": "Crete (Candia)",
+      "role": "setting",
+      "firstChapter": 18,
+      "precision": "exact",
+      "lonlat": [
+        24.9,
+        35.25
+      ],
+      "radiusKm": 120,
+      "today": "Crete, Greece’s largest island; it became part of Greece in 1913.",
+      "tagline": [
+        {
+          "from": 18,
+          "text": "Greek island; one of the Nautilus’s crewmen seems to come from Greece or Crete."
+        },
+        {
+          "from": 30,
+          "text": "Island in revolt against Ottoman rule; near it Nemo signals to a diver and sends off a chest of gold."
+        },
+        {
+          "from": 32,
+          "text": "Aronnax guesses that Nemo’s gold went to the island’s rebels."
+        }
+      ],
+      "aliases": [
+        {
+          "name": "Candia",
+          "from": 30
+        }
+      ]
+    },
+    {
+      "id": "tahiti",
+      "name": "Tahiti",
+      "role": "mentioned",
+      "firstChapter": 19,
+      "precision": "exact",
+      "lonlat": [
+        -149.43,
+        -17.65
+      ],
+      "radiusKm": 30,
+      "today": "Tahiti, French Polynesia.",
+      "tagline": [
+        {
+          "from": 19,
+          "text": "‘Queen of the Pacific’, whose peaks Aronnax glimpses on 15 December."
+        }
+      ]
+    },
+    {
+      "id": "tonga-islands",
+      "name": "The Tonga Islands",
+      "role": "mentioned",
+      "firstChapter": 19,
+      "precision": "exact",
+      "lonlat": [
+        -174.0,
+        -18.65
+      ],
+      "radiusKm": 150,
+      "today": "The Kingdom of Tonga.",
+      "tagline": [
+        {
+          "from": 19,
+          "text": "Islands, scene of old shipwrecks, that the Nautilus passes on its way west."
+        }
+      ]
+    },
+    {
+      "id": "fiji-islands",
+      "name": "The Fiji Islands",
+      "role": "mentioned",
+      "firstChapter": 19,
+      "precision": "exact",
+      "lonlat": [
+        178.9,
+        -17.4
+      ],
+      "radiusKm": 150,
+      "today": "The Republic of Fiji.",
+      "tagline": [
+        {
+          "from": 19,
+          "text": "Island group where the crew feast on oysters from the reefs."
+        }
+      ]
+    },
+    {
+      "id": "new-hebrides",
+      "name": "The New Hebrides",
+      "role": "mentioned",
+      "firstChapter": 19,
+      "precision": "exact",
+      "lonlat": [
+        167.6,
+        -15.5
+      ],
+      "radiusKm": 200,
+      "today": "Vanuatu, independent since 1980.",
+      "tagline": [
+        {
+          "from": 19,
+          "text": "Islands the Nautilus threads on Christmas Day, passing close to Aurou (Maewo)."
+        }
+      ]
+    },
+    {
+      "id": "vanikoro",
+      "name": "Vanikoro",
+      "role": "setting",
+      "firstChapter": 19,
+      "precision": "exact",
+      "lonlat": [
+        166.87,
+        -11.66
+      ],
+      "radiusKm": 12,
+      "today": "Vanikoro, in the Temotu province of the Solomon Islands. (Verne gives 164°32′ E, counted from the Paris meridian.)",
+      "tagline": [
+        {
+          "from": 19,
+          "text": "Reef-ringed islands where La Pérouse’s two ships were wrecked; Nemo shows Aronnax the wreckage."
+        }
+      ]
+    },
+    {
+      "id": "solomon-islands",
+      "name": "The Solomon Islands",
+      "role": "mentioned",
+      "firstChapter": 19,
+      "precision": "exact",
+      "lonlat": [
+        159.9,
+        -9.4
+      ],
+      "radiusKm": 250,
+      "today": "The Solomon Islands, independent since 1978.",
+      "tagline": [
+        {
+          "from": 19,
+          "text": "Islands where, Nemo says, La Pérouse’s last survivors were lost."
+        }
+      ]
+    },
+    {
+      "id": "torres-strait",
+      "name": "The Torres Strait",
+      "role": "setting",
+      "firstChapter": 20,
+      "precision": "exact",
+      "lonlat": [
+        142.5,
+        -10.0
+      ],
+      "radiusKm": 80,
+      "today": "The Torres Strait, between Queensland and Papua New Guinea.",
+      "tagline": [
+        {
+          "from": 20,
+          "text": "Reef-choked passage between Australia and New Guinea that Nemo threads to reach the Indian Ocean."
+        },
+        {
+          "from": 22,
+          "text": "Strait the Nautilus leaves at 2:40 exactly, floated off by the full-moon tide."
+        }
+      ]
+    },
+    {
+      "id": "gueboroa-island",
+      "name": "Gueboroa Island",
+      "role": "setting",
+      "firstChapter": 20,
+      "precision": "approximate",
+      "lonlat": [
+        142.64,
+        -9.77
+      ],
+      "radiusKm": 15,
+      "parent": "torres-strait",
+      "today": "Probably Gabba Island (Guiboa), in the Torres Strait, Queensland.",
+      "tagline": [
+        {
+          "from": 20,
+          "text": "Wooded island near whose reefs the Nautilus runs aground."
+        },
+        {
+          "from": 21,
+          "text": "Island where the three gather fruit and hunt pigs, birds and kangaroos."
+        },
+        {
+          "from": 22,
+          "text": "Island whose Papuan inhabitants drive the three off and besiege the stranded ship."
+        }
+      ]
+    },
+    {
+      "id": "timor",
+      "name": "Timor",
+      "role": "mentioned",
+      "firstChapter": 23,
+      "precision": "exact",
+      "lonlat": [
+        125.5,
+        -9.2
+      ],
+      "radiusKm": 150,
+      "today": "Divided between Indonesia and Timor-Leste.",
+      "tagline": [
+        {
+          "from": 23,
+          "text": "Island ruled by rajahs, glimpsed for an instant at noon on 13 January."
+        }
+      ]
+    },
+    {
+      "id": "indian-ocean-jan-18",
+      "name": "The stormy sea of 18 January",
+      "role": "setting",
+      "firstChapter": 23,
+      "precision": "approximate",
+      "lonlat": [
+        105.0,
+        -15.0
+      ],
+      "radiusKm": 200,
+      "tagline": [
+        {
+          "from": 23,
+          "text": "Open Indian Ocean where something on the horizon enrages Nemo, and the three are locked up and drugged."
+        }
+      ]
+    },
+    {
+      "id": "coral-cemetery",
+      "name": "The coral cemetery",
+      "role": "setting",
+      "firstChapter": 24,
+      "precision": "approximate",
+      "lonlat": [
+        103.6,
+        -14.2
+      ],
+      "radiusKm": 400,
+      "tagline": [
+        {
+          "from": 24,
+          "text": "Coral forest on the seafloor where Nemo’s crew bury their dead beneath a coral cross."
+        }
+      ]
+    },
+    {
+      "id": "keeling-island",
+      "name": "Keeling Island",
+      "role": "mentioned",
+      "firstChapter": 25,
+      "precision": "exact",
+      "lonlat": [
+        96.84,
+        -12.07
+      ],
+      "radiusKm": 15,
+      "today": "The Cocos (Keeling) Islands, an Australian territory. (Verne gives 94°33′, counted from the Paris meridian.)",
+      "tagline": [
+        {
+          "from": 25,
+          "text": "Coral island visited by Darwin, raised on 24 January."
+        }
+      ]
+    },
+    {
+      "id": "milk-sea",
+      "name": "The milk sea",
+      "role": "setting",
+      "firstChapter": 25,
+      "precision": "approximate",
+      "lonlat": [
+        86.0,
+        7.0
+      ],
+      "radiusKm": 200,
+      "tagline": [
+        {
+          "from": 25,
+          "text": "Water turned white by countless glowing organisms, at the mouth of the Bay of Bengal."
+        }
+      ]
+    },
+    {
+      "id": "ceylon",
+      "name": "Ceylon",
+      "role": "setting",
+      "firstChapter": 25,
+      "precision": "exact",
+      "lonlat": [
+        80.7,
+        7.8
+      ],
+      "radiusKm": 120,
+      "today": "Sri Lanka.",
+      "tagline": [
+        {
+          "from": 25,
+          "text": "Large island off the tip of India."
+        },
+        {
+          "from": 26,
+          "text": "Island off which the Nautilus lies on 28 January, near the pearl fisheries."
+        }
+      ]
+    },
+    {
+      "id": "ceylon-pearl-bank",
+      "name": "The pearl bank of Mannar",
+      "role": "setting",
+      "firstChapter": 26,
+      "precision": "approximate",
+      "lonlat": [
+        79.7,
+        8.8
+      ],
+      "radiusKm": 25,
+      "parent": "ceylon",
+      "today": "The Gulf of Mannar, off north-west Sri Lanka; its pearl fishery has long since ended.",
+      "tagline": [
+        {
+          "from": 26,
+          "text": "Pearl-oyster beds in the Gulf of Mannar that Nemo invites the three to walk."
+        },
+        {
+          "from": 27,
+          "text": "Oyster bank where Nemo shows a giant clam’s huge pearl and fights a shark to save an Indian diver."
+        }
+      ]
+    },
+    {
+      "id": "mannar-island",
+      "name": "Mannar Island",
+      "role": "mentioned",
+      "firstChapter": 26,
+      "precision": "exact",
+      "lonlat": [
+        79.84,
+        9.03
+      ],
+      "radiusKm": 15,
+      "today": "Mannar Island, Northern Province, Sri Lanka.",
+      "tagline": [
+        {
+          "from": 26,
+          "text": "Island at the edge of the pearl fisheries."
+        },
+        {
+          "from": 27,
+          "text": "Island the skiff heads for before dawn."
+        }
+      ]
+    },
+    {
+      "id": "laccadive-islands",
+      "name": "The Laccadive Islands",
+      "role": "mentioned",
+      "firstChapter": 28,
+      "precision": "exact",
+      "lonlat": [
+        73.0,
+        11.0
+      ],
+      "radiusKm": 150,
+      "today": "Lakshadweep, India.",
+      "tagline": [
+        {
+          "from": 28,
+          "text": "Coral islands off India; the Nautilus hugs Kiltan Island."
+        }
+      ]
+    },
+    {
+      "id": "aden",
+      "name": "Aden",
+      "role": "mentioned",
+      "firstChapter": 28,
+      "precision": "exact",
+      "lonlat": [
+        45.03,
+        12.79
+      ],
+      "radiusKm": 10,
+      "today": "Aden, Yemen.",
+      "tagline": [
+        {
+          "from": 28,
+          "text": "Fortified British port on its promontory, seen on 6 February."
+        }
+      ]
+    },
+    {
+      "id": "bab-el-mandeb",
+      "name": "The Strait of Bab el Mandeb",
+      "role": "mentioned",
+      "firstChapter": 28,
+      "precision": "exact",
+      "lonlat": [
+        43.35,
+        12.6
+      ],
+      "radiusKm": 20,
+      "today": "Between Yemen and Djibouti.",
+      "tagline": [
+        {
+          "from": 28,
+          "text": "Narrow mouth of the Red Sea, crossed underwater to avoid steamer traffic."
+        }
+      ]
+    },
+    {
+      "id": "red-sea-widest",
+      "name": "The Red Sea, at its widest",
+      "role": "setting",
+      "firstChapter": 28,
+      "precision": "approximate",
+      "lonlat": [
+        39.2,
+        19.1
+      ],
+      "radiusKm": 100,
+      "tagline": [
+        {
+          "from": 28,
+          "text": "Where, on 9 February, Nemo tells Aronnax of a hidden passage to the Mediterranean."
+        }
+      ]
+    },
+    {
+      "id": "suez",
+      "name": "Suez",
+      "role": "mentioned",
+      "firstChapter": 28,
+      "precision": "exact",
+      "lonlat": [
+        32.54,
+        29.97
+      ],
+      "radiusKm": 10,
+      "today": "Suez, Egypt, at the southern end of the Suez Canal (opened 1869).",
+      "tagline": [
+        {
+          "from": 28,
+          "text": "Port at the head of the Red Sea, where the canal is being cut."
+        },
+        {
+          "from": 29,
+          "text": "Port whose floating light marks the way into Nemo’s tunnel."
+        }
+      ]
+    },
+    {
+      "id": "port-said",
+      "name": "Port Said",
+      "role": "mentioned",
+      "firstChapter": 28,
+      "precision": "exact",
+      "lonlat": [
+        32.31,
+        31.26
+      ],
+      "radiusKm": 8,
+      "today": "Port Said, Egypt, at the northern end of the Suez Canal.",
+      "tagline": [
+        {
+          "from": 28,
+          "text": "New port on the Mediterranean end of the canal works."
+        },
+        {
+          "from": 30,
+          "text": "Port whose jetties the Nautilus surfaces off on 12 February."
+        }
+      ]
+    },
+    {
+      "id": "bay-of-pelusium",
+      "name": "The Bay of Pelusium",
+      "role": "setting",
+      "firstChapter": 28,
+      "precision": "approximate",
+      "lonlat": [
+        32.75,
+        31.2
+      ],
+      "radiusKm": 25,
+      "today": "The coast east of Port Said, Egypt.",
+      "tagline": [
+        {
+          "from": 28,
+          "text": "Mediterranean bay where, Nemo says, his tunnel comes out."
+        },
+        {
+          "from": 30,
+          "text": "Where the Nautilus surfaces, with Pelusium’s ruins on shore."
+        }
+      ]
+    },
+    {
+      "id": "arabian-tunnel",
+      "name": "The Arabian Tunnel",
+      "role": "setting",
+      "firstChapter": 28,
+      "precision": "fictional",
+      "lonlat": [
+        32.55,
+        30.6
+      ],
+      "radiusKm": 60,
+      "today": "No such tunnel exists; the Suez Canal opened in November 1869.",
+      "tagline": [
+        {
+          "from": 28,
+          "text": "Natural passage under the Isthmus of Suez that Nemo says links the Red Sea to the Mediterranean."
+        },
+        {
+          "from": 29,
+          "text": "Dark gallery the Nautilus runs, carried by the current, in under twenty minutes."
+        }
+      ]
+    },
+    {
+      "id": "jidda",
+      "name": "Jidda",
+      "role": "mentioned",
+      "firstChapter": 29,
+      "precision": "exact",
+      "lonlat": [
+        39.17,
+        21.55
+      ],
+      "radiusKm": 10,
+      "today": "Jeddah, Saudi Arabia.",
+      "tagline": [
+        {
+          "from": 29,
+          "text": "Arab trading port, its white houses seen at sunset on 9 February."
+        }
+      ]
+    },
+    {
+      "id": "dugong-hunt",
+      "name": "Where Ned harpoons the dugong",
+      "role": "setting",
+      "firstChapter": 29,
+      "precision": "approximate",
+      "lonlat": [
+        38.2,
+        22.9
+      ],
+      "radiusKm": 80,
+      "tagline": [
+        {
+          "from": 29,
+          "text": "Red Sea waters where Ned chases and kills a huge dugong from the skiff."
+        }
+      ]
+    },
+    {
+      "id": "mount-sinai",
+      "name": "Mount Sinai",
+      "role": "mentioned",
+      "firstChapter": 29,
+      "precision": "exact",
+      "lonlat": [
+        33.97,
+        28.54
+      ],
+      "radiusKm": 5,
+      "today": "Jebel Musa, South Sinai, Egypt.",
+      "tagline": [
+        {
+          "from": 29,
+          "text": "Biblical mountain seen above the gulf between Suez and Aqaba."
+        }
+      ]
+    },
+    {
+      "id": "karpathos",
+      "name": "Karpathos",
+      "role": "mentioned",
+      "firstChapter": 30,
+      "precision": "exact",
+      "lonlat": [
+        27.15,
+        35.6
+      ],
+      "radiusKm": 20,
+      "today": "Karpathos, Dodecanese, Greece.",
+      "tagline": [
+        {
+          "from": 30,
+          "text": "Island between Rhodes and Crete, home of Proteus in legend, seen only as granite through the window."
+        }
+      ]
+    },
+    {
+      "id": "santorini",
+      "name": "Santorini",
+      "role": "setting",
+      "firstChapter": 30,
+      "precision": "exact",
+      "lonlat": [
+        25.4,
+        36.4
+      ],
+      "radiusKm": 12,
+      "today": "Santorini (Thira), Greece; Nea Kameni and Palea Kameni lie in its flooded caldera.",
+      "tagline": [
+        {
+          "from": 30,
+          "text": "Volcanic island where Nemo takes the Nautilus into boiling water to watch an undersea eruption."
+        }
+      ]
+    },
+    {
+      "id": "cape-matapan",
+      "name": "Cape Matapan",
+      "role": "mentioned",
+      "firstChapter": 30,
+      "precision": "exact",
+      "lonlat": [
+        22.48,
+        36.39
+      ],
+      "radiusKm": 5,
+      "today": "Cape Tainaron, Mani peninsula, Greece.",
+      "tagline": [
+        {
+          "from": 30,
+          "text": "Southern tip of Greece, home of the diver Nicolas; the Nautilus rounds it on 16 February."
+        }
+      ]
+    },
+    {
+      "id": "strait-of-sicily",
+      "name": "The Strait of Sicily",
+      "role": "setting",
+      "firstChapter": 31,
+      "precision": "exact",
+      "lonlat": [
+        11.8,
+        37.2
+      ],
+      "radiusKm": 80,
+      "today": "Between Sicily and Tunisia.",
+      "tagline": [
+        {
+          "from": 31,
+          "text": "Shallows between Sicily and Tunisia where the ship slows and Conseil catalogs shellfish."
+        }
+      ]
+    },
+    {
+      "id": "mediterranean-wrecks",
+      "name": "The wreck field",
+      "role": "setting",
+      "firstChapter": 31,
+      "precision": "approximate",
+      "lonlat": [
+        -1.2,
+        36.6
+      ],
+      "radiusKm": 250,
+      "tagline": [
+        {
+          "from": 31,
+          "text": "Western Mediterranean seafloor littered with sunken ships, thickening toward Gibraltar."
+        }
+      ]
+    },
+    {
+      "id": "strait-of-gibraltar",
+      "name": "The Strait of Gibraltar",
+      "role": "setting",
+      "firstChapter": 31,
+      "precision": "exact",
+      "lonlat": [
+        -5.6,
+        35.95
+      ],
+      "radiusKm": 20,
+      "today": "Between Spain and Morocco.",
+      "tagline": [
+        {
+          "from": 31,
+          "text": "Strait the Nautilus leaves through on a deep countercurrent before dawn on 18 February."
+        }
+      ]
+    },
+    {
+      "id": "cape-st-vincent",
+      "name": "Cape St. Vincent",
+      "role": "mentioned",
+      "firstChapter": 32,
+      "precision": "exact",
+      "lonlat": [
+        -9.0,
+        37.02
+      ],
+      "radiusKm": 5,
+      "today": "Cabo de São Vicente, Sagres, Portugal.",
+      "tagline": [
+        {
+          "from": 32,
+          "text": "Portuguese headland seen hazily twelve miles off on entering the Atlantic."
+        }
+      ]
+    },
+    {
+      "id": "vigo-bay",
+      "name": "The Bay of Vigo",
+      "role": "setting",
+      "firstChapter": 32,
+      "precision": "exact",
+      "lonlat": [
+        -8.68,
+        42.28
+      ],
+      "radiusKm": 10,
+      "today": "The Ría de Vigo, Galicia, Spain; the 1702 battle was fought at the Rande strait.",
+      "tagline": [
+        {
+          "from": 32,
+          "text": "Spanish bay where treasure galleons sank in 1702, and where Nemo’s crew gather their gold."
+        }
+      ]
+    }
+  ],
+  "settings": {
+    "17": [
+      "crespo-island"
+    ],
+    "18": [
+      "florida-wreck",
+      "hawaiian-islands",
+      "nuku-hiva"
+    ],
+    "19": [
+      "vanikoro",
+      "tuamotu-islands",
+      "tahiti",
+      "fiji-islands",
+      "new-hebrides"
+    ],
+    "20": [
+      "torres-strait",
+      "gueboroa-island"
+    ],
+    "21": [
+      "gueboroa-island"
+    ],
+    "22": [
+      "gueboroa-island",
+      "torres-strait"
+    ],
+    "23": [
+      "indian-ocean-jan-18",
+      "timor"
+    ],
+    "24": [
+      "coral-cemetery"
+    ],
+    "25": [
+      "keeling-island",
+      "milk-sea"
+    ],
+    "26": [
+      "ceylon",
+      "ceylon-pearl-bank"
+    ],
+    "27": [
+      "ceylon-pearl-bank",
+      "mannar-island"
+    ],
+    "28": [
+      "red-sea-widest",
+      "bab-el-mandeb",
+      "aden"
+    ],
+    "29": [
+      "arabian-tunnel",
+      "dugong-hunt",
+      "jidda",
+      "suez"
+    ],
+    "30": [
+      "santorini",
+      "crete",
+      "bay-of-pelusium"
+    ],
+    "31": [
+      "mediterranean-wrecks",
+      "strait-of-sicily",
+      "strait-of-gibraltar"
+    ],
+    "32": [
+      "vigo-bay",
+      "cape-st-vincent"
+    ]
+  },
+  "journeys": [
+    {
+      "id": "nautilus-voyage-2",
+      "name": "The Nautilus’s voyage, continued",
+      "who": [
+        "pierre-aronnax",
+        "conseil",
+        "ned-land",
+        "captain-nemo"
+      ],
+      "legs": [
+        {
+          "chapter": 18,
+          "from": "crespo-island",
+          "to": "florida-wreck",
+          "mode": "sea",
+          "via": [
+            [
+              -156.0,
+              22.6
+            ],
+            [
+              -154.6,
+              19.9
+            ],
+            [
+              -142.0,
+              1.0
+            ],
+            [
+              -139.8,
+              -9.1
+            ]
+          ]
+        },
+        {
+          "chapter": 19,
+          "from": "florida-wreck",
+          "to": "tonga-islands",
+          "mode": "sea",
+          "via": [
+            [
+              -136.2,
+              -17.9
+            ],
+            [
+              -135.4,
+              -23.44
+            ],
+            [
+              -141.5,
+              -22.6
+            ],
+            [
+              -149.0,
+              -18.3
+            ]
+          ]
+        },
+        {
+          "chapter": 19,
+          "from": "fiji-islands",
+          "to": "vanikoro",
+          "mode": "sea",
+          "via": [
+            [
+              178.0,
+              -17.0
+            ],
+            [
+              171.0,
+              -16.5
+            ],
+            [
+              168.4,
+              -15.0
+            ],
+            [
+              167.3,
+              -12.2
+            ]
+          ]
+        },
+        {
+          "chapter": 20,
+          "from": "vanikoro",
+          "to": "gueboroa-island",
+          "mode": "sea",
+          "via": [
+            [
+              165.5,
+              -12.6
+            ],
+            [
+              160.0,
+              -13.5
+            ],
+            [
+              150.0,
+              -12.5
+            ],
+            [
+              145.3,
+              -10.6
+            ],
+            [
+              144.2,
+              -9.75
+            ],
+            [
+              143.5,
+              -10.0
+            ],
+            [
+              143.1,
+              -9.7
+            ]
+          ]
+        },
+        {
+          "chapter": 23,
+          "from": "gueboroa-island",
+          "to": "indian-ocean-jan-18",
+          "mode": "sea",
+          "via": [
+            [
+              142.35,
+              -9.72
+            ],
+            [
+              141.5,
+              -9.95
+            ],
+            [
+              136.8,
+              -10.6
+            ],
+            [
+              130.0,
+              -10.0
+            ],
+            [
+              123.0,
+              -11.3
+            ]
+          ]
+        },
+        {
+          "chapter": 24,
+          "from": "indian-ocean-jan-18",
+          "to": "coral-cemetery",
+          "mode": "sea"
+        },
+        {
+          "chapter": 25,
+          "from": "coral-cemetery",
+          "to": "milk-sea",
+          "mode": "sea",
+          "via": [
+            [
+              97.3,
+              -12.4
+            ],
+            [
+              88.0,
+              1.0
+            ]
+          ]
+        },
+        {
+          "chapter": 26,
+          "from": "milk-sea",
+          "to": "ceylon-pearl-bank",
+          "mode": "sea",
+          "via": [
+            [
+              82.4,
+              5.9
+            ],
+            [
+              80.6,
+              5.55
+            ],
+            [
+              80.0,
+              5.75
+            ],
+            [
+              79.55,
+              7.2
+            ]
+          ]
+        },
+        {
+          "chapter": 28,
+          "from": "ceylon-pearl-bank",
+          "to": "red-sea-widest",
+          "mode": "sea",
+          "via": [
+            [
+              78.2,
+              7.7
+            ],
+            [
+              76.4,
+              8.4
+            ],
+            [
+              73.2,
+              11.6
+            ],
+            [
+              60.3,
+              23.3
+            ],
+            [
+              58.9,
+              23.95
+            ],
+            [
+              60.3,
+              22.2
+            ],
+            [
+              59.6,
+              19.6
+            ],
+            [
+              52.5,
+              14.6
+            ],
+            [
+              45.3,
+              12.5
+            ],
+            [
+              43.5,
+              12.45
+            ],
+            [
+              43.27,
+              12.7
+            ],
+            [
+              43.05,
+              13.25
+            ],
+            [
+              42.95,
+              13.75
+            ],
+            [
+              42.4,
+              15.5
+            ]
+          ]
+        },
+        {
+          "chapter": 29,
+          "from": "red-sea-widest",
+          "to": "dugong-hunt",
+          "mode": "sea",
+          "via": [
+            [
+              38.9,
+              21.5
+            ]
+          ]
+        },
+        {
+          "chapter": 29,
+          "from": "dugong-hunt",
+          "to": "suez",
+          "mode": "sea",
+          "via": [
+            [
+              35.9,
+              25.6
+            ],
+            [
+              34.12,
+              27.6
+            ],
+            [
+              33.85,
+              27.9
+            ],
+            [
+              33.4,
+              28.2
+            ],
+            [
+              32.98,
+              28.75
+            ],
+            [
+              32.58,
+              29.55
+            ]
+          ]
+        },
+        {
+          "chapter": 29,
+          "from": "suez",
+          "to": "bay-of-pelusium",
+          "mode": "sea"
+        },
+        {
+          "chapter": 30,
+          "from": "bay-of-pelusium",
+          "to": "santorini",
+          "mode": "sea",
+          "via": [
+            [
+              28.5,
+              33.6
+            ],
+            [
+              27.5,
+              36.0
+            ],
+            [
+              26.0,
+              35.75
+            ],
+            [
+              25.3,
+              35.75
+            ],
+            [
+              25.3,
+              36.36
+            ]
+          ]
+        },
+        {
+          "chapter": 30,
+          "from": "santorini",
+          "to": "cape-matapan",
+          "mode": "sea",
+          "via": [
+            [
+              25.3,
+              36.36
+            ],
+            [
+              24.6,
+              36.35
+            ],
+            [
+              23.0,
+              35.95
+            ]
+          ]
+        },
+        {
+          "chapter": 31,
+          "from": "cape-matapan",
+          "to": "mediterranean-wrecks",
+          "mode": "sea",
+          "via": [
+            [
+              21.0,
+              36.3
+            ],
+            [
+              15.5,
+              36.2
+            ],
+            [
+              12.3,
+              37.25
+            ],
+            [
+              10.5,
+              37.6
+            ],
+            [
+              7.5,
+              37.9
+            ],
+            [
+              3.0,
+              37.3
+            ]
+          ]
+        },
+        {
+          "chapter": 31,
+          "from": "mediterranean-wrecks",
+          "to": "strait-of-gibraltar",
+          "mode": "sea",
+          "via": [
+            [
+              -4.3,
+              36.15
+            ]
+          ]
+        },
+        {
+          "chapter": 32,
+          "from": "strait-of-gibraltar",
+          "to": "vigo-bay",
+          "mode": "sea",
+          "via": [
+            [
+              -6.6,
+              35.95
+            ],
+            [
+              -9.25,
+              36.95
+            ],
+            [
+              -9.85,
+              38.7
+            ],
+            [
+              -9.6,
+              40.5
+            ],
+            [
+              -9.3,
+              42.0
+            ],
+            [
+              -8.92,
+              42.15
+            ]
+          ]
+        }
+      ]
+    }
+  ]
+}

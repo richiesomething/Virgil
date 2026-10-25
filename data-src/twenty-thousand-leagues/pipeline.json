@@ -10,34 +10,35 @@
       "notes": "4 agents (1–12, 13–24, 25–36, 37–47)"
     },
     "roster": {
-      "status": "pending"
+      "status": "done"
     },
     "reveals": {
-      "status": "pending"
+      "status": "done"
     },
     "cast": {
-      "status": "pending"
+      "status": "done"
     },
     "relationships": {
-      "status": "pending"
+      "status": "done"
     },
     "glossary": {
-      "status": "pending"
+      "status": "done"
     },
     "primers": {
-      "status": "pending"
+      "status": "done"
     },
     "recaps": {
-      "status": "pending"
+      "status": "done"
     },
     "atlas": {
-      "status": "pending"
+      "status": "done"
     },
     "understanding": {
-      "status": "pending"
+      "status": "done"
     },
     "timeline": {
-      "status": "pending"
+      "status": "skipped",
+      "notes": "told in order"
     },
     "review": {
       "status": "pending"
