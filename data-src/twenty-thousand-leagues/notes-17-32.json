@@ -77,13 +77,6 @@
     "quote": "the major soundings"
   },
   {
-    "term": "log",
-    "kind": "word",
-    "chapter": 18,
-    "text": "A ship's speed gauge. The original was a wooden float on a knotted line, thrown overboard while sailors counted the knots that ran out in a set time, which is where the speed unit 'knot' comes from. The Nautilus has a mechanical version. A ship's written record is called a log for the same reason.",
-    "quote": "the log gave our speed"
-  },
-  {
     "term": "Hawaiian Islands",
     "kind": "place",
     "chapter": 18,
@@ -96,13 +89,6 @@
     "chapter": 18,
     "text": "A group of steep volcanic islands in the South Pacific that France claimed in 1842. They are now part of French Polynesia. Nuku Hiva is the main island; Herman Melville had jumped ship there in 1842 and wrote about it in his novel Typee. Aronnax is pleased to see the French flag so far from home.",
     "quote": "Martin Point on Nuku Hiva"
-  },
-  {
-    "term": "Athenaeus",
-    "kind": "reference",
-    "chapter": 18,
-    "text": "A Greek writer of about 200 AD whose Deipnosophists, or Banquet of the Learned, is a huge collection of dinner-table talk about food, wine and fish. It is the main ancient source on Greek seafood. Verne calls him a physician older than Galen, apparently mixing him up with another man of the same name.",
-    "quote": "if we’re to believe Athenaeus"
   },
   {
     "term": "Jean Macé",
@@ -161,17 +147,10 @@
     "quote": "the biblical Days of Creation"
   },
   {
-    "term": "cable length",
-    "kind": "word",
-    "chapter": 19,
-    "text": "A sailor's unit of short distance at sea, a tenth of a nautical mile. That is roughly 185 to 200 meters, depending on the navy. 'A few cable lengths' means a few hundred meters.",
-    "quote": "a few cable lengths"
-  },
-  {
     "term": "La Pérouse",
     "kind": "history",
     "chapter": 19,
-    "text": "Jean-François de La Pérouse led a French scientific voyage round the world from 1785, meant to rival Captain Cook's. His two ships were last seen leaving Botany Bay, Australia, in 1788, and their fate was one of the great mysteries of the age. Searches by d'Entrecasteaux, Dillon and Dumont d'Urville slowly traced the wrecks to Vanikoro. In French the ships were La Boussole and L'Astrolabe; this translation calls the first the Compass.",
+    "text": "Jean-François de La Pérouse led a French scientific voyage round the world from 1785, meant to rival Captain Cook's. His two ships were last seen leaving Botany Bay, Australia, in 1788, and their fate was one of the great mysteries of the age. Searches by d'Entrecasteaux failed. In 1826–27 the trader Peter Dillon found relics that tied the wrecks to Vanikoro, and Dumont d'Urville confirmed the site in 1828. In French the ships were La Boussole and L'Astrolabe; this translation calls the first the Compass.",
     "quote": "the Count de La Pérouse"
   },
   {
@@ -180,27 +159,6 @@
     "chapter": 19,
     "text": "Jules Dumont d'Urville (1790–1842), France's leading explorer of the Pacific. He made three great voyages and mapped much of Oceania. In 1828 his ship, renamed the Astrolabe in honor of La Pérouse, found the wreck site at Vanikoro and put up a memorial there. Earlier, in 1820, he had helped France acquire the newly found Venus de Milo.",
     "quote": "Captain Dumont d’Urville"
-  },
-  {
-    "term": "Peter Dillon",
-    "kind": "history",
-    "chapter": 19,
-    "text": "A rough-and-ready sea captain and trader in the South Seas (1788–1847). In 1826 he spotted a French sword hilt on Tikopia, and in 1827 he collected relics at Vanikoro that proved it was where La Pérouse's ships were wrecked. The French king rewarded him with a pension and a knighthood.",
-    "quote": "Captain Peter Dillon"
-  },
-  {
-    "term": "sloop of war",
-    "kind": "word",
-    "chapter": 19,
-    "text": "A small, fast warship, lighter than a frigate, carrying its guns on a single deck. Navies used such ships for exploring and survey voyages because they were cheaper to risk. La Pérouse's ships were in fact converted naval transports.",
-    "quote": "two sloops of war"
-  },
-  {
-    "term": "Cross of St. Louis",
-    "kind": "title",
-    "chapter": 19,
-    "text": "The badge of the Royal and Military Order of Saint Louis, founded by Louis XIV in 1693 to honor officers. Only a French officer would have carried one. Finding it in islanders' hands was strong evidence that La Pérouse's men had come ashore somewhere nearby.",
-    "quote": "a Cross of St. Louis"
   },
   {
     "term": "New Hebrides",
@@ -215,6 +173,13 @@
     "chapter": 19,
     "text": "Everything Aronnax tells up to the 1828 memorial is real history. Nemo's ending, with the escape boat lost in the Solomons and the tin box of orders, is Verne's invention. In real life the last survivors' fate has never been settled. One true detail: Louis XVI personally wrote notes in the margins of La Pérouse's instructions.",
     "quote": "in the handwriting of King Louis XVI"
+  },
+  {
+    "term": "precious coral",
+    "kind": "word",
+    "chapter": 19,
+    "text": "Red coral, the kind used for jewelry and beads since ancient times, mostly gathered in the Mediterranean. People long argued whether coral was a mineral, a plant or an animal. The Marseilles doctor Jean-André Peyssonnel showed in the 1720s that it is an animal; 1694, Verne's date, was the year he was born.",
+    "quote": "precious coral"
   },
   {
     "term": "Captain Cook on the reef",
@@ -392,13 +357,6 @@
     "quote": "the fire-dwelling salamanders of myth"
   },
   {
-    "term": "precious coral",
-    "kind": "word",
-    "chapter": 24,
-    "text": "Red coral, the kind used for jewelry and beads since ancient times, mostly gathered in the Mediterranean. People long argued whether coral was a mineral, a plant or an animal. The Marseilles doctor Jean-André Peyssonnel showed in the 1720s that it is an animal; 1694, Verne's date, was the year he was born.",
-    "quote": "precious coral"
-  },
-  {
     "term": "Barbary Coast",
     "kind": "place",
     "chapter": 24,
@@ -420,6 +378,20 @@
     "quote": "filaments of the fan mussel"
   },
   {
+    "term": "Gratiolet and Moquin-Tandon",
+    "kind": "reference",
+    "chapter": 24,
+    "text": "Pierre Gratiolet, an anatomist who studied the brain, and Alfred Moquin-Tandon, a botanist and zoologist, were respected French naturalists of the time. Both had trained in medicine. Many nineteenth-century naturalists began as doctors, as Aronnax did, because medicine was the main route into scientific training.",
+    "quote": "such as Gratiolet, Moquin-Tandon"
+  },
+  {
+    "term": "mattock",
+    "kind": "word",
+    "chapter": 24,
+    "text": "A heavy digging tool like a pickaxe, with one blade for breaking up hard ground and another for chopping. Here it is used to cut a grave in the limestone seafloor.",
+    "quote": "a mattock"
+  },
+  {
     "term": "sextant",
     "kind": "word",
     "chapter": 25,
@@ -432,13 +404,6 @@
     "chapter": 25,
     "text": "The brightest electric light of Verne's day. Current jumps between two carbon rods, the 'graphite points,' and makes a dazzling arc of light. Arc lamps were first used in lighthouses around 1858. The rods burned away quickly in air, which is why Aronnax admires Nemo's vacuum, his own invention.",
     "quote": "the graphite points"
-  },
-  {
-    "term": "hectare",
-    "kind": "word",
-    "chapter": 25,
-    "text": "A metric unit of area: 10,000 square meters, or about two and a half acres. Verne's figure of 550,000,000 hectares for the Indian Ocean is far too small. The real area is about 70 million square kilometers, more than ten times that.",
-    "quote": "550,000,000 hectares"
   },
   {
     "term": "hawksbill turtle",
@@ -455,25 +420,11 @@
     "quote": "Remington or Chassepot"
   },
   {
-    "term": "Lacépède",
-    "kind": "reference",
-    "chapter": 25,
-    "text": "Bernard-Germain de Lacépède (1756–1825), a French naturalist at the Paris Museum, Aronnax's own institution. His Natural History of Fishes (1798–1803) was the standard French catalog of fish. Aronnax and Conseil use its system of numbered genera.",
-    "quote": "Lacépède’s system of classification"
-  },
-  {
     "term": "Keeling Island",
     "kind": "place",
     "chapter": 25,
     "text": "The Cocos (Keeling) Islands, a remote coral atoll in the eastern Indian Ocean, now an Australian territory. Charles Darwin and Captain FitzRoy visited it aboard the Beagle in 1836. Darwin's studies there helped shape his theory of how atolls form.",
     "quote": "we raised Keeling Island"
-  },
-  {
-    "term": "Malabar and Coromandel",
-    "kind": "place",
-    "chapter": 25,
-    "text": "The two coasts of southern India: Malabar on the west, facing the Arabian Sea, and Coromandel on the east, facing the Bay of Bengal. In 1868 most of India was under British rule, with small French enclaves such as Pondicherry on the Coromandel coast.",
-    "quote": "the coasts of Malabar or Coromandel"
   },
   {
     "term": "Peninsular & Oriental",
@@ -506,7 +457,7 @@
   {
     "term": "Ceylon",
     "kind": "place",
-    "chapter": 26,
+    "chapter": 25,
     "text": "The island off India's southern tip, called Sri Lanka since 1972. In 1868 it was a British colony famous for its pearls, gems, coffee and cinnamon. H. C. Sirr's book, Ceylon and the Cingalese (1850), was a real travel account.",
     "quote": "the island of Ceylon"
   },
@@ -644,27 +595,6 @@
     "quote": "10,000,000 francs"
   },
   {
-    "term": "Laccadive Islands",
-    "kind": "place",
-    "chapter": 28,
-    "text": "A group of coral islands off south-western India, now called Lakshadweep and part of India. The Maldives lie just to the south. Vasco da Gama passed them on his voyage of 1498–99, the first by sea from Europe to India.",
-    "quote": "the island group of the Laccadives"
-  },
-  {
-    "term": "Muscat",
-    "kind": "place",
-    "chapter": 28,
-    "text": "The port capital of Oman, on the south-eastern corner of Arabia. It is tucked against bare black mountains, and its whitewashed houses and forts made a striking sight from the sea. In 1868 Oman was an independent sultanate with strong trade ties to India and East Africa.",
-    "quote": "we raised Muscat"
-  },
-  {
-    "term": "Aden",
-    "kind": "place",
-    "chapter": 28,
-    "text": "A port on a volcanic peninsula in southern Arabia, near the mouth of the Red Sea. Britain seized it in 1839 as a coaling station for steamers on the route to India. It was heavily fortified, hence Aronnax's comparison with Gibraltar.",
-    "quote": "the city of Aden"
-  },
-  {
     "term": "Bab el Mandeb",
     "kind": "place",
     "chapter": 28,
@@ -728,11 +658,11 @@
     "quote": "the Arabian Tunnel"
   },
   {
-    "term": "Strabo and Idrisi",
-    "kind": "reference",
+    "term": "El Tur",
+    "kind": "place",
     "chapter": 28,
-    "text": "Strabo was a Greek geographer of the time of Augustus whose Geography described the known world. Al-Idrisi was a twelfth-century Arab geographer who made a famous world map for the Norman king Roger II of Sicily. Nemo quotes both to show how sailors of old dreaded the Red Sea.",
-    "quote": "the Greek geographer Strabo"
+    "text": "A small port on the Sinai shore of the Gulf of Suez, long a stop for pilgrims going to Mount Sinai and Mecca. Nemo says its bay can turn blood-red from tiny algae.",
+    "quote": "the bay of El Tur"
   },
   {
     "term": "Jidda",
@@ -768,13 +698,6 @@
     "chapter": 29,
     "text": "In the Bible, Horeb and Sinai are names for the mountain where Moses received the Ten Commandments amid thunder and lightning. Tradition places it in the high mountains of southern Sinai, at the site of St. Catherine's Monastery.",
     "quote": "It was Mt. Horeb"
-  },
-  {
-    "term": "El Tur",
-    "kind": "place",
-    "chapter": 29,
-    "text": "A small port on the Sinai shore of the Gulf of Suez, long a stop for pilgrims going to Mount Sinai and Mecca. Nemo said earlier that he had once seen its bay turned blood-red by algae.",
-    "quote": "El Tur"
   },
   {
     "term": "floating lighthouse",
@@ -861,13 +784,6 @@
     "quote": "mare nostrum"
   },
   {
-    "term": "Michelet",
-    "kind": "reference",
-    "chapter": 31,
-    "text": "Jules Michelet (1798–1874), the great Romantic historian of France. In 1861 he published La Mer (The Sea), a lyrical book about the ocean and its life that Verne knew well.",
-    "quote": "the French historian Michelet"
-  },
-  {
     "term": "Neptune and Pluto",
     "kind": "reference",
     "chapter": 31,
@@ -894,13 +810,6 @@
     "chapter": 31,
     "text": "The sestertius was the Roman unit for counting money. A legionary soldier under Augustus earned about 900 sesterces a year, so 10,000 for a single red mullet was absurd extravagance. Roman writers grumbled about exactly such prices, and the color-changing death of a mullet really was a dinner-table show.",
     "quote": "10,000 sesterces apiece"
-  },
-  {
-    "term": "Arachne",
-    "kind": "reference",
-    "chapter": 31,
-    "text": "In Greek myth, a weaver so skilled that she challenged the goddess Athena to a contest and was turned into a spider. Her 'followers' are spiders, and her name gives us 'arachnid.'",
-    "quote": "the followers of Arachne"
   },
   {
     "term": "monk seals",
@@ -938,13 +847,6 @@
     "quote": "the Temple of Hercules"
   },
   {
-    "term": "Carthaginians",
-    "kind": "history",
-    "chapter": 32,
-    "text": "Carthage, in modern Tunisia, was a Phoenician trading city that dominated the western Mediterranean until Rome destroyed it in 146 BC. Its captains sailed out into the Atlantic, down Africa and north toward Britain. Calling them the 'Dutchmen of antiquity' compares them to the great Dutch merchant seafarers of the 1600s.",
-    "quote": "those Dutchmen of antiquity"
-  },
-  {
     "term": "Cape of Tempests",
     "kind": "place",
     "chapter": 32,
@@ -957,20 +859,6 @@
     "chapter": 32,
     "text": "Any circle on a globe whose center is the center of the earth, such as the equator or a line of longitude. A great circle measures about 40,000 km, or 10,000 of the four-kilometer leagues Aronnax uses. So the Nautilus has already traveled the distance once around the world.",
     "quote": "a great circle of the earth"
-  },
-  {
-    "term": "Cape St. Vincent",
-    "kind": "place",
-    "chapter": 32,
-    "text": "The south-western tip of Portugal and of mainland Europe, a landmark for every ship entering or leaving the Mediterranean. Britain won a famous naval battle against Spain off it in 1797.",
-    "quote": "Cape St. Vincent"
-  },
-  {
-    "term": "monomania",
-    "kind": "word",
-    "chapter": 32,
-    "text": "A nineteenth-century medical term for an obsession with one single idea in an otherwise sane mind. Aronnax uses it half-jokingly for Ned's fixation on escape.",
-    "quote": "his monomania"
   },
   {
     "term": "Kosciusko",

@@ -1,0 +1,848 @@
+{
+  "places": [
+    {
+      "id": "off-eastern-australia",
+      "name": "Off eastern Australia",
+      "role": "mentioned",
+      "firstChapter": 1,
+      "precision": "approximate",
+      "lonlat": [
+        154.0,
+        -28.0
+      ],
+      "radiusKm": 500,
+      "tagline": [
+        {
+          "from": 1,
+          "text": "Where the steamer Governor Higginson first meets the moving ‘reef’ in July 1866, five miles offshore."
+        }
+      ]
+    },
+    {
+      "id": "helvetia-shannon-sighting",
+      "name": "The Helvetia and Shannon sighting",
+      "role": "mentioned",
+      "firstChapter": 1,
+      "precision": "exact",
+      "lonlat": [
+        -60.5833,
+        42.25
+      ],
+      "today": "Open Atlantic south of Nova Scotia, on the old steamer lanes between America and Europe.",
+      "tagline": [
+        {
+          "from": 1,
+          "text": "Mid-Atlantic spot where two liners sight the thing together and put it at over 350 feet long."
+        }
+      ]
+    },
+    {
+      "id": "moravian-collision",
+      "name": "Where the Moravian struck",
+      "role": "mentioned",
+      "firstChapter": 1,
+      "precision": "exact",
+      "lonlat": [
+        -72.25,
+        27.5
+      ],
+      "today": "Open Atlantic north-east of the Bahamas.",
+      "tagline": [
+        {
+          "from": 1,
+          "text": "Where the Moravian, bound from Canada, hits a ‘rock’ marked on no chart, in March 1867."
+        }
+      ]
+    },
+    {
+      "id": "scotia-collision",
+      "name": "Where the Scotia was holed",
+      "role": "setting",
+      "firstChapter": 1,
+      "precision": "exact",
+      "lonlat": [
+        -15.2,
+        45.6167
+      ],
+      "today": "Open Atlantic, about 300 miles off Cape Clear in south-west Ireland.",
+      "tagline": [
+        {
+          "from": 1,
+          "text": "Where the Cunard liner Scotia is pierced below the waterline by a triangular blow, 13 April 1867."
+        }
+      ]
+    },
+    {
+      "id": "liverpool",
+      "name": "Liverpool",
+      "role": "mentioned",
+      "firstChapter": 1,
+      "precision": "exact",
+      "lonlat": [
+        -2.9916,
+        53.4084
+      ],
+      "today": "Liverpool, England; the old Cunard docks line the Mersey.",
+      "tagline": [
+        {
+          "from": 1,
+          "text": "Cunard’s home port, where the damaged Scotia limps into dry dock."
+        }
+      ]
+    },
+    {
+      "id": "nebraska-badlands",
+      "name": "The Nebraska badlands",
+      "role": "mentioned",
+      "firstChapter": 2,
+      "precision": "approximate",
+      "lonlat": [
+        -102.5,
+        43.8
+      ],
+      "radiusKm": 120,
+      "today": "The White River badlands, now in South Dakota (Badlands National Park); in the 1850s they lay in Nebraska Territory.",
+      "tagline": [
+        {
+          "from": 2,
+          "text": "The fossil country Aronnax has just spent six months exploring for the French government."
+        }
+      ]
+    },
+    {
+      "id": "paris",
+      "name": "Paris",
+      "role": "mentioned",
+      "firstChapter": 2,
+      "precision": "exact",
+      "lonlat": [
+        2.3522,
+        48.8566
+      ],
+      "today": "The Muséum national d’Histoire naturelle still stands in the Jardin des Plantes.",
+      "tagline": [
+        {
+          "from": 2,
+          "text": "Aronnax’s home city, where he is Assistant Professor at the Museum of Natural History."
+        }
+      ]
+    },
+    {
+      "id": "new-york",
+      "name": "New York",
+      "role": "setting",
+      "firstChapter": 2,
+      "precision": "exact",
+      "lonlat": [
+        -74.006,
+        40.7128
+      ],
+      "today": "New York City; in 1867 Brooklyn was still a separate city across the East River.",
+      "tagline": [
+        {
+          "from": 2,
+          "text": "Where Aronnax waits to sail home, and where the hunt for the monster is fitted out."
+        }
+      ]
+    },
+    {
+      "id": "fifth-avenue-hotel",
+      "name": "Fifth Avenue Hotel",
+      "role": "setting",
+      "firstChapter": 2,
+      "precision": "exact",
+      "lonlat": [
+        -73.9902,
+        40.742
+      ],
+      "parent": "new-york",
+      "today": "Stood on Madison Square at 23rd Street (1859–1908); the Toy Center building now occupies the site.",
+      "tagline": [
+        {
+          "from": 2,
+          "text": "Aronnax’s New York lodging, where the Navy’s invitation finds him."
+        },
+        {
+          "from": 3,
+          "text": "Aronnax’s New York lodging, where he and Conseil pack in a rush."
+        }
+      ]
+    },
+    {
+      "id": "brooklyn-pier",
+      "name": "The Brooklyn pier",
+      "role": "setting",
+      "firstChapter": 2,
+      "precision": "approximate",
+      "lonlat": [
+        -73.991,
+        40.7035
+      ],
+      "radiusKm": 0.6,
+      "parent": "new-york",
+      "today": "The East River waterfront of Brooklyn, now Brooklyn Bridge Park and DUMBO.",
+      "tagline": [
+        {
+          "from": 2,
+          "text": "Where the Abraham Lincoln lies at its moorings, fitting out for the hunt."
+        },
+        {
+          "from": 3,
+          "text": "Where the Abraham Lincoln casts off to the cheers of half a million people."
+        }
+      ]
+    },
+    {
+      "id": "sandy-hook",
+      "name": "Sandy Hook",
+      "role": "mentioned",
+      "firstChapter": 3,
+      "precision": "exact",
+      "lonlat": [
+        -74.0076,
+        40.4656
+      ],
+      "today": "Part of Gateway National Recreation Area, New Jersey.",
+      "tagline": [
+        {
+          "from": 3,
+          "text": "Sandy spit at the mouth of New York harbour, crowded with spectators cheering the frigate out."
+        }
+      ]
+    },
+    {
+      "id": "fire-island",
+      "name": "Fire Island",
+      "role": "mentioned",
+      "firstChapter": 3,
+      "precision": "exact",
+      "lonlat": [
+        -73.2187,
+        40.6323
+      ],
+      "today": "The Fire Island Lighthouse (1858) still stands on Long Island’s barrier beach.",
+      "tagline": [
+        {
+          "from": 3,
+          "text": "Long Island lighthouse whose lights are the frigate’s last sight of land as it heads into the Atlantic."
+        }
+      ]
+    },
+    {
+      "id": "quebec",
+      "name": "Quebec",
+      "role": "mentioned",
+      "firstChapter": 4,
+      "precision": "exact",
+      "lonlat": [
+        -71.208,
+        46.8139
+      ],
+      "today": "Quebec City, capital of the province of Quebec.",
+      "tagline": [
+        {
+          "from": 4,
+          "text": "Where Ned Land’s family comes from, French Canadian harpooners and seamen."
+        }
+      ]
+    },
+    {
+      "id": "off-patagonia",
+      "name": "Off Cabo Blanco, Patagonia",
+      "role": "setting",
+      "firstChapter": 4,
+      "precision": "approximate",
+      "lonlat": [
+        -65.0,
+        -47.3
+      ],
+      "radiusKm": 60,
+      "today": "Cabo Blanco is on the coast of Santa Cruz province, Argentina.",
+      "tagline": [
+        {
+          "from": 4,
+          "text": "Where, thirty miles off the Patagonian coast, Aronnax argues with Ned Land about deep-sea monsters."
+        }
+      ]
+    },
+    {
+      "id": "strait-of-magellan",
+      "name": "Strait of Magellan",
+      "role": "mentioned",
+      "firstChapter": 4,
+      "precision": "exact",
+      "lonlat": [
+        -70.9,
+        -53.3
+      ],
+      "radiusKm": 80,
+      "today": "Chile; the main sea passage between the Atlantic and the Pacific before the Panama Canal.",
+      "tagline": [
+        {
+          "from": 4,
+          "text": "Channel through the tip of South America; Commander Farragut chooses not to risk it."
+        }
+      ]
+    },
+    {
+      "id": "off-falklands",
+      "name": "Off the Falkland Islands",
+      "role": "setting",
+      "firstChapter": 5,
+      "precision": "approximate",
+      "lonlat": [
+        -62.0,
+        -51.3
+      ],
+      "radiusKm": 120,
+      "today": "The Falkland Islands, a British overseas territory claimed by Argentina.",
+      "tagline": [
+        {
+          "from": 5,
+          "text": "Where the frigate meets American whalers and Ned Land harpoons two whales at once."
+        }
+      ]
+    },
+    {
+      "id": "cape-horn",
+      "name": "Cape Horn",
+      "role": "setting",
+      "firstChapter": 5,
+      "precision": "exact",
+      "lonlat": [
+        -67.2733,
+        -55.9833
+      ],
+      "today": "Hornos Island, Chile.",
+      "tagline": [
+        {
+          "from": 5,
+          "text": "The rock at the very tip of South America, which the frigate rounds on 6 July to enter the Pacific."
+        }
+      ]
+    },
+    {
+      "id": "north-pacific",
+      "name": "The northern Pacific",
+      "role": "setting",
+      "firstChapter": 5,
+      "precision": "approximate",
+      "lonlat": [
+        -170.0,
+        35.0
+      ],
+      "radiusKm": 3000,
+      "tagline": [
+        {
+          "from": 5,
+          "text": "Three months of fruitless searching, from the beaches of Japan to the coasts of America."
+        }
+      ]
+    },
+    {
+      "id": "japan",
+      "name": "Japan",
+      "role": "mentioned",
+      "firstChapter": 5,
+      "precision": "exact",
+      "lonlat": [
+        138.25,
+        36.2
+      ],
+      "radiusKm": 600,
+      "tagline": [
+        {
+          "from": 5,
+          "text": "The coast the frigate nears in the last days of its search."
+        }
+      ]
+    },
+    {
+      "id": "off-japan",
+      "name": "Off the coast of Japan",
+      "role": "setting",
+      "firstChapter": 5,
+      "precision": "approximate",
+      "lonlat": [
+        136.7,
+        31.25
+      ],
+      "radiusKm": 250,
+      "today": "Open Pacific south of the Kii Peninsula, Honshu.",
+      "tagline": [
+        {
+          "from": 5,
+          "text": "Under 200 miles off Japan, where the frigate’s last days of searching run out and the thing is sighted."
+        },
+        {
+          "from": 6,
+          "text": "Where the frigate chases the glowing creature for a day and a night, and is struck."
+        },
+        {
+          "from": 7,
+          "text": "Where Aronnax, Conseil and Ned are left in the sea, and find the ‘monster’ is a vessel of riveted steel."
+        },
+        {
+          "from": 8,
+          "text": "Waters near where the three prisoners are held aboard the mysterious undersea boat."
+        },
+        {
+          "from": 10,
+          "text": "Waters near where the Nautilus took the three castaways aboard."
+        }
+      ]
+    },
+    {
+      "id": "voyage-start",
+      "name": "Where the voyage begins",
+      "role": "setting",
+      "firstChapter": 14,
+      "precision": "exact",
+      "lonlat": [
+        139.5867,
+        30.1167
+      ],
+      "today": "Open Pacific south of Japan’s Izu Islands.",
+      "tagline": [
+        {
+          "from": 14,
+          "text": "Nemo’s noon fix on 8 November, about 300 miles from Japan: the start of the voyage under the waters."
+        }
+      ]
+    },
+    {
+      "id": "black-current",
+      "name": "The Black Current (Kuroshio)",
+      "role": "setting",
+      "firstChapter": 14,
+      "precision": "approximate",
+      "lonlat": [
+        141.0,
+        33.0
+      ],
+      "radiusKm": 400,
+      "today": "The Kuroshio, the Pacific’s counterpart to the Gulf Stream.",
+      "tagline": [
+        {
+          "from": 14,
+          "text": "The great warm ‘river’ in the sea off Japan, whose fish Aronnax watches through the lounge windows."
+        }
+      ]
+    },
+    {
+      "id": "north-pacific-crossing",
+      "name": "Crossing the North Pacific",
+      "role": "setting",
+      "firstChapter": 15,
+      "precision": "approximate",
+      "lonlat": [
+        172.0,
+        36.0
+      ],
+      "radiusKm": 900,
+      "tagline": [
+        {
+          "from": 15,
+          "text": "Days of east-north-easterly cruising at fifty to sixty meters, with Captain Nemo nowhere to be seen."
+        }
+      ]
+    },
+    {
+      "id": "crespo-island",
+      "name": "Crespo Island",
+      "role": "setting",
+      "firstChapter": 15,
+      "precision": "approximate",
+      "lonlat": [
+        -167.8333,
+        32.6667
+      ],
+      "radiusKm": 15,
+      "today": "A ‘phantom island’: charted in the 19th century at Verne’s position, but it does not exist.",
+      "tagline": [
+        {
+          "from": 15,
+          "text": "A small stray rock in the middle of the North Pacific, where Nemo invites his guests to hunt in his ‘forests’."
+        },
+        {
+          "from": 16,
+          "text": "The islet whose underwater forest Aronnax and Conseil walk to in diving suits."
+        }
+      ],
+      "aliases": [
+        {
+          "name": "Rocca de la Plata",
+          "from": 15
+        }
+      ]
+    },
+    {
+      "id": "crespo-seafloor",
+      "name": "The seafloor off Crespo Island",
+      "role": "setting",
+      "firstChapter": 16,
+      "precision": "approximate",
+      "lonlat": [
+        -167.7833,
+        32.6267
+      ],
+      "radiusKm": 5,
+      "parent": "crespo-island",
+      "tagline": [
+        {
+          "from": 16,
+          "text": "Sunlit sands, ooze and algae meadows sloping down to 100 meters, with the forest beyond."
+        }
+      ]
+    }
+  ],
+  "settings": {
+    "1": [
+      "scotia-collision",
+      "moravian-collision",
+      "helvetia-shannon-sighting",
+      "off-eastern-australia"
+    ],
+    "2": [
+      "new-york",
+      "fifth-avenue-hotel",
+      "brooklyn-pier"
+    ],
+    "3": [
+      "brooklyn-pier",
+      "fifth-avenue-hotel",
+      "new-york"
+    ],
+    "4": [
+      "off-patagonia"
+    ],
+    "5": [
+      "north-pacific",
+      "off-falklands",
+      "cape-horn",
+      "off-japan"
+    ],
+    "6": [
+      "off-japan"
+    ],
+    "7": [
+      "off-japan"
+    ],
+    "8": [
+      "off-japan"
+    ],
+    "9": [
+      "off-japan"
+    ],
+    "10": [
+      "off-japan"
+    ],
+    "11": [
+      "off-japan"
+    ],
+    "12": [
+      "off-japan"
+    ],
+    "13": [
+      "off-japan"
+    ],
+    "14": [
+      "voyage-start",
+      "black-current"
+    ],
+    "15": [
+      "north-pacific-crossing",
+      "crespo-island"
+    ],
+    "16": [
+      "crespo-seafloor",
+      "crespo-island"
+    ]
+  },
+  "journeys": [
+    {
+      "id": "abraham-lincoln-hunt",
+      "name": "The Abraham Lincoln’s hunt",
+      "who": [
+        "pierre-aronnax",
+        "conseil",
+        "ned-land",
+        "commander-farragut"
+      ],
+      "legs": [
+        {
+          "chapter": 3,
+          "from": "brooklyn-pier",
+          "to": "fire-island",
+          "mode": "sea",
+          "via": [
+            [
+              -74.004,
+              40.699
+            ],
+            [
+              -74.02,
+              40.685
+            ],
+            [
+              -74.04,
+              40.65
+            ],
+            [
+              -74.042,
+              40.607
+            ],
+            [
+              -74.03,
+              40.55
+            ],
+            [
+              -74.0,
+              40.49
+            ],
+            [
+              -73.9,
+              40.46
+            ],
+            [
+              -73.6,
+              40.5
+            ],
+            [
+              -73.3,
+              40.58
+            ]
+          ]
+        },
+        {
+          "chapter": 4,
+          "from": "fire-island",
+          "to": "off-patagonia",
+          "mode": "sea",
+          "via": [
+            [
+              -73.0,
+              40.4
+            ],
+            [
+              -65,
+              32
+            ],
+            [
+              -50,
+              18
+            ],
+            [
+              -38,
+              2
+            ],
+            [
+              -33.5,
+              -6
+            ],
+            [
+              -35.5,
+              -14
+            ],
+            [
+              -38.5,
+              -22
+            ],
+            [
+              -46,
+              -30
+            ],
+            [
+              -54,
+              -38
+            ],
+            [
+              -61,
+              -44
+            ]
+          ]
+        },
+        {
+          "chapter": 5,
+          "from": "off-patagonia",
+          "to": "off-falklands",
+          "mode": "sea",
+          "via": [
+            [
+              -64.5,
+              -49.5
+            ]
+          ]
+        },
+        {
+          "chapter": 5,
+          "from": "off-falklands",
+          "to": "cape-horn",
+          "mode": "sea",
+          "via": [
+            [
+              -67.5,
+              -52.4
+            ],
+            [
+              -66.2,
+              -53.8
+            ],
+            [
+              -63.3,
+              -54.6
+            ],
+            [
+              -63.6,
+              -55.3
+            ],
+            [
+              -66.0,
+              -56.2
+            ],
+            [
+              -67.3,
+              -56.25
+            ]
+          ]
+        },
+        {
+          "chapter": 5,
+          "from": "cape-horn",
+          "to": "north-pacific",
+          "mode": "sea",
+          "via": [
+            [
+              -70,
+              -57
+            ],
+            [
+              -78,
+              -50
+            ],
+            [
+              -92,
+              -35
+            ],
+            [
+              -105,
+              -23.44
+            ],
+            [
+              -110,
+              0
+            ],
+            [
+              -128,
+              4
+            ],
+            [
+              -145,
+              10
+            ],
+            [
+              -160,
+              17.5
+            ],
+            [
+              -168,
+              27
+            ]
+          ]
+        },
+        {
+          "chapter": 5,
+          "from": "north-pacific",
+          "to": "off-japan",
+          "mode": "sea",
+          "via": [
+            [
+              -179.5,
+              33.5
+            ],
+            [
+              179.5,
+              33.2
+            ],
+            [
+              160,
+              28
+            ],
+            [
+              145,
+              25
+            ],
+            [
+              132,
+              23.44
+            ],
+            [
+              134.5,
+              28.5
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "nautilus-voyage-1",
+      "name": "The Nautilus’s voyage",
+      "who": [
+        "captain-nemo",
+        "pierre-aronnax",
+        "conseil",
+        "ned-land"
+      ],
+      "legs": [
+        {
+          "chapter": 14,
+          "from": "off-japan",
+          "to": "voyage-start",
+          "mode": "sea",
+          "via": [
+            [
+              138.2,
+              30.7
+            ]
+          ]
+        },
+        {
+          "chapter": 15,
+          "from": "voyage-start",
+          "to": "north-pacific-crossing",
+          "mode": "sea",
+          "via": [
+            [
+              150,
+              33
+            ],
+            [
+              162,
+              35
+            ]
+          ]
+        },
+        {
+          "chapter": 15,
+          "from": "north-pacific-crossing",
+          "to": "crespo-island",
+          "mode": "sea",
+          "via": [
+            [
+              179.5,
+              35.4
+            ],
+            [
+              -179.5,
+              35.2
+            ],
+            [
+              -173,
+              34
+            ]
+          ]
+        }
+      ]
+    }
+  ]
+}
