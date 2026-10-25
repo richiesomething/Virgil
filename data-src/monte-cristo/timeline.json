@@ -138,7 +138,7 @@
     },
     {
       "id": "quesnel-disappears",
-      "date": "1815-02-04",
+      "date": "1815-02-05",
       "label": "c. early February 1815",
       "approx": true,
       "title": "General Quesnel vanishes after a Bonapartist meeting",
@@ -203,7 +203,7 @@
       "id": "leclere-dies",
       "date": "1815-02-15",
       "label": "c. mid-February 1815",
-      "approx": false,
+      "approx": true,
       "title": "Captain Leclere dies; Dantès stops at Elba",
       "text": [
         {
@@ -241,6 +241,14 @@
       "text": [
         {
           "from": 1,
+          "text": "Dantès brings the Pharaon home. Morrel promises to make him captain, and the jealous Danglars watches."
+        },
+        {
+          "from": 2,
+          "text": "Dantès brings the Pharaon home. Morrel promises to make him captain, and the jealous Danglars watches. The same day Dantès finds his father half-starved."
+        },
+        {
+          "from": 3,
           "text": "Dantès brings the Pharaon home. Morrel promises to make him captain, and the jealous Danglars watches. The same day Dantès finds his father half-starved and visits Mercédès at the Catalans, where her cousin Fernand loves her in vain."
         }
       ],
@@ -762,7 +770,7 @@
         },
         {
           "from": 62,
-          "text": "Still hunting Villefort, Bertuccio follows him to a house at Auteuil owned by Villefort's father-in-law. A young widow known only as 'the Baroness' lives there, expecting a child. At the Count's dinner Bertuccio recognises her: she is Madame Danglars."
+          "text": "Still hunting Villefort, Bertuccio follows him to a house at Auteuil owned by Villefort's father-in-law. A young widow known only as 'the Baroness' lives there, expecting a child. As the Count's dinner guests arrive, Bertuccio recognises her: she is Madame Danglars."
         },
         {
           "from": 65,
@@ -869,15 +877,11 @@
       "title": "Danglars marries the widowed Madame de Nargonne",
       "text": [
         {
-          "from": 27,
-          "text": "Danglars marries his banker's daughter, who soon dies. He then marries a widow, Madame de Nargonne, daughter of a king's chamberlain who is in favour at court. It is one of the steps by which the clerk becomes a baron."
-        },
-        {
           "from": 67,
           "text": "Danglars, widowed by his first wife, marries the young widow Madame de Nargonne while Villefort lies recovering from Bertuccio's knife. She is the 'Baroness' of Auteuil, and she believes the child she bore there is dead."
         }
       ],
-      "revealed": 27,
+      "revealed": 67,
       "chapters": [
         27,
         67
@@ -1031,6 +1035,10 @@
       "text": [
         {
           "from": 27,
+          "text": "When France invades Spain in 1823 to restore its king, Danglars supplies the French army and makes a fortune. He then speculates on the stock market and multiplies it three or four times. He marries his banker's daughter, who soon dies, and then a widow, Madame de Nargonne, daughter of a king's chamberlain who is in favour at court."
+        },
+        {
+          "from": 67,
           "text": "When France invades Spain in 1823 to restore its king, Danglars supplies the French army and makes a fortune. He then speculates on the stock market and multiplies it three or four times."
         }
       ],
@@ -1395,7 +1403,7 @@
     },
     {
       "id": "prison-register",
-      "date": "1829-06-04",
+      "date": "1829-06-02",
       "label": "c. June 1829",
       "approx": true,
       "title": "The 'English clerk' reads Dantès's prison file",
@@ -1623,15 +1631,15 @@
       "title": "Benedetto is sent to the galleys at Toulon",
       "text": [
         {
-          "from": 81,
-          "text": "Benedetto ends up in the galleys at Toulon, where he is chained alongside Caderousse. Caderousse used to share his soup with the boy and call him his child."
+          "from": 64,
+          "text": "Benedetto ends up a convict in the galleys at Toulon, alongside Caderousse. Caderousse used to share his soup with the boy and call him his child."
         },
         {
           "from": 99,
           "text": "At sixteen Benedetto is sent to the galleys at Toulon for forgery. There he is chained alongside Caderousse."
         }
       ],
-      "revealed": 81,
+      "revealed": 64,
       "chapters": [
         64,
         81,
@@ -1704,7 +1712,7 @@
       "id": "franz-meets-sinbad",
       "date": "1838-02-10",
       "label": "c. February 1838",
-      "approx": false,
+      "approx": true,
       "title": "Franz dines with 'Sinbad the Sailor' on Monte Cristo",
       "text": [
         {
