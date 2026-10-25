@@ -29,6 +29,18 @@ Use `pipeline/templates/` (one brief per stage) and `docs/data-format.md`. Every
   - **Text mode:** the list comes from the text itself, so show it and carry on, unless something looks off: a missing or duplicate chapter, or a preface counted as a chapter.
 - Mark `manifest` done.
 
+## What can run at the same time
+
+Stages depend only on what they read, so overlap them:
+
+- **Chapters first.** Everything depends on the chapter files.
+- **Right after the chapters**, alongside the roster and reveals: glossary, recaps, atlas frames, themes. These only need chapter files.
+- **After the roster:** cast, then relationships. Primers need the roster ids too, for `returning`.
+- **After the cast and themes:** places (the cast's place ids), insights (theme ids), afterword.
+- **Review comes last**, once everything it checks exists.
+
+Hand each chapter agent the ids of the main characters if you can work them out (from the title or a quick look at the text), so ranges agree from the start.
+
 ## 2. Chapters (parallel)
 
 - Split the book into ranges of about 10–15 chapters (text mode; a chapter-file total under about 60k words per agent) or about 20–30 (knowledge mode).
