@@ -1,0 +1,45 @@
+[
+  {
+    "id": "morcerf-is-fernand",
+    "chapter": 27,
+    "secret": "The Count de Morcerf is Fernand Mondego, the Catalan fisherman who posted the denunciation."
+  },
+  {
+    "id": "count-is-dantes",
+    "chapter": 30,
+    "secret": "The English clerk of Thomson & French, Lord Wilmore, the Abbé of chapters 26–27 and Sinbad the Sailor are all Edmond Dantès; from chapter 34 the Count of Monte Cristo is known to be Sinbad."
+  },
+  {
+    "id": "haydee-named",
+    "chapter": 45,
+    "secret": "The Count's Greek companion is named Haydée.",
+    "terms": [
+      "Haydée"
+    ]
+  },
+  {
+    "id": "andrea-is-benedetto",
+    "chapter": 62,
+    "secret": "Andrea Cavalcanti is Benedetto, the foundling Bertuccio saved at Auteuil."
+  },
+  {
+    "id": "baroness-is-madame-danglars",
+    "chapter": 62,
+    "secret": "The 'Baroness' of Auteuil, mother of the buried child, is Madame Danglars."
+  },
+  {
+    "id": "noirtier-killed-quesnel",
+    "chapter": 75,
+    "secret": "Noirtier killed General de Quesnel in a duel on the night he disappeared."
+  },
+  {
+    "id": "poisoner-is-madame-de-villefort",
+    "chapter": 101,
+    "secret": "Madame de Villefort is the poisoner in the Villefort house."
+  },
+  {
+    "id": "valentine-lives",
+    "chapter": 117,
+    "secret": "Valentine is alive; the Count saved her with a sleeping draught."
+  }
+]

@@ -141,9 +141,6 @@ function mergeBook(book) {
   if (has('timeline.json')) data.timeline = json('timeline.json').events.sort((a, b) => a.date.localeCompare(b.date) || a.revealed - b.revealed)
   if (data.themes || insights.length) log.push(`${data.themes?.length ?? 0} themes, ${insights.length} insights${data.afterword ? ', afterword' : ''}${data.timeline ? `, ${data.timeline.length} timeline events` : ''}`)
 
-  // Reveals: what the reader learns late, used by the validator to catch leaks.
-  if (has('reveals.json')) data.reveals = json('reveals.json')
-
   writeFileSync(join(outDir, 'book.json'), JSON.stringify(meta, null, 2) + '\n')
   writeFileSync(join(outDir, 'data.json'), JSON.stringify(data) + '\n')
   console.log(`✓ ${book}: ${log.join(' · ')}`)

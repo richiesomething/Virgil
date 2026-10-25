@@ -71,7 +71,10 @@
         ],
         "kind": "sea"
       }
-    ]
+    ],
+    "recipe": {
+      "type": "natural"
+    }
   },
   {
     "id": "london",
@@ -130,7 +133,41 @@
         ],
         "kind": "area"
       }
-    ]
+    ],
+    "recipe": {
+      "type": "city",
+      "osmBox": "51.48,-0.22,51.56,-0.05",
+      "river": {
+        "osm": "River Thames",
+        "width": 230,
+        "curve": true,
+        "traceSuffix": "London",
+        "trace": [
+          "Wandsworth Bridge",
+          "Battersea Bridge",
+          "Albert Bridge",
+          "Chelsea Bridge",
+          "Grosvenor Bridge",
+          "Vauxhall Bridge",
+          "Lambeth Bridge",
+          "Westminster Bridge",
+          "Hungerford Bridge",
+          "Waterloo Bridge",
+          "Blackfriars Bridge",
+          "Southwark Bridge",
+          "London Bridge",
+          "Tower Bridge"
+        ]
+      },
+      "parks": [
+        "Hyde Park, London",
+        "Kensington Gardens",
+        "Regent's Park",
+        "Green Park, London",
+        "St James's Park",
+        "Primrose Hill"
+      ]
+    }
   },
   {
     "id": "diagon-alley",

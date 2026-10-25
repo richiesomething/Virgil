@@ -97,8 +97,6 @@ export interface BookData {
   insights?: Insight[]
   afterword?: Afterword
   timeline?: TimelineEvent[]
-  /** What the reader learns late; checked by the validator, not shown. */
-  reveals?: Reveal[]
 }
 
 /** 'tie' is used for every link that involves an object or place. */
@@ -166,6 +164,8 @@ export interface AtlasFrame {
   parent?: string
   /** geo: [[west, south], [east, north]] */
   bounds?: [[number, number], [number, number]]
+  /** geo: mercator (default), or equirectangular for whole-world and polar maps. */
+  projection?: 'mercator' | 'equirectangular'
   /** plan: drawing size */
   size?: [number, number]
   /** Where a child frame sits in its parent (lon/lat or x/y in the parent's space). */
@@ -287,7 +287,7 @@ export interface TimelineEvent {
   people?: string[]
 }
 
-/** Something the reader learns late (a disguise, a secret, a name). Used to catch leaks. */
+/** data-src/<book>/reveals.json: something the reader learns late. Read by the validator only; never shipped. */
 export interface Reveal {
   id: string
   /** First chapter at the end of which the reader knows it. */

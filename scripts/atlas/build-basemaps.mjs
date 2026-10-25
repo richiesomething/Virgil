@@ -230,71 +230,54 @@ async function traced(names, suffix) {
   return pts
 }
 
-const TIBER_BRIDGES = ['Ponte Milvio', "Ponte Duca d'Aosta", 'Ponte del Risorgimento', 'Ponte Giacomo Matteotti', 'Ponte Pietro Nenni', 'Ponte Regina Margherita', 'Ponte Cavour', 'Ponte Umberto I', "Ponte Sant'Angelo", 'Ponte Vittorio Emanuele II', 'Ponte Principe Amedeo Savoia Aosta', 'Ponte Giuseppe Mazzini', 'Ponte Sisto', 'Ponte Garibaldi', 'Ponte Palatino', 'Ponte Sublicio', 'Ponte Testaccio', "Ponte dell'Industria", 'Ponte Guglielmo Marconi']
-const ROME_WALL_GATES = ['Porta del Popolo', 'Porta Pinciana', 'Porta Salaria', 'Porta Pia', 'Porta Tiburtina', 'Porta Maggiore', 'Porta San Giovanni', 'Porta Metronia', 'Porta Latina', 'Porta San Sebastiano', 'Porta Ardeatina', 'Porta San Paolo']
-const JANICULUM_GATES = ['Porta Portese', 'Porta San Pancrazio', 'Porta Cavalleggeri', 'Porta Angelica']
-const THAMES_BRIDGES = ['Wandsworth Bridge', 'Battersea Bridge', 'Albert Bridge', 'Chelsea Bridge', 'Grosvenor Bridge', 'Vauxhall Bridge', 'Lambeth Bridge', 'Westminster Bridge', 'Hungerford Bridge', 'Waterloo Bridge', 'Blackfriars Bridge', 'Southwark Bridge', 'London Bridge', 'Tower Bridge']
+/** Natural Earth land, lakes, rivers and islands: any region from a country to an ocean. */
+async function naturalRecipe(frame, tools) {
+  return naturalBase(frame, tools)
+}
 
-const recipes = {
-  async mediterranean(frame, tools) {
-    return naturalBase(frame, tools)
-  },
-  async britain(frame, tools) {
-    return naturalBase(frame, tools)
-  },
-  async gulf(frame, tools) {
-    return naturalBase(frame, tools)
-  },
-  async marseilles(frame, tools, box) {
+/**
+ * A city or coast from OpenStreetMap and Nominatim, configured in frames.json (see docs/data-format.md):
+ * coastline, river (water polygons → OSM centreline → line traced through bridges → Nominatim line),
+ * parks, and walls (OSM → traced gates → hand-given coordinates).
+ */
+async function cityRecipe(frame, tools, box, r) {
+  const osmBox = r.osmBox ?? `${box[1]},${box[0]},${box[3]},${box[2]}`
+  let land = []
+  if (r.coastline) {
     const q = `[out:json][timeout:120];way["natural"="coastline"](${box[1]},${box[0]},${box[3]},${box[2]});out geom;`
-    let land
     try {
-      const r = await overpass(q)
-      land = tools.clipPolys(landFromCoastline(r.elements.map((e) => e.geometry.map((p) => [p.lon, p.lat])), box).map((p) => p))
+      const res = await overpass(q)
+      land = tools.clipPolys(landFromCoastline(res.elements.map((e) => e.geometry.map((p) => [p.lon, p.lat])), box))
     } catch (e) {
       console.warn('  coastline unavailable, using Natural Earth:', e.message)
       land = (await naturalBase(frame, tools)).land
     }
-    const parks = await nominatimShapes(['Parc Borély, Marseille', 'Jardin du Pharo, Marseille'], tools)
-    return { bg: 'sea', land, water: [], rivers: [], parks: parks.polys }
-  },
-  async paris(frame, tools, box) {
-    const water = (await osmRiverPolygons('48.80,2.20,48.92,2.44', tools)) ?? []
-    const river = water.length ? [] : (await nominatimShapes(['La Seine, Paris'], tools)).lines.map((line) => ({ line, w: 150 }))
-    const parks = await nominatimShapes(
-      ['Bois de Boulogne', 'Jardin des Tuileries', 'Jardin du Luxembourg', 'Champ de Mars, Paris', 'Cimetière du Père-Lachaise', 'Jardin des Plantes, Paris', 'Parc Monceau', 'Esplanade des Invalides', 'Bois de Vincennes'],
-      tools,
-    )
-    return { bg: 'land', land: [], water, rivers: river, parks: parks.polys, walls: [tools.clipLines([FARMERS_GENERAL_WALL])[0]].filter(Boolean) }
-  },
-  async rome(frame, tools, box) {
-    const water = (await osmRiverPolygons('41.83,12.42,41.94,12.55', tools, 2)) ?? []
-    let tiber = water.length ? [] : ((await osmLines('["waterway"="river"]["name"="Tevere"]', '41.83,12.42,41.94,12.55', 3)) ?? [])
-    if (!water.length && !tiber.length) tiber = [await traced(TIBER_BRIDGES, 'Roma')]
-    const river = tools.clipLines(chain(tiber)).map((line) => ({ line, w: 90 }))
-    const parks = await nominatimShapes(['Villa Borghese, Roma', 'Villa Doria Pamphilj', 'Palatino, Roma', 'Circo Massimo', 'Villa Ada'], tools)
-    let walls = (await osmLines('["historic"="citywalls"]', '41.865,12.455,41.915,12.53', 3)) ?? []
-    if (!walls.length) walls = [await traced(ROME_WALL_GATES, 'Roma'), await traced(JANICULUM_GATES, 'Roma')]
-    return { bg: 'land', land: [], water, rivers: river, parks: parks.polys, walls: tools.clipLines(chain(walls)) }
-  },
-  async london(frame, tools, box) {
-    const water = (await osmRiverPolygons('51.48,-0.22,51.56,-0.05', tools, 2)) ?? []
-    let thames = water.length ? [] : ((await osmLines('["waterway"="river"]["name"="River Thames"]', '51.48,-0.22,51.56,-0.05', 3)) ?? [])
-    if (!water.length && !thames.length) thames = [await traced(THAMES_BRIDGES, 'London')]
-    const river = tools.clipLines(chain(thames)).map((line) => ({ line, w: 230, curve: true }))
-    const parks = await nominatimShapes(["Hyde Park, London", "Kensington Gardens", "Regent's Park", 'Green Park, London', "St James's Park", 'Primrose Hill'], tools)
-    return { bg: 'land', land: [], water, rivers: river, parks: parks.polys }
-  },
+  }
+  let water = []
+  let rivers = []
+  if (r.river) {
+    const rv = r.river
+    water = (await osmRiverPolygons(r.river.polygonBox ?? osmBox, tools, 2)) ?? []
+    if (!water.length) {
+      let lines = rv.osm ? ((await osmLines(`["waterway"="river"]["name"="${rv.osm}"]`, osmBox, 3)) ?? []) : []
+      if (!lines.length && rv.trace) lines = [await traced(rv.trace, rv.traceSuffix ?? '')]
+      if (!lines.length && rv.nominatim) lines = (await nominatimShapes([rv.nominatim], tools)).lines
+      else lines = tools.clipLines(chain(lines))
+      rivers = lines.map((line) => ({ line, w: rv.width ?? 120, ...(rv.curve ? { curve: true } : {}) }))
+    }
+  }
+  const parks = r.parks?.length ? (await nominatimShapes(r.parks, tools)).polys : []
+  let walls = []
+  if (r.walls) {
+    const wl = r.walls
+    let lines = wl.osm ? ((await osmLines('["historic"="citywalls"]', wl.osmBox ?? osmBox, 3)) ?? []) : []
+    if (!lines.length && wl.trace) lines = await Promise.all(wl.trace.map((names) => traced(names, wl.traceSuffix ?? '')))
+    walls = lines.length ? tools.clipLines(chain(lines)) : wl.coords ? tools.clipLines([wl.coords]) : []
+  }
+  return { bg: r.coastline ? 'sea' : 'land', land, water, rivers, parks, ...(r.walls ? { walls } : {}) }
 }
 
-// The Farmers-General wall (1784–1860): Paris's customs wall in the 1830s, along today's boulevards.
-const FARMERS_GENERAL_WALL = [
-  [2.295, 48.8738], [2.3015, 48.8786], [2.309, 48.8812], [2.3205, 48.8833], [2.3275, 48.8838], [2.3375, 48.8823], [2.35, 48.8838], [2.3605, 48.8843],
-  [2.3685, 48.884], [2.3707, 48.8778], [2.3765, 48.8722], [2.3833, 48.8662], [2.3868, 48.8628], [2.3906, 48.858], [2.3958, 48.8484], [2.4004, 48.8441],
-  [2.396, 48.8396], [2.3895, 48.8378], [2.3818, 48.8368], [2.3756, 48.8352], [2.3694, 48.8334], [2.3557, 48.831], [2.3433, 48.831], [2.3325, 48.8339],
-  [2.3243, 48.8381], [2.317, 48.8418], [2.3127, 48.8425], [2.3069, 48.8466], [2.2985, 48.8497], [2.2928, 48.8507], [2.2895, 48.8538], [2.2855, 48.8577],
-  [2.2864, 48.8627], [2.2901, 48.867], [2.2932, 48.8714], [2.295, 48.8738],
-]
+const recipes = { natural: naturalRecipe, city: cityRecipe }
 
 for (const book of books) {
   const framesFile = join('data-src', book, 'atlas', 'frames.json')
@@ -302,8 +285,8 @@ for (const book of books) {
   mkdirSync(join('src/books', book, 'atlas'), { recursive: true })
   for (const frame of JSON.parse(readFileSync(framesFile, 'utf8'))) {
     if (frame.type !== 'geo' || (only && !only.includes(frame.id))) continue
-    const recipe = recipes[frame.id]
-    if (!recipe) throw new Error(`No basemap recipe for ${book}/${frame.id}`)
+    const recipe = recipes[frame.recipe?.type]
+    if (!recipe) throw new Error(`Frame ${book}/${frame.id} needs a "recipe" of type ${Object.keys(recipes).join(' or ')} (see docs/data-format.md)`)
     const [[w, s], [e, n]] = frame.bounds
     const padX = (e - w) * 0.35
     const padY = (n - s) * 0.35
@@ -313,7 +296,7 @@ for (const book of books) {
     const dp = span > 5 ? 3 : span > 0.5 ? 4 : 5
     const tools = makeTools(box, tol, dp)
     console.log(`${book}/${frame.id}`)
-    const base = await recipe(frame, tools, box)
+    const base = await recipe(frame, tools, box, frame.recipe)
     const out = join('src/books', book, 'atlas', `${frame.id}.json`)
     writeFileSync(out, JSON.stringify(base))
     console.log(`  → ${out} (${(JSON.stringify(base).length / 1024).toFixed(0)} KB)`)

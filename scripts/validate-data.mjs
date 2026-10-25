@@ -265,6 +265,56 @@ for (const book of readdirSync(root, { withFileTypes: true }).filter((d) => d.is
     console.log(`✓ [${book}] understanding: ${themes.size} themes, ${u.insights?.length ?? 0} insights, ${u.afterword ? 'afterword' : 'no afterword'}, ${u.timeline?.length ?? 0} timeline events`)
   }
 
+  // Reveals (read from data-src, never shipped): nothing shown before a reveal's chapter may contain its giveaway terms.
+  const revealsFile = join('data-src', book, 'reveals.json')
+  data.reveals = existsSync(revealsFile) ? JSON.parse(readFileSync(revealsFile, 'utf8')) : []
+  if (!data.reveals.length) console.warn(`! [${book}] no reveals.json — secrets aren't being checked`)
+  if (data.reveals.length) {
+    const texts = [] // [shownAt, text, where]
+    const add = (at, text, where) => text && texts.push([at, String(text), where])
+    for (const c of chapters) {
+      add(c.number, c.title, `chapter ${c.number} title`)
+      add(c.number, c.summary, `chapter ${c.number} summary`)
+      for (const d of c.details) add(c.number, d, `chapter ${c.number} details`)
+    }
+    for (const c of characters) {
+      add(c.firstChapter, c.name, `character ${c.id} name`)
+      for (const a of c.aliases ?? []) add(a.from, a.name + ' ' + (a.note ?? ''), `character ${c.id} alias`)
+      for (const x of c.tagline ?? []) add(x.from, x.text, `character ${c.id} tagline`)
+      for (const x of c.description ?? []) add(x.from, x.text, `character ${c.id} description`)
+      for (const x of c.moments ?? []) add(x.chapter, x.text, `character ${c.id} moment`)
+    }
+    for (const r of data.relationships ?? []) for (const s of r.states) add(s.from, s.label, `relationship ${r.a}–${r.b}`)
+    for (const n of data.notes ?? []) add(n.chapter, `${n.term} ${n.text} ${n.quote ?? ''}`, `note ${n.id}`)
+    for (const p of data.primers ?? []) {
+      add(p.chapter - 1, `${p.setting} ${p.keepInMind}`, `primer ${p.chapter}`)
+      for (const r of p.returning) add(p.chapter - 1, r.reminder, `primer ${p.chapter} returning ${r.id}`)
+    }
+    for (const r of data.recaps ?? []) add(r.through, r.text.join(' ') + ' ' + r.title, `recap through ${r.through}`)
+    for (const p of data.atlas?.places ?? []) {
+      add(p.firstChapter, p.name, `place ${p.id} name`)
+      for (const x of p.tagline ?? []) add(x.from, x.text, `place ${p.id} tagline`)
+      for (const a of p.aliases ?? []) add(a.from, a.name, `place ${p.id} alias`)
+    }
+    for (const j of data.atlas?.journeys ?? []) add(Math.min(...j.legs.map((l) => l.chapter)), j.name, `journey ${j.id}`)
+    for (const th of data.themes ?? []) {
+      add(th.from, th.name, `theme ${th.id}`)
+      for (const s of th.summary ?? []) add(s.from, s.text, `theme ${th.id} summary`)
+    }
+    for (const i of data.insights ?? []) add(i.chapter, `${i.title} ${i.text}`, `insight ${i.id}`)
+    for (const e of data.timeline ?? []) {
+      add(e.revealed, `${e.title} ${e.label}`, `timeline ${e.id}`)
+      for (const x of e.text) add(x.from, x.text, `timeline ${e.id} text`)
+    }
+    for (const r of data.reveals) {
+      if (!r.id || !r.secret || !(r.chapter >= 1 && r.chapter <= count)) fail(book, `reveal ${r.id} is malformed`)
+      for (const term of r.terms ?? []) {
+        const re = new RegExp(`\\b${term.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')}`, 'i')
+        for (const [at, text, where] of texts) if (at < r.chapter && re.test(text)) fail(book, `${where} (shown at ch ${at}) mentions "${term}", revealed in ch ${r.chapter}`)
+      }
+    }
+  }
+
   for (const c of characters) {
     if (!chapters.some((ch) => ch.characters.includes(c.id)))
       console.warn(`! [${book}] character ${c.id} is not listed in any chapter`)

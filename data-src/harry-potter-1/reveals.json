@@ -1,0 +1,42 @@
+[
+  {
+    "id": "fluffy-named",
+    "chapter": 11,
+    "secret": "The three-headed dog is Hagrid's, and its name is Fluffy.",
+    "terms": [
+      "Fluffy"
+    ]
+  },
+  {
+    "id": "erised-named",
+    "chapter": 12,
+    "secret": "The mirror is the Mirror of Erised.",
+    "terms": [
+      "Erised"
+    ]
+  },
+  {
+    "id": "stone-named",
+    "chapter": 13,
+    "secret": "What the dog guards is the Sorcerer's Stone.",
+    "terms": [
+      "Sorcerer's Stone",
+      "Sorcerer’s Stone",
+      "Philosopher's Stone",
+      "Philosopher’s Stone"
+    ]
+  },
+  {
+    "id": "norbert-named",
+    "chapter": 14,
+    "secret": "Hagrid's dragon is called Norbert.",
+    "terms": [
+      "Norbert"
+    ]
+  },
+  {
+    "id": "quirrell-is-the-villain",
+    "chapter": 17,
+    "secret": "Quirrell, not Snape, is trying to steal the Stone, and Voldemort shares his body."
+  }
+]

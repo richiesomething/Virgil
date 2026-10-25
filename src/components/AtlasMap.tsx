@@ -1,5 +1,5 @@
 import { useEffect, useLayoutEffect, useMemo, useRef, useState } from 'react'
-import { geoMercator, type GeoProjection } from 'd3-geo'
+import { geoEquirectangular, geoMercator, type GeoProjection } from 'd3-geo'
 import { line as d3line, curveCatmullRom, curveCatmullRomClosed, curveLinearClosed, curveLinear } from 'd3-shape'
 import { select } from 'd3-selection'
 import { zoom, zoomIdentity, type ZoomBehavior, type ZoomTransform } from 'd3-zoom'
@@ -59,7 +59,7 @@ export interface AtlasMapProps {
 function makeProjection(frame: AtlasFrame, w: number, h: number, pad: number) {
   if (frame.type === 'geo' && frame.bounds) {
     const [[x0, y0], [x1, y1]] = frame.bounds
-    const p: GeoProjection = geoMercator().fitExtent(
+    const p: GeoProjection = (frame.projection === 'equirectangular' ? geoEquirectangular() : geoMercator()).fitExtent(
       [
         [pad, pad],
         [w - pad, h - pad],

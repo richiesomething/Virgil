@@ -145,7 +145,10 @@
         ],
         "kind": "area"
       }
-    ]
+    ],
+    "recipe": {
+      "type": "natural"
+    }
   },
   {
     "id": "marseilles",
@@ -181,7 +184,15 @@
         "kind": "minor"
       }
     ],
-    "place": "marseilles"
+    "place": "marseilles",
+    "recipe": {
+      "type": "city",
+      "coastline": true,
+      "parks": [
+        "Parc Borély, Marseille",
+        "Jardin du Pharo, Marseille"
+      ]
+    }
   },
   {
     "id": "paris",
@@ -250,7 +261,175 @@
         "kind": "area"
       }
     ],
-    "place": "paris"
+    "place": "paris",
+    "recipe": {
+      "type": "city",
+      "osmBox": "48.80,2.20,48.92,2.44",
+      "river": {
+        "width": 150,
+        "nominatim": "La Seine, Paris"
+      },
+      "parks": [
+        "Bois de Boulogne",
+        "Jardin des Tuileries",
+        "Jardin du Luxembourg",
+        "Champ de Mars, Paris",
+        "Cimetière du Père-Lachaise",
+        "Jardin des Plantes, Paris",
+        "Parc Monceau",
+        "Esplanade des Invalides",
+        "Bois de Vincennes"
+      ],
+      "walls": {
+        "coords": [
+          [
+            2.295,
+            48.8738
+          ],
+          [
+            2.3015,
+            48.8786
+          ],
+          [
+            2.309,
+            48.8812
+          ],
+          [
+            2.3205,
+            48.8833
+          ],
+          [
+            2.3275,
+            48.8838
+          ],
+          [
+            2.3375,
+            48.8823
+          ],
+          [
+            2.35,
+            48.8838
+          ],
+          [
+            2.3605,
+            48.8843
+          ],
+          [
+            2.3685,
+            48.884
+          ],
+          [
+            2.3707,
+            48.8778
+          ],
+          [
+            2.3765,
+            48.8722
+          ],
+          [
+            2.3833,
+            48.8662
+          ],
+          [
+            2.3868,
+            48.8628
+          ],
+          [
+            2.3906,
+            48.858
+          ],
+          [
+            2.3958,
+            48.8484
+          ],
+          [
+            2.4004,
+            48.8441
+          ],
+          [
+            2.396,
+            48.8396
+          ],
+          [
+            2.3895,
+            48.8378
+          ],
+          [
+            2.3818,
+            48.8368
+          ],
+          [
+            2.3756,
+            48.8352
+          ],
+          [
+            2.3694,
+            48.8334
+          ],
+          [
+            2.3557,
+            48.831
+          ],
+          [
+            2.3433,
+            48.831
+          ],
+          [
+            2.3325,
+            48.8339
+          ],
+          [
+            2.3243,
+            48.8381
+          ],
+          [
+            2.317,
+            48.8418
+          ],
+          [
+            2.3127,
+            48.8425
+          ],
+          [
+            2.3069,
+            48.8466
+          ],
+          [
+            2.2985,
+            48.8497
+          ],
+          [
+            2.2928,
+            48.8507
+          ],
+          [
+            2.2895,
+            48.8538
+          ],
+          [
+            2.2855,
+            48.8577
+          ],
+          [
+            2.2864,
+            48.8627
+          ],
+          [
+            2.2901,
+            48.867
+          ],
+          [
+            2.2932,
+            48.8714
+          ],
+          [
+            2.295,
+            48.8738
+          ]
+        ],
+        "note": "The Farmers-General wall (1784–1860), along today's boulevards."
+      }
+    }
   },
   {
     "id": "rome",
@@ -303,7 +482,71 @@
         "kind": "area"
       }
     ],
-    "place": "rome"
+    "place": "rome",
+    "recipe": {
+      "type": "city",
+      "osmBox": "41.83,12.42,41.94,12.55",
+      "river": {
+        "osm": "Tevere",
+        "width": 90,
+        "traceSuffix": "Roma",
+        "trace": [
+          "Ponte Milvio",
+          "Ponte Duca d'Aosta",
+          "Ponte del Risorgimento",
+          "Ponte Giacomo Matteotti",
+          "Ponte Pietro Nenni",
+          "Ponte Regina Margherita",
+          "Ponte Cavour",
+          "Ponte Umberto I",
+          "Ponte Sant'Angelo",
+          "Ponte Vittorio Emanuele II",
+          "Ponte Principe Amedeo Savoia Aosta",
+          "Ponte Giuseppe Mazzini",
+          "Ponte Sisto",
+          "Ponte Garibaldi",
+          "Ponte Palatino",
+          "Ponte Sublicio",
+          "Ponte Testaccio",
+          "Ponte dell'Industria",
+          "Ponte Guglielmo Marconi"
+        ]
+      },
+      "parks": [
+        "Villa Borghese, Roma",
+        "Villa Doria Pamphilj",
+        "Palatino, Roma",
+        "Circo Massimo",
+        "Villa Ada"
+      ],
+      "walls": {
+        "osm": true,
+        "osmBox": "41.865,12.455,41.915,12.53",
+        "traceSuffix": "Roma",
+        "trace": [
+          [
+            "Porta del Popolo",
+            "Porta Pinciana",
+            "Porta Salaria",
+            "Porta Pia",
+            "Porta Tiburtina",
+            "Porta Maggiore",
+            "Porta San Giovanni",
+            "Porta Metronia",
+            "Porta Latina",
+            "Porta San Sebastiano",
+            "Porta Ardeatina",
+            "Porta San Paolo"
+          ],
+          [
+            "Porta Portese",
+            "Porta San Pancrazio",
+            "Porta Cavalleggeri",
+            "Porta Angelica"
+          ]
+        ]
+      }
+    }
   },
   {
     "id": "monte-cristo",

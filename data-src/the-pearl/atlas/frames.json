@@ -40,7 +40,10 @@
         ],
         "kind": "area"
       }
-    ]
+    ],
+    "recipe": {
+      "type": "natural"
+    }
   },
   {
     "id": "town",
