@@ -1,0 +1,773 @@
+[
+  {
+    "term": "league",
+    "kind": "word",
+    "chapter": 1,
+    "text": "An old measure of distance. Verne uses the French metric league of 4 kilometers (about 2.5 miles), and a 'nautical league' of three nautical miles, about 5.5 kilometers. The title's twenty thousand leagues is a distance traveled under the seas, not a depth: no ocean is more than a few leagues deep.",
+    "quote": "more than 700 nautical leagues"
+  },
+  {
+    "term": "cetacean",
+    "kind": "word",
+    "chapter": 1,
+    "text": "The scientific name for whales, dolphins and porpoises: mammals that live in the sea but breathe air through blowholes. Calling the mystery object a cetacean is the scientists' first guess at what it is, which is why the jets of water and the 'blowing' in the reports matter so much to them.",
+    "quote": "If it was a cetacean"
+  },
+  {
+    "term": "Cuvier, Lacépède, Dumeril, Quatrefages",
+    "kind": "history",
+    "chapter": 1,
+    "text": "Real naturalists of the Paris Museum of Natural History. Georges Cuvier (d. 1832) founded comparative anatomy and the study of fossils; Lacépède wrote the standard natural history of fish; Duméril and Quatrefages were working zoologists in the 1860s. They stand for the French scientific establishment, and the narrator's own colleagues.",
+    "quote": "neither Cuvier nor Lacépède"
+  },
+  {
+    "term": "latitude, longitude and the meridian of Greenwich",
+    "kind": "word",
+    "chapter": 1,
+    "text": "Latitude is degrees north or south of the equator; longitude is degrees east or west of a chosen 'prime meridian'. In 1866 there was no agreed one: British and American charts counted from Greenwich, French ones from Paris. Greenwich became the world standard only in 1884, so the book's positions shift between the two.",
+    "quote": "west of the meridian of Greenwich",
+    "seeAlso": [14]
+  },
+  {
+    "term": "knot",
+    "kind": "word",
+    "chapter": 1,
+    "text": "A ship's speed in nautical miles per hour; a nautical mile is 1,852 meters, a little longer than a land mile. The Moravian's thirteen knots is about 15 miles per hour, a good speed for an 1860s liner. The narrator switches freely between knots and miles per hour.",
+    "quote": "a speed of thirteen knots",
+    "seeAlso": [6]
+  },
+  {
+    "term": "cable length",
+    "kind": "word",
+    "chapter": 1,
+    "text": "A sailor's short distance, roughly a tenth of a nautical mile (about 185–200 meters), named after the length of a ship's anchor cable. Three cable lengths is close enough to see the water churning.",
+    "quote": "three cable lengths out"
+  },
+  {
+    "term": "starboard, port and quarter",
+    "kind": "word",
+    "chapter": 1,
+    "text": "Facing the bow (front) of a ship, starboard is the right-hand side and port the left. The quarter is the rear part of either side, near the stern. So the Moravian was struck at the back of its right-hand side.",
+    "quote": "ran its starboard quarter afoul of a rock"
+  },
+  {
+    "term": "kraken and sea serpents",
+    "kind": "reference",
+    "chapter": 1,
+    "text": "The kraken was a Norwegian legend of a sea monster so huge it could be mistaken for an island; Bishop Erik Pontoppidan wrote it up in his Natural History of Norway (1752–53). The Egede family of missionaries in Greenland reported a giant sea serpent in 1734. Sea-serpent sightings by sailors were still taken half-seriously in the 1860s.",
+    "quote": "the Norwegian stories of Bishop Pontoppidan"
+  },
+  {
+    "term": "Cunard and the Great Eastern",
+    "kind": "history",
+    "chapter": 1,
+    "text": "Samuel Cunard's line really did start a Liverpool–Halifax mail service in 1840, and its record for safety was famous. The Scotia was a real Cunard paddle steamer, launched in 1861. The Great Eastern, Brunel's iron giant of 1858, was by far the largest ship afloat, five times the size of anything else.",
+    "quote": "after the Great Eastern, the biggest ever to plow the seas"
+  },
+  {
+    "term": "watertight bulkheads",
+    "kind": "word",
+    "chapter": 1,
+    "text": "Solid walls dividing a hull into sealed compartments, so that a hole floods only one section and the ship stays afloat. In the 1860s this was a new and much-praised safety feature of iron ships; it is why the Scotia can limp home with a hole in its side.",
+    "quote": "watertight bulkheads",
+    "seeAlso": [12]
+  },
+  {
+    "term": "Hippolytus and Phaedra",
+    "kind": "reference",
+    "chapter": 1,
+    "text": "In Greek myth, retold in Racine's tragedy Phèdre (1677), the chaste young Hippolytus scornfully rejects the love of his stepmother Phaedra. The comparison is a joke: the columnist dismisses the monster with the same lofty disgust.",
+    "quote": "Hippolytus repulsing the amorous advances"
+  },
+  {
+    "term": "Paris Museum and Botanical Gardens",
+    "kind": "place",
+    "chapter": 2,
+    "text": "The Muséum national d'Histoire naturelle, France's leading natural-history institution, stands in the Jardin des Plantes (the 'Botanical Gardens') on the Left Bank of Paris, with its own zoo. An assistant professor there was a serious scientist; Aronnax lives in its little world of collections and specimens.",
+    "quote": "Assistant Professor at the Paris Museum of Natural History"
+  },
+  {
+    "term": "Nebraska badlands",
+    "kind": "place",
+    "chapter": 2,
+    "text": "Eroded, barren country in the American West, rich in fossils of extinct mammals. In the 1850s–60s it drew fossil-hunting expeditions, which is why a French naturalist would come home 'laden with valuable collections' of bones.",
+    "quote": "explore the Nebraska badlands"
+  },
+  {
+    "term": "Chassepot rifle and torpedo",
+    "kind": "history",
+    "chapter": 2,
+    "text": "The Chassepot was the French army's new breech-loading rifle, adopted in 1866, a symbol of the arms race of the day. 'Torpedo' then meant any underwater explosive, including moored mines; the first self-propelled torpedo was built in 1866. Aronnax sees weapons getting steadily more terrible.",
+    "quote": "The Chassepot rifle led to the torpedo"
+  },
+  {
+    "term": "Monitor",
+    "kind": "history",
+    "chapter": 2,
+    "text": "The USS Monitor, a Union ironclad of the American Civil War, famous for its 1862 duel with the Confederate ironclad Virginia. It rode so low in the water that it looked half-submerged, and 'monitor' became the name for that whole class of armored warship.",
+    "quote": "underwater Monitor"
+  },
+  {
+    "term": "quarto",
+    "kind": "word",
+    "chapter": 2,
+    "text": "A large book format, made by folding each printed sheet twice to give four leaves. A two-volume quarto was a weighty, expensive scholarly work, so the phrase is Aronnax's way of signaling his authority (and, a little, his vanity).",
+    "quote": "a two-volume work, in quarto"
+  },
+  {
+    "term": "narwhale",
+    "kind": "word",
+    "chapter": 2,
+    "text": "The narwhal (Verne's spelling, narwhale) is an Arctic whale whose males grow a single straight, spiral tusk, actually a tooth, up to about three meters long. Its tusks were sold for centuries as 'unicorn horns', hence 'sea unicorn'. Real narwhals are about five meters long, not the twenty meters Aronnax claims, and do not ram ships.",
+    "quote": "The common narwhale, or sea unicorn"
+  },
+  {
+    "term": "rams",
+    "kind": "history",
+    "chapter": 2,
+    "text": "Steam warships of the 1860s were often built with a reinforced, pointed prow, or 'spur', meant to smash enemy hulls below the waterline. Ramming seemed the coming tactic after the Austrian fleet sank an Italian ironclad that way at the Battle of Lissa in 1866.",
+    "quote": "those warships called ‘rams,’"
+  },
+  {
+    "term": "Atlantic Cable",
+    "kind": "history",
+    "chapter": 2,
+    "text": "The first lasting telegraph cable under the Atlantic, laid by the Great Eastern in 1866, letting news cross between Europe and America in minutes instead of ten days by ship. In 1867 it was still a marvel, hence the joke about the monster intercepting telegrams.",
+    "quote": "via the Atlantic Cable"
+  },
+  {
+    "term": "frigate",
+    "kind": "word",
+    "chapter": 2,
+    "text": "In the 1860s, a fast warship with both steam engines and a full set of masts and sails, smaller than a battleship and built for speed and independent cruising. The Abraham Lincoln is fictional, named for the president assassinated only two years earlier.",
+    "quote": "A high-speed frigate, the Abraham Lincoln"
+  },
+  {
+    "term": "Commander Farragut",
+    "kind": "history",
+    "chapter": 2,
+    "text": "A fictional officer, but readers of 1870 would hear the name of David Farragut, the Civil War hero who became the US Navy's first full admiral in 1866, famous for 'Damn the torpedoes!' at Mobile Bay. Verne borrows the name as shorthand for American naval daring.",
+    "quote": "the naval arsenals were unlocked for Commander Farragut"
+  },
+  {
+    "term": "Northwest Passage",
+    "kind": "history",
+    "chapter": 3,
+    "text": "The long-sought sea route from the Atlantic to the Pacific through the Arctic islands north of Canada. Centuries of expeditions failed, and Sir John Franklin's vanished with all hands in the 1840s; it was proverbial for a hopeless, deadly quest.",
+    "quote": "trying for the Northwest Passage"
+  },
+  {
+    "term": "Antipodes",
+    "kind": "place",
+    "chapter": 3,
+    "text": "The opposite side of the globe, especially Australia and New Zealand as seen from Europe. Going home to France by way of the Antipodes means going the long way round the world.",
+    "quote": "by way of the Antipodes"
+  },
+  {
+    "term": "biological classification",
+    "kind": "word",
+    "chapter": 3,
+    "text": "The ranked system of sorting living things begun by Linnaeus: here branch, class, order, family, genus, species, variety. 'Branch' is Cuvier's top division (roughly today's phylum), such as vertebrates or mollusks. Conseil can recite the whole ladder but can't recognize the animals themselves, a running joke.",
+    "quote": "branches, groups, classes, subclasses, orders, families"
+  },
+  {
+    "term": "Flemish",
+    "kind": "place",
+    "chapter": 3,
+    "text": "From Flanders, the Dutch-speaking north of Belgium and a corner of northern France. Flemings had a reputation for steadiness and hard work, and their language is close to German, which matters when Conseil speaks it.",
+    "quote": "a gallant Flemish boy",
+    "seeAlso": [8]
+  },
+  {
+    "term": "addressing 'master' in the third person",
+    "kind": "custom",
+    "chapter": 3,
+    "text": "Formal French servants spoke to employers as 'Monsieur' in the third person ('Does Monsieur wish...'), rendered here as 'master'. Even in 1867 it was old-fashioned, and Conseil keeps it up in the most absurd situations; the comedy is in the contrast.",
+    "quote": "Did master summon me?"
+  },
+  {
+    "term": "archaeotherium, hyracotherium, babirusa",
+    "kind": "word",
+    "chapter": 3,
+    "text": "The first are fossil mammals from the American West: archaeotherium a huge pig-like beast, hyracotherium the fox-sized ancestor of the horse, oreodonts sheep-sized grazers. The babirusa is very much alive: a wild pig from Indonesia whose tusks curl up through its snout.",
+    "quote": "The archaeotherium, hyracotherium, oreodonts"
+  },
+  {
+    "term": "twenty francs",
+    "kind": "money",
+    "chapter": 3,
+    "text": "A gold twenty-franc coin (a 'napoleon') was about five or six days' pay for a French laborer of the 1860s, who earned three or four francs a day. It's a lavish cab fare, paid by a man in a great hurry.",
+    "quote": "For a fare of twenty francs"
+  },
+  {
+    "term": "atmosphere (pressure)",
+    "kind": "word",
+    "chapter": 3,
+    "text": "A unit of pressure equal to the weight of the air at sea level, about one kilogram on every square centimeter. Boiler steam was measured in atmospheres; so is water pressure, which adds one atmosphere for roughly every ten meters (32 feet) of depth, as Aronnax explains to Ned.",
+    "quote": "seven atmospheres",
+    "seeAlso": [4, 6, 13]
+  },
+  {
+    "term": "thirty-nine stars",
+    "kind": "history",
+    "chapter": 3,
+    "text": "The American flag of 1867 had thirty-seven stars, Nebraska having joined the Union that March. Verne's thirty-nine is a slip; a 39-star flag never officially existed.",
+    "quote": "whose thirty-nine stars gleamed"
+  },
+  {
+    "term": "leviathan",
+    "kind": "reference",
+    "chapter": 4,
+    "text": "The monstrous sea creature in the Book of Job (chapter 41), whom no man can catch with a hook. Farragut believes in the narwhal the way the devout believe in leviathan: on faith.",
+    "quote": "the leviathan from the Book of Job"
+  },
+  {
+    "term": "Knight of Rhodes",
+    "kind": "history",
+    "chapter": 4,
+    "text": "The Knights Hospitaller ruled the island of Rhodes from 1310 to 1522. Legend says one of them, Dieudonné de Gozon, killed a dragon that was ravaging the island in the 1340s and later became Grand Master. Farragut is a crusader with a single foe.",
+    "quote": "a latter-day Sir Dieudonné of Gozo"
+  },
+  {
+    "term": "crosstrees and topgallant",
+    "kind": "word",
+    "chapter": 4,
+    "text": "Crosstrees are short timbers near a mast's top where a lookout can perch; the topgallant is the third sail up from the deck. Volunteering to stand watch up there, in all weather, shows how badly the crew want the prize.",
+    "quote": "the crosstrees of the topgallant sail"
+  },
+  {
+    "term": "$2,000.00",
+    "kind": "money",
+    "chapter": 4,
+    "text": "A huge sum to a sailor. An American seaman of the 1860s earned perhaps $15–25 a month, so the reward was close to a decade's wages, roughly the price of a comfortable house. No wonder the masts are crowded.",
+    "quote": "a certain sum of $2,000.00"
+  },
+  {
+    "term": "Argus",
+    "kind": "reference",
+    "chapter": 4,
+    "text": "In Greek myth, Argus Panoptes was a giant with a hundred eyes, some always open, set by Hera to keep watch. A ship full of lookouts deserves the name.",
+    "quote": "renaming itself the Argus"
+  },
+  {
+    "term": "Universal Exhibition of 1867",
+    "kind": "history",
+    "chapter": 4,
+    "text": "The world's fair held in Paris from April to November 1867, where nations showed off their latest machines and weapons, including huge Krupp cannon. Verne visited it and used its displays of technology for this book.",
+    "quote": "the Universal Exhibition of 1867"
+  },
+  {
+    "term": "Rabelaisian dialect",
+    "kind": "foreign",
+    "chapter": 4,
+    "text": "Québécois French kept many words and sounds of the 16th–17th-century French of the first settlers, the language of Rabelais's era. Quebec was French until Britain took it in 1763, so a French Canadian like Ned and a Parisian can talk, though each finds the other's French quaint.",
+    "quote": "that old Rabelaisian dialect"
+  },
+  {
+    "term": "devilfish",
+    "kind": "word",
+    "chapter": 4,
+    "text": "The octopus (French 'poulpe' or 'pieuvre'). Victor Hugo's Toilers of the Sea (1866) had just made a man-killing devilfish famous. Aronnax's point is that it's a mollusk ('soft one', from Latin mollis), with no bones to drive a weapon through iron.",
+    "quote": "Some gigantic devilfish maybe"
+  },
+  {
+    "term": "leeward and windward",
+    "kind": "word",
+    "chapter": 4,
+    "text": "Windward is the side the wind blows from; leeward (said 'loo-ard') is the side it blows toward, the sheltered side. 'To leeward of the coast' means downwind of it.",
+    "quote": "thirty miles to leeward"
+  },
+  {
+    "term": "Arago",
+    "kind": "history",
+    "chapter": 4,
+    "text": "François Arago (1786–1853), astronomer, physicist and politician, director of the Paris Observatory and one of the most famous French scientists of the century. His name stands for French science generally; his complete works sit in a library later on.",
+    "quote": "a famous catchphrase of the scientist Arago",
+    "seeAlso": [8, 11]
+  },
+  {
+    "term": "American whalers",
+    "kind": "history",
+    "chapter": 5,
+    "text": "New England whaling fleets hunted the world's oceans for whale oil (for lamps and machinery) and baleen; the trade peaked around 1850 and was declining by 1867 as petroleum took over. A whaling crew would welcome a harpooner of Ned's fame.",
+    "quote": "a fleet of American whalers"
+  },
+  {
+    "term": "right-and-left shot",
+    "kind": "word",
+    "chapter": 5,
+    "text": "A hunter's term for bringing down two birds with the two barrels of a shotgun, one after the other. Ned does it with whales and a hand harpoon.",
+    "quote": "with a right-and-left shot"
+  },
+  {
+    "term": "doubling Cape Horn",
+    "kind": "place",
+    "chapter": 5,
+    "text": "Cape Horn is the southern tip of South America, notorious for storms. Before the Panama Canal (1914), ships between the Atlantic and Pacific had to round it ('double' it) or thread the narrow Strait of Magellan farther north.",
+    "quote": "maneuvered instead to double Cape Horn"
+  },
+  {
+    "term": "nyctalopic",
+    "kind": "word",
+    "chapter": 5,
+    "text": "Verne uses it to mean able to see in the dark. Confusingly, modern medicine uses 'nyctalopia' for the opposite, night blindness.",
+    "quote": "those with nyctalopic eyes"
+  },
+  {
+    "term": "Columbus's three days",
+    "kind": "reference",
+    "chapter": 5,
+    "text": "A popular story says that in October 1492, facing a near-mutiny, Columbus begged his crew for three more days before turning back, and land was sighted in time. Farragut makes the same bargain.",
+    "quote": "like Christopher Columbus before him"
+  },
+  {
+    "term": "bosun",
+    "kind": "title",
+    "chapter": 5,
+    "text": "Short for boatswain: the senior petty officer in charge of rigging, anchors and the deck crew. He speaks for the ordinary sailors' common sense.",
+    "quote": "our bosun said"
+  },
+  {
+    "term": "fathom",
+    "kind": "word",
+    "chapter": 6,
+    "text": "A measure of depth equal to six feet (1.83 meters), roughly the span of a man's outstretched arms. Sailors sounded the depth in fathoms with a weighted line.",
+    "quote": "Submerged some fathoms below"
+  },
+  {
+    "term": "phosphorescence of the sea",
+    "kind": "word",
+    "chapter": 6,
+    "text": "Patches or trails of sea that glow at night, caused by swarms of tiny light-making organisms (plankton, salps, jellyfish). Sailors knew it well, which is why the officer's first guess is phosphorescence and why Aronnax stresses that this light is far too strong and too steady.",
+    "quote": "This was no mere phosphorescent phenomenon"
+  },
+  {
+    "term": "electric eel and electric ray",
+    "kind": "word",
+    "chapter": 6,
+    "text": "Fish that stun prey with electric shocks: the South American electric eel can discharge several hundred volts, the torpedo ray less. In the 1860s they were the only known animal sources of electricity, so an 'electric narwhal' sounds just about possible.",
+    "quote": "an electric eel or an electric ray"
+  },
+  {
+    "term": "heaving the log",
+    "kind": "word",
+    "chapter": 6,
+    "text": "The old way to measure speed: a wooden float on a line knotted at fixed intervals was thrown astern, and sailors counted how many knots ran out in a set time. That is where the 'knot' comes from.",
+    "quote": "Heaving the log",
+    "seeAlso": [1]
+  },
+  {
+    "term": "bowsprit, bobstays and martingale",
+    "kind": "word",
+    "chapter": 6,
+    "text": "The bowsprit is the spar jutting forward from a ship's bow; bobstays and the martingale are the chains and struts bracing it from below. Perched there, Ned hangs out over the water ahead of the ship, the nearest point to the quarry.",
+    "quote": "perch on the bobstays under the bowsprit"
+  },
+  {
+    "term": "ten atmospheres and steamboat races",
+    "kind": "history",
+    "chapter": 6,
+    "text": "Pushing a boiler past its rated pressure risked blowing it apart, and American river steamboats were notorious for doing so in races: hundreds died in Mississippi boiler explosions, most famously the Sultana in 1865. Hence Aronnax's fear of being blown skyhigh.",
+    "quote": "Charge them to ten atmospheres"
+  },
+  {
+    "term": "Byron and Poe as swimmers",
+    "kind": "reference",
+    "chapter": 7,
+    "text": "Lord Byron famously swam the Hellespont, the strait between Europe and Asia, in 1810 in imitation of the legend of Leander. Edgar Allan Poe, as a boy, swam six miles up the James River in Virginia. Aronnax is joking about his modest place among 'authors'.",
+    "quote": "such other authors as Byron and Edgar Allan Poe"
+  },
+  {
+    "term": "Jonah",
+    "kind": "reference",
+    "chapter": 7,
+    "text": "The biblical prophet who was swallowed by a great fish and lived three days in its belly before being cast up alive. Aronnax dismisses the idea that the voice could come from inside the beast.",
+    "quote": "Gone are the days when Jonahs took refuge"
+  },
+  {
+    "term": "submarines in 1867",
+    "kind": "history",
+    "chapter": 7,
+    "text": "Real underwater boats of the time were crude and deadly. The Confederate H. L. Hunley sank a Union ship in 1864 and was lost with its crew; the French Plongeur (1863), driven by compressed air, could barely hold its depth. Robert Fulton had built one for Napoleon in 1800. Nothing remotely like a fast, armored, long-range submarine existed.",
+    "quote": "some kind of underwater boat"
+  },
+  {
+    "term": "riveted plates",
+    "kind": "word",
+    "chapter": 7,
+    "text": "Iron ships of the period were built from metal sheets overlapped and joined with rows of hot-driven rivets, like boilers (hence 'boilerplate'). The neat lines of rivets are what tell Aronnax the 'animal' was built.",
+    "quote": "made of riveted plates"
+  },
+  {
+    "term": "New Caledonia",
+    "kind": "place",
+    "chapter": 8,
+    "text": "An island in the southwest Pacific annexed by France in 1853 and made a penal colony in 1864. Europeans of the time routinely called its Kanak people cannibal 'savages'; Ned's remark reflects that period prejudice.",
+    "quote": "the savages of New Caledonia"
+  },
+  {
+    "term": "Provence",
+    "kind": "place",
+    "chapter": 8,
+    "text": "The sunny region of southeastern France around Marseilles. Northern Frenchmen stereotyped Provençals as stocky, exuberant and endlessly talkative, which is the joke when this man says nothing Aronnax can understand.",
+    "quote": "typifies the people of Provence"
+  },
+  {
+    "term": "physiognomy",
+    "kind": "word",
+    "chapter": 8,
+    "text": "The belief, hugely popular in the 18th and 19th centuries, that character can be read from the face and body; Gratiolet was a French anatomist and Engel a German writer on gesture. It is now regarded as pseudoscience, like the palmistry Aronnax also invokes.",
+    "quote": "physiognomists, those analysts of facial character"
+  },
+  {
+    "term": "habeas corpus",
+    "kind": "foreign",
+    "chapter": 8,
+    "text": "Latin, 'you shall have the body': the legal writ by which a prisoner must be brought before a court to test whether he is lawfully held. A cornerstone of English and American law, and comically useless inside a sealed iron cell.",
+    "quote": "invoked writs of habeas corpus"
+  },
+  {
+    "term": "Mobilis in Mobili",
+    "kind": "foreign",
+    "chapter": 8,
+    "text": "Latin, roughly 'moving in the moving thing'. Aronnax insists the 'in' means within: the motto describes a vessel that moves inside the sea, not on top of it. Engraved on every piece of tableware, it is his first clue to the people on board.",
+    "quote": "MOBILIS IN MOBILI"
+  },
+  {
+    "term": "Hotel Adelphi and Grand Hotel",
+    "kind": "place",
+    "chapter": 8,
+    "text": "Two of the most luxurious hotels of the day: the Adelphi in Liverpool, where transatlantic passengers stayed before sailing, and the Grand Hotel in Paris, opened in 1862 near the new Opéra. The comparison tells you the meal is anything but prison food.",
+    "quote": "the Hotel Adelphi in Liverpool"
+  },
+  {
+    "term": "renewing air chemically",
+    "kind": "word",
+    "chapter": 9,
+    "text": "Aronnax's chemistry is sound: heating potassium chlorate releases oxygen, and potassium hydroxide soaks up exhaled carbon dioxide. Versions of both tricks are still used today in submarines and spacecraft. His worry is that the chemicals would have to come from land.",
+    "quote": "releasing the oxygen contained in potassium chlorate"
+  },
+  {
+    "term": "sea air 'charged with iodine'",
+    "kind": "word",
+    "chapter": 9,
+    "text": "Victorians believed the bracing smell of the seaside came from iodine and was good for the health. In fact the smell comes mostly from sulfur compounds given off by plankton and seaweed.",
+    "quote": "life-giving and charged with iodine"
+  },
+  {
+    "term": "buccaneers and the yardarm",
+    "kind": "custom",
+    "chapter": 9,
+    "text": "Buccaneers were the 17th-century pirates of the Caribbean. Navies hanged pirates and mutineers from a yardarm, the horizontal spar that holds a sail, in full view of the crew. Ned assumes that is how such adventures end.",
+    "quote": "this den of buccaneers"
+  },
+  {
+    "term": "Nemo",
+    "kind": "foreign",
+    "chapter": 10,
+    "text": "Latin for 'no one', as the editor's note says. Classically minded readers would think of Homer's Odyssey, where Odysseus tells the Cyclops his name is 'Nobody'. The name hides a man while announcing that he is hiding.",
+    "quote": "I’m simply Captain Nemo"
+  },
+  {
+    "term": "Nautilus",
+    "kind": "lore",
+    "chapter": 10,
+    "text": "The nautilus is a sea mollusk, and the 'paper nautilus' was long believed to sail on the surface using its arms as sails. The name also had a history in engineering: Robert Fulton's experimental submarine of 1800, built for France, was called Nautilus.",
+    "quote": "passengers on the Nautilus"
+  },
+  {
+    "term": "Oedipus and the Sphinx",
+    "kind": "reference",
+    "chapter": 10,
+    "text": "In Greek myth the Sphinx killed travelers who could not solve her riddle; Oedipus answered it and freed Thebes. Aronnax faces Nemo as a dangerous riddle he must somehow read.",
+    "quote": "that Oedipus regarded the Sphinx"
+  },
+  {
+    "term": "Proteus",
+    "kind": "reference",
+    "chapter": 10,
+    "text": "A sea god of Greek myth, the 'old man of the sea', who herded the seals of Poseidon (Neptune) and could change shape at will. Nemo pictures himself as a shepherd of the ocean's flocks.",
+    "quote": "the flocks of old Proteus"
+  },
+  {
+    "term": "sea cucumber",
+    "kind": "word",
+    "chapter": 10,
+    "text": "A soft, sausage-shaped relative of the starfish that lives on the seabed. Dried, as trepang or bêche-de-mer, it was a prized delicacy traded across Southeast Asia and China, hence the 'Malaysian'.",
+    "quote": "preserves of sea cucumber"
+  },
+  {
+    "term": "murex purple",
+    "kind": "history",
+    "chapter": 10,
+    "text": "The ancient Phoenicians made 'Tyrian purple' from the glands of murex sea snails; thousands of snails yielded a gram of dye, so purple cloth became the color of emperors. Nemo dresses his guests the way Rome dressed its rulers.",
+    "quote": "dyed with purple ink from the murex snail"
+  },
+  {
+    "term": "sea silk",
+    "kind": "word",
+    "chapter": 10,
+    "text": "The filaments are byssus, the silky threads with which the Mediterranean fan mussel (pen shell) anchors itself to rocks. Since antiquity small amounts were woven into a rare golden-brown cloth, as Aronnax explains to Conseil.",
+    "quote": "the masses of filaments that anchor certain seashells",
+    "seeAlso": [15]
+  },
+  {
+    "term": "zoophytes",
+    "kind": "word",
+    "chapter": 10,
+    "text": "Literally 'plant-animals': an old category for creatures that seem halfway between the two, such as corals, sponges, sea anemones and, in Cuvier's scheme, starfish and sea urchins. Science has since dropped the group, but Aronnax uses it constantly.",
+    "quote": "the four zoophyte groups",
+    "seeAlso": [11]
+  },
+  {
+    "term": "fucus",
+    "kind": "word",
+    "chapter": 10,
+    "text": "A genus of brown seaweeds, the wracks found on northern rocky shores; Verne uses the word loosely for big seaweeds in general. They contain a sweet substance, mannitol, which is the 'sugar' on Nemo's table.",
+    "quote": "sugar from the huge fucus plants",
+    "seeAlso": [16]
+  },
+  {
+    "term": "Nemo's scientists",
+    "kind": "history",
+    "chapter": 11,
+    "text": "The shelf is a who's who of 19th-century science: Alexander von Humboldt, the explorer-geographer; Michael Faraday and John Tyndall, physicists of electricity and heat; Louis Agassiz, the Swiss-American naturalist; Léon Foucault of the pendulum. Their presence shows the captain's interests are physics and the sea.",
+    "quote": "the complete works of Humboldt"
+  },
+  {
+    "term": "Commander Maury",
+    "kind": "history",
+    "chapter": 11,
+    "text": "Matthew Fontaine Maury (1806–1873), US Navy officer and founder of oceanography, whose wind and current charts shortened voyages worldwide. A Virginian, he sided with the Confederacy in the Civil War and went into exile afterward, which is the ruined career Aronnax mentions.",
+    "quote": "Commander Maury",
+    "seeAlso": [14]
+  },
+  {
+    "term": "Nemo's picture gallery",
+    "kind": "reference",
+    "chapter": 11,
+    "text": "The list runs from Renaissance masters (Raphael, Leonardo, Titian) through Dutch and Spanish painters of the 1600s (Rubens, Velázquez, Murillo) to living French artists such as Delacroix, Ingres and Meissonier. Genuine works by all of them would have been worth a fortune.",
+    "quote": "a Raphael Madonna, a Virgin by Leonardo da Vinci"
+  },
+  {
+    "term": "Orpheus",
+    "kind": "reference",
+    "chapter": 11,
+    "text": "The legendary singer of Greek myth whose music charmed even the gods of the underworld when he went down to bring back his dead wife. Nemo's point is that to the dead, all musicians are equally ancient.",
+    "quote": "the contemporaries of Orpheus"
+  },
+  {
+    "term": "Nemo's composers",
+    "kind": "reference",
+    "chapter": 11,
+    "text": "Alongside Mozart, Haydn and Beethoven are the stars of 19th-century opera: Weber, Rossini, Meyerbeer, Gounod, and lesser Parisian favorites such as Hérold, Auber and Massé. Wagner was then the controversial modern; the piano-organ is a reed or pipe organ combined with a piano.",
+    "quote": "sheet music by Weber, Rossini, Mozart, Beethoven"
+  },
+  {
+    "term": "giant clam fonts of Saint-Sulpice",
+    "kind": "place",
+    "chapter": 11,
+    "text": "The giant clam (Tridacna) of the Indo-Pacific can exceed a meter across. Two of its shells, given to King François I by Venice, really do serve as holy-water basins in the Paris church of Saint-Sulpice. Nemo's is bigger still.",
+    "quote": "the Church of Saint-Sulpice in Paris"
+  },
+  {
+    "term": "20,000 francs; Tavernier's pearl",
+    "kind": "money",
+    "chapter": 11,
+    "text": "20,000 francs for one shell was what a skilled French worker might earn in fifteen or twenty years. Jean-Baptiste Tavernier was a 17th-century French gem merchant famous for his travels in Persia and India; a pearl worth 3,000,000 francs is a royal treasure.",
+    "quote": "whose value I estimated at 20,000 francs"
+  },
+  {
+    "term": "cowry money",
+    "kind": "money",
+    "chapter": 11,
+    "text": "Small glossy cowry shells, mostly from the Maldives, served as everyday currency across India and much of West Africa for centuries, still in use in the 1860s.",
+    "quote": "every variety of cowry used as money"
+  },
+  {
+    "term": "sextant and chronometer",
+    "kind": "word",
+    "chapter": 12,
+    "text": "The two keys to finding a ship's position. A sextant measures the sun's height at noon, which gives latitude. A chronometer, a very accurate clock set to the time at a home meridian, gives longitude: every four minutes' difference between local noon and home time means one degree.",
+    "quote": "chronometers, which allow me to calculate my longitude",
+    "seeAlso": [14]
+  },
+  {
+    "term": "storm glass",
+    "kind": "word",
+    "chapter": 12,
+    "text": "A sealed glass tube of chemicals in alcohol whose crystals were believed to change shape before bad weather; Admiral FitzRoy of the Beagle promoted it. It was popular in the 1860s but doesn't actually forecast anything.",
+    "quote": "the storm glass"
+  },
+  {
+    "term": "electricity in 1867",
+    "kind": "history",
+    "chapter": 12,
+    "text": "In 1867 electricity powered the telegraph, arc lights and laboratory experiments, but no practical electric motor could drive a vehicle; the first good dynamos were only just being built. A ship lit, heated and driven at fifty miles per hour by electricity was pure, dazzling speculation. The fastest liners managed about fifteen.",
+    "quote": "This force is electricity"
+  },
+  {
+    "term": "Bunsen and Ruhmkorff",
+    "kind": "history",
+    "chapter": 12,
+    "text": "Real devices of the day. The Bunsen cell (1841), invented by the German chemist Robert Bunsen, was a powerful zinc-and-carbon battery. Heinrich Ruhmkorff, a German instrument-maker in Paris, built the induction coil that turns battery current into high voltage. Nemo's swap of sodium for zinc is Verne's invention.",
+    "quote": "I use Bunsen cells, not Ruhmkorff cells",
+    "seeAlso": [15]
+  },
+  {
+    "term": "Italian clocks",
+    "kind": "custom",
+    "chapter": 12,
+    "text": "Traditional Italian timekeeping counted the hours from one to twenty-four, starting at sunset, instead of two runs of twelve. Nemo's twenty-four-hour dial suits a place with no day or night.",
+    "quote": "twenty-four hours like Italian clocks"
+  },
+  {
+    "term": "ballast tanks",
+    "kind": "lore",
+    "chapter": 13,
+    "text": "Tanks that are flooded to make a vessel heavier, so it sinks, and pumped out to make it rise. Nemo's arithmetic of displacement and buoyancy is essentially how real submarines work. His fins, which steer the boat up and down, are what modern designers call diving planes.",
+    "quote": "These ballast tanks exist within easy access"
+  },
+  {
+    "term": "Creusot, Krupp, Laird's",
+    "kind": "history",
+    "chapter": 13,
+    "text": "Real industrial giants of the 1860s: Schneider's ironworks at Le Creusot in France; Krupp of Essen, the Prussian steel and cannon-maker; Laird's of Birkenhead near Liverpool, which had built the Confederate raider Alabama; Scott's of Glasgow; the Motala works in Sweden. Ordering from all of them under false names is plausible industrial secrecy.",
+    "quote": "Its keel was forged by Creusot in France"
+  },
+  {
+    "term": "millions of francs",
+    "kind": "money",
+    "chapter": 13,
+    "text": "In 1867 two million francs would build a warship and four or five million was a great fortune. Paying off France's ten-billion-franc national debt alone would have taken the whole government's revenue for several years, so Nemo's boast is staggering.",
+    "quote": "the ten-billion-franc French national debt"
+  },
+  {
+    "term": "myriameter and hectare",
+    "kind": "word",
+    "chapter": 14,
+    "text": "Metric units. A myriameter is 10 kilometers (now obsolete), so a square myriameter is 100 square kilometers. A hectare is 10,000 square meters, about two and a half acres.",
+    "quote": "3,832,558 square myriameters"
+  },
+  {
+    "term": "Silurian period",
+    "kind": "word",
+    "chapter": 14,
+    "text": "A geological period roughly 440 to 420 million years ago, named after an ancient Welsh tribe. Geologists of the 1860s pictured a molten 'era of fire' followed by a world-ocean from which continents slowly rose; the outline is roughly right, though the details have changed.",
+    "quote": "during the Silurian period"
+  },
+  {
+    "term": "meridian of Paris",
+    "kind": "custom",
+    "chapter": 14,
+    "text": "French navigators measured longitude from the Paris Observatory, about 2°20′ east of Greenwich. Since sailors kept chronometers set to their own country's meridian, Aronnax hopes the choice will betray Nemo's nationality. Nemo has clocks for Paris, Greenwich and Washington.",
+    "quote": "west of the meridian of Paris",
+    "seeAlso": [1, 12]
+  },
+  {
+    "term": "Galileo",
+    "kind": "history",
+    "chapter": 14,
+    "text": "Galileo Galilei, the astronomer forced by the Inquisition in 1633 to recant his view that the earth moves around the sun, and kept under house arrest for the rest of his life: the classic scientist punished by society.",
+    "quote": "a latter-day Galileo"
+  },
+  {
+    "term": "Gulf Stream and Kuroshio",
+    "kind": "place",
+    "chapter": 14,
+    "text": "Great warm currents that flow like rivers through the ocean. The Gulf Stream runs from the Gulf of Mexico across the Atlantic; the Kuroshio ('black current' in Japanese, from its deep blue color) runs north past Japan. Maury had charted both.",
+    "quote": "the Kuroshio of the Japanese, the Black Current"
+  },
+  {
+    "term": "Sommerard exhibition",
+    "kind": "place",
+    "chapter": 14,
+    "text": "The Musée de Cluny in Paris, built on Alexandre du Sommerard's huge collection of medieval and Renaissance objects, crammed into an old abbots' mansion. Conseil compares the lounge to that famously packed treasure-house.",
+    "quote": "the Sommerard artifacts exhibition"
+  },
+  {
+    "term": "Conseil's fish orders",
+    "kind": "lore",
+    "chapter": 14,
+    "text": "Conseil recites Cuvier's classification of fish from the 1810s, with Latin numbering (primo, secundo, tertio: first, second, third). Much of it is long outdated, though putting sharks and rays together has survived. Ned's 'fish we eat and fish we don't' is the rival system.",
+    "quote": "Bony fish are subdivided into six orders"
+  },
+  {
+    "term": "turtle soup",
+    "kind": "custom",
+    "chapter": 14,
+    "text": "Green and hawksbill turtle soup was a prized luxury at 19th-century banquets, so much that live turtles were shipped to Europe to be cooked. The hawksbill, also killed for its 'tortoiseshell', is now critically endangered.",
+    "quote": "turtle soup made from the daintiest hawksbill"
+  },
+  {
+    "term": "Nautron respoc lorni virch",
+    "kind": "lore",
+    "chapter": 15,
+    "text": "The officer's morning phrase is in the crew's private language, the same one Aronnax failed to place earlier. The words match no known language, so for now it is simply part of the ship's mystery.",
+    "quote": "Nautron respoc lorni virch",
+    "seeAlso": [8]
+  },
+  {
+    "term": "Crespo Island",
+    "kind": "place",
+    "chapter": 15,
+    "text": "A speck marked on 19th-century charts of the North Pacific, supposedly sighted by a Captain Crespo in 1801. Like many 'phantom islands' of the old charts, it turned out not to exist and was later removed from maps.",
+    "quote": "Rocca de la Plata, in other words, “Silver Rock.”"
+  },
+  {
+    "term": "standard diving suit",
+    "kind": "history",
+    "chapter": 15,
+    "text": "By the 1860s divers wore a waterproof canvas suit and a copper helmet, fed with air pumped down a hose from the surface, a design perfected by Augustus Siebe in the 1830s–40s. It worked, but the hose tied the diver to his boat, which is Nemo's objection.",
+    "quote": "That’s the standard equipment for a diving suit"
+  },
+  {
+    "term": "Rouquayrol-Denayrouze device",
+    "kind": "history",
+    "chapter": 15,
+    "text": "A real French invention patented in 1864–65 by the mining engineer Benoît Rouquayrol and the naval officer Auguste Denayrouze: a backpack tank with a regulator that released air as the diver breathed. Verne lets Nemo cut the surface hose entirely, anticipating the scuba gear of the 1940s.",
+    "quote": "We use the Rouquayrol-Denayrouze device"
+  },
+  {
+    "term": "Ruhmkorff lamp",
+    "kind": "history",
+    "chapter": 15,
+    "text": "A real portable electric lamp of the 1860s, used in mines: a battery and induction coil made a gas-filled glass tube glow. With no flame, it could not ignite mine gas, or go out underwater.",
+    "quote": "With the Ruhmkorff device"
+  },
+  {
+    "term": "Leyden jar",
+    "kind": "word",
+    "chapter": 15,
+    "text": "The earliest device for storing an electric charge (a capacitor), invented at Leyden in Holland in 1745: a glass jar coated with metal foil inside and out. Nemo's bullets are tiny ones that discharge on impact.",
+    "quote": "genuine little Leyden jars"
+  },
+  {
+    "term": "Rhodymenia palmata",
+    "kind": "word",
+    "chapter": 15,
+    "text": "Dulse, a red seaweed long eaten in Ireland, Scotland, Iceland and Atlantic Canada. A liquor brewed from it is one of Verne's touches of real but exotic seafood lore.",
+    "quote": "the seaweed known by name as Rhodymenia palmata"
+  },
+  {
+    "term": "Portuguese man-of-war",
+    "kind": "word",
+    "chapter": 16,
+    "text": "A floating colony of tiny animals that looks like a jellyfish, with a gas-filled blue float like a sail and stinging tentacles trailing many meters below. Its sting is extremely painful to swimmers.",
+    "quote": "schools of Portuguese men-of-war"
+  },
+  {
+    "term": "light and color under water",
+    "kind": "lore",
+    "chapter": 16,
+    "text": "Aronnax's science is partly off. Water absorbs red light first, so at 100 meters divers see a dim blue, not a 'reddish twilight'. Red algae can grow deeper than greens or browns, not in a middle band. He is right that sound travels about four times faster in water than in air.",
+    "quote": "a reddish twilight, a midpoint between day and night"
+  },
+  {
+    "term": "algae",
+    "kind": "word",
+    "chapter": 16,
+    "text": "Seaweeds and their microscopic relatives. Verne's 500-meter fucus is an exaggeration: the giant kelp of the Pacific, the longest seaweed, reaches about 45–60 meters, which is still big enough to form true underwater forests.",
+    "quote": "fucus plants been gathered that were over 500 meters long"
+  }
+]

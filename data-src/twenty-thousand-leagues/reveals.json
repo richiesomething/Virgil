@@ -1,1 +1,146 @@
-[]
+[
+  {
+    "id": "monster-is-submarine",
+    "chapter": 7,
+    "secret": "The \"monster\" blamed for the attacks is no narwhal or sea creature but a man-made underwater boat of riveted steel plates, crewed by men, who drag Aronnax, Conseil and Ned Land inside."
+  },
+  {
+    "id": "commander-speaks-french",
+    "chapter": 9,
+    "secret": "The commander, who seemed not to understand the captives' story told in four languages, speaks perfect French and had understood them all along; he also speaks English, German and Latin."
+  },
+  {
+    "id": "nautilus-named",
+    "chapter": 10,
+    "secret": "The submarine is called the Nautilus; the N engraved on its tableware under the motto \"Mobilis in Mobili\" belongs to its name and its commander's.",
+    "terms": [
+      "Nautilus"
+    ]
+  },
+  {
+    "id": "nemo-named",
+    "chapter": 10,
+    "secret": "The commander calls himself Captain Nemo (Latin for \"no one\"); he has cut himself off from humanity and will never let the three captives return to the world.",
+    "terms": [
+      "Nemo"
+    ]
+  },
+  {
+    "id": "nautilus-built-in-secret",
+    "chapter": 13,
+    "secret": "Nemo had the Nautilus's parts made by firms all over the world under different names, assembled it with his men on a deserted midocean islet, then burned every trace; he studied in London, Paris and New York and is immensely rich."
+  },
+  {
+    "id": "coral-cemetery",
+    "chapter": 24,
+    "secret": "The coral clearing with its cross is the crew's secret cemetery on the seafloor, where Nemo's men bury their dead out of reach \"of sharks and men\"; the dead crewman was buried there."
+  },
+  {
+    "id": "nemo-land-of-the-oppressed",
+    "chapter": 27,
+    "secret": "Nemo says the poor pearl diver he saved lives in the land of the oppressed, and that he himself is, and will remain until his last breath, a native of that same land."
+  },
+  {
+    "id": "arabian-tunnel",
+    "chapter": 28,
+    "secret": "Nemo has discovered a secret undersea passage beneath the Isthmus of Suez, which he calls the Arabian Tunnel, linking the Red Sea to the Mediterranean.",
+    "terms": [
+      "Arabian Tunnel",
+      "Arabic tunnel"
+    ]
+  },
+  {
+    "id": "gold-for-crete",
+    "chapter": 32,
+    "secret": "The chest of gold Nemo sent off near Crete went to the Cretans rebelling against the Ottoman Empire; Nemo uses his wealth to help oppressed peoples and \"victims to avenge\"."
+  },
+  {
+    "id": "vigo-treasure",
+    "chapter": 32,
+    "secret": "Nemo's fortune comes from the treasure of the Spanish galleons sunk in the Bay of Vigo in 1702, and from countless other wrecks marked on his charts."
+  },
+  {
+    "id": "portraits-of-liberators",
+    "chapter": 32,
+    "secret": "Nemo's stateroom holds portraits of heroes of liberation (Kosciusko, Botzaris, O'Connell, Washington, Manin, Lincoln, John Brown), suggesting he is a fighter for oppressed peoples.",
+    "terms": [
+      "Kosciusko",
+      "Botzaris"
+    ]
+  },
+  {
+    "id": "atlantis",
+    "chapter": 33,
+    "secret": "The undersea ruins Nemo shows Aronnax are those of Atlantis; Nemo writes the word on a rock.",
+    "terms": [
+      "Atlantis"
+    ]
+  },
+  {
+    "id": "volcano-harbour",
+    "chapter": 34,
+    "secret": "Nemo's secret home port lies inside a hollow extinct volcano, reached by an underwater passage, where the crew mine coal to make the sodium that powers the Nautilus."
+  },
+  {
+    "id": "french-crewman",
+    "chapter": 42,
+    "secret": "At least one of the Nautilus's crew is French: the man carried off by the giant squid cries for help in French."
+  },
+  {
+    "id": "nemo-manuscript",
+    "chapter": 43,
+    "secret": "Nemo has written his research and his life story, signed with his real name, in a manuscript that the last survivor aboard will throw into the sea in an unsinkable case."
+  },
+  {
+    "id": "avenger-wreck",
+    "chapter": 44,
+    "secret": "The spot Nemo searches for off Europe is the wreck of the Avenger (Vengeur), the French Republican warship that sank there in 1794 rather than surrender.",
+    "terms": [
+      "Vengeur",
+      "the Avenger"
+    ]
+  },
+  {
+    "id": "nemo-enemy-and-loss",
+    "chapter": 45,
+    "secret": "Nemo blames the nation of the warship that attacks the Nautilus for the destruction of his homeland, wife, children, father and mother; he sinks the ship with all hands, then weeps before a portrait of a young woman and two children."
+  },
+  {
+    "id": "nautilus-hunted-as-submarine",
+    "chapter": 45,
+    "secret": "The world's navies now know the \"monster\" is a submarine and are hunting it as an enemy."
+  },
+  {
+    "id": "confinement-hid-an-attack",
+    "chapter": 45,
+    "soft": true,
+    "secret": "Aronnax concludes that during the confinement in the Indian Ocean the Nautilus attacked a ship, and that the crewman buried in the coral cemetery was hurt in that collision; it is never confirmed."
+  },
+  {
+    "id": "trio-survive",
+    "chapter": 47,
+    "secret": "Aronnax, Conseil and Ned Land escape in the skiff and survive the Maelstrom, waking in a fisherman's hut in the Lofoten Islands."
+  },
+  {
+    "id": "nemo-identity-never-revealed",
+    "chapter": 47,
+    "soft": true,
+    "secret": "Nemo's real name, nationality and full past are never revealed, nor is the crew's language identified; the hints (the \"land of the oppressed\", the portraits) stay unconfirmed. Nothing may name his origin (e.g. India or Prince Dakkar) or mention a sequel.",
+    "terms": [
+      "Dakkar",
+      "Mysterious Island"
+    ]
+  },
+  {
+    "id": "warship-nationality-unknown",
+    "chapter": 47,
+    "soft": true,
+    "secret": "The nationality of the warship Nemo sinks, and so of the nation he hates, is never revealed."
+  },
+  {
+    "id": "nautilus-fate-unknown",
+    "chapter": 47,
+    "soft": true,
+    "secret": "Whether the Nautilus survived the Maelstrom, whether Nemo lives, and whether his last words (\"Enough! Enough!\") mean repentance are left unknown."
+  }
+]
