@@ -1,0 +1,639 @@
+[
+  {
+    "chapter": 1,
+    "kind": "craft",
+    "title": "Everything in one morning",
+    "text": "In a single morning Dantès brings the ship home, is promised the captaincy, and hurries off to his father and his bride. Dumas piles up his good fortune on purpose. The more a story gives its hero in its first pages, the more the reader feels how much he has to lose.",
+    "themes": []
+  },
+  {
+    "chapter": 1,
+    "kind": "craft",
+    "title": "Danglars, the watcher",
+    "text": "Notice how Danglars is introduced: he watches, listens at doors and drops hints to Morrel. He never confronts Dantès openly. His resentment is about rank and money, the captaincy he feels should not go to a nineteen-year-old.",
+    "themes": []
+  },
+  {
+    "chapter": 1,
+    "kind": "context",
+    "title": "Why a stop at Elba is dangerous",
+    "text": "In February 1815 Napoleon had been in exile on Elba for ten months, and the Bourbon king was back on the throne. To Dantès the stop is a simple favour to a dying captain. Morrel’s quick warning shows that ordinary people knew which names and places could ruin a man.",
+    "themes": []
+  },
+  {
+    "chapter": 2,
+    "kind": "motif",
+    "title": "Small sums, large meanings",
+    "text": "This chapter is full of small amounts of money: the debt to Caderousse, the few francs old Dantès lived on, the gold Edmond pours onto the table. Each sum shows character. The father starved rather than owe anyone, while Caderousse came to collect from an old man.",
+    "themes": []
+  },
+  {
+    "chapter": 2,
+    "kind": "craft",
+    "title": "Caderousse in between",
+    "text": "Caderousse is not a simple villain. He is envious and sly, but he is also chatty and sometimes almost friendly. Watch how fast his grumbling meets Danglars’s colder hatred: in one short conversation, two grudges become an alliance.",
+    "themes": []
+  },
+  {
+    "chapter": 2,
+    "kind": "question",
+    "title": "An open heart",
+    "text": "Dantès tells everyone his good news: the promotion, the wedding, his plans. He assumes others are glad for him. Is this openness one of his best qualities, or a weakness in a world like this one?",
+    "themes": []
+  },
+  {
+    "chapter": 3,
+    "kind": "craft",
+    "title": "A heroine who says no",
+    "text": "Mercédès is not a prize passed between men. She refuses Fernand plainly, tells him she will love only Edmond, and then makes the two men shake hands. Dumas gives her the strongest will in the scene.",
+    "themes": []
+  },
+  {
+    "chapter": 3,
+    "kind": "motif",
+    "title": "The knife and the hand",
+    "text": "Fernand’s hand keeps going to his knife, and Mercédès makes him offer that hand to Edmond instead. The violence in this chapter is held back by a gesture, not settled. A forced handshake leaves the feeling behind it untouched.",
+    "themes": []
+  },
+  {
+    "chapter": 3,
+    "kind": "craft",
+    "title": "Watching a scheme take shape",
+    "text": "At the arbour, Caderousse simply drinks, but Danglars studies Fernand’s misery and starts to see a use for it. Dumas lets us follow his thinking as it happens. We are not told the plan; we watch a man realise that someone else’s pain could serve him.",
+    "themes": []
+  },
+  {
+    "chapter": 4,
+    "kind": "craft",
+    "title": "The left hand",
+    "text": "Danglars writes with his left hand to disguise his writing, and then throws the letter away as a joke. He never posts anything himself. Each man does only a part, so each can tell himself the real deed was someone else’s.",
+    "themes": ["loyalty-betrayal"]
+  },
+  {
+    "chapter": 4,
+    "kind": "theme",
+    "title": "Betrayal at the same table",
+    "text": "The plotters are a shipmate, a neighbour and the bride’s cousin. Nothing they feel is monstrous: envy over a promotion, jealousy in love, resentment of a luckier man. Dumas shows betrayal growing out of ordinary feelings among people who know their victim well.",
+    "themes": ["loyalty-betrayal"]
+  },
+  {
+    "chapter": 4,
+    "kind": "context",
+    "title": "Denunciation as a weapon",
+    "text": "After Napoleon’s fall, the restored monarchy was nervous and suspicious. An anonymous letter calling someone a Bonapartist agent could get them arrested without much proof. Danglars is not inventing a new trick; he is using a tool his times made easy.",
+    "themes": ["loyalty-betrayal"]
+  },
+  {
+    "chapter": 4,
+    "kind": "question",
+    "title": "The drunk who objects",
+    "text": "Caderousse protests that the plan is wicked, but he is too drunk to stop anything and soon lets it go. How much blame belongs to someone who sees a wrong being done and does nothing?",
+    "themes": ["loyalty-betrayal"]
+  },
+  {
+    "chapter": 5,
+    "kind": "craft",
+    "title": "Joy, then the knock",
+    "text": "Dumas lingers over the feast: the food, the toasts, the news that the wedding is moved up to that very afternoon. The happiness is stretched out so the soldiers’ arrival hits as hard as possible. Notice how close the wedding is when the door opens.",
+    "themes": []
+  },
+  {
+    "chapter": 5,
+    "kind": "theme",
+    "title": "The arrest as a test",
+    "text": "Watch each guest when the soldiers come in. Fernand goes pale, Danglars stays smooth, Caderousse wavers, and Morrel goes straight off to help. The arrest shows who each person really is.",
+    "themes": ["loyalty-betrayal"]
+  },
+  {
+    "chapter": 5,
+    "kind": "theme",
+    "title": "When the law is the weapon",
+    "text": "Dantès has done nothing wrong, yet one letter is enough to set soldiers, magistrates and prisons in motion against him. The men who wronged him gain from his fall. The book now asks a question it has not yet answered: what is an innocent man owed?",
+    "themes": ["revenge-justice"]
+  },
+  {
+    "chapter": 6,
+    "kind": "craft",
+    "title": "Two engagement parties",
+    "text": "Dumas cuts to a second betrothal feast at the same hour. One is for a sailor among Catalan fishermen, the other for an ambitious lawyer among aristocrats. Placing them side by side invites us to compare them, and to see the sailor’s future pass into the lawyer’s hands.",
+    "themes": []
+  },
+  {
+    "chapter": 6,
+    "kind": "context",
+    "title": "Families split by politics",
+    "text": "Revolution and empire had divided French families. Villefort has dropped his father’s name, Noirtier, to separate himself from a known Bonapartist, and his bride’s family are fierce royalists. For him, political loyalty is partly a career decision.",
+    "themes": ["loyalty-betrayal"]
+  },
+  {
+    "chapter": 6,
+    "kind": "question",
+    "title": "What kind of man is Villefort?",
+    "text": "Villefort talks with Renée about being merciful, and he is clearly clever and capable. He is also very aware of what his career needs. When the two pull in different directions, which do you expect him to follow?",
+    "themes": ["revenge-justice"]
+  },
+  {
+    "chapter": 7,
+    "kind": "craft",
+    "title": "A chapter that turns on a name",
+    "text": "For most of the chapter Villefort is fair and even kind, and ready to let Dantès go. Then he reads one name on a letter. Notice how his face changes while his voice stays gentle: from that moment, his kindness is an act.",
+    "themes": ["loyalty-betrayal"]
+  },
+  {
+    "chapter": 7,
+    "kind": "theme",
+    "title": "Punished for someone else’s secret",
+    "text": "Dantès is not locked up for anything he did or knew. He is locked up because of what he unknowingly carried. Here justice is decided by who needs protecting, not by who is guilty.",
+    "themes": ["revenge-justice"]
+  },
+  {
+    "chapter": 7,
+    "kind": "motif",
+    "title": "Fates decided on paper",
+    "text": "So far every disaster in the book has come from a piece of paper: the denunciation, then the letter to Noirtier. Villefort burns the letter in front of Dantès and gets him to agree that it is for the best. A man’s freedom literally goes up in smoke while he thanks the man destroying it.",
+    "themes": []
+  },
+  {
+    "chapter": 8,
+    "kind": "craft",
+    "title": "Learning the truth with him",
+    "text": "Dumas keeps us inside Dantès’s hopes on the night crossing. He thinks he is going home, picks out the Catalan village, and only slowly realises where the boat is heading. We find out the destination at the same moment he does.",
+    "themes": ["prison-freedom"]
+  },
+  {
+    "chapter": 8,
+    "kind": "context",
+    "title": "The Château d’If",
+    "text": "The Château d’If was a real island fortress just off Marseilles, used as a state prison. Political prisoners could be held there on an official’s order, without a trial. That is why Dantès’s demands to see the governor get him nowhere.",
+    "themes": ["prison-freedom"]
+  },
+  {
+    "chapter": 8,
+    "kind": "theme",
+    "title": "Freedom within sight",
+    "text": "From the boat Dantès can see Marseilles and the lights near Mercédès’s home. Part of the cruelty of the place is how close it is to everything he loves. He even thinks of throwing himself into the sea.",
+    "themes": ["prison-freedom"]
+  },
+  {
+    "chapter": 9,
+    "kind": "craft",
+    "title": "One night, many windows",
+    "text": "Dumas moves around the cast and shows how each person spends the night: Mercédès, Fernand, Morrel, old Dantès, Danglars, Villefort. The reader ends up knowing far more than Dantès, who knows almost nothing. This wide view is a habit of the book worth watching.",
+    "themes": []
+  },
+  {
+    "chapter": 9,
+    "kind": "question",
+    "title": "Guilt that changes nothing",
+    "text": "When Mercédès begs him for news, Villefort feels a stab of conscience, almost like a physical pain, and then pushes it away. He feels it, but he does not act on it. Does guilt count for anything if it changes nothing?",
+    "themes": ["revenge-justice"]
+  },
+  {
+    "chapter": 10,
+    "kind": "craft",
+    "title": "A sudden comic tone",
+    "text": "After the arrest and the prison, the King’s study is almost comedy. Louis XVIII teases Blacas, quotes Latin and cares more about his reading than the warnings. The light satire sharpens the contrast with a young man in a dungeon.",
+    "themes": []
+  },
+  {
+    "chapter": 10,
+    "kind": "context",
+    "title": "A king returned from exile",
+    "text": "Louis XVIII was the brother of Louis XVI, who was executed in the Revolution. He spent over twenty years in exile and came back in 1814 to rule a country the Revolution and Napoleon had remade. His easy confidence here is the confidence of a man who believes the danger is over.",
+    "themes": []
+  },
+  {
+    "chapter": 11,
+    "kind": "craft",
+    "title": "Praised by the king",
+    "text": "The king rewards Villefort for his loyalty, and only the reader knows that this triumph was built on an innocent man. Each honour he receives is in effect paid for by Dantès. Dumas lets us enjoy the scene and feel uneasy about it at once.",
+    "themes": ["revenge-justice"]
+  },
+  {
+    "chapter": 11,
+    "kind": "theme",
+    "title": "Loyalty that changes sides",
+    "text": "News of Napoleon’s landing throws the court into panic, and it is clear that soldiers and officials may not stay loyal to the king. In this world loyalty often follows whoever seems to be winning. Villefort’s success depends on reading the wind correctly.",
+    "themes": ["loyalty-betrayal"]
+  },
+  {
+    "chapter": 12,
+    "kind": "craft",
+    "title": "“Father and Son” again",
+    "text": "This chapter has the same title as Chapter 2. Compare the two pairs. Old Dantès went hungry for his son; Noirtier and Villefort spar, each protecting the other mostly to protect himself.",
+    "themes": []
+  },
+  {
+    "chapter": 12,
+    "kind": "motif",
+    "title": "A new face in minutes",
+    "text": "Noirtier shaves off his whiskers, changes his coat and hat, and walks out past the police looking for him. Who you appear to be turns out to be something you can change with a razor. Notice how calmly he does it.",
+    "themes": []
+  },
+  {
+    "chapter": 12,
+    "kind": "theme",
+    "title": "Each the other’s hostage",
+    "text": "Noirtier knows Villefort’s secret and Villefort knows Noirtier’s. Neither can betray the other without harming himself. Family loyalty here is real, but it looks a lot like a balance of threats.",
+    "themes": ["loyalty-betrayal"]
+  },
+  {
+    "chapter": 13,
+    "kind": "craft",
+    "title": "Years in a few pages",
+    "text": "Dumas races through Napoleon’s return, Waterloo and the king’s second restoration in one chapter. Outside, history moves at great speed; inside the prison, time has stopped. The difference in pace is itself part of the story.",
+    "themes": ["prison-freedom"]
+  },
+  {
+    "chapter": 13,
+    "kind": "theme",
+    "title": "Good intentions turned into a weapon",
+    "text": "Morrel writes his petition out of loyalty to Dantès, trusting Villefort’s advice. Villefort keeps it, ready to use it against the man it was meant to save. Loyalty without knowledge can do as much harm as betrayal.",
+    "themes": ["loyalty-betrayal"]
+  },
+  {
+    "chapter": 13,
+    "kind": "theme",
+    "title": "The world closes over him",
+    "text": "Danglars and Fernand leave Marseilles, old Dantès dies, and Mercédès is left waiting. The world adjusts to Dantès’s absence. It is a bleak picture of how quickly a life can be erased from the lives of others.",
+    "themes": ["hope-despair"]
+  },
+  {
+    "chapter": 14,
+    "kind": "craft",
+    "title": "Injustice with no villain in the room",
+    "text": "The inspector is not cruel, only tired and routine-minded, and the governor is polite. No one in this chapter means Dantès harm, yet the system holds him anyway. Dumas shows how an institution can crush someone without anyone feeling wicked.",
+    "themes": ["prison-freedom"]
+  },
+  {
+    "chapter": 14,
+    "kind": "theme",
+    "title": "Asking only for a trial",
+    "text": "Dantès does not beg for freedom, only for a trial: even a guilty verdict would be better than not knowing. The inspector’s promise lifts him, and then the note in his file cancels it. Watch how hope here depends on a few words written by someone else.",
+    "themes": ["hope-despair"]
+  },
+  {
+    "chapter": 14,
+    "kind": "question",
+    "title": "Is Faria mad?",
+    "text": "We meet Faria only through the eyes of jailers and officials who laugh at his offer of millions. Everything he says sounds mad to them. How much of the madness is in him, and how much in the people judging him?",
+    "themes": ["prison-freedom"]
+  },
+  {
+    "chapter": 15,
+    "kind": "theme",
+    "title": "A map of despair",
+    "text": "Dumas traces Dantès’s years alone in stages: pride, then prayer, then rage, then a calm decision to die. It is a careful study of how solitude wears a mind down. Notice that the last stage is quiet, not violent.",
+    "themes": ["hope-despair", "prison-freedom"]
+  },
+  {
+    "chapter": 15,
+    "kind": "craft",
+    "title": "A sound in the wall",
+    "text": "The turning point is only a sound. Dumas makes us wait while Dantès tests it: is it real, is it a workman or a prisoner, will it stop if he knocks? The slow build mirrors his fear of hoping too soon.",
+    "themes": ["hope-despair"]
+  },
+  {
+    "chapter": 15,
+    "kind": "motif",
+    "title": "Tools from nothing",
+    "text": "Dantès breaks a jug to make a scraper and wins a saucepan handle from the jailer. A prisoner has to turn every scrap into a tool. Purpose comes back to him before any real chance of escape does.",
+    "themes": ["prison-freedom"]
+  },
+  {
+    "chapter": 16,
+    "kind": "theme",
+    "title": "A mind that cannot be locked up",
+    "text": "Faria has made pens from fish bones, ink from soot, and paper from linen, and has written a whole book in his cell. The prison holds his body, but not his mind. For Faria, freedom begins inside the head.",
+    "themes": ["prison-freedom"]
+  },
+  {
+    "chapter": 16,
+    "kind": "context",
+    "title": "A dream of a united Italy",
+    "text": "In 1815 Italy was a patchwork of kingdoms, duchies and papal lands, mostly under foreign influence. Faria’s dream of uniting it was a real political cause, and a dangerous one. It is why a gentle scholar is in a dungeon.",
+    "themes": []
+  },
+  {
+    "chapter": 16,
+    "kind": "theme",
+    "title": "Hope as a habit",
+    "text": "Faria has spent years digging, only to come out in the wrong place. He shrugs and starts planning again. For him, hope is less a feeling than a daily discipline.",
+    "themes": ["hope-despair"]
+  },
+  {
+    "chapter": 17,
+    "kind": "craft",
+    "title": "A detective in a dungeon",
+    "text": "Faria solves Dantès’s case by asking who gained from his fall. Dantès has lived with the facts for years without seeing them. His innocence was also a kind of blindness, and Faria’s reasoning removes it in an afternoon.",
+    "themes": ["loyalty-betrayal"]
+  },
+  {
+    "chapter": 17,
+    "kind": "theme",
+    "title": "Knowledge becomes a vow",
+    "text": "The moment Dantès understands what was done to him, he swears revenge. Notice how fast the change is, and how the gentle young sailor of the first chapters sounds different now. Learning the truth has given him a purpose.",
+    "themes": ["revenge-justice"]
+  },
+  {
+    "chapter": 17,
+    "kind": "theme",
+    "title": "The prison as a university",
+    "text": "Faria teaches Dantès languages, history, chemistry and mathematics. A sailor with little schooling is becoming a scholar. A place meant to destroy him becomes, through Faria, the place that remakes him.",
+    "themes": ["prison-freedom"]
+  },
+  {
+    "chapter": 17,
+    "kind": "question",
+    "title": "Was Faria right to tell him?",
+    "text": "Faria says he regrets helping Dantès work out the truth, because of what it has put in his heart. Should he have left Dantès ignorant? Is it kinder to know who wronged you, or not to know?",
+    "themes": ["revenge-justice"]
+  },
+  {
+    "chapter": 18,
+    "kind": "craft",
+    "title": "A tale inside the tale",
+    "text": "The prison story pauses for a Renaissance tale of popes, poison and a hidden fortune. It reads like one of the Arabian Nights stories Faria loves. Dumas is openly blending history with fairy tale.",
+    "themes": []
+  },
+  {
+    "chapter": 18,
+    "kind": "motif",
+    "title": "Fire that reveals",
+    "text": "In Chapter 7 fire destroyed a letter to keep a secret. Here a half-burnt page, warmed over a flame, gives up a secret it had hidden for centuries. Paper and fire keep deciding what is known and what is lost.",
+    "themes": []
+  },
+  {
+    "chapter": 18,
+    "kind": "theme",
+    "title": "A chosen father",
+    "text": "Faria calls Dantès his son and names him his heir. Dantès has been torn from his own father, and Faria has no family left. Their bond is chosen, not given, and it is the most loyal relationship in the book so far.",
+    "themes": ["loyalty-betrayal"]
+  },
+  {
+    "chapter": 19,
+    "kind": "craft",
+    "title": "Dread built by rehearsal",
+    "text": "Faria has said the third attack will kill him, and he has taught Dantès the remedy and given his last instructions. When the attack comes, we already know each step. The rehearsal makes the scene feel inevitable, and worse for it.",
+    "themes": ["hope-despair"]
+  },
+  {
+    "chapter": 19,
+    "kind": "theme",
+    "title": "Alone again",
+    "text": "With the tunnel blocked and his friend dead, Dantès is back in the solitude of Chapter 15. But he is not the same man: he now has knowledge, education and a secret. Compare how he faces this loss with how he faced the first years.",
+    "themes": ["hope-despair", "prison-freedom"]
+  },
+  {
+    "chapter": 20,
+    "kind": "craft",
+    "title": "Death and rebirth",
+    "text": "To leave the prison, Dantès must pretend to be dead and sew himself into a shroud. The escape is staged as a burial. It is hard not to read it as the end of one life and the start of another.",
+    "themes": ["prison-freedom"]
+  },
+  {
+    "chapter": 20,
+    "kind": "craft",
+    "title": "Seeing nothing",
+    "text": "Once he is in the sack, we experience everything as he does: voices, jokes, wind, the weight tied to his feet. Dumas takes away sight and leaves only sound and touch. The jailers’ jokes make the scene more frightening, not less.",
+    "themes": []
+  },
+  {
+    "chapter": 20,
+    "kind": "theme",
+    "title": "Two aims, side by side",
+    "text": "Sitting by Faria’s body, Dantès moves from wanting to die to a fierce will to live, in order to punish his enemies and reward his friends. Notice that the two aims arrive together. Reward and punishment are joined in his mind from the start.",
+    "themes": ["revenge-justice", "hope-despair"]
+  },
+  {
+    "chapter": 20,
+    "kind": "motif",
+    "title": "The sea as cemetery",
+    "text": "The chapter’s last line is a shock: the sea is the cemetery of the Château d’If. The sea was Dantès’s trade and his life, and now it is meant to be his grave. Water in this book is both a threat and a way out.",
+    "themes": ["prison-freedom"]
+  },
+  {
+    "chapter": 21,
+    "kind": "motif",
+    "title": "Fourteen years to the day",
+    "text": "Jacopo tells him the date, 28 February 1829, the anniversary of his arrest. The coincidence turns lost time into something exact. He went in at nineteen and comes out at thirty-three.",
+    "themes": ["prison-freedom"]
+  },
+  {
+    "chapter": 21,
+    "kind": "craft",
+    "title": "A dead man’s cap",
+    "text": "His first acts as a free man are to put on a drowned sailor’s cap and tell a smooth lie about who he is. When the alarm gun fires, he calmly says a prisoner must have escaped and sips his rum. Notice how cool he has become.",
+    "themes": []
+  },
+  {
+    "chapter": 21,
+    "kind": "theme",
+    "title": "The vow renewed",
+    "text": "Free and at sea, Dantès thinks of Mercédès and repeats his oath against Danglars, Fernand and Villefort. Freedom has not softened his purpose. The vow made in the dark holds in daylight.",
+    "themes": ["revenge-justice"]
+  },
+  {
+    "chapter": 22,
+    "kind": "motif",
+    "title": "The face in the mirror",
+    "text": "At Leghorn Dantès sees his own face for the first time in fourteen years and barely recognises it. The open young sailor has become pale, stern and watchful. No one from his old life would know him now.",
+    "themes": []
+  },
+  {
+    "chapter": 22,
+    "kind": "theme",
+    "title": "A hardening heart",
+    "text": "When a customs officer is killed in the skirmish, Dantès notices that the death hardly moves him. Dumas has him observe the change in himself. Ask what the prison has taken from him along with his youth.",
+    "themes": ["revenge-justice"]
+  },
+  {
+    "chapter": 22,
+    "kind": "theme",
+    "title": "Passing on what he was given",
+    "text": "Jacopo nurses Dantès and refuses to be paid, and Dantès teaches him navigation and the stars as Faria once taught him. Loyalty here is answered with teaching. The friendship is one of the warmest things in the chapter.",
+    "themes": ["loyalty-betrayal"]
+  },
+  {
+    "chapter": 23,
+    "kind": "craft",
+    "title": "A performance for friends",
+    "text": "Dantès fakes his fall and his agony so well that the smugglers leave him behind, and Jacopo offers to stay. He is deceiving men he genuinely likes. Notice that he is moved by their friendship even as he plays them.",
+    "themes": []
+  },
+  {
+    "chapter": 23,
+    "kind": "motif",
+    "title": "“Open Sesame!”",
+    "text": "Dantès cries out the words from the Arabian Nights tale Faria told him. Dumas openly hands the story over to fairy tale: a hidden cave, a magic phrase, a fortune. The realistic prison story has turned into something closer to legend.",
+    "themes": []
+  },
+  {
+    "chapter": 23,
+    "kind": "question",
+    "title": "What is a life worth?",
+    "text": "Dantès looks down at the smugglers and reflects that they risk their lives for a few coins, while he hopes for far more. Is this wisdom, or the beginning of contempt? What has his suffering done to his sense of what things are worth?",
+    "themes": []
+  },
+  {
+    "chapter": 24,
+    "kind": "craft",
+    "title": "Suspense by obstacles",
+    "text": "This chapter is almost all one man digging alone. Dumas puts an obstacle at every step: the boulder, the empty first cave, the false wall, a moment when doubt nearly makes him faint. His wry “Perhaps!” captures how much he fears hoping.",
+    "themes": ["hope-despair"]
+  },
+  {
+    "chapter": 24,
+    "kind": "motif",
+    "title": "The teacher’s voice",
+    "text": "Dantès follows the words of the will as if Faria were beside him, and recognises the Spada arms Faria drew for him so often. The dead teacher still guides him. The treasure is Faria’s gift as much as it is a discovery.",
+    "themes": []
+  },
+  {
+    "chapter": 24,
+    "kind": "theme",
+    "title": "Wealth beyond counting",
+    "text": "Faced with the chest, Dantès first runs wildly about the rocks, then kneels and prays. He spends the night guarding it, torn between joy and fear. Money on this scale is not just comfort: it is power, and he does not yet know what he will do with it.",
+    "themes": ["wealth-status"]
+  },
+  {
+    "chapter": 25,
+    "kind": "theme",
+    "title": "A stranger in his own city",
+    "text": "Dantès sails into Marseilles on an English passport as Lord Wilmore and tests his new face on a sailor from the Pharaon, who does not know him. He can now walk among people from his past unrecognised. Notice how much confidence he takes from that.",
+    "themes": ["identity-disguise"]
+  },
+  {
+    "chapter": 25,
+    "kind": "craft",
+    "title": "The quietest scene",
+    "text": "With a fortune hidden on his yacht, the most powerful moment in the chapter is Dantès weeping in the room where his father died. Dumas keeps the treasure in the background here. Grief, not wealth, sets the tone of his homecoming.",
+    "themes": ["hope-despair"]
+  },
+  {
+    "chapter": 25,
+    "kind": "theme",
+    "title": "Money as an instrument",
+    "text": "Dantès overpays for the yacht and the house, gives Jacopo a boat, rewards the honest sailor and gives the Catalan family a fishing boat. He has a secret closet built to carry the treasure. Watch how he already uses money to reward and to test.",
+    "themes": ["wealth-status"]
+  },
+  {
+    "chapter": 26,
+    "kind": "craft",
+    "title": "A visitor without a name",
+    "text": "The narrator calls the visitor only “the abbé” and tells us nothing about him. Instead we watch him: how closely he studies Caderousse, and how he jumps up when he hears how old Dantès died. Dumas makes us read the priest from the outside.",
+    "themes": ["identity-disguise"]
+  },
+  {
+    "chapter": 26,
+    "kind": "motif",
+    "title": "The diamond as bait",
+    "text": "Caderousse’s wife warns him to keep quiet, and at first he means to. What changes his mind is hearing that Danglars and Fernand might get shares of the diamond. Greed, not conscience, makes him talk.",
+    "themes": ["wealth-status"]
+  },
+  {
+    "chapter": 26,
+    "kind": "context",
+    "title": "Ruined by a canal",
+    "text": "A new canal carried trade away from the old road, leaving roadside inns like Caderousse’s empty. Changes in transport made and broke many small businesses in this period. His bad luck is partly just history passing him by.",
+    "themes": ["wealth-status"]
+  },
+  {
+    "chapter": 27,
+    "kind": "craft",
+    "title": "The truth from a guilty witness",
+    "text": "We hear the whole story from Caderousse, who was there, did nothing and is now full of self-pity. His telling is coloured by excuses: he was drunk, he was afraid. Notice what he admits and what he passes over quickly.",
+    "themes": ["loyalty-betrayal"]
+  },
+  {
+    "chapter": 27,
+    "kind": "theme",
+    "title": "The wrong people rewarded",
+    "text": "The betrayers have risen: Danglars is a baron and a millionaire, Fernand a count and a general. Morrel, who pleaded for Dantès again and again, is almost ruined. The world has handed out its rewards the wrong way round.",
+    "themes": ["wealth-status", "revenge-justice"]
+  },
+  {
+    "chapter": 27,
+    "kind": "theme",
+    "title": "A hope that killed",
+    "text": "Old Dantès would not leave his rooms in case Edmond came back, sold what he owned and finally stopped eating. He died hoping, blessing his son. It is the saddest picture of hope in the book so far.",
+    "themes": ["hope-despair"]
+  },
+  {
+    "chapter": 27,
+    "kind": "question",
+    "title": "Mercédès’s choice",
+    "text": "Mercédès married Fernand, in the very church where she was to marry Edmond. Caderousse believes she is unhappy. What do you make of her choice, given what she knew and what she did not?",
+    "themes": ["loyalty-betrayal"]
+  },
+  {
+    "chapter": 28,
+    "kind": "craft",
+    "title": "A grim story told as a joke",
+    "text": "Boville tells the escape as a funny anecdote and roars with laughter, and the Englishman laughs along. We have lived through that night with Dantès, so the laughter sounds very different to us. Dumas makes the reader hold two views of the same event.",
+    "themes": []
+  },
+  {
+    "chapter": 28,
+    "kind": "motif",
+    "title": "The file",
+    "text": "The whole injustice survives as paperwork: the denunciation, the examination, Morrel’s petition, Villefort’s note ordering strict solitary confinement. Paper sent Dantès to prison, and paper still records it. The stranger quietly pockets the most important page.",
+    "themes": ["revenge-justice"]
+  },
+  {
+    "chapter": 28,
+    "kind": "theme",
+    "title": "Dead on paper",
+    "text": "The prison register closes the case: Edmond Dantès drowned. In the eyes of the state he no longer exists. Notice what kind of freedom that could give someone, and that the visitor asks for nothing but a look at the records.",
+    "themes": ["identity-disguise"]
+  },
+  {
+    "chapter": 29,
+    "kind": "craft",
+    "title": "Decline in small details",
+    "text": "Dumas shows Morrel’s ruin through details: the empty offices, two remaining employees, the family jewels quietly sold, a man of fifty with white hair. Nothing is announced; we read the decline in what is missing. Compare it with the busy firm of Chapter 1.",
+    "themes": ["wealth-status"]
+  },
+  {
+    "chapter": 29,
+    "kind": "theme",
+    "title": "A loyal house",
+    "text": "Emmanuel and Cocles stay when everyone else leaves, and the shipwrecked sailors offer to wait for their wages. Morrel’s house is poor but full of loyalty. Set it beside the arbour where the plotters met in Chapter 4.",
+    "themes": ["loyalty-betrayal"]
+  },
+  {
+    "chapter": 29,
+    "kind": "motif",
+    "title": "Sinbad the Sailor",
+    "text": "The stranger tells Julie to expect a letter signed “Sinbad the Sailor,” a name from the Arabian Nights. It is the second time this story has borrowed from those tales. Fairy-tale names are entering a world of bills and bankruptcy.",
+    "themes": ["identity-disguise"]
+  },
+  {
+    "chapter": 30,
+    "kind": "craft",
+    "title": "Racing the clock",
+    "text": "Dumas cuts between Morrel waiting with the pistol as the clock moves towards eleven and Julie running with the purse. It is a classic last-minute rescue, built on a deadline set in the previous chapter. Notice how exactly the timing is arranged.",
+    "themes": []
+  },
+  {
+    "chapter": 30,
+    "kind": "motif",
+    "title": "The red purse comes home",
+    "text": "Morrel’s red silk purse, the one he left to pay old Dantès’s debts and funeral, comes back to him holding his own paid bill. His kindness is repaid with the very object he gave. The rescue is also a thank-you note.",
+    "themes": ["loyalty-betrayal"]
+  },
+  {
+    "chapter": 30,
+    "kind": "theme",
+    "title": "Honour worth more than life",
+    "text": "Morrel would rather die with an honest name than live as a bankrupt, and his son accepts it. Danglars, who owes his start to Morrel, refuses to help him. In this society money and honour are tied together, and losing one means losing the other.",
+    "themes": ["wealth-status"]
+  },
+  {
+    "chapter": 30,
+    "kind": "question",
+    "title": "Standing in for Providence",
+    "text": "The man in the crowd who calls for Jacopo is now clearly Dantès, and he declares that, having rewarded the good, he will now punish the wicked. He speaks as if he were Providence itself. Can any human being take on that role, and what might it cost him?",
+    "themes": ["providence", "revenge-justice"]
+  }
+]
