@@ -57,9 +57,17 @@ Files split into ranges (`chapters-001-030.json`, `places-031-060.json`…) are 
   "color": "#1d4e63",                    // cover colour (dark enough for white text)
   "order": 4,                            // position in the library
   "source": "text",                      // "text" (built from the book) | "knowledge" (no text available)
-  "wordCountsApproximate": false         // true when word counts are estimates
+  "wordCountsApproximate": false,        // true when word counts are estimates
+  "text": {                              // the book's text for the reader (docs/reading-spec.md)
+    "status": "shipped",                 // "shipped" (public domain, files in public/texts/<id>/) | "upload" (reader adds their own copy)
+    "edition": "Project Gutenberg #1184: the anonymous 1846 English translation",
+    "license": "Public domain",
+    "sourceUrl": "https://www.gutenberg.org/ebooks/1184"
+  }
 }
 ```
+
+For a `shipped` text, `node scripts/pipeline/export-text.mjs <id>` writes `public/texts/<id>/NNN.txt` (one paragraph per line, no heading or footnotes) and `manifest.json` from `source/chapters/`, and recounts `word-counts.json`. The validator checks the files exist.
 
 ## reveals.json
 

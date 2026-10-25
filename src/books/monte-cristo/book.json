@@ -37,5 +37,11 @@
   ],
   "color": "#7a2e2a",
   "order": 1,
-  "source": "text"
+  "source": "text",
+  "text": {
+    "status": "shipped",
+    "edition": "Project Gutenberg #1184: the anonymous 1846 English translation (Chapman & Hall)",
+    "license": "Public domain",
+    "sourceUrl": "https://www.gutenberg.org/ebooks/1184"
+  }
 }

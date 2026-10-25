@@ -22,5 +22,11 @@
   "color": "#1d4e63",
   "order": 4,
   "source": "text",
-  "shortTitle": "20,000 Leagues"
+  "shortTitle": "20,000 Leagues",
+  "text": {
+    "status": "shipped",
+    "edition": "Project Gutenberg #2488: F. P. Walter’s 1991 translation",
+    "license": "Public domain",
+    "sourceUrl": "https://www.gutenberg.org/ebooks/2488"
+  }
 }

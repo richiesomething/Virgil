@@ -34,6 +34,14 @@ for (const book of readdirSync(root, { withFileTypes: true }).filter((d) => d.is
   const characters = load('characters.json')
   const count = meta.chapterCount
   for (const k of ['id', 'title', 'author', 'year', 'chapterCount', 'blurb', 'edition', 'color']) if (meta[k] === undefined || meta[k] === '') fail(book, `book.json is missing ${k}`)
+  // Shipped text: every chapter file and a manifest that agrees with the chapter count.
+  if (meta.text?.status === 'shipped') {
+    const tdir = join('public', 'texts', book)
+    const manifest = existsSync(join(tdir, 'manifest.json')) ? JSON.parse(readFileSync(join(tdir, 'manifest.json'), 'utf8')) : null
+    if (!manifest) fail(book, `text.status is "shipped" but ${tdir}/manifest.json is missing (run scripts/pipeline/export-text.mjs)`)
+    else if (manifest.chapters !== count) fail(book, `public/texts manifest has ${manifest.chapters} chapters, book.json says ${count}`)
+    for (let n = 1; n <= count; n++) if (!existsSync(join(tdir, `${String(n).padStart(3, '0')}.txt`))) fail(book, `public/texts/${book}/${String(n).padStart(3, '0')}.txt is missing`)
+  } else if (meta.text && meta.text.status !== 'upload') fail(book, `book.json text.status must be "shipped" or "upload"`)
   if (meta.id !== book) fail(book, `book.json id is "${meta.id}"`)
   if (meta.source && !['text', 'knowledge'].includes(meta.source)) fail(book, `book.json has bad source "${meta.source}"`)
 

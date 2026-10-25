@@ -80,6 +80,11 @@ export interface BookMeta {
   order?: number
   /** 'text': built from the book's own text; 'knowledge': from what's known about it (no text). */
   source?: 'text' | 'knowledge'
+  /**
+   * The book's text for the reader. 'shipped': public-domain chapter files at public/texts/<id>/.
+   * 'upload' (or no field): the reader adds their own copy (EPUB, PDF or text), kept on the device.
+   */
+  text?: { status: 'shipped' | 'upload'; edition?: string; license?: string; sourceUrl?: string }
 }
 
 export interface BookData {

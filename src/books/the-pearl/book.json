@@ -10,5 +10,8 @@
   "wordCountsApproximate": true,
   "color": "#1f5c63",
   "order": 3,
-  "source": "knowledge"
+  "source": "knowledge",
+  "text": {
+    "status": "upload"
+  }
 }

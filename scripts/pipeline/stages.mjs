@@ -2,6 +2,7 @@
 // pipeline.json in each book's folder records their status so work can resume across sessions.
 export const STAGES = [
   { id: 'manifest', title: 'Manifest and chapter list', template: null },
+  { id: 'text', title: 'Export the text for the reader (public-domain books)', template: null, optional: true },
   { id: 'chapters', title: 'Chapter summaries and who appears', template: 'chapters.md' },
   { id: 'roster', title: 'Reconcile the cast across ranges', template: 'roster.md' },
   { id: 'reveals', title: 'Secrets and when they are revealed', template: 'reveals.md' },
