@@ -7,8 +7,8 @@
       "firstChapter": 32,
       "precision": "exact",
       "lonlat": [
-        -8.8,
-        42.24
+        -8.68,
+        42.28
       ],
       "today": "The Ría de Vigo in Galicia, north-west Spain.",
       "tagline": [
@@ -20,7 +20,8 @@
           "from": 33,
           "text": "Spanish bay the Nautilus leaves behind, turning its back on Europe."
         }
-      ]
+      ],
+      "radiusKm": 10
     },
     {
       "id": "atlantis",
@@ -29,15 +30,15 @@
       "firstChapter": 33,
       "precision": "approximate",
       "lonlat": [
-        -16.283,
-        33.367
+        -13.9461,
+        33.3667
       ],
       "radiusKm": 150,
       "today": "Legendary. The text places it off Madeira; the Canaries, Azores and Cape Verde Islands are said to be its surviving peaks.",
       "tagline": [
         {
           "from": 33,
-          "text": "Plato's lost continent, its ruined city found on the seafloor by night. Shown at the noon position the text gives: 33°22′ N, 16°17′ W."
+          "text": "Plato's lost continent, its ruined city found on the seafloor by night. Shown at the noon position the text gives: 33°22′ N, 16°17′ W of Paris."
         },
         {
           "from": 34,
@@ -130,13 +131,13 @@
       "firstChapter": 35,
       "precision": "exact",
       "lonlat": [
-        -37.883,
-        -45.617
+        -35.5461,
+        -45.6167
       ],
       "tagline": [
         {
           "from": 35,
-          "text": "Spot in the South Atlantic, 45°37′ S, 37°53′ W, where the Nautilus dives to record-breaking depths."
+          "text": "Spot in the South Atlantic, 45°37′ S, 37°53′ W of Paris, where the Nautilus dives to record-breaking depths."
         }
       ]
     },
@@ -165,14 +166,14 @@
       "firstChapter": 37,
       "precision": "exact",
       "lonlat": [
-        -51.5,
+        -49.1628,
         -67.65
       ],
       "radiusKm": 200,
       "tagline": [
         {
           "from": 37,
-          "text": "Great wall of Antarctic ice at 67°39′ S, 51°30′ W, which the Nautilus dives beneath."
+          "text": "Great wall of Antarctic ice at 67°39′ S, 51°30′ W of Paris, which the Nautilus dives beneath."
         },
         {
           "from": 39,
@@ -197,7 +198,7 @@
       "firstChapter": 38,
       "precision": "exact",
       "lonlat": [
-        -50,
+        -49.6628,
         -89.9
       ],
       "today": "The geographic South Pole lies on the high Antarctic ice sheet, first reached overland in 1911.",
@@ -215,8 +216,8 @@
       "firstChapter": 35,
       "precision": "exact",
       "lonlat": [
-        -67.263,
-        -55.977
+        -67.2733,
+        -55.9833
       ],
       "today": "Cabo de Hornos, Chile.",
       "tagline": [
@@ -398,23 +399,6 @@
       ]
     },
     {
-      "id": "coral-cemetery",
-      "name": "The coral cemetery",
-      "role": "mentioned",
-      "firstChapter": 39,
-      "precision": "unknown",
-      "tagline": [
-        {
-          "from": 39,
-          "text": "Captain Nemo's underwater burial ground, one of the memories of the voyage so far."
-        },
-        {
-          "from": 43,
-          "text": "Resting place of the crew, which the sailor lost to the devilfish can never share."
-        }
-      ]
-    },
-    {
       "id": "gulf-stream",
       "name": "The Gulf Stream",
       "role": "setting",
@@ -572,13 +556,13 @@
       "firstChapter": 44,
       "precision": "exact",
       "lonlat": [
-        -17.467,
+        -15.1295,
         47.4
       ],
       "tagline": [
         {
           "from": 44,
-          "text": "French warship sunk in 1794 rather than surrender, at 47°24′ N, 17°28′ W as the text gives it; Captain Nemo comes here on June 1, the anniversary."
+          "text": "French warship sunk in 1794 rather than surrender, at 47°24′ N, 17°28′ W of Paris as the text gives it; Captain Nemo comes here on June 1, the anniversary."
         }
       ],
       "aliases": [
@@ -595,8 +579,8 @@
       "firstChapter": 45,
       "precision": "approximate",
       "lonlat": [
-        -7.0,
-        48.3
+        -14.6,
+        47.7
       ],
       "radiusKm": 150,
       "tagline": [
@@ -801,15 +785,15 @@
           "mode": "sea",
           "via": [
             [
-              -50,
+              -47.6628,
               -58
             ],
             [
-              -51,
+              -48.6628,
               -62.5
             ],
             [
-              -55,
+              -52.6628,
               -66.5
             ]
           ]
@@ -821,11 +805,11 @@
           "mode": "sea",
           "via": [
             [
-              -52,
+              -49.6628,
               -75
             ],
             [
-              -52,
+              -49.6628,
               -85
             ]
           ]
@@ -837,11 +821,11 @@
           "mode": "sea",
           "via": [
             [
-              -52,
+              -49.6628,
               -85
             ],
             [
-              -52,
+              -49.6628,
               -75
             ]
           ]
@@ -905,7 +889,7 @@
               -34
             ],
             [
-              -37,
+              -34.6628,
               -23.4
             ],
             [
@@ -945,8 +929,12 @@
           "mode": "sea",
           "via": [
             [
-              -50,
-              3.5
+              -50.5,
+              4.5
+            ],
+            [
+              -52.5,
+              5.6
             ]
           ]
         },
@@ -1095,8 +1083,12 @@
           "mode": "sea",
           "via": [
             [
-              -8,
-              51
+              -8.5,
+              49.3
+            ],
+            [
+              -10.5,
+              51.0
             ],
             [
               -11.5,

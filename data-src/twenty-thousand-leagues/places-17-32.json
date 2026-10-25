@@ -7,10 +7,10 @@
       "firstChapter": 15,
       "precision": "approximate",
       "lonlat": [
-        -167.83,
-        32.67
+        -165.4961,
+        32.6667
       ],
-      "radiusKm": 60,
+      "radiusKm": 15,
       "today": "A ‘phantom’ island: old charts showed it, but no island exists at the position Verne gives.",
       "tagline": [
         {
@@ -330,7 +330,7 @@
       "firstChapter": 23,
       "precision": "approximate",
       "lonlat": [
-        105.0,
+        107.3372,
         -15.0
       ],
       "radiusKm": 200,
@@ -348,7 +348,7 @@
       "firstChapter": 24,
       "precision": "approximate",
       "lonlat": [
-        103.6,
+        105.9,
         -14.2
       ],
       "radiusKm": 400,
@@ -356,6 +356,14 @@
         {
           "from": 24,
           "text": "Coral forest on the seafloor where Nemo’s crew bury their dead beneath a coral cross."
+        },
+        {
+          "from": 39,
+          "text": "Captain Nemo's underwater burial ground, one of the memories of the voyage so far."
+        },
+        {
+          "from": 43,
+          "text": "Resting place of the crew, which the sailor lost to the devilfish can never share."
         }
       ]
     },
@@ -931,6 +939,10 @@
           "mode": "sea",
           "via": [
             [
+              -169.6628,
+              23.44
+            ],
+            [
               -156.0,
               22.6
             ],
@@ -939,8 +951,8 @@
               19.9
             ],
             [
-              -142.0,
-              1.0
+              -139.6628,
+              0
             ],
             [
               -139.8,
@@ -959,7 +971,7 @@
               -17.9
             ],
             [
-              -135.4,
+              -132.6628,
               -23.44
             ],
             [
@@ -969,6 +981,22 @@
             [
               -149.0,
               -18.3
+            ]
+          ]
+        },
+        {
+          "chapter": 19,
+          "from": "tonga-islands",
+          "to": "fiji-islands",
+          "mode": "sea",
+          "via": [
+            [
+              -179.5,
+              -18.2
+            ],
+            [
+              179.5,
+              -18.0
             ]
           ]
         },
@@ -1051,7 +1079,7 @@
               -10.6
             ],
             [
-              130.0,
+              132.3372,
               -10.0
             ],
             [
@@ -1077,8 +1105,8 @@
               -12.4
             ],
             [
-              88.0,
-              1.0
+              84.3372,
+              0
             ]
           ]
         },

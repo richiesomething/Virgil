@@ -15,7 +15,7 @@
         80
       ]
     ],
-    "note": "A flat world map: shapes near the poles are stretched sideways. The South Pole itself lies just off the bottom edge.",
+    "note": "A flat world map: shapes near the poles are stretched sideways.",
     "labels": [
       {
         "text": "Pacific Ocean",
@@ -257,8 +257,8 @@
   {
     "id": "torres-strait",
     "type": "geo",
-    "title": "The Coral Sea and the Torres Strait",
-    "short": "Torres Strait",
+    "title": "The Coral Sea and New Guinea",
+    "short": "Coral Sea",
     "parent": "world",
     "bounds": [
       [
@@ -383,8 +383,8 @@
   {
     "id": "red-sea-mediterranean",
     "type": "geo",
-    "title": "The Red Sea and the Mediterranean",
-    "short": "Red Sea & Mediterranean",
+    "title": "Between Europe, Africa and Arabia",
+    "short": "Mediterranean",
     "parent": "world",
     "bounds": [
       [
@@ -581,8 +581,8 @@
   {
     "id": "south-pole",
     "type": "geo",
-    "title": "Toward the South Pole",
-    "short": "South Pole",
+    "title": "Cape Horn and the far south",
+    "short": "Far south",
     "parent": "world",
     "projection": "equirectangular",
     "bounds": [
@@ -595,7 +595,7 @@
         -50
       ]
     ],
-    "note": "A flat polar map: lines of longitude are drawn parallel, so the lands near the bottom are stretched sideways, and the Pole is the whole bottom edge.",
+    "note": "A flat map of the far south: lines of longitude are drawn parallel, so lands near the bottom edge are stretched sideways.",
     "labels": [
       {
         "text": "Antarctic Ocean",
