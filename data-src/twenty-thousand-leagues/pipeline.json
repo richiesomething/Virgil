@@ -3,11 +3,11 @@
   "stages": {
     "manifest": {
       "status": "done",
-      "notes": "47 chapters split from Gutenberg #2488 (Part 1: 1–24, Part 2: 25–47)"
+      "notes": "47 chapters split from Gutenberg #2488 (Part 1: 1\u201324, Part 2: 25\u201347)"
     },
     "chapters": {
       "status": "done",
-      "notes": "4 agents (1–12, 13–24, 25–36, 37–47)"
+      "notes": "4 agents (1\u201312, 13\u201324, 25\u201336, 37\u201347)"
     },
     "roster": {
       "status": "done"
@@ -41,10 +41,11 @@
       "notes": "told in order"
     },
     "review": {
-      "status": "pending"
+      "status": "done",
+      "notes": "4 reviewers: cast, reading guide, places, understanding"
     },
     "publish": {
-      "status": "pending"
+      "status": "done"
     }
   }
 }

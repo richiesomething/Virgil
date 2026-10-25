@@ -67,7 +67,7 @@ Start these together, then merge and validate.
 1. **Frames:** one agent writes `atlas/frames.json`, using `atlas.md` part A.
 2. **Drawings:** if there are plan frames, it (or you) adds them to `scripts/atlas/draw-plans.py`, then run `python3 scripts/atlas/draw-plans.py`.
 3. **Places:** agents by range, using part B. Give them a canonical list of ids for recurring places, including the cast's place ids.
-4. **Basemaps:** `npm run basemaps -- <id>`. It needs network access; OpenStreetMap servers can be slow, so retry on failure, or switch the recipe to Nominatim traces.
+4. **Basemaps:** `npm run basemaps -- <id>`, then `node scripts/atlas/check-legs.mjs <id>` and fix sea legs that cross land by accident. Building basemaps needs network access; OpenStreetMap servers can be slow, so retry on failure, or switch the recipe to Nominatim traces.
 
 A book with no meaningful geography can skip the atlas: mark it `skipped`.
 
