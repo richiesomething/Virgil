@@ -330,7 +330,7 @@
     "term": "Cerberus",
     "kind": "reference",
     "chapter": 9,
-    "text": "In Greek myth, the monstrous three-headed dog that guards the gates of the underworld so that no one gets in or out. Hagrid's taste in pets has a long pedigree."
+    "text": "In Greek myth, the monstrous three-headed dog that guards the gates of the underworld so that no one gets in or out. The third-floor guard dog has a long mythological pedigree."
   },
   {
     "term": "Chasers and the Quaffle",
@@ -526,7 +526,7 @@
     "term": "detention",
     "kind": "custom",
     "chapter": 14,
-    "text": "A school punishment: staying after hours to do a task set by a teacher. At Hogwarts it can involve rather more than writing lines.",
+    "text": "A school punishment: staying after hours to do a task set by a teacher, such as writing lines or helping with chores.",
     "seeAlso": [
       15
     ]

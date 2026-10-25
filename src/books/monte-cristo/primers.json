@@ -32,7 +32,7 @@
   {
     "chapter": 6,
     "setting": "Marseilles, the same day, at a royalist betrothal feast in an aristocratic mansion",
-    "keepInMind": "Dantès has been arrested at his wedding feast as a Bonapartist agent. Morrel has gone to plead with the deputy prosecutor, M. de Villefort, a known royalist.",
+    "keepInMind": "Dantès has been arrested at his wedding feast as a Bonapartist agent. Morrel has gone to plead with the deputy prosecutor, M. de Villefort.",
     "returning": []
   },
   {
@@ -145,7 +145,7 @@
   },
   {
     "chapter": 25,
-    "setting": "Monte Cristo, then the ports of Leghorn, Genoa and Marseilles, 1829",
+    "setting": "Monte Cristo, 1829",
     "keepInMind": "Dantès is now the owner of Cardinal Spada's enormous treasure, but he is still only a poor sailor in the smugglers' eyes, and they are due back for him in about six days. In fourteen years he has had no word of his father or of Mercédès.",
     "returning": []
   },
@@ -162,7 +162,7 @@
   },
   {
     "chapter": 27,
-    "setting": "",
+    "setting": "The same roadside inn, moments later",
     "keepInMind": "The abbé has shown Caderousse a diamond worth fifty thousand francs, said to be Dantès' bequest to his old friends. Tempted, Caderousse has bolted the door to tell everything, against his wife's warnings.",
     "returning": []
   },
@@ -392,13 +392,13 @@
   {
     "chapter": 55,
     "setting": "Paris, the count's house on the Champs-Élysées, 1838",
-    "keepInMind": "The count turned down Albert's invitation by saying he was expecting an Italian, Major Cavalcanti, whose son is also coming to Paris. Remember that 'the Abbé Busoni' is a disguise Edmond has used before, when he visited Caderousse.",
+    "keepInMind": "The count turned down Albert's invitation by saying he was expecting an Italian, Major Cavalcanti, whose son is also coming to Paris. He has promised to look after the young Andrea as he makes his entry into Paris society.",
     "returning": []
   },
   {
     "chapter": 56,
     "setting": "The count's house, a few minutes later",
-    "keepInMind": "The count has just coached 'Major Cavalcanti' through a ready-made family history and left him waiting to meet his 'lost son'. 'Sinbad the Sailor' is the name the count used when he saved the Morrels and entertained Franz on Monte Cristo.",
+    "keepInMind": "The count has just coached 'Major Cavalcanti' through a ready-made family history and left him waiting to meet his 'lost son'. The major barely knew his own story; the count supplied every detail and even the papers.",
     "returning": []
   },
   {
@@ -420,7 +420,7 @@
   },
   {
     "chapter": 59,
-    "setting": "",
+    "setting": "Noirtier's rooms in the Villefort house, Paris, moments later",
     "keepInMind": "Furious at the news of Valentine's engagement to Franz, Noirtier made her understand that he wants a notary. Over Villefort's objections, the loyal servant Barrois has gone to fetch one.",
     "returning": []
   },
@@ -598,7 +598,7 @@
     "returning": [
       {
         "id": "bertuccio",
-        "reminder": "The count’s Corsican steward, sent to Normandy to prepare a house and boat."
+        "reminder": "The count’s devoted Corsican steward, who runs his households and errands."
       }
     ]
   },
