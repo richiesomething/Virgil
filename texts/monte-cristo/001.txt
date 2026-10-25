@@ -1,8 +1,8 @@
-On the 24th of February, 1815, the look-out at Notre-Dame de la Garde signalled the three-master, the Pharaon from Smyrna, Trieste, and Naples.
+On the 24th of February, 1815, the lookout at Notre-Dame de la Garde signalled the three-master, the Pharaon from Smyrna, Trieste, and Naples.
 
 As usual, a pilot put off immediately, and rounding the Château d’If, got on board the vessel between Cape Morgiou and Rion island.
 
-Immediately, and according to custom, the ramparts of Fort Saint-Jean were covered with spectators; it is always an event at Marseilles for a ship to come into port, especially when this ship, like the Pharaon, has been built, rigged, and laden at the old Phocée docks, and belongs to an owner of the city.
+Immediately, and according to custom, the ramparts of Fort Saint-Jean were covered with spectators; it is always an event at Marseilles for a ship to come into port, especially when this ship, like the Pharaon, has been built, rigged, and laden at the old Phocee docks, and belongs to an owner of the city.
 
 The ship drew on and had safely passed the strait, which some volcanic shock has made between the Calasareigne and Jaros islands; had doubled Pomègue, and approached the harbor under topsails, jib, and spanker, but so slowly and sedately that the idlers, with that instinct which is the forerunner of evil, asked one another what misfortune could have happened on board. However, those experienced in navigation saw plainly that if any accident had occurred, it was not to the vessel herself, for she bore down with all the evidence of being skilfully handled, the anchor a-cockbill, the jib-boom guys already eased off, and standing by the side of the pilot, who was steering the Pharaon towards the narrow entrance of the inner port, was a young man, who, with activity and vigilant eye, watched every motion of the ship, and repeated each direction of the pilot.
 
@@ -14,11 +14,11 @@ He was a fine, tall, slim young fellow of eighteen or twenty, with black eyes, a
 
 “Ah, is it you, Dantès?” cried the man in the skiff. “What’s the matter? and why have you such an air of sadness aboard?”
 
-“A great misfortune, M. Morrel,” replied the young man, “a great misfortune, for me especially! Off Civita Vecchia we lost our brave Captain Leclere.”
+“A great misfortune, M. Morrel,” replied the young man, “a great misfortune, for me especially! Off Civita Vecchia we lost our brave Captain Leclère.”
 
 “And the cargo?” inquired the owner, eagerly.
 
-“Is all safe, M. Morrel; and I think you will be satisfied on that head. But poor Captain Leclere——”
+“Is all safe, M. Morrel; and I think you will be satisfied on that head. But poor Captain Leclère—”
 
 “What happened to him?” asked the owner, with an air of considerable resignation. “What happened to the worthy captain?”
 
@@ -32,9 +32,9 @@ All hands obeyed, and at once the eight or ten seamen who composed the crew, spr
 
 “And how did this misfortune occur?” inquired the latter, resuming the interrupted conversation.
 
-“Alas, sir, in the most unexpected manner. After a long talk with the harbor-master, Captain Leclere left Naples greatly disturbed in mind. In twenty-four hours he was attacked by a fever, and died three days afterwards. We performed the usual burial service, and he is at his rest, sewn up in his hammock with a thirty-six-pound shot at his head and his heels, off El Giglio island. We bring to his widow his sword and cross of honor. It was worth while, truly,” added the young man with a melancholy smile, “to make war against the English for ten years, and to die in his bed at last, like everybody else.”
+“Alas, sir, in the most unexpected manner. After a long talk with the harbor-master, Captain Leclère left Naples greatly disturbed in mind. In twenty-four hours he was attacked by a fever, and died three days afterwards. We performed the usual burial service, and he is at his rest, sewn up in his hammock with a thirty-six-pound shot at his head and his heels, off El Giglio island. We bring to his widow his sword and cross of honor. It was worth while, truly,” added the young man with a melancholy smile, “to make war against the English for ten years, and to die in his bed at last, like everybody else.”
 
-“Why, you see, Edmond,” replied the owner, who appeared more comforted at every moment, “we are all mortal, and the old must make way for the young. If not, why, there would be no promotion; and since you assure me that the cargo——”
+“Why, you see, Edmond,” replied the owner, who appeared more comforted at every moment, “we are all mortal, and the old must make way for the young. If not, why, there would be no promotion; and since you assure me that the cargo—”
 
 “Is all safe and sound, M. Morrel, take my word for it; and I advise you not to take 25,000 francs for the profits of the voyage.”
 
@@ -50,7 +50,7 @@ The owner did not wait for a second invitation. He seized a rope which Dantès f
 
 “Well, M. Morrel,” said Danglars, “you have heard of the misfortune that has befallen us?”
 
-“Yes—yes: poor Captain Leclere! He was a brave and an honest man.”
+“Yes—yes: poor Captain Leclère! He was a brave and an honest man.”
 
 “And a first-rate seaman, one who had seen long and honorable service, as became a man charged with the interests of a house so important as that of Morrel & Son,” replied Danglars.
 
@@ -66,7 +66,7 @@ The owner did not wait for a second invitation. He seized a rope which Dantès f
 
 “In a moment, sir,” answered Dantès, “and I’m with you.” Then calling to the crew, he said, “Let go!”
 
-The anchor was instantly dropped, and the chain ran rattling through the port-hole. Dantès continued at his post in spite of the presence of the pilot, until this manœuvre was completed, and then he added, “Half-mast the colors, and square the yards!”
+The anchor was instantly dropped, and the chain ran rattling through the porthole. Dantès continued at his post in spite of the presence of the pilot, until this manoeuvre was completed, and then he added, “Half-mast the colors, and square the yards!”
 
 “You see,” said Danglars, “he fancies himself captain already, upon my word.”
 
@@ -82,7 +82,7 @@ A cloud passed over Danglars’ brow.
 
 Danglars retreated a step or two. “I wished to inquire why you stopped at the Island of Elba?”
 
-“I do not know, sir; it was to fulfil the last instructions of Captain Leclere, who, when dying, gave me a packet for Marshal Bertrand.”
+“I do not know, sir; it was to fulfil the last instructions of Captain Leclère, who, when dying, gave me a packet for Marshal Bertrand.”
 
 “Then did you see him, Edmond?”
 
@@ -108,11 +108,11 @@ Morrel looked around him, and then, drawing Dantès on one side, he said suddenl
 
 “And what did he say to you?”
 
-“Asked me questions about the vessel, the time she left Marseilles, the course she had taken, and what was her cargo. I believe, if she had not been laden, and I had been her master, he would have bought her. But I told him I was only mate, and that she belonged to the firm of Morrel & Son. ‘Ah, yes,’ he said, ‘I know them. The Morrels have been shipowners from father to son; and there was a Morrel who served in the same regiment with me when I was in garrison at Valence.’”
+“Asked me questions about the vessel, the time she left Marseilles, the course she had taken, and what was her cargo. I believe, if she had not been laden, and I had been her master, he would have bought her. But I told him I was only mate, and that she belonged to the firm of Morrel & Son. ‘Ah, yes,’ he said, ‘I know them. The Morrels have been shipowners from father to son; and there was a Morrel who served in the same regiment with me when I was in garrison at Valence.’ ”
 
-“Pardieu! and that is true!” cried the owner, greatly delighted. “And that was Policar Morrel, my uncle, who was afterwards a captain. Dantès, you must tell my uncle that the emperor remembered him, and you will see it will bring tears into the old soldier’s eyes. Come, come,” continued he, patting Edmond’s shoulder kindly, “you did very right, Dantès, to follow Captain Leclere’s instructions, and touch at Elba, although if it were known that you had conveyed a packet to the marshal, and had conversed with the emperor, it might bring you into trouble.”
+“Pardieu! and that is true!” cried the owner, greatly delighted. “And that was Policar Morrel, my uncle, who was afterwards a captain. Dantès, you must tell my uncle that the emperor remembered him, and you will see it will bring tears into the old soldier’s eyes. Come, come,” continued he, patting Edmond’s shoulder kindly, “you did very right, Dantès, to follow Captain Leclère’s instructions, and touch at Elba, although if it were known that you had conveyed a packet to the marshal, and had conversed with the emperor, it might bring you into trouble.”
 
-“How could that bring me into trouble, sir?” asked Dantès; “for I did not even know of what I was the bearer; and the emperor merely made such inquiries as he would of the first comer. But, pardon me, here are the health officers and the customs inspectors coming alongside.” And the young man went to the gangway. As he departed, Danglars approached, and said,—
+“How could that bring me into trouble, sir?” asked Dantès; “for I did not even know of what I was the bearer; and the emperor merely made such inquiries as he would of the first comer. But, pardon me, here are the health officers and the customs inspectors coming alongside.” And the young man went to the gangway. As he departed, Danglars approached, and said—
 
 “Well, it appears that he has given you satisfactory reasons for his landing at Porto-Ferrajo?”
 
@@ -120,13 +120,13 @@ Morrel looked around him, and then, drawing Dantès on one side, he said suddenl
 
 “Well, so much the better,” said the supercargo; “for it is not pleasant to think that a comrade has not done his duty.”
 
-“Dantès has done his,” replied the owner, “and that is not saying much. It was Captain Leclere who gave orders for this delay.”
+“Dantès has done his,” replied the owner, “and that is not saying much. It was Captain Leclère who gave orders for this delay.”
 
-“Talking of Captain Leclere, has not Dantès given you a letter from him?”
+“Talking of Captain Leclère, has not Dantès given you a letter from him?”
 
 “To me?—no—was there one?”
 
-“I believe that, besides the packet, Captain Leclere confided a letter to his care.”
+“I believe that, besides the packet, Captain Leclère confided a letter to his care.”
 
 “Of what packet are you speaking, Danglars?”
 
@@ -150,7 +150,7 @@ At this moment the young man returned; Danglars withdrew.
 
 “You have not been long detained.”
 
-“No. I gave the custom-house officers a copy of our bill of lading; and as to the other papers, they sent a man off with the pilot, to whom I gave them.”
+“No. I gave the customhouse officers a copy of our bill of lading; and as to the other papers, they sent a man off with the pilot, to whom I gave them.”
 
 “Then you have nothing more to do here?”
 
@@ -204,7 +204,7 @@ Dantès blushed.
 
 “Nothing.”
 
-“Captain Leclere did not, before he died, give you a letter for me?”
+“Captain Leclère did not, before he died, give you a letter for me?”
 
 “He was unable to write, sir. But that reminds me that I must ask your leave of absence for some days.”
 
@@ -248,4 +248,4 @@ Dantès blushed.
 
 The young sailor jumped into the skiff, and sat down in the stern sheets, with the order that he be put ashore at La Canebière. The two oarsmen bent to their work, and the little boat glided away as rapidly as possible in the midst of the thousand vessels which choke up the narrow way which leads between the two rows of ships from the mouth of the harbor to the Quai d’Orléans.
 
-The shipowner, smiling, followed him with his eyes until he saw him spring out on the quay and disappear in the midst of the throng, which from five o’clock in the morning until nine o’clock at night, swarms in the famous street of La Canebière,—a street of which the modern Phocéens are so proud that they say with all the gravity in the world, and with that accent which gives so much character to what is said, “If Paris had La Canebière, Paris would be a second Marseilles.” On turning round the owner saw Danglars behind him, apparently awaiting orders, but in reality also watching the young sailor,—but there was a great difference in the expression of the two men who thus followed the movements of Edmond Dantès.
+The shipowner, smiling, followed him with his eyes until he saw him spring out on the quay and disappear in the midst of the throng, which from five o’clock in the morning until nine o’clock at night, swarms in the famous street of La Canebière—a street of which the modern Phocéens are so proud that they say with all the gravity in the world, and with that accent which gives so much character to what is said, “If Paris had La Canebière, Paris would be a second Marseilles.” On turning round the owner saw Danglars behind him, apparently awaiting orders, but in reality also watching the young sailor—but there was a great difference in the expression of the two men who thus followed the movements of Edmond Dantès.

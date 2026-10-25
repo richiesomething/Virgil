@@ -2,7 +2,7 @@ We have seen how quietly Mademoiselle Danglars and Mademoiselle d’Armilly acco
 
 We will leave the banker contemplating the enormous magnitude of his debt before the phantom of bankruptcy, and follow the baroness, who after being momentarily crushed under the weight of the blow which had struck her, had gone to seek her usual adviser, Lucien Debray. The baroness had looked forward to this marriage as a means of ridding her of a guardianship which, over a girl of Eugénie’s character, could not fail to be rather a troublesome undertaking; for in the tacit relations which maintain the bond of family union, the mother, to maintain her ascendancy over her daughter, must never fail to be a model of wisdom and a type of perfection.
 
-Now, Madame Danglars feared Eugénie’s sagacity and the influence of Mademoiselle d’Armilly; she had frequently observed the contemptuous expression with which her daughter looked upon Debray,—an expression which seemed to imply that she understood all her mother’s amorous and pecuniary relationships with the intimate secretary; moreover, she saw that Eugénie detested Debray, not only because he was a source of dissension and scandal under the paternal roof, but because she had at once classed him in that catalogue of bipeds whom Plato endeavors to withdraw from the appellation of men, and whom Diogenes designated as animals upon two legs without feathers.
+Now, Madame Danglars feared Eugénie’s sagacity and the influence of Mademoiselle d’Armilly; she had frequently observed the contemptuous expression with which her daughter looked upon Debray—an expression which seemed to imply that she understood all her mother’s amorous and pecuniary relationships with the intimate secretary; moreover, she saw that Eugénie detested Debray, not only because he was a source of dissension and scandal under the paternal roof, but because she had at once classed him in that catalogue of bipeds whom Plato endeavors to withdraw from the appellation of men, and whom Diogenes designated as animals upon two legs without feathers.
 
 Unfortunately, in this world of ours, each person views things through a certain medium, and so is prevented from seeing in the same light as others, and Madame Danglars, therefore, very much regretted that the marriage of Eugénie had not taken place, not only because the match was good, and likely to insure the happiness of her child, but because it would also set her at liberty. She ran therefore to Debray, who, after having, like the rest of Paris, witnessed the contract scene and the scandal attending it, had retired in haste to his club, where he was chatting with some friends upon the events which served as a subject of conversation for three-fourths of that city known as the capital of the world.
 
@@ -18,7 +18,7 @@ Since then the maid had been below, and like everyone else she thought the young
 
 “Eugénie,” she said to herself, “is lost, and so are we. The affair, as it will be reported, will cover us with shame; for in a society such as ours satire inflicts a painful and incurable wound. How fortunate that Eugénie is possessed of that strange character which has so often made me tremble!”
 
-And her glance was turned towards heaven, where a mysterious Providence disposes all things, and out of a fault, nay, even a vice, sometimes produces a blessing. And then her thoughts, cleaving through space like a bird in the air, rested on Cavalcanti. This Andrea was a wretch, a robber, an assassin, and yet his manners showed the effects of a sort of education, if not a complete one; he had been presented to the world with the appearance of an immense fortune, supported by an honorable name. How could she extricate herself from this labyrinth? To whom would she apply to help her out of this painful situation? Debray, to whom she had run, with the first instinct of a woman towards the man she loves, and who yet betrays her,—Debray could but give her advice, she must apply to someone more powerful than he.
+And her glance was turned towards heaven, where a mysterious Providence disposes all things, and out of a fault, nay, even a vice, sometimes produces a blessing. And then her thoughts, cleaving through space like a bird in the air, rested on Cavalcanti. This Andrea was a wretch, a robber, an assassin, and yet his manners showed the effects of a sort of education, if not a complete one; he had been presented to the world with the appearance of an immense fortune, supported by an honorable name. How could she extricate herself from this labyrinth? To whom would she apply to help her out of this painful situation? Debray, to whom she had run, with the first instinct of a woman towards the man she loves, and who yet betrays her—Debray could but give her advice, she must apply to someone more powerful than he.
 
 The baroness then thought of M. de Villefort. It was M. de Villefort who had remorselessly brought misfortune into her family, as though they had been strangers. But, no; on reflection, the procureur was not a merciless man; and it was not the magistrate, slave to his duties, but the friend, the loyal friend, who roughly but firmly cut into the very core of the corruption; it was not the executioner, but the surgeon, who wished to withdraw the honor of Danglars from ignominious association with the disgraced young man they had presented to the world as their son-in-law. And since Villefort, the friend of Danglars, had acted in this way, no one could suppose that he had been previously acquainted with, or had lent himself to, any of Andrea’s intrigues. Villefort’s conduct, therefore, upon reflection, appeared to the baroness as if shaped for their mutual advantage. But the inflexibility of the procureur should stop there; she would see him the next day, and if she could not make him fail in his duties as a magistrate, she would, at least, obtain all the indulgence he could allow. She would invoke the past, recall old recollections; she would supplicate him by the remembrance of guilty, yet happy days. M. de Villefort would stifle the affair; he had only to turn his eyes on one side, and allow Andrea to fly, and follow up the crime under that shadow of guilt called contempt of court. And after this reasoning she slept easily.
 
@@ -62,7 +62,7 @@ Madame Danglars involuntarily shuddered at the desolate aspect of the mansion; d
 
 “Yes; go.”
 
-The concierge closed the door, leaving Madame Danglars in the street. She had not long to wait; directly afterwards the door was opened wide enough to admit her, and when she had passed through, it was again shut. Without losing sight of her for an instant, the concierge took a whistle from his pocket as soon as they entered the court, and blew it. The valet de chambre appeared on the door-steps.
+The concierge closed the door, leaving Madame Danglars in the street. She had not long to wait; directly afterwards the door was opened wide enough to admit her, and when she had passed through, it was again shut. Without losing sight of her for an instant, the concierge took a whistle from his pocket as soon as they entered the court, and blew it. The valet de chambre appeared on the doorsteps.
 
 “You will excuse this poor fellow, madame,” he said, as he preceded the baroness, “but his orders are precise, and M. de Villefort begged me to tell you that he could not act otherwise.”
 
@@ -86,7 +86,7 @@ Madame Danglars had often heard of the terror to which the magistrate alluded, b
 
 “You wish to speak to me about the circumstance which has just happened?”
 
-“Yes, sir,—a fearful misfortune.”
+“Yes, sir—a fearful misfortune.”
 
 “You mean a mischance.”
 
@@ -104,7 +104,7 @@ Madame Danglars gazed on Villefort, stupefied to find him so almost insultingly 
 
 “Well, then, be more affectionate, my dear Villefort,” said the baroness. “Speak to me not as a magistrate, but as a friend; and when I am in bitter anguish of spirit, do not tell me that I ought to be gay.” Villefort bowed.
 
-“When I hear misfortunes named, madame,” he said, “I have within the last few months contracted the bad habit of thinking of my own, and then I cannot help drawing up an egotistical parallel in my mind. That is the reason that by the side of my misfortunes yours appear to me mere mischances; that is why my dreadful position makes yours appear enviable. But this annoys you; let us change the subject. You were saying, madame——”
+“When I hear misfortunes named, madame,” he said, “I have within the last few months contracted the bad habit of thinking of my own, and then I cannot help drawing up an egotistical parallel in my mind. That is the reason that by the side of my misfortunes yours appear to me mere mischances; that is why my dreadful position makes yours appear enviable. But this annoys you; let us change the subject. You were saying, madame—”
 
 “I came to ask you, my friend,” said the baroness, “what will be done with this impostor?”
 
@@ -136,7 +136,7 @@ The procureur shook his head.
 
 “I was not thinking of that,” replied Madame Danglars quickly.
 
-“Yes, you were thinking of it, and with justice. You could not help thinking of it, and saying to yourself, ‘you, who pursue crime so vindictively, answer now, why are there unpunished crimes in your dwelling?’” The baroness became pale. “You were saying this, were you not?”
+“Yes, you were thinking of it, and with justice. You could not help thinking of it, and saying to yourself, ‘you, who pursue crime so vindictively, answer now, why are there unpunished crimes in your dwelling?’ ” The baroness became pale. “You were saying this, were you not?”
 
 “Well, I own it.”
 
@@ -166,11 +166,11 @@ Villefort drew his armchair nearer to Madame Danglars; then resting both hands u
 
 “For Heaven’s sake, madame,” said Villefort, with a firmness of expression not altogether free from harshness—“for Heaven’s sake, do not ask pardon of me for a guilty wretch! What am I?—the law. Has the law any eyes to witness your grief? Has the law ears to be melted by your sweet voice? Has the law a memory for all those soft recollections you endeavor to recall? No, madame; the law has commanded, and when it commands it strikes. You will tell me that I am a living being, and not a code—a man, and not a volume. Look at me, madame—look around me. Has mankind treated me as a brother? Have men loved me? Have they spared me? Has anyone shown the mercy towards me that you now ask at my hands? No, madame, they struck me, always struck me!
 
-“Woman, siren that you are, do you persist in fixing on me that fascinating eye, which reminds me that I ought to blush? Well, be it so; let me blush for the faults you know, and perhaps—perhaps for even more than those! But having sinned myself,—it may be more deeply than others,—I never rest till I have torn the disguises from my fellow-creatures, and found out their weaknesses. I have always found them; and more,—I repeat it with joy, with triumph,—I have always found some proof of human perversity or error. Every criminal I condemn seems to me living evidence that I am not a hideous exception to the rest. Alas, alas, alas; all the world is wicked; let us therefore strike at wickedness!”
+“Woman, siren that you are, do you persist in fixing on me that fascinating eye, which reminds me that I ought to blush? Well, be it so; let me blush for the faults you know, and perhaps—perhaps for even more than those! But having sinned myself—it may be more deeply than others—I never rest till I have torn the disguises from my fellow-creatures, and found out their weaknesses. I have always found them; and more—I repeat it with joy, with triumph—I have always found some proof of human perversity or error. Every criminal I condemn seems to me living evidence that I am not a hideous exception to the rest. Alas, alas, alas; all the world is wicked; let us therefore strike at wickedness!”
 
 Villefort pronounced these last words with a feverish rage, which gave a ferocious eloquence to his words.
 
-“But”’ said Madame Danglars, resolving to make a last effort, “this young man, though a murderer, is an orphan, abandoned by everybody.”
+“But,” said Madame Danglars, resolving to make a last effort, “this young man, though a murderer, is an orphan, abandoned by everybody.”
 
 “So much the worse, or rather, so much the better; it has been so ordained that he may have none to weep his fate.”
 
@@ -192,7 +192,7 @@ Villefort pronounced these last words with a feverish rage, which gave a ferocio
 
 “But, sir, he has fled; let him escape—inaction is a pardonable offence.”
 
-“I tell you it is too late; early this morning the telegraph was employed, and at this very minute——”
+“I tell you it is too late; early this morning the telegraph was employed, and at this very minute—”
 
 “Sir,” said the valet de chambre, entering the room, “a dragoon has brought this despatch from the Minister of the Interior.”
 

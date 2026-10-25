@@ -8,7 +8,7 @@ Having given this vent to his ill-humor, the baron became more calm; Mademoisell
 
 “Mademoiselle’s lady’s maid says, sir, that mademoiselle is finishing her toilette, and will be here shortly.”
 
-Danglars nodded, to signify that he was satisfied. To the world and to his servants Danglars assumed the character of the good-natured man and the indulgent father. This was one of his parts in the popular comedy he was performing,—a make-up he had adopted and which suited him about as well as the masks worn on the classic stage by paternal actors, who seen from one side, were the image of geniality, and from the other showed lips drawn down in chronic ill-temper. Let us hasten to say that in private the genial side descended to the level of the other, so that generally the indulgent man disappeared to give place to the brutal husband and domineering father.
+Danglars nodded, to signify that he was satisfied. To the world and to his servants Danglars assumed the character of the good-natured man and the indulgent father. This was one of his parts in the popular comedy he was performing—a makeup he had adopted and which suited him about as well as the masks worn on the classic stage by paternal actors, who seen from one side, were the image of geniality, and from the other showed lips drawn down in chronic ill-temper. Let us hasten to say that in private the genial side descended to the level of the other, so that generally the indulgent man disappeared to give place to the brutal husband and domineering father.
 
 “Why the devil does that foolish girl, who pretends to wish to speak to me, not come into my study? and why on earth does she want to speak to me at all?”
 
@@ -32,7 +32,7 @@ Danglars leaped from his chair and raised his eyes and arms towards heaven.
 
 “But,” said Danglars, whose weak mind was at first quite overwhelmed with the weight of this pitiless logic, marking evident premeditation and force of will, “what is your reason for this refusal, Eugénie? what reason do you assign?”
 
-“My reason?” replied the young girl. “Well, it is not that the man is more ugly, more foolish, or more disagreeable than any other; no, M. Andrea Cavalcanti may appear to those who look at men’s faces and figures as a very good specimen of his kind. It is not, either, that my heart is less touched by him than any other; that would be a schoolgirl’s reason, which I consider quite beneath me. I actually love no one, sir; you know it, do you not? I do not then see why, without real necessity, I should encumber my life with a perpetual companion. Has not some sage said, ‘Nothing too much’? and another, ‘I carry all my effects with me’? I have been taught these two aphorisms in Latin and in Greek; one is, I believe, from Phædrus, and the other from Bias. Well, my dear father, in the shipwreck of life—for life is an eternal shipwreck of our hopes—I cast into the sea my useless encumbrance, that is all, and I remain with my own will, disposed to live perfectly alone, and consequently perfectly free.”
+“My reason?” replied the young girl. “Well, it is not that the man is more ugly, more foolish, or more disagreeable than any other; no, M. Andrea Cavalcanti may appear to those who look at men’s faces and figures as a very good specimen of his kind. It is not, either, that my heart is less touched by him than any other; that would be a schoolgirl’s reason, which I consider quite beneath me. I actually love no one, sir; you know it, do you not? I do not then see why, without real necessity, I should encumber my life with a perpetual companion. Has not some sage said, ‘Nothing too much’? and another, ‘I carry all my effects with me’? I have been taught these two aphorisms in Latin and in Greek; one is, I believe, from Phaedrus, and the other from Bias. Well, my dear father, in the shipwreck of life—for life is an eternal shipwreck of our hopes—I cast into the sea my useless encumbrance, that is all, and I remain with my own will, disposed to live perfectly alone, and consequently perfectly free.”
 
 “Unhappy girl, unhappy girl!” murmured Danglars, turning pale, for he knew from long experience the solidity of the obstacle he had so suddenly encountered.
 
@@ -66,9 +66,9 @@ But Eugénie, instead of stooping, drew herself up under the blow. “Ruined?”
 
 “Oh,” cried Eugénie, “you are a bad physiognomist, if you imagine I deplore on my own account the catastrophe of which you warn me. I ruined? and what will that signify to me? Have I not my talent left? Can I not, like Pasta, Malibran, Grisi, acquire for myself what you would never have given me, whatever might have been your fortune, a hundred or a hundred and fifty thousand livres per annum, for which I shall be indebted to no one but myself; and which, instead of being given as you gave me those poor twelve thousand francs, with sour looks and reproaches for my prodigality, will be accompanied with acclamations, with bravos, and with flowers? And if I do not possess that talent, which your smiles prove to me you doubt, should I not still have that ardent love of independence, which will be a substitute for wealth, and which in my mind supersedes even the instinct of self-preservation? No, I grieve not on my own account, I shall always find a resource; my books, my pencils, my piano, all the things which cost but little, and which I shall be able to procure, will remain my own.
 
-“Do you think that I sorrow for Madame Danglars? Undeceive yourself again; either I am greatly mistaken, or she has provided against the catastrophe which threatens you, and, which will pass over without affecting her. She has taken care for herself,—at least I hope so,—for her attention has not been diverted from her projects by watching over me. She has fostered my independence by professedly indulging my love for liberty. Oh, no, sir; from my childhood I have seen too much, and understood too much, of what has passed around me, for misfortune to have an undue power over me. From my earliest recollections, I have been beloved by no one—so much the worse; that has naturally led me to love no one—so much the better—now you have my profession of faith.”
+“Do you think that I sorrow for Madame Danglars? Undeceive yourself again; either I am greatly mistaken, or she has provided against the catastrophe which threatens you, and, which will pass over without affecting her. She has taken care for herself—at least I hope so—for her attention has not been diverted from her projects by watching over me. She has fostered my independence by professedly indulging my love for liberty. Oh, no, sir; from my childhood I have seen too much, and understood too much, of what has passed around me, for misfortune to have an undue power over me. From my earliest recollections, I have been beloved by no one—so much the worse; that has naturally led me to love no one—so much the better—now you have my profession of faith.”
 
-“Then,” said Danglars, pale with anger, which was not at all due to offended paternal love,—“then, mademoiselle, you persist in your determination to accelerate my ruin?”
+“Then,” said Danglars, pale with anger, which was not at all due to offended paternal love—“then, mademoiselle, you persist in your determination to accelerate my ruin?”
 
 “Your ruin? I accelerate your ruin? What do you mean? I do not understand you.”
 
@@ -92,7 +92,7 @@ But Eugénie, instead of stooping, drew herself up under the blow. “Ruined?”
 
 “Thank you. One word more, sir; do you promise me to make what use you can of the report of the fortune M. Cavalcanti will bring without touching the money? This is no act of selfishness, but of delicacy. I am willing to help rebuild your fortune, but I will not be an accomplice in the ruin of others.”
 
-“But since I tell you,” cried Danglars, “that with these three million——”
+“But since I tell you,” cried Danglars, “that with these three million—”
 
 “Do you expect to recover your position, sir, without touching those three million?”
 
@@ -100,7 +100,7 @@ But Eugénie, instead of stooping, drew herself up under the blow. “Ruined?”
 
 “Shall you be able to pay M. Cavalcanti the five hundred thousand francs you promise for my dowry?”
 
-“He shall receive them on returning from the mayor’s20.”
+“He shall receive them on returning from the mayor’s.”
 
 “Very well!”
 
@@ -110,7 +110,7 @@ But Eugénie, instead of stooping, drew herself up under the blow. “Ruined?”
 
 “Absolutely.”
 
-“Then, as I said before, sir,—very well; I am ready to marry M. Cavalcanti.”
+“Then, as I said before, sir—very well; I am ready to marry M. Cavalcanti.”
 
 “But what are you up to?”
 

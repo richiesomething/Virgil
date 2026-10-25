@@ -1,8 +1,8 @@
 At first sight, the exterior of the house at Auteuil gave no indications of splendor, nothing one would expect from the destined residence of the magnificent Count of Monte Cristo; but this simplicity was according to the will of its master, who positively ordered nothing to be altered outside. The splendor was within. Indeed, almost before the door opened, the scene changed.
 
-M. Bertuccio had outdone himself in the taste displayed in furnishing, and in the rapidity with which it was executed. It is told that the Duc d’Antin removed in a single night a whole avenue of trees that annoyed Louis XIV.; in three days M. Bertuccio planted an entirely bare court with poplars, large spreading sycamores to shade the different parts of the house, and in the foreground, instead of the usual paving-stones, half hidden by the grass, there extended a lawn but that morning laid down, and upon which the water was yet glistening. For the rest, the orders had been issued by the count; he himself had given a plan to Bertuccio, marking the spot where each tree was to be planted, and the shape and extent of the lawn which was to take the place of the paving-stones.
+M. Bertuccio had outdone himself in the taste displayed in furnishing, and in the rapidity with which it was executed. It is told that the Duc d’Antin removed in a single night a whole avenue of trees that annoyed Louis XIV; in three days M. Bertuccio planted an entirely bare court with poplars, large spreading sycamores to shade the different parts of the house, and in the foreground, instead of the usual paving-stones, half hidden by the grass, there extended a lawn but that morning laid down, and upon which the water was yet glistening. For the rest, the orders had been issued by the count; he himself had given a plan to Bertuccio, marking the spot where each tree was to be planted, and the shape and extent of the lawn which was to take the place of the paving-stones.
 
-Thus the house had become unrecognizable, and Bertuccio himself declared that he scarcely knew it, encircled as it was by a framework of trees. The overseer would not have objected, while he was about it, to have made some improvements in the garden, but the count had positively forbidden it to be touched. Bertuccio made amends, however, by loading the antechambers, staircases, and mantle-pieces with flowers.
+Thus the house had become unrecognizable, and Bertuccio himself declared that he scarcely knew it, encircled as it was by a framework of trees. The overseer would not have objected, while he was about it, to have made some improvements in the garden, but the count had positively forbidden it to be touched. Bertuccio made amends, however, by loading the antechambers, staircases, and mantelpieces with flowers.
 
 What, above all, manifested the shrewdness of the steward, and the profound science of the master, the one in carrying out the ideas of the other, was that this house which appeared only the night before so sad and gloomy, impregnated with that sickly smell one can almost fancy to be the smell of time, had in a single day acquired the aspect of life, was scented with its master’s favorite perfumes, and had the very light regulated according to his wish. When the count arrived, he had under his touch his books and arms, his eyes rested upon his favorite pictures; his dogs, whose caresses he loved, welcomed him in the antechamber; the birds, whose songs delighted him, cheered him with their music; and the house, awakened from its long sleep, like the sleeping beauty in the wood, lived, sang, and bloomed like the houses we have long cherished, and in which, when we are forced to leave them, we leave a part of our souls.
 
@@ -20,7 +20,7 @@ At five o’clock precisely, the count arrived before the house at Auteuil, foll
 
 “Will your excellency deign to open it?” said the delighted Bertuccio, “and you will find gloves in it.”
 
-Elsewhere the count found everything he required—smelling-bottles, cigars, knick-knacks.
+Elsewhere the count found everything he required—smelling-bottles, cigars, knickknacks.
 
 “Good,” he said; and M. Bertuccio left enraptured, so great, so powerful, and real was the influence exercised by this man over all who surrounded him.
 
@@ -30,7 +30,7 @@ At precisely six o’clock the clatter of horses’ hoofs was heard at the entra
 
 “I mean, because he wants petting. If you had seen at what a pace he came—like the wind!”
 
-“I should think so,—a horse that cost 5,000 francs!” said Monte Cristo, in the tone which a father would use towards a son.
+“I should think so—a horse that cost 5,000 francs!” said Monte Cristo, in the tone which a father would use towards a son.
 
 “Do you regret them?” asked Morrel, with his open laugh.
 
@@ -54,7 +54,7 @@ Morrel smiled with an expression very like a grimace, and then turned round to M
 
 “Ah, madame,” he said, “why did you not make that request of me?”
 
-“With you, sir,” replied the baroness, “one can wish for nothing, one is so sure to obtain it. If it were so with M. Morrel——”
+“With you, sir,” replied the baroness, “one can wish for nothing, one is so sure to obtain it. If it were so with M. Morrel—”
 
 “Unfortunately,” replied the count, “I am witness that M. Morrel cannot give up his horse, his honor being engaged in keeping it.”
 
@@ -92,7 +92,7 @@ Meanwhile, Danglars, who had cared little for curiosities, was mechanically tear
 
 “Why?” said Château-Renaud.
 
-“You pretend not to know,—because government was not rich enough.”
+“You pretend not to know—because government was not rich enough.”
 
 “Ah, pardon me,” said Château-Renaud; “I have heard of these things every day during the last eight years, and I cannot understand them yet.”
 
@@ -102,7 +102,7 @@ Meanwhile, Danglars, who had cared little for curiosities, was mechanically tear
 
 “Major Bartolomeo Cavalcanti and Count Andrea Cavalcanti,” announced Baptistin.
 
-A black satin stock, fresh from the maker’s hands, gray moustaches, a bold eye, a major’s uniform, ornamented with three medals and five crosses—in fact, the thorough bearing of an old soldier—such was the appearance of Major Bartolomeo Cavalcanti, that tender father with whom we are already acquainted. Close to him, dressed in entirely new clothes, advanced smilingly Count Andrea Cavalcanti, the dutiful son, whom we also know. The three young people were talking together. On the entrance of the new-comers, their eyes glanced from father to son, and then, naturally enough, rested on the latter, whom they began criticising.
+A black satin stock, fresh from the maker’s hands, gray moustaches, a bold eye, a major’s uniform, ornamented with three medals and five crosses—in fact, the thorough bearing of an old soldier—such was the appearance of Major Bartolomeo Cavalcanti, that tender father with whom we are already acquainted. Close to him, dressed in entirely new clothes, advanced smilingly Count Andrea Cavalcanti, the dutiful son, whom we also know. The three young people were talking together. On the entrance of the newcomers, their eyes glanced from father to son, and then, naturally enough, rested on the latter, whom they began criticising.
 
 “Cavalcanti!” said Debray.
 
@@ -182,11 +182,13 @@ Bertuccio glanced through the door, which was ajar. The count watched him. “Go
 
 “Whom do you mean?”
 
-“The woman of the garden!—she that was enceinte—she who was walking while she waited for——”
+“The woman of the garden!—she that was enceinte—she who was walking while she waited for—”
 
 Bertuccio stood at the open door, with his eyes starting and his hair on end.
 
-“Waiting for whom?” Bertuccio, without answering, pointed to Villefort with something of the gesture Macbeth uses to point out Banquo.
+“Waiting for whom?”
+
+Bertuccio, without answering, pointed to Villefort with something of the gesture Macbeth uses to point out Banquo.
 
 “Oh, oh!” he at length muttered, “do you see?”
 
@@ -206,7 +208,7 @@ Bertuccio stood at the open door, with his eyes starting and his hair on end.
 
 “Eight!” repeated Bertuccio.
 
-“Stop! You are in a shocking hurry to be off—you forget one of my guests. Lean a little to the left. Stay! look at M. Andrea Cavalcanti, the young man in a black coat, looking at Murillo’s ‘Madonna’; now he is turning.”
+“Stop! You are in a shocking hurry to be off—you forget one of my guests. Lean a little to the left. Stay! look at M. Andrea Cavalcanti, the young man in a black coat, looking at Murillo’s Madonna; now he is turning.”
 
 This time Bertuccio would have uttered an exclamation, had not a look from Monte Cristo silenced him.
 
