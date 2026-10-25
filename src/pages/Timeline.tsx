@@ -46,7 +46,7 @@ export default function Timeline() {
           <p>Events appear here as you read.</p>
         </div>
       )}
-      <div className="timeline">
+      <div className="story-timeline">
         {groups.map((g) => (
           <section key={g.key}>
             <h2 className="timeline__year">{g.title}</h2>
@@ -55,7 +55,7 @@ export default function Timeline() {
                 <li key={e.id} className={`tl-event${e.flashback ? ' tl-event--back' : ''}`}>
                   <span className="tl-event__dot" aria-hidden="true" />
                   <p className="tl-event__date">
-                    {e.label}
+                    {order === 'telling' || e.label !== g.key ? e.label : null}
                     {e.flashback && <span className="tag tl-tag">Backstory · told in ch {e.revealed}</span>}
                   </p>
                   <h3 className="tl-event__title">{e.title}</h3>

@@ -741,7 +741,8 @@ details.section > .section__body { padding-bottom: 16px; }
 .afterword-card { display: grid; gap: 6px; color: inherit; border-left: 3px solid var(--gold); }
 .afterword h2 { font-size: 1.5rem; margin: 0 0 10px; }
 .afterword .section { margin-top: 28px; scroll-margin-top: calc(var(--header-h) + var(--safe-top) + 12px); }
-.afterword__toc { display: flex; flex-wrap: wrap; gap: 6px; margin: 12px 0 0; }
+.afterword__toc { margin-top: 10px; }
+.afterword__toc .chip-btn { display: inline-flex; align-items: center; flex: none; white-space: nowrap; }
 .aw-block h3 { font-size: 1.15rem; margin: 14px 0 4px; }
 .aw-block p { margin: 0; }
 .aw-detail { display: block; }
@@ -764,3 +765,13 @@ details.section > .section__body { padding-bottom: 16px; }
 .tl-place, .tl-ch { display: inline-flex; align-items: center; gap: 3px; font: 600 0.75rem var(--sans); padding: 3px 8px; border-radius: 999px; background: var(--surface-2); color: var(--text); }
 .tl-now { display: inline-flex; align-items: center; gap: 6px; margin: 10px 0 0; padding: 4px 10px; border-radius: 999px; background: var(--gold); color: var(--accent-text); font: 700 0.75rem var(--sans); }
 .title-row { flex-wrap: wrap; }
+.guide-pills { display: flex; gap: 8px; margin: 4px 0 4px; }
+.guide-pills .pill-btn { min-height: 40px; padding: 0 14px; font-size: 0.875rem; }
+a.chip-btn { display: inline-flex; align-items: center; }
+.segmented button { min-width: 0; white-space: nowrap; }
+.primer__toggle { white-space: nowrap; }
+@media (max-width: 359px) {
+  .segmented button { font-size: 0.875rem; gap: 4px; padding: 0 2px; }
+  .segmented .count { display: none; }
+  .primer__toggle .small { display: none; }
+}

@@ -23,7 +23,7 @@ export default function Afterword() {
     <article className="afterword">
       <p className="eyebrow">After you finish</p>
       <h1 className="page-title">The full picture</h1>
-      <nav className="afterword__toc" aria-label="Sections">
+      <nav className="chips afterword__toc" aria-label="Sections">
         {[
           ['ending', 'The ending'],
           ['themes', 'Themes'],

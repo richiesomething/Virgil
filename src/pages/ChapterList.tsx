@@ -17,26 +17,24 @@ export default function ChapterList() {
 
   return (
     <div>
-      <div className="title-row">
-        <h1 className="large-title">Chapters</h1>
-        {upTo > 0 && (
-          <span style={{ display: 'flex', gap: 8 }}>
-            {(book.themes?.length ?? 0) > 0 && (
-              <a className="pill-btn" href={href('b', book.meta.id, 'themes')}>
-                <Icon name="sparkle" className="icon--sm" /> Themes
-              </a>
-            )}
-            {hasTimeline(book) && (
-              <a className="pill-btn" href={href('b', book.meta.id, 'timeline')}>
-                <Icon name="clock" className="icon--sm" /> Timeline
-              </a>
-            )}
-          </span>
-        )}
-      </div>
+      <h1 className="large-title">Chapters</h1>
       <p className="muted" style={{ marginBottom: 8 }}>
         {upTo === 0 ? `${meta.chapterCount} chapters` : `${upTo} of ${meta.chapterCount} read`}
       </p>
+      {upTo > 0 && ((book.themes?.length ?? 0) > 0 || hasTimeline(book)) && (
+        <div className="guide-pills">
+          {(book.themes?.length ?? 0) > 0 && (
+            <a className="pill-btn" href={href('b', book.meta.id, 'themes')}>
+              <Icon name="sparkle" className="icon--sm" /> Themes
+            </a>
+          )}
+          {hasTimeline(book) && (
+            <a className="pill-btn" href={href('b', book.meta.id, 'timeline')}>
+              <Icon name="clock" className="icon--sm" /> Timeline
+            </a>
+          )}
+        </div>
+      )}
 
       {next && (
         <div className="group" style={{ marginTop: 12 }}>
