@@ -60,7 +60,11 @@ function walk(el: Element, out: Para[]) {
     if (SKIP.has(tag)) continue
     const hasBlockChild = [...child.children].some((c) => BLOCKS.has(c.tagName.toUpperCase()))
     if (BLOCKS.has(tag) && !hasBlockChild) {
-      const t = (child.textContent ?? '').replace(/\s+/g, ' ').trim()
+      // Line breaks become spaces; footnote markers and notes are not part of the text.
+      const copy = child.cloneNode(true) as Element
+      copy.querySelectorAll('br').forEach((br) => br.replaceWith(' '))
+      copy.querySelectorAll('sup, aside, a[role="doc-noteref"]').forEach((el) => el.remove())
+      const t = (copy.textContent ?? '').replace(/\s+/g, ' ').trim()
       if (t) out.push({ text: t, heading: /^H[1-6]$/.test(tag) || undefined })
     } else if (tag === 'BR' || tag === 'HR') {
       continue

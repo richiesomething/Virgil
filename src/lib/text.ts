@@ -1,8 +1,9 @@
 // Where a book's text comes from: chapter files shipped with the app (public domain) or the
 // reader's own copy (IndexedDB). Either way the reader gets a chapter as paragraphs.
 import type { BookData, BookMeta } from '../types'
-import { getCopy, type CopyInfo } from './copies'
+import { getCopy, type BookCopy, type CopyInfo } from './copies'
 import { createStore } from './store'
+import { splitParagraphs } from './import/paragraphs'
 
 export type TextSource = 'shipped' | 'copy' | 'none'
 
@@ -32,6 +33,7 @@ export function getChapterText(book: BookData, n: number): Promise<string[]> {
 
 /** Forget a book's copy text, after it was removed or replaced. */
 export function forgetText(bookId: string) {
+  copies.delete(bookId)
   for (const k of [...cache.keys()]) if (k.startsWith(bookId + '/')) cache.delete(k)
 }
 
@@ -41,20 +43,18 @@ async function fetchShipped(bookId: string, n: number): Promise<string[]> {
   return splitParagraphs(await res.text())
 }
 
+// A copy is read from IndexedDB once per session, not once per chapter.
+const copies = new Map<string, Promise<BookCopy | undefined>>()
+
 async function fromCopy(bookId: string, n: number): Promise<string[]> {
-  const copy = await getCopy(bookId)
+  if (!copies.has(bookId)) copies.set(bookId, getCopy(bookId))
+  const copy = await copies.get(bookId)!
   const ch = copy?.chapters[n - 1]
   if (!ch) throw new Error('No copy of this book here')
   return ch
 }
 
-export function splitParagraphs(text: string): string[] {
-  return text
-    .replace(/\r\n/g, '\n')
-    .split(/\n[ \t]*\n+/)
-    .map((p) => p.replace(/\s+/g, ' ').trim())
-    .filter(Boolean)
-}
+export { splitParagraphs }
 
 // ── Where the reader is in the text ───────────────────────────────────────
 

@@ -23,6 +23,7 @@ export default function YourCopy() {
   const [step, setStep] = useState<Step>({ kind: 'idle' })
   const [error, setError] = useState<string | null>(null)
   const input = useRef<HTMLInputElement>(null)
+  const titles = book.chapters.map((c) => c.title)
 
   if (book.meta.text?.status === 'shipped') {
     return (
@@ -42,11 +43,7 @@ export default function YourCopy() {
     try {
       const paragraphs = await parseFile(file, (message, fraction) => setStep({ kind: 'parsing', message, fraction }))
       if (paragraphs.length < 10) throw new Error('Virgil couldn’t find any text in that file.')
-      const detection = detectChapters(
-        paragraphs,
-        book.chapters.map((c) => c.title),
-        total,
-      )
+      const detection = detectChapters(paragraphs, titles, total)
       setStep({ kind: 'review', file, paragraphs, detection, starts: detection.starts })
     } catch (e) {
       setError((e as Error).message)
@@ -57,7 +54,7 @@ export default function YourCopy() {
   const save = async (s: Extract<Step, { kind: 'review' }>) => {
     setStep({ kind: 'saving' })
     try {
-      const chapters = splitChapters(s.paragraphs, s.starts)
+      const chapters = splitChapters(s.paragraphs, s.starts, titles)
       await putCopy({
         bookId: id,
         file: { name: s.file.name, size: s.file.size, type: s.file.type },
@@ -74,7 +71,7 @@ export default function YourCopy() {
     }
   }
 
-  if (step.kind === 'review') return <Review step={step} total={total} upTo={upTo} onChange={(starts) => setStep({ ...step, starts })} onSave={() => save(step)} onCancel={() => setStep({ kind: 'idle' })} />
+  if (step.kind === 'review') return <Review step={step} total={total} upTo={upTo} titles={titles} onChange={(starts) => setStep({ ...step, starts })} onSave={() => save(step)} onCancel={() => setStep({ kind: 'idle' })} />
 
   return (
     <article className="stack">
@@ -101,9 +98,13 @@ export default function YourCopy() {
             <button
               className="btn btn--ghost"
               onClick={async () => {
-                await deleteCopy(id)
-                forgetText(id)
-                showToast('Your copy was removed from this device.')
+                try {
+                  await deleteCopy(id)
+                  forgetText(id)
+                  showToast('Your copy was removed from this device.')
+                } catch (e) {
+                  setError(`Couldn’t remove it: ${(e as Error).message}`)
+                }
               }}
             >
               Remove
@@ -155,6 +156,7 @@ function Review({
   step,
   total,
   upTo,
+  titles,
   onChange,
   onSave,
   onCancel,
@@ -162,6 +164,7 @@ function Review({
   step: Extract<Step, { kind: 'review' }>
   total: number
   upTo: number
+  titles: string[]
   onChange: (starts: number[]) => void
   onSave: () => void
   onCancel: () => void
@@ -169,7 +172,7 @@ function Review({
   const { paragraphs, detection, starts } = step
   const ok = starts.length === total
   const [manual, setManual] = useState(detection.method === 'none')
-  const chapters = ok ? splitChapters(paragraphs, starts) : []
+  const chapters = ok ? splitChapters(paragraphs, starts, titles) : []
   useEffect(() => window.scrollTo(0, 0), [])
 
   return (
@@ -248,7 +251,8 @@ function Candidates({
     const next = chosen.has(i) ? starts.filter((s) => s !== i) : [...starts, i].sort((a, b) => a - b)
     onChange(next)
   }
-  // Lines after the reader's bookmark region are shown blurred: a later chapter's heading can be a spoiler.
+  // Lines that could be a later chapter's heading are blurred: by how many starts are ticked before
+  // them, and, while few are ticked, by their position in the list (allowing a few front-matter lines).
   const safeCount = Math.min(total, upTo + 1)
   return (
     <div className="stack" style={{ gap: 10 }}>
@@ -258,7 +262,7 @@ function Candidates({
       <div className="group">
         {list.map((i) => {
           const rank = starts.filter((s) => s < i).length + 1
-          const hidden = rank > safeCount
+          const hidden = rank > safeCount || (starts.length < safeCount && list.indexOf(i) >= safeCount + 3)
           return (
             <label key={i} className="row candidate">
               <input type="checkbox" checked={chosen.has(i)} onChange={() => toggle(i)} />

@@ -117,6 +117,9 @@ function ChapterReader({ n }: { n: number }) {
   const bar = useRef<HTMLInputElement>(null)
   const wpmRef = useRef(wpm)
   wpmRef.current = wpm
+  const endedRef = useRef(false)
+  const playingRef = useRef(false)
+  const prefetched = useRef(false)
 
   // Load and tokenize the chapter; resume where the reader left off.
   useEffect(() => {
@@ -125,6 +128,7 @@ function ChapterReader({ n }: { n: number }) {
       .then((paragraphs) => {
         if (!live) return
         const t = tokenize(paragraphs)
+        if (!t.tokens.length) return setError('This chapter has no text in your copy.')
         const resume = resumeFor(reading.get(), id, n)
         idx.current = resume ? Math.min(resume.word, t.tokens.length - 1) : 0
         setPausedIndex(idx.current)
@@ -149,7 +153,8 @@ function ChapterReader({ n }: { n: number }) {
 
   const show = useCallback(
     (i: number) => {
-      const t = chapterTokens!.tokens[i]
+      const t = chapterTokens?.tokens[i]
+      if (!t) return
       if (before.current && pivot.current && after.current) {
         before.current.textContent = t.text.slice(0, t.pivot)
         pivot.current.textContent = t.text[t.pivot] ?? ''
@@ -175,7 +180,9 @@ function ChapterReader({ n }: { n: number }) {
   }, [])
 
   const pause = useCallback(() => {
+    if (endedRef.current) return
     stop()
+    playingRef.current = false
     setPlaying(false)
     setPausedIndex(idx.current)
     persist(idx.current)
@@ -183,9 +190,11 @@ function ChapterReader({ n }: { n: number }) {
 
   const finish = useCallback(() => {
     stop()
+    playingRef.current = false
     setPlaying(false)
     idx.current = count - 1
     setPausedIndex(idx.current)
+    endedRef.current = true
     setEnded(true)
     if (count) savePos(id, { chapter: n, word: count, words: count })
   }, [count, id, n, stop])
@@ -195,29 +204,45 @@ function ChapterReader({ n }: { n: number }) {
     show(i)
     const now = performance.now()
     if (now - lastSave.current > 2000) persist(i)
-    const ms = msFor(chapterTokens!.tokens[i], wpmRef.current) * rampFactor(sincePlay.current++)
+    // Fetch the next chapter once this one is nearly done.
+    if (!prefetched.current && i > count * 0.8 && n < total && n + 1 <= upTo + 1) {
+      prefetched.current = true
+      getChapterText(book, n + 1).catch(() => {})
+    }
+    const t = chapterTokens?.tokens[i]
+    if (!t) return finish()
+    const ms = msFor(t, wpmRef.current) * rampFactor(sincePlay.current++)
     nextAt.current = Math.max(now, nextAt.current) + ms
     timer.current = window.setTimeout(() => {
       if (idx.current + 1 >= count) return finish()
       idx.current += 1
       tick()
     }, nextAt.current - now)
-  }, [chapterTokens, count, finish, persist, show])
+  }, [book, chapterTokens, count, finish, n, persist, show, total, upTo])
 
   const play = useCallback(() => {
     if (!chapterTokens || ended) return
     sincePlay.current = 0
     nextAt.current = 0
+    playingRef.current = true
     setPlaying(true)
     setView('flash')
-    navigator.wakeLock?.request('screen').then((w) => (wake.current = w)).catch(() => {})
+    navigator.wakeLock
+      ?.request('screen')
+      .then((w) => {
+        if (playingRef.current) wake.current = w
+        else w.release().catch(() => {}) // paused before the lock arrived
+      })
+      .catch(() => {})
     tick()
   }, [chapterTokens, ended, tick])
 
   const seek = useCallback(
     (i: number) => {
       stop()
+      playingRef.current = false
       setPlaying(false)
+      endedRef.current = false
       setEnded(false)
       idx.current = Math.max(0, Math.min(count - 1, i))
       setPausedIndex(idx.current)
@@ -245,9 +270,9 @@ function ChapterReader({ n }: { n: number }) {
       document.removeEventListener('visibilitychange', onHide)
       window.removeEventListener('blur', onHide)
       stop()
-      if (!ended && count) savePos(id, { chapter: n, word: idx.current, words: count })
+      if (!endedRef.current && count) savePos(id, { chapter: n, word: idx.current, words: count })
     }
-  }, [count, ended, id, n, pause, stop])
+  }, [count, id, n, pause, stop])
 
   useEffect(() => {
     const onKey = (e: KeyboardEvent) => {
@@ -263,11 +288,6 @@ function ChapterReader({ n }: { n: number }) {
     window.addEventListener('keydown', onKey)
     return () => window.removeEventListener('keydown', onKey)
   }, [chapterTokens, id, n, seek, setWpm, toggle, upTo])
-
-  // Prefetch the next chapter near the end of this one.
-  useEffect(() => {
-    if (chapterTokens && n < total && n + 1 <= upTo + 1 && paused > count * 0.8) getChapterText(book, n + 1).catch(() => {})
-  }, [book, chapterTokens, count, n, paused, total, upTo])
 
   if (error) return <ReaderShell n={n} title="Couldn’t load this chapter" message={error} link={{ href: href('b', id, 'read', n), label: 'Try again' }} />
   if (!chapterTokens) return <ReaderShell n={n} title="" message="Opening the chapter…" />
@@ -299,7 +319,7 @@ function ChapterReader({ n }: { n: number }) {
                 </button>
               </>
             ) : done ? (
-              <button className="btn btn--primary btn--lg btn--block" onClick={() => navigate(href('b', id, 'read', n + 1))}>
+              <button className="btn btn--primary btn--lg btn--block" onClick={() => navigate(href('b', id, 'read', n + 1), { replace: true })}>
                 Next chapter <Icon name="chevronRight" />
               </button>
             ) : (
@@ -309,7 +329,7 @@ function ChapterReader({ n }: { n: number }) {
                   className="btn btn--primary btn--lg btn--block"
                   onClick={() => {
                     setBookmark(n)
-                    navigate(href('b', id, 'read', n + 1))
+                    navigate(href('b', id, 'read', n + 1), { replace: true })
                   }}
                 >
                   <Icon name="check" /> Finished · read Chapter {n + 1}

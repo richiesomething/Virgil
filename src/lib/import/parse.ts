@@ -1,6 +1,6 @@
 // Reads an EPUB, PDF or text file into paragraphs. Parsers load on demand so the app bundle stays small.
 import type { Para } from './chapters'
-import { splitParagraphs } from '../text'
+import { splitParagraphs } from './paragraphs'
 
 export type Progress = (message: string, fraction?: number) => void
 

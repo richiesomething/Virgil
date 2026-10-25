@@ -119,11 +119,14 @@ The imported text must line up with Virgil's chapter numbering. Detection works 
 1. **Known titles.** Virgil knows every chapter title. A paragraph that equals a title (case- and punctuation-insensitive, with any "Chapter 3" prefix stripped) is a chapter start. If all `chapterCount` titles are found in order, done.
 2. **Numbered headings.** Otherwise, paragraphs matching `^(chapter|part|book)?\s*(\d+|[ivxlc]+|one|two|…|twenty)\b` (short, no sentence punctuation) in increasing order.
 3. **Review screen.** The result is shown as a list: chapter number, first words, word count. For chapters beyond the bookmark only the number and word count are shown (the first words of a later chapter can spoil). If the count doesn't match `chapterCount`, the screen says so and offers the candidate headings as checkboxes (the heading-like paragraphs), with a running count, so the reader can fix the split by hand. Saving requires exactly `chapterCount` chapters.
-4. Front and back matter before the first chapter and after the last are dropped.
+4. Front matter before the first chapter is dropped, and so is back matter after the last one that starts with a heading such as "About the author", "Acknowledgements" or "Appendix".
+5. A table of contents matches every title too, with nothing between the entries; a match whose chapters have no text between their headings is rejected and the search starts again after it.
+
+Known limits (checked against 31 generated layouts): two-column PDFs come out interleaved; a word hyphenated across lines with a plain ASCII hyphen is joined without it ("mail-carrying" → "mailcarrying"), since the parser can't tell it from a syllable break; small caps read as capitals. Scanned PDFs with no text layer are refused with a message.
 
 ### 5.4 Storage
 
-IndexedDB database `virgil`, store `texts`, key = book id: `{ bookId, file: { name, size, type }, importedAt, chapters: string[][] (paragraphs per chapter), wordCounts }`. A small async store (`useYourCopy(bookId)`) reports availability to the UI. localStorage is not used for texts (a 5 MB quota and synchronous).
+IndexedDB database `virgil`, store `copies`, key = book id: `{ bookId, file: { name, size, type }, importedAt, chapters: string[][] (paragraphs per chapter), wordCounts }`. A small async store (`useYourCopy(bookId)`) reports availability to the UI. localStorage is not used for texts (a 5 MB quota and synchronous).
 
 Privacy line on the import page: "Your file is read on this device and kept in this browser. It is never uploaded."
 
