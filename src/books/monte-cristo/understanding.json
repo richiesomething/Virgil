@@ -1601,7 +1601,7 @@
    "chapter": 44,
    "kind": "motif",
    "title": "Buried alive",
-   "text": "A box is buried in a garden at night, and inside it a newborn is barely breathing. Bertuccio digs it up and brings it back to life. The image of someone put in the ground alive and pulled out again echoes Dantès sewn into a sack and thrown into the sea. In this novel graves do not always stay shut.",
+   "text": "A box is buried in a garden at night, and inside it a newborn is barely breathing. Bertuccio digs it up and brings it back to life. The image of someone put in the ground alive and pulled out again echoes Dantès sewn into a sack and thrown into the sea.",
    "themes": [
     "prison-freedom",
     "the-past-returns"
@@ -4053,5 +4053,2583 @@
    "How do you feel about Haydée's place in the story and her ending with the Count, given that he bought her as a slave?",
    "\"Wait and hope.\" Does the novel earn its final words, given that its hero spent most of the book acting rather than waiting?"
   ]
- }
+ },
+ "timeline": [
+  {
+   "id": "spada-poisoned",
+   "date": "1498",
+   "label": "1498",
+   "approx": false,
+   "title": "Cardinal Spada is poisoned by the Borgias",
+   "text": [
+    {
+     "from": 18,
+     "text": "Pope Alexander VI and his son Cæsar Borgia invite two newly made cardinals, Spada and Rospigliosi, to dinner and poison them for their wealth. Spada's fortune is never found. His will leaves his nephew only his papers and a breviary (prayer book). For three centuries the family searches in vain."
+    }
+   ],
+   "revealed": 18,
+   "chapters": [
+    18
+   ],
+   "flashback": true,
+   "places": [
+    "rome"
+   ],
+   "people": [
+    "cardinal-spada",
+    "cesare-borgia"
+   ]
+  },
+  {
+   "id": "noirtier-revolution",
+   "date": "1793",
+   "label": "c. 1793",
+   "approx": true,
+   "title": "Noirtier survives the Terror",
+   "text": [
+    {
+     "from": 12,
+     "text": "Noirtier, Villefort's father, was a revolutionary who was himself hunted during the Terror. He boasts of escaping Paris in a hay-cart with Robespierre's agents on his trail. It explains his calm in danger, and why he and his royalist son stand on opposite sides."
+    }
+   ],
+   "revealed": 12,
+   "chapters": [
+    12
+   ],
+   "flashback": true,
+   "places": [
+    "paris"
+   ],
+   "people": [
+    "noirtier"
+   ]
+  },
+  {
+   "id": "faria-finds-letter",
+   "date": "1807",
+   "label": "1807",
+   "approx": false,
+   "title": "Faria discovers Spada's hidden letter",
+   "text": [
+    {
+     "from": 18,
+     "text": "The last Count of Spada dies and leaves his secretary, the Abbé Faria, his library and the old breviary. Lighting a candle with a scrap of paper from it, Faria sees invisible ink appear. Pieced together, it tells where Spada buried his treasure: in the caves of the island of Monte Cristo. A month later Faria is arrested."
+    }
+   ],
+   "revealed": 18,
+   "chapters": [
+    18
+   ],
+   "flashback": true,
+   "places": [
+    "rome",
+    "monte-cristo-island"
+   ],
+   "people": [
+    "abbe-faria",
+    "count-of-spada",
+    "cardinal-spada"
+   ]
+  },
+  {
+   "id": "faria-to-if",
+   "date": "1811",
+   "label": "1811",
+   "approx": false,
+   "title": "The Abbé Faria is sent to the Château d'If",
+   "text": [
+    {
+     "from": 14,
+     "text": "Faria, an Italian priest arrested at Piombino, has been a prisoner in the Château d'If since 1811. The officials say he went mad in 1813, because he keeps offering millions for his freedom."
+    },
+    {
+     "from": 16,
+     "text": "Faria, an Italian priest arrested at Piombino, reached the Château d'If in 1811 after three years in the fortress of Fenestrelle. His crime was political: he dreamed of a united Italy. The officials think him mad because he keeps offering millions for his freedom."
+    }
+   ],
+   "revealed": 14,
+   "chapters": [
+    14,
+    16
+   ],
+   "flashback": true,
+   "places": [
+    "piombino",
+    "chateau-dif"
+   ],
+   "people": [
+    "abbe-faria"
+   ]
+  },
+  {
+   "id": "napoleon-to-elba",
+   "date": "1814-04",
+   "label": "April 1814",
+   "approx": false,
+   "title": "Napoleon abdicates and is exiled to Elba",
+   "text": [
+    {
+     "from": 1,
+     "text": "Napoleon has given up his throne and lives in exile on the island of Elba, off the Italian coast. The Bourbon king, Louis XVIII, rules France again. Anyone seen to be in touch with Elba is suspected of plotting the Emperor's return."
+    },
+    {
+     "from": 6,
+     "text": "Napoleon gave up his throne in April 1814 and was exiled to Elba, and the Bourbon king Louis XVIII was restored. Royalists like the Saint-Mérans see Bonapartists everywhere. Anyone in touch with Elba is suspected of plotting the Emperor's return."
+    }
+   ],
+   "revealed": 1,
+   "chapters": [
+    1,
+    6
+   ],
+   "flashback": false,
+   "places": [
+    "elba"
+   ],
+   "people": [
+    "napoleon",
+    "louis-xviii"
+   ]
+  },
+  {
+   "id": "quesnel-disappears",
+   "date": "1815-02-04",
+   "label": "c. early February 1815",
+   "approx": true,
+   "title": "General Quesnel vanishes after a Bonapartist meeting",
+   "text": [
+    {
+     "from": 11,
+     "text": "General Quesnel, a royalist whom the Bonapartists thought was on their side, is lured to a club in the Rue Saint-Jacques and never comes home. The police now think it was murder. Their suspect, a dark man of about fifty with black whiskers, sounds exactly like Noirtier."
+    },
+    {
+     "from": 12,
+     "text": "General Quesnel, a royalist whom the Bonapartists thought was on their side, is lured to the club in the Rue Saint-Jacques and is found next day in the Seine. Noirtier, the club's vice-president, admits the general heard their plans and swore silence. He was 'allowed to depart free', Noirtier says, and simply 'lost his way'."
+    },
+    {
+     "from": 60,
+     "text": "General Quesnel, a royalist, was lured to the Bonapartist club in the Rue Saint-Jacques and found next day in the Seine. Noirtier, the club's vice-president, admitted the general heard their plans. Quesnel was Franz d'Épinay's father, and Noirtier still opposes Valentine's marriage to Franz."
+    }
+   ],
+   "revealed": 11,
+   "chapters": [
+    11,
+    12,
+    58,
+    60
+   ],
+   "flashback": true,
+   "places": [
+    "bonapartist-club"
+   ],
+   "people": [
+    "general-quesnel",
+    "noirtier"
+   ]
+  },
+  {
+   "id": "quesnel-duel",
+   "date": "1815-02-05",
+   "label": "5 February 1815",
+   "approx": false,
+   "title": "Noirtier kills General de Quesnel in a duel",
+   "text": [
+    {
+     "from": 75,
+     "text": "A hidden statement shows what happened after the club meeting. The general refused to join the plot and kept insulting the Bonapartists in the carriage home. So the club's president challenged him on the icy steps of the Quai des Ormes and killed him in a fair fight. The witnesses threw the body into the river. Noirtier spells out the president's name for Franz: 'myself'."
+    }
+   ],
+   "revealed": 75,
+   "chapters": [
+    75
+   ],
+   "flashback": true,
+   "places": [
+    "rue-saint-jacques-club",
+    "quai-des-ormes"
+   ],
+   "people": [
+    "noirtier",
+    "general-quesnel",
+    "franz-depinay"
+   ]
+  },
+  {
+   "id": "leclere-dies",
+   "date": "1815-02-15",
+   "label": "c. mid-February 1815",
+   "approx": false,
+   "title": "Captain Leclere dies; Dantès stops at Elba",
+   "text": [
+    {
+     "from": 1,
+     "text": "On the voyage home, the Pharaon's captain dies of brain fever. With his last breath he asks Dantès to carry a packet to Marshal Bertrand on Elba. Dantès obeys and even speaks with Napoleon. Danglars, listening at the captain's door, learns he was also handed a letter."
+    },
+    {
+     "from": 7,
+     "text": "On the voyage home, the Pharaon's captain dies of brain fever. With his last breath he asks Dantès to carry a packet to Marshal Bertrand on Elba. There Dantès is given a letter to deliver in Paris. He does not know what it says, or that its address, M. Noirtier, Rue Coq-Héron, belongs to Villefort's father."
+    }
+   ],
+   "revealed": 1,
+   "chapters": [
+    1,
+    7
+   ],
+   "flashback": false,
+   "places": [
+    "elba"
+   ],
+   "people": [
+    "captain-leclere",
+    "edmond-dantes",
+    "marshal-bertrand",
+    "napoleon",
+    "danglars"
+   ]
+  },
+  {
+   "id": "pharaon-arrives",
+   "date": "1815-02-24",
+   "label": "24 February 1815",
+   "approx": false,
+   "title": "The Pharaon sails into Marseilles",
+   "text": [
+    {
+     "from": 1,
+     "text": "Dantès brings the Pharaon home. Morrel promises to make him captain, and the jealous Danglars watches. The same day Dantès finds his father half-starved and visits Mercédès at the Catalans, where her cousin Fernand loves her in vain."
+    }
+   ],
+   "revealed": 1,
+   "chapters": [
+    1,
+    2,
+    3
+   ],
+   "flashback": false,
+   "places": [
+    "marseilles-harbour",
+    "old-dantes-house",
+    "catalans"
+   ],
+   "people": [
+    "edmond-dantes",
+    "pierre-morrel",
+    "danglars",
+    "louis-dantes",
+    "mercedes",
+    "fernand-mondego"
+   ]
+  },
+  {
+   "id": "denunciation-written",
+   "date": "1815-02-27",
+   "label": "c. 27 February 1815",
+   "approx": true,
+   "title": "Danglars writes the anonymous denunciation",
+   "text": [
+    {
+     "from": 4,
+     "text": "At La Réserve, Danglars writes with his left hand, so no one will know the writing, that Dantès is a Bonapartist agent carrying a letter from Elba. He crumples it up and calls it a joke. Fernand picks it up. Caderousse is too drunk to stop them."
+    },
+    {
+     "from": 27,
+     "text": "At La Réserve, Danglars writes with his left hand, so no one will know the writing, that Dantès is a Bonapartist agent carrying a letter from Elba. He calls it a joke, but Fernand picks it up and posts it. Caderousse, drunk, sees it all and keeps quiet afterwards out of fear."
+    }
+   ],
+   "revealed": 4,
+   "chapters": [
+    4,
+    17,
+    27
+   ],
+   "flashback": false,
+   "places": [
+    "la-reserve"
+   ],
+   "people": [
+    "danglars",
+    "fernand-mondego",
+    "gaspard-caderousse",
+    "denunciation-letter"
+   ]
+  },
+  {
+   "id": "dantes-arrested",
+   "date": "1815-02-28",
+   "label": "28 February 1815",
+   "approx": false,
+   "title": "Dantès is arrested at his betrothal feast",
+   "text": [
+    {
+     "from": 5,
+     "text": "Dantès announces that he and Mercédès will marry that very afternoon. Soldiers burst in and arrest him. The charge, Morrel learns, is Bonapartist conspiracy. Danglars frightens Caderousse into silence."
+    }
+   ],
+   "revealed": 5,
+   "chapters": [
+    5
+   ],
+   "flashback": false,
+   "places": [
+    "la-reserve"
+   ],
+   "people": [
+    "edmond-dantes",
+    "mercedes",
+    "pierre-morrel",
+    "danglars",
+    "fernand-mondego",
+    "gaspard-caderousse"
+   ]
+  },
+  {
+   "id": "villefort-burns-letter",
+   "date": "1815-02-28",
+   "label": "28 February 1815",
+   "approx": false,
+   "title": "Villefort burns the letter from Elba",
+   "text": [
+    {
+     "from": 7,
+     "text": "Called away from his own betrothal party, the deputy prosecutor Villefort questions Dantès and believes him innocent. Then he reads the address on the letter from Elba: it is for his own father, Noirtier. He burns it. To protect his father and his career, he quietly decides that Dantès must stay locked up."
+    }
+   ],
+   "revealed": 7,
+   "chapters": [
+    6,
+    7
+   ],
+   "flashback": false,
+   "places": [
+    "palais-de-justice-marseilles",
+    "villefort-house-marseilles"
+   ],
+   "people": [
+    "villefort",
+    "edmond-dantes",
+    "noirtier",
+    "renee-de-saint-meran",
+    "elba-letter"
+   ]
+  },
+  {
+   "id": "dantes-to-if",
+   "date": "1815-02-28",
+   "label": "night of 28 February 1815",
+   "approx": false,
+   "title": "Dantès is taken to the Château d'If",
+   "text": [
+    {
+     "from": 8,
+     "text": "Expecting to be freed, Dantès is rowed out at night to the Château d'If, a fortress for political prisoners. When he threatens a jailer, he is thrown into an underground dungeon."
+    }
+   ],
+   "revealed": 8,
+   "chapters": [
+    8
+   ],
+   "flashback": false,
+   "places": [
+    "chateau-dif"
+   ],
+   "people": [
+    "edmond-dantes"
+   ]
+  },
+  {
+   "id": "napoleon-lands",
+   "date": "1815-03-01",
+   "label": "1 March 1815",
+   "approx": false,
+   "title": "Napoleon escapes Elba and lands in France",
+   "text": [
+    {
+     "from": 11,
+     "text": "Napoleon left Elba on 26 February and lands near Antibes on 1 March, then marches north by Gap and Sisteron. The king hears of it only on 3 March, by telegraph."
+    }
+   ],
+   "revealed": 11,
+   "chapters": [
+    10,
+    11
+   ],
+   "flashback": false,
+   "places": [
+    "golfe-juan",
+    "elba"
+   ],
+   "people": [
+    "napoleon",
+    "louis-xviii"
+   ]
+  },
+  {
+   "id": "villefort-warns-king",
+   "date": "1815-03-03",
+   "label": "c. 3 March 1815",
+   "approx": true,
+   "title": "Villefort warns the king and is rewarded",
+   "text": [
+    {
+     "from": 10,
+     "text": "Villefort races to Paris to warn Louis XVIII that Napoleon is about to leave Elba, so that he gets the credit for the warning. On the way out of Marseilles he brushes off Mercédès, who has come to plead for Dantès."
+    },
+    {
+     "from": 11,
+     "text": "Villefort races to Paris to warn Louis XVIII of a Napoleonic plot. When news comes that Napoleon has landed, the king rewards him with his own Legion of Honour cross. Villefort has built his rise on Dantès's arrest."
+    }
+   ],
+   "revealed": 10,
+   "chapters": [
+    9,
+    10,
+    11
+   ],
+   "flashback": false,
+   "places": [
+    "tuileries"
+   ],
+   "people": [
+    "villefort",
+    "louis-xviii",
+    "duc-de-blacas",
+    "dandre"
+   ]
+  },
+  {
+   "id": "noirtier-slips-away",
+   "date": "1815-03-04",
+   "label": "c. early March 1815",
+   "approx": true,
+   "title": "Noirtier visits his son and slips past the police",
+   "text": [
+    {
+     "from": 12,
+     "text": "The police suspect in the Quesnel affair turns up at Villefort's hotel: it is Noirtier. He calmly confirms his part in the Bonapartist club. Then he shaves off his whiskers, puts on his son's coat and hat, and strolls out past the agents. Villefort burns his father's cane and hurries back to Marseilles."
+    }
+   ],
+   "revealed": 12,
+   "chapters": [
+    11,
+    12
+   ],
+   "flashback": false,
+   "places": [
+    "villefort-hotel-paris"
+   ],
+   "people": [
+    "noirtier",
+    "villefort"
+   ]
+  },
+  {
+   "id": "hundred-days",
+   "date": "1815-03-20",
+   "label": "20 March 1815",
+   "approx": false,
+   "title": "Napoleon retakes Paris: the Hundred Days begin",
+   "text": [
+    {
+     "from": 13,
+     "text": "Napoleon is back in power for about a hundred days. Noirtier's influence protects Villefort's post. Villefort puts off his marriage until he sees which side will win."
+    }
+   ],
+   "revealed": 13,
+   "chapters": [
+    13
+   ],
+   "flashback": false,
+   "places": [
+    "paris"
+   ],
+   "people": [
+    "napoleon",
+    "villefort",
+    "noirtier"
+   ]
+  },
+  {
+   "id": "morrel-petition",
+   "date": "1815-04",
+   "label": "c. April 1815",
+   "approx": true,
+   "title": "Villefort helps Morrel write a damning petition",
+   "text": [
+    {
+     "from": 13,
+     "text": "With Bonapartists in favour, Morrel asks what has become of Dantès. Villefort helps him write a petition praising Dantès as one of the most active agents of Napoleon's return. Then he keeps it instead of sending it. Once the king is back, it reads as proof of guilt."
+    },
+    {
+     "from": 14,
+     "text": "With Bonapartists in favour, Morrel asks what has become of Dantès. Villefort helps him write a petition praising Dantès as an active agent of Napoleon's return, then keeps it. Once the king is back, a note in Dantès's file echoes it: 'Violent Bonapartist; took an active part in the return from Elba.'"
+    },
+    {
+     "from": 28,
+     "text": "In April 1815 Villefort helps Morrel write a petition praising Dantès as an active agent of Napoleon's return, then keeps it. Once the king is back, it becomes a weapon. Dantès's file also holds a note in Villefort's hand ordering strict solitary confinement for an 'inveterate Bonapartist'."
+    }
+   ],
+   "revealed": 13,
+   "chapters": [
+    13,
+    14,
+    28
+   ],
+   "flashback": false,
+   "places": [
+    "marseilles"
+   ],
+   "people": [
+    "villefort",
+    "pierre-morrel",
+    "edmond-dantes"
+   ]
+  },
+  {
+   "id": "danglars-to-spain",
+   "date": "1815-05",
+   "label": "c. 1815",
+   "approx": true,
+   "title": "Danglars leaves for Spain",
+   "text": [
+    {
+     "from": 13,
+     "text": "Afraid that Dantès might come back and take revenge, Danglars gets a recommendation from Morrel and goes to Madrid to work for a Spanish merchant."
+    },
+    {
+     "from": 27,
+     "text": "Afraid that Dantès might come back, Danglars gets a recommendation from Morrel, who knows nothing of his crime, and becomes cashier at a Spanish bank in Madrid."
+    }
+   ],
+   "revealed": 13,
+   "chapters": [
+    13,
+    27
+   ],
+   "flashback": false,
+   "places": [
+    "madrid"
+   ],
+   "people": [
+    "danglars",
+    "pierre-morrel"
+   ]
+  },
+  {
+   "id": "fernand-deserts",
+   "date": "1815-06-16",
+   "label": "16 June 1815",
+   "approx": false,
+   "title": "Fernand deserts on the night after Ligny",
+   "text": [
+    {
+     "from": 27,
+     "text": "Called up in Napoleon's last levy, Fernand fights at Ligny. That night he is on guard outside a general who is secretly dealing with the enemy. When the general goes over to the English, Fernand deserts with him. The restored Bourbons reward him for it."
+    },
+    {
+     "from": 92,
+     "text": "Called up in Napoleon's last levy, Fernand fights at Ligny. That night, on the eve of Waterloo, he deserts to the enemy with a treacherous general, and the restored Bourbons reward him. Monte Cristo lists it first among his betrayals."
+    }
+   ],
+   "revealed": 27,
+   "chapters": [
+    13,
+    27,
+    92
+   ],
+   "flashback": true,
+   "people": [
+    "fernand-mondego"
+   ]
+  },
+  {
+   "id": "waterloo",
+   "date": "1815-06-18",
+   "label": "18 June 1815",
+   "approx": false,
+   "title": "Waterloo: the king returns and Dantès is forgotten",
+   "text": [
+    {
+     "from": 13,
+     "text": "Napoleon is beaten at Waterloo and Louis XVIII returns. Villefort's kept petition now makes Dantès look like a dangerous Bonapartist. No one asks about him again."
+    }
+   ],
+   "revealed": 13,
+   "chapters": [
+    13
+   ],
+   "flashback": false,
+   "people": [
+    "napoleon",
+    "louis-xviii",
+    "edmond-dantes"
+   ]
+  },
+  {
+   "id": "old-dantes-dies",
+   "date": "1815-07-15",
+   "label": "c. July 1815",
+   "approx": true,
+   "title": "Old Dantès dies",
+   "text": [
+    {
+     "from": 13,
+     "text": "About five months after his son's arrest, old Dantès loses all hope when Napoleon falls and dies in Mercédès's arms. Morrel pays for the funeral, though helping a 'Bonapartist's' father is dangerous."
+    },
+    {
+     "from": 26,
+     "text": "About five months after his son's arrest, old Dantès dies in Mercédès's arms. The doctors called it a stomach illness. Caderousse admits the truth: he starved."
+    },
+    {
+     "from": 27,
+     "text": "About five months after his son's arrest, old Dantès dies. He sold his belongings one by one and then refused all food, dying nine days later and blessing his son. Morrel left a red silk purse on the mantelpiece that paid his debts and his funeral."
+    }
+   ],
+   "revealed": 13,
+   "chapters": [
+    13,
+    26,
+    27
+   ],
+   "flashback": false,
+   "places": [
+    "old-dantes-house"
+   ],
+   "people": [
+    "louis-dantes",
+    "mercedes",
+    "pierre-morrel"
+   ]
+  },
+  {
+   "id": "villefort-marries-renee",
+   "date": "1815-08-01",
+   "label": "c. summer 1815",
+   "approx": true,
+   "title": "Villefort marries Renée de Saint-Méran",
+   "text": [
+    {
+     "from": 13,
+     "text": "After Waterloo, Villefort becomes king's prosecutor at Toulouse and marries Renée de Saint-Méran. His career, saved by his father in the Hundred Days, now rests on royalist loyalty."
+    }
+   ],
+   "revealed": 13,
+   "chapters": [
+    13,
+    27
+   ],
+   "flashback": false,
+   "places": [
+    "toulouse"
+   ],
+   "people": [
+    "villefort",
+    "renee-de-saint-meran"
+   ]
+  },
+  {
+   "id": "bertuccio-brother-killed",
+   "date": "1815-08-15",
+   "label": "c. August 1815",
+   "approx": true,
+   "title": "Bertuccio's brother is murdered at Nîmes",
+   "text": [
+    {
+     "from": 44,
+     "text": "Bertuccio's elder brother, a Corsican officer of Napoleon's army, is killed in Nîmes in the royalist massacres after Waterloo. Bertuccio begs the king's attorney there, Villefort, to find the killers and grant the widow, Assunta, a pension. Villefort dismisses the dead man as a soldier of 'the usurper'. Bertuccio swears a vendetta against him."
+    }
+   ],
+   "revealed": 44,
+   "chapters": [
+    44
+   ],
+   "flashback": true,
+   "places": [
+    "nimes",
+    "rogliano"
+   ],
+   "people": [
+    "bertuccio",
+    "israel-bertuccio",
+    "assunta",
+    "villefort"
+   ]
+  },
+  {
+   "id": "inspector-visits",
+   "date": "1816-07-30",
+   "label": "30 July 1816",
+   "approx": false,
+   "title": "A prison inspector visits Dantès",
+   "text": [
+    {
+     "from": 14,
+     "text": "Seventeen months after his arrest, Dantès begs a visiting inspector for a trial. The inspector promises to look into it. Then he finds the note in Dantès's file calling him a violent Bonapartist, and writes 'Nothing to be done.' In the next cell, the 'mad' Abbé Faria offers millions for his freedom."
+    }
+   ],
+   "revealed": 14,
+   "chapters": [
+    14
+   ],
+   "flashback": false,
+   "places": [
+    "chateau-dif"
+   ],
+   "people": [
+    "edmond-dantes",
+    "abbe-faria"
+   ]
+  },
+  {
+   "id": "mercedes-marries-fernand",
+   "date": "1816-08",
+   "label": "c. August 1816",
+   "approx": true,
+   "title": "Mercédès marries Fernand",
+   "text": [
+    {
+     "from": 27,
+     "text": "Fernand comes home an officer. Old Dantès is dead, and Edmond has vanished without a word. After begging for six more months to mourn, Mercédès marries Fernand in the Accoules church, where she was to have married Edmond. It is about eighteen months after the betrothal feast. Eight days later the couple leave Marseilles."
+    }
+   ],
+   "revealed": 27,
+   "chapters": [
+    27
+   ],
+   "flashback": true,
+   "places": [
+    "accoules"
+   ],
+   "people": [
+    "mercedes",
+    "fernand-mondego"
+   ]
+  },
+  {
+   "id": "auteuil-baroness",
+   "date": "1817-06",
+   "label": "c. 1817",
+   "approx": true,
+   "title": "Villefort's secret visits to a pregnant 'Baroness' at Auteuil",
+   "text": [
+    {
+     "from": 44,
+     "text": "Still hunting Villefort, Bertuccio follows him to Versailles. He finds that Villefort slips in by a garden gate to a house at Auteuil owned by his father-in-law, M. de Saint-Méran. A young widow known only as 'the Baroness' lives there, and she is expecting a child."
+    },
+    {
+     "from": 62,
+     "text": "Still hunting Villefort, Bertuccio follows him to a house at Auteuil owned by Villefort's father-in-law. A young widow known only as 'the Baroness' lives there, expecting a child. At the Count's dinner Bertuccio recognises her: she is Madame Danglars."
+    },
+    {
+     "from": 65,
+     "text": "Villefort visits a house at Auteuil owned by his father-in-law, where a young widow known only as 'the Baroness' is expecting a child. She is the future Madame Danglars. Her first husband, M. de Nargonne, came home after nine months away, found her six months pregnant, and died of grief or rage."
+    }
+   ],
+   "revealed": 44,
+   "chapters": [
+    44,
+    62,
+    65,
+    67
+   ],
+   "flashback": true,
+   "places": [
+    "versailles",
+    "house-at-auteuil"
+   ],
+   "people": [
+    "villefort",
+    "bertuccio"
+   ]
+  },
+  {
+   "id": "auteuil-night",
+   "date": "1817-09-27",
+   "label": "c. September 1817",
+   "approx": true,
+   "title": "Bertuccio stabs Villefort and digs up a buried baby",
+   "text": [
+    {
+     "from": 44,
+     "text": "On a stormy night at the end of September, Bertuccio hides in the Auteuil garden. He sees Villefort come out with a spade and bury a box. He stabs him and digs up the box, hoping for treasure. Inside is a newborn baby, nearly suffocated. He revives it and leaves it at the foundling hospital in Paris, keeping half of its linen, marked H and N under a baron's coronet."
+    },
+    {
+     "from": 67,
+     "text": "Villefort gives his side. The baby was born in the red damask room and seemed lifeless, so he buried it in a box in the garden. Then a Corsican stabbed him. The mother helped him back to the house, and a duel was given out as the cause of his wound. The foundling hospital records a baby left that same night, wrapped in half a napkin marked with a baron's crown and an H."
+    },
+    {
+     "from": 110,
+     "text": "In court, Benedetto gives his birth as the night of 27 September 1817 at Auteuil, in a room hung with red damask. His father told his mother the baby was dead and buried him alive in the garden. His father is the king's attorney, M. de Villefort, who admits it before the court."
+    }
+   ],
+   "revealed": 44,
+   "chapters": [
+    44,
+    63,
+    67,
+    110
+   ],
+   "flashback": true,
+   "places": [
+    "house-at-auteuil",
+    "foundling-hospital"
+   ],
+   "people": [
+    "bertuccio",
+    "villefort",
+    "benedetto"
+   ]
+  },
+  {
+   "id": "hermine-marries-danglars",
+   "date": "1818-03",
+   "label": "c. 1818",
+   "approx": true,
+   "title": "Danglars marries the widowed Madame de Nargonne",
+   "text": [
+    {
+     "from": 27,
+     "text": "Danglars marries his banker's daughter, who soon dies. He then marries a widow, Madame de Nargonne, daughter of a king's chamberlain who is in favour at court. It is one of the steps by which the clerk becomes a baron."
+    },
+    {
+     "from": 67,
+     "text": "Danglars, widowed by his first wife, marries the young widow Madame de Nargonne while Villefort lies recovering from Bertuccio's knife. She is the 'Baroness' of Auteuil, and she believes the child she bore there is dead."
+    }
+   ],
+   "revealed": 27,
+   "chapters": [
+    27,
+    67
+   ],
+   "flashback": true,
+   "places": [
+    "paris"
+   ],
+   "people": [
+    "danglars",
+    "hermine-danglars"
+   ]
+  },
+  {
+   "id": "assunta-claims-baby",
+   "date": "1818-04",
+   "label": "c. spring 1818",
+   "approx": true,
+   "title": "Assunta claims the foundling and names him Benedetto",
+   "text": [
+    {
+     "from": 44,
+     "text": "Back in Corsica, Bertuccio's widowed sister-in-law Assunta takes his half of the linen, goes to Paris and claims the baby from the foundling hospital. She brings him home to Rogliano and names him Benedetto, 'blessed'."
+    },
+    {
+     "from": 62,
+     "text": "Assunta, Bertuccio's widowed sister-in-law, claims the baby from the foundling hospital with the other half of the linen and raises him in Rogliano as Benedetto. At Auteuil Bertuccio recognises the grown-up Benedetto: he is 'Andrea Cavalcanti'."
+    },
+    {
+     "from": 67,
+     "text": "Assunta, Bertuccio's widowed sister-in-law, claims the baby from the foundling hospital with the other half of the linen and raises him in Rogliano as Benedetto. Villefort's agents traced the woman as far as Châlons, then lost her."
+    }
+   ],
+   "revealed": 44,
+   "chapters": [
+    44,
+    62,
+    67
+   ],
+   "flashback": true,
+   "places": [
+    "foundling-hospital",
+    "rogliano"
+   ],
+   "people": [
+    "assunta",
+    "benedetto",
+    "bertuccio"
+   ]
+  },
+  {
+   "id": "villefort-digs-garden",
+   "date": "1818-09",
+   "label": "c. 1818",
+   "approx": true,
+   "title": "Villefort digs up the Auteuil garden and finds nothing",
+   "text": [
+    {
+     "from": 67,
+     "text": "About a year after the stabbing, Villefort ends the lease, comes back at night and digs everywhere. The box is gone. A corpse would have been taken to a magistrate, so he concludes the child may have lived, and that the Corsican may have saved it."
+    }
+   ],
+   "revealed": 67,
+   "chapters": [
+    67
+   ],
+   "flashback": true,
+   "places": [
+    "house-at-auteuil"
+   ],
+   "people": [
+    "villefort"
+   ]
+  },
+  {
+   "id": "faria-breaks-through",
+   "date": "1821",
+   "label": "c. 1821",
+   "approx": true,
+   "title": "Faria tunnels into Dantès's cell",
+   "text": [
+    {
+     "from": 15,
+     "text": "After years of despair, Dantès has decided to starve himself to death when he hears scraping inside the wall. He digs towards it. The other prisoner, No. 27, breaks through into his cell. He has been digging towards the sea and miscalculated. Dantès, arrested at nineteen, is now not quite twenty-six."
+    }
+   ],
+   "revealed": 15,
+   "chapters": [
+    15,
+    16
+   ],
+   "flashback": false,
+   "places": [
+    "chateau-dif"
+   ],
+   "people": [
+    "edmond-dantes",
+    "abbe-faria"
+   ]
+  },
+  {
+   "id": "faria-explains",
+   "date": "1821-06",
+   "label": "c. 1821",
+   "approx": true,
+   "title": "Faria works out who betrayed Dantès",
+   "text": [
+    {
+     "from": 17,
+     "text": "Faria asks one question: who gained from the crime? Danglars wanted the captaincy, and Fernand wanted Mercédès. Villefort burned the letter because it was addressed to his own father, Noirtier. Dantès swears revenge, and Faria starts to educate him."
+    }
+   ],
+   "revealed": 17,
+   "chapters": [
+    17
+   ],
+   "flashback": false,
+   "places": [
+    "chateau-dif"
+   ],
+   "people": [
+    "abbe-faria",
+    "edmond-dantes",
+    "danglars",
+    "fernand-mondego",
+    "villefort",
+    "noirtier"
+   ]
+  },
+  {
+   "id": "faria-paralysed",
+   "date": "1823",
+   "label": "c. 1823",
+   "approx": true,
+   "title": "Faria's seizure ends their escape",
+   "text": [
+    {
+     "from": 17,
+     "text": "After about a year of lessons and fifteen months of tunnelling, the escape is ready. On its eve Faria has a seizure that leaves his right arm and leg paralysed. He says a third attack will kill him. Dantès refuses to leave him."
+    }
+   ],
+   "revealed": 17,
+   "chapters": [
+    17
+   ],
+   "flashback": false,
+   "places": [
+    "chateau-dif"
+   ],
+   "people": [
+    "abbe-faria",
+    "edmond-dantes"
+   ]
+  },
+  {
+   "id": "faria-reveals-treasure",
+   "date": "1823-03",
+   "label": "c. 1823",
+   "approx": true,
+   "title": "Faria tells Dantès about the treasure",
+   "text": [
+    {
+     "from": 18,
+     "text": "Faria shows Dantès the scorched letter and tells him the story of Cardinal Spada's lost treasure on Monte Cristo. The Spada family is extinct, so the treasure is Faria's to give. He makes Dantès his heir and calls him 'the child of my captivity'."
+    }
+   ],
+   "revealed": 18,
+   "chapters": [
+    18
+   ],
+   "flashback": false,
+   "places": [
+    "chateau-dif",
+    "monte-cristo-island"
+   ],
+   "people": [
+    "abbe-faria",
+    "edmond-dantes",
+    "spada-treasure"
+   ]
+  },
+  {
+   "id": "danglars-spanish-fortune",
+   "date": "1823-06",
+   "label": "1823",
+   "approx": false,
+   "title": "Danglars grows rich in the Spanish war",
+   "text": [
+    {
+     "from": 27,
+     "text": "When France invades Spain in 1823 to restore its king, Danglars supplies the French army and makes a fortune. He then speculates on the stock market and multiplies it three or four times."
+    }
+   ],
+   "revealed": 27,
+   "chapters": [
+    27,
+    46
+   ],
+   "flashback": true,
+   "places": [
+    "madrid"
+   ],
+   "people": [
+    "danglars"
+   ]
+  },
+  {
+   "id": "fernand-spain",
+   "date": "1823-08-31",
+   "label": "1823",
+   "approx": false,
+   "title": "Fernand becomes a count in the Spanish war",
+   "text": [
+    {
+     "from": 27,
+     "text": "Fernand, a captain by 1823, is sent to Spain because he is Spanish by birth. He meets Danglars there and guides French troops through mountain passes. After the capture of the Trocadero he is made a colonel, a count and an officer of the Legion of Honour. This is the Count de Morcerf."
+    },
+    {
+     "from": 92,
+     "text": "Fernand, a captain by 1823, is sent to Spain because he is Spanish by birth, and guides the French army through the mountains against his own countrymen. After the capture of the Trocadero he is made a colonel and the Count de Morcerf. Monte Cristo calls it serving as a guide and a spy."
+    }
+   ],
+   "revealed": 27,
+   "chapters": [
+    27,
+    92
+   ],
+   "flashback": true,
+   "places": [
+    "madrid"
+   ],
+   "people": [
+    "fernand-mondego",
+    "danglars"
+   ]
+  },
+  {
+   "id": "ali-pasha-falls",
+   "date": "1823-12",
+   "label": "c. 1823",
+   "approx": true,
+   "title": "Ali Pasha of Yanina is killed; Fernand comes home rich",
+   "text": [
+    {
+     "from": 27,
+     "text": "When peace halts his career, Fernand goes to fight in Greece and becomes instructor-general to Ali Pasha. Ali is killed, but first, Caderousse says, he leaves Fernand a large sum. Fernand returns to France and is made a lieutenant-general."
+    },
+    {
+     "from": 53,
+     "text": "Fernand, now Count de Morcerf, says he was inspector-general of Ali Pasha's troops at Yanina and owes his fortune to Ali. At the opera, seeing him, Haydée says he sold her father to the Turks, and that his fortune was the price."
+    },
+    {
+     "from": 77,
+     "text": "Haydée is Ali Pasha's daughter. Besieged by the Sultan's army, Ali hides in a kiosk on the lake with a cave of gold and gunpowder, guarded by Selim. He sends a trusted French officer to negotiate. The officer's messenger returns with Ali's ring and news of a pardon. Selim puts out the match and is stabbed at once. Ali is killed. Haydée says she cannot remember the officer's name."
+    },
+    {
+     "from": 78,
+     "text": "Haydée is Ali Pasha's daughter. A French officer he trusted brought a false pardon and Ali's ring, and Ali's guard Selim put out the match and was stabbed. Ali was killed. Now a newspaper says Yanina was handed to the Turks by a French officer named Fernand. Albert dates the fall '1822 or 1823'. History puts Ali's death in 1822; Dumas's dates for these years are loose."
+    },
+    {
+     "from": 84,
+     "text": "Ali Pasha trusted a French officer who betrayed him: Ali's guard Selim was stabbed and Ali killed. Beauchamp brings back sworn testimony from Yanina: Colonel Fernand Mondego surrendered the castle to the Turks for two million crowns. Morcerf's fortune began there."
+    },
+    {
+     "from": 86,
+     "text": "Ali Pasha trusted a French officer who betrayed him. Before the Chamber of Peers, Haydée names him: Fernand Mondego, now Count de Morcerf, brought the false pardon, took the ring and stabbed Selim. History puts Ali's death in 1822; Dumas's dates for these years are loose."
+    }
+   ],
+   "revealed": 27,
+   "chapters": [
+    27,
+    53,
+    77,
+    78,
+    84,
+    86
+   ],
+   "flashback": true,
+   "places": [
+    "yanina",
+    "yanina-lake-kiosk",
+    "epirus"
+   ],
+   "people": [
+    "ali-tebelin",
+    "fernand-mondego"
+   ]
+  },
+  {
+   "id": "haydee-sold",
+   "date": "1824",
+   "label": "c. 1824",
+   "approx": true,
+   "title": "Haydée and her mother are sold into slavery",
+   "text": [
+    {
+     "from": 77,
+     "text": "After Ali's death, Haydée, aged four, and her mother Vasiliki are handed to the man who did most to destroy Ali, and he sells them to slave merchants. In Constantinople Vasiliki sees Ali's head over the city gate and drops dead. Haydée is sold to an Armenian, then to the Sultan."
+    },
+    {
+     "from": 86,
+     "text": "After Ali's death, Haydée, aged four, and her mother Vasiliki are sold to the slave merchant El-Kobbir by a French colonel, Fernand Mondego, for 400,000 francs. In Constantinople Vasiliki sees Ali's head over the city gate and drops dead."
+    }
+   ],
+   "revealed": 77,
+   "chapters": [
+    77,
+    86
+   ],
+   "flashback": true,
+   "places": [
+    "constantinople",
+    "yanina"
+   ],
+   "people": [
+    "haydee",
+    "vasiliki"
+   ]
+  },
+  {
+   "id": "benedetto-childhood",
+   "date": "1826",
+   "label": "c. 1823–29",
+   "approx": true,
+   "title": "Benedetto grows up wicked",
+   "text": [
+    {
+     "from": 44,
+     "text": "Assunta spoils the boy. He is clever and charming, but he lies and steals, and he once sneers at Bertuccio that he is not his father. At eleven he runs with the worst young men in Bastia. At twelve he laughs at Bertuccio's offer of honest work at sea."
+    }
+   ],
+   "revealed": 44,
+   "chapters": [
+    44
+   ],
+   "flashback": true,
+   "places": [
+    "rogliano",
+    "corsica"
+   ],
+   "people": [
+    "benedetto",
+    "assunta",
+    "bertuccio"
+   ]
+  },
+  {
+   "id": "danglars-baron",
+   "date": "1829",
+   "label": "1829",
+   "approx": false,
+   "title": "Danglars is made a baron",
+   "text": [
+    {
+     "from": 40,
+     "text": "Danglars, a liberal by politics, arranges a loan of six million for King Charles X. The king makes him a baron and a knight of the Legion of Honour, and he wears the ribbon proudly."
+    }
+   ],
+   "revealed": 40,
+   "chapters": [
+    40
+   ],
+   "flashback": true,
+   "places": [
+    "paris"
+   ],
+   "people": [
+    "danglars"
+   ]
+  },
+  {
+   "id": "dantes-escapes",
+   "date": "1829-02-28",
+   "label": "27–28 February 1829",
+   "approx": false,
+   "title": "Faria dies; Dantès escapes in his burial sack",
+   "text": [
+    {
+     "from": 21,
+     "text": "Faria dies of his third attack. Dantès hides the body in his own bed and sews himself into the burial sack. The jailers throw him off the cliffs with a cannonball tied to his feet. He cuts himself free, swims to the islet of Tiboulen, and is picked up by smugglers. It is 28 February 1829, fourteen years to the day since his arrest."
+    }
+   ],
+   "revealed": 21,
+   "chapters": [
+    19,
+    20,
+    21
+   ],
+   "flashback": false,
+   "places": [
+    "chateau-dif",
+    "tiboulen"
+   ],
+   "people": [
+    "edmond-dantes",
+    "abbe-faria",
+    "jacopo"
+   ]
+  },
+  {
+   "id": "treasure-found",
+   "date": "1829-05",
+   "label": "c. spring 1829",
+   "approx": true,
+   "title": "Dantès finds the treasure of Monte Cristo",
+   "text": [
+    {
+     "from": 24,
+     "text": "After weeks with the smugglers, Dantès gets himself left alone on Monte Cristo by faking a fall. Following Faria's clues, he blasts away a rock and reaches Cardinal Spada's chest of gold and jewels."
+    }
+   ],
+   "revealed": 24,
+   "chapters": [
+    22,
+    23,
+    24
+   ],
+   "flashback": false,
+   "places": [
+    "monte-cristo-island",
+    "mc-grotto"
+   ],
+   "people": [
+    "edmond-dantes",
+    "spada-treasure"
+   ]
+  },
+  {
+   "id": "wilmore-in-marseilles",
+   "date": "1829-05-20",
+   "label": "c. May 1829",
+   "approx": true,
+   "title": "As 'Lord Wilmore', Dantès returns to Marseilles",
+   "text": [
+    {
+     "from": 25,
+     "text": "Jacopo brings the news: old Dantès is dead and Mercédès has vanished. Travelling on an English passport, Dantès walks through Marseilles unrecognised. Under the name Lord Wilmore he buys his father's old house and asks questions at the Catalans."
+    }
+   ],
+   "revealed": 25,
+   "chapters": [
+    25
+   ],
+   "flashback": false,
+   "places": [
+    "marseilles",
+    "old-dantes-house",
+    "catalans"
+   ],
+   "people": [
+    "edmond-dantes",
+    "jacopo"
+   ]
+  },
+  {
+   "id": "abbe-visits-caderousse",
+   "date": "1829-06-01",
+   "label": "c. early June 1829",
+   "approx": true,
+   "title": "An Italian abbé brings Caderousse a diamond",
+   "text": [
+    {
+     "from": 26,
+     "text": "A priest calls at Caderousse's failing inn near Beaucaire. He says Dantès died in prison and left a diamond to be shared among his friends. Greed makes Caderousse talk."
+    },
+    {
+     "from": 27,
+     "text": "A priest calls at Caderousse's failing inn near Beaucaire with a diamond 'left by Dantès'. Caderousse tells him everything: the denunciation, old Dantès's death, and how Danglars and Fernand rose. The abbé gives him the whole diamond and takes Morrel's old red purse."
+    },
+    {
+     "from": 30,
+     "text": "Dantès, disguised as an Italian priest, calls at Caderousse's inn with a diamond. Caderousse tells him everything: the denunciation, old Dantès's death, and how Danglars and Fernand rose. The abbé gives him the whole diamond and takes Morrel's old red purse."
+    }
+   ],
+   "revealed": 26,
+   "chapters": [
+    26,
+    27,
+    30
+   ],
+   "flashback": false,
+   "places": [
+    "pont-du-gard-inn",
+    "beaucaire"
+   ],
+   "people": [
+    "gaspard-caderousse",
+    "carconte",
+    "edmond-dantes",
+    "caderousse-diamond"
+   ]
+  },
+  {
+   "id": "diamond-sold",
+   "date": "1829-06-03",
+   "label": "3 June 1829",
+   "approx": false,
+   "title": "Caderousse sells the diamond to a jeweller",
+   "text": [
+    {
+     "from": 44,
+     "text": "Bertuccio, hiding from customs men in a shed beside Caderousse's inn, watches through the wall. Caderousse and La Carconte sell a diamond to a Paris jeweller, Joannes, for 45,000 francs. It came from a dead sailor, Edmond Dantès, by way of an Abbé Busoni. The jeweller rides off into a storm, then comes back asking for a bed."
+    }
+   ],
+   "revealed": 44,
+   "chapters": [
+    44
+   ],
+   "flashback": true,
+   "places": [
+    "pont-du-gard-inn"
+   ],
+   "people": [
+    "bertuccio",
+    "gaspard-caderousse",
+    "carconte",
+    "joannes",
+    "caderousse-diamond"
+   ]
+  },
+  {
+   "id": "jeweller-murdered",
+   "date": "1829-06-03",
+   "label": "night of 3 June 1829",
+   "approx": false,
+   "title": "The jeweller is murdered at the Pont du Gard inn",
+   "text": [
+    {
+     "from": 45,
+     "text": "In the night, shots and screams. Caderousse comes down covered in blood, takes the diamond and the money, and runs. Bertuccio finds La Carconte shot dead and Joannes dying of knife wounds. Gendarmes burst in and arrest Bertuccio for the murder."
+    },
+    {
+     "from": 83,
+     "text": "In the night Caderousse murders the jeweller Joannes for the diamond and the money, and La Carconte is shot dead in the struggle. Caderousse runs, and Bertuccio is arrested in his place. Monte Cristo counts it as Caderousse's second crime after the betrayal."
+    }
+   ],
+   "revealed": 45,
+   "chapters": [
+    45,
+    83
+   ],
+   "flashback": true,
+   "places": [
+    "pont-du-gard-inn"
+   ],
+   "people": [
+    "gaspard-caderousse",
+    "carconte",
+    "joannes",
+    "bertuccio"
+   ]
+  },
+  {
+   "id": "prison-register",
+   "date": "1829-06-04",
+   "label": "c. June 1829",
+   "approx": true,
+   "title": "The 'English clerk' reads Dantès's prison file",
+   "text": [
+    {
+     "from": 28,
+     "text": "A man claiming to be chief clerk of Thomson & French of Rome buys M. de Boville's loan to Morrel. In return he asks to see the prison registers. He reads Dantès's file, learns what Villefort did, and pockets Danglars's original denunciation."
+    }
+   ],
+   "revealed": 28,
+   "chapters": [
+    28
+   ],
+   "flashback": false,
+   "places": [
+    "marseilles"
+   ],
+   "people": [
+    "edmond-dantes",
+    "m-de-boville",
+    "denunciation-letter"
+   ]
+  },
+  {
+   "id": "thomson-french-visits-morrel",
+   "date": "1829-06-05",
+   "label": "c. June 1829",
+   "approx": true,
+   "title": "An English clerk grants Morrel three months",
+   "text": [
+    {
+     "from": 29,
+     "text": "The clerk of Thomson & French, who has bought up Morrel's bills, visits the failing firm. News comes that the Pharaon has sunk. Moved, the stranger renews the bills until 5 September. He tells Julie to obey a letter signed 'Sinbad the Sailor'."
+    },
+    {
+     "from": 50,
+     "text": "On 5 June 1829 the clerk of Thomson & French visits Morrel's failing firm and renews his bills until 5 September. News comes that the Pharaon has sunk. He tells Julie to obey a letter signed 'Sinbad the Sailor'."
+    }
+   ],
+   "revealed": 29,
+   "chapters": [
+    29,
+    50
+   ],
+   "flashback": false,
+   "places": [
+    "morrel-and-son"
+   ],
+   "people": [
+    "edmond-dantes",
+    "pierre-morrel",
+    "julie-morrel",
+    "emmanuel-herbaut",
+    "penelon"
+   ]
+  },
+  {
+   "id": "assunta-dies",
+   "date": "1829-07",
+   "label": "c. summer 1829",
+   "approx": true,
+   "title": "Benedetto tortures Assunta and vanishes",
+   "text": [
+    {
+     "from": 45,
+     "text": "While Bertuccio is in prison, Benedetto and two friends hold Assunta over a fire to make her say where the money is hidden. They rob the house and disappear. She dies of her burns."
+    }
+   ],
+   "revealed": 45,
+   "chapters": [
+    45
+   ],
+   "flashback": true,
+   "places": [
+    "rogliano"
+   ],
+   "people": [
+    "benedetto",
+    "assunta"
+   ]
+  },
+  {
+   "id": "morrel-saved",
+   "date": "1829-09-05",
+   "label": "5 September 1829",
+   "approx": false,
+   "title": "Morrel is saved at the last minute",
+   "text": [
+    {
+     "from": 30,
+     "text": "At eleven o'clock Morrel sits with a pistol in his mouth. Julie runs in with a red silk purse holding his paid bill and a diamond for her dowry. Then a new Pharaon, an exact copy of the lost ship, sails into harbour. In the crowd, a man with a black beard calls for Jacopo and boards his yacht. Having rewarded the good, he will now punish the wicked."
+    }
+   ],
+   "revealed": 30,
+   "chapters": [
+    30
+   ],
+   "flashback": false,
+   "places": [
+    "morrel-and-son",
+    "old-dantes-house",
+    "marseilles-harbour"
+   ],
+   "people": [
+    "pierre-morrel",
+    "julie-morrel",
+    "maximilien-morrel",
+    "emmanuel-herbaut",
+    "edmond-dantes",
+    "red-silk-purse"
+   ]
+  },
+  {
+   "id": "bertuccio-freed",
+   "date": "1829-09-08",
+   "label": "8 September 1829",
+   "approx": false,
+   "title": "The Abbé Busoni clears Bertuccio",
+   "text": [
+    {
+     "from": 45,
+     "text": "After three months in prison at Nîmes, Bertuccio is visited by the Abbé Busoni, Dantès in his priest's disguise. The abbé confirms the story of the diamond and hears his confession, Auteuil included. Bertuccio is freed. The abbé then recommends him to the Count of Monte Cristo as a steward."
+    }
+   ],
+   "revealed": 45,
+   "chapters": [
+    43,
+    45
+   ],
+   "flashback": true,
+   "places": [
+    "nimes"
+   ],
+   "people": [
+    "bertuccio",
+    "edmond-dantes"
+   ]
+  },
+  {
+   "id": "caderousse-to-galleys",
+   "date": "1829-10",
+   "label": "c. 1829",
+   "approx": true,
+   "title": "Caderousse is sent to the galleys",
+   "text": [
+    {
+     "from": 45,
+     "text": "Caderousse is caught, confesses to the jeweller's murder, and is sentenced to the galleys for life. Galleys here means forced labour for convicts at a naval port."
+    }
+   ],
+   "revealed": 45,
+   "chapters": [
+    45
+   ],
+   "flashback": true,
+   "people": [
+    "gaspard-caderousse"
+   ]
+  },
+  {
+   "id": "count-buys-haydee",
+   "date": "1831",
+   "label": "c. 1831",
+   "approx": true,
+   "title": "The Count buys Haydée from the Sultan",
+   "text": [
+    {
+     "from": 77,
+     "text": "The Count buys Haydée from Sultan Mahmoud for an emerald. Since then she has lived with him as his ward."
+    },
+    {
+     "from": 86,
+     "text": "The Count buys Haydée from Sultan Mahmoud for an emerald worth 800,000 francs. The bill of sale, dated 1247 by the Muslim calendar (about 1831), gives her age as eleven."
+    }
+   ],
+   "revealed": 77,
+   "chapters": [
+    77,
+    86
+   ],
+   "flashback": true,
+   "places": [
+    "constantinople"
+   ],
+   "people": [
+    "edmond-dantes",
+    "haydee"
+   ]
+  },
+  {
+   "id": "noirtier-paralysed",
+   "date": "1832",
+   "label": "c. 1832",
+   "approx": true,
+   "title": "Noirtier is struck by paralysis",
+   "text": [
+    {
+     "from": 48,
+     "text": "Overnight, Noirtier, the fearless old Jacobin and Bonapartist plotter, is struck down by a stroke that leaves him paralysed and speechless. Villefort calls it God's judgement on his father."
+    },
+    {
+     "from": 58,
+     "text": "About six years ago, a stroke left Noirtier unable to move or speak. Only his eyes live: he closes them for 'yes' and blinks for 'no'. Valentine has nursed him ever since and reads him best."
+    }
+   ],
+   "revealed": 48,
+   "chapters": [
+    48,
+    58
+   ],
+   "flashback": true,
+   "places": [
+    "villefort-house-paris"
+   ],
+   "people": [
+    "noirtier",
+    "valentine-de-villefort"
+   ]
+  },
+  {
+   "id": "benedetto-to-galleys",
+   "date": "1834",
+   "label": "c. 1834",
+   "approx": true,
+   "title": "Benedetto is sent to the galleys at Toulon",
+   "text": [
+    {
+     "from": 81,
+     "text": "Benedetto ends up in the galleys at Toulon, where he is chained alongside Caderousse. Caderousse used to share his soup with the boy and call him his child."
+    },
+    {
+     "from": 99,
+     "text": "At sixteen Benedetto is sent to the galleys at Toulon for forgery. There he is chained alongside Caderousse."
+    }
+   ],
+   "revealed": 81,
+   "chapters": [
+    64,
+    81,
+    99
+   ],
+   "flashback": true,
+   "places": [
+    "toulon"
+   ],
+   "people": [
+    "benedetto",
+    "gaspard-caderousse"
+   ]
+  },
+  {
+   "id": "vampa-becomes-chief",
+   "date": "1835",
+   "label": "c. 1835",
+   "approx": true,
+   "title": "Luigi Vampa kills Cucumetto and takes over his band",
+   "text": [
+    {
+     "from": 33,
+     "text": "Vampa, a gifted shepherd on the Count of San-Felice's farm, is guiding a lost traveller who calls himself Sinbad the Sailor when he hears Teresa scream. The bandit Cucumetto is carrying her off. Vampa shoots him dead and puts on his clothes. The bandits make him their captain."
+    }
+   ],
+   "revealed": 33,
+   "chapters": [
+    33
+   ],
+   "flashback": true,
+   "places": [
+    "san-felice-farm",
+    "campagna"
+   ],
+   "people": [
+    "luigi-vampa",
+    "teresa",
+    "cucumetto",
+    "edmond-dantes"
+   ]
+  },
+  {
+   "id": "count-at-perugia",
+   "date": "1836",
+   "label": "c. 1836",
+   "approx": true,
+   "title": "The Count meets the Villeforts at Perugia",
+   "text": [
+    {
+     "from": 52,
+     "text": "Two years before Paris, a man in a long cloak, whom Madame de Villefort takes for a doctor, talks with her at Perugia. They discuss aqua Tofana, a legendary Italian poison. She asks him about Valentine's health. The Count says the man was him."
+    }
+   ],
+   "revealed": 52,
+   "chapters": [
+    52
+   ],
+   "flashback": true,
+   "places": [
+    "perugia"
+   ],
+   "people": [
+    "edmond-dantes",
+    "heloise-de-villefort",
+    "valentine-de-villefort"
+   ]
+  },
+  {
+   "id": "franz-meets-sinbad",
+   "date": "1838-02-10",
+   "label": "c. February 1838",
+   "approx": false,
+   "title": "Franz dines with 'Sinbad the Sailor' on Monte Cristo",
+   "text": [
+    {
+     "from": 31,
+     "text": "On his way to the Roman Carnival, Franz d'Épinay lands on Monte Cristo to hunt goats. He is led blindfold into an underground palace, where a pale host calling himself Sinbad the Sailor serves him supper and hashish. He wakes in a bare cave, and his host has sailed away."
+    }
+   ],
+   "revealed": 31,
+   "chapters": [
+    31,
+    32
+   ],
+   "flashback": false,
+   "places": [
+    "monte-cristo-island",
+    "mc-grotto"
+   ],
+   "people": [
+    "franz-depinay",
+    "edmond-dantes",
+    "gaetano",
+    "ali"
+   ]
+  },
+  {
+   "id": "rome-execution",
+   "date": "1838-02-23",
+   "label": "23 February 1838",
+   "approx": false,
+   "title": "The Count watches an execution in Rome",
+   "text": [
+    {
+     "from": 35,
+     "text": "Franz and Albert meet their neighbour, the Count of Monte Cristo, whom Franz knows as Sinbad. He takes them to the Piazza del Popolo, where the bandit Peppino is pardoned on the scaffold and the murderer Andrea Rondolo is put to death. The Count sets out a chilling philosophy of revenge."
+    }
+   ],
+   "revealed": 35,
+   "chapters": [
+    34,
+    35
+   ],
+   "flashback": false,
+   "places": [
+    "piazza-del-popolo",
+    "rome"
+   ],
+   "people": [
+    "edmond-dantes",
+    "franz-depinay",
+    "albert-de-morcerf",
+    "peppino",
+    "andrea-rondolo"
+   ]
+  },
+  {
+   "id": "albert-kidnapped",
+   "date": "1838-02-27",
+   "label": "c. late February 1838",
+   "approx": true,
+   "title": "Vampa kidnaps Albert; the Count frees him",
+   "text": [
+    {
+     "from": 37,
+     "text": "On the last night of Carnival, Albert follows a masked beauty and is taken by Luigi Vampa's bandits. Franz turns to the Count, who walks into the catacombs and has him freed at once. Grateful, Albert promises to introduce the Count to Paris society. They fix the date: 21 May, at half past ten."
+    }
+   ],
+   "revealed": 37,
+   "chapters": [
+    36,
+    37,
+    38
+   ],
+   "flashback": false,
+   "places": [
+    "catacombs-st-sebastian",
+    "rome"
+   ],
+   "people": [
+    "albert-de-morcerf",
+    "luigi-vampa",
+    "franz-depinay",
+    "edmond-dantes",
+    "peppino"
+   ]
+  },
+  {
+   "id": "toulon-escape",
+   "date": "1838-03",
+   "label": "c. early 1838",
+   "approx": true,
+   "title": "Caderousse and Benedetto escape from Toulon",
+   "text": [
+    {
+     "from": 64,
+     "text": "Caderousse and Benedetto break out of the galleys at Toulon together and part at the Pont du Var. Benedetto says he is heading for Italy. He resurfaces as 'Andrea Cavalcanti'."
+    },
+    {
+     "from": 82,
+     "text": "Caderousse and Benedetto break out of the galleys at Toulon with a file supplied by an Englishman, Lord Wilmore: the Count in another disguise. They part at the Pont du Var, and Benedetto resurfaces as 'Andrea Cavalcanti'."
+    }
+   ],
+   "revealed": 64,
+   "chapters": [
+    64,
+    82
+   ],
+   "flashback": true,
+   "places": [
+    "toulon"
+   ],
+   "people": [
+    "gaspard-caderousse",
+    "benedetto",
+    "edmond-dantes"
+   ]
+  },
+  {
+   "id": "debray-partnership",
+   "date": "1838-04",
+   "label": "c. spring 1838",
+   "approx": true,
+   "title": "Madame Danglars gambles on Debray's tips",
+   "text": [
+    {
+     "from": 65,
+     "text": "Madame Danglars passes Danglars stock-market tips picked up from Debray, the minister's secretary, and takes a share of the profits. Danglars has known about it, and about her lovers, all along."
+    },
+    {
+     "from": 106,
+     "text": "Since April, Madame Danglars and Debray have speculated together on information from the ministry. Her stake of 100,000 francs has grown to 2,400,000, which they now split."
+    }
+   ],
+   "revealed": 65,
+   "chapters": [
+    54,
+    65,
+    106
+   ],
+   "flashback": true,
+   "places": [
+    "danglars-house",
+    "bourse"
+   ],
+   "people": [
+    "hermine-danglars",
+    "lucien-debray",
+    "danglars"
+   ]
+  },
+  {
+   "id": "count-in-paris",
+   "date": "1838-05-21",
+   "label": "21 May 1838",
+   "approx": false,
+   "title": "The Count arrives at Albert's breakfast",
+   "text": [
+    {
+     "from": 40,
+     "text": "At exactly half past ten the Count walks into Albert's breakfast party. He dazzles the guests and is visibly moved to meet Captain Maximilian Morrel."
+    },
+    {
+     "from": 41,
+     "text": "At exactly half past ten the Count walks into Albert's breakfast party and is visibly moved to meet Maximilian Morrel. Afterwards Albert presents him to his parents. The Count de Morcerf is Fernand, and the Countess is Mercédès."
+    }
+   ],
+   "revealed": 40,
+   "chapters": [
+    39,
+    40,
+    41
+   ],
+   "flashback": false,
+   "places": [
+    "morcerf-house"
+   ],
+   "people": [
+    "edmond-dantes",
+    "albert-de-morcerf",
+    "maximilien-morrel",
+    "mercedes",
+    "fernand-mondego"
+   ]
+  },
+  {
+   "id": "bertuccio-confesses",
+   "date": "1838-05-22",
+   "label": "c. late May 1838",
+   "approx": true,
+   "title": "Bertuccio confesses at the house in Auteuil",
+   "text": [
+    {
+     "from": 43,
+     "text": "The Count buys a house at Auteuil without seeing it and makes his steward take him there at night. The terrified Bertuccio admits he once committed a killing in its garden. His story, told that night, fills in events from 1815 to 1829."
+    }
+   ],
+   "revealed": 43,
+   "chapters": [
+    42,
+    43,
+    44,
+    45
+   ],
+   "flashback": false,
+   "places": [
+    "house-at-auteuil"
+   ],
+   "people": [
+    "edmond-dantes",
+    "bertuccio"
+   ]
+  },
+  {
+   "id": "haydee-sees-morcerf",
+   "date": "1838-05-25",
+   "label": "c. late May 1838",
+   "approx": true,
+   "title": "At the opera, Haydée recognises Morcerf",
+   "text": [
+    {
+     "from": 53,
+     "text": "In Madame Danglars's box, Morcerf boasts of his service to Ali Pasha. Across the theatre, Haydée sees his face next to the Count's and nearly faints. This man, she says, sold her father to the Turks."
+    }
+   ],
+   "revealed": 53,
+   "chapters": [
+    53
+   ],
+   "flashback": false,
+   "places": [
+    "opera-paris"
+   ],
+   "people": [
+    "haydee",
+    "fernand-mondego",
+    "edmond-dantes",
+    "hermine-danglars"
+   ]
+  },
+  {
+   "id": "cavalcantis-arrive",
+   "date": "1838-05-26",
+   "label": "26 May 1838",
+   "approx": false,
+   "title": "The Cavalcanti 'father and son' arrive",
+   "text": [
+    {
+     "from": 56,
+     "text": "Sent by 'the Abbé Busoni' and 'Sinbad the Sailor', two strangers call on the Count: Major Bartolomeo Cavalcanti and his long-lost son Andrea. Left alone, they admit to each other that they are paid impostors, and agree to play the parts."
+    }
+   ],
+   "revealed": 56,
+   "chapters": [
+    55,
+    56
+   ],
+   "flashback": false,
+   "places": [
+    "count-house-champs-elysees"
+   ],
+   "people": [
+    "bartolomeo-cavalcanti",
+    "andrea-cavalcanti",
+    "edmond-dantes"
+   ]
+  },
+  {
+   "id": "noirtier-will",
+   "date": "1838-06-05",
+   "label": "c. June 1838",
+   "approx": true,
+   "title": "Noirtier disinherits Valentine to stop her marriage",
+   "text": [
+    {
+     "from": 59,
+     "text": "Told that Valentine will marry Franz d'Épinay, Noirtier calls a notary. Using his eyes and a dictionary, he dictates a will: if she marries Franz, his 900,000 francs go to the poor."
+    }
+   ],
+   "revealed": 59,
+   "chapters": [
+    58,
+    59
+   ],
+   "flashback": false,
+   "places": [
+    "villefort-house-paris"
+   ],
+   "people": [
+    "noirtier",
+    "valentine-de-villefort",
+    "villefort",
+    "franz-depinay"
+   ]
+  },
+  {
+   "id": "false-telegraph",
+   "date": "1838-06-07",
+   "label": "c. June 1838",
+   "approx": true,
+   "title": "A false telegraph signal costs Danglars a fortune",
+   "text": [
+    {
+     "from": 61,
+     "text": "The Count bribes a poor telegraph operator to send a fake message that Don Carlos has returned to Spain. Danglars dumps his Spanish bonds and loses heavily when the news is denied."
+    }
+   ],
+   "revealed": 61,
+   "chapters": [
+    61,
+    65
+   ],
+   "flashback": false,
+   "places": [
+    "montlhery-tower"
+   ],
+   "people": [
+    "edmond-dantes",
+    "telegraph-operator",
+    "danglars"
+   ]
+  },
+  {
+   "id": "auteuil-dinner",
+   "date": "1838-06-09",
+   "label": "c. June 1838",
+   "approx": true,
+   "title": "The Count's dinner at Auteuil",
+   "text": [
+    {
+     "from": 63,
+     "text": "The Count gathers Villefort, Madame Danglars and 'Andrea Cavalcanti' at the Auteuil house. He shows them the red damask bedroom and the secret staircase. Then he says his workmen dug up a newborn's skeleton under a garden tree. Madame Danglars faints, and Villefort asks to see her privately."
+    },
+    {
+     "from": 67,
+     "text": "The Count gathers Villefort, Madame Danglars and 'Andrea Cavalcanti' at the Auteuil house and claims a newborn's skeleton was found in the garden. Villefort tells Madame Danglars it cannot be true, because the box he buried had already vanished. The Count, he concludes, knows their secret."
+    }
+   ],
+   "revealed": 63,
+   "chapters": [
+    62,
+    63,
+    67
+   ],
+   "flashback": false,
+   "places": [
+    "house-at-auteuil"
+   ],
+   "people": [
+    "edmond-dantes",
+    "villefort",
+    "hermine-danglars",
+    "andrea-cavalcanti",
+    "danglars",
+    "heloise-de-villefort"
+   ]
+  },
+  {
+   "id": "saint-merans-die",
+   "date": "1838-08-10",
+   "label": "c. August 1838",
+   "approx": true,
+   "title": "The Marquis and Marquise de Saint-Méran die suddenly",
+   "text": [
+    {
+     "from": 73,
+     "text": "Valentine's grandfather dies on the road to Paris, and her grandmother dies days later in the Villefort house. Dr d'Avrigny tells Villefort that the Marquise was poisoned."
+    },
+    {
+     "from": 108,
+     "text": "Valentine's grandparents, the Saint-Mérans, die within days of each other. Villefort accuses his wife of poisoning them, and she cannot deny it."
+    }
+   ],
+   "revealed": 73,
+   "chapters": [
+    71,
+    72,
+    73,
+    108
+   ],
+   "flashback": false,
+   "places": [
+    "villefort-house-paris"
+   ],
+   "people": [
+    "marquis-de-saint-meran",
+    "marquise-de-saint-meran",
+    "valentine-de-villefort",
+    "dr-davrigny"
+   ]
+  },
+  {
+   "id": "franz-learns-truth",
+   "date": "1838-08-28",
+   "label": "c. late August 1838",
+   "approx": true,
+   "title": "Noirtier tells Franz who killed his father",
+   "text": [
+    {
+     "from": 75,
+     "text": "Minutes before the marriage contract is signed, Noirtier summons Franz and has him read the account of the 1815 duel. Franz learns that Noirtier killed his father."
+    },
+    {
+     "from": 78,
+     "text": "Minutes before the marriage contract is signed, Noirtier summons Franz and has him read the account of the 1815 duel. Franz learns that Noirtier killed his father, and writes that the marriage is impossible."
+    }
+   ],
+   "revealed": 75,
+   "chapters": [
+    74,
+    75,
+    78
+   ],
+   "flashback": false,
+   "places": [
+    "villefort-house-paris"
+   ],
+   "people": [
+    "noirtier",
+    "franz-depinay",
+    "valentine-de-villefort",
+    "villefort"
+   ]
+  },
+  {
+   "id": "yanina-article",
+   "date": "1838-08-29",
+   "label": "29 August 1838",
+   "approx": false,
+   "title": "'We hear from Yanina': Albert challenges Beauchamp",
+   "text": [
+    {
+     "from": 78,
+     "text": "Beauchamp's newspaper prints that Yanina was betrayed by a French officer named Fernand. Albert demands a retraction or a duel. Beauchamp asks for three weeks, until 21 September, to investigate."
+    }
+   ],
+   "revealed": 78,
+   "chapters": [
+    78
+   ],
+   "flashback": false,
+   "places": [
+    "beauchamp-newspaper"
+   ],
+   "people": [
+    "albert-de-morcerf",
+    "beauchamp",
+    "danglars"
+   ]
+  },
+  {
+   "id": "barrois-dies",
+   "date": "1838-08-30",
+   "label": "c. late August 1838",
+   "approx": true,
+   "title": "Barrois drinks Noirtier's lemonade and dies",
+   "text": [
+    {
+     "from": 79,
+     "text": "Noirtier's old servant Barrois drinks from his master's lemonade and dies in agony. Dr d'Avrigny proves the lemonade was poisoned."
+    },
+    {
+     "from": 80,
+     "text": "Noirtier's old servant Barrois drinks from his master's lemonade and dies in agony. The poison was meant for Noirtier, who survives because his medicine has accustomed him to it. D'Avrigny accuses Valentine."
+    },
+    {
+     "from": 108,
+     "text": "Noirtier's old servant Barrois drinks poisoned lemonade meant for Noirtier and dies. Villefort accuses his wife of this death too."
+    }
+   ],
+   "revealed": 79,
+   "chapters": [
+    79,
+    80,
+    108
+   ],
+   "flashback": false,
+   "places": [
+    "villefort-house-paris"
+   ],
+   "people": [
+    "barrois",
+    "noirtier",
+    "dr-davrigny",
+    "valentine-de-villefort"
+   ]
+  },
+  {
+   "id": "caderousse-murdered",
+   "date": "1838-09-01",
+   "label": "c. September 1838",
+   "approx": true,
+   "title": "Caderousse is stabbed after robbing the Count",
+   "text": [
+    {
+     "from": 83,
+     "text": "Lured by Benedetto's plan of the house, Caderousse breaks into the Count's Paris home and finds 'the Abbé Busoni' waiting. Let go through the window, he is stabbed by Benedetto outside. Dying, he signs a statement naming Benedetto, and the Count whispers his real name."
+    }
+   ],
+   "revealed": 83,
+   "chapters": [
+    81,
+    82,
+    83
+   ],
+   "flashback": false,
+   "places": [
+    "count-house-champs-elysees"
+   ],
+   "people": [
+    "gaspard-caderousse",
+    "edmond-dantes",
+    "andrea-cavalcanti"
+   ]
+  },
+  {
+   "id": "morcerf-exposed",
+   "date": "1838-09-02",
+   "label": "c. September 1838",
+   "approx": true,
+   "title": "Morcerf is condemned by the Chamber of Peers",
+   "text": [
+    {
+     "from": 86,
+     "text": "A second newspaper openly names the Count de Morcerf as the traitor of Yanina. He defends himself well before a committee of peers until a veiled Haydée appears with proof. He is found guilty of treason."
+    }
+   ],
+   "revealed": 86,
+   "chapters": [
+    84,
+    85,
+    86
+   ],
+   "flashback": false,
+   "places": [
+    "chamber-of-peers"
+   ],
+   "people": [
+    "fernand-mondego",
+    "haydee",
+    "beauchamp",
+    "albert-de-morcerf"
+   ]
+  },
+  {
+   "id": "albert-apologises",
+   "date": "1838-09-03",
+   "label": "c. September 1838",
+   "approx": true,
+   "title": "Albert apologises on the duelling ground",
+   "text": [
+    {
+     "from": 90,
+     "text": "Albert insults the Count publicly, and the Count accepts the challenge. That night Mercédès comes to him, calls him Edmond and begs for her son's life. At the duel Albert apologises before everyone and says the Count was right to punish his father."
+    }
+   ],
+   "revealed": 90,
+   "chapters": [
+    87,
+    88,
+    89,
+    90
+   ],
+   "flashback": false,
+   "places": [
+    "bois-de-vincennes",
+    "opera-paris"
+   ],
+   "people": [
+    "albert-de-morcerf",
+    "edmond-dantes",
+    "mercedes",
+    "maximilien-morrel"
+   ]
+  },
+  {
+   "id": "morcerf-suicide",
+   "date": "1838-09-03",
+   "label": "c. September 1838",
+   "approx": true,
+   "title": "Morcerf learns the Count's name and shoots himself",
+   "text": [
+    {
+     "from": 92,
+     "text": "Morcerf comes to fight the Count to the death. The Count appears in a sailor's jacket, and Morcerf cries 'Edmond Dantès!' At home, he watches Mercédès and Albert leave for good, and shoots himself."
+    }
+   ],
+   "revealed": 92,
+   "chapters": [
+    91,
+    92
+   ],
+   "flashback": false,
+   "places": [
+    "count-house-champs-elysees",
+    "morcerf-house"
+   ],
+   "people": [
+    "fernand-mondego",
+    "edmond-dantes",
+    "mercedes",
+    "albert-de-morcerf"
+   ]
+  },
+  {
+   "id": "andrea-unmasked",
+   "date": "1838-09-04",
+   "label": "c. September 1838",
+   "approx": true,
+   "title": "Andrea is unmasked and arrested",
+   "text": [
+    {
+     "from": 98,
+     "text": "At the signing of his marriage contract with Eugénie, police arrive to arrest 'Prince Cavalcanti' for Caderousse's murder, but he has slipped away. He is caught at an inn at Compiègne, an escaped convict named Benedetto."
+    }
+   ],
+   "revealed": 98,
+   "chapters": [
+    93,
+    96,
+    98,
+    99
+   ],
+   "flashback": false,
+   "places": [
+    "danglars-house",
+    "compiegne",
+    "bell-and-bottle-inn"
+   ],
+   "people": [
+    "andrea-cavalcanti",
+    "eugenie-danglars",
+    "danglars",
+    "louise-darmilly"
+   ]
+  },
+  {
+   "id": "valentine-dead",
+   "date": "1838-09-04",
+   "label": "c. September 1838",
+   "approx": true,
+   "title": "Valentine is pronounced dead",
+   "text": [
+    {
+     "from": 102,
+     "text": "Valentine has been poisoned once already. The Count shows her Madame de Villefort pouring poison into her glass, and gives her a pill, telling her to fear nothing even if she wakes in a tomb. By morning she lies cold and still, and Dr d'Avrigny pronounces her dead."
+    },
+    {
+     "from": 117,
+     "text": "Valentine has been poisoned once already. The Count shows her Madame de Villefort pouring poison into her glass and gives her a drug that makes her seem dead. After her funeral he takes her secretly to Monte Cristo, where she is waiting, alive."
+    }
+   ],
+   "revealed": 102,
+   "chapters": [
+    93,
+    100,
+    101,
+    102,
+    117
+   ],
+   "flashback": false,
+   "places": [
+    "villefort-house-paris"
+   ],
+   "people": [
+    "valentine-de-villefort",
+    "heloise-de-villefort",
+    "edmond-dantes",
+    "dr-davrigny"
+   ]
+  },
+  {
+   "id": "danglars-ruined",
+   "date": "1838-09-05",
+   "label": "c. September 1838",
+   "approx": true,
+   "title": "The Count drains Danglars and Danglars runs",
+   "text": [
+    {
+     "from": 104,
+     "text": "The Count walks off with five million francs in bonds that Danglars owed to the hospitals' charity fund. Unable to pay the charities, Danglars quietly prepares to flee."
+    },
+    {
+     "from": 106,
+     "text": "The Count walks off with five million that Danglars owed to the hospitals' charity fund. That night Danglars flees France, leaving his wife a mocking letter."
+    }
+   ],
+   "revealed": 104,
+   "chapters": [
+    104,
+    106
+   ],
+   "flashback": false,
+   "places": [
+    "danglars-house"
+   ],
+   "people": [
+    "danglars",
+    "edmond-dantes"
+   ]
+  },
+  {
+   "id": "valentine-funeral",
+   "date": "1838-09-05",
+   "label": "5 September 1838",
+   "approx": false,
+   "title": "At Valentine's funeral, the Count saves Maximilian",
+   "text": [
+    {
+     "from": 105,
+     "text": "After Valentine's funeral the Count stops Maximilian from shooting himself by revealing that he is Edmond Dantès, the Morrels' secret benefactor. Maximilian promises to live one more month, until 5 October. Dumas's calendar slips here: the three weeks Beauchamp asked for on 29 August should run past this date, so treat the late-summer dates as rough."
+    }
+   ],
+   "revealed": 105,
+   "chapters": [
+    105
+   ],
+   "flashback": false,
+   "places": [
+    "pere-lachaise",
+    "morrel-house-paris"
+   ],
+   "people": [
+    "edmond-dantes",
+    "maximilien-morrel",
+    "julie-morrel",
+    "emmanuel-herbaut"
+   ]
+  },
+  {
+   "id": "benedetto-trial",
+   "date": "1838-09-07",
+   "label": "c. September 1838",
+   "approx": true,
+   "title": "Benedetto names his father in court",
+   "text": [
+    {
+     "from": 110,
+     "text": "On trial for murder, Benedetto tells the court he was born at Auteuil in 1817 and buried alive by his father, the king's attorney, M. de Villefort. Madame Danglars faints in the crowd. Villefort admits everything and walks out."
+    }
+   ],
+   "revealed": 110,
+   "chapters": [
+    107,
+    109,
+    110
+   ],
+   "flashback": false,
+   "places": [
+    "palais-de-justice-paris"
+   ],
+   "people": [
+    "andrea-cavalcanti",
+    "villefort",
+    "hermine-danglars"
+   ]
+  },
+  {
+   "id": "villefort-destroyed",
+   "date": "1838-09-07",
+   "label": "c. September 1838",
+   "approx": true,
+   "title": "Madame de Villefort poisons herself and Edward; Villefort goes mad",
+   "text": [
+    {
+     "from": 111,
+     "text": "That morning Villefort ordered his wife, the poisoner, to take her own poison. He rushes home to save her and finds her dead, with Edward dead beside her. The Abbé Busoni reveals himself as Edmond Dantès. Villefort loses his mind and digs in the garden for the buried child."
+    }
+   ],
+   "revealed": 111,
+   "chapters": [
+    108,
+    111
+   ],
+   "flashback": false,
+   "places": [
+    "villefort-house-paris"
+   ],
+   "people": [
+    "villefort",
+    "heloise-de-villefort",
+    "edouard-de-villefort",
+    "edmond-dantes",
+    "noirtier"
+   ]
+  },
+  {
+   "id": "count-revisits-if",
+   "date": "1838-09-15",
+   "label": "c. September 1838",
+   "approx": true,
+   "title": "The Count returns to the Château d'If",
+   "text": [
+    {
+     "from": 113,
+     "text": "Shaken by Edward's death, the Count sees Albert off to Africa and says goodbye to Mercédès in Marseilles. Then he revisits his old cell, hears his own story told as a legend, and buys Faria's manuscript from the guide."
+    }
+   ],
+   "revealed": 113,
+   "chapters": [
+    112,
+    113
+   ],
+   "flashback": false,
+   "places": [
+    "chateau-dif",
+    "marseilles",
+    "old-dantes-house"
+   ],
+   "people": [
+    "edmond-dantes",
+    "mercedes",
+    "albert-de-morcerf",
+    "maximilien-morrel"
+   ]
+  },
+  {
+   "id": "danglars-starved",
+   "date": "1838-09-25",
+   "label": "c. September 1838",
+   "approx": true,
+   "title": "Danglars is held by Vampa and forgiven",
+   "text": [
+    {
+     "from": 116,
+     "text": "Fleeing through Rome with five million, Danglars is kidnapped by Vampa and made to pay a fortune for every meal. Starving and repentant, he is confronted by Edmond Dantès, who forgives him and lets him go with 50,000 francs. His hair has turned white."
+    }
+   ],
+   "revealed": 116,
+   "chapters": [
+    114,
+    115,
+    116
+   ],
+   "flashback": false,
+   "places": [
+    "catacombs-st-sebastian",
+    "rome"
+   ],
+   "people": [
+    "danglars",
+    "luigi-vampa",
+    "peppino",
+    "edmond-dantes"
+   ]
+  },
+  {
+   "id": "fifth-of-october",
+   "date": "1838-10-05",
+   "label": "5 October 1838",
+   "approx": false,
+   "title": "On Monte Cristo, Maximilian finds Valentine alive",
+   "text": [
+    {
+     "from": 117,
+     "text": "Maximilian comes to Monte Cristo to die, and the Count gives him what seems a fatal drug. He wakes to find Valentine alive. The Count leaves them his fortune and a letter ending 'Wait and hope', and sails away with Haydée."
+    }
+   ],
+   "revealed": 117,
+   "chapters": [
+    117
+   ],
+   "flashback": false,
+   "places": [
+    "monte-cristo-island"
+   ],
+   "people": [
+    "maximilien-morrel",
+    "valentine-de-villefort",
+    "edmond-dantes",
+    "haydee"
+   ]
+  }
+ ]
 }
