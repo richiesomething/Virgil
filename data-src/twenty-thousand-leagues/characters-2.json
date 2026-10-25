@@ -1,0 +1,778 @@
+[
+  {
+    "id": "conseil",
+    "name": "Conseil",
+    "firstChapter": 3,
+    "importance": "major",
+    "group": "Aboard the Nautilus",
+    "tagline": [
+      {
+        "from": 3,
+        "text": "Aronnax's unflappable Flemish manservant, who answers everything with \"As master wishes.\""
+      },
+      {
+        "from": 7,
+        "text": "The servant who jumped into the sea after his master and kept him afloat for hours."
+      },
+      {
+        "from": 14,
+        "text": "Aronnax's devoted servant, content to sit at the window classifying the fish of the deep."
+      },
+      {
+        "from": 20,
+        "text": "The calm, curious captive, happy to stay aboard and see everything."
+      },
+      {
+        "from": 40,
+        "text": "The servant who, with Ned, gave his own air to keep Aronnax alive under the ice."
+      }
+    ],
+    "description": [
+      {
+        "from": 3,
+        "text": "Conseil has served Aronnax for ten years. He is thirty, Flemish, hardworking and never surprised by anything. He is an expert in biological classification who knows the names of orders and families but can hardly tell one actual animal from another. He is so formal that he speaks to Aronnax only in the third person, as \"master.\" Warned that the hunt for the monster may be long and dangerous, he packs the trunks in a quarter of an hour."
+      },
+      {
+        "from": 7,
+        "text": "His calm is a kind of courage. When Aronnax is thrown overboard, Conseil jumps in after him on purpose (\"being in master's employ, I followed master\"), cuts away his master's heavy clothes, and takes turns towing him through the night."
+      },
+      {
+        "from": 14,
+        "text": "Aboard the underwater ship he finds his element. He lectures Ned on how fish are classified, and the pair make one complete naturalist: Ned names each fish, Conseil gives its class and order."
+      },
+      {
+        "from": 16,
+        "text": "He suits up for the walks on the seafloor that Ned refuses, and afterward tells Ned all about them."
+      },
+      {
+        "from": 20,
+        "text": "Where Ned longs for escape, Conseil is content to stay and see everything. One of them, he reasons, will be pleased whatever happens."
+      },
+      {
+        "from": 25,
+        "text": "He tends to see Captain Nemo as a misunderstood genius who has turned his back on the world."
+      },
+      {
+        "from": 26,
+        "text": "His loyalty stays fixed on his master: if master faces sharks, he says, so will he."
+      },
+      {
+        "from": 30,
+        "text": "When Ned and Aronnax argue about escaping, he declares himself neutral."
+      },
+      {
+        "from": 40,
+        "text": "Trapped under the ice, he takes his turn with a pick, and wishes he didn't have to breathe so there would be more air for master. When Aronnax passes out, he and Ned revive him with the last air in a diving tank, going without themselves."
+      },
+      {
+        "from": 46,
+        "text": "In the last grim weeks aboard he keeps a close watch on Ned, afraid the harpooner's despair may drive him to harm himself."
+      }
+    ],
+    "moments": [
+      {
+        "chapter": 3,
+        "text": "Packs for an open-ended voyage in fifteen minutes: \"As master wishes.\""
+      },
+      {
+        "chapter": 5,
+        "text": "Calmly agrees that the failed hunt will serve master right."
+      },
+      {
+        "chapter": 7,
+        "text": "Dives in after Aronnax and keeps him afloat until Ned hauls them onto the 'monster.'"
+      },
+      {
+        "chapter": 14,
+        "text": "Classifies the fish of the Black Current while Ned names them."
+      },
+      {
+        "chapter": 16,
+        "text": "Suits up with Aronnax for the first walk on the seafloor."
+      },
+      {
+        "chapter": 21,
+        "text": "Catches a rare bird of paradise by hand, drunk on nutmeg."
+      },
+      {
+        "chapter": 22,
+        "text": "Fires back when a sling stone shatters a rare shell in his hands."
+      },
+      {
+        "chapter": 26,
+        "text": "Says quietly that if master faces sharks, he will face them too."
+      },
+      {
+        "chapter": 29,
+        "text": "Mistakes a dugong for a mermaid."
+      },
+      {
+        "chapter": 30,
+        "text": "Declares himself neutral in the argument over escaping."
+      },
+      {
+        "chapter": 40,
+        "text": "Helps revive Aronnax with the last air in a diving tank."
+      },
+      {
+        "chapter": 41,
+        "text": "Knocked flat by an electric ray, recites its classification, then eats it."
+      },
+      {
+        "chapter": 42,
+        "text": "Describes a giant squid point by point through the window."
+      },
+      {
+        "chapter": 47,
+        "text": "Safe at Aronnax's bedside in a fisherman's hut in the Lofoten Islands."
+      }
+    ]
+  },
+  {
+    "id": "ned-land",
+    "name": "Ned Land",
+    "firstChapter": 4,
+    "importance": "major",
+    "group": "Aboard the Nautilus",
+    "tagline": [
+      {
+        "from": 4,
+        "text": "The Canadian \"King of Harpooners\" aboard the Abraham Lincoln, and the one man who doubts the monster."
+      },
+      {
+        "from": 6,
+        "text": "The harpooner who struck the monster and heard his harpoon ring on something hard."
+      },
+      {
+        "from": 8,
+        "text": "The hot-tempered harpooner, now a prisoner and ready to fight his way out."
+      },
+      {
+        "from": 10,
+        "text": "A captive who refuses to promise he won't escape, and means it."
+      },
+      {
+        "from": 27,
+        "text": "The restless harpooner who saved Captain Nemo from a shark, yet still longs to escape."
+      },
+      {
+        "from": 36,
+        "text": "A homesick, sullen captive whose resentment of Nemo is hardening."
+      },
+      {
+        "from": 42,
+        "text": "The harpooner whose life Nemo saved in turn, more desperate than ever to get home."
+      }
+    ],
+    "description": [
+      {
+        "from": 4,
+        "text": "Ned is a Canadian of about forty from an old Quebec fishing family, very tall, powerfully built and blessed with a remarkably strong gaze. He is unsociable, headstrong and quick to anger, and the best harpooner alive. Commander Farragut has hired him as the frigate's chief weapon. He warms to Aronnax because they share French, and tells him tales of whaling in the polar seas. Yet he alone does not believe in the monster: no whale he has hunted could pierce a steamer's iron plates."
+      },
+      {
+        "from": 5,
+        "text": "He proves his skill by harpooning two whales with one throw. While everyone else watches the sea, the skeptic reads or sleeps. Then, on the last night of the search, it is Ned's voice that cries out that the thing has been sighted."
+      },
+      {
+        "from": 7,
+        "text": "Thrown overboard in the collision, he climbs onto the 'monster' itself, pulls Aronnax and Conseil out of the water, and reports why his harpoon failed: the beast is made of boilerplate steel."
+      },
+      {
+        "from": 8,
+        "text": "Captivity brings out his temper. He shouts, demands his rights in angry English, reaches for his knife, and talks of seizing the ship. When food is slow to come, he throws down the steward and chokes him."
+      },
+      {
+        "from": 10,
+        "text": "Offered life aboard on condition he never leave, Ned refuses to promise not to escape. From then on he is the voice of escape, eyeing every coast."
+      },
+      {
+        "from": 14,
+        "text": "He is a simple, honest man of appetite, not a scholar: at the lounge windows he names each fish and rates it by how good it is to eat. He scorns the diving suits."
+      },
+      {
+        "from": 21,
+        "text": "He lights up at any chance of solid ground, fresh meat or a hunt. On Gueboroa he roasts breadfruit and brings down a wild pig and a dozen kangaroos."
+      },
+      {
+        "from": 29,
+        "text": "In the Red Sea he kills a giant dugong after a dangerous chase that nearly swamps the skiff."
+      },
+      {
+        "from": 26,
+        "text": "He once bought a cheap pearl necklace for his fiancée, Kate Tender, who married someone else."
+      },
+      {
+        "from": 27,
+        "text": "On the pearl bank he drives his harpoon into a shark's heart as its jaws open over Captain Nemo. He tells Nemo he owed it to him. It does not soften his wish to leave."
+      },
+      {
+        "from": 30,
+        "text": "In the Mediterranean he makes Aronnax agree that they will take the first real chance to escape."
+      },
+      {
+        "from": 32,
+        "text": "Off Spain he sets a night for it, stows provisions in the skiff and readies a wrench for its bolts, but the ship stops in the Bay of Vigo just before the hour."
+      },
+      {
+        "from": 36,
+        "text": "As the ship heads into empty southern seas he grows silent and sullen, and his eyes burn when he meets the captain. Nemo forbids him to hunt harmless whales, then butchers a pack of sperm whales with the ship. Ned cheers, then calls it butchery: he is a hunter, not a butcher."
+      },
+      {
+        "from": 40,
+        "text": "Under the ice he volunteers with a pick, and he and Conseil save Aronnax's life with the last air in a tank. He shrugs it off as simple arithmetic."
+      },
+      {
+        "from": 42,
+        "text": "Knocked down under a giant squid's beak, he is saved by Nemo's ax. Homesick for Quebec and the St. Lawrence, he pushes Aronnax to demand their freedom, and when Nemo refuses, vows to escape whatever the weather."
+      }
+    ],
+    "moments": [
+      {
+        "chapter": 4,
+        "text": "Tells Aronnax that no whale could hole a steamer's iron plates."
+      },
+      {
+        "chapter": 5,
+        "text": "Harpoons two whales at once; then sights the thing on the last night."
+      },
+      {
+        "chapter": 6,
+        "text": "Harpoons the monster from twenty feet; the harpoon rings as if on metal."
+      },
+      {
+        "chapter": 7,
+        "text": "Hauls Aronnax and Conseil onto the monster's steel back."
+      },
+      {
+        "chapter": 9,
+        "text": "Throttles the steward, until a voice says in French, \"Calm down, Mr. Land!\""
+      },
+      {
+        "chapter": 10,
+        "text": "Refuses to promise not to escape."
+      },
+      {
+        "chapter": 16,
+        "text": "Refuses to put on a diving suit."
+      },
+      {
+        "chapter": 21,
+        "text": "Gets his red meat at last: a wild pig and a dozen kangaroos."
+      },
+      {
+        "chapter": 22,
+        "text": "Grabs the electrified railing and cries that he's been struck by lightning."
+      },
+      {
+        "chapter": 26,
+        "text": "Recalls Kate Tender and her necklace of glass pearls."
+      },
+      {
+        "chapter": 27,
+        "text": "Kills the shark attacking Captain Nemo."
+      },
+      {
+        "chapter": 29,
+        "text": "Kills a huge dugong after it nearly swamps the skiff."
+      },
+      {
+        "chapter": 32,
+        "text": "Sets an escape for nine o'clock; the ship stops in the Bay of Vigo first."
+      },
+      {
+        "chapter": 36,
+        "text": "Denied the right whales; calls the sperm-whale slaughter butchery."
+      },
+      {
+        "chapter": 40,
+        "text": "With Conseil, revives Aronnax with the last of their air."
+      },
+      {
+        "chapter": 42,
+        "text": "Saved by Nemo from a giant squid: \"Tit for tat.\""
+      },
+      {
+        "chapter": 45,
+        "text": "Waves a handkerchief at the warship and is knocked down by Nemo."
+      },
+      {
+        "chapter": 46,
+        "text": "Plans the night escape in the skiff."
+      },
+      {
+        "chapter": 47,
+        "text": "Safe beside Aronnax in the Lofoten Islands."
+      }
+    ]
+  },
+  {
+    "id": "nautilus",
+    "kind": "object",
+    "name": "The submarine",
+    "firstChapter": 7,
+    "importance": "major",
+    "group": "Objects",
+    "aliases": [
+      {
+        "name": "the Nautilus",
+        "from": 10,
+        "note": "the name Captain Nemo gives it"
+      }
+    ],
+    "tagline": [
+      {
+        "from": 7,
+        "text": "The 'monster' unmasked: an underwater boat of riveted steel, built by human hands."
+      },
+      {
+        "from": 8,
+        "text": "A mysterious underwater vessel, lit by electricity, whose silent crew hold the three as prisoners."
+      },
+      {
+        "from": 10,
+        "text": "The Nautilus: Captain Nemo's submarine, and now the three men's home and prison."
+      },
+      {
+        "from": 13,
+        "text": "Nemo's electric submarine, secretly built, which no warship can catch."
+      },
+      {
+        "from": 36,
+        "text": "The submarine whose steel spur Nemo uses as a weapon."
+      },
+      {
+        "from": 45,
+        "text": "The submarine Nemo has used to sink a warship with all hands."
+      }
+    ],
+    "description": [
+      {
+        "from": 7,
+        "text": "The thing the whole world took for a sea monster is a machine. Its back is smooth and rings like metal, its plates are held by rivets, and a propeller drives it. At dawn it begins to sink, a hatch opens, and masked men drag the three castaways inside."
+      },
+      {
+        "from": 8,
+        "text": "Inside, the same electric light that glowed around the 'monster' floods an iron cell. Everything the prisoners are served bears an N inside the motto \"Mobilis in Mobili,\" \"moving within the moving element.\" Like a whale, the vessel must surface to renew its air."
+      },
+      {
+        "from": 10,
+        "text": "Its commander names it: the Nautilus. For the three prisoners it is now both home and prison, since no one who boards it may ever leave."
+      },
+      {
+        "from": 11,
+        "text": "Behind the cell lies a floating palace: a dining room, a library of 12,000 books, and a lounge that is really a museum, with old-master paintings, an organ and priceless shells and pearls."
+      },
+      {
+        "from": 12,
+        "text": "Electricity, made with sodium taken from seawater, lights, heats and drives it, at up to fifty miles an hour. Pumps store air in tanks so it can stay down for long periods, and it carries a watertight skiff in a hollow of its hull."
+      },
+      {
+        "from": 13,
+        "text": "It is a seventy-meter steel cylinder with conical ends and a double hull. Tanks let it sink and rise, fins steer it deeper, and a powerful beacon behind the pilothouse explains the glow sailors saw. Nemo ordered each part from a different maker under a false name and assembled it with his crew on a deserted islet. He calls ramming the Scotia an accident and says he struck the Abraham Lincoln only in self-defense."
+      },
+      {
+        "from": 14,
+        "text": "From its platform Aronnax sees why it was taken for a sea creature: its plates overlap like a reptile's scales."
+      },
+      {
+        "from": 22,
+        "text": "It can defend itself without firing a shot: when islanders board it, its railing is charged with electricity."
+      },
+      {
+        "from": 34,
+        "text": "It has a secret home port inside an extinct volcano, where the crew mine coal to make its sodium."
+      },
+      {
+        "from": 36,
+        "text": "Its steel spur turns it into a giant harpoon. Nemo drives it through a pack of sperm whales and leaves the sea red for miles."
+      },
+      {
+        "from": 40,
+        "text": "Trapped in a tunnel of ice with two days of air, it is freed only by digging, boiling water and finally its own weight and spur, ramming up through the ice."
+      },
+      {
+        "from": 45,
+        "text": "Shelled by an unidentified warship, the Nautilus rams it below the waterline and passes through it \"like a sailmaker's needle through canvas.\" No one aboard the warship survives."
+      },
+      {
+        "from": 47,
+        "text": "Caught in the Maelstrom off Norway, it is last seen spinning in the whirlpool as the skiff is torn away. Aronnax does not know whether it survived."
+      }
+    ],
+    "moments": [
+      {
+        "chapter": 7,
+        "text": "Revealed as a riveted steel underwater boat; its crew haul the three aboard."
+      },
+      {
+        "chapter": 8,
+        "text": "Its tableware bears an N and the motto \"Mobilis in Mobili.\""
+      },
+      {
+        "chapter": 10,
+        "text": "Named the Nautilus by its commander."
+      },
+      {
+        "chapter": 14,
+        "text": "Its voyage of underwater exploration begins off Japan on November 8."
+      },
+      {
+        "chapter": 20,
+        "text": "Runs aground in the Torres Strait."
+      },
+      {
+        "chapter": 22,
+        "text": "Its electrified railing repels the islanders; it floats off at 2:40 exactly."
+      },
+      {
+        "chapter": 29,
+        "text": "Passes through the Arabian Tunnel into the Mediterranean."
+      },
+      {
+        "chapter": 34,
+        "text": "Takes on sodium in a hidden harbor inside an extinct volcano."
+      },
+      {
+        "chapter": 35,
+        "text": "Dives to 16,000 meters."
+      },
+      {
+        "chapter": 36,
+        "text": "Rams and slaughters a pack of sperm whales."
+      },
+      {
+        "chapter": 37,
+        "text": "Runs south beneath the Ice Bank."
+      },
+      {
+        "chapter": 39,
+        "text": "Trapped in a tunnel of ice by a capsized iceberg."
+      },
+      {
+        "chapter": 40,
+        "text": "Breaks free and rams up through the surface ice."
+      },
+      {
+        "chapter": 42,
+        "text": "Giant squid jam its propeller."
+      },
+      {
+        "chapter": 45,
+        "text": "Rams and sinks the unidentified warship."
+      },
+      {
+        "chapter": 46,
+        "text": "Caught in the Maelstrom."
+      }
+    ]
+  },
+  {
+    "id": "the-monster",
+    "kind": "object",
+    "name": "The monster",
+    "firstChapter": 1,
+    "importance": "supporting",
+    "group": "Objects",
+    "aliases": [
+      {
+        "name": "the narwhal",
+        "from": 2,
+        "note": "Aronnax's theory: a giant narwhal, or sea unicorn"
+      }
+    ],
+    "tagline": [
+      {
+        "from": 1,
+        "text": "The enormous, sometimes glowing thing sighted at sea and blamed for holing ships."
+      },
+      {
+        "from": 2,
+        "text": "The mysterious sea monster that Aronnax believes is a giant narwhal."
+      },
+      {
+        "from": 6,
+        "text": "The glowing giant that outran the frigate and shrugged off a cannon shell."
+      }
+    ],
+    "description": [
+      {
+        "from": 1,
+        "text": "From 1866, ships everywhere report an enormous thing at sea: long, spindle-shaped, sometimes glowing, faster and far bigger than any whale. It is seen in places hundreds of leagues apart within days. Then it turns dangerous. It strikes the Moravian and punches a clean triangular hole in the iron hull of the Cunard liner Scotia, and the public demands it be hunted down."
+      },
+      {
+        "from": 2,
+        "text": "Aronnax, the expert of the day, argues in print that it is a known animal on a giant scale: a narwhal five or ten times normal size, whose ivory tusk could pierce a steamer's hull. He leaves himself a loophole, but privately he believes in it."
+      },
+      {
+        "from": 6,
+        "text": "When the Abraham Lincoln finally finds it, it glows with an intense light under the water, blows two great jets of water and steam, and matches the frigate's every burst of speed. A cannon shell bounces off its rounded back, and Ned Land's harpoon strikes something hard. Then it rams the frigate."
+      }
+    ],
+    "moments": [
+      {
+        "chapter": 1,
+        "text": "The Governor Higginson mistakes it for a reef until it spouts."
+      },
+      {
+        "chapter": 1,
+        "text": "Punches a triangular hole in the Scotia's hull."
+      },
+      {
+        "chapter": 2,
+        "text": "Aronnax publishes his giant-narwhal theory."
+      },
+      {
+        "chapter": 5,
+        "text": "Sighted at last, on the frigate's final night of searching."
+      },
+      {
+        "chapter": 6,
+        "text": "Outruns the frigate all day; a shell bounces off it; harpooned, it rams the ship."
+      }
+    ],
+    "mergedInto": {
+      "id": "nautilus",
+      "from": 7
+    }
+  },
+  {
+    "id": "abraham-lincoln",
+    "kind": "object",
+    "name": "The Abraham Lincoln",
+    "firstChapter": 2,
+    "importance": "supporting",
+    "group": "Objects",
+    "tagline": [
+      {
+        "from": 2,
+        "text": "The fast American frigate fitted out to hunt the monster."
+      },
+      {
+        "from": 7,
+        "text": "The crippled frigate that drifted away, leaving Aronnax and his companions in the sea."
+      }
+    ],
+    "description": [
+      {
+        "from": 2,
+        "text": "A high-speed American frigate, fitted out in New York under Commander Farragut and armed for a far-off voyage to chase the monster."
+      },
+      {
+        "from": 3,
+        "text": "It leaves Brooklyn escorted by about a hundred small boats while crowds cheer from the shores."
+      },
+      {
+        "from": 4,
+        "text": "It carries every kind of whaling weapon, from hand harpoons to a breech-loading cannon, plus Ned Land, and a $2,000 reward keeps every eye on the sea."
+      },
+      {
+        "from": 5,
+        "text": "It rounds Cape Horn and spends three fruitless months in the northern Pacific, until the crew come close to mutiny."
+      },
+      {
+        "from": 7,
+        "text": "The collision smashes its propeller and rudder, and it can no longer steer. The castaways watch it drift off in the night, with no boats coming for them."
+      },
+      {
+        "from": 13,
+        "text": "Captain Nemo says he attacked it only in self-defense, and left it able to reach port."
+      }
+    ],
+    "moments": [
+      {
+        "chapter": 3,
+        "text": "Leaves Brooklyn escorted by a hundred small boats."
+      },
+      {
+        "chapter": 5,
+        "text": "Its crew come close to mutiny after three fruitless months."
+      },
+      {
+        "chapter": 6,
+        "text": "Chases the monster all day at full steam, and is rammed."
+      },
+      {
+        "chapter": 7,
+        "text": "Drifts away crippled, its rudder and propeller smashed."
+      }
+    ]
+  },
+  {
+    "id": "commander-farragut",
+    "name": "Commander Farragut",
+    "firstChapter": 2,
+    "importance": "supporting",
+    "group": "The hunt for the monster",
+    "tagline": [
+      {
+        "from": 2,
+        "text": "Commander of the Abraham Lincoln, sworn to rid the seas of the monster."
+      },
+      {
+        "from": 7,
+        "text": "The frigate's commander, now out of reach as the castaways are carried away."
+      }
+    ],
+    "description": [
+      {
+        "from": 2,
+        "text": "The American naval officer given command of the Abraham Lincoln, and the man pressing hard to get the frigate armed and ready for the hunt."
+      },
+      {
+        "from": 4,
+        "text": "A good seaman, worthy of the frigate he commands. He believes in the monster as an article of faith, allows no doubts aboard his ship, and has vowed to rid the seas of it."
+      },
+      {
+        "from": 5,
+        "text": "When his crew nearly mutiny after three months of fruitless searching, he asks for just three more days."
+      },
+      {
+        "from": 6,
+        "text": "Once the thing is found he is relentless: he calls it a gigantic electric narwhal, offers $500 to whoever can hit it, and swears he'll chase it till his frigate explodes."
+      }
+    ],
+    "moments": [
+      {
+        "chapter": 3,
+        "text": "Welcomes Aronnax aboard in Brooklyn."
+      },
+      {
+        "chapter": 5,
+        "text": "Asks the restless crew for three more days."
+      },
+      {
+        "chapter": 6,
+        "text": "Orders full steam and chases the monster all day."
+      }
+    ]
+  },
+  {
+    "id": "captain-baker",
+    "name": "Captain Baker",
+    "firstChapter": 1,
+    "importance": "minor",
+    "group": "The hunt for the monster",
+    "tagline": [
+      {
+        "from": 1,
+        "text": "Captain of the steamer Governor Higginson, one of the first to see the thing at sea."
+      }
+    ],
+    "description": [
+      {
+        "from": 1,
+        "text": "Off the coast of Australia in 1866, Captain Baker takes the object for an uncharted reef and is about to fix its position when it shoots two waterspouts into the air."
+      }
+    ],
+    "moments": [
+      {
+        "chapter": 1,
+        "text": "Mistakes the thing for a reef until it spouts."
+      }
+    ]
+  },
+  {
+    "id": "captain-anderson",
+    "name": "Captain Anderson",
+    "firstChapter": 1,
+    "importance": "minor",
+    "group": "The hunt for the monster",
+    "tagline": [
+      {
+        "from": 1,
+        "text": "Captain of the Cunard liner Scotia, holed below the waterline by the unknown thing."
+      }
+    ],
+    "description": [
+      {
+        "from": 1,
+        "text": "When the Scotia is struck during afternoon tea, Captain Anderson calms the passengers, finds a flooded compartment, and brings the ship safely into Liverpool thanks to her watertight bulkheads. In dry dock the engineers find a clean triangular hole in her iron hull."
+      }
+    ],
+    "moments": [
+      {
+        "chapter": 1,
+        "text": "Brings the holed Scotia safely into Liverpool."
+      },
+      {
+        "chapter": 44,
+        "text": "A Captain Anderson also commands the Great Eastern in Aronnax's history of the Atlantic cable."
+      }
+    ]
+  },
+  {
+    "id": "j-b-hobson",
+    "name": "J. B. Hobson",
+    "firstChapter": 2,
+    "importance": "minor",
+    "group": "The hunt for the monster",
+    "tagline": [
+      {
+        "from": 2,
+        "text": "The U.S. Secretary of the Navy, who invites Aronnax to join the hunt."
+      }
+    ],
+    "description": [
+      {
+        "from": 2,
+        "text": "Three hours before the Abraham Lincoln sails, his letter invites Aronnax aboard to represent France on the expedition. It settles Aronnax's fate on the spot."
+      }
+    ],
+    "moments": [
+      {
+        "chapter": 2,
+        "text": "Writes inviting Aronnax aboard the Abraham Lincoln."
+      }
+    ]
+  },
+  {
+    "id": "old-gunner",
+    "name": "The veteran gunner",
+    "firstChapter": 6,
+    "importance": "minor",
+    "group": "The hunt for the monster",
+    "tagline": [
+      {
+        "from": 6,
+        "text": "The gray-bearded gunner whose shell hits the monster and bounces off."
+      }
+    ],
+    "description": [
+      {
+        "from": 6,
+        "text": "Calm of eye and cool of feature, he takes the cannon after another man misses, aims for a long while, and hits the creature. The shell glances off its rounded back. \"That rascal must be covered with six-inch armor plate!\" he says."
+      }
+    ],
+    "moments": [
+      {
+        "chapter": 6,
+        "text": "Hits the monster with a shell that bounces off."
+      }
+    ]
+  },
+  {
+    "id": "kate-tender",
+    "name": "Kate Tender",
+    "firstChapter": 26,
+    "importance": "minor",
+    "group": "Ashore and remembered",
+    "tagline": [
+      {
+        "from": 26,
+        "text": "Ned Land's former fiancée, who married someone else."
+      }
+    ],
+    "description": [
+      {
+        "from": 26,
+        "text": "Ned once bought her a pearl necklace for $1.50. Aronnax laughs that the pearls were glass beads, and Ned reflects that maybe that's why she married somebody else."
+      }
+    ],
+    "moments": [
+      {
+        "chapter": 26,
+        "text": "Remembered by Ned during Aronnax's lecture on pearls."
+      }
+    ]
+  }
+]

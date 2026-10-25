@@ -1,0 +1,293 @@
+[
+  {
+    "chapter": 1,
+    "setting": "The world's oceans, 1866 to 1867",
+    "keepInMind": "The narrator is a French naturalist looking back on events he lived through, and he writes like a scientist: dates, positions, measurements and long lists of sea creatures. Feel free to skim the catalogs; the story is in what people see and what they make of it. A league is about four kilometers, and a cable length about 200 meters.",
+    "returning": []
+  },
+  {
+    "chapter": 2,
+    "setting": "New York, spring 1867",
+    "keepInMind": "Ships everywhere have reported an enormous, fast, sometimes glowing spindle-shaped thing at sea. It has rammed two liners, leaving a clean triangular hole in the Scotia's iron hull, and the public now wants it hunted down.",
+    "returning": []
+  },
+  {
+    "chapter": 3,
+    "setting": "New York, June 1867, moments after a letter arrives",
+    "keepInMind": "Aronnax has argued in print that the culprit is a giant narwhal whose tusk could pierce a ship. The frigate Abraham Lincoln is ready to hunt it under Commander Farragut, and the Secretary of the Navy has just invited Aronnax aboard, three hours before it sails.",
+    "returning": []
+  },
+  {
+    "chapter": 4,
+    "setting": "Aboard the Abraham Lincoln at sea, summer 1867",
+    "keepInMind": "Aronnax has brought his servant Conseil: calm, never surprised, obsessed with classifying animals, and always answering \"As master wishes.\" Farragut and the cheering crowds sent the frigate off in high spirits.",
+    "returning": []
+  },
+  {
+    "chapter": 5,
+    "setting": "The frigate in the South Atlantic, late June 1867",
+    "keepInMind": "Ned Land, the Canadian harpooner, is the only man aboard who doesn't believe in the monster. Aronnax's argument from deep-sea pressure, that such an animal would need a body as tough as an armored warship, staggered him without convincing him.",
+    "returning": []
+  },
+  {
+    "chapter": 6,
+    "setting": "The frigate off Japan, the night of November 5, 1867",
+    "keepInMind": "After three fruitless months the crew was close to mutiny, and Farragut asked for just three more days. They ran out tonight, with Aronnax admitting the whole hunt was foolish, just as Ned shouted that the thing was in sight.",
+    "returning": []
+  },
+  {
+    "chapter": 7,
+    "setting": "The open sea at night, moments after Aronnax goes overboard",
+    "keepInMind": "A cannon shell bounced off the creature, and Ned's harpoon rang as if it had struck something hard. Then two waterspouts crashed over the deck, a collision shook the frigate, and Aronnax was thrown into the sea, with no idea what happened to the ship.",
+    "returning": []
+  },
+  {
+    "chapter": 8,
+    "setting": "Inside the underwater boat, moments after the capture",
+    "keepInMind": "The \"monster\" is a machine: a riveted steel underwater boat built by men. The frigate, its propeller and rudder smashed, has drifted out of reach. Conseil jumped in to save Aronnax, Ned was thrown overboard too, and at dawn masked, silent crewmen dragged all three inside.",
+    "returning": []
+  },
+  {
+    "chapter": 9,
+    "setting": "The same iron cell, after a long sleep",
+    "keepInMind": "Two men visited: a tall, calm, commanding leader and a stocky, southern-looking officer. Neither seemed to understand the story told in French, English, German or Latin. A silent steward brought clothes and food on dishes marked with an N and the motto \"Mobilis in Mobili.\" Ned is quick-tempered and carries a knife.",
+    "returning": []
+  },
+  {
+    "chapter": 10,
+    "setting": "The cell, the instant after the voice in French",
+    "keepInMind": "Left without food for hours, Ned lost his temper and was strangling the steward. Aronnax has feared they stumbled on a secret worth more to their captors than three lives. The voice spoke perfect French, though the strangers had seemed to understand nothing.",
+    "returning": []
+  },
+  {
+    "chapter": 11,
+    "setting": "Aboard the Nautilus, leaving the dining room the same morning",
+    "keepInMind": "Captain Nemo will let the three move freely aboard, but they must accept confinement when he orders it, and they may never leave. Ned refused to promise not to escape. Nemo says he has broken with society and obeys none of its laws, and he has read Aronnax's book on the ocean depths.",
+    "returning": []
+  },
+  {
+    "chapter": 12,
+    "setting": "Captain Nemo's stateroom, the tour continuing",
+    "keepInMind": "Nemo bought his last books the day the Nautilus first dived, which Aronnax dates to three years ago at most. He calls himself dead to the world on land. His art, pearls and shells are worth a fortune, and Aronnax can't see how he pays for them.",
+    "returning": []
+  },
+  {
+    "chapter": 13,
+    "setting": "The lounge, straight after the engine-room tour",
+    "keepInMind": "Everything aboard runs on electricity made with sodium from seawater, and pumps store air so the ship can stay down at will. Nemo has agreed to explain how the Nautilus dives, because Aronnax will never leave it.",
+    "returning": []
+  },
+  {
+    "chapter": 14,
+    "setting": "The Nautilus in the Pacific off Japan, early November 1867",
+    "keepInMind": "Nemo says ramming the Scotia was an accident and he attacked the Abraham Lincoln only in self-defence. He built his ship in secret from parts ordered under false names, and claims to be immensely rich. Ned and Conseil have seen almost nothing of the ship yet.",
+    "returning": []
+  },
+  {
+    "chapter": 15,
+    "setting": "Aboard the Nautilus, the next morning, November 9",
+    "keepInMind": "Nemo fixed their position off Japan and declared the voyage begun on November 8, giving no clue to his nationality. The lounge has windows that open onto the sea. Ned still talks of escape and of the crew's numbers.",
+    "returning": [
+      { "id": "chief-officer", "reminder": "The stocky, southern-looking man who visited the cell with Nemo; Aronnax took him for the chief officer." },
+      { "id": "steward", "reminder": "The silent servant who brought the prisoners food and clothes, and whom Ned throttled." }
+    ]
+  },
+  {
+    "chapter": 16,
+    "setting": "The ship's arsenal and wardrobe, November 17",
+    "keepInMind": "Nemo invited the three to hunt in his forests on Crespo Island, then explained that the forests are underwater. He described his diving gear: an air tank under a copper helmet, an electric lamp, and air rifles that fire deadly electric bullets. Ned was hoping for dry land and fresh meat.",
+    "returning": []
+  },
+  {
+    "chapter": 17,
+    "setting": "The seafloor at the edge of the Crespo forest, around midday",
+    "keepInMind": "Ned stayed aboard. Aronnax and Conseil walked out with Nemo and a powerful crewman, unable to speak through their helmets, down to 100 meters where the forest begins.",
+    "returning": []
+  },
+  {
+    "chapter": 18,
+    "setting": "The Nautilus's platform, the morning of November 18",
+    "keepInMind": "Nemo led the walk to the foot of Crespo Island but would not climb ashore. Each morning the chief officer calls the same phrase down the hatch in a language Aronnax can't identify.",
+    "returning": []
+  },
+  {
+    "chapter": 19,
+    "setting": "The South Pacific, mid-December 1867",
+    "keepInMind": "The travelers watched the freshly sunk Florida drift past with its dead still on deck. The crew come from several nations but speak only their strange language. Nemo, who spoke of free underwater towns and broke off at the thought of tyrants, is rarely seen.",
+    "returning": []
+  },
+  {
+    "chapter": 20,
+    "setting": "Leaving Vanikoro, the night of December 27–28, 1867",
+    "keepInMind": "Nemo showed Aronnax the wreck of La Pérouse's ships and proof of how the survivors died, and said he hoped to lie in no grave but a coral one. He told Aronnax coldly that the earth needs new men, not new continents. Ned misses land badly.",
+    "returning": []
+  },
+  {
+    "chapter": 21,
+    "setting": "Gueboroa Island, off New Guinea, January 5, 1868",
+    "keepInMind": "The Nautilus is stuck on a reef until the full-moon tide in five days. Nemo refuses ever to set foot on land, yet let the three go ashore without asking them to promise to return. Aronnax told Ned that escaping here would be madness.",
+    "returning": []
+  },
+  {
+    "chapter": 22,
+    "setting": "The beach on Gueboroa, the evening of January 6",
+    "keepInMind": "Wary birds suggested that people visit this island. Over a tipsy feast Conseil wondered about not going back that night, and Ned about never going back, when a stone landed at their feet.",
+    "returning": []
+  },
+  {
+    "chapter": 23,
+    "setting": "The Nautilus heading west from the Torres Strait, January 10, 1868",
+    "keepInMind": "Nemo shrugged off the islanders, asking whether they were worse than men elsewhere. His electrified railing threw back the boarders, and the ship floated free at exactly the hour he had predicted.",
+    "returning": []
+  },
+  {
+    "chapter": 24,
+    "setting": "Aronnax's stateroom, the morning after the drugged night",
+    "keepInMind": "On January 18 something on the horizon sent Nemo into a rage. He snatched Aronnax's telescope, face twisted with hatred, and invoked their agreement to lock the three in their old cell. They were drugged, and Aronnax felt the ship dive as he fell asleep.",
+    "returning": [
+      { "id": "steward", "reminder": "The silent steward who serves the passengers their meals." }
+    ]
+  },
+  {
+    "chapter": 25,
+    "setting": "The Indian Ocean, late January 1868",
+    "keepInMind": "A crewman died of a head wound from an unexplained collision, having taken a blow meant for the chief officer. All three companions watched him buried in a coral cemetery on the seafloor, where Nemo said his dead were safe \"of sharks and men!\"",
+    "returning": []
+  },
+  {
+    "chapter": 26,
+    "setting": "Off Ceylon, January 28, 1868",
+    "keepInMind": "Aronnax now suspects the Nautilus serves some scheme of revenge, but wants to finish the voyage before leaving. Ned pressed to escape near India; Aronnax wants to wait for European waters.",
+    "returning": []
+  },
+  {
+    "chapter": 27,
+    "setting": "The Nautilus off Ceylon, the night before the pearl-bank outing",
+    "keepInMind": "Nemo asked offhandedly whether Aronnax feared sharks, but invited Ned and Conseil without a word about them. Both cheerfully agreed to go, Ned boasting of his harpoon. Nemo described the pearl divers' brutal lives.",
+    "returning": []
+  },
+  {
+    "chapter": 28,
+    "setting": "Leaving Ceylon, January 29, 1868",
+    "keepInMind": "Nemo fought a shark to save an Indian diver, Ned's harpoon saved Nemo, and Nemo gave the diver a bag of pearls. He told Aronnax he is, and always will be, a native of the land of the oppressed.",
+    "returning": []
+  },
+  {
+    "chapter": 29,
+    "setting": "The Red Sea, February 9–10, 1868",
+    "keepInMind": "Nemo claims to have found the Arabian Tunnel, a natural passage under the isthmus of Suez, and promised the Mediterranean in two days. Conseil is delighted and Ned scoffs.",
+    "returning": []
+  },
+  {
+    "chapter": 30,
+    "setting": "The Mediterranean off Port Said, sunrise February 12",
+    "keepInMind": "Nemo steered through the tunnel with Aronnax beside him while Ned and Conseil slept. Aronnax had promised Ned they would think of escape once they reached European waters.",
+    "returning": []
+  },
+  {
+    "chapter": 31,
+    "setting": "The Mediterranean, February 16, 1868",
+    "keepInMind": "Aronnax has agreed to escape at the first sure chance. Near Crete Nemo sent a chest of gold off to an unknown address, then took the ship into a boiling underwater eruption off Santorini.",
+    "returning": []
+  },
+  {
+    "chapter": 32,
+    "setting": "The Atlantic, just west of Gibraltar, February 18, 1868",
+    "keepInMind": "Nemo kept the ship deep and fast through the Mediterranean, and Ned had no chance to use the skiff. Aronnax gave his word to go along with the first real chance.",
+    "returning": []
+  },
+  {
+    "chapter": 33,
+    "setting": "Aronnax's stateroom, the morning of February 19",
+    "keepInMind": "The escape was foiled when the ship stopped in the Bay of Vigo, where Nemo's divers gather treasure from sunken galleons. Nemo flared up about \"victims to avenge,\" and his room holds portraits of freedom fighters. Aronnax guesses the gold went to Crete's rebels.",
+    "returning": [
+      { "id": "chief-officer", "reminder": "Nemo's second-in-command, the stocky officer who calls the daily phrase and marks the chart; Aronnax believes he doesn't understand French." }
+    ]
+  },
+  {
+    "chapter": 34,
+    "setting": "Above the drowned plains of Atlantis, February 20",
+    "keepInMind": "Nemo took Aronnax alone on a night walk to the ruins of Atlantis and stood among them as if lost in the past. The ship is heading south, away from Europe, and Ned's escape is off.",
+    "returning": []
+  },
+  {
+    "chapter": 35,
+    "setting": "The open Atlantic, heading south, late February 1868",
+    "keepInMind": "Inside a hollow volcano the Nautilus has a secret harbor where the crew mine coal to make sodium. Ned searched its walls for a way out and found none.",
+    "returning": []
+  },
+  {
+    "chapter": 36,
+    "setting": "Heading south toward Cape Horn, March 13–14, 1868",
+    "keepInMind": "In these empty seas escape is impossible. Aronnax found Nemo's notes in the margins of his own book, and hears the captain playing melancholy music at night. Ned is growing restless.",
+    "returning": []
+  },
+  {
+    "chapter": 37,
+    "setting": "Southbound along the 50th meridian, mid-March 1868",
+    "keepInMind": "Nemo forbade Ned to hunt harmless right whales, then used the ship's spur to slaughter a pack of sperm whales. Ned called it butchery, and Aronnax has resolved to keep a close watch on his growing hostility toward Nemo.",
+    "returning": [
+      { "id": "chief-officer", "reminder": "Nemo's second-in-command, who marks the ship's position on the chart each day." }
+    ]
+  },
+  {
+    "chapter": 38,
+    "setting": "Open water beyond the Ice Bank, March 19, 1868",
+    "keepInMind": "Nemo took the ship under the Ice Bank toward the South Pole, bumping against a ceiling of ice for a day without renewing its air. Ned said they would never come back.",
+    "returning": []
+  },
+  {
+    "chapter": 39,
+    "setting": "The south polar shore, the morning of March 22",
+    "keepInMind": "Nemo claimed the South Pole under a black flag with a gold N. The equinox has passed and six months of night are beginning, with the sea starting to freeze.",
+    "returning": []
+  },
+  {
+    "chapter": 40,
+    "setting": "Inside the trapped Nautilus, in a tunnel of ice, March 22",
+    "keepInMind": "A capsizing iceberg knocked the ship over and wedged it under the Ice Bank, and both ends of the ice tunnel are now blocked. The ship carries air in its tanks only for a limited time.",
+    "returning": []
+  },
+  {
+    "chapter": 41,
+    "setting": "The Nautilus's platform, in open air north of the Ice Bank",
+    "keepInMind": "Everyone, Nemo included, dug through the ice in shifts and gave up their air tanks strictly on time. Near the end, Ned and Conseil revived Aronnax with the last air in a tank, going without themselves.",
+    "returning": []
+  },
+  {
+    "chapter": 42,
+    "setting": "Off the Caribbean islands, mid-April 1868",
+    "keepInMind": "The ship is heading north up the Atlantic, and Nemo stays out of sight. Ned hopes for a chance near the American coast and wants Aronnax to ask Nemo outright whether they will ever be freed.",
+    "returning": []
+  },
+  {
+    "chapter": 43,
+    "setting": "Aboard, in the aftermath of April 20",
+    "keepInMind": "A squid carried off a crewman who cried for help in French, the first sign of a Frenchman aboard. Nemo saved Ned's life, then wept for his man. It is the second crewman lost since the three came aboard.",
+    "returning": []
+  },
+  {
+    "chapter": 44,
+    "setting": "The North Atlantic off America, after the hurricane, mid-May 1868",
+    "keepInMind": "Nemo flatly refused to free the three and forbade Aronnax to raise it again. He is writing his life story, to be thrown into the sea by the last man alive aboard. He faced the hurricane strapped to the platform as if courting death.",
+    "returning": []
+  },
+  {
+    "chapter": 45,
+    "setting": "On the seabed beside the wreck of the Avenger, June 1, 1868",
+    "keepInMind": "On June 1, 1794, at this spot, the French warship Avenger sank with all hands rather than surrender, and Nemo called it \"a splendid name.\" Nemo has spoken of the oppressed and of victims to avenge.",
+    "returning": []
+  },
+  {
+    "chapter": 46,
+    "setting": "Inside the darkened Nautilus, just after the sinking",
+    "keepInMind": "Nemo rammed and sank a warship of a nation he would not name. He said his oppressors had destroyed everything he loved: country, wife, children, father and mother. Afterward he knelt sobbing before a portrait of a young woman and two children.",
+    "returning": []
+  },
+  {
+    "chapter": 47,
+    "setting": "The coast of Norway, after the night of the Maelstrom",
+    "keepInMind": "As the three tried to escape, Nemo cried \"Enough!\" and the crew shouted \"Maelstrom!\" The skiff was torn loose into the whirlpool and Aronnax struck his head. Nemo's manuscript, with his name, is meant to be cast into the sea.",
+    "returning": []
+  }
+]

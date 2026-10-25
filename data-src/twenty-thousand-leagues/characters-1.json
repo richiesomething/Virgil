@@ -1,0 +1,327 @@
+[
+  {
+    "id": "pierre-aronnax",
+    "name": "Pierre Aronnax",
+    "firstChapter": 2,
+    "importance": "major",
+    "group": "Aboard the Nautilus",
+    "tagline": [
+      { "from": 2, "text": "The narrator: a French naturalist who thinks the monster is a giant narwhal, invited to join the hunt." },
+      { "from": 7, "text": "Thrown overboard in the fight, now a castaway on the \"monster\" itself, which turns out to be a machine." },
+      { "from": 8, "text": "A prisoner inside the submarine, trying to read its silent commander." },
+      { "from": 10, "text": "A naturalist held for life aboard the Nautilus, torn between captivity and a scientist's dream voyage." },
+      { "from": 25, "text": "A captive who suspects something dark behind Nemo, yet wants to finish the voyage before he leaves." },
+      { "from": 30, "text": "Pressed by Ned, he agrees to escape at the first sure chance, though part of him wants to stay." },
+      { "from": 45, "text": "A horrified witness to Nemo's revenge, now ready to flee at any cost." },
+      { "from": 47, "text": "Safe in the Lofoten Islands, left wondering what became of the Nautilus and its captain." }
+    ],
+    "description": [
+      { "from": 2, "text": "Pierre Aronnax tells the story. He is an Assistant Professor at the Paris Museum of Natural History, author of a well-known book, The Mysteries of the Great Ocean Depths, and is stuck in New York after an expedition to the Nebraska badlands. Asked about the monster, he argues in the New York Herald that it is a narwhal of giant size, while leaving himself a loophole. Privately he believes in it." },
+      { "from": 3, "text": "He is forty. Tired as he is, he accepts the invitation to sail on the Abraham Lincoln at once, sure that hunting the monster is his calling. He brings his servant Conseil, who has followed him for ten years and calls him only \"master.\"" },
+      { "from": 4, "text": "He is a man of figures and classifications. He tries to win Ned Land over with calculations about deep-sea pressure, and stays sure the creature is a mammal and a cetacean." },
+      { "from": 7, "text": "Flung into the sea, he would have drowned without Conseil, who jumped in after him. Hauled onto the \"narwhal\" by Ned, he checks it for himself: riveted steel. The monster is an underwater boat built by human hands." },
+      { "from": 10, "text": "Told he can never go home, he is still deeply tempted when the captain, who has read his book, invites him to tour the world's seas as a fellow student. The scientist in him wins out over the prisoner, at least for now. He acts as the go-between for Nemo and his two friends." },
+      { "from": 24, "text": "He is also a physician, which is why Nemo comes to him when a crewman is fatally injured." },
+      { "from": 25, "text": "The drugging, the snatched spyglass and the crewman's unexplained death make him doubt Conseil's view of Nemo as a misunderstood genius. He wonders if the Nautilus serves some scheme of revenge. Yet he keeps putting off Ned's escape plans until they reach European waters, and notices he is starting to sound like Nemo." },
+      { "from": 30, "text": "He is rewriting his book with all he has learned and has no wish to leave. But he admits Nemo will never free them, and gives Ned his word to take the first certain chance." },
+      { "from": 32, "text": "The portraits in Nemo's room and the Vigo treasure lead him to guess that Nemo champions oppressed peoples, and that the gold sent off near Crete went to rebels there." },
+      { "from": 40, "text": "Trapped under the Antarctic ice, he nearly suffocates. Ned and Conseil save him with the last air in a diving tank, going without themselves." },
+      { "from": 43, "text": "He finally asks Nemo outright to free them, and is refused for good." },
+      { "from": 45, "text": "Watching the Nautilus sink a warship with all hands, he feels Nemo has made him a witness to his revenge. Admiration gives way to horror, and he agrees to escape." },
+      { "from": 47, "text": "He wakes in a fisherman's hut on the Lofoten Islands with no idea how the skiff survived the Maelstrom. He insists his account of 20,000 leagues in under ten months is complete and exact, and ends hoping that the scientist in Nemo has outlived the executioner." }
+    ],
+    "moments": [
+      { "chapter": 2, "text": "Publishes his giant-narwhal theory and is invited aboard the Abraham Lincoln." },
+      { "chapter": 4, "text": "Lectures a skeptical Ned Land on water pressure." },
+      { "chapter": 6, "text": "Thrown overboard when the creature strikes the frigate." },
+      { "chapter": 7, "text": "Discovers the monster is a riveted steel submarine." },
+      { "chapter": 10, "text": "Learns he can never leave, and accepts Nemo's invitation to study the seas." },
+      { "chapter": 16, "text": "Walks the seafloor in a diving suit for the first time." },
+      { "chapter": 22, "text": "Finds a rare left-handed shell, which a sling stone smashes." },
+      { "chapter": 24, "text": "Examines the dying crewman and tells Nemo nothing can be done." },
+      { "chapter": 30, "text": "Agrees with Ned to escape at the first sure chance." },
+      { "chapter": 32, "text": "Waits to flee, but the ship stops at Vigo and Nemo shows him the treasure." },
+      { "chapter": 33, "text": "Walks with Nemo to the ruins of Atlantis." },
+      { "chapter": 40, "text": "Nearly suffocates under the ice; saved by Ned and Conseil." },
+      { "chapter": 43, "text": "Asks Nemo to free them and is refused; rides out a hurricane lashed to the platform." },
+      { "chapter": 45, "text": "Watches the warship sink with all its crew." },
+      { "chapter": 46, "text": "Slips past Nemo at the organ to the skiff, which is torn loose into the Maelstrom." },
+      { "chapter": 47, "text": "Wakes in the Lofoten Islands with his friends safe beside him." }
+    ]
+  },
+  {
+    "id": "captain-nemo",
+    "name": "Captain Nemo",
+    "firstChapter": 8,
+    "importance": "major",
+    "group": "Aboard the Nautilus",
+    "aliases": [
+      { "name": "the commander", "from": 8, "note": "how Aronnax refers to him in chapters 8–9, before he gives his name" }
+    ],
+    "tagline": [
+      { "from": 8, "text": "The tall, pale commander of the submarine, who hears the captives' story in four languages and says nothing." },
+      { "from": 10, "text": "Commander of the Nautilus, a man who has broken with society and keeps the castaways aboard for good." },
+      { "from": 23, "text": "The brilliant, secretive captain, whose sudden rage at something on the horizon gets the captives locked away." },
+      { "from": 27, "text": "The captain who risks his life for a poor diver and calls himself a native of the land of the oppressed." },
+      { "from": 32, "text": "A captain whose sunken-treasure millions seem to go to oppressed peoples and \"victims to avenge.\"" },
+      { "from": 45, "text": "The captain who sinks a warship with all its men, in revenge for the family and country he lost." },
+      { "from": 46, "text": "A haunted man whose last words, \"Enough! Enough!\", come just as the Nautilus is caught in the Maelstrom." }
+    ],
+    "description": [
+      { "from": 8, "text": "The leader of the two men who visit the captives' cell. He is tall and pale, with black eyes, a calm, noble bearing and an extraordinarily wide, piercing gaze, and Aronnax feels reassured by him at once. He speaks a musical language Aronnax can't place and shows no sign of understanding French, English, German or Latin. Aronnax guesses he was born in southern latitudes, and that the N on the dishes, inside the motto \"Mobilis in Mobili,\" is his initial." },
+      { "from": 9, "text": "As the hours pass with no food, Aronnax's good impression turns to dread that the commander means to let them starve. Then, while Ned is throttling the steward, a voice cuts in, in perfect French." },
+      { "from": 10, "text": "He speaks all four languages fluently and kept silent to judge his captives. He has broken with society for reasons of his own and obeys none of its laws. Because the three now know the secret of his existence, they may move freely aboard but may never leave. To them he is simply Captain Nemo (Latin for \"no one\"), and his vessel is the Nautilus. He loves the sea with a passion: below its surface, he says, no tyrant can reach him, and he is free." },
+      { "from": 11, "text": "He collects old-master paintings, music and priceless shells and pearls, all his \"last mementos\" of a land that is dead to him. He says he is dead too. His own cabin is bare as a monk's." },
+      { "from": 13, "text": "He studied in London, Paris and New York when he still lived on land. He had each part of the Nautilus made by a different firm under a different name and assembled it on a deserted islet with his men. He claims he could pay off France's national debt. He says ramming the Scotia was an accident and that he attacked the Abraham Lincoln only in self-defence." },
+      { "from": 14, "text": "He never offers his hand, and Aronnax senses a deep hatred of humanity in him. He gives nothing away about his nationality." },
+      { "from": 19, "text": "He knows the sea's history as well as its science. He has found proof of La Pérouse's fate himself, and hopes he and his men will lie in no grave but a coral one." },
+      { "from": 22, "text": "Unmoved by the word \"savages,\" he asks whether the islanders are any worse than men elsewhere, and makes sure none of them dies because of his visit." },
+      { "from": 23, "text": "When something appears on the horizon, his face twists with hatred. He snatches Aronnax's spyglass, has the three locked in their old cell and drugged, and gives no explanation." },
+      { "from": 24, "text": "He weeps for the crewman who dies after the mysterious collision and buries him with his men in a coral cemetery, where their dead are safe \"of sharks and men!\"" },
+      { "from": 27, "text": "He fights a shark with a dagger to save an Indian pearl diver, then gives the man a bag of pearls. He says the Indian lives in the land of the oppressed, and that he is, and will be until his last breath, a native of that same land." },
+      { "from": 30, "text": "He keeps secret links with the shore: he knows the Greek diver Nicolas and sends off a chest of gold worth millions to an unknown address." },
+      { "from": 32, "text": "His wealth comes from sunken treasure, such as the Spanish galleons in the Bay of Vigo. His room holds portraits of men who fought for freedom and oppressed peoples, and he bursts out that he knows of \"poor people to comfort, victims to avenge,\" then stops, as if he has said too much." },
+      { "from": 36, "text": "He forbids killing harmless whales for sport, then uses the Nautilus's spur to slaughter a pack of sperm whales that he says deserve it." },
+      { "from": 38, "text": "He claims the South Pole in his own name under a black flag bearing a gold N." },
+      { "from": 40, "text": "Trapped under the ice, he is cool and resourceful, and gives up his air tank at the end of his shift like every other man." },
+      { "from": 42, "text": "He saves Ned from a giant squid, then weeps at the sea that took one of his men." },
+      { "from": 43, "text": "He is writing his life story and research, signed with his name, to be sealed in a floating case by the last man alive on the Nautilus. He refuses again to free his captives. In a hurricane he straps himself to the platform and stares into the lightning." },
+      { "from": 45, "text": "When an unflagged warship attacks, he hoists his black flag, calls it the ship of an accursed nation and refuses to say which. He cries that he is the law and the judge, the oppressed, and that his oppressors destroyed everything he loved: country, wife, children, father and mother. He sinks the ship with all hands, watches to the end, then kneels sobbing before a portrait of a young woman and two children." },
+      { "from": 46, "text": "He vanishes from sight for weeks. His last words, as Aronnax creeps past him at the organ, are \"O almighty God! Enough! Enough!\"" },
+      { "from": 47, "text": "Aronnax never learns his real name or nation, nor whether he survived the Maelstrom. He hopes the hate in Nemo's heart has quieted, and that the scientist lives on." }
+    ],
+    "moments": [
+      { "chapter": 8, "text": "Visits the captives and listens in silence to their story in four languages." },
+      { "chapter": 9, "text": "Stops Ned throttling the steward with a sharp word in French." },
+      { "chapter": 10, "text": "Names himself and his ship, and tells the three they can never leave." },
+      { "chapter": 11, "text": "Shows Aronnax the library, the lounge and its treasures." },
+      { "chapter": 13, "text": "Explains how he built the Nautilus in secret." },
+      { "chapter": 15, "text": "Invites the three to hunt in his underwater forests." },
+      { "chapter": 17, "text": "Throws Aronnax to the ground to hide him from passing sharks." },
+      { "chapter": 19, "text": "Produces proof of how La Pérouse's last survivors died." },
+      { "chapter": 22, "text": "Repels the Papuan boarders with an electrified railing." },
+      { "chapter": 23, "text": "Flies into a rage at something on the horizon and has the captives drugged." },
+      { "chapter": 24, "text": "Buries a crewman in the coral cemetery." },
+      { "chapter": 27, "text": "Saves a pearl diver from a shark and is himself saved by Ned." },
+      { "chapter": 29, "text": "Steers the Nautilus through the Arabian Tunnel." },
+      { "chapter": 30, "text": "Signals to the diver Nicolas and sends away a chest of gold." },
+      { "chapter": 32, "text": "Shows Aronnax his crew gathering treasure at Vigo." },
+      { "chapter": 33, "text": "Writes ATLANTIS on a rock among the ruins." },
+      { "chapter": 35, "text": "Takes the Nautilus to a record depth of 16,000 meters." },
+      { "chapter": 36, "text": "Rams and slaughters a pack of sperm whales." },
+      { "chapter": 38, "text": "Claims the South Pole under his black flag." },
+      { "chapter": 42, "text": "Saves Ned from a giant squid and weeps for his lost man." },
+      { "chapter": 43, "text": "Refuses to free the captives." },
+      { "chapter": 44, "text": "Shows Aronnax the wreck of the Avenger." },
+      { "chapter": 45, "text": "Rams and sinks the warship, then sobs before a family portrait." },
+      { "chapter": 46, "text": "Cries \"Enough! Enough!\" as Aronnax slips past him." }
+    ]
+  },
+  {
+    "id": "chief-officer",
+    "name": "The chief officer",
+    "firstChapter": 8,
+    "importance": "supporting",
+    "group": "Aboard the Nautilus",
+    "tagline": [
+      { "from": 8, "text": "The commander's companion: short, stocky and dark-haired, with the lively look of a man from Provence." },
+      { "from": 15, "text": "The Nautilus's chief officer, who calls the same strange phrase down the hatch every morning." },
+      { "from": 23, "text": "Nemo's second-in-command and lookout, the one who spots what sends his captain into a rage." }
+    ],
+    "description": [
+      { "from": 8, "text": "He comes to the captives' cell with the tall commander and says nothing they can understand. Aronnax takes him for the chief officer and guesses he was born in southern latitudes, but can't place his nationality." },
+      { "from": 15, "text": "Each morning, when the ship surfaces, he scans the horizon with a spyglass and calls down the same phrase in the crew's language: \"Nautron respoc lorni virch.\"" },
+      { "from": 18, "text": "With Nemo rarely seen, he marks the ship's position on the chart each day." },
+      { "from": 23, "text": "On January 18 he calls out a different phrase and argues excitedly with Nemo about something on the horizon." },
+      { "from": 24, "text": "A crewman was fatally hurt throwing himself in front of him to take the blow of a cracked engine lever." },
+      { "from": 25, "text": "Aronnax tests him with loud remarks in French and concludes he doesn't understand the language." }
+    ],
+    "moments": [
+      { "chapter": 8, "text": "Visits the prisoners with the commander." },
+      { "chapter": 15, "text": "Calls \"Nautron respoc lorni virch\" from the platform." },
+      { "chapter": 23, "text": "Spots something on the horizon and argues with Nemo." },
+      { "chapter": 24, "text": "Is saved by the crewman who dies in his place." },
+      { "chapter": 42, "text": "Fights the giant squid beside Nemo." }
+    ]
+  },
+  {
+    "id": "steward",
+    "name": "The steward",
+    "firstChapter": 8,
+    "importance": "minor",
+    "group": "Aboard the Nautilus",
+    "tagline": [
+      { "from": 8, "text": "The silent, perhaps deaf-mute steward who brings the captives clothes and food." },
+      { "from": 9, "text": "The steward whom a starving Ned Land throws down and chokes." }
+    ],
+    "description": [
+      { "from": 8, "text": "He brings the prisoners clothes of an unfamiliar fabric and an elegant meal of dishes Aronnax can't identify, all without a word. Aronnax wonders if he is deaf and mute." },
+      { "from": 9, "text": "After hours with no food, Ned leaps on him when he opens the door and nearly strangles him, until a voice stops it." },
+      { "from": 10, "text": "He staggers out at a signal from his commander and goes on serving Aronnax, mute and emotionless." },
+      { "from": 27, "text": "Nemo has placed him at Aronnax's service, and he wakes the professor before dawn for the pearl-bank outing." }
+    ],
+    "moments": [
+      { "chapter": 8, "text": "Serves the captives their first meal." },
+      { "chapter": 9, "text": "Is attacked and choked by Ned Land." }
+    ]
+  },
+  {
+    "id": "nautilus-crew",
+    "name": "The Nautilus's crew",
+    "firstChapter": 16,
+    "importance": "minor",
+    "group": "Aboard the Nautilus",
+    "tagline": [
+      { "from": 16, "text": "The silent men who work the Nautilus; a powerful crewman escorts the divers on the seafloor." },
+      { "from": 18, "text": "Some twenty men of several nationalities, all European-looking, who speak only their own strange language." },
+      { "from": 24, "text": "A close brotherhood who bury their dead in a coral cemetery on the seafloor." },
+      { "from": 46, "text": "The unseen crew whose cry of \"Maelstrom!\" is the last thing Aronnax hears from them." }
+    ],
+    "description": [
+      { "from": 16, "text": "Eight masked, silent men dragged the castaways inside, and the crew's quarters are kept closed, hiding how many there are. Crewmen help Aronnax and Conseil into diving suits, and a herculean sailor goes with Nemo on the walk to Crespo Island, talking with him in hand signals." },
+      { "from": 17, "text": "The strong crewman kills a giant sea spider about to spring at the sleeping Aronnax and throws Conseil flat when sharks pass." },
+      { "from": 18, "text": "About twenty of them haul in the nets. They come from several nations, all with European features, and speak only their strange language among themselves." },
+      { "from": 24, "text": "Nemo calls them brothers: each will die for the other, \"the law for everyone on board.\" They bury their dead in a coral cemetery, kneeling in prayer." },
+      { "from": 32, "text": "In diving suits they bring up gold and jewels from sunken galleons in the Bay of Vigo." },
+      { "from": 34, "text": "At the hidden harbor inside an extinct volcano, they mine undersea coal in diving suits to make the sodium that powers the ship." },
+      { "from": 40, "text": "Trapped under the ice, they dig in shifts alongside the captives, each man giving up his air tank strictly at the end of his turn." },
+      { "from": 42, "text": "They fight the giant squid with axes. The man carried off cries out in French, the first sign to Aronnax that he has a countryman aboard." },
+      { "from": 46, "text": "After the warship sinks, none of them is seen for weeks, until they all shout one word: \"Maelstrom!\"" }
+    ],
+    "moments": [
+      { "chapter": 16, "text": "A crewman escorts Nemo, Aronnax and Conseil across the seafloor." },
+      { "chapter": 17, "text": "The same crewman kills a giant sea spider." },
+      { "chapter": 18, "text": "Twenty crewmen haul in a huge catch with the nets." },
+      { "chapter": 22, "text": "Open the hatches to the electrified railing." },
+      { "chapter": 24, "text": "Bury their dead shipmate in the coral cemetery." },
+      { "chapter": 32, "text": "Gather treasure from the galleons in the Bay of Vigo." },
+      { "chapter": 40, "text": "Dig the Nautilus out of the ice." },
+      { "chapter": 42, "text": "Battle the giant squid; one man is carried off." },
+      { "chapter": 46, "text": "Shout \"Maelstrom!\"" }
+    ]
+  },
+  {
+    "id": "wounded-crewman",
+    "name": "The wounded crewman",
+    "firstChapter": 24,
+    "importance": "minor",
+    "group": "Aboard the Nautilus",
+    "tagline": [
+      { "from": 24, "text": "A crewman of about forty, fatally hurt shielding the chief officer, buried in the coral cemetery." }
+    ],
+    "description": [
+      { "from": 24, "text": "A man of about forty with strongly molded Anglo-Saxon features who doesn't understand French. Nemo says a collision cracked an engine lever and the man leaped in front of the chief officer to take the blow. His skull is smashed open, and Aronnax can only tell Nemo he will be dead in two hours. That night Aronnax hears a funeral chant, and next day the crew bury him in a coral cemetery on the seafloor." },
+      { "from": 25, "text": "Aronnax counts his death in an unexplained collision, coming right after the night the captives were drugged, among the signs that something dark lies behind Nemo." }
+    ],
+    "moments": [
+      { "chapter": 24, "text": "Dies of his wound and is buried in the coral cemetery." }
+    ]
+  },
+  {
+    "id": "french-crewman",
+    "name": "The crewman who cries out in French",
+    "firstChapter": 42,
+    "importance": "minor",
+    "group": "Aboard the Nautilus",
+    "tagline": [
+      { "from": 42, "text": "A crewman seized by a giant squid who screams \"Help!\" in French as he is carried off." }
+    ],
+    "description": [
+      { "from": 42, "text": "During the fight with the squid on the platform, a tentacle seizes him and lifts him into the air. His cry, in French, stuns Aronnax: he has a fellow countryman aboard, perhaps more than one. Nemo hacks off seven of its arms, but the squid squirts ink and vanishes with him." },
+      { "from": 43, "text": "He is the second crewman Nemo has lost since the captives came aboard, and the only one who won't lie in the coral cemetery. Aronnax can't stop hearing his cry." }
+    ],
+    "moments": [
+      { "chapter": 42, "text": "Carried off by a giant squid, crying for help in French." }
+    ]
+  },
+  {
+    "id": "la-perouse",
+    "name": "La Pérouse",
+    "firstChapter": 19,
+    "importance": "minor",
+    "group": "Ashore and remembered",
+    "aliases": [
+      { "name": "the Count de La Pérouse", "from": 19 }
+    ],
+    "tagline": [
+      { "from": 19, "text": "The French navigator whose two ships were lost at Vanikoro in the 1780s." }
+    ],
+    "description": [
+      { "from": 19, "text": "A real French explorer whose ships, the Compass and the Astrolabe, vanished in the South Pacific. Searchers later found wreckage on the reefs of Vanikoro, and the islanders said the survivors built a smaller boat and sailed away. Nemo shows Aronnax the coral-covered wreckage and tells him the rest: the survivors died with all hands on the coast of the Solomon Islands. His proof is a tin box holding La Pérouse's naval orders, with notes in the hand of King Louis XVI." }
+    ],
+    "moments": [
+      { "chapter": 19, "text": "Nemo shows Aronnax the wreck of his ships and the proof of his crew's fate." }
+    ]
+  },
+  {
+    "id": "dumont-durville",
+    "name": "Dumont d'Urville",
+    "firstChapter": 19,
+    "importance": "minor",
+    "group": "Ashore and remembered",
+    "tagline": [
+      { "from": 19, "text": "The French navigator who raised relics of La Pérouse's ships at Vanikoro." },
+      { "from": 22, "text": "The French navigator Nemo admires, who was nearly wrecked in the Torres Strait." }
+    ],
+    "description": [
+      { "from": 19, "text": "A real French explorer who came to Vanikoro after Peter Dillon, raised anchors and cannon from La Pérouse's wrecks and put up a monument to him." },
+      { "from": 22, "text": "Nemo praises him as one of the great navigators, and recalls that his ships were nearly lost in this same strait. When Aronnax compares the stranded Nautilus to them, Nemo answers icily that his ship will float off on time." }
+    ],
+    "moments": [
+      { "chapter": 19, "text": "Remembered for raising La Pérouse's relics at Vanikoro." },
+      { "chapter": 22, "text": "Praised by Nemo while the Nautilus sits aground." }
+    ]
+  },
+  {
+    "id": "papuan-islanders",
+    "name": "The Papuan islanders",
+    "firstChapter": 22,
+    "importance": "minor",
+    "group": "Ashore and remembered",
+    "tagline": [
+      { "from": 22, "text": "The islanders of Gueboroa who chase the three back to the ship and besiege the stranded Nautilus." }
+    ],
+    "description": [
+      { "from": 22, "text": "About twenty of them, armed with bows and slings, attack the three companions on the beach, and a hundred wade after the skiff. Soon five or six hundred gather around the stranded ship. A sling stone smashes Aronnax's rare shell, and Conseil's shot breaks a thrower's amulet bracelet. Nemo wants none of them to die because of his visit. When they try to board through the open hatch, the electrified railing throws them back in terror, and the Nautilus floats free on the tide." }
+    ],
+    "moments": [
+      { "chapter": 22, "text": "Drive the three off the island and surround the ship with canoes." },
+      { "chapter": 22, "text": "Are thrown back by the electrified railing." }
+    ]
+  },
+  {
+    "id": "ceylon-pearl-diver",
+    "name": "The Ceylon pearl diver",
+    "firstChapter": 27,
+    "importance": "minor",
+    "group": "Ashore and remembered",
+    "tagline": [
+      { "from": 27, "text": "A lone Indian pearl diver whom Nemo saves from a shark and showers with pearls." }
+    ],
+    "description": [
+      { "from": 27, "text": "A poor diver working the Mannar pearl bank alone before the season, plunging with a stone between his feet as Nemo described. A huge shark strikes him down. Nemo fights it off, cuts the man free of his stone and carries him to his boat, then gives him a bag of pearls. He stares in bewilderment at the four copper-helmeted figures who saved him. Nemo says the man lives in the land of the oppressed, and that he is himself a native of it." }
+    ],
+    "moments": [
+      { "chapter": 27, "text": "Rescued from a shark by Nemo and given a bag of pearls." }
+    ]
+  },
+  {
+    "id": "nicolas",
+    "name": "Nicolas of Cape Matapan",
+    "firstChapter": 30,
+    "importance": "minor",
+    "group": "Ashore and remembered",
+    "aliases": [
+      { "name": "Il Pesce", "from": 30, "note": "Italian for \"the Fish,\" his nickname" }
+    ],
+    "tagline": [
+      { "from": 30, "text": "A famous diver of the Greek islands who swims up to the Nautilus's window and exchanges signals with Nemo." }
+    ],
+    "description": [
+      { "from": 30, "text": "Aronnax takes him for a castaway until Nemo signals to him and he swims away. Nemo explains that he is Nicolas, nicknamed \"Il Pesce\" (\"the Fish\"), a bold diver known throughout the Cyclades who lives more in the sea than on shore and swims from island to island, even to Crete. That Nemo knows him at all surprises Aronnax. Right afterward, Nemo fills a chest with gold and sends it off in the skiff." }
+    ],
+    "moments": [
+      { "chapter": 30, "text": "Appears at the lounge window off Crete and signals to Nemo." }
+    ]
+  }
+]
