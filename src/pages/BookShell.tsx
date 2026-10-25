@@ -28,6 +28,8 @@ import { themeAt } from '../lib/understanding'
 import Glossary from './Glossary'
 import Recap from './Recap'
 import Planner from './Planner'
+import Reader from './Reader'
+import YourCopy from './YourCopy'
 
 /** Kept for pages that still take explicit props. */
 export interface BookPageProps {
@@ -96,6 +98,7 @@ function LoadedBook({ book }: { book: BookData }) {
   // Remember where each tab was left, and restore scroll on back.
   const samePage = useRef('')
   useEffect(() => {
+    if (section === 'read') return // the reader isn't part of any tab
     rememberTab(id, tab, window.location.hash || href('b', id))
     const pageKey = section === 'map' ? 'map' : section === 'cast' && loc.query.get('view') === 'map' ? 'atlas' : loc.path
     settleScroll(loc.path, pageKey === samePage.current)
@@ -160,12 +163,23 @@ function LoadedBook({ book }: { book: BookData }) {
     if (section === 'glossary' && param) setNoteId(param)
   }, [section, param])
 
+  // The reader takes the whole screen: no header or tab bar.
+  if (section === 'read' && param)
+    return (
+      <BookContext.Provider value={ctx}>
+        <ErrorBoundary key={loc.path} fallback={<PageFailed />}>
+          <Reader n={Number(param)} />
+        </ErrorBoundary>
+      </BookContext.Provider>
+    )
+
   let page
   let title: string | undefined
   let isRoot = true
   if (!section) page = <Today />
   else if (section === 'recap') ((page = <Recap />), (title = 'Story so far'), (isRoot = false))
   else if (section === 'plan') ((page = <Planner />), (title = 'Reading plan'), (isRoot = false))
+  else if (section === 'text') ((page = <YourCopy />), (title = 'Your copy'), (isRoot = false))
   else if (section === 'chapters' && !param) page = <ChapterList />
   else if (section === 'chapters') ((page = <ChapterDetail n={Number(param)} />), (title = `Chapter ${param}`), (isRoot = false))
   else if (section === 'cast' || (section === 'characters' && !param)) page = <Cast segment={(loc.query.get('seg') as 'people' | 'places' | 'things') ?? 'people'} />

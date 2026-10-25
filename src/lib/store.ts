@@ -50,6 +50,8 @@ export interface Prefs {
   primersHidden: string[]
   /** Reading speed used for time estimates, in words per minute. */
   wpm: number
+  /** Speed of the flash (one word at a time) reader. */
+  rsvpWpm: number
   theme: Theme
   /** Dismissed "make a reading plan?" prompts, per book. */
   planPromptDismissed: string[]
@@ -59,6 +61,7 @@ export const prefs = createStore<Prefs>('virgil:prefs:v1', {
   primers: 'collapsed',
   primersHidden: [],
   wpm: 230,
+  rsvpWpm: 300,
   theme: 'system',
   planPromptDismissed: [],
 })
