@@ -1,0 +1,677 @@
+[
+  {
+    "id": "world",
+    "type": "geo",
+    "title": "The world’s oceans",
+    "short": "World",
+    "projection": "equirectangular",
+    "bounds": [
+      [
+        -180,
+        -80
+      ],
+      [
+        180,
+        80
+      ]
+    ],
+    "note": "A flat world map: shapes near the poles are stretched sideways. The South Pole itself lies just off the bottom edge.",
+    "labels": [
+      {
+        "text": "Pacific Ocean",
+        "at": [
+          -140,
+          8
+        ],
+        "kind": "sea"
+      },
+      {
+        "text": "Pacific Ocean",
+        "at": [
+          168,
+          24
+        ],
+        "kind": "sea"
+      },
+      {
+        "text": "Atlantic Ocean",
+        "at": [
+          -38,
+          30
+        ],
+        "kind": "sea"
+      },
+      {
+        "text": "South Atlantic",
+        "at": [
+          -20,
+          -28
+        ],
+        "kind": "sea"
+      },
+      {
+        "text": "Indian Ocean",
+        "at": [
+          78,
+          -22
+        ],
+        "kind": "sea"
+      },
+      {
+        "text": "Arctic Ocean",
+        "at": [
+          0,
+          76
+        ],
+        "kind": "sea"
+      },
+      {
+        "text": "Antarctic Ocean",
+        "at": [
+          -20,
+          -62
+        ],
+        "kind": "sea"
+      },
+      {
+        "text": "Mediterranean",
+        "at": [
+          17,
+          35.2
+        ],
+        "kind": "sea"
+      },
+      {
+        "text": "Red Sea",
+        "at": [
+          38.6,
+          20
+        ],
+        "kind": "minor"
+      },
+      {
+        "text": "Sargasso Sea",
+        "at": [
+          -55,
+          28
+        ],
+        "kind": "minor"
+      },
+      {
+        "text": "Caribbean Sea",
+        "at": [
+          -74,
+          15
+        ],
+        "kind": "minor"
+      },
+      {
+        "text": "Gulf of Mexico",
+        "at": [
+          -90,
+          25.5
+        ],
+        "kind": "minor"
+      },
+      {
+        "text": "Bay of Bengal",
+        "at": [
+          88,
+          14
+        ],
+        "kind": "minor"
+      },
+      {
+        "text": "Coral Sea",
+        "at": [
+          156,
+          -17
+        ],
+        "kind": "minor"
+      },
+      {
+        "text": "North Sea",
+        "at": [
+          3.5,
+          56
+        ],
+        "kind": "minor"
+      },
+      {
+        "text": "Persian Gulf",
+        "at": [
+          51,
+          27
+        ],
+        "kind": "minor"
+      },
+      {
+        "text": "NORTH AMERICA",
+        "at": [
+          -102,
+          44
+        ],
+        "kind": "region"
+      },
+      {
+        "text": "SOUTH AMERICA",
+        "at": [
+          -60,
+          -12
+        ],
+        "kind": "region"
+      },
+      {
+        "text": "EUROPE",
+        "at": [
+          15,
+          52
+        ],
+        "kind": "region"
+      },
+      {
+        "text": "AFRICA",
+        "at": [
+          20,
+          5
+        ],
+        "kind": "region"
+      },
+      {
+        "text": "ASIA",
+        "at": [
+          90,
+          48
+        ],
+        "kind": "region"
+      },
+      {
+        "text": "AUSTRALIA",
+        "at": [
+          134,
+          -25
+        ],
+        "kind": "region"
+      },
+      {
+        "text": "ANTARCTIC LANDS",
+        "at": [
+          60,
+          -73
+        ],
+        "kind": "region"
+      },
+      {
+        "text": "Japan",
+        "at": [
+          138,
+          37
+        ],
+        "kind": "area"
+      },
+      {
+        "text": "New Guinea",
+        "at": [
+          143,
+          -5
+        ],
+        "kind": "area"
+      },
+      {
+        "text": "Ceylon",
+        "at": [
+          80.7,
+          6
+        ],
+        "kind": "area"
+      },
+      {
+        "text": "Cape Horn",
+        "at": [
+          -67.3,
+          -58
+        ],
+        "kind": "minor"
+      },
+      {
+        "text": "Cape of Good Hope",
+        "at": [
+          18.5,
+          -36.5
+        ],
+        "kind": "minor"
+      },
+      {
+        "text": "Newfoundland",
+        "at": [
+          -56,
+          49
+        ],
+        "kind": "minor"
+      }
+    ],
+    "recipe": {
+      "type": "natural"
+    }
+  },
+  {
+    "id": "torres-strait",
+    "type": "geo",
+    "title": "The Coral Sea and the Torres Strait",
+    "short": "Torres Strait",
+    "parent": "world",
+    "bounds": [
+      [
+        122,
+        -18.5
+      ],
+      [
+        170,
+        0
+      ]
+    ],
+    "labels": [
+      {
+        "text": "Coral Sea",
+        "at": [
+          153,
+          -14
+        ],
+        "kind": "sea"
+      },
+      {
+        "text": "Torres Strait",
+        "at": [
+          142.2,
+          -10.3
+        ],
+        "kind": "minor"
+      },
+      {
+        "text": "Arafura Sea",
+        "at": [
+          135,
+          -9.6
+        ],
+        "kind": "sea"
+      },
+      {
+        "text": "Timor Sea",
+        "at": [
+          126.5,
+          -12
+        ],
+        "kind": "sea"
+      },
+      {
+        "text": "Solomon Sea",
+        "at": [
+          153,
+          -7.5
+        ],
+        "kind": "sea"
+      },
+      {
+        "text": "Pacific Ocean",
+        "at": [
+          162,
+          -3
+        ],
+        "kind": "sea"
+      },
+      {
+        "text": "NEW GUINEA",
+        "at": [
+          141,
+          -4.8
+        ],
+        "kind": "region"
+      },
+      {
+        "text": "AUSTRALIA",
+        "at": [
+          136,
+          -16.5
+        ],
+        "kind": "region"
+      },
+      {
+        "text": "Cape York",
+        "at": [
+          142.6,
+          -11.6
+        ],
+        "kind": "minor"
+      },
+      {
+        "text": "Timor",
+        "at": [
+          125,
+          -9.2
+        ],
+        "kind": "area"
+      },
+      {
+        "text": "Louisiade Archipelago",
+        "at": [
+          152.5,
+          -11.3
+        ],
+        "kind": "minor"
+      },
+      {
+        "text": "Solomon Islands",
+        "at": [
+          159.5,
+          -8.6
+        ],
+        "kind": "area"
+      },
+      {
+        "text": "Santa Cruz Islands",
+        "at": [
+          166.5,
+          -10.4
+        ],
+        "kind": "minor"
+      }
+    ],
+    "recipe": {
+      "type": "natural"
+    }
+  },
+  {
+    "id": "red-sea-mediterranean",
+    "type": "geo",
+    "title": "The Red Sea and the Mediterranean",
+    "short": "Red Sea & Mediterranean",
+    "parent": "world",
+    "bounds": [
+      [
+        -12,
+        10
+      ],
+      [
+        47,
+        46.5
+      ]
+    ],
+    "labels": [
+      {
+        "text": "Mediterranean Sea",
+        "at": [
+          18,
+          34.2
+        ],
+        "kind": "sea"
+      },
+      {
+        "text": "Red Sea",
+        "at": [
+          38.4,
+          20.5
+        ],
+        "kind": "sea"
+      },
+      {
+        "text": "Gulf of Aden",
+        "at": [
+          45.3,
+          12.4
+        ],
+        "kind": "sea"
+      },
+      {
+        "text": "Atlantic Ocean",
+        "at": [
+          -10.5,
+          37.5
+        ],
+        "kind": "sea"
+      },
+      {
+        "text": "Ionian Sea",
+        "at": [
+          18.5,
+          37.6
+        ],
+        "kind": "sea"
+      },
+      {
+        "text": "Greek Archipelago",
+        "at": [
+          25.2,
+          37.7
+        ],
+        "kind": "sea"
+      },
+      {
+        "text": "Adriatic Sea",
+        "at": [
+          15.6,
+          43
+        ],
+        "kind": "minor"
+      },
+      {
+        "text": "Bay of Biscay",
+        "at": [
+          -4,
+          45.3
+        ],
+        "kind": "minor"
+      },
+      {
+        "text": "Gulf of Suez",
+        "at": [
+          33,
+          28.9
+        ],
+        "kind": "minor"
+      },
+      {
+        "text": "Gulf of Aqaba",
+        "at": [
+          34.75,
+          28.9
+        ],
+        "kind": "minor"
+      },
+      {
+        "text": "Strait of Gibraltar",
+        "at": [
+          -5.6,
+          35.6
+        ],
+        "kind": "minor"
+      },
+      {
+        "text": "EGYPT",
+        "at": [
+          29.5,
+          26.5
+        ],
+        "kind": "region"
+      },
+      {
+        "text": "ARABIA",
+        "at": [
+          43.5,
+          23.5
+        ],
+        "kind": "region"
+      },
+      {
+        "text": "AFRICA",
+        "at": [
+          8,
+          26
+        ],
+        "kind": "region"
+      },
+      {
+        "text": "SPAIN",
+        "at": [
+          -3.6,
+          40.2
+        ],
+        "kind": "region"
+      },
+      {
+        "text": "FRANCE",
+        "at": [
+          2.4,
+          46
+        ],
+        "kind": "region"
+      },
+      {
+        "text": "ITALY",
+        "at": [
+          13.2,
+          42.6
+        ],
+        "kind": "region"
+      },
+      {
+        "text": "GREECE",
+        "at": [
+          22,
+          39.3
+        ],
+        "kind": "region"
+      },
+      {
+        "text": "TURKEY",
+        "at": [
+          33,
+          39.3
+        ],
+        "kind": "region"
+      },
+      {
+        "text": "Candia (Crete)",
+        "at": [
+          24.9,
+          35.25
+        ],
+        "kind": "area"
+      },
+      {
+        "text": "Sicily",
+        "at": [
+          14.2,
+          37.55
+        ],
+        "kind": "area"
+      },
+      {
+        "text": "Sinai",
+        "at": [
+          33.8,
+          29.6
+        ],
+        "kind": "area"
+      }
+    ],
+    "recipe": {
+      "type": "natural"
+    }
+  },
+  {
+    "id": "south-pole",
+    "type": "geo",
+    "title": "Toward the South Pole",
+    "short": "South Pole",
+    "parent": "world",
+    "projection": "equirectangular",
+    "bounds": [
+      [
+        -80,
+        -90
+      ],
+      [
+        -20,
+        -50
+      ]
+    ],
+    "note": "A flat polar map: lines of longitude are drawn parallel, so the lands near the bottom are stretched sideways, and the Pole is the whole bottom edge.",
+    "labels": [
+      {
+        "text": "Antarctic Ocean",
+        "at": [
+          -40,
+          -60
+        ],
+        "kind": "sea"
+      },
+      {
+        "text": "South Atlantic",
+        "at": [
+          -35,
+          -51.5
+        ],
+        "kind": "sea"
+      },
+      {
+        "text": "Drake Passage",
+        "at": [
+          -66,
+          -58.5
+        ],
+        "kind": "minor"
+      },
+      {
+        "text": "Falkland Islands",
+        "at": [
+          -59,
+          -50.8
+        ],
+        "kind": "area"
+      },
+      {
+        "text": "South Georgia",
+        "at": [
+          -36.5,
+          -53.5
+        ],
+        "kind": "minor"
+      },
+      {
+        "text": "South Shetlands",
+        "at": [
+          -59,
+          -61.6
+        ],
+        "kind": "minor"
+      },
+      {
+        "text": "South Orkneys",
+        "at": [
+          -45,
+          -60.1
+        ],
+        "kind": "minor"
+      },
+      {
+        "text": "Tierra del Fuego",
+        "at": [
+          -69,
+          -53.2
+        ],
+        "kind": "area"
+      },
+      {
+        "text": "Graham Land",
+        "at": [
+          -66,
+          -66.5
+        ],
+        "kind": "area"
+      }
+    ],
+    "recipe": {
+      "type": "natural"
+    }
+  }
+]
