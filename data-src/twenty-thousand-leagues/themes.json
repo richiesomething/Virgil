@@ -1,0 +1,119 @@
+[
+  {
+    "id": "wonder-of-the-deep",
+    "name": "Science and the wonders of the deep",
+    "from": 2,
+    "summary": [
+      { "from": 2, "text": "Aronnax meets the mystery as a scientist. He reasons from what is known about the deep, settles on a giant narwhal, and publishes it. In this book, wonder starts with careful reasoning." },
+      { "from": 10, "text": "Nemo offers Aronnax a strange bargain: captivity in exchange for a voyage through \"a land of wonders.\" His breakfast made entirely from the sea shows that this world can be lived in, not just studied." },
+      { "from": 14, "text": "The lounge panels slide open and the fish of the Black Current fill the windows. Conseil classifies, Ned judges what is good to eat, and Aronnax watches like a man given the museum of his dreams. The long lists of species are the book's way of sharing that astonishment." },
+      { "from": 16, "text": "On foot in a diving suit, Aronnax crosses sunlit sand and underwater forests. The deep stops being a specimen seen through glass and becomes a landscape to walk through, with its own light, silence and dangers." },
+      { "from": 25, "text": "Aronnax admits the pull openly. He wants to \"see what no man has seen yet,\" even at the cost of his life. His curiosity now competes with his duty to his companions and their wish to go home." },
+      { "from": 33, "text": "The wonders grow grander and stranger: a tunnel under Suez, a boiling eruption off Santorini, and the drowned ruins of Atlantis lit by a volcano. Science and legend meet on the seafloor." },
+      { "from": 38, "text": "Nemo pushes the Nautilus to a record depth, photographs rocks no one has seen, and then fixes the sun at the South Pole. Exploration has become a matter of firsts, and of who gets to claim them." },
+      { "from": 47, "text": "Home again, Aronnax rests his authority on what he has seen: he has \"earned the right to speak of these seas.\" He hopes the scientist in Nemo will outlast the man of hate. For Aronnax, wonder may be the cure for vengeance." }
+    ]
+  },
+  {
+    "id": "freedom-captivity",
+    "name": "Freedom and captivity",
+    "from": 8,
+    "summary": [
+      { "from": 8, "text": "Pulled from the sea, the three are locked in a dark iron cell by men who seem not to understand them. Rescue and imprisonment arrive together." },
+      { "from": 10, "text": "Nemo grants them the run of the ship but forbids them ever to leave. Aronnax calls it the freedom of a prisoner to pace his cell. Meanwhile Nemo hails the sea as the one place a man is truly free. One man's refuge is the others' prison." },
+      { "from": 21, "text": "On Gueboroa Island the three hunt, feast and talk of never going back. A few hours ashore show what Ned is missing: open air, solid ground and his own choices." },
+      { "from": 25, "text": "Aronnax states their position plainly: \"guests\" in name, captives in fact, bound by no promise. He feels the split in himself. The prisoner wants a chance to escape, and the scientist dreads one." },
+      { "from": 30, "text": "In the Mediterranean, Ned makes Aronnax promise to escape at the first real chance. From here every coastline is measured by its escape chances, and each one seems to slip away as the Nautilus dives or turns." },
+      { "from": 36, "text": "Weeks of open ocean far from any shore wear Ned down. A man used to action and open air grows sullen in a steel hull, and his resentment of Nemo hardens." },
+      { "from": 43, "text": "Aronnax finally asks Nemo outright to free them and calls their life \"outright slavery.\" Nemo refuses, but points out that he never asked for their word. The right to escape is theirs, if they can manage it." },
+      { "from": 46, "text": "In the end freedom comes by flight, not permission: a skiff, a dark night, and the Maelstrom. Nemo, who claimed the sea's freedom for himself, is last seen as a man bound by his own grief." }
+    ]
+  },
+  {
+    "id": "nemo-mystery",
+    "name": "The mystery of Captain Nemo",
+    "from": 10,
+    "summary": [
+      { "from": 10, "text": "The commander calls himself Nemo, Latin for \"no one.\" He has \"severed all ties with society\" for reasons only he may judge, and a flash of anger hints at a fearsome past. The rest of the book asks who he is." },
+      { "from": 11, "text": "His ship holds great paintings, music and 12,000 books, and he sleeps in a bare, monk-like cabin. He fled civilization but brought its finest works with him, and his tastes deepen the puzzle." },
+      { "from": 19, "text": "At Vanikoro Nemo shows real feeling for La Pérouse's lost sailors and wishes himself and his men \"a coral grave.\" Behind his cold manner is a man who thinks a great deal about death and loyalty." },
+      { "from": 24, "text": "Something on the horizon fills Nemo with naked hate. The prisoners are drugged, a crewman dies of a terrible wound, and he is buried in a hidden coral cemetery. Nemo has enemies, and his men live and die by his side." },
+      { "from": 25, "text": "Conseil sees an unappreciated genius who has given up on the world. Aronnax thinks that explains only one side of him and asks the book's central question: \"Is he the persecutor or the persecuted?\"" },
+      { "from": 32, "text": "Nemo saves a pearl diver and calls himself a native of \"the land of the oppressed.\" At Vigo he hints that his sunken treasure goes to suffering peoples and \"victims to avenge.\" He is generous and bitter at once." },
+      { "from": 42, "text": "When a giant squid carries off a crewman, the man cries for help in French. Nemo weeps for him openly. Each glimpse of the man behind the mask raises more questions than it answers." },
+      { "from": 47, "text": "Aronnax still doesn't know Nemo's name, his country, or the full story behind his hate. The book leaves him unexplained by design: \"no one\" stays no one, a man defined only by what he loved and what he hates." }
+    ]
+  },
+  {
+    "id": "grievance-vengeance",
+    "name": "A hidden grievance",
+    "from": 23,
+    "summary": [
+      { "from": 23, "text": "A speck on the horizon turns Nemo's calm face into a mask of hatred, and the guests are locked away. Whatever he has fled is still out there, and it is something he hates." },
+      { "from": 25, "text": "Aronnax pieces together the spyglass, the drugging and the dead crewman's wound. He suspects the Nautilus serves not only Nemo's freedom but \"schemes of dreadful revenge.\" Admiration and unease now pull against each other." },
+      { "from": 32, "text": "Nemo speaks of the oppressed and of \"victims to avenge,\" and his treasure seems to go to people fighting for their freedom. His grievance looks less like a private quarrel and more like a cause." },
+      { "from": 38, "text": "At the South Pole Nemo claims the land in his own name under a black flag. He answers to no nation, and he signs his conquests as if at war with all of them." },
+      { "from": 44, "text": "Nemo stops at a precise spot to show Aronnax the wreck of the French warship Avenger. He tells its story with burning eyes, and Aronnax sees that his hate is \"so monstrous or so sublime\" that years have not weakened it." },
+      { "from": 45, "text": "A warship of unknown nationality fires on the Nautilus. Nemo cries \"I'm the oppressed, and there are my oppressors!\" and says they destroyed his homeland and family. He rams it and watches it sink with all hands. Then he weeps before a portrait of a woman and two children. The persecuted man has become an executioner." },
+      { "from": 47, "text": "Aronnax wonders whether Nemo still pursues \"his frightful program of revenge.\" He hopes the hate in \"that fierce heart\" can be appeased. The book condemns the massacre without denying the wrong that drove it." }
+    ]
+  },
+  {
+    "id": "humans-and-the-sea",
+    "name": "Humans and the living sea",
+    "from": 10,
+    "summary": [
+      { "from": 10, "text": "For Nemo the sea is \"the be all and end all.\" It feeds and clothes him, and it is a living world that tyrants cannot rule. He loves it the way other men love a country." },
+      { "from": 18, "text": "Nemo describes the ocean as a living body with its own circulation and breath. Then the travelers pass the freshly sunk Florida with its dead still on deck. The sea teems with life, and it also swallows ships whole." },
+      { "from": 27, "text": "On the pearl beds, the sea's riches and its dangers sit side by side: a giant clam guarding an enormous pearl, divers working in poverty, a shark. Man takes from the sea at a cost, and the poorest pay most." },
+      { "from": 36, "text": "Nemo forbids Ned to hunt harmless right whales, saying that killing for the sake of killing is mankind's privilege and that whalers are emptying whole seas. Then he slaughters a pack of sperm whales with the spur. His respect for nature has its own rules about which creatures deserve protection." },
+      { "from": 40, "text": "Trapped under the ice, with the water around them freezing, men and machine are reduced to digging for their lives. The sea Nemo calls his refuge can kill him as easily as anyone." },
+      { "from": 42, "text": "Giant squid attack the Nautilus, and the fight is fought with axes and harpoons on the platform. Here the sea's monsters are real, and they take a man." },
+      { "from": 46, "text": "The voyage ends in the Maelstrom, the most dreadful whirlpool of the northern seas. The ocean has the last word over every human plan aboard." }
+    ]
+  },
+  {
+    "id": "technology-power",
+    "name": "Technology and power",
+    "from": 7,
+    "summary": [
+      { "from": 7, "text": "The \"monster\" that shrugged off a cannon shell turns out to be riveted steel. The thing the world feared as a creature of nature is a human machine, and so is the danger it poses." },
+      { "from": 12, "text": "Electricity, drawn from sodium extracted from seawater, lights, heats and drives the Nautilus at fifty miles an hour. Verne takes care to explain how it works, so that the marvel feels possible rather than magical." },
+      { "from": 13, "text": "Nemo built his ship in secret from parts ordered around the world, and he calls himself infinitely rich. Such a machine gives one man independence from every government, and nothing on the surface can catch him." },
+      { "from": 22, "text": "When islanders try to board, Nemo has no need of a fight. An electrified railing throws them back. His technology gives him power without effort, and he uses it with calm contempt." },
+      { "from": 36, "text": "The spur that holed the Scotia becomes a weapon against sperm whales, and the Nautilus leaves the sea red. The same machine that opens the deep to science can kill on a vast scale." },
+      { "from": 40, "text": "Wedged in the ice, the most advanced ship in the world needs men with picks and dwindling air to survive. Technology has limits, and when it reaches them the work falls back on human bodies." },
+      { "from": 45, "text": "Nemo turns his ship into a weapon against a warship and sinks it with all hands. The genius that built the Nautilus is now in the service of hate." },
+      { "from": 47, "text": "Aronnax believes \"progress will someday make great inroads\" into the deep. The book is excited by what machines can do, and it has shown just as clearly how much depends on the person controlling them." }
+    ]
+  },
+  {
+    "id": "civilization-escape",
+    "name": "Civilization and escape from it",
+    "from": 10,
+    "summary": [
+      { "from": 10, "text": "When Aronnax appeals to the conduct of \"a civilized man,\" Nemo snaps that he is no such thing and obeys none of society's rules. The Nautilus is a world outside every law." },
+      { "from": 11, "text": "Yet the ship is full of civilization's treasures: books, paintings, an organ. Nemo has rejected society but not its culture. He has chosen what to take with him." },
+      { "from": 22, "text": "Aronnax calls the islanders \"savages,\" and Nemo asks where there aren't any, and whether they are worse than men elsewhere. Who counts as civilized is less certain than Aronnax assumed." },
+      { "from": 25, "text": "For Ned, \"civilization\" means home, solid ground and ordinary freedom, and he longs for it. Aronnax is pulled both ways, between the world he came from and the one Nemo has built." },
+      { "from": 32, "text": "Nemo enters the \"seas of civilization\" and helps himself to the gold of sunken Spanish galleons. His escape from the world turns out to be bound up with it: he takes from its wrecks and gives to its victims." },
+      { "from": 44, "text": "The Nautilus follows the transatlantic telegraph cable along the seafloor, a reminder of a connected world above. Nemo's flight has brought him back to the shores of Europe and its wars." },
+      { "from": 47, "text": "Aronnax returns to the human world with a story he fears no one will believe. He ends by calling the ocean Nemo's \"adopted country\" and hoping it can bring him peace." }
+    ]
+  },
+  {
+    "id": "loyalty-companionship",
+    "name": "Loyalty and companionship",
+    "from": 3,
+    "summary": [
+      { "from": 3, "text": "Asked to join a dangerous hunt across the world, Conseil simply says, \"As master wishes.\" His devotion is calm and complete, and the book plays it for gentle comedy." },
+      { "from": 7, "text": "When Aronnax is thrown overboard, Conseil jumps in after him without hesitating, and Ned later pulls them both from the water. Three very different men become a team in a single night." },
+      { "from": 24, "text": "Nemo's crew bury their comrade in a coral cemetery, \"friends bound together in death as in life.\" The Nautilus has its own loyalties, and they are fierce." },
+      { "from": 27, "text": "On the pearl bank Ned harpoons the shark attacking Nemo, his own captor. Loyalty here is a matter of instinct, not of choosing sides." },
+      { "from": 30, "text": "When the three debate escape, Conseil refuses to cast a vote. He thinks as master thinks. His loyalty is touching but leaves Aronnax and Ned to settle their quarrel alone." },
+      { "from": 40, "text": "Close to suffocating under the ice, Ned and Conseil save their last air for Aronnax and pour \"life into me drop by drop.\" The servant and the harpooner prove themselves as friends." },
+      { "from": 42, "text": "Nemo saves Ned from the squid and weeps for the crewman he couldn't save. Captor and captive owe each other their lives, and Nemo's grief shows how much his men mean to him." },
+      { "from": 47, "text": "Aronnax wakes in a fisherman's hut with Ned and Conseil beside him. Whatever else the voyage took from them, the three came through it together." }
+    ]
+  }
+]
