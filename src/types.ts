@@ -177,12 +177,14 @@ export interface MapLabel {
   at: [number, number]
   kind: 'sea' | 'region' | 'area' | 'water' | 'minor' | 'floor' | 'street'
   rot?: number
+  /** Only drawn once the reader has reached this chapter. */
+  from?: number
 }
 
 /** A drawing (plan frame) or base geography (geo frame), loaded on demand. */
 export interface FrameArt {
   bg: string
-  features?: { k: string; poly?: [number, number][]; line?: [number, number][]; at?: [number, number]; r?: number; curve?: boolean; w?: number }[]
+  features?: { k: string; poly?: [number, number][]; line?: [number, number][]; at?: [number, number]; r?: number; curve?: boolean; w?: number; from?: number }[]
   labels?: MapLabel[]
   land?: [number, number][][][]
   water?: [number, number][][][]

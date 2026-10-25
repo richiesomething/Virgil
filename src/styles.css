@@ -775,3 +775,13 @@ a.chip-btn { display: inline-flex; align-items: center; }
   .segmented .count { display: none; }
   .primer__toggle .small { display: none; }
 }
+
+/* Touch targets and safe areas */
+.atlas-chip, .pill-btn, .chip-btn { min-height: 40px; }
+.theme-chip { min-height: 36px; padding: 0 12px; }
+.primer__map { min-height: 40px; }
+.tl-place, .tl-ch { min-height: 32px; padding: 4px 10px; }
+.avatar--xs { width: 32px; height: 32px; font-size: 0.7rem; }
+.tag--link { display: inline-flex; align-items: center; min-height: 32px; padding: 0 10px; }
+.stages__ch, .insight__ch { display: inline-flex; align-items: center; min-height: 32px; }
+.atlas-stage { left: env(safe-area-inset-left, 0px); right: env(safe-area-inset-right, 0px); }

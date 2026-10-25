@@ -30,7 +30,11 @@ export function Sheet({ open, onClose, title, label, size = 'content', children 
     if (!open) return
     history.pushState({ sheet: true }, '')
     const opener = document.activeElement as HTMLElement | null
-    const onPop = () => onCloseRef.current()
+    let popped = false
+    const onPop = () => {
+      popped = true
+      onCloseRef.current()
+    }
     const onKey = (e: KeyboardEvent) => e.key === 'Escape' && history.back()
     window.addEventListener('popstate', onPop)
     window.addEventListener('keydown', onKey)
@@ -41,6 +45,8 @@ export function Sheet({ open, onClose, title, label, size = 'content', children 
       window.removeEventListener('keydown', onKey)
       document.body.style.overflow = ''
       opener?.focus?.()
+      // Closed by the app rather than by Back: remove the entry this sheet added.
+      if (!popped && history.state?.sheet) history.back()
     }
   }, [open])
 

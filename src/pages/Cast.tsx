@@ -9,7 +9,8 @@ import { useBook } from '../lib/book-context'
 import { href, navigate, useLocation, withQuery } from '../lib/router'
 import { currentAliases, currentTagline, isThing, kindOf, metCharacters } from '../lib/spoilers'
 import { fold } from '../lib/search'
-import { bestFrame, chaptersAt, hasAtlas, offMapPlaces, placeAliases, placeTagline, visiblePlaces } from '../lib/atlas'
+import { bestFrame, chaptersAt, hasAtlas, offMapPlaces, placeAliases, placeRole, placeTagline, visiblePlaces } from '../lib/atlas'
+import type { Place } from '../types'
 
 type Segment = 'people' | 'places' | 'things'
 type Sort = 'appearance' | 'name' | 'recent'
@@ -198,7 +199,6 @@ function CharacterRows({ list }: { list: ReturnType<typeof metCharacters> }) {
 /** Every place reached so far, grouped by the map it belongs to. */
 function PlacesList() {
   const { book, upTo } = useBook()
-  const id = book.meta.id
   const [q, setQ] = useState('')
   const [openGroups, setOpenGroups] = useState<Set<string>>(new Set())
   const fq = fold(q.trim())
@@ -221,8 +221,8 @@ function PlacesList() {
         </label>
       </div>
       {order.map(([key, g]) => {
-        const scenes = g.list.filter((p) => p.role === 'setting').sort((a, b) => a.firstChapter - b.firstChapter)
-        const mentioned = g.list.filter((p) => p.role === 'mentioned').sort((a, b) => a.name.localeCompare(b.name))
+        const scenes = g.list.filter((p) => placeRole(book, p, upTo) === 'setting').sort((a, b) => a.firstChapter - b.firstChapter)
+        const mentioned = g.list.filter((p) => placeRole(book, p, upTo) === 'mentioned').sort((a, b) => a.name.localeCompare(b.name))
         const open = openGroups.has(key) || !!fq || !scenes.length
         return (
           <section key={key}>
@@ -249,19 +249,21 @@ function PlacesList() {
     </>
   )
 
-  function PlaceRow({ p }: { p: (typeof all)[number] }) {
-    const chs = chaptersAt(book, p.id, upTo)
-    return (
-      <a className="row row--avatar" href={href('b', id, 'places', p.id)} style={{ minHeight: 60 }}>
-        <span className={`avatar avatar--place${p.role === 'mentioned' ? ' avatar--quiet' : ''}`} aria-hidden="true">
-          <Icon name="pin" className="icon--sm" />
-        </span>
-        <span className="row__body">
-          <span className="row__title">{p.name}</span>
-          <span className="row__sub clamp-1">{placeTagline(p, upTo)}</span>
-        </span>
-        {p.firstChapter === upTo ? <span className="tag tag--new">New</span> : chs.length > 0 && <span className="row__meta">{chapterRange(chs)}</span>}
-      </a>
-    )
-  }
+}
+
+function PlaceRow({ p }: { p: Place }) {
+  const { book, upTo } = useBook()
+  const chs = chaptersAt(book, p.id, upTo)
+  return (
+    <a className="row row--avatar" href={href('b', book.meta.id, 'places', p.id)} style={{ minHeight: 60 }}>
+      <span className={`avatar avatar--place${placeRole(book, p, upTo) === 'mentioned' ? ' avatar--quiet' : ''}`} aria-hidden="true">
+        <Icon name="pin" className="icon--sm" />
+      </span>
+      <span className="row__body">
+        <span className="row__title">{p.name}</span>
+        <span className="row__sub clamp-1">{placeTagline(p, upTo)}</span>
+      </span>
+      {p.firstChapter === upTo ? <span className="tag tag--new">New</span> : chs.length > 0 && <span className="row__meta">{chapterRange(chs)}</span>}
+    </a>
+  )
 }

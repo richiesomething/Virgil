@@ -149,6 +149,30 @@ for (const book of readdirSync(root, { withFileTypes: true }).filter((d) => d.is
       if (p.precision !== 'unknown' && !p.lonlat && !p.xy) fail(book, `${where} has no position but isn't marked unknown`)
     }
     for (const p of atlas.places) if (p.parent && !places.has(p.parent)) fail(book, `place ${p.id} has unknown parent ${p.parent}`)
+    for (const p of atlas.places) {
+      if (!p.mergedInto) continue
+      const seen = new Set([p.id])
+      let cur = p
+      while (cur?.mergedInto) {
+        const next = places.get(cur.mergedInto.id)
+        if (!next) {
+          fail(book, `place ${cur.id} merges into unknown place ${cur.mergedInto.id}`)
+          break
+        }
+        if (seen.has(next.id)) {
+          fail(book, `place ${p.id} has a merge cycle`)
+          break
+        }
+        if (next.firstChapter > cur.mergedInto.from) fail(book, `place ${cur.id} merges into ${next.id} (ch ${cur.mergedInto.from}) before it appears (ch ${next.firstChapter})`)
+        seen.add(next.id)
+        cur = next
+      }
+    }
+    for (const f of atlas.frames) {
+      if (f.offmap && !frames.has(f.offmap.frame)) fail(book, `frame ${f.id} is off the edge of unknown frame ${f.offmap.frame}`)
+      if (f.place && !places.has(f.place)) fail(book, `frame ${f.id} is a close-up of unknown place ${f.place}`)
+      if (f.parent && f.type === 'plan' && !f.anchor) fail(book, `plan frame ${f.id} needs an anchor in ${f.parent}`)
+    }
     for (const [ch, ids] of Object.entries(atlas.settings)) {
       if (!(Number(ch) >= 1 && Number(ch) <= count)) fail(book, `settings for bad chapter ${ch}`)
       for (const id of ids) {
@@ -162,6 +186,7 @@ for (const book of readdirSync(root, { withFileTypes: true }).filter((d) => d.is
       if (!j.name || !j.legs?.length) fail(book, `journey ${j.id} is malformed`)
       for (const id of j.who) if (!byId.has(id)) fail(book, `journey ${j.id} has unknown traveller ${id}`)
       for (const l of j.legs) {
+        if (!(l.chapter >= 1 && l.chapter <= count)) fail(book, `journey ${j.id} has a leg in bad chapter ${l.chapter}`)
         for (const id of [l.from, l.to]) {
           const p = places.get(id)
           if (!p) fail(book, `journey ${j.id} uses unknown place ${id}`)
@@ -211,6 +236,7 @@ for (const book of readdirSync(root, { withFileTypes: true }).filter((d) => d.is
       if (!/^\d{4}(-\d{2}(-\d{2})?)?$/.test(e.date) || !e.label || !e.title) fail(book, `${where} is malformed`)
       if (!(e.revealed >= 1 && e.revealed <= count)) fail(book, `${where} has bad revealed`)
       if (!e.text?.length || e.text[0].from < e.revealed) fail(book, `${where} text must start at its revealed chapter`)
+      for (let i = 1; i < (e.text ?? []).length; i++) if (e.text[i].from <= e.text[i - 1].from) fail(book, `${where} text entries must be in chapter order`)
       for (const c of e.chapters ?? []) if (!(c >= 1 && c <= count)) fail(book, `${where} has bad chapter ${c}`)
       for (const id of e.people ?? []) if (!byId.has(id)) fail(book, `${where} has unknown person ${id}`)
       for (const id of e.places ?? []) if (!placeIds.has(id)) fail(book, `${where} has unknown place ${id}`)

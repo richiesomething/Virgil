@@ -69,3 +69,9 @@ Other frame fields:
 - **Sea legs** whose straight line would cross land need `via` waypoints that keep the line at sea. Land legs can be straight.
 - **No spoilers.** Names, taglines and journey names are shown from their chapter. Taglines follow the cast convention: a short "what is this place" line, updated with `from` when the reader learns more. Never state anything the reader doesn't know by that chapter (identities, deaths, what's hidden there).
 - **`role`**: `setting` for any place where a scene happens. `mentioned` for places only talked about that are still worth seeing on a map (where someone is going, where something happened offstage, places with glossary notes). Skip trivial mentions.
+
+## Gating the drawings
+
+Any drawing feature or label (in `art-*.json`, authored in `scripts/atlas/draw-plans.py`, or in a frame's `labels`) can carry `"from": N`. It is then drawn only once the reader has finished chapter N. Use this for anything a drawing would otherwise give away, such as the chambers below the trapdoor or the path to the grotto.
+
+A place's `role` covers the whole book. The app never shows it directly: `placeRole()` works out from the chapter settings whether the reader has seen a scene there yet.

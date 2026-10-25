@@ -4,28 +4,32 @@ import { line as d3line, curveCatmullRom, curveCatmullRomClosed, curveLinearClos
 import { select } from 'd3-selection'
 import { zoom, zoomIdentity, type ZoomBehavior, type ZoomTransform } from 'd3-zoom'
 import type { AtlasFrame, BookData, FrameArt, MapLabel, Place } from '../types'
-import { childFrames, coveredByChild, positionIn, visibleJourneys, visiblePlaces } from '../lib/atlas'
+import { childFrames, coveredByChild, placeRole, positionIn, visibleJourneys, visiblePlaces } from '../lib/atlas'
 import Icon from './Icon'
 
 // Base geography and drawings are code-split per frame.
 const artFiles = import.meta.glob<{ default: FrameArt }>('../books/*/atlas/*.json')
 const artCache = new Map<string, FrameArt>()
 
-export function useFrameArt(bookId: string, frameId: string): FrameArt | null {
+export function useFrameArt(bookId: string, frameId: string): FrameArt | null | 'failed' {
   const key = `../books/${bookId}/atlas/${frameId}.json`
   const [loaded, setLoaded] = useState<{ key: string; art: FrameArt } | null>(null)
+  const [failed, setFailed] = useState<string | null>(null)
   useEffect(() => {
     if (artCache.has(key)) return
     let live = true
-    artFiles[key]?.().then((m) => {
-      artCache.set(key, m.default)
-      if (live) setLoaded({ key, art: m.default })
-    })
+    artFiles[key]?.()
+      .then((m) => {
+        artCache.set(key, m.default)
+        if (live) setLoaded({ key, art: m.default })
+      })
+      .catch(() => live && setFailed(key))
     return () => {
       live = false
     }
   }, [key])
   // Only ever hand back the drawing for *this* frame, never the previous one.
+  if (failed === key) return 'failed'
   return artCache.get(key) ?? (loaded?.key === key ? loaded.art : null)
 }
 
@@ -99,7 +103,8 @@ export default function AtlasMap(props: AtlasMapProps) {
   const zoomRef = useRef<ZoomBehavior<SVGSVGElement, unknown> | null>(null)
   const [size, setSize] = useState<{ w: number; h: number } | null>(null)
   const [t, setT] = useState<ZoomTransform>(zoomIdentity)
-  const art = useFrameArt(book.meta.id, frame.id)
+  const loadedArt = useFrameArt(book.meta.id, frame.id)
+  const art = loadedArt === 'failed' ? null : loadedArt
 
   useLayoutEffect(() => {
     const el = wrap.current
@@ -172,7 +177,7 @@ export default function AtlasMap(props: AtlasMapProps) {
     } else if (interactive && frame.type === 'geo') {
       // Open on what the reader has reached, never on the book's whole extent.
       const pts = visiblePlaces(book, asOf)
-        .filter((p) => p.role === 'setting' || frame.parent)
+        .filter((p) => placeRole(book, p, asOf) === 'setting' || frame.parent)
         .map((p) => positionIn(frame, p))
         .filter((c): c is XY => !!c)
         .map(proj.project)
@@ -216,7 +221,7 @@ export default function AtlasMap(props: AtlasMapProps) {
       parks: polys(art.parks),
       rivers: (art.rivers ?? []).map((r) => ({ d: line(r.line, r.curve), w: r.w ? Math.max(1, r.w * proj.pxPerM) : 0 })),
       walls: (art.walls ?? []).map((l) => line(l)),
-      features: (art.features ?? []).map((f) =>
+      features: (art.features ?? []).filter((f) => !f.from || f.from <= asOf).map((f) =>
         f.poly
           ? { k: f.k, d: line(f.poly, f.curve, true), w: f.w }
           : f.line
@@ -226,7 +231,7 @@ export default function AtlasMap(props: AtlasMapProps) {
               : null,
       ),
     }
-  }, [proj, art])
+  }, [proj, art, asOf])
 
   // ---------- dynamic layers (screen pixels) ----------
   const toScreen = (c: XY): XY => {
@@ -245,13 +250,14 @@ export default function AtlasMap(props: AtlasMapProps) {
           if (!pos || p.precision === 'unknown' || frame.place === p.id) return []
           if (coveredByChild(book, frame, p, asOf)) return []
           const important = hl.has(p.id) || p.id === here || p.id === selected
-          if (!interactive && !important && p.role !== 'setting') return []
-          if (!showMentioned && p.role === 'mentioned' && !important) return []
+          const role = placeRole(book, p, asOf)
+          if (!interactive && !important && role !== 'setting') return []
+          if (!showMentioned && role === 'mentioned' && !important) return []
           const [x, y] = toScreen(pos)
           const radius = frame.type === 'geo' && p.radiusKm && p.precision !== 'exact' ? p.radiusKm * 1000 * proj.pxPerM * t.k : 0
-          return [{ p, x, y, radius: p.id === selected || radius < 60 ? radius : 0, important }]
+          return [{ p, role, x, y, radius: p.id === selected || radius < 60 ? radius : 0, important }]
         })
-        .sort((a, b) => rankOf(a.p, a.important) - rankOf(b.p, b.important))
+        .sort((a, b) => rankOf(a.role, a.important) - rankOf(b.role, b.important))
     : []
 
   // Child frames: geo children as boxes (or badges when small), drawings as badges at their anchor.
@@ -319,18 +325,19 @@ export default function AtlasMap(props: AtlasMapProps) {
     r.x > 2 && r.y > 2 && r.x + r.w < w - 2 && r.y + r.h < h - 2 && !placed.some((q) => r.x < q.x + q.w && r.x + r.w > q.x && r.y < q.y + q.h && r.y + r.h > q.y)
   for (const p of portals) placed.push({ x: p.x - 40, y: p.y - 14, w: 80, h: 28 })
   for (const l of [...(frame.labels ?? []), ...(art?.labels ?? [])]) {
+    if (l.from && l.from > asOf) continue
     if (!proj || l.kind === 'sea' || l.kind === 'region') continue
     const [lx, ly] = l.kind === 'floor' ? [12, toScreen(l.at)[1]] : toScreen(l.at)
     const lw = l.text.length * 6.6
     placed.push(l.kind === 'floor' ? { x: lx, y: ly - 7, w: lw, h: 14 } : { x: lx - lw / 2, y: ly - 11, w: lw, h: 14 })
   }
-  for (const m of markers) placed.push({ x: m.x - 7, y: m.y - (m.p.role === 'setting' ? 24 : 5), w: 14, h: m.p.role === 'setting' ? 24 : 10 })
+  for (const m of markers) placed.push({ x: m.x - 7, y: m.y - (m.role === 'setting' ? 24 : 5), w: 14, h: m.role === 'setting' ? 24 : 10 })
   const labelFor = (m: (typeof markers)[number]) => {
-    const show = m.important || (interactive && (m.p.role === 'setting' ? t.k >= 1 : t.k >= 2.2 || frame.type === 'plan'))
+    const show = m.important || (interactive && (m.role === 'setting' ? t.k >= 1 : t.k >= 2.2 || frame.type === 'plan'))
     if (!show) return null
-    const fs = m.important ? 13 : m.p.role === 'setting' ? 12 : 11
+    const fs = m.important ? 13 : m.role === 'setting' ? 12 : 11
     const width = m.p.name.length * fs * 0.56 + 6
-    const top = m.p.role === 'setting' ? m.y - 22 : m.y - 7
+    const top = m.role === 'setting' ? m.y - 22 : m.y - 7
     for (const [dx, anchor] of [
       [10, 'start'],
       [-10, 'end'],
@@ -351,7 +358,7 @@ export default function AtlasMap(props: AtlasMapProps) {
   const markerLabels = new Map(markers.map((m) => [m.p.id, labelFor(m)]))
 
   const staticLabels = proj
-    ? [...(frame.labels ?? []), ...(art?.labels ?? [])].flatMap((l) => {
+    ? [...(frame.labels ?? []), ...(art?.labels ?? [])].filter((l) => !l.from || l.from <= asOf).flatMap((l) => {
         if (!interactive && l.kind !== 'floor') return []
         if ((l.kind === 'minor' || l.kind === 'area') && t.k < (frame.type === 'plan' ? 1 : 1.5) && frame.type === 'geo') return []
         const [x, y] = toScreen(l.at)
@@ -423,7 +430,7 @@ export default function AtlasMap(props: AtlasMapProps) {
               const label = markerLabels.get(m.p.id)
               const isSel = m.p.id === selected
               const isHere = m.p.id === here
-              const cls = ['atlas-place', `atlas-place--${m.p.role}`, hl.has(m.p.id) && 'is-hl', isHere && 'is-here', isSel && 'is-selected'].filter(Boolean).join(' ')
+              const cls = ['atlas-place', `atlas-place--${m.role}`, hl.has(m.p.id) && 'is-hl', isHere && 'is-here', isSel && 'is-selected'].filter(Boolean).join(' ')
               return (
                 <g
                   key={m.p.id}
@@ -440,9 +447,9 @@ export default function AtlasMap(props: AtlasMapProps) {
                   }}
                 >
                   {m.radius > 10 && <circle className="atlas-place__area" cx={m.x} cy={m.y} r={Math.min(m.radius, Math.max(w, h))} />}
-                  {interactive && <circle className="atlas-place__hit" cx={m.x} cy={m.p.role === 'setting' ? m.y - 10 : m.y} r={20} />}
+                  {interactive && <circle className="atlas-place__hit" cx={m.x} cy={m.role === 'setting' ? m.y - 10 : m.y} r={22} />}
                   {isHere && <circle className="atlas-place__pulse" cx={m.x} cy={m.y} r={14} />}
-                  {m.p.role === 'setting' ? (
+                  {m.role === 'setting' ? (
                     <path className="atlas-place__pin" transform={`translate(${m.x} ${m.y})${isSel ? ' scale(1.25)' : ''}`} d="M0 0c-1-4.5-7.5-8.6-7.5-14a7.5 7.5 0 0 1 15 0c0 5.4-6.5 9.5-7.5 14Zm0-11.2a2.8 2.8 0 1 0 0-5.6 2.8 2.8 0 0 0 0 5.6Z" />
                   ) : (
                     <circle className="atlas-place__dot" cx={m.x} cy={m.y} r={isSel ? 6 : 4.5} />
@@ -484,7 +491,20 @@ export default function AtlasMap(props: AtlasMapProps) {
 
         </svg>
       )}
-      {!ready && <div className="atlas__loading">Drawing the map…</div>}
+      {!ready && (
+        <div className="atlas__loading">
+          {loadedArt === 'failed' ? (
+            <span>
+              Couldn’t load this map.{' '}
+              <button className="link" onClick={() => location.reload()}>
+                Try again
+              </button>
+            </span>
+          ) : (
+            'Drawing the map…'
+          )}
+        </div>
+      )}
       {interactive && ready && (
         <div className="map__zoom atlas__zoom">
           <button className="icon-btn" onClick={() => zoomBy(1.6)} aria-label="Zoom in">
@@ -502,7 +522,7 @@ export default function AtlasMap(props: AtlasMapProps) {
   )
 }
 
-const rankOf = (p: Place, important: boolean) => (important ? 0 : p.role === 'setting' ? 1 : 2)
+const rankOf = (role: string, important: boolean) => (important ? 0 : role === 'setting' ? 1 : 2)
 const legClass = (mode: string) => (['sea', 'boat', 'swim', 'river'].includes(mode) ? 'water' : ['air', 'magic'].includes(mode) ? 'air' : 'land')
 
 function StaticLabel({ l, x, y }: { l: MapLabel; x: number; y: number }) {

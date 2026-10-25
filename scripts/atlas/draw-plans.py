@@ -79,7 +79,7 @@ bands = [
     ("Tower tops", 30, 150), ("Upper floors", 160, 320), ("Third floor", 330, 400), ("Second floor", 410, 470),
     ("First floor", 480, 540), ("Ground floor", 550, 620), ("Dungeons", 630, 700), ("Deep below", 715, 830),
 ]
-features = [{"k": "deep", "poly": rect(0, 708, 1000, 840)}]
+features = [{"k": "deep", "poly": rect(0, 708, 1000, 840), "from": 16}]
 for i, (name, y0, y1) in enumerate(bands[1:7]):
     features.append({"k": "floor", "poly": rect(120, y0, 980, y1)})
 # towers
@@ -90,12 +90,12 @@ features += [
     # the moving staircases
     {"k": "stair", "line": [[455, 620], [495, 550], [455, 480], [495, 410], [455, 330], [495, 250], [455, 160]]},
     # the trapdoor and the way down
-    {"k": "shaft", "line": [[640, 400], [640, 600], [640, 720], [600, 740]]},
-    {"k": "passage", "line": [[600, 752], [870, 752], [870, 805], [760, 805]]},
+    {"k": "shaft", "line": [[640, 400], [640, 600], [640, 720], [600, 740]], "from": 16},
+    {"k": "passage", "line": [[600, 752], [870, 752], [870, 805], [760, 805]], "from": 16},
 ]
 for x, y in [(600, 752), (690, 752), (780, 752), (870, 752), (870, 805), (760, 805)]:
-    features.append({"k": "chamber", "poly": rect(x - 32, y - 18, x + 32, y + 18)})
-labels = [{"text": name, "at": [12, (y0 + y1) / 2], "kind": "floor"} for name, y0, y1 in bands]
+    features.append({"k": "chamber", "poly": rect(x - 32, y - 18, x + 32, y + 18), "from": 16})
+labels = [{"text": name, "at": [12, (y0 + y1) / 2], "kind": "floor", **({"from": 16} if name == "Deep below" else {})} for name, y0, y1 in bands]
 labels.append({"text": "moving staircases", "at": [475, 640], "kind": "minor"})
 write('harry-potter-1', 'castle', {"bg": "sky", "features": features, "labels": labels})
 
@@ -157,8 +157,8 @@ features = [
     {"k": "scrub", "poly": blob(520, 300, 200, 110, seed=9), "curve": True},
     {"k": "peak", "poly": blob(520, 250, 70, 45, seed=2), "curve": True},
     {"k": "water", "poly": [[205, 505], [262, 505], [300, 545], [262, 590], [210, 585]], "curve": True},
-    {"k": "path", "line": [[255, 535], [320, 480], [400, 450], [480, 420], [560, 395], [600, 380]], "curve": True},
-    {"k": "boulder", "at": [600, 378], "r": 16},
+    {"k": "path", "line": [[255, 535], [320, 480], [400, 450], [480, 420], [560, 395], [600, 380]], "curve": True, "from": 24},
+    {"k": "boulder", "at": [600, 378], "r": 16, "from": 24},
     *[{"k": "boulder", "at": [x, y], "r": r} for x, y, r in [(330, 420, 7), (710, 330, 9), (760, 470, 8), (450, 560, 6), (640, 520, 7)]],
 ]
 write('monte-cristo', 'monte-cristo', {"bg": "sea", "features": features, "labels": [

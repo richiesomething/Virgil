@@ -18,15 +18,15 @@ function rawPlace(book: BookData, id: string): Place | undefined {
 }
 
 /** The place the reader should see for `id` at `upTo` (following mergers), or undefined if not reached. */
-export function placeAt(book: BookData, id: string, upTo: number): Place | undefined {
+export function placeAt(book: BookData, id: string, upTo: number, depth = 0): Place | undefined {
   const p = rawPlace(book, id)
-  if (!p || p.firstChapter > upTo) return undefined
-  if (p.mergedInto && p.mergedInto.from <= upTo) return placeAt(book, p.mergedInto.id, upTo)
+  if (!p || p.firstChapter > upTo || depth > 8) return undefined
+  if (p.mergedInto && p.mergedInto.from <= upTo) return placeAt(book, p.mergedInto.id, upTo, depth + 1)
   return p
 }
 
 export function visiblePlaces(book: BookData, upTo: number): Place[] {
-  return atlasOf(book).places.filter((p) => p.firstChapter <= upTo && !(p.mergedInto && p.mergedInto.from <= upTo))
+  return cached(book, `places:${upTo}`, () => atlasOf(book).places.filter((p) => p.firstChapter <= upTo && !(p.mergedInto && p.mergedInto.from <= upTo)))
 }
 
 export function placeTagline(p: Place, upTo: number): string {
@@ -57,10 +57,39 @@ export function currentPlace(book: BookData, upTo: number): Place | undefined {
   return undefined
 }
 
+// Per-bookmark caches: these are asked for on every zoom frame and keystroke.
+const caches = new WeakMap<BookData, Map<string, unknown>>()
+function cached<T>(book: BookData, key: string, make: () => T): T {
+  let m = caches.get(book)
+  if (!m) caches.set(book, (m = new Map()))
+  if (!m.has(key)) {
+    if (m.size > 200) m.clear()
+    m.set(key, make())
+  }
+  return m.get(key) as T
+}
+
+/** Place id → chapters (≤ upTo) whose scenes happen there. */
+function sceneIndex(book: BookData, upTo: number): Map<string, number[]> {
+  return cached(book, `scenes:${upTo}`, () => {
+    const idx = new Map<string, number[]>()
+    for (let n = 1; n <= upTo; n++) for (const p of chapterSettings(book, n, upTo)) idx.set(p.id, [...(idx.get(p.id) ?? []), n])
+    return idx
+  })
+}
+
 export function chaptersAt(book: BookData, id: string, upTo: number): number[] {
-  const out: number[] = []
-  for (let n = 1; n <= upTo; n++) if (chapterSettings(book, n, upTo).some((p) => p.id === id)) out.push(n)
-  return out
+  return sceneIndex(book, upTo).get(id) ?? []
+}
+
+/**
+ * Whether the reader has seen a scene here yet (or in a place inside it). The stored role is
+ * for the whole book, so it must never be shown directly.
+ */
+export function placeRole(book: BookData, p: Place, upTo: number): 'setting' | 'mentioned' {
+  const idx = sceneIndex(book, upTo)
+  if (idx.has(p.id)) return 'setting'
+  return visiblePlaces(book, upTo).some((c) => c.parent === p.id && idx.has(c.id)) ? 'setting' : 'mentioned'
 }
 
 /** People who appear in chapters set at this place. */
@@ -107,6 +136,10 @@ const frameArea = (f: AtlasFrame) => (f.bounds ? (f.bounds[1][0] - f.bounds[0][0
 
 /** Frames that hold something the reader has reached (plus the frames above them). */
 export function unlockedFrames(book: BookData, upTo: number): AtlasFrame[] {
+  return cached(book, `frames:${upTo}`, () => computeUnlockedFrames(book, upTo))
+}
+
+function computeUnlockedFrames(book: BookData, upTo: number): AtlasFrame[] {
   const frames = atlasOf(book).frames
   const places = visiblePlaces(book, upTo)
   const open = new Set(frames.filter((f) => places.some((p) => positionIn(f, p))).map((f) => f.id))

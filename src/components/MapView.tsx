@@ -18,7 +18,9 @@ const layoutCache = new Map<string, Map<string, { x: number; y: number }>>()
 export default function MapView({ focusId }: { focusId?: string }) {
   const { book, upTo } = useBook()
   const { meta } = book
-  const [asOf, setAsOf] = useState(upTo)
+  const [scrub, setAsOf] = useState(upTo)
+  // Never show past the bookmark, even for the one render after it moves back.
+  const asOf = Math.min(scrub, upTo)
   useEffect(() => setAsOf(upTo), [upTo])
 
   const met = metCharacters(book, asOf)

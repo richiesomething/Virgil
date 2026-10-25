@@ -33,9 +33,9 @@ export default function Afterword() {
           ['adaptations', 'Adaptations'],
           ['next', 'Read next'],
         ].map(([k, l]) => (
-          <a key={k} className="chip-btn" href={`#aw-${k}`} onClick={(e) => (e.preventDefault(), document.getElementById(`aw-${k}`)?.scrollIntoView({ behavior: 'smooth', block: 'start' }))}>
+          <button key={k} className="chip-btn" onClick={() => document.getElementById(`aw-${k}`)?.scrollIntoView({ behavior: 'smooth', block: 'start' })}>
             {l}
-          </a>
+          </button>
         ))}
       </nav>
 

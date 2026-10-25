@@ -118,7 +118,8 @@
       9.05,
       42.15
      ],
-     "kind": "area"
+     "kind": "area",
+     "from": 19
     },
     {
      "text": "Sardinia",
@@ -126,7 +127,8 @@
       9,
       40.1
      ],
-     "kind": "area"
+     "kind": "area",
+     "from": 22
     },
     {
      "text": "Sicily",
@@ -198,7 +200,7 @@
      48.905
     ]
    ],
-   "note": "The dashed line is the city wall of the 1830s (the Farmers-General wall); villages like Auteuil and Passy lay outside it.",
+   "note": "The dashed line is the city wall of the 1830s (the Farmers-General wall); villages like Passy and Montmartre lay outside it.",
    "labels": [
     {
      "text": "Seine",

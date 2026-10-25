@@ -53,7 +53,9 @@ export default function AtlasView() {
   const qPlace = loc.query.get('place')
   const qFrame = loc.query.get('frame')
 
-  const [asOf, setAsOf] = useState(upTo)
+  const [scrub, setAsOf] = useState(upTo)
+  // Never show past the bookmark, even for the one render after it moves back.
+  const asOf = Math.min(scrub, upTo)
   useEffect(() => setAsOf(upTo), [upTo])
   const [showMentioned, setShowMentioned] = useState(true)
   const [journeys, setJourneys] = useState<JourneyMode>('recent')
@@ -77,6 +79,12 @@ export default function AtlasView() {
     if (pid) setSheetOpen(true)
   }
 
+  const sel = selected ? placeAt(book, selected, asOf) : undefined
+  // A deep-linked or scrubbed-away place closes its sheet rather than reopening later.
+  useEffect(() => {
+    if (sheetOpen && !sel) setSheetOpen(false)
+  }, [sheetOpen, sel])
+
   if (!frame) {
     return (
       <div className="empty">
@@ -85,7 +93,6 @@ export default function AtlasView() {
     )
   }
 
-  const sel = selected ? placeAt(book, selected, asOf) : undefined
   const parent = frame.parent ? frameById(book, frame.parent) : undefined
 
   return (
@@ -102,7 +109,7 @@ export default function AtlasView() {
           here={here?.id}
           showMentioned={showMentioned}
           journeys={journeys}
-          focus={qPlace ?? undefined}
+          focus={focusPlace?.id}
         />
 
         <div className="atlas-top">
@@ -282,7 +289,7 @@ export function PlaceSheet({
       <p className="place-tags">
         <span className={`tag tag--${place.precision}`}>{precisionLabel[place.precision]}</span>
         {parent && (
-          <a className="tag" onClick={(e) => (e.preventDefault(), leaveSheetTo(href('b', id, 'places', parent.id)))} href={href('b', id, 'places', parent.id)}>
+          <a className="tag tag--link" onClick={(e) => (e.preventDefault(), leaveSheetTo(href('b', id, 'places', parent.id)))} href={href('b', id, 'places', parent.id)}>
             In {parent.name}
           </a>
         )}

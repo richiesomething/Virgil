@@ -1,6 +1,6 @@
 import type { BookData, Character, Chapter, Note, Place } from '../types'
 import { currentAliases, currentTagline, isThing, metCharacters, notesUpTo, unlockedChapters } from './spoilers'
-import { placeAliases, placeTagline, visiblePlaces } from './atlas'
+import { placeAliases, placeRole, placeTagline, visiblePlaces } from './atlas'
 
 export type SearchHit =
   | { kind: 'character'; character: Character; matched: string; detail: string; score: number }
@@ -46,7 +46,7 @@ export function search(book: BookData, upTo: number, query: string): SearchHit[]
   for (const p of visiblePlaces(book, upTo)) {
     if (met.has(p.id)) continue // already found as a cast place
     const best = Math.max(...[p.name, ...placeAliases(p, upTo)].map((n) => rank(n, q)))
-    if (best) hits.push({ kind: 'place', place: p, detail: placeTagline(p, upTo), score: best * 10 + (p.role === 'setting' ? 2 : 0) })
+    if (best) hits.push({ kind: 'place', place: p, detail: placeTagline(p, upTo), score: best * 10 + (placeRole(book, p, upTo) === 'setting' ? 2 : 0) })
   }
   for (const n of notesUpTo(book, upTo)) {
     const r = rank(n.term, q)

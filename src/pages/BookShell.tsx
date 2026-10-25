@@ -3,7 +3,7 @@ import type { BookData } from '../types'
 import { loadBook } from '../books'
 import { getProgress, setProgressRaw, useBookmark } from '../lib/progress'
 import { href, settleScroll, useLocation } from '../lib/router'
-import { isThing, newInChapter } from '../lib/spoilers'
+import { isThing, lookupCharacter, newInChapter } from '../lib/spoilers'
 import { planFor, plans, prefs, visits } from '../lib/store'
 import { chapterMinutes, planStats } from '../lib/planner'
 import { BookContext, type BookContextValue } from '../lib/book-context'
@@ -176,7 +176,8 @@ function LoadedBook({ book }: { book: BookData }) {
   else if (section === 'places' && param) ((page = <PlacePage id={param} />), (title = placeAt(book, param, upTo)?.name ?? 'Place'), (isRoot = false))
   else if (section === 'characters') {
     page = <CharacterProfile id={param} />
-    title = book.characters.find((c) => c.id === param)?.name
+    const look = lookupCharacter(book, param, upTo)
+    title = look.status === 'visible' ? look.character.name : undefined
     isRoot = false
   } else if (section === 'glossary') page = <Glossary />
   else return <NotFound />

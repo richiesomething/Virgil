@@ -4,7 +4,7 @@ import { atlasHref, chapterRange } from '../components/AtlasView'
 import { initials } from '../components/CharacterChip'
 import { useBook } from '../lib/book-context'
 import { href } from '../lib/router'
-import { bestFrame, chaptersAt, peopleAt, placeAliases, placeAt, placeTagline, precisionLabel, visibleJourneys, visiblePlaces } from '../lib/atlas'
+import { bestFrame, chaptersAt, peopleAt, placeRole, placeAliases, placeAt, placeTagline, precisionLabel, visibleJourneys, visiblePlaces } from '../lib/atlas'
 import { chapter, lookupCharacter } from '../lib/spoilers'
 
 export default function PlacePage({ id }: { id: string }) {
@@ -56,11 +56,11 @@ export default function PlacePage({ id }: { id: string }) {
       <p className="place-tags">
         <span className={`tag tag--${place.precision}`}>{precisionLabel[place.precision]}</span>
         {parent && (
-          <a className="tag" href={href('b', bookId, 'places', parent.id)}>
+          <a className="tag tag--link" href={href('b', bookId, 'places', parent.id)}>
             In {parent.name}
           </a>
         )}
-        {place.role === 'mentioned' && <span className="tag">Mentioned, not visited</span>}
+        {placeRole(book, place, upTo) === 'mentioned' && <span className="tag">Mentioned, not visited</span>}
       </p>
 
       {story.length > 0 && (
