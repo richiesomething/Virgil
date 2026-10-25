@@ -94,14 +94,14 @@
     "chapter": 35,
     "kind": "theme",
     "title": "An eye for an eye",
-    "text": "Look closely at the Count’s examples. To make his case against quick punishment, he imagines a man whose father, mother or betrothed has been destroyed. That is a precise list of what Dantès lost. He speaks as if in general, but the hatred in his face shows he is describing himself.",
+    "text": "Look closely at the Count’s examples. To make his case against quick punishment, he imagines a man whose father, mother or betrothed has been destroyed. Father and betrothed are exactly what Dantès lost. He speaks as if in general, but the hatred in his face shows he is describing himself.",
     "themes": ["revenge-justice"]
   },
   {
     "chapter": 35,
     "kind": "craft",
     "title": "One guest eats, one guest watches",
-    "text": "Albert enjoys the breakfast and the cigars. Franz notices that the host barely eats and keeps looking hard at Albert. Dumas splits our attention between two witnesses, the carefree one and the uneasy one. We know something neither of them knows: whose son Albert is.",
+    "text": "Albert enjoys the breakfast and the cigars. Franz notices that the host barely eats and keeps looking hard at Albert. Dumas splits our attention between two witnesses, the carefree one and the uneasy one. We know something neither of them knows: what Albert’s father once did to their host.",
     "themes": ["revenge-justice", "loyalty-betrayal"]
   },
   {
@@ -311,7 +311,7 @@
     "chapter": 44,
     "kind": "motif",
     "title": "Buried alive",
-    "text": "A box is buried in a garden at night, and inside it a newborn is barely breathing. Bertuccio digs it up and brings it back to life. The image of someone put in the ground alive and pulled out again echoes Dantès sewn into a sack and thrown into the sea. In this novel graves do not always stay shut.",
+    "text": "A box is buried in a garden at night, and inside it a newborn is barely breathing. Bertuccio digs it up and brings it back to life. The image of someone put in the ground alive and pulled out again echoes Dantès sewn into a sack and thrown into the sea.",
     "themes": ["prison-freedom", "the-past-returns"]
   },
   {
@@ -388,7 +388,7 @@
     "chapter": 47,
     "kind": "motif",
     "title": "The red elixir",
-    "text": "One drop of a blood-red liquid brings the boy back to life. The Count warns that some of his liquids are dangerous even to smell, and he notices Madame de Villefort glance at the case. Dumas lingers on that glance. It is a pointed detail, and he wants you to register it.",
+    "text": "One drop of a blood-red liquid brings the boy back to life. The Count warns that some of his liquids are dangerous even to smell, and he notices Madame de Villefort glance at the case. Little escapes the Count’s attention.",
     "themes": []
   },
   {
@@ -402,7 +402,7 @@
     "chapter": 48,
     "kind": "craft",
     "title": "Judge and judged, face to face",
-    "text": "Villefort, the man of human law, faces the Count, who claims a higher law, and he does not recognize the young sailor he once sent away. The whole conversation is dramatic irony. When the Count says there are worse things than death, or that he was once “nearly mad,” only we know what he is talking about.",
+    "text": "Villefort, the man of human law, faces the Count, who claims a higher law, and he does not recognize the young sailor he once sent away. The whole conversation is dramatic irony. When the Count speaks of a mission from God, or says he was once “nearly mad,” only we know what he is talking about.",
     "themes": ["identity-disguise", "revenge-justice"]
   },
   {
@@ -458,7 +458,7 @@
     "chapter": 50,
     "kind": "craft",
     "title": "“It was Edmond Dantès!”",
-    "text": "Old Morrel’s last words, which the Count hears now for the first time, see through every disguise. The one person who guessed the truth did it not by evidence but by faith in a young man he had loved. The Count goes deathly pale and leaves, and his mask fails where Villefort’s suspicion could not break it.",
+    "text": "Old Morrel’s last words, which the Count hears now for the first time, see through every disguise. The one person who guessed the truth did it not by evidence but by faith in a young man he had loved. The Count goes deathly pale and leaves, and a dead man’s faith shakes his mask as no living enemy has.",
     "themes": ["identity-disguise", "loyalty-betrayal"]
   },
   {
