@@ -1,0 +1,26 @@
+{
+  "id": "twenty-thousand-leagues",
+  "title": "Twenty Thousand Leagues Under the Seas",
+  "author": "Jules Verne",
+  "year": 1870,
+  "chapterCount": 47,
+  "blurb": "In 1866 something enormous is sinking ships at sea. A French naturalist, his loyal servant and a hot-headed harpooner join the hunt — and are swept into a voyage around the world beneath the waves.",
+  "edition": "Project Gutenberg #2488 (F. P. Walter’s complete translation, 1999; two parts of 24 and 23 chapters)",
+  "sourceUrl": "https://www.gutenberg.org/ebooks/2488",
+  "volumes": [
+    {
+      "number": 1,
+      "title": "First Part",
+      "firstChapter": 1
+    },
+    {
+      "number": 2,
+      "title": "Second Part",
+      "firstChapter": 25
+    }
+  ],
+  "color": "#1d4e63",
+  "order": 4,
+  "source": "text",
+  "shortTitle": "20,000 Leagues"
+}

@@ -1,0 +1,186 @@
+[
+  {
+    "id": "pierre-aronnax",
+    "name": "Pierre Aronnax",
+    "kind": "character",
+    "firstChapter": 2,
+    "importance": "major",
+    "group": "Aboard the Nautilus"
+  },
+  {
+    "id": "captain-nemo",
+    "name": "Captain Nemo",
+    "kind": "character",
+    "firstChapter": 8,
+    "importance": "major",
+    "group": "Aboard the Nautilus"
+  },
+  {
+    "id": "conseil",
+    "name": "Conseil",
+    "kind": "character",
+    "firstChapter": 3,
+    "importance": "major",
+    "group": "Aboard the Nautilus"
+  },
+  {
+    "id": "ned-land",
+    "name": "Ned Land",
+    "kind": "character",
+    "firstChapter": 4,
+    "importance": "major",
+    "group": "Aboard the Nautilus"
+  },
+  {
+    "id": "nautilus",
+    "name": "The Nautilus",
+    "kind": "object",
+    "firstChapter": 7,
+    "importance": "major",
+    "group": "Objects"
+  },
+  {
+    "id": "the-monster",
+    "name": "The monster",
+    "kind": "object",
+    "firstChapter": 1,
+    "importance": "supporting",
+    "group": "Objects"
+  },
+  {
+    "id": "abraham-lincoln",
+    "name": "The Abraham Lincoln",
+    "kind": "object",
+    "firstChapter": 2,
+    "importance": "supporting",
+    "group": "Objects"
+  },
+  {
+    "id": "commander-farragut",
+    "name": "Commander Farragut",
+    "kind": "character",
+    "firstChapter": 2,
+    "importance": "supporting",
+    "group": "The hunt for the monster"
+  },
+  {
+    "id": "chief-officer",
+    "name": "The chief officer",
+    "kind": "character",
+    "firstChapter": 8,
+    "importance": "supporting",
+    "group": "Aboard the Nautilus"
+  },
+  {
+    "id": "steward",
+    "name": "The steward",
+    "kind": "character",
+    "firstChapter": 8,
+    "importance": "minor",
+    "group": "Aboard the Nautilus"
+  },
+  {
+    "id": "nautilus-crew",
+    "name": "The Nautilus's crew",
+    "kind": "character",
+    "firstChapter": 16,
+    "importance": "minor",
+    "group": "Aboard the Nautilus"
+  },
+  {
+    "id": "wounded-crewman",
+    "name": "The wounded crewman",
+    "kind": "character",
+    "firstChapter": 24,
+    "importance": "minor",
+    "group": "Aboard the Nautilus"
+  },
+  {
+    "id": "french-crewman",
+    "name": "The crewman who cries out in French",
+    "kind": "character",
+    "firstChapter": 42,
+    "importance": "minor",
+    "group": "Aboard the Nautilus"
+  },
+  {
+    "id": "captain-baker",
+    "name": "Captain Baker",
+    "kind": "character",
+    "firstChapter": 1,
+    "importance": "minor",
+    "group": "The hunt for the monster"
+  },
+  {
+    "id": "captain-anderson",
+    "name": "Captain Anderson",
+    "kind": "character",
+    "firstChapter": 1,
+    "importance": "minor",
+    "group": "The hunt for the monster"
+  },
+  {
+    "id": "j-b-hobson",
+    "name": "J. B. Hobson",
+    "kind": "character",
+    "firstChapter": 2,
+    "importance": "minor",
+    "group": "The hunt for the monster"
+  },
+  {
+    "id": "old-gunner",
+    "name": "The veteran gunner",
+    "kind": "character",
+    "firstChapter": 6,
+    "importance": "minor",
+    "group": "The hunt for the monster"
+  },
+  {
+    "id": "la-perouse",
+    "name": "La Pérouse",
+    "kind": "character",
+    "firstChapter": 19,
+    "importance": "minor",
+    "group": "Ashore and remembered"
+  },
+  {
+    "id": "dumont-durville",
+    "name": "Dumont d'Urville",
+    "kind": "character",
+    "firstChapter": 19,
+    "importance": "minor",
+    "group": "Ashore and remembered"
+  },
+  {
+    "id": "papuan-islanders",
+    "name": "The Papuan islanders",
+    "kind": "character",
+    "firstChapter": 22,
+    "importance": "minor",
+    "group": "Ashore and remembered"
+  },
+  {
+    "id": "kate-tender",
+    "name": "Kate Tender",
+    "kind": "character",
+    "firstChapter": 26,
+    "importance": "minor",
+    "group": "Ashore and remembered"
+  },
+  {
+    "id": "ceylon-pearl-diver",
+    "name": "The Ceylon pearl diver",
+    "kind": "character",
+    "firstChapter": 27,
+    "importance": "minor",
+    "group": "Ashore and remembered"
+  },
+  {
+    "id": "nicolas",
+    "name": "Nicolas of Cape Matapan",
+    "kind": "character",
+    "firstChapter": 30,
+    "importance": "minor",
+    "group": "Ashore and remembered"
+  }
+]
