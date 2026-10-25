@@ -24,7 +24,9 @@ Use `pipeline/templates/` (one brief per stage) and `docs/data-format.md`. Every
 
 **Then, in both modes:**
 - Fill `book.json`: `chapterCount`, `volumes`, `edition`, a spoiler-free `blurb`, a dark cover `color`, `year`.
-- **Show the user the chapter list and the edition, and ask them to confirm.** Every spoiler gate depends on chapter numbers matching their book.
+- **Confirm the chapter list.** Every spoiler gate depends on chapter numbers matching the reader's edition.
+  - **Knowledge mode:** always show the user the list and the edition, and ask them to confirm.
+  - **Text mode:** the list comes from the text itself, so show it and carry on, unless something looks off: a missing or duplicate chapter, or a preface counted as a chapter.
 - Mark `manifest` done.
 
 ## 2. Chapters (parallel)

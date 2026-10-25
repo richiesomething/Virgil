@@ -1,0 +1,48 @@
+{
+  "book": "twenty-thousand-leagues",
+  "stages": {
+    "manifest": {
+      "status": "done",
+      "notes": "47 chapters split from Gutenberg #2488 (Part 1: 1–24, Part 2: 25–47)"
+    },
+    "chapters": {
+      "status": "pending"
+    },
+    "roster": {
+      "status": "pending"
+    },
+    "reveals": {
+      "status": "pending"
+    },
+    "cast": {
+      "status": "pending"
+    },
+    "relationships": {
+      "status": "pending"
+    },
+    "glossary": {
+      "status": "pending"
+    },
+    "primers": {
+      "status": "pending"
+    },
+    "recaps": {
+      "status": "pending"
+    },
+    "atlas": {
+      "status": "pending"
+    },
+    "understanding": {
+      "status": "pending"
+    },
+    "timeline": {
+      "status": "pending"
+    },
+    "review": {
+      "status": "pending"
+    },
+    "publish": {
+      "status": "pending"
+    }
+  }
+}
