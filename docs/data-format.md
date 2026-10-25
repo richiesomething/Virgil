@@ -17,6 +17,7 @@ data-src/<book>/                  ← the source of truth (edit these)
   book.json                       manifest (required)
   pipeline.json                   which stages are done (written by /add-book)
   reveals.json                    secrets and when they're revealed (strongly recommended)
+  roster.json                     everyone's id, first name and first chapter (working file, not shipped)
   chapters-<a>-<b>.json           chapters, split into ranges by whoever wrote them
   characters-<n>.json             cast: people, objects, places
   relationships.json              ties between people

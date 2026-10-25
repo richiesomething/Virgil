@@ -3,6 +3,7 @@
 export const STAGES = [
   { id: 'manifest', title: 'Manifest and chapter list', template: null },
   { id: 'chapters', title: 'Chapter summaries and who appears', template: 'chapters.md' },
+  { id: 'roster', title: 'Reconcile the cast across ranges', template: 'roster.md' },
   { id: 'reveals', title: 'Secrets and when they are revealed', template: 'reveals.md' },
   { id: 'cast', title: 'Cast: people, objects, places', template: 'cast.md' },
   { id: 'relationships', title: 'Relationships', template: 'relationships.md' },
