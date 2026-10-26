@@ -8,6 +8,8 @@ import { useCopy } from '../lib/copies'
 import { getChapterText, reading, resumeFor, savePos, textSource } from '../lib/text'
 import { msFor, rampFactor, sentenceStartAfter, sentenceStartBefore, tokenize, type ChapterTokens } from '../lib/rsvp'
 import { chapter } from '../lib/spoilers'
+import { formatMinutes } from '../lib/planner'
+import { minutesFor } from '../lib/rsvp'
 
 type View = 'flash' | 'text'
 
@@ -105,6 +107,8 @@ function ChapterReader({ n }: { n: number }) {
   const [ended, setEnded] = useState(false)
   /** The word shown while paused (the scheduler keeps its own counter while playing). */
   const [paused, setPausedIndex] = useState(0)
+  /** Position for the progress panel while playing: refreshed every ten words, not every word. */
+  const [live, setLive] = useState(0)
   const idx = useRef(0)
   const timer = useRef(0)
   const nextAt = useRef(0)
@@ -160,7 +164,10 @@ function ChapterReader({ n }: { n: number }) {
         pivot.current.textContent = t.text[t.pivot] ?? ''
         after.current.textContent = t.text.slice(t.pivot + 1)
       }
-      if (bar.current && (i % 10 === 0 || i === count - 1)) bar.current.value = String(i)
+      if (i % 10 === 0 || i === count - 1) {
+        if (bar.current) bar.current.value = String(i)
+        setLive(i)
+      }
     },
     [chapterTokens, count],
   )
@@ -292,8 +299,15 @@ function ChapterReader({ n }: { n: number }) {
   if (error) return <ReaderShell n={n} title="Couldn’t load this chapter" message={error} link={{ href: href('b', id, 'read', n), label: 'Try again' }} />
   if (!chapterTokens) return <ReaderShell n={n} title="" message="Opening the chapter…" />
 
-  const minutesLeft = Math.ceil(((cumulative[count] - cumulative[Math.min(paused, count)]) * (60000 / wpm)) / 60000)
-  const timeLeft = ended ? undefined : playing ? undefined : `${minutesLeft} min left`
+  // Progress: this chapter from the reader's own timing, the rest of the book from word counts.
+  const at = ended ? count : playing ? live : paused
+  const chapterLeftMin = ((cumulative[count] - cumulative[Math.min(at, count)]) * (60000 / wpm)) / 60000
+  const chapterPct = count ? Math.round((Math.min(at, count) / count) * 100) : 0
+  const wordsAfter = book.wordCounts.slice(n).reduce((a, b) => a + b, 0)
+  const bookLeftMin = chapterLeftMin + minutesFor(wordsAfter, wpm)
+  const wordsTotal = book.wordCounts.reduce((a, b) => a + b, 0) || 1
+  const wordsBefore = book.wordCounts.slice(0, n - 1).reduce((a, b) => a + b, 0)
+  const bookPct = Math.min(100, ((wordsBefore + (book.wordCounts[n - 1] ?? 0) * (count ? Math.min(at, count) / count : 0)) / wordsTotal) * 100)
 
   if (ended) {
     const done = n <= upTo
@@ -305,6 +319,7 @@ function ChapterReader({ n }: { n: number }) {
           <div className="reader__end">
             <p className="eyebrow">{done ? 'Read again' : 'The end of'}</p>
             <h1 className="page-title">Chapter {n}</h1>
+            <BookProgress pct={bookPct} chaptersDone={Math.max(upTo, n)} total={total} leftMin={bookLeftMin} />
             {last ? (
               <>
                 <p className="muted">That’s the whole book.</p>
@@ -362,7 +377,6 @@ function ChapterReader({ n }: { n: number }) {
     <div className="reader" data-playing={playing || undefined}>
       <ReaderTop
         n={n}
-        timeLeft={timeLeft}
         right={
           <Segmented<View>
             label="Reader view"
@@ -409,6 +423,12 @@ function ChapterReader({ n }: { n: number }) {
       )}
 
       <div className="reader__controls">
+        <div className="reader__progress" aria-live="off">
+          <span>
+            <strong>Chapter {n}</strong> · {chapterPct}%
+          </span>
+          <span>{chapterLeftMin < 0.5 ? 'Almost done' : `${formatMinutes(chapterLeftMin)} left`}</span>
+        </div>
         <input
           ref={bar}
           className="reader__bar"
@@ -416,10 +436,12 @@ function ChapterReader({ n }: { n: number }) {
           min={0}
           max={Math.max(0, count - 1)}
           defaultValue={paused}
+          style={{ '--fill': `${chapterPct}%` } as React.CSSProperties}
           aria-label="Position in the chapter"
-          aria-valuetext={`Word ${paused + 1} of ${count}`}
+          aria-valuetext={`Word ${paused + 1} of ${count}, ${chapterPct}% of the chapter`}
           onChange={(e) => seek(Number(e.target.value))}
         />
+        <BookProgress pct={bookPct} chaptersDone={upTo} total={total} leftMin={bookLeftMin} compact />
         <div className="reader__row">
           <button className="icon-btn" aria-label="Back a sentence" onClick={() => seek(sentenceStartBefore(chapterTokens, idx.current, true))}>
             <Icon name="skipBack" />
@@ -478,6 +500,32 @@ function TextView({ chapter, current, onPick }: { chapter: ChapterTokens; curren
           </p>
         )
       })}
+    </div>
+  )
+}
+
+/** How far through the whole book, as a hairline bar: shown under the scrubber and on the end card. */
+function BookProgress({ pct, chaptersDone, total, leftMin, compact }: { pct: number; chaptersDone: number; total: number; leftMin: number; compact?: boolean }) {
+  const left = leftMin < 1 ? 'nearly finished' : `≈ ${formatMinutes(leftMin)} left`
+  return (
+    <div className={`reader__book${compact ? ' reader__book--compact' : ''}`} role="img" aria-label={`${Math.round(pct)}% of the book read, ${left}`}>
+      {!compact && (
+        <span className="reader__book-text">
+          <strong>{Math.round(pct)}%</strong> of the book · {chaptersDone} of {total} chapters
+        </span>
+      )}
+      <span className="reader__book-bar" aria-hidden="true">
+        <i style={{ width: `${pct}%` }} />
+      </span>
+      <span className="reader__book-text">
+        {compact ? (
+          <>
+            <strong>{Math.round(pct)}%</strong> of the book · {left}
+          </>
+        ) : (
+          left
+        )}
+      </span>
     </div>
   )
 }
