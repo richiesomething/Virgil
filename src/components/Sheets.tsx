@@ -3,7 +3,8 @@ import { placeAt } from '../lib/atlas'
 import type { BookData, Note, NoteKind } from '../types'
 import { Segmented, Sheet, leaveSheetTo } from './ui'
 import { href } from '../lib/router'
-import { prefs, applyTheme, type PrimerMode, type Theme } from '../lib/store'
+import { prefs, type PrimerMode } from '../lib/store'
+import ThemePicker from './ThemePicker'
 import { library } from '../books'
 import { useCopy } from '../lib/copies'
 
@@ -95,19 +96,10 @@ export function SettingsSheet({ open, onClose, bookId }: { open: boolean; onClos
       </p>
 
       <p className="group-title">Appearance</p>
-      <Segmented<Theme>
-        label="Theme"
-        value={p.theme}
-        onChange={(v) => {
-          prefs.set((x) => ({ ...x, theme: v }))
-          applyTheme(v)
-        }}
-        options={[
-          { value: 'system', label: 'System' },
-          { value: 'light', label: 'Light' },
-          { value: 'dark', label: 'Dark' },
-        ]}
-      />
+      <ThemePicker />
+      <p className="small muted" style={{ margin: '8px 4px 0' }}>
+        Sepia is the easiest on the eyes for long reading: warm paper, softer contrast.
+      </p>
 
       <p className="group-title">Reading speed</p>
       <p className="small muted" style={{ margin: '0 4px' }}>

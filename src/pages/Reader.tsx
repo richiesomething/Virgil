@@ -1,6 +1,7 @@
 import { useCallback, useEffect, useMemo, useRef, useState } from 'react'
 import Icon from '../components/Icon'
-import { Segmented } from '../components/ui'
+import { Segmented, Sheet } from '../components/ui'
+import ThemePicker from '../components/ThemePicker'
 import { useBook } from '../lib/book-context'
 import { href, navigate } from '../lib/router'
 import { prefs } from '../lib/store'
@@ -80,6 +81,8 @@ function closeReader(bookId: string, n: number, upTo: number) {
 function ReaderTop({ n, right, timeLeft }: { n: number; right?: React.ReactNode; timeLeft?: string }) {
   const { book, upTo } = useBook()
   const ch = n <= upTo ? chapter(book, n, upTo) : null
+  const [open, setOpen] = useState(false)
+  const { rsvpWpm } = prefs.use()
   return (
     <div className="reader__top">
       <button className="icon-btn" aria-label="Close the reader" onClick={() => closeReader(book.meta.id, n, upTo)}>
@@ -90,7 +93,28 @@ function ReaderTop({ n, right, timeLeft }: { n: number; right?: React.ReactNode;
         {ch?.title ? <span className="muted"> · {ch.title}</span> : null}
         {timeLeft ? <span className="muted"> · {timeLeft}</span> : null}
       </span>
+      <button className="icon-btn reader__aa" aria-label="Reading settings" onClick={() => setOpen(true)}>
+        <span aria-hidden="true">Aa</span>
+      </button>
       {right}
+      <Sheet open={open} onClose={() => setOpen(false)} title="Reading">
+        <p className="group-title">Theme</p>
+        <ThemePicker />
+        <p className="group-title">Flash speed</p>
+        <div className="speed-row" role="group" aria-label="Flash reader speed">
+          <span>
+            <strong>{rsvpWpm}</strong> words a minute
+          </span>
+          <span>
+            <button className="icon-btn" aria-label="Slower" onClick={() => prefs.set((x) => ({ ...x, rsvpWpm: Math.max(MIN_WPM, x.rsvpWpm - STEP) }))}>
+              <Icon name="minus" />
+            </button>
+            <button className="icon-btn" aria-label="Faster" onClick={() => prefs.set((x) => ({ ...x, rsvpWpm: Math.min(MAX_WPM, x.rsvpWpm + STEP) }))}>
+              <Icon name="plus" />
+            </button>
+          </span>
+        </div>
+      </Sheet>
     </div>
   )
 }

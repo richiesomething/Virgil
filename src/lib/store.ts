@@ -41,7 +41,7 @@ export function createStore<T>(key: string, initial: T) {
 }
 
 export type PrimerMode = 'collapsed' | 'expanded' | 'off'
-export type Theme = 'system' | 'light' | 'dark'
+export type Theme = 'system' | 'light' | 'sepia' | 'dark'
 
 export interface Prefs {
   /** How "Before you read" primers appear for the next chapter. */
@@ -66,9 +66,19 @@ export const prefs = createStore<Prefs>('virgil:prefs:v1', {
   planPromptDismissed: [],
 })
 
+const THEME_BG: Record<Exclude<Theme, 'system'>, string> = { light: '#f7f2e8', sepia: '#efe2cb', dark: '#17140f' }
+
 export function applyTheme(theme: Theme) {
-  if (theme === 'system') document.documentElement.removeAttribute('data-theme')
-  else document.documentElement.setAttribute('data-theme', theme)
+  const root = document.documentElement
+  if (theme === 'system') root.removeAttribute('data-theme')
+  else root.setAttribute('data-theme', theme)
+  // The browser's own bars follow the theme too (two tags: one per OS scheme, both set when a theme is forced).
+  const dark = matchMedia('(prefers-color-scheme: dark)').matches
+  document.querySelectorAll<HTMLMetaElement>('meta[name="theme-color"]').forEach((m) => {
+    const scheme = m.media?.includes('dark') ? 'dark' : 'light'
+    m.content = theme === 'system' ? THEME_BG[scheme] : THEME_BG[theme]
+  })
+  void dark
 }
 
 export type Goal = { type: 'minutes'; minutes: number } | { type: 'date'; date: string }

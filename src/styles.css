@@ -59,6 +59,17 @@
     color-scheme: dark;
   }
 }
+:root[data-theme='sepia'] {
+  /* Warm, low-glare paper for long reading: less contrast than Light, no blue in the whites. */
+  --bg: #efe2cb; --surface: #f6ecd9; --surface-2: #e6d8bd; --text: #3a2e22; --muted: #76654f;
+  --border: #d6c5a4; --accent: #8a3a2f; --accent-soft: #ead6c7; --accent-text: #fbf3e3;
+  --gold: #9f762a; --gold-text: #78561a; --success: #4a7a3a;
+  --major: #8a3a2f; --supporting: #4d6373; --minor: #8b7d69; --scrim: rgb(50 35 15 / 0.4);
+  --shadow: 0 1px 2px rgb(80 55 25 / 0.08), 0 4px 16px rgb(80 55 25 / 0.08); --shadow-lift: 0 -2px 24px rgb(80 55 25 / 0.14);
+  --map-sea: #d8dcd0; --map-land: #efe4cd; --map-coast: #a99a7a; --map-water: #c3cfc6; --map-green: #dcdcbd;
+  --map-paper: #ebdfc6; --map-paper-2: #e0d1b2; --map-deep: #cdbf9f; --map-ink: #71624e; --map-label: #4a3d2e;
+  color-scheme: light;
+}
 :root[data-theme='dark'] {
   --bg: #17140f; --surface: #211c16; --surface-2: #2b251d; --text: #efe6d8; --muted: #a99d8c;
   --border: #3a3227; --accent: #d98a76; --accent-soft: #3a2420; --accent-text: #1b120f;
@@ -794,6 +805,7 @@ a.chip-btn { display: inline-flex; align-items: center; }
 .reader__top { display: flex; align-items: center; gap: 8px; min-height: var(--header-h); padding: 0 8px; }
 .reader__label { flex: 1; min-width: 0; font-size: 0.95rem; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
 .reader__top .segmented { flex: none; }
+.reader__aa { font: 600 0.95rem var(--serif); letter-spacing: 0.02em; width: 40px; }
 .reader__top .segmented button { min-height: 36px; padding: 0 12px; }
 .reader__stage { flex: 1; min-height: 0; display: flex; flex-direction: column; align-items: center; justify-content: center; }
 .reader__tap { position: relative; width: 100%; border: 0; background: none; color: inherit; cursor: pointer; padding: 0 16px; font: inherit; -webkit-tap-highlight-color: transparent; }
@@ -861,3 +873,19 @@ a.chip-btn { display: inline-flex; align-items: center; }
 .speed-row > span:last-child { display: inline-flex; }
 .action-bar--two { display: grid; gap: 8px; }
 .action-bar--two .btn { max-width: 640px; width: 100%; margin: 0 auto; }
+
+/* ─── Theme picker (settings sheet, reader) ─────────────────────────────── */
+.theme-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 8px; }
+.theme-swatch {
+  display: grid; gap: 6px; justify-items: center; padding: 8px 4px 6px; border-radius: 12px; border: 2px solid transparent;
+  background: none; font: 500 0.75rem var(--sans); color: var(--muted); cursor: pointer;
+}
+.theme-swatch[aria-checked='true'] { border-color: var(--accent); color: var(--text); }
+.theme-swatch__chip {
+  width: 44px; height: 44px; border-radius: 50%; border: 1px solid rgb(0 0 0 / 0.12); display: grid; place-items: center;
+  font: 600 1.1rem var(--serif); background: var(--chip-bg); color: var(--chip-fg);
+}
+.theme-swatch--system .theme-swatch__chip { background: linear-gradient(135deg, #f7f2e8 50%, #17140f 50%); color: #a87b2c; }
+.theme-swatch--light .theme-swatch__chip { --chip-bg: #f7f2e8; --chip-fg: #2a2420; }
+.theme-swatch--sepia .theme-swatch__chip { --chip-bg: #efe2cb; --chip-fg: #3a2e22; }
+.theme-swatch--dark .theme-swatch__chip { --chip-bg: #17140f; --chip-fg: #efe6d8; }
