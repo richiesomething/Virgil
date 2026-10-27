@@ -71,7 +71,7 @@ Access rule (spoiler model): the reader opens chapters `1 … upTo + 1`. Chapter
 
 **Flash** (RSVP, the default)
 
-- One word at a time, large serif, with the optimal-recognition-point letter in the accent colour and held at a fixed horizontal position so the eyes never move. Thin guide marks above and below the pivot. Pivot index by length: 1 letter → 0; 2–5 → 1; 6–9 → 2; 10–13 → 3; 14+ → 4 (Spritz's table).
+- One word at a time in a reading face chosen for flashing (large x-height, open shapes, distinct letters): Literata by default, or Inter or Atkinson Hyperlegible from the reader's Aa sheet; the same face is used in the Text view. The optimal-recognition-point letter is in the accent colour and held at a fixed horizontal position so the eyes never move. Thin guide marks above and below the pivot. Pivot index by length: 1 letter → 0; 2–5 → 1; 6–9 → 2; 10–13 → 3; 14+ → 4 (Spritz's table).
 - Tap the word area to play or pause. While paused the current sentence shows underneath with the current word highlighted (context), and the Text view is one tap away.
 - Controls: back one sentence, play/pause, forward one sentence, speed (−/+ in steps of 25, 100–900 wpm, shown as "300 wpm"), progress bar across the chapter (tap or drag to seek by word).
 - Progress panel above the controls, visible in both views and refreshed every ten words while playing: "Chapter 3 · 31%" and the chapter's time left (from the reader's own word timing at the current speed) over the scrubber; under it a hairline gold bar for the whole book with "1% of the book · ≈ 28 hr left" (this chapter's remainder plus the remaining chapters' word counts at the flash speed, with the 1.15 punctuation factor). The end card repeats the book line with "3 of 117 chapters".

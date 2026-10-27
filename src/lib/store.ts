@@ -42,6 +42,8 @@ export function createStore<T>(key: string, initial: T) {
 
 export type PrimerMode = 'collapsed' | 'expanded' | 'off'
 export type Theme = 'system' | 'light' | 'sepia' | 'dark'
+/** Typeface for the flash reader and its text view. */
+export type ReadingFont = 'literata' | 'inter' | 'atkinson'
 
 export interface Prefs {
   /** How "Before you read" primers appear for the next chapter. */
@@ -52,6 +54,7 @@ export interface Prefs {
   wpm: number
   /** Speed of the flash (one word at a time) reader. */
   rsvpWpm: number
+  rsvpFont: ReadingFont
   theme: Theme
   /** Dismissed "make a reading plan?" prompts, per book. */
   planPromptDismissed: string[]
@@ -62,6 +65,7 @@ export const prefs = createStore<Prefs>('virgil:prefs:v1', {
   primersHidden: [],
   wpm: 230,
   rsvpWpm: 300,
+  rsvpFont: 'literata',
   theme: 'system',
   planPromptDismissed: [],
 })

@@ -4,7 +4,7 @@ import { Segmented, Sheet } from '../components/ui'
 import ThemePicker from '../components/ThemePicker'
 import { useBook } from '../lib/book-context'
 import { href, navigate } from '../lib/router'
-import { prefs } from '../lib/store'
+import { prefs, type ReadingFont } from '../lib/store'
 import { useCopy } from '../lib/copies'
 import { getChapterText, reading, resumeFor, savePos, textSource } from '../lib/text'
 import { msFor, rampFactor, sentenceStartAfter, sentenceStartBefore, tokenize, type ChapterTokens } from '../lib/rsvp'
@@ -53,7 +53,7 @@ export default function Reader({ n }: { n: number }) {
 function ReaderShell({ n, title, message, link }: { n: number; title: string; message: string; link?: { href: string; label: string } }) {
   const { book } = useBook()
   return (
-    <div className="reader">
+    <div className="reader" data-font={prefs.get().rsvpFont}>
       <ReaderTop n={n} />
       <div className="reader__stage">
         <div className="empty">
@@ -82,7 +82,7 @@ function ReaderTop({ n, right, timeLeft }: { n: number; right?: React.ReactNode;
   const { book, upTo } = useBook()
   const ch = n <= upTo ? chapter(book, n, upTo) : null
   const [open, setOpen] = useState(false)
-  const { rsvpWpm } = prefs.use()
+  const { rsvpWpm, rsvpFont } = prefs.use()
   return (
     <div className="reader__top">
       <button className="icon-btn" aria-label="Close the reader" onClick={() => closeReader(book.meta.id, n, upTo)}>
@@ -100,6 +100,20 @@ function ReaderTop({ n, right, timeLeft }: { n: number; right?: React.ReactNode;
       <Sheet open={open} onClose={() => setOpen(false)} title="Reading">
         <p className="group-title">Theme</p>
         <ThemePicker />
+        <p className="group-title">Font</p>
+        <Segmented<ReadingFont>
+          label="Reading font"
+          value={rsvpFont}
+          onChange={(f) => prefs.set((x) => ({ ...x, rsvpFont: f }))}
+          options={[
+            { value: 'literata', label: <span className="font-option font-option--literata">Literata</span> },
+            { value: 'inter', label: <span className="font-option font-option--inter">Inter</span> },
+            { value: 'atkinson', label: <span className="font-option font-option--atkinson">Hyperlegible</span> },
+          ]}
+        />
+        <p className="small muted" style={{ margin: '8px 4px 0' }}>
+          Literata is a book face made for screens. Hyperlegible keeps every letter distinct (I, l, 1; O, 0).
+        </p>
         <p className="group-title">Flash speed</p>
         <div className="speed-row" role="group" aria-label="Flash reader speed">
           <span>
@@ -123,7 +137,7 @@ function ChapterReader({ n }: { n: number }) {
   const { book, upTo, setBookmark } = useBook()
   const id = book.meta.id
   const total = book.meta.chapterCount
-  const { rsvpWpm: wpm } = prefs.use()
+  const { rsvpWpm: wpm, rsvpFont: font } = prefs.use()
   const [chapterTokens, setTokens] = useState<ChapterTokens | null>(null)
   const [error, setError] = useState<string | null>(null)
   const [view, setView] = useState<View>('flash')
@@ -337,7 +351,7 @@ function ChapterReader({ n }: { n: number }) {
     const done = n <= upTo
     const last = n >= total
     return (
-      <div className="reader">
+      <div className="reader" data-font={prefs.get().rsvpFont}>
         <ReaderTop n={n} />
         <div className="reader__stage">
           <div className="reader__end">
@@ -398,7 +412,7 @@ function ChapterReader({ n }: { n: number }) {
   const sentenceStart = sentenceStartBefore(chapterTokens, paused)
 
   return (
-    <div className="reader" data-playing={playing || undefined}>
+    <div className="reader" data-playing={playing || undefined} data-font={font}>
       <ReaderTop
         n={n}
         right={
