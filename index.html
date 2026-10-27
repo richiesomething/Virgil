@@ -17,8 +17,15 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;0,700;1,500&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
     <title>Virgil</title>
-    <script type="module" crossorigin src="./assets/index-qRL_9bHy.js"></script>
-    <link rel="stylesheet" crossorigin href="./assets/index-ButPubSj.css">
+    <script>
+      // Apply the saved theme before the first paint, so there is no flash of the wrong one.
+      try {
+        var t = JSON.parse(localStorage.getItem('virgil:prefs:v1') || '{}').theme
+        if (t && t !== 'system') document.documentElement.setAttribute('data-theme', t)
+      } catch (e) {}
+    </script>
+    <script type="module" crossorigin src="./assets/index-Bw7tQ4B9.js"></script>
+    <link rel="stylesheet" crossorigin href="./assets/index-DIuQnLMT.css">
   </head>
   <body>
     <div id="root"></div>
