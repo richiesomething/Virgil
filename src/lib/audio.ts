@@ -17,7 +17,8 @@ export const hasAudio = (meta: BookMeta) => meta.audio?.status === 'shipped'
 
 export function audioUrl(meta: BookMeta, n: number): string {
   const a = meta.audio!
-  return `https://archive.org/download/${a.item}/${a.filePattern.replace('NNN', String(n).padStart(3, '0'))}`
+  const name = a.filePattern.includes('NNN') ? a.filePattern.replace('NNN', String(n).padStart(3, '0')) : a.filePattern.replace('NN', String(n).padStart(2, '0'))
+  return `https://archive.org/download/${a.item}/${name}`
 }
 
 const syncs = new Map<string, Promise<Sync>>()

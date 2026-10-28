@@ -6,7 +6,7 @@ Downloads the chapter's MP3 from archive.org (cached), decodes it with ffmpeg, r
 
 Usage: python3 scripts/audio/asr.py <item> <filePattern> <out-dir> <n> [<n2> ...]
   item         archive.org identifier, e.g. count_montecristo_1308_librivox
-  filePattern  file name with NNN for the zero-padded chapter, e.g. countofmontecristo_NNN_dumas_64kb.mp3
+  filePattern  file name with NNN (or NN) for the zero-padded chapter, e.g. countofmontecristo_NNN_dumas_64kb.mp3
 """
 import json, os, subprocess, sys, time, urllib.request
 
@@ -28,7 +28,8 @@ for n in chapters:
         continue
     mp3 = os.path.join(cache, f'{nnn}.mp3')
     if not os.path.exists(mp3):
-        url = f'https://archive.org/download/{item}/{pattern.replace("NNN", nnn)}'
+        name = pattern.replace('NNN', nnn) if 'NNN' in pattern else pattern.replace('NN', f'{n:02d}')
+        url = f'https://archive.org/download/{item}/{name}'
         for attempt in range(4):
             try:
                 urllib.request.urlretrieve(url, mp3 + '.part')

@@ -871,7 +871,7 @@ a.chip-btn { display: inline-flex; align-items: center; }
 .reader { --text-scale: 1; }
 .reader__text p { max-width: 36rem; margin: 0 auto 1em; cursor: pointer; font-size: calc(1.125rem * var(--text-scale)); line-height: 1.6; }
 .reader__text p.is-current { border-left: 3px solid var(--gold); padding-left: 10px; margin-left: -13px; }
-.reader__word { background: var(--accent-soft); color: var(--accent); border-radius: 3px; padding: 0 2px; }
+.reader__word { color: var(--accent); }
 .reader__end { max-width: 420px; padding: 24px; text-align: center; display: grid; gap: 12px; }
 .reader__end .page-title { margin: 0; }
 @media (min-width: 720px) { .reader__controls { max-width: 640px; width: 100%; margin: 0 auto; } }
@@ -904,5 +904,5 @@ a.chip-btn { display: inline-flex; align-items: center; }
 .theme-swatch--sepia .theme-swatch__chip { --chip-bg: #efe2cb; --chip-fg: #3a2e22; }
 .theme-swatch--dark .theme-swatch__chip { --chip-bg: #17140f; --chip-fg: #efe6d8; }
 .reader__listen[aria-pressed='true'] { background: var(--accent-soft); color: var(--accent); }
-.reader__text p.is-current .reader__word { transition: background 0.15s; }
+.reader__text p.is-current .reader__word { transition: color 0.1s; }
 .listen-link { display: inline-flex; align-items: center; justify-content: center; gap: 6px; min-height: 40px; width: 100%; font-size: 0.9rem; font-weight: 500; color: var(--accent); }
