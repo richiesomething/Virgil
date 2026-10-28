@@ -42,6 +42,20 @@ for (const book of readdirSync(root, { withFileTypes: true }).filter((d) => d.is
     else if (manifest.chapters !== count) fail(book, `public/texts manifest has ${manifest.chapters} chapters, book.json says ${count}`)
     for (let n = 1; n <= count; n++) if (!existsSync(join(tdir, `${String(n).padStart(3, '0')}.txt`))) fail(book, `public/texts/${book}/${String(n).padStart(3, '0')}.txt is missing`)
   } else if (meta.text && meta.text.status !== 'upload') fail(book, `book.json text.status must be "shipped" or "upload"`)
+  // Narration: a manifest, and a timing file for every chapter it says is synced (a partial set is allowed while the alignment runs).
+  if (meta.audio) {
+    const tdir = join('public', 'texts', book)
+    if (!meta.audio.item || !meta.audio.filePattern?.includes('NNN') || !meta.audio.reader) fail(book, 'book.json audio needs item, filePattern (with NNN) and reader')
+    const manifest = existsSync(join(tdir, 'audio.json')) ? JSON.parse(readFileSync(join(tdir, 'audio.json'), 'utf8')) : null
+    if (!manifest) fail(book, `audio is set but ${tdir}/audio.json is missing (run scripts/audio/sync.mjs)`)
+    else {
+      if (manifest.durations?.length !== count) fail(book, `audio.json has ${manifest.durations?.length} durations, book has ${count} chapters`)
+      manifest.durations?.forEach((d, i) => {
+        if (d !== null && !existsSync(join(tdir, 'sync', `${String(i + 1).padStart(3, '0')}.json`))) fail(book, `audio.json says chapter ${i + 1} is synced but sync/${String(i + 1).padStart(3, '0')}.json is missing`)
+      })
+      if (manifest.synced < count) console.warn(`! [${book}] narration lined up for ${manifest.synced} of ${count} chapters`)
+    }
+  }
   if (meta.id !== book) fail(book, `book.json id is "${meta.id}"`)
   if (meta.source && !['text', 'knowledge'].includes(meta.source)) fail(book, `book.json has bad source "${meta.source}"`)
 

@@ -902,3 +902,6 @@ a.chip-btn { display: inline-flex; align-items: center; }
 .theme-swatch--light .theme-swatch__chip { --chip-bg: #f7f2e8; --chip-fg: #2a2420; }
 .theme-swatch--sepia .theme-swatch__chip { --chip-bg: #efe2cb; --chip-fg: #3a2e22; }
 .theme-swatch--dark .theme-swatch__chip { --chip-bg: #17140f; --chip-fg: #efe6d8; }
+.reader__listen[aria-pressed='true'] { background: var(--accent-soft); color: var(--accent); }
+.reader__text p.is-current .reader__word { transition: background 0.15s; }
+.listen-link { display: inline-flex; align-items: center; justify-content: center; gap: 6px; min-height: 40px; width: 100%; font-size: 0.9rem; font-weight: 500; color: var(--accent); }

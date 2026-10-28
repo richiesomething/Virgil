@@ -3,7 +3,8 @@ import Icon from '../components/Icon'
 import { Segmented, Sheet } from '../components/ui'
 import ThemePicker from '../components/ThemePicker'
 import { useBook } from '../lib/book-context'
-import { href, navigate } from '../lib/router'
+import { href, navigate, useLocation } from '../lib/router'
+import { showToast } from '../components/ui'
 import { prefs, type ReadingFont } from '../lib/store'
 import { useCopy } from '../lib/copies'
 import { getChapterText, reading, resumeFor, savePos, textSource } from '../lib/text'
@@ -11,12 +12,16 @@ import { msFor, rampFactor, sentenceStartAfter, sentenceStartBefore, tokenize, t
 import { chapter } from '../lib/spoilers'
 import { formatMinutes } from '../lib/planner'
 import { minutesFor } from '../lib/rsvp'
+import { audioUrl, autoplayNext, getDurations, getSync, hasAudio, loadChapter, mediaPosition, mediaSession, narrationLeft, player, setAutoplayNext, timeOf, tokenAt, type Sync } from '../lib/audio'
 
 type View = 'flash' | 'text'
 
 const MIN_WPM = 100
 const MAX_WPM = 900
 const STEP = 25
+const MIN_RATE = 0.7
+const MAX_RATE = 2
+const RATE_STEP = 0.1
 
 /** The book's own text, one word at a time. Full screen: no header or tab bar. */
 export default function Reader({ n }: { n: number }) {
@@ -25,6 +30,11 @@ export default function Reader({ n }: { n: number }) {
   const total = book.meta.chapterCount
   const copy = useCopy(id)
   const source = textSource(book.meta, copy.status === 'ready' ? copy.info : null)
+  const mode = useLocation().query.get('mode')
+  useEffect(() => {
+    if (mode === 'listen' && hasAudio(book.meta)) prefs.set((x) => ({ ...x, listen: true }))
+    if (mode === 'read') prefs.set((x) => ({ ...x, listen: false }))
+  }, [mode, book.meta])
 
   if (!Number.isInteger(n) || n < 1 || n > total) return <ReaderShell n={n} title="No such chapter" message="" link={{ href: href('b', id, 'chapters'), label: 'All chapters' }} />
   if (n > upTo + 1)
@@ -78,11 +88,12 @@ function closeReader(bookId: string, n: number, upTo: number) {
   else navigate(n <= upTo ? href('b', bookId, 'chapters', n) : href('b', bookId))
 }
 
-function ReaderTop({ n, right, timeLeft }: { n: number; right?: React.ReactNode; timeLeft?: string }) {
+function ReaderTop({ n, right, timeLeft, listen, onListen }: { n: number; right?: React.ReactNode; timeLeft?: string; listen?: boolean; onListen?: () => void }) {
   const { book, upTo } = useBook()
   const ch = n <= upTo ? chapter(book, n, upTo) : null
   const [open, setOpen] = useState(false)
-  const { rsvpWpm, rsvpFont } = prefs.use()
+  const { rsvpWpm, rsvpFont, audioRate } = prefs.use()
+  const narrated = hasAudio(book.meta)
   return (
     <div className="reader__top">
       <button className="icon-btn" aria-label="Close the reader" onClick={() => closeReader(book.meta.id, n, upTo)}>
@@ -93,6 +104,11 @@ function ReaderTop({ n, right, timeLeft }: { n: number; right?: React.ReactNode;
         {ch?.title ? <span className="muted"> · {ch.title}</span> : null}
         {timeLeft ? <span className="muted"> · {timeLeft}</span> : null}
       </span>
+      {narrated && onListen && (
+        <button className="icon-btn reader__listen" aria-label={listen ? 'Listening: switch to reading' : 'Listen to the narration'} aria-pressed={!!listen} onClick={onListen}>
+          <Icon name="headphones" />
+        </button>
+      )}
       <button className="icon-btn reader__aa" aria-label="Reading settings" onClick={() => setOpen(true)}>
         <span aria-hidden="true">Aa</span>
       </button>
@@ -114,6 +130,27 @@ function ReaderTop({ n, right, timeLeft }: { n: number; right?: React.ReactNode;
         <p className="small muted" style={{ margin: '8px 4px 0' }}>
           Literata is a book face made for screens. Hyperlegible keeps every letter distinct (I, l, 1; O, 0).
         </p>
+        {narrated && (
+          <>
+            <p className="group-title">Narration</p>
+            <div className="speed-row" role="group" aria-label="Narration speed">
+              <span>
+                <strong>{audioRate.toFixed(1)}×</strong> speed
+              </span>
+              <span>
+                <button className="icon-btn" aria-label="Slower narration" onClick={() => prefs.set((x) => ({ ...x, audioRate: Math.max(MIN_RATE, +(x.audioRate - RATE_STEP).toFixed(1)) }))}>
+                  <Icon name="minus" />
+                </button>
+                <button className="icon-btn" aria-label="Faster narration" onClick={() => prefs.set((x) => ({ ...x, audioRate: Math.min(MAX_RATE, +(x.audioRate + RATE_STEP).toFixed(1)) }))}>
+                  <Icon name="plus" />
+                </button>
+              </span>
+            </div>
+            <p className="small muted" style={{ margin: '4px 4px 0' }}>
+              Read by {book.meta.audio!.reader} · {book.meta.audio!.license} · streamed from archive.org (about 30 MB an hour).
+            </p>
+          </>
+        )}
         <p className="group-title">Flash speed</p>
         <div className="speed-row" role="group" aria-label="Flash reader speed">
           <span>
@@ -137,7 +174,19 @@ function ChapterReader({ n }: { n: number }) {
   const { book, upTo, setBookmark } = useBook()
   const id = book.meta.id
   const total = book.meta.chapterCount
-  const { rsvpWpm: wpm, rsvpFont: font } = prefs.use()
+  const { rsvpWpm: wpm, rsvpFont: font, listen: wantListen, audioRate: rate } = prefs.use()
+  const narrated = hasAudio(book.meta)
+  const listen = narrated && wantListen
+  const [sync, setSync] = useState<Sync | null>(null)
+  const [durs, setDurs] = useState<number[] | null>(null)
+  /** The spoken word, for the text view to follow while listening (updates a few times a second). */
+  const [spoken, setSpoken] = useState(0)
+  const syncRef = useRef<Sync | null>(null)
+  const listenRef = useRef(listen)
+  listenRef.current = listen
+  const rateRef = useRef(rate)
+  rateRef.current = rate
+  const raf = useRef(0)
   const [chapterTokens, setTokens] = useState<ChapterTokens | null>(null)
   const [error, setError] = useState<string | null>(null)
   const [view, setView] = useState<View>('flash')
@@ -182,6 +231,27 @@ function ChapterReader({ n }: { n: number }) {
     }
   }, [book, id, n])
 
+  // Narration timings for this chapter; without them, Listen falls back to reading.
+  useEffect(() => {
+    if (!listen) return
+    let live = true
+    getSync(id, n)
+      .then((sy) => {
+        if (!live) return
+        syncRef.current = sy
+        setSync(sy)
+      })
+      .catch(() => {
+        if (!live) return
+        showToast('The narration for this chapter isn’t lined up yet. Reading instead.')
+        prefs.set((x) => ({ ...x, listen: false }))
+      })
+    getDurations(id).then((d) => live && setDurs(d))
+    return () => {
+      live = false
+    }
+  }, [listen, id, n])
+
   // Running total of word weights, for the time-left estimate.
   const cumulative = useMemo(() => {
     if (!chapterTokens) return [0]
@@ -202,6 +272,7 @@ function ChapterReader({ n }: { n: number }) {
         pivot.current.textContent = t.text[t.pivot] ?? ''
         after.current.textContent = t.text.slice(t.pivot + 1)
       }
+      if (listenRef.current) setSpoken(i)
       if (i % 10 === 0 || i === count - 1) {
         if (bar.current) bar.current.value = String(i)
         setLive(i)
@@ -220,6 +291,7 @@ function ChapterReader({ n }: { n: number }) {
 
   const stop = useCallback(() => {
     clearTimeout(timer.current)
+    cancelAnimationFrame(raf.current)
     wake.current?.release().catch(() => {})
     wake.current = null
   }, [])
@@ -227,6 +299,7 @@ function ChapterReader({ n }: { n: number }) {
   const pause = useCallback(() => {
     if (endedRef.current) return
     stop()
+    if (listenRef.current) player().pause()
     playingRef.current = false
     setPlaying(false)
     setPausedIndex(idx.current)
@@ -235,6 +308,7 @@ function ChapterReader({ n }: { n: number }) {
 
   const finish = useCallback(() => {
     stop()
+    if (listenRef.current && !player().paused) player().pause()
     playingRef.current = false
     setPlaying(false)
     idx.current = count - 1
@@ -265,8 +339,54 @@ function ChapterReader({ n }: { n: number }) {
     }, nextAt.current - now)
   }, [book, chapterTokens, count, finish, n, persist, show, total, upTo])
 
+  /** While listening: keep the shown word on the spoken one. */
+  const follow = useCallback(() => {
+    const sy = syncRef.current
+    if (!sy || !playingRef.current) return
+    const p = player()
+    const t = p.currentTime
+    const i = tokenAt(sy, t)
+    if (i !== idx.current) {
+      idx.current = i
+      show(i)
+      const now = performance.now()
+      if (now - lastSave.current > 2000) {
+        persist(i)
+        mediaPosition(sy.duration, t, p.playbackRate)
+      }
+      if (!prefetched.current && i > count * 0.8 && n < total && n + 1 <= upTo + 1) {
+        prefetched.current = true
+        getChapterText(book, n + 1).catch(() => {})
+        getSync(id, n + 1).catch(() => {})
+      }
+    }
+    raf.current = requestAnimationFrame(follow)
+  }, [book, count, id, n, persist, show, total, upTo])
+
+  const playNarration = useCallback(() => {
+    const sy = syncRef.current
+    if (!sy) return
+    const p = loadChapter(audioUrl(book.meta, n))
+    p.playbackRate = rateRef.current
+    const target = timeOf(sy, idx.current)
+    if (Math.abs(p.currentTime - target) > 1.5 || idx.current === 0) p.currentTime = target
+    playingRef.current = true
+    setPlaying(true)
+    p.play()
+      .then(() => {
+        show(idx.current)
+        raf.current = requestAnimationFrame(follow)
+      })
+      .catch(() => {
+        playingRef.current = false
+        setPlaying(false)
+        showToast('Couldn’t start the narration. Check your connection and try again.')
+      })
+  }, [book.meta, follow, n, show])
+
   const play = useCallback(() => {
     if (!chapterTokens || ended) return
+    if (listenRef.current) return playNarration()
     sincePlay.current = 0
     nextAt.current = 0
     playingRef.current = true
@@ -280,17 +400,27 @@ function ChapterReader({ n }: { n: number }) {
       })
       .catch(() => {})
     tick()
-  }, [chapterTokens, ended, tick])
+  }, [chapterTokens, ended, playNarration, tick])
 
   const seek = useCallback(
     (i: number) => {
+      const target = Math.max(0, Math.min(count - 1, i))
+      if (listenRef.current && syncRef.current && playingRef.current && !endedRef.current) {
+        // Listening: move the voice; playback carries on.
+        player().currentTime = timeOf(syncRef.current, target)
+        idx.current = target
+        show(target)
+        if (bar.current) bar.current.value = String(target)
+        return
+      }
       stop()
       playingRef.current = false
       setPlaying(false)
       endedRef.current = false
       setEnded(false)
-      idx.current = Math.max(0, Math.min(count - 1, i))
+      idx.current = target
       setPausedIndex(idx.current)
+      setSpoken(idx.current)
       show(idx.current)
       if (bar.current) bar.current.value = String(idx.current)
       persist(idx.current)
@@ -300,15 +430,101 @@ function ChapterReader({ n }: { n: number }) {
 
   const toggle = useCallback(() => (playing ? pause() : play()), [pause, play, playing])
   const setWpm = useCallback((v: number) => prefs.set((p) => ({ ...p, rsvpWpm: Math.max(MIN_WPM, Math.min(MAX_WPM, v)) })), [])
+  const setRate = useCallback((v: number) => prefs.set((p) => ({ ...p, audioRate: Math.max(MIN_RATE, Math.min(MAX_RATE, +v.toFixed(1))) })), [])
+  const toggleListen = useCallback(() => {
+    pause()
+    prefs.set((x) => ({ ...x, listen: !x.listen }))
+  }, [pause])
+  useEffect(() => {
+    if (listen) player().playbackRate = rate
+  }, [listen, rate])
 
   // First paint of the word once the text is in, and the position when switching views.
   useEffect(() => {
     if (chapterTokens && view === 'flash' && !playing) show(idx.current)
   }, [chapterTokens, view, playing, show])
 
-  // Pause when the page is hidden, and save when leaving.
   useEffect(() => {
-    const onHide = () => document.visibilityState === 'hidden' && pause()
+    if (!listen || !sync || !chapterTokens) return
+    const p = player()
+    const url = audioUrl(book.meta, n)
+    const onEnded = () => {
+      if (p.src !== url) return
+      const next = n + 1
+      if (next <= total && next <= Math.max(upTo, n) + 1) {
+        // Hands-free: the next chapter starts at once; its page takes over the playing audio.
+        if (n > upTo) setBookmark(n)
+        setAutoplayNext({ bookId: id, n: next })
+        stop()
+        if (count) savePos(id, { chapter: n, word: count, words: count })
+        loadChapter(audioUrl(book.meta, next))
+        p.playbackRate = rateRef.current
+        getSync(id, next)
+          .then((sy) => {
+            p.currentTime = sy.start
+            return p.play()
+          })
+          .catch(() => {})
+        navigate(href('b', id, 'read', next), { replace: true })
+      } else finish()
+    }
+    const onPause = () => {
+      if (!playingRef.current || endedRef.current || p.src !== url) return
+      stop()
+      playingRef.current = false
+      setPlaying(false)
+      idx.current = tokenAt(sync, p.currentTime)
+      setPausedIndex(idx.current)
+      setSpoken(idx.current)
+      persist(idx.current)
+    }
+    const onPlay = () => {
+      if (playingRef.current || p.src !== url) return
+      playingRef.current = true
+      setPlaying(true)
+      raf.current = requestAnimationFrame(follow)
+    }
+    const onError = () => {
+      if (p.src !== url) return
+      stop()
+      playingRef.current = false
+      setPlaying(false)
+      showToast('The narration stopped loading. Check your connection.')
+    }
+    p.addEventListener('ended', onEnded)
+    p.addEventListener('pause', onPause)
+    p.addEventListener('play', onPlay)
+    p.addEventListener('error', onError)
+    mediaSession(
+      { title: `Chapter ${n}`, artist: book.meta.title, album: `Read by ${book.meta.audio!.reader}` },
+      {
+        play: () => play(),
+        pause: () => pause(),
+        seekbackward: () => (p.currentTime = Math.max(0, p.currentTime - 15)),
+        seekforward: () => (p.currentTime = Math.min(p.duration || sync.duration, p.currentTime + 15)),
+        previoustrack: () => seek(0),
+      },
+    )
+    // The previous chapter ended in Listen mode and started this one: carry on from where the voice is.
+    if (autoplayNext?.bookId === id && autoplayNext.n === n) {
+      setAutoplayNext(null)
+      if (p.src === url && !p.paused) {
+        idx.current = tokenAt(sync, p.currentTime)
+        show(idx.current)
+        onPlay()
+      }
+    }
+    return () => {
+      p.removeEventListener('ended', onEnded)
+      p.removeEventListener('pause', onPause)
+      p.removeEventListener('play', onPlay)
+      p.removeEventListener('error', onError)
+    }
+  }, [book.meta, chapterTokens, count, finish, follow, id, listen, n, pause, persist, play, seek, setBookmark, show, stop, sync, total, upTo])
+
+  // Pause when the page is hidden (the narration carries on), and save when leaving.
+  useEffect(() => {
+    const onHide = () => document.visibilityState === 'hidden' && !listenRef.current && pause()
     document.addEventListener('visibilitychange', onHide)
     window.addEventListener('blur', onHide)
     return () => {
@@ -325,24 +541,26 @@ function ChapterReader({ n }: { n: number }) {
       if (e.key === ' ') ((e.preventDefault()), toggle())
       else if (e.key === 'ArrowLeft') seek(sentenceStartBefore(chapterTokens!, idx.current, true))
       else if (e.key === 'ArrowRight') seek(sentenceStartAfter(chapterTokens!, idx.current))
-      else if (e.key === 'ArrowUp') setWpm(wpmRef.current + STEP)
-      else if (e.key === 'ArrowDown') setWpm(wpmRef.current - STEP)
+      else if (e.key === 'ArrowUp') listenRef.current ? setRate(rateRef.current + RATE_STEP) : setWpm(wpmRef.current + STEP)
+      else if (e.key === 'ArrowDown') listenRef.current ? setRate(rateRef.current - RATE_STEP) : setWpm(wpmRef.current - STEP)
       else if (e.key === 'Escape') closeReader(id, n, upTo)
     }
     if (!chapterTokens) return
     window.addEventListener('keydown', onKey)
     return () => window.removeEventListener('keydown', onKey)
-  }, [chapterTokens, id, n, seek, setWpm, toggle, upTo])
+  }, [chapterTokens, id, n, seek, setRate, setWpm, toggle, upTo])
 
   if (error) return <ReaderShell n={n} title="Couldn’t load this chapter" message={error} link={{ href: href('b', id, 'read', n), label: 'Try again' }} />
   if (!chapterTokens) return <ReaderShell n={n} title="" message="Opening the chapter…" />
+  if (listen && !sync) return <ReaderShell n={n} title="" message="Finding the narrator’s place…" />
 
   // Progress: this chapter from the reader's own timing, the rest of the book from word counts.
   const at = ended ? count : playing ? live : paused
-  const chapterLeftMin = ((cumulative[count] - cumulative[Math.min(at, count)]) * (60000 / wpm)) / 60000
+  const narr = listen && sync ? narrationLeft(book, sync, n, Math.min(at, count - 1), rate, durs) : null
+  const chapterLeftMin = narr ? narr.chapter / 60 : ((cumulative[count] - cumulative[Math.min(at, count)]) * (60000 / wpm)) / 60000
   const chapterPct = count ? Math.round((Math.min(at, count) / count) * 100) : 0
   const wordsAfter = book.wordCounts.slice(n).reduce((a, b) => a + b, 0)
-  const bookLeftMin = chapterLeftMin + minutesFor(wordsAfter, wpm)
+  const bookLeftMin = narr ? narr.book / 60 : chapterLeftMin + minutesFor(wordsAfter, wpm)
   const wordsTotal = book.wordCounts.reduce((a, b) => a + b, 0) || 1
   const wordsBefore = book.wordCounts.slice(0, n - 1).reduce((a, b) => a + b, 0)
   const bookPct = Math.min(100, ((wordsBefore + (book.wordCounts[n - 1] ?? 0) * (count ? Math.min(at, count) / count : 0)) / wordsTotal) * 100)
@@ -415,12 +633,14 @@ function ChapterReader({ n }: { n: number }) {
     <div className="reader" data-playing={playing || undefined} data-font={font}>
       <ReaderTop
         n={n}
+        listen={listen}
+        onListen={toggleListen}
         right={
           <Segmented<View>
             label="Reader view"
             value={view}
             onChange={(v) => {
-              if (v === 'text') pause()
+              if (v === 'text' && !listen) pause()
               setView(v)
             }}
             options={[
@@ -454,10 +674,10 @@ function ChapterReader({ n }: { n: number }) {
               ))}
             </span>
           )}
-          {!playing && <span className="reader__hint muted small">Tap to {paused > 0 ? 'continue' : 'start'}</span>}
+          {!playing && <span className="reader__hint muted small">Tap to {listen ? 'listen' : paused > 0 ? 'continue' : 'start'}</span>}
         </button>
       ) : (
-        <TextView chapter={chapterTokens} current={paused} onPick={(i) => ((seek(i)), setView('flash'))} />
+        <TextView chapter={chapterTokens} current={listen && playing ? spoken : paused} follow={listen && playing} onPick={(i) => (seek(i), listen ? undefined : setView('flash'))} />
       )}
 
       <div className="reader__controls">
@@ -490,17 +710,31 @@ function ChapterReader({ n }: { n: number }) {
           <button className="icon-btn" aria-label="Forward a sentence" onClick={() => seek(sentenceStartAfter(chapterTokens, idx.current))}>
             <Icon name="skipForward" />
           </button>
-          <span className="reader__speed" role="group" aria-label="Speed">
-            <button className="icon-btn" aria-label="Slower" onClick={() => setWpm(wpm - STEP)} disabled={wpm <= MIN_WPM}>
-              <Icon name="minus" />
-            </button>
-            <span className="reader__wpm">
-              <strong>{wpm}</strong> wpm
+          {listen ? (
+            <span className="reader__speed" role="group" aria-label="Narration speed">
+              <button className="icon-btn" aria-label="Slower" onClick={() => setRate(rate - RATE_STEP)} disabled={rate <= MIN_RATE}>
+                <Icon name="minus" />
+              </button>
+              <span className="reader__wpm">
+                <strong>{rate.toFixed(1)}×</strong>
+              </span>
+              <button className="icon-btn" aria-label="Faster" onClick={() => setRate(rate + RATE_STEP)} disabled={rate >= MAX_RATE}>
+                <Icon name="plus" />
+              </button>
             </span>
-            <button className="icon-btn" aria-label="Faster" onClick={() => setWpm(wpm + STEP)} disabled={wpm >= MAX_WPM}>
-              <Icon name="plus" />
-            </button>
-          </span>
+          ) : (
+            <span className="reader__speed" role="group" aria-label="Speed">
+              <button className="icon-btn" aria-label="Slower" onClick={() => setWpm(wpm - STEP)} disabled={wpm <= MIN_WPM}>
+                <Icon name="minus" />
+              </button>
+              <span className="reader__wpm">
+                <strong>{wpm}</strong> wpm
+              </span>
+              <button className="icon-btn" aria-label="Faster" onClick={() => setWpm(wpm + STEP)} disabled={wpm >= MAX_WPM}>
+                <Icon name="plus" />
+              </button>
+            </span>
+          )}
         </div>
       </div>
     </div>
@@ -508,12 +742,24 @@ function ChapterReader({ n }: { n: number }) {
 }
 
 /** The chapter as scrollable text, with the current word marked. Tap a paragraph to read from there. */
-function TextView({ chapter, current, onPick }: { chapter: ChapterTokens; current: number; onPick: (i: number) => void }) {
+function TextView({ chapter, current, follow, onPick }: { chapter: ChapterTokens; current: number; follow?: boolean; onPick: (i: number) => void }) {
   const ref = useRef<HTMLDivElement>(null)
   const currentPara = chapter.tokens[current]?.paragraph ?? 0
+  const userScrolledAt = useRef(0)
   useEffect(() => {
     ;(ref.current?.querySelector('.reader__word') ?? ref.current?.querySelector('.is-current'))?.scrollIntoView({ block: 'center' })
   }, [])
+  // Following the voice: keep the spoken word in the middle of the screen, unless the reader just scrolled.
+  useEffect(() => {
+    if (!follow || !ref.current) return
+    const box = ref.current
+    const word = box.querySelector<HTMLElement>('.reader__word')
+    if (!word || performance.now() - userScrolledAt.current < 4000) return
+    const top = word.offsetTop - box.offsetTop
+    const view = box.scrollTop
+    if (top < view + box.clientHeight * 0.2 || top > view + box.clientHeight * 0.65) box.scrollTo({ top: top - box.clientHeight * 0.4, behavior: 'smooth' })
+  }, [current, follow])
+  const touched = () => (userScrolledAt.current = performance.now())
   const paragraphs = useMemo(() => {
     const out: { tokens: typeof chapter.tokens; start: number }[] = []
     chapter.paragraphStarts.forEach((start, i) => {
@@ -523,7 +769,7 @@ function TextView({ chapter, current, onPick }: { chapter: ChapterTokens; curren
     return out
   }, [chapter])
   return (
-    <div className="reader__stage reader__text prose" ref={ref}>
+    <div className="reader__stage reader__text prose" ref={ref} onTouchStart={touched} onWheel={touched}>
       {paragraphs.map((p) => {
         const here = p.tokens[0].paragraph === currentPara
         return (

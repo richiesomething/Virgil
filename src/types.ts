@@ -85,6 +85,11 @@ export interface BookMeta {
    * 'upload' (or no field): the reader adds their own copy (EPUB, PDF or text), kept on the device.
    */
   text?: { status: 'shipped' | 'upload'; edition?: string; license?: string; sourceUrl?: string }
+  /**
+   * A public-domain audiobook aligned to the text (docs/reading-spec.md §6). Chapter n streams from
+   * `https://archive.org/download/<item>/<filePattern with NNN>`; public/texts/<id>/sync/NNN.json has a start time per word.
+   */
+  audio?: { status: 'shipped'; source: 'archive.org'; item: string; filePattern: string; reader: string; license: string; url: string }
 }
 
 export interface BookData {

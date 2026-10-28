@@ -55,6 +55,10 @@ export interface Prefs {
   /** Speed of the flash (one word at a time) reader. */
   rsvpWpm: number
   rsvpFont: ReadingFont
+  /** The reader opens in Listen mode (narration) rather than Read mode. */
+  listen: boolean
+  /** Narration speed, 0.7–2. */
+  audioRate: number
   theme: Theme
   /** Dismissed "make a reading plan?" prompts, per book. */
   planPromptDismissed: string[]
@@ -66,6 +70,8 @@ export const prefs = createStore<Prefs>('virgil:prefs:v1', {
   wpm: 230,
   rsvpWpm: 300,
   rsvpFont: 'literata',
+  listen: false,
+  audioRate: 1,
   theme: 'system',
   planPromptDismissed: [],
 })

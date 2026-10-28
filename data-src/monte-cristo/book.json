@@ -43,5 +43,14 @@
     "edition": "Standard Ebooks: the 1846 Chapman & Hall translation with modernised spelling and punctuation",
     "license": "Public domain (Standard Ebooks, CC0)",
     "sourceUrl": "https://standardebooks.org/ebooks/alexandre-dumas/the-count-of-monte-cristo/chapman-and-hall"
+  },
+  "audio": {
+    "status": "shipped",
+    "source": "archive.org",
+    "item": "count_montecristo_1308_librivox",
+    "filePattern": "countofmontecristo_NNN_dumas_64kb.mp3",
+    "reader": "David Clarke",
+    "license": "Public domain (LibriVox, CC0)",
+    "url": "https://librivox.org/the-count-of-monte-cristo-version-3-by-alexandre-dumas/"
   }
 }

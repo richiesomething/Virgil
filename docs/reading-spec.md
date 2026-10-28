@@ -133,39 +133,57 @@ Privacy line on the import page: "Your file is read on this device and kept in t
 
 When the user's copy has real word counts, the planner uses them instead of the estimates (`wordCountsApproximate` books).
 
-## 6. Spoiler rules
+## 6. Listen: a narration lined up with the text
+
+For books with a public-domain audiobook (Monte Cristo: LibriVox version 3, read by David Clarke, CC0), the reader has a **Listen** mode: the same page, driven by the voice instead of the timer.
+
+**Data.** `book.json` gets `audio: { status: "shipped", source: "archive.org", item, filePattern, reader, license, url }`. Chapter n streams from `https://archive.org/download/<item>/<filePattern with NNN>` (the 64 kbps files, about 30 MB an hour; archive.org serves them with range requests and CORS). `public/texts/<id>/sync/NNN.json` holds a start time for every token the reader shows: `{ duration, start, end, d: [ms deltas] }` (≈15 KB a chapter), and `audio.json` the chapter durations.
+
+**Alignment pipeline** (offline, once per book, `scripts/audio/`):
+1. `asr.py` downloads each chapter, decodes it with ffmpeg and runs faster-whisper (base.en, int8, word timestamps, VAD). About 0.045× real time on four CPU cores: 54 hours of narration in under three hours.
+2. `sync.mjs` splits the chapter's tokens the way they're spoken ("three-master" → three, master), aligns them to the recognised words with Needleman–Wunsch (exact match 3, near match 2, mismatch −2, gap −1), takes the first matched piece's time for each token, forces times monotonic, and spreads unmatched tokens between their timed neighbours by reading weight. The LibriVox announcement before the text and the "end of chapter" after it simply don't match. It reports, per chapter, the share of tokens the recogniser confirmed and the longest unconfirmed run; chapter 1: 93%, 7 words.
+
+**In the reader.**
+- A headphones button in the top strip toggles Listen (remembered in prefs; `?mode=listen` opens it). The Aa sheet gains a Narration row: speed 0.7–2.0× and the reader credit.
+- Play streams the chapter from the current token's time (and from the first word, skipping the announcement). A `requestAnimationFrame` loop maps `currentTime` to the token being spoken (binary search) and drives the same `show()` as the flash timer, so **Flash** flashes the spoken word and **Text** highlights it and keeps it in the middle of the screen (unless the reader scrolled in the last four seconds). Seeking (scrubber, sentence skips, tapping a paragraph) moves the voice without stopping it.
+- One shared `<audio>` element lives for the session. Media Session metadata and handlers give lock-screen play/pause, ±15 s and restart; the page does not pause the narration when hidden.
+- At the end of a chapter the next one starts at once and its page takes over the playing element (the bookmark moves as with the end card); the last chapter shows the end card.
+- Progress uses the narration: chapter time left from the sync, book time left from `audio.json`, both divided by the speed.
+- Read and Listen share the token position, so switching modes keeps the place. If a chapter's timing file is missing, Listen falls back to Read with a toast.
+
+## 7. Spoiler rules
 
 - Only chapters `≤ upTo + 1` are readable, in either view.
 - The import review shows first words only for chapters `≤ upTo + 1`.
 - The reader never shows Virgil's summaries, names or notes; the end card links to the chapter page, which is unlocked by then.
 - The text itself is the book: nothing in the text layer is gated beyond the chapter rule.
 
-## 7. Performance
+## 8. Performance
 
 - App bundle growth: the reader (~6 KB) and the text layer (~3 KB). Parsers are separate chunks: pdf.js ~400 KB gzipped (only on PDF import), fflate ~8 KB.
 - Chapter text fetched on demand; the biggest Monte Cristo chapter is ~70 KB raw.
 - The scheduler does one DOM update per word; no React re-render of the page per word (the word is set through a ref; the progress bar updates every 10 words).
 
-## 8. Accessibility
+## 9. Accessibility
 
 - All controls are buttons with labels; speed and position are announced via `aria-valuetext` on the slider.
 - Flash view respects `prefers-reduced-motion` (there are no animations anyway); the Text view is the alternative for anyone who can't use RSVP.
 - Minimum tap targets 44 px; the word area is the biggest target.
 
-## 9. Testing
+## 10. Testing
 
 - `npm test` runs node's test runner on the pure modules: `tests/rsvp.test.mjs` (tokens, pivot, timing, sentence boundaries, long-word split) and `tests/chapters.test.mjs` (title and numbered detection, review counts).
 - `tests/e2e/reader.spec.ts` (Playwright): open reader for Up next, play, pause, seek, end card marks the chapter finished and continues; locked chapter; resume position; Text view tap moves position.
 - `tests/e2e/import.spec.ts`: fixtures generated from 20,000 Leagues (`tests/fixtures/make.cjs` builds an EPUB and a PDF with running headers and page numbers); imports both, checks chapter count and that the first paragraphs match the shipped text.
 - `scripts/check-pages.cjs` gains the reader and import pages.
 
-## 10. Pipeline and docs
+## 11. Pipeline and docs
 
 - `docs/data-format.md`: `text` field and `public/texts` layout.
 - `.claude/skills/add-book/SKILL.md`: the text stage: run `export-text`, check the heading stripping on three chapters, set `text` in `book.json`.
 - `scripts/pipeline/stages.mjs`: `text` stage (optional).
 
-## 11. Later (database phase)
+## 12. Later (database phase)
 
 - Reading position and the imported copy sync through the user's account; the copy stays encrypted at rest and is only ever served back to its owner.
 - Reading speed measured in the reader can feed the planner's estimates.

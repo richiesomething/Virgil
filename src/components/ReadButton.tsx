@@ -3,6 +3,7 @@ import { useBook } from '../lib/book-context'
 import { href } from '../lib/router'
 import { useCopy } from '../lib/copies'
 import { reading, resumeFor, textSource } from '../lib/text'
+import { hasAudio } from '../lib/audio'
 
 /**
  * Opens the reader for chapter `n`: "Read chapter 3", or "Continue reading · 42%" partway through.
@@ -26,9 +27,16 @@ export default function ReadButton({ n, primary = true, again = false }: { n: nu
   }
   const pos = resumeFor(all, id, n)
   return (
-    <a className={cls} href={href('b', id, 'read', n)}>
-      <Icon name={again ? 'bookOpen' : 'play'} />
-      {pos ? `Continue reading · ${Math.round((pos.word / pos.words) * 100)}%` : again ? `Read chapter ${n} again` : `Read chapter ${n}`}
-    </a>
+    <>
+      <a className={cls} href={href('b', id, 'read', n)}>
+        <Icon name={again ? 'bookOpen' : 'play'} />
+        {pos ? `Continue reading · ${Math.round((pos.word / pos.words) * 100)}%` : again ? `Read chapter ${n} again` : `Read chapter ${n}`}
+      </a>
+      {hasAudio(book.meta) && primary && (
+        <a className="listen-link" href={href('b', id, 'read', n) + '?mode=listen'}>
+          <Icon name="headphones" className="icon--sm" /> Listen · read by {book.meta.audio!.reader}
+        </a>
+      )}
+    </>
   )
 }
