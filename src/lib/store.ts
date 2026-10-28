@@ -55,6 +55,8 @@ export interface Prefs {
   /** Speed of the flash (one word at a time) reader. */
   rsvpWpm: number
   rsvpFont: ReadingFont
+  /** Size of the text in the reader's Text view, as a multiple of the default (0.85–1.6). */
+  textScale: number
   /** The reader opens in Listen mode (narration) rather than Read mode. */
   listen: boolean
   /** Narration speed, 0.7–2. */
@@ -70,6 +72,7 @@ export const prefs = createStore<Prefs>('virgil:prefs:v1', {
   wpm: 230,
   rsvpWpm: 300,
   rsvpFont: 'literata',
+  textScale: 1,
   listen: false,
   audioRate: 1,
   theme: 'system',

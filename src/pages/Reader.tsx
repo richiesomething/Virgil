@@ -20,6 +20,11 @@ const MIN_WPM = 100
 const MAX_WPM = 900
 const STEP = 25
 const MIN_RATE = 0.7
+/** The reader's text size, as a CSS variable the Text view and the context line scale with. */
+const textStyle = (scale: number) => ({ '--text-scale': scale ?? 1 }) as React.CSSProperties
+const MIN_SCALE = 0.85
+const MAX_SCALE = 1.6
+const SCALE_STEP = 0.1
 const MAX_RATE = 2
 const RATE_STEP = 0.1
 
@@ -63,7 +68,7 @@ export default function Reader({ n }: { n: number }) {
 function ReaderShell({ n, title, message, link }: { n: number; title: string; message: string; link?: { href: string; label: string } }) {
   const { book } = useBook()
   return (
-    <div className="reader" data-font={prefs.get().rsvpFont}>
+    <div className="reader" data-font={prefs.get().rsvpFont} style={textStyle(prefs.get().textScale)}>
       <ReaderTop n={n} />
       <div className="reader__stage">
         <div className="empty">
@@ -92,7 +97,7 @@ function ReaderTop({ n, right, timeLeft, listen, onListen }: { n: number; right?
   const { book, upTo } = useBook()
   const ch = n <= upTo ? chapter(book, n, upTo) : null
   const [open, setOpen] = useState(false)
-  const { rsvpWpm, rsvpFont, audioRate } = prefs.use()
+  const { rsvpWpm, rsvpFont, audioRate, textScale } = prefs.use()
   const narrated = hasAudio(book.meta)
   return (
     <div className="reader__top">
@@ -130,6 +135,20 @@ function ReaderTop({ n, right, timeLeft, listen, onListen }: { n: number; right?
         <p className="small muted" style={{ margin: '8px 4px 0' }}>
           Literata is a book face made for screens. Hyperlegible keeps every letter distinct (I, l, 1; O, 0).
         </p>
+        <p className="group-title">Text size</p>
+        <div className="speed-row" role="group" aria-label="Text size">
+          <span>
+            <strong>{Math.round(textScale * 100)}%</strong> in Text view
+          </span>
+          <span>
+            <button className="icon-btn" aria-label="Smaller text" disabled={textScale <= MIN_SCALE + 0.001} onClick={() => prefs.set((x) => ({ ...x, textScale: Math.max(MIN_SCALE, +(x.textScale - SCALE_STEP).toFixed(2)) }))}>
+              <Icon name="minus" />
+            </button>
+            <button className="icon-btn" aria-label="Larger text" disabled={textScale >= MAX_SCALE - 0.001} onClick={() => prefs.set((x) => ({ ...x, textScale: Math.min(MAX_SCALE, +(x.textScale + SCALE_STEP).toFixed(2)) }))}>
+              <Icon name="plus" />
+            </button>
+          </span>
+        </div>
         {narrated && (
           <>
             <p className="group-title">Narration</p>
@@ -174,7 +193,7 @@ function ChapterReader({ n }: { n: number }) {
   const { book, upTo, setBookmark } = useBook()
   const id = book.meta.id
   const total = book.meta.chapterCount
-  const { rsvpWpm: wpm, rsvpFont: font, listen: wantListen, audioRate: rate } = prefs.use()
+  const { rsvpWpm: wpm, rsvpFont: font, listen: wantListen, audioRate: rate, textScale } = prefs.use()
   const narrated = hasAudio(book.meta)
   const listen = narrated && wantListen
   const [sync, setSync] = useState<Sync | null>(null)
@@ -623,7 +642,7 @@ function ChapterReader({ n }: { n: number }) {
     const done = n <= upTo
     const last = n >= total
     return (
-      <div className="reader" data-font={prefs.get().rsvpFont}>
+      <div className="reader" data-font={prefs.get().rsvpFont} style={textStyle(prefs.get().textScale)}>
         <ReaderTop n={n} />
         <div className="reader__stage">
           <div className="reader__end">
@@ -684,7 +703,7 @@ function ChapterReader({ n }: { n: number }) {
   const sentenceStart = sentenceStartBefore(chapterTokens, paused)
 
   return (
-    <div className="reader" data-playing={playing || undefined} data-font={font}>
+    <div className="reader" data-playing={playing || undefined} data-font={font} style={textStyle(textScale)}>
       <ReaderTop
         n={n}
         listen={listen}
