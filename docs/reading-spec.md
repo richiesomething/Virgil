@@ -146,8 +146,8 @@ For books with a public-domain audiobook (Monte Cristo: LibriVox version 3, read
 **In the reader.**
 - A headphones button in the top strip toggles Listen (remembered in prefs; `?mode=listen` opens it). The Aa sheet gains a Narration row: speed 0.7–2.0× and the reader credit.
 - Play streams the chapter from the current token's time (and from the first word, skipping the announcement). A `requestAnimationFrame` loop maps `currentTime` to the token being spoken (binary search) and drives the same `show()` as the flash timer, so **Flash** flashes the spoken word and **Text** highlights it and keeps it in the middle of the screen (unless the reader scrolled in the last four seconds). Seeking (scrubber, sentence skips, tapping a paragraph) moves the voice without stopping it.
-- One shared `<audio>` element lives for the session. Media Session metadata and handlers give lock-screen play/pause, ±15 s and restart; the page does not pause the narration when hidden.
-- At the end of a chapter the next one starts at once and its page takes over the playing element (the bookmark moves as with the end card); the last chapter shows the end card.
+- One shared `<audio>` element lives for the session. Media Session metadata and handlers give lock-screen play/pause, ±15 s and restart; the page does not pause the narration when hidden. With the screen off, `requestAnimationFrame` sleeps, so the place is saved from the element's `timeupdate` events instead (a few times a second). Closing the reader stops the narration; the place is kept.
+- At the end of a chapter the next one starts at once, inside the `ended` event (so the gesture that started playback still counts), and its page takes over the playing element (the bookmark moves as with the end card). The next chapter is only started if its timing file exists; otherwise, and on the last chapter, the end card shows.
 - Progress uses the narration: chapter time left from the sync, book time left from `audio.json`, both divided by the speed.
 - Read and Listen share the token position, so switching modes keeps the place. If a chapter's timing file is missing, Listen falls back to Read with a toast.
 
