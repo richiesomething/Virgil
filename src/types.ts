@@ -87,7 +87,7 @@ export interface BookMeta {
   text?: { status: 'shipped' | 'upload'; edition?: string; license?: string; sourceUrl?: string }
   /**
    * A public-domain audiobook aligned to the text (docs/reading-spec.md §6). Chapter n streams from
-   * `https://archive.org/download/<item>/<filePattern with NNN>`; public/texts/<id>/sync/NNN.json has a start time per word.
+   * `https://archive.org/download/<item>/<filePattern with NNN or NN, the zero-padded chapter>`; public/texts/<id>/sync/NNN.json has a start time per word.
    */
   audio?: { status: 'shipped'; source: 'archive.org'; item: string; filePattern: string; reader: string; license: string; url: string }
 }

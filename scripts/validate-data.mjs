@@ -45,7 +45,7 @@ for (const book of readdirSync(root, { withFileTypes: true }).filter((d) => d.is
   // Narration: a manifest, and a timing file for every chapter it says is synced (a partial set is allowed while the alignment runs).
   if (meta.audio) {
     const tdir = join('public', 'texts', book)
-    if (!meta.audio.item || !meta.audio.filePattern?.includes('NNN') || !meta.audio.reader) fail(book, 'book.json audio needs item, filePattern (with NNN) and reader')
+    if (!meta.audio.item || !/NNN?/.test(meta.audio.filePattern ?? '') || !meta.audio.reader) fail(book, 'book.json audio needs item, filePattern (with NNN or NN) and reader')
     const manifest = existsSync(join(tdir, 'audio.json')) ? JSON.parse(readFileSync(join(tdir, 'audio.json'), 'utf8')) : null
     if (!manifest) fail(book, `audio is set but ${tdir}/audio.json is missing (run scripts/audio/sync.mjs)`)
     else {

@@ -35,6 +35,12 @@ Use `pipeline/templates/` (one brief per stage) and `docs/data-format.md`. Every
 - Set `text` in `book.json`: `{ "status": "shipped", "edition": "…", "license": "Public domain", "sourceUrl": "…" }`. Prefer the most readable public-domain edition: a modern translation released to the public domain, else Standard Ebooks (modernised spelling, fixed typos; fetch `…/text/single-page` with a browser User-Agent and run `node scripts/pipeline/split-xhtml.mjs <id> <file>`), else Gutenberg.
 - Knowledge mode (no text): set `"text": { "status": "upload" }` so the app offers **Add your copy**. Mark the stage `skipped`.
 
+**Audio stage (optional, text mode only):** a public-domain narration the reader can listen to, lined up with the text (docs/reading-spec.md §6).
+- Look on librivox.org for a recording of the **same edition or translation** as the shipped text (the LibriVox page names the translator). Prefer a solo reader and one file per chapter; check that the section list maps one to one onto the book's chapters (an introduction or a "Part" announcement before chapter 1 is fine, it's simply skipped).
+- Get the archive.org item from the LibriVox page and the file names from `https://archive.org/metadata/<item>`. Set `audio` in `book.json`: `{ "status": "shipped", "source": "archive.org", "item", "filePattern" (the 64 kbps name with `NNN` or `NN` for the zero-padded chapter), "reader", "license", "url" }`.
+- Transcribe: `python3 scripts/audio/asr.py <item> <filePattern> <scratch>/asr <n…>` (about 1.5 min a chapter on four cores; two workers with `ASR_THREADS=2` on halves of the book are fastest). Then align: `node scripts/audio/sync.mjs <id> <scratch>/asr`, which writes `public/texts/<id>/sync/NNN.json` and `audio.json` and prints per-chapter metrics. Look at any chapter under 85% matched or with an unconfirmed run over 80 words: usually a passage the narrator skipped or a different edition. Run `node scripts/validate-data.mjs`.
+- Check it in the browser: play a chapter in Flash and Text view and watch the words follow the voice.
+
 ## What can run at the same time
 
 Stages depend only on what they read, so overlap them:

@@ -137,7 +137,7 @@ When the user's copy has real word counts, the planner uses them instead of the 
 
 For books with a public-domain audiobook (Monte Cristo: LibriVox version 3, read by David Clarke, CC0), the reader has a **Listen** mode: the same page, driven by the voice instead of the timer.
 
-**Data.** `book.json` gets `audio: { status: "shipped", source: "archive.org", item, filePattern, reader, license, url }`. Chapter n streams from `https://archive.org/download/<item>/<filePattern with NNN>` (the 64 kbps files, about 30 MB an hour; archive.org serves them with range requests and CORS). `public/texts/<id>/sync/NNN.json` holds a start time for every token the reader shows: `{ duration, start, end, d: [ms deltas] }` (≈15 KB a chapter), and `audio.json` the chapter durations.
+**Data.** `book.json` gets `audio: { status: "shipped", source: "archive.org", item, filePattern, reader, license, url }`. Chapter n streams from `https://archive.org/download/<item>/<filePattern with NNN or NN, the zero-padded chapter>` (the 64 kbps files, about 30 MB an hour; archive.org serves them with range requests and CORS). `public/texts/<id>/sync/NNN.json` holds a start time for every token the reader shows: `{ duration, start, end, d: [ms deltas] }` (≈15 KB a chapter), and `audio.json` the chapter durations.
 
 **Alignment pipeline** (offline, once per book, `scripts/audio/`):
 1. `asr.py` downloads each chapter, decodes it with ffmpeg and runs faster-whisper (base.en, int8, word timestamps, VAD). About 0.045× real time on four CPU cores: 54 hours of narration in under three hours.

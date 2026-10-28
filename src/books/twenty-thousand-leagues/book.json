@@ -28,5 +28,14 @@
     "edition": "Project Gutenberg #2488: F. P. Walter’s 1991 translation",
     "license": "Public domain",
     "sourceUrl": "https://www.gutenberg.org/ebooks/2488"
+  },
+  "audio": {
+    "status": "shipped",
+    "source": "archive.org",
+    "item": "twentythousandleagues_1311_librivox",
+    "filePattern": "twentythousandleagues_NN_verne_64kb.mp3",
+    "reader": "Michele Fry",
+    "license": "Public domain (LibriVox)",
+    "url": "https://librivox.org/twenty-thousand-leagues-under-the-sea-by-jules-verne-2/"
   }
 }
