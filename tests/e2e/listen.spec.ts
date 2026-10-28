@@ -79,3 +79,49 @@ test('when a chapter ends, the next one starts playing and the bookmark moves', 
   expect(progress['monte-cristo']).toBe(1)
   await expect(page.locator('.toast')).toContainText('Chapter 1 done')
 })
+
+for (const coarse of [false, true]) {
+  test(`Flash shows every word the voice passes${coarse ? ', even when the audio clock ticks only four times a second (Safari)' : ''}`, async ({ page }) => {
+    await open(page, '#/b/monte-cristo/read/1?mode=listen', { 'monte-cristo': 0 })
+    if (coarse)
+      await page.evaluate(() => {
+        const d = Object.getOwnPropertyDescriptor(HTMLMediaElement.prototype, 'currentTime')!
+        Object.defineProperty(HTMLMediaElement.prototype, 'currentTime', {
+          get() {
+            return Math.floor(d.get!.call(this) * 4) / 4
+          },
+          set(v: number) {
+            d.set!.call(this, v)
+          },
+        })
+      })
+    await page.click('.reader__play')
+    await page.waitForFunction(() => !(window as unknown as { __virgilPlayer: HTMLAudioElement }).__virgilPlayer.paused)
+    // Record the distinct words painted over a stretch, and the audio time at each end.
+    const result = await page.evaluate(
+      () =>
+        new Promise<{ t0: number; t1: number; seen: number }>((resolve) => {
+          const a = (window as unknown as { __virgilPlayer: HTMLAudioElement }).__virgilPlayer
+          const el = document.querySelector('.rsvp')!
+          let seen = 0
+          let last = el.textContent
+          const mo = new MutationObserver(() => {
+            if (el.textContent !== last) ((last = el.textContent), seen++)
+          })
+          mo.observe(el, { childList: true, characterData: true, subtree: true })
+          const t0 = a.currentTime
+          setTimeout(() => {
+            mo.disconnect()
+            resolve({ t0, t1: a.currentTime, seen })
+          }, 6000)
+        }),
+    )
+    const sync = (await (await page.request.get('/texts/monte-cristo/sync/001.json')).json()) as { d: number[] }
+    let t = 0
+    const times = sync.d.map((d) => (t += d) / 1000)
+    const passed = times.filter((x) => x > result.t0 && x <= result.t1).length
+    expect(passed).toBeGreaterThan(8)
+    // A little slack for words sharing a timestamp and the one still being caught up at the end.
+    expect(result.seen).toBeGreaterThanOrEqual(passed * 0.9)
+  })
+}

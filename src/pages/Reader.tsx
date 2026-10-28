@@ -212,6 +212,11 @@ function ChapterReader({ n }: { n: number }) {
   wpmRef.current = wpm
   const endedRef = useRef(false)
   const playingRef = useRef(false)
+  /** The last token painted, so a position update from the audio clock never makes the screen skip a word. */
+  const shown = useRef(-1)
+  const lastPaint = useRef(0)
+  /** Last reading of the audio clock and when it changed: Safari updates currentTime only a few times a second. */
+  const clock = useRef({ t: -1, at: 0 })
   const prefetched = useRef(false)
 
   // Load and tokenize the chapter; resume where the reader left off.
@@ -271,6 +276,7 @@ function ChapterReader({ n }: { n: number }) {
     (i: number) => {
       const t = chapterTokens?.tokens[i]
       if (!t) return
+      shown.current = i
       if (before.current && pivot.current && after.current) {
         before.current.textContent = t.text.slice(0, t.pivot)
         pivot.current.textContent = t.text[t.pivot] ?? ''
@@ -344,38 +350,60 @@ function ChapterReader({ n }: { n: number }) {
   }, [book, chapterTokens, count, finish, n, persist, show, total, upTo])
 
   /** While listening: keep the shown word on the spoken one. */
-  /** While listening: where the voice is now. Saves the place every couple of seconds and fetches the next chapter near the end. */
+  /** Where the voice is, in seconds: the audio clock, carried forward at the playback rate between its (possibly coarse) ticks. */
+  const voiceTime = useCallback(() => {
+    const p = player()
+    const ct = p.currentTime
+    const now = performance.now()
+    if (ct !== clock.current.t) {
+      clock.current = { t: ct, at: now }
+      return ct
+    }
+    return ct + Math.min(0.4, ((now - clock.current.at) / 1000) * p.playbackRate)
+  }, [])
+
+  /** While listening: move the position to where the voice is. Saves the place every couple of seconds and fetches the next chapter near the end. */
   const trackVoice = useCallback(() => {
     const sy = syncRef.current
-    if (!sy || !playingRef.current) return -1
+    if (!sy || !playingRef.current) return
     const p = player()
-    const t = p.currentTime
+    const t = voiceTime()
     const i = tokenAt(sy, t)
-    if (i !== idx.current) {
-      idx.current = i
-      const now = performance.now()
-      if (now - lastSave.current > 2000) {
-        persist(i)
-        mediaPosition(sy.duration, t, p.playbackRate)
-      }
-      if (!prefetched.current && i > count * 0.8 && n < total && n + 1 <= upTo + 1) {
-        prefetched.current = true
-        getChapterText(book, n + 1).catch(() => {})
-        getSync(id, n + 1).catch(() => {})
-      }
-      return i
+    if (i === idx.current) return
+    idx.current = i
+    const now = performance.now()
+    if (now - lastSave.current > 2000) {
+      persist(i)
+      mediaPosition(sy.duration, t, p.playbackRate)
     }
-    return -1
-  }, [book, count, id, n, persist, total, upTo])
+    if (!prefetched.current && i > count * 0.8 && n < total && n + 1 <= upTo + 1) {
+      prefetched.current = true
+      getChapterText(book, n + 1).catch(() => {})
+      getSync(id, n + 1).catch(() => {})
+    }
+  }, [book, count, id, n, persist, total, upTo, voiceTime])
 
-  /** While listening and on screen: keep the shown word on the spoken one (one loop at a time). */
+  /**
+   * While listening and on screen: paint the spoken word (one loop at a time). When the clock jumps over words,
+   * they are shown in turn, a few frames each, rather than skipped; a jump of many words (a seek) is followed at once.
+   */
   const follow = useCallback(() => {
     cancelAnimationFrame(raf.current)
     const step = () => {
       if (!playingRef.current) return
-      const i = trackVoice()
-      if (i >= 0) show(i)
+      trackVoice()
+      const i = idx.current
+      const s = shown.current
+      const now = performance.now()
+      if (i !== s) {
+        if (i < s - 2 || i > s + 8 || s < 0) paint(i, now)
+        else if (i > s && now - lastPaint.current >= 80) paint(s + 1, now)
+      }
       raf.current = requestAnimationFrame(step)
+    }
+    const paint = (i: number, now: number) => {
+      lastPaint.current = now
+      show(i)
     }
     step()
   }, [show, trackVoice])
