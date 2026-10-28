@@ -867,7 +867,18 @@ a.chip-btn { display: inline-flex; align-items: center; }
 .reader__speed { display: inline-flex; align-items: center; margin-left: auto; }
 .reader__wpm { min-width: 68px; text-align: center; font-size: 0.9rem; color: var(--muted); }
 .reader__wpm strong { color: var(--text); font-variant-numeric: tabular-nums; }
-.reader__text { display: block; overflow-y: auto; padding: 8px 20px 40px; width: 100%; -webkit-overflow-scrolling: touch; }
+.reader__textwrap { display: block; position: relative; width: 100%; }
+.reader__text { position: relative; height: 100%; overflow-y: auto; padding: 8px 20px 40px; width: 100%; -webkit-overflow-scrolling: touch; }
+/* Following the voice: room above and below so the first and last lines can sit in the middle too. */
+.reader__textwrap--follow .reader__text { padding-top: 50%; padding-bottom: 50%; }
+.reader__textwrap--follow .reader__text { padding-top: calc(50cqh - 0.8em); padding-bottom: 50cqh; }
+.reader__textwrap { container-type: size; }
+/* The guide: a soft band across the middle of the screen that the line being read moves through. */
+.reader__guide {
+  position: absolute; left: 8px; right: 8px; top: 50%; height: calc(1.125rem * var(--text-scale) * 1.6); transform: translateY(-50%);
+  border-radius: 6px; background: var(--accent-soft); opacity: 0.55; pointer-events: none;
+}
+.reader__guide::before { content: ''; position: absolute; left: -2px; top: 50%; width: 6px; height: 6px; margin-top: -3px; border-radius: 50%; background: var(--gold); }
 .reader { --text-scale: 1; }
 .reader__text p { max-width: 36rem; margin: 0 auto 1em; cursor: pointer; font-size: calc(1.125rem * var(--text-scale)); line-height: 1.6; }
 .reader__text p.is-current { border-left: 3px solid var(--gold); padding-left: 10px; margin-left: -13px; }

@@ -125,3 +125,21 @@ for (const coarse of [false, true]) {
     expect(result.seen).toBeGreaterThanOrEqual(passed * 0.9)
   })
 }
+
+test('in Text view the line being read stays on the guide in the middle of the screen', async ({ page }) => {
+  await open(page, '#/b/monte-cristo/read/1?mode=listen', { 'monte-cristo': 0 })
+  await page.click('.reader__play')
+  await page.waitForFunction(() => !(window as unknown as { __virgilPlayer: HTMLAudioElement }).__virgilPlayer.paused)
+  await page.getByRole('tab', { name: 'Text' }).click()
+  await expect(page.locator('.reader__guide')).toBeVisible()
+  await page.waitForTimeout(2500)
+  for (let i = 0; i < 4; i++) {
+    const off = await page.evaluate(() => {
+      const box = document.querySelector('.reader__text')!.getBoundingClientRect()
+      const w = document.querySelector('.reader__word')!.getBoundingClientRect()
+      return { off: Math.abs(w.top + w.height / 2 - (box.top + box.height / 2)), line: w.height }
+    })
+    expect(off.off).toBeLessThan(off.line * 1.5)
+    await page.waitForTimeout(1500)
+  }
+})

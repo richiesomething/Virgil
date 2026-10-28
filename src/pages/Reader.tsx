@@ -822,15 +822,18 @@ function TextView({ chapter, current, follow, onPick }: { chapter: ChapterTokens
   useEffect(() => {
     ;(ref.current?.querySelector('.reader__word') ?? ref.current?.querySelector('.is-current'))?.scrollIntoView({ block: 'center' })
   }, [])
-  // Following the voice: keep the spoken word in the middle of the screen, unless the reader just scrolled.
+  // Following the voice: the line being read sits on the guide in the middle of the screen. The text moves up one
+  // line at a time, as the reading reaches the next line; never otherwise. A reader who scrolls gets four seconds to look around.
   useEffect(() => {
     if (!follow || !ref.current) return
     const box = ref.current
     const word = box.querySelector<HTMLElement>('.reader__word')
     if (!word || performance.now() - userScrolledAt.current < 4000) return
-    const top = word.offsetTop - box.offsetTop
-    const view = box.scrollTop
-    if (top < view + box.clientHeight * 0.2 || top > view + box.clientHeight * 0.65) box.scrollTo({ top: top - box.clientHeight * 0.4, behavior: 'smooth' })
+    const w = word.getBoundingClientRect()
+    const b = box.getBoundingClientRect()
+    const lineMiddle = w.top - b.top + box.scrollTop + w.height / 2
+    const target = Math.round(lineMiddle - box.clientHeight / 2)
+    if (Math.abs(target - box.scrollTop) > 2) box.scrollTo({ top: target, behavior: 'smooth' })
   }, [current, follow])
   const touched = () => (userScrolledAt.current = performance.now())
   const paragraphs = useMemo(() => {
@@ -842,21 +845,24 @@ function TextView({ chapter, current, follow, onPick }: { chapter: ChapterTokens
     return out
   }, [chapter])
   return (
-    <div className="reader__stage reader__text prose" ref={ref} onTouchStart={touched} onWheel={touched}>
-      {paragraphs.map((p) => {
-        const here = p.tokens[0].paragraph === currentPara
-        return (
-          <p key={p.start} className={here ? 'is-current' : undefined} onClick={() => onPick(p.start)}>
-            {here
-              ? p.tokens.map((t, i) => (
-                  <span key={i} className={p.start + i === current ? 'reader__word' : undefined}>
-                    {t.text}{' '}
-                  </span>
-                ))
-              : p.tokens.map((t) => t.text).join(' ')}
-          </p>
-        )
-      })}
+    <div className={`reader__stage reader__textwrap${follow ? ' reader__textwrap--follow' : ''}`}>
+      {follow && <div className="reader__guide" aria-hidden="true" />}
+      <div className="reader__text prose" ref={ref} onTouchStart={touched} onWheel={touched}>
+        {paragraphs.map((p) => {
+          const here = p.tokens[0].paragraph === currentPara
+          return (
+            <p key={p.start} className={here ? 'is-current' : undefined} onClick={() => onPick(p.start)}>
+              {here
+                ? p.tokens.map((t, i) => (
+                    <span key={i} className={p.start + i === current ? 'reader__word' : undefined}>
+                      {t.text}{' '}
+                    </span>
+                  ))
+                : p.tokens.map((t) => t.text).join(' ')}
+            </p>
+          )
+        })}
+      </div>
     </div>
   )
 }
