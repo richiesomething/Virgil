@@ -62,3 +62,20 @@ test('the Today page offers the narration', async ({ page }) => {
   await open(page, '#/b/monte-cristo', { 'monte-cristo': 0 })
   await expect(page.getByText('Listen · read by David Clarke')).toBeVisible()
 })
+
+test('when a chapter ends, the next one starts playing and the bookmark moves', async ({ page }) => {
+  await open(page, '#/b/monte-cristo/read/1?mode=listen', { 'monte-cristo': 0 })
+  await page.click('.reader__play')
+  await expect(page.locator('.reader__play')).toHaveAttribute('aria-label', 'Pause')
+  // Jump the audio to its last second.
+  await page.waitForFunction(() => Number.isFinite((window as unknown as { __virgilPlayer: HTMLAudioElement }).__virgilPlayer.duration))
+  await page.evaluate(() => {
+    const a = (window as unknown as { __virgilPlayer: HTMLAudioElement }).__virgilPlayer
+    a.currentTime = a.duration - 1
+  })
+  await expect(page.locator('.reader__label')).toContainText('Chapter 2', { timeout: 10_000 })
+  await expect(page.locator('.reader__play')).toHaveAttribute('aria-label', 'Pause')
+  const progress = JSON.parse((await page.evaluate(() => localStorage.getItem('virgil:progress:v1')))!)
+  expect(progress['monte-cristo']).toBe(1)
+  await expect(page.locator('.toast')).toContainText('Chapter 1 done')
+})

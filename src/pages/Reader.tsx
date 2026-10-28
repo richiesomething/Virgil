@@ -12,7 +12,7 @@ import { msFor, rampFactor, sentenceStartAfter, sentenceStartBefore, tokenize, t
 import { chapter } from '../lib/spoilers'
 import { formatMinutes } from '../lib/planner'
 import { minutesFor } from '../lib/rsvp'
-import { audioUrl, autoplayNext, getDurations, getSync, hasAudio, loadChapter, mediaPosition, mediaSession, narrationLeft, player, setAutoplayNext, timeOf, tokenAt, type Sync } from '../lib/audio'
+import { audioUrl, autoplayNext, getDurations, getSync, hasAudio, loadChapter, mediaPosition, mediaSession, narrationLeft, peekSync, player, setAutoplayNext, timeOf, tokenAt, type Sync } from '../lib/audio'
 
 type View = 'flash' | 'text'
 
@@ -459,12 +459,11 @@ function ChapterReader({ n }: { n: number }) {
         if (count) savePos(id, { chapter: n, word: count, words: count })
         loadChapter(audioUrl(book.meta, next))
         p.playbackRate = rateRef.current
-        getSync(id, next)
-          .then((sy) => {
-            p.currentTime = sy.start
-            return p.play()
-          })
-          .catch(() => {})
+        // Start the next file inside this event, so browsers that need a gesture still count the one that started playback.
+        const known = peekSync(id, next)
+        if (known) p.currentTime = known.start
+        p.play().catch(() => {})
+        if (!known) getSync(id, next).then((sy) => (p.currentTime = Math.max(p.currentTime, sy.start))).catch(() => {})
         navigate(href('b', id, 'read', next), { replace: true })
       } else finish()
     }

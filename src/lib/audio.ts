@@ -21,6 +21,10 @@ export function audioUrl(meta: BookMeta, n: number): string {
 }
 
 const syncs = new Map<string, Promise<Sync>>()
+const ready = new Map<string, Sync>()
+
+/** A sync that has already loaded (prefetched near the end of the previous chapter), or null. */
+export const peekSync = (bookId: string, n: number) => ready.get(`${bookId}/${n}`) ?? null
 
 /** The chapter's word timings. Rejects when the narration hasn't been lined up for it (yet). */
 export function getSync(bookId: string, n: number): Promise<Sync> {
@@ -33,7 +37,9 @@ export function getSync(bookId: string, n: number): Promise<Sync> {
         const times = new Float64Array(raw.d.length)
         let t = 0
         raw.d.forEach((d, i) => (times[i] = (t += d) / 1000))
-        return { duration: raw.duration, start: raw.start / 1000, end: raw.end / 1000, times }
+        const sync = { duration: raw.duration, start: raw.start / 1000, end: raw.end / 1000, times }
+        ready.set(key, sync)
+        return sync
       })
       .catch((e) => {
         syncs.delete(key)
