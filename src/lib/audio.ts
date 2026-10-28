@@ -83,7 +83,8 @@ export const timeOf = (sync: Sync, i: number) => sync.times[Math.max(0, Math.min
 /** Seconds of narration left in the book from token `i` of chapter `n`, at the given rate. */
 export function narrationLeft(book: BookData, sync: Sync, n: number, i: number, rate: number, durs: number[] | null): { chapter: number; book: number } {
   const chapterLeft = Math.max(0, sync.end - timeOf(sync, i))
-  const rest = durs ? durs.slice(n).reduce((a, b) => a + b, 0) : book.wordCounts.slice(n).reduce((a, b) => a + b, 0) / (150 / 60) // ~150 words a minute spoken
+  // Chapters without a measured duration are estimated at ~150 spoken words a minute.
+  const rest = book.wordCounts.slice(n).reduce((a, w, i) => a + (durs?.[n + i] ?? w / 2.5), 0)
   return { chapter: chapterLeft / rate, book: (chapterLeft + rest) / rate }
 }
 

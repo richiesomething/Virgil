@@ -190,6 +190,8 @@ function ChapterReader({ n }: { n: number }) {
   const [chapterTokens, setTokens] = useState<ChapterTokens | null>(null)
   const [error, setError] = useState<string | null>(null)
   const [view, setView] = useState<View>('flash')
+  const viewRef = useRef(view)
+  viewRef.current = view
   const [playing, setPlaying] = useState(false)
   const [ended, setEnded] = useState(false)
   /** The word shown while paused (the scheduler keeps its own counter while playing). */
@@ -244,6 +246,8 @@ function ChapterReader({ n }: { n: number }) {
       .catch(() => {
         if (!live) return
         showToast('The narration for this chapter isn’t lined up yet. Reading instead.')
+        setAutoplayNext(null)
+        if (!player().paused) player().pause()
         prefs.set((x) => ({ ...x, listen: false }))
       })
     getDurations(id).then((d) => live && setDurs(d))
@@ -272,7 +276,7 @@ function ChapterReader({ n }: { n: number }) {
         pivot.current.textContent = t.text[t.pivot] ?? ''
         after.current.textContent = t.text.slice(t.pivot + 1)
       }
-      if (listenRef.current) setSpoken(i)
+      if (listenRef.current && viewRef.current === 'text') setSpoken(i)
       if (i % 10 === 0 || i === count - 1) {
         if (bar.current) bar.current.value = String(i)
         setLive(i)
@@ -340,15 +344,15 @@ function ChapterReader({ n }: { n: number }) {
   }, [book, chapterTokens, count, finish, n, persist, show, total, upTo])
 
   /** While listening: keep the shown word on the spoken one. */
-  const follow = useCallback(() => {
+  /** While listening: where the voice is now. Saves the place every couple of seconds and fetches the next chapter near the end. */
+  const trackVoice = useCallback(() => {
     const sy = syncRef.current
-    if (!sy || !playingRef.current) return
+    if (!sy || !playingRef.current) return -1
     const p = player()
     const t = p.currentTime
     const i = tokenAt(sy, t)
     if (i !== idx.current) {
       idx.current = i
-      show(i)
       const now = performance.now()
       if (now - lastSave.current > 2000) {
         persist(i)
@@ -359,13 +363,26 @@ function ChapterReader({ n }: { n: number }) {
         getChapterText(book, n + 1).catch(() => {})
         getSync(id, n + 1).catch(() => {})
       }
+      return i
     }
-    raf.current = requestAnimationFrame(follow)
-  }, [book, count, id, n, persist, show, total, upTo])
+    return -1
+  }, [book, count, id, n, persist, total, upTo])
+
+  /** While listening and on screen: keep the shown word on the spoken one (one loop at a time). */
+  const follow = useCallback(() => {
+    cancelAnimationFrame(raf.current)
+    const step = () => {
+      if (!playingRef.current) return
+      const i = trackVoice()
+      if (i >= 0) show(i)
+      raf.current = requestAnimationFrame(step)
+    }
+    step()
+  }, [show, trackVoice])
 
   const playNarration = useCallback(() => {
     const sy = syncRef.current
-    if (!sy) return
+    if (!sy || playingRef.current) return
     const p = loadChapter(audioUrl(book.meta, n))
     p.playbackRate = rateRef.current
     const target = timeOf(sy, idx.current)
@@ -375,7 +392,7 @@ function ChapterReader({ n }: { n: number }) {
     p.play()
       .then(() => {
         show(idx.current)
-        raf.current = requestAnimationFrame(follow)
+        follow()
       })
       .catch(() => {
         playingRef.current = false
@@ -442,7 +459,7 @@ function ChapterReader({ n }: { n: number }) {
   // First paint of the word once the text is in, and the position when switching views.
   useEffect(() => {
     if (chapterTokens && view === 'flash' && !playing) show(idx.current)
-  }, [chapterTokens, view, playing, show])
+  }, [chapterTokens, view, playing, show, sync])
 
   useEffect(() => {
     if (!listen || !sync || !chapterTokens) return
@@ -451,11 +468,13 @@ function ChapterReader({ n }: { n: number }) {
     const onEnded = () => {
       if (p.src !== url) return
       const next = n + 1
-      if (next <= total && next <= Math.max(upTo, n) + 1) {
+      const nextSynced = !!peekSync(id, next) || durs?.[next - 1] != null
+      if (next <= total && next <= Math.max(upTo, n) + 1 && nextSynced) {
         // Hands-free: the next chapter starts at once; its page takes over the playing audio.
         if (n > upTo) setBookmark(n)
         setAutoplayNext({ bookId: id, n: next })
         stop()
+        endedRef.current = true
         if (count) savePos(id, { chapter: n, word: count, words: count })
         loadChapter(audioUrl(book.meta, next))
         p.playbackRate = rateRef.current
@@ -481,7 +500,12 @@ function ChapterReader({ n }: { n: number }) {
       if (playingRef.current || p.src !== url) return
       playingRef.current = true
       setPlaying(true)
-      raf.current = requestAnimationFrame(follow)
+      follow()
+    }
+    // Fires a few times a second even with the screen off, when requestAnimationFrame sleeps.
+    const onTime = () => {
+      if (p.src !== url) return
+      trackVoice()
     }
     const onError = () => {
       if (p.src !== url) return
@@ -494,6 +518,7 @@ function ChapterReader({ n }: { n: number }) {
     p.addEventListener('pause', onPause)
     p.addEventListener('play', onPlay)
     p.addEventListener('error', onError)
+    p.addEventListener('timeupdate', onTime)
     mediaSession(
       { title: `Chapter ${n}`, artist: book.meta.title, album: `Read by ${book.meta.audio!.reader}` },
       {
@@ -518,8 +543,9 @@ function ChapterReader({ n }: { n: number }) {
       p.removeEventListener('pause', onPause)
       p.removeEventListener('play', onPlay)
       p.removeEventListener('error', onError)
+      p.removeEventListener('timeupdate', onTime)
     }
-  }, [book.meta, chapterTokens, count, finish, follow, id, listen, n, pause, persist, play, seek, setBookmark, show, stop, sync, total, upTo])
+  }, [book.meta, chapterTokens, count, durs, finish, follow, id, listen, n, pause, persist, play, seek, setBookmark, show, stop, sync, total, trackVoice, upTo])
 
   // Pause when the page is hidden (the narration carries on), and save when leaving.
   useEffect(() => {
@@ -531,6 +557,7 @@ function ChapterReader({ n }: { n: number }) {
       window.removeEventListener('blur', onHide)
       stop()
       if (!endedRef.current && count) savePos(id, { chapter: n, word: idx.current, words: count })
+      if (listenRef.current && !autoplayNext && !player().paused) player().pause()
     }
   }, [count, id, n, pause, stop])
 
