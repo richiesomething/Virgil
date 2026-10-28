@@ -23,7 +23,7 @@ const MIN_RATE = 0.7
 /** The reader's text size, as a CSS variable the Text view and the context line scale with. */
 const textStyle = (scale: number) => ({ '--text-scale': scale ?? 1 }) as React.CSSProperties
 const MIN_SCALE = 0.85
-const MAX_SCALE = 1.6
+const MAX_SCALE = 2.4
 const SCALE_STEP = 0.1
 const MAX_RATE = 2
 const RATE_STEP = 0.1
