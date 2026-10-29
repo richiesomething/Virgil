@@ -2730,8 +2730,19 @@
     },
     {
       "chapter": 115,
-      "from": "Four hours passed by and the giant was replaced by another bandit",
+      "from": "Danglars suddenly felt a strong inclination to see the person who kept watch over him",
       "file": "115-1.webp",
+      "width": 790,
+      "height": 595,
+      "caption": "Brigands of the Roman countryside at rest, from Pinelli’s costume prints",
+      "source": "ext/c115-pinelli",
+      "to": "Four hours passed by and the giant was replaced by another bandit",
+      "credit": "Bartolomeo Pinelli, Famiglia di Briganti, etching from Nuova raccolta di cinquanta costumi de’ contorni di Roma, 1819–23 (Rijksmuseum, CC0, via Wikimedia Commons)"
+    },
+    {
+      "chapter": 115,
+      "from": "Four hours passed by and the giant was replaced by another bandit",
+      "file": "115-2.webp",
       "width": 888,
       "height": 1000,
       "caption": "Danglars finds Peppino on guard at his door",
@@ -2741,7 +2752,7 @@
     {
       "chapter": 115,
       "from": "offering him a little blunt knife and a boxwood fork",
-      "file": "115-2.webp",
+      "file": "115-3.webp",
       "width": 887,
       "height": 1000,
       "caption": "“People pay here before they eat”: a louis on account for a fowl",
