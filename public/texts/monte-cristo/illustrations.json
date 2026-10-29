@@ -2361,6 +2361,36 @@
       "caption": "Alone at last, Danglars empties his drawers and checks his passport",
       "source": "V5-D113",
       "to": "Then taking a passport from his drawer he said"
+    },
+    {
+      "chapter": 105,
+      "from": "Monte Cristo concealed himself behind a large tomb",
+      "file": "105-1.webp",
+      "width": 1000,
+      "height": 813,
+      "caption": "“I was looking for you, my friend”: the count finds Morrel praying at the tomb",
+      "source": "V5-D117",
+      "to": "The count withdrew without opposition"
+    },
+    {
+      "chapter": 105,
+      "from": "I tell you that you are about to destroy yourself",
+      "file": "105-2.webp",
+      "width": 830,
+      "height": 1000,
+      "caption": "The count seizes Morrel’s wrist: “You wish to destroy yourself; you have written it”",
+      "source": "V5-D125",
+      "to": "and if I do intend to turn this pistol against myself"
+    },
+    {
+      "chapter": 105,
+      "from": "Maximilian would have died rather than relax his hold of the handle of the door",
+      "file": "105-3.webp",
+      "width": 830,
+      "height": 1000,
+      "caption": "“On your knees—he is our benefactor—the saviour of our father!”",
+      "source": "V5-D127",
+      "to": "Julie threw herself into the arms of the count"
     }
   ]
 }
