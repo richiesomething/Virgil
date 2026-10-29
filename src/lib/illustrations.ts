@@ -15,6 +15,8 @@ export interface Illustration {
   width: number
   height: number
   caption: string
+  /** Credit for a picture from another source than the set's edition (artist, title, year, where it comes from). */
+  credit?: string
 }
 
 export interface IllustrationSet {

@@ -66,6 +66,7 @@ for (const book of readdirSync(root, { withFileTypes: true }).filter((d) => d.is
       }
         if (!existsSync(join('public', 'texts', book, 'img', it.file))) fail(book, `illustration file missing: img/${it.file}`)
         if (!it.caption || !it.width || !it.height) fail(book, `illustration ${it.file}: needs caption, width and height`)
+      if (it.source?.startsWith('ext/') && !it.credit) fail(book, `illustration ${it.file}: an outside picture needs its own credit`)
       }
       console.log(`✓ [${book}] ${set.items.length} illustrations`)
     }

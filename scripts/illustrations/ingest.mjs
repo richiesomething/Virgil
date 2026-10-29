@@ -55,6 +55,7 @@ for (const f of files) {
     const item = { chapter, from: e.from, file, width: w, height: h, caption: e.caption, source: e.source }
     if (e.to) item.to = e.to
     if (e.after) item.after = e.after
+    if (e.credit) item.credit = e.credit
     items.push(item)
   }
   manifest.items = [...manifest.items.filter((it) => it.chapter !== chapter), ...items].sort((a, b) => a.chapter - b.chapter || a.file.localeCompare(b.file))

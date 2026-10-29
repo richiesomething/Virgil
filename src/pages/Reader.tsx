@@ -853,7 +853,7 @@ function PinnedFigure({ bookId, placed, credit }: { bookId: string; placed: Plac
       <img src={illustrationUrl(bookId, f.file)} alt={f.caption} width={f.width} height={f.height} decoding="async" />
       <figcaption>
         {f.caption}
-        <small>{credit}</small>
+        <small>{f.credit ?? credit}</small>
       </figcaption>
     </figure>
   )
@@ -938,7 +938,7 @@ function TextView({
                     <img src={illustrationUrl(bookId, f.file)} alt={f.caption} width={f.width} height={f.height} loading="lazy" decoding="async" />
                     <figcaption>
                       {f.caption}
-                      <small>{credit}</small>
+                      <small>{f.credit ?? credit}</small>
                     </figcaption>
                   </figure>
                 ))}
