@@ -1379,6 +1379,26 @@
       "caption": "“A telegraph. So now I have told my secret.”",
       "source": "V3-D183",
       "to": "I should find there people who would force me to understand"
+    },
+    {
+      "chapter": 61,
+      "from": "Monte Cristo looked for the entrance to the enclosure",
+      "file": "061-1.webp",
+      "width": 854,
+      "height": 1000,
+      "caption": "The old telegraph tower and its little garden",
+      "source": "V3-D191",
+      "to": "Monte Cristo stopped after having closed the gate"
+    },
+    {
+      "chapter": 61,
+      "from": "Suddenly he struck against something crouching behind a wheelbarrow",
+      "file": "061-2.webp",
+      "width": 1000,
+      "height": 773,
+      "caption": "The count finds the telegrapher gathering his strawberries",
+      "source": "V3-D193",
+      "to": "dormice are bad neighbors for us who do not eat them preserved"
     }
   ]
 }
