@@ -1210,6 +1210,36 @@
       "caption": "“I am gallant enough to offer it you”",
       "source": "V3-D079",
       "to": "five or six will inevitably kill"
+    },
+    {
+      "chapter": 53,
+      "from": "Morcerf and Château-Renaud were amongst the first",
+      "file": "053-1.webp",
+      "width": 864,
+      "height": 1000,
+      "caption": "Albert presents Château-Renaud to the Countess G⸺ in her box",
+      "source": "V3-D093",
+      "to": "So you were at the races, baron?"
+    },
+    {
+      "chapter": 53,
+      "from": "Have you noticed the remarkable beauty of the young woman, M. Lucien?",
+      "file": "053-2.webp",
+      "width": 1000,
+      "height": 772,
+      "caption": "“Who is this young person, M. de Morcerf?” inquired Eugénie",
+      "source": "V3-D087",
+      "to": "I am extremely sorry you find me so ignorant a cicerone"
+    },
+    {
+      "chapter": 53,
+      "from": "Upon his return to Haydée he found her still very pale",
+      "file": "053-3.webp",
+      "width": 850,
+      "height": 1000,
+      "caption": "“Wretch!” exclaimed Haydée; “he sold my father to the Turks”",
+      "source": "V3-D103",
+      "to": "she hastily quitted the box at the moment"
     }
   ]
 }
