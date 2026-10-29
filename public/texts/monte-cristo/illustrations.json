@@ -551,6 +551,36 @@
       "caption": "“My father! Saved, you are saved!”",
       "source": "V2-D061",
       "to": "Julie handed to her father the letter she had received"
+    },
+    {
+      "chapter": 31,
+      "from": "Franz drew his handkerchief from his pocket",
+      "file": "031-1.webp",
+      "width": 858,
+      "height": 1000,
+      "caption": "Franz is blindfolded before being led into the grotto",
+      "source": "V2-D075",
+      "to": "I beg you will remove your bandage"
+    },
+    {
+      "chapter": 31,
+      "from": "Franz rubbed his eyes in order to assure himself",
+      "file": "031-2.webp",
+      "width": 870,
+      "height": 1000,
+      "caption": "Ali kisses the hand of his master, Sinbad the Sailor",
+      "source": "V2-D083",
+      "to": "Ali approached his master, took his hand, and kissed it"
+    },
+    {
+      "chapter": 31,
+      "from": "Ah, yes, the hashish is beginning its work",
+      "file": "031-3.webp",
+      "width": 861,
+      "height": 1000,
+      "caption": "The hashish dream: the three statues come to life",
+      "source": "V2-D087",
+      "to": "It seemed to Franz that he closed his eyes"
     }
   ]
 }
