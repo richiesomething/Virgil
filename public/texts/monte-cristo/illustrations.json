@@ -1855,6 +1855,36 @@
       "caption": "The terrified servants listen for the doctor",
       "source": "V4-D119",
       "to": "amid the tears and lamentations of the whole household"
+    },
+    {
+      "chapter": 81,
+      "from": "the porter met him with a parcel in his hand",
+      "file": "081-1.webp",
+      "width": 843,
+      "height": 1000,
+      "caption": "The porter tells Andrea that “that man” has been here again",
+      "source": "V4-D127",
+      "to": "He left the porter to ponder on these words"
+    },
+    {
+      "chapter": 81,
+      "from": "A moment after Caderousse’s face appeared at the grating",
+      "file": "081-2.webp",
+      "width": 844,
+      "height": 1000,
+      "caption": "Caderousse welcomes Andrea to breakfast in the retired baker’s room",
+      "source": "V4-D131",
+      "to": "it was that mixture of fat and garlic peculiar to Provençal kitchens"
+    },
+    {
+      "chapter": 81,
+      "from": "He fetched from an old secretaire a sheet of white paper",
+      "file": "081-3.webp",
+      "width": 1000,
+      "height": 833,
+      "caption": "Andrea draws the plan of the house in the Champs-Élysées for Caderousse",
+      "source": "V4-D139",
+      "to": "Let us see the ground floor"
     }
   ]
 }
