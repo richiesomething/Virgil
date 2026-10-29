@@ -820,6 +820,26 @@
       "caption": "The tapestry is drawn aside: the owner of all these riches appears",
       "source": "V2-D155",
       "to": "the owner of all these riches stood before the two young men"
+    },
+    {
+      "chapter": 35,
+      "from": "Behind the executioner came, in the order in which they were to die",
+      "file": "035-1.webp",
+      "width": 865,
+      "height": 1000,
+      "caption": "Peppino and Andrea are led to the scaffold",
+      "source": "V2-D165",
+      "to": "Peppino was a handsome young man"
+    },
+    {
+      "chapter": 35,
+      "from": "Look, look,” cried the count, seizing the young men’s hands",
+      "file": "035-2.webp",
+      "width": 864,
+      "height": 1000,
+      "caption": "The count holds Franz at the window to watch the execution",
+      "source": "V2-D170",
+      "to": "Albert, with his eyes closed, was standing grasping the window-curtains"
     }
   ]
 }
