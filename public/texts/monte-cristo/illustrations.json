@@ -870,6 +870,36 @@
       "caption": "A mask in a peasant woman’s costume snatches Albert’s moccoletto",
       "source": "V2-D191",
       "to": "Franz found himself in utter darkness"
+    },
+    {
+      "chapter": 37,
+      "from": "Ah, it is you, Peppino,” said the count",
+      "file": "037-1.webp",
+      "width": 848,
+      "height": 1000,
+      "caption": "Peppino kneels and covers the count’s hand with kisses",
+      "source": "V2-D201",
+      "to": "never shall I forget it,” returned Peppino"
+    },
+    {
+      "chapter": 37,
+      "from": "In the midst of this chamber were four stones",
+      "file": "037-2.webp",
+      "width": 1000,
+      "height": 777,
+      "caption": "Luigi Vampa reads by lamplight among his sleeping bandits",
+      "source": "V2-D205",
+      "to": "Who comes there?” cried the sentinel"
+    },
+    {
+      "chapter": 37,
+      "from": "The prisoner is there,” replied Vampa",
+      "file": "037-3.webp",
+      "width": 853,
+      "height": 1000,
+      "caption": "Vampa opens the door: the prisoner is fast asleep",
+      "source": "V2-D209",
+      "to": "Vampa looked at Albert with a kind of admiration"
     }
   ]
 }
