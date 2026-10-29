@@ -1726,6 +1726,86 @@
       "caption": "“You, M. Noirtier—you killed my father?”",
       "source": "V4-D041",
       "to": "Franz fell powerless on a chair; Villefort opened the door"
+    },
+    {
+      "chapter": 76,
+      "from": "the count noticed M. Andrea Cavalcanti’s solicitude",
+      "file": "076-1.webp",
+      "width": 848,
+      "height": 1000,
+      "caption": "Eugénie and Mademoiselle d’Armilly at the piano, Andrea listening at the door",
+      "source": "V4-D047",
+      "to": "The two young ladies were seen seated on the same chair, at the piano"
+    },
+    {
+      "chapter": 76,
+      "from": "Albert advanced towards Eugénie, smiling",
+      "file": "076-2.webp",
+      "width": 846,
+      "height": 1000,
+      "caption": "Albert pays his compliments to Mademoiselle Danglars",
+      "source": "V4-D051",
+      "to": "Albert perfectly indifferent to Mademoiselle Danglars’ contempt"
+    },
+    {
+      "chapter": 77,
+      "from": "Haydée was awaiting her visitors in the first room",
+      "file": "077-1.webp",
+      "width": 852,
+      "height": 1000,
+      "caption": "Haydée receives the count and his guest",
+      "source": "V4-D061",
+      "to": "it is the same man whom I rescued from the hands of the banditti"
+    },
+    {
+      "chapter": 77,
+      "from": "I could scarcely walk when my mother, who was called Vasiliki",
+      "file": "077-2.webp",
+      "width": 856,
+      "height": 1000,
+      "caption": "Haydée’s earliest memory: her mother Vasiliki, as she tells it",
+      "source": "V4-D059",
+      "to": "sitting under the shade of some sycamore-trees, on the borders of a lake"
+    },
+    {
+      "chapter": 77,
+      "from": "had recognized the messenger of the pasha",
+      "file": "077-3.webp",
+      "width": 850,
+      "height": 1000,
+      "caption": "The messenger shows the ring, and Selim is struck down in the cavern",
+      "source": "V4-D071",
+      "to": "two reports of a pistol were heard; he had fired them himself"
+    },
+    {
+      "chapter": 78,
+      "from": "And towards whom do you bear this personal ill-feeling",
+      "file": "078-1.webp",
+      "width": 1000,
+      "height": 776,
+      "caption": "Morcerf demands an explanation; Danglars suspends his decision",
+      "source": "V4-D083",
+      "to": "And clutching his gloves in anger, he left the apartment"
+    },
+    {
+      "chapter": 78,
+      "from": "and I will show you something droll",
+      "file": "078-2.webp",
+      "width": 847,
+      "height": 1000,
+      "caption": "The count’s trial of skill: bullets through the playing-cards",
+      "source": "V4-D091",
+      "to": "I must occupy my leisure moments in some way or other"
+    },
+    {
+      "chapter": 78,
+      "from": "At the words I will, Beauchamp steadily raised his eyes",
+      "file": "078-3.webp",
+      "width": 1000,
+      "height": 772,
+      "caption": "“You will retract this assertion, will you not, Beauchamp?”",
+      "source": "V4-D097",
+      "to": "When I am convinced that the statement is false"
     }
   ]
 }
