@@ -1290,6 +1290,36 @@
       "caption": "“There go two miscreants,” said the count, watching them cross the street",
       "source": "V3-D145",
       "to": "There go two miscreants"
+    },
+    {
+      "chapter": 57,
+      "from": "At length, the long-desired sound was heard",
+      "file": "057-1.webp",
+      "width": 842,
+      "height": 1000,
+      "caption": "Valentine and Mademoiselle Danglars walk arm in arm in the garden",
+      "source": "V3-D151",
+      "to": "Valentine did not suffer by the contrast"
+    },
+    {
+      "chapter": 57,
+      "from": "Well, look through this opening, and you will see the beautiful new horse",
+      "file": "057-2.webp",
+      "width": 894,
+      "height": 1000,
+      "caption": "Maximilian shows Valentine the horse he bought with his winnings",
+      "source": "V3-D157",
+      "to": "I am almost ashamed to say that my gains amounted"
+    },
+    {
+      "chapter": 57,
+      "from": "give me but one finger through this opening in the grating",
+      "file": "057-3.webp",
+      "width": 1000,
+      "height": 788,
+      "caption": "Valentine passes her hand through the opening in the gate",
+      "source": "V3-D147",
+      "to": "Valentine mounted on a bench, and passed not only her finger"
     }
   ]
 }
