@@ -984,8 +984,19 @@
     },
     {
       "chapter": 42,
-      "from": "I wish to see my new property this evening",
+      "from": "Thanks, M. Bertuccio",
       "file": "042-1.webp",
+      "width": 709,
+      "height": 1000,
+      "caption": "M. Bertuccio, the count’s steward",
+      "source": "ext/c42-gavarni-bertuccio",
+      "to": "As the steward had said, the notary awaited him",
+      "credit": "Paul Gavarni, Bertuccio, from the 1846 illustrated edition of Le Comte de Monte-Cristo (Wikimedia Commons)"
+    },
+    {
+      "chapter": 42,
+      "from": "I wish to see my new property this evening",
+      "file": "042-2.webp",
       "width": 886,
       "height": 1000,
       "caption": "“To Auteuil!” cried Bertuccio, whose copper complexion became livid",
