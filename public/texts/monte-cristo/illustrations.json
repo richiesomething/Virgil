@@ -1020,6 +1020,26 @@
       "caption": "Caderousse and La Carconte count the jeweller’s gold for the third time",
       "source": "V2-D310",
       "to": "I thought it was for something else"
+    },
+    {
+      "chapter": 45,
+      "from": "To the fearful noises that had awakened me had succeeded",
+      "file": "045-1.webp",
+      "width": 1000,
+      "height": 814,
+      "caption": "Bertuccio, candle in hand, finds the jeweller stabbed in his bed",
+      "source": "V2-D315",
+      "to": "This appalling sight almost bereft me of my senses"
+    },
+    {
+      "chapter": 45,
+      "from": "As the eleventh hour struck, he entered with a swaggering air",
+      "file": "045-2.webp",
+      "width": 862,
+      "height": 1000,
+      "caption": "Benedetto and his companions torture Assunta for her money",
+      "source": "V2-D321",
+      "to": "all trace of him seemed entirely lost; or of my sister, since she was dead"
     }
   ]
 }
