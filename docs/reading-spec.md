@@ -151,6 +151,10 @@ For books with a public-domain audiobook (Monte Cristo: LibriVox version 3, read
 - Progress uses the narration: chapter time left from the sync, book time left from `audio.json`, both divided by the speed.
 - Read and Listen share the token position, so switching modes keeps the place. If a chapter's timing file is missing, Listen falls back to Read with a toast.
 
+### 6.1 Illustrations in the Text view
+
+A few period pictures per book, shown inline in the Text view only. `public/texts/<id>/illustrations.json` lists them: `{ edition, source, license, credit, items: [{ chapter, after, file, width, height, caption }] }`. Each picture is placed **after the first paragraph of its chapter containing the `after` phrase**, so it never shows anything the reader hasn't reached; a phrase that doesn't match leaves the picture out (the validator fails on it). Files live in `public/texts/<id>/img/` as WebP, about 1000 px on the long side and ~220 KB, loaded lazily with width and height set so the page doesn't shift. In the light and sepia themes the engraving is multiplied onto the page, so its paper takes the page's colour; in the dark theme it is shown as a dimmed, slightly warm plate. Monte Cristo uses the wood engravings of the 1887 Routledge edition (after Gustave Staal and others; public domain, scanned by the Internet Archive and cut up on Wikimedia Commons), three of them in chapter 14 as a first trial.
+
 ## 7. Spoiler rules
 
 - Only chapters `≤ upTo + 1` are readable, in either view.

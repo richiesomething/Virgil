@@ -883,6 +883,13 @@ a.chip-btn { display: inline-flex; align-items: center; }
 .reader__text p { max-width: 36rem; margin: 0 auto 1em; cursor: pointer; font-size: calc(1.125rem * var(--text-scale)); line-height: 1.6; }
 .reader__text p.is-current { border-left: 3px solid var(--gold); padding-left: 10px; margin-left: -13px; }
 .reader__word { color: var(--accent); }
+/* Inline illustrations: the paper of the engraving takes the page's colour; in the dark theme the ink turns light. */
+.reader__figure { max-width: 36rem; margin: 1.5em auto 1.75em; }
+.reader__figure img { display: block; width: 100%; max-width: 440px; height: auto; margin: 0 auto; mix-blend-mode: multiply; border-radius: 2px; }
+.reader__figure figcaption { margin-top: 10px; text-align: center; font: italic 0.9375rem/1.45 var(--reading-font); color: var(--muted); }
+.reader__figure figcaption small { display: block; margin-top: 2px; font: 0.75rem/1.4 var(--sans); font-style: normal; letter-spacing: 0.01em; opacity: 0.8; }
+@media (prefers-color-scheme: dark) { :root:not([data-theme='light']):not([data-theme='sepia']) .reader__figure img { filter: brightness(0.86) sepia(0.22); mix-blend-mode: normal; border-radius: 6px; } }
+:root[data-theme='dark'] .reader__figure img { filter: brightness(0.86) sepia(0.22); mix-blend-mode: normal; border-radius: 6px; }
 .reader__end { max-width: 420px; padding: 24px; text-align: center; display: grid; gap: 12px; }
 .reader__end .page-title { margin: 0; }
 @media (min-width: 720px) { .reader__controls { max-width: 640px; width: 100%; margin: 0 auto; } }

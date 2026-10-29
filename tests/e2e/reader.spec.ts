@@ -107,3 +107,22 @@ test('the Aa sheet changes the text size in Text view, and it is remembered', as
   await page.getByRole('tab', { name: 'Text' }).click()
   expect(await size()).toBeCloseTo(before * 1.2, 0)
 })
+
+test('chapter 14 of Monte Cristo shows its period illustrations after the paragraphs they depict, in Text view only', async ({ page }) => {
+  await page.goto('/')
+  await page.evaluate(() => localStorage.setItem('virgil:progress:v1', JSON.stringify({ 'monte-cristo': 13 })))
+  await page.goto('/#/b/monte-cristo/read/14')
+  await page.reload()
+  await expect(page.locator('.rsvp')).not.toBeEmpty()
+  await expect(page.locator('.reader__figure')).toHaveCount(0)
+  await page.getByRole('tab', { name: 'Text' }).click()
+  const figures = page.locator('.reader__figure')
+  await expect(figures).toHaveCount(3)
+  await expect(figures.first().locator('img')).toHaveAttribute('alt', /on his knees/)
+  // The first picture comes right after the paragraph it depicts.
+  const before = await figures.first().evaluate((f) => f.previousElementSibling?.textContent ?? '')
+  expect(before).toContain('tell me at least to hope')
+  // And it really loads.
+  await figures.first().scrollIntoViewIfNeeded()
+  await expect.poll(() => figures.first().locator('img').evaluate((i: HTMLImageElement) => i.complete && i.naturalWidth > 0)).toBe(true)
+})

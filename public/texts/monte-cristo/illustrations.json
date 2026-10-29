@@ -1,0 +1,11 @@
+{
+  "edition": "The Count of Monte-Cristo, London: George Routledge and Sons, 1887. Wood engravings after drawings by Gustave Staal, Janet-Lange and others.",
+  "source": "Internet Archive countofmontecris01dumauoft, via Wikimedia Commons",
+  "license": "Public domain",
+  "credit": "Engraving from the 1887 Routledge edition",
+  "items": [
+    { "chapter": 14, "after": "tell me at least to hope", "file": "014-1.webp", "width": 893, "height": 1000, "caption": "Dantès on his knees before the inspector" },
+    { "chapter": 14, "after": "You will not accept my gold; I will keep it for myself", "file": "014-2.webp", "width": 1000, "height": 757, "caption": "“You will not accept my gold; I will keep it for myself.”" },
+    { "chapter": 14, "after": "he simply wrote, “Nothing to be done.”", "file": "014-3.webp", "width": 857, "height": 1000, "caption": "The inspector reads the note in the register" }
+  ]
+}

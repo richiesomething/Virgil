@@ -1,4 +1,4 @@
-import { useCallback, useEffect, useMemo, useRef, useState } from 'react'
+import { Fragment, useCallback, useEffect, useMemo, useRef, useState } from 'react'
 import Icon from '../components/Icon'
 import { Segmented, Sheet } from '../components/ui'
 import ThemePicker from '../components/ThemePicker'
@@ -12,6 +12,7 @@ import { msFor, rampFactor, sentenceStartAfter, sentenceStartBefore, tokenize, t
 import { chapter } from '../lib/spoilers'
 import { formatMinutes } from '../lib/planner'
 import { minutesFor } from '../lib/rsvp'
+import { getIllustrations, illustrationUrl, placeIllustrations, type IllustrationSet } from '../lib/illustrations'
 import { audioUrl, autoplayNext, getDurations, getSync, hasAudio, loadChapter, mediaPosition, mediaSession, narrationLeft, peekSync, player, setAutoplayNext, timeOf, tokenAt, type Sync } from '../lib/audio'
 
 type View = 'flash' | 'text'
@@ -750,7 +751,7 @@ function ChapterReader({ n }: { n: number }) {
           {!playing && <span className="reader__hint muted small">Tap to {listen ? 'listen' : paused > 0 ? 'continue' : 'start'}</span>}
         </button>
       ) : (
-        <TextView chapter={chapterTokens} current={listen && playing ? spoken : paused} follow={listen && playing} onPick={(i) => (seek(i), listen ? undefined : setView('flash'))} />
+        <TextView bookId={id} n={n} chapter={chapterTokens} current={listen && playing ? spoken : paused} follow={listen && playing} onPick={(i) => (seek(i), listen ? undefined : setView('flash'))} />
       )}
 
       <div className="reader__controls">
@@ -815,8 +816,16 @@ function ChapterReader({ n }: { n: number }) {
 }
 
 /** The chapter as scrollable text, with the current word marked. Tap a paragraph to read from there. */
-function TextView({ chapter, current, follow, onPick }: { chapter: ChapterTokens; current: number; follow?: boolean; onPick: (i: number) => void }) {
+function TextView({ bookId, n, chapter, current, follow, onPick }: { bookId: string; n: number; chapter: ChapterTokens; current: number; follow?: boolean; onPick: (i: number) => void }) {
   const ref = useRef<HTMLDivElement>(null)
+  const [art, setArt] = useState<IllustrationSet | null>(null)
+  useEffect(() => {
+    let live = true
+    getIllustrations(bookId).then((a) => live && setArt(a))
+    return () => {
+      live = false
+    }
+  }, [bookId])
   const currentPara = chapter.tokens[current]?.paragraph ?? 0
   const userScrolledAt = useRef(0)
   useEffect(() => {
@@ -844,22 +853,36 @@ function TextView({ chapter, current, follow, onPick }: { chapter: ChapterTokens
     })
     return out
   }, [chapter])
+  // Illustrations sit after the paragraph they depict, so none shows anything the reader hasn't reached.
+  const figures = useMemo(() => (art ? placeIllustrations(art.items, n, paragraphs.map((p) => p.tokens.map((t) => t.text).join(' '))) : null), [art, n, paragraphs])
   return (
     <div className={`reader__stage reader__textwrap${follow ? ' reader__textwrap--follow' : ''}`}>
       {follow && <div className="reader__guide" aria-hidden="true" />}
       <div className="reader__text prose" ref={ref} onTouchStart={touched} onWheel={touched}>
-        {paragraphs.map((p) => {
+        {paragraphs.map((p, pi) => {
           const here = p.tokens[0].paragraph === currentPara
+          const after = figures?.get(pi)
           return (
-            <p key={p.start} className={here ? 'is-current' : undefined} onClick={() => onPick(p.start)}>
-              {here
-                ? p.tokens.map((t, i) => (
-                    <span key={i} className={p.start + i === current ? 'reader__word' : undefined}>
-                      {t.text}{' '}
-                    </span>
-                  ))
-                : p.tokens.map((t) => t.text).join(' ')}
-            </p>
+            <Fragment key={p.start}>
+              <p className={here ? 'is-current' : undefined} onClick={() => onPick(p.start)}>
+                {here
+                  ? p.tokens.map((t, i) => (
+                      <span key={i} className={p.start + i === current ? 'reader__word' : undefined}>
+                        {t.text}{' '}
+                      </span>
+                    ))
+                  : p.tokens.map((t) => t.text).join(' ')}
+              </p>
+              {after?.map((f) => (
+                <figure key={f.file} className="reader__figure">
+                  <img src={illustrationUrl(bookId, f.file)} alt={f.caption} width={f.width} height={f.height} loading="lazy" decoding="async" />
+                  <figcaption>
+                    {f.caption}
+                    <small>{art!.credit}</small>
+                  </figcaption>
+                </figure>
+              ))}
+            </Fragment>
           )
         })}
       </div>

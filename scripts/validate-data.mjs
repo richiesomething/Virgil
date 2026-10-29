@@ -43,6 +43,22 @@ for (const book of readdirSync(root, { withFileTypes: true }).filter((d) => d.is
     for (let n = 1; n <= count; n++) if (!existsSync(join(tdir, `${String(n).padStart(3, '0')}.txt`))) fail(book, `public/texts/${book}/${String(n).padStart(3, '0')}.txt is missing`)
   } else if (meta.text && meta.text.status !== 'upload') fail(book, `book.json text.status must be "shipped" or "upload"`)
   // Narration: a manifest, and a timing file for every chapter it says is synced (a partial set is allowed while the alignment runs).
+  // Illustrations: every anchor must match a paragraph of its chapter, and the file must exist.
+  {
+    const illusPath = join('public', 'texts', book, 'illustrations.json')
+    if (existsSync(illusPath)) {
+      const set = JSON.parse(readFileSync(illusPath, 'utf8'))
+      const fold = (x) => x.toLowerCase().replace(/[“”]/g, '"').replace(/[‘’]/g, "'").replace(/\s+/g, ' ').trim()
+      for (const it of set.items) {
+        const txt = join('public', 'texts', book, `${String(it.chapter).padStart(3, '0')}.txt`)
+        if (!existsSync(txt)) ((fail(book, `illustration ${it.file}: chapter ${it.chapter} has no text`)), 1)
+        else if (!fold(readFileSync(txt, 'utf8')).includes(fold(it.after))) fail(book, `illustration ${it.file}: anchor “${it.after}” not found in chapter ${it.chapter}`)
+        if (!existsSync(join('public', 'texts', book, 'img', it.file))) fail(book, `illustration file missing: img/${it.file}`)
+        if (!it.caption || !it.width || !it.height) fail(book, `illustration ${it.file}: needs caption, width and height`)
+      }
+      console.log(`✓ [${book}] ${set.items.length} illustrations`)
+    }
+  }
   if (meta.audio) {
     const tdir = join('public', 'texts', book)
     if (!meta.audio.item || !/NNN?/.test(meta.audio.filePattern ?? '') || !meta.audio.reader) fail(book, 'book.json audio needs item, filePattern (with NNN or NN) and reader')
