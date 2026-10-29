@@ -790,6 +790,36 @@
       "caption": "“I come to ask to be your captain”",
       "source": "V2-D127",
       "to": "An hour afterwards Luigi Vampa was chosen captain"
+    },
+    {
+      "chapter": 34,
+      "from": "Perhaps some of these days I may be entrapped, like poor Peppino",
+      "file": "034-1.webp",
+      "width": 885,
+      "height": 1000,
+      "caption": "Poor Peppino, the shepherd, awaiting execution in prison",
+      "source": "V2-D137",
+      "to": "he was merely a poor shepherd, whose only crime"
+    },
+    {
+      "chapter": 34,
+      "from": "The overture to the second act began",
+      "file": "034-2.webp",
+      "width": 867,
+      "height": 1000,
+      "caption": "The occupant of the box stands beside the beautiful Greek, his face fully revealed",
+      "source": "V2-D145",
+      "to": "All doubt of his identity was now at an end"
+    },
+    {
+      "chapter": 34,
+      "from": "we shall ascertain who and what he is—he comes",
+      "file": "034-3.webp",
+      "width": 1000,
+      "height": 787,
+      "caption": "The tapestry is drawn aside: the owner of all these riches appears",
+      "source": "V2-D155",
+      "to": "the owner of all these riches stood before the two young men"
     }
   ]
 }
