@@ -1155,8 +1155,19 @@
     },
     {
       "chapter": 49,
-      "from": "Monte Cristo summoned the Greek attendant",
+      "from": "The young girl herself generally passed her time",
       "file": "049-1.webp",
+      "width": 710,
+      "height": 1000,
+      "caption": "Haydée, the young Greek",
+      "source": "ext/c49-gavarni-haydee",
+      "to": "she had not yet numbered more than nineteen or twenty summers",
+      "credit": "Paul Gavarni, Haydée, from the 1846 illustrated edition of Le Comte de Monte-Cristo (Wikimedia Commons)"
+    },
+    {
+      "chapter": 49,
+      "from": "Monte Cristo summoned the Greek attendant",
+      "file": "049-2.webp",
       "width": 1000,
       "height": 808,
       "caption": "“Are you no longer my master, or have I ceased to be your slave?”",
