@@ -1130,6 +1130,36 @@
       "caption": "“Are you no longer my master, or have I ceased to be your slave?”",
       "source": "V3-D019",
       "to": "Leave you? Why should I leave you?"
+    },
+    {
+      "chapter": 50,
+      "from": "cried Morrel, throwing away his cigar and hastening to the carriage",
+      "file": "050-1.webp",
+      "width": 874,
+      "height": 1000,
+      "caption": "Maximilian Morrel welcomes the count to the Rue Meslay",
+      "source": "V3-D041",
+      "to": "I will serve as your guide"
+    },
+    {
+      "chapter": 50,
+      "from": "At the sound of their steps a young woman of twenty",
+      "file": "050-2.webp",
+      "width": 849,
+      "height": 1000,
+      "caption": "Julie, now Madame Emmanuel Herbault, plucking the dead leaves off a rose-tree",
+      "source": "V3-D043",
+      "to": "it is treason in my brother to bring you thus"
+    },
+    {
+      "chapter": 50,
+      "from": "An old man, who was digging busily at one of the beds",
+      "file": "050-3.webp",
+      "width": 879,
+      "height": 1000,
+      "caption": "Penelon, the old sailor turned gardener",
+      "source": "V3-D047",
+      "to": "go and inform M. Emmanuel of this gentleman"
     }
   ]
 }
