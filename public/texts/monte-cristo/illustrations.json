@@ -5,6 +5,26 @@
   "credit": "Engraving from the 1887 Routledge edition",
   "items": [
     {
+      "chapter": 1,
+      "from": "jumping into a small skiff",
+      "file": "001-1.webp",
+      "width": 886,
+      "height": 1000,
+      "caption": "The Pharaon comes into Marseilles; the shipowner is rowed out to meet her",
+      "source": "V1-D025",
+      "to": "“Ah, is it you, Dantès?” cried the man in the skiff"
+    },
+    {
+      "chapter": 1,
+      "from": "Very good; have what time you require, Dantès",
+      "file": "001-2.webp",
+      "width": 853,
+      "height": 1000,
+      "caption": "Dantès thanks M. Morrel for the promise of the captaincy",
+      "source": "V1-D027",
+      "to": "grasping the owner’s hand"
+    },
+    {
       "chapter": 14,
       "from": "The soldiers interposed their bayonets",
       "file": "014-1.webp",
