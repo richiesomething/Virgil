@@ -1885,6 +1885,36 @@
       "caption": "Andrea draws the plan of the house in the Champs-Élysées for Caderousse",
       "source": "V4-D139",
       "to": "Let us see the ground floor"
+    },
+    {
+      "chapter": 82,
+      "from": "Monte Cristo then drew a lighted taper from a closet",
+      "file": "082-1.webp",
+      "width": 1000,
+      "height": 813,
+      "caption": "“Ah, good evening, my dear M. Caderousse”: the Abbé Busoni surprises the burglar",
+      "source": "V4-D153",
+      "to": "he let fall his bunch of keys, and remained motionless"
+    },
+    {
+      "chapter": 82,
+      "from": "drawing from his waistcoat an open knife, and striking the count",
+      "file": "082-2.webp",
+      "width": 867,
+      "height": 1000,
+      "caption": "Caderousse’s knife flies back blunted; the abbé masters him",
+      "source": "V4-D159",
+      "to": "the knife, instead of piercing the count’s breast, flew back blunted"
+    },
+    {
+      "chapter": 82,
+      "from": "fixed his ladder against the wall at a different part",
+      "file": "082-3.webp",
+      "width": 853,
+      "height": 1000,
+      "caption": "Caderousse is struck down at the foot of the ladder",
+      "source": "V4-D161",
+      "to": "he shuddered as the blood flowed from his three wounds"
     }
   ]
 }
