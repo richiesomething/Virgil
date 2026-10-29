@@ -990,6 +990,36 @@
       "caption": "Bertuccio, lantern in hand, begs the count not to go on into the garden",
       "source": "V2-D279",
       "to": "I think you are going mad, Bertuccio"
+    },
+    {
+      "chapter": 44,
+      "from": "The terrible moment had come, but I had so long been prepared",
+      "file": "044-1.webp",
+      "width": 843,
+      "height": 1000,
+      "caption": "“Thy death for my brother’s; thy treasure for his widow”",
+      "source": "V2-D291",
+      "to": "it seems to me this was nothing but murder and robbery"
+    },
+    {
+      "chapter": 44,
+      "from": "I hastened to the river, sat down on the bank",
+      "file": "044-2.webp",
+      "width": 861,
+      "height": 1000,
+      "caption": "In the box, wrapped in fine linen, a newborn child",
+      "source": "V2-D293",
+      "to": "It was an embarrassing load for a man seeking to escape"
+    },
+    {
+      "chapter": 44,
+      "from": "Particularly when there is money in the house, eh?",
+      "file": "044-3.webp",
+      "width": 883,
+      "height": 1000,
+      "caption": "Caderousse and La Carconte count the jeweller’s gold for the third time",
+      "source": "V2-D310",
+      "to": "I thought it was for something else"
     }
   ]
 }
