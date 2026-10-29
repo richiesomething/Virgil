@@ -4,8 +4,32 @@
   "license": "Public domain",
   "credit": "Engraving from the 1887 Routledge edition",
   "items": [
-    { "chapter": 14, "after": "tell me at least to hope", "file": "014-1.webp", "width": 893, "height": 1000, "caption": "Dantès on his knees before the inspector" },
-    { "chapter": 14, "after": "You will not accept my gold; I will keep it for myself", "file": "014-2.webp", "width": 1000, "height": 757, "caption": "“You will not accept my gold; I will keep it for myself.”" },
-    { "chapter": 14, "after": "he simply wrote, “Nothing to be done.”", "file": "014-3.webp", "width": 857, "height": 1000, "caption": "The inspector reads the note in the register" }
+    {
+      "chapter": 14,
+      "from": "The soldiers interposed their bayonets",
+      "to": "Dantès fell on his knees, and prayed earnestly",
+      "file": "014-1.webp",
+      "width": 893,
+      "height": 1000,
+      "caption": "Dantès on his knees before the inspector"
+    },
+    {
+      "chapter": 14,
+      "from": "the inspector gazed curiously into the chamber",
+      "to": "You will not accept my gold; I will keep it for myself",
+      "file": "014-2.webp",
+      "width": 1000,
+      "height": 757,
+      "caption": "“You will not accept my gold; I will keep it for myself.”"
+    },
+    {
+      "chapter": 14,
+      "from": "The inspector kept his word with Dantès",
+      "to": "he simply wrote, “Nothing to be done.”",
+      "file": "014-3.webp",
+      "width": 857,
+      "height": 1000,
+      "caption": "The inspector reads the note in the register"
+    }
   ]
 }
