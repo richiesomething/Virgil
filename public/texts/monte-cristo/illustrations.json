@@ -963,8 +963,19 @@
     },
     {
       "chapter": 41,
-      "from": "When Albert returned to his mother, he found her in the boudoir",
+      "from": "he found himself opposite to the Count of Morcerf in person",
       "file": "041-1.webp",
+      "width": 698,
+      "height": 1000,
+      "caption": "The Count of Morcerf, general and peer of France",
+      "source": "ext/c41-gavarni-morcerf",
+      "to": "the count of Morcerf pointed to a chair",
+      "credit": "Paul Gavarni, the Count of Morcerf, from the 1846 illustrated edition of Le Comte de Monte-Cristo (Wikimedia Commons)"
+    },
+    {
+      "chapter": 41,
+      "from": "When Albert returned to his mother, he found her in the boudoir",
+      "file": "041-2.webp",
       "width": 875,
       "height": 1000,
       "caption": "Albert and his mother talk of the Count of Monte Cristo",
