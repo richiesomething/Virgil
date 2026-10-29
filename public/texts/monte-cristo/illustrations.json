@@ -1100,6 +1100,26 @@
       "caption": "Madame de Villefort bids Edward thank the count’s servant",
       "source": "V2-D353",
       "to": "The count smiled as if the child bade fair to realize his hopes"
+    },
+    {
+      "chapter": 48,
+      "from": "The procureur entered with the same grave and measured step",
+      "file": "048-1.webp",
+      "width": 841,
+      "height": 1000,
+      "caption": "M. de Villefort pays his visit to the count",
+      "source": "V3-D031",
+      "to": "He glanced around, in order to seize on something"
+    },
+    {
+      "chapter": 48,
+      "from": "I too, as happens to every man once in his life",
+      "file": "048-2.webp",
+      "width": 845,
+      "height": 1000,
+      "caption": "“I have been taken by Satan into the highest mountain in the earth”",
+      "source": "V3-D029",
+      "to": "Villefort looked at Monte Cristo with extreme amazement"
     }
   ]
 }
