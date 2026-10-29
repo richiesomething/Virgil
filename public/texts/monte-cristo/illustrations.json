@@ -1360,6 +1360,25 @@
       "caption": "Villefort quits the room with his wife, leaving his father to do as he pleases",
       "source": "V3-D179",
       "to": "Having said this, Villefort quitted the room with his wife"
+    },
+    {
+      "chapter": 60,
+      "from": "feigned to be busily engaged in watching Edward",
+      "file": "060-1.webp",
+      "width": 860,
+      "height": 1000,
+      "caption": "Edward mischievously pours ink into the bird’s water-glass",
+      "source": "V3-D185"
+    },
+    {
+      "chapter": 60,
+      "from": "A telegraph. So now I have told my secret",
+      "file": "060-2.webp",
+      "width": 861,
+      "height": 1000,
+      "caption": "“A telegraph. So now I have told my secret.”",
+      "source": "V3-D183",
+      "to": "I should find there people who would force me to understand"
     }
   ]
 }
