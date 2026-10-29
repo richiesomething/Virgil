@@ -1835,6 +1835,26 @@
       "caption": "The syrup of violets turns the lemonade: Villefort convinced",
       "source": "V4-D113",
       "to": "Villefort said nothing, but he clasped his hands"
+    },
+    {
+      "chapter": 80,
+      "from": "Have mercy on my child, sir",
+      "file": "080-1.webp",
+      "width": 875,
+      "height": 1000,
+      "caption": "Villefort on his knees before the doctor: “Have pity on Valentine!”",
+      "source": "V4-D117",
+      "to": "Villefort fell on his knees"
+    },
+    {
+      "chapter": 80,
+      "from": "The terrified servants were on the stairs and in the passage",
+      "file": "080-2.webp",
+      "width": 837,
+      "height": 1000,
+      "caption": "The terrified servants listen for the doctor",
+      "source": "V4-D119",
+      "to": "amid the tears and lamentations of the whole household"
     }
   ]
 }
