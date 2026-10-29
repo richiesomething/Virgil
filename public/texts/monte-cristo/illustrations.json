@@ -970,6 +970,16 @@
       "caption": "Albert and his mother talk of the Count of Monte Cristo",
       "source": "V2-D267",
       "to": "What is this name of Monte Cristo?"
+    },
+    {
+      "chapter": 42,
+      "from": "I wish to see my new property this evening",
+      "file": "042-1.webp",
+      "width": 886,
+      "height": 1000,
+      "caption": "“To Auteuil!” cried Bertuccio, whose copper complexion became livid",
+      "source": "V2-D275",
+      "to": "Am I to accompany you, your excellency?"
     }
   ]
 }
