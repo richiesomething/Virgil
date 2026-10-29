@@ -1449,6 +1449,55 @@
       "caption": "Madame Danglars, overcome, sinks into a chair on the lawn",
       "source": "V3-D225",
       "to": "I think Madame Danglars again requires your bottle"
+    },
+    {
+      "chapter": 64,
+      "from": "At that moment a hand touched his shoulder",
+      "file": "064-1.webp",
+      "width": 843,
+      "height": 1000,
+      "caption": "The man with the red handkerchief waits by the tilbury",
+      "source": "V3-D229",
+      "to": "what do you want? Speak quickly, friend"
+    },
+    {
+      "chapter": 64,
+      "from": "Oh, as for that, I’ll take you to a splendid place",
+      "file": "064-2.webp",
+      "width": 849,
+      "height": 1000,
+      "caption": "The stranger leads the tilbury to a shady spot to talk business",
+      "source": "V3-D233",
+      "to": "Now, tell me why you come to disturb my tranquillity?"
+    },
+    {
+      "chapter": 65,
+      "from": "It is Mademoiselle Louise d’Armilly, who is playing",
+      "file": "065-1.webp",
+      "width": 854,
+      "height": 1000,
+      "caption": "Mademoiselle Louise d’Armilly at the piano",
+      "source": "V3-D239"
+    },
+    {
+      "chapter": 65,
+      "from": "Good evening, madame,” said the banker; “good evening, M. Debray",
+      "file": "065-2.webp",
+      "width": 850,
+      "height": 1000,
+      "caption": "The banker’s unexpected visit cuts short Debray’s evening",
+      "source": "V3-D245",
+      "to": "Lucien having left, Danglars took his place on the sofa"
+    },
+    {
+      "chapter": 65,
+      "from": "Do you know, sir,” asked the baroness, “that you are improving?",
+      "file": "065-3.webp",
+      "width": 809,
+      "height": 1000,
+      "caption": "Danglars has an accounting with his wife",
+      "source": "V3-D243",
+      "to": "I thought you took the liveliest interest in all my affairs"
     }
   ]
 }
