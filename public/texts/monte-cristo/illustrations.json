@@ -1449,6 +1449,26 @@
       "caption": "Madame Danglars, overcome, sinks into a chair on the lawn",
       "source": "V3-D225",
       "to": "I think Madame Danglars again requires your bottle"
+    },
+    {
+      "chapter": 64,
+      "from": "At that moment a hand touched his shoulder",
+      "file": "064-1.webp",
+      "width": 843,
+      "height": 1000,
+      "caption": "The man with the red handkerchief waits by the tilbury",
+      "source": "V3-D229",
+      "to": "what do you want? Speak quickly, friend"
+    },
+    {
+      "chapter": 64,
+      "from": "Oh, as for that, I’ll take you to a splendid place",
+      "file": "064-2.webp",
+      "width": 849,
+      "height": 1000,
+      "caption": "The stranger leads the tilbury to a shady spot to talk business",
+      "source": "V3-D233",
+      "to": "Now, tell me why you come to disturb my tranquillity?"
     }
   ]
 }
