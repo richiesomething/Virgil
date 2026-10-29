@@ -12,7 +12,7 @@ import { msFor, rampFactor, sentenceStartAfter, sentenceStartBefore, tokenize, t
 import { chapter } from '../lib/spoilers'
 import { formatMinutes } from '../lib/planner'
 import { minutesFor } from '../lib/rsvp'
-import { getIllustrations, illustrationUrl, placeIllustrations, type IllustrationSet } from '../lib/illustrations'
+import { getIllustrations, illustrationUrl, pinnedAt, placeIllustrations, type IllustrationSet, type Placed } from '../lib/illustrations'
 import { audioUrl, autoplayNext, getDurations, getSync, hasAudio, loadChapter, mediaPosition, mediaSession, narrationLeft, peekSync, player, setAutoplayNext, timeOf, tokenAt, type Sync } from '../lib/audio'
 
 type View = 'flash' | 'text'
@@ -208,6 +208,7 @@ function ChapterReader({ n }: { n: number }) {
   rateRef.current = rate
   const raf = useRef(0)
   const [chapterTokens, setTokens] = useState<ChapterTokens | null>(null)
+  const [art, setArt] = useState<IllustrationSet | null>(null)
   const [error, setError] = useState<string | null>(null)
   const [view, setView] = useState<View>('flash')
   const viewRef = useRef(view)
@@ -218,6 +219,9 @@ function ChapterReader({ n }: { n: number }) {
   const [paused, setPausedIndex] = useState(0)
   /** Position for the progress panel while playing: refreshed every ten words, not every word. */
   const [live, setLive] = useState(0)
+  /** The paragraph being read (changes rarely): decides which picture, if any, is pinned. */
+  const [para, setPara] = useState(0)
+  const paraRef = useRef(-1)
   const idx = useRef(0)
   const timer = useRef(0)
   const nextAt = useRef(0)
@@ -258,6 +262,14 @@ function ChapterReader({ n }: { n: number }) {
     }
   }, [book, id, n])
 
+  useEffect(() => {
+    let live = true
+    getIllustrations(id).then((a) => live && setArt(a))
+    return () => {
+      live = false
+    }
+  }, [id])
+
   // Narration timings for this chapter; without them, Listen falls back to reading.
   useEffect(() => {
     if (!listen) return
@@ -292,11 +304,25 @@ function ChapterReader({ n }: { n: number }) {
 
   const count = chapterTokens?.tokens.length ?? 0
 
+  /** This chapter's illustrations, resolved to paragraphs. */
+  const placed = useMemo<Placed[]>(() => {
+    if (!art || !chapterTokens) return []
+    const paras = chapterTokens.paragraphStarts.map((start, i) => {
+      const end = chapterTokens.paragraphStarts[i + 1] ?? chapterTokens.tokens.length
+      return chapterTokens.tokens.slice(start, end).map((t) => t.text).join(' ')
+    })
+    return placeIllustrations(art.items, n, paras)
+  }, [art, chapterTokens, n])
+
   const show = useCallback(
     (i: number) => {
       const t = chapterTokens?.tokens[i]
       if (!t) return
       shown.current = i
+      if (t.paragraph !== paraRef.current) {
+        paraRef.current = t.paragraph
+        setPara(t.paragraph)
+      }
       if (before.current && pivot.current && after.current) {
         before.current.textContent = t.text.slice(0, t.pivot)
         pivot.current.textContent = t.text[t.pivot] ?? ''
@@ -630,6 +656,8 @@ function ChapterReader({ n }: { n: number }) {
 
   // Progress: this chapter from the reader's own timing, the rest of the book from word counts.
   const at = ended ? count : playing ? live : paused
+  // The picture for the passage being read, if any: pinned above the words in Flash view and while following the voice.
+  const pin = !ended && placed.length ? pinnedAt(placed, para) : null
   const narr = listen && sync ? narrationLeft(book, sync, n, Math.min(at, count - 1), rate, durs) : null
   const chapterLeftMin = narr ? narr.chapter / 60 : ((cumulative[count] - cumulative[Math.min(at, count)]) * (60000 / wpm)) / 60000
   const chapterPct = count ? Math.round((Math.min(at, count) / count) * 100) : 0
@@ -727,6 +755,7 @@ function ChapterReader({ n }: { n: number }) {
 
       {view === 'flash' ? (
         <button className="reader__stage reader__tap" onClick={toggle} aria-label={playing ? 'Pause' : 'Play'}>
+          {pin && <PinnedFigure bookId={id} placed={pin} credit={art!.credit} />}
           <span className="rsvp" aria-hidden="true">
             <span className="rsvp__before" ref={before} />
             <span className="rsvp__pivot" ref={pivot} />
@@ -751,7 +780,7 @@ function ChapterReader({ n }: { n: number }) {
           {!playing && <span className="reader__hint muted small">Tap to {listen ? 'listen' : paused > 0 ? 'continue' : 'start'}</span>}
         </button>
       ) : (
-        <TextView bookId={id} n={n} chapter={chapterTokens} current={listen && playing ? spoken : paused} follow={listen && playing} onPick={(i) => (seek(i), listen ? undefined : setView('flash'))} />
+        <TextView bookId={id} chapter={chapterTokens} placed={placed} credit={art?.credit ?? ''} pin={listen && playing ? pin : null} current={listen && playing ? spoken : paused} follow={listen && playing} onPick={(i) => (seek(i), listen ? undefined : setView('flash'))} />
       )}
 
       <div className="reader__controls">
@@ -816,16 +845,40 @@ function ChapterReader({ n }: { n: number }) {
 }
 
 /** The chapter as scrollable text, with the current word marked. Tap a paragraph to read from there. */
-function TextView({ bookId, n, chapter, current, follow, onPick }: { bookId: string; n: number; chapter: ChapterTokens; current: number; follow?: boolean; onPick: (i: number) => void }) {
+/** The picture for the passage being read, pinned above the words (Flash view, and Text view while following the voice). */
+function PinnedFigure({ bookId, placed, credit }: { bookId: string; placed: Placed; credit: string }) {
+  const f = placed.item
+  return (
+    <figure className="reader__pin" key={f.file}>
+      <img src={illustrationUrl(bookId, f.file)} alt={f.caption} width={f.width} height={f.height} decoding="async" />
+      <figcaption>
+        {f.caption}
+        <small>{credit}</small>
+      </figcaption>
+    </figure>
+  )
+}
+
+function TextView({
+  bookId,
+  chapter,
+  placed,
+  credit,
+  pin,
+  current,
+  follow,
+  onPick,
+}: {
+  bookId: string
+  chapter: ChapterTokens
+  placed: Placed[]
+  credit: string
+  pin: Placed | null
+  current: number
+  follow?: boolean
+  onPick: (i: number) => void
+}) {
   const ref = useRef<HTMLDivElement>(null)
-  const [art, setArt] = useState<IllustrationSet | null>(null)
-  useEffect(() => {
-    let live = true
-    getIllustrations(bookId).then((a) => live && setArt(a))
-    return () => {
-      live = false
-    }
-  }, [bookId])
   const currentPara = chapter.tokens[current]?.paragraph ?? 0
   const userScrolledAt = useRef(0)
   useEffect(() => {
@@ -833,6 +886,7 @@ function TextView({ bookId, n, chapter, current, follow, onPick }: { bookId: str
   }, [])
   // Following the voice: the line being read sits on the guide in the middle of the screen. The text moves up one
   // line at a time, as the reading reaches the next line; never otherwise. A reader who scrolls gets four seconds to look around.
+  // (Also re-run when a picture pins or unpins above, since the box changes height.)
   useEffect(() => {
     if (!follow || !ref.current) return
     const box = ref.current
@@ -843,7 +897,7 @@ function TextView({ bookId, n, chapter, current, follow, onPick }: { bookId: str
     const lineMiddle = w.top - b.top + box.scrollTop + w.height / 2
     const target = Math.round(lineMiddle - box.clientHeight / 2)
     if (Math.abs(target - box.scrollTop) > 2) box.scrollTo({ top: target, behavior: 'smooth' })
-  }, [current, follow])
+  }, [current, follow, pin])
   const touched = () => (userScrolledAt.current = performance.now())
   const paragraphs = useMemo(() => {
     const out: { tokens: typeof chapter.tokens; start: number }[] = []
@@ -853,38 +907,45 @@ function TextView({ bookId, n, chapter, current, follow, onPick }: { bookId: str
     })
     return out
   }, [chapter])
-  // Illustrations sit after the paragraph they depict, so none shows anything the reader hasn't reached.
-  const figures = useMemo(() => (art ? placeIllustrations(art.items, n, paragraphs.map((p) => p.tokens.map((t) => t.text).join(' '))) : null), [art, n, paragraphs])
+  // Inline pictures sit after the passage they depict, so none shows anything the reader hasn't reached.
+  const figures = useMemo(() => {
+    const m = new Map<number, Placed[]>()
+    for (const p of placed) m.set(p.after, [...(m.get(p.after) ?? []), p])
+    return m
+  }, [placed])
   return (
     <div className={`reader__stage reader__textwrap${follow ? ' reader__textwrap--follow' : ''}`}>
-      {follow && <div className="reader__guide" aria-hidden="true" />}
-      <div className="reader__text prose" ref={ref} onTouchStart={touched} onWheel={touched}>
-        {paragraphs.map((p, pi) => {
-          const here = p.tokens[0].paragraph === currentPara
-          const after = figures?.get(pi)
-          return (
-            <Fragment key={p.start}>
-              <p className={here ? 'is-current' : undefined} onClick={() => onPick(p.start)}>
-                {here
-                  ? p.tokens.map((t, i) => (
-                      <span key={i} className={p.start + i === current ? 'reader__word' : undefined}>
-                        {t.text}{' '}
-                      </span>
-                    ))
-                  : p.tokens.map((t) => t.text).join(' ')}
-              </p>
-              {after?.map((f) => (
-                <figure key={f.file} className="reader__figure">
-                  <img src={illustrationUrl(bookId, f.file)} alt={f.caption} width={f.width} height={f.height} loading="lazy" decoding="async" />
-                  <figcaption>
-                    {f.caption}
-                    <small>{art!.credit}</small>
-                  </figcaption>
-                </figure>
-              ))}
-            </Fragment>
-          )
-        })}
+      {pin && <PinnedFigure bookId={bookId} placed={pin} credit={credit} />}
+      <div className="reader__textbox">
+        {follow && <div className="reader__guide" aria-hidden="true" />}
+        <div className="reader__text prose" ref={ref} onTouchStart={touched} onWheel={touched}>
+          {paragraphs.map((p, pi) => {
+            const here = p.tokens[0].paragraph === currentPara
+            const after = figures.get(pi)
+            return (
+              <Fragment key={p.start}>
+                <p className={here ? 'is-current' : undefined} onClick={() => onPick(p.start)}>
+                  {here
+                    ? p.tokens.map((t, i) => (
+                        <span key={i} className={p.start + i === current ? 'reader__word' : undefined}>
+                          {t.text}{' '}
+                        </span>
+                      ))
+                    : p.tokens.map((t) => t.text).join(' ')}
+                </p>
+                {after?.map(({ item: f }) => (
+                  <figure key={f.file} className="reader__figure">
+                    <img src={illustrationUrl(bookId, f.file)} alt={f.caption} width={f.width} height={f.height} loading="lazy" decoding="async" />
+                    <figcaption>
+                      {f.caption}
+                      <small>{credit}</small>
+                    </figcaption>
+                  </figure>
+                ))}
+              </Fragment>
+            )
+          })}
+        </div>
       </div>
     </div>
   )

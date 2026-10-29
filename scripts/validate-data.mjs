@@ -52,7 +52,18 @@ for (const book of readdirSync(root, { withFileTypes: true }).filter((d) => d.is
       for (const it of set.items) {
         const txt = join('public', 'texts', book, `${String(it.chapter).padStart(3, '0')}.txt`)
         if (!existsSync(txt)) ((fail(book, `illustration ${it.file}: chapter ${it.chapter} has no text`)), 1)
-        else if (!fold(readFileSync(txt, 'utf8')).includes(fold(it.after))) fail(book, `illustration ${it.file}: anchor “${it.after}” not found in chapter ${it.chapter}`)
+        else {
+        const paras = readFileSync(txt, 'utf8').split(/\n+/).filter((l) => l.trim()).map(fold)
+        const find = (phrase, start = 0) => paras.findIndex((p, i) => i >= start && p.includes(fold(phrase)))
+        const from = find(it.from ?? '')
+        if (!it.from || from < 0) fail(book, `illustration ${it.file}: “from” phrase not found in chapter ${it.chapter}`)
+        else {
+          const to = it.to ? find(it.to, from) : from
+          if (to < 0) fail(book, `illustration ${it.file}: “to” phrase not found at or after “from” in chapter ${it.chapter}`)
+          if (it.after && find(it.after, from) < 0) fail(book, `illustration ${it.file}: “after” phrase not found in chapter ${it.chapter}`)
+          if (to - from > 60) fail(book, `illustration ${it.file}: passage spans ${to - from} paragraphs; keep it to one scene`)
+        }
+      }
         if (!existsSync(join('public', 'texts', book, 'img', it.file))) fail(book, `illustration file missing: img/${it.file}`)
         if (!it.caption || !it.width || !it.height) fail(book, `illustration ${it.file}: needs caption, width and height`)
       }

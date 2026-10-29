@@ -143,3 +143,29 @@ test('in Text view the line being read stays on the guide in the middle of the s
     await page.waitForTimeout(1500)
   }
 })
+
+test('a picture pins above the words while its passage is being read, in Flash and in Text view', async ({ page }) => {
+  // Chapter 14's first picture spans the paragraphs where Dantès pleads with the inspector.
+  await open(page, '#/b/monte-cristo/read/14?mode=listen', { 'monte-cristo': 13 })
+  await expect(page.locator('.reader__pin')).toHaveCount(0)
+  // Jump into the passage: tap the paragraph in Text view, then check both views.
+  await page.getByRole('tab', { name: 'Text' }).click()
+  await page.locator('.reader__text p', { hasText: 'The soldiers interposed their bayonets' }).click()
+  await page.getByRole('tab', { name: 'Flash' }).click()
+  await expect(page.locator('.reader__tap .reader__pin img')).toHaveAttribute('alt', /on his knees/)
+  await page.getByRole('tab', { name: 'Text' }).click()
+  await page.click('.reader__play')
+  await page.waitForFunction(() => !(window as unknown as { __virgilPlayer: HTMLAudioElement }).__virgilPlayer.paused)
+  await expect(page.locator('.reader__textwrap .reader__pin img')).toHaveAttribute('alt', /on his knees/)
+  // The guide and the text box sit below the picture.
+  const below = await page.evaluate(() => {
+    const pin = document.querySelector('.reader__pin')!.getBoundingClientRect()
+    const box = document.querySelector('.reader__textbox')!.getBoundingClientRect()
+    return box.top >= pin.bottom - 1
+  })
+  expect(below).toBe(true)
+  // Outside any passage, nothing is pinned.
+  await page.click('.reader__play')
+  await page.locator('.reader__text p', { hasText: 'A year after Louis XVIII' }).click()
+  await expect(page.locator('.reader__pin')).toHaveCount(0)
+})

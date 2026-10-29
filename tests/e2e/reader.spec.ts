@@ -121,7 +121,7 @@ test('chapter 14 of Monte Cristo shows its period illustrations after the paragr
   await expect(figures.first().locator('img')).toHaveAttribute('alt', /on his knees/)
   // The first picture comes right after the paragraph it depicts.
   const before = await figures.first().evaluate((f) => f.previousElementSibling?.textContent ?? '')
-  expect(before).toContain('tell me at least to hope')
+  expect(before).toContain('Dantès fell on his knees')
   // And it really loads.
   await figures.first().scrollIntoViewIfNeeded()
   await expect.poll(() => figures.first().locator('img').evaluate((i: HTMLImageElement) => i.complete && i.naturalWidth > 0)).toBe(true)

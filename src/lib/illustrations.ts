@@ -1,10 +1,16 @@
-// Period illustrations shown inline in the Text view: a few per book, each placed after the paragraph it depicts,
-// so a picture never shows anything the reader hasn't reached. public/texts/<id>/illustrations.json lists them.
+// Period illustrations shown while reading: a few per book. Each one depicts a passage of its chapter (from one phrase
+// to another). While the reading is inside that passage the picture is pinned above the words; afterwards it sits inline
+// in the Text view, right after the passage, so a picture never shows anything the reader hasn't reached.
+// public/texts/<id>/illustrations.json lists them.
 
 export interface Illustration {
   chapter: number
-  /** A phrase from the paragraph the picture follows. */
-  after: string
+  /** A phrase from the paragraph where the depicted passage starts. */
+  from: string
+  /** A phrase from the paragraph where it ends (the first match at or after `from`); defaults to `from`. */
+  to?: string
+  /** A phrase from the paragraph the inline picture follows; defaults to `to`. */
+  after?: string
   file: string
   width: number
   height: number
@@ -17,6 +23,14 @@ export interface IllustrationSet {
   license: string
   credit: string
   items: Illustration[]
+}
+
+/** An illustration resolved against a chapter's paragraphs. */
+export interface Placed {
+  item: Illustration
+  from: number
+  to: number
+  after: number
 }
 
 const sets = new Map<string, Promise<IllustrationSet | null>>()
@@ -35,7 +49,7 @@ export function getIllustrations(bookId: string): Promise<IllustrationSet | null
 
 export const illustrationUrl = (bookId: string, file: string) => `${import.meta.env.BASE_URL}texts/${bookId}/img/${file}`
 
-const fold = (s: string) =>
+export const fold = (s: string) =>
   s
     .toLowerCase()
     .replace(/[“”]/g, '"')
@@ -44,18 +58,29 @@ const fold = (s: string) =>
     .trim()
 
 /**
- * Which paragraph each illustration follows: the first paragraph containing its `after` phrase.
- * Returns a map from paragraph index to the illustrations placed after it; unmatched ones are left out.
+ * Where each of the chapter's illustrations sits: the paragraph its passage starts in, ends in, and the one the inline
+ * picture follows. Illustrations whose phrases don't match are left out, so a bad anchor can never misplace a picture.
  */
-export function placeIllustrations(items: Illustration[], chapter: number, paragraphs: string[]): Map<number, Illustration[]> {
-  const out = new Map<number, Illustration[]>()
+export function placeIllustrations(items: Illustration[], chapter: number, paragraphs: string[]): Placed[] {
   const folded = paragraphs.map(fold)
-  for (const it of items) {
-    if (it.chapter !== chapter) continue
-    const needle = fold(it.after)
-    const i = folded.findIndex((p) => p.includes(needle))
-    if (i < 0) continue
-    out.set(i, [...(out.get(i) ?? []), it])
+  const find = (phrase: string, start = 0) => {
+    const needle = fold(phrase)
+    for (let i = start; i < folded.length; i++) if (folded[i].includes(needle)) return i
+    return -1
+  }
+  const out: Placed[] = []
+  for (const item of items) {
+    if (item.chapter !== chapter) continue
+    const from = find(item.from)
+    if (from < 0) continue
+    const to = item.to ? find(item.to, from) : from
+    if (to < 0) continue
+    const after = item.after ? find(item.after, from) : to
+    if (after < 0) continue
+    out.push({ item, from, to, after })
   }
   return out
 }
+
+/** The illustration whose passage the reader is in, if any. */
+export const pinnedAt = (placed: Placed[], paragraph: number) => placed.find((p) => paragraph >= p.from && paragraph <= p.to) ?? null
