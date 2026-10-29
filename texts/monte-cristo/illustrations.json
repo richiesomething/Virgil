@@ -1005,8 +1005,18 @@
     },
     {
       "chapter": 43,
-      "from": "Bertuccio raised the lantern, and obeyed",
+      "from": "Tell them to stop at Rue de la Fontaine, No. 28",
       "file": "043-1.webp",
+      "width": 856,
+      "height": 1000,
+      "caption": "The house at Auteuil, Rue de la Fontaine, No. 28",
+      "source": "V3-D111",
+      "to": "and announce me"
+    },
+    {
+      "chapter": 43,
+      "from": "Bertuccio raised the lantern, and obeyed",
+      "file": "043-2.webp",
       "width": 831,
       "height": 1000,
       "caption": "Bertuccio, lantern in hand, begs the count not to go on into the garden",
@@ -1145,8 +1155,19 @@
     },
     {
       "chapter": 49,
-      "from": "Monte Cristo summoned the Greek attendant",
+      "from": "The young girl herself generally passed her time",
       "file": "049-1.webp",
+      "width": 710,
+      "height": 1000,
+      "caption": "Haydée, the young Greek",
+      "source": "ext/c49-gavarni-haydee",
+      "to": "she had not yet numbered more than nineteen or twenty summers",
+      "credit": "Paul Gavarni, Haydée, from the 1846 illustrated edition of Le Comte de Monte-Cristo (Wikimedia Commons)"
+    },
+    {
+      "chapter": 49,
+      "from": "Monte Cristo summoned the Greek attendant",
+      "file": "049-2.webp",
       "width": 1000,
       "height": 808,
       "caption": "“Are you no longer my master, or have I ceased to be your slave?”",
@@ -1579,6 +1600,16 @@
       "caption": "Madame Danglars seizes Villefort’s hands",
       "source": "V3-D269",
       "to": "Ah, my child, my poor child!"
+    },
+    {
+      "chapter": 68,
+      "from": "drove to the Champs-Élysées, to the house of Monte Cristo",
+      "file": "068-1.webp",
+      "width": 856,
+      "height": 1000,
+      "caption": "The Champs-Élysées, where the count has his house",
+      "source": "V3-D277",
+      "to": "And I have come at once to see you"
     },
     {
       "chapter": 69,
