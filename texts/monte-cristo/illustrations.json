@@ -583,6 +583,66 @@
       "to": "The tenants of the humble lodging were a young couple"
     },
     {
+      "chapter": 26,
+      "from": "Having arrived before the Pont du Gard, the horse stopped",
+      "file": "026-1.webp",
+      "width": 1000,
+      "height": 776,
+      "caption": "“You are welcome, sir, most welcome!”",
+      "source": "V1-D319",
+      "to": "“You are welcome, sir, most welcome!” repeated the astonished Caderousse"
+    },
+    {
+      "chapter": 26,
+      "from": "Upon issuing forth from his subterranean retreat",
+      "file": "026-2.webp",
+      "width": 854,
+      "height": 1000,
+      "caption": "The Abbé Busoni and Caderousse at the inn table",
+      "source": "V1-D327",
+      "to": "“Are you quite alone?” inquired the guest"
+    },
+    {
+      "chapter": 26,
+      "from": "“And you are a fool for having said anything about it,”",
+      "file": "026-3.webp",
+      "width": 825,
+      "height": 1000,
+      "caption": "La Carconte tells her husband to hold his tongue",
+      "source": "V1-D323",
+      "to": "“Mind your own business, wife,” replied Caderousse sharply"
+    },
+    {
+      "chapter": 27,
+      "from": "“Mercédès came again, and she found him so altered",
+      "file": "027-1.webp",
+      "width": 829,
+      "height": 1000,
+      "caption": "Mercédès at old Dantès’ deathbed",
+      "source": "V1-D341",
+      "to": "“Of hunger, sir, of hunger,” said Caderousse"
+    },
+    {
+      "chapter": 27,
+      "from": "“Six months afterwards,” continued Caderousse, “the marriage took place",
+      "file": "027-2.webp",
+      "width": 857,
+      "height": 1000,
+      "caption": "Mercédès marries Fernand in the church of the Accoules",
+      "source": "V1-D351",
+      "to": "she nearly fainted as she passed La Réser"
+    },
+    {
+      "chapter": 27,
+      "from": "When Caderousse turned around, he saw behind him La Carconte",
+      "file": "027-3.webp",
+      "width": 1000,
+      "height": 795,
+      "caption": "“Suppose it’s false?”",
+      "source": "V1-D349",
+      "to": "“To get your secret without paying for it, you blockhead!”"
+    },
+    {
       "chapter": 28,
       "from": "presented himself before the mayor of Marseilles",
       "file": "028-1.webp",
@@ -700,6 +760,116 @@
       "caption": "Signor Sinbad, on the deck of his yacht, bids Franz adieu",
       "source": "V2-D093",
       "to": "The young man took his carbine and fired it in the air"
+    },
+    {
+      "chapter": 33,
+      "from": "cried Carlini, rising in his turn, and approaching the corpse",
+      "file": "033-1.webp",
+      "width": 831,
+      "height": 1000,
+      "caption": "“Does anyone dispute the possession of this woman with me?”",
+      "source": "V2-D109",
+      "to": "Carlini raised her in his arms, and carried her out"
+    },
+    {
+      "chapter": 33,
+      "from": "The ravisher stopped suddenly, his knees bent under him",
+      "file": "033-2.webp",
+      "width": 827,
+      "height": 1000,
+      "caption": "Shot by Vampa, the ravisher falls; Teresa rises unharmed",
+      "source": "V2-D123",
+      "to": "Vampa took Cucumetto’s"
+    },
+    {
+      "chapter": 33,
+      "from": "Teresa and Luigi reached the summit",
+      "file": "033-3.webp",
+      "width": 1000,
+      "height": 785,
+      "caption": "“I come to ask to be your captain”",
+      "source": "V2-D127",
+      "to": "An hour afterwards Luigi Vampa was chosen captain"
+    },
+    {
+      "chapter": 34,
+      "from": "Perhaps some of these days I may be entrapped, like poor Peppino",
+      "file": "034-1.webp",
+      "width": 885,
+      "height": 1000,
+      "caption": "Poor Peppino, the shepherd, awaiting execution in prison",
+      "source": "V2-D137",
+      "to": "he was merely a poor shepherd, whose only crime"
+    },
+    {
+      "chapter": 34,
+      "from": "The overture to the second act began",
+      "file": "034-2.webp",
+      "width": 867,
+      "height": 1000,
+      "caption": "The occupant of the box stands beside the beautiful Greek, his face fully revealed",
+      "source": "V2-D145",
+      "to": "All doubt of his identity was now at an end"
+    },
+    {
+      "chapter": 34,
+      "from": "we shall ascertain who and what he is—he comes",
+      "file": "034-3.webp",
+      "width": 1000,
+      "height": 787,
+      "caption": "The tapestry is drawn aside: the owner of all these riches appears",
+      "source": "V2-D155",
+      "to": "the owner of all these riches stood before the two young men"
+    },
+    {
+      "chapter": 35,
+      "from": "Behind the executioner came, in the order in which they were to die",
+      "file": "035-1.webp",
+      "width": 865,
+      "height": 1000,
+      "caption": "Peppino and Andrea are led to the scaffold",
+      "source": "V2-D165",
+      "to": "Peppino was a handsome young man"
+    },
+    {
+      "chapter": 35,
+      "from": "Look, look,” cried the count, seizing the young men’s hands",
+      "file": "035-2.webp",
+      "width": 864,
+      "height": 1000,
+      "caption": "The count holds Franz at the window to watch the execution",
+      "source": "V2-D170",
+      "to": "Albert, with his eyes closed, was standing grasping the window-curtains"
+    },
+    {
+      "chapter": 36,
+      "from": "It is difficult to form an idea of the perfect change",
+      "file": "036-1.webp",
+      "width": 863,
+      "height": 1000,
+      "caption": "The Carnival at Rome: the count’s carriage, its coachman in a bearskin, in the throng of masks",
+      "source": "V2-D175",
+      "to": "the count’s coachman was attired in a bearskin"
+    },
+    {
+      "chapter": 36,
+      "from": "At three o’clock the sound of fireworks",
+      "file": "036-2.webp",
+      "width": 860,
+      "height": 1000,
+      "caption": "The race of the riderless horses down the Corso",
+      "source": "V2-D197",
+      "to": "seven or eight horses, excited by the shouts"
+    },
+    {
+      "chapter": 36,
+      "from": "Every five minutes Albert took out his watch",
+      "file": "036-3.webp",
+      "width": 1000,
+      "height": 775,
+      "caption": "A mask in a peasant woman’s costume snatches Albert’s moccoletto",
+      "source": "V2-D191",
+      "to": "Franz found himself in utter darkness"
     }
   ]
 }
