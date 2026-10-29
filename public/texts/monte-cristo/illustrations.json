@@ -492,6 +492,35 @@
       "caption": "While the inspector reads his newspaper, the Englishman slips the accusation into his pocket",
       "source": "V2-D029",
       "to": "closing the register with a slam"
+    },
+    {
+      "chapter": 29,
+      "from": "The Englishman entered, and found Morrel seated",
+      "file": "029-1.webp",
+      "width": 637,
+      "height": 1000,
+      "caption": "“So then, sir, you hold bills of mine?”",
+      "source": "V2-D035",
+      "to": "I recognize them,” said Morrel"
+    },
+    {
+      "chapter": 29,
+      "from": "Scarcely had he uttered those words when Madame Morrel entered",
+      "file": "029-2.webp",
+      "width": 1000,
+      "height": 780,
+      "caption": "Penelon, twirling the remains of his hat, comes to tell of the Pharaon",
+      "source": "V2-D039",
+      "to": "Well, now tell your story, Penelon"
+    },
+    {
+      "chapter": 29,
+      "from": "There’s nothing gives you so much courage as good reasons",
+      "file": "029-3.webp",
+      "width": 918,
+      "height": 1000,
+      "caption": "“To the boats, my lads, as quick as you can”",
+      "source": "V2-D043"
     }
   ]
 }
