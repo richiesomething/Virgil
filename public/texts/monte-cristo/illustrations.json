@@ -1726,6 +1726,26 @@
       "caption": "“You, M. Noirtier—you killed my father?”",
       "source": "V4-D041",
       "to": "Franz fell powerless on a chair; Villefort opened the door"
+    },
+    {
+      "chapter": 76,
+      "from": "the count noticed M. Andrea Cavalcanti’s solicitude",
+      "file": "076-1.webp",
+      "width": 848,
+      "height": 1000,
+      "caption": "Eugénie and Mademoiselle d’Armilly at the piano, Andrea listening at the door",
+      "source": "V4-D047",
+      "to": "The two young ladies were seen seated on the same chair, at the piano"
+    },
+    {
+      "chapter": 76,
+      "from": "Albert advanced towards Eugénie, smiling",
+      "file": "076-2.webp",
+      "width": 846,
+      "height": 1000,
+      "caption": "Albert pays his compliments to Mademoiselle Danglars",
+      "source": "V4-D051",
+      "to": "Albert perfectly indifferent to Mademoiselle Danglars’ contempt"
     }
   ]
 }
