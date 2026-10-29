@@ -185,6 +185,26 @@
       "to": "dropping the stool and sitting on it"
     },
     {
+      "chapter": 9,
+      "from": "As Villefort drew near, she advanced and stood before him",
+      "file": "009-1.webp",
+      "width": 845,
+      "height": 1000,
+      "caption": "Mercédès stops Villefort to ask what has become of Edmond",
+      "source": "V1-D125",
+      "to": "he is no longer in my hands"
+    },
+    {
+      "chapter": 9,
+      "from": "Meanwhile what of Mercédès?",
+      "file": "009-2.webp",
+      "width": 817,
+      "height": 1000,
+      "caption": "Mercédès in despair at the Catalans, Fernand at her side",
+      "source": "V1-D127",
+      "to": "“I have not quitted you since yesterday,” returned Fernand"
+    },
+    {
       "chapter": 14,
       "from": "The soldiers interposed their bayonets",
       "file": "014-1.webp",
@@ -213,6 +233,26 @@
       "caption": "The inspector reads the note in the register",
       "source": "V1-D179",
       "to": "he simply wrote, “Nothing to be done.”"
+    },
+    {
+      "chapter": 28,
+      "from": "presented himself before the mayor of Marseilles",
+      "file": "028-1.webp",
+      "width": 875,
+      "height": 1000,
+      "caption": "The Englishman questions the mayor of Marseilles about Morrel",
+      "source": "V2-D023",
+      "to": "made his bow and went away"
+    },
+    {
+      "chapter": 28,
+      "from": "And they both entered M. de Boville’s study",
+      "file": "028-2.webp",
+      "width": 867,
+      "height": 1000,
+      "caption": "While the inspector reads his newspaper, the Englishman slips the accusation into his pocket",
+      "source": "V2-D029",
+      "to": "closing the register with a slam"
     }
   ]
 }
