@@ -1340,6 +1340,26 @@
       "caption": "Valentine runs her finger down the dictionary until her grandfather stops her",
       "source": "V3-D169",
       "to": "You would wish a notary to be sent for then?"
+    },
+    {
+      "chapter": 59,
+      "from": "A few words sufficed for a mutual understanding between the two officers",
+      "file": "059-1.webp",
+      "width": 933,
+      "height": 1000,
+      "caption": "The two notaries question Noirtier about his will",
+      "source": "V3-D175",
+      "to": "Do you possess 400,000 francs?"
+    },
+    {
+      "chapter": 59,
+      "from": "Nothing, sir; it is a resolution which my father has taken",
+      "file": "059-2.webp",
+      "width": 885,
+      "height": 1000,
+      "caption": "Villefort quits the room with his wife, leaving his father to do as he pleases",
+      "source": "V3-D179",
+      "to": "Having said this, Villefort quitted the room with his wife"
     }
   ]
 }
