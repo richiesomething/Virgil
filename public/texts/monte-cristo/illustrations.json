@@ -2023,6 +2023,26 @@
       "height": 1000,
       "caption": "The Opera House",
       "source": "V4-D217"
+    },
+    {
+      "chapter": 89,
+      "from": "Ali, bring me my pistols with the ivory cross",
+      "file": "089-1.webp",
+      "width": 877,
+      "height": 1000,
+      "caption": "Ali brings the pistols with the ivory cross",
+      "source": "V4-D227",
+      "to": "Ali brought the box to his master"
+    },
+    {
+      "chapter": 89,
+      "from": "Edmond, you will not kill my son!",
+      "file": "089-2.webp",
+      "width": 1000,
+      "height": 807,
+      "caption": "A veiled woman at the count’s door: “Edmond, you will not kill my son!”",
+      "source": "V4-D223",
+      "to": "Mercédès lives, sir, and she remembers"
     }
   ]
 }
