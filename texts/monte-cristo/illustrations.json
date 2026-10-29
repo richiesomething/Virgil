@@ -2023,6 +2023,76 @@
       "height": 1000,
       "caption": "The Opera House",
       "source": "V4-D217"
+    },
+    {
+      "chapter": 89,
+      "from": "Ali, bring me my pistols with the ivory cross",
+      "file": "089-1.webp",
+      "width": 877,
+      "height": 1000,
+      "caption": "Ali brings the pistols with the ivory cross",
+      "source": "V4-D227",
+      "to": "Ali brought the box to his master"
+    },
+    {
+      "chapter": 89,
+      "from": "Edmond, you will not kill my son!",
+      "file": "089-2.webp",
+      "width": 1000,
+      "height": 807,
+      "caption": "A veiled woman at the count’s door: “Edmond, you will not kill my son!”",
+      "source": "V4-D223",
+      "to": "Mercédès lives, sir, and she remembers"
+    },
+    {
+      "chapter": 90,
+      "from": "Haydée,” said he, “did you read it?",
+      "file": "090-1.webp",
+      "width": 1000,
+      "height": 784,
+      "caption": "“Haydée, did you read it?” The count surprised at his writing-table",
+      "source": "V4-D237",
+      "to": "Then he carried Haydée to her room, resigned her to the care"
+    },
+    {
+      "chapter": 90,
+      "from": "There he comes,” said Beauchamp, “on horseback, at full gallop",
+      "file": "090-2.webp",
+      "width": 831,
+      "height": 1000,
+      "caption": "Albert arrives on horseback, at full gallop",
+      "source": "V4-D249",
+      "to": "He jumped from his horse, threw the bridle on his servant’s arms"
+    },
+    {
+      "chapter": 90,
+      "from": "When at three paces distant from each other, Albert and the count stopped",
+      "file": "090-3.webp",
+      "width": 862,
+      "height": 1000,
+      "caption": "The meeting in the Bois de Vincennes: Albert makes his apology before the witnesses",
+      "source": "V4-D243",
+      "to": "M. de Monte Cristo receives my apology"
+    },
+    {
+      "chapter": 92,
+      "from": "M. Albert de Morcerf is no coward!",
+      "file": "092-1.webp",
+      "width": 1000,
+      "height": 789,
+      "caption": "The Count of Morcerf confronts Monte Cristo: “We shall fight till one of us is dead”",
+      "source": "V4-D257",
+      "to": "Until one of us dies,” repeated Monte Cristo"
+    },
+    {
+      "chapter": 92,
+      "from": "The Count of Monte Cristo turned dreadfully pale; his eye seemed to burn",
+      "file": "092-2.webp",
+      "width": 1000,
+      "height": 803,
+      "caption": "In a sailor’s jacket and hat, the count speaks his name: “Edmond Dantès!”",
+      "source": "V4-D263",
+      "to": "Edmond Dantès!"
     }
   ]
 }
