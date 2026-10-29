@@ -41,6 +41,11 @@ Use `pipeline/templates/` (one brief per stage) and `docs/data-format.md`. Every
 - Transcribe: `python3 scripts/audio/asr.py <item> <filePattern> <scratch>/asr <n…>` (about 1.5 min a chapter on four cores; two workers with `ASR_THREADS=2` on halves of the book are fastest). Then align: `node scripts/audio/sync.mjs <id> <scratch>/asr`, which writes `public/texts/<id>/sync/NNN.json` and `audio.json` and prints per-chapter metrics. Look at any chapter under 85% matched or with an unconfirmed run over 80 words: usually a passage the narrator skipped or a different edition. Run `node scripts/validate-data.mjs`.
 - Check it in the browser: play a chapter in Flash and Text view and watch the words follow the voice.
 
+**Illustrations stage (optional, text mode only):** a few period pictures per chapter, pinned while their passage is read (docs/reading-spec.md §6.1).
+- Find a public-domain illustrated edition of the same book on Wikimedia Commons (look for the book's category and its subcategories; plates cut out per page, like "The Count of Monte-Cristo 1887 Volume N", are ideal) and, for scenes without a plate, period art of the setting (prints, paintings) or illustrations from other public-domain editions. Download thumbnails with `Special:FilePath/<title>?width=1000`, one request every 6–7 seconds with a descriptive User-Agent, or Wikimedia blocks the address.
+- Author `<scratch>/out/NNN.json` per chapter: `{ "items": [{ "chapter", "source" (plate file without extension, or "ext/<key>"), "from", "to", "after"?, "caption", "credit"? }] }`. `from`/`to` are phrases copied exactly from the paragraphs where the depicted scene starts and ends (3–15 paragraphs); the caption uses only names the text has given by then (disguises stay disguises). Parallel agents per volume work well; then an independent spoiler review of all captions.
+- `node scripts/illustrations/ingest.mjs <id> <out> <plates> [NNN…]` converts plates to WebP in `public/texts/<id>/img/`, checks the anchors and merges `public/texts/<id>/illustrations.json`; `node scripts/validate-data.mjs` re-checks everything. Commit chapter by chapter if the work is long.
+
 ## What can run at the same time
 
 Stages depend only on what they read, so overlap them:
