@@ -521,6 +521,36 @@
       "height": 1000,
       "caption": "“To the boats, my lads, as quick as you can”",
       "source": "V2-D043"
+    },
+    {
+      "chapter": 30,
+      "from": "on the first step of the staircase she found a man holding a letter",
+      "file": "030-1.webp",
+      "width": 842,
+      "height": 1000,
+      "caption": "Julie reads the letter signed “Sinbad the Sailor”",
+      "source": "V2-D053",
+      "to": "This postscript decreased greatly the young girl’s happiness"
+    },
+    {
+      "chapter": 30,
+      "from": "what are you going to do with that brace of pistols",
+      "file": "030-2.webp",
+      "width": 891,
+      "height": 1000,
+      "caption": "Maximilian finds his father with a brace of pistols",
+      "source": "V2-D057",
+      "to": "There is one for you and one for me"
+    },
+    {
+      "chapter": 30,
+      "from": "He placed the muzzle of the pistol between his teeth",
+      "file": "030-3.webp",
+      "width": 1000,
+      "height": 795,
+      "caption": "“My father! Saved, you are saved!”",
+      "source": "V2-D061",
+      "to": "Julie handed to her father the letter she had received"
     }
   ]
 }
