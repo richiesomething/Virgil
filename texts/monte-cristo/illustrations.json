@@ -823,8 +823,19 @@
     },
     {
       "chapter": 35,
-      "from": "Behind the executioner came, in the order in which they were to die",
+      "from": "As they approached the Piazza del Popolo, the crowd became more dense",
       "file": "035-1.webp",
+      "width": 1000,
+      "height": 678,
+      "caption": "The Piazza del Popolo: the obelisk and the twin churches at the head of the Corso",
+      "source": "ext/c35-piranesi-popolo",
+      "to": "The Monte Pincio seemed a vast amphitheatre filled with spectators",
+      "credit": "Giovanni Battista Piranesi, Veduta della Piazza del Popolo, c. 1750, etching (Rijksmuseum, via Wikimedia Commons)"
+    },
+    {
+      "chapter": 35,
+      "from": "Behind the executioner came, in the order in which they were to die",
+      "file": "035-2.webp",
       "width": 865,
       "height": 1000,
       "caption": "Peppino and Andrea are led to the scaffold",
@@ -834,7 +845,7 @@
     {
       "chapter": 35,
       "from": "Look, look,” cried the count, seizing the young men’s hands",
-      "file": "035-2.webp",
+      "file": "035-3.webp",
       "width": 864,
       "height": 1000,
       "caption": "The count holds Franz at the window to watch the execution",
