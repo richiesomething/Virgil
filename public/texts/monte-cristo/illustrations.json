@@ -1320,6 +1320,26 @@
       "caption": "Valentine passes her hand through the opening in the gate",
       "source": "V3-D147",
       "to": "Valentine mounted on a bench, and passed not only her finger"
+    },
+    {
+      "chapter": 58,
+      "from": "M. de Villefort entered his father’s room, followed by Madame de Villefort",
+      "file": "058-1.webp",
+      "width": 896,
+      "height": 1000,
+      "caption": "M. and Madame de Villefort take their places on either side of the paralytic",
+      "source": "V3-D165",
+      "to": "Noirtier’s face remained perfectly passive during this long preamble"
+    },
+    {
+      "chapter": 58,
+      "from": "Valentine fetched a dictionary, which she placed on a desk before Noirtier",
+      "file": "058-2.webp",
+      "width": 835,
+      "height": 1000,
+      "caption": "Valentine runs her finger down the dictionary until her grandfather stops her",
+      "source": "V3-D169",
+      "to": "You would wish a notary to be sent for then?"
     }
   ]
 }
