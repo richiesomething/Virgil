@@ -394,6 +394,36 @@
       "to": "“He is saved! he is saved!”"
     },
     {
+      "chapter": 18,
+      "from": "When Dantès returned next morning to the chamber",
+      "file": "018-1.webp",
+      "width": 816,
+      "height": 1000,
+      "caption": "Dantès fears the abbé has relapsed into his madness about the treasure",
+      "source": "V1-D233",
+      "to": "Edmond turned away his head with a sigh"
+    },
+    {
+      "chapter": 18,
+      "from": "“At the sight of papers of all sorts",
+      "file": "018-2.webp",
+      "width": 1000,
+      "height": 761,
+      "caption": "The cardinal’s secretary searches the Spada family papers",
+      "source": "V1-D245",
+      "to": "“I was then almost assured that the inheritance"
+    },
+    {
+      "chapter": 18,
+      "from": "Faria, with an air of triumph, offered the paper",
+      "file": "018-3.webp",
+      "width": 828,
+      "height": 1000,
+      "caption": "Faria hands Dantès the half-burnt paper",
+      "source": "V1-D243",
+      "to": "“And now,” said the abbé, “read this other paper"
+    },
+    {
       "chapter": 28,
       "from": "presented himself before the mayor of Marseilles",
       "file": "028-1.webp",
