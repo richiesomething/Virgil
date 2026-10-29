@@ -2457,8 +2457,19 @@
     },
     {
       "chapter": 105,
-      "from": "Monte Cristo concealed himself behind a large tomb",
+      "from": "M. de Boville had indeed met the funeral procession",
       "file": "105-1.webp",
+      "width": 1000,
+      "height": 653,
+      "caption": "A funeral arrives at the gate of Père-Lachaise, drawn in 1837",
+      "source": "ext/c105-perelachaise",
+      "to": "At length they arrived at the cemetery",
+      "credit": "Jacques Alphonse Testard, Vue du cimetière du Père-Lachaise en 1837 (L’arrivée d’un enterrement), pen and wash drawing, 1837 (Musée Carnavalet, CC0, via Wikimedia Commons)"
+    },
+    {
+      "chapter": 105,
+      "from": "Monte Cristo concealed himself behind a large tomb",
+      "file": "105-2.webp",
       "width": 1000,
       "height": 813,
       "caption": "“I was looking for you, my friend”: the count finds Morrel praying at the tomb",
@@ -2468,7 +2479,7 @@
     {
       "chapter": 105,
       "from": "I tell you that you are about to destroy yourself",
-      "file": "105-2.webp",
+      "file": "105-3.webp",
       "width": 830,
       "height": 1000,
       "caption": "The count seizes Morrel’s wrist: “You wish to destroy yourself; you have written it”",
@@ -2478,7 +2489,7 @@
     {
       "chapter": 105,
       "from": "Maximilian would have died rather than relax his hold of the handle of the door",
-      "file": "105-3.webp",
+      "file": "105-4.webp",
       "width": 830,
       "height": 1000,
       "caption": "“On your knees—he is our benefactor—the saviour of our father!”",
