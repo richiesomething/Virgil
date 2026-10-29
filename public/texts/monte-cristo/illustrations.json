@@ -1547,6 +1547,26 @@
       "caption": "Madame Danglars seizes Villefort’s hands",
       "source": "V3-D269",
       "to": "Ah, my child, my poor child!"
+    },
+    {
+      "chapter": 69,
+      "from": "The stranger ascended a rough staircase, and before a table",
+      "file": "069-1.webp",
+      "width": 1000,
+      "height": 811,
+      "caption": "The visitor finds the Abbé Busoni at work in his library",
+      "source": "V3-D289",
+      "to": "sends to me from the prefect of police?"
+    },
+    {
+      "chapter": 69,
+      "from": "After ten minutes’ expectation the clock struck ten",
+      "file": "069-2.webp",
+      "width": 857,
+      "height": 1000,
+      "caption": "The envoy questions Lord Wilmore",
+      "source": "V3-D293",
+      "to": "But as Lord Wilmore, in the character of the count’s enemy"
     }
   ]
 }
