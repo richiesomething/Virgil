@@ -49,7 +49,8 @@ for (const f of files) {
     k++
     const file = `${nnn}-${k}.webp`
     const out = join(imgDir, file)
-    if (!existsSync(out)) execFileSync('convert', [src, '-colorspace', 'Gray', '-resize', '1000x1000>', '-level', '4%,97%', '-strip', '-quality', '72', '-define', 'webp:method=6', out])
+    const prev = manifest.items.find((it) => it.file === file)
+    if (!existsSync(out) || (prev && prev.source && prev.source !== e.source)) execFileSync('convert', [src, '-colorspace', 'Gray', '-resize', '1000x1000>', '-level', '4%,97%', '-strip', '-quality', '72', '-define', 'webp:method=6', out])
     const [w, h] = execFileSync('identify', ['-format', '%w %h', out]).toString().trim().split(' ').map(Number)
     const item = { chapter, from: e.from, file, width: w, height: h, caption: e.caption, source: e.source }
     if (e.to) item.to = e.to
