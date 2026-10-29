@@ -1160,6 +1160,26 @@
       "caption": "Penelon, the old sailor turned gardener",
       "source": "V3-D047",
       "to": "go and inform M. Emmanuel of this gentleman"
+    },
+    {
+      "chapter": 51,
+      "from": "At that instant the little side-gate leading from the waste ground",
+      "file": "051-1.webp",
+      "width": 849,
+      "height": 1000,
+      "caption": "Maximilian, in a gardener’s blouse, at the palisade of the Villefort garden",
+      "source": "V3-D053",
+      "to": "It is almost dinnertime, and I had to use no little diplomacy"
+    },
+    {
+      "chapter": 51,
+      "from": "Maximilian leaped at one bound into his crop of lucern",
+      "file": "051-2.webp",
+      "width": 817,
+      "height": 1000,
+      "caption": "Maximilian weeds his lucern as a visitor is announced",
+      "source": "V3-D059",
+      "to": "I would give a good deal to know how it comes about"
     }
   ]
 }
