@@ -2241,6 +2241,26 @@
       "caption": "“Be it so!” Villefort refuses the veiled baroness’s plea for mercy",
       "source": "V5-D063",
       "to": "he was taken at Compiègne, and all is over"
+    },
+    {
+      "chapter": 100,
+      "from": "From behind the door a human figure appeared",
+      "file": "100-1.webp",
+      "width": 843,
+      "height": 1000,
+      "caption": "The apparition puts a finger to its lips: “The Count of Monte Cristo!”",
+      "source": "V5-D071",
+      "to": "the man standing before you, Valentine"
+    },
+    {
+      "chapter": 100,
+      "from": "summon up all your courage; still the beatings of your heart",
+      "file": "100-2.webp",
+      "width": 875,
+      "height": 1000,
+      "caption": "“Not a movement—not a word”: the count leaves Valentine to feign sleep",
+      "source": "V5-D073",
+      "to": "the count disappeared through the door, which noiselessly closed"
     }
   ]
 }
