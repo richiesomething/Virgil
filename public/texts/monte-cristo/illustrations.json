@@ -1694,23 +1694,23 @@
     },
     {
       "chapter": 72,
-      "from": "Still that idea of death, madame,” said Villefort",
+      "from": "This night I have had a fearful sleep",
       "file": "072-2.webp",
-      "width": 866,
-      "height": 1000,
+      "width": 1000,
+      "height": 830,
       "caption": "“I saw a white figure”: the marchioness tells of her fearful night",
-      "source": "V3-D323",
-      "to": "do you wish to kill me? Oh, how feverish you are"
+      "source": "V3-D321",
+      "to": "I saw a white figure"
     },
     {
       "chapter": 72,
-      "from": "The same as usual, my dear, my glass is there on the table",
+      "from": "Valentine seated herself at the bedside of her grandmother",
       "file": "072-3.webp",
-      "width": 1000,
-      "height": 830,
-      "caption": "Valentine pours the orangeade for her grandmother",
-      "source": "V3-D321",
-      "to": "The marchioness drained the glass at a single draught"
+      "width": 866,
+      "height": 1000,
+      "caption": "Valentine watches at her grandmother’s bedside",
+      "source": "V3-D323",
+      "to": "Two hours passed thus; Madame de Saint-Méran was in a feverish sleep"
     },
     {
       "chapter": 73,
