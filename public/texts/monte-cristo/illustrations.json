@@ -1005,8 +1005,18 @@
     },
     {
       "chapter": 43,
-      "from": "Bertuccio raised the lantern, and obeyed",
+      "from": "Tell them to stop at Rue de la Fontaine, No. 28",
       "file": "043-1.webp",
+      "width": 856,
+      "height": 1000,
+      "caption": "The house at Auteuil, Rue de la Fontaine, No. 28",
+      "source": "V3-D111",
+      "to": "and announce me"
+    },
+    {
+      "chapter": 43,
+      "from": "Bertuccio raised the lantern, and obeyed",
+      "file": "043-2.webp",
       "width": 831,
       "height": 1000,
       "caption": "Bertuccio, lantern in hand, begs the count not to go on into the garden",
