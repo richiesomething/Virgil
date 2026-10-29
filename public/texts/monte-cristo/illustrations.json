@@ -1746,6 +1746,36 @@
       "caption": "Albert pays his compliments to Mademoiselle Danglars",
       "source": "V4-D051",
       "to": "Albert perfectly indifferent to Mademoiselle Danglars’ contempt"
+    },
+    {
+      "chapter": 77,
+      "from": "Haydée was awaiting her visitors in the first room",
+      "file": "077-1.webp",
+      "width": 852,
+      "height": 1000,
+      "caption": "Haydée receives the count and his guest",
+      "source": "V4-D061",
+      "to": "it is the same man whom I rescued from the hands of the banditti"
+    },
+    {
+      "chapter": 77,
+      "from": "I could scarcely walk when my mother, who was called Vasiliki",
+      "file": "077-2.webp",
+      "width": 856,
+      "height": 1000,
+      "caption": "Haydée’s earliest memory: her mother Vasiliki, as she tells it",
+      "source": "V4-D059",
+      "to": "sitting under the shade of some sycamore-trees, on the borders of a lake"
+    },
+    {
+      "chapter": 77,
+      "from": "had recognized the messenger of the pasha",
+      "file": "077-3.webp",
+      "width": 850,
+      "height": 1000,
+      "caption": "The messenger shows the ring, and Selim is struck down in the cavern",
+      "source": "V4-D071",
+      "to": "two reports of a pistol were heard; he had fired them himself"
     }
   ]
 }
