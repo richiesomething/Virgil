@@ -2191,6 +2191,26 @@
       "height": 1000,
       "caption": "The piano resounds: Mademoiselle d’Armilly plays and Eugénie sings",
       "source": "V4-D301"
+    },
+    {
+      "chapter": 97,
+      "from": "And the two young girls began to heap into a trunk",
+      "file": "097-1.webp",
+      "width": 1000,
+      "height": 830,
+      "caption": "Eugénie kneels on the portmanteau while Louise fastens the padlock",
+      "source": "V5-D035",
+      "to": "Mademoiselle d’Armilly passed the bolt of the padlock through"
+    },
+    {
+      "chapter": 97,
+      "from": "she took in her right hand a pair of long scissors",
+      "file": "097-2.webp",
+      "width": 821,
+      "height": 1000,
+      "caption": "“Am I not a hundred times better thus?” Eugénie in men’s clothes, her hair at her feet",
+      "source": "V5-D039",
+      "to": "And the two young girls, whom everyone might have thought plunged in grief"
     }
   ]
 }
