@@ -1498,6 +1498,26 @@
       "caption": "Danglars has an accounting with his wife",
       "source": "V3-D243",
       "to": "I thought you took the liveliest interest in all my affairs"
+    },
+    {
+      "chapter": 66,
+      "from": "Monte Cristo was at home; only he was engaged with someone",
+      "file": "066-1.webp",
+      "width": 838,
+      "height": 1000,
+      "caption": "The Abbé Busoni passes through the anteroom where Danglars waits",
+      "source": "V3-D251",
+      "to": "I have chosen my visit at a wrong time, and will retire"
+    },
+    {
+      "chapter": 66,
+      "from": "I make three assortments in fortune",
+      "file": "066-2.webp",
+      "width": 893,
+      "height": 1000,
+      "caption": "The count reckons up the losses of the house of Danglars",
+      "source": "V3-D253",
+      "to": "But the wound remains and will reopen at the first loss"
     }
   ]
 }
