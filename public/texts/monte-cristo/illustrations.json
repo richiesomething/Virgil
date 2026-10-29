@@ -1806,6 +1806,35 @@
       "caption": "“You will retract this assertion, will you not, Beauchamp?”",
       "source": "V4-D097",
       "to": "When I am convinced that the statement is false"
+    },
+    {
+      "chapter": 79,
+      "from": "What is the matter, Barrois?",
+      "file": "079-1.webp",
+      "width": 866,
+      "height": 1000,
+      "caption": "Barrois, seized with convulsions, falls at the feet of Noirtier",
+      "source": "V4-D105",
+      "to": "Barrois, his features convulsed, his eyes suffused with blood"
+    },
+    {
+      "chapter": 79,
+      "from": "D’Avrigny bounded towards the door, flew down the back staircase",
+      "file": "079-2.webp",
+      "width": 852,
+      "height": 1000,
+      "caption": "The doctor rushes down the back staircase past Madame de Villefort",
+      "source": "V4-D109"
+    },
+    {
+      "chapter": 79,
+      "from": "There is a poison which destroys life almost without leaving",
+      "file": "079-3.webp",
+      "width": 847,
+      "height": 1000,
+      "caption": "The syrup of violets turns the lemonade: Villefort convinced",
+      "source": "V4-D113",
+      "to": "Villefort said nothing, but he clasped his hands"
     }
   ]
 }
