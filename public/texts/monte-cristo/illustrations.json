@@ -233,6 +233,26 @@
       "caption": "The inspector reads the note in the register",
       "source": "V1-D179",
       "to": "he simply wrote, “Nothing to be done.”"
+    },
+    {
+      "chapter": 28,
+      "from": "presented himself before the mayor of Marseilles",
+      "file": "028-1.webp",
+      "width": 875,
+      "height": 1000,
+      "caption": "The Englishman questions the mayor of Marseilles about Morrel",
+      "source": "V2-D023",
+      "to": "made his bow and went away"
+    },
+    {
+      "chapter": 28,
+      "from": "And they both entered M. de Boville’s study",
+      "file": "028-2.webp",
+      "width": 867,
+      "height": 1000,
+      "caption": "While the inspector reads his newspaper, the Englishman slips the accusation into his pocket",
+      "source": "V2-D029",
+      "to": "closing the register with a slam"
     }
   ]
 }
