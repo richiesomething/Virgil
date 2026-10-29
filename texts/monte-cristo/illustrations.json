@@ -1498,6 +1498,55 @@
       "caption": "Danglars has an accounting with his wife",
       "source": "V3-D243",
       "to": "I thought you took the liveliest interest in all my affairs"
+    },
+    {
+      "chapter": 66,
+      "from": "Monte Cristo was at home; only he was engaged with someone",
+      "file": "066-1.webp",
+      "width": 838,
+      "height": 1000,
+      "caption": "The Abbé Busoni passes through the anteroom where Danglars waits",
+      "source": "V3-D251",
+      "to": "I have chosen my visit at a wrong time, and will retire"
+    },
+    {
+      "chapter": 66,
+      "from": "I make three assortments in fortune",
+      "file": "066-2.webp",
+      "width": 893,
+      "height": 1000,
+      "caption": "The count reckons up the losses of the house of Danglars",
+      "source": "V3-D253",
+      "to": "But the wound remains and will reopen at the first loss"
+    },
+    {
+      "chapter": 67,
+      "from": "The magistrate was seated in an armchair, writing, with his back towards the door",
+      "file": "067-1.webp",
+      "width": 836,
+      "height": 1000,
+      "caption": "The office of the king’s attorney",
+      "source": "V3-D261"
+    },
+    {
+      "chapter": 67,
+      "from": "It is a long time, madame,” said the procureur",
+      "file": "067-2.webp",
+      "width": 1000,
+      "height": 808,
+      "caption": "“I feel that my place is not in the judge’s seat, but on the prisoner’s bench”",
+      "source": "V3-D263",
+      "to": "I think, sir, you exaggerate your situation"
+    },
+    {
+      "chapter": 67,
+      "from": "the child was, perhaps, alive, and the assassin may have saved it",
+      "file": "067-3.webp",
+      "width": 832,
+      "height": 1000,
+      "caption": "Madame Danglars seizes Villefort’s hands",
+      "source": "V3-D269",
+      "to": "Ah, my child, my poor child!"
     }
   ]
 }
