@@ -1462,8 +1462,18 @@
     },
     {
       "chapter": 64,
-      "from": "Oh, as for that, I’ll take you to a splendid place",
+      "from": "I want you to take me up in your fine carriage",
       "file": "064-2.webp",
+      "width": 1000,
+      "height": 776,
+      "caption": "The stranger climbs up beside Andrea in the tilbury",
+      "source": "V4-D017",
+      "to": "The surprised groom retired."
+    },
+    {
+      "chapter": 64,
+      "from": "Oh, as for that, I’ll take you to a splendid place",
+      "file": "064-3.webp",
       "width": 849,
       "height": 1000,
       "caption": "The stranger leads the tilbury to a shady spot to talk business",
@@ -2152,6 +2162,35 @@
       "height": 1000,
       "caption": "Carpenters and masons at work on the tottering house next door",
       "source": "V4-D289"
+    },
+    {
+      "chapter": 95,
+      "from": "when the door opened and Eugénie appeared, attired in a figured black satin dress",
+      "file": "095-1.webp",
+      "width": 838,
+      "height": 1000,
+      "caption": "Eugénie opens the conference with her father in the gilded drawing-room",
+      "source": "V4-D293",
+      "to": "Danglars leaped from his chair and raised his eyes and arms towards heaven"
+    },
+    {
+      "chapter": 95,
+      "from": "But Eugénie, instead of stooping, drew herself up under the blow",
+      "file": "095-2.webp",
+      "width": 1000,
+      "height": 816,
+      "caption": "“Ruined?” Danglars tells his daughter the secret of his affairs",
+      "source": "V4-D297",
+      "to": "Then,” said Danglars, pale with anger, which was not at all due"
+    },
+    {
+      "chapter": 95,
+      "from": "Danglars motioned that he had nothing more to say",
+      "file": "095-3.webp",
+      "width": 941,
+      "height": 1000,
+      "caption": "The piano resounds: Mademoiselle d’Armilly plays and Eugénie sings",
+      "source": "V4-D301"
     }
   ]
 }
