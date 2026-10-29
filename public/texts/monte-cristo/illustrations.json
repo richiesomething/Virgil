@@ -2431,6 +2431,36 @@
       "caption": "Bertuccio keeps his hand in his pocket as Andrea is led to the examining magistrate",
       "source": "V5-D155",
       "to": "“Tomorrow!” replied the steward"
+    },
+    {
+      "chapter": 108,
+      "from": "Madame, where do you keep the poison you generally use",
+      "file": "108-1.webp",
+      "width": 843,
+      "height": 1000,
+      "caption": "“Madame, where do you keep the poison you generally use?”",
+      "source": "V5-D169",
+      "to": "where you conceal the poison by the aid of which you have killed"
+    },
+    {
+      "chapter": 108,
+      "from": "Reflect that I am your wife",
+      "file": "108-2.webp",
+      "width": 1000,
+      "height": 813,
+      "caption": "“In the name of our child! Ah, for the sake of our child, let me live!”",
+      "source": "V5-D167",
+      "to": "I kill my son? Ha, ha, ha!"
+    },
+    {
+      "chapter": 108,
+      "from": "Madame de Villefort fell at her husband’s feet",
+      "file": "108-3.webp",
+      "width": 846,
+      "height": 1000,
+      "caption": "“If I find you alive on my return, you shall sleep tonight in the conciergerie”",
+      "source": "V5-D165",
+      "to": "The procureur went out, after having double-locked the door"
     }
   ]
 }
