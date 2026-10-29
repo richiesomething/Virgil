@@ -2073,6 +2073,26 @@
       "caption": "The meeting in the Bois de Vincennes: Albert makes his apology before the witnesses",
       "source": "V4-D243",
       "to": "M. de Monte Cristo receives my apology"
+    },
+    {
+      "chapter": 92,
+      "from": "M. Albert de Morcerf is no coward!",
+      "file": "092-1.webp",
+      "width": 1000,
+      "height": 789,
+      "caption": "The Count of Morcerf confronts Monte Cristo: “We shall fight till one of us is dead”",
+      "source": "V4-D257",
+      "to": "Until one of us dies,” repeated Monte Cristo"
+    },
+    {
+      "chapter": 92,
+      "from": "The Count of Monte Cristo turned dreadfully pale; his eye seemed to burn",
+      "file": "092-2.webp",
+      "width": 1000,
+      "height": 803,
+      "caption": "In a sailor’s jacket and hat, the count speaks his name: “Edmond Dantès!”",
+      "source": "V4-D263",
+      "to": "Edmond Dantès!"
     }
   ]
 }
