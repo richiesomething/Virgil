@@ -2031,8 +2031,18 @@
     },
     {
       "chapter": 85,
-      "from": "Florentin here!” cried he, starting up",
+      "from": "At midnight they arrived at the gate of a beautiful park",
       "file": "085-1.webp",
+      "width": 869,
+      "height": 1000,
+      "caption": "The count’s house in Normandy, with the sea in front and a park behind",
+      "source": "V4-D185",
+      "to": "Around the schooner lay a number of small fishing-boats"
+    },
+    {
+      "chapter": 85,
+      "from": "Florentin here!” cried he, starting up",
+      "file": "085-2.webp",
       "width": 849,
       "height": 1000,
       "caption": "Florentin brings Albert a sealed parcel from Beauchamp",
