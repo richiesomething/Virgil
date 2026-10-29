@@ -760,6 +760,36 @@
       "caption": "Signor Sinbad, on the deck of his yacht, bids Franz adieu",
       "source": "V2-D093",
       "to": "The young man took his carbine and fired it in the air"
+    },
+    {
+      "chapter": 33,
+      "from": "cried Carlini, rising in his turn, and approaching the corpse",
+      "file": "033-1.webp",
+      "width": 831,
+      "height": 1000,
+      "caption": "“Does anyone dispute the possession of this woman with me?”",
+      "source": "V2-D109",
+      "to": "Carlini raised her in his arms, and carried her out"
+    },
+    {
+      "chapter": 33,
+      "from": "The ravisher stopped suddenly, his knees bent under him",
+      "file": "033-2.webp",
+      "width": 827,
+      "height": 1000,
+      "caption": "Shot by Vampa, the ravisher falls; Teresa rises unharmed",
+      "source": "V2-D123",
+      "to": "Vampa took Cucumetto’s"
+    },
+    {
+      "chapter": 33,
+      "from": "Teresa and Luigi reached the summit",
+      "file": "033-3.webp",
+      "width": 1000,
+      "height": 785,
+      "caption": "“I come to ask to be your captain”",
+      "source": "V2-D127",
+      "to": "An hour afterwards Luigi Vampa was chosen captain"
     }
   ]
 }
