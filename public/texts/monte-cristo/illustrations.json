@@ -1637,6 +1637,36 @@
       "caption": "Valentine pours the orangeade for her grandmother",
       "source": "V3-D321",
       "to": "The marchioness drained the glass at a single draught"
+    },
+    {
+      "chapter": 73,
+      "from": "Again you drive me to despair, Maximilian",
+      "file": "073-1.webp",
+      "width": 850,
+      "height": 1000,
+      "caption": "Valentine in despair at the gate",
+      "source": "V3-D333",
+      "to": "Adieu, Valentine, adieu!” said Morrel, bowing"
+    },
+    {
+      "chapter": 73,
+      "from": "Because I have a terrible secret to communicate to you",
+      "file": "073-2.webp",
+      "width": 1000,
+      "height": 798,
+      "caption": "Morrel, hidden among the trees, overhears the doctor’s terrible secret",
+      "source": "V3-D339",
+      "to": "Yes, before others,” replied the doctor; “but now we are alone"
+    },
+    {
+      "chapter": 73,
+      "from": "Well, grandpapa,” said Valentine, kneeling before him",
+      "file": "073-3.webp",
+      "width": 842,
+      "height": 1000,
+      "caption": "Valentine kneels before her grandfather: “I love him, and will be only his”",
+      "source": "V3-D351",
+      "to": "you have a sacred duty to fulfil in your deceased grandmother"
     }
   ]
 }
