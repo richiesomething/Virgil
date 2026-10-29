@@ -1696,6 +1696,36 @@
       "caption": "M. Noirtier asks to speak with Franz at once: the company is astonished",
       "source": "V4-D031",
       "to": "Château-Renaud and Morcerf exchanged a third look"
+    },
+    {
+      "chapter": 75,
+      "from": "Valentine went to the door, and called Barrois",
+      "file": "075-1.webp",
+      "width": 856,
+      "height": 1000,
+      "caption": "Barrois opens the secret spring: a bundle of papers tied with a black string",
+      "source": "V4-D035",
+      "to": "Barrois touched a spring, the false bottom came out"
+    },
+    {
+      "chapter": 75,
+      "from": "It was, as we said, the fifth of February",
+      "file": "075-2.webp",
+      "width": 1000,
+      "height": 819,
+      "caption": "The duel in the snow, as the signed statement tells it",
+      "source": "V4-D009",
+      "to": "a track of blood on the snow marked his course"
+    },
+    {
+      "chapter": 75,
+      "from": "When Franz had finished reading this account, so dreadful for a son",
+      "file": "075-3.webp",
+      "width": 893,
+      "height": 1000,
+      "caption": "“You, M. Noirtier—you killed my father?”",
+      "source": "V4-D041",
+      "to": "Franz fell powerless on a chair; Villefort opened the door"
     }
   ]
 }
