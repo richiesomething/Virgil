@@ -900,6 +900,26 @@
       "caption": "Vampa opens the door: the prisoner is fast asleep",
       "source": "V2-D209",
       "to": "Vampa looked at Albert with a kind of admiration"
+    },
+    {
+      "chapter": 38,
+      "from": "Shall we make a positive appointment for a particular day and hour",
+      "file": "038-1.webp",
+      "width": 848,
+      "height": 1000,
+      "caption": "The count fixes the day: the 21st of May, Rue du Helder",
+      "source": "V2-D217",
+      "to": "No. 27, Rue du Helder, 21st M"
+    },
+    {
+      "chapter": 38,
+      "from": "the following afternoon, at half-past five o’clock, the young men parted",
+      "file": "038-2.webp",
+      "width": 867,
+      "height": 1000,
+      "caption": "Albert and Franz part, one for Paris, the other for Venice",
+      "source": "V2-D220",
+      "to": "27, Rue du Helder, on the 21st May, half-past ten a.m."
     }
   ]
 }
