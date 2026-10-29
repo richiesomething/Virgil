@@ -930,6 +930,36 @@
       "caption": "Albert, in his small salon, awaiting his guests",
       "source": "V2-D225",
       "to": "At a quarter to ten, a valet entered"
+    },
+    {
+      "chapter": 40,
+      "from": "I was retreating on foot, for my horse was dead",
+      "file": "040-1.webp",
+      "width": 1000,
+      "height": 788,
+      "caption": "Captain Morrel rides to the rescue of Château-Renaud",
+      "source": "V2-D235",
+      "to": "it was the 5th of September, the anniversary"
+    },
+    {
+      "chapter": 40,
+      "from": "His excellency the Count of Monte Cristo",
+      "file": "040-2.webp",
+      "width": 867,
+      "height": 1000,
+      "caption": "Albert presents Maximilian Morrel to the Count of Monte Cristo",
+      "source": "V2-D243",
+      "to": "a slight tinge of red colored his pale cheeks"
+    },
+    {
+      "chapter": 40,
+      "from": "Directly I have given my card to the count",
+      "file": "040-3.webp",
+      "width": 882,
+      "height": 1000,
+      "caption": "Morrel gives the count his card: Rue Meslay, No. 14",
+      "source": "V2-D253",
+      "to": "leaving Monte Cristo alone with Morcerf"
     }
   ]
 }
