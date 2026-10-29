@@ -1462,8 +1462,18 @@
     },
     {
       "chapter": 64,
-      "from": "Oh, as for that, I’ll take you to a splendid place",
+      "from": "I want you to take me up in your fine carriage",
       "file": "064-2.webp",
+      "width": 1000,
+      "height": 776,
+      "caption": "The stranger climbs up beside Andrea in the tilbury",
+      "source": "V4-D017",
+      "to": "The surprised groom retired."
+    },
+    {
+      "chapter": 64,
+      "from": "Oh, as for that, I’ll take you to a splendid place",
+      "file": "064-3.webp",
       "width": 849,
       "height": 1000,
       "caption": "The stranger leads the tilbury to a shady spot to talk business",
