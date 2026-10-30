@@ -2900,8 +2900,18 @@
     },
     {
       "chapter": 113,
-      "from": "The guide carried away the torch. The count had spoken correctly",
+      "from": "could think only of this terrible voyage",
       "file": "113-1.webp",
+      "width": 687,
+      "height": 1000,
+      "caption": "The Château d’If",
+      "source": "V5-D219",
+      "to": "A concierge waited at the door"
+    },
+    {
+      "chapter": 113,
+      "from": "The guide carried away the torch. The count had spoken correctly",
+      "file": "113-2.webp",
       "width": 846,
       "height": 1000,
       "caption": "“There is the stone upon which I used to sit”: the count alone in his old dungeon",
@@ -2911,7 +2921,7 @@
     {
       "chapter": 113,
       "from": "On landing, the count turned towards the cemetery",
-      "file": "113-2.webp",
+      "file": "113-3.webp",
       "width": 896,
       "height": 1000,
       "caption": "Morrel brooding by his father’s grave in the cemetery at Marseilles",
@@ -2921,7 +2931,7 @@
     {
       "chapter": 113,
       "from": "On the 5th of October, Morrel, I shall expect you",
-      "file": "113-3.webp",
+      "file": "113-4.webp",
       "width": 920,
       "height": 1000,
       "caption": "“On the 5th of October, Morrel, I shall expect you at the Island of Monte Cristo”",
