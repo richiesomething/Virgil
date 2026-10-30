@@ -1015,8 +1015,18 @@
     },
     {
       "chapter": 41,
-      "from": "When Albert returned to his mother, he found her in the boudoir",
+      "from": "saw Madame de Morcerf at the entrance of the salon",
       "file": "041-2.webp",
+      "width": 891,
+      "height": 1000,
+      "caption": "Madame de Morcerf",
+      "source": "V2-D259",
+      "to": "Mercédès raised her fine eyes to heaven"
+    },
+    {
+      "chapter": 41,
+      "from": "When Albert returned to his mother, he found her in the boudoir",
+      "file": "041-3.webp",
       "width": 875,
       "height": 1000,
       "caption": "Albert and his mother talk of the Count of Monte Cristo",
@@ -1086,8 +1096,18 @@
     },
     {
       "chapter": 44,
-      "from": "Particularly when there is money in the house, eh?",
+      "from": "even in his infancy he manifested the worst disposition",
       "file": "044-3.webp",
+      "width": 856,
+      "height": 1000,
+      "caption": "Bertuccio’s arm falls without touching the boy Benedetto",
+      "source": "V2-D299",
+      "to": "The boy triumphed, and this victory rendered him so audacious"
+    },
+    {
+      "chapter": 44,
+      "from": "Particularly when there is money in the house, eh?",
+      "file": "044-4.webp",
       "width": 883,
       "height": 1000,
       "caption": "Caderousse and La Carconte count the jeweller’s gold for the third time",
@@ -1247,8 +1267,18 @@
     },
     {
       "chapter": 51,
-      "from": "At that instant the little side-gate leading from the waste ground",
+      "from": "Whoever had selected this retired portion of the grounds",
       "file": "051-1.webp",
+      "width": 871,
+      "height": 1000,
+      "caption": "Valentine",
+      "source": "V3-D055",
+      "to": "And why do you come so late today?"
+    },
+    {
+      "chapter": 51,
+      "from": "At that instant the little side-gate leading from the waste ground",
+      "file": "051-2.webp",
       "width": 849,
       "height": 1000,
       "caption": "Maximilian, in a gardener’s blouse, at the palisade of the Villefort garden",
@@ -1258,7 +1288,7 @@
     {
       "chapter": 51,
       "from": "Maximilian leaped at one bound into his crop of lucern",
-      "file": "051-2.webp",
+      "file": "051-3.webp",
       "width": 817,
       "height": 1000,
       "caption": "Maximilian weeds his lucern as a visitor is announced",
@@ -1336,6 +1366,16 @@
       "to": "did he not make a million in Spaniards this last year?"
     },
     {
+      "chapter": 54,
+      "from": "Baptistin entered, and remained standing at the door",
+      "file": "054-2.webp",
+      "width": 819,
+      "height": 1000,
+      "caption": "Baptistin, the count’s servant",
+      "source": "V3-D115",
+      "to": "I wish my life to be free and open"
+    },
+    {
       "chapter": 55,
       "from": "Baptistin reentered with glasses, wine, and biscuits",
       "file": "055-1.webp",
@@ -1357,8 +1397,28 @@
     },
     {
       "chapter": 56,
-      "from": "Monte Cristo chose this moment for reentering the drawing-room",
+      "from": "found there a young man, of graceful demeanor and elegant appearance",
       "file": "056-1.webp",
+      "width": 823,
+      "height": 1000,
+      "caption": "Count Andrea Cavalcanti",
+      "source": "V3-D133",
+      "to": "You are charged with a letter of introduction addressed to me"
+    },
+    {
+      "chapter": 56,
+      "from": "it is one of his descendants, and a great friend of mine",
+      "file": "056-2.webp",
+      "width": 845,
+      "height": 1000,
+      "caption": "Lord Wilmore, the eccentric Englishman who recommended Andrea",
+      "source": "V3-D137",
+      "to": "Really, all you have related to me is exceedingly interesting"
+    },
+    {
+      "chapter": 56,
+      "from": "Monte Cristo chose this moment for reentering the drawing-room",
+      "file": "056-3.webp",
       "width": 1000,
       "height": 795,
       "caption": "The two Cavalcanti throw themselves into each other’s arms as the count reenters",
@@ -1368,7 +1428,7 @@
     {
       "chapter": 56,
       "from": "The two Cavalcanti bowed to the count, and left the house",
-      "file": "056-2.webp",
+      "file": "056-4.webp",
       "width": 840,
       "height": 1000,
       "caption": "“There go two miscreants,” said the count, watching them cross the street",
