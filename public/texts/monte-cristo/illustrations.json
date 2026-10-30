@@ -654,8 +654,18 @@
     },
     {
       "chapter": 28,
-      "from": "And they both entered M. de Boville’s study",
+      "from": "M. de Boville was in his private room",
       "file": "028-2.webp",
+      "width": 852,
+      "height": 1000,
+      "caption": "The Englishman calls on M. de Boville",
+      "source": "V2-D025",
+      "to": "It looks more like bankruptcy!"
+    },
+    {
+      "chapter": 28,
+      "from": "And they both entered M. de Boville’s study",
+      "file": "028-3.webp",
       "width": 867,
       "height": 1000,
       "caption": "While the inspector reads his newspaper, the Englishman slips the accusation into his pocket",
