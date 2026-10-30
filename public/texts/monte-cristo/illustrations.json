@@ -2729,8 +2729,18 @@
     },
     {
       "chapter": 107,
-      "from": "The thieves had already approached Andrea, some screaming",
+      "from": "a young man with his hands in his pockets",
       "file": "107-1.webp",
+      "width": 854,
+      "height": 1000,
+      "caption": "“See, the prince is pluming himself”",
+      "source": "V5-D151",
+      "to": "take the shine off the gentlemen in white kids"
+    },
+    {
+      "chapter": 107,
+      "from": "The thieves had already approached Andrea, some screaming",
+      "file": "107-2.webp",
       "width": 958,
       "height": 1000,
       "caption": "“La savate—La savate!” the inmates of the Lions’ Den close in on Andrea",
@@ -2740,7 +2750,7 @@
     {
       "chapter": 107,
       "from": "Andrea extended his hand; Bertuccio kept his own in his pocket",
-      "file": "107-2.webp",
+      "file": "107-3.webp",
       "width": 857,
       "height": 1000,
       "caption": "Bertuccio keeps his hand in his pocket as Andrea is led to the examining magistrate",
