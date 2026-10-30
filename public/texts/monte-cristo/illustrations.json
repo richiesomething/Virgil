@@ -1267,8 +1267,18 @@
     },
     {
       "chapter": 51,
-      "from": "At that instant the little side-gate leading from the waste ground",
+      "from": "Whoever had selected this retired portion of the grounds",
       "file": "051-1.webp",
+      "width": 871,
+      "height": 1000,
+      "caption": "Valentine",
+      "source": "V3-D055",
+      "to": "And why do you come so late today?"
+    },
+    {
+      "chapter": 51,
+      "from": "At that instant the little side-gate leading from the waste ground",
+      "file": "051-2.webp",
       "width": 849,
       "height": 1000,
       "caption": "Maximilian, in a gardener’s blouse, at the palisade of the Villefort garden",
@@ -1278,7 +1288,7 @@
     {
       "chapter": 51,
       "from": "Maximilian leaped at one bound into his crop of lucern",
-      "file": "051-2.webp",
+      "file": "051-3.webp",
       "width": 817,
       "height": 1000,
       "caption": "Maximilian weeds his lucern as a visitor is announced",
