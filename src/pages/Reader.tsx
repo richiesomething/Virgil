@@ -519,6 +519,18 @@ function ChapterReader({ n }: { n: number }) {
     [count, persist, show, stop],
   )
 
+  /** Listening: move the narration by a number of seconds (from where the voice is, or from the shown word when paused). */
+  const skip = useCallback(
+    (seconds: number) => {
+      const sy = syncRef.current
+      if (!sy) return
+      const now = playingRef.current && !endedRef.current ? player().currentTime : timeOf(sy, idx.current)
+      const t = Math.max(sy.start, Math.min(sy.end, now + seconds))
+      seek(tokenAt(sy, t))
+    },
+    [seek],
+  )
+
   const toggle = useCallback(() => (playing ? pause() : play()), [pause, play, playing])
   const setWpm = useCallback((v: number) => prefs.set((p) => ({ ...p, rsvpWpm: Math.max(MIN_WPM, Math.min(MAX_WPM, v)) })), [])
   const setRate = useCallback((v: number) => prefs.set((p) => ({ ...p, audioRate: Math.max(MIN_RATE, Math.min(MAX_RATE, +v.toFixed(1))) })), [])
@@ -598,8 +610,8 @@ function ChapterReader({ n }: { n: number }) {
       {
         play: () => play(),
         pause: () => pause(),
-        seekbackward: () => (p.currentTime = Math.max(0, p.currentTime - 15)),
-        seekforward: () => (p.currentTime = Math.min(p.duration || sync.duration, p.currentTime + 15)),
+        seekbackward: () => skip(-15),
+        seekforward: () => skip(15),
         previoustrack: () => seek(0),
       },
     )
@@ -619,7 +631,7 @@ function ChapterReader({ n }: { n: number }) {
       p.removeEventListener('error', onError)
       p.removeEventListener('timeupdate', onTime)
     }
-  }, [book.meta, chapterTokens, count, durs, finish, follow, id, listen, n, pause, persist, play, seek, setBookmark, show, stop, sync, total, trackVoice, upTo])
+  }, [book.meta, chapterTokens, count, durs, finish, follow, id, listen, n, pause, persist, play, seek, setBookmark, show, skip, stop, sync, total, trackVoice, upTo])
 
   // Pause when the page is hidden (the narration carries on), and save when leaving.
   useEffect(() => {
@@ -639,8 +651,8 @@ function ChapterReader({ n }: { n: number }) {
     const onKey = (e: KeyboardEvent) => {
       if ((e.target as HTMLElement)?.tagName === 'INPUT' && e.key !== 'Escape') return
       if (e.key === ' ') ((e.preventDefault()), toggle())
-      else if (e.key === 'ArrowLeft') seek(sentenceStartBefore(chapterTokens!, idx.current, true))
-      else if (e.key === 'ArrowRight') seek(sentenceStartAfter(chapterTokens!, idx.current))
+      else if (e.key === 'ArrowLeft') listenRef.current ? skip(-15) : seek(sentenceStartBefore(chapterTokens!, idx.current, true))
+      else if (e.key === 'ArrowRight') listenRef.current ? skip(15) : seek(sentenceStartAfter(chapterTokens!, idx.current))
       else if (e.key === 'ArrowUp') listenRef.current ? setRate(rateRef.current + RATE_STEP) : setWpm(wpmRef.current + STEP)
       else if (e.key === 'ArrowDown') listenRef.current ? setRate(rateRef.current - RATE_STEP) : setWpm(wpmRef.current - STEP)
       else if (e.key === 'Escape') closeReader(id, n, upTo)
@@ -648,7 +660,7 @@ function ChapterReader({ n }: { n: number }) {
     if (!chapterTokens) return
     window.addEventListener('keydown', onKey)
     return () => window.removeEventListener('keydown', onKey)
-  }, [chapterTokens, id, n, seek, setRate, setWpm, toggle, upTo])
+  }, [chapterTokens, id, n, seek, setRate, setWpm, skip, toggle, upTo])
 
   if (error) return <ReaderShell n={n} title="Couldn’t load this chapter" message={error} link={{ href: href('b', id, 'read', n), label: 'Try again' }} />
   if (!chapterTokens) return <ReaderShell n={n} title="" message="Opening the chapter…" />
@@ -804,15 +816,29 @@ function ChapterReader({ n }: { n: number }) {
         />
         <BookProgress pct={bookPct} chaptersDone={upTo} total={total} leftMin={bookLeftMin} compact />
         <div className="reader__row">
-          <button className="icon-btn" aria-label="Back a sentence" onClick={() => seek(sentenceStartBefore(chapterTokens, idx.current, true))}>
-            <Icon name="skipBack" />
-          </button>
+          {listen ? (
+            <button className="icon-btn reader__skip" aria-label="Back 15 seconds" onClick={() => skip(-15)}>
+              <Icon name="rewind" />
+              <small>15</small>
+            </button>
+          ) : (
+            <button className="icon-btn" aria-label="Back a sentence" onClick={() => seek(sentenceStartBefore(chapterTokens, idx.current, true))}>
+              <Icon name="skipBack" />
+            </button>
+          )}
           <button className="reader__play" aria-label={playing ? 'Pause' : 'Play'} onClick={toggle}>
             <Icon name={playing ? 'pause' : 'play'} size={28} />
           </button>
-          <button className="icon-btn" aria-label="Forward a sentence" onClick={() => seek(sentenceStartAfter(chapterTokens, idx.current))}>
-            <Icon name="skipForward" />
-          </button>
+          {listen ? (
+            <button className="icon-btn reader__skip" aria-label="Forward 15 seconds" onClick={() => skip(15)}>
+              <Icon name="forward" />
+              <small>15</small>
+            </button>
+          ) : (
+            <button className="icon-btn" aria-label="Forward a sentence" onClick={() => seek(sentenceStartAfter(chapterTokens, idx.current))}>
+              <Icon name="skipForward" />
+            </button>
+          )}
           {listen ? (
             <span className="reader__speed" role="group" aria-label="Narration speed">
               <button className="icon-btn" aria-label="Slower" onClick={() => setRate(rate - RATE_STEP)} disabled={rate <= MIN_RATE}>

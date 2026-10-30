@@ -37,8 +37,8 @@ test('listening follows the narration in both views and keeps the place', async 
   const t0 = await page.evaluate(() => (window as unknown as { __virgilPlayer: HTMLAudioElement }).__virgilPlayer.currentTime)
   expect(t0).toBeGreaterThan(28)
   const word0 = await page.locator('.rsvp').textContent()
-  // Seek by sentence while playing: audio keeps going and the word moves.
-  await page.click('[aria-label="Forward a sentence"]')
+  // Skip ahead while playing: audio keeps going and the word moves.
+  await page.click('[aria-label="Forward 15 seconds"]')
   await expect(page.locator('.reader__play')).toHaveAttribute('aria-label', 'Pause')
   await expect(page.locator('.rsvp')).not.toHaveText(word0!)
 
@@ -168,4 +168,26 @@ test('a picture pins above the words while its passage is being read, in Flash a
   await page.click('.reader__play')
   await page.locator('.reader__text p', { hasText: 'A year after Louis XVIII' }).click()
   await expect(page.locator('.reader__pin')).toHaveCount(0)
+})
+
+test('the 15-second buttons move the narration and the shown word, playing or paused', async ({ page }) => {
+  await open(page, '#/b/monte-cristo/read/1?mode=listen', { 'monte-cristo': 0 })
+  await expect(page.getByRole('button', { name: 'Back a sentence' })).toHaveCount(0)
+  const time = () => page.evaluate(() => (window as unknown as { __virgilPlayer: HTMLAudioElement }).__virgilPlayer.currentTime)
+  await page.click('.reader__play')
+  // Well past the first word (29 s in), so a step back isn't clamped to the start.
+  await page.getByRole('button', { name: 'Forward 15 seconds' }).click()
+  await page.getByRole('button', { name: 'Forward 15 seconds' }).click()
+  await page.waitForFunction(() => (window as unknown as { __virgilPlayer: HTMLAudioElement }).__virgilPlayer.currentTime > 58)
+  const before = await time()
+  await page.getByRole('button', { name: 'Back 15 seconds' }).click()
+  const after = await time()
+  expect(before - after).toBeGreaterThan(12)
+  expect(before - after).toBeLessThan(18)
+  await expect(page.locator('.reader__play')).toHaveAttribute('aria-label', 'Pause') // still playing
+  // Paused: the shown word moves too.
+  await page.click('.reader__play')
+  const word = await page.locator('.rsvp').textContent()
+  await page.getByRole('button', { name: 'Forward 15 seconds' }).click()
+  await expect(page.locator('.rsvp')).not.toHaveText(word!)
 })

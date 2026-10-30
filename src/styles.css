@@ -865,6 +865,9 @@ a.chip-btn { display: inline-flex; align-items: center; }
 }
 .reader__play:active { transform: scale(0.96); }
 .reader__speed { display: inline-flex; align-items: center; margin-left: auto; }
+.reader__skip { position: relative; }
+.reader__skip small { position: absolute; left: 50%; bottom: 3px; transform: translateX(-50%); font: 700 0.5rem/1 var(--sans); letter-spacing: 0.02em; color: inherit; }
+.reader__skip svg { margin-top: -5px; }
 .reader__wpm { min-width: 68px; text-align: center; font-size: 0.9rem; color: var(--muted); }
 .reader__wpm strong { color: var(--text); font-variant-numeric: tabular-nums; }
 .reader__textwrap { display: flex; flex-direction: column; align-items: stretch; justify-content: flex-start; width: 100%; }
