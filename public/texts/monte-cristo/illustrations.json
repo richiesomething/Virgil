@@ -2487,8 +2487,18 @@
     },
     {
       "chapter": 98,
-      "from": "The brigadier sent for some sticks and straw",
+      "from": "Why is that gendarme there?",
       "file": "098-1.webp",
+      "width": 849,
+      "height": 1000,
+      "caption": "The gendarme at the door of the inn",
+      "source": "V5-D047",
+      "to": "They’re after me!"
+    },
+    {
+      "chapter": 98,
+      "from": "The brigadier sent for some sticks and straw",
+      "file": "098-2.webp",
       "width": 833,
       "height": 1000,
       "caption": "Andrea on the roof of the Bell and Bottle, looking for a chimney without smoke",
@@ -2498,7 +2508,7 @@
     {
       "chapter": 98,
       "from": "The brigadier had put his eye to the keyhole",
-      "file": "098-2.webp",
+      "file": "098-3.webp",
       "width": 1000,
       "height": 813,
       "caption": "The door bursts in: the gendarmes find Andrea in the ladies’ room",
