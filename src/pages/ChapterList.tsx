@@ -66,11 +66,25 @@ export default function ChapterList() {
         </div>
       )}
 
-      {remaining > 1 && (
-        <p className="locked-note">
-          <Icon name="lock" className="icon--sm" />
-          {next ? `${remaining - 1} more chapter${remaining - 1 === 1 ? '' : 's'} after that, hidden until you reach them.` : ''}
-        </p>
+      {remaining > 1 && next && (
+        <details className="read-ahead">
+          <summary className="locked-note">
+            <Icon name="lock" className="icon--sm" />
+            {`${remaining - 1} more chapter${remaining - 1 === 1 ? '' : 's'} after that. Their notes stay hidden until you reach them, but you can read ahead.`}
+          </summary>
+          <div className="group" style={{ marginTop: 8 }}>
+            {Array.from({ length: remaining - 1 }, (_, i) => next + 1 + i).map((n) => (
+              <a key={n} className="row ch-row" href={href('b', meta.id, 'read', n)}>
+                <span className="ch-row__num">{n}</span>
+                <span className="row__body">
+                  <span className="row__title">Chapter {n}</span>
+                  <span className="row__sub">{estimate(book, chapterMinutes(book, n, wpm))}</span>
+                </span>
+                <Icon name="chevronRight" className="icon--sm chev" />
+              </a>
+            ))}
+          </div>
+        </details>
       )}
     </div>
   )

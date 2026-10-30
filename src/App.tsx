@@ -23,7 +23,8 @@ export default function App() {
   else page = <NotFound />
   return (
     <>
-      <ErrorBoundary key={path} fallback={<NotFound message="Something went wrong showing this page." />}>
+      {/* Inside a book, BookShell keeps its own per-page boundary: re-keying here on every path would reload the book on each tap. */}
+      <ErrorBoundary key={parts[0] === 'b' && parts[1] ? `b/${parts[1]}` : path} fallback={<NotFound message="Something went wrong showing this page." />}>
         {page}
       </ErrorBoundary>
       <ToastHost />

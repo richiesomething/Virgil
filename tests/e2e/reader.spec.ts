@@ -60,9 +60,26 @@ test('text view shows the chapter and tapping a paragraph moves the position', a
   await expect(page.locator('.rsvp')).toHaveText(first)
 })
 
-test('chapters past the bookmark are locked; copyrighted books ask for a copy', async ({ page }) => {
+test('chapters past the bookmark can be read, but finishing one does not move the bookmark by itself', async ({ page }) => {
   await open(page, '#/b/monte-cristo/read/9', { 'monte-cristo': 2 })
+  await expect(page.locator('.reader__label')).toContainText('Chapter 9')
+  await expect(page.locator('.rsvp')).not.toBeEmpty()
+  // Jump to the end of the chapter.
+  await page.locator('input[aria-label="Position in the chapter"]').evaluate((el: HTMLInputElement) => {
+    // React only notices a value set through the native setter.
+    Object.getOwnPropertyDescriptor(HTMLInputElement.prototype, 'value')!.set!.call(el, el.max)
+    el.dispatchEvent(new Event('input', { bubbles: true }))
+    el.dispatchEvent(new Event('change', { bubbles: true }))
+  })
+  await page.keyboard.press(' ') // play the last word: the chapter ends
+  await expect(page.getByRole('button', { name: /Next chapter/ })).toBeVisible({ timeout: 10_000 })
+  await expect(page.getByRole('button', { name: 'Move my bookmark to chapter 9' })).toBeVisible()
+  const progress = JSON.parse((await page.evaluate(() => localStorage.getItem('virgil:progress:v1')))!)
+  expect(progress['monte-cristo']).toBe(2)
+  // The chapter page keeps its notes hidden but offers the text.
+  await page.goto('/#/b/monte-cristo/chapters/9')
   await expect(page.getByText('Chapter 9 is still ahead of you')).toBeVisible()
+  await expect(page.getByText('Read chapter 9')).toBeVisible()
   await page.goto('/#/b/the-pearl/read/1')
   await expect(page.getByText('Add your copy')).toBeVisible()
 })

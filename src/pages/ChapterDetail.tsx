@@ -36,10 +36,13 @@ export default function ChapterDetail({ n }: { n: number }) {
           <Icon name="lock" size={32} />
         </div>
         <h1>Chapter {n} is still ahead of you</h1>
-        <p>Its summary, notes and characters unlock once you’ve finished it.</p>
-        <a className="btn btn--primary" href={href('b', book.meta.id, 'chapters', upTo + 1)}>
-          Go to Up next
-        </a>
+        <p>You can read or listen to it now. Its summary, notes and characters stay hidden until your bookmark reaches it.</p>
+        <div style={{ display: 'grid', gap: 10, width: '100%', maxWidth: 420 }}>
+          <ReadButton n={n} />
+          <a className="btn btn--secondary btn--block" href={href('b', book.meta.id, 'chapters', upTo + 1)}>
+            Go to Up next
+          </a>
+        </div>
       </div>
     )
   }

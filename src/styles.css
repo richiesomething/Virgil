@@ -941,3 +941,8 @@ a.chip-btn { display: inline-flex; align-items: center; }
 .reader__listen[aria-pressed='true'] { background: var(--accent-soft); color: var(--accent); }
 .reader__text p.is-current .reader__word { transition: color 0.1s; }
 .listen-link { display: inline-flex; align-items: center; justify-content: center; gap: 6px; min-height: 40px; width: 100%; font-size: 0.9rem; font-weight: 500; color: var(--accent); }
+
+/* Chapters past the bookmark: readable, their notes still locked. */
+.read-ahead > summary { list-style: none; cursor: pointer; }
+.read-ahead > summary::-webkit-details-marker { display: none; }
+.read-ahead[open] > summary { color: var(--text); }

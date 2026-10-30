@@ -65,7 +65,7 @@ The pipeline gets an optional `text` stage after `manifest`: for a `source: "tex
 
 `#/b/<id>/read/<n>`: full-screen, no book header or tab bar (the reader needs the whole viewport and no distractions). A top strip has Close, the chapter label, and the view toggle; a bottom strip has the controls. Safe-area insets respected; `100dvh` layout; no page scroll in Flash view.
 
-Access rule (spoiler model): the reader opens chapters `1 … upTo + 1`. Chapters further ahead show the same lock page as the chapter summary ("Chapter n is still ahead of you"). Reading ahead is done by finishing chapters in order, which is one tap at each chapter's end.
+Access rule (spoiler model): the text itself is never locked: any chapter can be read or listened to. What the bookmark gates is Virgil's own material (summaries, notes, people, atlas, primers). Finishing the next unread chapter moves the bookmark; finishing a chapter further ahead does not (the end card offers "Move my bookmark to chapter n" instead, saying which chapters' notes that would open), so reading out of order never unlocks skipped chapters by accident. The chapter list shows chapters past "Up next" as plain numbered rows under a collapsed "read ahead" note.
 
 ### 4.2 Two views
 
@@ -157,7 +157,7 @@ A few period pictures per book, shown inline in the Text view only. `public/text
 
 ## 7. Spoiler rules
 
-- Only chapters `≤ upTo + 1` are readable, in either view.
+- Every chapter is readable, in either view; only the bookmark-gated companion content is hidden ahead of the bookmark.
 - The import review shows first words only for chapters `≤ upTo + 1`.
 - The reader never shows Virgil's summaries, names or notes; the end card links to the chapter page, which is unlocked by then.
 - The text itself is the book: nothing in the text layer is gated beyond the chapter rule.

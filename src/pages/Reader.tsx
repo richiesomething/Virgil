@@ -31,7 +31,7 @@ const RATE_STEP = 0.1
 
 /** The book's own text, one word at a time. Full screen: no header or tab bar. */
 export default function Reader({ n }: { n: number }) {
-  const { book, upTo } = useBook()
+  const { book } = useBook()
   const id = book.meta.id
   const total = book.meta.chapterCount
   const copy = useCopy(id)
@@ -43,15 +43,6 @@ export default function Reader({ n }: { n: number }) {
   }, [mode, book.meta])
 
   if (!Number.isInteger(n) || n < 1 || n > total) return <ReaderShell n={n} title="No such chapter" message="" link={{ href: href('b', id, 'chapters'), label: 'All chapters' }} />
-  if (n > upTo + 1)
-    return (
-      <ReaderShell
-        n={n}
-        title={`Chapter ${n} is still ahead of you`}
-        message="Chapters open in order: finish the one before it first."
-        link={{ href: href('b', id, 'read', upTo + 1), label: `Read chapter ${upTo + 1}` }}
-      />
-    )
   if (source === 'none') {
     if (copy.status === 'loading') return <ReaderShell n={n} title="" message="Opening the book…" />
     return (
@@ -380,7 +371,7 @@ function ChapterReader({ n }: { n: number }) {
     const now = performance.now()
     if (now - lastSave.current > 2000) persist(i)
     // Fetch the next chapter once this one is nearly done.
-    if (!prefetched.current && i > count * 0.8 && n < total && n + 1 <= upTo + 1) {
+    if (!prefetched.current && i > count * 0.8 && n < total) {
       prefetched.current = true
       getChapterText(book, n + 1).catch(() => {})
     }
@@ -422,7 +413,7 @@ function ChapterReader({ n }: { n: number }) {
       persist(i)
       mediaPosition(sy.duration, t, p.playbackRate)
     }
-    if (!prefetched.current && i > count * 0.8 && n < total && n + 1 <= upTo + 1) {
+    if (!prefetched.current && i > count * 0.8 && n < total) {
       prefetched.current = true
       getChapterText(book, n + 1).catch(() => {})
       getSync(id, n + 1).catch(() => {})
@@ -555,9 +546,10 @@ function ChapterReader({ n }: { n: number }) {
       if (p.src !== url) return
       const next = n + 1
       const nextSynced = !!peekSync(id, next) || durs?.[next - 1] != null
-      if (next <= total && next <= Math.max(upTo, n) + 1 && nextSynced) {
+      if (next <= total && nextSynced) {
         // Hands-free: the next chapter starts at once; its page takes over the playing audio.
-        if (n > upTo) setBookmark(n)
+        // The bookmark moves only when this was the next unread chapter: reading ahead never unlocks skipped chapters.
+        if (n === upTo + 1) setBookmark(n)
         setAutoplayNext({ bookId: id, n: next })
         stop()
         endedRef.current = true
@@ -643,9 +635,11 @@ function ChapterReader({ n }: { n: number }) {
       window.removeEventListener('blur', onHide)
       stop()
       if (!endedRef.current && count) savePos(id, { chapter: n, word: idx.current, words: count })
-      if (listenRef.current && !autoplayNext && !player().paused) player().pause()
+      // Leaving the reader stops the narration, unless the player has already moved on to another chapter (the hand-off).
+      const p = player()
+      if (listenRef.current && !autoplayNext && !p.paused && p.src === audioUrl(book.meta, n)) p.pause()
     }
-  }, [count, id, n, pause, stop])
+  }, [book.meta, count, id, n, pause, stop])
 
   useEffect(() => {
     const onKey = (e: KeyboardEvent) => {
@@ -681,6 +675,7 @@ function ChapterReader({ n }: { n: number }) {
 
   if (ended) {
     const done = n <= upTo
+    const ahead = n > upTo + 1 // read out of order: the bookmark stays where it is unless asked
     const last = n >= total
     return (
       <div className="reader" data-font={prefs.get().rsvpFont} style={textStyle(prefs.get().textScale)}>
@@ -696,17 +691,35 @@ function ChapterReader({ n }: { n: number }) {
                 <button
                   className="btn btn--primary btn--lg btn--block"
                   onClick={() => {
-                    if (!done) setBookmark(n)
+                    if (!done && !ahead) setBookmark(n)
                     navigate(href('b', id))
                   }}
                 >
-                  <Icon name="check" /> {done ? 'Back to Virgil' : `I finished Chapter ${n}`}
+                  <Icon name="check" /> {done || ahead ? 'Back to Virgil' : `I finished Chapter ${n}`}
                 </button>
               </>
-            ) : done ? (
-              <button className="btn btn--primary btn--lg btn--block" onClick={() => navigate(href('b', id, 'read', n + 1), { replace: true })}>
-                Next chapter <Icon name="chevronRight" />
-              </button>
+            ) : done || ahead ? (
+              <>
+                <button className="btn btn--primary btn--lg btn--block" onClick={() => navigate(href('b', id, 'read', n + 1), { replace: true })}>
+                  Next chapter <Icon name="chevronRight" />
+                </button>
+                {ahead && (
+                  <>
+                    <p className="muted small">
+                      Your bookmark is at chapter {upTo}. Moving it here opens the summaries, notes and people for chapters {upTo + 1}–{n}.
+                    </p>
+                    <button
+                      className="btn btn--secondary btn--block"
+                      onClick={() => {
+                        setBookmark(n)
+                        navigate(href('b', id, 'chapters', n))
+                      }}
+                    >
+                      Move my bookmark to chapter {n}
+                    </button>
+                  </>
+                )}
+              </>
             ) : (
               <>
                 <p className="muted">Mark it finished and Virgil opens its summary, notes and people.</p>
