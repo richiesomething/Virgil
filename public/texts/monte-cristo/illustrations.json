@@ -1556,8 +1556,18 @@
     },
     {
       "chapter": 62,
-      "from": "Bertuccio glanced through the door, which was ajar",
+      "from": "Thus the house had become unrecognizable",
       "file": "062-1.webp",
+      "width": 856,
+      "height": 1000,
+      "caption": "The conservatory at Auteuil, ornamented with rare flowers",
+      "source": "V3-D207",
+      "to": "was the conservatory, ornamented with rare flowers"
+    },
+    {
+      "chapter": 62,
+      "from": "Bertuccio glanced through the door, which was ajar",
+      "file": "062-2.webp",
       "width": 1000,
       "height": 797,
       "caption": "Bertuccio points out the woman of the garden and the man he thought he had killed",
@@ -1567,7 +1577,7 @@
     {
       "chapter": 62,
       "from": "Stop! You are in a shocking hurry to be off",
-      "file": "062-2.webp",
+      "file": "062-3.webp",
       "width": 853,
       "height": 1000,
       "caption": "“Benedetto?” he muttered; “fatality!”",
