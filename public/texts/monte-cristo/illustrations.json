@@ -1015,8 +1015,18 @@
     },
     {
       "chapter": 41,
-      "from": "When Albert returned to his mother, he found her in the boudoir",
+      "from": "saw Madame de Morcerf at the entrance of the salon",
       "file": "041-2.webp",
+      "width": 891,
+      "height": 1000,
+      "caption": "Madame de Morcerf",
+      "source": "V2-D259",
+      "to": "Mercédès raised her fine eyes to heaven"
+    },
+    {
+      "chapter": 41,
+      "from": "When Albert returned to his mother, he found her in the boudoir",
+      "file": "041-3.webp",
       "width": 875,
       "height": 1000,
       "caption": "Albert and his mother talk of the Count of Monte Cristo",
