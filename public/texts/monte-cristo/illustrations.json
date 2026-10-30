@@ -1397,8 +1397,28 @@
     },
     {
       "chapter": 56,
-      "from": "Monte Cristo chose this moment for reentering the drawing-room",
+      "from": "found there a young man, of graceful demeanor and elegant appearance",
       "file": "056-1.webp",
+      "width": 823,
+      "height": 1000,
+      "caption": "Count Andrea Cavalcanti",
+      "source": "V3-D133",
+      "to": "You are charged with a letter of introduction addressed to me"
+    },
+    {
+      "chapter": 56,
+      "from": "it is one of his descendants, and a great friend of mine",
+      "file": "056-2.webp",
+      "width": 845,
+      "height": 1000,
+      "caption": "Lord Wilmore, the eccentric Englishman who recommended Andrea",
+      "source": "V3-D137",
+      "to": "Really, all you have related to me is exceedingly interesting"
+    },
+    {
+      "chapter": 56,
+      "from": "Monte Cristo chose this moment for reentering the drawing-room",
+      "file": "056-3.webp",
       "width": 1000,
       "height": 795,
       "caption": "The two Cavalcanti throw themselves into each other’s arms as the count reenters",
@@ -1408,7 +1428,7 @@
     {
       "chapter": 56,
       "from": "The two Cavalcanti bowed to the count, and left the house",
-      "file": "056-2.webp",
+      "file": "056-4.webp",
       "width": 840,
       "height": 1000,
       "caption": "“There go two miscreants,” said the count, watching them cross the street",
