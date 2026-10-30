@@ -2870,8 +2870,18 @@
     },
     {
       "chapter": 112,
-      "from": "Monte Cristo gently smiled and said—“I was there;”",
+      "from": "Ere long Marseilles presented herself to view",
       "file": "112-2.webp",
+      "width": 872,
+      "height": 1000,
+      "caption": "Marseilles: the round tower, Fort Saint-Nicolas and the port",
+      "source": "V5-D209",
+      "to": "here is the spot where my father stopped"
+    },
+    {
+      "chapter": 112,
+      "from": "Monte Cristo gently smiled and said—“I was there;”",
+      "file": "112-3.webp",
       "width": 836,
       "height": 1000,
       "caption": "From the quay at Marseilles the count watches Albert de Morcerf embrace his mother",
@@ -2881,7 +2891,7 @@
     {
       "chapter": 112,
       "from": "The count looked up and fixed his eyes on Mercédès",
-      "file": "112-3.webp",
+      "file": "112-4.webp",
       "width": 856,
       "height": 1000,
       "caption": "Mercédès and the count under the arbor: “no, my friend, touch me not”",
