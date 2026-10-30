@@ -2487,8 +2487,18 @@
     },
     {
       "chapter": 98,
-      "from": "The brigadier sent for some sticks and straw",
+      "from": "Why is that gendarme there?",
       "file": "098-1.webp",
+      "width": 849,
+      "height": 1000,
+      "caption": "The gendarme at the door of the inn",
+      "source": "V5-D047",
+      "to": "They’re after me!"
+    },
+    {
+      "chapter": 98,
+      "from": "The brigadier sent for some sticks and straw",
+      "file": "098-2.webp",
       "width": 833,
       "height": 1000,
       "caption": "Andrea on the roof of the Bell and Bottle, looking for a chimney without smoke",
@@ -2498,7 +2508,7 @@
     {
       "chapter": 98,
       "from": "The brigadier had put his eye to the keyhole",
-      "file": "098-2.webp",
+      "file": "098-3.webp",
       "width": 1000,
       "height": 813,
       "caption": "The door bursts in: the gendarmes find Andrea in the ladies’ room",
@@ -2699,8 +2709,18 @@
     },
     {
       "chapter": 106,
-      "from": "this is M. Debray, secretary of the Minister for the Interior",
+      "from": "continued Debray, taking out some papers from his pocketbook",
       "file": "106-2.webp",
+      "width": 905,
+      "height": 1000,
+      "caption": "Debray divides the proceeds with Madame Danglars",
+      "source": "V5-D141",
+      "to": "Madame Danglars mechanically took the check"
+    },
+    {
+      "chapter": 106,
+      "from": "this is M. Debray, secretary of the Minister for the Interior",
+      "file": "106-3.webp",
       "width": 1000,
       "height": 812,
       "caption": "“Mother, this is M. Debray … once a friend of mine”",
@@ -2709,8 +2729,18 @@
     },
     {
       "chapter": 107,
-      "from": "The thieves had already approached Andrea, some screaming",
+      "from": "a young man with his hands in his pockets",
       "file": "107-1.webp",
+      "width": 854,
+      "height": 1000,
+      "caption": "“See, the prince is pluming himself”",
+      "source": "V5-D151",
+      "to": "take the shine off the gentlemen in white kids"
+    },
+    {
+      "chapter": 107,
+      "from": "The thieves had already approached Andrea, some screaming",
+      "file": "107-2.webp",
       "width": 958,
       "height": 1000,
       "caption": "“La savate—La savate!” the inmates of the Lions’ Den close in on Andrea",
@@ -2720,7 +2750,7 @@
     {
       "chapter": 107,
       "from": "Andrea extended his hand; Bertuccio kept his own in his pocket",
-      "file": "107-2.webp",
+      "file": "107-3.webp",
       "width": 857,
       "height": 1000,
       "caption": "Bertuccio keeps his hand in his pocket as Andrea is led to the examining magistrate",
@@ -2840,8 +2870,18 @@
     },
     {
       "chapter": 112,
-      "from": "Monte Cristo gently smiled and said—“I was there;”",
+      "from": "Ere long Marseilles presented herself to view",
       "file": "112-2.webp",
+      "width": 872,
+      "height": 1000,
+      "caption": "Marseilles: the round tower, Fort Saint-Nicolas and the port",
+      "source": "V5-D209",
+      "to": "here is the spot where my father stopped"
+    },
+    {
+      "chapter": 112,
+      "from": "Monte Cristo gently smiled and said—“I was there;”",
+      "file": "112-3.webp",
       "width": 836,
       "height": 1000,
       "caption": "From the quay at Marseilles the count watches Albert de Morcerf embrace his mother",
@@ -2851,7 +2891,7 @@
     {
       "chapter": 112,
       "from": "The count looked up and fixed his eyes on Mercédès",
-      "file": "112-3.webp",
+      "file": "112-4.webp",
       "width": 856,
       "height": 1000,
       "caption": "Mercédès and the count under the arbor: “no, my friend, touch me not”",
