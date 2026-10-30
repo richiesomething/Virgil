@@ -1377,8 +1377,18 @@
     },
     {
       "chapter": 55,
-      "from": "Baptistin reentered with glasses, wine, and biscuits",
+      "from": "The small and angular head of this man, his white hair and thick gray moustaches",
       "file": "055-1.webp",
+      "width": 545,
+      "height": 1000,
+      "caption": "The visitor in the Hungarian frogged coat: Major Bartolomeo Cavalcanti",
+      "source": "V3-D119",
+      "to": "Bartolomeo Cavalcanti,” joyfully replied the Italian"
+    },
+    {
+      "chapter": 55,
+      "from": "Baptistin reentered with glasses, wine, and biscuits",
+      "file": "055-2.webp",
       "width": 858,
       "height": 1000,
       "caption": "The count fills a glass of Alicante for Major Cavalcanti",
@@ -1388,7 +1398,7 @@
     {
       "chapter": 55,
       "from": "The major clasped his hands in token of admiration",
-      "file": "055-2.webp",
+      "file": "055-3.webp",
       "width": 837,
       "height": 1000,
       "caption": "The major examines his marriage certificate and his son’s baptismal register",
