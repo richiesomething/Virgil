@@ -1,6 +1,6 @@
-import AtlasMap from './AtlasMap'
+import AtlasMap from './LazyAtlasMap'
 import Icon from './Icon'
-import { atlasHref } from './AtlasView'
+import { atlasHref } from '../lib/atlas'
 import { useBook } from '../lib/book-context'
 import { bestFrame, chapterSettings, positionIn } from '../lib/atlas'
 

@@ -1,11 +1,11 @@
-import { Fragment, useCallback, useEffect, useMemo, useRef, useState } from 'react'
+import { Fragment, memo, useCallback, useEffect, useMemo, useRef, useState } from 'react'
 import Icon from '../components/Icon'
 import { Segmented, Sheet } from '../components/ui'
 import ThemePicker from '../components/ThemePicker'
 import { useBook } from '../lib/book-context'
 import { href, navigate, useLocation } from '../lib/router'
 import { showToast } from '../components/ui'
-import { prefs, type ReadingFont } from '../lib/store'
+import { ensureAtkinson, prefs, type ReadingFont } from '../lib/store'
 import { useCopy } from '../lib/copies'
 import { getChapterText, reading, resumeFor, savePos, textSource } from '../lib/text'
 import { msFor, rampFactor, sentenceStartAfter, sentenceStartBefore, tokenize, type ChapterTokens } from '../lib/rsvp'
@@ -37,6 +37,10 @@ export default function Reader({ n }: { n: number }) {
   const copy = useCopy(id)
   const source = textSource(book.meta, copy.status === 'ready' ? copy.info : null)
   const mode = useLocation().query.get('mode')
+  const font = prefs.use().rsvpFont
+  useEffect(() => {
+    if (font === 'atkinson') ensureAtkinson()
+  }, [font])
   useEffect(() => {
     if (mode === 'listen' && hasAudio(book.meta)) prefs.set((x) => ({ ...x, listen: true }))
     if (mode === 'read') prefs.set((x) => ({ ...x, listen: false }))
@@ -106,7 +110,7 @@ function ReaderTop({ n, right, timeLeft, listen, onListen }: { n: number; right?
           <Icon name="headphones" />
         </button>
       )}
-      <button className="icon-btn reader__aa" aria-label="Reading settings" onClick={() => setOpen(true)}>
+      <button className="icon-btn reader__aa" aria-label="Reading settings" onClick={() => (ensureAtkinson(), setOpen(true))}>
         <span aria-hidden="true">Aa</span>
       </button>
       {right}
@@ -884,6 +888,22 @@ function ChapterReader({ n }: { n: number }) {
 }
 
 /** The chapter as scrollable text, with the current word marked. Tap a paragraph to read from there. */
+/** One paragraph of the Text view. Memoized: a spoken word re-renders only the paragraph it's in (`current` is -1 elsewhere). */
+const Paragraph = memo(function Paragraph({ tokens, start, current, onPick }: { tokens: ChapterTokens['tokens']; start: number; current: number; onPick: (i: number) => void }) {
+  const here = current >= 0
+  return (
+    <p className={here ? 'is-current' : undefined} onClick={() => onPick(start)}>
+      {here
+        ? tokens.map((t, i) => (
+            <span key={i} className={start + i === current ? 'reader__word' : undefined}>
+              {t.text}{' '}
+            </span>
+          ))
+        : tokens.map((t) => t.text).join(' ')}
+    </p>
+  )
+})
+
 /** The picture for the passage being read, pinned above the words (Flash view, and Text view while following the voice). */
 function PinnedFigure({ bookId, placed, credit }: { bookId: string; placed: Placed; credit: string }) {
   const f = placed.item
@@ -920,6 +940,10 @@ function TextView({
   const ref = useRef<HTMLDivElement>(null)
   const currentPara = chapter.tokens[current]?.paragraph ?? 0
   const userScrolledAt = useRef(0)
+  // A stable tap handler, so memoized paragraphs don't re-render whenever the parent passes a new closure.
+  const pickRef = useRef(onPick)
+  pickRef.current = onPick
+  const pick = useCallback((i: number) => pickRef.current(i), [])
   useEffect(() => {
     ;(ref.current?.querySelector('.reader__word') ?? ref.current?.querySelector('.is-current'))?.scrollIntoView({ block: 'center' })
   }, [])
@@ -963,15 +987,7 @@ function TextView({
             const after = figures.get(pi)
             return (
               <Fragment key={p.start}>
-                <p className={here ? 'is-current' : undefined} onClick={() => onPick(p.start)}>
-                  {here
-                    ? p.tokens.map((t, i) => (
-                        <span key={i} className={p.start + i === current ? 'reader__word' : undefined}>
-                          {t.text}{' '}
-                        </span>
-                      ))
-                    : p.tokens.map((t) => t.text).join(' ')}
-                </p>
+                <Paragraph tokens={p.tokens} start={p.start} current={here ? current : -1} onPick={pick} />
                 {after?.map(({ item: f }) => (
                   <figure key={f.file} className="reader__figure">
                     <img src={illustrationUrl(bookId, f.file)} alt={f.caption} width={f.width} height={f.height} loading="lazy" decoding="async" />

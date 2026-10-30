@@ -136,3 +136,14 @@ export const visits = createStore<Record<string, string>>('virgil:visits:v1', {}
 
 /** Recently opened search results, per book. */
 export const recents = createStore<Record<string, { kind: string; id: string; label: string }[]>>('virgil:recent-search:v1', {})
+
+/** Atkinson Hyperlegible is only fetched when a reader picks it (everyone else saves the request). */
+let atkinsonLoaded = false
+export function ensureAtkinson() {
+  if (atkinsonLoaded || typeof document === 'undefined') return
+  atkinsonLoaded = true
+  const link = document.createElement('link')
+  link.rel = 'stylesheet'
+  link.href = 'https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:wght@400;700&display=swap'
+  document.head.appendChild(link)
+}

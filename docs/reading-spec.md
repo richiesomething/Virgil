@@ -164,7 +164,8 @@ A few period pictures per book, shown inline in the Text view only. `public/text
 
 ## 8. Performance
 
-- App bundle growth: the reader (~6 KB) and the text layer (~3 KB). Parsers are separate chunks: pdf.js ~400 KB gzipped (only on PDF import), fflate ~8 KB.
+- App bundle growth: the reader (~6 KB) and the text layer (~3 KB). Parsers are separate chunks: pdf.js ~400 KB gzipped (only on PDF import), fflate ~8 KB. The atlas and connections map (d3) are lazy chunks too (~27 KB gzipped), loaded on first map; the main bundle is ~116 KB gzipped. Atkinson Hyperlegible is fetched only when chosen.
+- Text view: paragraphs are memoized, so a spoken word re-renders only its own paragraph (a 300-paragraph chapter costs a few ms per word on a slow phone, down from about nine).
 - Chapter text fetched on demand; the biggest Monte Cristo chapter is ~70 KB raw.
 - The scheduler does one DOM update per word; no React re-render of the page per word (the word is set through a ref; the progress bar updates every 10 words).
 

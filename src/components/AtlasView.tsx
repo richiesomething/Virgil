@@ -20,28 +20,11 @@ import {
   precisionLabel,
   unlockedFrames,
   visibleJourneys,
+  chapterRange,
 } from '../lib/atlas'
 
 /** Link into the Atlas (Cast → Places → Map), optionally focused on a place or frame. */
-export function atlasHref(bookId: string, opts: { place?: string; frame?: string } = {}) {
-  return withQuery(href('b', bookId, 'cast'), { seg: 'places', view: 'map', place: opts.place, frame: opts.frame })
-}
 
-export function chapterRange(chs: number[]): string {
-  if (!chs.length) return ''
-  const runs: string[] = []
-  let start = chs[0]
-  let prev = chs[0]
-  for (const c of [...chs.slice(1), Infinity]) {
-    if (c === prev + 1) {
-      prev = c
-      continue
-    }
-    runs.push(start === prev ? `${start}` : `${start}–${prev}`)
-    start = prev = c
-  }
-  return (chs.length === 1 ? 'Ch ' : 'Chs ') + runs.join(', ')
-}
 
 const credit = (geo: boolean, osm: boolean) => (geo ? (osm ? 'Map data: Natural Earth; © OpenStreetMap contributors' : 'Map data: Natural Earth') : '')
 const OSM_FRAMES = new Set(['marseilles', 'paris', 'rome', 'london'])

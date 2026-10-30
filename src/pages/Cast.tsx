@@ -3,8 +3,11 @@ import type { Importance } from '../types'
 import Icon from '../components/Icon'
 import { initials } from '../components/CharacterChip'
 import { Segmented, Sheet, Switch } from '../components/ui'
-import MapView from '../components/MapView'
-import AtlasView, { chapterRange } from '../components/AtlasView'
+import { Suspense, lazy } from 'react'
+import { chapterRange } from '../lib/atlas'
+// The connections map and the atlas carry d3; they load when first opened.
+const MapView = lazy(() => import('../components/MapView'))
+const AtlasView = lazy(() => import('../components/AtlasView'))
 import { useBook } from '../lib/book-context'
 import { href, navigate, useLocation, withQuery } from '../lib/router'
 import { currentAliases, currentTagline, isThing, kindOf, metCharacters } from '../lib/spoilers'
@@ -29,7 +32,12 @@ export default function Cast({ segment }: { segment: Segment }) {
   const go = (s: Segment) => navigate(withQuery(href('b', id, 'cast'), { seg: s === 'people' ? undefined : s }), { replace: true })
   const current: Segment = segment === 'places' && !places.length ? 'people' : segment === 'things' && !things.length ? 'people' : segment
 
-  if (current === 'places' && atlas && view === 'map' && upTo > 0) return <AtlasView />
+  if (current === 'places' && atlas && view === 'map' && upTo > 0)
+    return (
+      <Suspense fallback={<div className="atlas-loading atlas-loading--page" aria-hidden="true" />}>
+        <AtlasView />
+      </Suspense>
+    )
 
   return (
     <div>
@@ -96,7 +104,9 @@ export function MapScreen({ focusId }: { focusId?: string }) {
           <p>Set your bookmark, and the map fills in as you meet characters.</p>
         </div>
       ) : (
-        <MapView focusId={focusId} />
+        <Suspense fallback={<div className="atlas-loading atlas-loading--page" aria-hidden="true" />}>
+          <MapView focusId={focusId} />
+        </Suspense>
       )}
     </div>
   )

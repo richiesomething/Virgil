@@ -1,6 +1,6 @@
 import Icon from '../components/Icon'
-import AtlasMap from '../components/AtlasMap'
-import { atlasHref, chapterRange } from '../components/AtlasView'
+import AtlasMap from '../components/LazyAtlasMap'
+import { atlasHref, chapterRange } from '../lib/atlas'
 import { initials } from '../components/CharacterChip'
 import { useBook } from '../lib/book-context'
 import { href } from '../lib/router'

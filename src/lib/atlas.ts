@@ -1,4 +1,5 @@
 import type { Atlas, AtlasFrame, BookData, Character, Journey, JourneyLeg, Place } from '../types'
+import { href, withQuery } from './router'
 import { chapter, displayId, isThing, lookupCharacter } from './spoilers'
 
 /**
@@ -236,4 +237,26 @@ export function upcomingSetting(book: BookData, n: number, upTo: number): Place 
   if (n !== upTo + 1) return undefined
   const id = atlasOf(book).settings[String(n)]?.[0]
   return id ? placeAt(book, id, upTo) : undefined
+}
+
+/** 1–3, 7 style summary of the chapters a place appears in. */
+export function chapterRange(chs: number[]): string {
+  if (!chs.length) return ''
+  const runs: string[] = []
+  let start = chs[0]
+  let prev = chs[0]
+  for (const c of [...chs.slice(1), Infinity]) {
+    if (c === prev + 1) {
+      prev = c
+      continue
+    }
+    runs.push(start === prev ? `${start}` : `${start}–${prev}`)
+    start = prev = c
+  }
+  return (chs.length === 1 ? 'Ch ' : 'Chs ') + runs.join(', ')
+}
+
+/** Link to the atlas, optionally focused on a place and frame. */
+export function atlasHref(bookId: string, opts: { place?: string; frame?: string } = {}) {
+  return withQuery(href('b', bookId, 'cast'), { seg: 'places', view: 'map', place: opts.place, frame: opts.frame })
 }

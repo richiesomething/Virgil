@@ -7,7 +7,7 @@ import { href } from '../lib/router'
 import { prefs } from '../lib/store'
 import { lookupCharacter, primerFor } from '../lib/spoilers'
 import { bestFrame, upcomingSetting } from '../lib/atlas'
-import { atlasHref } from './AtlasView'
+import { atlasHref } from '../lib/atlas'
 
 // Remember, per book, whether the reader last left the primer open.
 const openState = new Map<string, boolean>()

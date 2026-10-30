@@ -4,7 +4,7 @@ import { useBook } from '../lib/book-context'
 import { href } from '../lib/router'
 import { characterView, connectionsOf, kindOf, kinRole, lookupCharacter } from '../lib/spoilers'
 import { placeAt, placesOf } from '../lib/atlas'
-import { chapterRange } from '../components/AtlasView'
+import { chapterRange } from '../lib/atlas'
 import { kinLabel, relationLabel, relationTypes } from '../lib/relations'
 
 const importanceLabel = { major: 'Major', supporting: 'Supporting', minor: 'Minor' }

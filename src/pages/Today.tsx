@@ -9,7 +9,7 @@ import { href } from '../lib/router'
 import { chapter, newInChapter, notesUpTo, recapFor, whoMattersNow } from '../lib/spoilers'
 import { bestFrame, currentPlace } from '../lib/atlas'
 import { activeThemes, afterwordFor, insightsForChapter, themeSummary } from '../lib/understanding'
-import { atlasHref } from '../components/AtlasView'
+import { atlasHref } from '../lib/atlas'
 import { planFor, plans, prefs } from '../lib/store'
 import { chapterMinutes, estimate, formatMinutes, planStats } from '../lib/planner'
 
