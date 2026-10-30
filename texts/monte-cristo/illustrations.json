@@ -654,8 +654,18 @@
     },
     {
       "chapter": 28,
-      "from": "And they both entered M. de Boville’s study",
+      "from": "M. de Boville was in his private room",
       "file": "028-2.webp",
+      "width": 852,
+      "height": 1000,
+      "caption": "The Englishman calls on M. de Boville",
+      "source": "V2-D025",
+      "to": "It looks more like bankruptcy!"
+    },
+    {
+      "chapter": 28,
+      "from": "And they both entered M. de Boville’s study",
+      "file": "028-3.webp",
       "width": 867,
       "height": 1000,
       "caption": "While the inspector reads his newspaper, the Englishman slips the accusation into his pocket",
@@ -760,6 +770,16 @@
       "caption": "Signor Sinbad, on the deck of his yacht, bids Franz adieu",
       "source": "V2-D093",
       "to": "The young man took his carbine and fired it in the air"
+    },
+    {
+      "chapter": 32,
+      "from": "asked for Albert de Morcerf",
+      "file": "032-2.webp",
+      "width": 860,
+      "height": 1000,
+      "caption": "Albert de Morcerf, at the Hôtel de Londres",
+      "source": "V2-D101",
+      "to": "no joking; we must have a carriage"
     },
     {
       "chapter": 33,
@@ -941,6 +961,16 @@
       "caption": "Albert, in his small salon, awaiting his guests",
       "source": "V2-D225",
       "to": "At a quarter to ten, a valet entered"
+    },
+    {
+      "chapter": 39,
+      "from": "the servant announced M. Lucien Debray",
+      "file": "039-2.webp",
+      "width": 843,
+      "height": 1000,
+      "caption": "M. Lucien Debray",
+      "source": "V2-D251",
+      "to": "they sent me the order of Charles III"
     },
     {
       "chapter": 40,
