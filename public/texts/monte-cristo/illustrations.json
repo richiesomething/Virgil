@@ -1943,8 +1943,18 @@
     },
     {
       "chapter": 76,
-      "from": "the count noticed M. Andrea Cavalcanti’s solicitude",
+      "from": "Mademoiselle Danglars was still the same",
       "file": "076-1.webp",
+      "width": 825,
+      "height": 1000,
+      "caption": "Mademoiselle Danglars—cold, beautiful, and satirical",
+      "source": "V4-D045",
+      "to": "It was then, especially while conversing with Madame Danglars"
+    },
+    {
+      "chapter": 76,
+      "from": "the count noticed M. Andrea Cavalcanti’s solicitude",
+      "file": "076-2.webp",
       "width": 848,
       "height": 1000,
       "caption": "Eugénie and Mademoiselle d’Armilly at the piano, Andrea listening at the door",
@@ -1954,7 +1964,7 @@
     {
       "chapter": 76,
       "from": "Albert advanced towards Eugénie, smiling",
-      "file": "076-2.webp",
+      "file": "076-3.webp",
       "width": 846,
       "height": 1000,
       "caption": "Albert pays his compliments to Mademoiselle Danglars",
