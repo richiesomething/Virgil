@@ -1884,8 +1884,18 @@
     },
     {
       "chapter": 74,
-      "from": "Franz bowed and left the room. Scarcely had the door closed",
+      "from": "Such was the conversation in almost all the carriages",
       "file": "074-2.webp",
+      "width": 980,
+      "height": 1000,
+      "caption": "The cemetery of Père-Lachaise",
+      "source": "V4-D023",
+      "to": "a summer and winter palace"
+    },
+    {
+      "chapter": 74,
+      "from": "Franz bowed and left the room. Scarcely had the door closed",
+      "file": "074-3.webp",
       "width": 1000,
       "height": 813,
       "caption": "Led to the drawing-room by her father, Valentine looks despairingly at old Barrois",
@@ -1894,7 +1904,7 @@
     {
       "chapter": 74,
       "from": "in a tone strangely firm for a servant speaking",
-      "file": "074-3.webp",
+      "file": "074-4.webp",
       "width": 874,
       "height": 1000,
       "caption": "M. Noirtier asks to speak with Franz at once: the company is astonished",
