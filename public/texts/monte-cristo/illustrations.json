@@ -2360,8 +2360,18 @@
     },
     {
       "chapter": 93,
-      "from": "She was within three steps of the bottom; she already heard Morrel",
+      "from": "It was indeed Madame Danglars and her daughter whom Valentine had seen",
       "file": "093-2.webp",
+      "width": 856,
+      "height": 1000,
+      "caption": "Madame Danglars and Eugénie come to announce the marriage",
+      "source": "V4-D269",
+      "to": "the prince does not yet appear all he will be"
+    },
+    {
+      "chapter": 93,
+      "from": "She was within three steps of the bottom; she already heard Morrel",
+      "file": "093-3.webp",
       "width": 1000,
       "height": 809,
       "caption": "Valentine misses the step at the foot of the staircase",
@@ -2371,7 +2381,7 @@
     {
       "chapter": 93,
       "from": "She burst into a forced and melancholy laugh, her arms stiffened",
-      "file": "093-3.webp",
+      "file": "093-4.webp",
       "width": 852,
       "height": 1000,
       "caption": "Maximilian finds Valentine motionless; the cry stopped on Noirtier’s lips",
