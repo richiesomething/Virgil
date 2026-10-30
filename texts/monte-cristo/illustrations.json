@@ -1477,8 +1477,18 @@
     },
     {
       "chapter": 58,
-      "from": "Valentine fetched a dictionary, which she placed on a desk before Noirtier",
+      "from": "speaking to Barrois, a faithful servant",
       "file": "058-2.webp",
+      "width": 849,
+      "height": 1000,
+      "caption": "Barrois, the faithful old servant of M. Noirtier",
+      "source": "V3-D171",
+      "to": "or that I dismissed Barrois"
+    },
+    {
+      "chapter": 58,
+      "from": "Valentine fetched a dictionary, which she placed on a desk before Noirtier",
+      "file": "058-3.webp",
       "width": 835,
       "height": 1000,
       "caption": "Valentine runs her finger down the dictionary until her grandfather stops her",
@@ -1546,8 +1556,18 @@
     },
     {
       "chapter": 62,
-      "from": "Bertuccio glanced through the door, which was ajar",
+      "from": "Thus the house had become unrecognizable",
       "file": "062-1.webp",
+      "width": 856,
+      "height": 1000,
+      "caption": "The conservatory at Auteuil, ornamented with rare flowers",
+      "source": "V3-D207",
+      "to": "was the conservatory, ornamented with rare flowers"
+    },
+    {
+      "chapter": 62,
+      "from": "Bertuccio glanced through the door, which was ajar",
+      "file": "062-2.webp",
       "width": 1000,
       "height": 797,
       "caption": "Bertuccio points out the woman of the garden and the man he thought he had killed",
@@ -1557,7 +1577,7 @@
     {
       "chapter": 62,
       "from": "Stop! You are in a shocking hurry to be off",
-      "file": "062-2.webp",
+      "file": "062-3.webp",
       "width": 853,
       "height": 1000,
       "caption": "“Benedetto?” he muttered; “fatality!”",
@@ -1674,6 +1694,16 @@
       "to": "But the wound remains and will reopen at the first loss"
     },
     {
+      "chapter": 66,
+      "from": "Probably you have some correspondent in Greece?",
+      "file": "066-3.webp",
+      "width": 845,
+      "height": 1000,
+      "caption": "Yanina",
+      "source": "V3-D259",
+      "to": "I will write today"
+    },
+    {
       "chapter": 67,
       "from": "The magistrate was seated in an armchair, writing, with his back towards the door",
       "file": "067-1.webp",
@@ -1711,6 +1741,16 @@
       "caption": "The Champs-Élysées, where the count has his house",
       "source": "V3-D277",
       "to": "And I have come at once to see you"
+    },
+    {
+      "chapter": 68,
+      "from": "I arrived an hour since",
+      "file": "068-2.webp",
+      "width": 881,
+      "height": 1000,
+      "caption": "Tréport",
+      "source": "V3-D279",
+      "to": "when at Tréport, I felt the electric shock"
     },
     {
       "chapter": 69,
@@ -1844,8 +1884,18 @@
     },
     {
       "chapter": 74,
-      "from": "Franz bowed and left the room. Scarcely had the door closed",
+      "from": "Such was the conversation in almost all the carriages",
       "file": "074-2.webp",
+      "width": 980,
+      "height": 1000,
+      "caption": "The cemetery of Père-Lachaise",
+      "source": "V4-D023",
+      "to": "a summer and winter palace"
+    },
+    {
+      "chapter": 74,
+      "from": "Franz bowed and left the room. Scarcely had the door closed",
+      "file": "074-3.webp",
       "width": 1000,
       "height": 813,
       "caption": "Led to the drawing-room by her father, Valentine looks despairingly at old Barrois",
@@ -1854,7 +1904,7 @@
     {
       "chapter": 74,
       "from": "in a tone strangely firm for a servant speaking",
-      "file": "074-3.webp",
+      "file": "074-4.webp",
       "width": 874,
       "height": 1000,
       "caption": "M. Noirtier asks to speak with Franz at once: the company is astonished",
@@ -1893,8 +1943,18 @@
     },
     {
       "chapter": 76,
-      "from": "the count noticed M. Andrea Cavalcanti’s solicitude",
+      "from": "Mademoiselle Danglars was still the same",
       "file": "076-1.webp",
+      "width": 825,
+      "height": 1000,
+      "caption": "Mademoiselle Danglars—cold, beautiful, and satirical",
+      "source": "V4-D045",
+      "to": "It was then, especially while conversing with Madame Danglars"
+    },
+    {
+      "chapter": 76,
+      "from": "the count noticed M. Andrea Cavalcanti’s solicitude",
+      "file": "076-2.webp",
       "width": 848,
       "height": 1000,
       "caption": "Eugénie and Mademoiselle d’Armilly at the piano, Andrea listening at the door",
@@ -1904,7 +1964,7 @@
     {
       "chapter": 76,
       "from": "Albert advanced towards Eugénie, smiling",
-      "file": "076-2.webp",
+      "file": "076-3.webp",
       "width": 846,
       "height": 1000,
       "caption": "Albert pays his compliments to Mademoiselle Danglars",
@@ -1933,8 +1993,18 @@
     },
     {
       "chapter": 77,
-      "from": "had recognized the messenger of the pasha",
+      "from": "One morning my father sent for us",
       "file": "077-3.webp",
+      "width": 882,
+      "height": 1000,
+      "caption": "Ali Tepelini, the pasha, in the kiosk on the lake",
+      "source": "V4-D065",
+      "to": "anointed his white beard with perfumed oil"
+    },
+    {
+      "chapter": 77,
+      "from": "had recognized the messenger of the pasha",
+      "file": "077-4.webp",
       "width": 850,
       "height": 1000,
       "caption": "The messenger shows the ring, and Selim is struck down in the cavern",
@@ -2170,6 +2240,16 @@
       "to": "Has the daughter of Ali Tepelini spoken the truth?"
     },
     {
+      "chapter": 86,
+      "from": "The count had not uttered one word the whole of this time",
+      "file": "086-4.webp",
+      "width": 811,
+      "height": 1000,
+      "caption": "“I have no reply to make,” said the count in a low tone",
+      "source": "V4-D203",
+      "to": "I have no reply to make"
+    },
+    {
       "chapter": 87,
       "from": "forced the door open, and followed by Beauchamp found himself",
       "file": "087-1.webp",
@@ -2280,8 +2360,18 @@
     },
     {
       "chapter": 93,
-      "from": "She was within three steps of the bottom; she already heard Morrel",
+      "from": "It was indeed Madame Danglars and her daughter whom Valentine had seen",
       "file": "093-2.webp",
+      "width": 856,
+      "height": 1000,
+      "caption": "Madame Danglars and Eugénie come to announce the marriage",
+      "source": "V4-D269",
+      "to": "the prince does not yet appear all he will be"
+    },
+    {
+      "chapter": 93,
+      "from": "She was within three steps of the bottom; she already heard Morrel",
+      "file": "093-3.webp",
       "width": 1000,
       "height": 809,
       "caption": "Valentine misses the step at the foot of the staircase",
@@ -2291,7 +2381,7 @@
     {
       "chapter": 93,
       "from": "She burst into a forced and melancholy laugh, her arms stiffened",
-      "file": "093-3.webp",
+      "file": "093-4.webp",
       "width": 852,
       "height": 1000,
       "caption": "Maximilian finds Valentine motionless; the cry stopped on Noirtier’s lips",
