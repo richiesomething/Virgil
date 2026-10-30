@@ -1477,8 +1477,18 @@
     },
     {
       "chapter": 58,
-      "from": "Valentine fetched a dictionary, which she placed on a desk before Noirtier",
+      "from": "speaking to Barrois, a faithful servant",
       "file": "058-2.webp",
+      "width": 849,
+      "height": 1000,
+      "caption": "Barrois, the faithful old servant of M. Noirtier",
+      "source": "V3-D171",
+      "to": "or that I dismissed Barrois"
+    },
+    {
+      "chapter": 58,
+      "from": "Valentine fetched a dictionary, which she placed on a desk before Noirtier",
+      "file": "058-3.webp",
       "width": 835,
       "height": 1000,
       "caption": "Valentine runs her finger down the dictionary until her grandfather stops her",
