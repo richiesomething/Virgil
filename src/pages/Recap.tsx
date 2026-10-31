@@ -10,7 +10,7 @@ type View = 'short' | 'full'
 
 /** "Story so far": the latest checkpoint, what's happened since, and who matters now. */
 export default function Recap() {
-  const { book, upTo, dismissWelcome } = useBook()
+  const { book, bookmark: upTo, dismissWelcome } = useBook()
   const [view, setView] = useState<View>('short')
   const id = book.meta.id
   const { checkpoint, since } = recapFor(book, upTo)

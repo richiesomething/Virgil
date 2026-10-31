@@ -962,3 +962,6 @@ a.chip-btn { display: inline-flex; align-items: center; }
 .picker .bm-row.is-current { background: var(--accent-soft); }
 .picker__foot { margin: 16px 4px 4px; }
 .today__pick { display: block; margin: 8px auto 0; }
+
+.bm-sheet__guard { margin-top: 18px; padding-top: 14px; border-top: 1px solid var(--border); }
+.bm-sheet__guard p { margin: 6px 4px 0; }

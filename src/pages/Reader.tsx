@@ -189,7 +189,7 @@ function ReaderTop({ n, right, timeLeft, listen, onListen }: { n: number; right?
 }
 
 function ChapterReader({ n }: { n: number }) {
-  const { book, upTo, setBookmark } = useBook()
+  const { book, upTo, bookmark, setBookmark } = useBook()
   const id = book.meta.id
   const total = book.meta.chapterCount
   const { rsvpWpm: wpm, rsvpFont: font, listen: wantListen, audioRate: rate, textScale } = prefs.use()
@@ -556,7 +556,7 @@ function ChapterReader({ n }: { n: number }) {
       if (next <= total && nextSynced) {
         // Hands-free: the next chapter starts at once; its page takes over the playing audio.
         // The bookmark moves only when this was the next unread chapter: reading ahead never unlocks skipped chapters.
-        if (n === upTo + 1) setBookmark(n)
+        if (n === bookmark + 1) setBookmark(n)
         setAutoplayNext({ bookId: id, n: next })
         stop()
         endedRef.current = true
@@ -630,7 +630,7 @@ function ChapterReader({ n }: { n: number }) {
       p.removeEventListener('error', onError)
       p.removeEventListener('timeupdate', onTime)
     }
-  }, [book.meta, chapterTokens, count, durs, finish, follow, id, listen, n, pause, persist, play, seek, setBookmark, show, skip, stop, sync, total, trackVoice, upTo])
+  }, [book.meta, bookmark, chapterTokens, count, durs, finish, follow, id, listen, n, pause, persist, play, seek, setBookmark, show, skip, stop, sync, total, trackVoice, upTo])
 
   // Pause when the page is hidden (the narration carries on), and save when leaving.
   useEffect(() => {
@@ -681,8 +681,8 @@ function ChapterReader({ n }: { n: number }) {
   const bookPct = Math.min(100, ((wordsBefore + (book.wordCounts[n - 1] ?? 0) * (count ? Math.min(at, count) / count : 0)) / wordsTotal) * 100)
 
   if (ended) {
-    const done = n <= upTo
-    const ahead = n > upTo + 1 // read out of order: the bookmark stays where it is unless asked
+    const done = n <= bookmark
+    const ahead = n > bookmark + 1 // read out of order: the bookmark stays where it is unless asked
     const last = n >= total
     return (
       <div className="reader" data-font={prefs.get().rsvpFont} style={textStyle(prefs.get().textScale)}>
@@ -691,7 +691,7 @@ function ChapterReader({ n }: { n: number }) {
           <div className="reader__end">
             <p className="eyebrow">{done ? 'Read again' : 'The end of'}</p>
             <h1 className="page-title">Chapter {n}</h1>
-            <BookProgress pct={bookPct} chaptersDone={Math.max(upTo, n)} total={total} leftMin={bookLeftMin} />
+            <BookProgress pct={bookPct} chaptersDone={Math.max(bookmark, n)} total={total} leftMin={bookLeftMin} />
             {last ? (
               <>
                 <p className="muted">That’s the whole book.</p>
@@ -713,7 +713,7 @@ function ChapterReader({ n }: { n: number }) {
                 {ahead && (
                   <>
                     <p className="muted small">
-                      Your bookmark is at chapter {upTo}. Moving it here opens the summaries, notes and people for chapters {upTo + 1}–{n}.
+                      Your bookmark is at chapter {bookmark}. Moving it here {upTo >= total ? 'keeps Virgil’s plan and recaps in step' : `opens the summaries, notes and people for chapters ${bookmark + 1}–${n}`}.
                     </p>
                     <button
                       className="btn btn--secondary btn--block"
@@ -834,7 +834,7 @@ function ChapterReader({ n }: { n: number }) {
           aria-valuetext={`Word ${paused + 1} of ${count}, ${chapterPct}% of the chapter`}
           onChange={(e) => seek(Number(e.target.value))}
         />
-        <BookProgress pct={bookPct} chaptersDone={upTo} total={total} leftMin={bookLeftMin} compact />
+        <BookProgress pct={bookPct} chaptersDone={bookmark} total={total} leftMin={bookLeftMin} compact />
         <div className="reader__row">
           {listen ? (
             <button className="icon-btn reader__skip" aria-label="Back 15 seconds" onClick={() => skip(-15)}>

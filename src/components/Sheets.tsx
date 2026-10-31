@@ -1,7 +1,7 @@
 import Icon from './Icon'
 import { placeAt } from '../lib/atlas'
 import type { BookData, Note, NoteKind } from '../types'
-import { Segmented, Sheet, leaveSheetTo } from './ui'
+import { Segmented, Sheet, leaveSheetTo, Switch } from './ui'
 import { href } from '../lib/router'
 import { prefs, type PrimerMode } from '../lib/store'
 import ThemePicker from './ThemePicker'
@@ -69,11 +69,22 @@ export function NoteSheet({ note, onClose, book, upTo }: { note: Note | null; on
   )
 }
 
-export function SettingsSheet({ open, onClose, bookId }: { open: boolean; onClose: () => void; bookId?: string }) {
+export function SettingsSheet({ open, onClose, bookId, reveal, onReveal }: { open: boolean; onClose: () => void; bookId?: string; reveal?: boolean; onReveal?: (v: boolean) => void }) {
   const p = prefs.use()
   const hiddenHere = !!bookId && p.primersHidden.includes(bookId)
   return (
     <Sheet open={open} onClose={onClose} title="Settings">
+      {bookId && onReveal && (
+        <>
+          <p className="group-title">Spoilers</p>
+          <Switch label="Hide chapters ahead of my bookmark" checked={!reveal} onChange={(v) => onReveal(!v)} />
+          <p className="small muted" style={{ margin: '8px 4px 0' }}>
+            {reveal
+              ? 'Every chapter’s summary, notes and people are open. Your bookmark still marks where you are.'
+              : 'Summaries, notes and people appear as you finish chapters. Turn this off to see everything at once.'}
+          </p>
+        </>
+      )}
       <p className="group-title">Before you read</p>
       <Segmented<PrimerMode>
         label="Primers"

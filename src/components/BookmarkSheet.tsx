@@ -1,7 +1,7 @@
 import { useEffect, useRef, useState } from 'react'
 import type { BookData } from '../types'
 import Icon from './Icon'
-import { Sheet } from './ui'
+import { Sheet, Switch } from './ui'
 import { chapterMinutes, estimate } from '../lib/planner'
 
 interface Props {
@@ -11,6 +11,9 @@ interface Props {
   upTo: number
   wpm: number
   onSet: (n: number) => void
+  /** Spoiler guard off for this book, and how to change it. */
+  reveal?: boolean
+  onReveal?: (v: boolean) => void
 }
 
 /**
@@ -18,7 +21,7 @@ interface Props {
  * further ahead asks first, because it unlocks spoilers. Titles of chapters
  * ahead stay hidden.
  */
-export default function BookmarkSheet({ open, onClose, book, upTo, wpm, onSet }: Props) {
+export default function BookmarkSheet({ open, onClose, book, upTo, wpm, onSet, reveal, onReveal }: Props) {
   const total = book.meta.chapterCount
   const [choosing, setChoosing] = useState(false)
   const [pending, setPending] = useState<number | null>(null)
@@ -89,6 +92,14 @@ export default function BookmarkSheet({ open, onClose, book, upTo, wpm, onSet }:
                 Choose chapter
               </button>
             </div>
+            {onReveal && !choosing && (
+              <div className="bm-sheet__guard">
+                <Switch label="Hide chapters ahead of my bookmark" checked={!reveal} onChange={(v) => onReveal(!v)} />
+                <p className="small muted">
+                  {reveal ? 'Every chapter’s summary, notes and people are open; the bookmark just marks where you are.' : 'Summaries, notes and people appear as you finish chapters.'}
+                </p>
+              </div>
+            )}
           </>
         )}
 

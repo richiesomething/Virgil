@@ -158,6 +158,7 @@ A few period pictures per book, shown inline in the Text view only. `public/text
 ## 7. Spoiler rules
 
 - Every chapter is readable, in either view; only the bookmark-gated companion content is hidden ahead of the bookmark.
+- **Spoiler guard per book.** `book.json` `spoilerGuard: false` opens every chapter's summary, notes, people, atlas and themes from the start (Monte Cristo ships this way); the reader can switch the guard on or off in the bookmark sheet (`prefs.reveal[bookId]`). Internally the context carries `bookmark` (progress: Today, plan, recaps, picker ticks, end cards) and `upTo` (visibility: the bookmark, or the whole book when the guard is off).
 - The import review shows first words only for chapters `≤ upTo + 1`.
 - The reader never shows Virgil's summaries, names or notes; the end card links to the chapter page, which is unlocked by then.
 - The text itself is the book: nothing in the text layer is gated beyond the chapter rule.

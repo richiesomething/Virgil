@@ -16,7 +16,7 @@ type Step =
 
 /** Import the reader's own copy of a copyrighted book, parsed and kept on this device. */
 export default function YourCopy() {
-  const { book, upTo } = useBook()
+  const { book, upTo, bookmark } = useBook()
   const id = book.meta.id
   const total = book.meta.chapterCount
   const copy = useCopy(id)
@@ -30,7 +30,7 @@ export default function YourCopy() {
       <div className="empty">
         <h1>This book’s text is built in</h1>
         <p>{book.meta.text.edition}. Nothing to add.</p>
-        <a className="btn btn--primary" href={href('b', id, 'read', Math.min(total, upTo + 1))}>
+        <a className="btn btn--primary" href={href('b', id, 'read', Math.min(total, bookmark + 1))}>
           Read it
         </a>
       </div>
@@ -64,7 +64,7 @@ export default function YourCopy() {
       })
       forgetText(id)
       showToast('Your copy is ready to read.')
-      navigate(href('b', id, 'read', Math.min(total, upTo + 1)), { replace: true })
+      navigate(href('b', id, 'read', Math.min(total, bookmark + 1)), { replace: true })
     } catch (e) {
       setError(`Couldn’t save it: ${(e as Error).message}`)
       setStep({ kind: 'idle' })
@@ -92,7 +92,7 @@ export default function YourCopy() {
             Added {new Date(copy.info.importedAt).toLocaleDateString()} · {copy.info.wordCounts.length} chapters · {copy.info.wordCounts.reduce((a, b) => a + b, 0).toLocaleString()} words
           </p>
           <div style={{ display: 'flex', gap: 10, marginTop: 14 }}>
-            <a className="btn btn--primary" href={href('b', id, 'read', Math.min(total, upTo + 1))} style={{ flex: 1 }}>
+            <a className="btn btn--primary" href={href('b', id, 'read', Math.min(total, bookmark + 1))} style={{ flex: 1 }}>
               <Icon name="play" /> Read
             </a>
             <button

@@ -16,7 +16,7 @@ import { chapterMinutes, estimate } from '../lib/planner'
 type Tab = 'summary' | 'insights' | 'notes' | 'people'
 
 export default function ChapterDetail({ n }: { n: number }) {
-  const { book, upTo } = useBook()
+  const { book, upTo, bookmark, reveal } = useBook()
   const total = book.meta.chapterCount
   if (!Number.isInteger(n) || n < 1 || n > total) {
     return (
@@ -28,7 +28,7 @@ export default function ChapterDetail({ n }: { n: number }) {
       </div>
     )
   }
-  if (n === upTo + 1) return <UpNextPage n={n} />
+  if (!reveal && n === bookmark + 1) return <UpNextPage n={n} />
   if (n > upTo) {
     return (
       <div className="empty">
@@ -50,7 +50,7 @@ export default function ChapterDetail({ n }: { n: number }) {
 }
 
 function ReadChapter({ n }: { n: number }) {
-  const { book, upTo, openNote } = useBook()
+  const { book, upTo, bookmark, openNote } = useBook()
   const loc = useLocation()
   const ch = chapter(book, n, upTo)!
   const { meta } = book
@@ -180,7 +180,7 @@ function ReadChapter({ n }: { n: number }) {
         ) : (
           <span />
         )}
-        {n < upTo ? (
+        {n < bookmark || (n < meta.chapterCount && n < upTo) ? (
           <a className="next" href={href('b', meta.id, 'chapters', n + 1)}>
             <span className="k">
               Ch {n + 1} <Icon name="chevronRight" className="icon--sm" />

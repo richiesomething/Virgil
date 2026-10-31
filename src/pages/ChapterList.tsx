@@ -8,18 +8,18 @@ import { chapterMinutes, estimate } from '../lib/planner'
 import type { BookMeta, Chapter } from '../types'
 
 export default function ChapterList() {
-  const { book, upTo, openPicker } = useBook()
+  const { book, upTo, bookmark, reveal, openPicker } = useBook()
   const { wpm } = prefs.use()
   const { meta } = book
   const chapters = unlockedChapters(book, upTo)
-  const next = upTo < meta.chapterCount ? upTo + 1 : null
-  const remaining = meta.chapterCount - upTo
+  const next = bookmark < meta.chapterCount ? bookmark + 1 : null
+  const remaining = meta.chapterCount - bookmark
 
   return (
     <div>
       <h1 className="large-title">Chapters</h1>
       <p className="muted" style={{ marginBottom: 8 }}>
-        {upTo === 0 ? `${meta.chapterCount} chapters` : `${upTo} of ${meta.chapterCount} read`}
+        {bookmark === 0 ? `${meta.chapterCount} chapters` : `${bookmark} of ${meta.chapterCount} read`}
       </p>
       <button className="btn btn--secondary btn--block" style={{ marginBottom: 12 }} onClick={openPicker}>
         <Icon name="bookOpen" /> Read or listen to any chapter
@@ -69,7 +69,7 @@ export default function ChapterList() {
         </div>
       )}
 
-      {remaining > 1 && next && (
+      {!reveal && remaining > 1 && next && (
         <details className="read-ahead">
           <summary className="locked-note">
             <Icon name="lock" className="icon--sm" />

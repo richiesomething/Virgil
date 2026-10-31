@@ -13,7 +13,7 @@ import { hasAudio } from '../lib/audio'
  * and the ones ahead (numbers only, so nothing is given away). Two taps from anywhere in the book.
  */
 export default function ChapterPicker({ open, onClose, current }: { open: boolean; onClose: () => void; current?: number }) {
-  const { book, upTo, openBookmark } = useBook()
+  const { book, upTo, bookmark, openBookmark } = useBook()
   const id = book.meta.id
   const total = book.meta.chapterCount
   const wpm = prefs.use().wpm
@@ -21,7 +21,7 @@ export default function ChapterPicker({ open, onClose, current }: { open: boolea
   const positions = reading.use()
   const [jump, setJump] = useState('')
   const here = useRef<HTMLButtonElement>(null)
-  const focus = current ?? Math.min(total, upTo + 1)
+  const focus = current ?? Math.min(total, bookmark + 1)
 
   useEffect(() => {
     if (open) {
@@ -42,7 +42,7 @@ export default function ChapterPicker({ open, onClose, current }: { open: boolea
       <div className="picker">
         <div className="section-head">
           <p className="eyebrow">{listen ? 'Listen to' : 'Read'}</p>
-          <span className="small muted">{upTo} of {total} read</span>
+          <span className="small muted">{bookmark} of {total} read</span>
         </div>
         <h2 className="bm-sheet__current">Which chapter?</h2>
         <form
@@ -65,17 +65,17 @@ export default function ChapterPicker({ open, onClose, current }: { open: boolea
               <div className="group" role="list">
                 {nums.map((n) => {
                   const pos = resumeFor(positions, id, n)
-                  const state = n === current ? 'Reading now' : n === upTo + 1 ? 'Up next' : pos ? `${Math.round((pos.word / pos.words) * 100)}%` : ''
+                  const state = n === current ? 'Reading now' : n === bookmark + 1 ? 'Up next' : pos ? `${Math.round((pos.word / pos.words) * 100)}%` : ''
                   return (
                     <button
                       key={n}
                       ref={n === focus ? here : undefined}
-                      className={'row bm-row' + (n <= upTo ? ' is-read' : '') + (n === focus ? ' is-current' : '')}
+                      className={'row bm-row' + (n <= bookmark ? ' is-read' : '') + (n === focus ? ' is-current' : '')}
                       onClick={() => go(n)}
                       role="listitem"
                       aria-current={n === current ? 'true' : undefined}
                     >
-                      <span className="ch-row__num">{n <= upTo ? <Icon name="check" className="icon--sm" /> : n}</span>
+                      <span className="ch-row__num">{n <= bookmark ? <Icon name="check" className="icon--sm" /> : n}</span>
                       <span className="row__body">
                         <span className="row__title">{title(n)}</span>
                         <span className="row__sub">{estimate(book, chapterMinutes(book, n, wpm))}</span>

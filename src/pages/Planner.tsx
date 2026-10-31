@@ -10,7 +10,7 @@ const weekday = new Intl.DateTimeFormat(undefined, { weekday: 'narrow' })
 const DAY = 86_400_000
 
 export default function Planner() {
-  const { book, upTo } = useBook()
+  const { book, bookmark: upTo } = useBook()
   const all = plans.use()
   const { wpm } = prefs.use()
   const id = book.meta.id
@@ -230,7 +230,7 @@ const speeds = [
 ]
 
 function PlanSetup({ step, onClose, onStep }: { step: 0 | 1 | 2 | null; onClose: () => void; onStep: (s: 0 | 1 | 2) => void }) {
-  const { book, upTo } = useBook()
+  const { book, bookmark: upTo } = useBook()
   const p = prefs.use()
   const plan = planFor(plans.use(), book.meta.id)
   const [wpm, setWpm] = useState(p.wpm)

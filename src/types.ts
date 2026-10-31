@@ -60,6 +60,8 @@ export interface Character {
 
 export interface BookMeta {
   id: string
+  /** false: every chapter's summary, notes and people are visible from the start (the reader can turn the guard back on). Default true. */
+  spoilerGuard?: boolean
   title: string
   /** For tight spaces like the header; defaults to the title. */
   shortTitle?: string

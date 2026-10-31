@@ -60,7 +60,9 @@ test('text view shows the chapter and tapping a paragraph moves the position', a
   await expect(page.locator('.rsvp')).toHaveText(first)
 })
 
-test('chapters past the bookmark can be read, but finishing one does not move the bookmark by itself', async ({ page }) => {
+test('with the spoiler guard on, chapters past the bookmark can be read, but finishing one does not move the bookmark by itself', async ({ page }) => {
+  await page.goto('/')
+  await page.evaluate(() => localStorage.setItem('virgil:prefs:v1', JSON.stringify({ reveal: { 'monte-cristo': false } })))
   await open(page, '#/b/monte-cristo/read/9', { 'monte-cristo': 2 })
   await expect(page.locator('.reader__label')).toContainText('Chapter 9')
   await expect(page.locator('.rsvp')).not.toBeEmpty()
@@ -152,7 +154,8 @@ test('the chapter picker opens from the reader, the chapters tab and Today, and 
   await page.reload()
   await page.getByRole('button', { name: /Choose another chapter/ }).click()
   await expect(page.getByRole('heading', { name: 'Which chapter?' })).toBeVisible()
-  await page.getByRole('listitem').filter({ hasText: 'Chapter 2' }).first().click()
+  await page.getByLabel('Jump to chapter number').fill('2')
+  await page.getByLabel('Jump to chapter number').press('Enter')
   await expect(page.locator('.reader__label')).toContainText('Chapter 2')
   // Ahead of the bookmark too, by number.
   await page.getByRole('button', { name: /Choose another chapter/ }).click()
@@ -168,4 +171,26 @@ test('the chapter picker opens from the reader, the chapters tab and Today, and 
   await page.goto('/#/b/monte-cristo/chapters')
   await page.getByRole('button', { name: 'Read or listen to any chapter' }).click()
   await expect(page.getByRole('heading', { name: 'Which chapter?' })).toBeVisible()
+})
+
+test('Monte Cristo opens with the spoiler guard off: every chapter page is readable, the bookmark still drives Today; the switch turns the guard on', async ({ page }) => {
+  await page.goto('/')
+  await page.evaluate(() => localStorage.setItem('virgil:progress:v1', JSON.stringify({ 'monte-cristo': 2 })))
+  await page.goto('/#/b/monte-cristo/chapters/40')
+  await page.reload()
+  await expect(page.getByText('Chapter 40 is still ahead of you')).toHaveCount(0)
+  await expect(page.locator('h1')).toContainText(/.+/)
+  await expect(page.getByText('Read chapter 40')).toBeVisible()
+  await page.goto('/#/b/monte-cristo')
+  await expect(page.getByText('Read chapter 3')).toBeVisible()
+  // The chapters tab lists them all; the header pill still says where the bookmark is.
+  await page.goto('/#/b/monte-cristo/chapters')
+  expect(await page.locator('.group .ch-row').count()).toBeGreaterThanOrEqual(117)
+  await expect(page.getByText('2 of 117 read')).toBeVisible()
+  // Turn the guard back on from the bookmark sheet.
+  await page.getByRole('button', { name: /Bookmark: finished chapter 2/ }).click()
+  await page.getByText('Hide chapters ahead of my bookmark').click()
+  await page.keyboard.press('Escape')
+  await page.goto('/#/b/monte-cristo/chapters/40')
+  await expect(page.getByText('Chapter 40 is still ahead of you')).toBeVisible()
 })

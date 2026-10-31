@@ -16,10 +16,10 @@ import { chapterMinutes, estimate, formatMinutes, planStats } from '../lib/plann
 const dateFmt = new Intl.DateTimeFormat(undefined, { day: 'numeric', month: 'short' })
 
 export default function Today() {
-  const { book, upTo, welcome } = useBook()
+  const { book, bookmark, welcome } = useBook()
   const total = book.meta.chapterCount
-  if (upTo === 0) return <NotStarted />
-  if (upTo >= total) return <Finished />
+  if (bookmark === 0) return <NotStarted />
+  if (bookmark >= total) return <Finished />
   return (
     <div className="stack">
       {welcome && <WelcomeBack />}
@@ -33,7 +33,7 @@ export default function Today() {
 }
 
 function WelcomeBack() {
-  const { book, upTo, welcome, dismissWelcome } = useBook()
+  const { book, bookmark: upTo, welcome, dismissWelcome } = useBook()
   const { wpm } = prefs.use()
   const last = chapter(book, upTo, upTo)!
   const { checkpoint, since } = recapFor(book, upTo)
@@ -61,9 +61,9 @@ function WelcomeBack() {
 }
 
 function UpNext() {
-  const { book, upTo, setBookmark, openPicker } = useBook()
+  const { book, upTo, bookmark, setBookmark, openPicker } = useBook()
   const { wpm } = prefs.use()
-  const n = upTo + 1
+  const n = bookmark + 1
   const words = book.wordCounts[n - 1]
   return (
     <section aria-labelledby="up-next">
@@ -93,7 +93,7 @@ function UpNext() {
 }
 
 function PlannerStrip() {
-  const { book, upTo } = useBook()
+  const { book, bookmark: upTo } = useBook()
   const all = plans.use()
   const p = prefs.use()
   const plan = planFor(all, book.meta.id)
@@ -151,12 +151,12 @@ function PlannerStrip() {
 }
 
 function LeftOff() {
-  const { book, upTo } = useBook()
-  const ch = chapter(book, upTo, upTo)!
+  const { book, upTo, bookmark } = useBook()
+  const ch = chapter(book, bookmark, upTo)!
   const id = book.meta.id
-  const here = currentPlace(book, upTo)
+  const here = currentPlace(book, bookmark)
   const frame = here && bestFrame(book, here, upTo)
-  const [insight] = insightsForChapter(book, upTo, upTo)
+  const [insight] = insightsForChapter(book, bookmark, upTo)
   return (
     <section aria-labelledby="left-off">
       <p className="eyebrow" id="left-off">Where you left off</p>
@@ -196,7 +196,7 @@ function LeftOff() {
 }
 
 function ThemesNow() {
-  const { book, upTo } = useBook()
+  const { book, bookmark: upTo } = useBook()
   const id = book.meta.id
   const themes = activeThemes(book, upTo, 3)
   if (!themes.length) return null
@@ -224,7 +224,7 @@ function ThemesNow() {
 }
 
 function StoryNow() {
-  const { book, upTo } = useBook()
+  const { book, bookmark: upTo } = useBook()
   const id = book.meta.id
   const fresh = newInChapter(book, upTo, upTo).filter((c) => (c.kind ?? 'character') === 'character')
   const top = whoMattersNow(book, upTo, 8)
@@ -311,7 +311,7 @@ function NotStarted() {
 }
 
 function Finished() {
-  const { book, upTo } = useBook()
+  const { book, bookmark: upTo } = useBook()
   const all = plans.use()
   const { wpm } = prefs.use()
   const plan = planFor(all, book.meta.id)

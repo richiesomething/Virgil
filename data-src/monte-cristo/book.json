@@ -52,5 +52,6 @@
     "reader": "David Clarke",
     "license": "Public domain (LibriVox, CC0)",
     "url": "https://librivox.org/the-count-of-monte-cristo-version-3-by-alexandre-dumas/"
-  }
+  },
+  "spoilerGuard": false
 }

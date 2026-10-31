@@ -50,6 +50,8 @@ export interface Prefs {
   primers: PrimerMode
   /** Books where the reader hid primers. */
   primersHidden: string[]
+  /** Per book: true shows every chapter's material regardless of the bookmark; false keeps the spoiler guard. Unset: the book's default. */
+  reveal: Record<string, boolean>
   /** Reading speed used for time estimates, in words per minute. */
   wpm: number
   /** Speed of the flash (one word at a time) reader. */
@@ -69,6 +71,7 @@ export interface Prefs {
 export const prefs = createStore<Prefs>('virgil:prefs:v1', {
   primers: 'collapsed',
   primersHidden: [],
+  reveal: {},
   wpm: 230,
   rsvpWpm: 300,
   rsvpFont: 'literata',

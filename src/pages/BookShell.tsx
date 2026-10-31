@@ -72,7 +72,12 @@ const dismissedThisSession = new Set<string>()
 function LoadedBook({ book }: { book: BookData }) {
   const id = book.meta.id
   const total = book.meta.chapterCount
-  const [upTo, setUpTo] = useBookmark(id, total)
+  const [bookmark, setUpTo] = useBookmark(id, total)
+  const revealPref = prefs.use().reveal[id]
+  const reveal = revealPref ?? book.meta.spoilerGuard === false
+  const setReveal = useCallback((v: boolean) => prefs.set((x) => ({ ...x, reveal: { ...x.reveal, [id]: v } })), [id])
+  // Everything Virgil says is gated by this: the bookmark, or the whole book when the guard is off.
+  const upTo = reveal ? total : bookmark
   const loc = useLocation()
   const [section, param] = loc.parts.slice(2)
   const tab = tabOf(section)
@@ -157,6 +162,9 @@ function LoadedBook({ book }: { book: BookData }) {
     () => ({
       book,
       upTo,
+      bookmark,
+      reveal,
+      setReveal,
       setBookmark,
       openBookmark: () => setBookmarkOpen(true),
       openPicker: () => setPickerOpen(true),
@@ -166,7 +174,7 @@ function LoadedBook({ book }: { book: BookData }) {
       welcome,
       dismissWelcome,
     }),
-    [book, upTo, setBookmark, openSearch, welcome, dismissWelcome],
+    [book, upTo, bookmark, reveal, setReveal, setBookmark, openSearch, welcome, dismissWelcome],
   )
 
   // Deep link to a glossary note opens its sheet over the glossary.
@@ -182,7 +190,7 @@ function LoadedBook({ book }: { book: BookData }) {
           <Reader n={Number(param)} />
         </ErrorBoundary>
         <ChapterPicker open={pickerOpen} onClose={() => setPickerOpen(false)} current={Number(param)} />
-        <BookmarkSheet open={bookmarkOpen} onClose={() => setBookmarkOpen(false)} book={book} upTo={upTo} wpm={wpm} onSet={setBookmark} />
+        <BookmarkSheet open={bookmarkOpen} onClose={() => setBookmarkOpen(false)} book={book} upTo={bookmark} wpm={wpm} onSet={setBookmark} reveal={reveal} onReveal={setReveal} />
       </BookContext.Provider>
     )
 
@@ -216,7 +224,7 @@ function LoadedBook({ book }: { book: BookData }) {
     <BookContext.Provider value={ctx}>
       <BookHeader
         book={book}
-        upTo={upTo}
+        upTo={bookmark}
         current={tab}
         title={title}
         isRoot={isRoot}
@@ -229,11 +237,11 @@ function LoadedBook({ book }: { book: BookData }) {
         </ErrorBoundary>
       </main>
       <TabBar bookId={id} current={tab} />
-      <BookmarkSheet open={bookmarkOpen} onClose={() => setBookmarkOpen(false)} book={book} upTo={upTo} wpm={wpm} onSet={setBookmark} />
+      <BookmarkSheet open={bookmarkOpen} onClose={() => setBookmarkOpen(false)} book={book} upTo={bookmark} wpm={wpm} onSet={setBookmark} reveal={reveal} onReveal={setReveal} />
       <ChapterPicker open={pickerOpen} onClose={() => setPickerOpen(false)} />
       <SearchOverlay ref={searchInput} open={searchOpen} onClose={() => setSearchOpen(false)} book={book} upTo={upTo} onNote={setNoteId} />
       <NoteSheet note={note} onClose={() => setNoteId(null)} book={book} upTo={upTo} />
-      <SettingsSheet open={settingsOpen} onClose={() => setSettingsOpen(false)} bookId={id} />
+      <SettingsSheet open={settingsOpen} onClose={() => setSettingsOpen(false)} bookId={id} reveal={reveal} onReveal={setReveal} />
     </BookContext.Provider>
   )
 }
