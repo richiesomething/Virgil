@@ -7,6 +7,8 @@ export interface BookContextValue {
   /** Move the bookmark (with toast + Undo). */
   setBookmark: (n: number) => void
   openBookmark: () => void
+  /** The chapter picker: read or listen to any chapter. */
+  openPicker: () => void
   openSearch: () => void
   openNote: (id: string) => void
   openSettings: () => void

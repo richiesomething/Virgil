@@ -61,7 +61,7 @@ function WelcomeBack() {
 }
 
 function UpNext() {
-  const { book, upTo, setBookmark } = useBook()
+  const { book, upTo, setBookmark, openPicker } = useBook()
   const { wpm } = prefs.use()
   const n = upTo + 1
   const words = book.wordCounts[n - 1]
@@ -80,6 +80,9 @@ function UpNext() {
         <Primer book={book} n={n} upTo={upTo} />
         <div className="stack" style={{ gap: 10 }}>
           <ReadButton n={n} />
+          <button className="link today__pick" onClick={openPicker}>
+            Read a different chapter
+          </button>
           <button className="btn btn--secondary btn--block" onClick={() => setBookmark(n)}>
             <Icon name="check" /> I finished Chapter {n}
           </button>

@@ -806,7 +806,11 @@ a.chip-btn { display: inline-flex; align-items: center; }
   padding-top: var(--safe-top); padding-bottom: var(--safe-bottom); overscroll-behavior: contain;
 }
 .reader__top { display: flex; align-items: center; gap: 8px; min-height: var(--header-h); padding: 0 8px; }
-.reader__label { flex: 1; min-width: 0; font-size: 0.95rem; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.reader__label { flex: 1; min-width: 0; display: flex; align-items: center; gap: 2px; font-size: 0.95rem; background: none; border: 0; color: inherit; font: inherit; text-align: left; padding: 6px 4px; border-radius: 8px; cursor: pointer; -webkit-tap-highlight-color: transparent; }
+.reader__label strong { flex: none; }
+.reader__label:active { background: var(--accent-soft); }
+.reader__label-chev { flex: none; color: var(--muted); margin-right: 4px; }
+.reader__label-title { min-width: 0; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
 .reader__top .segmented { flex: none; }
 .reader__aa { font: 600 0.95rem var(--serif); letter-spacing: 0.02em; width: 40px; }
 .reader__top .segmented button { min-height: 36px; padding: 0 12px; }
@@ -950,3 +954,11 @@ a.chip-btn { display: inline-flex; align-items: center; }
 /* While the map code loads: same footprint as the map, nothing to see. */
 .atlas-loading { width: 100%; height: 100%; min-height: 150px; background: var(--surface); }
 .atlas-loading--page { min-height: 60vh; }
+
+/* Chapter picker */
+.picker .bm-sheet__jump { margin-bottom: 12px; }
+.picker .vol-head { position: static; margin: 14px 0 6px; background: none; }
+.picker .row__meta { font-size: 0.75rem; color: var(--gold-text); white-space: nowrap; }
+.picker .bm-row.is-current { background: var(--accent-soft); }
+.picker__foot { margin: 16px 4px 4px; }
+.today__pick { display: block; margin: 8px auto 0; }

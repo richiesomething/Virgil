@@ -143,3 +143,29 @@ test('chapter 14 of Monte Cristo shows its period illustrations after the paragr
   await figures.first().scrollIntoViewIfNeeded()
   await expect.poll(() => figures.first().locator('img').evaluate((i: HTMLImageElement) => i.complete && i.naturalWidth > 0)).toBe(true)
 })
+
+test('the chapter picker opens from the reader, the chapters tab and Today, and goes straight to a chapter', async ({ page }) => {
+  await page.goto('/')
+  await page.evaluate(() => localStorage.setItem('virgil:progress:v1', JSON.stringify({ 'monte-cristo': 5 })))
+  // From the reader's chapter label: back to a read chapter.
+  await page.goto('/#/b/monte-cristo/read/6')
+  await page.reload()
+  await page.getByRole('button', { name: /Choose another chapter/ }).click()
+  await expect(page.getByRole('heading', { name: 'Which chapter?' })).toBeVisible()
+  await page.getByRole('listitem').filter({ hasText: 'Chapter 2' }).first().click()
+  await expect(page.locator('.reader__label')).toContainText('Chapter 2')
+  // Ahead of the bookmark too, by number.
+  await page.getByRole('button', { name: /Choose another chapter/ }).click()
+  await page.getByLabel('Jump to chapter number').fill('40')
+  await page.getByLabel('Jump to chapter number').press('Enter')
+  await expect(page.locator('.reader__label')).toContainText('Chapter 40')
+  await expect(page.locator('.rsvp')).not.toBeEmpty()
+  // From Today and the chapters tab.
+  await page.goto('/#/b/monte-cristo')
+  await page.getByRole('button', { name: 'Read a different chapter' }).click()
+  await expect(page.getByRole('heading', { name: 'Which chapter?' })).toBeVisible()
+  await page.keyboard.press('Escape')
+  await page.goto('/#/b/monte-cristo/chapters')
+  await page.getByRole('button', { name: 'Read or listen to any chapter' }).click()
+  await expect(page.getByRole('heading', { name: 'Which chapter?' })).toBeVisible()
+})

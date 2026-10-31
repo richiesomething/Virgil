@@ -90,7 +90,7 @@ function closeReader(bookId: string, n: number, upTo: number) {
 }
 
 function ReaderTop({ n, right, timeLeft, listen, onListen }: { n: number; right?: React.ReactNode; timeLeft?: string; listen?: boolean; onListen?: () => void }) {
-  const { book, upTo } = useBook()
+  const { book, upTo, openPicker } = useBook()
   const ch = n <= upTo ? chapter(book, n, upTo) : null
   const [open, setOpen] = useState(false)
   const { rsvpWpm, rsvpFont, audioRate, textScale } = prefs.use()
@@ -100,11 +100,14 @@ function ReaderTop({ n, right, timeLeft, listen, onListen }: { n: number; right?
       <button className="icon-btn" aria-label="Close the reader" onClick={() => closeReader(book.meta.id, n, upTo)}>
         <Icon name="x" />
       </button>
-      <span className="reader__label">
+      <button className="reader__label" onClick={openPicker} aria-label={`Chapter ${n}. Choose another chapter`}>
         <strong>Chapter {n}</strong>
-        {ch?.title ? <span className="muted"> · {ch.title}</span> : null}
-        {timeLeft ? <span className="muted"> · {timeLeft}</span> : null}
-      </span>
+        <Icon name="chevronDown" className="icon--sm reader__label-chev" />
+        <span className="muted reader__label-title">
+          {ch?.title ? `${ch.title}` : null}
+          {timeLeft ? `${ch?.title ? ' · ' : ''}${timeLeft}` : null}
+        </span>
+      </button>
       {narrated && onListen && (
         <button className="icon-btn reader__listen" aria-label={listen ? 'Listening: switch to reading' : 'Listen to the narration'} aria-pressed={!!listen} onClick={onListen}>
           <Icon name="headphones" />

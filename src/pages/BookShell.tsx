@@ -10,6 +10,7 @@ import { chapterMinutes, planStats } from '../lib/planner'
 import { BookContext, type BookContextValue } from '../lib/book-context'
 import { BookHeader, TabBar, rememberTab, tabOf } from '../components/BookChrome'
 import BookmarkSheet from '../components/BookmarkSheet'
+import ChapterPicker from '../components/ChapterPicker'
 import SearchOverlay from '../components/SearchOverlay'
 import { NoteSheet, SettingsSheet } from '../components/Sheets'
 import { showToast } from '../components/ui'
@@ -78,6 +79,7 @@ function LoadedBook({ book }: { book: BookData }) {
   const { wpm } = prefs.use()
 
   const [bookmarkOpen, setBookmarkOpen] = useState(false)
+  const [pickerOpen, setPickerOpen] = useState(false)
   const [searchOpen, setSearchOpen] = useState(false)
   const [settingsOpen, setSettingsOpen] = useState(false)
   const [noteId, setNoteId] = useState<string | null>(null)
@@ -157,6 +159,7 @@ function LoadedBook({ book }: { book: BookData }) {
       upTo,
       setBookmark,
       openBookmark: () => setBookmarkOpen(true),
+      openPicker: () => setPickerOpen(true),
       openSearch,
       openNote: setNoteId,
       openSettings: () => setSettingsOpen(true),
@@ -178,6 +181,8 @@ function LoadedBook({ book }: { book: BookData }) {
         <ErrorBoundary key={loc.path} fallback={<PageFailed />}>
           <Reader n={Number(param)} />
         </ErrorBoundary>
+        <ChapterPicker open={pickerOpen} onClose={() => setPickerOpen(false)} current={Number(param)} />
+        <BookmarkSheet open={bookmarkOpen} onClose={() => setBookmarkOpen(false)} book={book} upTo={upTo} wpm={wpm} onSet={setBookmark} />
       </BookContext.Provider>
     )
 
@@ -225,6 +230,7 @@ function LoadedBook({ book }: { book: BookData }) {
       </main>
       <TabBar bookId={id} current={tab} />
       <BookmarkSheet open={bookmarkOpen} onClose={() => setBookmarkOpen(false)} book={book} upTo={upTo} wpm={wpm} onSet={setBookmark} />
+      <ChapterPicker open={pickerOpen} onClose={() => setPickerOpen(false)} />
       <SearchOverlay ref={searchInput} open={searchOpen} onClose={() => setSearchOpen(false)} book={book} upTo={upTo} onNote={setNoteId} />
       <NoteSheet note={note} onClose={() => setNoteId(null)} book={book} upTo={upTo} />
       <SettingsSheet open={settingsOpen} onClose={() => setSettingsOpen(false)} bookId={id} />
