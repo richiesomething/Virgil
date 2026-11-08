@@ -20,7 +20,12 @@
       "It is before the Gorbeau house that Jean Valjean stops with Cosette in his arms. He lets himself in with a passkey, climbs the stairs, and opens a modestly furnished attic with a mattress, a table, chairs and a lit stove, with a small dressing-room and folding bed at the far end. He lays the child down without waking her, lights a candle and gazes at her face with a tenderness that is almost ecstasy. He kisses her hand, as nine months earlier he had kissed the hand of her sleeping mother, and kneels by her bed.",
       "In broad daylight a passing cart shakes the building and Cosette starts awake crying 'Yes, madame, here I am!' and gropes for her broom. Then she sees Jean Valjean smiling at her and says, 'Ah, so it is true! Good morning, Monsieur.' She finds her doll Catherine at the foot of the bed and pours out questions: where is she, is Paris big, is Madame Thénardier far away, must she go back? She declares the frightful hole pretty, because she feels free. When she asks whether she must sweep, he tells her to play, and the day passes in happiness."
     ],
-    "characters": ["jean-valjean", "cosette", "madame-thenardier", "fantine"]
+    "characters": [
+      "jean-valjean",
+      "cosette",
+      "madame-thenardier",
+      "fantine"
+    ]
   },
   {
     "number": 106,
@@ -32,7 +37,14 @@
       "The refuge is well chosen. Their room has the only window in the house, so no neighbour can see in; the ground floor is a wagon-shed with no connection to the upper storey; the only other inhabitant is the old woman who calls herself the 'principal lodger' and acts as portress. Valjean had rented from her on Christmas Eve, presenting himself as a gentleman ruined by Spanish bonds who was coming to live with his little daughter, paying six months in advance and having her furnish the room.",
       "Weeks pass. Cosette sings from daybreak; she is no longer in rags but in mourning. Valjean teaches her to read, remembering that he learned to read in prison with evil intentions, and that this skill now ends in teaching a child. He talks to her of her mother and makes her pray; she calls him 'father' and knows no other name for him. Hugo suggests that Valjean, embittered by Fantine's fate and Javert's authority and sent back to prison for doing right, may have needed this love to persevere in virtue: he is her support, and she is his prop."
     ],
-    "characters": ["jean-valjean", "cosette", "the-principal-lodger", "bishop-myriel", "fantine", "javert"]
+    "characters": [
+      "jean-valjean",
+      "cosette",
+      "the-principal-lodger",
+      "bishop-myriel",
+      "fantine",
+      "javert"
+    ]
   },
   {
     "number": 107,
@@ -44,7 +56,11 @@
       "The old 'principal lodger,' a cross, slightly deaf and therefore talkative woman with two remaining teeth, watches him closely. She has questioned Cosette, who knows only that she came from Montfermeil. One morning she follows Valjean into an empty room and, through a crack in the door, sees him rip open the lining of his coat and take out a thousand-franc note. He then asks her to go and change it, calling it his quarterly income; she wonders where he could have received it, since he only goes out at six and the bank is shut by then. Her tale of the note sets the gossips of the Rue des Vignes-Saint-Marcel talking.",
       "A few days later, while Valjean saws wood in the corridor, she examines the coat hanging on a nail. The lining has been sewn up, but she feels thicknesses of paper in the skirts and lapels, and the pockets hold needles and thread, a big pocketbook, a very large knife and several wigs of different colours. The chapter ends as winter draws to a close."
     ],
-    "characters": ["jean-valjean", "cosette", "the-principal-lodger"]
+    "characters": [
+      "jean-valjean",
+      "cosette",
+      "the-principal-lodger"
+    ]
   },
   {
     "number": 108,
@@ -56,7 +72,13 @@
       "A few days afterwards, around eight in the evening, while Cosette spells aloud, Valjean hears the house door open and a heavy step come up the stairs, though the old woman always goes to bed at dark. He blows out the candle, sends Cosette softly to bed, and sits motionless. After a while he sees a light through the keyhole: someone with a candle is listening at his door. The light retreats without the sound of footsteps, as if the listener had removed his shoes. Valjean lies awake all night.",
       "At daybreak a door creaks at the end of the corridor and the same step passes his room. Through the keyhole he sees only a tall man in a long frock-coat with a cudgel under his arm, but when the figure is silhouetted at the top of the stairs Valjean has a complete view of his back: the formidable neck and shoulders belong to Javert. When the old woman comes at seven she mentions that a new lodger, 'Dumont, or Daumont,' came in last night, 'a gentleman of property, like yourself.' Valjean rolls up a hundred francs; a five-franc piece slips from his hands and rolls noisily across the floor. At dark he scans the empty boulevard, goes back up, says 'Come' to Cosette, and the two go out."
     ],
-    "characters": ["jean-valjean", "cosette", "javert", "the-principal-lodger", "the-ex-beadle"]
+    "characters": [
+      "jean-valjean",
+      "cosette",
+      "javert",
+      "the-principal-lodger",
+      "the-ex-beadle"
+    ]
   },
   {
     "number": 109,
@@ -68,11 +90,15 @@
       "Jean Valjean leaves the boulevard at once and plunges into the side streets, doubling back on his track like a hunted stag. The moon is full; he keeps to the dark side of the streets and watches the light side. Cosette walks on without a question; her early sufferings have made her passive, and she feels safe with him. Valjean has no plan beyond never returning to the Gorbeau house. He is not even certain the man was Javert, or that Javert, if it was he, knows him under his disguise and believes him dead. He winds through the Rue Censier, the Rue Copeau and the lanes near Saint-Victor without entering any lodging house.",
       "As eleven strikes he passes the police commissary's office at 14 Rue de Pontoise and, turning instinctively, sees three men pass under the commissary's lantern close behind him; one goes into the alley to the commissary's house. He hurries Cosette into the Passage des Patriarches and down to the Rue des Postes, where the streets form an open, moonlit square. He hides in a doorway to see whether he is followed. Within three minutes four tall men in long brown coats and round hats, with heavy cudgels, appear and stop to consult. Their leader points in the direction Valjean has taken; as he turns, the moon falls on his face, and Valjean recognises Javert."
     ],
-    "characters": ["jean-valjean", "cosette", "javert"]
+    "characters": [
+      "jean-valjean",
+      "cosette",
+      "javert"
+    ]
   },
   {
     "number": 110,
-    "title": "It Is Lucky That the Pont d'Austerlitz Bears Carriages",
+    "title": "It Is Lucky That the Pont d’Austerlitz Bears Carriages",
     "volume": 13,
     "summary": "Valjean slips away toward the Jardin des Plantes and crosses the Pont d'Austerlitz in the shadow of a cart, but as he enters a dark lane on the far bank he looks back and sees four shadows stepping onto the bridge.",
     "details": [
@@ -80,7 +106,11 @@
       "At the Pont d'Austerlitz, where tolls are still collected, he offers one sou and the old soldier in charge demands two, since the child he carries can walk. Vexed at having drawn attention, he pays and crosses in the shadow of a heavy cart going the same way. Halfway over Cosette, her feet numb, asks to walk, and he takes her hand. On the right bank he heads for some timber-yards, crossing an open, lit space without hesitation, believing himself hunted but no longer followed.",
       "Before entering the narrow Rue du Chemin-Vert-Saint-Antoine between the timber-yards, he glances back and sees four shadows just stepping onto the bridge from the Jardin des Plantes side. He shudders like a recaptured animal. His one hope is that they did not see him cross the lit ground with Cosette; he commits himself to the dark little street."
     ],
-    "characters": ["jean-valjean", "cosette", "javert"]
+    "characters": [
+      "jean-valjean",
+      "cosette",
+      "javert"
+    ]
   },
   {
     "number": 111,
@@ -92,7 +122,11 @@
       "Hugo explains where Valjean is: between the Faubourg Saint-Antoine and La Râpée, a district since rebuilt out of recognition, which old Paris called Le Petit-Picpus. It barely existed as a quarter, more like a monkish Spanish town of walls, gardens, convents and timber-yards, and survives only on the plan of 1727. The Rue du Chemin-Vert-Saint-Antoine splits into the Rue Petit-Picpus on the left and the Rue Polonceau on the right, joined at the top by the Rue Droit-Mur; a dead-end stub of the Rue Droit-Mur is the Cul-de-Sac Genrot.",
       "Valjean stands at the end of the Rue Polonceau. The moving thing he saw behind him must be Javert and his squad; Javert evidently knows this little labyrinth and has sent a man ahead to guard the one exit into the Rue Petit-Picpus. The blind alley cuts him off on one side, the sentinel on the other; to advance is to fall into that man's hands, to retreat is to walk into Javert's arms. Caught as in a slowly tightening net, he looks up at the sky in despair."
     ],
-    "characters": ["jean-valjean", "cosette", "javert"]
+    "characters": [
+      "jean-valjean",
+      "cosette",
+      "javert"
+    ]
   },
   {
     "number": 112,
@@ -104,7 +138,10 @@
       "The building's silent, uninhabited look tempts Valjean. He sets Cosette against a stone post with orders to keep quiet and runs to the lead cistern pipes that branch across the front like a leafless vine, hoping to climb. But the pipe is rotten and barely attached, every window is barred even in the roof, the moon lights the whole façade in view of the sentinel, and in any case he could not haul Cosette up three storeys.",
       "He crawls back to the niche, where he realises he cannot be seen, and tries the doors. The carriage gate is immovable inside and out. The great decrepit door with its three rusted bands looks easy to pierce, but it has no hinges, lock or crossbar: through the gaps he sees rough stone blocks cemented together. It is not a door at all but a wooden facing on a wall."
     ],
-    "characters": ["jean-valjean", "cosette"]
+    "characters": [
+      "jean-valjean",
+      "cosette"
+    ]
   },
   {
     "number": 113,
@@ -117,7 +154,12 @@
       "Cosette, frightened by his strange movements and the approaching patrol, whispers that she is afraid and asks who is coming. 'Hush,' he says, 'it is Madame Thénardier,' and warns her that if she cries out the Thénardier will take her back. He passes his cravat under her arms, knots it to the rope, takes the other end in his teeth, throws his shoes and stockings over the wall, and climbs the angle as steadily as a ladder; in half a minute he kneels on top. He tells her to put her back to the wall, lifts her up, puts her on his back and crawls along the crest to where a low roof slopes down to the linden tree inside.",
       "As he reaches the slope, the patrol arrives below with a roar and Javert's voice thunders: search the blind alley, the Rue Droit-Mur and Rue Petit-Picpus are guarded, he is certainly in the alley. The soldiers rush into the Genrot alley. Valjean slides down the roof, reaches the linden, and leaps to the ground with Cosette, who has not made a sound."
     ],
-    "characters": ["jean-valjean", "cosette", "javert", "madame-thenardier"]
+    "characters": [
+      "jean-valjean",
+      "cosette",
+      "javert",
+      "madame-thenardier"
+    ]
   },
   {
     "number": 114,
@@ -129,7 +171,11 @@
       "Valjean recovers his shoes and takes Cosette under the shed. She presses against him, trembling, her mind still on the Thénardier. They hear the patrol searching the alley and streets, gunstocks striking the stones, Javert calling to the spies he has posted. After a quarter of an hour the uproar grows distant; Valjean, his hand lightly over Cosette's mouth, holds his breath. Yet the calm within these walls is so profound that the din outside hardly troubles him.",
       "Then a new sound rises out of the gloom: a hymn sung by women's voices, pure as virgins and innocent as children, coming from the dark edifice above the garden. As the noise of the pursuit recedes, it is as though a choir of angels approaches. Cosette and Jean Valjean, not knowing what it is or where they are, kneel. The building still seems deserted; it is a supernatural chant in an uninhabited house. While it lasts Valjean sees not the night but a blue sky. When the song dies away, street and garden are silent, and only dry weeds rustle on the wall."
     ],
-    "characters": ["jean-valjean", "cosette", "javert"]
+    "characters": [
+      "jean-valjean",
+      "cosette",
+      "javert"
+    ]
   },
   {
     "number": 115,
@@ -141,7 +187,11 @@
       "The doors are locked and the ground-floor windows barred. Round the inner angle he comes to arched windows with a light inside and, on tiptoe, looks into a large flagged hall of pillars and arcades lit by a single taper. On the floor, something covered in a winding-sheet and shaped like a human form lies face down, arms stretched out in a cross, utterly still, with what seems a rope trailing from its neck like a serpent. Valjean, who would say afterward that he had never seen anything more bloodcurdling, presses his face to the glass and watches for a long time; the form never moves.",
       "Seized by terror, he runs back to the shed without daring to look behind him, knees failing and sweat pouring. What is this house, with a street number, that calls souls with the voice of angels and then shows them the gates of the tomb? He touches the stones to be sure it is not a dream. Cold, anxiety and the night's emotions have given him a fever. He goes to Cosette: she is asleep."
     ],
-    "characters": ["jean-valjean", "cosette", "madame-thenardier"]
+    "characters": [
+      "jean-valjean",
+      "cosette",
+      "madame-thenardier"
+    ]
   },
   {
     "number": 116,
@@ -153,7 +203,11 @@
       "A faint tinkling, like cattle bells in a night pasture, makes him turn. Someone resembling a man is walking among the bell-glasses of the melon beds, rising and stooping with regular movements as if spreading something on the ground, and he seems to limp. The sound of the bell follows every movement: it approaches when he approaches and ceases when he halts. Who is this man belled like a ram or an ox? Valjean's chimerical fears give way to real ones. Javert's men may still be watching the street; if this gardener finds him he may shout for help. He carries Cosette behind a heap of old furniture in the farthest corner of the shed.",
       "Then he touches Cosette's hands and finds them icy. He calls her name; she does not open her eyes. He shakes her; she does not wake. He fears she is dead. She still breathes, but weakly, and he remembers that sleeping outdoors on a cold night can kill. Everything else vanishes from his mind. He rushes out of the ruin: Cosette must be in bed beside a fire in less than a quarter of an hour."
     ],
-    "characters": ["jean-valjean", "cosette", "javert"]
+    "characters": [
+      "jean-valjean",
+      "cosette",
+      "javert"
+    ]
   },
   {
     "number": 117,
@@ -166,7 +220,11 @@
       "Valjean reminds him gravely: 'Father Fauchelevent, I saved your life.' The old man, trembling with joy, takes his hands and tells Monsieur le Maire to dispose of him. He has an isolated three-room hut behind the ruins of the old convent, in a corner no one looks into. Valjean asks two things: tell no one what you know about me, and do not try to learn more. Fauchelevent agrees, saying Valjean can do nothing dishonest. 'So there is a child?' he says when Valjean mentions her, and asks nothing further.",
       "Within half an hour Cosette is asleep and rosy again in the gardener's bed before a good fire. Valjean has his coat and cravat back on and his hat has been found. The two men warm themselves over bread, cheese and wine, Fauchelevent chiding Father Madeleine for saving people's lives and then forgetting them."
     ],
-    "characters": ["jean-valjean", "cosette", "fauchelevent"]
+    "characters": [
+      "jean-valjean",
+      "cosette",
+      "fauchelevent"
+    ]
   },
   {
     "number": 118,
@@ -179,7 +237,17 @@
       "Javert had told no one at the Prefecture whose arrest he hoped for: an indiscretion might alert his man, the old hands would take such a prize from a newcomer, and he liked to unveil his masterpieces suddenly. He never lost sight of Valjean, but did not arrest him because he was still in doubt: the fugitive's altered, aged walk, his émigré-tutor costume, Thénardier's grandfather, the official death, and the fear of the newspapers' outcry over an arrested white-haired grandfather all held him back. He also reasoned that if the man was not Valjean he might be some gang chief whose hideouts were worth discovering. Only in the Rue de Pontoise, by the light of a dram-shop, did he positively recognise him; then he asked for reinforcements, which cost him time at the Carrefour Rollin.",
       "Guessing that Valjean would put the river between them, Javert went straight to the Pont d'Austerlitz, learned from the toll-keeper of a man with a little girl, saw him cross the lit ground, remembered the Cul-de-Sac Genrot and the single exit of the Rue Droit-Mur, posted an agent there, requisitioned a passing patrol, and, sure of his prey, took a pinch of snuff and savoured letting him run a little longer. When he closed the net the fly was gone; his sentinel had seen no one pass. Hugo catalogues his blunders: hesitating to recognise, not arresting at the Gorbeau house or in the Rue de Pontoise, consulting in the moonlight, and above all playing cat and mouse. The cut lantern rope led him to search the gardens off the blind alley all night; at daybreak he left two men on watch and returned to the Prefecture ashamed."
     ],
-    "characters": ["javert", "jean-valjean", "cosette", "thenardier", "madame-thenardier", "fantine", "the-ex-beadle", "the-principal-lodger", "chabouillet"]
+    "characters": [
+      "javert",
+      "jean-valjean",
+      "cosette",
+      "thenardier",
+      "madame-thenardier",
+      "fantine",
+      "the-ex-beadle",
+      "the-principal-lodger",
+      "chabouillet"
+    ]
   },
   {
     "number": 119,
@@ -228,7 +296,9 @@
       "He records sayings from those walls: a five-year-old delighted to learn she has 'only nine years and ten months longer to remain here'; a quarrel in which little Alix opened the history book at random and asked 'What happened after that?'; a remark on a well-bred parakeet that eats the top of its bread and butter like a person; a seven-year-old's written confession accusing herself of avarice, adultery and raising her eyes to the gentlemen; a six-year-old's tale of three little cocks eaten by a wolf; a rhyme about Punchinello and the cat; and a foundling raised by the convent out of charity who, hearing the others talk of their mothers, says that hers was not there when she was born.",
       "The stout portress with her keys, Sister Agatha, is nicknamed Agathocles by the big girls. The dark, damp refectory is 'full of beasts,' and its four corners are named Spider, Caterpillar, Woodlouse and Cricket; each pupil belongs to the 'nation' of her corner, so that when the Archbishop visits and asks who a pretty girl is, he is told 'She is a spider, Monseigneur,' and his informant declares herself a woodlouse. Hugo adds a parallel from Écouen, where girls were ranked as 'virgins' and 'florists' for the procession, and a seven-year-old told a sixteen-year-old, 'You are a virgin, but I am not.'"
     ],
-    "characters": ["sister-agatha"]
+    "characters": [
+      "sister-agatha"
+    ]
   },
   {
     "number": 123,
@@ -240,7 +310,12 @@
       "During an archiepiscopal visit Mademoiselle Bouchard, a Montmorency connection, bet that she would ask for a day's leave, an enormity there. She stepped from the ranks and asked; M. de Quélen smiled and granted three days, and the prioress could do nothing. Hugo also records, as a fact unconnected with his story, the mysterious Madame Albertine: not a nun, treated with great respect, said to be mad and to 'pass for dead' in the world, where her supposed death served some great marriage settlement. Pale, cold to the touch, gliding rather than walking, she alone heard the offices from the Œil-de-Bœuf gallery, from which the priest could be seen. When the young Duc de Rohan preached for the first time she half rose and cried, 'Ah! Auguste!' then sank back into immobility; the convent buzzed, since Auguste was indeed his name and she had used it as a pet name.",
       "The schoolgirls, who could not see M. de Rohan, a former musketeer and now vicar-general, knew his sweet, shrill voice and dreamed of his well-dressed hair and elegant cassock. Two severe duchesses, Mesdames de Choiseul and de Sérent, terrified them when they visited. One year a flute began to play 'My Zétulbé, come reign o'er my soul' from the Rue Droit-Mur two or three times a day for months; the girls fell in love with the unknown musician, punishments rained, one waved a handkerchief through a grating, and two climbed onto a roof at the risk of their lives to see him. He was an old, blind, penniless émigré gentleman playing in his attic to pass the time."
     ],
-    "characters": ["madame-albertine", "mademoiselle-bouchard", "duc-de-rohan", "archbishop-de-quelen"]
+    "characters": [
+      "madame-albertine",
+      "mademoiselle-bouchard",
+      "duc-de-rohan",
+      "archbishop-de-quelen"
+    ]
   },
   {
     "number": 124,
@@ -252,7 +327,10 @@
       "Some old society women also retired there with the prioress's leave, like Madame Albertine, Madame Beaufort d'Hautpoul and the Marquise Dufresne, and one known to the pupils only as Madame Vacarmini for the noise she made blowing her nose. Around 1820 Madame de Genlis, then editing a little periodical, asked to enter as a lady resident on the Duc d'Orléans's recommendation; the vocal mothers fluttered because she had written novels, but she declared she detested them and got in. She left after six or eight months complaining that the garden had no shade, to the nuns' delight, leaving pasted in her cupboard five lines of sixth-century Latin verse about the two thieves of Calvary, which she believed kept robbers away.",
       "The church separates the Great Convent from the Boarding-school like an entrenchment and is common to all three houses; the public may enter by a sort of lazaretto door on the street. But the choir is folded back into a dark hall at the priest's right, shut off by a seven-foot curtain, with the nuns on the left, the schoolgirls on the right and the lay-sisters and novices behind; the public knows they are present only by the clatter of the folding stall seats."
     ],
-    "characters": ["madame-albertine", "madame-de-genlis"]
+    "characters": [
+      "madame-albertine",
+      "madame-de-genlis"
+    ]
   },
   {
     "number": 125,
@@ -264,7 +342,11 @@
       "Hugo lists the vocal mothers: Sainte-Honorine the treasurer, Sainte-Gertrude mistress of novices, Saint-Ange her assistant, Annonciation the sacristan, Saint-Augustin the nurse and the only malicious one, the young and beautiful-voiced Sainte-Mechtilde who drilled seven pupils of graduated ages into a 'living pan-pipe of angels,' and others with their worldly names, two of whom went mad; also the pretty twenty-three-year-old Mother Assumption from the Isle de Bourbon. The lay-sisters the pupils loved most were Euphrasie, Sainte-Marguerite, the doting Sainte-Marthe and long-nosed Sainte-Michel. All were gentle with the children, who alone had fire and better food, though a nun addressed by a child never replied.",
       "Because speech was withdrawn from people, it passed to things: the church bell and the gardener's bell spoke, and a sonorous bell by the portress rang a code for every person and action, one-and-one for the prioress, six-five for lessons, four-four for Madame de Genlis, nine strokes for the opening of the iron 'door of seclusion' only when the archbishop came. Besides archbishop and gardener the schoolgirls saw two other men: the chaplain Abbé Banés, old and ugly, glimpsed through a grating, and the drawing-master M. Ansiaux, 'a frightful old hunchback.' All these men, Hugo notes, were carefully chosen."
     ],
-    "characters": ["mother-innocente", "mother-cineres", "madame-de-genlis"]
+    "characters": [
+      "mother-innocente",
+      "mother-cineres",
+      "madame-de-genlis"
+    ]
   },
   {
     "number": 126,
@@ -287,7 +369,9 @@
       "She claimed the Bernardine monks of her youth were as good as the musketeers, and described the old custom of the four wines, in which a great lord passing through Burgundy or Champagne was offered four goblets labelled monkey, lion, sheep and hog wine, the four stages of drunkenness. In a locked cupboard she kept a mysterious object she showed to no one, shutting herself up to contemplate it and falling silent whenever it was mentioned, which set the whole idle convent guessing at relics and holy books.",
       "When she died they rushed to the cupboard and found, under a triple linen cloth, a Faenza platter painted with little Loves fleeing apothecary lads armed with enormous syringes, one Cupid already spitted: 'Love conquered by the colic.' The platter was still for sale on the Boulevard Beaumarchais in 1845. The old woman refused all visitors from outside because, she said, 'the parlour is too gloomy.'"
     ],
-    "characters": ["the-centenarian-of-fontevrault"]
+    "characters": [
+      "the-centenarian-of-fontevrault"
+    ]
   },
   {
     "number": 128,
@@ -311,7 +395,9 @@
       "Hugo says he could not pass this extraordinary house without entering it and bringing his readers in, for the profit, perhaps, of the melancholy history of Jean Valjean. He has described it in detail but with respect, understanding not everything and insulting nothing, standing between Joseph de Maistre's anointing of the executioner and Voltaire's sneer at the cross. The nineteenth century is unlearning things, and rightly, but there is no vacuum in the human heart and demolitions must be followed by reconstructions.",
       "Meanwhile, he says, let us study what is no more, if only to avoid it: the past counterfeits itself and calls itself the future, wearing the face of superstition and the mask of hypocrisy. Convents pose a complex problem: civilisation condemns them, liberty protects them."
     ],
-    "characters": ["jean-valjean"]
+    "characters": [
+      "jean-valjean"
+    ]
   },
   {
     "number": 130,
@@ -418,7 +504,15 @@
       "At daybreak Fauchelevent asks, 'Now that you are here, how are you going to contrive to enter?' First, neither Valjean nor the child must set foot outside the hut. They have come at an inauspicious moment: one of the ladies is dying, the forty hours' prayers are being said, and the community is absorbed; a bell strikes once, then again: the knell, which will sound once a minute for twenty-four hours. The hidden hut is no refuge, because of the little girls, who chase stray balls everywhere in recreation and would shriek 'a man!'; today there will be no recreation. Valjean notes that there are pupils and thinks that here is Cosette's education provided. 'This convent would be our salvation,' he murmurs; the difficulty is to remain. 'No,' says Fauchelevent, 'the difficulty is to get out,' for the nuns require one to enter by the door, and Valjean cannot possibly return to the street where the police are swarming: 'Say that I fell from the sky.'",
       "Fauchelevent sketches a plan for Cosette: he will carry her out in his vintage basket on his back, past the porter, to a deaf old fruit-seller he knows in the Rue du Chemin-Vert who will keep her overnight as his niece. For Valjean he has no idea; Valjean asks for some way out 'in a basket, under cover, like Cosette.' Further peals mark the doctor of the dead being summoned and departing. Fauchelevent rambles about his duties: he nails up the nuns' coffins in the dead-room off the church, which no man but the doctor may enter, and the undertaker's men take them to the Vaugirard cemetery, where his friend Father Mestienne is gravedigger and the nuns have leave to be buried at nightfall. 'Mother Crucifixion is dead, and Father Madeleine—' 'Is buried,' says Valjean, smiling sadly. A fourth peal summons the gardener; he buckles on his bell, tells Valjean not to stir, and hurries off to the parlour where the prioress is waiting."
     ],
-    "characters": ["jean-valjean", "cosette", "fauchelevent", "javert", "sister-crucifixion", "mother-innocente", "father-mestienne"]
+    "characters": [
+      "jean-valjean",
+      "cosette",
+      "fauchelevent",
+      "javert",
+      "sister-crucifixion",
+      "mother-innocente",
+      "father-mestienne"
+    ]
   },
   {
     "number": 139,
@@ -430,7 +524,12 @@
       "With the assurance of a man who feels appreciated, he launches into a long rustic harangue about his age, his infirmities, the size of the garden and nights like the last spent covering melons, and concludes that he has a brother, no longer young, an excellent gardener, who would come and help him, failing which he himself must regretfully leave; and that the brother has a little daughter who might be reared for God in the house and might one day become a nun. The prioress makes a movement at the word 'brother' and a second, reassured one at 'no longer young.'",
       "When he has finished she stops her rosary and asks whether he can procure a stout iron bar between now and evening. 'For what purpose?' 'To serve as a lever.' He says yes. Without another word she rises and goes into the adjoining chapter hall, where the vocal mothers are probably assembled, leaving Fauchelevent alone."
     ],
-    "characters": ["fauchelevent", "mother-innocente", "jean-valjean", "cosette"]
+    "characters": [
+      "fauchelevent",
+      "mother-innocente",
+      "jean-valjean",
+      "cosette"
+    ]
   },
   {
     "number": 140,
@@ -442,7 +541,14 @@
       "'What the dead wish must be done.' Mother Crucifixion slept in her coffin for twenty years by permission of Pius VII and wishes to be buried in it, beneath the altar where she prayed, not in profane earth. Fauchelevent is to nail up that coffin, reject the undertaker's, and lower it into the vault between eleven and midnight in total secrecy, bell removed, with only the Precentors and Mother Ascension present; the sister at the post will not turn round. To each of his objections, the sanitary agent, the commissary, the inspector, she replies with a saint or a council: 'Forbidden by men, enjoined by God.' Fauchelevent, who has heard too much Latin, says 'Amen,' and she, whose silence has been dammed too long, pours out a torrent on Saint Bernard, Saint Benoît, the rights of the monastery over its dead, and the impiety of an age in which burial is a civil matter and God is subordinated to the commissary of police.",
       "Fauchelevent agrees to everything, seizing every chance to mention his strong brother, 'a perfect Turk.' Then the prioress raises the last point: the empty coffin that the administration will send and the undertaker's men will carry to Vaugirard. The bearers will feel there is nothing in it. Fauchelevent nearly swears, catches himself under her sign of the cross, and improvises: he will put earth in it to give the effect of a corpse. 'Earth, that is the same thing as man,' she says, satisfied. As he reaches the door she adds gently that she is pleased with him, and that he is to bring his brother tomorrow, after the burial, and tell him to fetch his daughter."
     ],
-    "characters": ["fauchelevent", "mother-innocente", "sister-crucifixion", "mother-ascension", "jean-valjean", "cosette"]
+    "characters": [
+      "fauchelevent",
+      "mother-innocente",
+      "sister-crucifixion",
+      "mother-ascension",
+      "jean-valjean",
+      "cosette"
+    ]
   },
   {
     "number": 141,
@@ -455,7 +561,15 @@
       "Valjean questions him precisely: the empty coffin stands on trestles under the pall in the ground-floor dead-room, which has a grated window on the garden and two doors, one to the convent, whose key Fauchelevent holds, and one to the public church, whose key the porter holds and opens only for the undertaker's men around three the next afternoon. Fauchelevent alone nails the coffin and spreads the pall. He can hide Valjean in the locked tool-closet opening off the dead-room overnight, bring him food, and nail him in at two o'clock, boring gimlet holes around his mouth and fixing the top plank loosely. A man making his escape, Valjean says, does not cough or sneeze. Hugo notes that such endurance in a box is one of Valjean's gloomy convict talents, and that according to the monk Austin Castillejo it was also the device of Charles V.",
       "Fauchelevent, hesitating like a cat in a half-open door, yields to Valjean's coolness. Only the cemetery worries Valjean; that, says Fauchelevent, is the easy part. The gravedigger, Father Mestienne, is his friend and a drunkard. After the priest's prayers the two will be alone; if Mestienne is sober Fauchelevent will take him to drink at the Bon Coing, get him under the table, take his card to re-enter the cemetery and come back alone; if he is already drunk he will send him off and do his work. Then he will dig Valjean out. They shake hands: 'All will go well.' 'Provided nothing goes wrong,' thinks Fauchelevent."
     ],
-    "characters": ["jean-valjean", "fauchelevent", "cosette", "mother-innocente", "sister-crucifixion", "father-mestienne", "madame-thenardier"]
+    "characters": [
+      "jean-valjean",
+      "fauchelevent",
+      "cosette",
+      "mother-innocente",
+      "sister-crucifixion",
+      "father-mestienne",
+      "madame-thenardier"
+    ]
   },
   {
     "number": 142,
@@ -467,7 +581,14 @@
       "The interment of Mother Crucifixion under the altar, the exit of Cosette and the installing of Valjean in the dead-room have all gone off without a hitch; Hugo remarks in passing that he finds the nuns' offence a venial one, a fault that resembles a duty. Fauchelevent follows in high contentment, sure of Mestienne, whom he has made drunk ten times in two years; he rubs his hands and says, 'Here's a fine farce!'",
       "At the gate, while the permit is shown, a tall, thin, livid man with a mattock under his arm places himself beside him and, asked who he is, replies, 'The gravedigger.' Father Mestienne is the gravedigger, protests Fauchelevent. 'He was. He is dead.' 'After Napoleon, Louis XVIII. After Mestienne, Gribier.' Fauchelevent laughs it off and invites him to drink; Gribier announces that he has been a student, passed his fourth examination, and never drinks. As the hearse rolls up the alley Fauchelevent tries again and again: Gribier has seven small children who must eat, so he cannot drink; 'their hunger is the enemy of my thirst.' He is a public writer with a stall in the Rue de Sèvres who writes love letters in the morning and digs graves at night, and 'business first.' Fauchelevent thinks, 'I am lost.' The hearse turns into the thicket of the nuns' corner and halts with a wheel on a heap of earth beside an open grave. 'What a farce this is!' he repeats, in consternation."
     ],
-    "characters": ["fauchelevent", "gribier", "jean-valjean", "father-mestienne", "sister-crucifixion", "cosette"]
+    "characters": [
+      "fauchelevent",
+      "gribier",
+      "jean-valjean",
+      "father-mestienne",
+      "sister-crucifixion",
+      "cosette"
+    ]
   },
   {
     "number": 143,
@@ -479,11 +600,15 @@
       "He has followed every phase: the nailing of the top plank, being carried out and driven off, the change from pavement to earth road, the dull sound of the Pont d'Austerlitz, the first halt at the cemetery gate and the second at the grave. He feels hands seize the coffin, the rasp of the rope, then a giddiness as the coffin tilts head-first before coming to rest horizontal at the bottom. A cold sensation follows. A glacial, solemn voice pronounces Latin over him, slowly enough for him to catch the words, and a child's voice answers; a patter like raindrops on the lid is the holy water. He thinks: soon the priest will leave, Fauchelevent will take Mestienne to drink, and within an hour he will be out.",
       "He hears 'Requiescat in pace,' 'Amen,' and retreating footsteps. 'I am alone,' he thinks. Then a sound like a clap of thunder over his head: a shovelful of earth on the coffin. A second falls. One of the holes through which he breathes is stopped up. A third, a fourth. There are things too strong for the strongest man; Jean Valjean loses consciousness."
     ],
-    "characters": ["jean-valjean", "fauchelevent", "father-mestienne"]
+    "characters": [
+      "jean-valjean",
+      "fauchelevent",
+      "father-mestienne"
+    ]
   },
   {
     "number": 144,
-    "title": "In Which Will Be Found the Origin of the Saying: Don't Lose the Card",
+    "title": "In Which Will Be Found the Origin of the Saying: Don’t Lose the Card",
     "volume": 16,
     "summary": "Above ground, Fauchelevent fails to lure Gribier away from his shovel until he spots the gravedigger's card in his gaping pocket, steals it, and sends him running home to fetch it before the gates close. Alone, he opens the coffin, finds Valjean pale and still, and despairs, until Valjean's eyes open. They bury the empty coffin, leave with the card, and Fauchelevent returns Gribier's tools to his garret.",
     "details": [
@@ -492,7 +617,13 @@
       "Fauchelevent leans over the grave and calls, 'Father Madeleine!' No reply. He tumbles in, pries up the lid with chisel and hammer, and sees Valjean's face pale, eyes closed. 'He is dead! And this is the way I save his life!' He sobs and rails at Mestienne for dying, at himself, and at the good man who put himself under the cart, wondering what will become of the little girl and the fruit-seller. The cemetery gate grates shut in the distance. He bends over again and recoils: Valjean's eyes are open and looking at him. 'I fell asleep,' says Valjean, sitting up. He had merely fainted, and the fresh air revived him. A mouthful of brandy from Fauchelevent's gourd finishes the cure. Valjean climbs out, helps nail the lid back on, and together they fill the grave over the empty coffin.",
       "With the gravedigger's card Fauchelevent opens the gate, and shovel and pick serve as passports at the Vaugirard barrier. At No. 87 he climbs to the garret and finds Gribier's wretched household turned upside down by a furious search for the card, the wife in tears, the children probably beaten. He lays down the shovel and mattock and says that Gribier dropped his card, that he found it, buried the corpse, filled the grave and did his work, and that the porter will return the card in the morning, so there is no fine to pay. 'Thanks, villager!' cries Gribier, radiant. 'The next time I will pay for the drinks.'"
     ],
-    "characters": ["fauchelevent", "gribier", "jean-valjean", "father-mestienne", "cosette"]
+    "characters": [
+      "fauchelevent",
+      "gribier",
+      "jean-valjean",
+      "father-mestienne",
+      "cosette"
+    ]
   },
   {
     "number": 145,
@@ -504,7 +635,14 @@
       "The prioress, rosary in hand, waits with a veiled vocal mother beside her, and examines Valjean with downcast eyes. 'You are the brother?' Fauchelevent answers every question for him: his name is Ultime Fauchelevent (a real dead brother's name), from Picquigny near Amiens, fifty years old, a gardener, a good Christian since 'everyone is in the family,' and the little girl's grandfather. 'He answers well,' whispers the vocal mother. Valjean has not said a word. The prioress looks attentively at Cosette and says half aloud, 'She will grow up ugly.' After a whispered consultation she tells Father Fauvent to get another kneecap with a bell, since two will now be required.",
       "Next day two bells sound in the garden and the nuns cannot resist lifting the corner of their veils to watch two men digging side by side under the trees: 'He is an assistant gardener,' 'a brother of Father Fauvent.' Jean Valjean is officially installed under the name Ultime Fauchelevent. The decisive factor, Hugo says, was the prioress's verdict on Cosette, for plain girls are likelier to become nuns; she took a fancy to the child and gave her a place in the school as a charity pupil. Fauchelevent's triumph is triple: Valjean saved, Gribier spared a fine, and the convent able to keep Mother Crucifixion's coffin under its altar, so that there is a coffin with a body at the Petit-Picpus and one without at Vaugirard, and no one the wiser. The prioress confesses and boasts of the affair to the archbishop, who whispers it to M. de Latil, and the fame of the holy gardener 'Fauvent' reaches even a note of Pope Leo XII, though nothing of it reaches Fauchelevent in his hut, who goes on grafting and covering his melons."
     ],
-    "characters": ["jean-valjean", "cosette", "fauchelevent", "mother-innocente", "gribier", "sister-crucifixion"]
+    "characters": [
+      "jean-valjean",
+      "cosette",
+      "fauchelevent",
+      "mother-innocente",
+      "gribier",
+      "sister-crucifixion"
+    ]
   },
   {
     "number": 146,
@@ -517,6 +655,13 @@
       "Cosette may spend an hour with him daily and flies to the hut at the appointed time; comparing the melancholy sisters with his kindness, she adores him, and he watches her at recreation and picks out her laugh, for Cosette laughs now. At night he rises to look at her dormitory windows. Hugo says the convent, like Cosette, completes the Bishop's work: Valjean had begun comparing himself with men in general instead of with the Bishop, and pride was springing up; the convent stops him. He sets this second place of captivity against the first. The convicts rose at dawn, slept on two-inch mattresses in rarely heated rooms, wore red blouses, lived by numbers under the cudgel; these women rise in the night to pray on cold stone, sleep on straw in unheated cells, wear black serge that gives them fever, lose their names and never eat meat. The men had stolen, violated and murdered; the women had done nothing. Both undergo expiation, but the convicts expiate for themselves and the nuns for others, 'the most divine of human generosities.'",
       "He remembers that he had dared to murmur, and rises at night to hear these innocents sing while the justly punished blaspheme. It strikes him as a whisper from Providence that all his efforts to escape the one place of expiation were made to gain entrance to this one, a prison too, with gratings and bars to guard angels where he had seen them guard tigers, yet more austere than the galleys. His pride vanishes; he feels his pettiness and weeps often. Everything since Montfermeil has led him back to the Bishop's injunctions, Cosette through love, the convent through humility. At twilight he can be seen kneeling in the walk by the chapel, before the window through which he looked on the night of his arrival, turned toward the sister making reparation, as if he dared not kneel directly before God. The garden, the flowers, the children and the grave women permeate him, and he reflects that two houses of God have received him at the two crises of his life, one when all doors were closed to him, the other when society again hunted him. His heart melts in gratitude, and he loves more and more. Many years pass thus; Cosette is growing up."
     ],
-    "characters": ["jean-valjean", "cosette", "fauchelevent", "javert", "bishop-myriel", "madame-thenardier"]
+    "characters": [
+      "jean-valjean",
+      "cosette",
+      "fauchelevent",
+      "javert",
+      "bishop-myriel",
+      "madame-thenardier"
+    ]
   }
 ]
