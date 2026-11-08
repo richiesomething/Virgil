@@ -73,7 +73,8 @@ for (const book of readdirSync(root, { withFileTypes: true }).filter((d) => d.is
   }
   if (meta.audio) {
     const tdir = join('public', 'texts', book)
-    if (!meta.audio.item || !/NNN?/.test(meta.audio.filePattern ?? '') || !meta.audio.reader) fail(book, 'book.json audio needs item, filePattern (with NNN or NN) and reader')
+    const perChapterFiles = !!meta.audio.item && /NNN?/.test(meta.audio.filePattern ?? '')
+    if (!meta.audio.reader) fail(book, 'book.json audio needs reader')
     const manifest = existsSync(join(tdir, 'audio.json')) ? JSON.parse(readFileSync(join(tdir, 'audio.json'), 'utf8')) : null
     if (!manifest) fail(book, `audio is set but ${tdir}/audio.json is missing (run scripts/audio/sync.mjs)`)
     else {

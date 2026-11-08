@@ -28,3 +28,17 @@ test('narrationLeft estimates chapters without a measured duration instead of co
   const full = narrationLeft(book, sync, 1, 1, 2, [600, 700, 800])
   assert.equal(full.book, (80 + 1500) / 2)
 })
+
+import { locate, fileIndexOf, fileUrl } from '../src/lib/audio.ts'
+
+test('locate finds the file and the time inside it on a chapter timeline made of several files', () => {
+  const sync = { duration: 100, start: 2, end: 95, times: new Float64Array([2, 50, 90]), files: ['a/x_01.mp3', 'a/x_02.mp3', 'a/x_03.mp3'], offsets: [0, 40, 70] }
+  assert.deepEqual(locate(sync, 0), { file: 0, local: 0 })
+  assert.deepEqual(locate(sync, 39.9), { file: 0, local: 39.9 })
+  assert.deepEqual(locate(sync, 40), { file: 1, local: 0 })
+  assert.deepEqual(locate(sync, 85), { file: 2, local: 15 })
+  assert.equal(fileIndexOf(sync, fileUrl('a/x_02.mp3')), 1)
+  assert.equal(fileIndexOf(sync, 'https://example.com/other.mp3'), -1)
+  assert.equal(fileUrl('a/x.mp3'), 'https://archive.org/download/a/x.mp3')
+  assert.equal(fileUrl('https://h/x.mp3'), 'https://h/x.mp3')
+})
