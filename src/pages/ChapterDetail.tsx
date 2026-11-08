@@ -61,11 +61,14 @@ function ReadChapter({ n }: { n: number }) {
   const requested = (loc.query.get('tab') as Tab) ?? 'summary'
   const tab: Tab = (requested === 'notes' && !noteCount) || (requested === 'insights' && !insights.length) ? 'summary' : requested
   const volume = meta.volumes.find((v) => v.number === ch.volume)
+  const part = volume?.part ? meta.parts?.find((p) => p.number === volume.part) : undefined
+  const partShort = part?.title.split(':')[0]
   const setTab = (t: Tab) => navigate(withQuery(href('b', meta.id, 'chapters', n), { tab: t === 'summary' ? undefined : t }), { replace: true })
 
   return (
     <article>
       <p className="eyebrow">
+        {partShort ? `${partShort} · ` : ''}
         {volume ? `${volume.title} · ` : ''}Chapter {n}
       </p>
       <h1 className="page-title">{ch.title || `Chapter ${n}`}</h1>

@@ -16,6 +16,25 @@ if (!sections.length) throw new Error('No <section epub:type="chapter"> found')
 const entities = { amp: '&', lt: '<', gt: '>', quot: '"', apos: "'", nbsp: ' ', hellip: '…', mdash: '—', ndash: '–' }
 const decode = (s) => s.replace(/&(#x[0-9a-f]+|#\d+|[a-z]+);/gi, (m, e) => (e[0] === '#' ? String.fromCodePoint(e[1] === 'x' || e[1] === 'X' ? parseInt(e.slice(2), 16) : parseInt(e.slice(1), 10)) : (entities[e] ?? m)))
 
+// Structure above the chapters: volumes (epub:type="volume") and parts/books (epub:type="part"), by position in the
+// file. Written to data-src/<id>/source/structure.json so book.json's volumes (and parts) can be filled from it.
+const headingOf = (from) => {
+  const m = /<hgroup>([\s\S]*?)<\/hgroup>|<h[1-6]\b[^>]*>([\s\S]*?)<\/h[1-6]>/.exec(html.slice(from, from + 4000))
+  return m ? decode((m[1] ?? m[2]).replace(/<[^>]+>/g, ' ')).replace(/\s+/g, ' ').trim() : ''
+}
+const marks = []
+for (const m of html.matchAll(/<section\b[^>]*epub:type="([^"]*)"[^>]*>/g)) {
+  const kind = /\bchapter\b/.test(m[1]) ? 'chapter' : /\bvolume\b/.test(m[1]) ? 'volume' : /\bpart\b/.test(m[1]) ? 'part' : null
+  if (kind) marks.push({ kind, at: m.index, heading: kind === 'chapter' ? '' : headingOf(m.index) })
+}
+let chapterNo = 0
+const structure = { volumes: [], parts: [] }
+for (const mk of marks) {
+  if (mk.kind === 'chapter') chapterNo++
+  else (mk.kind === 'volume' ? structure.volumes : structure.parts).push({ title: mk.heading, firstChapter: chapterNo + 1 })
+}
+
+
 const dir = join('data-src', id, 'source', 'chapters')
 rmSync(dir, { recursive: true, force: true })
 mkdirSync(dir, { recursive: true })
@@ -42,4 +61,8 @@ sections.forEach((body, i) => {
   console.log(`${n}  ${String(words).padStart(6)} words  ${title.slice(0, 70)}`)
 })
 writeFileSync(join('data-src', id, 'word-counts.json'), JSON.stringify(counts) + '\n')
+if (structure.volumes.length || structure.parts.length) {
+  writeFileSync(join('data-src', id, 'source', 'structure.json'), JSON.stringify(structure, null, 2) + '\n')
+  console.log(`structure: ${structure.volumes.length} volumes, ${structure.parts.length} parts → source/structure.json`)
+}
 console.log(`\n${sections.length} chapters → ${dir}/`)

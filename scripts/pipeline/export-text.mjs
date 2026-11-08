@@ -8,6 +8,8 @@ import { join } from 'node:path'
 
 const [id] = process.argv.slice(2).filter((a) => !a.startsWith('--'))
 const keepCounts = process.argv.includes('--keep-counts')
+// Chapter files split from Standard Ebooks XHTML already have their headings removed; dropping would eat real first lines.
+const keepHeadings = process.argv.includes('--keep-headings') || existsSync(join('data-src', process.argv.slice(2).filter((a) => !a.startsWith('--'))[0] ?? '', 'source', 'structure.json'))
 if (!id) {
   console.error('Usage: node scripts/pipeline/export-text.mjs <id> [--keep-counts]')
   process.exit(1)
@@ -50,7 +52,7 @@ for (const f of files) {
 
   // Heading block: leading short lines that aren't sentences ("CHAPTER 1", "A Runaway Reef", "Chapter 1. The Arrival").
   const isHeading = (p) => p.length <= 80 && (!/[.!?…”’"')]$/.test(p) || (title && norm(p) === title))
-  while (paragraphs.length > 1 && isHeading(paragraphs[0])) dropped.push(`${f}: ${paragraphs.shift()}`)
+  while (!keepHeadings && paragraphs.length > 1 && isHeading(paragraphs[0])) dropped.push(`${f}: ${paragraphs.shift()}`)
   // Gutenberg collects footnotes at the very end of the book.
   const firstNote = paragraphs.findIndex((p, i) => /^\[\d+\] /.test(p) && paragraphs.slice(i).every((q) => /^\[\d+\] /.test(q)))
   if (firstNote > 0) paragraphs = paragraphs.slice(0, firstNote)

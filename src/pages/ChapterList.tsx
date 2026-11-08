@@ -39,9 +39,10 @@ export default function ChapterList() {
         </div>
       )}
 
-      {groupByVolume(meta.volumes, chapters).map(({ title, chapters: inGroup }) => (
+      {groupByVolume(meta.volumes, chapters, meta.parts).map(({ title, part, chapters: inGroup }) => (
         <section key={title || 'all'}>
-          {title ? <h2 className="vol-head">{title}</h2> : <div style={{ height: 16 }} />}
+          {part && <h2 className="part-head">{part}</h2>}
+          {title ? <h3 className="vol-head">{title}</h3> : <div style={{ height: 16 }} />}
           <div className="group">
             {inGroup.map((c) => (
               <a key={c.number} className="row ch-row" href={href('b', meta.id, 'chapters', c.number)}>
@@ -94,9 +95,16 @@ export default function ChapterList() {
 }
 
 /** In reading order; books without volumes get a single untitled group. */
-function groupByVolume(volumes: BookMeta['volumes'], chapters: Chapter[]) {
-  if (!volumes.length) return chapters.length ? [{ title: '', chapters }] : []
+function groupByVolume(volumes: BookMeta['volumes'], chapters: Chapter[], parts?: BookMeta['parts']) {
+  if (!volumes.length) return chapters.length ? [{ title: '', part: '', chapters }] : []
+  let lastPart = -1
   return volumes
-    .map((v) => ({ title: v.title, chapters: chapters.filter((c) => c.volume === v.number) }))
+    .map((v) => ({ title: v.title, partNo: v.part, chapters: chapters.filter((c) => c.volume === v.number) }))
     .filter((g) => g.chapters.length)
+    .map((g) => {
+      // The part heading shows over the first visible group of each part.
+      const part = g.partNo && g.partNo !== lastPart ? (parts?.find((p) => p.number === g.partNo)?.title ?? '') : ''
+      if (g.partNo) lastPart = g.partNo
+      return { title: g.title, part, chapters: g.chapters }
+    })
 }

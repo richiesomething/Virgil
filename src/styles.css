@@ -965,3 +965,7 @@ a.chip-btn { display: inline-flex; align-items: center; }
 
 .bm-sheet__guard { margin-top: 18px; padding-top: 14px; border-top: 1px solid var(--border); }
 .bm-sheet__guard p { margin: 6px 4px 0; }
+
+/* A level above the volumes (Hugo's Volumes over his Books). */
+.part-head { font: 600 0.75rem/1.2 var(--sans); letter-spacing: 0.08em; text-transform: uppercase; color: var(--accent); margin: 28px 0 4px; }
+.picker .part-head { margin: 18px 0 0; }

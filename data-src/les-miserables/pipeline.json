@@ -1,0 +1,50 @@
+{
+  "book": "les-miserables",
+  "stages": {
+    "manifest": {
+      "status": "pending"
+    },
+    "text": {
+      "status": "pending"
+    },
+    "chapters": {
+      "status": "pending"
+    },
+    "roster": {
+      "status": "pending"
+    },
+    "reveals": {
+      "status": "pending"
+    },
+    "cast": {
+      "status": "pending"
+    },
+    "relationships": {
+      "status": "pending"
+    },
+    "glossary": {
+      "status": "pending"
+    },
+    "primers": {
+      "status": "pending"
+    },
+    "recaps": {
+      "status": "pending"
+    },
+    "atlas": {
+      "status": "pending"
+    },
+    "understanding": {
+      "status": "pending"
+    },
+    "timeline": {
+      "status": "pending"
+    },
+    "review": {
+      "status": "pending"
+    },
+    "publish": {
+      "status": "pending"
+    }
+  }
+}

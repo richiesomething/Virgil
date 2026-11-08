@@ -72,8 +72,10 @@ export interface BookMeta {
   edition: string
   /** Link to a public-domain source text, when there is one. */
   sourceUrl?: string
-  /** Empty for books that aren't divided into volumes. */
-  volumes: { number: number; title: string; firstChapter: number }[]
+  /** Empty for books that aren't divided into volumes. For a book with a level above (Hugo's Volumes over his Books), `part` is the index into `parts`. */
+  volumes: { number: number; title: string; firstChapter: number; part?: number }[]
+  /** An optional level above `volumes`, shown as headings over their groups (Les Misérables: five Volumes over 48 Books). */
+  parts?: { number: number; title: string; firstChapter: number }[]
   /** Accent colour for the cover. */
   color: string
   /** True when word counts are estimates (no source text available). */

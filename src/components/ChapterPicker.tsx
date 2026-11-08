@@ -59,8 +59,10 @@ export default function ChapterPicker({ open, onClose, current }: { open: boolea
         {volumes.map((v, vi) => {
           const last = volumes[vi + 1] ? volumes[vi + 1].firstChapter - 1 : total
           const nums = Array.from({ length: last - v.firstChapter + 1 }, (_, i) => v.firstChapter + i)
+          const part = v.part && (vi === 0 || volumes[vi - 1].part !== v.part) ? book.meta.parts?.find((p) => p.number === v.part) : undefined
           return (
             <section key={v.number}>
+              {part && <h3 className="part-head">{part.title}</h3>}
               {v.title ? <h3 className="vol-head">{v.title}</h3> : null}
               <div className="group" role="list">
                 {nums.map((n) => {
