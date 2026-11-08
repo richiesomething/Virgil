@@ -7,10 +7,16 @@
 import { existsSync, mkdirSync, readFileSync, readdirSync, writeFileSync } from 'node:fs'
 import { join } from 'node:path'
 
+// A book still in the pipeline (pipeline.json present, publish not done) is left out of the app unless named explicitly.
+const inProgress = (d) => {
+  const p = join('data-src', d, 'pipeline.json')
+  if (!existsSync(p)) return false
+  return JSON.parse(readFileSync(p, 'utf8')).stages?.publish?.status !== 'done'
+}
 const books = process.argv[2]
   ? [process.argv[2]]
   : readdirSync('data-src', { withFileTypes: true })
-      .filter((d) => d.isDirectory() && existsSync(join('data-src', d.name, 'book.json')))
+      .filter((d) => d.isDirectory() && existsSync(join('data-src', d.name, 'book.json')) && !inProgress(d.name))
       .map((d) => d.name)
 
 for (const book of books) mergeBook(book)

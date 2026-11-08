@@ -13,7 +13,7 @@ import { chapter } from '../lib/spoilers'
 import { formatMinutes } from '../lib/planner'
 import { minutesFor } from '../lib/rsvp'
 import { getIllustrations, illustrationUrl, pinnedAt, placeIllustrations, type IllustrationSet, type Placed } from '../lib/illustrations'
-import { audioUrl, autoplayNext, getDurations, getSync, hasAudio, loadChapter, mediaPosition, mediaSession, narrationLeft, peekSync, player, setAutoplayNext, timeOf, tokenAt, type Sync } from '../lib/audio'
+import { autoplayNext, fileIndexOf, fileUrl, locate, getDurations, getSync, hasAudio, loadChapter, mediaPosition, mediaSession, narrationLeft, peekSync, player, setAutoplayNext, timeOf, tokenAt, type Sync } from '../lib/audio'
 
 type View = 'flash' | 'text'
 
@@ -272,7 +272,7 @@ function ChapterReader({ n }: { n: number }) {
   useEffect(() => {
     if (!listen) return
     let live = true
-    getSync(id, n)
+    getSync(book.meta, n)
       .then((sy) => {
         if (!live) return
         syncRef.current = sy
@@ -394,10 +394,15 @@ function ChapterReader({ n }: { n: number }) {
   }, [book, chapterTokens, count, finish, n, persist, show, total, upTo])
 
   /** While listening: keep the shown word on the spoken one. */
-  /** Where the voice is, in seconds: the audio clock, carried forward at the playback rate between its (possibly coarse) ticks. */
+  /**
+   * Where the voice is, in seconds on the chapter's timeline: the audio clock (plus the offset of the file that's playing),
+   * carried forward at the playback rate between its (possibly coarse) ticks.
+   */
   const voiceTime = useCallback(() => {
     const p = player()
-    const ct = p.currentTime
+    const sy = syncRef.current
+    const k = sy ? fileIndexOf(sy, p.src) : -1
+    const ct = p.currentTime + (k >= 0 ? sy!.offsets[k] : 0)
     const now = performance.now()
     if (ct !== clock.current.t) {
       clock.current = { t: ct, at: now }
@@ -406,12 +411,36 @@ function ChapterReader({ n }: { n: number }) {
     return ct + Math.min(0.4, ((now - clock.current.at) / 1000) * p.playbackRate)
   }, [])
 
+  /** Move the player to timeline second `t`: the right file (loaded if needed, playback carried on) at the right moment. */
+  const moveVoice = useCallback((t: number) => {
+    const sy = syncRef.current
+    if (!sy) return
+    const p = player()
+    const { file, local } = locate(sy, t)
+    const wasPlaying = !p.paused
+    if (fileIndexOf(sy, p.src) !== file) {
+      loadChapter(fileUrl(sy.files[file]))
+      p.playbackRate = rateRef.current
+      p.currentTime = local
+      if (wasPlaying) p.play().catch(() => {})
+    } else p.currentTime = local
+    clock.current = { t, at: performance.now() }
+  }, [])
+
+  /** Called when the voice reaches the end of this chapter's passage (set by the narration effect below). */
+  const chapterEnd = useRef<() => void>(() => {})
+
   /** While listening: move the position to where the voice is. Saves the place every couple of seconds and fetches the next chapter near the end. */
   const trackVoice = useCallback(() => {
     const sy = syncRef.current
     if (!sy || !playingRef.current) return
     const p = player()
     const t = voiceTime()
+    if (t >= sy.end && !endedRef.current && sy.offsets.length > 0) {
+      // In a file shared with the next chapter, the narration runs on past the end of this one.
+      chapterEnd.current()
+      return
+    }
     const i = tokenAt(sy, t)
     if (i === idx.current) return
     idx.current = i
@@ -423,7 +452,7 @@ function ChapterReader({ n }: { n: number }) {
     if (!prefetched.current && i > count * 0.8 && n < total) {
       prefetched.current = true
       getChapterText(book, n + 1).catch(() => {})
-      getSync(id, n + 1).catch(() => {})
+      getSync(book.meta, n + 1).catch(() => {})
     }
   }, [book, count, id, n, persist, total, upTo, voiceTime])
 
@@ -455,10 +484,12 @@ function ChapterReader({ n }: { n: number }) {
   const playNarration = useCallback(() => {
     const sy = syncRef.current
     if (!sy || playingRef.current) return
-    const p = loadChapter(audioUrl(book.meta, n))
-    p.playbackRate = rateRef.current
     const target = timeOf(sy, idx.current)
-    if (Math.abs(p.currentTime - target) > 1.5 || idx.current === 0) p.currentTime = target
+    const { file, local } = locate(sy, target)
+    const p = loadChapter(fileUrl(sy.files[file]))
+    p.playbackRate = rateRef.current
+    if (Math.abs(p.currentTime - local) > 1.5 || idx.current === 0) p.currentTime = local
+    clock.current = { t: target, at: performance.now() }
     playingRef.current = true
     setPlaying(true)
     p.play()
@@ -471,7 +502,7 @@ function ChapterReader({ n }: { n: number }) {
         setPlaying(false)
         showToast('Couldn’t start the narration. Check your connection and try again.')
       })
-  }, [book.meta, follow, n, show])
+  }, [follow, show])
 
   const play = useCallback(() => {
     if (!chapterTokens || ended) return
@@ -496,7 +527,7 @@ function ChapterReader({ n }: { n: number }) {
       const target = Math.max(0, Math.min(count - 1, i))
       if (listenRef.current && syncRef.current && playingRef.current && !endedRef.current) {
         // Listening: move the voice; playback carries on.
-        player().currentTime = timeOf(syncRef.current, target)
+        moveVoice(timeOf(syncRef.current, target))
         idx.current = target
         show(target)
         if (bar.current) bar.current.value = String(target)
@@ -514,7 +545,7 @@ function ChapterReader({ n }: { n: number }) {
       if (bar.current) bar.current.value = String(idx.current)
       persist(idx.current)
     },
-    [count, persist, show, stop],
+    [count, moveVoice, persist, show, stop],
   )
 
   /** Listening: move the narration by a number of seconds (from where the voice is, or from the shown word when paused). */
@@ -522,11 +553,11 @@ function ChapterReader({ n }: { n: number }) {
     (seconds: number) => {
       const sy = syncRef.current
       if (!sy) return
-      const now = playingRef.current && !endedRef.current ? player().currentTime : timeOf(sy, idx.current)
+      const now = playingRef.current && !endedRef.current ? voiceTime() : timeOf(sy, idx.current)
       const t = Math.max(sy.start, Math.min(sy.end, now + seconds))
       seek(tokenAt(sy, t))
     },
-    [seek],
+    [seek, voiceTime],
   )
 
   const toggle = useCallback(() => (playing ? pause() : play()), [pause, play, playing])
@@ -548,9 +579,10 @@ function ChapterReader({ n }: { n: number }) {
   useEffect(() => {
     if (!listen || !sync || !chapterTokens) return
     const p = player()
-    const url = audioUrl(book.meta, n)
-    const onEnded = () => {
-      if (p.src !== url) return
+    const own = () => fileIndexOf(sync, p.src) >= 0
+    /** The voice has reached the end of this chapter (its passage ended, or its last file did). */
+    const onChapterEnd = () => {
+      if (endedRef.current) return
       const next = n + 1
       const nextSynced = !!peekSync(id, next) || durs?.[next - 1] != null
       if (next <= total && nextSynced) {
@@ -561,39 +593,66 @@ function ChapterReader({ n }: { n: number }) {
         stop()
         endedRef.current = true
         if (count) savePos(id, { chapter: n, word: count, words: count })
-        loadChapter(audioUrl(book.meta, next))
-        p.playbackRate = rateRef.current
-        // Start the next file inside this event, so browsers that need a gesture still count the one that started playback.
         const known = peekSync(id, next)
-        if (known) p.currentTime = known.start
-        p.play().catch(() => {})
-        if (!known) getSync(id, next).then((sy) => (p.currentTime = Math.max(p.currentTime, sy.start))).catch(() => {})
+        if (known) {
+          // Its first file may be the one already playing (several chapters in one file): then just carry on.
+          const first = fileUrl(known.files[0])
+          if (p.src !== first) {
+            loadChapter(first)
+            p.playbackRate = rateRef.current
+            p.currentTime = known.start
+          } else if (p.currentTime < known.start - 0.5) p.currentTime = known.start
+          // Started inside this event, so browsers that need a gesture still count the one that started playback.
+          p.play().catch(() => {})
+        } else {
+          getSync(book.meta, next)
+            .then((sy) => {
+              const first = fileUrl(sy.files[0])
+              if (p.src !== first) ((loadChapter(first)), (p.playbackRate = rateRef.current), (p.currentTime = sy.start))
+              return p.play()
+            })
+            .catch(() => {})
+        }
         navigate(href('b', id, 'read', next), { replace: true })
       } else finish()
     }
+    chapterEnd.current = onChapterEnd
+    const onEnded = () => {
+      const k = fileIndexOf(sync, p.src)
+      if (k < 0) return
+      if (k < sync.files.length - 1) {
+        // A chapter split over several files: straight on to the next one.
+        loadChapter(fileUrl(sync.files[k + 1]))
+        p.playbackRate = rateRef.current
+        p.currentTime = 0
+        p.play().catch(() => {})
+        return
+      }
+      onChapterEnd()
+    }
     const onPause = () => {
-      if (!playingRef.current || endedRef.current || p.src !== url) return
+      if (!playingRef.current || endedRef.current || !own()) return
       stop()
       playingRef.current = false
       setPlaying(false)
-      idx.current = tokenAt(sync, p.currentTime)
+      idx.current = tokenAt(sync, voiceTime())
       setPausedIndex(idx.current)
       setSpoken(idx.current)
       persist(idx.current)
     }
     const onPlay = () => {
-      if (playingRef.current || p.src !== url) return
+      if (playingRef.current || !own()) return
       playingRef.current = true
       setPlaying(true)
       follow()
     }
     // Fires a few times a second even with the screen off, when requestAnimationFrame sleeps.
     const onTime = () => {
-      if (p.src !== url) return
+      if (!own()) return
       trackVoice()
     }
     const onError = () => {
-      if (p.src !== url) return
+      if (!own()) return
       stop()
       playingRef.current = false
       setPlaying(false)
@@ -617,8 +676,8 @@ function ChapterReader({ n }: { n: number }) {
     // The previous chapter ended in Listen mode and started this one: carry on from where the voice is.
     if (autoplayNext?.bookId === id && autoplayNext.n === n) {
       setAutoplayNext(null)
-      if (p.src === url && !p.paused) {
-        idx.current = tokenAt(sync, p.currentTime)
+      if (own() && !p.paused) {
+        idx.current = tokenAt(sync, voiceTime())
         show(idx.current)
         onPlay()
       }
@@ -629,8 +688,9 @@ function ChapterReader({ n }: { n: number }) {
       p.removeEventListener('play', onPlay)
       p.removeEventListener('error', onError)
       p.removeEventListener('timeupdate', onTime)
+      chapterEnd.current = () => {}
     }
-  }, [book.meta, bookmark, chapterTokens, count, durs, finish, follow, id, listen, n, pause, persist, play, seek, setBookmark, show, skip, stop, sync, total, trackVoice, upTo])
+  }, [book.meta, bookmark, chapterTokens, count, durs, finish, follow, id, listen, n, pause, persist, play, seek, setBookmark, show, skip, stop, sync, total, trackVoice, upTo, voiceTime])
 
   // Pause when the page is hidden (the narration carries on), and save when leaving.
   useEffect(() => {
@@ -644,9 +704,9 @@ function ChapterReader({ n }: { n: number }) {
       if (!endedRef.current && count) savePos(id, { chapter: n, word: idx.current, words: count })
       // Leaving the reader stops the narration, unless the player has already moved on to another chapter (the hand-off).
       const p = player()
-      if (listenRef.current && !autoplayNext && !p.paused && p.src === audioUrl(book.meta, n)) p.pause()
+      if (listenRef.current && !autoplayNext && !p.paused && syncRef.current && fileIndexOf(syncRef.current, p.src) >= 0) p.pause()
     }
-  }, [book.meta, count, id, n, pause, stop])
+  }, [count, id, n, pause, stop])
 
   useEffect(() => {
     const onKey = (e: KeyboardEvent) => {

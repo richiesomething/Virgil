@@ -1,0 +1,808 @@
+[
+  {
+    "id": "bishop-myriel",
+    "name": "Monseigneur Bienvenu, Bishop of D——",
+    "kind": "character",
+    "firstChapter": 1,
+    "importance": "major",
+    "group": "Digne, 1815"
+  },
+  {
+    "id": "mademoiselle-baptistine",
+    "name": "Mademoiselle Baptistine",
+    "kind": "character",
+    "firstChapter": 1,
+    "importance": "supporting",
+    "group": "Digne, 1815"
+  },
+  {
+    "id": "madame-magloire",
+    "name": "Madame Magloire",
+    "kind": "character",
+    "firstChapter": 1,
+    "importance": "supporting",
+    "group": "Digne, 1815"
+  },
+  {
+    "id": "cravatte",
+    "name": "Cravatte",
+    "kind": "character",
+    "firstChapter": 7,
+    "importance": "minor",
+    "group": "Digne, 1815"
+  },
+  {
+    "id": "the-conventionist-g",
+    "name": "The conventionist G——",
+    "kind": "character",
+    "firstChapter": 10,
+    "importance": "minor",
+    "group": "Digne, 1815"
+  },
+  {
+    "id": "jean-valjean",
+    "name": "Jean Valjean",
+    "kind": "character",
+    "firstChapter": 15,
+    "importance": "major",
+    "group": "Jean Valjean and Cosette"
+  },
+  {
+    "id": "petit-gervais",
+    "name": "Little Gervais",
+    "kind": "character",
+    "firstChapter": 27,
+    "importance": "supporting",
+    "group": "Jean Valjean and Cosette"
+  },
+  {
+    "id": "cosette",
+    "name": "Cosette",
+    "kind": "character",
+    "firstChapter": 37,
+    "importance": "major",
+    "group": "Jean Valjean and Cosette"
+  },
+  {
+    "id": "toussaint",
+    "name": "Toussaint",
+    "kind": "character",
+    "firstChapter": 233,
+    "importance": "supporting",
+    "group": "Jean Valjean and Cosette"
+  },
+  {
+    "id": "monsieur-leblanc",
+    "name": "Monsieur Leblanc",
+    "kind": "character",
+    "firstChapter": 188,
+    "importance": "supporting",
+    "group": "Jean Valjean and Cosette",
+    "lastChapter": 235,
+    "mergedInto": {
+      "id": "jean-valjean",
+      "from": 236
+    },
+    "note": "The white-haired man Marius watches at the Luxembourg (Vol. III Bk VI–VIII, ch 188–235). The narrator ties him to Jean Valjean when the Rue Plumet chapters retell the Luxembourg walks from Valjean's side (Vol. IV Bk III, ch 236; reveals stage to confirm 236 vs 237). Use jean-valjean from 236."
+  },
+  {
+    "id": "the-girl-at-the-luxembourg",
+    "name": "The girl at the Luxembourg",
+    "kind": "character",
+    "firstChapter": 188,
+    "importance": "supporting",
+    "group": "Jean Valjean and Cosette",
+    "lastChapter": 235,
+    "mergedInto": {
+      "id": "cosette",
+      "from": 236
+    },
+    "note": "Marius's 'Mademoiselle Lanoire' / 'Ursule' (ch 188–235). Confirmed as Cosette with Leblanc in Vol. IV Bk III (ch 236). Use cosette from 236."
+  },
+  {
+    "id": "monsieur-madeleine",
+    "name": "Monsieur Madeleine",
+    "kind": "character",
+    "firstChapter": 40,
+    "importance": "major",
+    "group": "Montreuil-sur-Mer",
+    "lastChapter": 56,
+    "mergedInto": {
+      "id": "jean-valjean",
+      "from": 57
+    },
+    "note": "Father Madeleine, then mayor of M. sur M. (Vol. I Bk V–VII, ch 40–56). The narrator names him Jean Valjean in 'A Tempest in a Skull' (ch 57). Use jean-valjean from 57."
+  },
+  {
+    "id": "fantine",
+    "name": "Fantine",
+    "kind": "character",
+    "firstChapter": 29,
+    "importance": "major",
+    "group": "Montreuil-sur-Mer"
+  },
+  {
+    "id": "javert",
+    "name": "Javert",
+    "kind": "character",
+    "firstChapter": 44,
+    "importance": "major",
+    "group": "Montreuil-sur-Mer"
+  },
+  {
+    "id": "fauchelevent",
+    "name": "Father Fauchelevent",
+    "kind": "character",
+    "firstChapter": 45,
+    "importance": "supporting",
+    "group": "Montreuil-sur-Mer"
+  },
+  {
+    "id": "madame-victurnien",
+    "name": "Madame Victurnien",
+    "kind": "character",
+    "firstChapter": 47,
+    "importance": "minor",
+    "group": "Montreuil-sur-Mer"
+  },
+  {
+    "id": "marguerite",
+    "name": "Marguerite",
+    "kind": "character",
+    "firstChapter": 48,
+    "importance": "minor",
+    "group": "Montreuil-sur-Mer"
+  },
+  {
+    "id": "bamatabois",
+    "name": "Monsieur Bamatabois",
+    "kind": "character",
+    "firstChapter": 51,
+    "importance": "minor",
+    "group": "Montreuil-sur-Mer"
+  },
+  {
+    "id": "champmathieu",
+    "name": "Champmathieu",
+    "kind": "character",
+    "firstChapter": 54,
+    "importance": "supporting",
+    "group": "Montreuil-sur-Mer"
+  },
+  {
+    "id": "brevet",
+    "name": "Brevet",
+    "kind": "character",
+    "firstChapter": 24,
+    "importance": "minor",
+    "group": "Montreuil-sur-Mer"
+  },
+  {
+    "id": "chenildieu",
+    "name": "Chenildieu",
+    "kind": "character",
+    "firstChapter": 54,
+    "importance": "minor",
+    "group": "Montreuil-sur-Mer"
+  },
+  {
+    "id": "cochepaille",
+    "name": "Cochepaille",
+    "kind": "character",
+    "firstChapter": 54,
+    "importance": "minor",
+    "group": "Montreuil-sur-Mer"
+  },
+  {
+    "id": "sister-simplice",
+    "name": "Sister Simplice",
+    "kind": "character",
+    "firstChapter": 55,
+    "importance": "supporting",
+    "group": "Montreuil-sur-Mer"
+  },
+  {
+    "id": "sister-perpetue",
+    "name": "Sister Perpétue",
+    "kind": "character",
+    "firstChapter": 55,
+    "importance": "minor",
+    "group": "Montreuil-sur-Mer"
+  },
+  {
+    "id": "scaufflaire",
+    "name": "Master Scaufflaire",
+    "kind": "character",
+    "firstChapter": 56,
+    "importance": "minor",
+    "group": "Montreuil-sur-Mer"
+  },
+  {
+    "id": "chabouillet",
+    "name": "Monsieur Chabouillet",
+    "kind": "character",
+    "firstChapter": 44,
+    "importance": "minor",
+    "group": "Montreuil-sur-Mer"
+  },
+  {
+    "id": "tholomyes",
+    "name": "Félix Tholomyès",
+    "kind": "character",
+    "firstChapter": 29,
+    "importance": "supporting",
+    "group": "Paris, 1817"
+  },
+  {
+    "id": "favorite",
+    "name": "Favorite",
+    "kind": "character",
+    "firstChapter": 29,
+    "importance": "minor",
+    "group": "Paris, 1817"
+  },
+  {
+    "id": "dahlia",
+    "name": "Dahlia",
+    "kind": "character",
+    "firstChapter": 29,
+    "importance": "minor",
+    "group": "Paris, 1817"
+  },
+  {
+    "id": "zephine",
+    "name": "Zéphine",
+    "kind": "character",
+    "firstChapter": 29,
+    "importance": "minor",
+    "group": "Paris, 1817"
+  },
+  {
+    "id": "blachevelle",
+    "name": "Blachevelle",
+    "kind": "character",
+    "firstChapter": 29,
+    "importance": "minor",
+    "group": "Paris, 1817"
+  },
+  {
+    "id": "listolier",
+    "name": "Listolier",
+    "kind": "character",
+    "firstChapter": 29,
+    "importance": "minor",
+    "group": "Paris, 1817"
+  },
+  {
+    "id": "fameuil",
+    "name": "Fameuil",
+    "kind": "character",
+    "firstChapter": 29,
+    "importance": "minor",
+    "group": "Paris, 1817"
+  },
+  {
+    "id": "thenardier",
+    "name": "Thénardier",
+    "kind": "character",
+    "firstChapter": 37,
+    "importance": "major",
+    "group": "The Thénardiers",
+    "note": "Innkeeper of Montfermeil (ch 37–); the sergeant-prowler at Waterloo gives this name in ch 89. From ch 220 the Jondrette of the Gorbeau house is him too."
+  },
+  {
+    "id": "madame-thenardier",
+    "name": "Madame Thénardier",
+    "kind": "character",
+    "firstChapter": 37,
+    "importance": "major",
+    "group": "The Thénardiers"
+  },
+  {
+    "id": "eponine",
+    "name": "Éponine",
+    "kind": "character",
+    "firstChapter": 38,
+    "importance": "major",
+    "group": "The Thénardiers",
+    "note": "Named as a child at Montfermeil (ch 38). The elder Jondrette girl of the Gorbeau house (ch 204–219) is her, but is not called Éponine until Javert names her in ch 221; before that describe her without the family name."
+  },
+  {
+    "id": "azelma",
+    "name": "Azelma",
+    "kind": "character",
+    "firstChapter": 38,
+    "importance": "supporting",
+    "group": "The Thénardiers"
+  },
+  {
+    "id": "gavroche",
+    "name": "Gavroche",
+    "kind": "character",
+    "firstChapter": 159,
+    "importance": "major",
+    "group": "The Thénardiers",
+    "note": "The gamin of Vol. III Bk I is a type until ch 159 names Little Gavroche and says his father is called Jondrette."
+  },
+  {
+    "id": "the-two-little-boys",
+    "name": "The two little boys",
+    "kind": "character",
+    "firstChapter": 249,
+    "importance": "supporting",
+    "group": "The Thénardiers",
+    "note": "Gavroche's lost brothers; the text says in ch 249 whose sons they are."
+  },
+  {
+    "id": "boulatruelle",
+    "name": "Boulatruelle",
+    "kind": "character",
+    "firstChapter": 91,
+    "importance": "minor",
+    "group": "The Thénardiers"
+  },
+  {
+    "id": "jondrette",
+    "name": "Jondrette",
+    "kind": "character",
+    "firstChapter": 159,
+    "importance": "major",
+    "group": "The Gorbeau house",
+    "lastChapter": 219,
+    "mergedInto": {
+      "id": "thenardier",
+      "from": 220
+    },
+    "note": "The neighbour in the Gorbeau house, also signing Fabantou, Don Alvarès, Genflot, Balizard (ch 159, 201–219). Names himself Thénardier in 'The Trap' (ch 220). Use thenardier from 220."
+  },
+  {
+    "id": "the-old-woman-of-the-gorbeau-house",
+    "name": "The old woman of the Gorbeau house",
+    "kind": "character",
+    "firstChapter": 106,
+    "importance": "minor",
+    "group": "The Gorbeau house",
+    "note": "The 'principal lodger' who keeps house for Valjean and Cosette in 1824 (ch 106–108)."
+  },
+  {
+    "id": "maam-bougon",
+    "name": "Ma'am Bougon",
+    "kind": "character",
+    "firstChapter": 192,
+    "importance": "minor",
+    "group": "The Gorbeau house"
+  },
+  {
+    "id": "mother-innocente",
+    "name": "Mother Innocente",
+    "kind": "character",
+    "firstChapter": 125,
+    "importance": "supporting",
+    "group": "The Petit-Picpus convent"
+  },
+  {
+    "id": "mother-crucifixion",
+    "name": "Mother Crucifixion",
+    "kind": "character",
+    "firstChapter": 138,
+    "importance": "minor",
+    "group": "The Petit-Picpus convent"
+  },
+  {
+    "id": "mestienne",
+    "name": "Father Mestienne",
+    "kind": "character",
+    "firstChapter": 138,
+    "importance": "minor",
+    "group": "The Petit-Picpus convent"
+  },
+  {
+    "id": "gribier",
+    "name": "Gribier",
+    "kind": "character",
+    "firstChapter": 142,
+    "importance": "minor",
+    "group": "The Petit-Picpus convent"
+  },
+  {
+    "id": "monsieur-gillenormand",
+    "name": "Monsieur Gillenormand",
+    "kind": "character",
+    "firstChapter": 160,
+    "importance": "major",
+    "group": "The Gillenormand household"
+  },
+  {
+    "id": "mademoiselle-gillenormand",
+    "name": "Mademoiselle Gillenormand",
+    "kind": "character",
+    "firstChapter": 165,
+    "importance": "supporting",
+    "group": "The Gillenormand household"
+  },
+  {
+    "id": "theodule",
+    "name": "Lieutenant Théodule Gillenormand",
+    "kind": "character",
+    "firstChapter": 167,
+    "importance": "supporting",
+    "group": "The Gillenormand household"
+  },
+  {
+    "id": "colonel-pontmercy",
+    "name": "Pontmercy",
+    "kind": "character",
+    "firstChapter": 89,
+    "importance": "supporting",
+    "group": "The Gillenormand household",
+    "note": "The officer pulled from the sunken road at Waterloo (ch 89); Georges Pontmercy, colonel and Marius's father, from ch 169."
+  },
+  {
+    "id": "nicolette",
+    "name": "Nicolette",
+    "kind": "character",
+    "firstChapter": 164,
+    "importance": "minor",
+    "group": "The Gillenormand household"
+  },
+  {
+    "id": "basque",
+    "name": "Basque",
+    "kind": "character",
+    "firstChapter": 164,
+    "importance": "minor",
+    "group": "The Gillenormand household"
+  },
+  {
+    "id": "magnon",
+    "name": "Magnon",
+    "kind": "character",
+    "firstChapter": 164,
+    "importance": "supporting",
+    "group": "The Gillenormand household"
+  },
+  {
+    "id": "marius",
+    "name": "Marius",
+    "kind": "character",
+    "firstChapter": 159,
+    "importance": "major",
+    "group": "Marius and his friends"
+  },
+  {
+    "id": "mabeuf",
+    "name": "Monsieur Mabeuf",
+    "kind": "character",
+    "firstChapter": 169,
+    "importance": "supporting",
+    "group": "Marius and his friends"
+  },
+  {
+    "id": "mother-plutarque",
+    "name": "Mother Plutarque",
+    "kind": "character",
+    "firstChapter": 185,
+    "importance": "minor",
+    "group": "Marius and his friends"
+  },
+  {
+    "id": "enjolras",
+    "name": "Enjolras",
+    "kind": "character",
+    "firstChapter": 176,
+    "importance": "major",
+    "group": "The Friends of the A.B.C."
+  },
+  {
+    "id": "combeferre",
+    "name": "Combeferre",
+    "kind": "character",
+    "firstChapter": 176,
+    "importance": "supporting",
+    "group": "The Friends of the A.B.C."
+  },
+  {
+    "id": "courfeyrac",
+    "name": "Courfeyrac",
+    "kind": "character",
+    "firstChapter": 176,
+    "importance": "supporting",
+    "group": "The Friends of the A.B.C."
+  },
+  {
+    "id": "jean-prouvaire",
+    "name": "Jean Prouvaire",
+    "kind": "character",
+    "firstChapter": 176,
+    "importance": "supporting",
+    "group": "The Friends of the A.B.C."
+  },
+  {
+    "id": "feuilly",
+    "name": "Feuilly",
+    "kind": "character",
+    "firstChapter": 176,
+    "importance": "supporting",
+    "group": "The Friends of the A.B.C."
+  },
+  {
+    "id": "bahorel",
+    "name": "Bahorel",
+    "kind": "character",
+    "firstChapter": 176,
+    "importance": "supporting",
+    "group": "The Friends of the A.B.C."
+  },
+  {
+    "id": "bossuet",
+    "name": "Bossuet (Lesgle)",
+    "kind": "character",
+    "firstChapter": 176,
+    "importance": "supporting",
+    "group": "The Friends of the A.B.C."
+  },
+  {
+    "id": "joly",
+    "name": "Joly",
+    "kind": "character",
+    "firstChapter": 176,
+    "importance": "supporting",
+    "group": "The Friends of the A.B.C."
+  },
+  {
+    "id": "grantaire",
+    "name": "Grantaire",
+    "kind": "character",
+    "firstChapter": 176,
+    "importance": "supporting",
+    "group": "The Friends of the A.B.C."
+  },
+  {
+    "id": "father-hucheloup",
+    "name": "Father Hucheloup",
+    "kind": "character",
+    "firstChapter": 277,
+    "importance": "minor",
+    "group": "The Friends of the A.B.C."
+  },
+  {
+    "id": "mother-hucheloup",
+    "name": "Mother Hucheloup",
+    "kind": "character",
+    "firstChapter": 277,
+    "importance": "minor",
+    "group": "The Friends of the A.B.C."
+  },
+  {
+    "id": "matelote",
+    "name": "Matelote",
+    "kind": "character",
+    "firstChapter": 277,
+    "importance": "minor",
+    "group": "The Friends of the A.B.C."
+  },
+  {
+    "id": "gibelotte",
+    "name": "Gibelotte",
+    "kind": "character",
+    "firstChapter": 277,
+    "importance": "minor",
+    "group": "The Friends of the A.B.C."
+  },
+  {
+    "id": "le-cabuc",
+    "name": "Le Cabuc",
+    "kind": "character",
+    "firstChapter": 284,
+    "importance": "minor",
+    "group": "The Friends of the A.B.C."
+  },
+  {
+    "id": "montparnasse",
+    "name": "Montparnasse",
+    "kind": "character",
+    "firstChapter": 199,
+    "importance": "supporting",
+    "group": "Patron-Minette"
+  },
+  {
+    "id": "babet",
+    "name": "Babet",
+    "kind": "character",
+    "firstChapter": 199,
+    "importance": "supporting",
+    "group": "Patron-Minette"
+  },
+  {
+    "id": "gueulemer",
+    "name": "Gueulemer",
+    "kind": "character",
+    "firstChapter": 199,
+    "importance": "supporting",
+    "group": "Patron-Minette"
+  },
+  {
+    "id": "claquesous",
+    "name": "Claquesous",
+    "kind": "character",
+    "firstChapter": 199,
+    "importance": "supporting",
+    "group": "Patron-Minette"
+  },
+  {
+    "id": "brujon",
+    "name": "Brujon",
+    "kind": "character",
+    "firstChapter": 200,
+    "importance": "supporting",
+    "group": "Patron-Minette"
+  },
+  {
+    "id": "bigrenaille",
+    "name": "Panchaud, alias Bigrenaille",
+    "kind": "character",
+    "firstChapter": 200,
+    "importance": "minor",
+    "group": "Patron-Minette"
+  },
+  {
+    "id": "digne",
+    "name": "Digne",
+    "kind": "place",
+    "firstChapter": 1,
+    "importance": "minor",
+    "group": "Places"
+  },
+  {
+    "id": "toulon",
+    "name": "The galleys of Toulon",
+    "kind": "place",
+    "firstChapter": 17,
+    "importance": "minor",
+    "group": "Places"
+  },
+  {
+    "id": "montreuil-sur-mer",
+    "name": "Montreuil-sur-Mer",
+    "kind": "place",
+    "firstChapter": 29,
+    "importance": "supporting",
+    "group": "Places"
+  },
+  {
+    "id": "the-sergeant-of-waterloo",
+    "name": "The Sergeant of Waterloo (the Montfermeil inn)",
+    "kind": "place",
+    "firstChapter": 37,
+    "importance": "supporting",
+    "group": "Places"
+  },
+  {
+    "id": "waterloo",
+    "name": "Waterloo",
+    "kind": "place",
+    "firstChapter": 71,
+    "importance": "supporting",
+    "group": "Places"
+  },
+  {
+    "id": "gorbeau-house",
+    "name": "The Gorbeau house",
+    "kind": "place",
+    "firstChapter": 104,
+    "importance": "supporting",
+    "group": "Places"
+  },
+  {
+    "id": "petit-picpus",
+    "name": "The convent of the Petit-Picpus",
+    "kind": "place",
+    "firstChapter": 111,
+    "importance": "supporting",
+    "group": "Places"
+  },
+  {
+    "id": "rue-des-filles-du-calvaire",
+    "name": "The house in the Rue des Filles-du-Calvaire",
+    "kind": "place",
+    "firstChapter": 161,
+    "importance": "minor",
+    "group": "Places"
+  },
+  {
+    "id": "cafe-musain",
+    "name": "The Café Musain",
+    "kind": "place",
+    "firstChapter": 176,
+    "importance": "minor",
+    "group": "Places"
+  },
+  {
+    "id": "corinthe",
+    "name": "Corinthe",
+    "kind": "place",
+    "firstChapter": 176,
+    "importance": "supporting",
+    "group": "Places"
+  },
+  {
+    "id": "the-luxembourg",
+    "name": "The Luxembourg garden",
+    "kind": "place",
+    "firstChapter": 186,
+    "importance": "supporting",
+    "group": "Places"
+  },
+  {
+    "id": "rue-plumet",
+    "name": "The house in the Rue Plumet",
+    "kind": "place",
+    "firstChapter": 233,
+    "importance": "supporting",
+    "group": "Places"
+  },
+  {
+    "id": "rue-de-l-homme-arme",
+    "name": "The Rue de l'Homme Armé",
+    "kind": "place",
+    "firstChapter": 233,
+    "importance": "minor",
+    "group": "Places"
+  },
+  {
+    "id": "the-elephant-of-the-bastille",
+    "name": "The elephant of the Bastille",
+    "kind": "place",
+    "firstChapter": 250,
+    "importance": "minor",
+    "group": "Places"
+  },
+  {
+    "id": "the-barricade",
+    "name": "The barricade of the Rue de la Chanvrerie",
+    "kind": "place",
+    "firstChapter": 264,
+    "importance": "major",
+    "group": "Places"
+  },
+  {
+    "id": "the-sewers",
+    "name": "The sewers of Paris",
+    "kind": "place",
+    "firstChapter": 323,
+    "importance": "supporting",
+    "group": "Places"
+  },
+  {
+    "id": "the-silver-candlesticks",
+    "name": "The Bishop's silver candlesticks",
+    "kind": "object",
+    "firstChapter": 6,
+    "importance": "major",
+    "group": "Objects"
+  },
+  {
+    "id": "the-forty-sou-piece",
+    "name": "The forty-sou piece",
+    "kind": "object",
+    "firstChapter": 27,
+    "importance": "minor",
+    "group": "Objects"
+  },
+  {
+    "id": "the-orion",
+    "name": "The ship Orion",
+    "kind": "object",
+    "firstChapter": 92,
+    "importance": "minor",
+    "group": "Objects"
+  },
+  {
+    "id": "the-doll",
+    "name": "The doll (Catherine)",
+    "kind": "object",
+    "firstChapter": 96,
+    "importance": "supporting",
+    "group": "Objects"
+  }
+]

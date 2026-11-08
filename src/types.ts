@@ -93,7 +93,16 @@ export interface BookMeta {
    * A public-domain audiobook aligned to the text (docs/reading-spec.md §6). Chapter n streams from
    * `https://archive.org/download/<item>/<filePattern with NNN or NN, the zero-padded chapter>`; public/texts/<id>/sync/NNN.json has a start time per word.
    */
-  audio?: { status: 'shipped'; source: 'archive.org'; item: string; filePattern: string; reader: string; license: string; url: string }
+  audio?: {
+    status: 'shipped'
+    source: 'archive.org'
+    /** One file per chapter: the archive.org item and its file name with NNN (or NN) for the chapter. Books whose chapters share or span files name them in each sync file instead. */
+    item?: string
+    filePattern?: string
+    reader: string
+    license: string
+    url: string
+  }
 }
 
 export interface BookData {

@@ -3,22 +3,48 @@
 // so playback carries on across chapter changes and when the screen locks.
 import type { BookData, BookMeta } from '../types'
 
+/**
+ * A chapter's narration lives on a virtual timeline made of one or more files laid end to end: `files[k]` starts at
+ * `offsets[k]` seconds. Most books have one file per chapter; LibriVox group recordings often put several short
+ * chapters in one file, or split a long chapter over several.
+ */
 export interface Sync {
-  /** Seconds of audio in the chapter file. */
+  /** Seconds on the chapter's timeline (all its files together). */
   duration: number
-  /** Start of the first token and end of the last, in seconds (the file has an announcement before and after). */
+  /** Start of the first token and end of the last, in seconds on that timeline. */
   start: number
   end: number
-  /** Start time of each token, in seconds. */
+  /** Start time of each token, in seconds on that timeline. */
   times: Float64Array
+  /** archive.org paths ("item/file.mp3") in order. */
+  files: string[]
+  /** Where each file starts on the timeline (offsets[0] is 0). */
+  offsets: number[]
 }
 
 export const hasAudio = (meta: BookMeta) => meta.audio?.status === 'shipped'
 
-export function audioUrl(meta: BookMeta, n: number): string {
-  const a = meta.audio!
+/** A file's URL from its archive.org path (or a full URL, passed through). */
+export const fileUrl = (file: string) => (/^https?:/.test(file) ? file : `https://archive.org/download/${file}`)
+
+/** The one file of chapter n for books with a file pattern (one file per chapter); null for books whose syncs name their files. */
+export function chapterFile(meta: BookMeta, n: number): string | null {
+  const a = meta.audio
+  if (!a?.item || !a.filePattern) return null
   const name = a.filePattern.includes('NNN') ? a.filePattern.replace('NNN', String(n).padStart(3, '0')) : a.filePattern.replace('NN', String(n).padStart(2, '0'))
-  return `https://archive.org/download/${a.item}/${name}`
+  return `${a.item}/${name}`
+}
+
+/** Which of the chapter's files is playing at timeline second `t`, and the time inside it. */
+export function locate(sync: Sync, t: number): { file: number; local: number } {
+  let k = 0
+  while (k + 1 < sync.offsets.length && sync.offsets[k + 1] <= t) k++
+  return { file: k, local: Math.max(0, t - sync.offsets[k]) }
+}
+
+/** Index of the chapter file the player has loaded (by its URL), or -1 if it's playing something else. */
+export function fileIndexOf(sync: Sync, src: string): number {
+  return sync.files.findIndex((f) => fileUrl(f) === src)
 }
 
 const syncs = new Map<string, Promise<Sync>>()
@@ -28,17 +54,20 @@ const ready = new Map<string, Sync>()
 export const peekSync = (bookId: string, n: number) => ready.get(`${bookId}/${n}`) ?? null
 
 /** The chapter's word timings. Rejects when the narration hasn't been lined up for it (yet). */
-export function getSync(bookId: string, n: number): Promise<Sync> {
+export function getSync(meta: BookMeta, n: number): Promise<Sync> {
+  const bookId = meta.id
   const key = `${bookId}/${n}`
   if (!syncs.has(key)) {
     const p = fetch(`${import.meta.env.BASE_URL}texts/${bookId}/sync/${String(n).padStart(3, '0')}.json`)
       .then(async (res) => {
         if (!res.ok) throw new Error('No narration timing for this chapter')
-        const raw = (await res.json()) as { duration: number; start: number; end: number; d: number[] }
+        const raw = (await res.json()) as { duration: number; start: number; end: number; d: number[]; files?: string[]; offsets?: number[] }
         const times = new Float64Array(raw.d.length)
         let t = 0
         raw.d.forEach((d, i) => (times[i] = (t += d) / 1000))
-        const sync = { duration: raw.duration, start: raw.start / 1000, end: raw.end / 1000, times }
+        const files = raw.files ?? [chapterFile(meta, n) ?? '']
+        const offsets = raw.offsets ?? [0]
+        const sync: Sync = { duration: raw.duration, start: raw.start / 1000, end: raw.end / 1000, times, files, offsets }
         ready.set(key, sync)
         return sync
       })
@@ -103,7 +132,7 @@ export function player(): HTMLAudioElement {
   return el
 }
 
-/** Point the player at a chapter without restarting it if it's already there. */
+/** Point the player at a file without restarting it if it's already there. */
 export function loadChapter(url: string) {
   const p = player()
   if (p.src !== url) {
