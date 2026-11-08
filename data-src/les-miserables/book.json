@@ -334,5 +334,12 @@
     "edition": "Standard Ebooks: Isabel F. Hapgood’s 1887 translation",
     "license": "Public domain",
     "sourceUrl": "https://standardebooks.org/ebooks/victor-hugo/les-miserables/isabel-f-hapgood"
+  },
+  "audio": {
+    "status": "shipped",
+    "source": "archive.org",
+    "reader": "LibriVox volunteers",
+    "license": "Public domain (LibriVox)",
+    "url": "https://librivox.org/group/296"
   }
 }
