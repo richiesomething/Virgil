@@ -1,1 +1,299 @@
-[]
+[
+  {
+    "id": "javert-suspects-madeleine",
+    "chapter": 45,
+    "kind": "soft",
+    "secret": "Javert half-recognizes in the mayor of M. sur M. a convict he knew at Toulon; the reader is meant to suspect, not yet to know.",
+    "quote": "“I have never known but one man who could take the place of a screw, and he was that convict.”",
+    "note": "Soft from ch 44–56 (ch 45 the cart; ch 54 Javert says outright that he took the mayor for Jean Valjean, then retracts because 'the real Jean Valjean has been found'). Until 57 say only that Javert suspects; don't confirm."
+  },
+  {
+    "id": "madeleine-is-valjean",
+    "chapter": 57,
+    "kind": "hard",
+    "secret": "M. Madeleine, the manufacturer and mayor of Montreuil-sur-Mer, is Jean Valjean.",
+    "quote": "The reader has, no doubt, already divined that M. Madeleine is no other than Jean Valjean.",
+    "note": "Roster merge monsieur-madeleine → jean-valjean from 57 is correct. 'Valjean' cannot be a term: the name is in use from ch 15 and Javert speaks it in ch 54."
+  },
+  {
+    "id": "thenardier-robbed-pontmercy-at-waterloo",
+    "chapter": 89,
+    "kind": "hard",
+    "secret": "The prowler stripping the dead at Waterloo is Thénardier; the officer he robs, and who thanks him as a rescuer, is named Pontmercy.",
+    "quote": "“I shall not forget that name,” said the officer; “and do you remember mine. My name is Pontmercy.”",
+    "note": "Both names are given in ch 89 itself; the reader knows the 'rescue' was a robbery (he takes the cross, watch and purse). Marius never learns this. Don't connect Pontmercy to Marius or to the Gillenormands before ch 169."
+  },
+  {
+    "id": "valjean-alive-after-orion",
+    "chapter": 103,
+    "kind": "hard",
+    "secret": "The convict reported drowned from the Orion is Jean Valjean; he is the stranger in the yellow coat who takes Cosette from the Thénardiers.",
+    "quote": "Jean Valjean was not dead.",
+    "note": "Soft from ch 92 (the convict's fall, 'the body has not yet been found') through 99–102, where he is only 'the stranger' / 'the man'. Chapters 99–102 should call him the stranger; from 103 jean-valjean."
+  },
+  {
+    "id": "ultime-fauchelevent-alias",
+    "chapter": 145,
+    "kind": "hard",
+    "secret": "At the Petit-Picpus convent Jean Valjean passes as Ultime Fauchelevent, the gardener's brother.",
+    "quote": "“Ultime Fauchelevent.”",
+    "terms": [
+      "Ultime"
+    ],
+    "note": "Same chapter as it happens; no separate id (the narrator is explicit). The name only must not appear before 145."
+  },
+  {
+    "id": "gavroche-is-jondrettes-son",
+    "chapter": 159,
+    "kind": "hard",
+    "secret": "The nameless gamin of Book I is Little Gavroche, the unloved son of the Gorbeau lodger who calls himself Jondrette; Marius is the family's neighbour.",
+    "quote": "Probably because his father’s name was Jondrette.",
+    "note": "At 159 his parents are 'the Jondrettes'. That they are the Thénardiers follows at 220 (see jondrette-is-thenardier); the text spells out the whole family at 249."
+  },
+  {
+    "id": "marius-father-is-pontmercy",
+    "chapter": 169,
+    "kind": "hard",
+    "secret": "Marius's father, the son-in-law M. Gillenormand calls a brigand, is Colonel Georges Pontmercy, the officer pulled from the sunken road at Waterloo.",
+    "quote": "After Waterloo, Pontmercy, who had been pulled out of the hollow road of Ohain, as it will be remembered, had succeeded in joining the army, and had dragged himself from ambulance to ambulance as far as the cantonments of the Loire.",
+    "note": "The name Pontmercy does not occur in ch 160–168; keep it out of anything shown there. The colonel's note (ch 171) names Thénardier as the sergeant who 'saved my life' at Montfermeil: Marius believes it; the reader knows better from 89."
+  },
+  {
+    "id": "jondrette-recognizes-leblanc",
+    "chapter": 212,
+    "kind": "soft",
+    "secret": "Jondrette knows the white-haired philanthropist from eight years back and plans a trap for him; who they both are is still unsaid.",
+    "quote": "“Sure! Eight years have passed! But I recognize him! Ah! I recognize him. I knew him at once!”",
+    "note": "Soft from 208–219. The reader may guess Jondrette is Thénardier and Leblanc the man who took Cosette; nothing shown before 220 may say so."
+  },
+  {
+    "id": "jondrette-is-thenardier",
+    "chapter": 220,
+    "kind": "hard",
+    "secret": "Jondrette, alias Fabantou, Genflot, Don Alvarès and Balizard, is Thénardier, the former innkeeper of Montfermeil.",
+    "quote": "“My name is not Fabantou, my name is not Jondrette, my name is Thénardier. I am the innkeeper of Montfermeil! Do you understand? Thénardier! Now do you know me?”",
+    "note": "Roster merge jondrette → thenardier from 220 is correct. The painting he tries to sell is the inn sign: Marius sees it as his father's rescue. Madame Jondrette = Madame Thénardier from the same sentence."
+  },
+  {
+    "id": "leblanc-is-valjean",
+    "chapter": 220,
+    "kind": "hard",
+    "secret": "M. Leblanc, the white-haired man Marius watched at the Luxembourg (to Thénardier 'Urbain Fabre'), is Jean Valjean: Thénardier names him as the man who carried off the Lark from Montfermeil on Christmas eve 1823.",
+    "quote": "No, it wasn’t you who came to Montfermeil, to my inn, eight years ago, on Christmas eve, 1823! It wasn’t you who carried off that Fantine’s child from me! The Lark!",
+    "terms": [
+      "Urbain Fabre"
+    ],
+    "note": "Plain to a first-time reader at 220 (they saw the yellow greatcoat and the Christmas-eve rescue in ch 99–103), though Marius does not know it and the narrator does not state it in his own voice until the Rue Plumet chapters (233–234: Valjean walks Cosette in the Luxembourg and received 'Thénardier's epistle'; 237: 'Marius ... saw her once more at the Luxembourg'). Roster corrected: monsieur-leblanc merges into jean-valjean from 220, not 236. From 221 notes may say Marius still does not know who 'M. Leblanc' is."
+  },
+  {
+    "id": "girl-at-luxembourg-is-cosette",
+    "chapter": 220,
+    "kind": "hard",
+    "secret": "The girl at the Luxembourg, Marius's 'Mademoiselle Lanoire' / 'Ursule', is Cosette, the Lark of Montfermeil, now grown.",
+    "quote": "“Parbleu!” cried Thénardier, “the little one, the Lark.”",
+    "note": "Known with the Leblanc reveal (same chapter): Thénardier calls the prisoner's daughter the Lark and Marius wonders 'if she is the Lark'. Roster corrected: the-girl-at-the-luxembourg merges into cosette from 220, not 236. Confirmed in the narrator's voice at 237."
+  },
+  {
+    "id": "gavroche-is-a-thenardier",
+    "chapter": 220,
+    "kind": "hard",
+    "secret": "Since Jondrette is Thénardier, Little Gavroche is the Thénardiers' son and Éponine and Azelma's brother.",
+    "quote": "In the meantime, Thénardier, whom we shall henceforth call by no other name, was pacing up and down in front of the table in a sort of frenzy and wild triumph.",
+    "note": "Inference the text forces at 220 (159 said Gavroche's father was Jondrette). Ch 222 has him ask after 'my father' at La Force; ch 249 states it flatly: 'His two daughters and Gavroche had hardly had time to discover that they had two little brothers.' Don't say it before 220."
+  },
+  {
+    "id": "elder-jondrette-girl-is-eponine",
+    "chapter": 221,
+    "kind": "hard",
+    "secret": "The elder Jondrette daughter who visits Marius in the Gorbeau house is Éponine Thénardier; the younger is Azelma.",
+    "quote": "But he had only “caged” Azelma. As for Éponine, she was not at her post, she had disappeared, and he had not been able to seize her.",
+    "note": "Ch 204–220 call her only the elder daughter / the young girl; never 'Éponine' or 'Thénardier' there. Known as Éponine from 221 on (Marius hears the name from Javert's man; Book II of Vol. IV is titled 'Éponine')."
+  },
+  {
+    "id": "two-little-boys-are-thenardiers",
+    "chapter": 249,
+    "kind": "hard",
+    "secret": "The two lost little boys Gavroche shelters in the elephant are his own brothers: the Thénardiers' youngest sons, farmed out to Magnon in place of her dead children so that M. Gillenormand would go on paying for them.",
+    "quote": "Thénardier, to whom avatars were easy, seized this occasion to become Jondrette. His two daughters and Gavroche had hardly had time to discover that they had two little brothers.",
+    "note": "Stated at the start of ch 249, before the boys appear (roster firstChapter 249 is right). Gavroche never learns it. Nothing before 249 may give the Thénardiers five children."
+  },
+  {
+    "id": "cosette-does-not-know-her-mother",
+    "chapter": 236,
+    "kind": "soft",
+    "secret": "Cosette does not know her mother's name or story; Valjean keeps silent when she asks.",
+    "quote": "She did not even know her mother’s name. Whenever she asked Jean Valjean, Jean Valjean remained silent.",
+    "note": "A gap in Cosette's knowledge, not the reader's. It closes at 364, when Valjean tells her the name Fantine on his deathbed."
+  },
+  {
+    "id": "the-voice-is-eponine",
+    "chapter": 293,
+    "kind": "hard",
+    "secret": "The 'young workman' in velvet trousers who summons Marius to the barricade (ch 264), and who puts a hand over the gun aimed at him (ch 291), is Éponine in men's clothes; she dies telling him so.",
+    "quote": "“You see, you are lost! Now, no one can get out of the barricade. It was I who led you here, by the way!”",
+    "note": "Soft from 264 ('a voice') and 291 ('the young workman'). Before 293 nothing may identify the voice or the workman."
+  },
+  {
+    "id": "eponines-letter",
+    "chapter": 293,
+    "kind": "hard",
+    "secret": "The letter Éponine carries is Cosette's note to Marius giving her new address in the Rue de l'Homme Armé; Éponine intercepted it and kept it so that Marius would come to the barricade and die with her.",
+    "quote": "“Listen, I do not wish to play you a trick. I have a letter in my pocket for you. I was told to put it in the post. I kept it. I did not want to have it reach you.”",
+    "note": "Marius reads it and writes his own farewell to Cosette, which Gavroche carries and Valjean intercepts (294–297)."
+  },
+  {
+    "id": "javert-is-the-spy",
+    "chapter": 283,
+    "kind": "hard",
+    "secret": "The volunteer recruited in the Rue des Billettes is Inspector Javert, come to the barricade as a police spy; Gavroche unmasks him.",
+    "quote": "“Javert, inspector of police, aged fifty-two,” and the signature of the Prefect of Police of that day, M. Gisquet.",
+    "note": "Revealed in the chapter he is unmasked; he was the 'tall man' who followed the column in 276 and sat silent in Corinthe (282). Don't name him among the recruits before 283."
+  },
+  {
+    "id": "le-cabuc-was-claquesous",
+    "chapter": 284,
+    "kind": "hard",
+    "secret": "Le Cabuc, the drunken recruit Enjolras executes for shooting a porter, was probably Claquesous of Patron-Minette.",
+    "quote": "We will add, that if we are to believe a tradition of the police, which is strange but probably well founded, Le Cabuc was Claquesous.",
+    "note": "Given in the same chapter; the narrator offers it as police tradition, not certainty."
+  },
+  {
+    "id": "mabeuf-dies",
+    "chapter": 289,
+    "kind": "hard",
+    "secret": "Old M. Mabeuf is shot dead raising the flag on the barricade.",
+    "quote": "The old man fell on his knees, then rose again, dropped the flag and fell backwards on the pavement, like a log, at full length, with outstretched arms."
+  },
+  {
+    "id": "prouvaire-dies",
+    "chapter": 292,
+    "kind": "hard",
+    "secret": "Jean Prouvaire, taken prisoner by the troops, is shot; the insurgents hear his last cry.",
+    "quote": "“Vive la France! Long live France! Long live the future!” They recognized the voice of Prouvaire.",
+    "note": "Bahorel also falls in the first assault (ch 288–289 fighting; Combeferre names him among the dead in ch 300)."
+  },
+  {
+    "id": "eponine-dies",
+    "chapter": 293,
+    "kind": "hard",
+    "secret": "Éponine dies in Marius's arms, shot through the hand and body; she asks him for a kiss on her brow once she is dead.",
+    "quote": "“Promise to give me a kiss on my brow when I am dead.—I shall feel it.”"
+  },
+  {
+    "id": "valjean-at-the-barricade",
+    "chapter": 302,
+    "kind": "hard",
+    "secret": "The man in National Guard uniform who slips into the barricade is Jean Valjean; he has read Marius's letter to Cosette and gives up his uniform so that a fifth insurgent can escape.",
+    "quote": "Jean Valjean had just entered the barricade.",
+    "note": "Soft from 295–297 (Valjean reads the letter and goes out in his uniform). The insurgents never learn his name."
+  },
+  {
+    "id": "gavroche-dies",
+    "chapter": 313,
+    "kind": "hard",
+    "secret": "Gavroche is shot gathering cartridges outside the barricade, still singing.",
+    "quote": "He did not finish. A second bullet from the same marksman stopped him short. This time he fell face downward on the pavement, and moved no more."
+  },
+  {
+    "id": "valjean-frees-javert",
+    "chapter": 317,
+    "kind": "hard",
+    "secret": "Jean Valjean, who asked to be the one to execute the spy, cuts Javert loose and fires his pistol in the air; Marius hears the shot and believes Javert dead.",
+    "quote": "When Javert had disappeared, Jean Valjean fired his pistol in the air.",
+    "note": "Marius keeps believing Valjean killed Javert until 363."
+  },
+  {
+    "id": "the-friends-die",
+    "chapter": 319,
+    "kind": "hard",
+    "secret": "In the final assault Bossuet, Feuilly, Courfeyrac and Combeferre are killed; Joly falls with the centre.",
+    "quote": "Bossuet was killed; Feuilly was killed; Courfeyrac was killed; Combeferre, transfixed by three blows from a bayonet in the breast at the moment when he was lifting up a wounded soldier, had only time to cast a glance to heaven when he expired.",
+    "note": "Ch 320 opens with no leaders left alive except Enjolras and Marius."
+  },
+  {
+    "id": "enjolras-and-grantaire-die",
+    "chapter": 321,
+    "kind": "hard",
+    "secret": "Enjolras is shot by firing squad in the upper room of Corinthe; Grantaire wakes from his stupor, asks to die with him, and falls at his feet.",
+    "quote": "Enjolras, pierced by eight bullets, remained leaning against the wall, as though the balls had nailed him there. Only, his head was bowed. Grantaire fell at his feet, as though struck by a thunderbolt."
+  },
+  {
+    "id": "marius-survives-saved-by-valjean",
+    "chapter": 322,
+    "kind": "hard",
+    "secret": "Marius is not dead: the hand that seized him as he fell was Jean Valjean's, who carries him off through the sewer grating. Of the barricade's defenders only Marius (and the spared Javert) survive.",
+    "quote": "The hand which had seized him from behind and whose grasp he had felt at the moment of his fall and his loss of consciousness was that of Jean Valjean.",
+    "note": "Marius does not know who saved him until 363. From 338 to 362 the Gillenormand household knows only that he was brought home by an unknown man."
+  },
+  {
+    "id": "sewer-man-is-thenardier",
+    "chapter": 336,
+    "kind": "hard",
+    "secret": "The man with the key to the sewer outlet is Thénardier; he does not recognize Valjean, takes him for a murderer, tears a strip from Marius's coat, and lets them out to throw a pursuer off his own track.",
+    "quote": "Unexpected as was this encounter, this man was known to him. The man was Thénardier.",
+    "note": "The torn strip of coat is the proof Thénardier brings in 363."
+  },
+  {
+    "id": "javert-at-the-outlet",
+    "chapter": 337,
+    "kind": "hard",
+    "secret": "The figure waiting outside the sewer grating, the man Thénardier was dodging, is Javert; Valjean surrenders and Javert lets him carry Marius home and then stop at his own house.",
+    "quote": "The reader has divined, no doubt, that Thénardier’s pursuer was no other than Javert."
+  },
+  {
+    "id": "javert-suicide",
+    "chapter": 341,
+    "kind": "hard",
+    "secret": "Javert, unable to arrest the man who spared him or to let him go, leaves his resignation and throws himself into the Seine.",
+    "quote": "A moment later, a tall black figure, which a belated passerby in the distance might have taken for a phantom, appeared erect upon the parapet of the quay, bent over towards the Seine, then drew itself up again, and fell straight down into the shadows; a dull splash followed.",
+    "note": "Ch 339–340 end with Javert simply gone from the Rue de l'Homme Armé; 341 (Book IV, 'Javert Derailed') is the only chapter where the reader sees his end. Marius learns it only at 363 (the Moniteur notice)."
+  },
+  {
+    "id": "fauchelevent-at-the-gillenormands",
+    "chapter": 345,
+    "kind": "hard",
+    "secret": "The 'M. Fauchelevent' who brings Cosette to Marius's bedside, and whom the household takes for her father, is Jean Valjean; Marius does not connect him with the man who saved him.",
+    "quote": "It was “Monsieur Fauchelevent;” it was Jean Valjean.",
+    "note": "Reader already knows; the gap is Marius's. Terms unsafe: Fauchelevent is a name in use from 45."
+  },
+  {
+    "id": "cosettes-fortune-is-madeleines",
+    "chapter": 346,
+    "kind": "hard",
+    "secret": "Cosette's six hundred thousand francs are M. Madeleine's earnings, withdrawn from Laffitte and buried for ten years in the forest of Montfermeil; the man Boulatruelle saw in the woods (ch 342) was Valjean digging them up.",
+    "quote": "The reader has, no doubt, understood, without necessitating a lengthy explanation, that Jean Valjean, after the Champmathieu affair, had been able ... to withdraw in season, from the hands of Laffitte, the sum earned by him, under the name of Monsieur Madeleine, at Montreuil-sur-Mer; and that ... he had buried and hidden that sum in the forest of Montfermeil.",
+    "note": "Soft from 91/98 (Boulatruelle's treasure-hunting) and 342. Before 346 don't explain where Cosette's dowry comes from."
+  },
+  {
+    "id": "marius-seeks-his-saviour",
+    "chapter": 349,
+    "kind": "soft",
+    "secret": "Marius searches in vain for two men: Thénardier, to honour his father's debt, and the unknown man who brought him home.",
+    "quote": "There was Thénardier; there was the unknown man who had brought him, Marius, back to M. Gillenormand.",
+    "note": "Marius's ignorance, not the reader's; resolved at 363."
+  },
+  {
+    "id": "valjean-confesses-to-marius",
+    "chapter": 354,
+    "kind": "hard",
+    "secret": "The day after the wedding Jean Valjean tells Marius that he is an ex-convict named Jean Valjean, not Fauchelevent and not Cosette's father, and asks to be allowed to see her occasionally.",
+    "quote": "“Sir,” said Jean Valjean, “I have something to say to you. I am an ex-convict.”",
+    "note": "Marius keeps it from Cosette (355). In 356–362 Marius, believing Valjean robbed Madeleine and killed Javert, lets him fade out of Cosette's life."
+  },
+  {
+    "id": "thenardiers-last-visit",
+    "chapter": 363,
+    "kind": "hard",
+    "secret": "Thénardier, disguised, comes to sell Marius a secret and instead proves the opposite of what he meant: Jean Valjean was himself M. Madeleine, Javert killed himself, and the 'murderer' Thénardier met in the sewer carrying a body was Valjean carrying Marius; the torn strip fits Marius's bloodstained coat.",
+    "quote": "“The young man was myself, and here is the coat!” cried Marius, and he flung upon the floor an old black coat all covered with blood.",
+    "note": "Marius pays Thénardier off and sends him to America. Cosette learns nothing until 364."
+  },
+  {
+    "id": "cosette-learns-and-valjean-dies",
+    "chapter": 364,
+    "kind": "hard",
+    "secret": "Marius tells Cosette that Valjean saved his life and gave her to him; Valjean, dying, tells Cosette her mother's name, Fantine, and dies with the Bishop's candlesticks beside him.",
+    "quote": "Cosette, the moment has come to tell thee the name of thy mother. She was called Fantine.",
+    "note": "The ending: 365 is only the unnamed grave in Père-Lachaise and its four pencilled lines. Nothing before 364 may say Valjean dies or that Cosette learns the truth."
+  }
+]

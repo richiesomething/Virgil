@@ -9,8 +9,8 @@ text itself tells the reader who someone is, switch ids from that chapter on.
 | Jean Valjean | `jean-valjean` | Vol. I Bk II onward (ch 15–39), and again from Vol. II onward wherever the narrator names him | — |
 | M. Madeleine / Father Madeleine, mayor of M. sur M. | `monsieur-madeleine` | Vol. I Bk V–VII (ch 40–56) | Jean Valjean; the narrator says so in Vol. I Bk VII ch 3 "A Tempest in a Skull" (ch 57). From ch 57 use `jean-valjean`. |
 | Ultime Fauchelevent (at the convent) | `jean-valjean` | Vol. II Bk VIII | The narrator is explicit that this is Valjean's assumed name: no separate id. |
-| M. Leblanc, "the white-haired man" at the Luxembourg | `monsieur-leblanc` | ch 188–235, as seen by Marius | Jean Valjean. The narrator confirms it in Vol. IV Bk III (ch 236). From 236 use `jean-valjean`. Until then the notes may say Marius does not know who he is; nothing more. |
-| Mlle Lanoire / "Ursule" / the girl at the Luxembourg | `the-girl-at-the-luxembourg` | ch 188–235, Marius's view | Cosette; confirmed with Leblanc at ch 236. From 236 use `cosette`. |
+| M. Leblanc, "the white-haired man" at the Luxembourg | `monsieur-leblanc` | ch 188–219, as seen by Marius | Jean Valjean. Plain to the reader at ch 220 (Thénardier: the Lark, Montfermeil, Christmas 1823). From 220 use `jean-valjean`. Until then the notes may say Marius does not know who he is; nothing more. |
+| Mlle Lanoire / "Ursule" / the girl at the Luxembourg | `the-girl-at-the-luxembourg` | ch 188–219, Marius's view | Cosette; plain at ch 220 with Leblanc. From 220 use `cosette`. |
 | Jondrette / Fabantou (the Gorbeau neighbour; first named at ch 159 as the gamin's father) | `jondrette` | ch 159–219 | Thénardier; he names himself in Vol. III Bk VIII ch 20 "The Trap" (ch 220). From ch 220 use `thenardier`. |
 | the elder Jondrette girl at the Gorbeau house | `eponine` (one id throughout) | ch 204–219: never use the family name Thénardier for her; Javert names her Éponine at ch 221 | — |
 | the gamin | `gavroche` | Vol. III Bk I; the narrator names him in Bk I ch 13 and tells us whose son he is there | — |

@@ -78,12 +78,12 @@
     "firstChapter": 188,
     "importance": "supporting",
     "group": "Jean Valjean and Cosette",
-    "lastChapter": 235,
+    "lastChapter": 219,
     "mergedInto": {
       "id": "jean-valjean",
-      "from": 236
+      "from": 220
     },
-    "note": "The white-haired man Marius watches at the Luxembourg (Vol. III Bk VI–VIII, ch 188–235). The narrator ties him to Jean Valjean when the Rue Plumet chapters retell the Luxembourg walks from Valjean's side (Vol. IV Bk III, ch 236; reveals stage to confirm 236 vs 237). Use jean-valjean from 236."
+    "note": "The white-haired man Marius watches at the Luxembourg (Vol. III Bk VI–VIII, ch 188–219). Revealed as Jean Valjean in 'The Trap' (ch 220): Thénardier names him as the man who carried off the Lark from Montfermeil on Christmas eve 1823 (the reader saw that in ch 99–103). Use jean-valjean from 220; notes may say Marius still does not know who 'M. Leblanc' is. The narrator confirms it in his own voice at ch 234 and 237."
   },
   {
     "id": "the-girl-at-the-luxembourg",
@@ -92,12 +92,12 @@
     "firstChapter": 188,
     "importance": "supporting",
     "group": "Jean Valjean and Cosette",
-    "lastChapter": 235,
+    "lastChapter": 219,
     "mergedInto": {
       "id": "cosette",
-      "from": 236
+      "from": 220
     },
-    "note": "Marius's 'Mademoiselle Lanoire' / 'Ursule' (ch 188–235). Confirmed as Cosette with Leblanc in Vol. IV Bk III (ch 236). Use cosette from 236."
+    "note": "Marius's 'Mademoiselle Lanoire' / 'Ursule' (ch 188–219). Revealed as Cosette in 'The Trap' (ch 220), where Thénardier calls the prisoner's daughter the Lark and Marius wonders 'if she is the Lark'. Use cosette from 220; confirmed at ch 237."
   },
   {
     "id": "monsieur-madeleine",

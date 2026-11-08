@@ -369,8 +369,8 @@
       "marius",
       "thenardier",
       "madame-thenardier",
-      "monsieur-leblanc",
-      "the-girl-at-the-luxembourg",
+      "jean-valjean",
+      "cosette",
       "javert",
       "bigrenaille",
       "babet",
@@ -378,8 +378,7 @@
       "boulatruelle",
       "eponine",
       "colonel-pontmercy",
-      "fantine",
-      "cosette"
+      "fantine"
     ]
   },
   {
@@ -396,7 +395,7 @@
       "javert",
       "thenardier",
       "madame-thenardier",
-      "monsieur-leblanc",
+      "jean-valjean",
       "marius",
       "bigrenaille",
       "brujon",
@@ -538,8 +537,8 @@
       "javert",
       "maam-bougon",
       "thenardier",
-      "monsieur-leblanc",
-      "the-girl-at-the-luxembourg"
+      "jean-valjean",
+      "cosette"
     ]
   },
   {
@@ -554,7 +553,7 @@
     ],
     "characters": [
       "javert",
-      "monsieur-leblanc",
+      "jean-valjean",
       "montparnasse",
       "eponine",
       "azelma",
@@ -602,7 +601,7 @@
       "courfeyrac",
       "thenardier",
       "mabeuf",
-      "the-girl-at-the-luxembourg"
+      "cosette"
     ]
   }
 ]
