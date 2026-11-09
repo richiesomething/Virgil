@@ -13,8 +13,8 @@ export interface Chapter {
   volume?: number
   /** One or two sentences. */
   summary: string
-  /** Longer summary, as paragraphs. */
-  details: string[]
+  /** Longer summary, as paragraphs. Shipped separately (src/books/<id>/details.json) and loaded on demand: see loadDetails. */
+  details?: string[]
   /** Ids of characters who appear in (or are meaningfully discussed in) the chapter. */
   characters: string[]
 }

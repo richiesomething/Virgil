@@ -11,6 +11,8 @@ import { useBook } from '../lib/book-context'
 import { href, navigate, useLocation, withQuery } from '../lib/router'
 import { chapter, charactersInChapter, currentTagline, kindOf, notesForChapter } from '../lib/spoilers'
 import { prefs } from '../lib/store'
+import { loadDetails } from '../books'
+import { useEffect, useState } from 'react'
 import { chapterMinutes, estimate } from '../lib/planner'
 
 type Tab = 'summary' | 'insights' | 'notes' | 'people'
@@ -53,6 +55,7 @@ function ReadChapter({ n }: { n: number }) {
   const { book, upTo, bookmark, openNote } = useBook()
   const loc = useLocation()
   const ch = chapter(book, n, upTo)!
+  const details = useChapterDetails(book.meta.id, n)
   const { meta } = book
   const notes = notesForChapter(book, n, upTo)
   const noteCount = notes.introduced.length + notes.returning.length
@@ -92,9 +95,13 @@ function ReadChapter({ n }: { n: number }) {
         {tab === 'summary' && <WhereCard n={n} />}
         {tab === 'summary' && (
           <div className="prose">
-            {ch.details.map((p, i) => (
-              <p key={i}>{p}</p>
-            ))}
+            {details ? (
+              details.map((p, i) => <p key={i}>{p}</p>)
+            ) : (
+              <p className="muted" aria-busy="true">
+                {ch.summary}
+              </p>
+            )}
           </div>
         )}
 
@@ -228,4 +235,17 @@ function UpNextPage({ n }: { n: number }) {
       </div>
     </article>
   )
+}
+
+/** A chapter's detail paragraphs, from the book's separately loaded details file (usually already warm: BookShell prefetches it). */
+function useChapterDetails(bookId: string, n: number): string[] | null {
+  const [all, setAll] = useState<string[][] | null>(null)
+  useEffect(() => {
+    let live = true
+    loadDetails(bookId).then((d) => live && setAll(d)).catch(() => {})
+    return () => {
+      live = false
+    }
+  }, [bookId])
+  return all ? (all[n - 1] ?? []) : null
 }

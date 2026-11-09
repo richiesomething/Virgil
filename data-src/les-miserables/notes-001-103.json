@@ -1,0 +1,1231 @@
+[
+  {
+    "term": "Monseigneur",
+    "kind": "title",
+    "chapter": 1,
+    "text": "The French honorific for a bishop, roughly 'My Lord'. Madame Magloire uses it with relish; the Bishop himself prefers the nickname the poor give him. Hapgood sometimes translates it as 'Monsignor' or simply leaves it.",
+    "quote": "housekeeper to Monseigneur"
+  },
+  {
+    "term": "Parliament of Aix",
+    "kind": "history",
+    "chapter": 1,
+    "text": "Under the old monarchy a 'parliament' was not a legislature but a sovereign law court. Aix-en-Provence had one, and its councillors formed the 'nobility of the bar' (noblesse de robe), a hereditary caste of judges. M. Myriel was born into that world, which the Revolution destroyed.",
+    "quote": "the nobility of the bar"
+  },
+  {
+    "term": "emigrated",
+    "kind": "history",
+    "chapter": 1,
+    "text": "To emigrate, in a French context, means to have fled the Revolution: the émigrés were the nobles and clergy who left France after 1789, many of them ruined. Returning émigrés, often ruined, were a familiar type under the Restoration.",
+    "quote": "emigrated to Italy",
+    "seeAlso": [
+      98
+    ]
+  },
+  {
+    "term": "’93",
+    "kind": "history",
+    "chapter": 1,
+    "text": "Shorthand for 1793, the year of the Terror: the execution of Louis XVI, the guillotine in permanent session, civil war in the Vendée. For royalists it is the Revolution's unforgivable year; for republicans, a thunderbolt that answered fifteen centuries of oppression.",
+    "quote": "the tragic spectacles of ’93",
+    "seeAlso": [
+      10
+    ]
+  },
+  {
+    "term": "curé",
+    "kind": "title",
+    "chapter": 1,
+    "text": "A parish priest. A curé might be assisted by a vicar (vicaire), and village curés were often poor and little educated. Hugo keeps the French word throughout.",
+    "quote": "the Curé of Brignolles"
+  },
+  {
+    "term": "Cardinal Fesch",
+    "kind": "history",
+    "chapter": 1,
+    "text": "Joseph Fesch (1763–1839), half-brother of Napoleon's mother and so the Emperor's uncle, Archbishop of Lyons and a cardinal. He was the natural channel for a provincial priest seeking favours in Paris. Hugo's anecdote of the Emperor meeting Myriel in Fesch's anteroom is invented.",
+    "quote": "M. le Cardinal Fesch",
+    "seeAlso": [
+      11
+    ]
+  },
+  {
+    "term": "the coronation",
+    "kind": "history",
+    "chapter": 1,
+    "text": "Napoleon crowned himself Emperor in Notre-Dame on 2 December 1804, with Pope Pius VII present. The 'epoch of the coronation' is therefore late 1804, when the Empire was new and bishoprics were in the Emperor's gift.",
+    "quote": "the epoch of the coronation"
+  },
+  {
+    "term": "prefect",
+    "kind": "title",
+    "chapter": 1,
+    "text": "The head of a département, appointed by the central government in Paris, created by Napoleon in 1800. A prefect ran the local administration and police and was the most powerful official in a provincial town, outranking the mayor.",
+    "quote": "the general and the prefect"
+  },
+  {
+    "term": "livres",
+    "kind": "money",
+    "chapter": 2,
+    "text": "The livre was the old unit of account, replaced by the franc in 1795 at the same value; old-fashioned people like the Bishop went on reckoning in livres. 15,000 a year was a handsome salary when a labourer earned perhaps 500 francs a year, so the 1,500 the Bishop and his sister keep is genuine poverty.",
+    "quote": "15,000 livres"
+  },
+  {
+    "term": "Lazarists",
+    "kind": "reference",
+    "chapter": 2,
+    "text": "Priests of the Congregation of the Mission, founded by Saint Vincent de Paul in 1625 and nicknamed after their Paris house of Saint-Lazare. They preached in the countryside and trained clergy. Vincent also founded the Sisters of Charity, the nursing nuns of French hospitals.",
+    "quote": "the Lazarists of Montdidier",
+    "seeAlso": [
+      55
+    ]
+  },
+  {
+    "term": "incarcerated for debt",
+    "kind": "custom",
+    "chapter": 2,
+    "text": "Imprisonment for debt was legal in France until 1867. A creditor could have a debtor locked up, at the creditor's expense, until the debt was paid, which for a poor family meant ruin. Paying to free such men was a recognised charity.",
+    "quote": "incarcerated for debt"
+  },
+  {
+    "term": "the 18 Brumaire",
+    "kind": "history",
+    "chapter": 2,
+    "text": "The coup d'état of 9 November 1799 (18 Brumaire in the revolutionary calendar) by which Napoleon overthrew the Directory. The Council of the Five Hundred was the lower house that was dispersed at bayonet point. Men who supported the coup were rewarded, this senator among them.",
+    "quote": "favored the 18 Brumaire"
+  },
+  {
+    "term": "senator of the Empire",
+    "kind": "title",
+    "chapter": 2,
+    "text": "Napoleon's Senate was an appointed body of well-paid dignitaries, and a senator might also be given a 'sénatorerie', a country estate with revenues. The office carried prestige and little work, which is why Hugo's senator can be a cheerful epicurean.",
+    "quote": "a senator of the Empire",
+    "seeAlso": [
+      8
+    ]
+  },
+  {
+    "term": "Bienvenu",
+    "kind": "foreign",
+    "chapter": 2,
+    "text": "French for 'welcome'. It was one of the Bishop's baptismal names, and the poor chose it as the one that meant something. Hapgood often translates it, so the same man appears as 'Monseigneur Bienvenu' and 'Monseigneur Welcome'.",
+    "quote": "Monseigneur Bienvenu"
+  },
+  {
+    "term": "marriage bans, dispensations",
+    "kind": "custom",
+    "chapter": 2,
+    "text": "A bishop's 'perquisites' were the fees paid for church services beyond the sacraments themselves: publishing marriage banns, granting dispensations (for instance to marry a cousin or in Lent), private baptisms and blessings. The Bishop charged the rich and gave the proceeds away.",
+    "quote": "the fees for marriage bans, dispensations"
+  },
+  {
+    "term": "canton",
+    "kind": "word",
+    "chapter": 3,
+    "text": "A small administrative district grouping a handful of villages, the level below the arrondissement and the département. When the Bishop scolds 'the cantons where they were harsh to the poor', he means whole clusters of parishes.",
+    "quote": "In the cantons where they were harsh"
+  },
+  {
+    "term": "Briançon, Embrun, Queyras, Devolny",
+    "kind": "place",
+    "chapter": 3,
+    "text": "Mountain districts of the Hautes-Alpes, the high Alps north of Digne. Briançon is Europe's highest fortified town; Embrun was an ancient archbishopric; the Queyras is a remote valley on the Italian border. The Bishop holds them up as models of neighbourly life.",
+    "quote": "the valley of Queyras"
+  },
+  {
+    "term": "stamped paper",
+    "kind": "custom",
+    "chapter": 3,
+    "text": "Legal documents had to be written on paper bearing a government stamp, bought at a price: a tax on every lawsuit, contract and petition. Peasants who 'ruined themselves in stamped paper' were litigants paying for endless proceedings.",
+    "quote": "ruined themselves in stamped paper",
+    "seeAlso": [
+      52
+    ]
+  },
+  {
+    "term": "quill pens in the hat",
+    "kind": "custom",
+    "chapter": 3,
+    "text": "Itinerant schoolmasters hired themselves out at fairs in the Alps, and advertised their qualifications by the feathers in their hatbands: one for reading, two for reading and arithmetic, three for Latin as well. Hugo took the detail from a real Dauphiné custom.",
+    "quote": "the quill pens which they wear in the cord of their hat"
+  },
+  {
+    "term": "Your Grace",
+    "kind": "title",
+    "chapter": 4,
+    "text": "Hapgood's rendering of 'Votre Grandeur', the formal address for a bishop, literally 'Your Greatness'. The Bishop's joke about his greatness not reaching the top shelf depends on that literal sense.",
+    "quote": "call him Your Grace"
+  },
+  {
+    "term": "heir by entail",
+    "kind": "custom",
+    "chapter": 4,
+    "text": "An entail (substitution) fixed the descent of a title or estate in advance through a line of heirs, so that a nephew could know he would one day be a duke. Madame de Lô's 'expectations' are these future inheritances; the Bishop quietly finds them indecent.",
+    "quote": "the heir by entail to the title of the Duke"
+  },
+  {
+    "term": "Saint Augustine",
+    "kind": "reference",
+    "chapter": 4,
+    "text": "Bishop of Hippo (354–430), the most influential of the Latin Church Fathers. The saying the Bishop attributes to him, to put your hopes in the man from whom you will not inherit, is not in Augustine; it is Hugo's own.",
+    "quote": "to be found, I believe, in St. Augustine"
+  },
+  {
+    "term": "galloons",
+    "kind": "word",
+    "chapter": 4,
+    "text": "Narrow woven braid or ribbon used to trim uniforms, liveries and furniture. M. Géborand made his two millions in coarse cloth and galloon, the unglamorous end of the textile trade.",
+    "quote": "serges, and woollen galloons"
+  },
+  {
+    "term": "ultra-royalist and ultra-Voltairian",
+    "kind": "history",
+    "chapter": 4,
+    "text": "The 'Ultras' were the extreme royalist party of the Restoration, more royalist than the king, allied with the Church. A Voltairian was a sceptic who mocked religion in the manner of Voltaire. The two should be opposites, which is Hugo's point about the Marquis de Champtercier.",
+    "quote": "an ultra-royalist and an ultra-Voltairian",
+    "seeAlso": [
+      91
+    ]
+  },
+  {
+    "term": "the tax on doors and windows",
+    "kind": "history",
+    "chapter": 4,
+    "text": "A tax introduced in 1798 and assessed on the number of openings in a dwelling, on the theory that more windows meant more wealth. The poor responded by bricking up windows, which is why the Bishop says the law sells air. It lasted until 1926.",
+    "quote": "the tax on doors and windows",
+    "seeAlso": [
+      101
+    ]
+  },
+  {
+    "term": "Dauphiné, Isère, Var, the two Alpes",
+    "kind": "place",
+    "chapter": 4,
+    "text": "The mountainous south-east of France. Dauphiné is the old province around Grenoble; the Isère, the Var, the Hautes-Alpes and the Basses-Alpes are the départements carved out of it and Provence after 1790. Digne is the chief town of the Basses-Alpes.",
+    "quote": "the Alpes, the Hautes, and the Basses"
+  },
+  {
+    "term": "the dialect of the south",
+    "kind": "foreign",
+    "chapter": 4,
+    "text": "Provençal and the related tongues of Languedoc and Dauphiné, varieties of the langue d'oc that most southern peasants spoke instead of French in 1815. The Bishop's scraps of patois mean roughly 'Well, sir, are you wise?', 'Where will you pass?' and 'Bring a good mutton with a good fat cheese'.",
+    "quote": "the dialect of the south"
+  },
+  {
+    "term": "Counterfeiting was still punishable with death",
+    "kind": "history",
+    "chapter": 4,
+    "text": "Under the Penal Code of 1810, coining false money was a capital crime, as it had been under the old monarchy. The death penalty for it was abolished in 1832, which is why Hugo writes 'still'.",
+    "quote": "Counterfeiting was still punishable with death"
+  },
+  {
+    "term": "the attorney for the crown",
+    "kind": "title",
+    "chapter": 4,
+    "text": "The public prosecutor, in French the procureur du roi, or at the Assizes the avocat général. Hapgood translates the office variously as 'attorney for the crown', 'advocate of the crown', 'district-attorney' and 'attorney-general'; they are all the same prosecuting magistrate. The Bishop's question, where will the prosecutor himself be tried, is the first of Hugo's many attacks on judicial zeal.",
+    "quote": "the attorney for the crown",
+    "seeAlso": [
+      61,
+      63
+    ]
+  },
+  {
+    "term": "Court of Assizes",
+    "kind": "history",
+    "chapter": 4,
+    "text": "The criminal court that tried serious crimes before a jury, sitting periodically in each département's chief town. Lesser offences went to the 'correctional police' courts without a jury. Hugo's trial scenes all take place at the Assizes.",
+    "quote": "At the Court of Assizes",
+    "seeAlso": [
+      54,
+      63
+    ]
+  },
+  {
+    "term": "mountebank",
+    "kind": "word",
+    "chapter": 4,
+    "text": "A fairground performer, juggler or quack who harangued crowds from a platform. The condemned man had also been a 'writer for the public', a scribe who penned letters for the illiterate, so he was half showman, half clerk.",
+    "quote": "a mountebank at fairs"
+  },
+  {
+    "term": "tumbril",
+    "kind": "word",
+    "chapter": 4,
+    "text": "The open cart that carried the condemned to the scaffold, infamous from the Terror. In 1815 the guillotine was still a public spectacle in the town square, which is why the Bishop's presence beside the criminal was so visible.",
+    "quote": "He mounted the tumbril with him"
+  },
+  {
+    "term": "camail",
+    "kind": "word",
+    "chapter": 4,
+    "text": "A short cape covering the shoulders, worn by bishops and canons over the cassock; a bishop's is purple. Wearing it with the pectoral cross meant the Bishop went to the scaffold in full episcopal dress.",
+    "quote": "his purple camail"
+  },
+  {
+    "term": "de Maistre and Beccaria",
+    "kind": "reference",
+    "chapter": 4,
+    "text": "Joseph de Maistre (1753–1821), the Catholic reactionary philosopher, defended the executioner as the cornerstone of society. Cesare Beccaria's 'On Crimes and Punishments' (1764) was the Enlightenment's great argument against torture and the death penalty. Hugo, who campaigned against the guillotine all his life, sets them as the two poles.",
+    "quote": "like de Maistre; others execrate it, like Beccaria",
+    "seeAlso": [
+      44
+    ]
+  },
+  {
+    "term": "vindicte",
+    "kind": "foreign",
+    "chapter": 4,
+    "text": "French legal term for the public vengeance exacted by the law (vindicte publique). Hugo uses the word to insist that the guillotine is not neutral machinery but society's act of revenge.",
+    "quote": "it is called vindicte"
+  },
+  {
+    "term": "sou",
+    "kind": "money",
+    "chapter": 4,
+    "text": "The smallest everyday coin, one twentieth of a franc, five centimes. People still counted in sous for small sums: a loaf cost a few sous, a labourer earned twenty or thirty a day. M. Géborand's single sou shared among six beggars is Hugo's measure of a miser.",
+    "quote": "he gave a sou every Sunday",
+    "seeAlso": [
+      15,
+      20,
+      27,
+      48
+    ]
+  },
+  {
+    "term": "vicars-general",
+    "kind": "title",
+    "chapter": 5,
+    "text": "A bishop's chief deputies, priests who administered the diocese on his behalf. A canon was a member of the cathedral chapter, a comfortable clerical post. Hugo lists them to show how much routine business a bishop had.",
+    "quote": "nearly every day his vicars-general"
+  },
+  {
+    "term": "breviary",
+    "kind": "word",
+    "chapter": 5,
+    "text": "The book of daily prayers (the Divine Office) that every priest was bound to recite. 'His offices and his breviary' are the Bishop's fixed devotional duties, before any time for the poor.",
+    "quote": "his offices and his breviary"
+  },
+  {
+    "term": "trappist",
+    "kind": "reference",
+    "chapter": 5,
+    "text": "A monk of the strictest Cistercian observance, founded at La Trappe, vowed to silence and a diet without meat. The town's joke is that the Bishop eats like a Trappist except when a visiting curé gives Madame Magloire an excuse for fish and game.",
+    "quote": "the cheer of a trappist"
+  },
+  {
+    "term": "Onkelos",
+    "kind": "reference",
+    "chapter": 5,
+    "text": "The author of the Targum, the ancient Aramaic ('Chaldaic') paraphrase of the Hebrew Bible. Flavius Josephus was the first-century Jewish historian. The Bishop comparing their versions of Genesis 1:2 shows him as a scholar as well as a saint.",
+    "quote": "the Chaldaic paraphrase of Onkelos"
+  },
+  {
+    "term": "great-grand-uncle to the writer of this book",
+    "kind": "lore",
+    "chapter": 5,
+    "text": "Hugo is boasting of a (dubious) ancestor, a seventeenth-century bishop of Ptolemaïs named Hugo. The narrator of Les Misérables is openly Victor Hugo himself, who intrudes with family lore, politics and his own travels throughout.",
+    "quote": "great-grand-uncle to the writer of this book"
+  },
+  {
+    "term": "tithes",
+    "kind": "custom",
+    "chapter": 6,
+    "text": "The tenth of produce once owed to the Church, abolished in 1789. The Bishop's joke is that he pays tithes to the hospital, giving half his cows' milk, a reversal of the old flow from poor to clergy.",
+    "quote": "I am paying my tithes"
+  },
+  {
+    "term": "prie-Dieu",
+    "kind": "word",
+    "chapter": 6,
+    "text": "A kneeling desk for prayer: a low step to kneel on with a sloping ledge for a book. The Bishop's are of straw, like all his furniture.",
+    "quote": "two straw prie-Dieu"
+  },
+  {
+    "term": "bergère",
+    "kind": "word",
+    "chapter": 6,
+    "text": "A deep, wide upholstered armchair of the eighteenth century, 'shepherdess' in French. Mademoiselle Baptistine's gilded bergère, hoisted through a window because the stair was too narrow, is the one relic of comfort in the house.",
+    "quote": "to hoist this bergère up"
+  },
+  {
+    "term": "Utrecht velvet",
+    "kind": "word",
+    "chapter": 6,
+    "text": "A stamped mohair velvet, originally from the Dutch town, used for upholstery. A drawing-room set in it with a mahogany sofa was a modest bourgeois dream; Mademoiselle Baptistine saved forty-two francs toward it in five years.",
+    "quote": "yellow Utrecht velvet"
+  },
+  {
+    "term": "order of Cîteaux",
+    "kind": "reference",
+    "chapter": 6,
+    "text": "The Cistercians, the reformed Benedictine order founded at Cîteaux in Burgundy in 1098. An 'abbé' of Grand-Champ held the revenues of a Cistercian abbey without necessarily living as a monk, a common arrangement before the Revolution.",
+    "quote": "order of Cîteaux"
+  },
+  {
+    "term": "wafers",
+    "kind": "word",
+    "chapter": 6,
+    "text": "Small discs of dried paste, moistened to seal letters or stick papers together before gummed envelopes existed. The note on the back of the portrait is fixed with four of them.",
+    "quote": "attached ... with four wafers"
+  },
+  {
+    "term": "Jussieu against Linnaeus",
+    "kind": "reference",
+    "chapter": 6,
+    "text": "The great quarrel of eighteenth-century botany. Linnaeus classified plants by counting their sexual parts; Tournefort and then the Jussieu family grouped them by overall 'natural' affinity. The Bishop, says Hugo, took no side: he loved flowers rather than studying plants.",
+    "quote": "nor with Jussieu against Linnaeus"
+  },
+  {
+    "term": "Nisi Dominus custodierit domum",
+    "kind": "foreign",
+    "chapter": 6,
+    "text": "Latin, from Psalm 127 (126 in the Vulgate): 'Unless the Lord keep the house, they watch in vain who guard it.' The Bishop's whole case for an unlocked door is this verse.",
+    "quote": "Nisi Dominus custodierit domum"
+  },
+  {
+    "term": "colonel of dragoons",
+    "kind": "title",
+    "chapter": 6,
+    "text": "Dragoons were heavy cavalry, and their colonels a byword for dash and swagger. The Bishop sets the priest's quiet bravery beside the soldier's showy kind.",
+    "quote": "a colonel of dragoons"
+  },
+  {
+    "term": "Gaspard Bès",
+    "kind": "history",
+    "chapter": 7,
+    "text": "A real Provençal brigand, Gaspard de Besse (1757–1781), who robbed travellers in the gorges of Ollioules near Toulon and was broken on the wheel at Aix. He became a local Robin Hood figure; Cravatte, his 'lieutenant', is Hugo's invention.",
+    "quote": "the band of Gaspard Bès"
+  },
+  {
+    "term": "gendarmes",
+    "kind": "title",
+    "chapter": 7,
+    "text": "The gendarmerie was the military police force that patrolled the countryside and roads, organised in small brigades under a 'brigadier' (a corporal). They checked travellers' papers and hunted brigands. Town police were a separate, civilian body under the prefect.",
+    "quote": "The gendarmes were set on his track",
+    "seeAlso": [
+      15,
+      23,
+      26
+    ]
+  },
+  {
+    "term": "Te Deum",
+    "kind": "reference",
+    "chapter": 7,
+    "text": "The ancient Latin hymn of thanksgiving, 'We praise thee, O God', sung on great occasions. To 'chant a Te Deum pontifically' is to celebrate it in full bishop's vestments, which the mountain parish does not possess.",
+    "quote": "to chant a Te Deum pontifically",
+    "seeAlso": [
+      10
+    ]
+  },
+  {
+    "term": "cope, mitre, crosier",
+    "kind": "word",
+    "chapter": 7,
+    "text": "The vestments of a bishop: the cope is the long semicircular cloak worn for ceremonies, the mitre the tall pointed headdress, the crosier the shepherd's-crook staff. A chasuble is the poncho-like garment any priest wears to say mass. Cravatte's chest contains the full pontifical set.",
+    "quote": "a cope of cloth of gold, a mitre"
+  },
+  {
+    "term": "presbytery",
+    "kind": "word",
+    "chapter": 7,
+    "text": "The parish priest's house, the French presbytère; Hapgood also uses 'parsonage' and 'the priest's house'. Visiting bishops lodged there.",
+    "quote": "deposited in the presbytery"
+  },
+  {
+    "term": "Epicurus and Pigault-Lebrun",
+    "kind": "reference",
+    "chapter": 8,
+    "text": "Epicurus was the Greek philosopher of tranquil pleasure, a respectable name for a materialist. Pigault-Lebrun (1753–1835) wrote racy, irreligious popular novels. Hugo's jab is that the senator thinks himself a philosopher when he is merely a reader of dirty books.",
+    "quote": "only a product of Pigault-Lebrun",
+    "seeAlso": [
+      38
+    ]
+  },
+  {
+    "term": "two augurs",
+    "kind": "reference",
+    "chapter": 8,
+    "text": "Roman augurs read omens in the flight of birds. Cato is said to have wondered how two augurs could pass each other without laughing, since both knew the business was a fraud. The senator means that he and the Bishop are both in on the trick of religion; the Bishop does not accept the compliment.",
+    "quote": "We are two augurs",
+    "seeAlso": [
+      28
+    ]
+  },
+  {
+    "term": "the Marquis d’Argens, Pyrrhon, Hobbes, and M. Naigeon",
+    "kind": "reference",
+    "chapter": 8,
+    "text": "The senator's library of unbelievers: d'Argens, a freethinking friend of Frederick the Great; Pyrrho, the Greek sceptic; Hobbes, the English materialist; Naigeon, Diderot's atheist editor. He prefers them to Diderot and Voltaire, whom he finds too religious.",
+    "quote": "the Marquis d’Argens, Pyrrhon, Hobbes, and M. Naigeon"
+  },
+  {
+    "term": "Needham’s eels",
+    "kind": "reference",
+    "chapter": 8,
+    "text": "John Needham, an eighteenth-century priest-scientist, claimed to see tiny 'eels' generate spontaneously in flour paste left in vinegar, proof that life needs no creator. Voltaire ridiculed him. The senator takes Needham's side: if paste can make eels, God is superfluous.",
+    "quote": "Needham’s eels prove that God is useless"
+  },
+  {
+    "term": "fiat lux",
+    "kind": "foreign",
+    "chapter": 8,
+    "text": "Latin, 'let there be light', God's first words in Genesis. The senator says a drop of vinegar in paste does the same job.",
+    "quote": "supplies the fiat lux"
+  },
+  {
+    "term": "the veil of Isis",
+    "kind": "reference",
+    "chapter": 8,
+    "text": "The Egyptian goddess Isis was said to have an inscription at Sais: 'No mortal has lifted my veil.' To raise it became a figure for penetrating nature's secrets; the senator counts himself among the initiated who have.",
+    "quote": "raised the veil of Isis"
+  },
+  {
+    "term": "the Moniteur",
+    "kind": "history",
+    "chapter": 8,
+    "text": "Le Moniteur universel, the official government newspaper where laws, appointments and speeches were published. To say something 'in the Moniteur' is to say it publicly and officially; the senator keeps his atheism for private company.",
+    "quote": "in the Moniteur",
+    "seeAlso": [
+      41
+    ]
+  },
+  {
+    "term": "Sardanapalus and Vincent de Paul",
+    "kind": "reference",
+    "chapter": 8,
+    "text": "Sardanapalus, the legendary last king of Assyria, stood for luxury and debauchery; Saint Vincent de Paul (1581–1660) for charity to the poor. The senator's creed is that since death ends everything, it makes no difference which you were.",
+    "quote": "You have been Sardanapalus, you have been Vincent de Paul"
+  },
+  {
+    "term": "Telemachus being knighted by Minerva",
+    "kind": "reference",
+    "chapter": 9,
+    "text": "A scene from Fénelon's 'Télémaque' (1699), the moral novel about Odysseus's son guided by the goddess Minerva, standard reading for well-brought-up girls. Baptistine muddles it with 'Roman ladies', which tells us how little she minds about such things.",
+    "quote": "Telemachus being knighted by Minerva"
+  },
+  {
+    "term": "crowns of six francs",
+    "kind": "money",
+    "chapter": 9,
+    "text": "The écu, the big silver coin of the old monarchy worth six livres, still in circulation and still used as a unit of reckoning: 'a hundred crowns' meant 300 francs, 'a thousand crowns' 3,000. Regilding two tables for two crowns each was a small luxury the household refused.",
+    "quote": "two crowns of six francs each",
+    "seeAlso": [
+      56,
+      102
+    ]
+  },
+  {
+    "term": "generalship of Caen",
+    "kind": "word",
+    "chapter": 9,
+    "text": "Hapgood's literal rendering of 'généralité', a fiscal district of the old monarchy administered by an intendant. Baptistine's genealogy of the Faux family is the kind of pedigree-tracing that still mattered in Restoration drawing-rooms.",
+    "quote": "the generalship of Caen"
+  },
+  {
+    "term": "peer of France",
+    "kind": "title",
+    "chapter": 9,
+    "text": "A member of the highest nobility under the old monarchy, and after 1814 a member of the Chamber of Peers, the upper house of the Restoration parliament, appointed by the king. Peers wore a distinctive costume and sat as a court for political trials.",
+    "quote": "peer of France",
+    "seeAlso": [
+      28
+    ]
+  },
+  {
+    "term": "member of the Convention",
+    "kind": "history",
+    "chapter": 10,
+    "text": "The National Convention was the assembly that governed France from September 1792 to 1795: it proclaimed the Republic, tried and condemned Louis XVI, and presided over the Terror. Its surviving members were pariahs under the Restoration, and those who had voted for the king's death ('regicides') were exiled by a law of 1816. G—— voted against the death and so could stay.",
+    "quote": "a former member of the Convention"
+  },
+  {
+    "term": "“thou” and “citizen”",
+    "kind": "custom",
+    "chapter": 10,
+    "text": "The Revolution abolished 'Monsieur' in favour of 'citoyen' and encouraged everyone to use the familiar 'tu' as a mark of equality. By 1815 these were damning marks of an old Jacobin.",
+    "quote": "people called each other “thou,” and when they said “citizen.”",
+    "seeAlso": [
+      17
+    ]
+  },
+  {
+    "term": "provost’s court",
+    "kind": "history",
+    "chapter": 10,
+    "text": "The cours prévôtales, special courts set up by the Restoration in 1815 to try political and seditious offences summarily, without appeal, during the 'White Terror' against Bonapartists and revolutionaries. Digne's gossips think G—— should have been hauled before one.",
+    "quote": "brought before a provost’s court"
+  },
+  {
+    "term": "Azrael",
+    "kind": "reference",
+    "chapter": 10,
+    "text": "In Islamic tradition, the angel of death who separates the soul from the body. Hugo says even Azrael would have turned back from so vigorous a dying man.",
+    "quote": "Azrael, the Mohammedan angel of the sepulchre"
+  },
+  {
+    "term": "the king who was flesh above and marble below",
+    "kind": "reference",
+    "chapter": 10,
+    "text": "From the Arabian Nights: the young king of the Black Isles, whose sorceress wife turned the lower half of his body to stone while he lived on from the waist up. G——'s legs are dead while his head blazes.",
+    "quote": "flesh above and marble below"
+  },
+  {
+    "term": "Louis XVII",
+    "kind": "history",
+    "chapter": 10,
+    "text": "The son of Louis XVI and Marie Antoinette, proclaimed king by royalists after his father's execution. He was kept in the Temple prison in Paris, neglected and abused, and died there in 1795 aged ten. For royalists he was the martyred child; G—— sets another child beside him.",
+    "quote": "Louis XVII?"
+  },
+  {
+    "term": "the brother of Cartouche",
+    "kind": "history",
+    "chapter": 10,
+    "text": "Louis-Dominique Cartouche was the most famous bandit of Paris, broken on the wheel in 1721. His fifteen-year-old brother was sentenced to be hung by the armpits for two hours in the Place de Grève, the public square of executions, and died of it. G——'s point: an innocent child of the people, as pitiable as a royal one.",
+    "quote": "the brother of Cartouche"
+  },
+  {
+    "term": "Sinite parvulos",
+    "kind": "foreign",
+    "chapter": 10,
+    "text": "Latin, 'Suffer the little children' (Mark 10:14), Christ's words when the disciples kept children away. G—— quotes it to say Christ made no distinction between a dauphin and a beggar's child.",
+    "quote": "‘Sinite parvulos,’"
+  },
+  {
+    "term": "Bossuet chanting the Te Deum over the dragonnades",
+    "kind": "history",
+    "chapter": 10,
+    "text": "The dragonnades were Louis XIV's method of forcing Protestants to convert: billeting brutal dragoons in their homes. Bossuet, the great court preacher and Bishop of Meaux, celebrated the Revocation of the Edict of Nantes (1685) that followed. G—— answers Marat's guillotine with the monarchy's own atrocities, and wounds the Bishop by touching his hero.",
+    "quote": "the Te Deum over the dragonnades"
+  },
+  {
+    "term": "Carrier, Fouquier-Tinville, Maillard",
+    "kind": "history",
+    "chapter": 10,
+    "text": "Men of the Terror: Carrier drowned prisoners in the Loire at Nantes; Fouquier-Tinville was the Revolutionary Tribunal's prosecutor; Maillard led the September Massacres; 'Père Duchesne' was Hébert's foul-mouthed paper; Jourdan 'Head-cutter' massacred at Avignon. G—— pairs each with a persecutor under the kings: Montrevel and Bâville against the Protestants, Saulx-Tavannes at Saint Bartholomew, Letellier and Louvois behind the dragonnades.",
+    "quote": "Carrier is a bandit; but what name do you give to Montrevel?"
+  },
+  {
+    "term": "Huguenot",
+    "kind": "history",
+    "chapter": 10,
+    "text": "A French Protestant. After Louis XIV revoked the Edict of Nantes in 1685, Protestant worship was outlawed, ministers banished and those who would not abjure imprisoned, sent to the galleys or tortured; hundreds of thousands fled abroad.",
+    "quote": "that poor Huguenot woman, who, in 1685",
+    "seeAlso": [
+      72
+    ]
+  },
+  {
+    "term": "Vermis sum",
+    "kind": "foreign",
+    "chapter": 10,
+    "text": "Latin, 'I am a worm', from Psalm 22:6. The Bishop's answer when challenged to say who he is; G—— retorts that a worm does not travel by carriage.",
+    "quote": "Vermis sum—I am a worm"
+  },
+  {
+    "term": "the Restoration",
+    "kind": "history",
+    "chapter": 10,
+    "text": "The return of the Bourbon monarchy after Napoleon's fall: Louis XVIII, brother of the guillotined Louis XVI, entered Paris in 1814, fled during the Hundred Days, and returned after Waterloo in 1815. The Restoration lasted until 1830. Most of this novel is set in it, and Hugo, writing in 1862, judges it harshly; G—— calls 1814 'that fatal return of the past'.",
+    "quote": "the past, which is called 1814",
+    "seeAlso": [
+      88
+    ]
+  },
+  {
+    "term": "the red cap",
+    "kind": "history",
+    "chapter": 10,
+    "text": "The bonnet rouge or Phrygian cap, the emblem of the Revolution worn by sans-culottes. The dowager's joke is that the Bishop is turning Jacobin; his reply plays on the red hat of a cardinal, which the same people would revere.",
+    "quote": "receive the red cap"
+  },
+  {
+    "term": "G——, D——, the Marquise de R——",
+    "kind": "lore",
+    "chapter": 10,
+    "text": "Hugo often prints only an initial and a dash for a name or town, in the old novelist's manner of pretending to protect real people. Digne becomes 'D——' in some passages; the conventionist and the charitable marquise are never named. Treat the dashes as part of the book's texture, not as puzzles.",
+    "quote": "His name was G⸺",
+    "seeAlso": [
+      15
+    ]
+  },
+  {
+    "term": "baron of the Empire",
+    "kind": "title",
+    "chapter": 11,
+    "text": "Napoleon created a new nobility in 1808, with titles of prince, duke, count, baron and knight bestowed for service, and gave many bishops the rank of baron. It sat oddly on a man who gave away his carriage money.",
+    "quote": "a baron of the Empire"
+  },
+  {
+    "term": "the arrest of the Pope",
+    "kind": "history",
+    "chapter": 11,
+    "text": "Pius VII excommunicated Napoleon in 1809 after the French annexed Rome; on the night of 5–6 July French troops seized him and carried him off to Savona and later Fontainebleau. Napoleon summoned a national council of bishops to Paris in 1811 to get round the Pope's refusal to confirm his bishops. It defied him, and he dissolved it.",
+    "quote": "The arrest of the Pope took place",
+    "seeAlso": [
+      88
+    ]
+  },
+  {
+    "term": "ultramontane rather than a gallican",
+    "kind": "history",
+    "chapter": 11,
+    "text": "The two parties in the French Church. Gallicans upheld the traditional independence of the French Church and the king's authority over it; ultramontanes looked 'beyond the mountains' to the Pope's supreme authority. Under Napoleon, gallicanism meant siding with the Emperor against the captive Pope.",
+    "quote": "an ultramontane rather than a gallican"
+  },
+  {
+    "term": "the Hundred Days",
+    "kind": "history",
+    "chapter": 11,
+    "text": "Napoleon's last reign: he escaped from Elba, landed near Cannes on 1 March 1815, marched to Paris as Louis XVIII fled, and ruled until Waterloo in June. Everyone in France had to choose sides, and the Bishop chose the king.",
+    "quote": "during the Hundred Days",
+    "seeAlso": [
+      15,
+      32
+    ]
+  },
+  {
+    "term": "the disembarkation at Cannes",
+    "kind": "history",
+    "chapter": 11,
+    "text": "Napoleon landed from Elba at Golfe-Juan near Cannes on 1 March 1815 with about a thousand men and marched north through the Alps, by Digne and Grenoble, gathering troops sent to stop him. The Bishop's brother, a general in Provence, pursued him very half-heartedly.",
+    "quote": "the disembarkation at Cannes",
+    "seeAlso": [
+      15,
+      65
+    ]
+  },
+  {
+    "term": "Waterloo",
+    "kind": "history",
+    "chapter": 11,
+    "text": "The battle of 18 June 1815 near Brussels in which Wellington and Blücher finally defeated Napoleon, ending the Hundred Days and the Empire. Here it is only glimpsed on the horizon of 1815, the year the Bishop's story reaches.",
+    "quote": "when Waterloo could be dimly discerned"
+  },
+  {
+    "term": "Legion of Honor",
+    "kind": "history",
+    "chapter": 11,
+    "text": "The order Napoleon founded in 1802 to reward military and civil merit, its cross worn on a red ribbon. Under the Restoration the Emperor's profile on the medal was replaced by Henri IV's, and the imperial eagle by Bourbon fleurs-de-lys, which the old soldier calls 'three frogs'. A 'chevalier' is the lowest grade.",
+    "quote": "a member of the Legion of Honor at Austerlitz",
+    "seeAlso": [
+      41,
+      89,
+      98
+    ]
+  },
+  {
+    "term": "Bonapartist",
+    "kind": "history",
+    "chapter": 11,
+    "text": "A supporter of Napoleon and his dynasty after 1815. Bonapartists were watched by the Restoration police, prosecuted for 'seditious speeches' and dismissed from posts; the cult of the exiled Emperor among old soldiers and the common people runs through the novel.",
+    "quote": "as much of a Bonapartist as the eagle",
+    "seeAlso": [
+      70
+    ]
+  },
+  {
+    "term": "Louis XVIII",
+    "kind": "history",
+    "chapter": 11,
+    "text": "The Bourbon king restored in 1814, younger brother of Louis XVI. He was elderly, enormously fat and crippled with gout, had spent his exile partly in England (hence the 'English gaiters'), and wore the old-fashioned powdered queue or pigtail. Bonapartists despised him; he reigned until 1824.",
+    "quote": "to scoff aloud at Louis XVIII",
+    "seeAlso": [
+      28,
+      98
+    ]
+  },
+  {
+    "term": "beadle",
+    "kind": "word",
+    "chapter": 11,
+    "text": "A lay church officer who kept order during services and led processions, usually a dignified ex-soldier in a braided coat with a staff. The Bishop finds the dismissed Bonapartist porter this harmless post.",
+    "quote": "appointed him beadle in the cathedral"
+  },
+  {
+    "term": "abbé",
+    "kind": "title",
+    "chapter": 12,
+    "text": "Originally an abbot, but by the eighteenth century a courtesy title for any young secular priest or cleric. 'Little abbés' are the ambitious junior clergy who attach themselves to a rising bishop; the Bishop of Digne has none.",
+    "quote": "a full squadron of little abbés"
+  },
+  {
+    "term": "Saint François de Sales",
+    "kind": "reference",
+    "chapter": 12,
+    "text": "Francis de Sales (1567–1622), Bishop of Geneva and author of the 'Introduction to the Devout Life', famous for gentleness and wit. 'Prêtres blancs-becs', callow priests, literally 'white-beaks', is his phrase for fledgling clergy.",
+    "quote": "that charming Saint François de Sales"
+  },
+  {
+    "term": "prebends, archidiaconates, canonships",
+    "kind": "word",
+    "chapter": 12,
+    "text": "The paid positions of the Church: a prebend was the income attached to a cathedral stall, an archdeacon a bishop's regional deputy, a canon a member of the chapter. These were the 'nice little promotions' a well-connected bishop could scatter among favourites.",
+    "quote": "prebends, archidiaconates, chaplaincies"
+  },
+  {
+    "term": "from a Grace to an Eminence",
+    "kind": "title",
+    "chapter": 12,
+    "text": "The ladder of Roman ecclesiastical titles. A bishop is 'Your Grace' (Grandeur), a cardinal 'Your Eminence', the Pope 'Your Holiness'. The pallium is the woollen band the Pope gives archbishops; a conclavist is a cardinal's attendant at a papal election; an auditor and a papal chamberlain are posts at the Roman court.",
+    "quote": "from a Grace to an Eminence is only a step"
+  },
+  {
+    "term": "Perrette’s pot of milk",
+    "kind": "reference",
+    "chapter": 12,
+    "text": "From La Fontaine's fable 'The Milkmaid and the Pot of Milk': Perrette carries milk to market dreaming of the eggs, chickens, pig and cow it will buy, skips, and spills it all. Any daydream of future riches is 'Perrette's pot'.",
+    "quote": "Perrette’s pot of milk"
+  },
+  {
+    "term": "Menaechmus",
+    "kind": "reference",
+    "chapter": 12,
+    "text": "The identical twins of Plautus's comedy 'Menaechmi', the source of Shakespeare's 'Comedy of Errors'. Success is talent's twin, Hugo says: so alike that history mistakes one for the other.",
+    "quote": "that Menaechmus of talent"
+  },
+  {
+    "term": "Juvenal and Tacitus",
+    "kind": "reference",
+    "chapter": 12,
+    "text": "The Roman satirist and the Roman historian, both merciless about the corruption and sycophancy of imperial Rome. Hugo claims them as the only writers who refuse to flatter success.",
+    "quote": "Juvenal and Tacitus alone grumble at it"
+  },
+  {
+    "term": "the army of the Sambre-and-Meuse",
+    "kind": "history",
+    "chapter": 12,
+    "text": "One of the Republic's armies of the 1790s, fighting on the Belgian and Rhine frontier. Hugo's apothecary who got rich selling cardboard boot-soles to it stands for every war profiteer; the contractors who starved the revolutionary armies were a national scandal.",
+    "quote": "the army of the Sambre-and-Meuse"
+  },
+  {
+    "term": "Credo in Patrem",
+    "kind": "foreign",
+    "chapter": 13,
+    "text": "Latin, 'I believe in the Father', the opening of the Creed. Hugo offers it as the sum of what can be known of the Bishop's orthodoxy.",
+    "quote": "“Credo in Patrem,” he often exclaimed"
+  },
+  {
+    "term": "quia multum amavit",
+    "kind": "foreign",
+    "chapter": 13,
+    "text": "Latin, 'because she loved much', Christ's words forgiving the sinful woman in Luke 7:47. Hugo applies it to the Bishop: his 'excess of love' is what 'serious men' hold against him.",
+    "quote": "quia multum amavit"
+  },
+  {
+    "term": "“Who knoweth whither the soul of the animal goeth?”",
+    "kind": "reference",
+    "chapter": 13,
+    "text": "Ecclesiastes 3:21, which doubts whether a beast's spirit goes down to the earth and man's upward. Hugo cites it for the Bishop's tenderness to spiders and ants, a sentiment he says is rare in priests.",
+    "quote": "Who knoweth whither the soul of the animal goeth?"
+  },
+  {
+    "term": "Gregory XVI",
+    "kind": "history",
+    "chapter": 13,
+    "text": "Pope from 1831 to 1846, a rigid reactionary who condemned liberalism and railways alike. Hugo's aside that he 'held himself erect' but was 'a bad bishop' is the exiled republican of 1862 settling a score.",
+    "quote": "Gregory XVI, at the age of eighty"
+  },
+  {
+    "term": "pantheistical",
+    "kind": "word",
+    "chapter": 14,
+    "text": "Pantheism identifies God with nature as a whole, a charge Catholic critics flung at Romantic writers, Hugo among them. He heads it off: the Bishop's night meditations under the stars are not a philosophy but a heart.",
+    "quote": "a certain “pantheistical” physiognomy"
+  },
+  {
+    "term": "Swedenborg and Pascal",
+    "kind": "reference",
+    "chapter": 14,
+    "text": "Emanuel Swedenborg, the Swedish scientist turned visionary who described conversations with angels; Blaise Pascal, the mathematician whose religious terror of the infinite spaces haunted his later years. Hugo names them as great minds whom contemplation of the absolute drove toward madness.",
+    "quote": "like Swedenborg and Pascal"
+  },
+  {
+    "term": "Elijah’s mantle",
+    "kind": "reference",
+    "chapter": 14,
+    "text": "The prophet Elijah's cloak, with which he parted the Jordan and which fell to Elisha when he was taken up to heaven (2 Kings 2). A chasuble with its folds would be a prophet's garment; the Bishop, Hugo says, had nothing of the prophet.",
+    "quote": "the folds of Elijah’s mantle"
+  },
+  {
+    "term": "Lucretius, Manou, Saint Paul, Dante",
+    "kind": "reference",
+    "chapter": 14,
+    "text": "Four minds who stared into the abyss of being: the Roman poet of atoms and death, Manu the legendary Hindu lawgiver, the apostle, and the poet of Hell. Hugo sets them as the 'archangels of the human mind' whose questions the Bishop declined to ask.",
+    "quote": "Lucretius, Manou, Saint Paul, Dante"
+  },
+  {
+    "term": "boulevard Gassendi",
+    "kind": "place",
+    "chapter": 15,
+    "text": "Digne's tree-lined promenade, named for the philosopher Pierre Gassendi (1592–1655), a native of the district who was Descartes's great opponent. Hugo visited Digne and uses its real streets, fountains and inns.",
+    "quote": "the boulevard Gassendi"
+  },
+  {
+    "term": "the proclamation of the Gulf Juan",
+    "kind": "history",
+    "chapter": 15,
+    "text": "The manifesto Napoleon issued on landing from Elba on 1 March 1815, promising to reclaim his throne. General Drouot read it to the people of Digne on 4 March as the Emperor passed through; a Digne printer first printed the proclamations dictated on Elba. Jean Valjean enters the town by the same street seven months later.",
+    "quote": "the proclamation of the Gulf Juan"
+  },
+  {
+    "term": "the Three Dauphins",
+    "kind": "history",
+    "chapter": 15,
+    "text": "The Grenoble inn where Napoleon lodged on 7 March 1815 rather than at the prefecture, saying he was going to a brave man's house. The Guides were his personal escort cavalry; General Bertrand, his Grand Marshal, followed him to Elba and Saint Helena. The Digne innkeeper Labarre borrows glory from his Grenoble cousin.",
+    "quote": "the inn of the Three Dauphins in Grenoble"
+  },
+  {
+    "term": "leagues",
+    "kind": "word",
+    "chapter": 15,
+    "text": "The French league (lieue) was about four kilometres, two and a half miles. Twelve leagues is nearly fifty kilometres, a brutal day's walk.",
+    "quote": "I have travelled twelve leagues",
+    "seeAlso": [
+      56
+    ]
+  },
+  {
+    "term": "Tso-maraude",
+    "kind": "foreign",
+    "chapter": 15,
+    "text": "Provençal patois, roughly 'it's the prowler' (ço es lo maraud): the word that has gone round Digne for the stranger. It shows how fast the innkeeper's note to the town hall has travelled.",
+    "quote": "“Tso-maraude.”"
+  },
+  {
+    "term": "la rose couverte",
+    "kind": "foreign",
+    "chapter": 15,
+    "text": "'The covered rose', a term from French stick-fencing (bâton): a whirling guard that keeps the staff moving around the body. Jean Valjean knows it, and uses it to back out of a dog's kennel.",
+    "quote": "la rose couverte"
+  },
+  {
+    "term": "the wars of religion",
+    "kind": "history",
+    "chapter": 15,
+    "text": "The civil wars between Catholics and Protestants that tore France apart from 1562 to 1598. Digne, in a region with many Protestants, was besieged more than once, and in 1815 still had its sixteenth-century walls and towers.",
+    "quote": "sieges during the wars of religion"
+  },
+  {
+    "term": "Jeannette cross",
+    "kind": "word",
+    "chapter": 16,
+    "text": "A small gold cross hung on a black velvet ribbon round the neck, the traditional ornament of French peasant and servant women. It is Madame Magloire's one piece of jewellery.",
+    "quote": "a gold Jeannette cross on a velvet ribbon"
+  },
+  {
+    "term": "fichu and stomacher",
+    "kind": "word",
+    "chapter": 16,
+    "text": "A fichu is a triangular kerchief worn over the shoulders and tucked into the bodice; a stomacher is the decorative panel covering the front of the bodice. Madame Magloire dresses like a Marseilles working woman; Mademoiselle Baptistine like a lady of 1806, in a high-waisted Empire gown worn for ten years.",
+    "quote": "a very white fichu"
+  },
+  {
+    "term": "the “baby wig”",
+    "kind": "word",
+    "chapter": 16,
+    "text": "A small frizzed wig (perruque à l'enfant) worn by elderly ladies to cover grey hair, a fashion of the late eighteenth century. Baptistine's wig and 1806 gown mark her as gently out of date.",
+    "quote": "known as the “baby wig.”"
+  },
+  {
+    "term": "a Bohemian",
+    "kind": "word",
+    "chapter": 16,
+    "text": "A gypsy, and by extension any rootless vagrant. Madame Magloire's gossip turns a tired traveller into 'a Bohemian, a barefooted vagabond', the standard picture of a dangerous outsider.",
+    "quote": "a Bohemian, a barefooted vagabond"
+  },
+  {
+    "term": "the galleys",
+    "kind": "history",
+    "chapter": 17,
+    "text": "The bagne, the prison for men sentenced to hard labour. The name survived from the oared galleys of Louis XIV, long gone; by 1815 'galley-slaves' worked in chains in the naval dockyards of Toulon, Brest and Rochefort. Sentences were counted in years of the galleys or 'for life', and the word carried a lifelong stain.",
+    "quote": "a convict from the galleys",
+    "seeAlso": [
+      20,
+      21,
+      92
+    ]
+  },
+  {
+    "term": "yellow passport",
+    "kind": "history",
+    "chapter": 17,
+    "text": "A liberated convict received a passport printed on yellow paper, recording his crime and sentence and marking him as under police surveillance. He had to show it in every town and follow a prescribed route to an assigned residence. It made honest work and lodging almost impossible, which is Hugo's point.",
+    "quote": "my yellow passport",
+    "seeAlso": [
+      23,
+      91
+    ]
+  },
+  {
+    "term": "Pontarlier",
+    "kind": "place",
+    "chapter": 17,
+    "text": "A town in the Jura mountains near the Swiss border, in Franche-Comté. It is the place of residence assigned to Jean Valjean on his passport, the far end of a forced march across France.",
+    "quote": "on my way to Pontarlier",
+    "seeAlso": [
+      18
+    ]
+  },
+  {
+    "term": "the Bishop of Majore",
+    "kind": "word",
+    "chapter": 17,
+    "text": "Hapgood's rendering of 'la Major', the old cathedral of Marseilles. Bishops sometimes said mass for the convicts in the Toulon yard, with the men ranged in lines under loaded cannon: Jean Valjean's only idea of what a bishop is.",
+    "quote": "the Bishop of Majore at Marseilles"
+  },
+  {
+    "term": "the red coat, the ball on the ankle",
+    "kind": "lore",
+    "chapter": 17,
+    "text": "Convict dress and irons: a red woollen jacket or smock, a numbered cap, and a chain riveted to an iron ring on the ankle, often ending in a cannonball or linking two men together. The 'double chain' was a punishment, the 'cell' solitary confinement. Jean Valjean's catalogue is the galleys in a sentence.",
+    "quote": "the red coat, the ball on the ankle",
+    "seeAlso": [
+      57,
+      64
+    ]
+  },
+  {
+    "term": "the shipwrecked of the Medusa",
+    "kind": "history",
+    "chapter": 17,
+    "text": "The frigate Méduse ran aground off Africa in July 1816; 150 people were set adrift on a raft and only fifteen survived after thirteen days of thirst, murder and cannibalism. Géricault's huge painting made it the scandal of the Restoration. 'A glass of water to one of the shipwrecked' is Hugo's image of what 'Monsieur' means to a convict.",
+    "quote": "the shipwrecked of the Medusa",
+    "seeAlso": [
+      28
+    ]
+  },
+  {
+    "term": "Mauves wine",
+    "kind": "word",
+    "chapter": 17,
+    "text": "Wine from Mauves on the Rhône, in the Saint-Joseph vineyards, a good local red. The Bishop keeps a bottle for guests and never drinks it himself, because wine is dear.",
+    "quote": "his old Mauves wine"
+  },
+  {
+    "term": "“thou”",
+    "kind": "custom",
+    "chapter": 17,
+    "text": "French distinguishes the familiar 'tu' from the respectful 'vous'. Convicts, servants and beggars were addressed as 'tu' by their superiors as a matter of course, so when the Bishop says 'Monsieur' and 'vous' to Jean Valjean it is almost unbearable to him. Hapgood marks the contemptuous form with 'thou'.",
+    "quote": "You do not address me as thou?",
+    "seeAlso": [
+      26,
+      69
+    ]
+  },
+  {
+    "term": "more joy in heaven",
+    "kind": "reference",
+    "chapter": 17,
+    "text": "The Bishop paraphrases Luke 15:7, from the parable of the lost sheep: more rejoicing over one sinner who repents than over ninety-nine just men. It is the only sermon he allows himself.",
+    "quote": "There will be more joy in heaven"
+  },
+  {
+    "term": "Franche-Comté",
+    "kind": "place",
+    "chapter": 18,
+    "text": "The old province on the Swiss border around Besançon and Pontarlier, mountainous, forested, with iron foundries, watchmaking and dairies. The Bishop took refuge there during the Revolution and worked with his hands, which is why he can describe its industries to a man who needs a trade.",
+    "quote": "I took refuge in Franche-Comté"
+  },
+  {
+    "term": "fruitières",
+    "kind": "foreign",
+    "chapter": 18,
+    "text": "The cooperative cheese-dairies of the Jura, where peasants pooled their cows' milk to make the great wheels of Comté (Gruyère) cheese. The grurin is the hired cheesemaker who records each member's milk on a tally stick. The Bishop dwells on the trade as a quiet hint of an honest living.",
+    "quote": "which they call fruitières"
+  },
+  {
+    "term": "the old regime",
+    "kind": "history",
+    "chapter": 18,
+    "text": "The ancien régime: France before 1789, with its king, nobility, provinces and venal offices. A 'captain of the gates' was one of its small military sinecures. Baptistine's relative held one; the Revolution swept such things away along with the family's fortune.",
+    "quote": "captain of the gates at Pontarlier under the old regime"
+  },
+  {
+    "term": "snuffing out his candle with his nostrils",
+    "kind": "custom",
+    "chapter": 19,
+    "text": "Convicts had no snuffers and learned to put out a candle by blowing sharply down through the nose. Hugo gives the detail as a reflex the galleys have left in Jean Valjean's body, along with sleeping in his clothes.",
+    "quote": "Snuffing out his candle with his nostrils after the manner of convicts"
+  },
+  {
+    "term": "Brie and Faverolles",
+    "kind": "place",
+    "chapter": 20,
+    "text": "Brie is the flat farming country east of Paris, known for its cheese. Faverolles, in the Aisne on its edge, is the village where Jean Valjean was a tree-pruner (élagueur), a seasonal labourer who trimmed orchards and roadside trees.",
+    "quote": "a tree-pruner at Faverolles",
+    "seeAlso": [
+      54
+    ]
+  },
+  {
+    "term": "milk fever",
+    "kind": "word",
+    "chapter": 20,
+    "text": "Puerperal fever, the often fatal infection that killed many women after childbirth, blamed at the time on the onset of the milk. Jean Valjean's mother died of it for want of care.",
+    "quote": "died of a milk fever"
+  },
+  {
+    "term": "eighteen sous a day",
+    "kind": "money",
+    "chapter": 20,
+    "text": "A pruner's wage, less than a franc, in a season when the work existed at all. A four-pound loaf cost around twelve to fifteen sous in a bad year, so feeding eight people on this was impossible, which is the arithmetic behind the theft.",
+    "quote": "he earned eighteen sous a day"
+  },
+  {
+    "term": "the terms of the Code",
+    "kind": "history",
+    "chapter": 20,
+    "text": "The Penal Code of 1791 punished theft committed at night, by breaking into an inhabited house, with years in irons regardless of the value stolen. Hugo's charge is that the law was 'explicit' and therefore blind: a loaf and a broken pane carried five years.",
+    "quote": "The terms of the Code were explicit"
+  },
+  {
+    "term": "Floréal, year IV",
+    "kind": "history",
+    "chapter": 20,
+    "text": "The revolutionary calendar renamed the months and counted years from the Republic's founding in 1792; 2 Floréal, year IV is 21 April 1796. 'Buona-Parte' is the Italian spelling of the young general's name, which the Directory's message still used. Hugo sets Napoleon's first victory at Montenotte against Jean Valjean's chaining on the same day.",
+    "quote": "the 2nd of Floréal, year IV"
+  },
+  {
+    "term": "Bicêtre",
+    "kind": "place",
+    "chapter": 20,
+    "text": "A vast old hospital-prison south of Paris where convicts from all over northern France were gathered twice a year into the 'chain', riveted together by the neck in the courtyard, then marched or carted to the galleys. Jean Valjean's twenty-seven-day journey to Toulon began there.",
+    "quote": "put in chains at Bicêtre"
+  },
+  {
+    "term": "number 24,601",
+    "kind": "lore",
+    "chapter": 20,
+    "text": "Each convict was known by his register number and nothing else. Jean Valjean's number at Toulon is 24,601. The number is Hugo's way of saying the man himself has been erased.",
+    "quote": "he was number 24,601",
+    "seeAlso": [
+      90
+    ]
+  },
+  {
+    "term": "the maritime tribunal",
+    "kind": "title",
+    "chapter": 20,
+    "text": "Because the galleys belonged to the Navy, offences inside them, escapes above all, were judged by a special naval court that could add years to a sentence without a jury. Four escape attempts turned Jean Valjean's five years into nineteen.",
+    "quote": "The maritime tribunal condemned him"
+  },
+  {
+    "term": "Claude Gaux",
+    "kind": "reference",
+    "chapter": 20,
+    "text": "Hugo means Claude Gueux, the hero of his own 1834 story of that name: a real Troyes workman who stole bread to feed his family, killed a prison warder and was guillotined. Hugo cites his earlier book as evidence that hunger is where the law's disasters begin.",
+    "quote": "Claude Gaux had stolen a loaf"
+  },
+  {
+    "term": "the Ignorantin friars",
+    "kind": "reference",
+    "chapter": 21,
+    "text": "The Brothers of the Christian Schools, the teaching order founded by Jean-Baptiste de La Salle, nicknamed 'Ignorantins' because they taught the poor and took no holy orders. They ran the school in the Toulon galleys where Jean Valjean learned to read at forty.",
+    "quote": "kept by the Ignorantin friars"
+  },
+  {
+    "term": "Dante at the portals of hell",
+    "kind": "reference",
+    "chapter": 21,
+    "text": "The inscription over the gate of Hell in Dante's Inferno ends 'Abandon all hope, you who enter.' Hugo's physiologist would do the same to Jean Valjean's soul: erase the word hope.",
+    "quote": "like Dante at the portals of hell",
+    "seeAlso": [
+      57
+    ]
+  },
+  {
+    "term": "Jean the Jackscrew",
+    "kind": "word",
+    "chapter": 21,
+    "text": "A jackscrew (cric) is the screw-jack used to lift carts and heavy loads. Hugo adds that the old French word for it was 'orgueil', pride, whence the Rue Montorgueil in Paris. Jean Valjean's nickname in the galleys is for a man who can lift what a machine lifts.",
+    "quote": "nicknamed him Jean the Jackscrew",
+    "seeAlso": [
+      45
+    ]
+  },
+  {
+    "term": "the caryatids of Puget",
+    "kind": "reference",
+    "chapter": 21,
+    "text": "Pierre Puget (1620–1694), the great Baroque sculptor of Provence, carved the two straining stone atlantes that hold up the balcony of Toulon's town hall, a landmark of the port. Jean Valjean is said to have shouldered one when it came loose.",
+    "quote": "those admirable caryatids of Puget"
+  },
+  {
+    "term": "galley-sergeant",
+    "kind": "title",
+    "chapter": 21,
+    "text": "The garde-chiourme, the warder of a gang of convicts, armed with a cudgel and a whip. In Jean Valjean's vision of society he is the nearest tier of the pyramid that crushes him, with the gendarme and the archbishop above and the Emperor at the top.",
+    "quote": "the galley-sergeant and his cudgel"
+  },
+  {
+    "term": "Grasse",
+    "kind": "place",
+    "chapter": 23,
+    "text": "The perfume town in the hills above Cannes, surrounded by fields of orange trees, roses and jasmine distilled for scent. Jean Valjean's first day's work as a free man, unloading bales at an orange-flower distillery, earns him half the agreed wage.",
+    "quote": "an orange-flower distillery"
+  },
+  {
+    "term": "a miner’s candlestick",
+    "kind": "word",
+    "chapter": 24,
+    "text": "A heavy iron spike with a socket for a candle, driven into rock to light a quarry face. Convicts quarried stone in the hills round Toulon and could get hold of such tools. In the dark it is simply a short pointed iron bar.",
+    "quote": "a miner’s candlestick"
+  },
+  {
+    "term": "the statue of salt",
+    "kind": "reference",
+    "chapter": 25,
+    "text": "Lot's wife, turned to a pillar of salt when she looked back at Sodom (Genesis 19:26). Jean Valjean freezes like her at the shriek of the Bishop's door hinge.",
+    "quote": "petrified like the statue of salt"
+  },
+  {
+    "term": "the pastoral ring",
+    "kind": "word",
+    "chapter": 25,
+    "text": "The ring a bishop wears as a sign of his office, kissed by the faithful. It is on the hand that hangs over the edge of the bed as the Bishop sleeps.",
+    "quote": "adorned with the pastoral ring"
+  },
+  {
+    "term": "brigadier of gendarmes",
+    "kind": "title",
+    "chapter": 26,
+    "text": "The non-commissioned officer commanding a small gendarmerie post, equivalent to a corporal, not a general as in English. He salutes the Bishop as a superior and takes his word without question.",
+    "quote": "A brigadier of gendarmes"
+  },
+  {
+    "term": "Savoyard",
+    "kind": "word",
+    "chapter": 27,
+    "text": "Boys from the poor Alpine duchy of Savoy, then outside France, came down each winter to earn pennies as chimney-sweeps, street musicians and showmen, with a hurdy-gurdy and a trained marmot in a box. They were the type of the homeless child, and Hugo's Little Gervais is one.",
+    "quote": "a little Savoyard",
+    "seeAlso": [
+      43,
+      90
+    ]
+  },
+  {
+    "term": "forty-sou piece",
+    "kind": "money",
+    "chapter": 27,
+    "text": "A silver two-franc coin, which the child calls his 'white piece'. It is a day's wages for a labourer and the boy's whole fortune.",
+    "quote": "one forty-sou piece",
+    "seeAlso": [
+      57,
+      70,
+      100
+    ]
+  },
+  {
+    "term": "five-franc pieces",
+    "kind": "money",
+    "chapter": 27,
+    "text": "The big silver coin of the period, also called an écu or 'a hundred sous'; working people nicknamed it a 'hind wheel' for its size. Jean Valjean presses two, then two more, on the priest, a sum a peasant family might live on for a fortnight.",
+    "quote": "two five-franc pieces",
+    "seeAlso": [
+      100,
+      101
+    ]
+  }
+]

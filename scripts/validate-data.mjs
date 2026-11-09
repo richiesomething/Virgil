@@ -16,6 +16,12 @@ for (const book of readdirSync(root, { withFileTypes: true }).filter((d) => d.is
   }
   const meta = JSON.parse(readFileSync(join(root, book, 'book.json'), 'utf8'))
   const data = JSON.parse(readFileSync(join(root, book, 'data.json'), 'utf8'))
+  // Chapter details live in their own file (loaded lazily by the app); put them back for the checks.
+  const detailsFile = join(root, book, 'details.json')
+  if (existsSync(detailsFile)) {
+    const details = JSON.parse(readFileSync(detailsFile, 'utf8'))
+    data.chapters.forEach((c, i) => (c.details = details[i]))
+  }
   // Each part of the book by its old file name, so the checks below read naturally.
   const parts = {
     'chapters.json': data.chapters,

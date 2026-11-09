@@ -5,6 +5,7 @@ import type { BookData, BookMeta } from '../types'
 
 const metas = import.meta.glob<BookMeta>('./*/book.json', { eager: true, import: 'default' })
 const datas = import.meta.glob<Omit<BookData, 'meta'>>('./*/data.json', { import: 'default' })
+const detailFiles = import.meta.glob<string[][]>('./*/details.json', { import: 'default' })
 
 /** Metadata for every book in the library (cheap; loaded up front). */
 export const library: BookMeta[] = Object.values(metas).sort((a, b) => (a.order ?? 99) - (b.order ?? 99) || a.title.localeCompare(b.title))
@@ -27,4 +28,21 @@ export function loadBook(id: string): Promise<BookData> | undefined {
         }),
     )
   return cache.get(id)
+}
+
+const details = new Map<string, Promise<string[][]>>()
+
+/** Every chapter's detail paragraphs (index = chapter − 1). The longest text in a book, read on one page only, so it's its own chunk. */
+export function loadDetails(id: string): Promise<string[][]> {
+  const load = detailFiles[`./${id}/details.json`]
+  if (!load) return Promise.resolve([])
+  if (!details.has(id))
+    details.set(
+      id,
+      load().catch((e) => {
+        details.delete(id)
+        throw e
+      }),
+    )
+  return details.get(id)!
 }

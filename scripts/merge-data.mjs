@@ -47,6 +47,9 @@ function mergeBook(book) {
       details,
       characters: [...new Set(characters)],
     }))
+  // Chapter details (the longest text, read on one page only) ship as their own lazily loaded file.
+  const details = chapters.map((c) => c.details)
+  for (const c of chapters) delete c.details
   log.push(`${chapters.length} chapters`)
 
   // Lists the format lets authors leave out are filled in, so the app can rely on them.
@@ -152,5 +155,6 @@ function mergeBook(book) {
 
   writeFileSync(join(outDir, 'book.json'), JSON.stringify(meta, null, 2) + '\n')
   writeFileSync(join(outDir, 'data.json'), JSON.stringify(data) + '\n')
+  writeFileSync(join(outDir, 'details.json'), JSON.stringify(details) + '\n')
   console.log(`✓ ${book}: ${log.join(' · ')}`)
 }
