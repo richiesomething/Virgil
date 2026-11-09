@@ -363,5 +363,207 @@
     "setting": "The infirmary at Montreuil-sur-Mer, the same day",
     "keepInMind": "Valjean is pushing on toward Arras despite a wrecked wheel and bad roads, and has only just realised that he does not know when the trial begins. Fantine has been told her child is coming 'soon'.",
     "returning": []
+  },
+  {
+    "chapter": 61,
+    "setting": "Arras, nearly eight in the evening",
+    "keepInMind": "Fantine, delirious, guessed that the mayor had gone to fetch Cosette; Sister Simplice, who will not lie, said only that he had gone away, and the hope made Fantine better. Valjean, still three leagues from Arras at seven, expects to arrive too late.",
+    "returning": []
+  },
+  {
+    "chapter": 62,
+    "setting": "The Arras courthouse in the old bishop's palace, that evening",
+    "keepInMind": "Valjean booked a seat on the one o'clock mail home, found the court still sitting, and, unable to get into the crowded hall, sent the President a note: M. Madeleine, Mayor of Montreuil-sur-Mer.",
+    "returning": []
+  },
+  {
+    "chapter": 63,
+    "setting": "The Assize courtroom at Arras",
+    "keepInMind": "Admitted to the council-chamber, Valjean fled down the corridor, stood a quarter of an hour in the dark, came back, and found himself opening the door into the courtroom.",
+    "returning": [
+      {
+        "id": "brevet",
+        "reminder": "One of three former Toulon convicts who, Javert said, swore that Champmathieu is Jean Valjean."
+      },
+      {
+        "id": "chenildieu",
+        "reminder": "Another of the three ex-convicts who identified Champmathieu as Jean Valjean."
+      },
+      {
+        "id": "cochepaille",
+        "reminder": "The third ex-convict witness against Champmathieu."
+      },
+      {
+        "id": "bamatabois",
+        "reminder": "The idle young dandy who pushed snow down Fantine's back outside the officers' café."
+      }
+    ]
+  },
+  {
+    "chapter": 64,
+    "setting": "The courtroom, as the debate draws to a close",
+    "keepInMind": "The accused, an old man in a blouse, looks like Valjean as he was entering Digne. Only his identity is really proved, by Javert and the three convicts, and the prosecutor has asked for the galleys for life.",
+    "returning": []
+  },
+  {
+    "chapter": 65,
+    "setting": "The courtroom, a moment later",
+    "keepInMind": "Champmathieu rambled about his life, and the three convicts swore again that he is Jean Valjean. Then a voice behind the judges called them by name, and twenty people cried out: 'M. Madeleine!'",
+    "returning": []
+  },
+  {
+    "chapter": 66,
+    "setting": "The infirmary at Montreuil-sur-Mer, at dawn",
+    "keepInMind": "Valjean declared himself before the court, proved it with details only a fellow convict could know, and walked out unhindered; the prosecutor, he said, knew where to find him. Champmathieu was acquitted within the hour.",
+    "returning": []
+  },
+  {
+    "chapter": 67,
+    "setting": "Fantine's bedside, moments later",
+    "keepInMind": "Sister Simplice was shocked to see that the mayor's hair had turned white overnight. Fantine woke, and her first words were 'And Cosette?' She believes he has brought her.",
+    "returning": []
+  },
+  {
+    "chapter": 68,
+    "setting": "Fantine's sickroom: what had happened during the night",
+    "keepInMind": "Fantine chattered happily about Cosette while Valjean and the doctor put her off. Then, terrified, she signed to him to look behind him: Javert stood in the doorway.",
+    "returning": []
+  },
+  {
+    "chapter": 69,
+    "setting": "Fantine's sickroom, the same morning",
+    "keepInMind": "After Champmathieu's acquittal a warrant was issued for the convict Jean Valjean and sent to Javert, who stands in the doorway with soldiers behind him, transfigured by a terrible joy.",
+    "returning": []
+  },
+  {
+    "chapter": 70,
+    "setting": "Montreuil-sur-Mer, the day of the arrest",
+    "keepInMind": "Javert seized Valjean by the collar in front of Fantine and shouted that there was no mayor, only a convict. Learning that her child had never come, she died. Valjean whispered something in her ear, laid her out, and gave himself up.",
+    "returning": []
+  },
+  {
+    "chapter": 71,
+    "setting": "The road from Nivelles in Belgium, a May morning in 1861",
+    "keepInMind": "This chapter steps away from the story to begin Hugo's long account of the battle of Waterloo, opening with his own visit to the field. We left Valjean escaped from Montreuil-sur-Mer toward Paris, and Fantine thrown into a common grave.",
+    "returning": []
+  },
+  {
+    "chapter": 72,
+    "setting": "Hougomont, a walled farm on the field of Waterloo",
+    "keepInMind": "A cannonball hole in a farm gate told the narrator where he was standing: on the battlefield of Waterloo. Book I of this volume is Hugo's essay on the battle, so read it on its own terms.",
+    "returning": []
+  },
+  {
+    "chapter": 73,
+    "setting": "Waterloo, the night of 17 to 18 June 1815",
+    "keepInMind": "Three thousand men died in the one enclosure of Hougomont, the first obstacle Napoleon met at Waterloo. Hugo's digression on the battle continues.",
+    "returning": []
+  },
+  {
+    "chapter": 74,
+    "setting": "The battlefield, laid out like a map",
+    "keepInMind": "Hugo argues that the rain of that night lost Napoleon the battle: the wet ground delayed his artillery until half-past eleven and gave Blücher's Prussians time to come up.",
+    "returning": []
+  },
+  {
+    "chapter": 75,
+    "setting": "Waterloo, 18 June, from 11:35 in the morning",
+    "keepInMind": "Picture the field as a capital A: Wellington on the high ground of Mont-Saint-Jean at the top, Napoleon below at the foot, and the whole battle a fight for the plateau.",
+    "returning": []
+  },
+  {
+    "chapter": 76,
+    "setting": "The English lines, toward four in the afternoon",
+    "keepInMind": "The French took the farms of La Haie-Sainte and Papelotte. From noon to four the fighting dissolved into a melee no historian can map.",
+    "returning": []
+  },
+  {
+    "chapter": 77,
+    "setting": "Napoleon's side of the field, the night before and the morning of the battle",
+    "keepInMind": "Around four o'clock Wellington pulled his line back behind the crest of the plateau, and Napoleon took it for the beginning of a retreat.",
+    "returning": []
+  },
+  {
+    "chapter": 78,
+    "setting": "Napoleon at his post on the morning of Waterloo",
+    "keepInMind": "Along the crest of Mont-Saint-Jean, invisible from the French side, runs the sunken road from Ohain, a trench as much as twelve feet deep.",
+    "returning": []
+  },
+  {
+    "chapter": 79,
+    "setting": "The valley below Mont-Saint-Jean, in the afternoon",
+    "keepInMind": "Sure that Wellington was retreating, Napoleon sent word to Paris that the battle was won and ordered Milhaud's cuirassiers to carry the plateau. His guide Lacoste had shaken his head at a question.",
+    "returning": []
+  },
+  {
+    "chapter": 80,
+    "setting": "The plateau of Mont-Saint-Jean",
+    "keepInMind": "The cuirassiers' charge plunged into the hidden road of Ohain until the ravine was filled with men and horses. Hugo says Napoleon could not have won: 'He embarrassed God.'",
+    "returning": []
+  },
+  {
+    "chapter": 81,
+    "setting": "The heights toward Frischemont, about five o'clock",
+    "keepInMind": "The English squares held for two hours against the surviving cuirassiers. At five Wellington murmured, 'Blücher, or night!' as a line of bayonets gleamed in the distance.",
+    "returning": []
+  },
+  {
+    "chapter": 82,
+    "setting": "The field at nightfall",
+    "keepInMind": "The bayonets were Bülow's Prussians, well guided by a shepherd, while Napoleon had been told the distant 'cloud' was his own Marshal Grouchy.",
+    "returning": []
+  },
+  {
+    "chapter": 83,
+    "setting": "The French lines, as the army breaks",
+    "keepInMind": "The Imperial Guard went into the fight shouting 'Vive l'Empereur!' and was cut down. Marshal Ney sought death everywhere and could not find it.",
+    "returning": []
+  },
+  {
+    "chapter": 84,
+    "setting": "The valley at the foot of Mont-Saint-Jean, toward nine at night",
+    "keepInMind": "The French army has collapsed on every side and the Prussians are slaughtering the fugitives. Napoleon was last seen on foot, turning back alone toward the field.",
+    "returning": []
+  },
+  {
+    "chapter": 85,
+    "setting": "The last square of the Guard, nine in the evening",
+    "keepInMind": "Called on to surrender, Cambronne, commanding the last square, answered with a single obscene word.",
+    "returning": []
+  },
+  {
+    "chapter": 86,
+    "setting": "After the battle: Hugo's verdict",
+    "keepInMind": "This chapter steps back from the fighting to weigh the commanders. The Guard is dead, and Hugo has named Cambronne, not any general, the true victor of Waterloo.",
+    "returning": []
+  },
+  {
+    "chapter": 87,
+    "setting": "Waterloo considered as politics",
+    "keepInMind": "This chapter steps away to judge what Waterloo meant. Hugo gave the glory to the English soldier rather than to Wellington, and called the day more massacre than battle.",
+    "returning": []
+  },
+  {
+    "chapter": 88,
+    "setting": "France and Europe after 1815",
+    "keepInMind": "Hugo called Waterloo a counter-revolutionary victory of Europe's kings over France and the Revolution, which nonetheless forced the returning Bourbons to grant a charter.",
+    "returning": []
+  },
+  {
+    "chapter": 89,
+    "setting": "The battlefield of Waterloo, the night of 18 June 1815",
+    "keepInMind": "Hugo has sketched the Restoration that followed, with Napoleon caged on Saint Helena. Now he goes back to the field itself after the last shot, under a full moon.",
+    "returning": []
+  },
+  {
+    "chapter": 90,
+    "setting": "Paris and Toulon, in 1823",
+    "keepInMind": "The story comes back from Waterloo to where it left off. Valjean escaped from Montreuil-sur-Mer toward Paris after slipping back to take the Bishop's candlesticks, and Fantine was buried in a common pit.",
+    "returning": [
+      {
+        "id": "jean-valjean",
+        "reminder": "The ex-convict who was M. Madeleine, mayor of Montreuil-sur-Mer. He gave himself up to save Champmathieu, was arrested at Fantine's deathbed, and broke out of the town jail."
+      }
+    ]
   }
 ]

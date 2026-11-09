@@ -1112,13 +1112,13 @@
     "states": [
       {
         "from": 188,
-        "type": "enemy",
+        "type": "friend",
         "label": "An agreeable old man on the bench"
       },
       {
         "from": 194,
         "type": "enemy",
-        "label": "The father seems to notice the young man’s attentions"
+        "label": "The father seems to notice the young man and grows wary"
       },
       {
         "from": 196,
@@ -1237,7 +1237,7 @@
       {
         "from": 297,
         "type": "enemy",
-        "label": "He could let Marius die; instead he goes to the barricade"
+        "label": "With Marius’s farewell in his pocket, he goes out armed"
       },
       {
         "from": 302,
@@ -1293,6 +1293,461 @@
         "from": 364,
         "type": "friend",
         "label": "He begs Valjean’s pardon at his deathbed"
+      }
+    ]
+  },
+  {
+    "a": "thenardier",
+    "b": "colonel-pontmercy",
+    "states": [
+      {
+        "from": 89,
+        "type": "enemy",
+        "label": "He robs the wounded officer and is thanked as his rescuer"
+      },
+      {
+        "from": 94,
+        "type": "enemy",
+        "label": "He boasts of saving a general at Waterloo"
+      },
+      {
+        "from": 171,
+        "type": "enemy",
+        "label": "The dying colonel’s note asks his son to repay his “saviour”"
+      }
+    ]
+  },
+  {
+    "a": "colonel-pontmercy",
+    "b": "marius",
+    "states": [
+      {
+        "from": 169,
+        "type": "family",
+        "label": "The son taken from him, whom he watches in secret at mass",
+        "kin": "parent"
+      },
+      {
+        "from": 171,
+        "type": "family",
+        "label": "Marius comes too late, and feels only a stranger’s grief",
+        "kin": "parent"
+      },
+      {
+        "from": 172,
+        "type": "family",
+        "label": "Marius learns of the father who came to gaze at him for ten years",
+        "kin": "parent"
+      },
+      {
+        "from": 173,
+        "type": "family",
+        "label": "Marius adores the father he neglected",
+        "kin": "parent"
+      },
+      {
+        "from": 174,
+        "type": "family",
+        "label": "Marius weeps on his grave at Vernon",
+        "kin": "parent"
+      },
+      {
+        "from": 287,
+        "type": "family",
+        "label": "At the barricade Marius thinks of his father’s sword",
+        "kin": "parent"
+      }
+    ]
+  },
+  {
+    "a": "monsieur-gillenormand",
+    "b": "colonel-pontmercy",
+    "states": [
+      {
+        "from": 169,
+        "type": "family",
+        "label": "Father-in-law who took his son on pain of disinheritance",
+        "kin": "relative"
+      },
+      {
+        "from": 175,
+        "type": "family",
+        "label": "He scorns the “brigand” his grandson now honours",
+        "kin": "relative"
+      }
+    ]
+  },
+  {
+    "a": "monsieur-gillenormand",
+    "b": "marius",
+    "states": [
+      {
+        "from": 169,
+        "type": "family",
+        "label": "The grandfather who raised him away from his father",
+        "kin": "grandparent"
+      },
+      {
+        "from": 175,
+        "type": "family",
+        "label": "“Down with the Bourbons!”: he turns his grandson out",
+        "kin": "grandparent"
+      },
+      {
+        "from": 182,
+        "type": "family",
+        "label": "He tears up Marius’s letter unread",
+        "kin": "grandparent"
+      },
+      {
+        "from": 184,
+        "type": "family",
+        "label": "He pines in secret for the boy he banished",
+        "kin": "grandparent"
+      },
+      {
+        "from": 262,
+        "type": "family",
+        "label": "Marius asks leave to marry; insulted, he leaves",
+        "kin": "grandparent"
+      },
+      {
+        "from": 340,
+        "type": "family",
+        "label": "Marius is carried home; the old man’s grief turns to joy",
+        "kin": "grandparent"
+      },
+      {
+        "from": 344,
+        "type": "family",
+        "label": "He consents to the marriage and Marius calls him “father”",
+        "kin": "grandparent"
+      },
+      {
+        "from": 355,
+        "type": "family",
+        "label": "Under one roof, reconciled",
+        "kin": "grandparent"
+      }
+    ]
+  },
+  {
+    "a": "monsieur-gillenormand",
+    "b": "mademoiselle-gillenormand",
+    "states": [
+      {
+        "from": 165,
+        "type": "family",
+        "label": "Ninety-year-old father who scolds his spinster daughter like a child",
+        "kin": "parent"
+      }
+    ]
+  },
+  {
+    "a": "mademoiselle-gillenormand",
+    "b": "marius",
+    "states": [
+      {
+        "from": 169,
+        "type": "family",
+        "label": "Prim aunt in his grandfather’s house",
+        "kin": "relative"
+      },
+      {
+        "from": 174,
+        "type": "family",
+        "label": "She sets Théodule to spy on his absences",
+        "kin": "relative"
+      },
+      {
+        "from": 181,
+        "type": "family",
+        "label": "She sends him money; he returns it",
+        "kin": "relative"
+      },
+      {
+        "from": 338,
+        "type": "family",
+        "label": "She is woken to find him carried home",
+        "kin": "relative"
+      }
+    ]
+  },
+  {
+    "a": "mademoiselle-gillenormand",
+    "b": "theodule",
+    "states": [
+      {
+        "from": 167,
+        "type": "family",
+        "label": "The doting great-aunt of a handsome lancer",
+        "kin": "relative"
+      },
+      {
+        "from": 174,
+        "type": "family",
+        "label": "She pays him to shadow Marius",
+        "kin": "relative"
+      },
+      {
+        "from": 187,
+        "type": "family",
+        "label": "She tries to install him as a substitute grandson",
+        "kin": "relative"
+      }
+    ]
+  },
+  {
+    "a": "monsieur-gillenormand",
+    "b": "theodule",
+    "states": [
+      {
+        "from": 187,
+        "type": "family",
+        "label": "The lancer agrees with everything until the old man calls him a fool",
+        "kin": "relative"
+      }
+    ]
+  },
+  {
+    "a": "theodule",
+    "b": "marius",
+    "states": [
+      {
+        "from": 174,
+        "type": "family",
+        "label": "A cousin sent to spy, who finds him weeping on a grave",
+        "kin": "relative"
+      }
+    ]
+  },
+  {
+    "a": "theodule",
+    "b": "cosette",
+    "states": [
+      {
+        "from": 243,
+        "type": "love",
+        "label": "A handsome lancer she watches pass her gate"
+      },
+      {
+        "from": 247,
+        "type": "love",
+        "label": "After the notebook he looks hideous to her"
+      }
+    ]
+  },
+  {
+    "a": "monsieur-gillenormand",
+    "b": "magnon",
+    "states": [
+      {
+        "from": 165,
+        "type": "work",
+        "label": "A dismissed maid sends him two babies; he pays for them"
+      },
+      {
+        "from": 249,
+        "type": "work",
+        "label": "He still pays for “her” boys, long dead"
+      }
+    ]
+  },
+  {
+    "a": "monsieur-gillenormand",
+    "b": "basque",
+    "states": [
+      {
+        "from": 164,
+        "type": "work",
+        "label": "Manservant he renamed Basque"
+      }
+    ]
+  },
+  {
+    "a": "monsieur-gillenormand",
+    "b": "nicolette",
+    "states": [
+      {
+        "from": 164,
+        "type": "work",
+        "label": "Maid he renamed Nicolette"
+      }
+    ]
+  },
+  {
+    "a": "monsieur-gillenormand",
+    "b": "cosette",
+    "states": [
+      {
+        "from": 344,
+        "type": "friend",
+        "label": "He has already found the girl Marius loves"
+      },
+      {
+        "from": 345,
+        "type": "friend",
+        "label": "He asks her hand for Marius, and is charmed"
+      },
+      {
+        "from": 347,
+        "type": "friend",
+        "label": "He showers her with heirlooms"
+      },
+      {
+        "from": 350,
+        "type": "family",
+        "label": "His grandson’s bride, whom he gives away",
+        "kin": "relative"
+      }
+    ]
+  },
+  {
+    "a": "monsieur-gillenormand",
+    "b": "jean-valjean",
+    "states": [
+      {
+        "from": 345,
+        "type": "friend",
+        "label": "He settles the marriage with “M. Fauchelevent”"
+      }
+    ]
+  },
+  {
+    "a": "marius",
+    "b": "thenardier",
+    "states": [
+      {
+        "from": 171,
+        "type": "friend",
+        "label": "The “saviour” of Waterloo his father bids him repay"
+      },
+      {
+        "from": 173,
+        "type": "friend",
+        "label": "Marius searches Montfermeil for him in vain"
+      },
+      {
+        "from": 183,
+        "type": "friend",
+        "label": "Marius venerates his name beside his father’s"
+      },
+      {
+        "from": 220,
+        "type": "enemy",
+        "label": "Marius hears the name of his father’s saviour from the man with the knife, and cannot fire"
+      },
+      {
+        "from": 229,
+        "type": "enemy",
+        "label": "He sends five francs a week to him in La Force"
+      },
+      {
+        "from": 349,
+        "type": "enemy",
+        "label": "He hunts for Thénardier to pay his father’s debt"
+      },
+      {
+        "from": 363,
+        "type": "enemy",
+        "label": "He pays him off and sends him to America"
+      }
+    ]
+  },
+  {
+    "a": "jondrette",
+    "b": "marius",
+    "states": [
+      {
+        "from": 159,
+        "type": "enemy",
+        "label": "Destitute neighbours at the Gorbeau house"
+      },
+      {
+        "from": 186,
+        "type": "friend",
+        "label": "Marius secretly pays their rent"
+      },
+      {
+        "from": 205,
+        "type": "enemy",
+        "label": "Marius spies on the family through a hole in the wall"
+      },
+      {
+        "from": 212,
+        "type": "enemy",
+        "label": "He overhears Jondrette plotting a trap"
+      },
+      {
+        "from": 214,
+        "type": "enemy",
+        "label": "He brings in the police and waits with pistols"
+      }
+    ]
+  },
+  {
+    "a": "jondrette",
+    "b": "gavroche",
+    "states": [
+      {
+        "from": 159,
+        "type": "family",
+        "label": "The unloved son of the Gorbeau family",
+        "kin": "parent"
+      }
+    ]
+  },
+  {
+    "a": "thenardier",
+    "b": "gavroche",
+    "states": [
+      {
+        "from": 220,
+        "type": "family",
+        "label": "His father, the innkeeper of Montfermeil",
+        "kin": "parent"
+      },
+      {
+        "from": 222,
+        "type": "family",
+        "label": "He finds his parents in prison and goes off singing",
+        "kin": "parent"
+      },
+      {
+        "from": 251,
+        "type": "family",
+        "label": "He climbs a flue to bring his own father down from La Force",
+        "kin": "parent"
+      },
+      {
+        "from": 259,
+        "type": "family",
+        "label": "His father’s gang prowls the Rue Plumet",
+        "kin": "parent"
+      }
+    ]
+  },
+  {
+    "a": "madame-thenardier",
+    "b": "gavroche",
+    "states": [
+      {
+        "from": 220,
+        "type": "family",
+        "label": "The mother who never loved him",
+        "kin": "parent"
+      },
+      {
+        "from": 222,
+        "type": "family",
+        "label": "She is in Saint-Lazare",
+        "kin": "parent"
+      },
+      {
+        "from": 296,
+        "type": "family",
+        "label": "He takes a five-franc piece “for my mother”",
+        "kin": "parent"
       }
     ]
   }

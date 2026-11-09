@@ -2280,7 +2280,7 @@
     "chapter": 221,
     "kind": "motif",
     "title": "Two names for two sisters",
-    "text": "Javert catches the younger girl on watch, Azelma, but not the elder, Éponine, who 'was not at her post'. After two dozen chapters of 'the elder Jondrette girl', Hugo hands her a name in the middle of a police report. Where she was instead, he does not say. The note that saved the prisoner was in her hand.",
+    "text": "Javert catches the younger girl on watch, Azelma, but not the elder, Éponine, who 'was not at her post'. After two dozen chapters of 'the elder Jondrette girl', Hugo hands her a name in the middle of a police report. Where she was instead, he does not say. The warning that saved the prisoner was in her handwriting.",
     "themes": [
       "names"
     ]
@@ -2729,7 +2729,7 @@
     "chapter": 232,
     "kind": "theme",
     "title": "Poorer and prettier",
-    "text": "Éponine has grown 'poorer and prettier, two steps which it had not seemed within her power to take', 'towards the light and towards distress'. Straw in her hair from a stable loft, prison in her face, and yet 'she was beautiful'. Hugo will not let us see her only as the girl of the Gorbeau garret.",
+    "text": "Éponine has grown 'poorer and prettier, two steps which it had not seemed within her power to take', 'towards the light and towards distress'. Straw in her hair from a stable loft, prison in her face, and yet 'she was beautiful'. Hugo refuses to let us see her only as the girl of the Gorbeau garret.",
     "themes": [
       "poverty",
       "light-darkness",
@@ -2880,7 +2880,7 @@
     "chapter": 236,
     "kind": "theme",
     "title": "Paphos made over into Eden",
-    "text": "A garden built for illicit love has 'returned to virginity and modesty' and is now 'arranged for love' of a purer kind. And 'there was, also, in this solitude, a heart which was quite ready'. Hugo is plainly setting a stage. The question is who will walk onto it.",
+    "text": "A garden built for illicit love has 'returned to virginity and modesty' and is now 'arranged for love' of a purer kind. And 'there was, also, in this solitude, a heart which was quite ready'. Hugo is plainly setting a stage, and he says so.",
     "themes": [
       "love"
     ]
@@ -3602,12 +3602,12 @@
   },
   {
     "chapter": 251,
-    "kind": "question",
+    "kind": "theme",
     "title": "It must be seen to",
-    "text": "Brujon raises the Rue Plumet job again; Éponine sent back a biscuit; Thénardier says 'The girl's no fool. Still, it must be seen to.' The reader knows who lives behind that gate. What will Éponine do if her father goes there himself?",
+    "text": "Brujon raises the Rue Plumet job again: a deserted street, an old gate, 'lone women'. Éponine looked and sent back a biscuit. 'The girl's no fool,' says Thénardier. 'Still, it must be seen to.' The reader now knows who lives behind that gate. The underworld's interest in the house has not ended with one refusal.",
     "themes": [
-      "conscience",
-      "love"
+      "mercy-law",
+      "light-darkness"
     ]
   },
   {

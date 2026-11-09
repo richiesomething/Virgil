@@ -163,5 +163,291 @@
         "text": "In the night the stranger sees him asleep in an uncurtained wicker cradle behind Éponine and Azelma's beds, the little boy who had cried all evening."
       }
     ]
+  },
+  {
+    "id": "napoleon",
+    "name": "Napoleon",
+    "firstChapter": 1,
+    "importance": "supporting",
+    "group": "History",
+    "tagline": [
+      {
+        "from": 1,
+        "text": "The Emperor of the French, whose chance word made an obscure curé Bishop of Digne."
+      },
+      {
+        "from": 11,
+        "text": "The fallen Emperor: the royalist Bishop snubbed him, but Digne still adores him."
+      },
+      {
+        "from": 72,
+        "text": "The Emperor at Waterloo, 18 June 1815, at the centre of Hugo's long digression on the battle."
+      },
+      {
+        "from": 79,
+        "text": "The great captain whose last battle Hugo puts down to rain, a hollow road and God."
+      },
+      {
+        "from": 88,
+        "text": "Caged on Saint Helena, and looming larger in his fall than on his throne."
+      }
+    ],
+    "description": [
+      {
+        "from": 1,
+        "text": "Napoleon Bonaparte, Emperor of the French from 1804 to 1815. Waiting in Cardinal Fesch's anteroom in 1804, the curé Myriel caught his eye and told him that he was looking at a good man and the good man at a great one. Soon afterwards Myriel was astonished to find himself Bishop of Digne."
+      },
+      {
+        "from": 11,
+        "text": "He made the Bishop a baron and summoned him to the synod of 1811. The Bishop, a royalist, applauded his fall, refused to see him on his return from Elba and ordered no prayers for him during the Hundred Days; the narrator counts this coldness the Bishop's one fault. The old soldiers of the Empire, like the town-hall porter, still swear by him."
+      },
+      {
+        "from": 28,
+        "text": "In 1817 he is at Saint Helena, turning his old coats, while the Restoration paints fleurs-de-lys over Paris."
+      },
+      {
+        "from": 73,
+        "text": "Hugo's Waterloo digression begins with him. Ill but in high spirits, sure of ninety chances in a hundred, he plans a battle Hugo admires; the night's rain delays his artillery until half-past eleven and gives the Prussians time to come. Hugo denies that his genius had failed."
+      },
+      {
+        "from": 78,
+        "text": "Seeing Wellington's line pull back behind the crest, he takes it for a retreat, sends word of victory to Paris, and, after a shake of the head from his guide Lacoste, orders the cuirassiers to take the plateau. He never saw the hollow road of Ohain."
+      },
+      {
+        "from": 83,
+        "text": "At nightfall, with his army dissolving, he is found turning back alone toward the field, haggard, and is led away."
+      },
+      {
+        "from": 88,
+        "text": "Hugo sees the Restoration as built on his defeat: the Bourbons back in the Tuileries, the Holy Alliance in charge of Europe, and Bonaparte on Saint Helena, larger in exile than ever, while the kings reign uneasily."
+      },
+      {
+        "from": 273,
+        "text": "In 1832 he is still the talk of barbers' shops: an old soldier being shaved remembers how badly he rode and how he never fell."
+      }
+    ],
+    "moments": [
+      {
+        "chapter": 1,
+        "text": "Makes the curé Myriel Bishop of Digne."
+      },
+      {
+        "chapter": 78,
+        "text": "Orders the cuirassiers' charge onto the plateau of Mont-Saint-Jean."
+      },
+      {
+        "chapter": 83,
+        "text": "Turns back alone toward the lost battlefield."
+      }
+    ]
+  },
+  {
+    "id": "wellington",
+    "name": "Wellington",
+    "firstChapter": 73,
+    "importance": "supporting",
+    "group": "History",
+    "tagline": [
+      {
+        "from": 73,
+        "text": "The British commander at Waterloo, holding the high ground of Mont-Saint-Jean."
+      },
+      {
+        "from": 80,
+        "text": "The Iron Duke under his elm, murmuring 'Blücher, or night!'"
+      },
+      {
+        "from": 86,
+        "text": "A second-rate captain, Hugo says, who won a first-rate battle."
+      }
+    ],
+    "description": [
+      {
+        "from": 73,
+        "text": "Arthur Wellesley, Duke of Wellington, commander of the Anglo-allied army at Waterloo. In Hugo's capital-A plan of the field he holds the apex, the plateau of Mont-Saint-Jean, while Napoleon holds the low ground."
+      },
+      {
+        "from": 76,
+        "text": "By four o'clock his army is in grave trouble, but he stays coldly heroic under his elm and draws his line back behind the crest. Napoleon takes the movement for a retreat."
+      },
+      {
+        "from": 80,
+        "text": "His squares hold for two hours against the cuirassiers, though seven of thirteen are destroyed and his staff decimated. At five he murmurs, 'Blücher, or night!'"
+      },
+      {
+        "from": 86,
+        "text": "Weighing the commanders, Hugo sets his calculation against Napoleon's genius, calls Waterloo a first-rate battle won by a second-rate captain, and gives the glory to the English soldier rather than to the Duke."
+      },
+      {
+        "from": 89,
+        "text": "After the battle he has ordered marauders shot, but the prowlers strip the dead under the moon all the same."
+      }
+    ]
+  },
+  {
+    "id": "blucher",
+    "name": "Blücher",
+    "firstChapter": 73,
+    "importance": "minor",
+    "group": "History",
+    "tagline": [
+      {
+        "from": 73,
+        "text": "The Prussian field marshal whose arrival decides Waterloo."
+      },
+      {
+        "from": 83,
+        "text": "The Prussian commander who orders the French fugitives cut down without quarter."
+      }
+    ],
+    "description": [
+      {
+        "from": 73,
+        "text": "Gebhard Leberecht von Blücher, commander of the Prussian army in 1815. Hugo argues that the rain delaying Napoleon's attack gave him time to reach the field."
+      },
+      {
+        "from": 81,
+        "text": "At five o'clock, seeing Wellington's peril, he orders Bülow to attack: 'We must give air to the English army.' In the rout he orders extermination, and the Prussian cavalry hunts the fleeing French to the frontier."
+      }
+    ]
+  },
+  {
+    "id": "bulow",
+    "name": "Bülow",
+    "firstChapter": 81,
+    "importance": "minor",
+    "group": "History",
+    "tagline": [
+      {
+        "from": 81,
+        "text": "Blücher's lieutenant, whose Prussian corps comes out of the forest at Plancenoit."
+      }
+    ],
+    "description": [
+      {
+        "from": 81,
+        "text": "Friedrich Wilhelm von Bülow, commanding a Prussian corps. Delayed all day by mud and a burning bridge at Wavre, he is guided by a little shepherd along the one route that could bring guns out of the forest below Plancenoit. By another road, Hugo says, he would not have arrived, and Napoleon would have won."
+      }
+    ]
+  },
+  {
+    "id": "grouchy",
+    "name": "Grouchy",
+    "firstChapter": 78,
+    "importance": "minor",
+    "group": "History",
+    "tagline": [
+      {
+        "from": 78,
+        "text": "The French marshal sent after the Prussians, who never comes to Waterloo."
+      }
+    ],
+    "description": [
+      {
+        "from": 78,
+        "text": "Emmanuel de Grouchy, Marshal of France, detached with part of the army to pursue the Prussians. His delay is one of the morning's setbacks Napoleon shrugs off."
+      },
+      {
+        "from": 81,
+        "text": "At noon Napoleon saw a 'cloud' on the horizon and was told it was Grouchy. It was the Prussians."
+      }
+    ]
+  },
+  {
+    "id": "ney",
+    "name": "Ney",
+    "firstChapter": 75,
+    "importance": "minor",
+    "group": "History",
+    "tagline": [
+      {
+        "from": 75,
+        "text": "Marshal Ney, commanding the French attack at Waterloo."
+      },
+      {
+        "from": 82,
+        "text": "Ney, bleeding and magnificent, seeking death on the field and failing to find it."
+      }
+    ],
+    "description": [
+      {
+        "from": 75,
+        "text": "Michel Ney, Marshal of France and one of Napoleon's commanders on the day. At the opening of the battle he pushes the French right against the English left at Papelotte."
+      },
+      {
+        "from": 79,
+        "text": "He draws his sword and leads the three thousand five hundred cuirassiers up the slope toward the English squares, where the hollow road of Ohain swallows the first ranks."
+      },
+      {
+        "from": 82,
+        "text": "As the Guard is cut down he offers himself to every blow, his fifth horse killed under him, bleeding and magnificent, crying 'Come and see how a Marshal of France dies on the field of battle!' He does not die."
+      },
+      {
+        "from": 83,
+        "text": "In the rout he leaps on a borrowed horse, without hat, cravat or sword, and tries to stop the flight across the Brussels road, and is swept away."
+      }
+    ]
+  },
+  {
+    "id": "cambronne",
+    "name": "Cambronne",
+    "firstChapter": 84,
+    "importance": "minor",
+    "group": "History",
+    "tagline": [
+      {
+        "from": 84,
+        "text": "An obscure officer of the Guard who answers the call to surrender with one obscene word."
+      },
+      {
+        "from": 85,
+        "text": "To Hugo, the true victor of Waterloo."
+      }
+    ],
+    "description": [
+      {
+        "from": 84,
+        "text": "Pierre Cambronne, commanding the last square of the Imperial Guard at nine in the evening at the foot of Mont-Saint-Jean. When an English general calls on the brave Frenchmen to surrender, he answers with a single soldier's obscenity."
+      },
+      {
+        "from": 85,
+        "text": "Hugo defends repeating the word and calls it perhaps the finest thing a Frenchman ever said: scorn answering catastrophe. The English guns fire, and when the smoke clears the square is gone."
+      }
+    ]
+  },
+  {
+    "id": "louis-xviii",
+    "name": "Louis XVIII",
+    "firstChapter": 80,
+    "importance": "minor",
+    "group": "History",
+    "tagline": [
+      {
+        "from": 80,
+        "text": "The Bourbon king, waiting out Waterloo at Ghent."
+      },
+      {
+        "from": 88,
+        "text": "The restored king, back in the Tuileries with the white flag and a charter."
+      },
+      {
+        "from": 98,
+        "text": "The fat, gouty king whose gilded carriage gallops along the Paris boulevards."
+      }
+    ],
+    "description": [
+      {
+        "from": 80,
+        "text": "Louis XVIII, brother of the guillotined Louis XVI, restored to the throne in 1814 and driven out by Napoleon's return from Elba. The panic of the battle's afternoon reaches him at Ghent."
+      },
+      {
+        "from": 88,
+        "text": "After Waterloo he returns to the Tuileries; Hugo sketches the Restoration as divine right varnished with a charter, a counter-revolution forced to be liberal in spite of itself."
+      },
+      {
+        "from": 98,
+        "text": "In 1823 he drives nearly every day to Choisy-le-Roi, a fat, crafty-eyed king who cannot walk and so loves to gallop. The people of the quarter call him 'the government'."
+      }
+    ]
   }
 ]
