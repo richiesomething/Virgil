@@ -125,5 +125,339 @@
       { "chapter": 358, "text": "Stopped visiting Cosette." },
       { "chapter": 364, "text": "Died, after telling Cosette her mother's name." }
     ]
+  },
+  {
+    "id": "cosette",
+    "name": "Cosette",
+    "firstChapter": 37,
+    "importance": "major",
+    "group": "Jean Valjean and Cosette",
+    "aliases": [
+      { "name": "Euphrasie", "from": 37, "note": "her real name; Cosette is her mother's pet name for it" },
+      { "name": "the Lark", "from": 39, "note": "what Montfermeil calls her" },
+      { "name": "Mademoiselle Lanoire", "from": 220, "note": "Courfeyrac's nickname for her at the Luxembourg" },
+      { "name": "Ursule", "from": 220, "note": "the name Marius gave her from a handkerchief marked U. F." },
+      { "name": "Mademoiselle Fauchelevent", "from": 233, "note": "as M. Fauchelevent's daughter in the Rue Plumet" },
+      { "name": "Euphrasie Fauchelevent", "from": 347, "note": "the civil identity Valjean builds for her marriage" },
+      { "name": "Madame Pontmercy", "from": 350, "note": "the Baroness Pontmercy, after her wedding" }
+    ],
+    "tagline": [
+      { "from": 37, "text": "Fantine's little daughter, left with the Thénardiers at Montfermeil." },
+      { "from": 39, "text": "The Lark: the Thénardiers' child drudge, beaten, in rags, fed under the table." },
+      { "from": 53, "text": "The child the mayor has promised to bring to her dying mother." },
+      { "from": 93, "text": "Eight years old, sent alone into the forest at night for water on Christmas Eve." },
+      { "from": 101, "text": "Bought from the Thénardiers by a stranger in a yellow coat, and gone." },
+      { "from": 103, "text": "Jean Valjean's child in all but blood, safe with him in a Paris garret." },
+      { "from": 145, "text": "A charity pupil at the Petit-Picpus convent." },
+      { "from": 220, "text": "The girl Marius loves at the Luxembourg: the Lark of Montfermeil, grown up." },
+      { "from": 237, "text": "A girl of the Rue Plumet who has just discovered she is beautiful." },
+      { "from": 248, "text": "In love with Marius and loved by him; they have just learned each other's names." },
+      { "from": 345, "text": "Betrothed to Marius, with a dowry of six hundred thousand francs from M. Fauchelevent." },
+      { "from": 350, "text": "Madame Pontmercy, married on Shrove Tuesday 1833." },
+      { "from": 358, "text": "A happy young wife who lets 'Monsieur Jean' fade out of her life." },
+      { "from": 364, "text": "Told at last what her father did for them, and her mother's name: Fantine." }
+    ],
+    "description": [
+      { "from": 37, "text": "Fantine's child by Tholomyès, a pretty little girl decked in all her mother's finery; her real name is Euphrasie. When Fantine, walking home to Montreuil-sur-Mer, sees the innkeeper's two little girls on a swing at Montfermeil, she leaves Cosette with their mother for seven francs a month, paid six months in advance, and goes on weeping." },
+      { "from": 39, "text": "Her wardrobe pawned, she is dressed in rags and fed from a wooden bowl under the table with the dog and cat. Madame Thénardier beats her, and her daughters copy her. Before she is five Cosette sweeps, carries and runs errands; before six she sweeps the street in the dark of winter mornings. Only her big sad eyes are left of the rosy child, and the village calls her the Lark: small, trembling, up before anyone, and never singing." },
+      { "from": 49, "text": "Thénardier's lies about her, that she is naked in the cold and then dying of a fever, cost her mother her hair and her front teeth." },
+      { "from": 53, "text": "The mayor of Montreuil-sur-Mer, who has taken in her dying mother, sends three hundred francs and then three hundred more to bring her. Thénardier, scenting money, invents bills and keeps her." },
+      { "from": 69, "text": "Her mother dies at Montreuil-sur-Mer without having seen her again." },
+      { "from": 93, "text": "Christmas Eve 1823. She is eight, kept as an unpaid servant since her mother's money stopped, with a black eye from a blow, knitting under the table while carters drink. Her one terror is to be sent at night to the spring in the forest. Caught in a lie about the peddler's horse, she is sent, with a bucket bigger than herself and a fifteen-sou piece for bread." },
+      { "from": 96, "text": "Bucket in hand, she stands spellbound before the toy stall opposite the inn and its magnificent doll in pink crepe, 'the lady', until Madame Thénardier's voice sends her running." },
+      { "from": 97, "text": "Alone in the black forest she fills the bucket, losing the coin in the spring without knowing it, and staggers back crying 'O my God!' Then a huge hand silently lifts the weight. A man is walking beside her, and she is not afraid." },
+      { "from": 100, "text": "The stranger saves her from the whip, buys the stockings she is knitting so that she may play, and when she is caught nursing the Thénardier girls' cast-off doll, goes out and brings back the great doll from the stall. She names it Catherine. In the night he slips a gold louis into the wooden shoe she has set on the hearth." },
+      { "from": 101, "text": "At dawn he pays fifteen hundred francs for her, dresses her in the mourning clothes from his bundle, and walks her out of Montfermeil by the hand." },
+      { "from": 103, "text": "The stranger is Jean Valjean. After a strange day of carriages and hedgerow meals she falls asleep on his back, still holding Catherine, as he carries her into Paris." },
+      { "from": 106, "text": "She wakes in a garret of the Gorbeau house expecting to be set to work and is told to play. She sings from daybreak, learns to read, prays for her mother, and calls the kind man 'father', knowing no other name for him. A child no one ever let love anything, she loves him with her whole being." },
+      { "from": 113, "text": "Hunted with him through the night streets, she is tied to a lantern rope, hauled up a wall and dropped into a dark garden, where she comes close to freezing." },
+      { "from": 145, "text": "The prioress of the Petit-Picpus admits her as the granddaughter of Ultime Fauchelevent, a charity pupil whom she expects to 'grow up ugly'." },
+      { "from": 146, "text": "She keeps silent, thinks herself Valjean's daughter, misses only her doll, and runs to his hut for her hour each day. She laughs now. Her little mourning clothes lie locked in the scented valise by his bed. Years pass, and she grows up." },
+      { "from": 220, "text": "Thénardier's words in the Gorbeau garret make it plain: the girl Marius has worshipped at the Luxembourg, his 'Ursule', is the Lark of Montfermeil grown into a beauty, and her father is the man who carried her off. Thénardier means to hold her for ransom; her father's false address keeps her safe. Marius can only wonder whether she is the Lark." },
+      { "from": 233, "text": "Since 1829 she has lived with her father, M. Fauchelevent, in a hidden house in the Rue Plumet with a wild garden, served by a stammering maid, Toussaint. He took her out of the convent so that she could choose her own life rather than drift into the veil." },
+      { "from": 236, "text": "She left the convent at fourteen, plain, timid and ignorant of the world. She adores her father, prefers his bare lodge to her own tapestried drawing-room, and keeps only nightmare glimpses of the Thénardiers and of a night journey for water. She prays for a mother whose name she has never been told." },
+      { "from": 237, "text": "Overhearing Toussaint say how pretty she is growing, she looks in her mirror and dazzles herself. Within a month she has mastered bonnets and gowns and always wants to go out, while her father watches her beauty with dread." },
+      { "from": 238, "text": "Hugo retells the Luxembourg from her side: she had noticed the young man long before, steered her father toward his bench, and from the day their eyes met loved him without a word, not even knowing the name of what she felt." },
+      { "from": 240, "text": "When her father stops their walks she grows silent and pale. At the Barrière du Maine she watches the chain-gang pass and asks whether those are still men; days later she asks him what the galleys are like." },
+      { "from": 241, "text": "Nursing her father's burned arm for a month brings back their old closeness, and with the spring the shadow lifts from her." },
+      { "from": 243, "text": "Her grief fades so far that she begins to watch for a handsome lieutenant of lancers who passes the gate each day: Théodule Gillenormand." },
+      { "from": 247, "text": "A notebook of unsigned meditations on love, left under a stone on her garden bench, brings everything back. She knows at once who wrote it, and the lancer now looks hideous to her." },
+      { "from": 248, "text": "At dusk the young man is standing behind her in the garden. She faints into his arms, they kiss, and they talk for hours; only at the end do they exchange names: Marius, Cosette." },
+      { "from": 256, "text": "All through May he comes each night through a loose bar of the gate, and their love stays chaste to the point of innocence. She tells him her real name is Euphrasie, and decides she prefers Cosette because he does." },
+      { "from": 261, "text": "Her father tells her to be ready for a journey, perhaps to England, within a week. Marius swears on his honour that he will die if she goes, and scratches his address on the garden wall." },
+      { "from": 294, "text": "Moved that evening to the Rue de l'Homme Armé, she wrote Marius a few lines with her new address and gave them to a young workman at the gate to deliver. The young workman was Éponine, who kept the note until she lay dying at the barricade." },
+      { "from": 308, "text": "At dawn on 6 June she wakes sure that Marius has her letter and will come today. She knows nothing of the fighting, takes the cannon for carriage gates slamming, and watches a martins' nest below her window." },
+      { "from": 345, "text": "Months later her father brings her to the convalescent Marius's bedside. M. Gillenormand asks for her hand, and M. Fauchelevent announces that she has six hundred thousand francs." },
+      { "from": 347, "text": "On paper she becomes Euphrasie Fauchelevent, orphan of the 'other' Fauchelevent and heiress to an anonymous legacy. The grandfather showers her with heirlooms, and the aunt, won over by the money, decides to leave the couple her fortune." },
+      { "from": 350, "text": "She marries Marius on Shrove Tuesday, 16 February 1833, at the Gillenormand house and Saint-Paul, and Toussaint becomes her lady's maid." },
+      { "from": 357, "text": "Puzzled and hurt, she obeys her father's odd wish that she call him 'Monsieur Jean' and let him call her 'Madame', and, soothed by Marius, stops asking why." },
+      { "from": 360, "text": "Absorbed in her husband, she lets herself forget. She is told that Monsieur Jean has gone on a journey." },
+      { "from": 364, "text": "Marius tells her that the man who brought her up saved his life and gave her to him. They reach the Rue de l'Homme Armé in time: she scolds him for his cold hands, sits on his knee and kisses his brow, and hears at last that her mother was called Fantine. He dies with his hands on her head and Marius's." }
+    ],
+    "moments": [
+      { "chapter": 37, "text": "Left by her mother with the Thénardiers at Montfermeil." },
+      { "chapter": 39, "text": "Dressed in rags and set to work; the village calls her the Lark." },
+      { "chapter": 95, "text": "Sent into the night forest for water on Christmas Eve 1823." },
+      { "chapter": 97, "text": "A stranger lifted her bucket at the spring." },
+      { "chapter": 100, "text": "Given the great doll from the toy stall; named it Catherine." },
+      { "chapter": 101, "text": "Walked out of Montfermeil with the stranger." },
+      { "chapter": 113, "text": "Hauled over the convent wall in flight from Javert." },
+      { "chapter": 145, "text": "Admitted as a pupil of the Petit-Picpus." },
+      { "chapter": 233, "text": "Moved with her father to the Rue Plumet in 1829." },
+      { "chapter": 237, "text": "Discovered in her mirror that she is beautiful." },
+      { "chapter": 245, "text": "Found Marius's notebook under a stone on her bench." },
+      { "chapter": 248, "text": "Met Marius in the garden; their first kiss." },
+      { "chapter": 261, "text": "Told she is to leave for England within the week." },
+      { "chapter": 345, "text": "Brought to Marius's bedside and promised to him." },
+      { "chapter": 350, "text": "Married Marius on 16 February 1833." },
+      { "chapter": 364, "text": "Learned her mother's name at her father's deathbed." }
+    ]
+  },
+  {
+    "id": "monsieur-leblanc",
+    "name": "Monsieur Leblanc",
+    "firstChapter": 188,
+    "importance": "supporting",
+    "group": "Jean Valjean and Cosette",
+    "mergedInto": { "id": "jean-valjean", "from": 220 },
+    "aliases": [
+      { "name": "the white-haired man of the Luxembourg", "from": 188 },
+      { "name": "the benevolent gentleman of Saint-Jacques-du-Haut-Pas", "from": 208, "note": "how the Jondrettes' begging letter addresses him" }
+    ],
+    "tagline": [
+      { "from": 188, "text": "A white-haired man of about sixty whom Marius sees daily on a Luxembourg bench with a young girl." },
+      { "from": 194, "text": "The girl's watchful father, who seems to have noticed Marius hovering." },
+      { "from": 196, "text": "Gone from the Luxembourg and from the Rue de l'Ouest, leaving no address." },
+      { "from": 208, "text": "The charitable gentleman who climbs to the Jondrette garret with his daughter." },
+      { "from": 212, "text": "The benefactor Jondrette swears he recognises, and means to trap at six o'clock." },
+      { "from": 219, "text": "Sitting across the table from Jondrette as men with blackened faces fill the room." }
+    ],
+    "description": [
+      { "from": 188, "text": "For more than a year Marius has passed him on the same bench in the loneliest alley of the Luxembourg: about sixty, sad and serious, with the strong, weary look of a retired officer, very white hair, a blue coat, a broad-brimmed hat and a dazzling white shirt. He is always with a thin girl who seems to be his daughter, and gazes at her with great tenderness while she chatters. Courfeyrac named him Monsieur Leblanc for his hair; Marius has no other name for him, and likes him." },
+      { "from": 194, "text": "As Marius haunts the alley, the old gentleman seems to notice. He changes benches, sometimes walks about when Marius arrives, and sometimes comes alone. A handkerchief marked U. F. that Marius takes for the girl's was really his." },
+      { "from": 196, "text": "When Marius follows them home to the Rue de l'Ouest and questions the porter, M. Leblanc stops at his gate and stares hard at him. They do not come back to the Luxembourg, and a week later he has moved, leaving no address. The porter takes Marius for a police spy." },
+      { "from": 201, "text": "Months later, near the Invalides, Marius glimpses a man in workman's clothes with the same white hair and profile, only sadder, and loses him in the side streets. He decides it was a resemblance." },
+      { "from": 209, "text": "He turns out to be the 'benevolent gentleman' of the church of Saint-Jacques-du-Haut-Pas to whom the Jondrettes send a begging letter. He climbs to their garret with his daughter and a parcel of clothes and blankets, hears Jondrette's tale of ruin as the actor Fabantou, gives five francs, leaves his own greatcoat, and promises to come back at six with sixty francs for the rent. Jondrette studies him strangely throughout." },
+      { "from": 212, "text": "Once he has gone, Jondrette tells his wife he has recognised the man from eight years ago, whispers something about the young lady that sends her into a rage, and plans to have him at their mercy that evening. Marius still does not know who M. Leblanc is." },
+      { "from": 219, "text": "At six he comes alone and serene, lays four louis on the table for the rent and dismisses his cab. While Jondrette talks of a picture he must sell, silent men with blackened faces slip in behind him. When Leblanc values the daub at three francs, Jondrette drops his mask: 'Do you know me?'" }
+    ],
+    "moments": [
+      { "chapter": 188, "text": "Seen daily by Marius on a bench in the Luxembourg." },
+      { "chapter": 196, "text": "Stared at Marius at his gate, then moved away without an address." },
+      { "chapter": 201, "text": "Perhaps glimpsed by Marius near the Invalides in workman's clothes." },
+      { "chapter": 209, "text": "Visited the Jondrette garret and promised to return at six." },
+      { "chapter": 218, "text": "Returned alone with four louis for the rent." },
+      { "chapter": 219, "text": "Asked by Jondrette: 'Do you know me?'" }
+    ]
+  },
+  {
+    "id": "the-girl-at-the-luxembourg",
+    "name": "The girl at the Luxembourg",
+    "firstChapter": 188,
+    "importance": "supporting",
+    "group": "Jean Valjean and Cosette",
+    "mergedInto": { "id": "cosette", "from": 220 },
+    "aliases": [
+      { "name": "Mademoiselle Lanoire", "from": 188, "note": "Courfeyrac's nickname, for her black dress" },
+      { "name": "Ursule", "from": 194, "note": "Marius's guess from a handkerchief marked U. F." }
+    ],
+    "tagline": [
+      { "from": 188, "text": "A thin, plain girl of thirteen or fourteen who sits daily with M. Leblanc in the Luxembourg." },
+      { "from": 189, "text": "The same girl six months later, become a beautiful young woman." },
+      { "from": 193, "text": "The girl Marius is desperately in love with, without a word exchanged." },
+      { "from": 196, "text": "Vanished with her father, leaving Marius no address." },
+      { "from": 208, "text": "Found again by Marius through a hole in the wall, bringing charity to the Jondrettes." }
+    ],
+    "description": [
+      { "from": 188, "text": "When Marius first noticed her she was thirteen or fourteen, thin almost to plainness, awkward, in a badly cut black merino dress like a convent schoolgirl's, with a promise of fine eyes. She chatters to the white-haired man beside her, who looks like her father. Courfeyrac calls her Mademoiselle Lanoire; Marius finds her insipid." },
+      { "from": 189, "text": "After six months away from the alley Marius finds a tall, lovely girl of about fifteen beside the same man: brown hair threaded with gold, a marble brow, long chestnut lashes. The child has flowered. She glances at him with indifference." },
+      { "from": 193, "text": "Their eyes meet one spring day, and soon she looks at him as she passes with a pensive sweetness that sets him on fire. For a month she answers his looks with hers while talking naturally to her father." },
+      { "from": 194, "text": "Marius finds a handkerchief marked U. F. on their bench, decides her name is Ursule, and worships it." },
+      { "from": 196, "text": "Marius follows her home to a modest house in the Rue de l'Ouest and questions the porter. She and her father stop coming to the Luxembourg, and a week later they have moved away without an address. Marius searches Paris for her through autumn and winter." },
+      { "from": 208, "text": "Through the hole in the wall of the Gorbeau garret Marius sees her again, come with M. Leblanc to bring clothes and blankets to the starving Jondrettes." },
+      { "from": 209, "text": "When Jondrette pinches his younger daughter's cut hand to make her shriek, the young lady hurries to comfort her." },
+      { "from": 210, "text": "Marius, left with sixteen sous after giving his last five francs away, cannot pay a cab to follow her home." },
+      { "from": 212, "text": "Once she has gone, Jondrette whispers something about her to his wife that throws the woman into a jealous fury at the girl's fine clothes. Marius still does not know who she is." }
+    ],
+    "moments": [
+      { "chapter": 188, "text": "Noticed by Marius on a Luxembourg bench beside M. Leblanc." },
+      { "chapter": 189, "text": "Reappeared transformed into a beautiful young woman." },
+      { "chapter": 190, "text": "Exchanged a first glance with Marius." },
+      { "chapter": 196, "text": "Moved away with her father, leaving no address." },
+      { "chapter": 208, "text": "Came with M. Leblanc to the Jondrette garret." }
+    ]
+  },
+  {
+    "id": "petit-gervais",
+    "name": "Little Gervais",
+    "firstChapter": 27,
+    "importance": "supporting",
+    "group": "Jean Valjean and Cosette",
+    "aliases": [
+      { "name": "Petit-Gervais", "from": 27 }
+    ],
+    "tagline": [
+      { "from": 27, "text": "A little Savoyard whose forty-sou piece Jean Valjean put his foot on." },
+      { "from": 57, "text": "The child whose stolen coin makes Jean Valjean a second offender." },
+      { "from": 90, "text": "The boy whose robbery sent Jean Valjean back to the galleys for life." }
+    ],
+    "description": [
+      { "from": 27, "text": "A Savoyard of about ten with a hurdy-gurdy and a marmot box, who comes singing along a path on the plain outside Digne at sunset, tossing his few coins. When a forty-sou piece rolls to the convict sitting behind a bush, Valjean sets his foot on it. The boy asks politely for his money, gives his name, pleads and cries, and runs off in terror when the man reaches for his stick. Valjean sees what he has done only after the boy is gone, and shouts 'Little Gervais!' across the empty plain in vain." },
+      { "from": 57, "text": "The theft of his forty sous is what makes Valjean a repeat offender, liable to the galleys for life if he gives himself up. The coin itself has stayed with Valjean; on the night of the Champmathieu affair it glints among the ashes of his burned clothes." },
+      { "from": 65, "text": "At the Arras Assizes Valjean names him: he robbed the Bishop and he robbed Little Gervais, and the coin lies among the ashes of his fireplace." },
+      { "from": 70, "text": "Before fleeing Montreuil-sur-Mer, Valjean leaves the blackened coin on his table with a label saying it is the forty sous stolen from Little Gervais." },
+      { "from": 90, "text": "Retaken in 1823, Valjean is tried at the Var Assizes for highway robbery with violence on a little Savoyard eight years before, condemned to death, and sent to the galleys for life when the King commutes the sentence." }
+    ],
+    "moments": [
+      { "chapter": 27, "text": "Robbed of his forty-sou piece by Jean Valjean on the plain outside Digne." },
+      { "chapter": 65, "text": "Named by Valjean in court as one of his victims." },
+      { "chapter": 90, "text": "His robbery cost Valjean a life sentence." }
+    ]
+  },
+  {
+    "id": "toussaint",
+    "name": "Toussaint",
+    "firstChapter": 233,
+    "importance": "supporting",
+    "group": "Jean Valjean and Cosette",
+    "tagline": [
+      { "from": 233, "text": "The elderly, stammering maid of the house in the Rue Plumet." },
+      { "from": 295, "text": "The incurious maid who follows her master to the Rue de l'Homme Armé." },
+      { "from": 350, "text": "Cosette's lady's maid in the Gillenormand house." },
+      { "from": 357, "text": "Gone from the Gillenormand house after quarrelling with Nicolette." }
+    ],
+    "description": [
+      { "from": 233, "text": "Jean Valjean saved her from the hospital and from wretchedness, and chose her for three qualities: she is elderly, from the provinces, and a stammerer. She is the only servant of the hidden house in the Rue Plumet. She and Cosette live in the pavilion. She was told that the young lady is mistress of the house and that monsieur is something better than the master: the father." },
+      { "from": 234, "text": "When her butcher calls M. Fauchelevent a queer fish, she answers that he is a saint." },
+      { "from": 237, "text": "It is her remark to Valjean in the garden, that Cosette is growing pretty, that sends Cosette running to her mirror." },
+      { "from": 245, "text": "Asked whether the shutters are barred at night, she says she fastens them like a prison, then terrifies Cosette with talk of men who come in at night to cut lone women's throats. Hugo asks leave not to transcribe her stammer any further." },
+      { "from": 259, "text": "She sleeps early and knows nothing of Marius's nightly visits. The burglars at the gate see only her light in the attic as she hangs linen to dry." },
+      { "from": 295, "text": "She goes with Valjean and Cosette to the Rue de l'Homme Armé without curiosity, 'I do my work; the rest is no affair of mine', and stammers out the news that there is fighting in Paris, toward Saint-Merry. A National Guard uniform has been glimpsed among her packages." },
+      { "from": 346, "text": "She admires the two silver candlesticks when they reappear on Valjean's chimneypiece." },
+      { "from": 351, "text": "She passes to Cosette as lady's maid and dresses her for her wedding." },
+      { "from": 357, "text": "She assures the Gillenormands that monsieur has always been like that, but she cannot get on with their servant Nicolette, and leaves." }
+    ],
+    "moments": [
+      { "chapter": 237, "text": "Told Valjean that Cosette was growing pretty, in Cosette's hearing." },
+      { "chapter": 245, "text": "Searched the house from garret to cellar for Cosette's intruder." },
+      { "chapter": 295, "text": "Moved with the household to the Rue de l'Homme Armé." },
+      { "chapter": 351, "text": "Dressed Cosette for her wedding." },
+      { "chapter": 357, "text": "Left the Gillenormand house." }
+    ]
+  },
+  {
+    "id": "thenardier",
+    "name": "Thénardier",
+    "firstChapter": 37,
+    "importance": "major",
+    "group": "The Thénardiers",
+    "aliases": [
+      { "name": "the Sergeant of Waterloo", "from": 94, "note": "the name and sign of his tavern, after the general he claims to have saved" },
+      { "name": "Jondrette", "from": 220, "note": "his name at the Gorbeau house" },
+      { "name": "Fabantou", "from": 220, "note": "the ruined actor of his begging letter to M. Leblanc" },
+      { "name": "Genflot, Don Alvarès, Mistress Balizard", "from": 220, "note": "other signatures on his begging letters" },
+      { "name": "Thénard", "from": 363, "note": "the signature on his letter to Marius" }
+    ],
+    "tagline": [
+      { "from": 37, "text": "The innkeeper of Montfermeil who drives the bargain for Fantine's child." },
+      { "from": 38, "text": "An innkeeper who says he was a sergeant at Waterloo; a man one distrusts on sight." },
+      { "from": 53, "text": "Holding on to Cosette with invented bills, now that he smells money." },
+      { "from": 89, "text": "The Waterloo prowler who robbed a wounded officer and was thanked as his rescuer." },
+      { "from": 94, "text": "Innkeeper, swindler and scientific thief, who rules his huge wife with a look." },
+      { "from": 101, "text": "The man who sold Cosette to a stranger for fifteen hundred francs." },
+      { "from": 171, "text": "The 'sergeant who saved my life' commended to Marius in his father's last note." },
+      { "from": 220, "text": "Jondrette of the Gorbeau house, unmasked by his own mouth as the innkeeper of Montfermeil." },
+      { "from": 221, "text": "Caught by Javert in his own trap, and locked up in La Force." },
+      { "from": 251, "text": "Broken out of La Force, and brought down off a wall by his own son." },
+      { "from": 259, "text": "Faced down at the Rue Plumet gate by his daughter Éponine." },
+      { "from": 336, "text": "The man with the sewer key, who lets out a 'murderer' without knowing him." },
+      { "from": 349, "text": "Condemned to death in his absence, and vanished." },
+      { "from": 363, "text": "The blackmailer who came to damn Jean Valjean and proved him a hero." }
+    ],
+    "description": [
+      { "from": 37, "text": "In spring 1818 he is a man's voice from inside a failing cook-shop at Montfermeil, the Sergeant of Waterloo, when Fantine asks his wife to keep Cosette. He fixes the terms: seven francs a month, six months in advance, fifteen more for expenses. The money will cover a note due tomorrow; his daughters on the swing, he tells his wife, made a good mousetrap." },
+      { "from": 38, "text": "Hugo sketches him: one of a bastard class of coarse people who have risen a little and clever ones who have sunk, shadowy behind and threatening in front. He claims to have been a sergeant in 1815 and painted his inn sign himself to commemorate a feat of arms. The narrator reserves judgement on how much of it is true." },
+      { "from": 39, "text": "Once Fantine's money is gone he pawns the child's clothes and keeps raising the price, from seven francs to twelve, then to fifteen with a threat to send the child back once he learns she is illegitimate." },
+      { "from": 49, "text": "His letters to Montreuil-sur-Mer say Cosette is naked in the cold, then dying of a fever. Both are lies; Fantine sells her hair and then her front teeth to pay, and a last demand for a hundred francs drives her onto the streets." },
+      { "from": 53, "text": "When the mayor of Montreuil-sur-Mer sends three hundred francs and then three hundred more to bring Cosette to her mother, Thénardier scents a milch cow, invents bills for the child's illnesses, and keeps her." },
+      { "from": 89, "text": "On the night after Waterloo a prowler with a sutler's cart nearby strips the dead in the sunken road. Taking a buried cuirassier officer's ring, cross, watch and purse, he drags the man alive from under the corpses, and the officer, believing himself rescued, asks his name: 'Thénardier.' The officer's is Pontmercy." },
+      { "from": 91, "text": "In his tavern he and the schoolmaster ply the road-mender Boulatruelle with wine to learn what he has been digging for in the forest. Thénardier suspects something more solid than the devil's gold." },
+      { "from": 94, "text": "About fifty now, small, thin and sickly-looking but perfectly healthy, he smiles as a precaution, drops the names of Voltaire and Saint Augustine, and is a thief with a system. His tavern is named for the wounded general he claims to have carried out of the grapeshot at Waterloo; in fact he was one of the marauding sutlers who follow armies, and his capital came from the pockets of the dead. His giant wife seems the master, but he rules her with a word. In 1823 he owes fifteen hundred francs." },
+      { "from": 101, "text": "He takes the shabby stranger who arrives on Christmas Eve for a beggar and bills him twenty-three francs. When the man offers to take Cosette away, he protests that he adores the child, then names his price, fifteen hundred francs, and the stranger lays it on the table." },
+      { "from": 102, "text": "Stung by his wife's 'Is that all?', he runs after the pair to squeeze out more. The stranger shows a note in Fantine's hand ordering the child given to the bearer, reckons that Thénardier has already been overpaid, and sends him home with a look." },
+      { "from": 118, "text": "When the police come asking about the child taken from Montfermeil, he silences his wife, wary of drawing the law's eye to his own affairs, and describes a respectable 'grandfather'." },
+      { "from": 171, "text": "Colonel Pontmercy's last note asks his son Marius to do all the good he can to a sergeant named Thénardier who saved his life at Waterloo and now keeps an inn near Paris. Marius believes it; the reader knows what happened in the sunken road." },
+      { "from": 183, "text": "When Marius goes to Montfermeil to find him, the inn has failed and closed and no one knows where Thénardier has gone. For three years Marius has searched the villages for him in vain, and venerates his name beside his father's." },
+      { "from": 220, "text": "Jondrette, the begging-letter writer of the Gorbeau house, is Thénardier: he says so himself in his own trap. Since the inn failed he has lived in Paris under false names, Jondrette, Fabantou, Genflot, Don Alvarès, writing to the charitable and sending his daughters out with the letters. In the white-haired philanthropist he has recognised the man who carried off the Lark on Christmas Eve 1823, and with the Patron-Minette gang he means to extort two hundred thousand francs from him, with a red-hot chisel ready. The 'picture by a master' he offers for sale is his old inn sign. Behind the wall, Marius hears the name his father bequeathed him and cannot bring himself to fire." },
+      { "from": 221, "text": "Javert walks in. Thénardier's pistol misfires in his face, his wife hurls a paving-stone, and the whole gang is taken, while their victim slips out of the window." },
+      { "from": 229, "text": "He is in La Force, his wife at Saint-Lazare, his daughters at the Madelonettes. Every Monday Marius sends him five borrowed francs." },
+      { "from": 249, "text": "The narrator adds what became of the two sons born after 1823: the couple leased them to the woman Magnon in place of her own dead boys, so that M. Gillenormand would keep paying for them, and Thénardier drew ten francs a month for the loan. It was then that he became Jondrette." },
+      { "from": 251, "text": "On a stormy night he breaks out of the top-floor cages of La Force but is stranded on a ruined wall above the street, his rope too short. Montparnasse fetches Gavroche, who recognises his father and climbs a flue to tie the rope. Safe in the street, Thénardier asks only whom they are going to rob next, and never once turns toward the boy." },
+      { "from": 259, "text": "On 3 June he leads five of Patron-Minette to rob the house in the Rue Plumet. Éponine bars the gate and threatens to scream for the police, starting with her father; to his plea that they must eat she answers 'Burst!' The gang withdraws on Brujon's bad omens." },
+      { "from": 336, "text": "On 6 June he is hiding in the Grand Sewer with a key to the river outlet, a police agent waiting outside. When a mud-caked man arrives carrying a body, he does not recognise Jean Valjean, takes him for a murderer, pockets his thirty francs, tears a strip from the dead man's coat, and lets him out to throw his pursuer off his own trail." },
+      { "from": 337, "text": "The pursuer he dodged was Javert." },
+      { "from": 349, "text": "His wife has died in prison awaiting trial. As ringleader of the Gorbeau ambush he has been condemned to death in his absence, and he has sunk out of sight with Azelma; Marius's agents cannot find him." },
+      { "from": 350, "text": "On the wedding day, masked as an old Spaniard on a carnival cart, he recognises the old man with his arm in a sling in the bride's carriage and orders Azelma to find out where the wedding is going." },
+      { "from": 363, "text": "Disguised in a hired diplomat's suit, he calls on Marius as 'Thénard' to sell him the secret that Jean Valjean is a thief and murderer, and proves the reverse: newspapers show Valjean was M. Madeleine and that Javert killed himself, and the strip of coat he tore in the sewer fits the bloodstained coat Marius flings on the floor. Marius pays him to disappear. Two days later he sails for America with Azelma and twenty thousand francs, and sets up there as a slave-dealer." },
+      { "from": 364, "text": "Dying, Valjean asks Cosette to forgive the Thénardiers." }
+    ],
+    "moments": [
+      { "chapter": 37, "text": "Fixed the price for keeping Cosette: fifty-seven francs in advance." },
+      { "chapter": 49, "text": "Lied that Cosette was sick, and Fantine sold her teeth to pay him." },
+      { "chapter": 53, "text": "Kept Cosette despite the mayor's money, inventing bills." },
+      { "chapter": 89, "text": "Robbed the wounded Colonel Pontmercy at Waterloo and was thanked for saving him." },
+      { "chapter": 101, "text": "Sold Cosette to the stranger for fifteen hundred francs." },
+      { "chapter": 171, "text": "Commended to Marius in Colonel Pontmercy's last note." },
+      { "chapter": 220, "text": "Unmasked himself as Thénardier in the Gorbeau trap." },
+      { "chapter": 221, "text": "Arrested by Javert with the Patron-Minette gang." },
+      { "chapter": 251, "text": "Escaped from La Force with Gavroche's help." },
+      { "chapter": 259, "text": "Turned back from the Rue Plumet by Éponine." },
+      { "chapter": 336, "text": "Let Jean Valjean and Marius out of the sewer." },
+      { "chapter": 349, "text": "Condemned to death in his absence." },
+      { "chapter": 363, "text": "Told Marius the truth by mistake, and left for America." }
+    ]
+  },
+  {
+    "id": "madame-thenardier",
+    "name": "Madame Thénardier",
+    "firstChapter": 37,
+    "importance": "major",
+    "group": "The Thénardiers",
+    "aliases": [
+      { "name": "Madame Jondrette", "from": 220, "note": "her name at the Gorbeau house" },
+      { "name": "the Thénardier woman", "from": 94 }
+    ],
+    "tagline": [
+      { "from": 37, "text": "The innkeeper's wife at Montfermeil, swinging her two little girls, who agrees to keep Cosette." },
+      { "from": 39, "text": "Cosette's tormentor, who adores her own daughters and hates the stranger's child." },
+      { "from": 94, "text": "A bearded giantess who does all the work and fears only her husband." },
+      { "from": 220, "text": "The Gorbeau garret's Madame Jondrette: Thénardier's wife and his accomplice in the trap." },
+      { "from": 221, "text": "Taken by Javert after hurling a paving-stone at him; in Saint-Lazare." },
+      { "from": 249, "text": "The mother who gave away her two youngest sons for money." },
+      { "from": 349, "text": "Dead in prison, awaiting trial." }
+    ],
+    "description": [
+      { "from": 37, "text": "Outside the cook-shop at Montfermeil she swings her two little girls in the loop of a cart chain, humming a romance. Sandy-complexioned, thin and angular, barely thirty, she has the look of a soldier's wife with a languishing air borrowed from novels. It is the sight of her happy daughters that makes Fantine beg her to keep Cosette." },
+      { "from": 38, "text": "Twelve or fifteen years younger than her husband, she is just literate enough to devour the cheap romances of the day: a Pamela, Hugo says, with a Megaera underneath. The novels gave her daughters their names, Éponine and Azelma." },
+      { "from": 39, "text": "She adores her own girls and therefore hates the stranger's child, who takes blows that might otherwise fall on them. She dresses Cosette in rags, feeds her under the table with the dog and cat, beats her, and has made her the household drudge before she is five." },
+      { "from": 94, "text": "Nearing forty, she has become a colossus of the fairground: tall, blond, red, fat and square, bearded, swearing splendidly, able to crack a nut with her fist. She does all the work with Cosette as her only servant, a mouse in the service of an elephant. Everyone takes her for the master, but she adores and fears her husband. Her mothering stops at her daughters and does not reach to boys." },
+      { "from": 95, "text": "On Christmas Eve she catches Cosette in a lie about the peddler's horse and sends her out into the black night with a bucket for water." },
+      { "from": 100, "text": "She takes the shabby stranger for a beggar, reaches for the whip over Cosette's lost coin, and seethes when he buys the girl her freedom to play and the great doll from the stall." },
+      { "from": 102, "text": "She is delighted to be rid of Cosette until she sees what the stranger paid. Her 'Is that all?' sends her husband running after them." },
+      { "from": 220, "text": "Madame Jondrette, the huge wife crouched by the dead fire of the Gorbeau garret, is Madame Thénardier. When her husband recognised the charitable young lady as 'that beggar brat' of Montfermeil she raged at the girl's fine clothes while her own daughters went barefoot. In the trap she winds her hands in the prisoner's hair, carries his letter to a false address, and comes back furious at being duped, ready to cut his throat." },
+      { "from": 221, "text": "When Javert appears she shields her husband with her shawl and lifts a huge paving-stone over her head like a giantess. Javert ducks it and takes her by the shoulder. Handcuffed, she weeps for her daughters." },
+      { "from": 222, "text": "She is in Saint-Lazare." },
+      { "from": 249, "text": "She had two more sons after 1823 and, a mother to her daughters only, detested Gavroche and cursed the little ones. While they were still small she handed them to the woman Magnon to pass for Magnon's own dead boys, so that M. Gillenormand's money would keep coming. She felt, or seemed to feel, one scruple that evening; her husband cauterised it." },
+      { "from": 349, "text": "She has died in prison before her trial." }
+    ],
+    "moments": [
+      { "chapter": 37, "text": "Agreed to keep Cosette for Fantine." },
+      { "chapter": 39, "text": "Dressed Cosette in rags and set her to work." },
+      { "chapter": 95, "text": "Sent Cosette to the forest spring alone on Christmas Eve." },
+      { "chapter": 102, "text": "Asked 'Is that all?' when Cosette was sold." },
+      { "chapter": 221, "text": "Threw a paving-stone at Javert and was arrested." },
+      { "chapter": 249, "text": "Revealed to have handed her two youngest sons to Magnon." },
+      { "chapter": 349, "text": "Died in prison." }
+    ]
   }
 ]

@@ -1,0 +1,2072 @@
+[
+  {
+    "id": "marius",
+    "name": "Marius",
+    "firstChapter": 159,
+    "importance": "major",
+    "group": "Marius and his friends",
+    "aliases": [
+      {
+        "name": "M. Marius",
+        "from": 159,
+        "note": "how he is known at the Gorbeau house"
+      },
+      {
+        "name": "Marius Pontmercy",
+        "from": 169
+      },
+      {
+        "name": "the Baron Marius Pontmercy",
+        "from": 173,
+        "note": "the title his father left him; printed on his visiting cards"
+      },
+      {
+        "name": "Monsieur l'Abbé",
+        "from": 188,
+        "note": "Courfeyrac's teasing name for him, for his shyness with women"
+      }
+    ],
+    "tagline": [
+      {
+        "from": 159,
+        "text": "A very poor young man, known as M. Marius, who lodges next to the Jondrettes in the Gorbeau house."
+      },
+      {
+        "from": 169,
+        "text": "M. Gillenormand's grandson, kept from his father, Colonel Pontmercy, and raised a Royalist."
+      },
+      {
+        "from": 173,
+        "text": "The colonel's son, converted at a stroke to his dead father and to Napoleon."
+      },
+      {
+        "from": 178,
+        "text": "Turned out by his grandfather, a poor 'democrat-Bonapartist' among the Friends of the A.B.C."
+      },
+      {
+        "from": 193,
+        "text": "A shy young lawyer hopelessly in love with the girl he watches in the Luxembourg."
+      },
+      {
+        "from": 220,
+        "text": "The neighbour who watched his father's 'saviour', Thénardier, spring a trap on the father of the girl he loves."
+      },
+      {
+        "from": 248,
+        "text": "Cosette's lover, meeting her by night in the garden of the Rue Plumet."
+      },
+      {
+        "from": 291,
+        "text": "The young man who saved the barricade with a torch over a barrel of powder, and came there to die."
+      },
+      {
+        "from": 343,
+        "text": "Recovering from the barricade at his grandfather's, with no idea who carried him there."
+      },
+      {
+        "from": 350,
+        "text": "Married to Cosette on Shrove Tuesday, 1833."
+      },
+      {
+        "from": 363,
+        "text": "The husband who has learned, too late, that Jean Valjean saved his life."
+      }
+    ],
+    "description": [
+      {
+        "from": 159,
+        "text": "A very poor young man known in the Gorbeau house as M. Marius, who has the cell at the end of the corridor next to the Jondrettes. Hugo stops to explain who he is, and goes back a generation to do it."
+      },
+      {
+        "from": 169,
+        "text": "The boy in M. Gillenormand's house is Marius, son of the old man's younger daughter and her despised husband, Georges Pontmercy, a colonel of the Empire made baron at Waterloo and now on half-pay at Vernon. The grandfather took the child on pain of disinheriting him. Marius knows he has a father and nothing more. The colonel comes to Paris every two or three months to watch him in secret at mass at Saint-Sulpice."
+      },
+      {
+        "from": 170,
+        "text": "His world is Madame de T.'s ultra-Royalist salon, a gathering of aged aristocrats and priests. He grows up grave, a fanatical Royalist, cool towards his grandfather and gloomy about his father."
+      },
+      {
+        "from": 171,
+        "text": "In 1827, at seventeen, he is sent to Vernon and finds the colonel dead: he had risen in delirium to meet the son who had not come. Marius feels a stranger's grief. He keeps a note in which the colonel leaves him the title of baron and bids him do all the good he can to a sergeant named Thénardier, who, the note says, saved his life at Waterloo. In three days he has forgotten his father."
+      },
+      {
+        "from": 172,
+        "text": "At Saint-Sulpice the old churchwarden M. Mabeuf explains why he loves a certain chair: from it he watched a poor father hide behind a pillar for ten years and weep over the son he was forbidden to see. 'Pontmercy,' says Marius, turning pale. 'He was my father.' He asks his grandfather for leave to go away hunting for three days."
+      },
+      {
+        "from": 173,
+        "text": "He devours the history of the Republic and the Empire and comes to adore the father he neglected, then, after a long struggle, Napoleon. He turns republican and Bonapartist and has cards printed reading 'Le Baron Marius Pontmercy'. He cools towards his grandfather, searches Montfermeil in vain for Thénardier, and wears the colonel's note in a medallion on a black ribbon."
+      },
+      {
+        "from": 175,
+        "text": "Lieutenant Théodule, sent to spy on him, finds him weeping on his father's grave. At home the grandfather finds the medallion and the cards. The quarrel ends with Marius shouting 'Down with the Bourbons!' and the old man ordering him out. He leaves with thirty francs, and loses the medallion on the stairs."
+      },
+      {
+        "from": 177,
+        "text": "Outside the Café Musain a stranger, Laigle, called Bossuet, hails his cab: he answered for Marius at roll-call at the law school and was struck off in his place. Courfeyrac takes the homeless young man to lodge beside him."
+      },
+      {
+        "from": 178,
+        "text": "He calls himself a 'democrat-Bonapartist' and is presented to the Friends of the A.B.C. as 'a pupil'. Their free, mocking talk shakes the convictions he thought he had just fixed. None of them says 'the Emperor'."
+      },
+      {
+        "from": 180,
+        "text": "When Enjolras calls Waterloo the expiation of a crime, Marius bursts into a hymn to Napoleon: what is greater than to be the Empire of such an Emperor? 'To be free,' says Combeferre, and leaves singing. Enjolras lays a hand on his shoulder: 'Citizen, my mother is the Republic.'"
+      },
+      {
+        "from": 181,
+        "text": "Shaken and alone, he stops going to the Musain. He sells his clothes and gold watch to pay his hotel and sends back every sum his aunt tries to give him."
+      },
+      {
+        "from": 182,
+        "text": "He learns poverty: days without bread, a cutlet made to last three days, a borrowed green coat worn only after dark so that it passes for black. He is admitted as a lawyer but never pleads. He writes coldly to tell his grandfather, who tears up the letter."
+      },
+      {
+        "from": 183,
+        "text": "He settles into a fireless room in the Gorbeau house on seven hundred francs a year of hack work for a publisher, dines at Rousseau's for sixteen sous and never owes a sou. Beside his father's name he venerates that of Thénardier, the sergeant of Waterloo, whom he has sought for three years."
+      },
+      {
+        "from": 184,
+        "text": "At twenty he is glad to suffer for his father's sake. He leans too far into reverie, and refuses a publisher's offer of fifteen hundred francs a year to keep his liberty. He has two friends, Courfeyrac and old M. Mabeuf, who 'operated on me for a cataract'. He has not quite joined Enjolras's group."
+      },
+      {
+        "from": 186,
+        "text": "His politics cool into sympathies after 1830. Learning that his neighbours, the wretched Jondrettes, are to be turned out for twenty francs of rent, he pays it in secret and adds five francs for them."
+      },
+      {
+        "from": 188,
+        "text": "For a year he has noticed, in a quiet alley of the Luxembourg, a white-haired man of about sixty and a plain, thin girl of thirteen or fourteen, whom Courfeyrac has named M. Leblanc and Mlle Lanoire. He finds the man agreeable and the girl insipid."
+      },
+      {
+        "from": 193,
+        "text": "After six months away he finds the girl grown beautiful. Their eyes meet. He buys a new coat, hat and gloves, haunts the alley for a fortnight without daring to approach, and when she gazes at him in passing he is desperately in love."
+      },
+      {
+        "from": 196,
+        "text": "He hides behind trees and statues to be seen by her and not by her father, worships a handkerchief marked U. F. as hers ('Ursule'), and follows them home to the Rue de l'Ouest, where he questions the porter. The pair stop coming to the Luxembourg and move away without leaving an address."
+      },
+      {
+        "from": 205,
+        "text": "Through autumn and winter he searches Paris in vain. On Candlemas evening he picks up a packet dropped by two ragged girls: four begging letters in one hand. The next morning the elder Jondrette girl brings him another, and leaves with his last five francs. Ashamed of having ignored such misery beyond his wall, he finds a hole near the ceiling and looks into the Jondrettes' garret."
+      },
+      {
+        "from": 214,
+        "text": "Through the hole he sees the philanthropist Jondrette has been writing to arrive: M. Leblanc, with the girl of the Luxembourg. He has too little money to follow their cab. Then he hears Jondrette tell his wife that he recognises the visitor and will 'fix him' at six. He goes to the police in the Rue de Pontoise, where Inspector Javert takes his passkey and gives him two pistols, to fire into the ceiling when the crime is about to be committed, and not too soon."
+      },
+      {
+        "from": 220,
+        "text": "From behind the wall he hears Jondrette declare himself Thénardier, the innkeeper of Montfermeil: the man his father's note told him to repay. Torn between that duty and the bound prisoner, he cannot fire. He hears Thénardier call the prisoner's daughter 'the Lark'. At the last moment he throws the elder girl's scrawl 'The bobbies are here' through the hole, and Javert walks in."
+      },
+      {
+        "from": 229,
+        "text": "He leaves the next morning for a mattress on Courfeyrac's floor in the Rue de la Verrerie, to avoid Javert and the trial. Every Monday he has five borrowed francs handed in for Thénardier at La Force. He drifts daily to a lonely field by the Gobelins that a passer-by called 'the Lark's meadow'."
+      },
+      {
+        "from": 232,
+        "text": "Éponine finds him there: she has the young lady's address and will take him to it. He makes her swear not to give it to her father, and in his joy does not see her grief. She lets the five francs he offers fall to the ground."
+      },
+      {
+        "from": 248,
+        "text": "Through Éponine he has found a house in the Rue Plumet, watched its garden by night, and left a notebook of love under a stone on the girl's bench. One evening he stands behind her there, bareheaded and pale. She faints into his arms, they kiss, and only at the end exchange names: Marius, Cosette."
+      },
+      {
+        "from": 258,
+        "text": "Through May 1832 he slips through a loose bar every evening to sit with her in the garden. Their love is chaste and dazed. He learns that her real name is Euphrasie, forgets to tell her about the Gorbeau ambush, and will not give Courfeyrac her name."
+      },
+      {
+        "from": 262,
+        "text": "When Cosette says her father is taking her to England, he swears he will die if she goes and scratches his address on the garden wall. He calls on his grandfather for the first time in four years to ask leave to marry Mlle Fauchelevent. The old man advises him to make her his mistress instead, and Marius leaves with a farewell."
+      },
+      {
+        "from": 264,
+        "text": "He wanders a night and a day and pockets Javert's two loaded pistols. On the evening of 5 June he finds the Rue Plumet house shuttered and empty, and resolves to die. A voice like Éponine's calls through the trees that his friends are waiting for him at the barricade of the Rue de la Chanvrerie."
+      },
+      {
+        "from": 287,
+        "text": "He crosses the dark insurgent quarter to the edge of the barricade and sits on a post, thinking of his father. Civil war seems a desecration of the colonel's sword, until he reasons that there is only just and unjust war."
+      },
+      {
+        "from": 291,
+        "text": "When Mabeuf is shot, Bahorel killed and Gavroche about to be bayoneted, he leaps in and fires both pistols, saving the boy and Courfeyrac. A young workman's hand blocks a gun aimed at him; he hardly notices. He seizes the barrel of powder, holds a torch over it and threatens to blow up the barricade with himself in it. The troops flee."
+      },
+      {
+        "from": 292,
+        "text": "Enjolras names him chief. He does not even see Javert bound to his post. Everything seems a nightmare he must make an effort to believe real."
+      },
+      {
+        "from": 294,
+        "text": "At the little barricade he finds Éponine dying in men's clothes. It was her hand on the muzzle. She tells him she led him there to die, gives him a letter she kept from him, and asks for a kiss on her brow when she is dead. The letter is Cosette's: 7 Rue de l'Homme Armé, and England in a week. He writes her a farewell, writes his name and his grandfather's address in his pocketbook, and sends Gavroche off with the letter, to save the boy too."
+      },
+      {
+        "from": 304,
+        "text": "Half dead to himself already, he helps send the fathers of families away. When a fifth uniform falls on the pile he recognises M. Fauchelevent, and does not ask why he has come."
+      },
+      {
+        "from": 315,
+        "text": "He runs out too late for Gavroche and carries the boy's body back, grazed by a bullet himself, thinking that Thénardier brought his father back alive and he brings Thénardier's son back dead."
+      },
+      {
+        "from": 317,
+        "text": "Seeing the bound spy by daylight, he recognises the inspector who gave him his pistols and asks his name: Javert. At that moment he hears a shot from the lane, and M. Fauchelevent comes back saying 'It is done.'"
+      },
+      {
+        "from": 320,
+        "text": "He holds one end of the barricade with half his body above the wall, his face lost in blood. When the centre gives way a shot breaks his collarbone, and as he faints he feels a strong hand seize him from behind."
+      },
+      {
+        "from": 322,
+        "text": "The hand was Jean Valjean's. He carries the unconscious Marius into the sheltered angle where Éponine died, and down through an iron grating into the sewer."
+      },
+      {
+        "from": 337,
+        "text": "On Valjean's shoulders he crosses the sewers, the fontis and the locked outlet, where Thénardier tears a strip from his coat. Javert, waiting outside, reads the address in his pocketbook and drives them to the Rue des Filles-du-Calvaire."
+      },
+      {
+        "from": 340,
+        "text": "Laid on a sofa at his grandfather's, he is grave but not beyond hope. The old man, believing him dead, pours out his love and rage, and when Marius opens his eyes he faints for joy."
+      },
+      {
+        "from": 343,
+        "text": "For four months he lies in fever, calling for Cosette. His illness shields him from prosecution. A white-haired gentleman calls daily with lint. He remembers the barricade as a cloud of shadows, cannot explain M. Fauchelevent's passage through it, and knows only that he was brought home at night in a cab. Cold to his grandfather's adoration, he makes ready to fight him for Cosette."
+      },
+      {
+        "from": 344,
+        "text": "'I wish to marry.' 'Agreed,' says the grandfather, who has already found Cosette through the old gentleman who calls every day. They weep in each other's arms, and Marius calls him 'father' for the first time."
+      },
+      {
+        "from": 349,
+        "text": "Cosette comes daily with M. Fauchelevent, who brings her a dowry of six hundred thousand francs. With a four-month hole in his memory, Marius decides the Fauchelevent of the barricade was a dream when the man says he does not know the street. He searches in vain for two men: Thénardier, to pay his father's debt, and the stranger who carried him through the sewer. He swears he would give all Cosette's fortune to find that man. Fauchelevent says nothing."
+      },
+      {
+        "from": 351,
+        "text": "He marries Cosette on Shrove Tuesday, 16 February 1833, the barricade's scars pale under his curls. At the banquet M. Fauchelevent's chair stands empty, and the grandfather puts Marius in it beside his bride."
+      },
+      {
+        "from": 354,
+        "text": "The morning after the wedding Fauchelevent shows him an uninjured thumb and tells him he is the ex-convict Jean Valjean, and nothing to Cosette. Marius promises silence, coldly agrees he had better not see her, then relents and tells him to come every evening."
+      },
+      {
+        "from": 355,
+        "text": "Turning it over, he admires the returned fortune and the free confession, but decides Valjean fled the Gorbeau garret as a fugitive and went to the barricade to kill Javert. He recoils, and does not ask the questions whose answers he fears."
+      },
+      {
+        "from": 360,
+        "text": "He eases 'Monsieur Jean' out of the house, puts himself between him and Cosette, and refuses to touch the money after a former Laffitte clerk tells him something he cannot probe. He takes Cosette to his father's grave at Vernon."
+      },
+      {
+        "from": 363,
+        "text": "Thénardier comes in disguise to sell him a secret and proves the opposite: Valjean was M. Madeleine, Javert killed himself, and the man who carried a body through the sewer was Valjean. Marius fits the torn strip to his own bloodstained coat, pays Thénardier off to America, and rushes with Cosette to the Rue de l'Homme Armé."
+      },
+      {
+        "from": 364,
+        "text": "He begs Valjean's forgiveness, tells Cosette that this man saved his life and gave her to him, and kneels with her under the old man's hands as he dies."
+      }
+    ],
+    "moments": [
+      {
+        "chapter": 171,
+        "text": "Arrived at Vernon too late; kept his father's note about Thénardier."
+      },
+      {
+        "chapter": 172,
+        "text": "Learned from M. Mabeuf how his father watched him in secret at Saint-Sulpice."
+      },
+      {
+        "chapter": 175,
+        "text": "Shouted 'Down with the Bourbons!' and was turned out by his grandfather."
+      },
+      {
+        "chapter": 180,
+        "text": "Defended Napoleon before the Friends of the A.B.C.: 'To be free,' answered Combeferre."
+      },
+      {
+        "chapter": 186,
+        "text": "Paid the Jondrettes' rent in secret."
+      },
+      {
+        "chapter": 193,
+        "text": "Fell in love with the girl of the Luxembourg."
+      },
+      {
+        "chapter": 205,
+        "text": "Found the hole in the wall into the Jondrettes' garret."
+      },
+      {
+        "chapter": 214,
+        "text": "Took two pistols from Inspector Javert to spring the trap."
+      },
+      {
+        "chapter": 220,
+        "text": "Could not fire on Thénardier; threw in the note 'The bobbies are here'."
+      },
+      {
+        "chapter": 248,
+        "text": "Met Cosette in the Rue Plumet garden; they kissed and exchanged names."
+      },
+      {
+        "chapter": 262,
+        "text": "Asked his grandfather's leave to marry and was refused."
+      },
+      {
+        "chapter": 264,
+        "text": "Found the Rue Plumet house empty and was called to the barricade."
+      },
+      {
+        "chapter": 291,
+        "text": "Saved Gavroche and Courfeyrac, then drove off the assault with a torch over the powder."
+      },
+      {
+        "chapter": 293,
+        "text": "Held the dying Éponine and took Cosette's letter from her."
+      },
+      {
+        "chapter": 294,
+        "text": "Sent Gavroche away with his farewell letter to Cosette."
+      },
+      {
+        "chapter": 320,
+        "text": "Fell at the barricade with a broken collarbone, seized by an unknown hand."
+      },
+      {
+        "chapter": 340,
+        "text": "Opened his eyes at his grandfather's house."
+      },
+      {
+        "chapter": 344,
+        "text": "Won his grandfather's consent and called him 'father'."
+      },
+      {
+        "chapter": 350,
+        "text": "Married Cosette."
+      },
+      {
+        "chapter": 354,
+        "text": "Heard Jean Valjean confess that he is an ex-convict."
+      },
+      {
+        "chapter": 363,
+        "text": "Matched the strip of cloth to his coat and learned who saved him."
+      },
+      {
+        "chapter": 364,
+        "text": "Brought Cosette to Jean Valjean's deathbed."
+      }
+    ]
+  },
+  {
+    "id": "mabeuf",
+    "name": "Monsieur Mabeuf",
+    "firstChapter": 169,
+    "importance": "supporting",
+    "group": "Marius and his friends",
+    "aliases": [
+      {
+        "name": "Father Mabeuf",
+        "from": 231
+      },
+      {
+        "name": "the member of the Convention",
+        "from": 289,
+        "note": "what the insurgents take him for when he climbs the barricade"
+      }
+    ],
+    "tagline": [
+      {
+        "from": 169,
+        "text": "Churchwarden of Saint-Sulpice, brother of the curé of Vernon, and friend of Colonel Pontmercy."
+      },
+      {
+        "from": 172,
+        "text": "The old churchwarden who told Marius how his father watched him in secret."
+      },
+      {
+        "from": 185,
+        "text": "A gentle old botanist and book-collector, sliding quietly into poverty."
+      },
+      {
+        "from": 265,
+        "text": "Ruined, his last book sold, an old man who walks out towards the shooting."
+      },
+      {
+        "from": 274,
+        "text": "The silent old man marching unarmed with Enjolras's band."
+      },
+      {
+        "from": 289,
+        "text": "Shot dead raising the red flag on the barricade; his coat became its flag."
+      }
+    ],
+    "description": [
+      {
+        "from": 169,
+        "text": "A churchwarden at Saint-Sulpice whose brother, the Abbé Mabeuf, is curé at Vernon. For years he noticed a manly stranger weeping behind a pillar at mass. Meeting him on the bridge at Vernon, he and the curé befriended him and learned his story: Colonel Pontmercy, sacrificing himself for his son's future."
+      },
+      {
+        "from": 172,
+        "text": "He reclaims his chair from a young man at Saint-Sulpice, and after mass explains why he loves it: from there he watched a poor father come for ten years to gaze at the child he was forbidden to see. When the young man says 'Pontmercy... he was my father', the old man clasps his hands."
+      },
+      {
+        "from": 185,
+        "text": "He approves of all political opinions, provided they leave him in peace. He is a bouquinist and a gardener, who bred new pears and dreams of growing indigo in France. He went to mass from gentleness and once answered, asked whether he had ever married, that he had forgotten. His Flora of the Environs of Cauteretz kept him; the sight of a gun chills his blood. Around 1830 his brother dies, a notary's failure takes their ten thousand francs, and the Flora stops selling. He moves with his housekeeper, Mother Plutarque, to a thatched cottage with a garden at Austerlitz, near the Salpêtrière."
+      },
+      {
+        "from": 186,
+        "text": "Marius's one old friend, the candle rather than the hand that brought him the knowledge of his father. He understands nothing of the young man's politics and talks of the colonel's battles from the point of view of flowers."
+      },
+      {
+        "from": 231,
+        "text": "Nearly eighty, he lives on two eggs a day and leaves one for his unpaid servant. His indigo has failed and his plates are pawned. One dry evening he has not the strength to unhook the well-chain for his drooping rhododendron, when a barefoot girl springs from the hedge and waters the whole garden. She asks only where M. Marius lives. He sends her to the Lark's meadow and half believes she was a goblin."
+      },
+      {
+        "from": 242,
+        "text": "Mother Plutarque lists their debts; he answers each with 'there is the sun' or 'there are apples'. That night a purse lands on his foot over the hedge. She says it fell from heaven."
+      },
+      {
+        "from": 265,
+        "text": "Unable to believe a star could coin itself into louis, he hands the purse to the police as lost property. The plates of his Flora go for stewpans and the text for waste paper. He sells his rare books one by one for bread, saying 'But I am eighty', as if hoping to reach the end of his days before the end of his books. When Mother Plutarque falls ill he sells the last, a Diogenes Laertius of 1644, and lays the hundred francs on her nightstand without a word. The next afternoon, hearing of fighting near the Arsenal, he puts on his hat, feels for a book that is no longer there, and goes out."
+      },
+      {
+        "from": 275,
+        "text": "Courfeyrac, who knows him from walking Marius to his door, meets him hatless in the rain among the bullets and tells him there will be fighting. 'That is good.' They are going to fling the government to the earth. 'That is good.' He follows them in silence, refusing every weapon offered, and the rumour spreads that he is an old regicide of the Convention."
+      },
+      {
+        "from": 289,
+        "text": "He sits silent behind Corinthe's counter for hours. When the first volley cuts down the flag and no one will raise it again, he takes it from Enjolras and climbs the barricade, an eighty-year-old man with shaking head and firm foot, while the insurgents cry 'Off with your hats!' He shouts 'Long live the Republic!' and falls under the second volley. Courfeyrac whispers that he was no regicide, only a brave old blockhead. 'The head of a blockhead and the heart of a Brutus,' says Enjolras, who kisses his brow and holds up his bullet-torn coat: 'This is our flag now.'"
+      },
+      {
+        "from": 300,
+        "text": "He lies under the widow Hucheloup's black shawl on the taproom table through the night, opposite the bound Javert. Enjolras fastens his coat to the broken omnibus pole as the barricade's flag."
+      },
+      {
+        "from": 315,
+        "text": "Gavroche is laid beside him under the same shawl; there is enough of it for the old man and the child."
+      },
+      {
+        "from": 320,
+        "text": "Before the last fight Enjolras kisses the old man's hand where it hangs to the floor: the only two kisses of his life."
+      }
+    ],
+    "moments": [
+      {
+        "chapter": 172,
+        "text": "Told Marius about the father who wept behind the pillar."
+      },
+      {
+        "chapter": 185,
+        "text": "Lost his savings and moved to a cottage at Austerlitz."
+      },
+      {
+        "chapter": 231,
+        "text": "Had his garden watered by a mysterious girl and sent her to Marius."
+      },
+      {
+        "chapter": 265,
+        "text": "Sold his last book, then walked out towards the riot."
+      },
+      {
+        "chapter": 275,
+        "text": "Joined the insurgents' march: 'That is good.'"
+      },
+      {
+        "chapter": 289,
+        "text": "Planted the flag on the barricade and was shot."
+      }
+    ]
+  },
+  {
+    "id": "mother-plutarque",
+    "name": "Mother Plutarque",
+    "firstChapter": 185,
+    "importance": "minor",
+    "group": "Marius and his friends",
+    "tagline": [
+      {
+        "from": 185,
+        "text": "M. Mabeuf's old housekeeper, a moustached spinster with a cat called Sultan."
+      },
+      {
+        "from": 265,
+        "text": "The sick old servant for whom Mabeuf sold his last book."
+      }
+    ],
+    "description": [
+      {
+        "from": 185,
+        "text": "An innocent old spinster with a moustache, whom M. Mabeuf nicknamed Mother Plutarque. She can read, spends her Sundays counting her linen, and follows her master into poverty at Austerlitz, where he tells her 'We have the indigo!' and she reads him romances aloud."
+      },
+      {
+        "from": 242,
+        "text": "Unpaid for more than a year, she lists their debts to him in the garden: three quarters' rent, no wood, no credit at butcher or baker. When a purse drops over the hedge onto his foot, she pronounces that it has fallen from heaven."
+      },
+      {
+        "from": 265,
+        "text": "When she says there is no money for dinner, Mabeuf begins to sell his books. Then she falls ill, the doctor orders a costly potion and a nurse, and he sells the last of them and lays the hundred francs on her nightstand."
+      }
+    ],
+    "moments": [
+      {
+        "chapter": 242,
+        "text": "Declared that the purse had fallen from heaven."
+      },
+      {
+        "chapter": 265,
+        "text": "Fell ill; Mabeuf sold his last book to pay for her care."
+      }
+    ]
+  },
+  {
+    "id": "enjolras",
+    "name": "Enjolras",
+    "firstChapter": 176,
+    "importance": "major",
+    "group": "The Friends of the A.B.C.",
+    "tagline": [
+      {
+        "from": 176,
+        "text": "Chief of the Friends of the A.B.C., beautiful, chaste and pitiless for the Republic."
+      },
+      {
+        "from": 228,
+        "text": "The leader quietly counting his forces across Paris for a coming rising."
+      },
+      {
+        "from": 274,
+        "text": "Leader of the armed band that builds the barricade of the Rue de la Chanvrerie."
+      },
+      {
+        "from": 284,
+        "text": "The barricade's judge, who executed a murderer among his own men."
+      },
+      {
+        "from": 303,
+        "text": "The prophet of the barricade, defending a lost position to the end."
+      },
+      {
+        "from": 321,
+        "text": "Shot by a firing squad in Corinthe, with Grantaire at his side."
+      }
+    ],
+    "description": [
+      {
+        "from": 176,
+        "text": "An only son, and wealthy. Angelically handsome, twenty-two and looking seventeen, he is a priest and soldier of the ideal who seems to have lived through the Revolution in some earlier life. He has one passion, the right, and no eye for women; in the Convention he would have been Saint-Just. Combeferre is the group's guide, Courfeyrac its centre; Enjolras is its chief. He disdains the drunken sceptic Grantaire, who adores him."
+      },
+      {
+        "from": 178,
+        "text": "When Courfeyrac jokes about Rousseau sending his children to the foundlings, Enjolras cuts him short: Rousseau denied his children, perhaps, but he adopted the people. He pronounces the name Buonaparte."
+      },
+      {
+        "from": 180,
+        "text": "He calls Waterloo the crime and its expiation, and answers Marius's Napoleon with 'France is great because she is France.' Left alone with him, he lays a hand on his shoulder: 'Citizen, my mother is the Republic.'"
+      },
+      {
+        "from": 228,
+        "text": "Foreseeing a catastrophe, he takes a secret census in the back room of the Musain, sending each friend to sound a group of possible fighters, and keeps the Cougourde of Aix for himself. He doubts Grantaire can warm the workmen of the Barrière du Maine, gravely lets him try, and later finds him playing dominoes."
+      },
+      {
+        "from": 274,
+        "text": "On 5 June he leads an armed band through the Marais with a double-barrelled hunting-gun. When Bahorel tears down the Archbishop's Lenten notice, he rebukes him: the Archbishop is not the enemy, and one does not fire out of the ranks with the soul any more than with a gun."
+      },
+      {
+        "from": 279,
+        "text": "Standing on the crest of the new barricade, he orders the drunken Grantaire off it: this is the place for enthusiasm, not drunkenness. 'Grantaire, you are incapable of believing, of thinking, of willing, of living, and of dying.' 'You will see.'"
+      },
+      {
+        "from": 283,
+        "text": "Told by Gavroche that the tall recruit from the Rue des Billettes is a police spy, he has him seized and bound to the post, and tells him he will be shot ten minutes before the barricade is taken. 'Spy, we are judges and not assassins.'"
+      },
+      {
+        "from": 284,
+        "text": "When a drunken recruit, Le Cabuc, shoots an old porter dead at his window, Enjolras forces him to his knees, gives him one minute to pray, and shoots him through the head. Insurrection must have its discipline, he tells the barricade: he has judged the man, and has judged himself too. He uses death and hates it, so that the day may come when the human race loves."
+      },
+      {
+        "from": 289,
+        "text": "'Who goes there?' 'The French Revolution!' When the flag falls and no one will raise it, old Mabeuf takes it from his hands and dies on the crest. Enjolras kisses his brow and makes his bloodied coat the new flag."
+      },
+      {
+        "from": 292,
+        "text": "He names Marius chief. When the troops shoot their captured friend Jean Prouvaire, he turns to Javert: 'Your friends have just shot you.'"
+      },
+      {
+        "from": 301,
+        "text": "Back from scouting at dawn, he tells the hopeful insurgents the truth: a third of the army is coming, Paris is not stirring, they are abandoned."
+      },
+      {
+        "from": 302,
+        "text": "Thirty men are enough to hold the position, he says, and the Republic is not rich enough in men to waste forty. With Combeferre and Marius he sends the fathers and breadwinners away in captured uniforms, and welcomes the stranger who adds a fifth."
+      },
+      {
+        "from": 303,
+        "text": "Hugo describes him as carrying the whole Revolution in him, too much Saint-Just, widened by Combeferre towards a human republic but still of '93 in his means. From the paving-stone stair he prophesies a future of light: free schooling for all, nations as sisters, a twentieth century that will be happy. Those who die here, he says, enter a tomb flooded with dawn."
+      },
+      {
+        "from": 306,
+        "text": "To stop the grapeshot he aims at the gun's captain, a gentle young blond sergeant. Combeferre begs him to spare a man who might be his brother. 'He is,' says Enjolras. A tear runs down his marble cheek as he fires."
+      },
+      {
+        "from": 312,
+        "text": "Bossuet marvels that he is so bold without a mistress. Enjolras seems not to hear, but he murmurs 'Patria.'"
+      },
+      {
+        "from": 316,
+        "text": "At noon he gives his last orders like a general and decrees that the last man to leave the taproom shall shoot the spy. When the stranger in National Guard uniform asks for that task as his reward, Enjolras sees no objection."
+      },
+      {
+        "from": 320,
+        "text": "When the centre gives way he holds the wine-shop door alone against a battalion until the last fugitive is in, then kisses Mabeuf's hanging hand and fights on from the first floor with the last cartridges and bottles of aquafortis."
+      },
+      {
+        "from": 321,
+        "text": "Found standing alone in the upper room with a broken gun-barrel, he folds his arms and says 'Shoot me.' A guardsman lowers his gun: it is like shooting a flower. Grantaire wakes, crosses the room and asks to die with him: 'Do you permit it?' Enjolras presses his hand with a smile. Pierced by eight bullets, he stays leaning against the wall as though nailed there."
+      }
+    ],
+    "moments": [
+      {
+        "chapter": 180,
+        "text": "Told Marius, 'Citizen, my mother is the Republic.'"
+      },
+      {
+        "chapter": 228,
+        "text": "Sent his friends across Paris to count their forces."
+      },
+      {
+        "chapter": 279,
+        "text": "Ordered Grantaire off the barricade."
+      },
+      {
+        "chapter": 283,
+        "text": "Had Javert bound to the post."
+      },
+      {
+        "chapter": 284,
+        "text": "Executed Le Cabuc for murdering the porter."
+      },
+      {
+        "chapter": 289,
+        "text": "Made Mabeuf's coat the barricade's flag."
+      },
+      {
+        "chapter": 303,
+        "text": "Prophesied the future from the barricade."
+      },
+      {
+        "chapter": 306,
+        "text": "Shot the young artillery sergeant, weeping."
+      },
+      {
+        "chapter": 320,
+        "text": "Held Corinthe's door alone against the assault."
+      },
+      {
+        "chapter": 321,
+        "text": "Faced the firing squad with Grantaire."
+      }
+    ]
+  },
+  {
+    "id": "combeferre",
+    "name": "Combeferre",
+    "firstChapter": 176,
+    "importance": "supporting",
+    "group": "The Friends of the A.B.C.",
+    "tagline": [
+      {
+        "from": 176,
+        "text": "The philosopher of the A.B.C., gentler and broader than Enjolras: 'Revolution, but civilization.'"
+      },
+      {
+        "from": 180,
+        "text": "The friend who answered Marius's Napoleon with two words: 'To be free.'"
+      },
+      {
+        "from": 302,
+        "text": "The barricade's conscience, who talks the fathers of families into leaving."
+      },
+      {
+        "from": 319,
+        "text": "Killed by three bayonets while lifting a wounded soldier."
+      }
+    ],
+    "description": [
+      {
+        "from": 176,
+        "text": "Beside Enjolras, who is the logic of the Revolution, Combeferre is its philosophy: logic may end in war, philosophy only in peace. A graduate of the Polytechnic, he reads everything, believes in railways and balloons, and prefers the dawn to the conflagration. Enjolras attaches himself to Robespierre, Combeferre to Condorcet. Enjolras is the chief, Combeferre the guide."
+      },
+      {
+        "from": 179,
+        "text": "He weakly defends the Charter while Courfeyrac flings a copy into the fire, and watches it burn: 'The charter metamorphosed into flame.'"
+      },
+      {
+        "from": 180,
+        "text": "When Marius ends his hymn to Napoleon by asking what can be greater, he answers 'To be free' and leaves, singing a song about a man who would give back Caesar's sceptre because he loves his mother better."
+      },
+      {
+        "from": 228,
+        "text": "Enjolras sends him to sound the men of Picpus, and counts on his eloquence."
+      },
+      {
+        "from": 284,
+        "text": "When Enjolras says he has judged himself along with Le Cabuc, Combeferre cries, 'We will share thy fate.'"
+      },
+      {
+        "from": 292,
+        "text": "He proposes to go out with a handkerchief on his cane and exchange Javert for the captured Prouvaire. Before he can, they hear Prouvaire's last cry and the shot."
+      },
+      {
+        "from": 300,
+        "text": "At dawn he talks of the dead, Prouvaire, Bahorel, Mabeuf and even Le Cabuc, and of how even a liberating killing leaves more remorse than joy."
+      },
+      {
+        "from": 302,
+        "text": "He makes the long appeal that sends the fathers and breadwinners away: mothers at candlelit windows, daughters driven onto the street, a starved child he saw as a house-surgeon at the Necker hospital. To die is fine; to make others die is murder. Hugo notes that he remembered other men's mothers and forgot his own. Asked who the newcomer in uniform is, he answers: a man who saves others."
+      },
+      {
+        "from": 306,
+        "text": "He begs Enjolras to spare the young artillery sergeant: he might be your brother. 'He is mine too. Let us not kill him.'"
+      },
+      {
+        "from": 315,
+        "text": "He runs out with Marius after Gavroche, brings back the basket of cartridges and shares them out, then dresses wounds in an apron."
+      },
+      {
+        "from": 319,
+        "text": "In the last assault, as he lifts a wounded soldier, three bayonets pierce his breast. He has only time to glance at heaven."
+      }
+    ],
+    "moments": [
+      {
+        "chapter": 180,
+        "text": "Answered Marius: 'To be free.'"
+      },
+      {
+        "chapter": 292,
+        "text": "Offered to exchange Javert for Prouvaire, too late."
+      },
+      {
+        "chapter": 302,
+        "text": "Persuaded the fathers to leave the barricade."
+      },
+      {
+        "chapter": 306,
+        "text": "Begged Enjolras to spare the artillery sergeant."
+      },
+      {
+        "chapter": 319,
+        "text": "Killed lifting a wounded soldier."
+      }
+    ]
+  },
+  {
+    "id": "courfeyrac",
+    "name": "Courfeyrac",
+    "firstChapter": 176,
+    "importance": "supporting",
+    "group": "The Friends of the A.B.C.",
+    "aliases": [
+      {
+        "name": "Monsieur de Courfeyrac",
+        "from": 276,
+        "note": "what his portress calls him; he has dropped the particle"
+      }
+    ],
+    "tagline": [
+      {
+        "from": 176,
+        "text": "The warm, witty centre of the Friends of the A.B.C."
+      },
+      {
+        "from": 177,
+        "text": "Marius's closest friend, who took him in when he had nowhere to sleep."
+      },
+      {
+        "from": 229,
+        "text": "The friend whose floor and purse keep Marius afloat after the Gorbeau ambush."
+      },
+      {
+        "from": 276,
+        "text": "One of the leaders of the barricade, who brought its coffer of cartridges."
+      },
+      {
+        "from": 319,
+        "text": "Killed in the final assault, still joking at the cannon."
+      }
+    ],
+    "description": [
+      {
+        "from": 176,
+        "text": "His father was M. de Courfeyrac; he calls himself plain Courfeyrac. He has the sparkling youth Tholomyès had in 1817, but where Tholomyès hid a district attorney, Courfeyrac hides a paladin. Enjolras is the chief, Combeferre the guide, Courfeyrac the centre: the others give more light, he gives more warmth."
+      },
+      {
+        "from": 177,
+        "text": "Coming out of the Café Musain as Bossuet hails the homeless Marius, he says simply 'Come to my place,' and installs him in the next room at the hôtel de la Porte-Saint-Jacques."
+      },
+      {
+        "from": 178,
+        "text": "He asks no questions. Hearing that Marius is a 'democrat-Bonapartist', he calls it 'the grey hue of a reassured rat' and takes him to the Musain as 'a pupil'. In winter he crumples the Charter and throws it in the fire: no kings, if only because they are expensive."
+      },
+      {
+        "from": 182,
+        "text": "He helps Marius sell his clothes and watch, gives him an old coat, and lends his room and law books so that Marius can be admitted as a lawyer."
+      },
+      {
+        "from": 188,
+        "text": "He names the pair in the Luxembourg M. Leblanc and Mlle Lanoire, calls the Gorbeau portress Ma'am Bougon, calls Marius Monsieur l'Abbé, and advises him to read fewer books and look at the girls."
+      },
+      {
+        "from": 229,
+        "text": "Now living in the Rue de la Verrerie 'for political reasons', he gives Marius a mattress on his floor after the ambush and lends him the five francs he sends to La Force each week, the first loan of Marius's life."
+      },
+      {
+        "from": 258,
+        "text": "A practical man, he notices Marius coming home at one in the morning, tells him he is getting irregular in his habits, and cannot get the girl's name out of him."
+      },
+      {
+        "from": 275,
+        "text": "Marching with Enjolras on 5 June, he meets old Mabeuf in the rain and tells him there will be a row, and the old man follows."
+      },
+      {
+        "from": 276,
+        "text": "Passing his own door, he runs up for a hat, his purse and a square coffer hidden under his linen. A pale young workman who has waited an hour for Marius asks to come too; Courfeyrac says the street belongs to everyone. When Bossuet hails him from Corinthe's window, he agrees it is a good place for a barricade."
+      },
+      {
+        "from": 281,
+        "text": "He comforts the widow Hucheloup by telling her they are avenging her old fine, then mounts a table and opens the coffer: cartridges, thirty to each man, handed out with a smile."
+      },
+      {
+        "from": 290,
+        "text": "Thrown down by a Municipal Guard and shouting 'Follow me!', he is saved by Marius's second pistol shot, and flings himself on Marius's neck."
+      },
+      {
+        "from": 312,
+        "text": "He serves jokes in place of food: the barricade is 'a fortress but a rat hole too', the grapeshot is a cough, and when a second gun arrives he announces, 'My name is Eight-Pounder.'"
+      },
+      {
+        "from": 315,
+        "text": "He binds Marius's grazed head with his own cravat, and lays out his private arsenal of sword-cane, gun, two pistols and cudgel with the care of a girl arranging a shelf."
+      },
+      {
+        "from": 319,
+        "text": "Bareheaded, he says the cannonballs have finally taken his hat. He is killed in the final assault."
+      }
+    ],
+    "moments": [
+      {
+        "chapter": 177,
+        "text": "Took the homeless Marius to lodge with him."
+      },
+      {
+        "chapter": 179,
+        "text": "Threw the Charter into the fire."
+      },
+      {
+        "chapter": 229,
+        "text": "Gave Marius a mattress on his floor after the Gorbeau ambush."
+      },
+      {
+        "chapter": 276,
+        "text": "Fetched the coffer of cartridges from his lodging."
+      },
+      {
+        "chapter": 281,
+        "text": "Handed out thirty cartridges to each man."
+      },
+      {
+        "chapter": 319,
+        "text": "Killed in the final assault."
+      }
+    ]
+  },
+  {
+    "id": "jean-prouvaire",
+    "name": "Jean Prouvaire",
+    "firstChapter": 176,
+    "importance": "supporting",
+    "group": "The Friends of the A.B.C.",
+    "aliases": [
+      {
+        "name": "Jehan",
+        "from": 176,
+        "note": "how he spells his first name, a fashion for the Middle Ages"
+      },
+      {
+        "name": "Prouvaire",
+        "from": 176
+      }
+    ],
+    "tagline": [
+      {
+        "from": 176,
+        "text": "The gentle poet of the A.B.C., shy, learned and in love."
+      },
+      {
+        "from": 282,
+        "text": "The poet who murmured love verses in the taproom while the barricade waited."
+      },
+      {
+        "from": 292,
+        "text": "Taken prisoner by the troops and shot; the barricade heard his last cry."
+      }
+    ],
+    "description": [
+      {
+        "from": 176,
+        "text": "A still softer shade than Combeferre. He is in love; he grows a pot of flowers, plays the flute, writes verses, pities women, weeps over children, and blames the Revolution for the head of André Chénier. Badly dressed and timid, he knows Italian, Latin, Greek and Hebrew, studies social questions by day and the planets by night, and his delicate voice can turn suddenly manly. He is intrepid."
+      },
+      {
+        "from": 178,
+        "text": "Alone among the friends he sometimes says 'Napoleon'; the others say Bonaparte."
+      },
+      {
+        "from": 179,
+        "text": "Roused from his shyness in the back room of the Musain, he champions Olympus against the Christian heaven: Jupiter may not be dead, and Pan may still breathe in the willows."
+      },
+      {
+        "from": 193,
+        "text": "When Courfeyrac finds Marius's sudden high spirits queer, Prouvaire corrects him: 'No, that's serious.'"
+      },
+      {
+        "from": 228,
+        "text": "Enjolras sends him to the masons' lodge in the Rue de Grenelle-Saint-Honoré, and counts on his melancholy."
+      },
+      {
+        "from": 274,
+        "text": "He marches on 5 June with an old cavalry musket."
+      },
+      {
+        "from": 282,
+        "text": "In the dusk before the first attack, the friends gather in a corner of the wine-shop as in their student days, and Prouvaire murmurs a long poem to a woman: their garret in the Latin Quarter, dinners at the Prado, a Shakespeare portrait sold for supper, the first kiss that left him pale and believing in God."
+      },
+      {
+        "from": 284,
+        "text": "After Enjolras executes Le Cabuc, Prouvaire and Combeferre press his hand in silence, with admiration mixed with compassion."
+      },
+      {
+        "from": 291,
+        "text": "With Enjolras, Courfeyrac and Combeferre he stands unsheltered against the back houses, facing the soldiers on the crest at point-blank range."
+      },
+      {
+        "from": 292,
+        "text": "At the roll-call after the attack he is missing, neither wounded nor dead: a prisoner. As Combeferre prepares to offer Javert in exchange, a manly voice at the end of the street shouts 'Long live France! Long live the future!' They know it for Prouvaire's. A flash, a report, silence."
+      },
+      {
+        "from": 310,
+        "text": "Hugo explains how he died: one of the improvised firing squads of the suburban National Guard, judging and shooting a captured insurgent in five minutes."
+      }
+    ],
+    "moments": [
+      {
+        "chapter": 179,
+        "text": "Defended the pagan gods in the back room of the Musain."
+      },
+      {
+        "chapter": 282,
+        "text": "Recited his love poem in the wine-shop before the attack."
+      },
+      {
+        "chapter": 292,
+        "text": "Shot as a prisoner, crying 'Long live the future!'"
+      }
+    ]
+  },
+  {
+    "id": "feuilly",
+    "name": "Feuilly",
+    "firstChapter": 176,
+    "importance": "supporting",
+    "group": "The Friends of the A.B.C.",
+    "tagline": [
+      {
+        "from": 176,
+        "text": "A self-taught orphan fan-maker who has adopted the oppressed peoples of the world."
+      },
+      {
+        "from": 274,
+        "text": "The working man at the head of the band, sword drawn, shouting 'Long live Poland!'"
+      },
+      {
+        "from": 319,
+        "text": "Killed in the final assault on the barricade."
+      }
+    ],
+    "description": [
+      {
+        "from": 176,
+        "text": "A working man, a fan-maker orphaned of father and mother, who earns three francs a day with difficulty and has one thought: to deliver the world. He taught himself to read and write and calls educating himself 'delivering himself' too. As his mother failed him, he meditated on his country. In this club of students busy with France he stands for the outside world: Greece, Poland, Hungary, Romania, Italy. He is inexhaustible on the partition of Poland."
+      },
+      {
+        "from": 228,
+        "text": "Enjolras sends him to the men of the Glacière, and counts on his enthusiasm."
+      },
+      {
+        "from": 274,
+        "text": "On 5 June he marches at the head of the band with a naked sword, shouting 'Long live Poland!'"
+      },
+      {
+        "from": 279,
+        "text": "His fingers paint fan-sticks; at the barricade they heap rough stone behind the casks and the dray."
+      },
+      {
+        "from": 288,
+        "text": "When the troops come he commands the six men at Corinthe's windows."
+      },
+      {
+        "from": 300,
+        "text": "In the two hours of ordered rest he carves 'Long live the peoples!' on the wall with a nail."
+      },
+      {
+        "from": 303,
+        "text": "Enjolras salutes him in his speech: the artisan orphan who adopted humanity for his mother."
+      },
+      {
+        "from": 316,
+        "text": "He makes cartridges with Bossuet, plans the loopholes in the walled-up windows, and answers for all when Enjolras gives his last orders."
+      },
+      {
+        "from": 319,
+        "text": "He names bitterly the well-known men who swore to join them and stayed away. He is killed in the final assault."
+      }
+    ],
+    "moments": [
+      {
+        "chapter": 274,
+        "text": "Led the band with a drawn sword: 'Long live Poland!'"
+      },
+      {
+        "chapter": 300,
+        "text": "Carved 'Long live the peoples!' on the wall."
+      },
+      {
+        "chapter": 319,
+        "text": "Killed in the final assault."
+      }
+    ]
+  },
+  {
+    "id": "bahorel",
+    "name": "Bahorel",
+    "firstChapter": 176,
+    "importance": "supporting",
+    "group": "The Friends of the A.B.C.",
+    "tagline": [
+      {
+        "from": 176,
+        "text": "The A.B.C.'s cheerful brawler, a law student in his eleventh year who loves a riot."
+      },
+      {
+        "from": 274,
+        "text": "The insurgent in the scarlet waistcoat who tore down the Archbishop's notice."
+      },
+      {
+        "from": 290,
+        "text": "The first of the friends to fall, bayoneted on the barricade."
+      }
+    ],
+    "description": [
+      {
+        "from": 176,
+        "text": "A good-natured spendthrift with daring waistcoats and scarlet opinions, who loves nothing so much as a quarrel, unless it is an uprising, and nothing so much as an uprising, unless it is a revolution. He fought in the riot at young Lallemand's funeral in 1822. His motto is 'Never a lawyer'. He spends his peasant parents' money doing nothing, saunters through every café in Paris, is more of a thinker than he looks, and links the A.B.C. to other groups."
+      },
+      {
+        "from": 179,
+        "text": "He plays dominoes with Joly in the back room and warns him against a mistress who laughs."
+      },
+      {
+        "from": 228,
+        "text": "Enjolras sends him to the Estrapade, and counts on his smile."
+      },
+      {
+        "from": 274,
+        "text": "On 5 June, like a fish in water in a riot, he marches with a rifle and a scarlet waistcoat. Called 'the reds', he says he does not tremble before a poppy. He tears down the Archbishop's Lenten permission to eat eggs, which wins Gavroche's heart, and when Enjolras rebukes him, says he only wants to eat eggs without permission."
+      },
+      {
+        "from": 279,
+        "text": "With Gavroche he overturns a lime-dealer's dray for the barricade, and admires the unpaved street 'in its low-necked dress'."
+      },
+      {
+        "from": 290,
+        "text": "When the Municipal Guards come over the barricade, he kills the first with a blow of his gun and is killed by the second's bayonet."
+      }
+    ],
+    "moments": [
+      {
+        "chapter": 274,
+        "text": "Tore down the Archbishop's Lenten notice."
+      },
+      {
+        "chapter": 279,
+        "text": "Overturned the lime-dealer's dray for the barricade."
+      },
+      {
+        "chapter": 290,
+        "text": "Killed by a bayonet in the first assault."
+      }
+    ]
+  },
+  {
+    "id": "bossuet",
+    "name": "Bossuet (Lesgle)",
+    "firstChapter": 176,
+    "importance": "supporting",
+    "group": "The Friends of the A.B.C.",
+    "aliases": [
+      {
+        "name": "Lesgle, or Laigle (de Meaux)",
+        "from": 176,
+        "note": "his real name; he signs himself Légle (de Meaux)"
+      },
+      {
+        "name": "Bossuet",
+        "from": 176,
+        "note": "his friends' nickname for him, a pun on the bishop of Meaux"
+      }
+    ],
+    "tagline": [
+      {
+        "from": 176,
+        "text": "The bald, cheerful, spectacularly unlucky member of the A.B.C."
+      },
+      {
+        "from": 177,
+        "text": "The friend who answered 'Present!' for Marius at roll-call and was struck off in his place."
+      },
+      {
+        "from": 278,
+        "text": "The man at Corinthe's window who told the insurgents to build their barricade there."
+      },
+      {
+        "from": 319,
+        "text": "Killed in the final assault, joking to the end."
+      }
+    ],
+    "description": [
+      {
+        "from": 176,
+        "text": "The one bald member, bald at twenty-five. His father kept the post office at Meaux; he lost the house and field he inherited in a bad speculation. Everything he tries miscarries, so he laughs at everything: 'I live under falling tiles.' He has knowledge, wit and no fixed lodging, and stays most often with Joly. He is drifting towards the law in Bahorel's manner."
+      },
+      {
+        "from": 177,
+        "text": "Musing in the doorway of the Café Musain, he hails a cab carrying a young man and a bag labelled Marius Pontmercy. At the law school he heard the professor Blondeau call that name three times and answered 'Present!' out of pity; Blondeau then called 'Laigle', heard 'Present!' again, and struck him off. He delivers a mock funeral oration on Blondeau and declares himself delighted: he has been saved from becoming a lawyer."
+      },
+      {
+        "from": 179,
+        "text": "In the uproar of the back room he is deep in a point of Norman customary law."
+      },
+      {
+        "from": 180,
+        "text": "His chance mention of '18 June 1815, Waterloo' sets off Marius's outburst."
+      },
+      {
+        "from": 215,
+        "text": "With Courfeyrac he takes Marius to the ball at Sceaux, and spots him one snowy day in the Rue Mouffetard, shadowing Jondrette."
+      },
+      {
+        "from": 228,
+        "text": "Enjolras sends him to the young law licentiates in the courts, and counts on his sarcasm."
+      },
+      {
+        "from": 278,
+        "text": "On 5 June he breakfasts at Corinthe with Joly and Grantaire. A boy brings him Enjolras's password, 'A.B.C.', and they decide they can miss the funeral without missing the riot. By two, very drunk but composed, he sits in the window with his back in the rain, sees the armed band pass, and bellows to Courfeyrac: 'This is a good place! Make it here!'"
+      },
+      {
+        "from": 279,
+        "text": "He stops an omnibus, hands down 'the ladies', dismisses the conductor and leads it back by the bridle to complete the barricade, remarking in Latin that not everyone may go to Corinth."
+      },
+      {
+        "from": 300,
+        "text": "He shuts up Father Hucheloup's fifteen old bottles under Mabeuf's table, remarking how lucky it is that Grantaire is asleep, and calls for Homer in Greek from his heap of stones at dawn."
+      },
+      {
+        "from": 309,
+        "text": "He applauds the cannoneers, laughs at the power of a mattress to annul a cannon, and asks the silent stranger why he did not kill the men he shot at. He gets no answer."
+      },
+      {
+        "from": 312,
+        "text": "He replaces wine with gaiety and theorises that all heroism comes from women: a man without a woman is a pistol without a trigger, and yet Enjolras has none."
+      },
+      {
+        "from": 319,
+        "text": "Making cartridges with Feuilly, he says they will soon take the diligence for another planet. He is killed in the final assault."
+      }
+    ],
+    "moments": [
+      {
+        "chapter": 177,
+        "text": "Was struck off at the law school for answering to Marius's name."
+      },
+      {
+        "chapter": 278,
+        "text": "Called the band into the Rue de la Chanvrerie from Corinthe's window."
+      },
+      {
+        "chapter": 279,
+        "text": "Captured an omnibus for the barricade."
+      },
+      {
+        "chapter": 319,
+        "text": "Killed in the final assault."
+      }
+    ]
+  },
+  {
+    "id": "joly",
+    "name": "Joly",
+    "firstChapter": 176,
+    "importance": "supporting",
+    "group": "The Friends of the A.B.C.",
+    "tagline": [
+      {
+        "from": 176,
+        "text": "A hypochondriac medical student, otherwise the gayest of the A.B.C."
+      },
+      {
+        "from": 278,
+        "text": "Bossuet's inseparable friend, breakfasting at Corinthe with a cold on the day of the rising."
+      },
+      {
+        "from": 320,
+        "text": "One of the friends who held the centre of the barricade until it gave way."
+      }
+    ],
+    "description": [
+      {
+        "from": 176,
+        "text": "A medical student, two years younger than Bossuet, who has won from medicine chiefly the conviction that he is ill. At twenty-three he inspects his tongue in the mirror, sleeps with his head to the south so the earth's current will not trouble his blood, and feels his pulse in thunderstorms. Otherwise he is the gayest of them all; the friends call him Jolllly. He has a trick of touching his nose with the tip of his cane."
+      },
+      {
+        "from": 179,
+        "text": "Over dominoes with Bahorel he sighs about his sulking mistress, Musichetta, and is advised to buy elegant trousers."
+      },
+      {
+        "from": 228,
+        "text": "Enjolras sends him to Dupuytren's clinical lecture to feel the pulse of the medical school, and counts on his science."
+      },
+      {
+        "from": 278,
+        "text": "Bossuet lives with him as a bird lives on a branch; they share everything, even Musichetta to some extent. On 5 June, stuffed up with a cold, he breakfasts at Corinthe, will not go through the rain to the funeral, and tells the maids to give Grantaire no more to drink."
+      },
+      {
+        "from": 279,
+        "text": "He leans out to tell Courfeyrac he should have brought an umbrella, and kisses the widow Hucheloup's fat red neck."
+      },
+      {
+        "from": 300,
+        "text": "At dawn he draws a theory of creation from a cat on a gutter."
+      },
+      {
+        "from": 315,
+        "text": "Under the bombardment he takes the widow's mirror from the wall and examines his tongue."
+      },
+      {
+        "from": 320,
+        "text": "He is among those who hold the centre of the redoubt, with Courfeyrac, Bossuet, Feuilly and Combeferre, until it gives way in the last assault."
+      }
+    ],
+    "moments": [
+      {
+        "chapter": 278,
+        "text": "Breakfasted at Corinthe with Bossuet and Grantaire on 5 June."
+      },
+      {
+        "chapter": 315,
+        "text": "Examined his tongue in the widow's mirror under fire."
+      },
+      {
+        "chapter": 320,
+        "text": "Held the centre of the barricade until it fell."
+      }
+    ]
+  },
+  {
+    "id": "grantaire",
+    "name": "Grantaire",
+    "firstChapter": 176,
+    "importance": "supporting",
+    "group": "The Friends of the A.B.C.",
+    "aliases": [
+      {
+        "name": "R",
+        "from": 176,
+        "note": "the rebus he signs with (grand R)"
+      }
+    ],
+    "tagline": [
+      {
+        "from": 176,
+        "text": "The A.B.C.'s drunken sceptic, who believes in nothing except Enjolras."
+      },
+      {
+        "from": 228,
+        "text": "The doubter who begged for a mission, and was found playing dominoes."
+      },
+      {
+        "from": 279,
+        "text": "Ordered off the barricade by Enjolras, asleep at a table in Corinthe."
+      },
+      {
+        "from": 321,
+        "text": "Woke from his stupor to die beside Enjolras."
+      }
+    ],
+    "description": [
+      {
+        "from": 176,
+        "text": "The one sceptic among the believers. He knows the best coffee, billiards and white wine in Paris, boxes and plays singlestick, drinks enormously, is inordinately ugly, and hums drinking songs. Words like the Republic and progress mean nearly nothing to him: 'There is but one certainty, my full glass.' His one fanaticism is a man, Enjolras, his opposite, whom he admires, loves and venerates. Enjolras disdains the drunkard and repulses him; Grantaire always comes back, and says of him, 'What fine marble!'"
+      },
+      {
+        "from": 179,
+        "text": "Drunk in a corner of the Musain's back room, he declares life a hideous invention and every nation absurd, catches at the dishwasher Louison as his Cleopatra, and grows worse when Bossuet tries to quiet him."
+      },
+      {
+        "from": 201,
+        "text": "He goes with Courfeyrac and Bossuet to take the lovesick Marius to the ball at Sceaux, and grumbles that this is where all lost women turn up."
+      },
+      {
+        "from": 228,
+        "text": "When Enjolras needs someone to warm the wavering workmen of the Barrière du Maine, Grantaire offers himself: 'I believe in you.' He goes home, comes back in a red Robespierre waistcoat, whispers 'Be easy', and sets off. When Enjolras looks in at Richefeu's later, he is hammering the table over a game of dominoes."
+      },
+      {
+        "from": 277,
+        "text": "It was he who discovered Corinthe, coming in for the joke on the sign and returning for the stuffed carps."
+      },
+      {
+        "from": 278,
+        "text": "On the morning of 5 June he joins Bossuet and Joly there, drinks while they eat, and harangues against creation as a bankrupt business. He mutters that Enjolras sent the password to Bossuet, not to him. By two he has passed from wine to brandy, stout and absinthe."
+      },
+      {
+        "from": 279,
+        "text": "Roaring drunk, he holds Matelote round the waist and proclaims from the window until Enjolras orders him off the barricade. Sobered at once, he looks at Enjolras with indescribable gentleness: 'Let me sleep here, until I die.' 'Grantaire, you are incapable of believing, of thinking, of willing, of living, and of dying.' 'You will see.' He drops his head on the table and sleeps."
+      },
+      {
+        "from": 321,
+        "text": "He has slept through the whole siege in the upper room, so like the corpses around him that no one noticed. It is the sudden silence that wakes him, as Enjolras faces the firing squad. His drunkenness tears away like a curtain. 'Long live the Republic! I'm one of them.' He crosses the room with a firm stride, places himself beside Enjolras, and asks gently, 'Do you permit it?' Enjolras presses his hand. At the volley Grantaire falls at his feet."
+      }
+    ],
+    "moments": [
+      {
+        "chapter": 179,
+        "text": "Harangued the back room of the Musain on the vanity of everything."
+      },
+      {
+        "chapter": 228,
+        "text": "Set out in a red waistcoat to rouse the Barrière du Maine; ended at dominoes."
+      },
+      {
+        "chapter": 279,
+        "text": "Told Enjolras 'You will see', and fell asleep at a table."
+      },
+      {
+        "chapter": 321,
+        "text": "Woke and asked to be shot with Enjolras."
+      }
+    ]
+  },
+  {
+    "id": "father-hucheloup",
+    "name": "Father Hucheloup",
+    "firstChapter": 277,
+    "importance": "minor",
+    "group": "The Friends of the A.B.C.",
+    "tagline": [
+      {
+        "from": 277,
+        "text": "The late landlord of Corinthe, famous for his stuffed carps and his misspelt sign."
+      }
+    ],
+    "description": [
+      {
+        "from": 277,
+        "text": "The last of a dynasty of wine-sellers in the Rue de la Chanvrerie: a moustached former fencing-master who growled at his customers and then burst out laughing, and carried a snuffbox shaped like a pistol. A cook rather than a chemist, he invented carpes au gras and advertised them on his wall as 'Carpes ho gras'; the rain washed away two letters and left 'Carpe ho ras', so that, knowing no Latin, he had quoted Horace. The students ate and drank at his tables on credit and were always welcome. He died about 1830, taking the secret of the carps with him."
+      },
+      {
+        "from": 300,
+        "text": "Fifteen sealed bottles of his old stock turn up in the cellar during the siege. Enjolras sets them under Mabeuf's table and forbids anyone to touch them."
+      }
+    ],
+    "moments": [
+      {
+        "chapter": 300,
+        "text": "His hidden bottles were found in Corinthe's cellar."
+      }
+    ]
+  },
+  {
+    "id": "mother-hucheloup",
+    "name": "Mother Hucheloup",
+    "firstChapter": 277,
+    "importance": "minor",
+    "group": "The Friends of the A.B.C.",
+    "aliases": [
+      {
+        "name": "the widow Hucheloup",
+        "from": 277
+      },
+      {
+        "name": "Mame Hucheloup",
+        "from": 279
+      }
+    ],
+    "tagline": [
+      {
+        "from": 277,
+        "text": "The bearded widow who keeps Corinthe, where the cooking has gone from good to execrable."
+      },
+      {
+        "from": 279,
+        "text": "The landlady whose wine-shop has become the keep of a barricade."
+      }
+    ],
+    "description": [
+      {
+        "from": 277,
+        "text": "Hucheloup's inconsolable widow, bearded, breathless and misshapen, who kept the wine-shop on after his death. The cooking became execrable and the wine worse, and the students kept coming 'out of pity', as Bossuet says. She mangles her rustic memories in her pronunciation and spends her days, untroubled, beside a charcoal quatrain on the wall mocking the wart on her nose."
+      },
+      {
+        "from": 279,
+        "text": "When the mob pours into her shop to build a barricade from her grating, her casks and her pavement, she sighs 'Ah my God!' and takes refuge upstairs, sure the end of the world has come. Joly kisses her fat red neck."
+      },
+      {
+        "from": 280,
+        "text": "Courfeyrac consoles her for the wrecking of her house by telling her they are avenging the hundred-franc fine she once paid. With her two maids she tears dishcloths into lint in the billiard-room while her pewter is melted into bullets."
+      },
+      {
+        "from": 290,
+        "text": "Her long black shawl covers Mabeuf's body on the taproom table."
+      },
+      {
+        "from": 292,
+        "text": "After the first attack she and her maids are found hiding in the cellar. Her mattresses carry the wounded."
+      },
+      {
+        "from": 300,
+        "text": "In the night the three women slip away to a neighbouring house."
+      }
+    ],
+    "moments": [
+      {
+        "chapter": 279,
+        "text": "Saw her wine-shop turned into a barricade."
+      },
+      {
+        "chapter": 292,
+        "text": "Found hiding in the cellar after the first attack."
+      }
+    ]
+  },
+  {
+    "id": "matelote",
+    "name": "Matelote",
+    "firstChapter": 277,
+    "importance": "minor",
+    "group": "The Friends of the A.B.C.",
+    "tagline": [
+      {
+        "from": 277,
+        "text": "One of Corinthe's two serving-maids: large, plump, red-haired and noisy."
+      }
+    ],
+    "description": [
+      {
+        "from": 277,
+        "text": "A large, plump, red-haired, noisy maid of Corinthe, the late Hucheloup's favourite, who serves the bad wine and broth upstairs with Gibelotte."
+      },
+      {
+        "from": 279,
+        "text": "She carries rubbish for the barricade, and the drunken Grantaire seizes her round the waist and proclaims her a chimaera born of a Gothic sculptor's love for a gargoyle."
+      },
+      {
+        "from": 280,
+        "text": "She tears lint with her mistress while bullets are cast in the kitchen."
+      },
+      {
+        "from": 292,
+        "text": "She is found hiding in the cellar with the widow and Gibelotte after the first attack, and slips away with them in the night."
+      }
+    ],
+    "moments": [
+      {
+        "chapter": 279,
+        "text": "Was hailed by Grantaire as a chimaera from a gargoyle."
+      }
+    ]
+  },
+  {
+    "id": "gibelotte",
+    "name": "Gibelotte",
+    "firstChapter": 277,
+    "importance": "minor",
+    "group": "The Friends of the A.B.C.",
+    "tagline": [
+      {
+        "from": 277,
+        "text": "Corinthe's other maid: tall, pale and languid, first up and last to bed."
+      }
+    ],
+    "description": [
+      {
+        "from": 277,
+        "text": "Tall, pale and languid, with circles under her eyes, she is first up and last to bed and waits on everyone, even Matelote, silently, with a sleepy smile."
+      },
+      {
+        "from": 278,
+        "text": "She sets two bottles before Grantaire as soon as he appears."
+      },
+      {
+        "from": 279,
+        "text": "She serves the barricade as sleepily as she serves wine, carrying rubbish for it."
+      },
+      {
+        "from": 280,
+        "text": "Courfeyrac reminds her mistress of the hundred-franc fine paid when Gibelotte shook a counterpane out of the window and knocked a flowerpot into the street."
+      },
+      {
+        "from": 292,
+        "text": "She is found hiding in the cellar after the first attack, and slips away with the others in the night."
+      }
+    ],
+    "moments": [
+      {
+        "chapter": 279,
+        "text": "Carried rubbish for the barricade as sleepily as she serves wine."
+      }
+    ]
+  },
+  {
+    "id": "le-cabuc",
+    "name": "Le Cabuc",
+    "firstChapter": 284,
+    "importance": "minor",
+    "group": "The Friends of the A.B.C.",
+    "tagline": [
+      {
+        "from": 284,
+        "text": "A drunken recruit who shot an old porter dead and was executed by Enjolras; perhaps Claquesous."
+      }
+    ],
+    "description": [
+      {
+        "from": 284,
+        "text": "A stranger in a threadbare porter's jacket, drunk or feigning it, who joined the mob on the way and was unknown even to those who claimed to know him. He decides the insurgents must fire from the tall house at the end of the barricade, batters at its iron-lined door, and when the old porter at the third-floor window refuses to open, shoots him through the throat. Enjolras forces him to his knees, gives him a minute to pray, and shoots him; three men throw the body over the little barricade. Hugo adds that a police agent's card was found on him at the morgue, and that a strange but probably well-founded police tradition says Le Cabuc was Claquesous."
+      },
+      {
+        "from": 287,
+        "text": "His victim's head still stares down from the third-floor window over the barricade."
+      },
+      {
+        "from": 300,
+        "text": "At dawn Combeferre counts him among the night's dead, as a killing that left more remorse than joy."
+      }
+    ],
+    "moments": [
+      {
+        "chapter": 284,
+        "text": "Shot the porter and was executed by Enjolras."
+      }
+    ]
+  },
+  {
+    "id": "the-young-workman",
+    "name": "The young workman",
+    "firstChapter": 276,
+    "importance": "minor",
+    "group": "The Friends of the A.B.C.",
+    "mergedInto": {
+      "id": "eponine",
+      "from": 293
+    },
+    "tagline": [
+      {
+        "from": 276,
+        "text": "A pale young workman who waited an hour at Courfeyrac's door, asking for Marius."
+      },
+      {
+        "from": 291,
+        "text": "The young workman who put a hand over the gun aimed at Marius, and fell."
+      }
+    ],
+    "description": [
+      {
+        "from": 276,
+        "text": "A small, thin, freckled youth in a tattered blouse and patched velvet trousers, who has waited over an hour in the portress's lodge at Courfeyrac's lodging in the Rue de la Verrerie, asking for Monsieur Marius. Told that Marius is not there and that Courfeyrac is off to the barricades, the youth asks where, offers to carry his coffer, and asks to come along. A quarter of an hour later Courfeyrac sees that he really has followed."
+      },
+      {
+        "from": 280,
+        "text": "While the barricade goes up the young man is nowhere to be seen; he vanished about the time the omnibus was overturned."
+      },
+      {
+        "from": 284,
+        "text": "After Le Cabuc's execution Courfeyrac notices him again, come back by night to join the insurgents with a bold and reckless air."
+      },
+      {
+        "from": 291,
+        "text": "As a soldier on the crest takes aim at Marius, the young workman in velvet trousers darts forward and lays a hand over the muzzle. The shot goes through the hand, perhaps through the workman too, who falls. Marius, rushing for the powder, barely notices."
+      }
+    ],
+    "moments": [
+      {
+        "chapter": 276,
+        "text": "Asked Courfeyrac for Marius and followed him to the barricade."
+      },
+      {
+        "chapter": 291,
+        "text": "Blocked a musket aimed at Marius with a hand."
+      }
+    ]
+  },
+  {
+    "id": "the-man-of-the-rue-des-billettes",
+    "name": "The man of the Rue des Billettes",
+    "firstChapter": 276,
+    "importance": "minor",
+    "group": "The Friends of the A.B.C.",
+    "mergedInto": {
+      "id": "javert",
+      "from": 283
+    },
+    "tagline": [
+      {
+        "from": 276,
+        "text": "A tall, grey-haired stranger who joined the march near the Rue des Billettes."
+      },
+      {
+        "from": 280,
+        "text": "The silent recruit working hard on the little barricade."
+      }
+    ],
+    "description": [
+      {
+        "from": 276,
+        "text": "A man of lofty stature, with greying hair and a bold, daring air, who falls in with the insurgents near the Rue des Billettes. Courfeyrac, Enjolras and Combeferre notice him, and none of them knows him. Gavroche, busy singing and banging on shutters, pays him no attention."
+      },
+      {
+        "from": 280,
+        "text": "He works on the small Mondétour barricade, making himself useful."
+      }
+    ],
+    "moments": [
+      {
+        "chapter": 276,
+        "text": "Joined the insurgents' column unnoticed by Gavroche."
+      }
+    ]
+  },
+  {
+    "id": "montparnasse",
+    "name": "Montparnasse",
+    "firstChapter": 199,
+    "importance": "supporting",
+    "group": "Patron-Minette",
+    "tagline": [
+      {
+        "from": 199,
+        "text": "The youngest head of Patron-Minette: a pretty, pomaded boy under twenty who kills to dress well."
+      },
+      {
+        "from": 220,
+        "text": "The dandy of the Gorbeau ambush, who kept the eldest girl talking outside."
+      },
+      {
+        "from": 242,
+        "text": "The young garrotter overpowered and lectured by an old man he tried to rob."
+      },
+      {
+        "from": 251,
+        "text": "The gang's man outside the walls, who fetched Gavroche to free Thénardier."
+      },
+      {
+        "from": 259,
+        "text": "One of six men turned back from the Rue Plumet gate by Éponine."
+      }
+    ],
+    "description": [
+      {
+        "from": 199,
+        "text": "A child under twenty with a handsome face, cherry lips and spring in his eyes, who has every vice and aspires to every crime. Street boy, then pickpocket, then garrotter, he is genteel, effeminate and ferocious: a curled hat-brim, a threadbare coat of the best cut, a flower in his buttonhole and a bludgeon in his pocket. The first grisette who called him handsome made a Cain of this Abel. Wanting elegance, hence idleness, hence crime, he had several corpses behind him at eighteen. A dandy of the sepulchre."
+      },
+      {
+        "from": 200,
+        "text": "With Gueulemer, Babet and Claquesous he forms Patron-Minette, the four-headed robber who contracts for the ambushes of the Seine department and hires out accomplices to anyone with a crime to stage."
+      },
+      {
+        "from": 220,
+        "text": "On the night of the Gorbeau trap Thénardier is told that Montparnasse has stopped outside to chat with his eldest girl."
+      },
+      {
+        "from": 230,
+        "text": "So he escapes Javert's net: he met Éponine on watch under the trees and led her off, preferring to play the lover with the daughter rather than the brigand with the father."
+      },
+      {
+        "from": 242,
+        "text": "Strolling with a rose in his mouth behind an elderly, plainly dressed passer-by near Mabeuf's garden, he springs, and a moment later is on the ground with the old man's knee on his chest. Questioned, he says he is nineteen, finds work boring, and would like to be a thief. The old man lectures him gently on idleness as the hardest labour of all, puts his purse in his hand, and walks away; Hugo leaves the reader to guess who he was. For the first time in his life Montparnasse stands thinking, while Gavroche picks the purse out of his pocket."
+      },
+      {
+        "from": 250,
+        "text": "Disguised in blue spectacles near La Force, he tells Gavroche that Babet has escaped, grumbles about the bourgeois who gave him a sermon and a purse that vanished a minute later, and before dawn calls the boy out of the elephant to lend a hand."
+      },
+      {
+        "from": 251,
+        "text": "Waiting below the prison wall with Babet, Brujon and Gueulemer, he alone says one does not desert a friend. He runs to the Bastille and comes back with Gavroche, who climbs up and ties the rope that brings Thénardier down."
+      },
+      {
+        "from": 259,
+        "text": "On 3 June he is one of the six at the Rue Plumet gate. When Éponine threatens to rouse the street, he offers to stay with her, knife open, while the others do the job. The gang withdraws instead."
+      }
+    ],
+    "moments": [
+      {
+        "chapter": 230,
+        "text": "Escaped the Gorbeau arrests by leading Éponine off her post."
+      },
+      {
+        "chapter": 242,
+        "text": "Was overpowered, lectured and given a purse by the old man he attacked."
+      },
+      {
+        "chapter": 251,
+        "text": "Fetched Gavroche to free Thénardier from the prison wall."
+      },
+      {
+        "chapter": 259,
+        "text": "Offered to knife Éponine at the Rue Plumet gate."
+      }
+    ]
+  },
+  {
+    "id": "babet",
+    "name": "Babet",
+    "firstChapter": 199,
+    "importance": "supporting",
+    "group": "Patron-Minette",
+    "tagline": [
+      {
+        "from": 199,
+        "text": "The thin, talkative head of Patron-Minette: ex-showman, tooth-puller and newspaper-reader."
+      },
+      {
+        "from": 220,
+        "text": "The man with the iron-tipped cudgel at the Gorbeau ambush."
+      },
+      {
+        "from": 230,
+        "text": "In solitary at La Force, the man who received Brujon's note about the Rue Plumet."
+      },
+      {
+        "from": 251,
+        "text": "An escaped prisoner, waiting under the wall as Thénardier gets out."
+      }
+    ],
+    "description": [
+      {
+        "from": 199,
+        "text": "Gueulemer's contrast: thin and learned, transparent but impenetrable, a talker who underlines his smiles. He has acted in vaudeville, sold plaster busts of the head of State, and pulled teeth in a fairground booth. He had and lost a wife and children as one loses a handkerchief. Rare in his world, he reads the newspapers. He calls Claquesous a nocturne for two voices."
+      },
+      {
+        "from": 220,
+        "text": "At the Gorbeau ambush he is the thin masked man with the iron-tipped cudgel. Thénardier reproaches him for bringing so many men; they all wanted to be in it, says Babet, business is slow."
+      },
+      {
+        "from": 221,
+        "text": "Javert greets him by name among the arrested."
+      },
+      {
+        "from": 230,
+        "text": "In solitary at La Force, he receives a bread pellet thrown over the roofs from Brujon: 'There is an affair in the Rue Plumet. A gate on a garden.' He passes it out through a woman of the Salpêtrière to Magnon, and the answer comes back, 'biscuit': nothing to be done."
+      },
+      {
+        "from": 250,
+        "text": "Moved to the Conciergerie, he escapes by turning left instead of right."
+      },
+      {
+        "from": 251,
+        "text": "Waiting below the prison wall, he argues with Brujon that the innkeeper has bungled it and been retaken, and that they should go for a drink. Afterwards he says Thénardier's girl Éponine looked into the Rue Plumet job, and asks Thénardier whether he looked at the boy who carried the rope: it struck him it was his son."
+      },
+      {
+        "from": 259,
+        "text": "At the Rue Plumet he points out a light in the attic, and guesses that Éponine is in love with the master of the house."
+      }
+    ],
+    "moments": [
+      {
+        "chapter": 220,
+        "text": "Carried the cudgel at the Gorbeau ambush."
+      },
+      {
+        "chapter": 230,
+        "text": "Received Brujon's note about the Rue Plumet."
+      },
+      {
+        "chapter": 250,
+        "text": "Escaped from the Conciergerie."
+      },
+      {
+        "chapter": 251,
+        "text": "Saw that the boy on the wall was Thénardier's son."
+      }
+    ]
+  },
+  {
+    "id": "gueulemer",
+    "name": "Gueulemer",
+    "firstChapter": 199,
+    "importance": "supporting",
+    "group": "Patron-Minette",
+    "tagline": [
+      {
+        "from": 199,
+        "text": "The colossus of Patron-Minette: a stupid Hercules and a cold-blooded assassin."
+      },
+      {
+        "from": 221,
+        "text": "The man with the poleaxe at the Gorbeau ambush, taken by Javert."
+      },
+      {
+        "from": 251,
+        "text": "Broke out of La Force through a chimney with Brujon."
+      }
+    ],
+    "description": [
+      {
+        "from": 199,
+        "text": "A Hercules of no fixed position who lairs in the Arche-Marion sewer: six feet tall, with marble pectorals and a bird's head, under forty but already lined. A great idle force whose muscles want work and whose stupidity refuses it, he is an assassin through coolness. He is thought to be a Creole, and was possibly mixed up in the death of Marshal Brune while a porter at Avignon in 1815."
+      },
+      {
+        "from": 200,
+        "text": "With Babet, Claquesous and Montparnasse he forms Patron-Minette, the four-headed robber of the Paris underworld."
+      },
+      {
+        "from": 221,
+        "text": "He was the masked colossus with the butcher's poleaxe at the Gorbeau ambush, who pulled off his mask for fun and rode behind the carriage with Madame Thénardier. Javert greets him by name."
+      },
+      {
+        "from": 251,
+        "text": "On the stormy night Gavroche takes in the two little boys, he and Brujon pierce the chimney behind their beds in La Force, climb to the roof, swing across to the outer wall on Brujon's rope and are in the street in under three-quarters of an hour. Below the wall, Thénardier knows him by his shoulders."
+      },
+      {
+        "from": 259,
+        "text": "He is one of the six at the Rue Plumet gate whom Éponine turns away."
+      }
+    ],
+    "moments": [
+      {
+        "chapter": 221,
+        "text": "Arrested by Javert in the Gorbeau garret."
+      },
+      {
+        "chapter": 251,
+        "text": "Escaped from La Force with Brujon."
+      }
+    ]
+  },
+  {
+    "id": "claquesous",
+    "name": "Claquesous",
+    "firstChapter": 199,
+    "importance": "supporting",
+    "group": "Patron-Minette",
+    "tagline": [
+      {
+        "from": 199,
+        "text": "The masked ventriloquist of Patron-Minette, seen only in the dark."
+      },
+      {
+        "from": 221,
+        "text": "The ventriloquist of the Gorbeau ambush, toasted by name by Javert."
+      },
+      {
+        "from": 230,
+        "text": "The prisoner who melted out of his handcuffs on the way to La Force."
+      },
+      {
+        "from": 284,
+        "text": "Said by police tradition to have died at the barricade as Le Cabuc."
+      }
+    ],
+    "description": [
+      {
+        "from": 199,
+        "text": "Claquesous is night. He appears only after dark and goes back before dawn to a hole no one knows. He speaks to his accomplices in total darkness with his back turned, puts on a mask if a candle is brought, and is a ventriloquist; Babet calls him a nocturne for two voices. No one is sure he has a name, a voice or a face."
+      },
+      {
+        "from": 200,
+        "text": "With Gueulemer, Babet and Montparnasse he forms Patron-Minette, the four-headed robber of the Paris underworld."
+      },
+      {
+        "from": 221,
+        "text": "At the Gorbeau ambush he was the man with the ventriloquist's voice who gave the silent signal for the ladder. Javert, reviewing the masked men, offers him 'your health, Claquesous'."
+      },
+      {
+        "from": 230,
+        "text": "Between the Gorbeau house and La Force he vanished from the handcuffs and the cab like a snowflake in water. There may have been police connivance: Javert bristles at the thought, but Claquesous was villain enough to make a very good agent."
+      },
+      {
+        "from": 259,
+        "text": "He is one of the six at the Rue Plumet gate whom Éponine turns away."
+      },
+      {
+        "from": 284,
+        "text": "Hugo records a strange but probably well-founded police tradition: Le Cabuc, the drunken recruit Enjolras shot at the barricade, on whose body a police card was found, was Claquesous. From that day there was no more question of him; his life was all shadows and his end night."
+      },
+      {
+        "from": 349,
+        "text": "With Claquesous vanished and the chief accused escaped, the Gorbeau case collapses at the Assizes."
+      }
+    ],
+    "moments": [
+      {
+        "chapter": 221,
+        "text": "Arrested by Javert in the Gorbeau garret."
+      },
+      {
+        "chapter": 230,
+        "text": "Vanished on the way to La Force."
+      },
+      {
+        "chapter": 284,
+        "text": "Identified by police tradition with Le Cabuc."
+      }
+    ]
+  },
+  {
+    "id": "brujon",
+    "name": "Brujon",
+    "firstChapter": 200,
+    "importance": "supporting",
+    "group": "Patron-Minette",
+    "tagline": [
+      {
+        "from": 200,
+        "text": "One of Patron-Minette's troupe, from a whole dynasty of Brujons."
+      },
+      {
+        "from": 214,
+        "text": "The long-haired man Marius overheard plotting in the snow, named by Javert."
+      },
+      {
+        "from": 230,
+        "text": "A plaintive-looking prisoner at La Force who never stops working."
+      },
+      {
+        "from": 251,
+        "text": "Escaped from La Force by a chimney and a rope of his own weaving."
+      },
+      {
+        "from": 259,
+        "text": "The gang's oracle, who reads bad omens and calls off the Rue Plumet job."
+      }
+    ],
+    "description": [
+      {
+        "from": 200,
+        "text": "Named in Hugo's roll of Patron-Minette's troupe, of a whole dynasty of Brujons."
+      },
+      {
+        "from": 214,
+        "text": "Marius overheard a long-haired, bareheaded man in rags, sitting in the snow behind a wall in the Rue du Petit-Banquier, say that with Patron-Minette's help the affair could not fail. Javert names him at once as Brujon."
+      },
+      {
+        "from": 221,
+        "text": "He was one of the blackened 'chimney-builders' on the bed in the Gorbeau garret. Javert greets him by name."
+      },
+      {
+        "from": 230,
+        "text": "At La Force the magistrate leaves him loose in the Charlemagne yard in the hope that he will chatter. A 'Brujon, 1811' carved in the Lions' Ditch was his father's. A cunning young spark with a plaintive air, he seems stupefied by prison while he pays errand-men to carry messages to three redoubtable prowlers, who are promptly arrested, and throws a bread pellet over the roofs to Babet about 'an affair in the Rue Plumet, a gate on a garden'."
+      },
+      {
+        "from": 251,
+        "text": "Out of a month in the punishment cell with a woven rope and a plan, he and Gueulemer pierce their chimney on a stormy night, climb to the roof and swing across to the outer wall. Below the wall he argues that Thénardier has been retaken. Once the innkeeper is down, he raises the Rue Plumet job again: an isolated house, a rotten gate, lone women."
+      },
+      {
+        "from": 259,
+        "text": "At the Rue Plumet gate, after Éponine's defiance, he says he saw two sparrows fighting that morning and jostled a quarrelling woman that evening: it is all bad, and they should quit. The man who put up the job calls it off."
+      }
+    ],
+    "moments": [
+      {
+        "chapter": 214,
+        "text": "Named by Javert as the long-haired man Marius overheard in the snow."
+      },
+      {
+        "chapter": 230,
+        "text": "Sent the Rue Plumet note to Babet from prison."
+      },
+      {
+        "chapter": 251,
+        "text": "Escaped from La Force with Gueulemer."
+      },
+      {
+        "chapter": 259,
+        "text": "Called off the Rue Plumet robbery."
+      }
+    ]
+  },
+  {
+    "id": "bigrenaille",
+    "name": "Panchaud, alias Bigrenaille",
+    "firstChapter": 200,
+    "importance": "minor",
+    "group": "Patron-Minette",
+    "aliases": [
+      {
+        "name": "Printanier",
+        "from": 200
+      },
+      {
+        "name": "Bigrenaille",
+        "from": 200
+      }
+    ],
+    "tagline": [
+      {
+        "from": 200,
+        "text": "One of Patron-Minette's troupe, a night prowler of the barriers."
+      },
+      {
+        "from": 220,
+        "text": "The ruffian with the leaded bludgeon at the Gorbeau ambush."
+      },
+      {
+        "from": 349,
+        "text": "One of two underlings sent to the galleys for the Gorbeau affair."
+      }
+    ],
+    "description": [
+      {
+        "from": 200,
+        "text": "Panchaud, alias Printanier, alias Bigrenaille: the first name in Hugo's roll of Patron-Minette's troupe."
+      },
+      {
+        "from": 210,
+        "text": "Marius sees Jondrette deep in talk on the boulevard with a prowler who looks like him; Courfeyrac once pointed him out as a very dangerous night roamer. The narrator adds that the police were already watching him in 1832."
+      },
+      {
+        "from": 214,
+        "text": "Marius names him to the inspector as one of the accomplices in the trap."
+      },
+      {
+        "from": 220,
+        "text": "In the garret he raises a leaded bludgeon over M. Leblanc's head until Thénardier shouts 'Don't harm him!', unties the prisoner's right arm to write the letter, and drags Thénardier back by the collar from the rope ladder: they will draw lots."
+      },
+      {
+        "from": 221,
+        "text": "He slips Thénardier a pistol rather than fire at Javert himself, and when it misfires throws down his bludgeon and surrenders first, asking only not to be denied tobacco."
+      },
+      {
+        "from": 349,
+        "text": "With Claquesous vanished and the chief escaped, he and Demi-Liard are the only men the Assizes can sentence: ten years in the galleys."
+      }
+    ],
+    "moments": [
+      {
+        "chapter": 220,
+        "text": "Raised his bludgeon over the prisoner in the Gorbeau garret."
+      },
+      {
+        "chapter": 221,
+        "text": "Surrendered to Javert, asking for tobacco."
+      },
+      {
+        "chapter": 349,
+        "text": "Sentenced to ten years in the galleys."
+      }
+    ]
+  }
+]

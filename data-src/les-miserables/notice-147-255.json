@@ -1,0 +1,993 @@
+[
+  {
+    "chapter": 147,
+    "kind": "craft",
+    "title": "A type before a person",
+    "text": "Volume III opens not with a character but with a species. Hugo spends a whole Book describing 'the gamin' in general, the way a naturalist describes the sparrow, before any particular boy appears. The pause tells you the new volume is about Paris itself and the people it breeds, not only about the characters you already know.",
+    "themes": [
+      "paris",
+      "poverty"
+    ]
+  },
+  {
+    "chapter": 147,
+    "kind": "theme",
+    "title": "A pearl in the mud",
+    "text": "The gamin swears, steals a little and sings obscene songs, and yet 'has no evil in his heart'. Hugo's image is a pearl that mud cannot dissolve. It is the book's old argument in a new body: what a person is inside is not the same as the dirt society throws on him.",
+    "themes": [
+      "poverty",
+      "conscience"
+    ]
+  },
+  {
+    "chapter": 148,
+    "kind": "motif",
+    "title": "A world under the paving-stones",
+    "text": "The gamin's currency of scrap copper, his insects, his imaginary monster 'the deaf thing' living in old wells: Hugo builds a whole secret economy and natural history for children nobody looks at. Notice how much of it lies underneath, in cracks, gutters and under lifted stones. The street child's Paris is the city seen from below.",
+    "themes": [
+      "paris",
+      "poverty"
+    ]
+  },
+  {
+    "chapter": 148,
+    "kind": "craft",
+    "title": "Jokes as evidence",
+    "text": "Hugo drops in two street-boy jokes, the doctor 'carrying home his own work' and 'Search me!'. He does not explain them. The jokes are his proof that the gamin has a mind as quick as Talleyrand's and is, as he says, more honest.",
+    "themes": [
+      "paris"
+    ]
+  },
+  {
+    "chapter": 149,
+    "kind": "motif",
+    "title": "Paradise in the gallery",
+    "text": "The cheap top gallery of the theatre, 'narrow, dark, fetid', is called Paradise because the children pack it with joy. It is a small instance of a pattern in the book: the lowest, darkest place turned into something radiant by the people in it.",
+    "themes": [
+      "light-darkness",
+      "paris"
+    ]
+  },
+  {
+    "chapter": 149,
+    "kind": "theme",
+    "title": "The useless without the necessary",
+    "text": "'Bestow on an individual the useless and deprive him of the necessary, and you have the gamin.' He has the theatre and no bread. In one line Hugo gives you the shape of urban poverty as he sees it: not only want, but a strange mix of want and freedom.",
+    "themes": [
+      "poverty"
+    ]
+  },
+  {
+    "chapter": 150,
+    "kind": "theme",
+    "title": "Beware of the gaping gamin",
+    "text": "Hugo lists Prejudice, Oppression, Tyranny and the rest, and warns them all to watch this child. The gamin is the whole of anarchy, as the idle lounger is the whole of monarchy. The street boy is presented as a political force, a witness who is quietly taking notes.",
+    "themes": [
+      "revolution",
+      "paris"
+    ]
+  },
+  {
+    "chapter": 150,
+    "kind": "question",
+    "title": "Jug or amphora?",
+    "text": "'The little fellow will grow up.' Hugo says chance and the spirit of Paris decide whether this lump of common clay becomes something great or something low. How much does he believe in chance here, and how much in what society chooses to do with such a child?",
+    "themes": [
+      "poverty",
+      "history"
+    ]
+  },
+  {
+    "chapter": 151,
+    "kind": "craft",
+    "title": "The narrator steps out",
+    "text": "'He who writes these lines has long been a prowler about the barriers of Paris.' Hugo writes in his own person about the wastelands at the city's edge, the quarries, the walls, the mills. The confession gives the description a lived-in feel, and it tells you he knows these 'limbos of Paris' at first hand.",
+    "themes": [
+      "paris"
+    ]
+  },
+  {
+    "chapter": 151,
+    "kind": "motif",
+    "title": "The edge of the city",
+    "text": "The banlieue is 'end of the grass, beginning of the pavements', neither country nor town. The reader has been here before: the Gorbeau house sat in just such a half-world. Hugo's children crowned with cornflowers belong to this in-between zone, and for them 'the universe ends there'.",
+    "themes": [
+      "paris",
+      "poverty"
+    ]
+  },
+  {
+    "chapter": 152,
+    "kind": "context",
+    "title": "Galley-slaves wanted",
+    "text": "Under Louis XIV, Hugo says, the courts manufactured convicts to row the new galleys, and a homeless boy of fifteen could be sent to them. Under Louis XV children vanished from the streets altogether. The history lesson is pointed: the state has a long record of treating poor children as raw material.",
+    "themes": [
+      "mercy-law",
+      "history",
+      "poverty"
+    ]
+  },
+  {
+    "chapter": 152,
+    "kind": "theme",
+    "title": "All crimes begin in the child",
+    "text": "'All crimes of the man begin in the vagabondage of the child.' Hugo then makes an exception for Paris, whose air 'preserves the soul'. Hugo is asking where criminals come from, and his answer is: from neglected children. The book has already shown one child, the little Savoyard Petit-Gervais, alone on a road with a coin.",
+    "themes": [
+      "poverty",
+      "mercy-law",
+      "paris"
+    ]
+  },
+  {
+    "chapter": 153,
+    "kind": "context",
+    "title": "Hugo coins a word",
+    "text": "Hugo claims the word 'gamin' first reached print in 1834 in 'Claude Gueux', which happens to be his own short story about a poor man driven to crime and execution. It is a sly bit of self-reference: he presents himself as the writer who gave this child a name.",
+    "themes": [
+      "names",
+      "paris"
+    ]
+  },
+  {
+    "chapter": 153,
+    "kind": "theme",
+    "title": "Laughing at the guillotine",
+    "text": "The gamin treats executions as festivals, gives the guillotine pet names and knows what every condemned man wore. Hugo does not moralise much; he lets the reader feel how strange it is that a society teaches its children to see death by law as entertainment.",
+    "themes": [
+      "mercy-law",
+      "paris"
+    ]
+  },
+  {
+    "chapter": 154,
+    "kind": "context",
+    "title": "The pear",
+    "text": "From 1830 the gamin 'scrawled pears on the walls'. The pear was the famous caricature of King Louis-Philippe, whose heavy-jowled face cartoonists turned into a pear. Hugo's anecdote of the king himself helping a boy finish one shows the good-natured monarch and the mockery that surrounded him in a single scene.",
+    "themes": [
+      "history",
+      "revolution"
+    ]
+  },
+  {
+    "chapter": 154,
+    "kind": "theme",
+    "title": "Two things he can never get",
+    "text": "The gamin longs 'to overthrow the government, and to get his trousers sewed up again'. The joke pairs revolution with mending. Both are out of reach for him, and Hugo makes the political and the domestic need sit side by side.",
+    "themes": [
+      "revolution",
+      "poverty"
+    ]
+  },
+  {
+    "chapter": 154,
+    "kind": "craft",
+    "title": "He knows every policeman",
+    "text": "The gamin can name every officer in Paris and has 'special notes on each one'. Hugo has shown us a great deal of the police in this book so far, mostly from above. Here the watchers are watched, from below, by a child.",
+    "themes": [
+      "mercy-law",
+      "paris"
+    ]
+  },
+  {
+    "chapter": 155,
+    "kind": "context",
+    "title": "From Molière to Barra",
+    "text": "Hugo enlists famous Parisians in the gamin's family: Molière (born Poquelin, near the market), Beaumarchais, Camille Desmoulins, and Barra, the boy drummer killed in the Revolutionary wars and made a republican martyr. The list moves from comedy to heroism, which is exactly the range he claims for the street child.",
+    "themes": [
+      "paris",
+      "revolution",
+      "history"
+    ]
+  },
+  {
+    "chapter": 155,
+    "kind": "theme",
+    "title": "He amuses himself because he is unhappy",
+    "text": "The Book has been funny for several chapters. Then the summing-up turns the joke inside out: 'the gamin is a being who amuses himself, because he is unhappy.' Read the earlier jokes again in that light.",
+    "themes": [
+      "poverty"
+    ]
+  },
+  {
+    "chapter": 156,
+    "kind": "theme",
+    "title": "Cured by light",
+    "text": "The gamin is 'a grace to the nation, and at the same time a disease'. The cure Hugo prescribes is light, which here means schooling: 'Make men, make men.' Light in this book has meant mercy and conscience; now it also means universal education.",
+    "themes": [
+      "light-darkness",
+      "poverty"
+    ]
+  },
+  {
+    "chapter": 156,
+    "kind": "craft",
+    "title": "A catalogue as an argument",
+    "text": "The long, dizzying list pairing ancient Rome and Greece with modern Paris is meant to overwhelm. Its point is simple: 'Seek something that Paris has not.' Paris is the whole of human history in miniature. The final sting, that Paris would miss its guillotine, brings the praise back down to earth.",
+    "themes": [
+      "paris",
+      "history",
+      "mercy-law"
+    ]
+  },
+  {
+    "chapter": 157,
+    "kind": "theme",
+    "title": "To dare",
+    "text": "'To dare; that is the price of progress.' It is not enough for philosophers to foresee a revolution; 'it is necessary that Danton should dare it.' The chapter is a hymn to audacity, and it ends by linking Prometheus's torch with Cambronne's pipe from Waterloo.",
+    "themes": [
+      "revolution",
+      "history"
+    ]
+  },
+  {
+    "chapter": 157,
+    "kind": "context",
+    "title": "A roll-call of liberty",
+    "text": "Washington, Kosciusko, Bolivar, Byron at Missolonghi, John Brown at Harper's Ferry, Garibaldi: Hugo, writing in the early 1860s, ranges well beyond the novel's time. He presents Paris, with its 14th of July and its night of 4 August 1789, as the source of every later struggle for freedom.",
+    "themes": [
+      "paris",
+      "revolution",
+      "history"
+    ]
+  },
+  {
+    "chapter": 158,
+    "kind": "motif",
+    "title": "Sand into crystal",
+    "text": "The rabble that Cicero and Burke despised is 'vile sand' which, thrown into the furnace, becomes 'a splendid crystal' through which Galileo and Newton see the stars. Hugo keeps returning to the image of something dark becoming transparent. Here it is the poor themselves.",
+    "themes": [
+      "light-darkness",
+      "poverty",
+      "revolution"
+    ]
+  },
+  {
+    "chapter": 158,
+    "kind": "craft",
+    "title": "Why the whole Book",
+    "text": "'To paint the child is to paint the city.' Hugo now tells you why he spent a dozen chapters on a type: the people of Paris, even grown up, are the gamin. The sparrow was a way of studying the eagle.",
+    "themes": [
+      "paris"
+    ]
+  },
+  {
+    "chapter": 159,
+    "kind": "craft",
+    "title": "From type to person",
+    "text": "After the general portrait, one boy steps out of it, and he does not fit. He has the gamin's laugh but 'a heart absolutely sombre and empty'. Hugo built the type so that you would feel exactly how this child differs from it.",
+    "themes": [
+      "poverty",
+      "parenthood"
+    ]
+  },
+  {
+    "chapter": 159,
+    "kind": "theme",
+    "title": "Orphans with a father and mother",
+    "text": "'His father did not think of him, and his mother did not love him.' The street is softer to him than his mother's heart, and yet 'his mother loved his sisters'. The book has already shown children loved and unloved under one roof. Here is another family that chooses which child to love.",
+    "themes": [
+      "parenthood",
+      "love",
+      "poverty"
+    ]
+  },
+  {
+    "chapter": 159,
+    "kind": "motif",
+    "title": "Back to the Gorbeau house",
+    "text": "The boy's visits home lead to 'that double number 50–52 with which the reader is acquainted'. Hugo returns us to the hovel where Jean Valjean and Cosette once hid, now full of strangers, with a new old portress. Places in this book are reused, and they carry their memories with them.",
+    "themes": [
+      "paris",
+      "poverty"
+    ]
+  },
+  {
+    "chapter": 159,
+    "kind": "theme",
+    "title": "A name that breaks the thread",
+    "text": "The father calls himself Jondrette and asks the portress to say he is a Pole, an Italian or a Spaniard if anyone asks. The son is called Gavroche. 'It seems to be the instinct of certain wretched families to break the thread.' Names here are not inherited but shed. Why would a man want to be anybody but himself?",
+    "themes": [
+      "names",
+      "parenthood"
+    ]
+  },
+  {
+    "chapter": 160,
+    "kind": "craft",
+    "title": "A man out of his century",
+    "text": "Marius was promised at the end of the last chapter; Hugo gives us his grandfather instead. M. Gillenormand is over ninety in 1831, with all his teeth, and he 'formerly resembled everybody, and now resembles nobody'. The detour is deliberate: before we meet the young man, we meet the world he comes out of.",
+    "themes": [
+      "history"
+    ]
+  },
+  {
+    "chapter": 160,
+    "kind": "theme",
+    "title": "Too poor, not too old",
+    "text": "He has renounced women, he says, not because he is too old but because he is too poor. His dream is an inheritance to spend on mistresses. Hugo enjoys the old man's vitality, but notice what money means to him: not bread, as it does at the Gorbeau house, but pleasure.",
+    "themes": [
+      "poverty",
+      "love"
+    ]
+  },
+  {
+    "chapter": 161,
+    "kind": "motif",
+    "title": "Fleurs-de-lys sewn by convicts",
+    "text": "Gillenormand's beloved boudoir is hung with straw tapestry made 'on the galleys of Louis XIV' by convicts, for a nobleman's mistress. Hugo slips it in without comment, a chapter after he told us how Louis XIV filled those galleys. The elegance of the old regime rests, quite literally, on the labour of the condemned.",
+    "themes": [
+      "mercy-law",
+      "history"
+    ]
+  },
+  {
+    "chapter": 161,
+    "kind": "theme",
+    "title": "A heap of blackguards",
+    "text": "'The French Revolution is a heap of blackguards.' Gillenormand dresses like a dandy of the Directory, owns a portrait 'of no one knows whom', and despises 1789. He is the eighteenth century surviving into the nineteenth, and his opinions are as fixed as his furniture.",
+    "themes": [
+      "revolution",
+      "history"
+    ]
+  },
+  {
+    "chapter": 162,
+    "kind": "context",
+    "title": "The dancers of Voltaire's day",
+    "text": "La Camargo, Mlle Sallé and La Guimard were star dancers of the Paris Opéra in the eighteenth century, celebrated by Voltaire. Gillenormand's memories are a roll-call of a vanished world of pleasure. When he sneers at Restoration ministers like Corbière and Casimir Périer as vulgar names, he is measuring the present against that lost glitter.",
+    "themes": [
+      "history",
+      "names"
+    ]
+  },
+  {
+    "chapter": 162,
+    "kind": "motif",
+    "title": "Luc-Esprit",
+    "text": "His godfather named him Luc-Esprit, 'Light-Wit', expecting a genius. The chapter title holds the joke: the name is a prophecy he half fulfilled. In a book full of chosen and discarded names, here is one handed down as a hope.",
+    "themes": [
+      "names"
+    ]
+  },
+  {
+    "chapter": 163,
+    "kind": "theme",
+    "title": "Not seeing ninety-three twice",
+    "text": "Gillenormand tells and retells how he dodged the guillotine in the Terror, and jokes that he hopes not to 'see ninety-three twice', meaning both the year 1793 and his own age. His whole political life is a reaction against one terrible year. Hugo returns to 1793 again and again in this book; here it is a private wound and a pun.",
+    "themes": [
+      "revolution",
+      "history"
+    ]
+  },
+  {
+    "chapter": 163,
+    "kind": "craft",
+    "title": "Comedy with an edge",
+    "text": "The elixir of gold, a quack cure 'for the catastrophes of love', turns out to be perchloride of iron. Hugo plays Gillenormand's credulity for laughs, but the laughter carries a judgement: this is a mind that has stopped learning.",
+    "themes": [
+      "history"
+    ]
+  },
+  {
+    "chapter": 164,
+    "kind": "theme",
+    "title": "Renaming the servants",
+    "text": "Every manservant is called after his province, every maid is Nicolette. The cook Olympie gets higher wages on condition she gives up her name. Gillenormand's household is a small court where the master decides who people are called. In a book where names are often lost or hidden, here they are simply confiscated.",
+    "themes": [
+      "names",
+      "poverty"
+    ]
+  },
+  {
+    "chapter": 164,
+    "kind": "craft",
+    "title": "A theory that became a history",
+    "text": "Gillenormand's theory of marriage, let the neglected wife handle the money, 'had become his history': his second wife spent his fortune. Hugo likes this compression: a man's opinion and his fate turn out to be the same sentence.",
+    "themes": [
+      "love"
+    ]
+  },
+  {
+    "chapter": 165,
+    "kind": "theme",
+    "title": "Generous in his own way",
+    "text": "Presented at eighty-four with a baby he cannot be the father of, Gillenormand is flattered rather than angry. When a second arrives, he pays the mother, Magnon, eighty francs a month and insists the boys be treated well. Vanity and decency are hard to pull apart in him. Hugo calls him 'kindly, abrupt, charitable'.",
+    "themes": [
+      "parenthood",
+      "poverty"
+    ]
+  },
+  {
+    "chapter": 165,
+    "kind": "question",
+    "title": "The disgrace of the family",
+    "text": "One daughter married 'through love, or chance, or otherwise' a soldier of the Republic and the Empire who won the cross at Austerlitz and was made colonel at Waterloo. Her father calls him 'the disgrace of my family'. What does it tell you about Gillenormand that a hero of those wars is, for him, a shame?",
+    "themes": [
+      "history",
+      "parenthood"
+    ]
+  },
+  {
+    "chapter": 166,
+    "kind": "motif",
+    "title": "Open only after dark",
+    "text": "'The day is vulgar,' says Gillenormand, and keeps his door shut until evening, when 'fashionable people light up their minds'. Light and darkness carry heavy meanings in this book. Here they are turned into a matter of fashion: the old world prefers candlelight to daylight.",
+    "themes": [
+      "light-darkness",
+      "history"
+    ]
+  },
+  {
+    "chapter": 166,
+    "kind": "craft",
+    "title": "Frivolous and great",
+    "text": "Hugo sums him up in four words: 'frivolous and great', like his century. After five chapters of comic detail, the verdict is generous. Gillenormand is not a villain; he is a period piece with a heart.",
+    "themes": [
+      "history"
+    ]
+  },
+  {
+    "chapter": 167,
+    "kind": "theme",
+    "title": "Angel and goose",
+    "text": "The two daughters both had wings, 'the one like an angel, the other like a goose'. The younger married her dream of a heroic figure and died; the elder never married and became 'a twilight soul'. Hugo sets two kinds of longing side by side, romantic love and social ambition, and neither ends happily.",
+    "themes": [
+      "love"
+    ]
+  },
+  {
+    "chapter": 167,
+    "kind": "theme",
+    "title": "He idolized him",
+    "text": "Gillenormand speaks to his small grandson only with a raised cane and a list of insults. Then comes the turn: 'He idolized him.' Love in this house speaks in the wrong voice. Compare the Jondrette home a few chapters back, where there are no insults and no love at all.",
+    "themes": [
+      "parenthood",
+      "love"
+    ]
+  },
+  {
+    "chapter": 167,
+    "kind": "motif",
+    "title": "Old man and spinster",
+    "text": "Hugo points out the parallel himself: Gillenormand keeps his daughter beside him as Monseigneur Bienvenu kept his sister. 'Two weaknesses leaning on each other.' The echo invites comparison between the two households, the saint's and the worldly old man's.",
+    "themes": [
+      "love"
+    ]
+  },
+  {
+    "chapter": 168,
+    "kind": "context",
+    "title": "An ultra-royalist salon",
+    "text": "Madame de T.'s salon is a nest of 'ultras', royalists more royal than the king, who think Louis XVIII a Jacobin and pin their hopes on his brother, the future Charles X. They sing a version of the revolutionary song 'Ça ira' with the Bonapartists hanging from lamp-posts in place of the aristocrats. 'Songs are like the guillotine.'",
+    "themes": [
+      "history",
+      "revolution"
+    ]
+  },
+  {
+    "chapter": 168,
+    "kind": "theme",
+    "title": "A thief is admitted, provided he be a god",
+    "text": "The Comte de Lamothe, connected with the scandal of Marie-Antoinette's diamond necklace, is honoured in this salon because his name is Valois. High society, Hugo says, admits a thief if he has the right name. Set that beside the yellow passport that shut every door on a convict.",
+    "themes": [
+      "names",
+      "mercy-law"
+    ]
+  },
+  {
+    "chapter": 168,
+    "kind": "question",
+    "title": "Poor child",
+    "text": "The handsome boy of seven hears the ladies murmur 'What a pity! Poor child!' because his father is 'a brigand of the Loire', one of Napoleon's officers. What does it do to a child to be pitied, in his own hearing, for who his father is?",
+    "themes": [
+      "parenthood",
+      "history"
+    ]
+  },
+  {
+    "chapter": 169,
+    "kind": "craft",
+    "title": "The gardener, then the soldier",
+    "text": "Hugo shows us a shy old man growing tulips at Vernon, gentle enough that 'a child could make him give way'. Only then does he unroll the campaigns: Lodi, Austerlitz, Eylau, Moscow, Waterloo. The order matters. We meet the goodness before the glory, so the 'brigand of the Loire' is a gardener before he is a legend.",
+    "themes": [
+      "history"
+    ]
+  },
+  {
+    "chapter": 169,
+    "kind": "context",
+    "title": "Hugo's uncle in the cemetery",
+    "text": "At Eylau, Pontmercy is 'in the cemetery where ... Captain Louis Hugo, the uncle of the author of this book' held out with eighty-three men. Hugo's father was himself a Napoleonic general. The aside tells you this chapter is family history as well as fiction: the Bonapartist father is a figure Hugo knew from the inside.",
+    "themes": [
+      "history"
+    ]
+  },
+  {
+    "chapter": 169,
+    "kind": "theme",
+    "title": "Am I permitted to wear my scar?",
+    "text": "The Restoration refuses to recognise the rank and title Napoleon gave him at Waterloo, and threatens to prosecute him for wearing his rosette. He sends back letters addressed to 'Commandant'. The quarrel is over a name and a title, and the colonel's question to the Crown Attorney turns it into a question about his body: can the state disown his wounds too?",
+    "themes": [
+      "names",
+      "history",
+      "mercy-law"
+    ]
+  },
+  {
+    "chapter": 169,
+    "kind": "theme",
+    "title": "Behind a pillar at Saint-Sulpice",
+    "text": "The colonel gave up his son so the boy would inherit, and now slips into Paris every few months 'like a criminal breaking his ban' just to watch him at mass. The scarred veteran is 'afraid of that old spinster'. The book has shown a parent sacrificing everything for a child before, and the picture of the hidden, watching father is close to unbearable.",
+    "themes": [
+      "parenthood",
+      "love"
+    ]
+  },
+  {
+    "chapter": 169,
+    "kind": "motif",
+    "title": "Letters read and unread",
+    "text": "Twice a year Marius sends dictated letters; his father answers 'with very tender letters which the grandfather thrust into his pocket unread'. Hugo makes the whole tragedy of the family visible in one gesture. Words of love exist, and they are stopped in a pocket.",
+    "themes": [
+      "parenthood",
+      "love"
+    ]
+  },
+  {
+    "chapter": 169,
+    "kind": "context",
+    "title": "Waterloo, from the other side",
+    "text": "Hugo now confirms what the Waterloo chapters showed us: the officer pulled from the sunken road of Ohain was Georges Pontmercy, and he is Marius's father. The reader saw what happened in that ravine at night, and who was there. Marius has never been told any of it.",
+    "themes": [
+      "history",
+      "parenthood"
+    ]
+  },
+  {
+    "chapter": 170,
+    "kind": "motif",
+    "title": "Phantoms round a dying fire",
+    "text": "To the small boy, the old ladies of the salon, with Biblical-sounding names and gowns of no colour, are 'phantoms', and the room lets in 'more night than day'. Hugo calls it 'a mummified society'. The child who arrived 'all joy and light' becomes grave in this dimness.",
+    "themes": [
+      "light-darkness",
+      "history"
+    ]
+  },
+  {
+    "chapter": 170,
+    "kind": "context",
+    "title": "What 'ultra' meant",
+    "text": "Hugo explains the word: to be ultra is to find the Pope not papist enough and the King not royal enough, 'to be so strongly for, as to be against'. The ultras dominated the early Restoration (1814–1820). Then came the 'doctrinarians', moderate royalists who argued for accepting all of French history, fleurs-de-lys and Napoleonic N's alike.",
+    "themes": [
+      "history",
+      "revolution"
+    ]
+  },
+  {
+    "chapter": 170,
+    "kind": "craft",
+    "title": "Affection for what he mocks",
+    "text": "Hugo says he writes of this world 'without any bitter or derisive idea', because it touches his mother, who was a royalist. It is a rare personal admission. He can satirise the salon and still insist it 'had a grandeur of its own'.",
+    "themes": [
+      "history"
+    ]
+  },
+  {
+    "chapter": 170,
+    "kind": "theme",
+    "title": "Cold and ardent",
+    "text": "Marius grows up a fanatical royalist, unloving to his grandfather and 'gloomy' about his father. Hugo's portrait is a list of contradictions: 'cold and ardent, noble, generous, proud'. Notice that his opinions are the air he was given to breathe. Hugo is showing how a young man's politics are made for him.",
+    "themes": [
+      "parenthood",
+      "revolution"
+    ]
+  },
+  {
+    "chapter": 171,
+    "kind": "theme",
+    "title": "He no longer expects you",
+    "text": "Marius takes the slow coach. Hugo notes that a night diligence would have brought him in time, and that 'neither Marius nor M. Gillenormand thought of making inquiries'. The colonel dies running to meet a son who is still on the road. The tear on the dead man's cheek 'was his son's delay'.",
+    "themes": [
+      "parenthood",
+      "love"
+    ]
+  },
+  {
+    "chapter": 171,
+    "kind": "craft",
+    "title": "A dropped hat",
+    "text": "Marius, ashamed of feeling so little, drops his hat to look overcome. Hugo does not condemn him outright: 'was it his fault?' The small, false gesture is more painful than any show of grief would be, because it is true to a boy who was taught not to love this man.",
+    "themes": [
+      "conscience",
+      "parenthood"
+    ]
+  },
+  {
+    "chapter": 171,
+    "kind": "motif",
+    "title": "The note",
+    "text": "The colonel's last words to his son are a title and a debt. Marius is to bear the barony, and to do Thénardier 'all the good he can' for saving his father's life at Waterloo. The reader remembers what Thénardier was actually doing on that battlefield. Marius keeps the paper out of 'vague respect for death'.",
+    "themes": [
+      "names",
+      "parenthood",
+      "history"
+    ]
+  },
+  {
+    "chapter": 171,
+    "kind": "motif",
+    "title": "The garden goes to nettles",
+    "text": "After the burial the sword and uniform are sold to an old-clothes dealer, the neighbours pillage the rare flowers, and the rest 'turned to nettles and weeds'. The colonel's two lives, the soldier's and the gardener's, are scattered within days. 'In three forgotten.'",
+    "themes": [
+      "history",
+      "parenthood"
+    ]
+  },
+  {
+    "chapter": 172,
+    "kind": "craft",
+    "title": "The same pillar",
+    "text": "Marius kneels 'behind a pillar' in the very chapel where his father used to hide to watch him. Hugo lets the place do the work: the son stands, without knowing it, where the father stood. A chair with a name on it sets the whole revelation going.",
+    "themes": [
+      "parenthood"
+    ]
+  },
+  {
+    "chapter": 172,
+    "kind": "theme",
+    "title": "A father who loved you dearly",
+    "text": "In a few sentences a stranger gives Marius what his family withheld for ten years: proof that his father adored him. 'A man is not a monster because he was at Waterloo.' The old warden is no political thinker, and that is the point: plain decency sees through what opinion has hidden.",
+    "themes": [
+      "parenthood",
+      "love"
+    ]
+  },
+  {
+    "chapter": 172,
+    "kind": "craft",
+    "title": "Some love affair",
+    "text": "Marius invents a hunting party and Gillenormand winks: 'Some love affair!' The old man reads every absence as gallantry. Hugo will milk this misreading, and the comedy is sharpened by our knowing that the passion is for a dead father.",
+    "themes": [
+      "love",
+      "parenthood"
+    ]
+  },
+  {
+    "chapter": 173,
+    "kind": "theme",
+    "title": "Conversion by reading",
+    "text": "Marius changes his politics in a library, reading the Moniteur, memoirs and bulletins until his father's name gives him a week's fever. Hugo traces the stages carefully because, he says, it is 'the history of many minds of our day'. A young royalist becomes a Bonapartist and a republican by meeting history in documents.",
+    "themes": [
+      "history",
+      "revolution"
+    ]
+  },
+  {
+    "chapter": 173,
+    "kind": "motif",
+    "title": "Stars and a sun",
+    "text": "Where Marius expected 'a guillotine in the twilight' and 'a sword in the night', he sees stars, Mirabeau, Danton, Robespierre, and a sun, Napoleon. The scene of conversion is a night window with Jupiter blazing. Hugo writes the change as a passage from darkness into dazzling light, and warns that dazzlement is not yet clear sight.",
+    "themes": [
+      "light-darkness",
+      "history"
+    ]
+  },
+  {
+    "chapter": 173,
+    "kind": "craft",
+    "title": "He went too far",
+    "text": "Hugo openly criticises his hero: like 'all new converts', Marius admits 'force' alongside 'genius' and 'neglected the attenuating circumstances'. The narrator lets us share Marius's thrill and keeps a cooler head himself. 'Progress is not accomplished in one stage.'",
+    "themes": [
+      "revolution",
+      "history"
+    ]
+  },
+  {
+    "chapter": 173,
+    "kind": "motif",
+    "title": "A hundred visiting cards",
+    "text": "Marius orders a hundred cards reading 'Le Baron Marius Pontmercy', and then, knowing nobody, keeps them in his pocket. The title his father bled for becomes the visible sign of the son's new self. It is touching and a little absurd, as Hugo means it to be.",
+    "themes": [
+      "names",
+      "parenthood"
+    ]
+  },
+  {
+    "chapter": 173,
+    "kind": "context",
+    "title": "The search at Montfermeil",
+    "text": "Obeying the note, Marius goes to Montfermeil to find Thénardier and finds the inn closed and its keeper vanished. The reader knows more than Marius about that inn and about that 'sergeant'. Hugo leaves the irony unspoken.",
+    "themes": [
+      "parenthood",
+      "conscience"
+    ]
+  },
+  {
+    "chapter": 174,
+    "kind": "craft",
+    "title": "A comic spy",
+    "text": "Aunt Gillenormand sends the lancer Théodule to follow Marius and find his 'lass'. Argus snores all night. Hugo builds a light farce out of the family's assumption that a young man's secret must be a woman, and the farce is there to make the last line land.",
+    "themes": [
+      "love"
+    ]
+  },
+  {
+    "chapter": 174,
+    "kind": "theme",
+    "title": "The lass was a grave",
+    "text": "Marius buys the finest flowers from a peasant girl, skirts the church and kneels on a grave marked 'Colonel Baron Pontmercy'. The chapter's last sentence turns everything the family assumed upside down. The love Marius has been hiding is for a father he met only as a corpse.",
+    "themes": [
+      "parenthood",
+      "love"
+    ]
+  },
+  {
+    "chapter": 174,
+    "kind": "theme",
+    "title": "Names chosen and endured",
+    "text": "'Marius! what an ugly name!' says the aunt; 'I would rather be called Alfred,' says Théodule. A trivial exchange, in a chapter where the name on a cross is what matters most. Names in this family are a field of battle, and the dead colonel has won this one.",
+    "themes": [
+      "names"
+    ]
+  },
+  {
+    "chapter": 175,
+    "kind": "motif",
+    "title": "The portrait that was a testament",
+    "text": "Gillenormand seizes the black shagreen case expecting a mistress's portrait and finds the colonel's note: 'my son shall take it and bear it.' The old man and his daughter sit with their backs to each other for an hour. The dead man has spoken in their own house.",
+    "themes": [
+      "parenthood",
+      "names"
+    ]
+  },
+  {
+    "chapter": 175,
+    "kind": "theme",
+    "title": "I am your father",
+    "text": "'It means that I am the son of my father.' 'I am your father.' The whole quarrel of the generations is in these two lines. Two men who love the same boy claim him, and the boy has to choose between 'a sacred grave' and 'hoary locks'.",
+    "themes": [
+      "parenthood",
+      "history"
+    ]
+  },
+  {
+    "chapter": 175,
+    "kind": "craft",
+    "title": "A man four years dead",
+    "text": "Marius, unable to insult his grandfather or leave his father unavenged, shouts 'Down with the Bourbons, and that great hog of a Louis XVIII!' Hugo deflates it at once: Louis XVIII 'had been dead for four years; but it was all the same to him.' The outburst is political in form and purely personal in content.",
+    "themes": [
+      "revolution",
+      "history"
+    ]
+  },
+  {
+    "chapter": 175,
+    "kind": "question",
+    "title": "What happened to the paper?",
+    "text": "Nicolette drops the medallion on the dark stairs and it is never found. Marius is sure Gillenormand burned 'his father's testament'. Hugo tells us it was probably an accident. What does it say about Marius that he assumes the worst, and about how quarrels grow on 'petty fatalities'?",
+    "themes": [
+      "parenthood",
+      "conscience"
+    ]
+  },
+  {
+    "chapter": 176,
+    "kind": "context",
+    "title": "Secret societies of the Restoration",
+    "text": "Hugo mentions the German Tugendbund and the Italian Carbonari, real secret societies that plotted against the post-Napoleonic order. The Friends of the A.B.C. are his invention, but they are modelled on the student and worker clubs of 1820s and 1830s Paris. The pun is the key: 'A.B.C.' sounds like 'abaissé', the abased, meaning the people.",
+    "themes": [
+      "revolution",
+      "history"
+    ]
+  },
+  {
+    "chapter": 176,
+    "kind": "craft",
+    "title": "A group portrait",
+    "text": "Hugo introduces nine young men one after another, each with a role: Enjolras the logic of the Revolution, Combeferre its philosophy, Courfeyrac the centre, Feuilly the outside world, Grantaire the doubter. It reads like a painted group portrait. Each figure is defined by what he believes and how he believes it.",
+    "themes": [
+      "revolution"
+    ]
+  },
+  {
+    "chapter": 176,
+    "kind": "theme",
+    "title": "Conflagration or dawn",
+    "text": "Enjolras would follow Saint-Just; Combeferre prefers Condorcet. Combeferre asks why light must come from a fire: 'A conflagration can create an aurora, no doubt, but why not await the dawn?' The two friends hold the book's old question about progress: whether it must come through violence or can come through education.",
+    "themes": [
+      "revolution",
+      "light-darkness"
+    ]
+  },
+  {
+    "chapter": 176,
+    "kind": "motif",
+    "title": "Names worn and shed",
+    "text": "Courfeyrac drops his 'de' because the liberals of his day thought the particle unfashionable. Lesgle's family name came from 'Lesgueules' and became 'l'Aigle', the eagle; his friends call him Bossuet because he is 'de Meaux', like the great preacher. Grantaire signs himself with a rebus: R (in French, 'grand R' sounds like Grantaire). These students play with names as freely as Hugo does.",
+    "themes": [
+      "names"
+    ]
+  },
+  {
+    "chapter": 176,
+    "kind": "theme",
+    "title": "The doubter and the believer",
+    "text": "Grantaire believes in nothing except his glass and Enjolras. 'No one loves the light like the blind man.' Enjolras scorns him, and Grantaire still says 'What fine marble!' Hugo makes their friendship a study in opposites: faith without warmth on one side, warmth without faith on the other.",
+    "themes": [
+      "love",
+      "revolution"
+    ]
+  },
+  {
+    "chapter": 176,
+    "kind": "context",
+    "title": "Poland, 1772",
+    "text": "Feuilly, the self-taught orphan fan-maker, rages over the partition of Poland among Russia, Prussia and Austria in 1772, which he calls the model of every later crime against nations. Poland's cause was a passion of French liberals throughout the 1830s. The orphan who 'adopted the peoples' turns a private loss into a political love.",
+    "themes": [
+      "history",
+      "revolution",
+      "parenthood"
+    ]
+  },
+  {
+    "chapter": 177,
+    "kind": "craft",
+    "title": "A name answers for a name",
+    "text": "Bossuet answers 'Present!' for Marius at roll call, is caught when his own name, Laigle, is called, and gets struck off. 'If you are Pontmercy, you are not Laigle.' Hugo's comic set-piece turns on the same thing as the darker plots of the book: one man answering to another man's name.",
+    "themes": [
+      "names"
+    ]
+  },
+  {
+    "chapter": 177,
+    "kind": "theme",
+    "title": "Chance as a host",
+    "text": "Marius has left his grandfather's with thirty francs and no idea where to go; a name sewn on his bag and a lounger in a café doorway give him a home and friends by evening. Hugo often lets chance shape lives. Here it is kindly, and it brings Marius to the very group the previous chapter described.",
+    "themes": [
+      "paris"
+    ]
+  },
+  {
+    "chapter": 178,
+    "kind": "motif",
+    "title": "Jean-Jacques and his children",
+    "text": "Walking down the Rue Jean-Jacques Rousseau, Courfeyrac jokes that Rousseau sent his own babies to the foundling hospital. Enjolras rebukes him: 'He denied his own children, that may be; but he adopted the people.' In a book full of abandoned and adopted children, the remark lands with weight. Is it a defence or an accusation?",
+    "themes": [
+      "parenthood",
+      "revolution"
+    ]
+  },
+  {
+    "chapter": 178,
+    "kind": "theme",
+    "title": "Bonaparte, not the Emperor",
+    "text": "Marius has just become a 'democrat-Bonapartist', which Courfeyrac calls 'the gray hue of a reassured rat'. Among these republicans nobody says 'the Emperor', and Enjolras says 'Buonaparte' like a royalist. Marius thought his conversion had settled him. Now the ground shifts again.",
+    "themes": [
+      "revolution",
+      "history"
+    ]
+  },
+  {
+    "chapter": 179,
+    "kind": "craft",
+    "title": "A room full of conversations",
+    "text": "Hugo moves round the back room corner by corner: Grantaire's drunken tirade, a vaudeville being plotted, a duel discussed, dominoes and love, pagan gods, and finally politics. The effect is of standing in a noisy café and catching fragments. Serious and silly talk share the same tables, as they do among the young.",
+    "themes": [
+      "paris",
+      "revolution"
+    ]
+  },
+  {
+    "chapter": 179,
+    "kind": "theme",
+    "title": "Grantaire's despair",
+    "text": "Under the jokes, Grantaire's speech is a sweeping 'All is vanity': every virtue borders a vice, history repeats itself, victory is stupid, 'man is a failure'. It is the most bleakly sceptical voice we have heard in the book. Hugo puts it in the mouth of a drunk, but he gives it real wit and real learning.",
+    "themes": [
+      "history",
+      "conscience"
+    ]
+  },
+  {
+    "chapter": 179,
+    "kind": "context",
+    "title": "Burning the Charter",
+    "text": "The Charter of 1814 was the constitution Louis XVIII 'granted' to France. Its Article 14 let the king rule by decree in emergencies, and in 1830 Charles X used it to suspend liberties, which set off the July Revolution. Courfeyrac's point is that a constitution handed down by a king can be taken back by him: 'By the side of the hand which gives there is the claw which snatches back.'",
+    "themes": [
+      "revolution",
+      "history",
+      "mercy-law"
+    ]
+  },
+  {
+    "chapter": 180,
+    "kind": "theme",
+    "title": "To be free",
+    "text": "Marius's long, dazzling hymn to Napoleon, codes, bulletins, Austerlitz, 'the archangel of war', ends with 'what greater thing is there?' Combeferre answers in three words: 'To be free.' Hugo lets the cold, simple reply cut through the epic. Glory and liberty are not the same thing.",
+    "themes": [
+      "revolution",
+      "history"
+    ]
+  },
+  {
+    "chapter": 180,
+    "kind": "motif",
+    "title": "My mother is the Republic",
+    "text": "Combeferre goes down the stairs singing a song about choosing one's mother over Caesar's glory. Marius, who never knew his mother, repeats 'My mother?' Then Enjolras: 'Citizen, my mother is the Republic.' The book keeps mixing family love with political love. Here a cause is offered in place of a parent.",
+    "themes": [
+      "parenthood",
+      "revolution",
+      "love"
+    ]
+  },
+  {
+    "chapter": 180,
+    "kind": "craft",
+    "title": "Napoleon's numbers",
+    "text": "Courfeyrac plays with 18: the 18th Brumaire (Napoleon's coup in 1799), the 18th of June (Waterloo), Louis XVIII. Enjolras turns the game into a verdict: 'the crime and the expiation'. The word 'crime' is what brings Marius to his feet.",
+    "themes": [
+      "history"
+    ]
+  },
+  {
+    "chapter": 181,
+    "kind": "theme",
+    "title": "Doubly isolated",
+    "text": "Too daring for his grandfather, too old-fashioned for his friends, Marius stands 'between two religions'. Hugo compares him to earth torn open by the plough: he feels only the wound for now. He also fears that moving forward may take him further from his father, whose cause he has only just embraced.",
+    "themes": [
+      "conscience",
+      "revolution",
+      "parenthood"
+    ]
+  },
+  {
+    "chapter": 181,
+    "kind": "theme",
+    "title": "Never",
+    "text": "Courfeyrac offers a loan: 'Never.' The aunt sends six hundred francs in gold and Marius sends it back with three francs to his name. Pride is his whole fortune. The scene is funny (he forgets the hotel bill) and also a little alarming. Hugo lets you admire the refusal and doubt its wisdom.",
+    "themes": [
+      "poverty",
+      "parenthood"
+    ]
+  },
+  {
+    "chapter": 182,
+    "kind": "theme",
+    "title": "The crucible",
+    "text": "Poverty is 'a crucible into which destiny casts a man, whenever it desires a scoundrel or a demigod'. Hugo has shown poverty breaking people in this book. Now he shows it forging one, and insists on the 'obscure heroes' of daily privation who never get a trumpet blast.",
+    "themes": [
+      "poverty",
+      "conscience"
+    ]
+  },
+  {
+    "chapter": 182,
+    "kind": "motif",
+    "title": "Clothed with the night",
+    "text": "Courfeyrac's old coat, turned, comes out green, so Marius goes out only after dark, when it looks black. 'As he wished always to appear in mourning, he clothed himself with the night.' One small, exact detail holds grief for his father, poverty and pride together.",
+    "themes": [
+      "light-darkness",
+      "poverty",
+      "parenthood"
+    ]
+  },
+  {
+    "chapter": 182,
+    "kind": "craft",
+    "title": "A cutlet for three days",
+    "text": "Meat on the first day, fat on the second, bone on the third. Hugo makes poverty concrete with a menu. The young man bowing to the butcher's wife with his books under his arm is comic and dignified at once.",
+    "themes": [
+      "poverty",
+      "paris"
+    ]
+  },
+  {
+    "chapter": 182,
+    "kind": "question",
+    "title": "A baron and a lawyer",
+    "text": "Gillenormand tears up Marius's letter and is overheard talking to himself: 'one cannot be a baron and a lawyer at the same time.' He is still thinking about his grandson, and still in his own terms. Is he angry, or hurt, or both?",
+    "themes": [
+      "parenthood",
+      "names"
+    ]
+  }
+]

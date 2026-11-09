@@ -307,7 +307,7 @@
       "mademoiselle-gillenormand",
       "madame-pontmercy",
       "abbe-mabeuf",
-      "monsieur-mabeuf"
+      "mabeuf"
     ]
   },
   {
@@ -361,7 +361,7 @@
     ],
     "characters": [
       "marius",
-      "monsieur-mabeuf",
+      "mabeuf",
       "colonel-pontmercy",
       "monsieur-gillenormand",
       "mademoiselle-gillenormand",
@@ -381,7 +381,7 @@
     "characters": [
       "marius",
       "colonel-pontmercy",
-      "monsieur-mabeuf",
+      "mabeuf",
       "monsieur-gillenormand",
       "mademoiselle-gillenormand",
       "thenardier"
@@ -439,7 +439,7 @@
     "characters": [
       "enjolras",
       "combeferre",
-      "prouvaire",
+      "jean-prouvaire",
       "feuilly",
       "courfeyrac",
       "bahorel",
@@ -481,7 +481,7 @@
       "enjolras",
       "combeferre",
       "bahorel",
-      "prouvaire"
+      "jean-prouvaire"
     ]
   },
   {
@@ -499,7 +499,7 @@
       "bossuet",
       "joly",
       "bahorel",
-      "prouvaire",
+      "jean-prouvaire",
       "combeferre",
       "courfeyrac",
       "enjolras",
@@ -524,7 +524,7 @@
       "combeferre",
       "bahorel",
       "grantaire",
-      "prouvaire"
+      "jean-prouvaire"
     ]
   },
   {
@@ -593,7 +593,7 @@
       "monsieur-gillenormand",
       "mademoiselle-gillenormand",
       "courfeyrac",
-      "monsieur-mabeuf",
+      "mabeuf",
       "enjolras",
       "colonel-pontmercy"
     ]
@@ -610,7 +610,7 @@
       "Absorbed minds, Hugo observes, are slow to notice their own ruin; Mabeuf remained serene as his hopes went out one by one, like a clock that keeps going after the key is lost. His pleasures were cheap and unexpected: hearing Mother Plutarque read aloud a romance in which 'the beauty pouted, and the dragoon', he drifted into a reverie about Buddha converting the dragon and pronounced it a beautiful book."
     ],
     "characters": [
-      "monsieur-mabeuf",
+      "mabeuf",
       "mother-plutarque",
       "marius",
       "abbe-mabeuf",
@@ -630,7 +630,7 @@
     ],
     "characters": [
       "marius",
-      "monsieur-mabeuf",
+      "mabeuf",
       "courfeyrac",
       "madame-bourgon",
       "jondrette"
@@ -753,7 +753,7 @@
       "monsieur-leblanc",
       "the-girl-at-the-luxembourg",
       "courfeyrac",
-      "prouvaire"
+      "jean-prouvaire"
     ]
   },
   {

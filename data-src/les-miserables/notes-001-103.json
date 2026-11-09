@@ -2381,5 +2381,584 @@
     "chapter": 70,
     "text": "The fosse commune, a shared trench in the cemetery where the poor were buried free, without a marked plot, the bodies laid side by side and the ground reused after some years. A paid concession was needed for a grave of one's own.",
     "quote": "She was thrown into the public grave."
+  },
+  {
+    "term": "Last year (1861)",
+    "kind": "lore",
+    "chapter": 71,
+    "text": "The narrator steps out of the story as himself: Hugo really did visit the battlefield in May 1861, staying at Mont-Saint-Jean while he finished the novel. Volume II opens with a traveller's walk, not with the characters.",
+    "quote": "Last year (1861), on a beautiful May morning"
+  },
+  {
+    "term": "Nivelles and Braine-l’Alleud",
+    "kind": "place",
+    "chapter": 71,
+    "text": "Towns of Belgian Brabant just south of Brussels, at the western edge of the battlefield. In 1815 Belgium was part of the new Kingdom of the Netherlands; the field lies along the roads from Nivelles and from Genappe to Brussels.",
+    "quote": "was coming from Nivelles"
+  },
+  {
+    "term": "Hougomont",
+    "kind": "place",
+    "chapter": 71,
+    "text": "A walled château-farm with a garden and orchard on the western side of the field of Waterloo. The French attacked it all day and never took it from its British Guards and German defenders. Hugo walks into it as a working farm, still scarred by shot.",
+    "quote": "“Hougomont,” said the peasant woman.",
+    "seeAlso": [
+      72,
+      75
+    ]
+  },
+  {
+    "term": "the lion",
+    "kind": "place",
+    "chapter": 71,
+    "text": "The Lion's Mound, an artificial hill about forty metres high topped by a cast-iron lion, raised in 1826 by the Dutch king where his son the Prince of Orange was wounded. Building it reshaped the ground, as Hugo complains: the field is no longer as it was.",
+    "quote": "something which at that distance resembled a lion",
+    "seeAlso": [
+      74,
+      78,
+      86
+    ]
+  },
+  {
+    "term": "Waterloo",
+    "kind": "place",
+    "chapter": 71,
+    "text": "A village about fifteen kilometres south of Brussels, where Wellington had his headquarters and dated his dispatch. The fighting took place a few kilometres further south, around Mont-Saint-Jean, but the battle took the village's name.",
+    "quote": "He was on the battlefield of Waterloo.",
+    "seeAlso": [
+      89
+    ]
+  },
+  {
+    "term": "Cooke’s four companies of guards",
+    "kind": "history",
+    "chapter": 72,
+    "text": "Light companies of the British Foot Guards under General Cooke, who held Hougomont with Nassau and Hanoverian troops against repeated French assaults. The defence of its north gate, forced and then shut again, became a British legend.",
+    "quote": "Cooke’s four companies of guards"
+  },
+  {
+    "term": "Jérôme",
+    "kind": "history",
+    "chapter": 72,
+    "text": "Jérôme Bonaparte, the Emperor's youngest brother and former King of Westphalia, who commanded a division in Reille's corps. His attack on Hougomont, meant as a diversion, swallowed thousands of men. Foy, Bachelu, Guilleminot and Kellermann were French generals in the same sector.",
+    "quote": "Napoleon sent his brother Jérôme against Hougomont"
+  },
+  {
+    "term": "Hanoverian, Nassau, Brunswick",
+    "kind": "history",
+    "chapter": 72,
+    "text": "Wellington's army was barely a third British: the rest were Dutch and Belgian troops and contingents from German states, Hanover (ruled by the British king), the duchy of Nassau and the duchy of Brunswick, whose black-uniformed soldiers had lost their duke two days earlier.",
+    "quote": "the Hanoverian lieutenant, Wilda"
+  },
+  {
+    "term": "biscayan",
+    "kind": "word",
+    "chapter": 72,
+    "text": "A heavy musket ball, or a large lead ball fired from a cannon in a case of grapeshot, named after the long Biscay muskets. Grapeshot and canister were clusters of small balls that scattered from the gun's mouth like a giant shotgun.",
+    "quote": "its bullet or its biscayan"
+  },
+  {
+    "term": "Lenôtre",
+    "kind": "reference",
+    "chapter": 72,
+    "text": "André Le Nôtre (1613–1700), the gardener of Versailles, master of the formal French garden. Hougomont's terraced garden is in the older style before him, and in 1861 ruins and briars.",
+    "quote": "the first French style which preceded Lenôtre"
+  },
+  {
+    "term": "the Edict of Nantes",
+    "kind": "history",
+    "chapter": 72,
+    "text": "Henri IV's edict of 1598 granting French Protestants freedom of worship. Louis XIV revoked it in 1685 and hundreds of thousands of Huguenots fled abroad, which is how the German general Duplat came to have a French name.",
+    "quote": "the revocation of the Edict of Nantes"
+  },
+  {
+    "term": "Blücher",
+    "kind": "history",
+    "chapter": 73,
+    "text": "Gebhard von Blücher (1742–1819), the seventy-two-year-old Prussian field marshal, beaten by Napoleon at Ligny two days before Waterloo but able to march to Wellington's aid. Hugo makes the late start of the battle, caused by the rain, the reason he arrived in time.",
+    "quote": "that gave Blücher time to come up"
+  },
+  {
+    "term": "Austerlitz",
+    "kind": "history",
+    "chapter": 73,
+    "text": "Napoleon's greatest victory, over the Austrians and Russians on 2 December 1805, where the morning 'sun of Austerlitz' broke through the fog. Hugo uses it as Waterloo's opposite: the beginning and the end of the Empire's glory.",
+    "quote": "make Waterloo the end of Austerlitz"
+  },
+  {
+    "term": "Napoleon was an artillery officer",
+    "kind": "history",
+    "chapter": 73,
+    "text": "Napoleon trained as a gunner and first made his name directing the guns at the siege of Toulon in 1793. Massed artillery was the key to his battles, so ground too wet for the guns to move was a serious handicap.",
+    "quote": "Napoleon was an artillery officer"
+  },
+  {
+    "term": "Hal and Tongres",
+    "kind": "place",
+    "chapter": 73,
+    "text": "Towns west and east of Brussels, the directions of the British and Prussian lines of retreat. Napoleon's plan was to split the two allied armies and drive them apart toward their own bases.",
+    "quote": "to drive the British half back on Hal"
+  },
+  {
+    "term": "Mont-Saint-Jean",
+    "kind": "place",
+    "chapter": 74,
+    "text": "A hamlet and farm on the Brussels road where the ground rises to a plateau. Wellington's army stood along its crest, partly hidden behind it, which is why the French called the battle after it. Hugo's capital A puts it at the apex.",
+    "quote": "The top of the A is Mont-Saint-Jean"
+  },
+  {
+    "term": "La Belle-Alliance",
+    "kind": "place",
+    "chapter": 74,
+    "text": "An inn on the Brussels road south of the plateau, near Napoleon's position. Its name, 'the fine alliance', struck Hugo as an omen, since Wellington and Blücher met there after the battle; the Prussians wanted the battle named after it.",
+    "quote": "the right tip is the Belle-Alliance, where Napoleon was"
+  },
+  {
+    "term": "the hollow road to Ohain",
+    "kind": "place",
+    "chapter": 74,
+    "text": "A sunken lane running along the crest of the plateau from Braine-l'Alleud to Ohain, cut deep between banks, invisible from the French side. The building of the Lion's Mound later used its banks and levelled it. Hugo describes it with dread.",
+    "quote": "the hollow road to Ohain from Braine-l’Alleud",
+    "seeAlso": [
+      78,
+      79,
+      89
+    ]
+  },
+  {
+    "term": "the forest of Soignes",
+    "kind": "place",
+    "chapter": 74,
+    "text": "The great beech forest that runs between the battlefield and Brussels. It lay at Wellington's back, so a defeat would have meant a disorderly retreat through its tracks and ponds.",
+    "quote": "is the forest of Soignes"
+  },
+  {
+    "term": "Brienne",
+    "kind": "history",
+    "chapter": 74,
+    "text": "The military school at Brienne-le-Château in Champagne where the young Bonaparte studied from 1779 to 1784. Hugo dresses the Emperor in his famous costume: little cocked hat, green chasseur's coat, the sword he carried at Marengo.",
+    "quote": "the little three-cornered hat of the school of Brienne"
+  },
+  {
+    "term": "Picton and Hill",
+    "kind": "history",
+    "chapter": 74,
+    "text": "Sir Thomas Picton and Lord Hill were Wellington's veteran generals from the Spanish campaigns; Picton was killed in the battle. D'Erlon and Reille were the French corps commanders facing them.",
+    "quote": "d’Erlon facing Picton, Reille facing Hill"
+  },
+  {
+    "term": "Babylon violated lessens Alexander",
+    "kind": "reference",
+    "chapter": 74,
+    "text": "Hugo lists conquerors whose glory is diminished by what they did: Alexander the Great at Babylon, Caesar enslaving Rome, Titus destroying Jerusalem in AD 70. History, he says, sets the despot against the hero in the same man.",
+    "quote": "Babylon violated lessens Alexander"
+  },
+  {
+    "term": "La Haie-Sainte",
+    "kind": "place",
+    "chapter": 75,
+    "text": "A walled farm in front of the centre of Wellington's line, on the Brussels road, held by the King's German Legion until they ran out of ammunition and it fell in the late afternoon. It was the key to the British centre.",
+    "quote": "hurling Quiot’s brigade on La Haie-Sainte",
+    "seeAlso": [
+      76
+    ]
+  },
+  {
+    "term": "Ney",
+    "kind": "history",
+    "chapter": 75,
+    "text": "Michel Ney (1769–1815), marshal of France, 'the bravest of the brave', who directed the French attacks at Waterloo. He had promised Louis XVIII to bring Napoleon back 'in an iron cage' and then went over to him in March 1815.",
+    "quote": "Ney pushed forward the right wing",
+    "seeAlso": [
+      79,
+      82
+    ]
+  },
+  {
+    "term": "Quid obscurum, quid divinum",
+    "kind": "foreign",
+    "chapter": 75,
+    "text": "Latin, 'something obscure, something divine', Hugo's tag for the element in a battle that escapes plans and maps. The chapter's title calls it the 'quid obscurum' of battles.",
+    "quote": "Quid obscurum, quid divinum."
+  },
+  {
+    "term": "Salvator Rosa and Gribeauval",
+    "kind": "reference",
+    "chapter": 75,
+    "text": "Salvator Rosa was a seventeenth-century painter of wild battle scenes; Gribeauval the eighteenth-century engineer who standardised French artillery. Rembrandt and Van der Meulen, Folard and Polybius are paired the same way: the painter of chaos against the exact recorder.",
+    "quote": "what Salvator Rosa requires, not what is suited to the needs of Gribeauval"
+  },
+  {
+    "term": "Scotch Grays",
+    "kind": "history",
+    "chapter": 76,
+    "text": "The Royal Scots Greys, a heavy cavalry regiment on grey horses, part of Ponsonby's Union Brigade. Their charge broke d'Erlon's infantry early in the afternoon, then ran on too far and was cut up by French lancers and cuirassiers.",
+    "quote": "The Scotch Grays no longer existed"
+  },
+  {
+    "term": "Prince of Orange",
+    "kind": "history",
+    "chapter": 76,
+    "text": "William, heir to the Dutch throne, aged twenty-two, who commanded Wellington's Dutch-Belgian corps and was wounded in the battle. The Lion's Mound marks the spot.",
+    "quote": "The Prince of Orange was in command of the centre"
+  },
+  {
+    "term": "Talavera, Vittoria, Salamanca",
+    "kind": "history",
+    "chapter": 76,
+    "text": "Wellington's victories over the French in Spain during the Peninsular War (1808–1814). His 'old companions' were the veterans of those campaigns.",
+    "quote": "his old companions of Talavera, of Vittoria, of Salamanca"
+  },
+  {
+    "term": "Ridet Caesar, Pompeius flebit",
+    "kind": "foreign",
+    "chapter": 77,
+    "text": "Latin, 'Caesar laughs, Pompey will weep', a soldiers' saying before Pharsalus, where Caesar beat Pompey. Hugo applies it to Napoleon's high spirits on the morning of Waterloo, then reverses it.",
+    "quote": "Ridet Caesar, Pompeius flebit"
+  },
+  {
+    "term": "the Duchess of Richmond’s ball",
+    "kind": "history",
+    "chapter": 77,
+    "text": "The famous ball in Brussels on the night of 15 June 1815, where Wellington and his officers learned that Napoleon had crossed the frontier; many went straight from the dance to battle. Soult's joke at breakfast turns on it.",
+    "quote": "at the Duchess of Richmond’s"
+  },
+  {
+    "term": "Soult",
+    "kind": "history",
+    "chapter": 77,
+    "text": "Nicolas Soult, marshal of France and Duke of Dalmatia, Napoleon's chief of staff in 1815. He had fought Wellington for years in Spain and warned the Emperor not to underrate him.",
+    "quote": "saying to Soult as he did so"
+  },
+  {
+    "term": "grumblers",
+    "kind": "history",
+    "chapter": 77,
+    "text": "The grognards, Napoleon's nickname for the veteran grenadiers of the Old Guard, who grumbled on the march but followed him anywhere. It became the name for any old soldier of the Empire.",
+    "quote": "his grenadiers “his grumblers;”"
+  },
+  {
+    "term": "Elba",
+    "kind": "place",
+    "chapter": 77,
+    "text": "The small Mediterranean island off Tuscany given to Napoleon as a sovereign principality after his first abdication in 1814. He escaped from it in February 1815 on the brig L'Inconstant and landed in France on 1 March.",
+    "quote": "the trip from the island of Elba to France"
+  },
+  {
+    "term": "Scabra rubigine",
+    "kind": "foreign",
+    "chapter": 78,
+    "text": "Latin, 'with rough rust', from Virgil's Georgics, where the farmer of the future ploughs up rusted spears and helmets on an old battlefield. Hugo, turning up shell fragments on the knoll, is that farmer.",
+    "quote": "Scabra rubigine"
+  },
+  {
+    "term": "Grouchy",
+    "kind": "history",
+    "chapter": 78,
+    "text": "Emmanuel de Grouchy, the marshal sent with some 30,000 men to pursue the Prussians after Ligny. He followed his orders too literally, ignored the sound of the guns and never reached the field: the absent army of Waterloo.",
+    "quote": "Grouchy’s delay",
+    "seeAlso": [
+      81
+    ]
+  },
+  {
+    "term": "Bérésina, Leipzig, and Fontainebleau",
+    "kind": "history",
+    "chapter": 78,
+    "text": "The disasters of Napoleon's decline: the river crossing during the retreat from Moscow in 1812, the 'Battle of the Nations' lost in 1813, and the palace where he abdicated in April 1814. Crécy, Poitiers, Agincourt, Malplaquet and Ramillies are old English victories over France.",
+    "quote": "when one has Bérésina, Leipzig, and Fontainebleau behind one"
+  },
+  {
+    "term": "Marengo",
+    "kind": "history",
+    "chapter": 78,
+    "text": "Napoleon's victory over the Austrians in northern Italy in June 1800, which secured his power as First Consul. 'The man of Marengo' is the young Bonaparte of the glory years.",
+    "quote": "The man of Marengo was wiping out Agincourt"
+  },
+  {
+    "term": "cuirassiers",
+    "kind": "title",
+    "chapter": 78,
+    "text": "Heavy cavalry who wore a steel breastplate (cuirass) and helmet, on big horses, used to break enemy lines by sheer weight. Milhaud's and Kellermann's cuirassiers made the great charges of the afternoon.",
+    "quote": "He gave orders to Milhaud’s cuirassiers",
+    "seeAlso": [
+      79
+    ]
+  },
+  {
+    "term": "the Muskowa",
+    "kind": "history",
+    "chapter": 79,
+    "text": "The battle of Borodino, near Moscow, on 7 September 1812, which the French call the Moskova. The heavy cavalry took the great redoubt there, under Murat, Napoleon's flamboyant cavalry marshal and brother-in-law.",
+    "quote": "the great redoubt of the Muskowa"
+  },
+  {
+    "term": "squares",
+    "kind": "custom",
+    "chapter": 79,
+    "text": "Against cavalry, infantry formed hollow squares several ranks deep, bayonets outward on every side, the front rank kneeling. Horses would not charge into a steady wall of bayonets, and the guns sheltered inside. Wellington's squares stood all afternoon.",
+    "quote": "the English infantry, formed into thirteen squares"
+  },
+  {
+    "term": "Vive l’Empereur!",
+    "kind": "foreign",
+    "chapter": 79,
+    "text": "'Long live the Emperor!', the battle-cry of Napoleon's armies. After 1815 shouting it in France was a 'seditious cry' that could bring a prison sentence.",
+    "quote": "shouting, “Vive l’Empereur!”"
+  },
+  {
+    "term": "pibroch",
+    "kind": "word",
+    "chapter": 80,
+    "text": "Strictly the classical music of the Highland bagpipe, but here the pipes themselves. Scottish regiments marched and fought to them. 'Ben Lothian' is Hugo's invented Scottish mountain.",
+    "quote": "with his pibroch under his arm"
+  },
+  {
+    "term": "the Iron Duke",
+    "kind": "history",
+    "chapter": 80,
+    "text": "The Duke of Wellington (1769–1852), Arthur Wellesley, commander of the allied army. 'Blücher, or night!' is his famous prayer: either the Prussians arrive or darkness ends the fighting.",
+    "quote": "The Iron Duke remained calm"
+  },
+  {
+    "term": "Louis XVIII at Ghent",
+    "kind": "history",
+    "chapter": 80,
+    "text": "During the Hundred Days the king and his court took refuge in Ghent, in Belgium, waiting on the outcome. The panic among fugitives from the battlefield reached them there; the Prince de Condé was at Mechlin.",
+    "quote": "the Prince de Condé at Mechlin, and Louis XVIII at Ghent"
+  },
+  {
+    "term": "Bülow",
+    "kind": "history",
+    "chapter": 81,
+    "text": "Friedrich Wilhelm von Bülow, commander of Blücher's IV Corps, the first Prussian troops to reach the field. His attack on Plancenoit, behind Napoleon's right, drew off the French reserves.",
+    "quote": "Bülow, Blücher’s lieutenant"
+  },
+  {
+    "term": "Plancenoit",
+    "kind": "place",
+    "chapter": 81,
+    "text": "A village behind the French right, where the arriving Prussians struck. It changed hands several times in savage fighting between Prussians and the Young Guard, and burned.",
+    "quote": "instead of below Plancenoit"
+  },
+  {
+    "term": "the Guard",
+    "kind": "history",
+    "chapter": 82,
+    "text": "The Imperial Guard, Napoleon's elite reserve of veterans in tall bearskin caps, his last card at Waterloo. Its repulse on the slope of Mont-Saint-Jean in the evening, the first time it had been beaten, set off the French collapse.",
+    "quote": "the Guard entering the line"
+  },
+  {
+    "term": "Marshal of France",
+    "kind": "title",
+    "chapter": 82,
+    "text": "The highest military dignity in France, revived by Napoleon. Hugo's 'reserved for French bullets' refers to Ney's fate: tried by the Chamber of Peers and shot by a firing squad in Paris in December 1815 for rallying to Napoleon.",
+    "quote": "how a Marshal of France dies on the field of battle!"
+  },
+  {
+    "term": "Uhlans",
+    "kind": "word",
+    "chapter": 83,
+    "text": "Lancers of the Prussian and other German armies. In the pursuit after the battle they, and the Prussian 'death's-head' hussars with skulls on their caps, gave no quarter.",
+    "quote": "the swords of the Uhlans"
+  },
+  {
+    "term": "the Grand Army",
+    "kind": "history",
+    "chapter": 83,
+    "text": "La Grande Armée, the name of Napoleon's main army from 1805, which had marched from Madrid to Moscow. Hugo ends the rout with the name, to measure the fall.",
+    "quote": "The Grand Army."
+  },
+  {
+    "term": "Hoc erat in fatis",
+    "kind": "foreign",
+    "chapter": 83,
+    "text": "Latin, 'this was in the fates': it was destined. Hugo's view is that Waterloo was decided by Providence, not by generals.",
+    "quote": "Hoc erat in fatis."
+  },
+  {
+    "term": "Ulm, Wagram, Jéna, Friedland",
+    "kind": "history",
+    "chapter": 84,
+    "text": "Napoleon's victories of 1805–1809, over Austria (Ulm, Wagram), Prussia (Jena) and Russia (Friedland). The last squares of the Guard, Hugo says, carried those names down with them.",
+    "quote": "Ulm, Wagram, Jéna, Friedland, died with them"
+  },
+  {
+    "term": "Cambronne",
+    "kind": "history",
+    "chapter": 84,
+    "text": "General Pierre Cambronne (1770–1842), who commanded a battalion of the Old Guard in the last squares. Called on to surrender, he is said to have answered either 'The Guard dies but does not surrender' or the single word Hugo prints. He was wounded, captured, and survived.",
+    "quote": "an obscure officer named Cambronne",
+    "seeAlso": [
+      85
+    ]
+  },
+  {
+    "term": "Merde!",
+    "kind": "foreign",
+    "chapter": 84,
+    "text": "'Shit!', the coarsest common French word, which Hugo was the first to print in a serious novel, and defends at length in the next chapter. French speakers still call it 'le mot de Cambronne', Cambronne's word.",
+    "quote": "Cambronne replied, “Merde!”"
+  },
+  {
+    "term": "Leonidas with Rabelais",
+    "kind": "reference",
+    "chapter": 85,
+    "text": "Leonidas was the Spartan king who died holding the pass of Thermopylae; Rabelais the earthy comic genius of the French Renaissance. To finish one with the other is Hugo's summary of Cambronne's answer: heroism and obscenity in one breath.",
+    "quote": "to finish Leonidas with Rabellais"
+  },
+  {
+    "term": "Rouget",
+    "kind": "reference",
+    "chapter": 85,
+    "text": "Claude-Joseph Rouget de Lisle, the army officer who wrote the 'Marseillaise' in a single night in 1792. Danton, the great orator of the Revolution, and Kléber, a republican general, are Hugo's other examples of that spirit.",
+    "quote": "as Rouget invents the “Marseillaise,”"
+  },
+  {
+    "term": "Charras",
+    "kind": "reference",
+    "chapter": 86,
+    "text": "Jean-Baptiste Charras, a republican colonel exiled after Louis-Napoleon's coup of 1851, like Hugo, and author of a careful history of the 1815 campaign that Hugo used. Jomini and Müffling were earlier military historians of the battle.",
+    "quote": "Charras alone"
+  },
+  {
+    "term": "quine",
+    "kind": "word",
+    "chapter": 86,
+    "text": "In the old French state lottery, a 'quine' was the jackpot won by drawing all five numbers. Waterloo, for Hugo, was a lucky draw: 'won by Europe, paid by France'.",
+    "quote": "The quine won by Europe, paid by France."
+  },
+  {
+    "term": "Barême",
+    "kind": "reference",
+    "chapter": 86,
+    "text": "François Barrême, a seventeenth-century mathematician whose book of ready-reckoned tables gave French the word 'barème', a scale of figures. Calling Wellington the Barrême of war and Napoleon its Michelangelo sets calculation against genius.",
+    "quote": "Wellington was the Barême of war"
+  },
+  {
+    "term": "Lodi, Montebello, Montenotte, Mantua, Arcola",
+    "kind": "history",
+    "chapter": 86,
+    "text": "Bonaparte's victories in his first Italian campaign of 1796–1797, when at twenty-six he beat a series of elderly Austrian generals: Beaulieu, Wurmser, Alvinczy. Hugo's quip is that Wellington is simply a Wurmser who won.",
+    "quote": "beneath Lodi, Montebello, Montenotte, Mantua, Arcola"
+  },
+  {
+    "term": "the 20th of March",
+    "kind": "history",
+    "chapter": 87,
+    "text": "On 20 March 1815 Napoleon re-entered Paris and the Tuileries, the night after Louis XVIII fled. With the 14th of July 1789, the storming of the Bastille, it stands for Hugo as revolutionary France, which the allies at Waterloo were fighting.",
+    "quote": "attacked through the 20th of March, 1815"
+  },
+  {
+    "term": "a postilion on the throne of Naples",
+    "kind": "history",
+    "chapter": 87,
+    "text": "Napoleon made Joachim Murat, an innkeeper's son, King of Naples, and his marshal Bernadotte, once a sergeant, became Crown Prince and then King of Sweden. Hugo's point is that the Empire, despotic as it was, spread the Revolution's equality.",
+    "quote": "Bonaparte places a postilion on the throne of Naples"
+  },
+  {
+    "term": "Foy",
+    "kind": "history",
+    "chapter": 87,
+    "text": "General Maximilien Foy, wounded at Waterloo, became the great liberal orator of the Chamber of Deputies under the Restoration; his funeral in 1825 was a huge opposition demonstration. Hugo's example of a soldier turned into a voice for liberty.",
+    "quote": "Foy falls at Hougomont and rises again in the tribune"
+  },
+  {
+    "term": "the Bearnese",
+    "kind": "history",
+    "chapter": 88,
+    "text": "Henri IV (reigned 1589–1610), the first Bourbon king, born in Béarn, a popular hero of the monarchy. The Restoration set him up as the anti-Napoleon: 'the Corsican' against 'the Bearnese'.",
+    "quote": "The Corsican became the antithesis of the Bearnese"
+  },
+  {
+    "term": "Hartwell",
+    "kind": "place",
+    "chapter": 88,
+    "text": "Hartwell House in Buckinghamshire, England, where Louis XVIII lived in exile from 1808 to 1814. Hugo pictures the exile's simple pine table carried into the throne room of Louis XIV.",
+    "quote": "Hartwell’s pine table"
+  },
+  {
+    "term": "Trestaillon",
+    "kind": "history",
+    "chapter": 88,
+    "text": "The nickname of Jacques Dupont, leader of royalist gangs who murdered Protestants and Bonapartists around Nîmes in the 'White Terror' of 1815. That he 'was celebrated' says what the new order tolerated.",
+    "quote": "Trestaillon was celebrated."
+  },
+  {
+    "term": "non pluribus impar",
+    "kind": "foreign",
+    "chapter": 88,
+    "text": "Latin, 'not unequal to many', the motto of Louis XIV, set under his emblem of the sun. Its return on barrack walls marks the Restoration's revival of the old monarchy's symbols.",
+    "quote": "The device non pluribus impar reappeared"
+  },
+  {
+    "term": "the Duc d’Enghien",
+    "kind": "history",
+    "chapter": 88,
+    "text": "A young Bourbon prince kidnapped from German territory on Napoleon's orders and shot in the moat of the château of Vincennes in March 1804, the year of the coronation. The Restoration raised a monument on the spot.",
+    "quote": "the Duc d’Enghien had perished"
+  },
+  {
+    "term": "Article 14",
+    "kind": "history",
+    "chapter": 88,
+    "text": "The article of the Charter of 1814 that let the king issue ordinances 'for the security of the State'. Liberals feared it as a loophole for absolute rule; Hugo calls it the serpent hidden in the constitution.",
+    "quote": "with Article 14 in the heart"
+  },
+  {
+    "term": "Holy Alliance",
+    "kind": "history",
+    "chapter": 88,
+    "text": "The pact signed in September 1815 by the rulers of Russia, Austria and Prussia to govern by Christian principles, which in practice meant suppressing revolution in Europe. Hugo sets it against 'Belle-Alliance', the inn on the battlefield.",
+    "quote": "There was a Holy Alliance"
+  },
+  {
+    "term": "Hudson Lowe",
+    "kind": "history",
+    "chapter": 88,
+    "text": "Sir Hudson Lowe, the British governor of St Helena and Napoleon's jailer, whose petty strictness became notorious. Montchenu was the French commissioner on the island; Longwood the damp house where Napoleon lived and died in 1821.",
+    "quote": "England had him guarded by Hudson Lowe"
+  },
+  {
+    "term": "the Congress of Vienna",
+    "kind": "history",
+    "chapter": 88,
+    "text": "The conference of European powers (1814–1815) that redrew the map after Napoleon's wars and restored the old dynasties. Hugo makes it, more than the return of the king, the true Restoration.",
+    "quote": "The Congress of Vienna made the treaties in 1815"
+  },
+  {
+    "term": "sic vos non vobis",
+    "kind": "foreign",
+    "chapter": 89,
+    "text": "Latin, 'thus you, but not for yourselves', from a verse attributed to Virgil about a poet whose work another claimed. The village of Waterloo, which took no part, gets the glory of the fighting at Mont-Saint-Jean and Hougomont.",
+    "quote": "the sic vos non vobis"
+  },
+  {
+    "term": "stragglers",
+    "kind": "word",
+    "chapter": 89,
+    "text": "The camp followers, deserters and hangers-on who trailed every army: sutlers selling drink and food from carts, servants, beggars, marauders. They stripped and robbed the dead and wounded after a battle, and soldiers caught doing the same could be shot.",
+    "quote": "they are called “stragglers.”"
+  },
+  {
+    "term": "sutler’s wagon",
+    "kind": "word",
+    "chapter": 89,
+    "text": "A sutler (vivandier) sold provisions and drink to soldiers on campaign from a covered cart, often run by a man and his wife. The little wagon hidden by the Nivelles road is the kind that followed every army.",
+    "quote": "a sort of little sutler’s wagon"
+  },
+  {
+    "term": "Turenne",
+    "kind": "history",
+    "chapter": 89,
+    "text": "The Vicomte de Turenne (1611–1675), Louis XIV's great marshal, loved by his men, who allowed them to pillage and devastated the Palatinate in 1674. Hoche and Marceau, young generals of the Republic, kept strict discipline.",
+    "quote": "Turenne was adored by his soldiers"
+  },
+  {
+    "term": "Alleurs",
+    "kind": "lore",
+    "chapter": 89,
+    "text": "Hugo's name for night-wandering larvae or spirits of Norman folklore, creatures that haunt ruins. The image fits the furtive figure moving among the dead.",
+    "quote": "which ancient Norman legends call the Alleurs"
   }
 ]
