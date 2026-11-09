@@ -9,7 +9,16 @@ const fail = (book, msg) => {
   console.error(`✗ [${book}] ${msg}`)
 }
 
-for (const book of readdirSync(root, { withFileTypes: true }).filter((d) => d.isDirectory()).map((d) => d.name)) {
+// A book still in the pipeline (data-src/<id>/pipeline.json, publish not done) is only checked when named: node scripts/validate-data.mjs <id>
+const only = process.argv[2]
+const inProgress = (d) => {
+  const p = join('data-src', d, 'pipeline.json')
+  return existsSync(p) && JSON.parse(readFileSync(p, 'utf8')).stages?.publish?.status !== 'done'
+}
+for (const book of readdirSync(root, { withFileTypes: true })
+  .filter((d) => d.isDirectory())
+  .map((d) => d.name)
+  .filter((d) => (only ? d === only : !inProgress(d)))) {
   if (!existsSync(join(root, book, 'book.json')) || !existsSync(join(root, book, 'data.json'))) {
     fail(book, 'missing book.json or data.json (run node scripts/merge-data.mjs)')
     continue
