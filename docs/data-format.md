@@ -35,8 +35,16 @@ data-src/<book>/                  ← the source of truth (edit these)
   research-*.json                 working notes (not shipped)
 
 src/books/<book>/                 ← generated: node scripts/merge-data.mjs <book>
-  book.json, data.json, atlas/*.json
+  book.json                       metadata, loaded up front for the library
+  data.json                       core data: chapters (no details), cast, ties, primers, recaps, atlas, themes, afterword
+  extra.json                      glossary notes and insights, fetched right after data.json
+  details.json                    chapter details (index = chapter − 1), fetched when idle / on a chapter page
+  atlas/*.json                    map drawings
 ```
+
+The app opens a book as soon as `data.json` arrives; notes and insights fill in a moment later (`book.extrasPending`
+is true until then) and chapter details load separately (`loadDetails`). Keep the first chunk small: a 365-chapter
+book's full data is about 3 MB, its `data.json` under 1 MB.
 
 Files split into ranges (`chapters-001-030.json`, `places-031-060.json`…) are merged automatically, so several agents can write different ranges in parallel.
 
@@ -54,6 +62,9 @@ Files split into ranges (`chapters-001-030.json`, `places-031-060.json`…) are 
   "edition": "Which text the chapters follow, e.g. 'Project Gutenberg #2488 (F. P. Walter translation)'",
   "sourceUrl": "https://www.gutenberg.org/ebooks/2488",   // optional
   "volumes": [ { "number": 1, "title": "Part One", "firstChapter": 1 } ],  // [] if none
+  // A book with two levels (Les Misérables: 5 Volumes over 48 Books): volumes are the lower level, each with
+  // "part": the number of its entry in "parts"; chapter lists and the picker show part headings.
+  "parts": [ { "number": 1, "title": "Volume I: Fantine", "firstChapter": 1 } ],   // optional
   "color": "#1d4e63",                    // cover colour (dark enough for white text)
   "order": 4,                            // position in the library
   "source": "text",                      // "text" (built from the book) | "knowledge" (no text available)
@@ -122,6 +133,14 @@ People, plus objects and places that matter enough for the cast and the Connecti
 ```
 
 A disguise the reader doesn't see through yet gets its own character, which merges into the real one when it's revealed.
+
+**Stand-ins.** The same goes for anyone the text keeps unnamed or misnamed for a stretch (Les Misérables: "M. Madeleine",
+"the man in the yellow coat", "M. Leblanc", "Jondrette" and his daughters, "the young workman"). List them in
+`IDENTITIES.md` with their merge chapters before any authoring starts and give every writer that file: until the merge,
+chapter cast lists, relationships, places' journeys, primers' `returning` and insights use the stand-in id, and
+nothing ties the two together (a relationship from the stand-in to the real person's past is a leak too). After
+the merge, a fresh relationship on the real id carries on from the stand-in's. Group labels leak as well: a stand-in
+can't sit in the real person's family group.
 
 ## relationships.json and things-relationships.json
 
