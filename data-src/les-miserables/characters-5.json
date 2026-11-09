@@ -1,0 +1,108 @@
+[
+  {
+    "id": "the-elder-jondrette-girl",
+    "name": "The elder Jondrette girl",
+    "firstChapter": 202,
+    "importance": "supporting",
+    "group": "The Gorbeau house",
+    "mergedInto": {
+      "id": "eponine",
+      "from": 221
+    },
+    "tagline": [
+      {
+        "from": 202,
+        "text": "One of two ragged girls who run past Marius on the boulevard, fleeing the police."
+      },
+      {
+        "from": 204,
+        "text": "The Jondrettes' elder daughter: half-starved, bold, and quick to read Marius."
+      },
+      {
+        "from": 211,
+        "text": "Offers to help Marius in anything; he asks her to find the girl of the Luxembourg."
+      }
+    ],
+    "description": [
+      {
+        "from": 202,
+        "text": "A thin girl in rags, one of two who brush past Marius in the dark on Candlemas evening with the police behind them. They drop a packet of begging letters, which he picks up."
+      },
+      {
+        "from": 204,
+        "text": "She is the elder daughter of the Jondrettes, Marius's neighbours in the Gorbeau house. She comes to his door with another begging letter in her father's hand, wanders his room, shows off that she can read and write, flirts awkwardly, and leaves with the four letters and his last five francs. Hunger has aged her face and coarsened her voice, but there is something sharp and alive in her."
+      },
+      {
+        "from": 207,
+        "text": "She is the one who brings the news that the gentleman from Saint-Jacques is coming, and her father stages the family's misery around her report."
+      },
+      {
+        "from": 211,
+        "text": "She follows Marius to his door, notices his sadness and asks to help him. When he asks her to find the address of the old gentleman and his daughter she agrees, plainly hurt that it is the daughter he wants, and he promises her anything she likes in return."
+      },
+      {
+        "from": 216,
+        "text": "Sent to search Marius's room on the night of the trap, she finds nothing amiss because she spends the time singing at his mirror; then her father posts both girls outside as lookouts."
+      }
+    ],
+    "moments": [
+      {
+        "chapter": 204,
+        "text": "Visits Marius with a begging letter and leaves with his five francs."
+      },
+      {
+        "chapter": 211,
+        "text": "Agrees to find the girl of the Luxembourg for Marius."
+      },
+      {
+        "chapter": 216,
+        "text": "Posted as lookout on the night of the trap."
+      }
+    ]
+  },
+  {
+    "id": "the-younger-jondrette-girl",
+    "name": "The younger Jondrette girl",
+    "firstChapter": 202,
+    "importance": "minor",
+    "group": "The Gorbeau house",
+    "mergedInto": {
+      "id": "azelma",
+      "from": 221
+    },
+    "tagline": [
+      {
+        "from": 202,
+        "text": "The second ragged girl fleeing the police on the boulevard."
+      },
+      {
+        "from": 206,
+        "text": "The Jondrettes' younger daughter, silent and half-dressed on the pallet."
+      }
+    ],
+    "description": [
+      {
+        "from": 202,
+        "text": "The smaller of the two girls who run past Marius on Candlemas evening."
+      },
+      {
+        "from": 206,
+        "text": "Through the hole in the wall Marius sees her sitting half-naked on a pallet in the Jondrettes' garret, seeming neither to see nor to hear."
+      },
+      {
+        "from": 207,
+        "text": "Her father orders her to break a windowpane to make the room look poorer for the visitor; she cuts her hand doing it, and he is pleased."
+      },
+      {
+        "from": 216,
+        "text": "Posted outside with her sister as a lookout on the night of the trap."
+      }
+    ],
+    "moments": [
+      {
+        "chapter": 207,
+        "text": "Cuts her hand breaking the window on her father's orders."
+      }
+    ]
+  }
+]

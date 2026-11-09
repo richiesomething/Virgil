@@ -223,7 +223,7 @@
     "chapter": 157,
     "kind": "context",
     "title": "A roll-call of liberty",
-    "text": "Washington, Kosciusko, Bolivar, Byron at Missolonghi, John Brown at Harper's Ferry, Garibaldi: Hugo, writing in the early 1860s, ranges well beyond the novel's time. He presents Paris, with its 14th of July and its night of 4 August 1789, as the source of every later struggle for freedom.",
+    "text": "Washington, Kosciusko, Bolivar, Byron at Missolonghi, John Brown at Harper's Ferry, Garibaldi: Hugo, writing in the early 1860s, ranges well beyond the novel's time. He presents Paris, with its 14th of July and its night of 4 August 1789, as the source of the struggles for freedom that followed.",
     "themes": [
       "paris",
       "revolution",
@@ -646,7 +646,7 @@
     "chapter": 172,
     "kind": "craft",
     "title": "Some love affair",
-    "text": "Marius invents a hunting party and Gillenormand winks: 'Some love affair!' The old man reads every absence as gallantry. Hugo will milk this misreading, and the comedy is sharpened by our knowing that the passion is for a dead father.",
+    "text": "Marius invents a hunting party and Gillenormand winks: 'Some love affair!' The old man reads every absence as gallantry. The comedy is sharpened by our knowing that the passion is for a dead father.",
     "themes": [
       "love",
       "parenthood"
@@ -822,7 +822,7 @@
     "chapter": 176,
     "kind": "context",
     "title": "Poland, 1772",
-    "text": "Feuilly, the self-taught orphan fan-maker, rages over the partition of Poland among Russia, Prussia and Austria in 1772, which he calls the model of every later crime against nations. Poland's cause was a passion of French liberals throughout the 1830s. The orphan who 'adopted the peoples' turns a private loss into a political love.",
+    "text": "Feuilly, the self-taught orphan fan-maker, rages over the partition of Poland among Russia, Prussia and Austria in 1772, which he calls the model for the crimes against nations that came after it. Poland's cause was a passion of French liberals throughout the 1830s. The orphan who 'adopted the peoples' turns a private loss into a political love.",
     "themes": [
       "history",
       "revolution",
@@ -1639,6 +1639,377 @@
     "text": "Marius gives her five of his last francs and keeps sixteen sous for his dinner. 'Good! the sun is shining!' she cries. Then she seizes a mouldy crust: 'it breaks my teeth!' Her account of nights under the bridges, stars like smoking lamps and the river that looks too cold to drown in, is one of the most frightening descriptions of hunger in the book.",
     "themes": [
       "poverty",
+      "light-darkness"
+    ]
+  },
+  {
+    "chapter": 205,
+    "kind": "theme",
+    "title": "The misery of the child",
+    "text": "'He who has seen only the misery of woman has seen nothing; he must see the misery of the child.' Marius, poor for five years, realises he has never seen real misery. Hugo builds a ladder of suffering, and puts children on the bottom rung, which is where the novel began its account of Cosette at Montfermeil.",
+    "themes": [
+      "poverty",
+      "parenthood"
+    ]
+  },
+  {
+    "chapter": 205,
+    "kind": "theme",
+    "title": "Only a wall",
+    "text": "Marius scolds himself: he lived beside these people, heard them through the plaster, and gave them nothing but one mechanical payment while he dreamed of 'loves in the air'. 'Whose fault is this?' Hugo turns his romantic hero's absorption into a moral failure, and asks the reader the same question about their own neighbours.",
+    "themes": [
+      "conscience",
+      "poverty"
+    ]
+  },
+  {
+    "chapter": 205,
+    "kind": "motif",
+    "title": "A peephole",
+    "text": "A triangle of missing plaster near the ceiling becomes a window into the next room. 'It is permissible to gaze at misfortune like a traitor in order to succor it.' Hugo justifies the spying with pity, but notice the word 'traitor'. Looking unseen is a kind of power, however kindly meant.",
+    "themes": [
+      "conscience",
+      "light-darkness"
+    ]
+  },
+  {
+    "chapter": 206,
+    "kind": "craft",
+    "title": "Caverns are better than hovels",
+    "text": "Hugo opens with a comparison: the forest's lair is savage and grand, the city's is petty and ugly. Then he describes the Jondrette room inch by inch, the leprous walls, the constellation of old shoes, the nooks where 'monstrous human beings' might hide. The description is an argument: this is what society makes of people.",
+    "themes": [
+      "poverty",
+      "paris",
+      "light-darkness"
+    ]
+  },
+  {
+    "chapter": 206,
+    "kind": "motif",
+    "title": "The Dream",
+    "text": "On the wall hangs a cheap print called 'The Dream': Napoleon in glory over a column misspelled 'Maringo Austerlits Iena Wagramme Elot'. Beside it stands a panel turned to face the wall. The household's one decoration is Bonapartist kitsch, and next to it a picture nobody is allowed to see.",
+    "themes": [
+      "history"
+    ]
+  },
+  {
+    "chapter": 206,
+    "kind": "theme",
+    "title": "Even the dead are unequal",
+    "text": "Jondrette rages that at Père-Lachaise the rich lie in the paved acacia alley and the poor in mud up to the knees. 'Oh! I could eat the whole world!' His grievance is real, and Hugo has made similar points himself. But here it comes from a man forging begging letters, and the anger has turned to appetite.",
+    "themes": [
+      "poverty"
+    ]
+  },
+  {
+    "chapter": 206,
+    "kind": "theme",
+    "title": "Ashes of affection",
+    "text": "'Bodies press close to each other in misery, as in cold, but hearts draw apart.' The mother still says 'my dear, my little friend' while her heart is silent. Hugo shows what poverty does to love inside a family: the words survive the feeling.",
+    "themes": [
+      "love",
+      "poverty"
+    ]
+  },
+  {
+    "chapter": 206,
+    "kind": "craft",
+    "title": "A face for Lavater",
+    "text": "Lavater was the eighteenth-century writer who claimed to read character in faces. Hugo says he would have seen in Jondrette 'the vulture mingled with the attorney'. The narrator, who has insisted that we are all made of the same clay, here judges a face at first sight. Ask yourself why he allows himself that.",
+    "themes": [
+      "conscience"
+    ]
+  },
+  {
+    "chapter": 207,
+    "kind": "craft",
+    "title": "Staging poverty",
+    "text": "When the 'philanthropist' is announced, Jondrette puts out the fire, kicks through the chair, makes his daughter break a window and drapes himself in a torn chemise. Hugo describes him as 'a general making the final preparation' before battle. Real misery is dressed up to look more miserable, which is the strangest thing in the scene.",
+    "themes": [
+      "poverty",
+      "names"
+    ]
+  },
+  {
+    "chapter": 207,
+    "kind": "theme",
+    "title": "So much the better",
+    "text": "The younger girl cuts her fist on the glass. 'So much the better! I foresaw that.' Her father bandages her with his shirt and admires the effect. Of all the parents in this book so far, none has used a child's body so coldly.",
+    "themes": [
+      "parenthood",
+      "poverty"
+    ]
+  },
+  {
+    "chapter": 207,
+    "kind": "question",
+    "title": "He seemed surprised",
+    "text": "When the girl told the gentleman the address, 'he seemed surprised and hesitated for an instant', then said he would come anyway. Why might this particular house give a charitable visitor pause?",
+    "themes": [
+      "names"
+    ]
+  },
+  {
+    "chapter": 208,
+    "kind": "craft",
+    "title": "She",
+    "text": "'It was She!' The girl from the Luxembourg walks into the worst room in Paris. Hugo gives the moment the full romantic treatment, 'that star which had beamed upon him for six months', and sets it against the hovel he has just described. The light he lost has reappeared in the darkest place he knows.",
+    "themes": [
+      "love",
+      "light-darkness"
+    ]
+  },
+  {
+    "chapter": 208,
+    "kind": "theme",
+    "title": "Pack of rascals",
+    "text": "Just before the knock, Jondrette pours out his hatred of the charitable rich: they bring old clothes and bread when what he wants is money, and they must have stolen to get rich. 'Society ought to be grasped by the four corners of the cloth and tossed into the air.' Then the door opens and he is all bows. Hugo shows the hatred and the flattery come from the same mouth.",
+    "themes": [
+      "poverty",
+      "revolution"
+    ]
+  },
+  {
+    "chapter": 208,
+    "kind": "motif",
+    "title": "Sombre eyes",
+    "text": "The elder Jondrette girl steps back behind the door and stares at the velvet bonnet, the satin, 'that charming, happy face'. Hugo gives her one line. Two girls of about the same age stand in the same room, one in silk boots, one in borrowed men's shoes.",
+    "themes": [
+      "poverty",
+      "love"
+    ]
+  },
+  {
+    "chapter": 209,
+    "kind": "theme",
+    "title": "Talent of a juggler",
+    "text": "Jondrette checks which alias he used on the letter, answers to 'Fabantou', claims to be a pupil of Talma and a friend of Mlle Mars, and pinches his daughter's wound to make her cry on cue. He even lies about the rent. Hugo lets us watch every trick from behind the wall, so the visitors' kindness looks all the more exposed.",
+    "themes": [
+      "names",
+      "poverty"
+    ]
+  },
+  {
+    "chapter": 209,
+    "kind": "question",
+    "title": "Take a look at that man",
+    "text": "While the visitors bend over the hurt child, Jondrette studies the gentleman 'as though seeking to summon up his recollections', and twice tells his wife to look at him. What has he seen?",
+    "themes": [
+      "names"
+    ]
+  },
+  {
+    "chapter": 209,
+    "kind": "motif",
+    "title": "The greatcoat",
+    "text": "M. Leblanc leaves his big brown greatcoat on purpose, and tells Jondrette to put it on before going out in the cold. It is the kind of quiet, practical charity the book has praised from its opening pages. Jondrette wears it straight out into the snow to meet someone else.",
+    "themes": [
+      "mercy-law",
+      "poverty"
+    ]
+  },
+  {
+    "chapter": 210,
+    "kind": "craft",
+    "title": "A hummingbird among toads",
+    "text": "Marius saw the whole scene 'and yet, in reality, had seen nothing'. He watched only her, and could not even hear her voice through Jondrette's noise. Hugo is careful to tell us that the one witness to the tricks missed most of them, because love had narrowed his eyes to a single point.",
+    "themes": [
+      "love"
+    ]
+  },
+  {
+    "chapter": 210,
+    "kind": "theme",
+    "title": "For lack of twenty-four sous",
+    "text": "The cab wants forty sous in advance; Marius has sixteen. He thinks bitterly of the five francs he gave the Jondrette girl that morning. It is a small, sharp lesson in what poverty means. Charity cost him the chance he wanted most.",
+    "themes": [
+      "poverty",
+      "love"
+    ]
+  },
+  {
+    "chapter": 210,
+    "kind": "motif",
+    "title": "A prowler in the snow",
+    "text": "Coming home, Marius sees Jondrette in the philanthropist's coat talking with a man who looks like Panchaud, alias Printanier, alias Bigrenaille, one of the names on the Patron-Minette list. Hugo has just introduced that underworld in general. Now one of its members stands across the road from Marius's door.",
+    "themes": [
+      "names",
+      "light-darkness",
+      "paris"
+    ]
+  },
+  {
+    "chapter": 211,
+    "kind": "theme",
+    "title": "Call me thou",
+    "text": "The Jondrette girl offers to help Marius, unasked: 'I do not want you to be grieved.' When he speaks, she begs him to use the intimate 'thou'. He does, and asks her to find another girl's address. Hugo marks the moment 'them' becomes 'her' in her mouth, 'something indescribably significant and bitter'.",
+    "themes": [
+      "love",
+      "poverty"
+    ]
+  },
+  {
+    "chapter": 211,
+    "kind": "question",
+    "title": "What will you give me?",
+    "text": "'Anything you like.' 'Anything I like?' She takes the commission and shuts the door. Marius does not stop to wonder what she might ask. What does she want from him, and does he have any idea?",
+    "themes": [
+      "love"
+    ]
+  },
+  {
+    "chapter": 211,
+    "kind": "craft",
+    "title": "Was the veil about to be rent?",
+    "text": "Hugo throws Marius from despair back to the peephole with one overheard sentence: 'I recognized him.' The run of breathless questions puts us inside his hope. Notice that his reason for listening is still love, not suspicion.",
+    "themes": [
+      "love",
+      "names"
+    ]
+  },
+  {
+    "chapter": 212,
+    "kind": "theme",
+    "title": "I recognize him",
+    "text": "'Eight years have passed! But I recognize him!' Jondrette is certain he knows the philanthropist from long ago, and that the girl is someone he and his wife once knew too. The reader is not told who. Hugo lets Marius, and us, overhear only fragments, with the key name whispered out of earshot.",
+    "themes": [
+      "names"
+    ]
+  },
+  {
+    "chapter": 212,
+    "kind": "theme",
+    "title": "A sow with the look of a tigress",
+    "text": "The mother, who has lain stupefied all day, comes alive with rage at the girl's satin and velvet: 'my daughters are going barefoot'. Her hatred is jealousy on her daughters' behalf, the only tenderness she shows, turned to savagery. 'I should like to kick her stomach in for her!'",
+    "themes": [
+      "parenthood",
+      "poverty"
+    ]
+  },
+  {
+    "chapter": 212,
+    "kind": "theme",
+    "title": "My fortune is made",
+    "text": "Jondrette's speech is the cry of a man who has had enough of misery, 'my share and other people's share', and wants to eat, drink, sleep and do nothing 'like other people'. Hugo gives him a real grievance and then shows where it leads: a trap, a brazier, a trip to the ironmonger's.",
+    "themes": [
+      "poverty",
+      "conscience"
+    ]
+  },
+  {
+    "chapter": 212,
+    "kind": "motif",
+    "title": "The coat that made it possible",
+    "text": "'He did a devilish good thing in leaving it for me, the old scoundrel! If it hadn't been for that, I couldn't have gone out.' The greatcoat given in kindness lets Jondrette go and recruit his accomplices. 'What small points things hang on, anyway!' Charity has been turned into a tool against the giver.",
+    "themes": [
+      "mercy-law",
+      "poverty"
+    ]
+  },
+  {
+    "chapter": 212,
+    "kind": "craft",
+    "title": "The neighbour doesn't listen",
+    "text": "'Our neighbor? ... he doesn't listen, the big booby.' Hugo has spent pages establishing that Marius never paid attention to the Jondrettes. Now that indifference has become the plotters' blind spot. The falling snow, which deadens the traffic, lets Marius hear every word.",
+    "themes": [
+      "conscience"
+    ]
+  },
+  {
+    "chapter": 213,
+    "kind": "theme",
+    "title": "Pity for a toad, a boot for a viper",
+    "text": "Marius 'had the kindliness of a brahmin, and the severity of a judge'. A moment ago he was reproaching himself for not helping these people; now he says 'These wretches must be stamped upon.' Hugo shows how quickly compassion can flip into judgement when the poor turn predators.",
+    "themes": [
+      "conscience",
+      "mercy-law"
+    ]
+  },
+  {
+    "chapter": 213,
+    "kind": "theme",
+    "title": "Rendering justice to Providence",
+    "text": "On the way to the police, Marius realises that if he had not given away his five francs he would have followed the carriage and never heard the plot. The charity he regretted that afternoon now looks providential. Hugo often lets small acts of goodness pay out in ways nobody could plan.",
+    "themes": [
+      "conscience",
+      "poverty"
+    ]
+  },
+  {
+    "chapter": 213,
+    "kind": "motif",
+    "title": "Voices behind a wall",
+    "text": "Two men sitting in the snow behind a low wall mention Patron-Minette and 'Father What's-his-name's team', then chat about a melodrama at the Gaîté. Crime and theatre sit side by side again, as they did in the begging letters. Marius learns things through walls all day.",
+    "themes": [
+      "light-darkness",
+      "paris"
+    ]
+  },
+  {
+    "chapter": 214,
+    "kind": "craft",
+    "title": "A look that searched",
+    "text": "A tall man by the stove, square face, ferocious whiskers, a glance that 'searched'. He never says 'monsieur'. He knows the Gorbeau house, the room at the end of the corridor and every name in Patron-Minette. Hugo saves his name for the very last line, though the reader may well have recognised him first: 'You will ask for Inspector Javert.'",
+    "themes": [
+      "mercy-law",
+      "names"
+    ]
+  },
+  {
+    "chapter": 214,
+    "kind": "motif",
+    "title": "The dog and the wolf",
+    "text": "'The dog is, at times, no less terrible to meet than the wolf.' Hugo has used this image for Javert before. Here the hunter and the hunted are set side by side again, police and criminal equally fierce, distinguished only by which side of the law they serve.",
+    "themes": [
+      "mercy-law"
+    ]
+  },
+  {
+    "chapter": 214,
+    "kind": "theme",
+    "title": "Not too soon",
+    "text": "Javert gives Marius two pistols and one instruction: wait until the crime has begun, then fire. 'You are a lawyer; you know the proper point.' The law needs the crime to happen before it can act. Marius is now an agent of the police, watching through his peephole on their behalf.",
+    "themes": [
+      "mercy-law",
+      "conscience"
+    ]
+  },
+  {
+    "chapter": 214,
+    "kind": "context",
+    "title": "Former property of Gorbeau",
+    "text": "Javert says 'I know that barrack' and names its old owner. The reader remembers why he knows it: years ago he hunted a man and a child out of this very house by night. Marius has no idea of that history.",
+    "themes": [
+      "mercy-law",
+      "paris"
+    ]
+  },
+  {
+    "chapter": 215,
+    "kind": "craft",
+    "title": "A man following a man",
+    "text": "Courfeyrac and Bossuet see Marius in the snow and assume he is chasing a girl. Then they notice he is following a man in a coat 'too large for him' and ragged trousers. 'He's a poet,' says Courfeyrac. The friends' comic misreading lets us see Marius from outside, turned detective.",
+    "themes": [
+      "paris",
+      "love"
+    ]
+  },
+  {
+    "chapter": 215,
+    "kind": "motif",
+    "title": "A cold chisel",
+    "text": "Jondrette visits a hovel in the Rue Gracieuse, buys a huge cold chisel at the ironmonger's and hides it under the philanthropist's coat. The five-franc piece left in charity has bought a brazier and a tool. Hugo lists the purchases without comment.",
+    "themes": [
+      "poverty",
+      "mercy-law"
+    ]
+  },
+  {
+    "chapter": 215,
+    "kind": "motif",
+    "title": "Four heads in the dark",
+    "text": "Night falls; the moon rises red behind the dome of the Salpêtrière. In an empty attic along the corridor Marius glimpses 'the motionless heads of four men'. Then Ma'am Bougon locks the house behind her. Hugo shuts every door on the scene before it begins.",
+    "themes": [
       "light-darkness"
     ]
   }

@@ -32,8 +32,8 @@
       "marius",
       "maam-bougon",
       "jondrette",
-      "eponine",
-      "azelma"
+      "the-elder-jondrette-girl",
+      "the-younger-jondrette-girl"
     ]
   },
   {
@@ -50,7 +50,7 @@
       "marius",
       "jondrette",
       "maam-bougon",
-      "eponine"
+      "the-elder-jondrette-girl"
     ]
   },
   {
@@ -66,9 +66,9 @@
     ],
     "characters": [
       "marius",
-      "eponine",
+      "the-elder-jondrette-girl",
       "jondrette",
-      "azelma",
+      "the-younger-jondrette-girl",
       "gavroche",
       "mabeuf"
     ]
@@ -103,7 +103,7 @@
       "marius",
       "jondrette",
       "madame-jondrette",
-      "azelma"
+      "the-younger-jondrette-girl"
     ]
   },
   {
@@ -120,8 +120,8 @@
       "marius",
       "jondrette",
       "madame-jondrette",
-      "eponine",
-      "azelma"
+      "the-elder-jondrette-girl",
+      "the-younger-jondrette-girl"
     ]
   },
   {
@@ -138,8 +138,8 @@
       "marius",
       "jondrette",
       "madame-jondrette",
-      "eponine",
-      "azelma",
+      "the-elder-jondrette-girl",
+      "the-younger-jondrette-girl",
       "monsieur-leblanc",
       "the-girl-at-the-luxembourg"
     ]
@@ -158,8 +158,8 @@
       "marius",
       "jondrette",
       "madame-jondrette",
-      "eponine",
-      "azelma",
+      "the-elder-jondrette-girl",
+      "the-younger-jondrette-girl",
       "monsieur-leblanc",
       "the-girl-at-the-luxembourg"
     ]
@@ -195,7 +195,7 @@
     ],
     "characters": [
       "marius",
-      "eponine",
+      "the-elder-jondrette-girl",
       "jondrette",
       "monsieur-leblanc",
       "the-girl-at-the-luxembourg"
@@ -215,8 +215,8 @@
       "marius",
       "jondrette",
       "madame-jondrette",
-      "eponine",
-      "azelma",
+      "the-elder-jondrette-girl",
+      "the-younger-jondrette-girl",
       "monsieur-leblanc",
       "the-girl-at-the-luxembourg",
       "maam-bougon"
@@ -295,8 +295,8 @@
       "marius",
       "jondrette",
       "madame-jondrette",
-      "eponine",
-      "azelma",
+      "the-elder-jondrette-girl",
+      "the-younger-jondrette-girl",
       "maam-bougon"
     ]
   },
@@ -376,7 +376,7 @@
       "babet",
       "montparnasse",
       "boulatruelle",
-      "eponine",
+      "the-elder-jondrette-girl",
       "colonel-pontmercy",
       "fantine"
     ]

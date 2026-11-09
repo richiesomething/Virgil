@@ -2012,5 +2012,825 @@
         "text": "Thénardier's visit revealed who had saved Marius."
       }
     ]
+  },
+  {
+    "id": "cafe-musain",
+    "kind": "place",
+    "name": "The Café Musain",
+    "firstChapter": 176,
+    "importance": "minor",
+    "group": "Places",
+    "tagline": [
+      {
+        "from": 176,
+        "text": "A little café near the Panthéon whose back room is the students' meeting place of the Friends of the A.B.C."
+      },
+      {
+        "from": 179,
+        "text": "The noisy back room where Marius's certainties come apart."
+      },
+      {
+        "from": 228,
+        "text": "The room where Enjolras hands out the work of the coming insurrection."
+      }
+    ],
+    "description": [
+      {
+        "from": 176,
+        "text": "The Friends of the A.B.C. meet in two places: Corinthe, a wine-shop near the fish-market, close to the workmen, and the Café Musain in the Rue Saint-Michel near the Panthéon, close to the students. The café has since been torn down. Their assemblies are usually held in its back room."
+      },
+      {
+        "from": 177,
+        "text": "Laigle, lounging outside its door, hails the cab carrying Marius, newly homeless, and Courfeyrac comes out of the café to take him in."
+      },
+      {
+        "from": 178,
+        "text": "Courfeyrac introduces Marius in the back room as 'a pupil'. The free talk there unsettles everything Marius thought he had fixed; none of them says 'the Emperor'."
+      },
+      {
+        "from": 179,
+        "text": "An evening in the back room: Grantaire drunk and declaiming, Bossuet on law, two men drafting a vaudeville, Prouvaire defending the pagan gods, and Courfeyrac throwing a copy of the Charter into the fire."
+      },
+      {
+        "from": 180,
+        "text": "Here Marius makes his passionate defence of Napoleon, and Combeferre answers him in two words: 'To be free'."
+      },
+      {
+        "from": 181,
+        "text": "Shaken and isolated, Marius stops going."
+      },
+      {
+        "from": 228,
+        "text": "In April 1832 Enjolras holds a secret meeting here and sends each of his friends to sound out a group of possible fighters across Paris."
+      }
+    ],
+    "moments": [
+      {
+        "chapter": 177,
+        "text": "Courfeyrac came out of the café and took Marius home with him."
+      },
+      {
+        "chapter": 180,
+        "text": "Marius defended Napoleon to the A.B.C.; Combeferre answered 'To be free.'"
+      },
+      {
+        "chapter": 228,
+        "text": "Enjolras assigned his lieutenants."
+      }
+    ]
+  },
+  {
+    "id": "corinthe",
+    "kind": "place",
+    "name": "Corinthe",
+    "firstChapter": 176,
+    "importance": "supporting",
+    "group": "Places",
+    "aliases": [
+      {
+        "name": "the Pot-aux-Roses",
+        "from": 277,
+        "note": "its name in older days"
+      },
+      {
+        "name": "the Hucheloup wine-shop",
+        "from": 277
+      }
+    ],
+    "tagline": [
+      {
+        "from": 176,
+        "text": "A wine-shop near the Halles, the workmen's end of the Friends of the A.B.C."
+      },
+      {
+        "from": 277,
+        "text": "Mother Hucheloup's old wine-shop in the Rue de la Chanvrerie, where the friends eat badly out of loyalty."
+      },
+      {
+        "from": 279,
+        "text": "The wine-shop with a barricade built against its walls, now the insurgents' fortress."
+      },
+      {
+        "from": 321,
+        "text": "The wine-shop where the last defenders died, Enjolras and Grantaire in the room upstairs."
+      }
+    ],
+    "description": [
+      {
+        "from": 176,
+        "text": "One of the two meeting places of the Friends of the A.B.C.: a wine-shop near the fish-market, close to the workmen, 'of which more will be heard later on'."
+      },
+      {
+        "from": 227,
+        "text": "Its secret meetings are held in a restaurant wine-shop of the Rue Mondétour."
+      },
+      {
+        "from": 277,
+        "text": "It stood for three hundred years at the corner of the Rue de la Chanvrerie, in a tangle of streets by the Halles that Hugo draws as a letter N. Once called the Pot-aux-Roses, it got its name when a painter paid for his drinking by painting a bunch of Corinth grapes on its post. It has a taproom and kitchen below, a billiard-room up a spiral stair, and a trapdoor to the cellar. Father Hucheloup, a growling former fencing-master, made famous stuffed carp. He died about 1830, the carp died with him, and his bearded widow kept the place going with two serving-maids, Matelote and Gibelotte. The cooking is now execrable, and Courfeyrac's friends keep coming 'out of pity'. Grantaire discovered it."
+      },
+      {
+        "from": 278,
+        "text": "On the morning of 5 June Bossuet, Joly and Grantaire breakfast here and stay drinking all afternoon, until Enjolras's armed band passes the door."
+      },
+      {
+        "from": 279,
+        "text": "In minutes the street outside is barred with paving-stones, a dray, the widow's casks and an overturned omnibus. The wine-shop is the barricade's keep."
+      },
+      {
+        "from": 280,
+        "text": "Courfeyrac tells the widow her table is avenging the hundred-franc fine she once paid. Bullets are cast from her pewter on the hearth, and the women make lint."
+      },
+      {
+        "from": 283,
+        "text": "The unmasked police spy is tied to a post in the taproom."
+      },
+      {
+        "from": 289,
+        "text": "Mabeuf, who has sat silent behind its counter since the barricade went up, rises to carry the flag, and his body is brought back in."
+      },
+      {
+        "from": 316,
+        "text": "Before the last assault its windows are walled with paving-stones and bottles of aquafortis carried upstairs. The last man to leave the taproom is to shoot Javert."
+      },
+      {
+        "from": 320,
+        "text": "When the barricade falls Enjolras holds the door alone to let the survivors in, and they fight on from the first floor with their last cartridges and bottles."
+      },
+      {
+        "from": 321,
+        "text": "The soldiers break into the upper room and find Enjolras alone on his feet; Grantaire wakes from his drunken sleep there to die with him. The last insurgents are hunted down in the attic and the cellar."
+      }
+    ],
+    "moments": [
+      {
+        "chapter": 278,
+        "text": "Bossuet, Joly and Grantaire spent the morning of 5 June drinking here."
+      },
+      {
+        "chapter": 279,
+        "text": "The barricade went up against its walls."
+      },
+      {
+        "chapter": 321,
+        "text": "Enjolras and Grantaire were shot in the room upstairs."
+      }
+    ]
+  },
+  {
+    "id": "the-luxembourg",
+    "kind": "place",
+    "name": "The Luxembourg garden",
+    "firstChapter": 186,
+    "importance": "supporting",
+    "group": "Places",
+    "tagline": [
+      {
+        "from": 186,
+        "text": "The Paris garden where Marius walks alone in its quietest alleys."
+      },
+      {
+        "from": 188,
+        "text": "Where Marius sees the same white-haired man and girl on the same bench every day."
+      },
+      {
+        "from": 190,
+        "text": "The garden where a glance changes Marius's life."
+      },
+      {
+        "from": 196,
+        "text": "A garden emptied of the two people Marius came for."
+      },
+      {
+        "from": 220,
+        "text": "Where Marius fell in love with Cosette without knowing who she was."
+      },
+      {
+        "from": 314,
+        "text": "A deserted garden where two lost little boys fish a brioche out of the swans' basin."
+      }
+    ],
+    "description": [
+      {
+        "from": 186,
+        "text": "Marius's pleasures are long walks alone on the outer boulevards, the Champ-de-Mars and the least frequented alleys of the Luxembourg."
+      },
+      {
+        "from": 188,
+        "text": "For a year he has noticed at the loneliest end of the walk along the Pépinière, a white-haired man of about sixty and a thin, plain girl of thirteen or fourteen, always on the same bench. They look like father and daughter. Courfeyrac nicknames them Monsieur Leblanc, for his hair, and Mademoiselle Lanoire, for her black convent-school dress."
+      },
+      {
+        "from": 189,
+        "text": "After six months away Marius comes back to find the same man with what seems another girl: the awkward child has become a beautiful young woman."
+      },
+      {
+        "from": 190,
+        "text": "On a luminous spring day their eyes meet."
+      },
+      {
+        "from": 191,
+        "text": "He comes now in his new coat, marches past the bench, and sits at a distance. He begins to feel that M. Leblanc has noticed him."
+      },
+      {
+        "from": 196,
+        "text": "He follows them home, questions their porter, and is stared at by M. Leblanc. After that they stop coming. The bench stays empty."
+      },
+      {
+        "from": 220,
+        "text": "In the Gorbeau garret Thénardier calls M. Leblanc the man who took the Lark from Montfermeil, so the white-haired man of the bench is Jean Valjean and the girl is Cosette."
+      },
+      {
+        "from": 234,
+        "text": "Every day Valjean takes Cosette to walk in the quietest alley of the Luxembourg."
+      },
+      {
+        "from": 238,
+        "text": "Hugo retells the bench from Cosette's side. The glance that troubled Marius troubled her too; she steered her father's walks past his bench, and they adored each other at a distance without a word."
+      },
+      {
+        "from": 239,
+        "text": "Valjean senses Marius and comes to detest him, changing his hour and his bench to test him. After Marius follows them to the Rue de l'Ouest, Valjean stops coming to the Luxembourg."
+      },
+      {
+        "from": 314,
+        "text": "During the fighting of 6 June the garden is deserted. The two little Thénardier boys Gavroche once sheltered hide by the swans' hutch while a well-fed bourgeois lectures his son and throws his stale brioche to the swans. When they leave, the elder boy fishes it out and gives the bigger half to his brother."
+      },
+      {
+        "from": 354,
+        "text": "Valjean reminds Marius where he first saw Cosette: near the Luxembourg, in her blue plush hat."
+      }
+    ],
+    "moments": [
+      {
+        "chapter": 188,
+        "text": "Marius first noticed the white-haired man and the girl."
+      },
+      {
+        "chapter": 190,
+        "text": "Their eyes met."
+      },
+      {
+        "chapter": 196,
+        "text": "The two stopped coming."
+      },
+      {
+        "chapter": 314,
+        "text": "Two hungry boys shared a brioche from the swans' basin."
+      }
+    ]
+  },
+  {
+    "id": "rue-plumet",
+    "kind": "place",
+    "name": "The house in the Rue Plumet",
+    "firstChapter": 233,
+    "importance": "supporting",
+    "group": "Places",
+    "aliases": [
+      {
+        "name": "the house with a secret",
+        "from": 233
+      }
+    ],
+    "tagline": [
+      {
+        "from": 233,
+        "text": "A hidden house and wild garden near the Invalides, where Valjean lives with Cosette as M. Fauchelevent."
+      },
+      {
+        "from": 245,
+        "text": "A garden where someone leaves a stone, and under it a notebook, on Cosette's bench."
+      },
+      {
+        "from": 248,
+        "text": "The garden where Marius and Cosette meet at last."
+      },
+      {
+        "from": 259,
+        "text": "The house a gang comes to rob, and a girl at the gate stops them."
+      },
+      {
+        "from": 264,
+        "text": "A house shuttered and empty, where Marius calls Cosette's name in vain."
+      }
+    ],
+    "description": [
+      {
+        "from": 233,
+        "text": "Built in the last century by a chief justice to hide a mistress: a pavilion facing a large overgrown garden, a courtyard and a low back building, and from there a walled passage that winds for a quarter of a league between gardens to a second, secret door on the Rue de Babylone. It stood empty after the Revolution until October 1829, when Jean Valjean took it as M. Fauchelevent and moved in with Cosette and a servant, Toussaint. He also keeps two shabby lodgings in the Rue de l'Ouest and the Rue de l'Homme Armé, so that he can vanish at the first alarm."
+      },
+      {
+        "from": 234,
+        "text": "Cosette and Toussaint have the pavilion, with gilded boudoir and canopied bed. Valjean sleeps in a fireless porter's lodge at the back of the courtyard and keeps black bread for himself. No stranger enters. They come and go only by the Rue de Babylone door; the gate on the Rue Plumet stays locked."
+      },
+      {
+        "from": 235,
+        "text": "Left alone for half a century, the garden has grown into a fragrant wilderness behind its rusty railing. Hugo makes it a meditation: nothing in nature is small, and everything is bound to everything else."
+      },
+      {
+        "from": 236,
+        "text": "A garden made for a magistrate's gallantries now shelters innocence. Cosette grows up here, fourteen when she leaves the convent, adoring her father."
+      },
+      {
+        "from": 241,
+        "text": "Valjean comes home from a visit to the poor with a burned arm and is nursed for a month. In the pavilion their old closeness comes back."
+      },
+      {
+        "from": 243,
+        "text": "A lieutenant of lancers rides past the railing every day, and Cosette watches for him."
+      },
+      {
+        "from": 244,
+        "text": "While Valjean is away, Cosette hears footsteps in the garden at night and sees a man's shadow beside her own."
+      },
+      {
+        "from": 245,
+        "text": "She finds a stone on her bench by the railing, and under it a notebook of unsigned love thoughts."
+      },
+      {
+        "from": 248,
+        "text": "At dusk Marius is standing behind her bench. He has been coming into her garden at night. They kiss, talk for hours, and only at the end tell each other their names."
+      },
+      {
+        "from": 256,
+        "text": "Through May 1832 Marius slips in every evening by a loose bar in the railing, and the garden becomes theirs."
+      },
+      {
+        "from": 259,
+        "text": "On the night of 3 June Thénardier, out of prison, comes with Claquesous, Gueulemer, Babet, Brujon and Montparnasse to rob the house: the 'affair in the Rue Plumet, a gate on a garden' passed out of La Force. Éponine is sitting by the loose bar and faces them alone, threatening to scream, and they go away."
+      },
+      {
+        "from": 261,
+        "text": "Cosette tells Marius her father is taking her away, perhaps to England, within the week. Marius scratches his address, 16 Rue de la Verrerie, on the garden wall."
+      },
+      {
+        "from": 263,
+        "text": "Valjean finds the address on the wall. With Thénardier prowling the quarter, he has already decided to leave."
+      },
+      {
+        "from": 264,
+        "text": "On the evening of 5 June Marius finds the shutters closed and the garden empty. He sits on the steps and decides that, since Cosette is gone, there is nothing left but to die. A voice from the street calls him to the barricade."
+      },
+      {
+        "from": 295,
+        "text": "They left on the evening of 4 June for the Rue de l'Homme Armé, taking only Toussaint and the little valise."
+      },
+      {
+        "from": 358,
+        "text": "After their marriage Marius and Cosette go back to look at their garden, and lose themselves there; Valjean waits for her in vain that evening."
+      }
+    ],
+    "moments": [
+      {
+        "chapter": 233,
+        "text": "Valjean moved in with Cosette as M. Fauchelevent in 1829."
+      },
+      {
+        "chapter": 248,
+        "text": "Marius and Cosette met in the garden and told each other their names."
+      },
+      {
+        "chapter": 259,
+        "text": "Éponine turned away the gang at the gate."
+      },
+      {
+        "chapter": 263,
+        "text": "Valjean found Marius's address scratched on the wall."
+      }
+    ]
+  },
+  {
+    "id": "rue-de-l-homme-arme",
+    "kind": "place",
+    "name": "The Rue de l'Homme Armé",
+    "firstChapter": 233,
+    "importance": "minor",
+    "group": "Places",
+    "aliases": [
+      {
+        "name": "No. 7 Rue de l'Homme Armé",
+        "from": 294
+      }
+    ],
+    "tagline": [
+      {
+        "from": 233,
+        "text": "A quiet street in the Marais where Valjean keeps a shabby bolt-hole."
+      },
+      {
+        "from": 294,
+        "text": "Cosette's new address, in the letter that never reached Marius."
+      },
+      {
+        "from": 297,
+        "text": "Where Valjean reads Marius's farewell to Cosette, and goes out in his uniform."
+      },
+      {
+        "from": 352,
+        "text": "The empty flat Valjean goes back to alone after the wedding."
+      },
+      {
+        "from": 364,
+        "text": "Where Jean Valjean died, with Cosette and Marius at his side."
+      }
+    ],
+    "description": [
+      {
+        "from": 233,
+        "text": "One of two poor lodgings Valjean rents under another name, far from the Rue Plumet, in case he must disappear. He stays there now and then for a month or six weeks, without Toussaint, waited on by the porters."
+      },
+      {
+        "from": 294,
+        "text": "Cosette's note, which Éponine kept, said they would be at No. 7 Rue de l'Homme Armé that evening, and in England in a week. Marius sends his own farewell there by Gavroche."
+      },
+      {
+        "from": 295,
+        "text": "On the evening of 4 June Valjean moves Cosette and Toussaint here with only 'the inseparable' valise. The quiet street gives him back his calm. Then, in the mirror over the sideboard, he reads the reversed imprint of Cosette's note to Marius on her blotter."
+      },
+      {
+        "from": 296,
+        "text": "He is sitting on his doorpost at eleven when Gavroche comes looking for No. 7, smashes the street lantern, and lets slip that he has a letter from the barricade for Mademoiselle Cosette. Valjean takes it."
+      },
+      {
+        "from": 297,
+        "text": "Upstairs, while Cosette and Toussaint sleep, he reads 'I die', and feels a frightful joy. Then he wakes the porter, and an hour later goes out in his National Guard uniform, armed."
+      },
+      {
+        "from": 308,
+        "text": "At dawn Cosette wakes here, knowing nothing of the fighting, sure Marius has had her letter and will come today."
+      },
+      {
+        "from": 317,
+        "text": "At the barricade Valjean cuts Javert loose and tells him he lives as Fauchelevent at No. 7."
+      },
+      {
+        "from": 339,
+        "text": "Javert walks him to this door after the sewer, tells him to go up, and says he will wait. When Valjean looks out of the landing window, the street is empty."
+      },
+      {
+        "from": 344,
+        "text": "M. Gillenormand has had the address found: the girl lives at No. 7 Rue de l'Homme Armé."
+      },
+      {
+        "from": 352,
+        "text": "On his wedding night Valjean walks home here alone, takes off the sling, opens the little valise, lays out the mourning clothes Cosette wore leaving Montfermeil, and weeps over them."
+      },
+      {
+        "from": 359,
+        "text": "Every evening through the spring and summer of 1833 he walks from here towards the Rue des Filles-du-Calvaire, peers round the corner, and turns back, a little sooner each day."
+      },
+      {
+        "from": 361,
+        "text": "He takes to his bed and stops eating. His portress, the only soul he sees, fetches a doctor, who says the old man is dying of having lost someone dear to him."
+      },
+      {
+        "from": 362,
+        "text": "He puts on his old workman's clothes, lays Cosette's little dress on the bed, and lights the Bishop's candlesticks in broad daylight, as candles are lit in a room where there is a corpse."
+      },
+      {
+        "from": 364,
+        "text": "Marius and Cosette burst in on him here. He tells Cosette her mother's name, lays his hands on their heads, and dies."
+      }
+    ],
+    "moments": [
+      {
+        "chapter": 295,
+        "text": "Valjean read Cosette's note in the mirror."
+      },
+      {
+        "chapter": 296,
+        "text": "Gavroche handed over Marius's letter at the door."
+      },
+      {
+        "chapter": 339,
+        "text": "Javert left Valjean at his door and vanished."
+      },
+      {
+        "chapter": 364,
+        "text": "Jean Valjean died here."
+      }
+    ]
+  },
+  {
+    "id": "the-elephant-of-the-bastille",
+    "kind": "place",
+    "name": "The elephant of the Bastille",
+    "firstChapter": 250,
+    "importance": "minor",
+    "group": "Places",
+    "tagline": [
+      {
+        "from": 250,
+        "text": "A crumbling plaster model of a Napoleonic monument on the Place de la Bastille, and Gavroche's home."
+      }
+    ],
+    "description": [
+      {
+        "from": 250,
+        "text": "A forty-foot model in timber and plaster of a monument Napoleon planned, left to rot in a corner of the Place de la Bastille beside the boarded-up column of July: black with weather, grass between its legs, melancholy by day and formidable by night. Gavroche gets in by a ladder to a hole in its belly. Inside, among beams and plaster stalactites, with rats in the corners, he has a straw mat, a blanket and a cage of brass wire netting against the rats. Here he puts the two lost little boys to bed. Hugo says Napoleon's idea, forgotten by the great, has become a shelter for a child."
+      },
+      {
+        "from": 251,
+        "text": "Before dawn Montparnasse's cry calls Gavroche down from it to help with a jailbreak."
+      },
+      {
+        "from": 271,
+        "text": "The two little boys never came back to it."
+      }
+    ],
+    "moments": [
+      {
+        "chapter": 250,
+        "text": "Gavroche sheltered two lost boys inside it for the night."
+      },
+      {
+        "chapter": 251,
+        "text": "Montparnasse called Gavroche out of it before dawn."
+      }
+    ]
+  },
+  {
+    "id": "the-barricade",
+    "kind": "place",
+    "name": "The barricade of the Rue de la Chanvrerie",
+    "firstChapter": 264,
+    "importance": "major",
+    "group": "Places",
+    "aliases": [
+      {
+        "name": "the Corinthe barricade",
+        "from": 279
+      }
+    ],
+    "tagline": [
+      {
+        "from": 264,
+        "text": "The barricade where, says a voice in the dark, Marius's friends are waiting for him."
+      },
+      {
+        "from": 279,
+        "text": "A barricade of paving-stones, casks and an omnibus, thrown across the street in front of Corinthe."
+      },
+      {
+        "from": 289,
+        "text": "The barricade where old Mabeuf died raising the flag."
+      },
+      {
+        "from": 293,
+        "text": "Marius's barricade, where Éponine died in his arms."
+      },
+      {
+        "from": 302,
+        "text": "A barricade abandoned by Paris, where thirty-seven men stay to die, Jean Valjean among them."
+      },
+      {
+        "from": 313,
+        "text": "The barricade Gavroche died outside, singing."
+      },
+      {
+        "from": 321,
+        "text": "Taken: Enjolras and Grantaire shot together, the last defenders killed."
+      },
+      {
+        "from": 322,
+        "text": "Taken. Of its defenders, only Marius was carried out alive, on Jean Valjean's back."
+      }
+    ],
+    "description": [
+      {
+        "from": 264,
+        "text": "Marius knows only that it exists: a voice calls through the trees of the Rue Plumet that his friends are waiting for him at the barricade of the Rue de la Chanvrerie."
+      },
+      {
+        "from": 277,
+        "text": "The Rue de la Chanvrerie runs into the old maze of streets by the Halles, and the wine-shop Corinthe stands at its corner."
+      },
+      {
+        "from": 279,
+        "text": "Enjolras's band builds it in minutes, out of torn-out bars, paving-stones, a lime-dealer's dray, Mother Hucheloup's casks and an omnibus that Bossuet stops and overturns."
+      },
+      {
+        "from": 281,
+        "text": "Finished, it is six or seven feet high, with steps of paving-stones inside so that the defenders can mount its crest, a gap at one end, and a red flag on the upright omnibus pole. A smaller barricade in the Rue Mondétour, behind the wine-shop, makes the whole a redoubt. Courfeyrac hands out thirty cartridges to each man, three sentinels are posted, and some fifty men wait as the light goes."
+      },
+      {
+        "from": 283,
+        "text": "Gavroche unmasks the tall recruit from the Rue des Billettes as a police spy. He is Inspector Javert, and he is tied to a post inside."
+      },
+      {
+        "from": 284,
+        "text": "When a drunken recruit, Le Cabuc, murders the old porter of the house at the end of the barricade, Enjolras executes him on the spot: insurrection must have discipline."
+      },
+      {
+        "from": 287,
+        "text": "Marius, coming through the dark streets, looks into it from the elbow of the Rue Mondétour and argues himself into civil war."
+      },
+      {
+        "from": 288,
+        "text": "At ten the troops come. 'Who goes there?' 'The French Revolution!' A volley cuts down the flagstaff."
+      },
+      {
+        "from": 289,
+        "text": "Old Mabeuf climbs the barricade with the flag, crying 'Long live the Republic!', and falls dead under the second volley."
+      },
+      {
+        "from": 291,
+        "text": "Marius saves Gavroche and Courfeyrac with his two pistols, a young workman in velvet trousers takes the bullet aimed at him, and Marius drives off the attack by threatening to blow up a barrel of powder with a torch. He is made chief."
+      },
+      {
+        "from": 292,
+        "text": "Jean Prouvaire, taken prisoner, is shot by the troops; they hear his last cry."
+      },
+      {
+        "from": 293,
+        "text": "Behind the little barricade the young workman is Éponine, dying. She tells Marius she led him there so they might die together."
+      },
+      {
+        "from": 300,
+        "text": "Through the night they rebuild and repair, lay out the dead, and talk philosophy. By dawn thirty-seven remain."
+      },
+      {
+        "from": 301,
+        "text": "Enjolras tells them the truth: Paris is not rising and the army is coming. A man answers that they should stay and make the protest of corpses, and all acclaim him."
+      },
+      {
+        "from": 302,
+        "text": "Fathers and breadwinners are sent away in captured uniforms. A fifth uniform is needed, and one is thrown on the pile by a man who has just come in: Jean Valjean, in National Guard dress. Marius knows him as M. Fauchelevent."
+      },
+      {
+        "from": 303,
+        "text": "From its paving-stone steps Enjolras speaks his vision of the future, and calls the barricade the meeting place of ideas and woes, where those who die enter a tomb flooded with dawn."
+      },
+      {
+        "from": 305,
+        "text": "The Mondétour gap is walled up; there is no way out. A cannon is brought up."
+      },
+      {
+        "from": 307,
+        "text": "Valjean shoots down a mattress from a distant attic window and stops the breach the grapeshot is tearing."
+      },
+      {
+        "from": 313,
+        "text": "Gavroche goes out to empty the dead Guards' cartridge boxes and sings back at every bullet until one kills him."
+      },
+      {
+        "from": 317,
+        "text": "Valjean asks to execute the spy himself, takes Javert behind the little barricade, cuts him loose, and fires into the air."
+      },
+      {
+        "from": 319,
+        "text": "The army throws itself at it again and again. It holds through ten assaults, like a wall of Troy. Bossuet, Feuilly, Courfeyrac and Combeferre are killed."
+      },
+      {
+        "from": 320,
+        "text": "The centre gives way. Enjolras holds the wine-shop door; Marius falls outside with a broken collarbone and feels a hand seize him."
+      },
+      {
+        "from": 321,
+        "text": "Enjolras and Grantaire are shot together upstairs, the last insurgents killed in the attic and cellar, and the barricade is taken."
+      },
+      {
+        "from": 322,
+        "text": "The hand was Jean Valjean's. He carried the unconscious Marius into the angle where Éponine died, found an iron grating under the loose stones, and went down with him into the dark."
+      },
+      {
+        "from": 348,
+        "text": "Marius, recovering, cannot fit M. Fauchelevent into his memory of the barricade, and when Fauchelevent says he does not know the Rue de la Chanvrerie, decides he dreamed it."
+      },
+      {
+        "from": 355,
+        "text": "Knowing now that Fauchelevent was the convict Jean Valjean, Marius decides he went to the barricade to take revenge on Javert, and killed him."
+      },
+      {
+        "from": 363,
+        "text": "Javert's own report, printed in the Moniteur, says he owed his life at the barricade to an insurgent who fired into the air instead of killing him."
+      }
+    ],
+    "moments": [
+      {
+        "chapter": 279,
+        "text": "Built in minutes in front of Corinthe."
+      },
+      {
+        "chapter": 289,
+        "text": "Mabeuf was shot raising the flag."
+      },
+      {
+        "chapter": 293,
+        "text": "Éponine died in Marius's arms."
+      },
+      {
+        "chapter": 302,
+        "text": "Jean Valjean entered in National Guard uniform."
+      },
+      {
+        "chapter": 313,
+        "text": "Gavroche was killed gathering cartridges outside it."
+      },
+      {
+        "chapter": 321,
+        "text": "The barricade fell; Enjolras and Grantaire were shot."
+      }
+    ]
+  },
+  {
+    "id": "the-sewers",
+    "kind": "place",
+    "name": "The sewers of Paris",
+    "firstChapter": 323,
+    "importance": "supporting",
+    "group": "Places",
+    "aliases": [
+      {
+        "name": "the intestine of the Leviathan",
+        "from": 323,
+        "note": "Hugo's title for the book that describes them"
+      },
+      {
+        "name": "the Grand Sewer",
+        "from": 332
+      }
+    ],
+    "tagline": [
+      {
+        "from": 323,
+        "text": "Lutetia, the city of mud beneath the city of light, which Hugo maps before following Valjean down."
+      },
+      {
+        "from": 329,
+        "text": "The dark labyrinth through which Valjean carries the bleeding Marius."
+      },
+      {
+        "from": 334,
+        "text": "The sewer where Valjean almost drowns in a slough of mud, holding Marius above it."
+      },
+      {
+        "from": 336,
+        "text": "A sewer whose locked outlet is opened by Thénardier's key."
+      }
+    ],
+    "description": [
+      {
+        "from": 323,
+        "text": "Hugo opens the book on the sewers by arguing that Paris pours twenty-five million francs a year into the river as human manure that should feed the fields. Beneath the city of light lies Lutetia, the city of mud, a colossal sponge of galleries whose offspring is the rat."
+      },
+      {
+        "from": 324,
+        "text": "The sewer has been sepulchre and refuge for outlaws and persecuted thought through the centuries. It is the conscience of the city, the one place where nothing lies."
+      },
+      {
+        "from": 326,
+        "text": "From 1805 to 1812 a man named Bruneseau explored it by night, through pestilence and bottomless holes, and found an orangutan's skeleton and a scrap of Marat's shroud."
+      },
+      {
+        "from": 328,
+        "text": "By 1832 much of the old gothic sewer was still unrepaired, with floods, quicksands and typhus."
+      },
+      {
+        "from": 329,
+        "text": "Valjean, with Marius on his shoulders, turns away from the outlets that would bring him up into the crowded centre, climbs without knowing where he is, and sees his own shadow thrown ahead of him by a lantern behind."
+      },
+      {
+        "from": 330,
+        "text": "A police patrol searching for insurgents listens, hears nothing, and fires one shot into the dark; it strikes the arch above Valjean's head."
+      },
+      {
+        "from": 332,
+        "text": "Thirsty, bitten by rats and failing, he reaches the Grand Sewer at about three in the afternoon and goes downstream. Under an air-hole he binds Marius's wounds with his own shirt and reads in his pocketbook where to take him."
+      },
+      {
+        "from": 334,
+        "text": "The pavement turns to mud: a fontis, a slough left by yesterday's rain. He sinks to his calves, his waist, his armpits, holding Marius above the water, until with only his head above the surface his foot finds the far edge of the paving. He climbs out and prays."
+      },
+      {
+        "from": 335,
+        "text": "He sees daylight ahead and runs to the outlet on the Seine, and finds it closed by a heavy grating double-locked."
+      },
+      {
+        "from": 336,
+        "text": "A barefoot man lays a hand on his shoulder and whispers 'Half shares'. It is Thénardier, who has made the sewer his hiding-place and has a key. He takes Valjean for a murderer getting rid of a body, takes his thirty francs, tears a strip from Marius's coat, and lets him out."
+      },
+      {
+        "from": 349,
+        "text": "A coachman's tale tells Marius that someone carried him from the Halles to the Champs-Élysées through the sewer, a league and a half, and was arrested at the outlet. Marius calls that man an archangel, and does not know who he was."
+      },
+      {
+        "from": 363,
+        "text": "Thénardier tells Marius the sewer story to blacken Valjean: an ex-convict with a corpse on his back. The torn strip fits Marius's bloodstained coat exactly."
+      }
+    ],
+    "moments": [
+      {
+        "chapter": 329,
+        "text": "Valjean carried Marius away from the outlets and into the dark."
+      },
+      {
+        "chapter": 334,
+        "text": "Valjean crossed the fontis with Marius held above the mud."
+      },
+      {
+        "chapter": 336,
+        "text": "Thénardier opened the outlet and tore a strip from Marius's coat."
+      }
+    ]
   }
 ]

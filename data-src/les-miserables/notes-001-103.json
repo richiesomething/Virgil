@@ -701,7 +701,11 @@
     "kind": "history",
     "chapter": 11,
     "text": "The battle of 18 June 1815 near Brussels in which Wellington and Blücher finally defeated Napoleon, ending the Hundred Days and the Empire. Here it is only glimpsed on the horizon of 1815, the year the Bishop's story reaches.",
-    "quote": "when Waterloo could be dimly discerned"
+    "quote": "when Waterloo could be dimly discerned",
+    "seeAlso": [
+      71,
+      73
+    ]
   },
   {
     "term": "Legion of Honor",
@@ -1326,7 +1330,7 @@
     "term": "the Invalides",
     "kind": "place",
     "chapter": 28,
-    "text": "The Hôtel des Invalides, Louis XIV's great home for old and wounded soldiers, with its gilded dome, where Napoleon's veterans lived out their days. Its pensioners were issued large blue handkerchiefs, which is why Fantine's makeshift shawl is 'such as the Invalides use'.",
+    "text": "The Hôtel des Invalides, Louis XIV's great home for old and wounded soldiers, with its gilded dome, where Napoleon's veterans lived out their days. Its pensioners were issued large blue cotton handkerchiefs, a familiar sight in Paris.",
     "quote": "having the dome of the Invalides regilded",
     "seeAlso": [
       35,
@@ -1474,6 +1478,20 @@
     "quote": "The horses of Marly"
   },
   {
+    "term": "the spleen",
+    "kind": "word",
+    "chapter": 33,
+    "text": "Melancholy or low spirits, thought to come from the spleen; the French borrowed the English word in the eighteenth century, and to 'have the spleen' was fashionably English. Favorite's version is a grisette's grumble about rain, stingy lovers and the price of butter.",
+    "quote": "I have the spleen, as the English say"
+  },
+  {
+    "term": "precentor",
+    "kind": "title",
+    "chapter": 33,
+    "text": "The church officer who leads the singing in a parish, a modest lay or clerical post. Saint-Jacques-du-Haut-Pas is a Latin Quarter church; Favorite's young actor is a precentor's son who copies documents for an attorney at twenty sous a day.",
+    "quote": "a former precentor of Saint-Jacques-du-Haut-Pas"
+  },
+  {
     "term": "Est modus in rebus",
     "kind": "foreign",
     "chapter": 34,
@@ -1568,8 +1586,12 @@
     "term": "Sergeant of Waterloo",
     "kind": "lore",
     "chapter": 37,
-    "text": "Inns were known by their painted signboards. This one shows a soldier carrying a wounded general off a smoky battlefield, a picture of heroism at Waterloo that the innkeeper presents as his own feat. Its spelling 'Sargent' is part of the sign's roughness.",
-    "quote": "At the sign of Sergeant of Waterloo"
+    "text": "Inns were known by their painted signboards. This one shows a soldier carrying a wounded general off a smoky battlefield, a scene of heroism at Waterloo, the battle of 1815 that ended Napoleon's reign. Its spelling 'Sargent' is part of the sign's roughness.",
+    "quote": "At the sign of Sergeant of Waterloo",
+    "seeAlso": [
+      38,
+      94
+    ]
   },
   {
     "term": "Valenciennes lace",
@@ -2320,6 +2342,13 @@
     "quote": "nearly forty years ago"
   },
   {
+    "term": "the little glass",
+    "kind": "custom",
+    "chapter": 66,
+    "text": "Doctors held a small mirror to a patient's lips to see whether it misted, the simplest test of whether breath, and so life, remained. It is the only looking-glass in the sisters' infirmary.",
+    "quote": "the little glass which the doctor of the infirmary used to see whether a patient was dead"
+  },
+  {
     "term": "first communion",
     "kind": "custom",
     "chapter": 67,
@@ -2420,7 +2449,7 @@
     ]
   },
   {
-    "term": "Waterloo",
+    "term": "the village of Waterloo",
     "kind": "place",
     "chapter": 71,
     "text": "A village about fifteen kilometres south of Brussels, where Wellington had his headquarters and dated his dispatch. The fighting took place a few kilometres further south, around Mont-Saint-Jean, but the battle took the village's name.",

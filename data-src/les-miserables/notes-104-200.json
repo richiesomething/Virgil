@@ -87,7 +87,7 @@
     "term": "Mourning",
     "kind": "custom",
     "chapter": 106,
-    "text": "Black clothes worn for a dead relative; even small children were dressed in black. The 'little black gown' Valjean bought at Montfermeil is mourning for Fantine, though Cosette does not know who she is mourning.",
+    "text": "Black clothes worn for a dead relative; even small children were dressed in black. The 'little black gown' Valjean bought at Montfermeil puts Cosette in mourning for her mother.",
     "quote": "Cosette was no longer in rags; she was in mourning."
   },
   {
@@ -164,7 +164,7 @@
     "term": "The Goblet potteries",
     "kind": "reference",
     "chapter": 110,
-    "text": "A real pottery in the Rue de la Clef whose rhymed sign Hugo quotes: 'Here is the factory of Goblet the son; come choose jugs and pitchers, flower-pots, pipes and brick; to all comers the Heart sells Diamonds (tiles).' The last line is a pun on playing-card suits and roof tiles.",
+    "text": "A real pottery in the Rue de la Clef whose rhymed sign Hugo quotes: 'Here is the factory of Goblet the son; come choose jugs and pitchers, flower-pots, pipes and brick; to all comers the Heart sells Diamonds (tiles).' The last line is a pun on playing-card suits and roof tiles. Hugo copies it as one of the small, real sights Valjean passes in the night.",
     "quote": "A tout venant le Coeur vend des Carreaux"
   },
   {
@@ -234,7 +234,7 @@
     "term": "Cravat",
     "kind": "word",
     "chapter": 113,
-    "text": "A long strip of linen or silk wound round the neck and knotted, worn by every man who was not in rags; a coat without a cravat looked half-dressed. Valjean's cravat becomes a harness, which is why Fauchelevent is shocked to find him without one.",
+    "text": "A long strip of linen or silk wound round the neck and knotted, worn by every man who was not in rags; a coat without a cravat looked half-dressed. Valjean's becomes a harness to lift Cosette over the wall.",
     "quote": "he undid his cravat, passed it round Cosette’s body under the armpits"
   },
   {
@@ -465,7 +465,7 @@
     "term": "Postulant, novice, professed",
     "kind": "title",
     "chapter": 121,
-    "text": "The three stages of entering a convent: a postulant asks admission and lives under the rule on trial (here two to four years), a novice wears the habit in white and is trained (four years), and a professed nun has taken final vows, rarely before twenty-three or twenty-four.",
+    "text": "The three stages of entering a convent: a postulant asks admission and lives under the rule on trial (here two to four years), a novice wears the habit in white and is trained (four years), and a professed nun has taken final vows, rarely before twenty-three or twenty-four. Each step could be refused, so a girl might live years in the house before being finally bound to it.",
     "quote": "One is a postulant for two years at least, often for four; a novice for four."
   },
   {
@@ -1067,7 +1067,7 @@
     "term": "Porte cavalière, porte piétonne",
     "kind": "foreign",
     "chapter": 142,
-    "text": "The carriage gate and the foot gate, the old names the quarter kept for the cemetery's two entrances beside the keeper's lodge built by Perronet, the engineer of the Pont de la Concorde.",
+    "text": "The carriage gate and the foot gate, the old names the quarter kept for the cemetery's two entrances beside the keeper's lodge built by Perronet, the engineer of the Pont de la Concorde. The names matter because the gates shut at sunset, and getting out afterwards needs a permit.",
     "quote": "still called the porte cavalière and the porte piétonne"
   },
   {
@@ -2327,7 +2327,7 @@
     "term": "Ten louis",
     "kind": "money",
     "chapter": 174,
-    "text": "The louis was the gold coin worth twenty francs, so the aunt's present is two hundred francs: several months' pay for a junior officer's pocket, and plenty to make Théodule obliging.",
+    "text": "The louis was the gold coin worth twenty francs, so the aunt's present is two hundred francs: several months' pay for a junior officer's pocket, and plenty to make Théodule obliging. Mademoiselle Gillenormand keeps such sums in her writing-desk for her favourite.",
     "quote": "And she put ten louis into his hand."
   },
   {
@@ -2488,7 +2488,7 @@
     "term": "A map of France under the Republic",
     "kind": "history",
     "chapter": 176,
-    "text": "A map showing the départements of the Republic, or the frontiers of 1792–1799, instead of the kingdom: under the Restoration, hanging one was a quiet political statement, enough to draw a police spy's eye.",
+    "text": "A map showing the départements of the Republic, or the frontiers of 1792–1799, instead of the kingdom: under the Restoration, hanging one was a quiet political statement, enough to draw a police spy's eye. The police watched cafés where students met.",
     "quote": "An old map of France under the Republic was nailed to the wall"
   },
   {
@@ -3027,7 +3027,7 @@
     "term": "Tilsit",
     "kind": "history",
     "chapter": 180,
-    "text": "The town on the river Niemen where in July 1807 Napoleon met Tsar Alexander I on a raft in midstream and dictated peace to Russia and Prussia: the high point of his power in Europe.",
+    "text": "The town on the river Niemen where in July 1807 Napoleon met Tsar Alexander I on a raft in midstream and dictated peace to Russia and Prussia: the high point of his power in Europe. Napoleon's bearing there impressed even the sovereigns he had beaten.",
     "quote": "at Tilsit he taught Emperors majesty"
   },
   {
@@ -3489,8 +3489,8 @@
     "term": "Lux facta est",
     "kind": "foreign",
     "chapter": 189,
-    "text": "Latin, 'and there was light', from God's creation of light in Genesis (1:3): the title of the chapter in which Marius sees the girl transformed.",
-    "quote": "During the second year, precisely at the point in this history which the reader has now reached"
+    "text": "Latin, 'and there was light', from God's creation of light in Genesis (1:3). Hugo makes it the title of the chapter in which Marius sees the thin schoolgirl of the year before turned, in six months, into a beautiful young woman.",
+    "quote": "This child had not only grown, she had become idealized."
   },
   {
     "term": "Raphael and Jean Goujon",
@@ -3741,7 +3741,7 @@
     "term": "'The head of the State'",
     "kind": "lore",
     "chapter": 199,
-    "text": "Babet sold plaster busts of whoever was ruling: Hugo's careful phrase points out that the head changed often enough (Napoleon, Louis XVIII, Charles X, Louis-Philippe) for a pedlar to keep his options open.",
+    "text": "Babet sold plaster busts of whoever was ruling: Hugo's careful phrase points out that the head changed often enough (Napoleon, Louis XVIII, Charles X, Louis-Philippe) for a pedlar to keep his options open. Between 1814 and 1830 France had four.",
     "quote": "selling, in the open air, plaster busts and portraits of “the head of the State.”"
   },
   {
