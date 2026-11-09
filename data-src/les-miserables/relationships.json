@@ -435,13 +435,8 @@
       },
       {
         "from": 52,
-        "type": "enemy",
-        "label": "She spits in his face; he orders her freed"
-      },
-      {
-        "from": 52,
         "type": "friend",
-        "label": "He promises to pay her debts and bring her child"
+        "label": "She spits in his face; he frees her and promises her child"
       },
       {
         "from": 53,
@@ -473,11 +468,6 @@
         "from": 69,
         "type": "friend",
         "label": "She dies of terror at his arrest; he whispers in her ear"
-      },
-      {
-        "from": 90,
-        "type": "friend",
-        "label": "The promise to her child still unkept"
       },
       {
         "from": 103,
@@ -857,6 +847,452 @@
         "from": 53,
         "type": "enemy",
         "label": "The mayor sends money for Cosette; Thénardier invents bills"
+      }
+    ]
+  },
+  {
+    "a": "jean-valjean",
+    "b": "cosette",
+    "states": [
+      {
+        "from": 57,
+        "type": "friend",
+        "label": "The child he has promised to bring to her mother"
+      },
+      {
+        "from": 69,
+        "type": "friend",
+        "label": "Fantine dies; her child is still at Montfermeil"
+      },
+      {
+        "from": 103,
+        "type": "family",
+        "label": "He buys her from the Thénardiers and takes her for his own",
+        "kin": "parent"
+      },
+      {
+        "from": 106,
+        "type": "family",
+        "label": "Father and daughter in all but blood, each loved for the first time",
+        "kin": "parent"
+      },
+      {
+        "from": 113,
+        "type": "family",
+        "label": "He hauls her over the convent wall to escape Javert",
+        "kin": "parent"
+      },
+      {
+        "from": 145,
+        "type": "family",
+        "label": "At the convent he passes as her grandfather",
+        "kin": "parent"
+      },
+      {
+        "from": 146,
+        "type": "family",
+        "label": "She grows up a pupil; he sees her an hour a day",
+        "kin": "parent"
+      },
+      {
+        "from": 233,
+        "type": "family",
+        "label": "They live hidden in the Rue Plumet as father and daughter",
+        "kin": "parent"
+      },
+      {
+        "from": 236,
+        "type": "family",
+        "label": "She adores him; he cannot speak her mother’s name",
+        "kin": "parent"
+      },
+      {
+        "from": 239,
+        "type": "family",
+        "label": "He senses a young man at the Luxembourg and takes her away from it",
+        "kin": "parent"
+      },
+      {
+        "from": 241,
+        "type": "family",
+        "label": "She nurses his burned arm and their closeness returns",
+        "kin": "parent"
+      },
+      {
+        "from": 261,
+        "type": "family",
+        "label": "He plans to take her to England",
+        "kin": "parent"
+      },
+      {
+        "from": 295,
+        "type": "family",
+        "label": "He reads the imprint of her note to Marius and his light goes out",
+        "kin": "parent"
+      },
+      {
+        "from": 345,
+        "type": "family",
+        "label": "He gives her a dowry of six hundred thousand francs",
+        "kin": "parent"
+      },
+      {
+        "from": 350,
+        "type": "family",
+        "label": "He gives her up to Marius on her wedding day",
+        "kin": "parent"
+      },
+      {
+        "from": 352,
+        "type": "family",
+        "label": "Alone, he weeps over her childhood mourning clothes",
+        "kin": "parent"
+      },
+      {
+        "from": 356,
+        "type": "family",
+        "label": "He makes her call him “Monsieur Jean”",
+        "kin": "parent"
+      },
+      {
+        "from": 358,
+        "type": "family",
+        "label": "He stops coming, and she lets herself forget",
+        "kin": "parent"
+      },
+      {
+        "from": 364,
+        "type": "family",
+        "label": "She reaches him at his deathbed and learns her mother’s name",
+        "kin": "parent"
+      }
+    ]
+  },
+  {
+    "a": "monsieur-leblanc",
+    "b": "the-girl-at-the-luxembourg",
+    "states": [
+      {
+        "from": 188,
+        "type": "family",
+        "label": "A white-haired man and his daughter on a Luxembourg bench",
+        "kin": "parent"
+      },
+      {
+        "from": 196,
+        "type": "family",
+        "label": "He moves her away, leaving no address",
+        "kin": "parent"
+      },
+      {
+        "from": 208,
+        "type": "family",
+        "label": "Father and daughter bring charity to the Jondrettes",
+        "kin": "parent"
+      }
+    ]
+  },
+  {
+    "a": "jean-valjean",
+    "b": "thenardier",
+    "states": [
+      {
+        "from": 103,
+        "type": "enemy",
+        "label": "The innkeeper he paid fifteen hundred francs for Cosette"
+      },
+      {
+        "from": 220,
+        "type": "enemy",
+        "label": "Thénardier springs his trap; Valjean burns his own arm rather than speak"
+      },
+      {
+        "from": 241,
+        "type": "enemy",
+        "label": "Healing, Valjean even blesses the Thénardiers"
+      },
+      {
+        "from": 263,
+        "type": "enemy",
+        "label": "He sees Thénardier prowling near the Rue Plumet"
+      },
+      {
+        "from": 336,
+        "type": "enemy",
+        "label": "In the sewer Thénardier, not knowing him, lets him out for thirty francs"
+      },
+      {
+        "from": 363,
+        "type": "enemy",
+        "label": "Thénardier comes to sell his secret and proves him a hero"
+      }
+    ]
+  },
+  {
+    "a": "jean-valjean",
+    "b": "madame-thenardier",
+    "states": [
+      {
+        "from": 103,
+        "type": "enemy",
+        "label": "The innkeeper’s wife he took Cosette from"
+      },
+      {
+        "from": 220,
+        "type": "enemy",
+        "label": "She helps hold him in the Gorbeau trap"
+      }
+    ]
+  },
+  {
+    "a": "jondrette",
+    "b": "monsieur-leblanc",
+    "states": [
+      {
+        "from": 208,
+        "type": "enemy",
+        "label": "A begging-letter writer plays the ruined actor for his visitor"
+      },
+      {
+        "from": 212,
+        "type": "enemy",
+        "label": "Jondrette says he knows the man from eight years back and plots a trap"
+      },
+      {
+        "from": 218,
+        "type": "enemy",
+        "label": "The visitor sits down facing him in the trap"
+      }
+    ]
+  },
+  {
+    "a": "marius",
+    "b": "the-girl-at-the-luxembourg",
+    "states": [
+      {
+        "from": 188,
+        "type": "love",
+        "label": "A plain girl on a bench whom he hardly notices"
+      },
+      {
+        "from": 189,
+        "type": "love",
+        "label": "The awkward child has become a beautiful young woman"
+      },
+      {
+        "from": 190,
+        "type": "love",
+        "label": "Their eyes meet"
+      },
+      {
+        "from": 193,
+        "type": "love",
+        "label": "He is desperately in love, without a word spoken"
+      },
+      {
+        "from": 194,
+        "type": "love",
+        "label": "He finds a handkerchief and names her “Ursule”"
+      },
+      {
+        "from": 196,
+        "type": "love",
+        "label": "She vanishes, leaving no address"
+      },
+      {
+        "from": 208,
+        "type": "love",
+        "label": "He sees her through the peephole, visiting the Jondrettes"
+      }
+    ]
+  },
+  {
+    "a": "marius",
+    "b": "monsieur-leblanc",
+    "states": [
+      {
+        "from": 188,
+        "type": "enemy",
+        "label": "An agreeable old man on the bench"
+      },
+      {
+        "from": 194,
+        "type": "enemy",
+        "label": "The father seems to notice the young man’s attentions"
+      },
+      {
+        "from": 196,
+        "type": "enemy",
+        "label": "He stares hard at Marius and moves away"
+      },
+      {
+        "from": 212,
+        "type": "friend",
+        "label": "Marius sets out to save him from the Jondrettes’ trap"
+      }
+    ]
+  },
+  {
+    "a": "marius",
+    "b": "cosette",
+    "states": [
+      {
+        "from": 220,
+        "type": "love",
+        "label": "He hears her called the Lark and wonders who she is"
+      },
+      {
+        "from": 229,
+        "type": "love",
+        "label": "He knows less than ever about her"
+      },
+      {
+        "from": 232,
+        "type": "love",
+        "label": "Éponine has found her address"
+      },
+      {
+        "from": 238,
+        "type": "love",
+        "label": "From the first glance she loved him too"
+      },
+      {
+        "from": 245,
+        "type": "love",
+        "label": "He leaves his notebook of love on her bench"
+      },
+      {
+        "from": 248,
+        "type": "love",
+        "label": "They meet in her garden, kiss, and exchange names"
+      },
+      {
+        "from": 256,
+        "type": "love",
+        "label": "Chaste evenings together all through May"
+      },
+      {
+        "from": 261,
+        "type": "love",
+        "label": "She must leave for England; he swears he will die"
+      },
+      {
+        "from": 264,
+        "type": "love",
+        "label": "He finds her house shut and empty"
+      },
+      {
+        "from": 294,
+        "type": "love",
+        "label": "He reads her letter and writes his farewell"
+      },
+      {
+        "from": 308,
+        "type": "love",
+        "label": "She waits for him, knowing nothing of the fighting"
+      },
+      {
+        "from": 343,
+        "type": "love",
+        "label": "Recovering, he thinks only of her"
+      },
+      {
+        "from": 345,
+        "type": "love",
+        "label": "Betrothed at his bedside"
+      },
+      {
+        "from": 350,
+        "type": "family",
+        "label": "Married on Shrove Tuesday, 1833",
+        "kin": "spouse"
+      },
+      {
+        "from": 364,
+        "type": "family",
+        "label": "Together at Valjean’s deathbed",
+        "kin": "spouse"
+      }
+    ]
+  },
+  {
+    "a": "jean-valjean",
+    "b": "marius",
+    "states": [
+      {
+        "from": 220,
+        "type": "friend",
+        "label": "A young neighbour whose warning breaks the trap"
+      },
+      {
+        "from": 239,
+        "type": "enemy",
+        "label": "Valjean detests the young man haunting the Luxembourg"
+      },
+      {
+        "from": 295,
+        "type": "enemy",
+        "label": "He guesses Cosette’s lover and finds hatred in his heart"
+      },
+      {
+        "from": 297,
+        "type": "enemy",
+        "label": "He could let Marius die; instead he goes to the barricade"
+      },
+      {
+        "from": 302,
+        "type": "friend",
+        "label": "Marius sees “M. Fauchelevent” enter the barricade"
+      },
+      {
+        "from": 322,
+        "type": "friend",
+        "label": "Valjean carries the unconscious Marius into the sewer"
+      },
+      {
+        "from": 334,
+        "type": "friend",
+        "label": "He holds Marius above the mire of the fontis"
+      },
+      {
+        "from": 338,
+        "type": "friend",
+        "label": "He brings Marius home to his grandfather"
+      },
+      {
+        "from": 345,
+        "type": "friend",
+        "label": "The quiet father of his bride"
+      },
+      {
+        "from": 348,
+        "type": "friend",
+        "label": "Marius decides he only dreamed him at the barricade"
+      },
+      {
+        "from": 354,
+        "type": "friend",
+        "label": "Valjean confesses he is an ex-convict, no kin to Cosette"
+      },
+      {
+        "from": 355,
+        "type": "enemy",
+        "label": "Marius recoils, believing he killed Javert"
+      },
+      {
+        "from": 358,
+        "type": "enemy",
+        "label": "Marius edges him out of Cosette’s life"
+      },
+      {
+        "from": 363,
+        "type": "friend",
+        "label": "Marius learns Valjean was the man who saved him"
+      },
+      {
+        "from": 364,
+        "type": "friend",
+        "label": "He begs Valjean’s pardon at his deathbed"
       }
     ]
   }

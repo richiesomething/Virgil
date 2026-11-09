@@ -3689,5 +3689,150 @@
       "mercy-law",
       "conscience"
     ]
+  },
+  {
+    "chapter": 253,
+    "kind": "motif",
+    "title": "Words branded like shoulders",
+    "text": "Argot words appear 'wrinkled and shrivelled ... beneath the hot iron of the executioner'; a phrase is like 'the shoulder of a thief branded with the fleur-de-lys'. Hugo describes the language in the same terms as the convict's body. The punishment society inflicts on men has marked their speech as well.",
+    "themes": [
+      "mercy-law",
+      "names"
+    ]
+  },
+  {
+    "chapter": 253,
+    "kind": "context",
+    "title": "Villon's snows of yesteryear",
+    "text": "Hugo claims that Villon's famous line 'Mais où sont les neiges d'antan?' (But where are the snows of yesteryear?) contains a word of thieves' slang, 'antan'. François Villon was a fifteenth-century poet and a convicted thief who narrowly escaped the gallows. The point: some of France's finest poetry has roots in the criminal underworld.",
+    "themes": [
+      "history",
+      "names"
+    ]
+  },
+  {
+    "chapter": 253,
+    "kind": "theme",
+    "title": "A subterranean edifice built by all the miserable",
+    "text": "Dig into argot like a geologist and you find layers of Spanish, Italian, English, German, Latin, Basque and Celtic. 'Each accursed race has deposited its layer, each suffering has dropped its stone there.' Hugo turns a vocabulary into an archive of human misery across centuries, a 'third lower floor' made of words.",
+    "themes": [
+      "poverty",
+      "history"
+    ]
+  },
+  {
+    "chapter": 253,
+    "kind": "motif",
+    "title": "Man is a derivative of the night",
+    "text": "In argot the night is 'la sorgue' and man 'l'orgue'; an arrested man is 'sick', a condemned man 'dead', a prison is 'the college'. Hugo reads each metaphor as a lesson: these men think of society as an atmosphere that kills them. 'A whole penitentiary system can be evolved from that word.'",
+    "themes": [
+      "light-darkness",
+      "mercy-law",
+      "names"
+    ]
+  },
+  {
+    "chapter": 253,
+    "kind": "theme",
+    "title": "It was the rhymes that kept me up",
+    "text": "Hugo describes the cellar of the Châtelet, eight feet below the Seine, where men bound for the galleys hung by neck-chains in mud, sometimes for a year, 'for stealing a hare from the king'. There most of the galley songs were born. 'Song lingers where there is no longer any hope.' Even here, he adds, one song is tender: love survives.",
+    "themes": [
+      "mercy-law",
+      "love",
+      "history"
+    ]
+  },
+  {
+    "chapter": 253,
+    "kind": "motif",
+    "title": "A sombre Andromeda",
+    "text": "The chapter ends with the human soul chained to 'the rock of night' like Andromeda, waiting for a knight of light to save it from the monster. Hugo's question is whether anyone will come. The image restates his whole argument as myth: ignorance is the monster, enlightenment the rescuer.",
+    "themes": [
+      "light-darkness",
+      "mercy-law"
+    ]
+  },
+  {
+    "chapter": 254,
+    "kind": "theme",
+    "title": "From the sigh to the laugh",
+    "text": "The old songs of the underworld were humble and plaintive; the pègre was 'the hare in hiding'. In the eighteenth century they turn insolent and jovial, sung 'while cutting a man's throat'. Hugo reads this as a sign that the criminal poor were losing their sense of guilt, and that something larger was coming.",
+    "themes": [
+      "poverty",
+      "history",
+      "conscience"
+    ]
+  },
+  {
+    "chapter": 254,
+    "kind": "context",
+    "title": "Philosophers and sophists",
+    "text": "Hugo defends the Enlightenment: Diderot toward the beautiful, Turgot the useful, Voltaire the true, Rousseau the just. Beside them grew 'hemlock in the virgin forest', writers such as Restif de La Bretonne whose works spread a cruder message among the miserable. Schiller's play The Robbers (1781), about a noble outlaw, is his German example.",
+    "themes": [
+      "history",
+      "revolution"
+    ]
+  },
+  {
+    "chapter": 254,
+    "kind": "theme",
+    "title": "Revolution is the vaccine of Jacquerie",
+    "text": "A 'jacquerie' was a blind peasant uprising, 'the revolt of discomfort against comfort'. Hugo argues that the French Revolution, 'that immense act of probity', prevented one by giving the poor rights. He cites the ragpickers who guarded the crown jewels in 1848: 'Rags mounted guard over the treasure.' For him, rights make men honest.",
+    "themes": [
+      "revolution",
+      "poverty",
+      "history"
+    ]
+  },
+  {
+    "chapter": 254,
+    "kind": "craft",
+    "title": "The scarecrow scares no longer",
+    "text": "Hugo, writing in the 1860s, mocks those who still use fear of a red uprising in politics: 'The principal spring of the red spectre is broken.' This is the narrator in his own time speaking over the heads of his characters. The digression is as much about France under Napoleon III as about 1832.",
+    "themes": [
+      "revolution",
+      "history"
+    ]
+  },
+  {
+    "chapter": 255,
+    "kind": "theme",
+    "title": "Social phthisis",
+    "text": "There will be no more sudden apoplexy of revolt, Hugo says, but society can still die of consumption, and 'social phthisis is called misery'. His programme follows: schools for every aptitude, work for every arm, 'a limit to poverty without setting a limit to wealth'. The novel stops to state its politics outright.",
+    "themes": [
+      "poverty",
+      "revolution"
+    ]
+  },
+  {
+    "chapter": 255,
+    "kind": "theme",
+    "title": "A soul dying of hunger for the light",
+    "text": "'If there is anything more heartbreaking than a body perishing for lack of bread, it is a soul which is dying from hunger for the light.' Bread and light, the two things the poor of this book have lacked from the start, are joined in one sentence.",
+    "themes": [
+      "light-darkness",
+      "poverty"
+    ]
+  },
+  {
+    "chapter": 255,
+    "kind": "craft",
+    "title": "An austere interlude in a mournful drama",
+    "text": "Hugo names his own digression: 'an austere interlude in a mournful drama'. He insists on hope, 'it will be saved', and then admits that even the most logical have hours of weakness. The chapter ends not with certainty but with an image: the ideal, small and bright, 'no more in danger than a star in the maw of the clouds'.",
+    "themes": [
+      "light-darkness",
+      "revolution"
+    ]
+  },
+  {
+    "chapter": 255,
+    "kind": "question",
+    "title": "To watch and to hope",
+    "text": "The Book's title names two duties. Hugo has spent three chapters watching the underworld and its language; now he asks us to hope. Having just seen Thénardier step off a prison wall asking whom to eat, how convincing do you find his confidence that misery can be abolished 'by a simple elevation of level'?",
+    "themes": [
+      "poverty",
+      "conscience",
+      "revolution"
+    ]
   }
 ]
