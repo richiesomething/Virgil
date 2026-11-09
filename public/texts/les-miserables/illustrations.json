@@ -934,6 +934,16 @@
       "credit": "Wood engraving, Maison de Victor Hugo / Paris Musées (CC0)"
     },
     {
+      "chapter": 84,
+      "from": "When this legion had been reduced to a handful",
+      "file": "084-1.webp",
+      "width": 1000,
+      "height": 809,
+      "caption": "Night over the field of the last square",
+      "source": "O-021",
+      "credit": "Le Dernier Carré, drawing, Maison de Victor Hugo / Paris Musées (Wikimedia Commons)"
+    },
+    {
       "chapter": 89,
       "from": "The nocturnal prowler whom we have just shown",
       "file": "089-1.webp",
@@ -946,8 +956,18 @@
     },
     {
       "chapter": 90,
-      "from": "A former convict, who had been liberated, named Jean Valjean",
+      "from": "Jean Valjean had been recaptured.",
       "file": "090-1.webp",
+      "width": 729,
+      "height": 1000,
+      "caption": "Jean Valjean",
+      "source": "O-091",
+      "credit": "Gustave Brion, Les Misérables (G. Routledge and Sons), 1862 (Wikimedia Commons)"
+    },
+    {
+      "chapter": 90,
+      "from": "A former convict, who had been liberated, named Jean Valjean",
+      "file": "090-2.webp",
       "width": 500,
       "height": 299,
       "caption": "“Hidden in some place known to himself alone”",
@@ -974,6 +994,17 @@
       "source": "J-074",
       "to": "This vessel, battered as it was",
       "credit": "Georges Jeanniot, 1890 edition (Wikimedia Commons)"
+    },
+    {
+      "chapter": 92,
+      "from": "He, in the meantime, had immediately begun to make his descent",
+      "file": "092-2.webp",
+      "width": 627,
+      "height": 1000,
+      "caption": "“The convict had fallen into the sea”",
+      "source": "O-036",
+      "to": "The fall was perilous",
+      "credit": "Le vaisseau l’Orion, wood engraving, Les Misérables, Deuxième partie, Maison de Victor Hugo / Paris Musées (Wikimedia Commons)"
     },
     {
       "chapter": 93,
@@ -1020,8 +1051,19 @@
     },
     {
       "chapter": 97,
-      "from": "At that moment she suddenly became conscious that her bucket",
+      "from": "It was a narrow, natural basin, hollowed out by the water",
       "file": "097-1.webp",
+      "width": 709,
+      "height": 1000,
+      "caption": "Cosette at the spring with her bucket",
+      "source": "O-024",
+      "to": "Cosette did not take time to breathe",
+      "credit": "Cosette à la fontaine, wash drawing, Maison de Victor Hugo / Paris Musées (Wikimedia Commons)"
+    },
+    {
+      "chapter": 97,
+      "from": "At that moment she suddenly became conscious that her bucket",
+      "file": "097-2.webp",
       "width": 733,
       "height": 1000,
       "caption": "A stranger’s hand lifts the heavy bucket: “The child was not afraid”",
@@ -1137,6 +1179,16 @@
       "source": "P-052",
       "to": "It certainly was Fantine’s signature",
       "credit": "Wood engraving, Maison de Victor Hugo / Paris Musées (CC0)"
+    },
+    {
+      "chapter": 103,
+      "from": "When he fell into the sea, or rather, when he threw himself into it",
+      "file": "103-1.webp",
+      "width": 839,
+      "height": 1000,
+      "caption": "“At night he swam off again, and reached the shore”",
+      "source": "O-032",
+      "credit": "L’évasion, wood engraving, Les Misérables, Deuxième partie, Maison de Victor Hugo / Paris Musées (Wikimedia Commons)"
     },
     {
       "chapter": 104,
@@ -1305,6 +1357,17 @@
       "source": "J-093",
       "to": "The sub-prioress was an old Spanish nun",
       "credit": "Georges Jeanniot, 1890 edition (Wikimedia Commons)"
+    },
+    {
+      "chapter": 126,
+      "from": "The convent of the Petit-Picpus-Sainte-Antoine filled almost",
+      "file": "126-1.webp",
+      "width": 765,
+      "height": 1000,
+      "caption": "The convent of the Petit-Picpus seen from above",
+      "source": "O-035",
+      "to": "The convent was composed of several buildings and a garden",
+      "credit": "Le couvent à vol d’oiseau, wood engraving, Les Misérables, Deuxième partie, Maison de Victor Hugo / Paris Musées (Wikimedia Commons)"
     },
     {
       "chapter": 130,
@@ -3408,8 +3471,18 @@
     },
     {
       "chapter": 341,
-      "from": "Javert remained motionless for several minutes, gazing",
+      "from": "All at once he took off his hat and placed it on the edge of the quay",
       "file": "341-2.webp",
+      "width": 735,
+      "height": 1000,
+      "caption": "“A tall black figure … appeared erect upon the parapet of the quay”",
+      "source": "O-098",
+      "credit": "Wood engraving, “Un moment après, une figure haute et noire apparut debout sur le parapet”, Maison de Victor Hugo / Paris Musées (Wikimedia Commons)"
+    },
+    {
+      "chapter": 341,
+      "from": "and fell straight down into the shadows",
+      "file": "341-3.webp",
       "width": 1000,
       "height": 884,
       "caption": "“And fell straight down into the shadows”",
