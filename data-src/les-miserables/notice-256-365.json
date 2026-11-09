@@ -242,7 +242,7 @@
     "chapter": 263,
     "kind": "motif",
     "title": "A message without a face",
-    "text": "'Move away from your house.' A folded paper drops from nowhere, and a small figure in a grey blouse and velvet trousers vanishes over a parapet. Valjean's life has been shaped by documents: a yellow passport, a convict's number, borrowed names. Now the warning comes unsigned, and he cannot tell whether it is from a friend or an enemy.",
+    "text": "'Move away from your house.' A folded paper drops from nowhere, and a small figure in a grey blouse vanishes over a parapet. Valjean's life has been shaped by documents: a yellow passport, a convict's number, borrowed names. Now the warning comes unsigned, and he cannot tell whether it is from a friend or an enemy.",
     "themes": [
       "names",
       "mercy-law"
@@ -1083,7 +1083,7 @@
     "chapter": 291,
     "kind": "theme",
     "title": "The power of a man who wants to die",
-    "text": "Marius stands with a torch over a broken powder barrel: 'Blow up the barricade, and yourself with it!' 'And myself also.' The troops flee. Like Éponine at the Rue Plumet gate, he wins because he no longer fears death. Hugo calls him 'the young revolution after the apparition of the old', following Mabeuf onto the stones.",
+    "text": "Marius stands with a torch over a broken powder barrel: 'Blow up the barricade, and yourself with it!' 'And myself also.' The troops flee. He wins because he no longer fears death. Hugo calls him 'the young revolution after the apparition of the old', following Mabeuf onto the stones.",
     "themes": [
       "revolution",
       "conscience"
@@ -2902,6 +2902,486 @@
     "themes": [
       "names",
       "conscience"
+    ]
+  },
+  {
+    "chapter": 351,
+    "kind": "motif",
+    "title": "An empty armchair",
+    "text": "Two armchairs flank the bride, one for the grandfather and one for Jean Valjean. The second stays empty: his hand is paining him, Basque reports, and he has gone. The chill lasts a moment; then Marius takes the seat, 'Fortunatus beside Fortunata', and within five minutes the table is laughing 'with the animation of forgetfulness'. Hugo lets the gap close almost at once.",
+    "themes": [
+      "parenthood"
+    ]
+  },
+  {
+    "chapter": 351,
+    "kind": "motif",
+    "title": "'I am Madame Thou'",
+    "text": "In the carriage Cosette whispers: 'My name is Marius. I am Madame Thou.' She takes his name, and the familiar 'thou' becomes her new title. Through the book Cosette's names have been given to her by others: Euphrasie, the Lark, Ursule, Mademoiselle Fauchelevent. This one she chooses, and she makes a joke of it.",
+    "themes": [
+      "names",
+      "love"
+    ]
+  },
+  {
+    "chapter": 351,
+    "kind": "theme",
+    "title": "'Well, then, laugh'",
+    "text": "Before dinner Cosette finds Valjean half hidden behind the drawing-room door, curtsies in her wedding dress, and asks, 'Father, are you satisfied?' 'Yes, I am content.' 'Well, then, laugh.' And Jean Valjean laughs. He obeys her as he always has. The reader sees him laughing because she told him to, and the scene is as sad as it is sweet.",
+    "themes": [
+      "parenthood",
+      "love"
+    ]
+  },
+  {
+    "chapter": 351,
+    "kind": "context",
+    "title": "Daphnis and Chloe, Philemon and Baucis",
+    "text": "Gillenormand's toast tells the couple to be Daphnis and Chloe while waiting to become Philemon and Baucis. The first are the young lovers of a Greek pastoral romance; the second the old couple in Ovid who lived poor and devoted and asked to die at the same hour. The old libertine's sermon on love moves from youth to old age.",
+    "themes": [
+      "love"
+    ]
+  },
+  {
+    "chapter": 352,
+    "kind": "motif",
+    "title": "The inseparable",
+    "text": "At last the valise Cosette was jealous of is opened: inside are the little black dress, fichu, woollen stockings and coarse shoes he brought to Montfermeil for her ten years ago, mourning for a mother she never knew. She was jealous of her own childhood. Valjean lays the clothes out on the bed, and 'that stoical old heart breaks'.",
+    "themes": [
+      "parenthood",
+      "light-darkness"
+    ]
+  },
+  {
+    "chapter": 352,
+    "kind": "craft",
+    "title": "The same room, eight months on",
+    "text": "Valjean slips out through the antechamber he entered eight months ago black with mud and blood, carrying the grandson to the grandfather. Now the musicians sit on the sofa where Marius was laid. Hugo uses the same room twice to measure what has changed: the dying boy is a bridegroom, and the man who carried him leaves unnoticed.",
+    "themes": [
+      "parenthood"
+    ]
+  },
+  {
+    "chapter": 352,
+    "kind": "motif",
+    "title": "Listening under the windows",
+    "text": "He stands for several minutes in the dark beneath the lit dining-room, hearing the violins, the plates and, through all of it, Cosette's voice. Then he walks home by the longer way, the road she used to pass along. Hugo gives Valjean's grief no speech, only these small habits, an empty flat and a sling taken off.",
+    "themes": [
+      "love"
+    ]
+  },
+  {
+    "chapter": 353,
+    "kind": "context",
+    "title": "The immortal liver",
+    "text": "The title alludes to Prometheus, chained to a rock for giving fire to men, whose liver an eagle tore out every day and which grew back every night. Valjean's conscience is the same torment: wounded, healed, wounded again. Hugo reminds us how many times the Bishop's spark has seized him in the dark.",
+    "themes": [
+      "conscience"
+    ]
+  },
+  {
+    "chapter": 353,
+    "kind": "theme",
+    "title": "The raft of his shipwreck",
+    "text": "The question is simple: should he stay in the life he made for Cosette and Marius, sitting 'veiled at that bright fireside' with the shadow of the law at his feet, or let go? 'Cosette is the raft of his shipwreck.' Hugo pleads for him: can perpetual self-sacrifice be exacted? Who would blame Sisyphus for saying 'It is enough'?",
+    "themes": [
+      "conscience",
+      "love"
+    ]
+  },
+  {
+    "chapter": 353,
+    "kind": "craft",
+    "title": "What he resolves the chapter does not say",
+    "text": "For twelve hours of a winter night he lies over the little clothes, arms flung out 'like a man unnailed from a cross'. Once he kisses the garments, 'and so one sees he is alive'. Hugo deliberately withholds the decision. 'Who could see? No one was there, except the One who is in the shadows.'",
+    "themes": [
+      "conscience"
+    ]
+  },
+  {
+    "chapter": 354,
+    "kind": "context",
+    "title": "Hell and heaven in one room",
+    "text": "In Dante's Inferno the seventh circle holds the violent; in his Paradiso the eighth heaven is the sphere of the fixed stars. Hugo's title sets them side by side: the morning after the wedding, Marius is radiant with the happiest night of his life, and Valjean has come straight from the worst night of his to say 'I am an ex-convict.'",
+    "themes": [
+      "conscience",
+      "love"
+    ]
+  },
+  {
+    "chapter": 354,
+    "kind": "theme",
+    "title": "He will not steal a name",
+    "text": "'A name is an I.' Fauchelevent could lend him his name, but he could not take it. 'In days gone by he stole a loaf to live; today, to live, he will not steal a name.' In a book where names have been masks for hundreds of pages, Valjean's last fight is to own his true one, even when it costs him the person he loves.",
+    "themes": [
+      "names",
+      "conscience"
+    ]
+  },
+  {
+    "chapter": 354,
+    "kind": "theme",
+    "title": "Tracked by himself",
+    "text": "Why confess when no one pursues him? 'I am tracked. By whom? By myself.' Conscience is 'a grasp like a fist in his own collar'. Javert is gone, and Valjean has become his own pursuer. The law hunted him from outside for years; now the hunt goes on inside him, and it is harder on him than Javert ever was.",
+    "themes": [
+      "mercy-law",
+      "conscience"
+    ]
+  },
+  {
+    "chapter": 354,
+    "kind": "craft",
+    "title": "Happiness escorts despair to the door",
+    "text": "Marius, cooling, agrees it would be better if Valjean did not see Cosette. Valjean turns back at the door: it was in order to stay near her that he had to tell the truth. 'You shall come every evening.' Hugo sums up the scene in one line: 'Happiness escorts despair to the door.' The two men stand on either side of the same doorway.",
+    "themes": [
+      "love"
+    ]
+  },
+  {
+    "chapter": 355,
+    "kind": "theme",
+    "title": "Lower than the lowest rung",
+    "text": "Marius admits the evidence: the returned fortune, the confession nobody forced. 'Whatever he is, he is a conscience awakening.' Yet on penal questions this democrat holds that a convict is lower than the lowest rung, and his last gesture is to turn his head away. Hugo shows that a generous young man can carry the old prejudice of the law without seeing it in himself.",
+    "themes": [
+      "mercy-law"
+    ]
+  },
+  {
+    "chapter": 355,
+    "kind": "craft",
+    "title": "Afraid of the answers",
+    "text": "Marius reasons that Valjean fled the Gorbeau garret because he was a fugitive, and went to the barricade to kill Javert. He remembers the pistol shot behind the corner. The reader saw where that shot went. Hugo adds that Marius did not ask the decisive questions 'because he was afraid of the answers'. Love has made him incurious once again.",
+    "themes": [
+      "mercy-law"
+    ]
+  },
+  {
+    "chapter": 355,
+    "kind": "motif",
+    "title": "The nettle and the lily",
+    "text": "How did the wolf come to protect the lamb for nine years? Marius sees in it 'Jean Valjean's secret and also God's': the workman horrible, the work admirable; 'the dung-heap has helped the spring make the rose'. Questioning Cosette about her childhood, he grows convinced 'the sinister nettle had loved and protected the lily'. Hugo's images are of plants growing out of dirt.",
+    "themes": [
+      "light-darkness"
+    ]
+  },
+  {
+    "chapter": 356,
+    "kind": "motif",
+    "title": "Madame and Monsieur Jean",
+    "text": "In the damp ground-floor room Valjean will not kiss her, calls her 'you' and 'Madame', and asks to be called 'Monsieur Jean'. He takes their family apart word by word. Then her question breaks him: 'Are you angry with me because I am happy?' 'Cosette, thou art happy; my day is over.' 'Ah, you have said thou to me!'",
+    "themes": [
+      "names",
+      "parenthood"
+    ]
+  },
+  {
+    "chapter": 356,
+    "kind": "craft",
+    "title": "A fire already lit",
+    "text": "Basque is waiting as though on orders to ask whether monsieur will go up or stay below; in the cobwebbed room 'a fire has already been lit'. His answer was foreseen. Hugo lets the household's quiet arrangements tell us that Marius has prepared this. Nothing unkind is said; a room is simply made ready.",
+    "themes": [
+      "poverty"
+    ]
+  },
+  {
+    "chapter": 356,
+    "kind": "theme",
+    "title": "'You no longer need a father'",
+    "text": "Cosette begs him to live with them and be her father. 'You no longer need a father, you have a husband.' Then he changes the subject to a rosewood toilet table in a shop window, and she blows at him 'like an angry cat'. Hugo shows a girl who has never had to understand him and a man who will not let her try.",
+    "themes": [
+      "love",
+      "parenthood"
+    ]
+  },
+  {
+    "chapter": 357,
+    "kind": "motif",
+    "title": "Who are you?",
+    "text": "'You were my father, then my uncle, then Monsieur Fauchelevent, now Jean; who are you?' Cosette's question sums up a whole life lived under borrowed names. 'If I did not know how good you are, I should be afraid of you.' Notice that she asks it laughing, and that he has no answer he is willing to give.",
+    "themes": [
+      "names"
+    ]
+  },
+  {
+    "chapter": 357,
+    "kind": "craft",
+    "title": "A marsh with a hydra in it",
+    "text": "No one sees the 'sinister foundation'. Hugo compares such a man to an Indian marsh that ripples without wind because a hydra moves on the bottom. The side door, the deserted street, the candle left with the porter: the small oddities of solitary people, he says, often come from a formidable depth. The household calls him 'an original'.",
+    "themes": [
+      "conscience"
+    ]
+  },
+  {
+    "chapter": 357,
+    "kind": "theme",
+    "title": "'Say Jean'",
+    "text": "Once she calls him 'father' by chance. 'A flash of joy lights his face', and at once he corrects her: 'Say Jean.' 'Ah! truly, Monsieur Jean.' 'That is right,' he says, and turns away to wipe his eyes. He is teaching her, gently and deliberately, to need him less, and it is working.",
+    "themes": [
+      "parenthood"
+    ]
+  },
+  {
+    "chapter": 358,
+    "kind": "motif",
+    "title": "A whole day in her past",
+    "text": "Marius and Cosette fly off 'like two swallows' to their old garden in the Rue Plumet, and Valjean waits an hour in the lower room in vain. Next day Cosette talks of nothing but having 'lived a whole day in her past', and does not notice she missed him. The garden belongs to their love, and he has no place in it.",
+    "themes": [
+      "love"
+    ]
+  },
+  {
+    "chapter": 358,
+    "kind": "craft",
+    "title": "Furniture that disappears",
+    "text": "First the fire is not lit; then the armchairs are moved to the door; then they are gone. Valjean covers each time, pretending he ordered it himself. Hugo stages the eviction entirely through objects, with no word spoken. 'This time he has understood.'",
+    "themes": [
+      "poverty"
+    ]
+  },
+  {
+    "chapter": 358,
+    "kind": "theme",
+    "title": "Three thousand livres",
+    "text": "Marius asks Cosette whether she would have the courage to live on his three thousand livres and not her twenty-seven. She says yes, on nothing, with him. Valjean takes it as proof that Marius thinks the money unclean and will not touch it. The reader knows the fortune was earned honestly at Montreuil. Here a scruple meant to be honest does a man an injustice.",
+    "themes": [
+      "poverty",
+      "conscience"
+    ]
+  },
+  {
+    "chapter": 359,
+    "kind": "motif",
+    "title": "A pendulum running down",
+    "text": "Every evening an old man in black walks towards the corner of the Rue des Filles-du-Calvaire 'like a magnetic needle trembling towards the pole', looks round the last house, and turns back with a tear on his lip. Day by day the walk grows shorter: halfway, then the Rue Pavée, then the Blancs-Manteaux. Hugo turns a decline into geometry: 'a pendulum no longer wound up'.",
+    "themes": [
+      "light-darkness"
+    ]
+  },
+  {
+    "chapter": 359,
+    "kind": "craft",
+    "title": "Seen from the street",
+    "text": "Hugo shows this chapter through the eyes of the Marais: shopkeepers and loungers notice an old man; the good women call him an innocent; children follow him and laugh. The man who lifted a cart on his back is now a local oddity with an umbrella he never opens. The outside view, with no access to his thoughts, is the saddest view of all.",
+    "themes": [
+      "poverty"
+    ]
+  },
+  {
+    "chapter": 360,
+    "kind": "theme",
+    "title": "A terrible thing to be happy",
+    "text": "'It is a terrible thing to be happy: in possessing happiness one forgets duty.' Hugo asks the reader not to blame Marius, who has slowly placed himself between Cosette and 'Monsieur Jean' until 'the effacement became an eclipse', nor Cosette, who conforms without knowing why. The title's two halves, pity and indulgence, are his instruction to us.",
+    "themes": [
+      "love",
+      "conscience"
+    ]
+  },
+  {
+    "chapter": 360,
+    "kind": "theme",
+    "title": "Two graves, two fathers",
+    "text": "The young couple have been away, to Vernon, where Marius took Cosette to his father's grave. He honours one father with a pilgrimage while the other sits alone in the Rue de l'Homme Armé. Hugo does not underline it. He lets the visit stand beside the shortening walk of the chapter before.",
+    "themes": [
+      "parenthood"
+    ]
+  },
+  {
+    "chapter": 360,
+    "kind": "motif",
+    "title": "The ingratitude of nature",
+    "text": "'The young turn towards the light and the old towards the shadows.' Branches grow away from the trunk without breaking from it. Hugo calls it 'the ingratitude of nature' and refuses to call it a crime. 'Let us not blame these poor children.' His image of light and darkness is used here without judging anyone.",
+    "themes": [
+      "light-darkness",
+      "parenthood"
+    ]
+  },
+  {
+    "chapter": 360,
+    "kind": "craft",
+    "title": "Searching for the owner",
+    "text": "From a former Laffitte clerk Marius has picked up 'mysterious information', and he now believes he must restore the six hundred thousand francs to someone he is quietly seeking. He will not touch the money meanwhile. The reader learned where the fortune came from in the forest of Montfermeil. Marius is looking for the money's owner while keeping that owner out of his house.",
+    "themes": [
+      "mercy-law"
+    ]
+  },
+  {
+    "chapter": 361,
+    "kind": "theme",
+    "title": "People die of that",
+    "text": "The doctor comes down and tells the portress her lodger is very ill. With what? 'Everything and nothing. He is a man who, to all appearances, has lost some person who is dear to him. People die of that.' And then: 'Someone else besides must come.' Hugo puts the diagnosis in plain words from a stranger.",
+    "themes": [
+      "love"
+    ]
+  },
+  {
+    "chapter": 361,
+    "kind": "motif",
+    "title": "A copper crucifix",
+    "text": "While he still went out, Valjean bought a little copper crucifix for a few sous and hung it opposite his bed. Alone, unvisited, in a street where no one passes, he has the cheapest emblem of suffering for company. Notice how Hugo strips the scene to essentials: a bed, a plate of potatoes, a jug, a cross.",
+    "themes": [
+      "conscience"
+    ]
+  },
+  {
+    "chapter": 361,
+    "kind": "craft",
+    "title": "The porter's philosophy",
+    "text": "'If he has a doctor he will die, and if he has none he will die,' pronounces the porter 'with marital sovereignty', while his wife scrapes grass from the pavement and calls the lodger 'white as a chicken'. Hugo keeps the comic voices of ordinary Paris around the sickbed. Their chatter makes the solitude upstairs louder.",
+    "themes": [
+      "poverty"
+    ]
+  },
+  {
+    "chapter": 362,
+    "kind": "motif",
+    "title": "The man who lifted the cart",
+    "text": "The title recalls Montreuil-sur-Mer, when M. Madeleine crawled under a fallen cart and lifted it off old Fauchelevent, and Javert saw a convict's strength in the mayor. Now a pen is too heavy for that man. He must moisten dried ink with water and write with the back of a curled nib. Hugo measures the collapse against his hero's most famous act of strength.",
+    "themes": [
+      "mercy-law",
+      "names"
+    ]
+  },
+  {
+    "chapter": 362,
+    "kind": "motif",
+    "title": "Candles in daylight",
+    "text": "He puts two wax candles in the Bishop's candlesticks and lights them in broad summer daylight, 'as candles are lit by day in rooms where there is a corpse'. The silver given to a thief in Digne has followed him through every hiding place. Hugo's image is solemn and exact, and Valjean has arranged it himself.",
+    "themes": [
+      "light-darkness"
+    ]
+  },
+  {
+    "chapter": 362,
+    "kind": "theme",
+    "title": "A recipe for honesty",
+    "text": "His letter to Cosette turns, astonishingly, into a manufacturing manual: white jet from Norway, black jet from England, a resin-and-lampblack wax at thirty sous instead of four livres, buckles of violet glass on black iron. He needs her to know the money is clean. The dying man's love comes out as the trade secrets of the Madeleine factory.",
+    "themes": [
+      "poverty",
+      "conscience"
+    ]
+  },
+  {
+    "chapter": 362,
+    "kind": "craft",
+    "title": "Then a knock",
+    "text": "'It is nothing to die; what is frightful is to die without seeing her.' The pen falls, a sob comes up 'from the depths of his being', all is over. 'At that moment there is a knock at the door.' Hugo ends the chapter there, at the height of despair.",
+    "themes": [
+      "love"
+    ]
+  },
+  {
+    "chapter": 363,
+    "kind": "craft",
+    "title": "Ink that whitens",
+    "text": "The title is the chapter's irony: Thénardier comes with a bottle of ink to blacken Valjean and only succeeds in whitening him. Trying to prove a thief, he proves Valjean was M. Madeleine. Trying to prove a murderer, he proves Javert killed himself. Trying to sell a secret, he produces the strip of coat that names Marius's saviour.",
+    "themes": [
+      "names",
+      "light-darkness"
+    ]
+  },
+  {
+    "chapter": 363,
+    "kind": "motif",
+    "title": "Costumes for rent",
+    "text": "Thénardier arrives in green spectacles and a suit too big for him, the 'statesman, ex-ambassador' outfit hired from 'the Changer', who rents respectable costumes to rogues at thirty sous a day. Marius strips the disguise with a list: Thénardier, Jondrette, Fabantou, Genflot, Don Alvarès, Mistress Balizard. In a book of masks, even respectability can be hired by the day.",
+    "themes": [
+      "names"
+    ]
+  },
+  {
+    "chapter": 363,
+    "kind": "theme",
+    "title": "'The young man was myself'",
+    "text": "Thénardier tells his sewer story, holds up the black strip, and Marius fumbles in a cupboard: 'The young man was myself, and here is the coat!' The strip fits the tear exactly. Hugo stages the moment of truth as physical proof, cloth fitted to cloth, and in Marius's eyes the convict he despised becomes 'a hero, a saint'.",
+    "themes": [
+      "mercy-law"
+    ]
+  },
+  {
+    "chapter": 363,
+    "kind": "theme",
+    "title": "Waterloo protects him",
+    "text": "Marius pays the debt his father bequeathed him: thousands of francs and a passage to America, 'Waterloo protects him'. Hugo's last word on Thénardier is curt: with Marius's money he sets up in America as a slave-dealer. Every kindness in this book has been offered to him, and he has turned each one into profit.",
+    "themes": [
+      "mercy-law",
+      "poverty"
+    ]
+  },
+  {
+    "chapter": 364,
+    "kind": "motif",
+    "title": "She was called Fantine",
+    "text": "'Cosette, the moment has come to tell thee the name of thy mother. She was called Fantine. Kneel whenever thou utterest it. She suffered much. She loved thee dearly.' For hundreds of pages Cosette has not known her mother's name. The reader has carried Fantine's story all this time, and at the end it is passed to her daughter.",
+    "themes": [
+      "names",
+      "parenthood"
+    ]
+  },
+  {
+    "chapter": 364,
+    "kind": "theme",
+    "title": "The candlesticks",
+    "text": "He leaves Cosette the two candlesticks, 'silver but to him gold and diamonds', and says he does not know whether the one who gave them is pleased with him. The novel began with a bishop handing them to a thief. Asked if he wants a priest, Valjean answers 'I have had one' and points above, and Hugo thinks it probable the Bishop was present.",
+    "themes": [
+      "mercy-law",
+      "conscience"
+    ]
+  },
+  {
+    "chapter": 364,
+    "kind": "theme",
+    "title": "There is nothing else",
+    "text": "'Love each other well and always, there is nothing else in the world.' And of the people who tormented her as a child: the Thénardiers were wicked, and she must forgive them. Valjean's last counsel joins the two lessons he learned from the Bishop, love and pardon. He gives them as simply as household advice, beside instructions about jet buckles.",
+    "themes": [
+      "love",
+      "mercy-law"
+    ]
+  },
+  {
+    "chapter": 364,
+    "kind": "craft",
+    "title": "A night behind which there is day",
+    "text": "The candles light his white face turned to heaven; the night outside is starless; 'no doubt some immense angel stands in the gloom with wings outspread'. The title promises that this night has a day behind it. Hugo's long contest between darkness and light ends in a dark room lit by the Bishop's candles.",
+    "themes": [
+      "light-darkness"
+    ]
+  },
+  {
+    "chapter": 364,
+    "kind": "theme",
+    "title": "Hands on their heads",
+    "text": "'Give me your dear and well-beloved heads, so that I may lay my hands upon them.' Cosette and Marius kneel under his hands, which no longer move. Marius calls him 'My father'. The man who belonged to no family dies giving a blessing, like the patriarchs of the Bible blessing their children.",
+    "themes": [
+      "parenthood",
+      "love"
+    ]
+  },
+  {
+    "chapter": 365,
+    "kind": "motif",
+    "title": "A stone with no name",
+    "text": "He asked for a grave 'with no name on it', and that is what he has. Just before, he refused to steal a name because 'a name is an I'. Now the man of many names lies under none. Even the four lines someone pencilled on the stone have been washed away by rain and dust.",
+    "themes": [
+      "names"
+    ]
+  },
+  {
+    "chapter": 365,
+    "kind": "theme",
+    "title": "Near the common grave",
+    "text": "The stone lies in a deserted corner of Père-Lachaise, near the common grave, far from the fashionable tombs. Fantine was thrown into the common pit at Montreuil-sur-Mer. Hugo places her daughter's protector at the edge of the place the poor are buried, among dandelions, moss and lizards.",
+    "themes": [
+      "poverty",
+      "parenthood"
+    ]
+  },
+  {
+    "chapter": 365,
+    "kind": "craft",
+    "title": "As night falls when the day departs",
+    "text": "The book ends not with a death but with a place, years later, and four effaced lines: he lived, though fate was strange to him; he died when he no longer had his angel; it happened simply, 'as night falls when the day departs'. After hundreds of pages, Hugo closes on grass, rain and a sentence that can no longer be read.",
+    "themes": [
+      "light-darkness"
     ]
   }
 ]

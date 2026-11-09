@@ -130,13 +130,13 @@
   },
   {
     "chapter": 197,
-    "setting": "No scene: Book VII, 'Patron Minette', opens with an essay",
+    "setting": "Society's underground: the 'mines' beneath it",
     "keepInMind": "This chapter steps away from the story to describe the 'mines' that undermine every society, dug by thinkers from the top down to a dark bottom layer. The story is left where Marius lost the girl: M. Leblanc moved out of the Rue de l'Ouest, leaving no address.",
     "returning": []
   },
   {
     "chapter": 198,
-    "setting": "No scene: Hugo's essay on the underside of society continues",
+    "setting": "Society's underground: the lowest depths",
     "keepInMind": "This chapter goes on with the digression. Hugo has described the higher mines of religion, philosophy and revolution, dug by disinterested men; now he goes down to the last one, where there is no light.",
     "returning": []
   },
@@ -324,25 +324,25 @@
   },
   {
     "chapter": 223,
-    "setting": "No scene: Volume IV opens with the history of 1830 to 1832",
+    "setting": "France, 1830 to 1832: the July Revolution",
     "keepInMind": "This chapter steps away from the story to explain the Revolution of July 1830 and the two restless years after it. The story is left with the Thénardiers and their gang in prison, Valjean and Cosette gone without a trace, and Marius still not knowing who they are.",
     "returning": []
   },
   {
     "chapter": 224,
-    "setting": "No scene: Hugo's history of 1830 continues",
+    "setting": "France, 1830: the making of a new king",
     "keepInMind": "Still history, not story. Hugo has explained how the Restoration fell in July 1830 by treating the nation's charter as a gift it could take back.",
     "returning": []
   },
   {
     "chapter": 225,
-    "setting": "No scene: a portrait of King Louis Philippe",
+    "setting": "France, the 1830s: a portrait of King Louis Philippe",
     "keepInMind": "Still history. The 'statesmen' of 1830 stopped the revolution halfway and found their man in Louis Philippe d'Orléans, crowned by the deputies and Lafayette at the Hôtel de Ville.",
     "returning": []
   },
   {
     "chapter": 226,
-    "setting": "No scene: France under Louis Philippe, up to early 1832",
+    "setting": "France under Louis Philippe, up to early 1832",
     "keepInMind": "Hugo has painted Louis Philippe as a rare, decent man in a false position. Now he turns to what was pressing on the regime as 1832 began, which brings the history back toward the story.",
     "returning": []
   },
@@ -440,7 +440,7 @@
   },
   {
     "chapter": 235,
-    "setting": "No scene: the overgrown garden of the Rue Plumet",
+    "setting": "The overgrown garden of the Rue Plumet",
     "keepInMind": "This chapter steps away from the story for a meditation on the wild garden behind the gate. Cosette has the comfortable pavilion, Valjean a bare lodge at the back; he serves in the National Guard as M. Fauchelevent, and they go out only by the Rue de Babylone door.",
     "returning": []
   },
@@ -579,25 +579,25 @@
   },
   {
     "chapter": 252,
-    "setting": "No scene: Book VII, 'Slang', is an essay on argot",
+    "setting": "The Paris underworld: the origins of slang",
     "keepInMind": "This chapter steps away from the story to defend and explore thieves' slang; the next four chapters are all essay. The story is left after the escape from La Force, where Gavroche climbed a flue and brought down his own father. The two little boys he sheltered are his brothers, though he does not know it.",
     "returning": []
   },
   {
     "chapter": 253,
-    "setting": "No scene: the essay on slang continues",
+    "setting": "The Paris underworld: the roots of slang",
     "keepInMind": "Still a digression. Hugo has argued that slang is the language of misery itself, and that the historian of a society's depths has as serious a job as the historian of its kings and battles.",
     "returning": []
   },
   {
     "chapter": 254,
-    "setting": "No scene: the essay on slang continues",
+    "setting": "The Paris underworld: the songs of slang",
     "keepInMind": "Still a digression. Hugo has traced slang's borrowings from a dozen languages and its three roots: invented words, metaphor, and deformed words.",
     "returning": []
   },
   {
     "chapter": 255,
-    "setting": "No scene: the last chapter of the essay on slang",
+    "setting": "The Paris underworld: slang and the duties of society",
     "keepInMind": "Hugo has shown slang's songs turning from lament to insolent gaiety in the eighteenth century, a warning sign he thinks the French Revolution headed off. He now draws his conclusions.",
     "returning": []
   },
@@ -687,13 +687,13 @@
   },
   {
     "chapter": 266,
-    "setting": "No scene: Book X, 'The 5th of June, 1832', opens with an essay",
+    "setting": "Paris, June 1832: what a revolt is made of",
     "keepInMind": "This chapter steps away from the story to ask what a revolt is made of. The story stands on 5 June 1832: fighting has broken out in Paris, Marius is heading for a barricade with Javert's pistols, and old Mabeuf, who has sold his last book, has walked out toward the shooting.",
     "returning": []
   },
   {
     "chapter": 267,
-    "setting": "No scene: Hugo's essay on revolt continues",
+    "setting": "Paris, June 1832: revolt and insurrection",
     "keepInMind": "Hugo has set out the cautious 'golden mean' case against riots, that they cost money, hurt trade and end in massacres, and rejected it for looking only at effects. Now he looks for causes.",
     "returning": []
   },
@@ -1203,6 +1203,200 @@
     "chapter": 336,
     "setting": "The locked grating at the Seine outlet",
     "keepInMind": "Valjean reached daylight at the outlet between the Pont de Jéna and the Pont des Invalides, but a heavy, double-locked grating would not move. He collapsed beside Marius, thinking not of himself but of Cosette.",
+    "returning": []
+  },
+  {
+    "chapter": 337,
+    "setting": "The Seine shore outside the sewer outlet, at twilight",
+    "keepInMind": "A barefoot man in a blouse whispered 'Half shares': it was Thénardier, who did not recognise the mud-covered Valjean and took him for a murderer getting rid of a body. He took Valjean's thirty francs, secretly tore a strip from Marius's coat, and unlocked the grating with his own key.",
+    "returning": []
+  },
+  {
+    "chapter": 338,
+    "setting": "The coach to the Marais, the night of 6 June",
+    "keepInMind": "The man waiting on the shore was Javert, who had been trailing Thénardier; Thénardier let Valjean out as a decoy. Javert did not know Valjean until he gave his name. Valjean asked one thing, to carry Marius home first, and Javert read the address in the pocketbook and called his waiting coach.",
+    "returning": []
+  },
+  {
+    "chapter": 339,
+    "setting": "From the Rue des Filles-du-Calvaire to the Rue de l'Homme Armé, the same night",
+    "keepInMind": "At No. 6 Rue des Filles-du-Calvaire Javert announced that M. Gillenormand's grandson had been brought back dead from the barricade. Marius was laid on a sofa while the old man slept on. Valjean asked Javert for one more favour: a moment at home.",
+    "returning": []
+  },
+  {
+    "chapter": 340,
+    "setting": "The Gillenormand drawing-room, the same night",
+    "keepInMind": "Javert walked Valjean to his door and said he would wait below. When Valjean looked out of the landing window a moment later, the street was empty.",
+    "returning": []
+  },
+  {
+    "chapter": 341,
+    "setting": "The Rue de l'Homme Armé, as Javert walks away",
+    "keepInMind": "M. Gillenormand, believing Marius dead, raged and wept and poured out his love; when Marius opened his eyes, the old man cried out and fainted with joy. Javert has left Valjean free at his own door.",
+    "returning": []
+  },
+  {
+    "chapter": 342,
+    "setting": "The road and forest of Montfermeil, some time later",
+    "keepInMind": "Javert could neither arrest the convict who had spared him nor let him go. He wrote out some notes for the good of the service and threw himself into the Seine.",
+    "returning": [
+      {
+        "id": "boulatruelle",
+        "reminder": "The ex-convict road-mender of Montfermeil, Thénardier's old crony, who years ago saw a stranger in the forest and has dug there for buried treasure ever since."
+      }
+    ]
+  },
+  {
+    "chapter": 343,
+    "setting": "The Gillenormand house, the weeks and months after the barricade",
+    "keepInMind": "At Montfermeil, Boulatruelle tracked a man he half recognised into the forest at dawn and found only freshly turned earth, an abandoned pickaxe and an empty hole.",
+    "returning": [
+      {
+        "id": "cosette",
+        "reminder": "Last seen at dawn on 6 June in the Rue de l'Homme Armé, knowing nothing of the barricade and sure that Marius had her letter and would come."
+      }
+    ]
+  },
+  {
+    "chapter": 344,
+    "setting": "Marius's sickroom at his grandfather's, as he recovers",
+    "keepInMind": "For weeks Marius lay delirious, calling for Cosette. A well-dressed white-haired stranger called every day to ask after him and left lint for the dressings. The grandfather is transfigured with joy; Marius stays cold and is preparing for a battle over his marriage.",
+    "returning": []
+  },
+  {
+    "chapter": 345,
+    "setting": "Marius's room, the day Cosette is brought to him",
+    "keepInMind": "When Marius said he meant to marry, his grandfather agreed at once. He had already found Cosette through the old gentleman who calls every day. Marius called him 'father' for the first time.",
+    "returning": []
+  },
+  {
+    "chapter": 346,
+    "setting": "An explanation from the narrator, then Valjean's rooms in the Rue de l'Homme Armé",
+    "keepInMind": "Cosette came with 'M. Fauchelevent', who is Jean Valjean. When M. Gillenormand lamented that the couple would be poor, Valjean announced that Mademoiselle Euphrasie Fauchelevent has six hundred thousand francs and laid a bundle of banknotes on the table.",
+    "returning": []
+  },
+  {
+    "chapter": 347,
+    "setting": "The Gillenormand house, December 1832",
+    "keepInMind": "The fortune is what Valjean earned as M. Madeleine, withdrawn from the bank of Laffitte after the Champmathieu affair and buried in the forest of Montfermeil with the Bishop's candlesticks; he was the man Boulatruelle saw. He has also read in the papers that a police inspector named Javert was found drowned.",
+    "returning": [
+      {
+        "id": "fauchelevent",
+        "reminder": "The old convent gardener who passed Valjean off as his brother at the Petit-Picpus; Valjean still uses his name. The narrator mentioned that he has died."
+      }
+    ]
+  },
+  {
+    "chapter": 348,
+    "setting": "The Gillenormand house, the winter before the wedding",
+    "keepInMind": "The wedding is set for February. Valjean has given Cosette a legal identity as Euphrasie Fauchelevent, orphan daughter of the dead gardener and heiress to an anonymous legacy. M. Gillenormand showers her with heirlooms, and the aunt, won over by the money, means to leave the couple her own fortune.",
+    "returning": []
+  },
+  {
+    "chapter": 349,
+    "setting": "The same weeks before the wedding",
+    "keepInMind": "Marius has a gap of four months in his memory. When M. Fauchelevent said he did not know the Rue de la Chanvrerie, Marius decided he must have imagined seeing him at the barricade.",
+    "returning": [
+      {
+        "id": "thenardier",
+        "reminder": "Éponine's father, who escaped from La Force and turned up in the sewer with a key. Marius knows none of that: to him Thénardier is still the sergeant who saved his father at Waterloo."
+      }
+    ]
+  },
+  {
+    "chapter": 350,
+    "setting": "The Gillenormand house, 16 February 1833",
+    "keepInMind": "Marius searched for two men he owes. Thénardier has been condemned to death in his absence and vanished, and his wife died in prison. Of the stranger who carried Marius through the sewer there is only a coachman's story and Marius's torn, bloodstained coat. When Marius vowed he would give Cosette's whole fortune to find that man, Valjean said nothing.",
+    "returning": []
+  },
+  {
+    "chapter": 351,
+    "setting": "The wedding day, Shrove Tuesday 1833",
+    "keepInMind": "Valjean handed over the fortune and, his arm in a sling for a 'crushed thumb', avoided signing the papers. On the way to the church of Saint-Paul the wedding carriages stopped beside a cartload of maskers, where an old 'Spaniard' recognised the man with the sling and sent his daughter Azelma to find out where the wedding was going.",
+    "returning": []
+  },
+  {
+    "chapter": 352,
+    "setting": "The Gillenormand house, the night of the wedding",
+    "keepInMind": "At the banquet Valjean's armchair stood empty: pleading his hand, he had slipped away, and Marius took his seat beside Cosette.",
+    "returning": []
+  },
+  {
+    "chapter": 353,
+    "setting": "Valjean's empty rooms in the Rue de l'Homme Armé, that night",
+    "keepInMind": "Alone at home, Valjean opened the little valise Cosette called 'the inseparable', laid out the mourning clothes she wore as a child leaving Montfermeil, and wept over them.",
+    "returning": []
+  },
+  {
+    "chapter": 354,
+    "setting": "The Gillenormand house, the morning after the wedding, 17 February 1833",
+    "keepInMind": "All night Valjean fought with his conscience: keep his place beside Cosette and bring his hidden past into this family, or let her go and sink alone. The chapter did not say what he decided.",
+    "returning": []
+  },
+  {
+    "chapter": 355,
+    "setting": "Marius, alone after the interview",
+    "keepInMind": "Valjean unwound his bandage to show an unhurt thumb and told Marius he is an ex-convict named Jean Valjean, nineteen years in the galleys, and no relation of Cosette's. Marius promised to keep the secret and, after coldly agreeing he had better not see her, told him to come every evening.",
+    "returning": []
+  },
+  {
+    "chapter": 356,
+    "setting": "The Gillenormand house, the following evening",
+    "keepInMind": "Marius has concluded that Valjean fled the Gorbeau ambush because he was a fugitive, and went to the barricade to take his revenge on Javert and kill him. He recoils from the man, and knows he did not dare ask the questions that mattered. Cosette knows nothing.",
+    "returning": []
+  },
+  {
+    "chapter": 357,
+    "setting": "The ground-floor room of the Gillenormand house, the next evening",
+    "keepInMind": "Valjean asked to be received in a damp, cobwebbed room downstairs. He refused Cosette's kisses and insists on being 'Monsieur Jean' and on calling her 'Madame'.",
+    "returning": []
+  },
+  {
+    "chapter": 358,
+    "setting": "The Gillenormand house, the weeks that follow",
+    "keepInMind": "Valjean comes every evening at the same hour. Cosette, soothed by Marius, has stopped asking questions. Once she slipped and called him 'father', and he corrected her.",
+    "returning": []
+  },
+  {
+    "chapter": 359,
+    "setting": "The Marais, spring and summer 1833",
+    "keepInMind": "One evening Marius and Cosette went to their old garden in the Rue Plumet and Valjean waited in vain. Then the fire, and next the armchairs, disappeared from the downstairs room. He understood, stopped coming, and sent word that he was busy and about to travel.",
+    "returning": []
+  },
+  {
+    "chapter": 360,
+    "setting": "The Gillenormand household, the same months",
+    "keepInMind": "Every evening an old man in black walks from the Rue de l'Homme Armé toward the Rue des Filles-du-Calvaire, peers round the corner, weeps and turns back, and each day the walk is shorter.",
+    "returning": []
+  },
+  {
+    "chapter": 361,
+    "setting": "Valjean's lodging in the Rue de l'Homme Armé, summer 1833",
+    "keepInMind": "Hugo explained Marius without condemning him: he regrets his promise, learned something troubling about the money from a former clerk of Laffitte's and refuses to touch it, and has set himself between Cosette and 'Monsieur Jean'. Cosette, absorbed in her husband, has been told he is away on a journey.",
+    "returning": []
+  },
+  {
+    "chapter": 362,
+    "setting": "Valjean's room, one evening",
+    "keepInMind": "Valjean has taken to his bed and stopped eating. The doctor told his portress that the old man is dying of having lost someone dear to him, and that 'someone else' must come.",
+    "returning": []
+  },
+  {
+    "chapter": 363,
+    "setting": "The Gillenormand house, that same evening",
+    "keepInMind": "Too weak to find his pulse, Valjean laid out Cosette's little mourning dress, lit the Bishop's candlesticks in daylight, and began a letter telling her the fortune is honestly hers, earned from his invention in the jet trade. He broke off, sobbing that he would die without seeing her.",
+    "returning": []
+  },
+  {
+    "chapter": 364,
+    "setting": "Valjean's room in the Rue de l'Homme Armé, at the knock on the door",
+    "keepInMind": "Thénardier, in disguise, came to sell Marius proof that Valjean was a thief and a murderer, and proved the opposite: Valjean was M. Madeleine, Javert killed himself, and the strip torn from the coat of the 'corpse' in the sewer matches Marius's own. Marius paid him to leave for America and rushed with Cosette to the Rue de l'Homme Armé. Valjean has not seen Cosette for months.",
+    "returning": []
+  },
+  {
+    "chapter": 365,
+    "setting": "The cemetery of Père-Lachaise",
+    "keepInMind": "Jean Valjean died with his hands on Cosette's and Marius's heads, after telling Cosette that her mother was called Fantine, leaving her the Bishop's candlesticks, and asking for a grave with no name. This last short chapter is an epilogue.",
     "returning": []
   }
 ]
