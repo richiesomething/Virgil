@@ -1660,8 +1660,8 @@
     "states": [
       {
         "from": 159,
-        "type": "enemy",
-        "label": "Destitute neighbours at the Gorbeau house"
+        "type": "friend",
+        "label": "Wretched neighbours at the Gorbeau house"
       },
       {
         "from": 186,
@@ -1670,8 +1670,8 @@
       },
       {
         "from": 205,
-        "type": "enemy",
-        "label": "Marius spies on the family through a hole in the wall"
+        "type": "friend",
+        "label": "Shaken by their misery, he watches them through the wall"
       },
       {
         "from": 212,
@@ -1718,12 +1718,6 @@
         "type": "family",
         "label": "He climbs a flue to bring his own father down from La Force",
         "kin": "parent"
-      },
-      {
-        "from": 259,
-        "type": "family",
-        "label": "His father’s gang prowls the Rue Plumet",
-        "kin": "parent"
       }
     ]
   },
@@ -1748,6 +1742,397 @@
         "type": "family",
         "label": "He takes a five-franc piece “for my mother”",
         "kin": "parent"
+      }
+    ]
+  },
+  {
+    "a": "thenardier",
+    "b": "eponine",
+    "states": [
+      {
+        "from": 38,
+        "type": "family",
+        "label": "The innkeeper’s elder daughter, pampered",
+        "kin": "parent"
+      },
+      {
+        "from": 221,
+        "type": "family",
+        "label": "The daughter who escaped the raid",
+        "kin": "parent"
+      },
+      {
+        "from": 230,
+        "type": "family",
+        "label": "Her father’s go-between, she sends back “biscuit”",
+        "kin": "parent"
+      },
+      {
+        "from": 259,
+        "type": "family",
+        "label": "She faces down her own father’s gang at the Rue Plumet gate",
+        "kin": "parent"
+      }
+    ]
+  },
+  {
+    "a": "madame-thenardier",
+    "b": "eponine",
+    "states": [
+      {
+        "from": 38,
+        "type": "family",
+        "label": "A doting mother to her daughters",
+        "kin": "parent"
+      },
+      {
+        "from": 221,
+        "type": "family",
+        "label": "Mother and daughter in the Gorbeau family",
+        "kin": "parent"
+      }
+    ]
+  },
+  {
+    "a": "thenardier",
+    "b": "azelma",
+    "states": [
+      {
+        "from": 38,
+        "type": "family",
+        "label": "The innkeeper’s younger daughter",
+        "kin": "parent"
+      },
+      {
+        "from": 221,
+        "type": "family",
+        "label": "Caught on watch outside the ambush",
+        "kin": "parent"
+      },
+      {
+        "from": 350,
+        "type": "family",
+        "label": "He sends her to follow the wedding carriage",
+        "kin": "parent"
+      }
+    ]
+  },
+  {
+    "a": "madame-thenardier",
+    "b": "azelma",
+    "states": [
+      {
+        "from": 38,
+        "type": "family",
+        "label": "A doting mother to her daughters",
+        "kin": "parent"
+      }
+    ]
+  },
+  {
+    "a": "eponine",
+    "b": "azelma",
+    "states": [
+      {
+        "from": 38,
+        "type": "family",
+        "label": "Sisters who play on the inn’s swing",
+        "kin": "sibling"
+      },
+      {
+        "from": 221,
+        "type": "family",
+        "label": "Sisters of the Gorbeau garret",
+        "kin": "sibling"
+      }
+    ]
+  },
+  {
+    "a": "eponine",
+    "b": "cosette",
+    "states": [
+      {
+        "from": 39,
+        "type": "enemy",
+        "label": "The pampered daughter and the little drudge"
+      },
+      {
+        "from": 99,
+        "type": "enemy",
+        "label": "“Ponine” plays with dolls while Cosette works"
+      },
+      {
+        "from": 259,
+        "type": "enemy",
+        "label": "She keeps watch at the gate of the house where Cosette lives"
+      },
+      {
+        "from": 293,
+        "type": "enemy",
+        "label": "The rival who kept back Cosette’s letter to Marius"
+      }
+    ]
+  },
+  {
+    "a": "azelma",
+    "b": "cosette",
+    "states": [
+      {
+        "from": 39,
+        "type": "enemy",
+        "label": "The pampered younger daughter and the little drudge"
+      }
+    ]
+  },
+  {
+    "a": "jondrette",
+    "b": "the-elder-jondrette-girl",
+    "states": [
+      {
+        "from": 204,
+        "type": "family",
+        "label": "Her father sends her out with his begging letters",
+        "kin": "parent"
+      },
+      {
+        "from": 216,
+        "type": "family",
+        "label": "His lookout on the night of the trap",
+        "kin": "parent"
+      }
+    ]
+  },
+  {
+    "a": "jondrette",
+    "b": "the-younger-jondrette-girl",
+    "states": [
+      {
+        "from": 206,
+        "type": "family",
+        "label": "Her father makes her break a window to stage their misery",
+        "kin": "parent"
+      },
+      {
+        "from": 216,
+        "type": "family",
+        "label": "His second lookout on the night of the trap",
+        "kin": "parent"
+      }
+    ]
+  },
+  {
+    "a": "the-elder-jondrette-girl",
+    "b": "the-younger-jondrette-girl",
+    "states": [
+      {
+        "from": 202,
+        "type": "family",
+        "label": "Two ragged sisters fleeing the police",
+        "kin": "sibling"
+      }
+    ]
+  },
+  {
+    "a": "the-elder-jondrette-girl",
+    "b": "gavroche",
+    "states": [
+      {
+        "from": 204,
+        "type": "family",
+        "label": "Daughter of the Jondrettes, sister of the gamin",
+        "kin": "sibling"
+      }
+    ]
+  },
+  {
+    "a": "the-younger-jondrette-girl",
+    "b": "gavroche",
+    "states": [
+      {
+        "from": 206,
+        "type": "family",
+        "label": "Daughter of the Jondrettes, sister of the gamin",
+        "kin": "sibling"
+      }
+    ]
+  },
+  {
+    "a": "gavroche",
+    "b": "eponine",
+    "states": [
+      {
+        "from": 221,
+        "type": "family",
+        "label": "Brother and sister of the Thénardier family",
+        "kin": "sibling"
+      },
+      {
+        "from": 293,
+        "type": "family",
+        "label": "Dying, she tells Marius the singing gamin is her brother",
+        "kin": "sibling"
+      }
+    ]
+  },
+  {
+    "a": "gavroche",
+    "b": "azelma",
+    "states": [
+      {
+        "from": 221,
+        "type": "family",
+        "label": "Brother and sister of the Thénardier family",
+        "kin": "sibling"
+      }
+    ]
+  },
+  {
+    "a": "the-elder-jondrette-girl",
+    "b": "marius",
+    "states": [
+      {
+        "from": 204,
+        "type": "love",
+        "label": "Half-starved neighbour who flirts and takes his last five francs"
+      },
+      {
+        "from": 211,
+        "type": "love",
+        "label": "She offers to find the girl he loves, bitterly"
+      },
+      {
+        "from": 216,
+        "type": "love",
+        "label": "She finds him hidden under his bed and says nothing"
+      }
+    ]
+  },
+  {
+    "a": "eponine",
+    "b": "marius",
+    "states": [
+      {
+        "from": 221,
+        "type": "love",
+        "label": "The neighbour’s girl who loves him; he does not see it"
+      },
+      {
+        "from": 232,
+        "type": "love",
+        "label": "She brings him the address and refuses his money"
+      },
+      {
+        "from": 258,
+        "type": "love",
+        "label": "She stops him in the Rue Plumet and cannot find words"
+      },
+      {
+        "from": 293,
+        "type": "love",
+        "label": "Dying in his arms, she confesses she led him here to die with her"
+      },
+      {
+        "from": 294,
+        "type": "love",
+        "label": "He kisses her brow, as she asked"
+      }
+    ]
+  },
+  {
+    "a": "the-young-workman",
+    "b": "marius",
+    "states": [
+      {
+        "from": 276,
+        "type": "friend",
+        "label": "A pale young workman waits an hour asking for Marius"
+      },
+      {
+        "from": 291,
+        "type": "friend",
+        "label": "The workman puts a hand over the gun aimed at him, and falls"
+      }
+    ]
+  },
+  {
+    "a": "the-young-workman",
+    "b": "courfeyrac",
+    "states": [
+      {
+        "from": 276,
+        "type": "friend",
+        "label": "A young workman begs to come with him to the barricades"
+      }
+    ]
+  },
+  {
+    "a": "gavroche",
+    "b": "the-two-little-boys",
+    "states": [
+      {
+        "from": 249,
+        "type": "family",
+        "label": "His two little brothers, unknown to him",
+        "kin": "sibling"
+      },
+      {
+        "from": 250,
+        "type": "family",
+        "label": "He shelters two lost boys in the elephant, never knowing they are his brothers",
+        "kin": "sibling"
+      },
+      {
+        "from": 271,
+        "type": "family",
+        "label": "They never come back to the meeting-place",
+        "kin": "sibling"
+      }
+    ]
+  },
+  {
+    "a": "thenardier",
+    "b": "the-two-little-boys",
+    "states": [
+      {
+        "from": 249,
+        "type": "family",
+        "label": "Their father, who let them be passed off as Magnon’s",
+        "kin": "parent"
+      }
+    ]
+  },
+  {
+    "a": "madame-thenardier",
+    "b": "the-two-little-boys",
+    "states": [
+      {
+        "from": 249,
+        "type": "family",
+        "label": "Their mother handed them to Magnon to keep the Gillenormand money coming",
+        "kin": "parent"
+      }
+    ]
+  },
+  {
+    "a": "magnon",
+    "b": "the-two-little-boys",
+    "states": [
+      {
+        "from": 249,
+        "type": "family",
+        "label": "Raised as her dead sons; lost in the streets after the raid",
+        "kin": "parent"
+      }
+    ]
+  },
+  {
+    "a": "madame-thenardier",
+    "b": "magnon",
+    "states": [
+      {
+        "from": 249,
+        "type": "friend",
+        "label": "Partners in a baby swap that keeps the money flowing"
       }
     ]
   }

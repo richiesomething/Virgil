@@ -565,5 +565,206 @@
         "reminder": "The ex-convict who was M. Madeleine, mayor of Montreuil-sur-Mer. He gave himself up to save Champmathieu, was arrested at Fantine's deathbed, and broke out of the town jail."
       }
     ]
+  },
+  {
+    "chapter": 91,
+    "setting": "Montfermeil, at about the same time in 1823",
+    "keepInMind": "Valjean was retaken in Paris just as he boarded a coach for Montfermeil, tried for robbing little Gervais, and sent back to Toulon for life as number 9,430. A large sum he withdrew from Laffitte's bank during his days of freedom has never been found.",
+    "returning": []
+  },
+  {
+    "chapter": 92,
+    "setting": "Toulon harbour, late October 1823",
+    "keepInMind": "At Montfermeil an ex-convict road-mender, Boulatruelle, let slip that he saw a man he knew from the galleys bury a small chest in the forest. He has been digging for it ever since.",
+    "returning": []
+  },
+  {
+    "chapter": 93,
+    "setting": "Montfermeil, Christmas Eve 1823",
+    "keepInMind": "The Toulon paper has reported convict number 9,430, Jean Valjean, drowned after rescuing a sailor from the rigging of the Orion; the body was not found. The story now goes back to the Thénardiers' inn.",
+    "returning": [
+      {
+        "id": "cosette",
+        "reminder": "Fantine's little daughter, left at the Thénardiers' inn as a toddler and kept there as their drudge, 'the Lark'."
+      },
+      {
+        "id": "madame-thenardier",
+        "reminder": "The innkeeper's huge, violent wife, who beats Cosette and spoils her own two daughters."
+      },
+      {
+        "id": "thenardier",
+        "reminder": "The Montfermeil innkeeper who bled Fantine with lying letters. A prowler named Thénardier also robbed a wounded officer on the field of Waterloo."
+      },
+      {
+        "id": "eponine",
+        "reminder": "The Thénardiers' elder daughter, who used to swing in front of the inn."
+      },
+      {
+        "id": "azelma",
+        "reminder": "The Thénardiers' younger daughter."
+      }
+    ]
+  },
+  {
+    "chapter": 94,
+    "setting": "The Thénardiers' inn, the same evening",
+    "keepInMind": "Kept on as a servant since Fantine's money stopped, Cosette sits knitting under the kitchen table while carters drink in the public room. She dreads being sent to the forest spring after dark.",
+    "returning": []
+  },
+  {
+    "chapter": 95,
+    "setting": "The inn's public room, Christmas Eve",
+    "keepInMind": "Hugo has drawn the Thénardiers in full: she rules by blows, he by cunning. He tells of having saved a wounded general at Waterloo.",
+    "returning": []
+  },
+  {
+    "chapter": 96,
+    "setting": "Boulanger Alley, outside the inn, the same evening",
+    "keepInMind": "Madame Thénardier has sent Cosette, eight years old and bruised from a blow, to fetch water from the spring in the forest, with a bucket bigger than she is and a fifteen-sou piece to buy bread.",
+    "returning": []
+  },
+  {
+    "chapter": 97,
+    "setting": "The road out of Montfermeil toward the forest spring, that night",
+    "keepInMind": "Cosette stood spellbound before a splendid doll in the toy stall opposite the inn until Madame Thénardier's shout sent her running.",
+    "returning": []
+  },
+  {
+    "chapter": 98,
+    "setting": "The Boulevard de l'Hôpital in Paris, the afternoon of Christmas Day 1823",
+    "keepInMind": "At the spring Cosette lost her fifteen-sou piece in the water without knowing it. Staggering home under the bucket, she cried 'O my God!', and a man's hand silently took the weight. She was not afraid.",
+    "returning": []
+  },
+  {
+    "chapter": 99,
+    "setting": "The dark road back to Montfermeil, the same night",
+    "keepInMind": "The stranger is a white-haired man in a threadbare yellow coat who came out from Paris that afternoon, avoiding the police, and checked a particular clearing in the forest before he came upon Cosette.",
+    "returning": []
+  },
+  {
+    "chapter": 100,
+    "setting": "The Thénardiers' door, that night",
+    "keepInMind": "Cosette told the stranger she is eight, works all day for Madame Thénardier and has no mother that she knows of; her name gave him a visible shock. He means to lodge at the inn, and he gave back the bucket at the door so that she would not be beaten.",
+    "returning": []
+  },
+  {
+    "chapter": 101,
+    "setting": "The inn's public room, two hours before dawn",
+    "keepInMind": "Taken for a beggar, the stranger saved Cosette from a whipping over the lost coin, bought her the splendid doll, which she named Catherine, and in the night slipped a gold louis into her wooden shoe on the hearth.",
+    "returning": []
+  },
+  {
+    "chapter": 102,
+    "setting": "The inn, just after the stranger and Cosette have left",
+    "keepInMind": "Thénardier pretended to adore Cosette, then sold her to the stranger for fifteen hundred francs. She walked out of Montfermeil at daybreak in new mourning clothes, holding her doll, on the road toward Livry.",
+    "returning": []
+  },
+  {
+    "chapter": 103,
+    "setting": "The forest beyond Montfermeil, and the road to Paris",
+    "keepInMind": "Thénardier ran after the pair to squeeze out more money. The stranger produced a note signed by Fantine ordering Cosette handed to the bearer, then walked off into the woods with the child and stared Thénardier down until he gave up.",
+    "returning": []
+  },
+  {
+    "chapter": 104,
+    "setting": "The Boulevard de l'Hôpital, at the bleak southern edge of Paris",
+    "keepInMind": "Jean Valjean is alive: he swam away from the Orion, crossed France in secret, and took Cosette from the Thénardiers. He is carrying her, asleep, toward the Boulevard de l'Hôpital. This chapter steps away to describe the house he is heading for.",
+    "returning": []
+  },
+  {
+    "chapter": 105,
+    "setting": "The Gorbeau house, the same night",
+    "keepInMind": "The Gorbeau house is a dilapidated, half-empty building at the desolate edge of Paris, between the Salpêtrière and the city wall.",
+    "returning": []
+  },
+  {
+    "chapter": 106,
+    "setting": "The attic in the Gorbeau house, the next morning at daybreak",
+    "keepInMind": "Valjean carried the sleeping Cosette into an attic he had prepared. She woke expecting to be set to work, and he told her to play.",
+    "returning": []
+  },
+  {
+    "chapter": 107,
+    "setting": "The Gorbeau house, over the following weeks",
+    "keepInMind": "Valjean, who has never loved anyone, loves Cosette like a father, and she, who has never been loved, calls him 'father'. He teaches her to read and talks to her of her mother.",
+    "returning": []
+  },
+  {
+    "chapter": 108,
+    "setting": "Near Saint-Médard's church and the Gorbeau house, late winter 1824",
+    "keepInMind": "Valjean goes out only after dark and is known locally as 'the beggar who gives alms'. The nosy old woman who keeps the house saw him take a thousand-franc note from his coat lining, and found wigs in his pockets.",
+    "returning": []
+  },
+  {
+    "chapter": 109,
+    "setting": "The streets of Paris, a moonlit night in March 1824",
+    "keepInMind": "Valjean thought he glimpsed Javert's face under a beggar's rags. Then a tall new lodger listened at his door by night, and at dawn Valjean recognised Javert's back. At dark he left with Cosette.",
+    "returning": []
+  },
+  {
+    "chapter": 110,
+    "setting": "The Rue des Postes, toward eleven that night",
+    "keepInMind": "From a doorway Valjean watched four men confer under the moon, and recognised Javert at their head.",
+    "returning": []
+  },
+  {
+    "chapter": 111,
+    "setting": "Beyond the Pont d'Austerlitz, the same night",
+    "keepInMind": "Valjean crossed the Pont d'Austerlitz in the shadow of a cart, but looking back he saw four shadows stepping onto the bridge.",
+    "returning": []
+  },
+  {
+    "chapter": 112,
+    "setting": "The Petit-Picpus quarter: the corner of the Rue Polonceau and the Rue Droit-Mur",
+    "keepInMind": "Valjean is trapped between a blind alley and a sentinel guarding the only way out, with Javert's squad behind him. Hugo paused to describe this lost quarter from an old map of 1727.",
+    "returning": []
+  },
+  {
+    "chapter": 113,
+    "setting": "The Rue Polonceau, moments later",
+    "keepInMind": "Hidden in a niche of the wall, Valjean has found the drainpipe too weak to climb, the carriage gate immovable, and the great door a wooden sham over solid stone.",
+    "returning": []
+  },
+  {
+    "chapter": 114,
+    "setting": "A vast garden behind the wall",
+    "keepInMind": "Valjean cut down a street lantern's rope, tied Cosette to it, climbed the wall and hauled her up, and dropped with her into a garden as Javert ordered the blind alley searched.",
+    "returning": []
+  },
+  {
+    "chapter": 115,
+    "setting": "The garden, between one and two in the morning",
+    "keepInMind": "Hiding in a ruined shed, Valjean and Cosette heard women's voices singing a hymn in the dark building above the garden, and knelt.",
+    "returning": []
+  },
+  {
+    "chapter": 116,
+    "setting": "The ruined shed, later that night",
+    "keepInMind": "Looking for shelter, Valjean saw through a lit window a shrouded form lying face down with its arms outstretched and something like a rope round its neck, and fled in terror. He has a fever; Cosette is asleep.",
+    "returning": []
+  },
+  {
+    "chapter": 117,
+    "setting": "The garden, before dawn",
+    "keepInMind": "A limping man with a bell is moving about the melon beds. Cosette's hands are icy and she will not wake: Valjean must get her to a bed by a fire within a quarter of an hour.",
+    "returning": []
+  },
+  {
+    "chapter": 118,
+    "setting": "The pursuit retold from Javert's side, from December 1823",
+    "keepInMind": "The man with the bell is old Fauchelevent, whom Valjean once lifted from under a cart and placed here as gardener; he still calls him Father Madeleine and has taken them into his hut. The house is the convent of the Petit-Picpus.",
+    "returning": []
+  },
+  {
+    "chapter": 119,
+    "setting": "No. 62 Rue Petit-Picpus, half a century ago",
+    "keepInMind": "Javert picked up Valjean's trail from a report of a child taken from Montfermeil and from 'the beggar who gives alms', but delayed the arrest and lost him at the wall. This chapter steps away from the story to take the reader inside the convent.",
+    "returning": []
+  },
+  {
+    "chapter": 120,
+    "setting": "The convent of the Petit-Picpus, 1824",
+    "keepInMind": "This chapter steps away from the story to describe the rule of the house. The convent behind the wall belongs to the Bernardines of the Perpetual Adoration: men are refused, and a nun may be heard through the parlour grating but not seen.",
+    "returning": []
   }
 ]
