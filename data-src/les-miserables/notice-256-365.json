@@ -985,5 +985,375 @@
     "themes": [
       "light-darkness"
     ]
+  },
+  {
+    "chapter": 288,
+    "kind": "context",
+    "title": "The Commander's tread",
+    "text": "The troops approach with a measured, heavy step, 'like the stone tread of the Commander's statue multiplied into a legion'. Hugo borrows from the Don Juan story, in which the statue of a murdered man walks to dinner and drags the sinner down to hell. The army arrives as something inhuman and inevitable, a law of stone walking through the dark.",
+    "themes": [
+      "revolution"
+    ]
+  },
+  {
+    "chapter": 288,
+    "kind": "theme",
+    "title": "Two words each",
+    "text": "'Who goes there?' 'The French Revolution!' 'Fire!' The whole conflict is reduced to a challenge and an answer. Enjolras does not give his name or his cause; he gives an epoch. Hugo makes the exchange sound like history speaking to itself across a dark street.",
+    "themes": [
+      "revolution"
+    ]
+  },
+  {
+    "chapter": 288,
+    "kind": "craft",
+    "title": "An unanswered question",
+    "text": "The volley cuts the flagstaff, and Enjolras asks who will plant the flag again. No one answers; even he feels a thrill. 'Does no one volunteer?' Hugo ends the chapter on that silence, and the title, 'Act First', tells us the barricade is being staged as a drama with a second act to come.",
+    "themes": [
+      "revolution"
+    ]
+  },
+  {
+    "chapter": 289,
+    "kind": "theme",
+    "title": "A churchwarden becomes '93",
+    "text": "The insurgents cry 'It is the member of the Convention!' as Mabeuf climbs, and in the torchlight they think they see 'the spectre of '93'. Courfeyrac knows better: a 'brave blockhead', a gentle botanist. Enjolras answers: 'The head of a blockhead and the heart of a Brutus.' The barricade needs a legend, and it makes one out of a timid old man.",
+    "themes": [
+      "revolution",
+      "names"
+    ]
+  },
+  {
+    "chapter": 289,
+    "kind": "motif",
+    "title": "'This is our flag now'",
+    "text": "Enjolras kisses the dead man's brow, lifts off his coat and holds up its bloody holes: 'This is our flag now.' The red cloth has fallen and a man's body takes its place. He tells his friends to defend this dead old man as they would a living father. The barricade has found its symbol in a person.",
+    "themes": [
+      "revolution",
+      "parenthood"
+    ]
+  },
+  {
+    "chapter": 289,
+    "kind": "question",
+    "title": "Why does Mabeuf climb?",
+    "text": "Hugo describes Mabeuf's eyes as lit 'with the mournful flame of aberration'. He sat for hours with his head thrust forward 'as if gazing over a precipice', and he cries 'Death!' along with 'Republic!'. Did he die for the Republic, or of the slow loss of everything he loved? Is it possible to separate the two?",
+    "themes": [
+      "poverty",
+      "revolution"
+    ]
+  },
+  {
+    "chapter": 290,
+    "kind": "craft",
+    "title": "A title that warns",
+    "text": "'Gavroche Would Have Done Better to Accept Enjolras' Carbine.' Hugo announces the mistake before we see it, then delivers it inside the chapter: the giant guardsman, the trigger, nothing. The title turns the scene into suspense. We know the gun will fail; we do not know what will happen to the boy when it does.",
+    "themes": [
+      "revolution"
+    ]
+  },
+  {
+    "chapter": 290,
+    "kind": "motif",
+    "title": "Javert's weapons",
+    "text": "Gavroche's borrowed gun, taken from Javert, is not loaded. The shots that save him come from Javert's two pistols in Marius's hands. The policeman's weapons, scattered by chance, fail and save on the rebels' side. Meanwhile Enjolras tells the bound Javert, as Mabeuf's body passes: 'It will be your turn presently!'",
+    "themes": [
+      "mercy-law"
+    ]
+  },
+  {
+    "chapter": 290,
+    "kind": "theme",
+    "title": "Bahorel falls",
+    "text": "Bahorel, the scarlet-waistcoated joker who loved a riot 'like a fish in water', kills the first guard over the barricade and is killed by the second. Hugo gives his death one line, in the middle of the scramble. On a barricade death does not wait for a speech, and the tone of the book changes with it.",
+    "themes": [
+      "revolution"
+    ]
+  },
+  {
+    "chapter": 291,
+    "kind": "craft",
+    "title": "What one misses in battle",
+    "text": "As a soldier aims at Marius, a hand is laid over the muzzle; the young workman in velvet trousers falls. Marius 'barely registers' the gun, the hand or the shot. Hugo notes that 'in such moments everything vacillates and one pauses for nothing'. The narration shows us something that its hero does not see.",
+    "themes": [
+      "light-darkness"
+    ]
+  },
+  {
+    "chapter": 291,
+    "kind": "theme",
+    "title": "The power of a man who wants to die",
+    "text": "Marius stands with a torch over a broken powder barrel: 'Blow up the barricade, and yourself with it!' 'And myself also.' The troops flee. Like Éponine at the Rue Plumet gate, he wins because he no longer fears death. Hugo calls him 'the young revolution after the apparition of the old', following Mabeuf onto the stones.",
+    "themes": [
+      "revolution",
+      "conscience"
+    ]
+  },
+  {
+    "chapter": 291,
+    "kind": "craft",
+    "title": "Close enough to talk",
+    "text": "After the first volley, the leaders stand unsheltered with their backs to the houses, facing soldiers 'so close they could talk without raising their voices'. 'Lay down your arms!' 'Fire!' Hugo strips the fight to a few yards of street and a cloud of smoke. When it clears, both sides reload in silence.",
+    "themes": [
+      "revolution"
+    ]
+  },
+  {
+    "chapter": 292,
+    "kind": "theme",
+    "title": "'You are he!'",
+    "text": "Marius asks who the chief is, and Enjolras answers: 'You are he!' Two months ago he was a lover in a garden; now he leads an insurrection. Hugo calls it a nightmare he must make an effort to believe real. History has picked up a young man who came only to die and has made him a leader.",
+    "themes": [
+      "history",
+      "revolution"
+    ]
+  },
+  {
+    "chapter": 292,
+    "kind": "theme",
+    "title": "Your friends have just shot you",
+    "text": "Combeferre proposes exchanging Javert for the captured Prouvaire. Then a voice at the end of the street cries 'Long live France! Long live the future!', a shot, silence. Enjolras turns to Javert: 'Your friends have just shot you.' Each side now holds the other's justice in its hands, and the logic of exchange becomes the logic of reprisal.",
+    "themes": [
+      "mercy-law",
+      "revolution"
+    ]
+  },
+  {
+    "chapter": 292,
+    "kind": "motif",
+    "title": "The end of the verses",
+    "text": "The chapter title calls Prouvaire's death 'the end of the verses'. A few hours ago the gentle poet was murmuring love poems in the dusk. His last lines are a shout for France and the future. Notice that Hugo lets us hear only his voice; we never see him die.",
+    "themes": [
+      "love",
+      "revolution"
+    ]
+  },
+  {
+    "chapter": 292,
+    "kind": "craft",
+    "title": "Not even seen",
+    "text": "In his daze Marius does not recognise Javert, bound to his post, and in fact 'has not even seen him'. Javert has watched the whole assault 'with the resignation of a martyr and the majesty of a judge'. Hugo keeps the two men in one room without letting them meet, and the reader is the only one who sees them both.",
+    "themes": [
+      "mercy-law"
+    ]
+  },
+  {
+    "chapter": 293,
+    "kind": "theme",
+    "title": "To die together",
+    "text": "Éponine led Marius to the barricade so that they would die together, and then put her hand over the gun aimed at him because she wanted to die first. Both things are true at once. Hugo does not tidy her love into pure sacrifice or pure jealousy. 'You thought me ugly, didn't you?' is the question of a girl who has never been looked at.",
+    "themes": [
+      "love"
+    ]
+  },
+  {
+    "chapter": 293,
+    "kind": "motif",
+    "title": "A girl in men's clothes",
+    "text": "The young workman in velvet trousers was Éponine. The disguise makes literal what Marius has always done: looked at her without seeing her. She has been beside him in the garret, at the gate, in the street, and he has never quite known who was there. Only now, with her head on his knees, does he say her name.",
+    "themes": [
+      "names",
+      "light-darkness"
+    ]
+  },
+  {
+    "chapter": 293,
+    "kind": "theme",
+    "title": "'My brother is here'",
+    "text": "Hearing Gavroche sing, she whispers: 'My brother is here. He must not see me. He would scold me.' Marius has just been thinking bitterly of the duty to the Thénardiers that his father left him. Now he learns the singing boy is Thénardier's son. The debt in the colonel's note has turned into a child on this barricade.",
+    "themes": [
+      "parenthood",
+      "conscience"
+    ]
+  },
+  {
+    "chapter": 293,
+    "kind": "motif",
+    "title": "The things she remembers",
+    "text": "Dying, Éponine recalls looking into his mirror, the day by the washerwomen when the birds sang, the hundred-sou piece she refused and hopes he picked up. He had forgotten all of it. Notice how much of her love is made of these small scraps of his attention. 'I believe that I was a little bit in love with you.'",
+    "themes": [
+      "poverty",
+      "love"
+    ]
+  },
+  {
+    "chapter": 293,
+    "kind": "craft",
+    "title": "The agony of life",
+    "text": "The title sets two agonies side by side: the agony of death after 'the agony of life'. 'Oh! How happy I am! Everyone is going to die.' For Éponine, who has known hunger, cold and her father's crimes, death beside Marius is the first moment that is hers. Hugo lets the line be terrible and tender together.",
+    "themes": [
+      "poverty"
+    ]
+  },
+  {
+    "chapter": 294,
+    "kind": "craft",
+    "title": "The pieces assemble",
+    "text": "Now Hugo explains: Éponine threw the warning on the Champ-de-Mars, was the 'young workman' Cosette gave her letter to, waited at Courfeyrac's lodge, and was the voice at the gate. Scenes the reader saw from outside fall into place. Hugo keeps the explanation short; he has trusted us to carry the separate moments until now.",
+    "themes": [
+      "names",
+      "love"
+    ]
+  },
+  {
+    "chapter": 294,
+    "kind": "motif",
+    "title": "He did not know her handwriting",
+    "text": "'Such was the innocence of their love that Marius did not even know her handwriting.' Two months of nights in the garden, and not one letter. The first words Cosette ever writes to him reach him through the hands of the girl who kept them back, and he reads them by a wine-shop candle on a barricade.",
+    "themes": [
+      "love"
+    ]
+  },
+  {
+    "chapter": 294,
+    "kind": "theme",
+    "title": "Carry my body to my grandfather",
+    "text": "Marius writes in his pocketbook: 'My name is Marius Pontmercy. Carry my body to my grandfather.' The young man who walked out of the Rue des Filles-du-Calvaire twice, insulted, still names the old man as his home. And he sends Gavroche away with the letter partly to save him: Thénardier's son is the one debt of his father's he can still pay.",
+    "themes": [
+      "parenthood",
+      "conscience"
+    ]
+  },
+  {
+    "chapter": 294,
+    "kind": "craft",
+    "title": "A profound calculator of distances",
+    "text": "Marius says the barricade will not be attacked before daybreak; Gavroche hesitates, snatches the letter and runs. His private plan: it is barely midnight, the Rue de l'Homme Armé is close, he can deliver it now and be back in time. Hugo's ironic title praises a child's arithmetic. Gavroche wants to keep both his errand and his place in the fight.",
+    "themes": [
+      "revolution"
+    ]
+  },
+  {
+    "chapter": 295,
+    "kind": "motif",
+    "title": "A mirror that rights the letters",
+    "text": "Cosette's blotting-book lies open by the sideboard, and the slanting mirror rights the reversed imprint of her note. Valjean reads it twice and does not believe it, then understands. Chance brings the truth to him backwards, by reflection. 'The light of the world is eclipsed.'",
+    "themes": [
+      "light-darkness",
+      "love"
+    ]
+  },
+  {
+    "chapter": 295,
+    "kind": "theme",
+    "title": "Every kind of love at once",
+    "text": "Hugo says Valjean loves Cosette as a father, but a father made of grandfather, son, brother and husband, 'with even a mother included'. A lonely man has put every love he never had into one. That is why the discovery is the most terrible of his trials. Another person is the goal of her heart, and he is only her father.",
+    "themes": [
+      "love",
+      "parenthood"
+    ]
+  },
+  {
+    "chapter": 295,
+    "kind": "theme",
+    "title": "The spectre called Hate",
+    "text": "The man who 'laboured so long to turn all misery into love' looks into himself and sees Hate. Hugo has shown Valjean's conscience at war before, in the long night of 'A Tempest in a Skull'. This time the enemy is not fear of the galleys but jealousy, and he has fallen to the bottom of the precipice 'without perceiving it'.",
+    "themes": [
+      "conscience"
+    ]
+  },
+  {
+    "chapter": 295,
+    "kind": "motif",
+    "title": "Three men on three posts",
+    "text": "Valjean goes out bareheaded and sits on the stone post at his door. Mabeuf sat on his overturned post in the rain; Marius sat on a post at the edge of the barricade and thought of his father. Hugo keeps placing his people on these little stone markers at the moment of decision, motionless while Paris fights around them.",
+    "themes": [
+      "conscience"
+    ]
+  },
+  {
+    "chapter": 296,
+    "kind": "theme",
+    "title": "A coin for a child",
+    "text": "Valjean lays a five-franc piece in a hungry boy's hand. The reader remembers another coin, forty sous, that Valjean once put his foot on and stole from little Petit-Gervais. Gavroche refuses the bribe, then takes it 'for his mother'. Neither knows that the mother is Madame Thénardier, the woman who worked the child Cosette like a servant.",
+    "themes": [
+      "mercy-law",
+      "conscience"
+    ]
+  },
+  {
+    "chapter": 296,
+    "kind": "craft",
+    "title": "An enemy of light",
+    "text": "Gavroche smashes the lantern opposite No. 7 because 'they still have their lanterns here, which is disorderly'. Behind the curtains people cry that '93 has come again. In this night darkness serves the barricades. Hugo adds that while the tocsin rings and Saint-Paul strikes eleven, 'the tocsin is man and the hour is God'.",
+    "themes": [
+      "light-darkness"
+    ]
+  },
+  {
+    "chapter": 296,
+    "kind": "theme",
+    "title": "'I am the person'",
+    "text": "Valjean, who gave himself up in court rather than let another man bear his name, claims to be the person the letter is for. 'You? You are not a woman.' It is a small lie, told on impulse, and it puts a letter meant for Cosette into his hands. Hugo does not comment. He lets us watch it happen.",
+    "themes": [
+      "names",
+      "conscience"
+    ]
+  },
+  {
+    "chapter": 297,
+    "kind": "theme",
+    "title": "A frightful joy",
+    "text": "'I die. When thou readest this, my soul will be near thee.' Valjean seizes on those two lines and feels 'a frightful cry of inward joy'. He need only keep the note in his pocket. Hugo does not hide or soften the feeling. Opening the paper 'smacks of theft', and the hero is shown wishing a young man dead.",
+    "themes": [
+      "conscience"
+    ]
+  },
+  {
+    "chapter": 297,
+    "kind": "craft",
+    "title": "The missing debate",
+    "text": "In 'A Tempest in a Skull' Hugo gave a whole night to Valjean's struggle. Here he writes: 'Having said all this to himself, he becomes gloomy. Then he goes downstairs and wakes the porter.' The struggle happens off the page, and we see only what he does next. The reader is left to guess what passed between the joy and the uniform.",
+    "themes": [
+      "conscience"
+    ]
+  },
+  {
+    "chapter": 297,
+    "kind": "motif",
+    "title": "In the uniform of order",
+    "text": "An hour later Valjean goes out in the full costume of a National Guard, with a loaded gun and a box of cartridges, towards the markets. The former convict wears the uniform of the citizens who keep order. In this book clothes keep changing a man's place in the world: a yellow coat, a mayor's sash, a gardener's knee-bell, now this.",
+    "themes": [
+      "names",
+      "mercy-law"
+    ]
+  },
+  {
+    "chapter": 297,
+    "kind": "question",
+    "title": "Where is he going?",
+    "text": "Valjean has the letter, the joy, and a uniform. He has said nothing to Cosette and nothing to us. What does he mean to do at the markets, and which part of him has decided it? Hugo has given us all his reasons for wishing Marius dead and none for what he does next.",
+    "themes": [
+      "conscience",
+      "love"
+    ]
+  },
+  {
+    "chapter": 298,
+    "kind": "craft",
+    "title": "Received thy cart",
+    "text": "Gavroche tips a drunken Auvergnat out of his handcart and leaves a receipt: 'French Republic. Received thy cart. Gavroche.' The insurgents have been chalking receipts on doors for requisitioned guns all day. The street boy copies the forms of revolution exactly, and makes them comic by doing so.",
+    "themes": [
+      "revolution"
+    ]
+  },
+  {
+    "chapter": 298,
+    "kind": "theme",
+    "title": "How history records a prank",
+    "text": "A boy with a cart and a song sets off a quarter-hour of blind musketry that 'kills several panes of glass'. The Auvergnat is later hauled before the councils of war as an accomplice, and the Marais remembers 'The nocturnal attack by the post of the Royal Printing Establishment'. Hugo shows the comic side of official history.",
+    "themes": [
+      "history",
+      "paris"
+    ]
+  },
+  {
+    "chapter": 298,
+    "kind": "motif",
+    "title": "Où vont les belles filles",
+    "text": "Gavroche sings his way through the empty Marais, listing girls' names, Atala, Agnès, Paméla, Stella, with grimaces nobody sees in the dark. His song runs right through the chapter and picks up new verses after the fusillade. In a city of shut shutters, a child's voice is the only cheerful thing on the streets.",
+    "themes": [
+      "paris"
+    ]
   }
 ]

@@ -3055,5 +3055,727 @@
     "themes": [
       "names"
     ]
+  },
+  {
+    "chapter": 119,
+    "kind": "craft",
+    "title": "Leaving the hero over the wall",
+    "text": "Valjean and Cosette are hidden in a gardener's hut, and Hugo walks away from them to come back in by the front door as a visitor would. Book Fourteen is a guided tour of the house they have fallen into. He makes us learn the convent the slow way, password by password.",
+    "themes": []
+  },
+  {
+    "chapter": 119,
+    "kind": "motif",
+    "title": "A voice behind shutters",
+    "text": "Grating, tin, a letter slot, then shutters that never open, and a voice saying 'I am here. What do you wish with me?' At best you see a mouth and chin under a veil. The parlour has a window on the world's side and none on the convent's. Everything is built for not being seen.",
+    "themes": [
+      "light-darkness"
+    ]
+  },
+  {
+    "chapter": 119,
+    "kind": "craft",
+    "title": "Things never described",
+    "text": "Hugo announces that he will take the reader inside and tell what storytellers have never told. He presents the digression as a scoop. The reader, who has just heard the hymn and seen the figure on the floor, now gets the explanation the hero lacks.",
+    "themes": []
+  },
+  {
+    "chapter": 120,
+    "kind": "context",
+    "title": "The post",
+    "text": "Each nun in turn makes 'reparation': twelve hours on her knees before the Holy Sacrament with a rope around her neck, lying in a cross when exhausted, praying for the sins of the world. Because there is a post with a candle, they call it 'being at the post'. The reader now knows what Valjean saw through the window.",
+    "themes": [
+      "light-darkness"
+    ]
+  },
+  {
+    "chapter": 120,
+    "kind": "theme",
+    "title": "A rule harsher than the galleys'",
+    "text": "Fasting all year, rising in the night, straw beds, no fire, weekly scourging, silence, a fever-giving drugget shirt for half the year. Hugo lists the rule as coolly as he listed Valjean's sentences. Between 1825 and 1830 three of these nuns went mad.",
+    "themes": [
+      "mercy-law"
+    ]
+  },
+  {
+    "chapter": 120,
+    "kind": "motif",
+    "title": "Our, never my",
+    "text": "The nuns never say 'my', only 'our'. Greetings are answered with 'Forever'. Mothers take names like Nativity or Passion. A whole language has been rebuilt to erase the self.",
+    "themes": [
+      "names"
+    ]
+  },
+  {
+    "chapter": 121,
+    "kind": "motif",
+    "title": "A funeral for the living",
+    "text": "At her profession the novice, crowned with white roses, lies down under a black veil while the office of the dead is sung. One file chants 'Our sister is dead', the other 'Our sister is alive in Jesus Christ'. Entering the convent is staged as a death.",
+    "themes": [
+      "names",
+      "light-darkness"
+    ]
+  },
+  {
+    "chapter": 121,
+    "kind": "theme",
+    "title": "Mothers behind bars",
+    "text": "The boarding-school girls see even their mothers only through the parlour grating. A child weeps to kiss her three-year-old sister and is refused even the little hand through the bars. Hugo lets one small story stand for the cost of the rule to families.",
+    "themes": [
+      "parenthood"
+    ]
+  },
+  {
+    "chapter": 122,
+    "kind": "craft",
+    "title": "Collected sayings",
+    "text": "Hugo fills a chapter with children's remarks he gathered: a five-year-old glad to have 'only nine years and ten months' left, a seven-year-old confessing to adultery, a foundling saying her mother 'was not there when she was born'. The gloomy house is suddenly full of voices.",
+    "themes": [
+      "parenthood"
+    ]
+  },
+  {
+    "chapter": 122,
+    "kind": "theme",
+    "title": "Severe only to themselves",
+    "text": "The nuns watch the laughter from a distance and are gentle with the children, severe only toward themselves. Hugo says Homer would have come there to laugh with Perrault. Childhood survives inside the strictest walls.",
+    "themes": [
+      "mercy-law"
+    ]
+  },
+  {
+    "chapter": 122,
+    "kind": "motif",
+    "title": "Spiders and woodlice",
+    "text": "The refectory's four corners are Spider, Caterpillar, Woodlouse and Cricket, and each girl belongs to the 'nation' of her corner. When the Archbishop asks who a pretty girl is, he is told she is a spider. The children make their own map of the house.",
+    "themes": [
+      "names"
+    ]
+  },
+  {
+    "chapter": 123,
+    "kind": "craft",
+    "title": "Anecdotes that seem to go nowhere",
+    "text": "A wager with the Archbishop, a madwoman who cries 'Ah! Auguste!' at a sermon, a flute that turns out to be a blind old émigré. Hugo even says Madame Albertine is unconnected with his story. He is building the convent as a world with its own gossip and mysteries.",
+    "themes": []
+  },
+  {
+    "chapter": 123,
+    "kind": "motif",
+    "title": "The flute in the Rue Droit-Mur",
+    "text": "For months the girls fall in love with an unseen flute player, and two climb on a roof at the risk of their lives to see him. He is old, blind and penniless. Desire inside the walls invents its object from a sound.",
+    "themes": [
+      "love"
+    ]
+  },
+  {
+    "chapter": 123,
+    "kind": "theme",
+    "title": "Passing for dead",
+    "text": "Madame Albertine is said to 'pass for dead' in the world, her supposed death serving some great marriage settlement. In this convent a living woman can be officially dead. Hugo lets the idea hang without comment.",
+    "themes": [
+      "names"
+    ]
+  },
+  {
+    "chapter": 124,
+    "kind": "context",
+    "title": "Refugees of the Revolution",
+    "text": "The Little Convent shelters old nuns of orders the Revolution destroyed, each keeping her own rule in black, grey or white. The last nun of Sainte-Aure, too poor to wear her habit, dresses a doll in it. The doll outlives the order.",
+    "themes": [
+      "revolution"
+    ]
+  },
+  {
+    "chapter": 124,
+    "kind": "craft",
+    "title": "Madame de Genlis",
+    "text": "The famous novelist Madame de Genlis is let in after declaring that she detests novels, and leaves complaining the garden has no shade. Hugo enjoys the joke against a fellow writer. Real people mixed with invented ones make the convent feel documented.",
+    "themes": []
+  },
+  {
+    "chapter": 124,
+    "kind": "motif",
+    "title": "A church that hides its choir",
+    "text": "The public may enter the church, but the nuns sit in a dark hall folded back behind a curtain. Outsiders know they are present only by the clatter of the stall seats. Even shared space is arranged so no face is seen.",
+    "themes": [
+      "light-darkness"
+    ]
+  },
+  {
+    "chapter": 125,
+    "kind": "theme",
+    "title": "Speech passes to things",
+    "text": "Because the people are silent, the bells speak: one-and-one for the prioress, six-five for lessons, nine strokes for the Archbishop, and the gardener's bell so he can be avoided. Hugo describes a society that communicates in code. Notice that Valjean has already heard two of these bells without understanding them.",
+    "themes": [
+      "names"
+    ]
+  },
+  {
+    "chapter": 125,
+    "kind": "craft",
+    "title": "A merry prioress",
+    "text": "Mother Innocente sings 'like a cracked pot', knows Latin, Greek and Hebrew, and is the only cheerful woman in the house, adored for it. Hugo gives the place's authority a warm, learned face. A character named in passing among silhouettes stands out.",
+    "themes": []
+  },
+  {
+    "chapter": 125,
+    "kind": "motif",
+    "title": "Carefully chosen men",
+    "text": "Besides the archbishop and the gardener, the girls see two men: an old ugly chaplain and a 'frightful old hunchback' of a drawing-master. Hugo adds dryly that all these men were carefully chosen.",
+    "themes": []
+  },
+  {
+    "chapter": 126,
+    "kind": "motif",
+    "title": "A gibbet laid flat",
+    "text": "Seen from above, the main building traces a gibbet lying on its side. The garden radiates from a central fir like a cross on a wheel. Hugo gives the convent's plan the shapes of execution and faith together.",
+    "themes": [
+      "mercy-law"
+    ]
+  },
+  {
+    "chapter": 126,
+    "kind": "context",
+    "title": "Eleven thousand devils",
+    "text": "The convent stands on the site of a medieval tennis-ground nicknamed 'the eleven thousand devils', and the Rue Droit-Mur was once the Rue des Églantiers, Wild Rose Street. 'God opened flowers before man cut stones.' Paris is layers of older names.",
+    "themes": [
+      "paris",
+      "names"
+    ]
+  },
+  {
+    "chapter": 126,
+    "kind": "craft",
+    "title": "Walls higher inside",
+    "text": "The garden is sunk below the street, so the walls are far higher from inside than outside. The reader now understands the geography of Valjean's climb and leap. Hugo supplies the architecture after the escape.",
+    "themes": [
+      "paris"
+    ]
+  },
+  {
+    "chapter": 127,
+    "kind": "craft",
+    "title": "One more digression",
+    "text": "Hugo begs leave for yet another digression to show the cloister has its originals: a hundred-year-old nun who drops pre-Revolution names and describes the 'four wines' of drunkenness. He is enjoying himself, and he lets the reader see it.",
+    "themes": []
+  },
+  {
+    "chapter": 127,
+    "kind": "motif",
+    "title": "The locked treasure",
+    "text": "The old nun keeps something in a locked cupboard and contemplates it alone; the convent imagines relics. After her death they find a comic Faenza platter of Cupids chased by apothecary boys with syringes. 'Love conquered by the colic.' The holy secret is a bawdy joke.",
+    "themes": [
+      "love"
+    ]
+  },
+  {
+    "chapter": 127,
+    "kind": "question",
+    "title": "The parlour is too gloomy",
+    "text": "She refused all visitors because 'the parlour is too gloomy'. Is she a comic figure, or the one person in the house who kept her own sense of the world?",
+    "themes": []
+  },
+  {
+    "chapter": 128,
+    "kind": "context",
+    "title": "Two orders, one devotion",
+    "text": "Hugo distinguishes the Benedictines of the Perpetual Adoration, founded after church sacrileges in 1649, from the Bernardines of the Petit-Picpus, who were allowed the same adoration in 1657. The precision is almost pedantic. It shows him writing as a historian of institutions as well as a novelist.",
+    "themes": [
+      "history"
+    ]
+  },
+  {
+    "chapter": 128,
+    "kind": "craft",
+    "title": "A friendlier parlour",
+    "text": "At the Temple convent the shutters are brown curtains and the parlour has muslin, bouquets and even the head of a Turk. Hugo uses the comparison to say the Petit-Picpus's darkness is a local trait, not the whole Church.",
+    "themes": [
+      "light-darkness"
+    ]
+  },
+  {
+    "chapter": 129,
+    "kind": "theme",
+    "title": "A burden that does not shrink",
+    "text": "A hundred nuns forty years earlier, twenty-eight fifteen years earlier, a handful by 1845: the rule stays the same for the few as for the many, and it crushes them. Two died in Hugo's Paris years, aged twenty-five and twenty-three. Decline is described without triumph.",
+    "themes": [
+      "history"
+    ]
+  },
+  {
+    "chapter": 129,
+    "kind": "theme",
+    "title": "Respect without belief",
+    "text": "Hugo says he has entered this house 'for the profit, perhaps, of the melancholy history of Jean Valjean', understanding not everything and insulting nothing. He places himself between Joseph de Maistre, who sanctified the executioner, and Voltaire, who sneered at the cross. The digression is announced as part of the hero's story.",
+    "themes": [
+      "revolution"
+    ]
+  },
+  {
+    "chapter": 129,
+    "kind": "motif",
+    "title": "The past in a mask",
+    "text": "The past counterfeits itself and calls itself the future, Hugo warns. Convents pose a problem: civilisation condemns them, liberty protects them. He leaves the question in a single tension.",
+    "themes": [
+      "revolution",
+      "history"
+    ]
+  },
+  {
+    "chapter": 130,
+    "kind": "theme",
+    "title": "The Infinite as the main character",
+    "text": "In a hundred and seventy-eight words Hugo makes a startling claim: this book is a drama whose chief personage is the Infinite, and man the second. That is why he must stop at a convent. Every place of worship is an instrument for looking at the Infinite.",
+    "themes": [
+      "light-darkness"
+    ]
+  },
+  {
+    "chapter": 130,
+    "kind": "craft",
+    "title": "Why a Parenthesis here",
+    "text": "Book Fifteen is titled 'Parenthesis'. Hugo pauses the story with the hero hidden in a convent garden, a natural moment to ask what a convent is. He signals clearly that this is commentary, so a reader can tell digression from narrative.",
+    "themes": []
+  },
+  {
+    "chapter": 131,
+    "kind": "theme",
+    "title": "Mistletoe on an oak",
+    "text": "Judged by history, monasticism is a parasite: useful when it tamed brutal ages, detestable in a grown nation, gnawing Italy and Spain to the bone. Hugo, who has just described the Petit-Picpus gently, now condemns the institution in general.",
+    "themes": [
+      "revolution",
+      "history"
+    ]
+  },
+  {
+    "chapter": 131,
+    "kind": "context",
+    "title": "The in pace at Villers",
+    "text": "To those who call such accounts 'declamation', Hugo answers with a place he saw himself near Brussels: the abbey dungeons with an iron collar on the wall and a stone box too short to lie in and too low to stand in. 'This exists; it can be touched.' Facts, as at Hougomont, are his weapon.",
+    "themes": [
+      "history",
+      "mercy-law"
+    ]
+  },
+  {
+    "chapter": 132,
+    "kind": "theme",
+    "title": "Respect the past if it consents to be dead",
+    "text": "Hugo states his rule: respect and spare the past where it is willing to be dead; fight it when it insists on living. A convent in the Paris of 1789, 1830 and 1848 is a college of owls facing the light. In ordinary times one need only make it say its date.",
+    "themes": [
+      "revolution",
+      "light-darkness"
+    ]
+  },
+  {
+    "chapter": 132,
+    "kind": "craft",
+    "title": "A chorus of old things",
+    "text": "Hugo imagines the old garment, the stale fish, the faded perfume and the corpse each pleading 'I served you once', and answers 'In former days'. The comic list does the work of an argument. Dead institutions are made to sound like leftovers.",
+    "themes": [
+      "revolution"
+    ]
+  },
+  {
+    "chapter": 132,
+    "kind": "theme",
+    "title": "Truth never exaggerates",
+    "text": "Even while calling for war on the past, Hugo insists on distinctions: some things must be destroyed and some only examined. He ends by asking leave to look at the religious question 'fixedly'. The fighter checks himself.",
+    "themes": [
+      "revolution"
+    ]
+  },
+  {
+    "chapter": 133,
+    "kind": "theme",
+    "title": "Equality and fraternity in a cloister",
+    "text": "Considered in principle, a monastery realises what the Revolution preached: the rich man becomes poor, lord equals peasant, all share the same bread and straw, and they elect those they obey. Hugo says liberty would turn it into a republic. The convent becomes, for a moment, a model commune.",
+    "themes": [
+      "revolution"
+    ]
+  },
+  {
+    "chapter": 133,
+    "kind": "question",
+    "title": "What are they doing?",
+    "text": "The chapter ends on a question: these people behind four walls gaze on the darkness, kneel and clasp their hands. What does this signify? Hugo poses it as a genuine puzzle before answering it himself.",
+    "themes": [
+      "light-darkness"
+    ]
+  },
+  {
+    "chapter": 134,
+    "kind": "theme",
+    "title": "Two infinities",
+    "text": "Hugo's answer: there is an infinite above us and an infinite within us, and if both are intelligent, the one below is the soul and the one above is God. To bring them into contact by thought is to pray. It is a philosopher's definition of prayer, not a priest's.",
+    "themes": [
+      "light-darkness",
+      "conscience"
+    ]
+  },
+  {
+    "chapter": 134,
+    "kind": "motif",
+    "title": "Clearing God of caterpillars",
+    "text": "Crush fanaticism, venerate the infinite, strip superstition from religion: 'clear God of caterpillars'. Hugo treats belief like a garden to be weeded. The image fits a book set, at this moment, in a gardener's hut.",
+    "themes": [
+      "conscience"
+    ]
+  },
+  {
+    "chapter": 134,
+    "kind": "theme",
+    "title": "The right of the soul",
+    "text": "Beside the rights of man, Hugo says, stands the right of the soul. Democracy's greatness is to deny nothing of humanity, including its reaching toward the unknown. The revolutionary and the believer in him are made to agree.",
+    "themes": [
+      "revolution",
+      "conscience"
+    ]
+  },
+  {
+    "chapter": 135,
+    "kind": "theme",
+    "title": "Every sincere prayer is good",
+    "text": "'Turn your book upside down and be in the infinite.' Hugo's religion is generous about forms and strict about sincerity. He compares a philosophy that denies the infinite to one that denies the sun.",
+    "themes": [
+      "light-darkness"
+    ]
+  },
+  {
+    "chapter": 135,
+    "kind": "craft",
+    "title": "Arguing with nihilism",
+    "text": "The nihilist doubts even the person he is talking to, Hugo says, yet by saying the word 'mind' admits what he denies. To 'No' the only reply is 'Yes.' Man lives by affirmation even more than by bread. The argument is quick and rhetorical, not technical.",
+    "themes": [
+      "poverty"
+    ]
+  },
+  {
+    "chapter": 135,
+    "kind": "theme",
+    "title": "Faith and love as engines",
+    "text": "Philosophy should improve man's condition, turning Eden into a school and wisdom into communion. Faith and love are the two motors of progress, and the ideal is God. Hugo ties the convent question back to his belief in progress.",
+    "themes": [
+      "revolution",
+      "love"
+    ]
+  },
+  {
+    "chapter": 136,
+    "kind": "theme",
+    "title": "Frown, but never sneer",
+    "text": "A convent is a contradiction: supreme egoism yielding supreme self-sacrifice, a bill drawn on death. Mockery is not allowed on such a subject. The just man may frown; he may not sneer. Hugo sets a rule for his own tone.",
+    "themes": [
+      "conscience"
+    ]
+  },
+  {
+    "chapter": 136,
+    "kind": "craft",
+    "title": "The shortest chapter in the Parenthesis",
+    "text": "Two hundred and thirty-four words weigh the right to live apart against its abuses. After pages of attack and defence, Hugo compresses the dilemma into paradoxes. Brevity here is a sign of balance.",
+    "themes": []
+  },
+  {
+    "chapter": 137,
+    "kind": "theme",
+    "title": "Some must pray for those who never pray",
+    "text": "Contemplation is labour, Hugo says; folded arms toil and clasped hands work. There must be some who pray constantly for those who never pray at all. He is for religion against religions, and for sacrifice even when wrongly aimed.",
+    "themes": [
+      "conscience",
+      "mercy-law"
+    ]
+  },
+  {
+    "chapter": 137,
+    "kind": "theme",
+    "title": "Women's protest",
+    "text": "In this century, Hugo says, woman suffers most, and her cloistered exile is a kind of protest. The line links the nuns to Fantine's story without naming her. Suffering in his book falls hardest on women.",
+    "themes": [
+      "poverty"
+    ]
+  },
+  {
+    "chapter": 137,
+    "kind": "craft",
+    "title": "Tender, religious terror",
+    "text": "Hugo ends the Parenthesis in the first person: he does not believe what these women believe, but has never thought of them without tender, religious terror and envious pity. The digression closes on feeling rather than verdict, ready to return to the story.",
+    "themes": [
+      "light-darkness"
+    ]
+  },
+  {
+    "chapter": 138,
+    "kind": "craft",
+    "title": "The enigma explained",
+    "text": "The hymn was matins, the hall was the chapel, the shrouded form was a sister at the post, the bell was on Fauchelevent's knee. Hugo sums up in a line what Book Fourteen taught at length. The supernatural mystery of Book Thirteen dissolves into a rule of life.",
+    "themes": []
+  },
+  {
+    "chapter": 138,
+    "kind": "theme",
+    "title": "The most dangerous place is the safest",
+    "text": "A man found inside a convent is one step from prison; yet no one would look for him in an impossible place. Valjean wants to stay. He sees a further reason when he hears there are pupils: Cosette's education provided.",
+    "themes": [
+      "parenthood"
+    ]
+  },
+  {
+    "chapter": 138,
+    "kind": "theme",
+    "title": "Saint, thief or assassin",
+    "text": "Fauchelevent does not understand how M. Madeleine got here and guesses at bankruptcy or politics. One thing is certain: this man crawled under the cart without stopping to think. He decides to save him whatever he is. Gratitude asks no questions.",
+    "themes": [
+      "mercy-law"
+    ]
+  },
+  {
+    "chapter": 138,
+    "kind": "motif",
+    "title": "Father Madeleine is buried",
+    "text": "'Mother Crucifixion is dead, and Father Madeleine—' 'Is buried,' says Valjean, smiling sadly. He describes his own state in the convent's language of death. The joke carries a whole history of lost names.",
+    "themes": [
+      "names"
+    ]
+  },
+  {
+    "chapter": 139,
+    "kind": "craft",
+    "title": "A peasant's harangue",
+    "text": "Fauchelevent talks at length about his age, his knee and the melons before asking for his 'brother'. The prioress makes one movement at 'brother' and a reassured one at 'no longer young'. Hugo writes the scene as comedy of cunning, with the old notary's tricks intact.",
+    "themes": []
+  },
+  {
+    "chapter": 139,
+    "kind": "motif",
+    "title": "An iron bar",
+    "text": "Instead of answering, the prioress asks whether he can find a stout iron bar by evening, 'to serve as a lever'. She leaves him there. Both of them have a request, and each is hiding its purpose.",
+    "themes": []
+  },
+  {
+    "chapter": 139,
+    "kind": "context",
+    "title": "Thought stupid, therefore valued",
+    "text": "The convent thinks Fauchelevent stupid, which Hugo says is a great merit in religion. He knows all its bells and secrets and conceals everything. His real knowledge is protected by his reputation for having none.",
+    "themes": [
+      "names"
+    ]
+  },
+  {
+    "chapter": 140,
+    "kind": "theme",
+    "title": "Forbidden by men, enjoined by God",
+    "text": "Mother Crucifixion wished to be buried in her own coffin under the altar, which the law forbids. The prioress answers every objection with a saint or a council. Here the nuns break the law out of conscience, and Hugo lets them do it.",
+    "themes": [
+      "mercy-law",
+      "conscience"
+    ]
+  },
+  {
+    "chapter": 140,
+    "kind": "craft",
+    "title": "Amen",
+    "text": "Fauchelevent says 'Amen' whenever Latin or piety flows, and when the prioress's long-dammed silence bursts into a torrent about Saint Bernard and the police, he says it again. Hugo plays the scene as a comic duet between a learned nun and a wily peasant.",
+    "themes": []
+  },
+  {
+    "chapter": 140,
+    "kind": "motif",
+    "title": "Earth, the same thing as man",
+    "text": "He promises to fill the empty official coffin with earth. 'Earth, that is the same thing as man,' she says, satisfied. A pious commonplace solves a practical problem. The coffin question is now on the table.",
+    "themes": []
+  },
+  {
+    "chapter": 141,
+    "kind": "craft",
+    "title": "Everything arranged, and nothing",
+    "text": "The prioress will admit the brother and niece, but the brother must first be outside, and he cannot get out. Then the empty coffin needs filling. Hugo poses two problems and lets Valjean solve them with one word: 'Me!'",
+    "themes": []
+  },
+  {
+    "chapter": 141,
+    "kind": "theme",
+    "title": "A convict's talent",
+    "text": "Hugo notes that enduring a box is one of Valjean's gloomy convict skills, and that a monk wrote of Charles V using the same device. A man making his escape, Valjean says, does not cough or sneeze. The galleys trained him for this.",
+    "themes": [
+      "conscience"
+    ]
+  },
+  {
+    "chapter": 141,
+    "kind": "motif",
+    "title": "Buried in white",
+    "text": "The basket he asked for will be of pine, and the cover a cloth, white, since nuns are buried in white. Valjean plans his own burial calmly. To enter the house he must first pass for dead.",
+    "themes": [
+      "names",
+      "light-darkness"
+    ]
+  },
+  {
+    "chapter": 142,
+    "kind": "craft",
+    "title": "A fine farce",
+    "text": "Fauchelevent follows the hearse rubbing his hands: 'Here's a fine farce!' Then a stranger says Mestienne is dead. 'After Napoleon, Louis XVIII. After Mestienne, Gribier.' By the end of the chapter the same words come out in consternation. Hugo turns the phrase inside out.",
+    "themes": []
+  },
+  {
+    "chapter": 142,
+    "kind": "theme",
+    "title": "Their hunger is the enemy of my thirst",
+    "text": "Gribier was a student, writes love letters by day at a public stall and digs graves by night. He cannot drink because he has seven children who must eat. Poverty has made him sober, and his sobriety is now the danger.",
+    "themes": [
+      "poverty"
+    ]
+  },
+  {
+    "chapter": 142,
+    "kind": "context",
+    "title": "A fault that resembles a duty",
+    "text": "Hugo remarks that he finds the nuns' illegal burial a venial offence, 'a fault that resembles a duty'. He takes sides openly with conscience against regulation, as he did with Sister Simplice's lie.",
+    "themes": [
+      "mercy-law",
+      "conscience"
+    ]
+  },
+  {
+    "chapter": 143,
+    "kind": "craft",
+    "title": "Inside the coffin",
+    "text": "Hugo puts us in the box with Valjean: pavement then earth road, the hollow sound of the Pont d'Austerlitz, the tilt into the grave, Latin over him, holy water like rain. He hears his own funeral. Then the shovelfuls fall.",
+    "themes": [
+      "light-darkness"
+    ]
+  },
+  {
+    "chapter": 143,
+    "kind": "theme",
+    "title": "Security of conscience",
+    "text": "Valjean is perfectly calm, and Hugo says security of conscience gives security in everything else. Something of the repose of the dead enters him. His calm is a moral state, not only nerve.",
+    "themes": [
+      "conscience"
+    ]
+  },
+  {
+    "chapter": 143,
+    "kind": "motif",
+    "title": "Requiescat in pace",
+    "text": "'Rest in peace', 'Amen', footsteps, and 'I am alone.' Then earth on the lid like thunder, and one air hole stopped. A man with a convict's name is buried under a nun's prayer. There are things too strong for the strongest man.",
+    "themes": [
+      "names"
+    ]
+  },
+  {
+    "chapter": 144,
+    "kind": "craft",
+    "title": "The card",
+    "text": "Fauchelevent sees something white in Gribier's pocket and steals it. Then he 'kindly' points out that the gate closes in five minutes and the fine is fifteen francs. The chapter title promises the origin of a saying. Hugo's comic invention turns on a scrap of paper.",
+    "themes": [
+      "poverty"
+    ]
+  },
+  {
+    "chapter": 144,
+    "kind": "theme",
+    "title": "Grief at the graveside",
+    "text": "Fauchelevent opens the coffin and finds Valjean pale and still. He sobs, rails at Mestienne for dying and at himself, and wonders what will become of the little girl. Then the eyes open: 'I fell asleep.' Hugo gives the old man real grief before the relief.",
+    "themes": [
+      "mercy-law"
+    ]
+  },
+  {
+    "chapter": 144,
+    "kind": "motif",
+    "title": "Returning the tools",
+    "text": "Fauchelevent climbs to Gribier's garret, where the wife is crying and the children have been searching, and returns the shovel and the card. 'Thanks, villager! The next time I will pay.' The trick ends in a kindness to a poor family.",
+    "themes": [
+      "poverty",
+      "mercy-law"
+    ]
+  },
+  {
+    "chapter": 145,
+    "kind": "motif",
+    "title": "Ultime Fauchelevent",
+    "text": "He enters the convent under the name of Fauchelevent's dead brother, Ultime, 'the last'. Valjean does not say a word; Fauchelevent answers every question for him. Another name, borrowed from the old man he once saved from under a cart.",
+    "themes": [
+      "names"
+    ]
+  },
+  {
+    "chapter": 145,
+    "kind": "craft",
+    "title": "She will grow up ugly",
+    "text": "The prioress studies Cosette and says half aloud: 'She will grow up ugly.' Hugo says this verdict decided her admission, since plain girls are likelier to become nuns. A small, misjudging remark settles a child's future.",
+    "themes": [
+      "parenthood"
+    ]
+  },
+  {
+    "chapter": 145,
+    "kind": "theme",
+    "title": "No one keeps a secret like a child",
+    "text": "Left with the fruit-seller, Cosette neither eats nor sleeps and answers a hundred questions with the same look. She has understood that she must 'be good' and say nothing. Her cry of joy on seeing him seems to come from an abyss.",
+    "themes": [
+      "parenthood"
+    ]
+  },
+  {
+    "chapter": 145,
+    "kind": "motif",
+    "title": "Two bells",
+    "text": "The prioress orders a second kneecap with a bell. Next day two bells sound in the garden and the nuns lift their veils to watch two men digging. The device meant to keep the nuns away from a man now marks the safety of a hunted one.",
+    "themes": [
+      "names"
+    ]
+  },
+  {
+    "chapter": 146,
+    "kind": "theme",
+    "title": "Two places of captivity",
+    "text": "Valjean compares the convent with the galleys point by point: rising before dawn, straw beds, no fire, coarse clothes, lost names. The convicts had stolen and murdered; the nuns had done nothing. Both expiate, but the nuns expiate for others, 'the most divine of human generosities'.",
+    "themes": [
+      "mercy-law",
+      "conscience"
+    ]
+  },
+  {
+    "chapter": 146,
+    "kind": "theme",
+    "title": "Humility after pride",
+    "text": "Hugo says Valjean had begun comparing himself with ordinary men instead of with the Bishop, and pride was growing. The convent stops it. Cosette leads him back to the Bishop's lessons through love, the convent through humility.",
+    "themes": [
+      "conscience",
+      "parenthood"
+    ]
+  },
+  {
+    "chapter": 146,
+    "kind": "motif",
+    "title": "The valise that smells so good",
+    "text": "Valjean locks the little mourning dress Cosette wore out of Montfermeil in a valise with camphor and keeps the key on him. 'Father, what is there in that box which smells so good?' He keeps the relic of their beginning as he kept the candlesticks.",
+    "themes": [
+      "parenthood"
+    ]
+  },
+  {
+    "chapter": 146,
+    "kind": "craft",
+    "title": "Two houses of God",
+    "text": "Two houses of God have taken him in at the two crises of his life: the Bishop's when every door was shut, and this one when society hunted him again. Hugo makes the end of Volume Two rhyme with the beginning of Volume One. Then years pass, and Cosette grows up.",
+    "themes": [
+      "mercy-law",
+      "light-darkness"
+    ]
+  },
+  {
+    "chapter": 146,
+    "kind": "motif",
+    "title": "Grafting wild trees",
+    "text": "Once a tree-pruner at Faverolles, he gardens again and grafts the wild orchard trees until they bear good fruit. The image fits the man himself. His first trade returns at the moment he finds peace.",
+    "themes": [
+      "conscience",
+      "poverty"
+    ]
   }
 ]

@@ -2926,5 +2926,145 @@
       "parenthood",
       "conscience"
     ]
+  },
+  {
+    "chapter": 237,
+    "kind": "craft",
+    "title": "The same story, from her side",
+    "text": "Hugo now rewinds to the Luxembourg and tells it again through Cosette. We saw the thin girl become beautiful through Marius's eyes; now we see her discover it in a mirror. The chapter ends exactly where Marius's story began: 'It was at this epoch that Marius ... saw her once more at the Luxembourg.' The two halves click together.",
+    "themes": [
+      "love"
+    ]
+  },
+  {
+    "chapter": 237,
+    "kind": "motif",
+    "title": "She had just dazzled herself",
+    "text": "Cosette, who was told she was ugly all her childhood, looks in the mirror and cries out. Her beauty arrives 'like the sudden advent of daylight'. The image picks up the light Marius saw around her bench. Notice the mirror: the Jondrette girl looked into one in Marius's room too.",
+    "themes": [
+      "light-darkness",
+      "love"
+    ]
+  },
+  {
+    "chapter": 237,
+    "kind": "theme",
+    "title": "What is to become of me?",
+    "text": "'How beautiful she is! What is to become of me?' Valjean watches her beauty with terror, because it means change in a life so happy he dares not move. Hugo names the difference plainly: 'What he beheld with anguish, a mother would have gazed upon with joy.' His love is a father's and also something more fearful.",
+    "themes": [
+      "parenthood",
+      "love"
+    ]
+  },
+  {
+    "chapter": 237,
+    "kind": "theme",
+    "title": "He would lose by heaven",
+    "text": "Valjean, still a fugitive whom 'the law had not released from its grasp', asks one thing of Providence, the law and the world: that Cosette go on loving him. Asked if he wanted heaven, 'he would have replied: I should lose by it.' The saintly man has one attachment he would not give up even for God.",
+    "themes": [
+      "love",
+      "conscience",
+      "mercy-law"
+    ]
+  },
+  {
+    "chapter": 237,
+    "kind": "motif",
+    "title": "That disguise",
+    "text": "Valjean asks her to wear her old schoolgirl merino again. 'That disguise! ... I shall never put on those horrors again.' To him the plain clothes were safety; to her they were a costume she has outgrown. He himself has lived in disguises for years. Hugo lets the word land on him.",
+    "themes": [
+      "names",
+      "parenthood"
+    ]
+  },
+  {
+    "chapter": 238,
+    "kind": "theme",
+    "title": "Two clouds laden with lightning",
+    "text": "Hugo defends the much-mocked 'glance' of romance: 'That is the way people do fall in love, nevertheless, and the only way.' Cosette had noticed Marius long before he noticed her, and thought him handsome while he still thought her plain. Love here is mutual from the first, though neither knows it.",
+    "themes": [
+      "love",
+      "light-darkness"
+    ]
+  },
+  {
+    "chapter": 238,
+    "kind": "craft",
+    "title": "Timid boy, bold girl",
+    "text": "'The first symptom of true love in a young man is timidity; in a young girl it is boldness.' It was Cosette who led her father along the walk toward Marius's bench. The reader saw the moment from Marius's side as a miracle. From hers, it was a decision.",
+    "themes": [
+      "love"
+    ]
+  },
+  {
+    "chapter": 238,
+    "kind": "theme",
+    "title": "Love without a name",
+    "text": "In the convent's song-books 'amour' was replaced by 'tambour' or 'pandour', so Cosette has no word for what she feels. 'Is anyone the less ill because one does not know the name of one's malady?' In a book obsessed with names, she loves without being able to name either the feeling or the man.",
+    "themes": [
+      "love",
+      "names"
+    ]
+  },
+  {
+    "chapter": 238,
+    "kind": "motif",
+    "title": "Stars separated by millions of leagues",
+    "text": "'They did not address each other ... they saw each other; and like stars of heaven ... they lived by gazing at each other.' The whole affair is conducted with the eyes. To Cosette, Marius is 'a vision', 'charming, luminous, and impossible'.",
+    "themes": [
+      "love",
+      "light-darkness"
+    ]
+  },
+  {
+    "chapter": 239,
+    "kind": "theme",
+    "title": "A dog scanning a thief",
+    "text": "Valjean, who thought himself past malice, feels 'the old depths of his soul' open against Marius, 'craters forming in his bosom'. His long inward speech, sixty years on his knees, forgiven every evil, and now 'a great booby' at the Luxembourg, is self-pity and grief together. The convict's old wrath is not dead, only sleeping.",
+    "themes": [
+      "conscience",
+      "love",
+      "parenthood"
+    ]
+  },
+  {
+    "chapter": 239,
+    "kind": "craft",
+    "title": "The traps Marius fell into",
+    "text": "Now we learn what was behind the changed benches, the forgotten handkerchief, the visits alone: 'Jean Valjean laid a host of ambushes for him', and Marius 'answered yes' to every one. The 'three blunders' Hugo counted earlier were tests set by a jealous father. Cosette, meanwhile, gave nothing away.",
+    "themes": [
+      "love",
+      "parenthood"
+    ]
+  },
+  {
+    "chapter": 239,
+    "kind": "theme",
+    "title": "What have I done?",
+    "text": "Alone at night on his pallet, Valjean looks back at the convent as an Eden he left 'voluntarily and madly' and asks 'What have I done?' The choice he made out of conscience, to give Cosette the world, has brought the world to her gate. Self-sacrifice has turned on him.",
+    "themes": [
+      "conscience",
+      "parenthood"
+    ]
+  },
+  {
+    "chapter": 239,
+    "kind": "theme",
+    "title": "Suffering side by side, with a smile",
+    "text": "'What is the matter with you?' 'There is nothing the matter with me.' 'And you, father?' 'With me? Nothing.' Two people who love each other completely now hide their pain from each other. Hugo makes the sadness lie in the kindness: neither will hurt the other by speaking.",
+    "themes": [
+      "love",
+      "parenthood"
+    ]
+  },
+  {
+    "chapter": 239,
+    "kind": "question",
+    "title": "Would you like to come to the Luxembourg?",
+    "text": "Once, Cosette says yes and Marius is not there; the next day she says no. Her silence is a strategy her father cannot read. Is Valjean's ignorance of 'the only miseries which are charming' a failing, or simply the cost of a life with no youth in it?",
+    "themes": [
+      "love",
+      "parenthood"
+    ]
   }
 ]
