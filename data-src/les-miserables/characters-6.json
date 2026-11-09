@@ -1,0 +1,167 @@
+[
+  {
+    "id": "madame-jondrette",
+    "name": "Madame Jondrette",
+    "firstChapter": 159,
+    "importance": "supporting",
+    "group": "The Gorbeau house",
+    "mergedInto": {
+      "id": "madame-thenardier",
+      "from": 220
+    },
+    "tagline": [
+      {
+        "from": 159,
+        "text": "Mother of the Jondrette family in the Gorbeau house, who loves her daughters and not her son."
+      },
+      {
+        "from": 206,
+        "text": "The Jondrettes' huge, red-haired wife, crouched by a dying fire in their garret."
+      },
+      {
+        "from": 212,
+        "text": "Her husband's partner in the plan he hatches against their benefactor."
+      }
+    ],
+    "description": [
+      {
+        "from": 159,
+        "text": "The mother of the destitute Jondrette household in the Gorbeau hovel: a family of four in one attic room. When her son Little Gavroche comes home every few months he finds a cold hearth; his mother loves his sisters, not him."
+      },
+      {
+        "from": 206,
+        "text": "Seen by Marius through the hole in the wall, she is a giant of a woman beside her small husband, forty or a hundred years old, squatting barefoot by the fire in chemise and petticoat, with greying reddish-blond hair and huge shining hands, a volume of a sentimental romance open on the floor. She calls her raging husband her 'little friend' and tells him he is too good to write to all those people."
+      },
+      {
+        "from": 207,
+        "text": "When the gentleman from Saint-Jacques is announced she obeys her husband's orders to go to bed and play the invalid, and comforts the younger girl after she cuts her hand on the broken pane."
+      },
+      {
+        "from": 209,
+        "text": "During M. Leblanc's visit her husband twice whispers to her to take a good look at the man."
+      },
+      {
+        "from": 212,
+        "text": "Alone with her, Jondrette says he recognises the visitor from eight years ago and whispers something about the young lady that throws her into a rage. She is with him in the plan: the man will come back at six, and if he does not give in, 'we'll fix him'."
+      },
+      {
+        "from": 217,
+        "text": "On the night of the trap she is dressed absurdly in a plumed black bonnet and a vast tartan shawl, takes Marius's two chairs from his room without seeing him, and goes down with a lantern to let the visitor in and send his cab away."
+      },
+      {
+        "from": 219,
+        "text": "She places herself between M. Leblanc and the door, and when he says Madame Fabantou seems better she calls her husband 'Monsieur Jondrette' by mistake."
+      }
+    ],
+    "moments": [
+      {
+        "chapter": 212,
+        "text": "Hears her husband's plan and joins it."
+      },
+      {
+        "chapter": 218,
+        "text": "Lights M. Leblanc up the stairs on the night of the trap."
+      }
+    ]
+  },
+  {
+    "id": "the-man-in-the-yellow-coat",
+    "name": "The man in the yellow coat",
+    "firstChapter": 97,
+    "importance": "supporting",
+    "group": "Montfermeil",
+    "mergedInto": {
+      "id": "jean-valjean",
+      "from": 103
+    },
+    "tagline": [
+      {
+        "from": 97,
+        "text": "A silent stranger who lifts Cosette's bucket in the dark forest."
+      },
+      {
+        "from": 98,
+        "text": "A poor, very clean white-haired traveller who avoids the king's carriage and the police on Christmas Day 1823."
+      },
+      {
+        "from": 100,
+        "text": "The shabby guest at the Thénardiers' inn who gives Cosette a doll."
+      },
+      {
+        "from": 101,
+        "text": "The stranger who pays fifteen hundred francs and walks away with Cosette."
+      }
+    ],
+    "description": [
+      {
+        "from": 97,
+        "text": "As Cosette staggers back from the spring in the dark with her bucket, a huge hand silently lifts the weight from her. A man is walking beside her, and she is not afraid."
+      },
+      {
+        "from": 98,
+        "text": "That Christmas afternoon he had been seen on the deserted Boulevard de l'Hôpital in Paris, looking for a lodging: a man in a threadbare ochre-yellow coat and an old round hat, poor but scrupulously clean, white-haired but strong in his stride. He hid from Louis XVIII's passing carriage, shook off the police agent sent after him, took the Lagny coach and got down at Chelles after dark. In the Montfermeil forest he went straight to a clearing with a heap of stones and marked trees, and checked that the ground there had not been disturbed."
+      },
+      {
+        "from": 99,
+        "text": "Walking back with Cosette, he asks her questions: she is eight, works for Madame Thénardier, has no mother that she knows of. At her name he seems to receive a shock. He says he will lodge at the inn."
+      },
+      {
+        "from": 100,
+        "text": "The Thénardiers take him for a beggar and charge him double. He watches Cosette all evening, spares her the whip by 'finding' a coin on the floor, buys the stocking she is knitting so that she may play, and when she is caught with the other girls' doll he goes out and comes back with the great doll from the stall. In the night he finds her asleep under the stairs and puts a gold louis in her wooden shoe."
+      },
+      {
+        "from": 101,
+        "text": "Next morning he pays a bill of twenty-three francs without a word, asks whether they would like to be rid of the child, and lays fifteen hundred francs on the table. He dresses Cosette in mourning clothes from his bundle and walks out of Montfermeil with her."
+      },
+      {
+        "from": 102,
+        "text": "When Thénardier catches up in the forest to demand more, the stranger produces a paper signed by Fantine ordering that the child be handed to the bearer, shows that Thénardier has already been overpaid, and walks off into the woods with Cosette and his cudgel."
+      }
+    ],
+    "moments": [
+      {
+        "chapter": 97,
+        "text": "Lifts Cosette's bucket at the spring."
+      },
+      {
+        "chapter": 100,
+        "text": "Gives Cosette the doll and a gold louis in her shoe."
+      },
+      {
+        "chapter": 101,
+        "text": "Pays fifteen hundred francs and takes Cosette away."
+      },
+      {
+        "chapter": 102,
+        "text": "Shows Thénardier a note signed by Fantine."
+      }
+    ]
+  },
+  {
+    "id": "the-thenardiers-little-boy",
+    "name": "The Thénardiers' little boy",
+    "firstChapter": 93,
+    "importance": "minor",
+    "group": "Montfermeil",
+    "mergedInto": {
+      "id": "gavroche",
+      "from": 222
+    },
+    "tagline": [
+      {
+        "from": 93,
+        "text": "The Thénardiers' unloved little son, crying unheard in the inn on Christmas Eve 1823."
+      }
+    ],
+    "description": [
+      {
+        "from": 93,
+        "text": "A boy of a little over three, born to the Thénardiers one winter, 'the result of the cold', his mother says. She nursed him but does not love him. When his crying annoys Thénardier, his wife answers, 'Bah! he bothers me,' and the child goes on shrieking in the dark."
+      },
+      {
+        "from": 100,
+        "text": "In the night the stranger sees him asleep in an uncurtained wicker cradle behind Éponine and Azelma's beds, the little boy who had cried all evening."
+      }
+    ]
+  }
+]

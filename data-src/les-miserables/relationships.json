@@ -1,0 +1,863 @@
+[
+  {
+    "a": "bishop-myriel",
+    "b": "mademoiselle-baptistine",
+    "states": [
+      {
+        "from": 1,
+        "type": "family",
+        "label": "Devoted brother and sister who share his poverty",
+        "kin": "sibling"
+      },
+      {
+        "from": 43,
+        "type": "family",
+        "label": "He dies blind, tended to the end by his sister",
+        "kin": "sibling"
+      }
+    ]
+  },
+  {
+    "a": "madame-magloire",
+    "b": "bishop-myriel",
+    "states": [
+      {
+        "from": 1,
+        "type": "work",
+        "label": "Housekeeper who frets over his open door"
+      },
+      {
+        "from": 26,
+        "type": "work",
+        "label": "She finds the silver gone; he says it belonged to the poor"
+      }
+    ]
+  },
+  {
+    "a": "mademoiselle-baptistine",
+    "b": "madame-magloire",
+    "states": [
+      {
+        "from": 1,
+        "type": "friend",
+        "label": "The two women who keep the Bishop’s house"
+      }
+    ]
+  },
+  {
+    "a": "bishop-myriel",
+    "b": "the-conventionist-g",
+    "states": [
+      {
+        "from": 10,
+        "type": "friend",
+        "label": "Shunned old revolutionary whose blessing the Bishop kneels for"
+      }
+    ]
+  },
+  {
+    "a": "bishop-myriel",
+    "b": "jean-valjean",
+    "states": [
+      {
+        "from": 17,
+        "type": "friend",
+        "label": "The bishop who takes in the convict and calls him “sir”"
+      },
+      {
+        "from": 25,
+        "type": "enemy",
+        "label": "Valjean robs his host of his silver in the night"
+      },
+      {
+        "from": 26,
+        "type": "friend",
+        "label": "He saves Valjean from the gendarmes and gives him the candlesticks"
+      },
+      {
+        "from": 27,
+        "type": "friend",
+        "label": "Valjean, shaken, kneels in the dark at the Bishop’s door"
+      },
+      {
+        "from": 57,
+        "type": "friend",
+        "label": "The dead bishop whose mercy Valjean must answer to"
+      },
+      {
+        "from": 364,
+        "type": "friend",
+        "label": "Valjean dies by the light of the Bishop’s candlesticks"
+      }
+    ]
+  },
+  {
+    "a": "monsieur-madeleine",
+    "b": "bishop-myriel",
+    "states": [
+      {
+        "from": 43,
+        "type": "friend",
+        "label": "The mayor mourns him, saying he served the family in youth"
+      }
+    ]
+  },
+  {
+    "a": "jean-valjean",
+    "b": "petit-gervais",
+    "states": [
+      {
+        "from": 27,
+        "type": "enemy",
+        "label": "Valjean steals the boy’s forty sous, then hunts for him in remorse"
+      },
+      {
+        "from": 57,
+        "type": "enemy",
+        "label": "Valjean burns the forty-sou piece, the last trace of the theft"
+      },
+      {
+        "from": 90,
+        "type": "enemy",
+        "label": "Recaptured, Valjean is condemned for robbing the boy"
+      }
+    ]
+  },
+  {
+    "a": "monsieur-madeleine",
+    "b": "petit-gervais",
+    "states": [
+      {
+        "from": 43,
+        "type": "enemy",
+        "label": "The mayor stops every Savoyard boy to ask his name"
+      }
+    ]
+  },
+  {
+    "a": "fantine",
+    "b": "tholomyes",
+    "states": [
+      {
+        "from": 29,
+        "type": "love",
+        "label": "Her first and only love, a rich, witty student"
+      },
+      {
+        "from": 36,
+        "type": "love",
+        "label": "He leaves her with a farewell letter, and she is pregnant"
+      },
+      {
+        "from": 51,
+        "type": "love",
+        "label": "The lover who left her, still in her thoughts on the streets"
+      }
+    ]
+  },
+  {
+    "a": "tholomyes",
+    "b": "cosette",
+    "states": [
+      {
+        "from": 37,
+        "type": "family",
+        "label": "The father who left before she was born",
+        "kin": "parent"
+      }
+    ]
+  },
+  {
+    "a": "favorite",
+    "b": "fantine",
+    "states": [
+      {
+        "from": 29,
+        "type": "friend",
+        "label": "Fellow grisettes on the outing to Saint-Cloud"
+      },
+      {
+        "from": 36,
+        "type": "friend",
+        "label": "The others laugh off the men’s desertion; Fantine weeps alone"
+      }
+    ]
+  },
+  {
+    "a": "favorite",
+    "b": "blachevelle",
+    "states": [
+      {
+        "from": 29,
+        "type": "love",
+        "label": "Mistress and lover"
+      },
+      {
+        "from": 33,
+        "type": "love",
+        "label": "She swears she adores him, and whispers that she detests him"
+      },
+      {
+        "from": 36,
+        "type": "love",
+        "label": "He leaves her with the others"
+      }
+    ]
+  },
+  {
+    "a": "dahlia",
+    "b": "listolier",
+    "states": [
+      {
+        "from": 29,
+        "type": "love",
+        "label": "Mistress and lover"
+      },
+      {
+        "from": 36,
+        "type": "love",
+        "label": "He leaves her with the others"
+      }
+    ]
+  },
+  {
+    "a": "zephine",
+    "b": "fameuil",
+    "states": [
+      {
+        "from": 29,
+        "type": "love",
+        "label": "Mistress and lover"
+      },
+      {
+        "from": 36,
+        "type": "love",
+        "label": "He leaves her with the others"
+      }
+    ]
+  },
+  {
+    "a": "tholomyes",
+    "b": "blachevelle",
+    "states": [
+      {
+        "from": 29,
+        "type": "friend",
+        "label": "Students in Tholomyès’s band who plan the “surprise”"
+      }
+    ]
+  },
+  {
+    "a": "fantine",
+    "b": "cosette",
+    "states": [
+      {
+        "from": 37,
+        "type": "family",
+        "label": "Mother who must leave her baby with strangers to find work",
+        "kin": "parent"
+      },
+      {
+        "from": 47,
+        "type": "family",
+        "label": "Her letters to Montfermeil cost her her place",
+        "kin": "parent"
+      },
+      {
+        "from": 49,
+        "type": "family",
+        "label": "She sells her hair and teeth for the child",
+        "kin": "parent"
+      },
+      {
+        "from": 60,
+        "type": "family",
+        "label": "Dying, she sings Cosette’s old cradle song",
+        "kin": "parent"
+      },
+      {
+        "from": 69,
+        "type": "family",
+        "label": "She dies without seeing her child again",
+        "kin": "parent"
+      },
+      {
+        "from": 236,
+        "type": "family",
+        "label": "Cosette does not even know her mother’s name",
+        "kin": "parent"
+      },
+      {
+        "from": 364,
+        "type": "family",
+        "label": "Cosette hears her mother’s name, Fantine, at last",
+        "kin": "parent"
+      }
+    ]
+  },
+  {
+    "a": "madame-thenardier",
+    "b": "fantine",
+    "states": [
+      {
+        "from": 37,
+        "type": "work",
+        "label": "Innkeeper’s wife paid to keep Fantine’s child"
+      },
+      {
+        "from": 39,
+        "type": "enemy",
+        "label": "She pawns the child’s clothes and keeps raising the price"
+      }
+    ]
+  },
+  {
+    "a": "thenardier",
+    "b": "fantine",
+    "states": [
+      {
+        "from": 37,
+        "type": "work",
+        "label": "Innkeeper who boards Fantine’s child"
+      },
+      {
+        "from": 49,
+        "type": "enemy",
+        "label": "His lying letters bleed her of hair, teeth and body"
+      },
+      {
+        "from": 53,
+        "type": "enemy",
+        "label": "He invents bills and keeps her child"
+      }
+    ]
+  },
+  {
+    "a": "thenardier",
+    "b": "madame-thenardier",
+    "states": [
+      {
+        "from": 37,
+        "type": "family",
+        "label": "Innkeepers of Montfermeil, a husband and wife in crime",
+        "kin": "spouse"
+      },
+      {
+        "from": 220,
+        "type": "family",
+        "label": "Partners in the ambush at the Gorbeau house",
+        "kin": "spouse"
+      },
+      {
+        "from": 221,
+        "type": "family",
+        "label": "Both are arrested in the raid",
+        "kin": "spouse"
+      },
+      {
+        "from": 349,
+        "type": "family",
+        "label": "She has died in prison; he is condemned and gone",
+        "kin": "spouse"
+      }
+    ]
+  },
+  {
+    "a": "madame-thenardier",
+    "b": "cosette",
+    "states": [
+      {
+        "from": 37,
+        "type": "work",
+        "label": "Paid to board the baby"
+      },
+      {
+        "from": 39,
+        "type": "enemy",
+        "label": "Beats and starves the child she is paid to keep"
+      },
+      {
+        "from": 95,
+        "type": "enemy",
+        "label": "Sends the child alone into the night for water"
+      },
+      {
+        "from": 101,
+        "type": "enemy",
+        "label": "Glad to be rid of her for good"
+      }
+    ]
+  },
+  {
+    "a": "thenardier",
+    "b": "cosette",
+    "states": [
+      {
+        "from": 37,
+        "type": "work",
+        "label": "Paid to board the baby"
+      },
+      {
+        "from": 39,
+        "type": "enemy",
+        "label": "Lets her be worked and beaten as a drudge"
+      },
+      {
+        "from": 101,
+        "type": "enemy",
+        "label": "Sells her to the stranger for fifteen hundred francs"
+      },
+      {
+        "from": 220,
+        "type": "enemy",
+        "label": "He calls the prisoner’s daughter the Lark he lost"
+      }
+    ]
+  },
+  {
+    "a": "monsieur-madeleine",
+    "b": "fantine",
+    "states": [
+      {
+        "from": 46,
+        "type": "work",
+        "label": "The mayor whose factory takes her on; she does not know him"
+      },
+      {
+        "from": 47,
+        "type": "work",
+        "label": "She is dismissed in his name, unknown to him"
+      },
+      {
+        "from": 49,
+        "type": "enemy",
+        "label": "She blames the mayor for her ruin"
+      },
+      {
+        "from": 52,
+        "type": "enemy",
+        "label": "She spits in his face; he orders her freed"
+      },
+      {
+        "from": 52,
+        "type": "friend",
+        "label": "He promises to pay her debts and bring her child"
+      },
+      {
+        "from": 53,
+        "type": "friend",
+        "label": "He nurses her in his infirmary and sends for Cosette"
+      },
+      {
+        "from": 55,
+        "type": "friend",
+        "label": "He sits with her as she sinks"
+      }
+    ]
+  },
+  {
+    "a": "jean-valjean",
+    "b": "fantine",
+    "states": [
+      {
+        "from": 57,
+        "type": "friend",
+        "label": "The dying woman he has vowed to reunite with her child"
+      },
+      {
+        "from": 66,
+        "type": "friend",
+        "label": "Back from Arras, he finds her asking for Cosette"
+      },
+      {
+        "from": 69,
+        "type": "friend",
+        "label": "She dies of terror at his arrest; he whispers in her ear"
+      },
+      {
+        "from": 90,
+        "type": "friend",
+        "label": "The promise to her child still unkept"
+      },
+      {
+        "from": 103,
+        "type": "friend",
+        "label": "He has fetched her daughter at last"
+      },
+      {
+        "from": 364,
+        "type": "friend",
+        "label": "He gives her name to the daughter she never saw again"
+      }
+    ]
+  },
+  {
+    "a": "monsieur-madeleine",
+    "b": "javert",
+    "states": [
+      {
+        "from": 44,
+        "type": "work",
+        "label": "Police inspector who watches the mayor with steady suspicion"
+      },
+      {
+        "from": 45,
+        "type": "work",
+        "label": "Javert speaks of a Toulon convict as strong as the mayor"
+      },
+      {
+        "from": 46,
+        "type": "work",
+        "label": "Javert avoids the new mayor like a dog smelling a wolf"
+      },
+      {
+        "from": 52,
+        "type": "enemy",
+        "label": "The mayor overrules him over Fantine"
+      },
+      {
+        "from": 53,
+        "type": "enemy",
+        "label": "Javert posts a letter to the Paris prefecture"
+      },
+      {
+        "from": 54,
+        "type": "work",
+        "label": "Javert confesses he denounced him and asks to be dismissed"
+      }
+    ]
+  },
+  {
+    "a": "javert",
+    "b": "jean-valjean",
+    "states": [
+      {
+        "from": 57,
+        "type": "enemy",
+        "label": "The inspector who knew him at Toulon, now sure he has the right man in Champmathieu"
+      },
+      {
+        "from": 68,
+        "type": "enemy",
+        "label": "Javert comes with a warrant, transfigured by joy"
+      },
+      {
+        "from": 69,
+        "type": "enemy",
+        "label": "He seizes Valjean by the collar at Fantine’s bedside"
+      },
+      {
+        "from": 70,
+        "type": "enemy",
+        "label": "Valjean breaks jail and slips past him"
+      },
+      {
+        "from": 108,
+        "type": "enemy",
+        "label": "Javert finds him in the Gorbeau house"
+      },
+      {
+        "from": 113,
+        "type": "enemy",
+        "label": "A night chase that ends at the convent wall"
+      },
+      {
+        "from": 146,
+        "type": "enemy",
+        "label": "Javert watches the quarter in vain"
+      },
+      {
+        "from": 304,
+        "type": "enemy",
+        "label": "Bound at the barricade, Javert recognises him"
+      },
+      {
+        "from": 316,
+        "type": "enemy",
+        "label": "Valjean asks to be the one to shoot the spy"
+      },
+      {
+        "from": 317,
+        "type": "enemy",
+        "label": "Valjean cuts him loose and fires into the air"
+      },
+      {
+        "from": 337,
+        "type": "enemy",
+        "label": "At the sewer outlet Javert takes him, then lets him carry Marius home"
+      },
+      {
+        "from": 339,
+        "type": "enemy",
+        "label": "Javert walks away, leaving him free"
+      },
+      {
+        "from": 341,
+        "type": "enemy",
+        "label": "Javert cannot bear the debt and drowns himself"
+      },
+      {
+        "from": 346,
+        "type": "enemy",
+        "label": "Valjean reads in the papers that Javert is dead"
+      }
+    ]
+  },
+  {
+    "a": "javert",
+    "b": "fantine",
+    "states": [
+      {
+        "from": 51,
+        "type": "enemy",
+        "label": "He arrests her for striking a gentleman"
+      },
+      {
+        "from": 52,
+        "type": "enemy",
+        "label": "He sentences her to six months, deaf to her pleading"
+      },
+      {
+        "from": 69,
+        "type": "enemy",
+        "label": "His shout tells her the truth, and she dies of it"
+      }
+    ]
+  },
+  {
+    "a": "javert",
+    "b": "champmathieu",
+    "states": [
+      {
+        "from": 54,
+        "type": "enemy",
+        "label": "Javert swears the old apple-thief is Jean Valjean"
+      }
+    ]
+  },
+  {
+    "a": "monsieur-madeleine",
+    "b": "champmathieu",
+    "states": [
+      {
+        "from": 54,
+        "type": "friend",
+        "label": "An old man about to be condemned as Jean Valjean"
+      }
+    ]
+  },
+  {
+    "a": "jean-valjean",
+    "b": "champmathieu",
+    "states": [
+      {
+        "from": 57,
+        "type": "friend",
+        "label": "Let him go to the galleys, or give himself up?"
+      },
+      {
+        "from": 65,
+        "type": "friend",
+        "label": "Valjean unmasks himself in court and the old man goes free"
+      }
+    ]
+  },
+  {
+    "a": "jean-valjean",
+    "b": "brevet",
+    "states": [
+      {
+        "from": 24,
+        "type": "work",
+        "label": "A galley-mate whose checked suspenders he remembers"
+      },
+      {
+        "from": 65,
+        "type": "work",
+        "label": "Valjean proves who he is by recalling those suspenders"
+      }
+    ]
+  },
+  {
+    "a": "jean-valjean",
+    "b": "chenildieu",
+    "states": [
+      {
+        "from": 65,
+        "type": "work",
+        "label": "Old galley-mate; Valjean recalls the burn on his shoulder"
+      }
+    ]
+  },
+  {
+    "a": "jean-valjean",
+    "b": "cochepaille",
+    "states": [
+      {
+        "from": 65,
+        "type": "work",
+        "label": "Old galley-mate; Valjean recalls the date tattooed on his arm"
+      }
+    ]
+  },
+  {
+    "a": "monsieur-madeleine",
+    "b": "fauchelevent",
+    "states": [
+      {
+        "from": 45,
+        "type": "friend",
+        "label": "The mayor lifts the cart off a man who hates him"
+      },
+      {
+        "from": 46,
+        "type": "friend",
+        "label": "He buys the ruined carter’s horse and places him as a convent gardener"
+      }
+    ]
+  },
+  {
+    "a": "fauchelevent",
+    "b": "jean-valjean",
+    "states": [
+      {
+        "from": 117,
+        "type": "friend",
+        "label": "The gardener recognises “Father Madeleine” and shelters him"
+      },
+      {
+        "from": 138,
+        "type": "friend",
+        "label": "He resolves to save him, whoever he is"
+      },
+      {
+        "from": 144,
+        "type": "friend",
+        "label": "He digs Valjean up alive from the grave"
+      },
+      {
+        "from": 145,
+        "type": "friend",
+        "label": "He passes him off as his brother Ultime"
+      },
+      {
+        "from": 146,
+        "type": "friend",
+        "label": "Gardeners side by side in the convent"
+      },
+      {
+        "from": 233,
+        "type": "friend",
+        "label": "Old Fauchelevent has died; Valjean takes his name into the world"
+      }
+    ]
+  },
+  {
+    "a": "monsieur-madeleine",
+    "b": "sister-simplice",
+    "states": [
+      {
+        "from": 55,
+        "type": "work",
+        "label": "The mayor trusts the nun who has never lied with Fantine’s care"
+      }
+    ]
+  },
+  {
+    "a": "sister-simplice",
+    "b": "jean-valjean",
+    "states": [
+      {
+        "from": 66,
+        "type": "friend",
+        "label": "She is shocked to see his hair turned white"
+      },
+      {
+        "from": 70,
+        "type": "friend",
+        "label": "She tells her first lies to Javert to save him"
+      }
+    ]
+  },
+  {
+    "a": "sister-simplice",
+    "b": "fantine",
+    "states": [
+      {
+        "from": 55,
+        "type": "friend",
+        "label": "The nun who nurses her"
+      },
+      {
+        "from": 60,
+        "type": "friend",
+        "label": "She will not lie to the dying woman about the mayor"
+      }
+    ]
+  },
+  {
+    "a": "marguerite",
+    "b": "fantine",
+    "states": [
+      {
+        "from": 48,
+        "type": "friend",
+        "label": "Old neighbour who teaches her to live on nothing"
+      }
+    ]
+  },
+  {
+    "a": "madame-victurnien",
+    "b": "fantine",
+    "states": [
+      {
+        "from": 47,
+        "type": "enemy",
+        "label": "Pious busybody who exposes her child and gets her dismissed"
+      }
+    ]
+  },
+  {
+    "a": "bamatabois",
+    "b": "fantine",
+    "states": [
+      {
+        "from": 51,
+        "type": "enemy",
+        "label": "A dandy who stuffs snow down her back and gets her arrested"
+      },
+      {
+        "from": 63,
+        "type": "enemy",
+        "label": "Her tormentor sits on the jury at Arras"
+      }
+    ]
+  },
+  {
+    "a": "monsieur-madeleine",
+    "b": "cosette",
+    "states": [
+      {
+        "from": 52,
+        "type": "friend",
+        "label": "He promises Fantine to bring her child"
+      },
+      {
+        "from": 53,
+        "type": "friend",
+        "label": "He sends money to free her; the Thénardiers keep her"
+      }
+    ]
+  },
+  {
+    "a": "monsieur-madeleine",
+    "b": "thenardier",
+    "states": [
+      {
+        "from": 53,
+        "type": "enemy",
+        "label": "The mayor sends money for Cosette; Thénardier invents bills"
+      }
+    ]
+  }
+]

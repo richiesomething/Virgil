@@ -3229,5 +3229,465 @@
       "love",
       "parenthood"
     ]
+  },
+  {
+    "chapter": 244,
+    "kind": "question",
+    "title": "Impasse de la Planchette",
+    "text": "Every so often, when money runs short, Valjean goes away for a day or two; once Cosette saw him get down at a blind alley called the Impasse de la Planchette. Hugo gives the name and nothing more. Where does a man with no visible income go to fetch money?",
+    "themes": [
+      "names",
+      "poverty"
+    ]
+  },
+  {
+    "chapter": 244,
+    "kind": "motif",
+    "title": "A shadow with a round hat",
+    "text": "After footsteps in the night, Cosette sees beside her own moonlit shadow 'another shadow ... which had a round hat', and when she turns there is no one. 'Phantoms do not wear round hats.' Hugo stages the scene like the garret, by moonlight and silhouettes, but this time the watcher hides from the watched.",
+    "themes": [
+      "light-darkness",
+      "love"
+    ]
+  },
+  {
+    "chapter": 244,
+    "kind": "craft",
+    "title": "The chimney-pot",
+    "text": "Valjean, armed with a club, guards the garden three nights, then laughs and shows Cosette the shadow of a chimney-pipe on a neighbouring roof. She accepts it and forgets to ask why a chimney's shadow should flee when looked at. Hugo lets the reader notice the hole in the explanation that the girl, relieved, does not.",
+    "themes": [
+      "light-darkness",
+      "parenthood"
+    ]
+  },
+  {
+    "chapter": 244,
+    "kind": "theme",
+    "title": "More lark than dove",
+    "text": "'There flowed in her veins some of the blood of the bohemian and the adventuress who runs barefoot.' Hugo reminds us that Cosette is Fantine's daughter and the barefoot child of Montfermeil as well as a convent pupil. Her courage in searching the dark thicket alone comes from that rougher past.",
+    "themes": [
+      "parenthood",
+      "names"
+    ]
+  },
+  {
+    "chapter": 245,
+    "kind": "motif",
+    "title": "A stone on the bench",
+    "text": "An arm through the railing leaves a stone where Cosette was sitting. By night it becomes 'as large as a mountain and full of caverns'; by morning, 'that which is terror by night is curiosity by day'. Hugo traces how fear and light trade places, and how a young girl's imagination turns a stone into a monster and back.",
+    "themes": [
+      "light-darkness",
+      "love"
+    ]
+  },
+  {
+    "chapter": 245,
+    "kind": "craft",
+    "title": "Toussaint's melodrama",
+    "text": "Toussaint cheerfully imagines men entering at night and cutting their throats with bad knives. Hugo also announces he will stop reproducing her stammer: 'The musical notation of an infirmity is repugnant to us.' A small moment where the narrator shows tact toward a minor character.",
+    "themes": [
+      "poverty"
+    ]
+  },
+  {
+    "chapter": 245,
+    "kind": "question",
+    "title": "Perhaps Fantine was within that shadow",
+    "text": "Sitting alone at dusk, Cosette feels an 'objectless sadness', and Hugo adds a single line: 'Perhaps Fantine was within that shadow.' The narrator believes the dead may watch over the living. What does it add to the scene that the mother Cosette cannot name may be present at the moment love arrives?",
+    "themes": [
+      "parenthood",
+      "light-darkness"
+    ]
+  },
+  {
+    "chapter": 246,
+    "kind": "craft",
+    "title": "Drops of soul",
+    "text": "The whole chapter is the notebook found under the stone: aphorisms on love, God and death, with no name or address. Hugo drops the story entirely and gives us the text itself, so the reader reads it as Cosette does. It is the notebook Marius was 'writing to her' in his despair.",
+    "themes": [
+      "love"
+    ]
+  },
+  {
+    "chapter": 246,
+    "kind": "motif",
+    "title": "To love a being is to render that being transparent",
+    "text": "'Things are black, creatures are opaque. To love a being is to render that being transparent.' The notebook is full of light: stars, sun, a woman who 'emits light as she walks'. 'If there did not exist someone who loved, the sun would become extinct.' Love is presented as the force that lets light through the world.",
+    "themes": [
+      "love",
+      "light-darkness"
+    ]
+  },
+  {
+    "chapter": 246,
+    "kind": "theme",
+    "title": "The stars through his soul",
+    "text": "'I encountered in the street, a very poor young man who was in love. His hat was old ... water trickled through his shoes, and the stars through his soul.' The writer has slipped a self-portrait into his meditations. Poverty and love, the two forces of Marius's life, share one sentence.",
+    "themes": [
+      "poverty",
+      "love"
+    ]
+  },
+  {
+    "chapter": 246,
+    "kind": "theme",
+    "title": "Try to love souls",
+    "text": "'Woe ... to him who shall have loved only bodies, forms, appearances! Death will deprive him of all. Try to love souls, you will find them again.' The notebook ends its thoughts on love with death and the hope of reunion. It sounds like Marius, but it also sounds like Hugo, whose own beliefs about death run through the book.",
+    "themes": [
+      "love",
+      "light-darkness"
+    ]
+  },
+  {
+    "chapter": 247,
+    "kind": "craft",
+    "title": "The officer passes again",
+    "text": "Hugo times Théodule's daily ride past the gate twice in this chapter: once as Cosette finishes the notebook, when she finds him hideous, and once on the third reading, when he is 'insipid, silly, stupid ... and extremely ugly'. The comedy measures the change in her heart. One page of writing undoes weeks of glances.",
+    "themes": [
+      "love"
+    ]
+  },
+  {
+    "chapter": 247,
+    "kind": "motif",
+    "title": "A pellet of bread over La Force",
+    "text": "Cosette believes 'an intervention of the angels' has given him back to her. Hugo corrects her: that celestial chance 'was a pellet of bread tossed by one thief to another thief ... over the roofs of La Force'. Brujon's message sent Éponine to the Rue Plumet; Éponine brought Marius. The sublime is delivered by the underworld.",
+    "themes": [
+      "love",
+      "mercy-law"
+    ]
+  },
+  {
+    "chapter": 247,
+    "kind": "theme",
+    "title": "The firebrand and the flame",
+    "text": "Her education had 'talked to her of the soul, and never of love, very much as one might talk of the firebrand and not of the flame'. The notebook is 'a spark which had fallen from that other soul into hers'. Hugo returns to his argument that keeping girls ignorant does not protect them; it leaves them open to the first strong light.",
+    "themes": [
+      "love",
+      "light-darkness"
+    ]
+  },
+  {
+    "chapter": 248,
+    "kind": "theme",
+    "title": "Oh! my mother!",
+    "text": "When Marius finally speaks, Cosette's first words are 'Oh! my mother!' and she nearly faints. She has never known her mother, and once wondered if Valjean was her mother. In the moment of love she calls for the parent she never had.",
+    "themes": [
+      "parenthood",
+      "love"
+    ]
+  },
+  {
+    "chapter": 248,
+    "kind": "craft",
+    "title": "A kiss, and that was all",
+    "text": "After a long, breathless speech from Marius, Hugo turns brief: 'How did it come to pass that their lips met? How comes it to pass that the birds sing, that snow melts?' The kiss is placed alongside the seasons and the dawn. Then: 'A kiss, and that was all.'",
+    "themes": [
+      "love"
+    ]
+  },
+  {
+    "chapter": 248,
+    "kind": "theme",
+    "title": "My name is Cosette",
+    "text": "They tell each other everything, dreams, despair, how they adored each other from afar, and only at the very end ask each other's names. 'My name is Marius.' 'My name is Cosette.' After 'Ursule', 'the Lark', 'Mlle Lanoire' and the rest, the two finally exchange true names, last of all.",
+    "themes": [
+      "names",
+      "love"
+    ]
+  },
+  {
+    "chapter": 248,
+    "kind": "motif",
+    "title": "Not yet a ghost",
+    "text": "Marius appears bare-headed, thin and pale, lit by the dying day, 'not yet a ghost, and ... no longer a man'. Hugo surrounds the first meeting with images of death and night. The young man who has been sinking toward despair arrives looking as if he has already half left the world.",
+    "themes": [
+      "love",
+      "light-darkness"
+    ]
+  },
+  {
+    "chapter": 249,
+    "kind": "theme",
+    "title": "A mother to her daughters only",
+    "text": "Hugo now tells us that the Thénardiers had five children, two girls and three boys, and that the mother's love stopped at the girls: 'Her hatred of the human race began with her own sons.' Why? 'Because.' The reader saw her neglect the crying boy at Montfermeil and turn Gavroche out. Now we learn there were two more.",
+    "themes": [
+      "parenthood",
+      "love"
+    ]
+  },
+  {
+    "chapter": 249,
+    "kind": "theme",
+    "title": "Children on loan",
+    "text": "When Magnon's two boys, paid for by M. Gillenormand, died of croup on the same day, the Thénardiers lent her their two youngest for ten francs a month. 'The little Thénardiers became little Magnons.' Gillenormand visits twice a year and is told they look like him. Children here are a source of income, swapped like coins.",
+    "themes": [
+      "parenthood",
+      "poverty",
+      "names"
+    ]
+  },
+  {
+    "chapter": 249,
+    "kind": "motif",
+    "title": "Jean-Jacques did even better",
+    "text": "When his wife feels a scruple about abandoning their children, Thénardier silences her: 'Jean Jacques Rousseau did even better!' It echoes the student debate on the Rue Jean-Jacques Rousseau in Book IV. Enjolras defended the philosopher because he 'adopted the people'. Thénardier uses him as an excuse.",
+    "themes": [
+      "parenthood",
+      "revolution"
+    ]
+  },
+  {
+    "chapter": 249,
+    "kind": "theme",
+    "title": "Identity broken between two streets",
+    "text": "'In Paris, the identity which binds an individual to himself is broken between one street and another.' Magnon moves from the Quai des Célestins to the Rue Clocheperce and her children's names change with the move. In this book, a whole life can be swapped by changing an address.",
+    "themes": [
+      "names",
+      "paris"
+    ]
+  },
+  {
+    "chapter": 249,
+    "kind": "motif",
+    "title": "The malicious playfulness of the wind",
+    "text": "After the police raid, a cobbler gives the two little boys a paper with M. Barge's address. A gust tears it from the elder's numb fingers at the corner of the street, and night falls. A whole fate turns on a scrap of paper and a puff of wind. The chapter title makes the wind the villain.",
+    "themes": [
+      "parenthood",
+      "poverty"
+    ]
+  },
+  {
+    "chapter": 250,
+    "kind": "motif",
+    "title": "The door of the sepulchre",
+    "text": "Spring 1832 brings icy north winds 'like the door of winter' left ajar, and Hugo names what came through it: cholera, the epidemic that killed thousands in Paris that year. He adds that these winds came with strong electric tension and frequent storms. The weather of the book is turning ominous.",
+    "themes": [
+      "history",
+      "paris"
+    ]
+  },
+  {
+    "chapter": 250,
+    "kind": "theme",
+    "title": "Brothers without knowing it",
+    "text": "Gavroche takes in two lost little boys, feeds them his last sou of bread and puts them to bed in his elephant. The reader knows, from the chapter before, that they are his own brothers. Gavroche never asks their names. A child thrown out by his parents mothers the children his parents gave away.",
+    "themes": [
+      "parenthood",
+      "love",
+      "poverty"
+    ]
+  },
+  {
+    "chapter": 250,
+    "kind": "motif",
+    "title": "White bread",
+    "text": "Offered black bread, Gavroche snorts 'Keksekça?' and demands white: 'I'm standing treat.' He gives the biggest piece to the elder boy and keeps the smallest for himself. The book has made bread a sacred object since a loaf sent a man to the galleys. A ragged boy shares it with the generosity of a lord.",
+    "themes": [
+      "poverty",
+      "love"
+    ]
+  },
+  {
+    "chapter": 250,
+    "kind": "theme",
+    "title": "Shivering more than Saint Martin",
+    "text": "Gavroche gives his only shawl to a half-naked beggar girl and shivers, 'more than Saint Martin, for the latter retained one-half of his cloak'. 'The wicked skies punish good deeds,' Hugo notes as the rain redoubles. The gamin of Book I, all jokes and mockery, turns out to have the reflexes of a saint.",
+    "themes": [
+      "poverty",
+      "conscience"
+    ]
+  },
+  {
+    "chapter": 250,
+    "kind": "context",
+    "title": "The elephant of the Bastille",
+    "text": "Napoleon planned a vast bronze elephant fountain on the site of the Bastille; only a full-size plaster model was built, and it stood rotting there until 1846. The July Column, the 'stove' Hugo mocks, replaced the fortress as a monument to 1830. Hugo also notes a real court case of a child found sleeping inside the elephant.",
+    "themes": [
+      "history",
+      "paris"
+    ]
+  },
+  {
+    "chapter": 250,
+    "kind": "theme",
+    "title": "God had done a grander thing with it",
+    "text": "'The Emperor had had the dream of a genius ... he wished to incarnate the people. God had done a grander thing with it, he had lodged a child there.' Hugo's hymn to 'the unforeseen utility of the useless' turns a forgotten imperial monument into a cradle. Glory is less than shelter; Marius's Napoleon is less than this.",
+    "themes": [
+      "history",
+      "poverty",
+      "mercy-law"
+    ]
+  },
+  {
+    "chapter": 250,
+    "kind": "craft",
+    "title": "Nobody says police, they say bobbies",
+    "text": "Gavroche keeps correcting the little boys' French into slang: 'crib', 'darkmans', 'nut', 'blaze the crib'. It is comic, and it is also a lesson in how to survive the street. Hugo is preparing his digression on argot, and lets a child teach it first.",
+    "themes": [
+      "names",
+      "paris"
+    ]
+  },
+  {
+    "chapter": 250,
+    "kind": "motif",
+    "title": "Since the good God is lighting his candle",
+    "text": "Inside the elephant Gavroche's 'cellar rat' wick gives more smoke than light; when thunder and lightning come, he laughs: 'Since the good God is lighting his candle, I can blow out mine.' Then come the rats, which ate his cat, held off by a brass net from the zoo and by his hand across the dark.",
+    "themes": [
+      "light-darkness",
+      "love"
+    ]
+  },
+  {
+    "chapter": 250,
+    "kind": "question",
+    "title": "We need you",
+    "text": "Before dawn Montparnasse calls Gavroche out with a parakeet cry: 'We need you. Come, lend us a hand.' 'I'm with you.' Gavroche asks no questions and leaves the little boys asleep. What does it tell you about Gavroche that he mothers two strangers and runs errands for a murderer on the same night?",
+    "themes": [
+      "conscience",
+      "poverty"
+    ]
+  },
+  {
+    "chapter": 251,
+    "kind": "craft",
+    "title": "That same night",
+    "text": "Hugo steps back in time to tell 'what had taken place that same night at La Force'. The storm that rattled the elephant and the lightning that frightened the little boys also covered the noise of Brujon and Gueulemer breaking through a chimney. Two stories of the same night run in parallel until a parakeet cry joins them.",
+    "themes": [
+      "light-darkness",
+      "paris"
+    ]
+  },
+  {
+    "chapter": 251,
+    "kind": "context",
+    "title": "Inside La Force",
+    "text": "La Force was a prison in the Marais built from an old ducal mansion; Hugo describes its crumbling 'New Building', where stones fell on sleeping prisoners, and the cages of the 'Fine-Air' under the roof. He notes drily that the dungeons were renamed 'chambers of punishment' with exactly the same contents. The reform was in the word only.",
+    "themes": [
+      "mercy-law",
+      "history",
+      "names"
+    ]
+  },
+  {
+    "chapter": 251,
+    "kind": "theme",
+    "title": "Something of the star and of the lightning",
+    "text": "Nobody ever learned how Thénardier crossed the prison walls. Hugo calls the escaping man 'inspired' and compares the thief's leap to the flight of genius. It is a startling comparison for a man we have just watched torture a prisoner. The drive for freedom, in Hugo, belongs to everyone, even the worst.",
+    "themes": [
+      "mercy-law",
+      "light-darkness"
+    ]
+  },
+  {
+    "chapter": 251,
+    "kind": "theme",
+    "title": "Hullo! it's my father!",
+    "text": "At dawn Gavroche sees the face on the wall and recognises it. 'Hullo! it's my father! Oh, that won't hinder.' He climbs the flue and saves him. Then he waits on a fence-post 'thinking that perhaps his father would turn towards him'. Thénardier never does. Hugo gives the moment no commentary at all.",
+    "themes": [
+      "parenthood",
+      "love"
+    ]
+  },
+  {
+    "chapter": 251,
+    "kind": "motif",
+    "title": "Now, whom are we to eat?",
+    "text": "Safe on the pavement, Thénardier's first words are 'Now, whom are we to eat?' He came down from the wall the way he climbed up at Waterloo and in the Gorbeau house: hungry. The appetite Book VII described as the mark of the lowest mine is speaking.",
+    "themes": [
+      "poverty",
+      "light-darkness"
+    ]
+  },
+  {
+    "chapter": 251,
+    "kind": "question",
+    "title": "It must be seen to",
+    "text": "Brujon raises the Rue Plumet job again; Éponine sent back a biscuit; Thénardier says 'The girl's no fool. Still, it must be seen to.' The reader knows who lives behind that gate. What will Éponine do if her father goes there himself?",
+    "themes": [
+      "conscience",
+      "love"
+    ]
+  },
+  {
+    "chapter": 251,
+    "kind": "craft",
+    "title": "Do you think so?",
+    "text": "'It strikes me that it was your son.' 'Bah! do you think so?' The chapter ends on Thénardier's shrug. Hugo has just shown three brothers who do not know each other and a father who does not recognise the child who saved him. The family has dissolved so completely that its members are strangers.",
+    "themes": [
+      "parenthood",
+      "names"
+    ]
+  },
+  {
+    "chapter": 251,
+    "kind": "motif",
+    "title": "Icigo and icicaille",
+    "text": "Thénardier, stranded on the wall, identifies his rescuers in the dark by their slang: 'icigo' from the barriers means Brujon, 'icicaille' from the Temple means Babet, plain French means Montparnasse. Each kind of 'here' is a signature. It is the perfect lead-in to the Book on argot that follows.",
+    "themes": [
+      "names",
+      "paris"
+    ]
+  },
+  {
+    "chapter": 252,
+    "kind": "craft",
+    "title": "A digression in defence of a digression",
+    "text": "Book VII opens by defending itself. When Hugo put a thief speaking argot into 'The Last Day of a Condemned Man' in 1829, readers were scandalised. He answers: 'When has horror ever excluded study? Since when has malady banished medicine?' The digression explains why the novel goes down into the gutter at all.",
+    "themes": [
+      "poverty",
+      "history"
+    ]
+  },
+  {
+    "chapter": 252,
+    "kind": "theme",
+    "title": "The language of wretchedness",
+    "text": "Hugo grants that every trade has its jargon, sailors, stockbrokers, academicians who call the sea 'Neptune'. But true argot is 'the tongue of wretchedness', a language of combat invented by misery against society. It is one more piece of evidence for his argument that crime is born of poverty.",
+    "themes": [
+      "poverty",
+      "names"
+    ]
+  },
+  {
+    "chapter": 252,
+    "kind": "theme",
+    "title": "Two kinds of historian",
+    "text": "One historian records battles, kings and revolutions in daylight; the other descends into 'the depths, the people who toil, suffer, wait'. Hugo insists the two are one: 'Do we really know the mountain well when we are not acquainted with the cavern?' It is a statement of method for the whole novel.",
+    "themes": [
+      "history",
+      "poverty"
+    ]
+  },
+  {
+    "chapter": 252,
+    "kind": "motif",
+    "title": "A dressing-room for the tongue",
+    "text": "'Slang is nothing but a dressing-room where the tongue having some bad action to perform, disguises itself.' Argot is French in a mask, as the characters of this book go about in aliases. Hugo extends his theme of disguise from people to words.",
+    "themes": [
+      "names",
+      "light-darkness"
+    ]
+  },
+  {
+    "chapter": 252,
+    "kind": "theme",
+    "title": "The luminous and the shady",
+    "text": "'In this world ... there are no fortunate.' The real division is between 'the luminous and the shady', and the aim is to increase the luminous: 'To teach reading, means to light the fire; every syllable spelled out sparkles.' And yet light is not joy: 'The luminous weep, if only over those in darkness.'",
+    "themes": [
+      "light-darkness",
+      "mercy-law"
+    ]
+  },
+  {
+    "chapter": 252,
+    "kind": "question",
+    "title": "Who knows whether man is not a recaptured offender?",
+    "text": "'Let us have compassion on the chastised. Alas! Who are we ourselves?' Hugo suggests the earth itself resembles a jail and every human life feels like a sentence. If everyone is in some sense a prisoner, what follows for how we treat the ones in actual chains?",
+    "themes": [
+      "mercy-law",
+      "conscience"
+    ]
   }
 ]

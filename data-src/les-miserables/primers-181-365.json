@@ -1,0 +1,243 @@
+[
+  {
+    "chapter": 181,
+    "setting": "The Latin Quarter, Paris, the days after the evening at the Café Musain",
+    "keepInMind": "Turned out by his grandfather with thirty francs, Marius lodges with Courfeyrac at the hôtel de la Porte-Saint-Jacques. At the Café Musain his passionate defence of Napoleon was answered by Combeferre's 'To be free' and Enjolras's 'My mother is the Republic.'",
+    "returning": [
+      {
+        "id": "monsieur-gillenormand",
+        "reminder": "Marius's grandfather, a loud royalist of over ninety, who ordered him out of the house when he shouted 'Down with the Bourbons!'"
+      },
+      {
+        "id": "mademoiselle-gillenormand",
+        "reminder": "M. Gillenormand's prim unmarried daughter, Marius's aunt, who keeps house for her father; she once paid Théodule to spy on Marius."
+      }
+    ]
+  },
+  {
+    "chapter": 182,
+    "setting": "Paris, the hard years after Marius leaves the hotel",
+    "keepInMind": "With his clothes and watch sold and the hotel paid, Marius has a few francs left. He sent back his aunt's six hundred francs with a respectful letter and left the hotel rather than run into debt.",
+    "returning": []
+  },
+  {
+    "chapter": 183,
+    "setting": "Paris, once Marius's poverty has settled into a routine",
+    "keepInMind": "Marius has known days without bread, worn a turned coat only after dark, and been admitted as a lawyer; his grandfather tore up the letter telling him so. His father's note asked him to do all the good he could to a sergeant named Thénardier, who saved the colonel's life at Waterloo.",
+    "returning": [
+      {
+        "id": "thenardier",
+        "reminder": "The rapacious innkeeper of Montfermeil who kept Cosette as a drudge. At Waterloo he was robbing the dead when Colonel Pontmercy, waking, took him for his rescuer. Marius knows only the rescuer, and found the inn at Montfermeil failed and its owner gone."
+      }
+    ]
+  },
+  {
+    "chapter": 184,
+    "setting": "Paris, three years after Marius left his grandfather's house",
+    "keepInMind": "Marius lives by hack work on seven hundred francs a year in a fireless room of the Gorbeau house, never in debt. Beside his father's name he reveres one other: Thénardier's.",
+    "returning": [
+      {
+        "id": "mabeuf",
+        "reminder": "The old churchwarden of Saint-Sulpice, brother of the curé of Vernon, who told Marius how his father came secretly to mass for years to watch him from behind a pillar."
+      }
+    ]
+  },
+  {
+    "chapter": 185,
+    "setting": "A portrait of M. Mabeuf, before and after 1830",
+    "keepInMind": "Marius, now twenty, has only two friends: Courfeyrac and old M. Mabeuf, whose talk about the colonel at Saint-Sulpice changed his life.",
+    "returning": []
+  },
+  {
+    "chapter": 186,
+    "setting": "The Gorbeau house and Marius's walks, 1830 into 1831",
+    "keepInMind": "Marius lodges in the Gorbeau hovel on the Boulevard de l'Hôpital, the same house where Valjean once hid with Cosette. Its poorest lodgers are the Jondrettes, a father, mother and two grown daughters; their son is the street boy Little Gavroche, whom his father ignores and his mother does not love.",
+    "returning": [
+      {
+        "id": "jondrette",
+        "reminder": "The destitute lodger at the end of the Gorbeau corridor, Little Gavroche's father, who told the portress that if anyone came asking for a Pole, an Italian or a Spaniard, it would be him."
+      },
+      {
+        "id": "maam-bougon",
+        "reminder": "The old woman who is portress, principal tenant and stair-sweeper of the Gorbeau house."
+      }
+    ]
+  },
+  {
+    "chapter": 187,
+    "setting": "M. Gillenormand's house in the Rue des Filles-du-Calvaire, 1831",
+    "keepInMind": "Since Marius left, his grandfather has never once tried to see him, and the aunt's gifts of money keep coming back. Marius has no idea the old man misses him.",
+    "returning": [
+      {
+        "id": "theodule",
+        "reminder": "Mademoiselle Gillenormand's favourite, a handsome lancer lieutenant and grand-nephew of the old man. She paid him to shadow Marius to Vernon, where he found the 'love affair' was a father's grave, and kept quiet about it."
+      }
+    ]
+  },
+  {
+    "chapter": 188,
+    "setting": "The Luxembourg garden, Paris; Marius at twenty",
+    "keepInMind": "Marius is poor, proud and solitary, takes long walks alone, and sees almost no one but Courfeyrac and M. Mabeuf. He has been too shy, and too poor, to think about women.",
+    "returning": []
+  },
+  {
+    "chapter": 189,
+    "setting": "The same alley of the Luxembourg, on a summer morning after six months' absence",
+    "keepInMind": "For a year Marius passed the same pair on the same bench: a white-haired man of about sixty and a plain, thin girl of thirteen or fourteen. Courfeyrac nicknamed them Monsieur Leblanc and Mademoiselle Lanoire. Marius liked the man and found the girl insipid.",
+    "returning": []
+  },
+  {
+    "chapter": 190,
+    "setting": "The Luxembourg, on a warm and luminous day",
+    "keepInMind": "Coming back after six months, Marius found the awkward child had become a beautiful, well-dressed young woman. She glanced at him with indifference.",
+    "returning": []
+  },
+  {
+    "chapter": 191,
+    "setting": "The next day, at Marius's usual hour for the Luxembourg",
+    "keepInMind": "The girl's eyes met Marius's for the first time, and something flashed in them. That evening he noticed how shabby the clothes he walked in had become.",
+    "returning": []
+  },
+  {
+    "chapter": 192,
+    "setting": "The Gorbeau house and the Luxembourg, the days that follow",
+    "keepInMind": "In his best coat and gloves Marius walked past the bench twice, blushing, then retreated to another seat. He forgot to dine and brushed his coat before bed.",
+    "returning": []
+  },
+  {
+    "chapter": 193,
+    "setting": "Marius's bench in the Luxembourg, near the end of the second week",
+    "keepInMind": "For a fortnight Marius has gone every day in his new coat and watched the bench from a distance without once going near it.",
+    "returning": []
+  },
+  {
+    "chapter": 194,
+    "setting": "The Luxembourg, the month that follows",
+    "keepInMind": "As she passed his bench on her father's arm, the girl looked at Marius with pensive sweetness. He is desperately in love, and knows nothing about her, not even her name.",
+    "returning": []
+  },
+  {
+    "chapter": 195,
+    "setting": "The Luxembourg, a breezy day in May",
+    "keepInMind": "Marius hides behind trees to be seen by the girl and not by her father, and she answers his looks. M. Leblanc seems to have noticed. On their bench Marius found a handkerchief marked U. F. and decided she is called Ursule.",
+    "returning": []
+  },
+  {
+    "chapter": 196,
+    "setting": "The Luxembourg, some weeks later",
+    "keepInMind": "Marius's love has turned to jealous madness. M. Leblanc has changed benches and sometimes comes without his daughter.",
+    "returning": []
+  },
+  {
+    "chapter": 197,
+    "setting": "No scene: Book VII, 'Patron Minette', opens with an essay",
+    "keepInMind": "This chapter steps away from the story to describe the 'mines' that undermine every society, dug by thinkers from the top down to a dark bottom layer. The story is left where Marius lost the girl: M. Leblanc moved out of the Rue de l'Ouest, leaving no address.",
+    "returning": []
+  },
+  {
+    "chapter": 198,
+    "setting": "No scene: Hugo's essay on the underside of society continues",
+    "keepInMind": "This chapter goes on with the digression. Hugo has described the higher mines of religion, philosophy and revolution, dug by disinterested men; now he goes down to the last one, where there is no light.",
+    "returning": []
+  },
+  {
+    "chapter": 199,
+    "setting": "The criminal underworld of Paris, 1830 to 1835",
+    "keepInMind": "Hugo has called the bottom of society a cavern of appetite and ignorance, which hates everything above it and can be cured only by light. Here he names the men who ruled it.",
+    "returning": []
+  },
+  {
+    "chapter": 200,
+    "setting": "The underworld of Paris, 1830 to 1835",
+    "keepInMind": "Four ruffians rule the 'third lower floor': the colossus Gueulemer, the thin, learned Babet, the masked ventriloquist Claquesous and the pomaded youth Montparnasse, who kills to dress well.",
+    "returning": [
+      {
+        "id": "boulatruelle",
+        "reminder": "The ex-convict road-mender of Montfermeil who drank with Thénardier and haunted the forest after seeing a stranger bury something there."
+      }
+    ]
+  },
+  {
+    "chapter": 201,
+    "setting": "Paris, the summer, autumn and winter after Marius lost the girl",
+    "keepInMind": "The story returns to Marius after Hugo's chapters on Patron-Minette. He kept watch under the lit windows in the Rue de l'Ouest for a week until they went dark and the porter told him the gentleman had moved away.",
+    "returning": [
+      {
+        "id": "monsieur-leblanc",
+        "reminder": "The white-haired man of the Luxembourg, Courfeyrac's 'Monsieur Leblanc'. He noticed Marius following his daughter, stared hard at him at their gate, and moved house leaving no address."
+      },
+      {
+        "id": "the-girl-at-the-luxembourg",
+        "reminder": "M. Leblanc's daughter, whom Marius loves without having spoken a word to her. From a handkerchief he believes her name is Ursule."
+      }
+    ]
+  },
+  {
+    "chapter": 202,
+    "setting": "The boulevard near the Gorbeau house, on Candlemas evening in February",
+    "keepInMind": "Marius has searched Paris all winter for the girl without success. Once, near the Invalides, he glimpsed a white-haired workman who looked like M. Leblanc and lost him in the side streets.",
+    "returning": [
+      {
+        "id": "jondrette",
+        "reminder": "Marius's neighbour in the Gorbeau house, father of Little Gavroche. Marius once secretly paid the family's rent to save them from eviction, but has never spoken to any of them."
+      },
+      {
+        "id": "maam-bougon",
+        "reminder": "The old portress of the Gorbeau house, whom Courfeyrac nicknamed Ma'am Bougon; she was amazed to see Marius go out in his new coat every day."
+      }
+    ]
+  },
+  {
+    "chapter": 203,
+    "setting": "Marius's garret in the Gorbeau house, that night",
+    "keepInMind": "Two ragged girls running from the police brushed past Marius on the boulevard and dropped a small grey packet, which he picked up and forgot in his pocket.",
+    "returning": []
+  },
+  {
+    "chapter": 204,
+    "setting": "Marius's garret, the next morning",
+    "keepInMind": "The packet held four begging letters to four patrons, signed with four different names but written by the same hand on the same tobacco-smelling paper. A soft knock has just come at Marius's door.",
+    "returning": []
+  },
+  {
+    "chapter": 205,
+    "setting": "Marius's garret, just after his visitor leaves",
+    "keepInMind": "The visitor was the elder Jondrette girl, half-naked and starving, with a begging letter from her father in the same hand as the four. She took the letters back, and Marius gave her his last five francs.",
+    "returning": []
+  },
+  {
+    "chapter": 206,
+    "setting": "Marius on his commode, looking through the hole in the partition",
+    "keepInMind": "Marius has found a triangular hole high in the thin wall between his room and the Jondrettes' garret, and blames himself for living beside their misery for years without looking.",
+    "returning": [
+      {
+        "id": "madame-jondrette",
+        "reminder": "Jondrette's wife, Little Gavroche's mother; she loves her daughters and not her son."
+      }
+    ]
+  },
+  {
+    "chapter": 207,
+    "setting": "The Jondrettes' garret, seen through the peephole",
+    "keepInMind": "Marius watches a filthy, freezing garret: Jondrette in a woman's chemise writing begging letters and cursing the rich, his huge wife by a dying fire, the younger daughter silent on a pallet.",
+    "returning": []
+  },
+  {
+    "chapter": 208,
+    "setting": "The Jondrettes' garret, minutes later, waiting in the cold",
+    "keepInMind": "The 'philanthropist' from the church of Saint-Jacques-du-Haut-Pas has read the letter and is coming by cab with his daughter. Jondrette has put out the fire, broken the chair and made his younger daughter smash a pane, cutting her hand.",
+    "returning": []
+  },
+  {
+    "chapter": 209,
+    "setting": "The Jondrettes' garret, as the visitors come in",
+    "keepInMind": "Marius, at the peephole, has just seen who the visitors are: M. Leblanc and the girl of the Luxembourg.",
+    "returning": []
+  },
+  {
+    "chapter": 210,
+    "setting": "The stairs and boulevard outside the Gorbeau house, as the visitors leave",
+    "keepInMind": "Posing as the ruined actor Fabantou, Jondrette claimed he owes sixty francs by tonight. M. Leblanc gave five francs and his greatcoat and promised to come back at six with the sixty. Jondrette twice told his wife to take a good look at him.",
+    "returning": []
+  }
+]

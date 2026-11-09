@@ -1671,5 +1671,438 @@
     "themes": [
       "revolution"
     ]
+  },
+  {
+    "chapter": 310,
+    "kind": "theme",
+    "title": "Disorder on the side of order",
+    "text": "The title is a paradox, and Hugo means it. The suburban National Guard fought for order with no order at all: captains attacked on inspiration, and platoons set themselves up as courts and shot a prisoner in five minutes. That is how Jean Prouvaire died. The law's defenders could be as lawless as the barricade.",
+    "themes": [
+      "mercy-law"
+    ]
+  },
+  {
+    "chapter": 310,
+    "kind": "craft",
+    "title": "Killed by order",
+    "text": "Captain Fannicot, furious at Mabeuf's coat, which he takes for a black flag, throws his company at the barricade without orders. He loses fifteen men and then dies under his own side's cannon, which 'had received no order to stop'. Hugo's dry phrase, 'killed by order', carries the whole irony of the scene.",
+    "themes": [
+      "history"
+    ]
+  },
+  {
+    "chapter": 310,
+    "kind": "theme",
+    "title": "One against a hundred",
+    "text": "Enjolras is angry at the wasted shots, and Hugo calls him 'the true general of insurrection'. A rising has a fixed number of men and cartridges; repression has the army and the arsenal of Vincennes. The barricade always loses, Hugo says, unless revolution itself rises and the army, 'that lion', finds France, 'that prophet', standing in its way.",
+    "themes": [
+      "revolution"
+    ]
+  },
+  {
+    "chapter": 310,
+    "kind": "motif",
+    "title": "Good by gunshots",
+    "text": "'He has not answered my question,' Bossuet mutters, and Combeferre replies that the silent marksman is 'a man who does good by gunshots'. The insurgents have no name for Valjean except what they see him do. To them he is a puzzle, a crack shot who aims at helmets.",
+    "themes": [
+      "mercy-law"
+    ]
+  },
+  {
+    "chapter": 311,
+    "kind": "motif",
+    "title": "Lightning without thunder",
+    "text": "For an hour on the morning of the 6th Paris seems to wake: barricades begun, a young man killing a cavalry officer, crockery raining from roofs. Then it is gone, 'a flash of lightning without thunder'. Hugo lets hope cross the barricade like weather, and then lets it pass.",
+    "themes": [
+      "light-darkness"
+    ]
+  },
+  {
+    "chapter": 311,
+    "kind": "context",
+    "title": "Old women and chamber-pots",
+    "text": "When crockery rains on the troops from the roofs of the Rue Planche-Mibray, Marshal Soult remembers what Marshal Suchet said at the siege of Saragossa in 1809: beware of old women and their chamber-pots. Saragossa held out house by house against Napoleon's army. Hugo's real incidents of the 6th of June show the city resisting in small, scattered ways.",
+    "themes": [
+      "history"
+    ]
+  },
+  {
+    "chapter": 311,
+    "kind": "theme",
+    "title": "Die without anything to eat?",
+    "text": "An insurgent asks whether they are really going to die like this, without eating. Enjolras nods without taking his eyes off the street. Hunger has been the book's subject since Valjean's loaf of bread. Now it is simply one more fact of the barricade, accepted in silence.",
+    "themes": [
+      "poverty",
+      "revolution"
+    ]
+  },
+  {
+    "chapter": 312,
+    "kind": "theme",
+    "title": "Patria",
+    "text": "Bossuet theorises that all heroism comes from women, and that a man without a woman is 'a pistol without a trigger', like Gavroche's pistol. How can Enjolras, with no mistress, be so cold and so bold? Enjolras seems not to listen, then murmurs: 'Patria.' The title promised his mistress's name, and this is it.",
+    "themes": [
+      "love",
+      "revolution"
+    ]
+  },
+  {
+    "chapter": 312,
+    "kind": "craft",
+    "title": "Jokes in place of wine",
+    "text": "With no food and the brandy rationed, Courfeyrac and Bossuet 'poured out gaiety in place of wine'. The cannon's grapeshot is 'only a cough'; Courfeyrac announces a second gun like an usher: 'My name is Eight-Pounder.' Hugo keeps the friends' wit alive to the end. It is a form of courage, and of friendship.",
+    "themes": [
+      "revolution"
+    ]
+  },
+  {
+    "chapter": 312,
+    "kind": "craft",
+    "title": "Success that ruins",
+    "text": "The barricade's volleys cut down two-thirds of the gunners. 'Success,' says Bossuet. Enjolras shakes his head: another quarter-hour of such success and there will be no cartridges left. The last line is very short: 'Gavroche, it appears, overheard him.' Hugo ends the chapter there.",
+    "themes": [
+      "revolution"
+    ]
+  },
+  {
+    "chapter": 313,
+    "kind": "context",
+    "title": "The fault of Voltaire",
+    "text": "Gavroche's song, 'it's the fault of Voltaire... the fault of Rousseau', mocks a familiar line of the Restoration, when the Church and the royalists blamed the philosophers of the Enlightenment for the Revolution and every evil since. The street child turns their complaint into a joke and throws it back at the soldiers with every bullet.",
+    "themes": [
+      "history",
+      "revolution"
+    ]
+  },
+  {
+    "chapter": 313,
+    "kind": "theme",
+    "title": "Joy his character, misery his trousseau",
+    "text": "'Joy was his character and misery his trousseau.' Hugo began Volume III by describing the gamin of Paris as a species, a pearl in the mud. Here the type becomes one boy, singing in the street, collecting cartridges among the dead, 'the invulnerable dwarf of the fray'. The soldiers laugh as they aim.",
+    "themes": [
+      "poverty",
+      "paris"
+    ]
+  },
+  {
+    "chapter": 313,
+    "kind": "craft",
+    "title": "An unfinished line",
+    "text": "Hit once, Gavroche sits up, blood on his face, and sings again: '...the fault of...' He did not finish. A second bullet stops him. Hugo breaks the song off in the middle of a word, so that the line is never completed. 'That grand little soul had taken its flight.'",
+    "themes": [
+      "light-darkness"
+    ]
+  },
+  {
+    "chapter": 313,
+    "kind": "motif",
+    "title": "The little bird",
+    "text": "'He was not a notary, he was a little bird.' From the first pages about the gamin, Hugo has likened him to the sparrow of the streets. He sings like a bird, hops between bodies like one, and in the last sentence his soul takes flight. The image runs through the whole portrait of the street child.",
+    "themes": [
+      "paris"
+    ]
+  },
+  {
+    "chapter": 314,
+    "kind": "theme",
+    "title": "From a brother to a father",
+    "text": "Gavroche once took the two lost boys in, fed them and gave them a bed in the elephant. Now, alone in the Luxembourg, the elder fishes a wet brioche out of the swans' basin and keeps the small half, giving the large one to his brother. The title names what has happened. A child has become a parent, as Gavroche did, without knowing anyone taught him.",
+    "themes": [
+      "parenthood",
+      "poverty"
+    ]
+  },
+  {
+    "chapter": 314,
+    "kind": "craft",
+    "title": "A lesson in compassion for animals",
+    "text": "A comfortable bourgeois, possibly the one Marius once heard counselling his son against excess, throws his son's stale brioche to the swans 'to teach compassion for animals', while two ragged children watch from behind the hutch. He calls the firing 'the Saturnalia' and the boys 'anarchy'. Hugo's satire is quiet and exact.",
+    "themes": [
+      "poverty",
+      "parenthood"
+    ]
+  },
+  {
+    "chapter": 314,
+    "kind": "theme",
+    "title": "Thinkers who forget to love",
+    "text": "Hugo pauses on 'magnificent egoists' like Horace and Goethe, so filled with the zodiac that they do not see the weeping child. They are great and pitiable at once. The garden is all flowers, bees and breakfasting birds, 'not a beast's stomach empty', and two hungry children walk through it unseen.",
+    "themes": [
+      "conscience"
+    ]
+  },
+  {
+    "chapter": 314,
+    "kind": "craft",
+    "title": "The garden at eleven",
+    "text": "Hugo turns from the barricade to the Luxembourg, closed by police order and empty, at the same hour. The cut is abrupt and deliberate. Events of world importance are happening a mile away, and here the drama is a cake in a pond.",
+    "themes": [
+      "history"
+    ]
+  },
+  {
+    "chapter": 315,
+    "kind": "context",
+    "title": "The dead father waits",
+    "text": "The Latin title means 'The dead father awaits the son who is about to die'. It gathers up Marius's thought on the edge of the barricade, when he argued with Colonel Pontmercy's ghost. At the chapter's end, among the jokes and the cartridge-making, Marius is 'troubled about what his father was going to say to him'.",
+    "themes": [
+      "parenthood"
+    ]
+  },
+  {
+    "chapter": 315,
+    "kind": "theme",
+    "title": "What Thénardier did for my father",
+    "text": "Marius carries Gavroche's body back, thinking that what Thénardier did for his father he is now doing for Thénardier's son. But Thénardier brought the colonel back alive, and Marius brings the child back dead. The reader knows that the 'rescue' at Waterloo was a robbery. The son repays a debt that was never owed.",
+    "themes": [
+      "parenthood",
+      "mercy-law"
+    ]
+  },
+  {
+    "chapter": 315,
+    "kind": "motif",
+    "title": "One shawl for two",
+    "text": "They lay Gavroche on Mabeuf's table and spread the widow's black shawl over both: 'there was enough of it for the old man and the child.' The eighty-year-old who sold his last book and the boy who had nothing to sell lie under one cloth. Hugo needs only one sentence for it.",
+    "themes": [
+      "poverty"
+    ]
+  },
+  {
+    "chapter": 315,
+    "kind": "theme",
+    "title": "Defending without fighting",
+    "text": "Valjean shakes his head at his share of cartridges. Combeferre calls him an eccentric who has found a way of not fighting in a barricade; Enjolras answers that this does not stop him defending it. Hugo lets the insurgents describe, without understanding it, a new kind of courage.",
+    "themes": [
+      "mercy-law"
+    ]
+  },
+  {
+    "chapter": 316,
+    "kind": "theme",
+    "title": "'That is just'",
+    "text": "Valjean asks, as his reward, to be the one who shoots the spy. Javert raises his head, sees who it is, and says: 'That is just.' In Javert's world this is the natural order: the convict kills the policeman when he can. He expects nothing else, and in his eyes the request only confirms what Valjean is.",
+    "themes": [
+      "mercy-law"
+    ]
+  },
+  {
+    "chapter": 316,
+    "kind": "craft",
+    "title": "Death as a masterpiece",
+    "text": "Enjolras walls the windows, plans the loopholes, nails up the kitchen door so the wounded will not be splashed, and counts twenty-six men and thirty-four guns. Hugo says he felt that since such men were to die, 'their death should be a masterpiece'. Asked who will drink the fifteen bottles, he answers: 'They.'",
+    "themes": [
+      "revolution"
+    ]
+  },
+  {
+    "chapter": 316,
+    "kind": "craft",
+    "title": "Blood under the nails",
+    "text": "Hugo opens with a remark about memory: one comes out of civil war as out of a dream, with blood under one's nails and no clear recollection. The barricade is calm inside and still a vision to those in it. He is telling us how unreliable the survivors' accounts of such days are.",
+    "themes": [
+      "history"
+    ]
+  },
+  {
+    "chapter": 317,
+    "kind": "theme",
+    "title": "Revenge as freedom",
+    "text": "The title promises revenge, and Javert asks for it: 'Take your revenge.' Valjean takes out a knife and cuts the cords. 'You are free.' The reader remembers the bishop handing a thief his candlesticks. Valjean now does to his pursuer what was once done to him, and repays a lifetime of hounding with release.",
+    "themes": [
+      "mercy-law",
+      "conscience"
+    ]
+  },
+  {
+    "chapter": 317,
+    "kind": "craft",
+    "title": "Giving his enemy the address",
+    "text": "Valjean adds that if he leaves alive, he lives as Fauchelevent at No. 7, Rue de l'Homme Armé. He hands the policeman his name and his door. Javert repeats the number, snarls 'Have a care', and walks off. A man who has spent years hiding chooses, here, to hide nothing.",
+    "themes": [
+      "names",
+      "mercy-law"
+    ]
+  },
+  {
+    "chapter": 317,
+    "kind": "motif",
+    "title": "The lost 'thou'",
+    "text": "'You annoy me. Kill me, rather,' Javert shouts, 'not noticing that he had stopped addressing Valjean as thou.' In French the familiar 'tu' is used to inferiors and convicts. Javert's grammar shifts before his mind does. Something in his view of Valjean has moved, and he has not noticed it himself.",
+    "themes": [
+      "names"
+    ]
+  },
+  {
+    "chapter": 317,
+    "kind": "craft",
+    "title": "Two shots, two meanings",
+    "text": "Valjean fires the pistol into the air and returns: 'It is done.' At that moment Marius has just learned the prisoner's name and recognised the inspector of the Rue de Pontoise. To him the shot means an execution. The reader knows it was a release. The same sound tells the truth to us and a lie to Marius.",
+    "themes": [
+      "mercy-law"
+    ]
+  },
+  {
+    "chapter": 318,
+    "kind": "craft",
+    "title": "A pause before the end",
+    "text": "Just before the final assault, Hugo stops the battle to judge it. The title gives his verdict: the dead are in the right and the living are not in the wrong. He defends the insurgents and the people who would not open their doors. The digression asks the reader to hold both sympathies at once.",
+    "themes": [
+      "revolution",
+      "history"
+    ]
+  },
+  {
+    "chapter": 318,
+    "kind": "theme",
+    "title": "Every blade has two edges",
+    "text": "'An insurrection is an idea sitting its examination before the people.' Utopia that takes up arms almost always comes too soon. And it borrows battle 'from the lie of yesterday': it shoots spies and executes traitors. Hugo, who has just shown Le Cabuc's execution and Javert's sentence, does not exempt his heroes.",
+    "themes": [
+      "revolution",
+      "mercy-law"
+    ]
+  },
+  {
+    "chapter": 318,
+    "kind": "theme",
+    "title": "The book names its subject",
+    "text": "Hugo says what the whole novel is about: the march 'from evil to good, from night to day, from appetite to conscience, from nothingness to God'. Matter at the start, the soul at the end; 'the hydra at the beginning, the angel at the end'. It is a key to the light and darkness he has used since the bishop's candlesticks.",
+    "themes": [
+      "conscience",
+      "light-darkness"
+    ]
+  },
+  {
+    "chapter": 318,
+    "kind": "context",
+    "title": "John Brown before Washington",
+    "text": "Hugo says he venerates the 'confessors of Utopia' most in defeat, preferring martyrdom to success, 'John Brown to Washington'. John Brown, the American abolitionist, was hanged in December 1859 after his raid on Harpers Ferry. Hugo had publicly pleaded for his life, so the name was fresh when he wrote this.",
+    "themes": [
+      "history",
+      "revolution"
+    ]
+  },
+  {
+    "chapter": 319,
+    "kind": "craft",
+    "title": "The roll of the slain",
+    "text": "'Bossuet was killed; Feuilly was killed; Courfeyrac was killed.' After the long build-up, Hugo gives each friend half a line. The flat repetition is the epic catalogue cut down to its bare form, as in Homer's lists of the fallen. A peasant recruit and a pale student, he insists, cast a shadow as long as any Ajax.",
+    "themes": [
+      "history"
+    ]
+  },
+  {
+    "chapter": 319,
+    "kind": "theme",
+    "title": "Combeferre lifts a soldier",
+    "text": "Combeferre, the gentle philosopher who begged Enjolras to spare the artillery sergeant, dies pierced by three bayonets 'as he lifted a wounded soldier'. He dies helping one of the enemy. Hugo gives him a glance towards heaven and nothing more.",
+    "themes": [
+      "mercy-law",
+      "revolution"
+    ]
+  },
+  {
+    "chapter": 319,
+    "kind": "theme",
+    "title": "Sheltered and exposed",
+    "text": "Enjolras, who holds the whole defence in his head, shelters himself and is untouched. Marius fights with half his body above the breastwork, 'a phantom firing a gun', his face vanishing under blood. One man fights to win; the other came to die. Hugo puts them at the two ends of the barricade.",
+    "themes": [
+      "love",
+      "revolution"
+    ]
+  },
+  {
+    "chapter": 320,
+    "kind": "motif",
+    "title": "A door that does not open",
+    "text": "Hemmed in, some of the defenders hammer at the door of the tall house at the back, begging to be let in. No one opens. From the third-floor window the murdered porter's head looks down on them. The chapter before argued that a city disowns a rising by shutting its doors. Here the argument becomes one door and some men beating on it.",
+    "themes": [
+      "paris",
+      "poverty"
+    ]
+  },
+  {
+    "chapter": 320,
+    "kind": "theme",
+    "title": "The only two kisses of his life",
+    "text": "Before the last fight Enjolras bends over Mabeuf and Gavroche and kisses the old man's hanging hand, as he kissed his brow the night before: 'the only two kisses of his life'. The man whose mistress is Patria gives his tenderness to an old man he hardly knew.",
+    "themes": [
+      "love",
+      "revolution"
+    ]
+  },
+  {
+    "chapter": 320,
+    "kind": "craft",
+    "title": "Heroism become monstrous",
+    "text": "The barricade fought like a gate of Thebes, the wine-shop like a house of Saragossa. Then the last cartridges are gone, and the men on the first floor fight with bottles of aquafortis. Hugo says it resembled 'Milton and Dante rather than Homer': demons attacking, spectres resisting. He refuses to make the end glorious.",
+    "themes": [
+      "revolution"
+    ]
+  },
+  {
+    "chapter": 321,
+    "kind": "context",
+    "title": "Orestes and Pylades",
+    "text": "In Greek legend Pylades was the friend who stood by Orestes through exile and madness, ready to die in his place. Hugo's title makes Enjolras the fasting Orestes and Grantaire the drunken Pylades. The pair of the austere believer and the sceptic is given the most famous friendship of antiquity.",
+    "themes": [
+      "love"
+    ]
+  },
+  {
+    "chapter": 321,
+    "kind": "theme",
+    "title": "'Do you permit it?'",
+    "text": "Grantaire wakes in the silence, understands, and walks to the wall: 'Long live the Republic! I'm one of them.' Then, gently: 'Do you permit it?' Enjolras, who called him incapable of believing or dying, presses his hand with a smile. 'You will see,' Grantaire once said. He believed in nothing but Enjolras, and here he acts on it.",
+    "themes": [
+      "love",
+      "conscience"
+    ]
+  },
+  {
+    "chapter": 321,
+    "kind": "craft",
+    "title": "Shooting a flower",
+    "text": "Enjolras, unwounded after twenty-four hours, 'fresh and rosy', compels his killers to kill him respectfully; a witness spoke of an insurgent they called Apollo, and a guardsman says he feels he is about to shoot a flower. Pierced by eight bullets, he stays upright 'as though nailed there'. Hugo makes his death almost a statue.",
+    "themes": [
+      "light-darkness"
+    ]
+  },
+  {
+    "chapter": 321,
+    "kind": "craft",
+    "title": "Silence wakes a drunkard",
+    "text": "Grantaire has snored through fusillade, cannon and assault, so like the corpses that no one noticed him. 'Noise does not rouse a drunkard, silence does.' Hugo's small observation sets up the scene's turn: the moment the fighting stops is the moment the doubter wakes.",
+    "themes": [
+      "revolution"
+    ]
+  },
+  {
+    "chapter": 322,
+    "kind": "craft",
+    "title": "He never took his eyes off him",
+    "text": "'The hand that gripped him as he fell was Jean Valjean's.' Hugo now tells us what the barricade did not see: Valjean 'had seemed not to see Marius and had never taken his eyes off him'. He fought only by carrying the wounded. The man he wished dead the night before is the one he watched over all day.",
+    "themes": [
+      "love",
+      "conscience"
+    ]
+  },
+  {
+    "chapter": 322,
+    "kind": "motif",
+    "title": "Once Cosette, now Marius",
+    "text": "Trapped with no way out, Valjean finds a loose grating and drops into the dark with Marius on his back. He remembers the wall of the convent garden, eight years ago, when what he carried was Cosette. 'What he carried now was not Cosette but Marius.' Hugo repeats an old escape with a different burden.",
+    "themes": [
+      "parenthood"
+    ]
+  },
+  {
+    "chapter": 322,
+    "kind": "motif",
+    "title": "Below the noon",
+    "text": "Above, the June sun, the assault, the tocsin. Three metres down, 'profound peace, absolute silence and night'. The noise of the taken wine-shop reaches Valjean only as a murmur. Hugo moves his hero from the most public place in Paris into the most hidden one in a single paragraph.",
+    "themes": [
+      "light-darkness"
+    ]
   }
 ]
