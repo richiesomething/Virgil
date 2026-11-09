@@ -494,7 +494,9 @@
       "The network of societies spread like a membrane: from the Friends of the People sprang the Society of the Rights of Man, with sections named Pikes, Tocsin, Phrygian Cap, January 21, Robespierre, Ça Ira, which begot the Society of Action; alongside them the Gallic Society, societies for the press and against indirect taxes, the Equal Workingmen split into levellers, communists and reformers, and the Army of the Bastilles in which no more than five men knew one another. The Parisian societies had branches in Lyons, Nantes, Lille and Marseilles, each with its Cougourde. The schools stirred as much as the faubourgs: the Friends of the A.B.C., affiliated with the Mutualists of Angers and the Cougourde of Aix, met at the Café Musain and at the wine-shop Corinthe in the Rue Mondétour. The army too was mined, and liberty trees went up in Burgundy and the south.",
       "Hugo closes on the Faubourg Saint-Antoine itself, laborious, angry as a hive, suffering under attic roofs and full of rare ardent minds, where misery and intelligence meet; a reservoir of people whose cabarets, like the taverns on the Sibyl's cave, intoxicate on words more than wine. In '93 it sent forth now savage legions, now heroic bands: savages, yes, but the savages of civilisation, demanding light with the mask of night, whom he prefers to the civilised men of barbarism who politely glorify the sword, the stake and the scaffold. But a third choice remains: neither despotism nor terrorism; progress with a gentle slope, which is God's whole policy."
     ],
-    "characters": []
+    "characters": [
+      "cafe-musain"
+    ]
   },
   {
     "number": 228,
@@ -517,7 +519,8 @@
       "joly",
       "bossuet",
       "grantaire",
-      "marius"
+      "marius",
+      "cafe-musain"
     ]
   },
   {

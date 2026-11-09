@@ -94,7 +94,8 @@
       "fantine",
       "the-old-portress",
       "petit-gervais",
-      "bishop-myriel"
+      "bishop-myriel",
+      "the-forty-sou-piece"
     ]
   },
   {
@@ -417,7 +418,9 @@
       "jean-valjean",
       "petit-gervais",
       "monsieur-laffitte",
-      "fantine"
+      "fantine",
+      "toulon",
+      "the-forty-sou-piece"
     ]
   },
   {
@@ -449,7 +452,9 @@
       "Descending to rejoin his detachment he seems to stagger on a lower yard, and a shout goes up: he has fallen into the sea between the Orion and the frigate Algésiras. Four men put off in a boat; the man never surfaces; they sound and dive until evening and do not find even the body. Next day the Toulon newspaper reports, under the date 17 November 1823, that a convict of the Orion detachment, returning from rescuing a sailor, fell into the sea and drowned, his body presumably caught among the piles of the Arsenal point; he was committed under the number 9,430 and his name was Jean Valjean."
     ],
     "characters": [
-      "jean-valjean"
+      "jean-valjean",
+      "toulon",
+      "the-orion"
     ]
   },
   {
@@ -649,7 +654,9 @@
       "jean-valjean",
       "cosette",
       "thenardier",
-      "madame-thenardier"
+      "madame-thenardier",
+      "toulon",
+      "the-orion"
     ]
   }
 ]

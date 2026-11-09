@@ -111,7 +111,8 @@
     "characters": [
       "bishop-myriel",
       "mademoiselle-baptistine",
-      "monsieur-madeleine"
+      "monsieur-madeleine",
+      "digne"
     ]
   },
   {
@@ -143,7 +144,8 @@
     "characters": [
       "monsieur-madeleine",
       "fauchelevent",
-      "javert"
+      "javert",
+      "toulon"
     ]
   },
   {
@@ -315,7 +317,8 @@
       "chenildieu",
       "cochepaille",
       "fauchelevent",
-      "fantine"
+      "fantine",
+      "toulon"
     ]
   },
   {
@@ -371,7 +374,9 @@
       "cosette",
       "bishop-myriel",
       "petit-gervais",
-      "fauchelevent"
+      "fauchelevent",
+      "digne",
+      "the-forty-sou-piece"
     ]
   },
   {
@@ -406,7 +411,8 @@
       "brevet",
       "chenildieu",
       "cochepaille",
-      "scaufflaire"
+      "scaufflaire",
+      "digne"
     ]
   },
   {
@@ -440,7 +446,8 @@
     ],
     "characters": [
       "jean-valjean",
-      "champmathieu"
+      "champmathieu",
+      "toulon"
     ]
   },
   {
@@ -478,7 +485,8 @@
       "petit-gervais",
       "brevet",
       "chenildieu",
-      "cochepaille"
+      "cochepaille",
+      "digne"
     ]
   },
   {
@@ -501,7 +509,9 @@
       "cochepaille",
       "bamatabois",
       "petit-gervais",
-      "bishop-myriel"
+      "bishop-myriel",
+      "digne",
+      "toulon"
     ]
   },
   {
@@ -523,7 +533,8 @@
       "cochepaille",
       "bishop-myriel",
       "petit-gervais",
-      "javert"
+      "javert",
+      "the-forty-sou-piece"
     ]
   }
 ]

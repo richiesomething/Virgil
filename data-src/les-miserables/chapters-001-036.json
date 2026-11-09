@@ -13,7 +13,8 @@
       "bishop-myriel",
       "mademoiselle-baptistine",
       "madame-magloire",
-      "napoleon"
+      "napoleon",
+      "digne"
     ]
   },
   {
@@ -45,7 +46,8 @@
     "characters": [
       "bishop-myriel",
       "mademoiselle-baptistine",
-      "madame-magloire"
+      "madame-magloire",
+      "digne"
     ]
   },
   {
@@ -161,7 +163,8 @@
     ],
     "characters": [
       "bishop-myriel",
-      "the-conventionist-g"
+      "the-conventionist-g",
+      "digne"
     ]
   },
   {
@@ -177,7 +180,8 @@
     "characters": [
       "bishop-myriel",
       "napoleon",
-      "the-town-hall-porter"
+      "the-town-hall-porter",
+      "digne"
     ]
   },
   {
@@ -236,7 +240,8 @@
     "characters": [
       "jean-valjean",
       "jacquin-labarre",
-      "marquise-de-r"
+      "marquise-de-r",
+      "digne"
     ]
   },
   {
@@ -322,7 +327,8 @@
     "characters": [
       "jean-valjean",
       "maubert-isabeau",
-      "jeanne-valjean"
+      "jeanne-valjean",
+      "toulon"
     ]
   },
   {
@@ -336,7 +342,8 @@
       "He was the strongest man in the galleys, worth four men at the capstan, nicknamed Jean the Jackscrew after holding up a loosened caryatid of the Toulon town-hall balcony with his shoulder. He was even more supple than strong, able to climb a wall's angle to a third storey by back, elbows and heels. He rarely spoke and never laughed, conscious of a vast pyramid of laws, prejudices and men, the Emperor shining at its summit, pressing down on him. By the time he left he was capable of sudden instinctive reprisals and of cold, reasoned evil, and his passport's 'very dangerous man' was not unearned. He had not shed a tear in nineteen years."
     ],
     "characters": [
-      "jean-valjean"
+      "jean-valjean",
+      "toulon"
     ]
   },
   {
@@ -362,7 +369,8 @@
       "The day after his release, unloading bales at an orange-flower distillery in Grasse, he worked well and a gendarme checked his yellow passport. In the evening the master handed him fifteen sous instead of the thirty the other men earned; when he protested, the master looked him in the eye and said, 'Beware of the prison.' The State had robbed him wholesale, now an individual robbed him at retail. One gets free from the galleys, Hugo observes, but not from the sentence. Then came Digne."
     ],
     "characters": [
-      "jean-valjean"
+      "jean-valjean",
+      "digne"
     ]
   },
   {
@@ -379,7 +387,8 @@
       "jean-valjean",
       "bishop-myriel",
       "madame-magloire",
-      "brevet"
+      "brevet",
+      "toulon"
     ]
   },
   {
@@ -428,7 +437,9 @@
     "characters": [
       "jean-valjean",
       "petit-gervais",
-      "bishop-myriel"
+      "bishop-myriel",
+      "digne",
+      "the-forty-sou-piece"
     ]
   },
   {
