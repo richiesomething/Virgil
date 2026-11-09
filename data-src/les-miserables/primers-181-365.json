@@ -731,5 +731,277 @@
     "setting": "The Marais, Gavroche on the march",
     "keepInMind": "Gavroche borrowed an old holster-pistol from a junk shop and set off for the fighting singing, then found it has no trigger.",
     "returning": []
+  },
+  {
+    "chapter": 273,
+    "setting": "The hairdresser's shop on the boulevard, the afternoon of 5 June",
+    "keepInMind": "Gavroche paraded his triggerless pistol through the Marais, helped a fallen lancer, was jeered by four old gossips, and headed for the fighting. The hairdresser is the one who turned the two little boys out of his shop on the stormy night Gavroche took them in.",
+    "returning": []
+  },
+  {
+    "chapter": 274,
+    "setting": "The Marché Saint-Jean, the afternoon of 5 June",
+    "keepInMind": "In passing, Gavroche threw a stone through the window of the hairdresser who turned the two little boys away.",
+    "returning": [
+      {
+        "id": "enjolras",
+        "reminder": "Chief of the Friends of the A.B.C., the severe young republican who in April sent each of his friends to sound out fighters across Paris."
+      },
+      {
+        "id": "courfeyrac",
+        "reminder": "Marius's warm-hearted friend from the A.B.C., who took him in when he left home and again after the Gorbeau ambush; Marius gave his lodging, 16 Rue de la Verrerie, as his own address."
+      },
+      {
+        "id": "bahorel",
+        "reminder": "The A.B.C.'s cheerful, brawling spendthrift, who loves a fight for its own sake."
+      },
+      {
+        "id": "jean-prouvaire",
+        "reminder": "The gentle poet of the A.B.C., who loves flowers and the pagan gods."
+      }
+    ]
+  },
+  {
+    "chapter": 275,
+    "setting": "Near the Boulevard Bourdon and the Rue Lesdiguières, earlier the same afternoon",
+    "keepInMind": "Gavroche joined the armed band of Enjolras, Courfeyrac, Combeferre and Feuilly, with Bahorel and Prouvaire. Marching among them, unarmed and hurrying, is old M. Mabeuf.",
+    "returning": []
+  },
+  {
+    "chapter": 276,
+    "setting": "The band's march through the Marais, 5 June",
+    "keepInMind": "Courfeyrac found Mabeuf hatless in the rain, told him they were going to fling the government down, and the old man said 'That is good' and followed. The students take him for a regicide of the old Convention. Gavroche leads the way, singing, toward Saint-Merry.",
+    "returning": []
+  },
+  {
+    "chapter": 277,
+    "setting": "The tangle of streets by the Halles, and the wine-shop Corinthe in the Rue de la Chanvrerie",
+    "keepInMind": "A tall, grey-haired stranger joined the band near the Rue des Billettes. At his lodging Courfeyrac found a pale young workman who had waited an hour for Marius and asked to come along. The crowd overshot Saint-Merry and ended in the Rue Saint-Denis.",
+    "returning": []
+  },
+  {
+    "chapter": 278,
+    "setting": "Corinthe, the morning of 5 June",
+    "keepInMind": "Corinthe is the shabby old wine-shop where Courfeyrac's friends eat and drink on credit, kept by Father Hucheloup's bearded widow and her two serving-maids, Matelote and Gibelotte.",
+    "returning": [
+      {
+        "id": "bossuet",
+        "reminder": "Lesgle, or Laigle, de Meaux: the bald, cheerfully unlucky member of the A.B.C. who lives mostly with Joly."
+      },
+      {
+        "id": "joly",
+        "reminder": "The A.B.C.'s cheerful hypochondriac, a medical student forever checking his own tongue."
+      },
+      {
+        "id": "grantaire",
+        "reminder": "The A.B.C.'s drunken sceptic, who believes in nothing but Enjolras; sent to win over the workmen of the Barrière du Maine, he was found playing dominoes."
+      }
+    ]
+  },
+  {
+    "chapter": 279,
+    "setting": "The Rue de la Chanvrerie, about two in the afternoon",
+    "keepInMind": "Bossuet, Joly and Grantaire ignored Enjolras's summons and drank at Corinthe all day. When the armed band passed the end of the street, Bossuet shouted to Courfeyrac that this was the place for a barricade.",
+    "returning": []
+  },
+  {
+    "chapter": 280,
+    "setting": "The new barricade in front of Corinthe, the same afternoon",
+    "keepInMind": "The barricade went up in minutes, built of paving-stones, casks, a dray and an overturned omnibus. Grantaire, ordered off it by Enjolras, answered 'You will see' and fell asleep at a table.",
+    "returning": [
+      {
+        "id": "the-man-of-the-rue-des-billettes",
+        "reminder": "The tall, grey-haired stranger of bold bearing who joined the band near the Rue des Billettes. None of the friends knows him."
+      },
+      {
+        "id": "the-young-workman",
+        "reminder": "The pale, slight youth who waited an hour at Courfeyrac's lodging asking for Marius, then asked to come to the barricades."
+      }
+    ]
+  },
+  {
+    "chapter": 281,
+    "setting": "The barricades around Corinthe, toward evening",
+    "keepInMind": "About fifty men have built two barricades at right angles around Corinthe and are casting bullets from the widow's pewter. The tall stranger works on the small barricade; the young workman who asked for Marius has vanished; Gavroche demands a real gun and is told the men come first.",
+    "returning": []
+  },
+  {
+    "chapter": 282,
+    "setting": "The barricade, at twilight",
+    "keepInMind": "The red flag flies from the omnibus pole. Courfeyrac's coffer has given each man thirty cartridges, Enjolras has posted sentinels, and the fifty wait, armed and calm.",
+    "returning": []
+  },
+  {
+    "chapter": 283,
+    "setting": "The barricade, after nightfall",
+    "keepInMind": "In the dusk Jean Prouvaire murmured a poem about young love in a Latin Quarter garret. A torch in a cage of paving-stones lights the red flag and nothing else. Troops have not come yet.",
+    "returning": [
+      {
+        "id": "the-man-of-the-rue-des-billettes",
+        "reminder": "The tall, grey-haired stranger who joined the band near the Rue des Billettes and has been working on the small barricade."
+      }
+    ]
+  },
+  {
+    "chapter": 284,
+    "setting": "The barricade, the same night",
+    "keepInMind": "The stranger from the Rue des Billettes is Inspector Javert. Gavroche unmasked him as a spy, and he is bound to the post in Corinthe's taproom, to be shot ten minutes before the barricade falls. Gavroche has gone out to scout with Javert's gun.",
+    "returning": [
+      {
+        "id": "the-young-workman",
+        "reminder": "The pale young workman who asked for Marius at Courfeyrac's lodging, came to the barricade, and then disappeared."
+      }
+    ]
+  },
+  {
+    "chapter": 285,
+    "setting": "Marius crossing Paris toward the barricade, the night of 5 June",
+    "keepInMind": "Hugo goes back to Marius. Finding Cosette's house shut and empty, he wanted to die, and a voice through the trees told him his friends were waiting at the barricade of the Rue de la Chanvrerie. He carries Javert's two pistols. At the barricade, meanwhile, Enjolras has executed the drunken Le Cabuc for murdering a porter.",
+    "returning": []
+  },
+  {
+    "chapter": 286,
+    "setting": "Paris seen from above, that night",
+    "keepInMind": "Marius crossed from the lit shops of the Rue de Rivoli, through the crowds and the army's bivouacs near the Halles, into the dark, deserted quarter held by the insurgents.",
+    "returning": []
+  },
+  {
+    "chapter": 287,
+    "setting": "The edge of the insurgent quarter near the Halles, that night",
+    "keepInMind": "The army is closing a ring of bayonets and cannon around the dark Halles quarter, and both sides know everything will be decided by morning.",
+    "returning": []
+  },
+  {
+    "chapter": 288,
+    "setting": "The barricade, as ten o'clock strikes from Saint-Merry",
+    "keepInMind": "Marius is watching the barricade from the elbow of the Rue Mondétour, not yet in it, arguing with himself over whether civil war would dishonour his father's sword.",
+    "returning": [
+      {
+        "id": "gavroche",
+        "reminder": "Out scouting for the barricade with Javert's gun since the spy was unmasked."
+      }
+    ]
+  },
+  {
+    "chapter": 289,
+    "setting": "The barricade, moments after the first volley",
+    "keepInMind": "The first volley cut down the flag, and Enjolras asked who would plant it again. No one answered.",
+    "returning": [
+      {
+        "id": "mabeuf",
+        "reminder": "Marius's old friend, the ruined botanist, who followed the band saying 'That is good' and has sat silent behind Corinthe's counter ever since."
+      }
+    ]
+  },
+  {
+    "chapter": 290,
+    "setting": "The barricade, straight after the second volley",
+    "keepInMind": "Old Mabeuf took the flag, climbed the barricade crying 'Long live the Republic!', and was shot dead. Enjolras held up his bloody coat: 'This is our flag now.'",
+    "returning": []
+  },
+  {
+    "chapter": 291,
+    "setting": "The corner of the Rue Mondétour, during the same attack",
+    "keepInMind": "Municipal Guards came over the barricade. Bahorel was killed and Courfeyrac thrown down, and a giant guardsman raised his bayonet over Gavroche, whose gun was not loaded. Two shots dropped both guardsmen: Marius has entered the barricade.",
+    "returning": []
+  },
+  {
+    "chapter": 292,
+    "setting": "Inside the barricade, as the troops fall back",
+    "keepInMind": "Marius's pistols saved Gavroche and Courfeyrac. When a soldier aimed at him, the young workman put a hand over the muzzle and fell. Then Marius threatened to blow up a barrel of powder and the barricade with it, and the attackers fled.",
+    "returning": []
+  },
+  {
+    "chapter": 293,
+    "setting": "The deserted small barricade in the Rue Mondétour, later that night",
+    "keepInMind": "Enjolras has named Marius chief. Jean Prouvaire was taken prisoner, and as they spoke of exchanging Javert for him, his voice cried 'Long live France!' and a shot rang out.",
+    "returning": []
+  },
+  {
+    "chapter": 294,
+    "setting": "The small barricade, a few minutes later",
+    "keepInMind": "The young workman was Éponine in men's clothes. Dying of the bullet she stopped with her hand, she told Marius she had led him there so that they would die together, that the singing gamin is her brother, and gave him a letter she had kept from him. She asked for a kiss on her brow once she was dead.",
+    "returning": []
+  },
+  {
+    "chapter": 295,
+    "setting": "The Rue de l'Homme Armé, the evening of 4 June and the day after",
+    "keepInMind": "Cosette's letter told Marius that her father was taking her to No. 7 Rue de l'Homme Armé, and to England within a week. Éponine had kept it, and it was she who threw the warning on the Champ-de-Mars. Marius wrote Cosette a farewell and sent Gavroche off with it.",
+    "returning": [
+      {
+        "id": "jean-valjean",
+        "reminder": "Last seen on the Champ-de-Mars on 4 June, resolved to take Cosette to England after seeing Thénardier prowl the quarter and receiving a note: 'Move away from your house.'"
+      }
+    ]
+  },
+  {
+    "chapter": 296,
+    "setting": "The Rue de l'Homme Armé, late on 5 June",
+    "keepInMind": "In the mirror over the sideboard Valjean read, reversed on Cosette's blotter, her note to Marius. He guessed it was the young man of the Luxembourg, found hatred in his heart, asked Toussaint where the fighting was, and went to sit bareheaded on the post by his door.",
+    "returning": []
+  },
+  {
+    "chapter": 297,
+    "setting": "Valjean's rooms in the Rue de l'Homme Armé, a little after eleven",
+    "keepInMind": "Gavroche came looking for No. 7 with a letter from the barricade for Mademoiselle Cosette. Valjean said it was for him and took it.",
+    "returning": []
+  },
+  {
+    "chapter": 298,
+    "setting": "The empty streets of the Marais, the same night",
+    "keepInMind": "Valjean read Marius's note, 'I die', and felt a frightful joy that the man between him and Cosette was going to his death unasked. Then he grew gloomy, and an hour later went out armed, in full National Guard uniform, toward the markets.",
+    "returning": []
+  },
+  {
+    "chapter": 299,
+    "setting": "Paris, June 1848: two great barricades, sixteen years on",
+    "keepInMind": "A new volume begins, and this chapter steps away from the story, jumping forward to the vast barricades of the 1848 rising as a measure for the small one of 1832. The story is left on the night of 5 to 6 June: Valjean heading for the barricade in uniform, Gavroche on his way back from delivering Marius's letter, and Marius waiting to die.",
+    "returning": []
+  },
+  {
+    "chapter": 300,
+    "setting": "The barricade of the Rue de la Chanvrerie, the night of 5 to 6 June 1832",
+    "keepInMind": "The story returns from 1848. On the barricade Mabeuf, Bahorel, Jean Prouvaire and Éponine are dead. Javert is bound in the taproom, and Marius, now chief, has sent Gavroche away with his farewell letter.",
+    "returning": [
+      {
+        "id": "grantaire",
+        "reminder": "The drunken sceptic, asleep at a table in Corinthe since Enjolras ordered him off the barricade."
+      }
+    ]
+  },
+  {
+    "chapter": 301,
+    "setting": "The barricade, at daybreak on 6 June",
+    "keepInMind": "Through the night the insurgents repaired the barricade and laid out their dead. Thirty-seven are left, hungry, and confident after beating off the first attack.",
+    "returning": []
+  },
+  {
+    "chapter": 302,
+    "setting": "The barricade, just after Enjolras's report",
+    "keepInMind": "Enjolras came back from a reconnaissance with the truth: a third of the army is coming and Paris is not rising. An unknown man answered that they should stay and make 'the protest of corpses', and everyone cheered him.",
+    "returning": []
+  },
+  {
+    "chapter": 303,
+    "setting": "The barricade, early on 6 June",
+    "keepInMind": "Five fathers and breadwinners were chosen to leave in four captured uniforms. A fifth uniform fell on the pile: Jean Valjean, in his National Guard dress, has entered the barricade, and Marius recognised him as M. Fauchelevent.",
+    "returning": []
+  },
+  {
+    "chapter": 304,
+    "setting": "The barricade, the same morning",
+    "keepInMind": "From the paving-stone steps Enjolras spoke of the future: light, schooling for all, the union of peoples, and the barricade as a tomb flooded with dawn.",
+    "returning": [
+      {
+        "id": "javert",
+        "reminder": "Bound in Corinthe's taproom since Gavroche unmasked him. He has watched the fighting without moving his head."
+      }
+    ]
+  },
+  {
+    "chapter": 305,
+    "setting": "The barricade, in full daylight",
+    "keepInMind": "As he was tied to the taproom table, Javert looked up, recognised Jean Valjean, and said only, 'It is perfectly simple.' Marius, feeling himself already dead, did not ask why M. Fauchelevent had come.",
+    "returning": []
   }
 ]

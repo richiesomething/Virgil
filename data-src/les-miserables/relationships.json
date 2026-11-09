@@ -2997,11 +2997,6 @@
     "b": "enjolras",
     "states": [
       {
-        "from": 301,
-        "type": "friend",
-        "label": "An unknown man urges the barricade to stay and die in protest"
-      },
-      {
         "from": 302,
         "type": "friend",
         "label": "His uniform lets a fifth man go home"
@@ -3137,7 +3132,7 @@
       {
         "from": 93,
         "type": "family",
-        "label": "A little son of the inn, left to himself",
+        "label": "A three-year-old son crying somewhere in the inn",
         "kin": "parent"
       }
     ]
@@ -3149,13 +3144,13 @@
       {
         "from": 93,
         "type": "family",
-        "label": "She loves only her daughters, not her little boy",
+        "label": "She nursed him but does not love him, and leaves him to cry",
         "kin": "parent"
       },
       {
         "from": 100,
         "type": "family",
-        "label": "He cries in a corner; no one comforts him",
+        "label": "He cries all evening in his cradle",
         "kin": "parent"
       }
     ]
