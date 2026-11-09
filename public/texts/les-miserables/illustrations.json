@@ -2995,6 +2995,17 @@
       "credit": "Georges Jeanniot, 1890 edition (Wikimedia Commons)"
     },
     {
+      "chapter": 303,
+      "from": "Enjolras bore within him the plenitude",
+      "file": "303-1.webp",
+      "width": 823,
+      "height": 1000,
+      "caption": "Enjolras speaks to the insurgents from the barricade",
+      "source": "O-018",
+      "to": "Enjolras paused rather than became silent",
+      "credit": "Crayon drawing, “La guerre entre quatre murs”, Maison de Victor Hugo / Paris Musées (Wikimedia Commons)"
+    },
+    {
       "chapter": 304,
       "from": "The five chosen men left the barricade",
       "file": "304-1.webp",
@@ -3397,8 +3408,18 @@
     },
     {
       "chapter": 343,
-      "from": "On the day when the doctor announced to him that Marius was out of danger",
+      "from": "M. Gillenormand first passed through all manner of anguish",
       "file": "343-1.webp",
+      "width": 716,
+      "height": 1000,
+      "caption": "M. Gillenormand at the wounded Marius’ bedside",
+      "source": "O-016",
+      "credit": "Gustave Brion, “L’aïeul et le petit-fils”, photographic reproduction of the drawing (Faucheur & Danelle album, 1860s) (Wikimedia Commons)"
+    },
+    {
+      "chapter": 343,
+      "from": "On the day when the doctor announced to him that Marius was out of danger",
+      "file": "343-2.webp",
       "width": 500,
       "height": 315,
       "caption": "M. Gillenormand dances a gavotte in his chamber",
