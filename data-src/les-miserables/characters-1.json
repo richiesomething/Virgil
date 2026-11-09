@@ -1,0 +1,675 @@
+[
+  {
+    "id": "bishop-myriel",
+    "name": "Monseigneur Bienvenu, Bishop of D——",
+    "firstChapter": 1,
+    "importance": "major",
+    "group": "Digne, 1815",
+    "aliases": [
+      { "name": "Charles-François-Bienvenu Myriel", "from": 1, "note": "his full name" },
+      { "name": "Monseigneur Bienvenu", "from": 2, "note": "Monseigneur Welcome: the name the poor of Digne pick out of his baptismal names" },
+      { "name": "the Bishop of Digne", "from": 1 }
+    ],
+    "tagline": [
+      { "from": 1, "text": "The seventy-five-year-old Bishop of Digne, about whose past little is known." },
+      { "from": 2, "text": "The bishop who gave his palace to the hospital and his salary to the poor." },
+      { "from": 6, "text": "A saintly old man whose front door is never locked." },
+      { "from": 17, "text": "The host who takes in the convict every other door in Digne turned away." },
+      { "from": 26, "text": "The bishop who gave the thief his candlesticks and told him he had bought his soul for God." },
+      { "from": 43, "text": "Dead at eighty-two, blind in his last years, and mourned by the mayor of Montreuil-sur-Mer." },
+      { "from": 57, "text": "The dead bishop whose memory stands over Jean Valjean's every choice." }
+    ],
+    "description": [
+      { "from": 1, "text": "Son of a magistrate of Aix, married young, said to have lived for society before the Revolution scattered his family. He came back from exile in Italy a widower and a priest, and no one knows what changed him. A chance remark to Napoleon in Cardinal Fesch's anteroom made him Bishop of Digne in 1806. He lives with his sister Baptistine and their one servant, Madame Magloire." },
+      { "from": 2, "text": "Three days after arriving he swaps his palace for the cramped hospital next door and budgets his fifteen-thousand-franc salary so that a thousand livres are left for himself. Money passes through his hands to the poor and none of it sticks. The country people call him Monseigneur Bienvenu, and he likes it." },
+      { "from": 4, "text": "Short, plump, ruddy and quick to laugh at himself, he preaches by holding up the good example of neighbouring villages, speaks the local dialects, and holds that the faults of the weak are the faults of the strong who left them in darkness. A day spent on the scaffold beside a condemned man leaves him shaken by the guillotine for a long time." },
+      { "from": 6, "text": "His house is three whitewashed rooms downstairs, white-wood furniture and straw chairs. He has kept six silver forks and spoons, a ladle and two silver candlesticks from a great-aunt, which Madame Magloire locks up each night. The bolts have been stripped from his street door: a priest's door, he says, should always be open." },
+      { "from": 10, "text": "Fearless of brigands, he crosses Cravatte's mountains alone to reach his shepherds. Fearless of opinion, he visits the dying conventionist G—, whom all Digne shuns, argues with him over the Revolution and ends by kneeling for the old man's blessing. His one failing, the narrator says, is a royalist's coldness toward Napoleon in his fall." },
+      { "from": 17, "text": "When a convict with a yellow passport bursts in and announces himself, the Bishop orders another place set, white sheets on the alcove bed and the silver candlesticks lit, calls the man 'my brother', and talks to him all evening about the cheese-dairies of Pontarlier without one word about his past." },
+      { "from": 26, "text": "Robbed in the night, he tells Madame Magloire the silver belonged to the poor anyway. When gendarmes drag Jean Valjean back, he says the silver was a gift, adds the two candlesticks, and tells the man quietly that he has promised to become honest: 'It is your soul that I buy from you... and I give it to God.'" },
+      { "from": 43, "text": "Early in 1820 the papers report his death at eighty-two, in the odour of sanctity. He had been blind for years and content to be so, with his sister always at his side. In Montreuil-sur-Mer the mayor, M. Madeleine, puts on full mourning and says only that he was once a servant in the Bishop's family." },
+      { "from": 57, "text": "He is more present dead than alive. Jean Valjean has kept his two candlesticks through everything, and on the night of the Champmathieu affair it is the thought of the Bishop that will not let him burn them or let an innocent man go to the galleys in his place." },
+      { "from": 146, "text": "The convent completes what the Bishop began: Valjean, who had started to measure himself against other men instead of against the Bishop, is humbled again by the nuns' expiation, and he reflects that two houses of God received him at the two crises of his life." }
+    ],
+    "moments": [
+      { "chapter": 2, "text": "Gave the episcopal palace to the hospital and moved into the hospital himself." },
+      { "chapter": 4, "text": "Spent a day and night with a condemned murderer and mounted the scaffold beside him." },
+      { "chapter": 7, "text": "Crossed bandit country alone and received a cathedral's treasure from the brigand Cravatte." },
+      { "chapter": 10, "text": "Knelt to ask the dying conventionist G— for his blessing." },
+      { "chapter": 17, "text": "Took in Jean Valjean, set the silver on the table and called him 'my brother'." },
+      { "chapter": 26, "text": "Told the gendarmes the silver was a gift and handed Valjean the candlesticks too." },
+      { "chapter": 43, "text": "Died at eighty-two, blind, with his sister beside him." }
+    ]
+  },
+  {
+    "id": "mademoiselle-baptistine",
+    "name": "Mademoiselle Baptistine",
+    "firstChapter": 1,
+    "importance": "supporting",
+    "group": "Digne, 1815",
+    "tagline": [
+      { "from": 1, "text": "The Bishop's gentle, thin, unmarried sister, ten years his junior." },
+      { "from": 9, "text": "The sister who has stopped opposing her brother's fearless ways and confides him to God." },
+      { "from": 43, "text": "The sister who was at the blind Bishop's side to the end." }
+    ],
+    "description": [
+      { "from": 1, "text": "Tall, pale, thin and gentle, a spinster of about sixty who came to Digne with her brother and their servant. Hugo says she had never been pretty, but that her whole life, a succession of holy works, had given her a kind of whiteness and transparency." },
+      { "from": 9, "text": "Her letter to a childhood friend shows the household from inside: cramped, poor and happy. She has long since stopped arguing with her brother about the unlocked door or his trips among the robbers. She and Madame Magloire pray together, tremble together and fall asleep. When he acts as a bishop the two women become two shadows in the house." },
+      { "from": 17, "text": "Wearing the puce silk gown she bought in 1806, she looks at her brother when the convict enters and grows calm. Her letter afterwards records every word of the supper: he never said one thing that could remind the man of what he was." },
+      { "from": 43, "text": "When the Bishop went blind in his last years, it was her presence that made the darkness bearable to him; Hugo writes of hearing a sister's step and feeling her hand on your brow. She was with him when he died in 1820." }
+    ],
+    "moments": [
+      { "chapter": 9, "text": "Wrote to the Vicomtesse de Boischevron about her brother's unlocked door and his trip among the robbers." },
+      { "chapter": 17, "text": "Grew calm at a glance from her brother as the convict stood in the doorway." },
+      { "chapter": 18, "text": "Recorded the supper with Jean Valjean in a letter: nothing but the cheese-dairies of Pontarlier." }
+    ]
+  },
+  {
+    "id": "madame-magloire",
+    "name": "Madame Magloire",
+    "firstChapter": 1,
+    "importance": "supporting",
+    "group": "Digne, 1815",
+    "tagline": [
+      { "from": 1, "text": "The Bishop's only servant: plump, bustling and asthmatic." },
+      { "from": 16, "text": "The servant who wants bolts on the door the night the vagabond is in town." },
+      { "from": 26, "text": "The servant who discovered the silver gone." }
+    ],
+    "description": [
+      { "from": 1, "text": "A little old woman, white-haired, plump, busy and always out of breath, who serves Mademoiselle Baptistine and keeps the Bishop's house. She grumbles at his household budget and worries about his cassocks." },
+      { "from": 6, "text": "Three of the four garden plots are hers for vegetables. Each night she locks the silver in the cupboard by the Bishop's bed, though the key is never taken out. She has learned to live with a street door anyone can push open." },
+      { "from": 16, "text": "Full of shop gossip about a barefoot vagabond with a terrible face, she begs leave to have the locksmith put proper locks on the door. A knock interrupts her, and the Bishop says 'Come in'. She cannot even cry out when she sees the man; later she fetches the silver candlesticks and the extra sets of silver on the Bishop's orders." },
+      { "from": 26, "text": "At sunrise she finds the silver basket empty in the flowerbed and cries that the man has stolen it. When the Bishop asks whether the silver was ever theirs, and proposes pewter, iron and then wooden spoons, she has no answer." }
+    ],
+    "moments": [
+      { "chapter": 16, "text": "Asked for locks on the door moments before the knock came." },
+      { "chapter": 17, "text": "Brought out the silver candlesticks and the other three sets of silver for the convict's supper." },
+      { "chapter": 26, "text": "Found the silver basket empty in the garden." }
+    ]
+  },
+  {
+    "id": "cravatte",
+    "name": "Cravatte",
+    "firstChapter": 7,
+    "importance": "minor",
+    "group": "Digne, 1815",
+    "tagline": [
+      { "from": 7, "text": "A brigand of the mountains who sent the Bishop a cathedral's stolen treasure." }
+    ],
+    "description": [
+      { "from": 7, "text": "A lieutenant of the broken band of Gaspard Bès, holed up in the mountains above Barcelonette and terrorising the countryside; he has even robbed the sacristy of Notre Dame d'Embrun. The Bishop refuses an escort and crosses his country alone to reach the shepherds. When the Bishop wants to sing a Te Deum and the village sacristy has only rags, two horsemen leave a chest of the Embrun vestments at the presbytery with a note: 'From Cravatte to Monseigneur Bienvenu.' The Bishop is never seen by him; he says afterwards, 'This is the way I have been robbed!'" }
+    ],
+    "moments": [
+      { "chapter": 7, "text": "Sent the gold cope, diamond mitre, cross and crosier of Embrun to the Bishop for his Te Deum." }
+    ]
+  },
+  {
+    "id": "the-conventionist-g",
+    "name": "The conventionist G——",
+    "firstChapter": 10,
+    "importance": "minor",
+    "group": "Digne, 1815",
+    "tagline": [
+      { "from": 10, "text": "A dying old member of the Revolutionary Convention, shunned by Digne as a near-regicide." }
+    ],
+    "description": [
+      { "from": 10, "text": "An old man of the Convention who lives alone in a hidden valley near Digne, spoken of with horror as almost a regicide and an atheist, though he did not vote for the king's death. The Bishop visits him as he dies, meaning to be severe, and they argue over '93, the guillotine, the crimes of the monarchy and of the Terror. G— says he voted for the death of the tyrant ignorance and has spent his life fighting for the oppressed; dying, he affirms the infinite as a person, a God. The Bishop asks for his blessing and kneels; when he looks up the old man is dead. The meeting leaves the Bishop gentler than before, and the town's drawing-rooms mutter about it." }
+    ],
+    "moments": [
+      { "chapter": 10, "text": "Died at sunset after the Bishop had knelt to ask his blessing." }
+    ]
+  },
+  {
+    "id": "monsieur-madeleine",
+    "name": "Monsieur Madeleine",
+    "firstChapter": 40,
+    "importance": "major",
+    "group": "Montreuil-sur-Mer",
+    "mergedInto": { "id": "jean-valjean", "from": 57 },
+    "aliases": [
+      { "name": "Father Madeleine", "from": 40, "note": "what the town called him when he was still a workman" },
+      { "name": "Monsieur le Maire", "from": 41, "note": "mayor of Montreuil-sur-Mer from 1820" }
+    ],
+    "tagline": [
+      { "from": 40, "text": "A stranger who walked into Montreuil-sur-Mer in 1815 and made the whole town rich." },
+      { "from": 41, "text": "The millionaire manufacturer who gives away his profits and finally agrees to be mayor." },
+      { "from": 44, "text": "A mayor venerated by everyone except Inspector Javert, who thinks he has seen him somewhere before." },
+      { "from": 45, "text": "The mayor who lifted a loaded cart off old Fauchelevent with his back, under Javert's eye." },
+      { "from": 52, "text": "The mayor who freed Fantine from Javert and promised to bring her child." },
+      { "from": 54, "text": "A mayor Javert once denounced as the convict Jean Valjean, and now swears he was wrong about." },
+      { "from": 56, "text": "Hiring a horse for a twenty-league journey he will not explain." }
+    ],
+    "description": [
+      { "from": 40, "text": "Nobody knows where he came from. He arrived in December 1815 in workman's clothes with a knapsack and a thorn stick, ran into a burning town hall to save two children on the night of his arrival, and was never asked for his passport. Two small changes to the making of black glass trinkets cut costs, raised wages and tripled profits, and within three years Father Madeleine was rich and so was everyone around him." },
+      { "from": 41, "text": "About fifty, grey-haired, preoccupied and good. His factory takes anyone willing to be honest, with men and women strictly apart. He has spent over a million on schools, hospital beds, a dispensary and a fund for old workmen, and refuses the mayoralty and the Legion of Honour before an old woman shames him into accepting the mayor's scarf in 1820." },
+      { "from": 42, "text": "He lives alone, eats with a book open, walks with a gun he almost never fires, and is thought enormously strong. He slips gold pieces into poor men's attics at night. His room, when he shows it to mocking visitors, holds nothing remarkable but two antique silver candlesticks on the mantel." },
+      { "from": 43, "text": "When the Bishop of Digne dies he appears in full mourning, saying he was once a servant in the Bishop's family. He stops every young Savoyard chimney-sweep who passes through town, asks his name, and gives him money." },
+      { "from": 45, "text": "Javert, the one man in town who distrusts him, has looked into his past elsewhere. When Fauchelevent lies crushed under his cart, Javert remarks that he has known only one man strong enough to lift it, a convict at Toulon; the mayor turns pale, then crawls under the cart and lifts it anyway. Afterwards he pays for the horse and cart and finds Fauchelevent a gardener's place in Paris." },
+      { "from": 52, "text": "He walks into the police station as Javert sentences Fantine to six months, takes her spit in his face, and orders her freed, citing the code against Javert's protests. He tells her he knew nothing of her dismissal, that he believes her, and that he will bring Cosette to her." },
+      { "from": 54, "text": "Javert comes to be dismissed: six weeks ago he denounced the mayor to Paris as the ex-convict Jean Valjean, and he was wrong, because the real Valjean has been found and goes before the Arras Assizes tomorrow. The mayor turns livid, drops his paper, and then refuses to dismiss him. The suspicion Hugo has let the reader feel since the cart is now spoken aloud and withdrawn." },
+      { "from": 56, "text": "He stops at the priest's door without knocking, hires a horse and tilbury from Scaufflaire for a journey of twenty leagues he will not name, and paces his room all night with the window open. Scaufflaire works the relays out from his figures: Arras." }
+    ],
+    "moments": [
+      { "chapter": 40, "text": "Saved two children from the burning town hall on the night he arrived." },
+      { "chapter": 41, "text": "Accepted the mayoralty of Montreuil-sur-Mer in 1820." },
+      { "chapter": 43, "text": "Went into mourning for the Bishop of Digne." },
+      { "chapter": 45, "text": "Lifted Fauchelevent's cart on his back while Javert watched." },
+      { "chapter": 52, "text": "Freed Fantine from Javert and promised her Cosette." },
+      { "chapter": 54, "text": "Heard from Javert that 'the real Jean Valjean' had been found at Arras." },
+      { "chapter": 56, "text": "Hired Scaufflaire's white horse and tilbury for half-past four in the morning." }
+    ]
+  },
+  {
+    "id": "fantine",
+    "name": "Fantine",
+    "firstChapter": 29,
+    "importance": "major",
+    "group": "Montreuil-sur-Mer",
+    "aliases": [
+      { "name": "the Blonde", "from": 29, "note": "what the students call her for her hair" },
+      { "name": "Cosette's mother", "from": 37 }
+    ],
+    "tagline": [
+      { "from": 29, "text": "The youngest of four grisettes, a foundling from Montreuil-sur-Mer in love with Tholomyès." },
+      { "from": 36, "text": "Deserted by Tholomyès, and carrying his child." },
+      { "from": 37, "text": "A young mother who leaves her daughter Cosette with the Thénardiers at Montfermeil." },
+      { "from": 46, "text": "A workwoman in M. Madeleine's factory, earning her bread." },
+      { "from": 47, "text": "Dismissed from the factory once the town learns she has a child." },
+      { "from": 49, "text": "Sold her hair and her front teeth for Cosette; now a woman of the streets." },
+      { "from": 52, "text": "Snatched from Javert by the mayor she cursed, and promised her child." },
+      { "from": 53, "text": "Dying in Madeleine's infirmary, waiting for Cosette." },
+      { "from": 69, "text": "Dead of the shock of Javert's arrest, without seeing Cosette again." },
+      { "from": 70, "text": "Buried in the paupers' pit at Montreuil-sur-Mer." },
+      { "from": 236, "text": "The mother whose name Cosette has never been told." },
+      { "from": 364, "text": "The name Jean Valjean gives Cosette with his last breath." }
+    ],
+    "description": [
+      { "from": 29, "text": "Born in Montreuil-sur-Mer under the Directory, she never knew a father or mother; a passer-by gave her her name. She went into service at ten and came to Paris at fifteen. Blonde, beautiful and pure as long as she could be, she worked for her living until, because the heart too has its hunger, she loved Félix Tholomyès: an amour for him, a passion for her. She is the only one of the four girls none of the men addresses as 'thou'." },
+      { "from": 30, "text": "Hugo lingers on her: splendid teeth made for laughter, thick blond hair that will not stay up, deep blue eyes, and a modesty that separates her from the others' boldness. She would refuse Tholomyès nothing, yet her face in repose is virginal. She alone will not swing at Bourguin's park, and alone pities the dying cart horse." },
+      { "from": 36, "text": "When the four men's farewell letter is read aloud she laughs with the rest, then weeps alone in her room. It was her first love; she had given herself to Tholomyès as to a husband, and she has a child." },
+      { "from": 37, "text": "Ten months later, unable to find work in Paris and unwilling to be known as an unmarried mother, she sells everything, dresses her child in finery and herself in linen, and sets out for her native town with eighty francs and a small cough. Passing an inn at Montfermeil she sees two happy little girls on a swing and leaves Cosette with their mother, Madame Thénardier, paying fifty-seven francs in advance. She can barely read and cannot write." },
+      { "from": 46, "text": "Montreuil-sur-Mer has been made prosperous by M. Madeleine. No one remembers her; she is taken on in the women's workroom and learns a trade. She rents a room, buys a mirror, and pays the Thénardiers promptly through a public letter-writer." },
+      { "from": 47, "text": "Her letters to Montfermeil set the workroom gossiping. Madame Victurnien pays thirty-five francs to go and see the child, and after more than a year Fantine is handed fifty francs in the mayor's name, dismissed, and asked to leave the district. In debt, she cannot leave; ashamed, she dares not go to the mayor." },
+      { "from": 48, "text": "Refused as a servant everywhere, she sews soldiers' shirts for twelve sous a day while Cosette costs ten. Her neighbour Marguerite teaches her how to live on nothing. She stops hiding, walks with her head up and a bitter smile, and her cough grows." },
+      { "from": 49, "text": "A letter says Cosette is naked in the cold: she sells her knee-length hair for ten francs. Another says Cosette has a fever: she sells her two front teeth for forty. Both letters are Thénardier lies. She comes to hate M. Madeleine above all, blaming him for her dismissal. When Thénardier demands a hundred francs she sells what is left and becomes a woman of the town." },
+      { "from": 51, "text": "Towards New Year 1823, toothless and in a ball-dress, she is taunted outside the officers' café by the idler Bamatabois, who stuffs snow down her bare back. She flies at him with her nails, and it is Javert who seizes her." },
+      { "from": 52, "text": "At the station Javert gives her six months and turns his back on her pleading for Cosette. When the mayor orders her freed she spits in his face. Then she watches the two men who hold her life fight over her, and the angel turns out to be the man she abhorred. He tells her he will pay her debts and bring her child, and that in God's sight she has never ceased to be virtuous. She kisses his hand and faints." },
+      { "from": 53, "text": "Nursed in Madeleine's own infirmary, she wins over the sisters with her humility. He sends the Thénardiers three hundred francs, then three hundred more, and they still keep the child. The snow on her back has woken a chest disease smouldering for years; the doctor says to bring the child quickly. She signs a note ordering Thénardier to hand Cosette to the bearer." },
+      { "from": 60, "text": "At twenty-five she has the face of an old woman. Delirious, she waits for the mayor's three o'clock visit that does not come and sings an old cradle song she once sang to Cosette. Told that he has gone away, she concludes he has gone to Montfermeil for Cosette, and joy makes her briefly better." },
+      { "from": 69, "text": "Javert seizes the man she knows as the mayor in front of her and shouts that there is no Madeleine, only a convict named Jean Valjean. Learning in the same breath that Cosette was never brought, she rears up, tries to speak, and falls back dead. Valjean whispers something in her ear that no one hears, arranges her hair under her cap and kisses her hand." },
+      { "from": 70, "text": "The curé, judging that a street-woman deserves no more, gives her the cheapest funeral. She is thrown into the common pit of the cemetery. Her grave, the narrator says, resembled her bed." },
+      { "from": 236, "text": "Cosette prays for the mother she never knew and sometimes thinks her soul has passed into the good man who raised her. She does not know her mother's name; when she asks, Jean Valjean is silent, or smiles, and once the smile ended in a tear." }
+    ],
+    "moments": [
+      { "chapter": 36, "text": "Laughed with the others at the men's farewell letter, then wept alone: she has a child." },
+      { "chapter": 37, "text": "Left Cosette with Madame Thénardier at Montfermeil for fifty-seven francs in advance." },
+      { "chapter": 47, "text": "Dismissed from M. Madeleine's factory in the mayor's name." },
+      { "chapter": 49, "text": "Sold her hair, then her two front teeth, for Cosette." },
+      { "chapter": 51, "text": "Clawed Bamatabois's face after he stuffed snow down her back, and was seized by Javert." },
+      { "chapter": 52, "text": "Spat in the mayor's face, then kissed his hand when he freed her." },
+      { "chapter": 60, "text": "Sang Cosette's cradle song in the infirmary, waiting for the mayor." },
+      { "chapter": 69, "text": "Died of shock as Javert arrested the mayor at her bedside." },
+      { "chapter": 70, "text": "Buried in the paupers' corner of the cemetery." },
+      { "chapter": 364, "text": "Named at last to Cosette: 'She was called Fantine. Kneel whenever thou utterest it.'" }
+    ]
+  },
+  {
+    "id": "javert",
+    "name": "Javert",
+    "firstChapter": 44,
+    "importance": "major",
+    "group": "Montreuil-sur-Mer",
+    "aliases": [
+      { "name": "Inspector Javert", "from": 44 },
+      { "name": "Dumont, or Daumont", "from": 108, "note": "the name the new lodger at the Gorbeau house gives the old woman" },
+      { "name": "the man of the Rue des Billettes", "from": 283, "note": "the volunteer recruited on the way to the barricade" }
+    ],
+    "tagline": [
+      { "from": 44, "text": "Police inspector of Montreuil-sur-Mer, who watches the mayor with steady suspicion." },
+      { "from": 52, "text": "The inspector the mayor overruled and sent from the room in front of Fantine." },
+      { "from": 54, "text": "The inspector who denounced the mayor as a convict, and now asks to be dismissed for it." },
+      { "from": 68, "text": "The inspector come to arrest the mayor as Jean Valjean." },
+      { "from": 70, "text": "The inspector the escaped Valjean slipped past, thanks to a nun's first lie." },
+      { "from": 108, "text": "Now in the Paris police, and on Valjean's trail again." },
+      { "from": 118, "text": "The hunter who lost his man at a convent wall." },
+      { "from": 214, "text": "The inspector who arms Marius against the Jondrette trap." },
+      { "from": 221, "text": "Captor of the whole Gorbeau gang, except the victim." },
+      { "from": 283, "text": "Unmasked as a police spy inside the barricade and bound to the post." },
+      { "from": 304, "text": "The barricade's condemned prisoner, who has just recognised Jean Valjean among the insurgents." },
+      { "from": 317, "text": "Set free by the convict chosen to shoot him." },
+      { "from": 337, "text": "Waiting at the sewer outlet, with Jean Valjean in his power once more." },
+      { "from": 339, "text": "Walked his prisoner to his own door, and vanished." },
+      { "from": 341, "text": "Unable to arrest the convict who spared him or to let him go, he drowned himself in the Seine." }
+    ],
+    "description": [
+      { "from": 44, "text": "A tall man in an iron-grey coat with a heavy cane, posted to Montreuil-sur-Mer after M. Madeleine's fortune was made, through the protection of M. Chabouillet at the Paris prefecture. Born in prison to a fortune-teller whose husband was in the galleys, he saw two ways back into society, to attack it or to guard it, and chose the police. He was a guard in the southern convict prisons in his youth. Two feelings fill him: respect for authority and hatred of rebellion. The functionary can never be wrong; the convict can never be redeemed. Hugo calls him the dog born in a litter of wolves. He has quietly inquired into the mayor's past elsewhere and once muttered 'I think I have him!'" },
+      { "from": 45, "text": "At the scene of Fauchelevent's accident he remarks, staring at the mayor, that he has known only one man strong enough to lift the cart with his back, a convict at Toulon. When the mayor does it, Javert goes on staring. Seeing Madeleine in the mayor's scarf, he shudders like a watchdog smelling a wolf in its master's clothes, and thereafter avoids him." },
+      { "from": 52, "text": "He arrests Fantine for attacking a citizen and sentences her to six months without hearing her. When the mayor orders her freed, he protests that this is a police matter, is answered with the criminal code, and is told to leave the room. He takes the blow like a soldier, bows to the ground and goes. That night he posts a letter to M. Chabouillet in Paris." },
+      { "from": 54, "text": "He returns to ask for his own dismissal: six weeks ago, in his rage, he denounced the mayor to the prefecture as the ex-convict Jean Valjean, a man he knew at Toulon. Paris called him mad, and rightly, because the real Valjean has been found, an old apple-thief named Champmathieu whom three convicts and Javert himself have recognised. He refuses the mayor's forgiveness and his hand: a mayor does not shake hands with a police spy. He leaves to testify at Arras." },
+      { "from": 68, "text": "After Champmathieu's acquittal a warrant reaches him for the mayor as Jean Valjean. He climbs the infirmary stairs with four soldiers in the yard and the buckle of his stock under his ear, the one sign of an inner earthquake. Standing in Fantine's doorway, his face is that of a demon who has found his damned soul. Hugo insists there is nothing ignoble in him: it is 'the evil of the good'." },
+      { "from": 69, "text": "He seizes the mayor by the collar before Fantine, refuses him three days to fetch Cosette, and shouts that there is no mayor, only a convict named Jean Valjean. Fantine dies of it. When Valjean wrenches an iron bar from the bedstead and tells him not to disturb him now, Javert trembles and waits by the door rather than risk losing him. Valjean lays out the dead woman and says, 'Now, I am at your disposal.'" },
+      { "from": 70, "text": "Valjean breaks out of the town jail the same night. Javert tracks him to his room, finds Sister Simplice kneeling alone, and because a nun never lies and this one has never lied in her life, takes her 'no' and withdraws without noticing the still-smoking wick." },
+      { "from": 108, "text": "Transferred to Paris on M. Chabouillet's recommendation, he turns up under the rags of the beggar at Saint-Médard, then as a new lodger listening at Valjean's door in the Gorbeau house. Valjean recognises his neck and shoulders from behind and flees with Cosette; Javert, with four men and then a requisitioned patrol, hunts them through the Mouffetard quarter and across the Pont d'Austerlitz to the walls of the Petit-Picpus." },
+      { "from": 118, "text": "Hugo tells the chase from his side. He had read that Valjean was dead, then heard of a child stolen at Montfermeil and of 'the beggar who gives alms'. Scrupulous, he would not arrest on a doubt; proud, he told no one at the prefecture whose arrest he planned, and savoured letting his man run a little longer. When he closed the net the fly was gone. He searched the gardens all night, watched the quarter for more than a month, and went back to the prefecture ashamed." },
+      { "from": 214, "text": "Eight years on, as the inspector on duty at a police station, he hears young Marius Pontmercy's account of the trap being laid for M. Leblanc in the Gorbeau house, a house he knows. He takes Marius's passkey, gives him two loaded pistols, and tells him to fire into the ceiling when the crime is about to be committed, not too soon. As Marius leaves, he gives his name." },
+      { "from": 221, "text": "He had posted his men under the trees and pocketed one of the girls on watch; impatient, he goes up without waiting for the shot and offers his hat for the ruffians' lottery. Thénardier's pistol misfires in his face; he ducks the Thénardier woman's paving-stone and greets each masked man by name. When he turns to the bound victim, the window is open and the rope ladder still swaying. 'The devil! He must have been the most valuable of the lot.'" },
+      { "from": 230, "text": "His victory has gaps: the victim gone, Montparnasse away, Claquesous melted out of the handcuffs between the Gorbeau house and La Force, perhaps with police connivance that Javert bristles at. The young lawyer has moved without an address, and Javert cannot even remember his name." },
+      { "from": 283, "text": "He enters the barricade of the Rue de la Chanvrerie as a volunteer recruited in the Rue des Billettes, and sits silent in the taproom observing everything. Gavroche, whom he once pulled off a cornice by the ear, points him out. Asked who he is, he answers with disdainful pride, 'I am an agent of the authorities,' and gives his name. His card reads 'Javert, inspector of police, aged fifty-two'. Bound to the post, he asks why they do not shoot him at once." },
+      { "from": 292, "text": "Through the first assault he does not move his head, watching the revolt with the resignation of a martyr and the majesty of a judge. Enjolras thinks of exchanging him for the captured Prouvaire; the troops shoot Prouvaire first. 'Your friends have just shot you,' Enjolras tells him. Through the night he stands bound in the taproom beside Mabeuf's body." },
+      { "from": 304, "text": "Laid on the long table and tied with a martingale, he looks up and recognises Jean Valjean, who has entered the barricade in National Guard uniform. He does not start. He lowers his eyelids proudly and says only, 'It is perfectly simple.'" },
+      { "from": 316, "text": "Enjolras decrees that the last man to leave the taproom shall shoot the spy. Jean Valjean asks for that as his reward. Javert raises his head, sees him, and says, 'That is just.' As the trumpets sound he tells the insurgents, 'We shall meet again shortly!'" },
+      { "from": 317, "text": "Led into the Mondétour lane by the martingale, he says 'Take your revenge.' Valjean cuts his cords, tells him he is free, and gives his name and address: Fauchelevent, 7 Rue de l'Homme Armé. Javert, master of himself as he is, cannot repress a start. He walks off, then turns to shout 'You annoy me. Kill me, rather,' no longer calling Valjean 'thou'. Valjean fires into the air behind him." },
+      { "from": 337, "text": "Released, he reported to the Prefect and went straight back on duty along the right bank, where he saw Thénardier and followed him to the sewer outlet. The man Thénardier pushes out as a decoy is Valjean, carrying the dying Marius. Javert does not know the mud-covered face until it says 'Jean Valjean'. He grips his shoulders like vices, then falls into a savage reverie and does not say no when Valjean asks to carry the young man home first. He reads the address in Marius's pocketbook and calls the coach he has had waiting." },
+      { "from": 339, "text": "At the Gillenormands' he announces the son of the house brought back dead, then grants Valjean one more favour: a moment at home. He pays off the coachman, walks him to No. 7 Rue de l'Homme Armé, says 'Go upstairs. I will wait for you here', and when Valjean leans out of the landing window a moment later the street is empty." },
+      { "from": 341, "text": "He walks to the parapet above the whirlpool of the Seine with his head bowed and his hands behind his back, two things he has never done. He owes his life to a convict and has just repaid it by letting him go; to arrest Jean Valjean is wrong and to leave him free is wrong. M. Madeleine reappears behind Jean Valjean and the two fuse into one venerable figure he finds himself admiring. For the first time he discovers a superior above the Prefect and does not know how to hand in his resignation to it. At the Châtelet post he writes ten calm observations for the good of the service, returns to the same paving-stone, takes off his hat, and goes over." },
+      { "from": 346, "text": "The Moniteur reports a police inspector named Javert found drowned under a laundry-boat between the Pont au Change and the Pont-Neuf, and a note from an otherwise irreproachable man pointing to mental derangement. Valjean reads it and thinks: since he let me go once he had me, he must already have been mad." },
+      { "from": 363, "text": "Marius, who heard the shot behind the barricade and has believed ever since that Valjean murdered him, learns the truth from Thénardier's second newspaper: Javert killed Javert, and his own report to the Prefect said he owed his life at the barricade to an insurgent who fired into the air." }
+    ],
+    "moments": [
+      { "chapter": 45, "text": "Watched the mayor lift Fauchelevent's cart after saying only a Toulon convict could do it." },
+      { "chapter": 52, "text": "Arrested Fantine, was overruled by the mayor and ordered from the room." },
+      { "chapter": 54, "text": "Confessed he had denounced the mayor as Jean Valjean and asked to be dismissed." },
+      { "chapter": 69, "text": "Seized Jean Valjean by the collar at Fantine's deathbed." },
+      { "chapter": 70, "text": "Took Sister Simplice's word that Valjean was not in the room." },
+      { "chapter": 108, "text": "Rented a room at the Gorbeau house and listened at Valjean's door." },
+      { "chapter": 113, "text": "Led a patrol up the Rue Polonceau as Valjean went over the convent wall." },
+      { "chapter": 214, "text": "Gave Marius two pistols and a passkey for the Jondrette trap." },
+      { "chapter": 221, "text": "Arrested Thénardier and the Gorbeau gang; the victim escaped by the window." },
+      { "chapter": 283, "text": "Unmasked by Gavroche as a police spy and bound to the post in Corinthe." },
+      { "chapter": 304, "text": "Recognised Jean Valjean in the barricade: 'It is perfectly simple.'" },
+      { "chapter": 317, "text": "Freed by Jean Valjean in the Mondétour lane." },
+      { "chapter": 337, "text": "Arrested Jean Valjean at the sewer outlet, then helped carry Marius home." },
+      { "chapter": 339, "text": "Let Jean Valjean go up to his rooms and left." },
+      { "chapter": 341, "text": "Threw himself into the Seine from the parapet by the Pont Notre-Dame." }
+    ]
+  },
+  {
+    "id": "fauchelevent",
+    "name": "Father Fauchelevent",
+    "firstChapter": 45,
+    "importance": "supporting",
+    "group": "Montreuil-sur-Mer",
+    "aliases": [
+      { "name": "the man with the bell", "from": 117, "note": "the belled figure Valjean watched among the melon beds" },
+      { "name": "Father Fauvent", "from": 139, "note": "the convent's abbreviation of his name" }
+    ],
+    "tagline": [
+      { "from": 45, "text": "A ruined ex-notary turned carter, pinned under his own loaded cart." },
+      { "from": 46, "text": "The carter the mayor saved, now gardener at a convent in Paris." },
+      { "from": 117, "text": "The belled gardener of the Petit-Picpus, who greets Valjean as Father Madeleine." },
+      { "from": 145, "text": "The gardener who smuggled Valjean out of the convent in a coffin and back in as his brother." },
+      { "from": 233, "text": "Dead; Jean Valjean now carries his name." }
+    ],
+    "description": [
+      { "from": 45, "text": "A former notary and half-educated Picard peasant who watched the workman Madeleine grow rich while he went bankrupt, hated him for it and tried to injure him at every turn. Reduced to a horse and cart, he is caught beneath the cart in the mud with the whole weight on his chest. The mayor he hates crawls under it and lifts it off him; Fauchelevent kisses his knees and calls him the good God." },
+      { "from": 46, "text": "His kneecap is dislocated and his knee stays stiff. Madeleine has him nursed, leaves a thousand francs for the dead horse and wrecked cart, and gets him a place as gardener in a women's convent in the Rue Saint-Antoine in Paris." },
+      { "from": 117, "text": "Two years later he is the bent, lame old gardener of the Petit-Picpus convent, with a bell strapped to his knee so that the nuns can hear him coming and keep away. Covering his melons against the frost, he is offered a hundred francs for a night's shelter by a man without hat or coat and cries, 'So it is you, Father Madeleine!' Told 'I saved your life', he puts himself at the mayor's disposal and promises to ask nothing and tell no one." },
+      { "from": 138, "text": "Hugo says the convent's air has made a good deed necessary to him. He resolves to save M. Madeleine whether he is a saint, a thief or an assassin, and brings the notary's trickery to it. The convent thinks him stupid, which is a great merit in religion; the vocal mothers make much of him, and he knows all its secrets from the porter and the gravedigger." },
+      { "from": 141, "text": "Before the prioress he boldly asks that his 'brother', an excellent gardener, come to help him with a little daughter to be reared in the house, and in exchange agrees to bury Mother Crucifixion under the altar against the law. The empty official coffin is the problem, until Valjean says he will be the corpse. Fauchelevent springs up as if a bomb had burst under his chair, then plans to get the drunken gravedigger Mestienne out of the way." },
+      { "from": 144, "text": "At Vaugirard he finds Mestienne dead and a sober new gravedigger, Gribier, shovelling earth onto the coffin. He steals Gribier's card from his pocket and sends him running home before the gates close, digs Valjean out, sobs over his seemingly dead face, and faints with relief when the eyes open. He even returns Gribier's tools and saves him the fine." },
+      { "from": 145, "text": "He brings Valjean and Cosette in by the front door and answers every question for his 'brother', whom he names Ultime Fauchelevent after a real dead brother. Valjean becomes 'the other Fauvent' at his side, pays for his snuff, and takes half his work. The nuns pass the tale of the holy gardener Fauvent up to the archbishop and beyond; none of it reaches Fauchelevent in his hut." },
+      { "from": 233, "text": "He died some years later, and his death gave Valjean the occasion he was waiting for: he told the prioress he had inherited from his brother, paid for Cosette's schooling and took her out of the convent, keeping the name Ultime Fauchelevent for his life in the Rue Plumet." },
+      { "from": 347, "text": "On paper he outlives himself: when Cosette must be given a legal identity for her marriage, Valjean makes her the orphan daughter of the dead gardener, Mademoiselle Euphrasie Fauchelevent, with the nuns' glowing references." }
+    ],
+    "moments": [
+      { "chapter": 45, "text": "Crushed under his cart until the mayor lifted it off him." },
+      { "chapter": 46, "text": "Sent to Paris as gardener of a convent, with a thousand francs for his horse and cart." },
+      { "chapter": 117, "text": "Recognised Father Madeleine in the convent garden by moonlight." },
+      { "chapter": 140, "text": "Promised the prioress to bury Mother Crucifixion under the altar." },
+      { "chapter": 144, "text": "Stole the gravedigger's card and dug Valjean out of his grave." },
+      { "chapter": 145, "text": "Presented Valjean to the prioress as his brother Ultime." },
+      { "chapter": 233, "text": "Died at the convent; Valjean took his name out into the world." }
+    ]
+  },
+  {
+    "id": "madame-victurnien",
+    "name": "Madame Victurnien",
+    "firstChapter": 47,
+    "importance": "minor",
+    "group": "Montreuil-sur-Mer",
+    "tagline": [
+      { "from": 47, "text": "A bigoted widow who paid thirty-five francs to discover Fantine's child." },
+      { "from": 48, "text": "The gossip who ruined Fantine, watching her fall from the window." }
+    ],
+    "description": [
+      { "from": 47, "text": "Fifty-six, the widow of a monk who left his cloister in a red cap in '93; soured by him, she turned fierce bigot at the Restoration and is in favour at the bishop's palace at Arras. When Fantine's letters to Montfermeil set the workroom talking, she makes the journey herself and comes back to report, for her thirty-five francs, 'I have seen the child.' The dismissal follows." },
+      { "from": 48, "text": "Once Fantine has lost her place, is refused everywhere and walks the town with a bitter smile, Madame Victurnien watches her pass from her window and congratulates herself." }
+    ],
+    "moments": [
+      { "chapter": 47, "text": "Went to Montfermeil and saw Cosette; Fantine was dismissed." }
+    ]
+  },
+  {
+    "id": "marguerite",
+    "name": "Marguerite",
+    "firstChapter": 48,
+    "importance": "minor",
+    "group": "Montreuil-sur-Mer",
+    "tagline": [
+      { "from": 48, "text": "A pious old neighbour who teaches Fantine how to live on nothing." },
+      { "from": 49, "text": "The neighbour who found Fantine with two napoleons and no front teeth." }
+    ],
+    "description": [
+      { "from": 48, "text": "A pious old spinster in Fantine's house who lights her candle for her at night and teaches her the art of poverty: no fire in winter, a petticoat made from a coverlet and a coverlet from a petticoat, meals eaten by the light of the window opposite." },
+      { "from": 49, "text": "The morning after the travelling dentist's offer, she finds Fantine sitting on her bed grown ten years older, two gold napoleons glittering on the table and a black hole in her bloody smile." }
+    ],
+    "moments": [
+      { "chapter": 49, "text": "Found Fantine the morning after she sold her teeth." }
+    ]
+  },
+  {
+    "id": "bamatabois",
+    "name": "Monsieur Bamatabois",
+    "firstChapter": 51,
+    "importance": "minor",
+    "group": "Montreuil-sur-Mer",
+    "tagline": [
+      { "from": 51, "text": "A provincial dandy who stuffed snow down Fantine's back." },
+      { "from": 63, "text": "The idler who assaulted Fantine, now sitting on the jury at Arras." }
+    ],
+    "description": [
+      { "from": 51, "text": "One of the small-town idlers Hugo describes, a young man with fifteen hundred francs a year who hisses actresses, quarrels with officers and never works. In a narrow-brimmed royalist hat and a great cloak he stands smoking outside the officers' café on a snowy evening and insults a toothless woman in a ball-dress each time she passes; piqued by her silence, he thrusts a handful of snow between her bare shoulders. When she flies at him with her nails and Javert arrives, he slips away." },
+      { "from": 52, "text": "Javert calls him a citizen, a householder and an elector, and treats Fantine's attack on him as a crime; the mayor, who has inquired in the square, says the citizen was at fault." },
+      { "from": 63, "text": "At the Arras Assizes he is one of the jurors who will decide Champmathieu's fate, and among the twenty who cry 'M. Madeleine!' when the mayor rises in court." }
+    ],
+    "moments": [
+      { "chapter": 51, "text": "Put snow down Fantine's back outside the officers' café." },
+      { "chapter": 63, "text": "Sat on the jury at Champmathieu's trial." }
+    ]
+  },
+  {
+    "id": "champmathieu",
+    "name": "Champmathieu",
+    "firstChapter": 54,
+    "importance": "supporting",
+    "group": "Montreuil-sur-Mer",
+    "aliases": [
+      { "name": "Father Champmathieu", "from": 54 },
+      { "name": "Jean Mathieu", "from": 54, "note": "the name the prosecution says became Champmathieu in the Auvergne way of speaking" }
+    ],
+    "tagline": [
+      { "from": 54, "text": "An old apple-thief at Arras whom three convicts and Javert swear is Jean Valjean." },
+      { "from": 64, "text": "The accused who defends himself so badly that the court laughs." },
+      { "from": 65, "text": "Acquitted when the real Jean Valjean stood up in court; he understood none of it." }
+    ],
+    "description": [
+      { "from": 54, "text": "A wretched old man arrested last autumn near Ailly-le-Haut-Clocher with a broken branch of stolen apples in his hand. In the prison at Arras an ex-convict turnkey, Brevet, hailed him as Jean Valjean. He was a tree-pruner at Faverolles thirty years ago, like Valjean; Valjean's mother was named Mathieu; the lifers Chenildieu and Cochepaille recognised him, and so did Javert. For a convict, climbing a wall and stealing apples means the galleys for life. He only repeats, stupidly, that he is Champmathieu." },
+      { "from": 63, "text": "In the courtroom he is a man of about sixty with bristling hair, a wild uneasy eye and a blouse, listening open-mouthed to the prosecutor and muttering that this comes of not asking M. Baloup. To the man watching from behind the judges he looks like himself grown old." },
+      { "from": 64, "text": "Asked whether he has anything to add, he pours out his life: a wheelwright for M. Baloup in Paris, a hard trade that makes a man old at forty; a laundress daughter who worked up to her waist in cold water and is dead. He does not know where he was born; his parents walked the roads; yes, he has been in Auvergne and at Faverolles, but can a man not have been there without having been in the galleys? The audience laughs and, not knowing why, he laughs too. After each convict's testimony he says 'Famous!'" },
+      { "from": 65, "text": "When M. Madeleine declares himself Jean Valjean and proves it on the three convicts' bodies, no one in the hall doubts it. Within the hour the jury acquits Champmathieu, who goes off stupefied, thinking all men fools." }
+    ],
+    "moments": [
+      { "chapter": 54, "text": "Recognised as Jean Valjean by Brevet, Chenildieu, Cochepaille and Javert." },
+      { "chapter": 64, "text": "Told the court about M. Baloup and his dead daughter, and made it laugh." },
+      { "chapter": 65, "text": "Acquitted after the mayor of Montreuil-sur-Mer confessed in his place." }
+    ]
+  },
+  {
+    "id": "brevet",
+    "name": "Brevet",
+    "firstChapter": 24,
+    "importance": "minor",
+    "group": "Montreuil-sur-Mer",
+    "tagline": [
+      { "from": 24, "text": "A convict whose checked suspender oddly haunts Jean Valjean's memory." },
+      { "from": 54, "text": "An ex-convict turnkey at Arras who hailed Champmathieu as Jean Valjean." },
+      { "from": 65, "text": "The witness the real Valjean reminded of his knitted checked suspenders." }
+    ],
+    "description": [
+      { "from": 24, "text": "A convict Valjean once knew, whose checked suspender comes back to him for no reason as he sits in the Bishop's alcove at three in the morning, shoes off, deciding whether to take the silver." },
+      { "from": 54, "text": "Now a turnkey at the prison of Arras, serving out his time, he hailed the apple-thief Champmathieu: you are Jean Valjean, we were at Toulon together. His word started the whole case." },
+      { "from": 64, "text": "In court he is a man of about sixty with a businessman's face and a rascal's air. Reminded that he cannot swear an oath and begged to reflect, he insists: this is Jean Valjean, who entered Toulon in 1796 and left in 1815, sly then if brutish now." },
+      { "from": 65, "text": "He does not know the white-haired man who confronts him, but the man knows him: 'Brevet, do you remember the knitted checked suspenders you wore in the galleys?'" }
+    ],
+    "moments": [
+      { "chapter": 54, "text": "Recognised Champmathieu in the Arras prison as Jean Valjean." },
+      { "chapter": 65, "text": "Was reminded of his checked suspenders by the real Jean Valjean." }
+    ]
+  },
+  {
+    "id": "chenildieu",
+    "name": "Chenildieu",
+    "firstChapter": 54,
+    "importance": "minor",
+    "group": "Montreuil-sur-Mer",
+    "aliases": [
+      { "name": "I-deny-God", "from": 64, "note": "his nickname in the galleys" }
+    ],
+    "tagline": [
+      { "from": 54, "text": "A lifer from Toulon brought to Arras to identify Champmathieu as Valjean." },
+      { "from": 65, "text": "The witness whose burned shoulder the real Valjean described from memory." }
+    ],
+    "description": [
+      { "from": 54, "text": "One of two convicts serving life at Toulon who were brought to Arras to confront the apple-thief, and who recognised him as Jean Valjean." },
+      { "from": 64, "text": "A small, wiry lifer in a red cassock and green cap, nicknamed I-deny-God. He laughs at the question: he and Jean Valjean were chained together for five years." },
+      { "from": 65, "text": "The man who calls himself Jean Valjean asks whether his right shoulder does not bear a deep burn where he tried to efface the letters T. F. P., which still show. 'It is true.'" }
+    ],
+    "moments": [
+      { "chapter": 64, "text": "Swore he had been chained to Jean Valjean for five years." },
+      { "chapter": 65, "text": "Admitted the burn on his shoulder that the real Valjean remembered." }
+    ]
+  },
+  {
+    "id": "cochepaille",
+    "name": "Cochepaille",
+    "firstChapter": 54,
+    "importance": "minor",
+    "group": "Montreuil-sur-Mer",
+    "tagline": [
+      { "from": 54, "text": "A lifer from Toulon brought to Arras to identify Champmathieu as Valjean." },
+      { "from": 65, "text": "The witness who bared his arm and showed the date the real Valjean named." }
+    ],
+    "description": [
+      { "from": 54, "text": "One of two convicts serving life at Toulon who were brought to Arras to confront the apple-thief, and who recognised him as Jean Valjean." },
+      { "from": 64, "text": "A half-savage Pyrenean shepherd turned brigand. He says the prisoner is Jean Valjean, called Jean-the-Screw for his strength." },
+      { "from": 65, "text": "Intimidated by the white-haired stranger, he salutes him. Told to pull up his left sleeve, he shows, tattooed in blue near the bend of the arm, the date of the Emperor's landing at Cannes, 1 March 1815, exactly as the man said." }
+    ],
+    "moments": [
+      { "chapter": 64, "text": "Swore the prisoner was Jean Valjean, 'Jean-the-Screw'." },
+      { "chapter": 65, "text": "Showed the tattooed date on his arm that the real Valjean had named." }
+    ]
+  },
+  {
+    "id": "sister-simplice",
+    "name": "Sister Simplice",
+    "firstChapter": 55,
+    "importance": "supporting",
+    "group": "Montreuil-sur-Mer",
+    "tagline": [
+      { "from": 55, "text": "The infirmary nun who has never told a lie, and who nurses Fantine." },
+      { "from": 60, "text": "The nun who would not lie to Fantine about the mayor's absence." },
+      { "from": 70, "text": "The nun who told the first two lies of her life, to Javert, and saved Jean Valjean." }
+    ],
+    "description": [
+      { "from": 55, "text": "Pale as wax, ageless, gentle, austere and more solid than granite. She has never lied, not even the small innocent lie everyone allows himself; to her Satan has two names, Satan and Lying. She took her name from Simplice of Sicily, who let her breasts be torn off rather than misstate her birthplace. She has grown fond of Fantine, and M. Madeleine commends the sick woman to her in a tone she recalls afterwards." },
+      { "from": 60, "text": "When the mayor fails to come and the maid whispers that she should say he is busy with the town council, she blushes at the lie, weighs the blow the truth may deal, and says calmly, 'Monsieur le Maire has gone away.' Fantine takes it for joy." },
+      { "from": 66, "text": "At dawn she finds the mayor standing before her with his hair turned perfectly white overnight, and hands him the little mirror the doctor uses to test for breath. When she suggests he keep away from Fantine until the child can really be brought, so that no lie is needed, he refuses." },
+      { "from": 69, "text": "She is the only witness when Jean Valjean bends and whispers to the dead Fantine, and always said afterwards that she saw a smile come to the dead lips." },
+      { "from": 70, "text": "That night the escaped Valjean sends for her; the day has made the nun a woman again, and she comes weeping. When Javert enters she is kneeling at the table and Valjean is in the angle behind the door. Is she alone? 'Yes.' Has she seen Jean Valjean? 'No.' Javert, who knows she has never lied, bows and withdraws. Hugo prays the lie be counted to her credit in paradise." }
+    ],
+    "moments": [
+      { "chapter": 60, "text": "Refused to lie to Fantine, and told her the mayor had gone away." },
+      { "chapter": 66, "text": "Saw that the mayor's hair had turned white in a night." },
+      { "chapter": 70, "text": "Lied twice to Javert and saved Jean Valjean." }
+    ]
+  },
+  {
+    "id": "sister-perpetue",
+    "name": "Sister Perpétue",
+    "firstChapter": 55,
+    "importance": "minor",
+    "group": "Montreuil-sur-Mer",
+    "tagline": [
+      { "from": 55, "text": "The rough peasant nun of M. Madeleine's infirmary." }
+    ],
+    "description": [
+      { "from": 55, "text": "The other of the two nursing sisters: a robust peasant from Marines near Pontoise who became a nun as another woman becomes a cook, rough with her patients and crabbed with the dying. She is the opposite of Sister Simplice in everything." },
+      { "from": 70, "text": "The night after Fantine's death she keeps watch over the body with Sister Simplice." }
+    ],
+    "moments": [
+      { "chapter": 70, "text": "Watched over Fantine's body with Sister Simplice." }
+    ]
+  },
+  {
+    "id": "scaufflaire",
+    "name": "Master Scaufflaire",
+    "firstChapter": 56,
+    "importance": "minor",
+    "group": "Montreuil-sur-Mer",
+    "tagline": [
+      { "from": 56, "text": "The Flemish horse-hirer who worked out that the mayor was going to Arras." }
+    ],
+    "description": [
+      { "from": 56, "text": "A Fleming who lets horses and gigs in Montreuil-sur-Mer. The mayor asks him for a horse that can do twenty leagues in a day and set out again the next morning; Scaufflaire offers his little white Boulonnais horse, which will not be ridden but goes like the wind in harness, and a light open tilbury, at thirty francs a day, and gets a five-hundred-franc note as guarantee without learning where the mayor is going. From the figures 5, 6 and 8½ on a forgotten scrap of paper he reads off the relays: Hesdin, Saint-Pol, Arras." },
+      { "from": 58, "text": "At five in the morning his tilbury and white horse are in the mayor's yard; the name Scaufflaire, spoken by the portress, goes through the sleeper like lightning." }
+    ],
+    "moments": [
+      { "chapter": 56, "text": "Hired the mayor a white horse and tilbury and guessed his destination from three figures." },
+      { "chapter": 58, "text": "Had the tilbury at the mayor's door at five o'clock." }
+    ]
+  },
+  {
+    "id": "chabouillet",
+    "name": "Monsieur Chabouillet",
+    "firstChapter": 44,
+    "importance": "minor",
+    "group": "Montreuil-sur-Mer",
+    "tagline": [
+      { "from": 44, "text": "Javert's protector at the Paris prefecture of police." }
+    ],
+    "description": [
+      { "from": 44, "text": "Secretary to the prefect of police in Paris. It is through his protection that Javert holds the post of inspector at Montreuil-sur-Mer." },
+      { "from": 53, "text": "The night after the scene at the police station, Javert writes a letter and posts it himself to M. Chabouillet; the town assumes it is his resignation. It is to him that Javert's denunciation of the mayor as an ex-convict goes." },
+      { "from": 118, "text": "After Valjean's escape from Montreuil-sur-Mer, Javert's zeal in the Paris search is noticed by M. Chabouillet, who has him attached to the Paris police." }
+    ],
+    "moments": [
+      { "chapter": 53, "text": "Received Javert's letter from Montreuil-sur-Mer." },
+      { "chapter": 118, "text": "Had Javert attached to the Paris police." }
+    ]
+  },
+  {
+    "id": "tholomyes",
+    "name": "Félix Tholomyès",
+    "firstChapter": 29,
+    "importance": "supporting",
+    "group": "Paris, 1817",
+    "tagline": [
+      { "from": 29, "text": "A rich, bald, witty student of thirty, leader of the four friends and Fantine's lover." },
+      { "from": 36, "text": "The man who left Fantine by letter and went home to Toulouse to be respectable." },
+      { "from": 37, "text": "The father of Fantine's child, who became a stern provincial lawyer." }
+    ],
+    "description": [
+      { "from": 29, "text": "From Toulouse, thirty years old, rich on four thousand francs a year, already wrinkled, toothless and balding, with a weeping eye, and all the gayer for it. His universal doubt makes him the group's leader. For Fantine he is a first and only love; for him she is an amour. He takes the other three aside and whispers a 'surprise' for the girls that makes all four grin." },
+      { "from": 34, "text": "Drunk at Bombarda's, he harangues the table on moderation, puns, wine, women and marriage, and calls Fantine a dreamer with a nymph's form and a nun's modesty who does not even hear him. Trying to embrace her, he kisses Favorite by mistake." },
+      { "from": 36, "text": "The surprise is a farewell letter: the four have taken the Toulouse diligence home to their parents, to become prefects and fathers of families; the girls should mourn them in haste and replace them with speed. The dinner is paid for. Fantine, who gave herself to him as to a husband, is left with his child." },
+      { "from": 37, "text": "Her letters to him go unanswered. Hugo dismisses him for good: twenty years later he is a great provincial lawyer, wealthy and influential, a wise elector and a very severe juryman, and still a man of pleasure." },
+      { "from": 51, "text": "Had he stayed in his province, Hugo remarks, he would have been one of the idlers like Bamatabois who taunt women outside cafés." },
+      { "from": 176, "text": "Courfeyrac has the same sparkling student wit, so that anyone who heard him in 1828 would think he heard Tholomyès in 1817, except that Courfeyrac is an honourable man, with a paladin where Tholomyès had a district attorney." }
+    ],
+    "moments": [
+      { "chapter": 29, "text": "Whispered the plan for a 'surprise' to his three friends." },
+      { "chapter": 34, "text": "Called for 'Embrace me, Fantine!' and kissed Favorite by mistake." },
+      { "chapter": 36, "text": "Left Fantine by letter and took the Toulouse diligence home." }
+    ]
+  },
+  {
+    "id": "favorite",
+    "name": "Favorite",
+    "firstChapter": 29,
+    "importance": "minor",
+    "group": "Paris, 1817",
+    "tagline": [
+      { "from": 29, "text": "Blachevelle's mistress, the eldest of the four grisettes, who has been to England." },
+      { "from": 36, "text": "The girl who read the men's farewell letter aloud and called it a pretty farce." }
+    ],
+    "description": [
+      { "from": 29, "text": "So called because she has been to England. Her father was a brutal mathematics teacher who lived alone; a pious old woman who once knew him installed herself as her mother. She is the eldest at twenty-three, experienced and 'philosophical', and leads the romp." },
+      { "from": 33, "text": "She swears to Blachevelle that she adores him, then tells Dahlia under her breath that she detests him for his stinginess and loves a poor young actor who lives opposite. 'How I lie!' She finds dining in a room with a bed in it disgusting, and keeps demanding the surprise." },
+      { "from": 36, "text": "She reads the farewell letter aloud, pronounces it a very pretty farce, decides it must have been Blachevelle's idea and is in love with him for it, then laughs with the others. Fantine loses sight of her at once afterwards." }
+    ],
+    "moments": [
+      { "chapter": 33, "text": "Swore she adored Blachevelle, then whispered that she detested him." },
+      { "chapter": 36, "text": "Read the men's farewell letter aloud and laughed." }
+    ]
+  },
+  {
+    "id": "dahlia",
+    "name": "Dahlia",
+    "firstChapter": 29,
+    "importance": "minor",
+    "group": "Paris, 1817",
+    "tagline": [
+      { "from": 29, "text": "Listolier's mistress, one of the four grisettes." }
+    ],
+    "description": [
+      { "from": 29, "text": "Adored by Listolier. Drawn into idleness by nails too pretty to spoil with work, she is one of the experienced three beside the innocent Fantine; she clings to Zéphine in English poses on the outing, mocks Fantine for crying over a horse, hears Favorite's confession about the actor, and credits Tholomyès with the farewell farce. Tholomyès advises her to call herself Rosa." }
+    ],
+    "moments": [
+      { "chapter": 36, "text": "Cheered Tholomyès for the farewell farce." }
+    ]
+  },
+  {
+    "id": "zephine",
+    "name": "Zéphine",
+    "firstChapter": 29,
+    "importance": "minor",
+    "group": "Paris, 1817",
+    "tagline": [
+      { "from": 29, "text": "Fameuil's mistress, one of the four grisettes." }
+    ],
+    "description": [
+      { "from": 29, "text": "Idolised by Fameuil, whose devotion was won by her roguish way of saying 'Yes, sir'. One of the experienced three, she laughs through the dinner at Bombarda's, prefers the dinners at Édon's, and is left with the others when the men's letter arrives." }
+    ],
+    "moments": [
+      { "chapter": 36, "text": "Left at Bombarda's with the other girls when the men's letter arrived." }
+    ]
+  },
+  {
+    "id": "blachevelle",
+    "name": "Blachevelle",
+    "firstChapter": 29,
+    "importance": "minor",
+    "group": "Paris, 1817",
+    "tagline": [
+      { "from": 29, "text": "A student from Montauban, Favorite's lover." }
+    ],
+    "description": [
+      { "from": 29, "text": "One of the four provincial students, from Montauban, in love with Favorite, who swears she adores him and privately finds him stingy. He carries her shawl at Saint-Cloud, swells with vanity at her declarations, and prefers the silver knife handles at Bombarda's. He signs the farewell letter with the others, and Favorite decides the farce was his idea." }
+    ],
+    "moments": [
+      { "chapter": 36, "text": "Left for Toulouse with the others, signing the farewell letter." }
+    ]
+  },
+  {
+    "id": "listolier",
+    "name": "Listolier",
+    "firstChapter": 29,
+    "importance": "minor",
+    "group": "Paris, 1817",
+    "tagline": [
+      { "from": 29, "text": "A student from Cahors, Dahlia's lover." }
+    ],
+    "description": [
+      { "from": 29, "text": "One of the four students, from Cahors, who adores Dahlia. On the outing he discusses his professors with Fantine and blows a wooden trumpet bought at Saint-Cloud. He signs the farewell letter and goes home with the rest." }
+    ],
+    "moments": [
+      { "chapter": 36, "text": "Left for Toulouse with the others, signing the farewell letter." }
+    ]
+  },
+  {
+    "id": "fameuil",
+    "name": "Fameuil",
+    "firstChapter": 29,
+    "importance": "minor",
+    "group": "Paris, 1817",
+    "tagline": [
+      { "from": 29, "text": "A student from Limoges, Zéphine's lover." }
+    ],
+    "description": [
+      { "from": 29, "text": "One of the four students, from Limoges, who idolises Zéphine. He hums with Dahlia at Bombarda's and talks professors with Fantine. He signs the farewell letter and takes the Toulouse diligence home with the others." }
+    ],
+    "moments": [
+      { "chapter": 36, "text": "Left for Toulouse with the others, signing the farewell letter." }
+    ]
+  }
+]
