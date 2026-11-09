@@ -1,0 +1,2408 @@
+[
+  {
+    "a": "bishop-myriel",
+    "b": "the-silver-candlesticks",
+    "states": [
+      {
+        "from": 6,
+        "type": "tie",
+        "label": "Heirloom from a great-aunt he admits he would hate to lose"
+      },
+      {
+        "from": 17,
+        "type": "tie",
+        "label": "Has them lit for the convict at his table"
+      },
+      {
+        "from": 26,
+        "type": "tie",
+        "label": "Gives them to Valjean to buy his soul for God"
+      }
+    ]
+  },
+  {
+    "a": "madame-magloire",
+    "b": "the-silver-candlesticks",
+    "states": [
+      {
+        "from": 6,
+        "type": "tie",
+        "label": "Locks up the Bishop’s silver each night"
+      },
+      {
+        "from": 17,
+        "type": "tie",
+        "label": "Brings and lights them for the guest"
+      }
+    ]
+  },
+  {
+    "a": "jean-valjean",
+    "b": "the-silver-candlesticks",
+    "states": [
+      {
+        "from": 17,
+        "type": "tie",
+        "label": "Eats by their light at the Bishop’s table"
+      },
+      {
+        "from": 19,
+        "type": "tie",
+        "label": "Lit to bed by one of them"
+      },
+      {
+        "from": 25,
+        "type": "tie",
+        "label": "Steals the silver but leaves them"
+      },
+      {
+        "from": 26,
+        "type": "tie",
+        "label": "Given them by the Bishop, with a promise to be honest"
+      },
+      {
+        "from": 57,
+        "type": "tie",
+        "label": "Kept them as a reminder; nearly melts them down"
+      },
+      {
+        "from": 70,
+        "type": "tie",
+        "label": "Wraps them in rags and takes them as he flees"
+      },
+      {
+        "from": 346,
+        "type": "tie",
+        "label": "Buried them for ten years in the forest of Montfermeil"
+      },
+      {
+        "from": 362,
+        "type": "tie",
+        "label": "Lights them in daylight, as for the dead"
+      },
+      {
+        "from": 364,
+        "type": "tie",
+        "label": "Leaves them to Cosette and dies in their light"
+      }
+    ]
+  },
+  {
+    "a": "monsieur-madeleine",
+    "b": "the-silver-candlesticks",
+    "states": [
+      {
+        "from": 42,
+        "type": "tie",
+        "label": "The one fine thing on the mayor’s mantel"
+      }
+    ]
+  },
+  {
+    "a": "cosette",
+    "b": "the-silver-candlesticks",
+    "states": [
+      {
+        "from": 364,
+        "type": "tie",
+        "label": "Left them by the dying Valjean"
+      }
+    ]
+  },
+  {
+    "a": "petit-gervais",
+    "b": "the-forty-sou-piece",
+    "states": [
+      {
+        "from": 27,
+        "type": "tie",
+        "label": "His coin, taken under a stranger’s foot"
+      }
+    ]
+  },
+  {
+    "a": "jean-valjean",
+    "b": "the-forty-sou-piece",
+    "states": [
+      {
+        "from": 27,
+        "type": "tie",
+        "label": "Steals it from a child, then searches for him in vain"
+      },
+      {
+        "from": 57,
+        "type": "tie",
+        "label": "Finds it glinting in the ashes of his old clothes"
+      },
+      {
+        "from": 65,
+        "type": "tie",
+        "label": "Confesses the theft before the Arras court"
+      },
+      {
+        "from": 70,
+        "type": "tie",
+        "label": "Leaves it on his table with a note as he flees"
+      }
+    ]
+  },
+  {
+    "a": "champmathieu",
+    "b": "the-forty-sou-piece",
+    "states": [
+      {
+        "from": 63,
+        "type": "tie",
+        "label": "Accused, as Jean Valjean, of the Savoyard robbery"
+      }
+    ]
+  },
+  {
+    "a": "jean-valjean",
+    "b": "the-orion",
+    "states": [
+      {
+        "from": 92,
+        "type": "tie",
+        "label": "Reported drowned after saving a sailor from its rigging"
+      },
+      {
+        "from": 103,
+        "type": "tie",
+        "label": "Threw himself from it into the sea and escaped"
+      }
+    ]
+  },
+  {
+    "a": "cosette",
+    "b": "the-doll",
+    "states": [
+      {
+        "from": 96,
+        "type": "tie",
+        "label": "Gazes at “the lady” in the toy stall"
+      },
+      {
+        "from": 100,
+        "type": "tie",
+        "label": "Given the doll; names her Catherine"
+      },
+      {
+        "from": 105,
+        "type": "tie",
+        "label": "Plays with her all day in the attic"
+      },
+      {
+        "from": 146,
+        "type": "tie",
+        "label": "Misses her in the convent"
+      },
+      {
+        "from": 364,
+        "type": "tie",
+        "label": "Reminded of Catherine by the dying Valjean"
+      }
+    ]
+  },
+  {
+    "a": "the-man-in-the-yellow-coat",
+    "b": "the-doll",
+    "states": [
+      {
+        "from": 100,
+        "type": "tie",
+        "label": "Buys it from the stall for Cosette"
+      }
+    ]
+  },
+  {
+    "a": "jean-valjean",
+    "b": "the-doll",
+    "states": [
+      {
+        "from": 103,
+        "type": "tie",
+        "label": "The man who gave Cosette her doll"
+      },
+      {
+        "from": 106,
+        "type": "tie",
+        "label": "Watches her play with it for hours"
+      },
+      {
+        "from": 220,
+        "type": "tie",
+        "label": "Sneered at as “giver of dolls”"
+      },
+      {
+        "from": 352,
+        "type": "tie",
+        "label": "Remembers Cosette with the big doll in her arms"
+      }
+    ]
+  },
+  {
+    "a": "madame-thenardier",
+    "b": "the-doll",
+    "states": [
+      {
+        "from": 101,
+        "type": "tie",
+        "label": "Can’t bear to see Cosette own it"
+      }
+    ]
+  },
+  {
+    "a": "thenardier",
+    "b": "the-doll",
+    "states": [
+      {
+        "from": 220,
+        "type": "tie",
+        "label": "Mocks his prisoner as the giver of dolls"
+      }
+    ]
+  },
+  {
+    "a": "bishop-myriel",
+    "b": "digne",
+    "states": [
+      {
+        "from": 1,
+        "type": "tie",
+        "label": "Its bishop, who gives his palace to the hospital"
+      },
+      {
+        "from": 10,
+        "type": "tie",
+        "label": "Loved by the town despite himself"
+      }
+    ]
+  },
+  {
+    "a": "mademoiselle-baptistine",
+    "b": "digne",
+    "states": [
+      {
+        "from": 1,
+        "type": "tie",
+        "label": "Lives in the Bishop’s little house"
+      }
+    ]
+  },
+  {
+    "a": "jean-valjean",
+    "b": "digne",
+    "states": [
+      {
+        "from": 15,
+        "type": "tie",
+        "label": "Turned away by every door in town"
+      },
+      {
+        "from": 27,
+        "type": "tie",
+        "label": "Leaves it with the Bishop’s silver"
+      }
+    ]
+  },
+  {
+    "a": "the-conventionist-g",
+    "b": "digne",
+    "states": [
+      {
+        "from": 10,
+        "type": "tie",
+        "label": "Shunned by the town as a near-regicide"
+      }
+    ]
+  },
+  {
+    "a": "jean-valjean",
+    "b": "toulon",
+    "states": [
+      {
+        "from": 17,
+        "type": "tie",
+        "label": "Nineteen years in its galleys"
+      },
+      {
+        "from": 20,
+        "type": "tie",
+        "label": "Convict 24,601"
+      },
+      {
+        "from": 90,
+        "type": "tie",
+        "label": "Sent back for life as number 9,430"
+      },
+      {
+        "from": 92,
+        "type": "tie",
+        "label": "Reported drowned in its harbour"
+      }
+    ]
+  },
+  {
+    "a": "javert",
+    "b": "toulon",
+    "states": [
+      {
+        "from": 54,
+        "type": "tie",
+        "label": "Once a guard in its galleys"
+      }
+    ]
+  },
+  {
+    "a": "brevet",
+    "b": "toulon",
+    "states": [
+      {
+        "from": 54,
+        "type": "tie",
+        "label": "Old convict who swears to Valjean from the galleys"
+      }
+    ]
+  },
+  {
+    "a": "chenildieu",
+    "b": "toulon",
+    "states": [
+      {
+        "from": 54,
+        "type": "tie",
+        "label": "Old convict who knew Valjean there"
+      }
+    ]
+  },
+  {
+    "a": "cochepaille",
+    "b": "toulon",
+    "states": [
+      {
+        "from": 54,
+        "type": "tie",
+        "label": "Old convict who knew Valjean there"
+      }
+    ]
+  },
+  {
+    "a": "fantine",
+    "b": "montreuil-sur-mer",
+    "states": [
+      {
+        "from": 29,
+        "type": "tie",
+        "label": "Her birthplace, left as a child"
+      },
+      {
+        "from": 37,
+        "type": "tie",
+        "label": "Returns to look for work"
+      },
+      {
+        "from": 47,
+        "type": "tie",
+        "label": "Dismissed from the factory and told to leave"
+      },
+      {
+        "from": 49,
+        "type": "tie",
+        "label": "Sells her hair, teeth and herself here"
+      }
+    ]
+  },
+  {
+    "a": "monsieur-madeleine",
+    "b": "montreuil-sur-mer",
+    "states": [
+      {
+        "from": 40,
+        "type": "tie",
+        "label": "Stranger who made the town prosperous"
+      },
+      {
+        "from": 41,
+        "type": "tie",
+        "label": "Its factory owner, benefactor and mayor"
+      }
+    ]
+  },
+  {
+    "a": "jean-valjean",
+    "b": "montreuil-sur-mer",
+    "states": [
+      {
+        "from": 57,
+        "type": "tie",
+        "label": "Settled here as M. Madeleine to hide and do good"
+      },
+      {
+        "from": 65,
+        "type": "tie",
+        "label": "Loses the town by declaring himself"
+      },
+      {
+        "from": 70,
+        "type": "tie",
+        "label": "Breaks out of its jail and leaves for Paris"
+      }
+    ]
+  },
+  {
+    "a": "javert",
+    "b": "montreuil-sur-mer",
+    "states": [
+      {
+        "from": 44,
+        "type": "tie",
+        "label": "Police inspector who watches the mayor"
+      },
+      {
+        "from": 70,
+        "type": "tie",
+        "label": "Arrests the mayor here"
+      }
+    ]
+  },
+  {
+    "a": "madame-victurnien",
+    "b": "montreuil-sur-mer",
+    "states": [
+      {
+        "from": 47,
+        "type": "tie",
+        "label": "Pious gossip who spreads Fantine’s secret"
+      }
+    ]
+  },
+  {
+    "a": "thenardier",
+    "b": "the-sergeant-of-waterloo",
+    "states": [
+      {
+        "from": 37,
+        "type": "tie",
+        "label": "Keeps the failing inn"
+      },
+      {
+        "from": 38,
+        "type": "tie",
+        "label": "Painted its sign himself, he says"
+      },
+      {
+        "from": 94,
+        "type": "tie",
+        "label": "Boasts of the “feat” its sign shows"
+      },
+      {
+        "from": 220,
+        "type": "tie",
+        "label": "Tries to sell its old sign as a painting"
+      }
+    ]
+  },
+  {
+    "a": "madame-thenardier",
+    "b": "the-sergeant-of-waterloo",
+    "states": [
+      {
+        "from": 37,
+        "type": "tie",
+        "label": "Its landlady, who agrees to keep Fantine’s child"
+      }
+    ]
+  },
+  {
+    "a": "fantine",
+    "b": "the-sergeant-of-waterloo",
+    "states": [
+      {
+        "from": 37,
+        "type": "tie",
+        "label": "Leaves her child here"
+      }
+    ]
+  },
+  {
+    "a": "cosette",
+    "b": "the-sergeant-of-waterloo",
+    "states": [
+      {
+        "from": 37,
+        "type": "tie",
+        "label": "Left here as a baby"
+      },
+      {
+        "from": 39,
+        "type": "tie",
+        "label": "The Lark: its drudge, in rags"
+      },
+      {
+        "from": 95,
+        "type": "tie",
+        "label": "Sent out from it in the dark for water"
+      },
+      {
+        "from": 101,
+        "type": "tie",
+        "label": "Taken away from it before dawn"
+      }
+    ]
+  },
+  {
+    "a": "eponine",
+    "b": "the-sergeant-of-waterloo",
+    "states": [
+      {
+        "from": 38,
+        "type": "tie",
+        "label": "The innkeepers’ pampered elder daughter"
+      }
+    ]
+  },
+  {
+    "a": "azelma",
+    "b": "the-sergeant-of-waterloo",
+    "states": [
+      {
+        "from": 38,
+        "type": "tie",
+        "label": "The innkeepers’ pampered younger daughter"
+      }
+    ]
+  },
+  {
+    "a": "the-thenardiers-little-boy",
+    "b": "the-sergeant-of-waterloo",
+    "states": [
+      {
+        "from": 93,
+        "type": "tie",
+        "label": "The innkeepers’ unloved little boy"
+      }
+    ]
+  },
+  {
+    "a": "the-man-in-the-yellow-coat",
+    "b": "the-sergeant-of-waterloo",
+    "states": [
+      {
+        "from": 100,
+        "type": "tie",
+        "label": "Stranger charged double for his room"
+      },
+      {
+        "from": 101,
+        "type": "tie",
+        "label": "Pays fifteen hundred francs to take Cosette away"
+      }
+    ]
+  },
+  {
+    "a": "jean-valjean",
+    "b": "the-sergeant-of-waterloo",
+    "states": [
+      {
+        "from": 103,
+        "type": "tie",
+        "label": "Took Cosette from it on Christmas morning"
+      }
+    ]
+  },
+  {
+    "a": "colonel-pontmercy",
+    "b": "the-sergeant-of-waterloo",
+    "states": [
+      {
+        "from": 171,
+        "type": "tie",
+        "label": "His note says his rescuer keeps an inn near Paris"
+      }
+    ]
+  },
+  {
+    "a": "marius",
+    "b": "the-sergeant-of-waterloo",
+    "states": [
+      {
+        "from": 173,
+        "type": "tie",
+        "label": "Finds it closed and its keeper gone"
+      },
+      {
+        "from": 220,
+        "type": "tie",
+        "label": "Sees his father’s rescue in its old sign"
+      }
+    ]
+  },
+  {
+    "a": "napoleon",
+    "b": "waterloo",
+    "states": [
+      {
+        "from": 73,
+        "type": "tie",
+        "label": "Loses the battle, delayed by rain"
+      }
+    ]
+  },
+  {
+    "a": "wellington",
+    "b": "waterloo",
+    "states": [
+      {
+        "from": 74,
+        "type": "tie",
+        "label": "Holds the plateau of Mont-Saint-Jean"
+      }
+    ]
+  },
+  {
+    "a": "blucher",
+    "b": "waterloo",
+    "states": [
+      {
+        "from": 73,
+        "type": "tie",
+        "label": "Arrives in time because of the rain"
+      }
+    ]
+  },
+  {
+    "a": "grouchy",
+    "b": "waterloo",
+    "states": [
+      {
+        "from": 81,
+        "type": "tie",
+        "label": "The marshal Napoleon waits for in vain"
+      }
+    ]
+  },
+  {
+    "a": "bulow",
+    "b": "waterloo",
+    "states": [
+      {
+        "from": 81,
+        "type": "tie",
+        "label": "His Prussians come out of the woods"
+      }
+    ]
+  },
+  {
+    "a": "ney",
+    "b": "waterloo",
+    "states": [
+      {
+        "from": 79,
+        "type": "tie",
+        "label": "Leads the cuirassiers into the hollow road"
+      }
+    ]
+  },
+  {
+    "a": "cambronne",
+    "b": "waterloo",
+    "states": [
+      {
+        "from": 84,
+        "type": "tie",
+        "label": "Answers the call to surrender with one word"
+      }
+    ]
+  },
+  {
+    "a": "thenardier",
+    "b": "waterloo",
+    "states": [
+      {
+        "from": 89,
+        "type": "tie",
+        "label": "Prowler who robs the dead after the battle"
+      },
+      {
+        "from": 94,
+        "type": "tie",
+        "label": "Claims he carried a general out of the fire"
+      },
+      {
+        "from": 363,
+        "type": "tie",
+        "label": "Told “Waterloo protects you”"
+      }
+    ]
+  },
+  {
+    "a": "colonel-pontmercy",
+    "b": "waterloo",
+    "states": [
+      {
+        "from": 89,
+        "type": "tie",
+        "label": "Officer robbed and dragged out alive from the hollow road"
+      },
+      {
+        "from": 169,
+        "type": "tie",
+        "label": "Made colonel and baron on the field"
+      }
+    ]
+  },
+  {
+    "a": "marius",
+    "b": "waterloo",
+    "states": [
+      {
+        "from": 171,
+        "type": "tie",
+        "label": "Believes Thénardier saved his father there"
+      },
+      {
+        "from": 363,
+        "type": "tie",
+        "label": "Pays his father’s Waterloo debt"
+      }
+    ]
+  },
+  {
+    "a": "jean-valjean",
+    "b": "gorbeau-house",
+    "states": [
+      {
+        "from": 105,
+        "type": "tie",
+        "label": "Brings Cosette to its attic"
+      },
+      {
+        "from": 108,
+        "type": "tie",
+        "label": "Flees it on recognizing Javert"
+      },
+      {
+        "from": 220,
+        "type": "tie",
+        "label": "Bound in its garret by Thénardier"
+      },
+      {
+        "from": 221,
+        "type": "tie",
+        "label": "Escapes by the window"
+      }
+    ]
+  },
+  {
+    "a": "cosette",
+    "b": "gorbeau-house",
+    "states": [
+      {
+        "from": 105,
+        "type": "tie",
+        "label": "Learns to play in its attic"
+      }
+    ]
+  },
+  {
+    "a": "the-old-woman-of-the-gorbeau-house",
+    "b": "gorbeau-house",
+    "states": [
+      {
+        "from": 106,
+        "type": "tie",
+        "label": "Keeps the house and spies on its lodger"
+      },
+      {
+        "from": 118,
+        "type": "tie",
+        "label": "Warned Javert that Valjean was leaving"
+      }
+    ]
+  },
+  {
+    "a": "javert",
+    "b": "gorbeau-house",
+    "states": [
+      {
+        "from": 108,
+        "type": "tie",
+        "label": "New lodger who listens at Valjean’s door"
+      },
+      {
+        "from": 214,
+        "type": "tie",
+        "label": "Sets a trap there on Marius’s word"
+      },
+      {
+        "from": 221,
+        "type": "tie",
+        "label": "Bursts in and takes the gang"
+      }
+    ]
+  },
+  {
+    "a": "jondrette",
+    "b": "gorbeau-house",
+    "states": [
+      {
+        "from": 159,
+        "type": "tie",
+        "label": "Poorest lodger, with his family in a garret"
+      },
+      {
+        "from": 212,
+        "type": "tie",
+        "label": "Prepares an ambush in his garret"
+      }
+    ]
+  },
+  {
+    "a": "madame-jondrette",
+    "b": "gorbeau-house",
+    "states": [
+      {
+        "from": 159,
+        "type": "tie",
+        "label": "Lives in the garret with her family"
+      }
+    ]
+  },
+  {
+    "a": "gavroche",
+    "b": "gorbeau-house",
+    "states": [
+      {
+        "from": 159,
+        "type": "tie",
+        "label": "Visits his family’s garret and finds nothing for him"
+      },
+      {
+        "from": 222,
+        "type": "tie",
+        "label": "Finds it locked: his family is in prison"
+      }
+    ]
+  },
+  {
+    "a": "marius",
+    "b": "gorbeau-house",
+    "states": [
+      {
+        "from": 159,
+        "type": "tie",
+        "label": "The poor young lodger next to the Jondrettes"
+      },
+      {
+        "from": 186,
+        "type": "tie",
+        "label": "Secretly pays the Jondrettes’ rent"
+      },
+      {
+        "from": 205,
+        "type": "tie",
+        "label": "Spies on their garret through a hole in the wall"
+      },
+      {
+        "from": 229,
+        "type": "tie",
+        "label": "Leaves to avoid being a witness"
+      },
+      {
+        "from": 363,
+        "type": "tie",
+        "label": "Recalls Thénardier’s lair there"
+      }
+    ]
+  },
+  {
+    "a": "maam-bougon",
+    "b": "gorbeau-house",
+    "states": [
+      {
+        "from": 192,
+        "type": "tie",
+        "label": "Its portress, who keeps Marius’s room"
+      }
+    ]
+  },
+  {
+    "a": "the-elder-jondrette-girl",
+    "b": "gorbeau-house",
+    "states": [
+      {
+        "from": 204,
+        "type": "tie",
+        "label": "Lives in the garret next to Marius"
+      }
+    ]
+  },
+  {
+    "a": "the-younger-jondrette-girl",
+    "b": "gorbeau-house",
+    "states": [
+      {
+        "from": 204,
+        "type": "tie",
+        "label": "Lives in the garret next to Marius"
+      }
+    ]
+  },
+  {
+    "a": "monsieur-leblanc",
+    "b": "gorbeau-house",
+    "states": [
+      {
+        "from": 208,
+        "type": "tie",
+        "label": "Brings charity to the Jondrettes’ garret"
+      }
+    ]
+  },
+  {
+    "a": "the-girl-at-the-luxembourg",
+    "b": "gorbeau-house",
+    "states": [
+      {
+        "from": 208,
+        "type": "tie",
+        "label": "Comes with her father to bring blankets"
+      }
+    ]
+  },
+  {
+    "a": "thenardier",
+    "b": "gorbeau-house",
+    "states": [
+      {
+        "from": 220,
+        "type": "tie",
+        "label": "Springs his trap here"
+      },
+      {
+        "from": 221,
+        "type": "tie",
+        "label": "Arrested here by Javert"
+      }
+    ]
+  },
+  {
+    "a": "madame-thenardier",
+    "b": "gorbeau-house",
+    "states": [
+      {
+        "from": 220,
+        "type": "tie",
+        "label": "Helps spring the trap"
+      },
+      {
+        "from": 221,
+        "type": "tie",
+        "label": "Arrested here"
+      }
+    ]
+  },
+  {
+    "a": "jean-valjean",
+    "b": "petit-picpus",
+    "states": [
+      {
+        "from": 111,
+        "type": "tie",
+        "label": "Trapped in its streets by Javert"
+      },
+      {
+        "from": 113,
+        "type": "tie",
+        "label": "Climbs its wall with Cosette"
+      },
+      {
+        "from": 145,
+        "type": "tie",
+        "label": "Returns by the door as the gardener’s brother"
+      },
+      {
+        "from": 146,
+        "type": "tie",
+        "label": "Gardens there for years"
+      },
+      {
+        "from": 233,
+        "type": "tie",
+        "label": "Takes Cosette away after Fauchelevent’s death"
+      }
+    ]
+  },
+  {
+    "a": "cosette",
+    "b": "petit-picpus",
+    "states": [
+      {
+        "from": 113,
+        "type": "tie",
+        "label": "Hoisted over its wall"
+      },
+      {
+        "from": 145,
+        "type": "tie",
+        "label": "Admitted as a charity pupil"
+      },
+      {
+        "from": 233,
+        "type": "tie",
+        "label": "Taken out of it at fourteen"
+      }
+    ]
+  },
+  {
+    "a": "javert",
+    "b": "petit-picpus",
+    "states": [
+      {
+        "from": 113,
+        "type": "tie",
+        "label": "Searches the alley outside its wall"
+      }
+    ]
+  },
+  {
+    "a": "fauchelevent",
+    "b": "petit-picpus",
+    "states": [
+      {
+        "from": 117,
+        "type": "tie",
+        "label": "The convent’s gardener, with a bell on his knee"
+      },
+      {
+        "from": 138,
+        "type": "tie",
+        "label": "Plots to smuggle Valjean out and in again"
+      },
+      {
+        "from": 233,
+        "type": "tie",
+        "label": "Died its gardener"
+      }
+    ]
+  },
+  {
+    "a": "mother-innocente",
+    "b": "petit-picpus",
+    "states": [
+      {
+        "from": 125,
+        "type": "tie",
+        "label": "Its learned, merry prioress"
+      },
+      {
+        "from": 145,
+        "type": "tie",
+        "label": "Admits the new gardener and his girl"
+      }
+    ]
+  },
+  {
+    "a": "mother-crucifixion",
+    "b": "petit-picpus",
+    "states": [
+      {
+        "from": 138,
+        "type": "tie",
+        "label": "Dies in the convent"
+      },
+      {
+        "from": 145,
+        "type": "tie",
+        "label": "Buried in secret under its altar"
+      }
+    ]
+  },
+  {
+    "a": "monsieur-gillenormand",
+    "b": "rue-des-filles-du-calvaire",
+    "states": [
+      {
+        "from": 161,
+        "type": "tie",
+        "label": "Owns No. 6 and lives on its first floor"
+      },
+      {
+        "from": 175,
+        "type": "tie",
+        "label": "Turns Marius out of it"
+      },
+      {
+        "from": 347,
+        "type": "tie",
+        "label": "Gives up his own room to the young couple"
+      }
+    ]
+  },
+  {
+    "a": "mademoiselle-gillenormand",
+    "b": "rue-des-filles-du-calvaire",
+    "states": [
+      {
+        "from": 165,
+        "type": "tie",
+        "label": "Keeps house for her father"
+      },
+      {
+        "from": 338,
+        "type": "tie",
+        "label": "Woken to find Marius carried in"
+      }
+    ]
+  },
+  {
+    "a": "nicolette",
+    "b": "rue-des-filles-du-calvaire",
+    "states": [
+      {
+        "from": 171,
+        "type": "tie",
+        "label": "The household’s maid"
+      }
+    ]
+  },
+  {
+    "a": "basque",
+    "b": "rue-des-filles-du-calvaire",
+    "states": [
+      {
+        "from": 171,
+        "type": "tie",
+        "label": "The household’s valet"
+      }
+    ]
+  },
+  {
+    "a": "marius",
+    "b": "rue-des-filles-du-calvaire",
+    "states": [
+      {
+        "from": 169,
+        "type": "tie",
+        "label": "Raised in his grandfather’s house"
+      },
+      {
+        "from": 175,
+        "type": "tie",
+        "label": "Turned out with thirty francs"
+      },
+      {
+        "from": 262,
+        "type": "tie",
+        "label": "Returns to ask leave to marry, and leaves insulted"
+      },
+      {
+        "from": 338,
+        "type": "tie",
+        "label": "Carried home dying"
+      },
+      {
+        "from": 347,
+        "type": "tie",
+        "label": "To live here with Cosette"
+      },
+      {
+        "from": 351,
+        "type": "tie",
+        "label": "Climbs its stairs a bridegroom"
+      }
+    ]
+  },
+  {
+    "a": "jean-valjean",
+    "b": "rue-des-filles-du-calvaire",
+    "states": [
+      {
+        "from": 332,
+        "type": "tie",
+        "label": "Reads its address in Marius’s pocketbook"
+      },
+      {
+        "from": 338,
+        "type": "tie",
+        "label": "Brings Marius to its door"
+      },
+      {
+        "from": 345,
+        "type": "tie",
+        "label": "Brings Cosette to the sickroom as M. Fauchelevent"
+      },
+      {
+        "from": 356,
+        "type": "tie",
+        "label": "Received in its damp ground-floor room"
+      },
+      {
+        "from": 358,
+        "type": "tie",
+        "label": "Understands he is being shown the door"
+      },
+      {
+        "from": 359,
+        "type": "tie",
+        "label": "Walks towards it each evening and turns back"
+      }
+    ]
+  },
+  {
+    "a": "javert",
+    "b": "rue-des-filles-du-calvaire",
+    "states": [
+      {
+        "from": 338,
+        "type": "tie",
+        "label": "His coach brings Marius to its door"
+      }
+    ]
+  },
+  {
+    "a": "cosette",
+    "b": "rue-des-filles-du-calvaire",
+    "states": [
+      {
+        "from": 345,
+        "type": "tie",
+        "label": "Comes to Marius’s bedside"
+      },
+      {
+        "from": 347,
+        "type": "tie",
+        "label": "Her future home"
+      },
+      {
+        "from": 351,
+        "type": "tie",
+        "label": "Comes back to it a bride"
+      }
+    ]
+  },
+  {
+    "a": "thenardier",
+    "b": "rue-des-filles-du-calvaire",
+    "states": [
+      {
+        "from": 363,
+        "type": "tie",
+        "label": "Comes to sell a secret in Marius’s study"
+      }
+    ]
+  },
+  {
+    "a": "enjolras",
+    "b": "cafe-musain",
+    "states": [
+      {
+        "from": 176,
+        "type": "tie",
+        "label": "Leads the meetings in its back room"
+      },
+      {
+        "from": 228,
+        "type": "tie",
+        "label": "Holds a secret meeting there"
+      }
+    ]
+  },
+  {
+    "a": "courfeyrac",
+    "b": "cafe-musain",
+    "states": [
+      {
+        "from": 176,
+        "type": "tie",
+        "label": "A regular of its back room"
+      },
+      {
+        "from": 177,
+        "type": "tie",
+        "label": "Comes out of it to take Marius in"
+      }
+    ]
+  },
+  {
+    "a": "bossuet",
+    "b": "cafe-musain",
+    "states": [
+      {
+        "from": 177,
+        "type": "tie",
+        "label": "Lounging outside, hails Marius’s cab"
+      }
+    ]
+  },
+  {
+    "a": "combeferre",
+    "b": "cafe-musain",
+    "states": [
+      {
+        "from": 176,
+        "type": "tie",
+        "label": "A regular of its back room"
+      },
+      {
+        "from": 180,
+        "type": "tie",
+        "label": "Answers Marius there: “To be free”"
+      }
+    ]
+  },
+  {
+    "a": "grantaire",
+    "b": "cafe-musain",
+    "states": [
+      {
+        "from": 179,
+        "type": "tie",
+        "label": "Declaims drunk in its back room"
+      }
+    ]
+  },
+  {
+    "a": "jean-prouvaire",
+    "b": "cafe-musain",
+    "states": [
+      {
+        "from": 179,
+        "type": "tie",
+        "label": "Defends the pagan gods there"
+      }
+    ]
+  },
+  {
+    "a": "marius",
+    "b": "cafe-musain",
+    "states": [
+      {
+        "from": 178,
+        "type": "tie",
+        "label": "Introduced in its back room"
+      },
+      {
+        "from": 180,
+        "type": "tie",
+        "label": "Defends Napoleon there"
+      },
+      {
+        "from": 181,
+        "type": "tie",
+        "label": "Stops going"
+      }
+    ]
+  },
+  {
+    "a": "enjolras",
+    "b": "corinthe",
+    "states": [
+      {
+        "from": 176,
+        "type": "tie",
+        "label": "A meeting place of his society"
+      },
+      {
+        "from": 320,
+        "type": "tie",
+        "label": "Holds its door alone"
+      },
+      {
+        "from": 321,
+        "type": "tie",
+        "label": "Shot in its upper room"
+      }
+    ]
+  },
+  {
+    "a": "grantaire",
+    "b": "corinthe",
+    "states": [
+      {
+        "from": 277,
+        "type": "tie",
+        "label": "Discovered it"
+      },
+      {
+        "from": 278,
+        "type": "tie",
+        "label": "Drinks there all day"
+      },
+      {
+        "from": 321,
+        "type": "tie",
+        "label": "Wakes in its upper room to die with Enjolras"
+      }
+    ]
+  },
+  {
+    "a": "bossuet",
+    "b": "corinthe",
+    "states": [
+      {
+        "from": 278,
+        "type": "tie",
+        "label": "Breakfasts and drinks there"
+      }
+    ]
+  },
+  {
+    "a": "joly",
+    "b": "corinthe",
+    "states": [
+      {
+        "from": 278,
+        "type": "tie",
+        "label": "Breakfasts and drinks there"
+      }
+    ]
+  },
+  {
+    "a": "father-hucheloup",
+    "b": "corinthe",
+    "states": [
+      {
+        "from": 277,
+        "type": "tie",
+        "label": "Its late owner, famous for stuffed carp"
+      }
+    ]
+  },
+  {
+    "a": "mother-hucheloup",
+    "b": "corinthe",
+    "states": [
+      {
+        "from": 277,
+        "type": "tie",
+        "label": "Its widowed keeper"
+      },
+      {
+        "from": 279,
+        "type": "tie",
+        "label": "Her casks go into the barricade"
+      }
+    ]
+  },
+  {
+    "a": "matelote",
+    "b": "corinthe",
+    "states": [
+      {
+        "from": 277,
+        "type": "tie",
+        "label": "Serving-maid of the wine-shop"
+      }
+    ]
+  },
+  {
+    "a": "gibelotte",
+    "b": "corinthe",
+    "states": [
+      {
+        "from": 277,
+        "type": "tie",
+        "label": "Serving-maid of the wine-shop"
+      }
+    ]
+  },
+  {
+    "a": "courfeyrac",
+    "b": "corinthe",
+    "states": [
+      {
+        "from": 277,
+        "type": "tie",
+        "label": "Keeps coming “out of pity”"
+      },
+      {
+        "from": 280,
+        "type": "tie",
+        "label": "Teases the widow about her old fine"
+      }
+    ]
+  },
+  {
+    "a": "the-man-of-the-rue-des-billettes",
+    "b": "corinthe",
+    "states": [
+      {
+        "from": 282,
+        "type": "tie",
+        "label": "Sits silent in its taproom"
+      }
+    ]
+  },
+  {
+    "a": "javert",
+    "b": "corinthe",
+    "states": [
+      {
+        "from": 283,
+        "type": "tie",
+        "label": "Tied to a post in its taproom"
+      },
+      {
+        "from": 316,
+        "type": "tie",
+        "label": "To be shot by the last man to leave it"
+      }
+    ]
+  },
+  {
+    "a": "mabeuf",
+    "b": "corinthe",
+    "states": [
+      {
+        "from": 289,
+        "type": "tie",
+        "label": "Sat silent behind its counter; his body is brought back in"
+      }
+    ]
+  },
+  {
+    "a": "marius",
+    "b": "the-luxembourg",
+    "states": [
+      {
+        "from": 186,
+        "type": "tie",
+        "label": "Walks its least-frequented alleys"
+      },
+      {
+        "from": 188,
+        "type": "tie",
+        "label": "Notices the pair on the bench"
+      },
+      {
+        "from": 190,
+        "type": "tie",
+        "label": "Their eyes meet"
+      },
+      {
+        "from": 196,
+        "type": "tie",
+        "label": "Finds the bench empty"
+      }
+    ]
+  },
+  {
+    "a": "monsieur-leblanc",
+    "b": "the-luxembourg",
+    "states": [
+      {
+        "from": 188,
+        "type": "tie",
+        "label": "White-haired man always on the same bench"
+      },
+      {
+        "from": 196,
+        "type": "tie",
+        "label": "Stops coming"
+      }
+    ]
+  },
+  {
+    "a": "the-girl-at-the-luxembourg",
+    "b": "the-luxembourg",
+    "states": [
+      {
+        "from": 188,
+        "type": "tie",
+        "label": "Plain convent girl on the bench"
+      },
+      {
+        "from": 189,
+        "type": "tie",
+        "label": "Grown into a beautiful young woman"
+      }
+    ]
+  },
+  {
+    "a": "jean-valjean",
+    "b": "the-luxembourg",
+    "states": [
+      {
+        "from": 220,
+        "type": "tie",
+        "label": "The white-haired man of the bench"
+      },
+      {
+        "from": 234,
+        "type": "tie",
+        "label": "Walks Cosette there daily"
+      },
+      {
+        "from": 239,
+        "type": "tie",
+        "label": "Changes bench, then stops coming"
+      }
+    ]
+  },
+  {
+    "a": "cosette",
+    "b": "the-luxembourg",
+    "states": [
+      {
+        "from": 220,
+        "type": "tie",
+        "label": "The girl of the bench"
+      },
+      {
+        "from": 238,
+        "type": "tie",
+        "label": "Steers their walks past Marius"
+      }
+    ]
+  },
+  {
+    "a": "the-two-little-boys",
+    "b": "the-luxembourg",
+    "states": [
+      {
+        "from": 314,
+        "type": "tie",
+        "label": "Fish a brioche from the swans’ pond"
+      }
+    ]
+  },
+  {
+    "a": "jean-valjean",
+    "b": "rue-plumet",
+    "states": [
+      {
+        "from": 233,
+        "type": "tie",
+        "label": "Lives there in hiding as M. Fauchelevent"
+      },
+      {
+        "from": 234,
+        "type": "tie",
+        "label": "Sleeps in its fireless porter’s lodge"
+      },
+      {
+        "from": 263,
+        "type": "tie",
+        "label": "Finds Marius’s address on its wall"
+      },
+      {
+        "from": 295,
+        "type": "tie",
+        "label": "Leaves it for the Rue de l’Homme Armé"
+      }
+    ]
+  },
+  {
+    "a": "cosette",
+    "b": "rue-plumet",
+    "states": [
+      {
+        "from": 233,
+        "type": "tie",
+        "label": "Lives in its pavilion"
+      },
+      {
+        "from": 244,
+        "type": "tie",
+        "label": "Hears footsteps in the garden at night"
+      },
+      {
+        "from": 245,
+        "type": "tie",
+        "label": "Finds a love notebook on her bench"
+      },
+      {
+        "from": 248,
+        "type": "tie",
+        "label": "Meets Marius in its garden"
+      },
+      {
+        "from": 295,
+        "type": "tie",
+        "label": "Leaves it with her father"
+      },
+      {
+        "from": 358,
+        "type": "tie",
+        "label": "Returns to their garden with Marius"
+      }
+    ]
+  },
+  {
+    "a": "toussaint",
+    "b": "rue-plumet",
+    "states": [
+      {
+        "from": 233,
+        "type": "tie",
+        "label": "The household’s servant"
+      }
+    ]
+  },
+  {
+    "a": "marius",
+    "b": "rue-plumet",
+    "states": [
+      {
+        "from": 248,
+        "type": "tie",
+        "label": "Comes into its garden at night"
+      },
+      {
+        "from": 256,
+        "type": "tie",
+        "label": "Slips in each evening through a loose bar"
+      },
+      {
+        "from": 261,
+        "type": "tie",
+        "label": "Scratches his address on its wall"
+      },
+      {
+        "from": 264,
+        "type": "tie",
+        "label": "Finds it empty and decides to die"
+      },
+      {
+        "from": 358,
+        "type": "tie",
+        "label": "Returns to their garden with Cosette"
+      }
+    ]
+  },
+  {
+    "a": "eponine",
+    "b": "rue-plumet",
+    "states": [
+      {
+        "from": 258,
+        "type": "tie",
+        "label": "Haunts the street by its railing"
+      },
+      {
+        "from": 259,
+        "type": "tie",
+        "label": "Faces down the gang at its gate"
+      },
+      {
+        "from": 293,
+        "type": "tie",
+        "label": "The voice that called Marius from its garden"
+      }
+    ]
+  },
+  {
+    "a": "thenardier",
+    "b": "rue-plumet",
+    "states": [
+      {
+        "from": 259,
+        "type": "tie",
+        "label": "Comes with his gang to rob the house"
+      }
+    ]
+  },
+  {
+    "a": "brujon",
+    "b": "rue-plumet",
+    "states": [
+      {
+        "from": 259,
+        "type": "tie",
+        "label": "Passed the “affair” out of La Force"
+      }
+    ]
+  },
+  {
+    "a": "montparnasse",
+    "b": "rue-plumet",
+    "states": [
+      {
+        "from": 259,
+        "type": "tie",
+        "label": "Joins the attempt on the house"
+      }
+    ]
+  },
+  {
+    "a": "jean-valjean",
+    "b": "rue-de-l-homme-arme",
+    "states": [
+      {
+        "from": 233,
+        "type": "tie",
+        "label": "A spare lodging in case he must vanish"
+      },
+      {
+        "from": 295,
+        "type": "tie",
+        "label": "Moves Cosette there; reads her blotter"
+      },
+      {
+        "from": 296,
+        "type": "tie",
+        "label": "Takes Gavroche’s letter at its door"
+      },
+      {
+        "from": 297,
+        "type": "tie",
+        "label": "Goes out armed in uniform"
+      },
+      {
+        "from": 339,
+        "type": "tie",
+        "label": "Javert leaves him at its door"
+      },
+      {
+        "from": 352,
+        "type": "tie",
+        "label": "Weeps alone there on the wedding night"
+      },
+      {
+        "from": 361,
+        "type": "tie",
+        "label": "Takes to his bed there"
+      },
+      {
+        "from": 364,
+        "type": "tie",
+        "label": "Dies there"
+      }
+    ]
+  },
+  {
+    "a": "cosette",
+    "b": "rue-de-l-homme-arme",
+    "states": [
+      {
+        "from": 295,
+        "type": "tie",
+        "label": "Moved there with Toussaint"
+      },
+      {
+        "from": 308,
+        "type": "tie",
+        "label": "Wakes there waiting for Marius"
+      },
+      {
+        "from": 364,
+        "type": "tie",
+        "label": "Bursts in on her dying father"
+      }
+    ]
+  },
+  {
+    "a": "toussaint",
+    "b": "rue-de-l-homme-arme",
+    "states": [
+      {
+        "from": 295,
+        "type": "tie",
+        "label": "Comes with the household"
+      }
+    ]
+  },
+  {
+    "a": "eponine",
+    "b": "rue-de-l-homme-arme",
+    "states": [
+      {
+        "from": 293,
+        "type": "tie",
+        "label": "Kept back Cosette’s note giving its address"
+      }
+    ]
+  },
+  {
+    "a": "marius",
+    "b": "rue-de-l-homme-arme",
+    "states": [
+      {
+        "from": 294,
+        "type": "tie",
+        "label": "Sends his farewell there by Gavroche"
+      },
+      {
+        "from": 364,
+        "type": "tie",
+        "label": "Comes with Cosette to the dying Valjean"
+      }
+    ]
+  },
+  {
+    "a": "gavroche",
+    "b": "rue-de-l-homme-arme",
+    "states": [
+      {
+        "from": 296,
+        "type": "tie",
+        "label": "Brings Marius’s letter there"
+      }
+    ]
+  },
+  {
+    "a": "javert",
+    "b": "rue-de-l-homme-arme",
+    "states": [
+      {
+        "from": 317,
+        "type": "tie",
+        "label": "Told Valjean lives there"
+      },
+      {
+        "from": 339,
+        "type": "tie",
+        "label": "Walks Valjean to its door and vanishes"
+      }
+    ]
+  },
+  {
+    "a": "monsieur-gillenormand",
+    "b": "rue-de-l-homme-arme",
+    "states": [
+      {
+        "from": 344,
+        "type": "tie",
+        "label": "Has the girl’s address found"
+      }
+    ]
+  },
+  {
+    "a": "gavroche",
+    "b": "the-elephant-of-the-bastille",
+    "states": [
+      {
+        "from": 250,
+        "type": "tie",
+        "label": "His home, in its belly"
+      },
+      {
+        "from": 251,
+        "type": "tie",
+        "label": "Called down from it to help a jailbreak"
+      }
+    ]
+  },
+  {
+    "a": "the-two-little-boys",
+    "b": "the-elephant-of-the-bastille",
+    "states": [
+      {
+        "from": 250,
+        "type": "tie",
+        "label": "Sheltered there for the night"
+      },
+      {
+        "from": 271,
+        "type": "tie",
+        "label": "Never come back to it"
+      }
+    ]
+  },
+  {
+    "a": "montparnasse",
+    "b": "the-elephant-of-the-bastille",
+    "states": [
+      {
+        "from": 251,
+        "type": "tie",
+        "label": "Calls Gavroche down from it"
+      }
+    ]
+  },
+  {
+    "a": "marius",
+    "b": "the-barricade",
+    "states": [
+      {
+        "from": 264,
+        "type": "tie",
+        "label": "Called to it by a voice"
+      },
+      {
+        "from": 287,
+        "type": "tie",
+        "label": "Argues himself into joining it"
+      },
+      {
+        "from": 291,
+        "type": "tie",
+        "label": "Saves it with a torch and a powder keg; made chief"
+      },
+      {
+        "from": 320,
+        "type": "tie",
+        "label": "Falls outside it"
+      },
+      {
+        "from": 322,
+        "type": "tie",
+        "label": "Carried away from it unconscious"
+      },
+      {
+        "from": 348,
+        "type": "tie",
+        "label": "Cannot fit Fauchelevent into his memory of it"
+      }
+    ]
+  },
+  {
+    "a": "enjolras",
+    "b": "the-barricade",
+    "states": [
+      {
+        "from": 279,
+        "type": "tie",
+        "label": "Its leader, who builds it in minutes"
+      },
+      {
+        "from": 284,
+        "type": "tie",
+        "label": "Executes Le Cabuc for discipline"
+      },
+      {
+        "from": 301,
+        "type": "tie",
+        "label": "Tells its defenders Paris is not rising"
+      },
+      {
+        "from": 303,
+        "type": "tie",
+        "label": "Speaks his vision of the future from it"
+      }
+    ]
+  },
+  {
+    "a": "courfeyrac",
+    "b": "the-barricade",
+    "states": [
+      {
+        "from": 279,
+        "type": "tie",
+        "label": "Builds it with Enjolras"
+      },
+      {
+        "from": 281,
+        "type": "tie",
+        "label": "Hands out cartridges"
+      },
+      {
+        "from": 319,
+        "type": "tie",
+        "label": "Killed in its defence"
+      }
+    ]
+  },
+  {
+    "a": "combeferre",
+    "b": "the-barricade",
+    "states": [
+      {
+        "from": 279,
+        "type": "tie",
+        "label": "Builds it with Enjolras"
+      },
+      {
+        "from": 319,
+        "type": "tie",
+        "label": "Killed lifting a wounded soldier"
+      }
+    ]
+  },
+  {
+    "a": "bossuet",
+    "b": "the-barricade",
+    "states": [
+      {
+        "from": 279,
+        "type": "tie",
+        "label": "Overturns an omnibus for it"
+      },
+      {
+        "from": 319,
+        "type": "tie",
+        "label": "Killed in its defence"
+      }
+    ]
+  },
+  {
+    "a": "joly",
+    "b": "the-barricade",
+    "states": [
+      {
+        "from": 279,
+        "type": "tie",
+        "label": "Helps build it"
+      },
+      {
+        "from": 319,
+        "type": "tie",
+        "label": "Falls with its centre"
+      }
+    ]
+  },
+  {
+    "a": "feuilly",
+    "b": "the-barricade",
+    "states": [
+      {
+        "from": 279,
+        "type": "tie",
+        "label": "Helps build it"
+      },
+      {
+        "from": 319,
+        "type": "tie",
+        "label": "Killed in its defence"
+      }
+    ]
+  },
+  {
+    "a": "jean-prouvaire",
+    "b": "the-barricade",
+    "states": [
+      {
+        "from": 279,
+        "type": "tie",
+        "label": "Helps build it"
+      },
+      {
+        "from": 292,
+        "type": "tie",
+        "label": "Taken prisoner and shot"
+      }
+    ]
+  },
+  {
+    "a": "bahorel",
+    "b": "the-barricade",
+    "states": [
+      {
+        "from": 279,
+        "type": "tie",
+        "label": "Helps build it"
+      },
+      {
+        "from": 300,
+        "type": "tie",
+        "label": "Among its dead"
+      }
+    ]
+  },
+  {
+    "a": "mother-hucheloup",
+    "b": "the-barricade",
+    "states": [
+      {
+        "from": 279,
+        "type": "tie",
+        "label": "Her casks become part of it"
+      }
+    ]
+  },
+  {
+    "a": "the-man-of-the-rue-des-billettes",
+    "b": "the-barricade",
+    "states": [
+      {
+        "from": 280,
+        "type": "tie",
+        "label": "Tall recruit who works on its smaller barricade"
+      }
+    ]
+  },
+  {
+    "a": "gavroche",
+    "b": "the-barricade",
+    "states": [
+      {
+        "from": 279,
+        "type": "tie",
+        "label": "Its youngest fighter"
+      },
+      {
+        "from": 283,
+        "type": "tie",
+        "label": "Unmasks the spy there"
+      },
+      {
+        "from": 313,
+        "type": "tie",
+        "label": "Shot gathering cartridges outside it"
+      }
+    ]
+  },
+  {
+    "a": "javert",
+    "b": "the-barricade",
+    "states": [
+      {
+        "from": 283,
+        "type": "tie",
+        "label": "Unmasked as a spy and tied up"
+      },
+      {
+        "from": 317,
+        "type": "tie",
+        "label": "Freed behind it by Valjean"
+      },
+      {
+        "from": 363,
+        "type": "tie",
+        "label": "Reported he owed his life there to an insurgent"
+      }
+    ]
+  },
+  {
+    "a": "le-cabuc",
+    "b": "the-barricade",
+    "states": [
+      {
+        "from": 284,
+        "type": "tie",
+        "label": "Executed for murdering a porter"
+      }
+    ]
+  },
+  {
+    "a": "mabeuf",
+    "b": "the-barricade",
+    "states": [
+      {
+        "from": 289,
+        "type": "tie",
+        "label": "Shot raising its flag"
+      }
+    ]
+  },
+  {
+    "a": "the-young-workman",
+    "b": "the-barricade",
+    "states": [
+      {
+        "from": 291,
+        "type": "tie",
+        "label": "Takes the bullet meant for Marius"
+      }
+    ]
+  },
+  {
+    "a": "eponine",
+    "b": "the-barricade",
+    "states": [
+      {
+        "from": 293,
+        "type": "tie",
+        "label": "Dies behind it, having led Marius there"
+      }
+    ]
+  },
+  {
+    "a": "jean-valjean",
+    "b": "the-barricade",
+    "states": [
+      {
+        "from": 302,
+        "type": "tie",
+        "label": "Enters it in uniform and gives it up"
+      },
+      {
+        "from": 307,
+        "type": "tie",
+        "label": "Shoots down a mattress to stop a breach"
+      },
+      {
+        "from": 317,
+        "type": "tie",
+        "label": "Lets the spy go and fires in the air"
+      },
+      {
+        "from": 322,
+        "type": "tie",
+        "label": "Carries Marius away under its stones"
+      }
+    ]
+  },
+  {
+    "a": "jean-valjean",
+    "b": "the-sewers",
+    "states": [
+      {
+        "from": 329,
+        "type": "tie",
+        "label": "Carries Marius through them"
+      },
+      {
+        "from": 334,
+        "type": "tie",
+        "label": "Nearly drowns in a fontis"
+      },
+      {
+        "from": 336,
+        "type": "tie",
+        "label": "Let out by Thénardier’s key"
+      }
+    ]
+  },
+  {
+    "a": "marius",
+    "b": "the-sewers",
+    "states": [
+      {
+        "from": 329,
+        "type": "tie",
+        "label": "Carried through them unconscious"
+      },
+      {
+        "from": 349,
+        "type": "tie",
+        "label": "Learns an unknown man carried him through them"
+      },
+      {
+        "from": 363,
+        "type": "tie",
+        "label": "His coat’s torn strip proves the journey"
+      }
+    ]
+  },
+  {
+    "a": "thenardier",
+    "b": "the-sewers",
+    "states": [
+      {
+        "from": 336,
+        "type": "tie",
+        "label": "Hides there with a key to the outlet"
+      },
+      {
+        "from": 363,
+        "type": "tie",
+        "label": "Tells the sewer story to blacken Valjean"
+      }
+    ]
+  },
+  {
+    "a": "javert",
+    "b": "the-sewers",
+    "states": [
+      {
+        "from": 337,
+        "type": "tie",
+        "label": "Waits at the outlet"
+      }
+    ]
+  },
+  {
+    "a": "bruneseau",
+    "b": "the-sewers",
+    "states": [
+      {
+        "from": 326,
+        "type": "tie",
+        "label": "Explored them by night, 1805–1812"
+      }
+    ]
+  }
+]
