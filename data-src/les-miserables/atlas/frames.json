@@ -1,0 +1,1067 @@
+[
+  {
+    "id": "france",
+    "type": "geo",
+    "title": "France & the Low Countries",
+    "short": "France",
+    "bounds": [
+      [
+        -2,
+        42.7
+      ],
+      [
+        8.6,
+        51.5
+      ]
+    ],
+    "labels": [
+      {
+        "text": "English Channel",
+        "at": [
+          -0.8,
+          50.2
+        ],
+        "kind": "sea"
+      },
+      {
+        "text": "North Sea",
+        "at": [
+          2.6,
+          51.3
+        ],
+        "kind": "sea"
+      },
+      {
+        "text": "Bay of Biscay",
+        "at": [
+          -1.6,
+          44.8
+        ],
+        "kind": "sea"
+      },
+      {
+        "text": "Mediterranean Sea",
+        "at": [
+          5,
+          42.9
+        ],
+        "kind": "sea"
+      },
+      {
+        "text": "Gulf of Lion",
+        "at": [
+          3.9,
+          43.1
+        ],
+        "kind": "sea"
+      },
+      {
+        "text": "Ligurian Sea",
+        "at": [
+          8.3,
+          43.6
+        ],
+        "kind": "sea"
+      },
+      {
+        "text": "FRANCE",
+        "at": [
+          2.5,
+          46.8
+        ],
+        "kind": "region"
+      },
+      {
+        "text": "BELGIUM",
+        "at": [
+          4.9,
+          50.35
+        ],
+        "kind": "region"
+      },
+      {
+        "text": "SWITZERLAND",
+        "at": [
+          7.6,
+          46.85
+        ],
+        "kind": "region"
+      },
+      {
+        "text": "PIEDMONT",
+        "at": [
+          7.9,
+          45
+        ],
+        "kind": "region"
+      },
+      {
+        "text": "Alps",
+        "at": [
+          6.7,
+          45.1
+        ],
+        "kind": "area"
+      },
+      {
+        "text": "Jura",
+        "at": [
+          5.85,
+          46.45
+        ],
+        "kind": "area"
+      },
+      {
+        "text": "Provence",
+        "at": [
+          6,
+          43.6
+        ],
+        "kind": "area"
+      },
+      {
+        "text": "Rhône",
+        "at": [
+          4.78,
+          44.4
+        ],
+        "kind": "water"
+      },
+      {
+        "text": "Loire",
+        "at": [
+          1.5,
+          47.4
+        ],
+        "kind": "water"
+      }
+    ],
+    "recipe": {
+      "type": "natural"
+    }
+  },
+  {
+    "id": "waterloo",
+    "type": "geo",
+    "title": "The field of Waterloo, 1815",
+    "short": "Waterloo",
+    "parent": "france",
+    "bounds": [
+      [
+        4.33,
+        50.635
+      ],
+      [
+        4.49,
+        50.74
+      ]
+    ],
+    "note": "The battlefield south of the village of Waterloo, between the Brussels and Nivelles roads.",
+    "labels": [
+      {
+        "text": "Forest of Soignes",
+        "at": [
+          4.43,
+          50.732
+        ],
+        "kind": "area"
+      },
+      {
+        "text": "Mont-Saint-Jean plateau",
+        "at": [
+          4.405,
+          50.688
+        ],
+        "kind": "area"
+      },
+      {
+        "text": "to Brussels",
+        "at": [
+          4.405,
+          50.737
+        ],
+        "kind": "minor"
+      },
+      {
+        "text": "to Nivelles",
+        "at": [
+          4.355,
+          50.645
+        ],
+        "kind": "minor"
+      },
+      {
+        "text": "to Charleroi",
+        "at": [
+          4.43,
+          50.64
+        ],
+        "kind": "minor"
+      }
+    ],
+    "place": "waterloo",
+    "recipe": {
+      "type": "city",
+      "parks": [
+        "Forêt de Soignes"
+      ]
+    }
+  },
+  {
+    "id": "paris-region",
+    "type": "geo",
+    "title": "Paris & its countryside",
+    "short": "Around Paris",
+    "parent": "france",
+    "bounds": [
+      [
+        2.12,
+        48.77
+      ],
+      [
+        2.66,
+        48.96
+      ]
+    ],
+    "note": "The dashed line is the city wall of the period; Saint-Cloud, Saint-Denis and the villages east of Vincennes lay in open country.",
+    "labels": [
+      {
+        "text": "Seine",
+        "at": [
+          2.235,
+          48.83
+        ],
+        "kind": "water"
+      },
+      {
+        "text": "Marne",
+        "at": [
+          2.475,
+          48.818
+        ],
+        "kind": "water"
+      },
+      {
+        "text": "Saint-Cloud",
+        "at": [
+          2.215,
+          48.845
+        ],
+        "kind": "area"
+      },
+      {
+        "text": "Saint-Denis",
+        "at": [
+          2.36,
+          48.937
+        ],
+        "kind": "area"
+      },
+      {
+        "text": "Vincennes",
+        "at": [
+          2.44,
+          48.848
+        ],
+        "kind": "area"
+      },
+      {
+        "text": "Forest of Bondy",
+        "at": [
+          2.605,
+          48.918
+        ],
+        "kind": "area"
+      }
+    ],
+    "recipe": {
+      "type": "city",
+      "osmBox": "48.70,2.00,49.03,2.78",
+      "river": {
+        "width": 150,
+        "nominatim": "La Seine, Paris"
+      },
+      "parks": [
+        "Bois de Boulogne",
+        "Bois de Vincennes",
+        "Domaine national de Saint-Cloud",
+        "Forêt de Bondy"
+      ],
+      "walls": {
+        "coords": [
+          [
+            2.295,
+            48.8738
+          ],
+          [
+            2.3015,
+            48.8786
+          ],
+          [
+            2.309,
+            48.8812
+          ],
+          [
+            2.3205,
+            48.8833
+          ],
+          [
+            2.3275,
+            48.8838
+          ],
+          [
+            2.3375,
+            48.8823
+          ],
+          [
+            2.35,
+            48.8838
+          ],
+          [
+            2.3605,
+            48.8843
+          ],
+          [
+            2.3685,
+            48.884
+          ],
+          [
+            2.3707,
+            48.8778
+          ],
+          [
+            2.3765,
+            48.8722
+          ],
+          [
+            2.3833,
+            48.8662
+          ],
+          [
+            2.3868,
+            48.8628
+          ],
+          [
+            2.3906,
+            48.858
+          ],
+          [
+            2.3958,
+            48.8484
+          ],
+          [
+            2.4004,
+            48.8441
+          ],
+          [
+            2.396,
+            48.8396
+          ],
+          [
+            2.3895,
+            48.8378
+          ],
+          [
+            2.3818,
+            48.8368
+          ],
+          [
+            2.3756,
+            48.8352
+          ],
+          [
+            2.3694,
+            48.8334
+          ],
+          [
+            2.3557,
+            48.831
+          ],
+          [
+            2.3433,
+            48.831
+          ],
+          [
+            2.3325,
+            48.8339
+          ],
+          [
+            2.3243,
+            48.8381
+          ],
+          [
+            2.317,
+            48.8418
+          ],
+          [
+            2.3127,
+            48.8425
+          ],
+          [
+            2.3069,
+            48.8466
+          ],
+          [
+            2.2985,
+            48.8497
+          ],
+          [
+            2.2928,
+            48.8507
+          ],
+          [
+            2.2895,
+            48.8538
+          ],
+          [
+            2.2855,
+            48.8577
+          ],
+          [
+            2.2864,
+            48.8627
+          ],
+          [
+            2.2901,
+            48.867
+          ],
+          [
+            2.2932,
+            48.8714
+          ],
+          [
+            2.295,
+            48.8738
+          ]
+        ],
+        "note": "The Farmers-General wall (1784–1860), along today’s boulevards."
+      }
+    }
+  },
+  {
+    "id": "paris",
+    "type": "geo",
+    "title": "Paris, inside the old wall",
+    "short": "Paris",
+    "parent": "paris-region",
+    "bounds": [
+      [
+        2.25,
+        48.815
+      ],
+      [
+        2.425,
+        48.9
+      ]
+    ],
+    "note": "The dashed line is the Farmers-General wall, the city limit of the period; Montmartre, Belleville and Vaugirard were villages outside it.",
+    "labels": [
+      {
+        "text": "Seine",
+        "at": [
+          2.272,
+          48.848
+        ],
+        "kind": "water"
+      },
+      {
+        "text": "Montmartre",
+        "at": [
+          2.341,
+          48.888
+        ],
+        "kind": "area"
+      },
+      {
+        "text": "Belleville",
+        "at": [
+          2.386,
+          48.874
+        ],
+        "kind": "area"
+      },
+      {
+        "text": "Vaugirard",
+        "at": [
+          2.298,
+          48.838
+        ],
+        "kind": "area"
+      },
+      {
+        "text": "Chaillot",
+        "at": [
+          2.293,
+          48.866
+        ],
+        "kind": "area"
+      },
+      {
+        "text": "Faubourg Saint-Antoine",
+        "at": [
+          2.383,
+          48.852
+        ],
+        "kind": "area"
+      },
+      {
+        "text": "Faubourg Saint-Marceau",
+        "at": [
+          2.352,
+          48.838
+        ],
+        "kind": "area"
+      },
+      {
+        "text": "Faubourg Saint-Germain",
+        "at": [
+          2.322,
+          48.856
+        ],
+        "kind": "area"
+      },
+      {
+        "text": "Île de la Cité",
+        "at": [
+          2.347,
+          48.855
+        ],
+        "kind": "minor"
+      }
+    ],
+    "place": "paris",
+    "recipe": {
+      "type": "city",
+      "osmBox": "48.79,2.22,48.92,2.46",
+      "river": {
+        "width": 150,
+        "nominatim": "La Seine, Paris"
+      },
+      "parks": [
+        "Jardin des Tuileries",
+        "Jardin du Luxembourg",
+        "Champ de Mars, Paris",
+        "Esplanade des Invalides",
+        "Jardin des Plantes, Paris",
+        "Cimetière du Père-Lachaise",
+        "Parc Monceau",
+        "Bois de Vincennes",
+        "Bois de Boulogne"
+      ],
+      "walls": {
+        "coords": [
+          [
+            2.295,
+            48.8738
+          ],
+          [
+            2.3015,
+            48.8786
+          ],
+          [
+            2.309,
+            48.8812
+          ],
+          [
+            2.3205,
+            48.8833
+          ],
+          [
+            2.3275,
+            48.8838
+          ],
+          [
+            2.3375,
+            48.8823
+          ],
+          [
+            2.35,
+            48.8838
+          ],
+          [
+            2.3605,
+            48.8843
+          ],
+          [
+            2.3685,
+            48.884
+          ],
+          [
+            2.3707,
+            48.8778
+          ],
+          [
+            2.3765,
+            48.8722
+          ],
+          [
+            2.3833,
+            48.8662
+          ],
+          [
+            2.3868,
+            48.8628
+          ],
+          [
+            2.3906,
+            48.858
+          ],
+          [
+            2.3958,
+            48.8484
+          ],
+          [
+            2.4004,
+            48.8441
+          ],
+          [
+            2.396,
+            48.8396
+          ],
+          [
+            2.3895,
+            48.8378
+          ],
+          [
+            2.3818,
+            48.8368
+          ],
+          [
+            2.3756,
+            48.8352
+          ],
+          [
+            2.3694,
+            48.8334
+          ],
+          [
+            2.3557,
+            48.831
+          ],
+          [
+            2.3433,
+            48.831
+          ],
+          [
+            2.3325,
+            48.8339
+          ],
+          [
+            2.3243,
+            48.8381
+          ],
+          [
+            2.317,
+            48.8418
+          ],
+          [
+            2.3127,
+            48.8425
+          ],
+          [
+            2.3069,
+            48.8466
+          ],
+          [
+            2.2985,
+            48.8497
+          ],
+          [
+            2.2928,
+            48.8507
+          ],
+          [
+            2.2895,
+            48.8538
+          ],
+          [
+            2.2855,
+            48.8577
+          ],
+          [
+            2.2864,
+            48.8627
+          ],
+          [
+            2.2901,
+            48.867
+          ],
+          [
+            2.2932,
+            48.8714
+          ],
+          [
+            2.295,
+            48.8738
+          ]
+        ],
+        "note": "The Farmers-General wall (1784–1860), along today’s boulevards."
+      }
+    }
+  },
+  {
+    "id": "central-paris",
+    "type": "geo",
+    "title": "Central Paris: the Halles, the Marais & the islands",
+    "short": "Central Paris",
+    "parent": "paris",
+    "bounds": [
+      [
+        2.325,
+        48.845
+      ],
+      [
+        2.375,
+        48.869
+      ]
+    ],
+    "note": "Much of the old street plan here, around the Halles above all, was cleared after 1850; the streets drawn are today’s.",
+    "labels": [
+      {
+        "text": "Seine",
+        "at": [
+          2.335,
+          48.8585
+        ],
+        "kind": "water"
+      },
+      {
+        "text": "Île de la Cité",
+        "at": [
+          2.346,
+          48.8545
+        ],
+        "kind": "minor"
+      },
+      {
+        "text": "Île Saint-Louis",
+        "at": [
+          2.3565,
+          48.8515
+        ],
+        "kind": "minor"
+      },
+      {
+        "text": "Les Halles",
+        "at": [
+          2.3445,
+          48.8625
+        ],
+        "kind": "area"
+      },
+      {
+        "text": "The Marais",
+        "at": [
+          2.361,
+          48.8585
+        ],
+        "kind": "area"
+      },
+      {
+        "text": "Latin Quarter",
+        "at": [
+          2.344,
+          48.8485
+        ],
+        "kind": "area"
+      },
+      {
+        "text": "Faubourg Saint-Antoine",
+        "at": [
+          2.3735,
+          48.8505
+        ],
+        "kind": "area"
+      },
+      {
+        "text": "Rue Saint-Denis",
+        "at": [
+          2.3495,
+          48.8665
+        ],
+        "kind": "street"
+      },
+      {
+        "text": "Rue Saint-Martin",
+        "at": [
+          2.3535,
+          48.8655
+        ],
+        "kind": "street"
+      }
+    ],
+    "recipe": {
+      "type": "city",
+      "osmBox": "48.835,2.305,48.879,2.395",
+      "river": {
+        "width": 150,
+        "nominatim": "La Seine, Paris"
+      },
+      "parks": [
+        "Jardin des Tuileries",
+        "Jardin du Palais-Royal",
+        "Place des Vosges",
+        "Square du Temple",
+        "Jardin du Luxembourg",
+        "Jardin des Plantes, Paris"
+      ]
+    }
+  },
+  {
+    "id": "left-bank",
+    "type": "geo",
+    "title": "The Left Bank: Saint-Germain to the Salpêtrière",
+    "short": "Left Bank",
+    "parent": "paris",
+    "bounds": [
+      [
+        2.3,
+        48.828
+      ],
+      [
+        2.372,
+        48.858
+      ]
+    ],
+    "note": "The dashed line is the city wall; beyond its southern barriers lay half-built boulevards and open ground.",
+    "labels": [
+      {
+        "text": "Seine",
+        "at": [
+          2.363,
+          48.8455
+        ],
+        "kind": "water"
+      },
+      {
+        "text": "Faubourg Saint-Germain",
+        "at": [
+          2.318,
+          48.855
+        ],
+        "kind": "area"
+      },
+      {
+        "text": "Latin Quarter",
+        "at": [
+          2.346,
+          48.849
+        ],
+        "kind": "area"
+      },
+      {
+        "text": "Faubourg Saint-Marceau",
+        "at": [
+          2.352,
+          48.838
+        ],
+        "kind": "area"
+      },
+      {
+        "text": "Vaugirard",
+        "at": [
+          2.305,
+          48.84
+        ],
+        "kind": "area"
+      },
+      {
+        "text": "Montparnasse",
+        "at": [
+          2.325,
+          48.84
+        ],
+        "kind": "area"
+      },
+      {
+        "text": "Invalides",
+        "at": [
+          2.3125,
+          48.8565
+        ],
+        "kind": "minor"
+      },
+      {
+        "text": "Jardin des Plantes",
+        "at": [
+          2.359,
+          48.844
+        ],
+        "kind": "minor"
+      },
+      {
+        "text": "Salpêtrière",
+        "at": [
+          2.362,
+          48.838
+        ],
+        "kind": "minor"
+      }
+    ],
+    "recipe": {
+      "type": "city",
+      "osmBox": "48.815,2.27,48.87,2.40",
+      "river": {
+        "width": 150,
+        "nominatim": "La Seine, Paris"
+      },
+      "parks": [
+        "Jardin du Luxembourg",
+        "Esplanade des Invalides",
+        "Champ de Mars, Paris",
+        "Jardin des Plantes, Paris",
+        "Cimetière du Montparnasse",
+        "Jardin des Tuileries"
+      ],
+      "walls": {
+        "coords": [
+          [
+            2.295,
+            48.8738
+          ],
+          [
+            2.3015,
+            48.8786
+          ],
+          [
+            2.309,
+            48.8812
+          ],
+          [
+            2.3205,
+            48.8833
+          ],
+          [
+            2.3275,
+            48.8838
+          ],
+          [
+            2.3375,
+            48.8823
+          ],
+          [
+            2.35,
+            48.8838
+          ],
+          [
+            2.3605,
+            48.8843
+          ],
+          [
+            2.3685,
+            48.884
+          ],
+          [
+            2.3707,
+            48.8778
+          ],
+          [
+            2.3765,
+            48.8722
+          ],
+          [
+            2.3833,
+            48.8662
+          ],
+          [
+            2.3868,
+            48.8628
+          ],
+          [
+            2.3906,
+            48.858
+          ],
+          [
+            2.3958,
+            48.8484
+          ],
+          [
+            2.4004,
+            48.8441
+          ],
+          [
+            2.396,
+            48.8396
+          ],
+          [
+            2.3895,
+            48.8378
+          ],
+          [
+            2.3818,
+            48.8368
+          ],
+          [
+            2.3756,
+            48.8352
+          ],
+          [
+            2.3694,
+            48.8334
+          ],
+          [
+            2.3557,
+            48.831
+          ],
+          [
+            2.3433,
+            48.831
+          ],
+          [
+            2.3325,
+            48.8339
+          ],
+          [
+            2.3243,
+            48.8381
+          ],
+          [
+            2.317,
+            48.8418
+          ],
+          [
+            2.3127,
+            48.8425
+          ],
+          [
+            2.3069,
+            48.8466
+          ],
+          [
+            2.2985,
+            48.8497
+          ],
+          [
+            2.2928,
+            48.8507
+          ],
+          [
+            2.2895,
+            48.8538
+          ],
+          [
+            2.2855,
+            48.8577
+          ],
+          [
+            2.2864,
+            48.8627
+          ],
+          [
+            2.2901,
+            48.867
+          ],
+          [
+            2.2932,
+            48.8714
+          ],
+          [
+            2.295,
+            48.8738
+          ]
+        ],
+        "note": "The Farmers-General wall (1784–1860), along today’s boulevards."
+      }
+    }
+  }
+]
