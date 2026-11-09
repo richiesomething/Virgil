@@ -1652,6 +1652,17 @@
       "credit": "Wood engraving, Maison de Victor Hugo / Paris Musées (CC0)"
     },
     {
+      "chapter": 166,
+      "from": "Such was M. Luc-Esprit Gillenormand",
+      "file": "166-1.webp",
+      "width": 632,
+      "height": 1000,
+      "caption": "M. Gillenormand",
+      "source": "O-057",
+      "to": "He had something of the eighteenth century",
+      "credit": "Gustave Brion, Mr Gillenormand, 1862 (Wikimedia Commons)"
+    },
+    {
       "chapter": 167,
       "from": "Nevertheless, let him who can explain",
       "file": "167-1.webp",
@@ -1942,8 +1953,18 @@
     },
     {
       "chapter": 188,
-      "from": "Nevertheless, there existed in all the immensity",
+      "from": "Marius was, at this epoch, a handsome young man",
       "file": "188-1.webp",
+      "width": 1000,
+      "height": 745,
+      "caption": "Marius",
+      "source": "O-084",
+      "credit": "Gustave Brion, Marius, 1862, from an album of Les Misérables drawings (Wikimedia Commons)"
+    },
+    {
+      "chapter": 188,
+      "from": "Nevertheless, there existed in all the immensity",
+      "file": "188-2.webp",
       "width": 330,
       "height": 203,
       "caption": "The bearded old woman who swept out Marius’ chamber",
@@ -2200,6 +2221,16 @@
       "credit": "Georges Jeanniot, 1890 edition (Wikimedia Commons)"
     },
     {
+      "chapter": 220,
+      "from": "My name is not Fabantou, my name is not Jondrette",
+      "file": "220-2.webp",
+      "width": 623,
+      "height": 1000,
+      "caption": "“My name is Thénardier. I am the innkeeper of Montfermeil!”",
+      "source": "O-096",
+      "credit": "Gustave Brion, Les Thénardier, 1862 (Wikimedia Commons)"
+    },
+    {
       "chapter": 221,
       "from": "Thénardier took the pistol and aimed at Javert",
       "file": "221-1.webp",
@@ -2209,6 +2240,17 @@
       "source": "J-144",
       "to": "Didn’t I tell you so!",
       "credit": "Georges Jeanniot, 1890 edition (Wikimedia Commons)"
+    },
+    {
+      "chapter": 222,
+      "from": "This lad was pale, thin, clad in rags",
+      "file": "222-1.webp",
+      "width": 675,
+      "height": 1000,
+      "caption": "A ragged boy, singing at the top of his voice under a street lantern",
+      "source": "O-107",
+      "to": "He pronounced the word “enormous” the second time",
+      "credit": "Wood engraving by Bellenger, illustrated edition of Les Misérables (Wikimedia Commons)"
     },
     {
       "chapter": 223,
