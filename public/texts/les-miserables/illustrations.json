@@ -3320,8 +3320,19 @@
     },
     {
       "chapter": 337,
-      "from": "Javert thrust his bludgeon between his teeth",
+      "from": "He turned round.",
       "file": "337-2.webp",
+      "width": 703,
+      "height": 1000,
+      "caption": "On the shore, Jean Valjean turns and finds a man standing behind him",
+      "source": "O-061",
+      "to": "Jean Valjean recognized Javert.",
+      "credit": "Gustave Brion, “Sortie du cloaque”, photographic reproduction of the drawing (Faucheur & Danelle album, 1860s) (Wikimedia Commons)"
+    },
+    {
+      "chapter": 337,
+      "from": "Javert thrust his bludgeon between his teeth",
+      "file": "337-3.webp",
       "width": 738,
       "height": 1000,
       "caption": "“Javert … scrutinized him, and recognized him”",
