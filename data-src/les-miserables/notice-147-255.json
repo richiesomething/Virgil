@@ -372,7 +372,7 @@
     "chapter": 164,
     "kind": "theme",
     "title": "Renaming the servants",
-    "text": "Every manservant is called after his province, every maid is Nicolette. The cook Olympie gets higher wages on condition she gives up her name. Gillenormand's household is a small court where the master decides who people are called. In a book where names are often lost or hidden, here they are simply confiscated.",
+    "text": "Every manservant is called after his province, every maid is Nicolette. The cook Olympie gets higher wages on condition she gives up her name. Gillenormand's household is a small court where the master decides who people are called. Here names are not lost or hidden but simply confiscated.",
     "themes": [
       "names",
       "poverty"
@@ -690,16 +690,6 @@
     "themes": [
       "names",
       "parenthood"
-    ]
-  },
-  {
-    "chapter": 173,
-    "kind": "context",
-    "title": "The search at Montfermeil",
-    "text": "Obeying the note, Marius goes to Montfermeil to find Thénardier and finds the inn closed and its keeper vanished. The reader knows more than Marius about that inn and about that 'sergeant'. Hugo leaves the irony unspoken.",
-    "themes": [
-      "parenthood",
-      "conscience"
     ]
   },
   {
@@ -1182,7 +1172,7 @@
     "chapter": 188,
     "kind": "motif",
     "title": "Mademoiselle Lanoire and Monsieur Leblanc",
-    "text": "Courfeyrac nicknames the pair on the bench from their clothes and hair: Miss Black for the girl's merino gown, Mr White for the man's white hair. 'This nickname became a law in the default of any other name.' Hugo adopts it too. In a book full of aliases, here is one invented by a joker and accepted by everyone, including the narrator.",
+    "text": "Courfeyrac nicknames the pair on the bench from their clothes and hair: Miss Black for the girl's merino gown, Mr White for the man's white hair. 'This nickname became a law in the default of any other name.' Hugo adopts it too. It is an alias invented by a joker and accepted by everyone, including the narrator.",
     "themes": [
       "names",
       "paris"
@@ -1192,7 +1182,7 @@
     "chapter": 188,
     "kind": "question",
     "title": "A tidy widower",
-    "text": "Marius sees a man of about sixty with the air of a retired soldier, dressed with odd care, who never meets anyone's eye and looks at the girl with 'ineffable paternity'. Hugo tells us almost nothing else. What do you make of a man who seems to want so badly not to be noticed?",
+    "text": "Marius sees a man of about sixty with the air of a retired soldier, dressed with odd care, who never meets anyone's eye and looks at the girl with 'ineffable paternity'. Hugo tells us almost nothing else. What do you make of him?",
     "themes": [
       "parenthood",
       "names"
@@ -1279,7 +1269,7 @@
     "chapter": 192,
     "kind": "question",
     "title": "Melancholy eyes, merry smile",
-    "text": "Hugo's only criticism of her beauty is that her gaze is melancholy while her smile is merry, which gives her face 'a rather wild effect'. What might make a young girl's eyes sad while her mouth laughs?",
+    "text": "Hugo's only criticism of her beauty is that her gaze is melancholy while her smile is merry, which gives her face 'a rather wild effect'. Why give a portrait seen through a lover's eyes this one flaw?",
     "themes": [
       "love"
     ]
@@ -1536,9 +1526,9 @@
   },
   {
     "chapter": 201,
-    "kind": "question",
+    "kind": "craft",
     "title": "A white-haired workman",
-    "text": "Marius glimpses a man in workman's clothes and cap, with very white hair and M. Leblanc's profile, walking as if in painful thought. 'What signified that disguise?' He decides it was only a resemblance. Was it?",
+    "text": "Marius glimpses a man in workman's clothes and cap, with very white hair and M. Leblanc's profile, walking as if in painful thought. 'What signified that disguise?' He decides it was only a resemblance, and Hugo lets the doubt stand.",
     "themes": [
       "names",
       "poverty"
@@ -1738,15 +1728,6 @@
     "themes": [
       "parenthood",
       "poverty"
-    ]
-  },
-  {
-    "chapter": 207,
-    "kind": "question",
-    "title": "He seemed surprised",
-    "text": "When the girl told the gentleman the address, 'he seemed surprised and hesitated for an instant', then said he would come anyway. Why might this particular house give a charitable visitor pause?",
-    "themes": [
-      "names"
     ]
   },
   {
@@ -2280,7 +2261,7 @@
     "chapter": 221,
     "kind": "motif",
     "title": "Two names for two sisters",
-    "text": "Javert catches the younger girl on watch, Azelma, but not the elder, Éponine, who 'was not at her post'. After two dozen chapters of 'the elder Jondrette girl', Hugo hands her a name in the middle of a police report. Where she was instead, he does not say. The warning that saved the prisoner was in her handwriting.",
+    "text": "Javert catches the younger girl on watch, Azelma, but not the elder, Éponine, who 'was not at her post'. After nearly twenty chapters of 'the elder Jondrette girl', Hugo hands her a name in the middle of a police report. Where she was instead, he does not say. The warning that saved the prisoner was in her handwriting.",
     "themes": [
       "names"
     ]
@@ -2579,7 +2560,7 @@
     "chapter": 229,
     "kind": "theme",
     "title": "Five francs every Monday",
-    "text": "Marius borrows money for the first time in his life, from Courfeyrac, to send five francs a week to Thénardier in La Force. 'Whence can this come to me?' Thénardier wonders. The son honours his father's debt to the man he just saw torture a prisoner. Is this loyalty, or a refusal to look at what he knows?",
+    "text": "Marius borrows money for the first time in his life, from Courfeyrac, to send five francs a week to Thénardier in La Force. 'Whence can this come to me?' Thénardier wonders. The son honours his father's debt to the man he has just watched try to murder a bound prisoner. Is this loyalty, or a refusal to look at what he knows?",
     "themes": [
       "parenthood",
       "conscience",
@@ -2672,7 +2653,7 @@
     "chapter": 230,
     "kind": "question",
     "title": "A gate on a garden",
-    "text": "'Babet. There is an affair in the Rue Plumet. A gate on a garden.' Éponine goes to look, watches the house for days, and sends back a biscuit: nothing to be done. What did she see there that made her call the job off?",
+    "text": "'Babet. There is an affair in the Rue Plumet. A gate on a garden.' Éponine goes to look, watches the house for days, and sends back a biscuit: nothing to be done. Hugo does not say why. What do you make of her verdict?",
     "themes": [
       "conscience"
     ]
@@ -3000,7 +2981,7 @@
     "chapter": 238,
     "kind": "theme",
     "title": "Love without a name",
-    "text": "In the convent's song-books 'amour' was replaced by 'tambour' or 'pandour', so Cosette has no word for what she feels. 'Is anyone the less ill because one does not know the name of one's malady?' In a book obsessed with names, she loves without being able to name either the feeling or the man.",
+    "text": "In the convent's song-books 'amour' was replaced by 'tambour' or 'pandour', so Cosette has no word for what she feels. 'Is anyone the less ill because one does not know the name of one's malady?' She loves without being able to name either the feeling or the man.",
     "themes": [
       "love",
       "names"
@@ -3228,16 +3209,6 @@
     "themes": [
       "love",
       "parenthood"
-    ]
-  },
-  {
-    "chapter": 244,
-    "kind": "question",
-    "title": "Impasse de la Planchette",
-    "text": "Every so often, when money runs short, Valjean goes away for a day or two; once Cosette saw him get down at a blind alley called the Impasse de la Planchette. Hugo gives the name and nothing more. Where does a man with no visible income go to fetch money?",
-    "themes": [
-      "names",
-      "poverty"
     ]
   },
   {
@@ -3523,7 +3494,7 @@
     "chapter": 250,
     "kind": "craft",
     "title": "Nobody says police, they say bobbies",
-    "text": "Gavroche keeps correcting the little boys' French into slang: 'crib', 'darkmans', 'nut', 'blaze the crib'. It is comic, and it is also a lesson in how to survive the street. Hugo is preparing his digression on argot, and lets a child teach it first.",
+    "text": "Gavroche keeps correcting the little boys' French into slang: 'crib', 'darkmans', 'nut', 'blaze the crib'. It is comic, and it is also a lesson in how to survive the street. Hugo lets a child teach the language of the street.",
     "themes": [
       "names",
       "paris"
@@ -3574,7 +3545,7 @@
     "chapter": 251,
     "kind": "theme",
     "title": "Something of the star and of the lightning",
-    "text": "Nobody ever learned how Thénardier crossed the prison walls. Hugo calls the escaping man 'inspired' and compares the thief's leap to the flight of genius. It is a startling comparison for a man we have just watched torture a prisoner. The drive for freedom, in Hugo, belongs to everyone, even the worst.",
+    "text": "Nobody ever learned how Thénardier crossed the prison walls. Hugo calls the escaping man 'inspired' and compares the thief's leap to the flight of genius. It is a startling comparison for a man we have watched try to murder a bound prisoner. The drive for freedom, in Hugo, belongs to everyone, even the worst.",
     "themes": [
       "mercy-law",
       "light-darkness"
@@ -3624,7 +3595,7 @@
     "chapter": 251,
     "kind": "motif",
     "title": "Icigo and icicaille",
-    "text": "Thénardier, stranded on the wall, identifies his rescuers in the dark by their slang: 'icigo' from the barriers means Brujon, 'icicaille' from the Temple means Babet, plain French means Montparnasse. Each kind of 'here' is a signature. It is the perfect lead-in to the Book on argot that follows.",
+    "text": "Thénardier, stranded on the wall, identifies his rescuers in the dark by their slang: 'icigo' from the barriers means Brujon, 'icicaille' from the Temple means Babet, plain French means Montparnasse. Each kind of 'here' is a signature.",
     "themes": [
       "names",
       "paris"

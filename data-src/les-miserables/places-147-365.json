@@ -17,7 +17,8 @@
           "from": 159,
           "text": "Boulevard of theatres, showmen and crowds, Little Gavroche's favourite haunt."
         }
-      ]
+      ],
+      "parent": "paris"
     },
     {
       "id": "rue-des-filles-du-calvaire",
@@ -46,9 +47,10 @@
         },
         {
           "from": 350,
-          "text": "The Gillenormand house, where Marius and Cosette are married and make their home."
+          "text": "The Gillenormand house, where the wedding is celebrated and Marius and Cosette make their home."
         }
-      ]
+      ],
+      "parent": "paris"
     },
     {
       "id": "rue-ferou",
@@ -67,7 +69,8 @@
           "from": 168,
           "text": "Ultra-Royalist salon near Saint-Sulpice where Gillenormand reigns and brings the boy Marius."
         }
-      ]
+      ],
+      "parent": "paris"
     },
     {
       "id": "vernon",
@@ -79,7 +82,7 @@
         1.4847,
         49.0925
       ],
-      "radiusKm": 1.0,
+      "radiusKm": 1,
       "today": "A town in the Eure, on the Seine about 75 km downstream of Paris.",
       "tagline": [
         {
@@ -113,7 +116,8 @@
           "from": 228,
           "text": "Café where Enjolras sends his friends out to sound the fighting men of Paris."
         }
-      ]
+      ],
+      "parent": "paris"
     },
     {
       "id": "corinthe",
@@ -126,7 +130,7 @@
         48.8628
       ],
       "radiusKm": 0.04,
-      "today": "The Rue de la Chanvrerie vanished under the Rue Rambuteau in the 1840s; Corinthe stood near today's Rue Mondétour.",
+      "today": "The Rue de la Chanvrerie vanished when the Rue Rambuteau was cut through under Louis-Philippe; Corinthe stood near today's Rue Mondétour.",
       "tagline": [
         {
           "from": 176,
@@ -140,7 +144,8 @@
           "from": 279,
           "text": "Wine-shop at the heart of the barricade, its upstairs windows turned into loopholes."
         }
-      ]
+      ],
+      "parent": "paris"
     },
     {
       "id": "hotel-porte-saint-jacques",
@@ -159,7 +164,8 @@
           "from": 177,
           "text": "Students' lodging-house where Courfeyrac takes in the homeless Marius."
         }
-      ]
+      ],
+      "parent": "paris"
     },
     {
       "id": "rue-de-l-ouest",
@@ -186,7 +192,8 @@
           "from": 233,
           "text": "One of Jean Valjean's two spare lodgings, kept apart from the Rue Plumet house."
         }
-      ]
+      ],
+      "parent": "paris"
     },
     {
       "id": "mabeuf-cottage",
@@ -205,7 +212,8 @@
           "from": 185,
           "text": "Little house and garden near the Salpêtrière where the ruined churchwarden lives with Mother Plutarque."
         }
-      ]
+      ],
+      "parent": "paris"
     },
     {
       "id": "rue-mouffetard",
@@ -228,7 +236,8 @@
           "from": 215,
           "text": "Snowy street where Marius shadows Jondrette on his errands."
         }
-      ]
+      ],
+      "parent": "paris"
     },
     {
       "id": "la-force",
@@ -255,7 +264,8 @@
           "from": 251,
           "text": "Prison from whose roofs Brujon, Gueulemer and Thénardier break out on a stormy night."
         }
-      ]
+      ],
+      "parent": "paris"
     },
     {
       "id": "saint-lazare",
@@ -274,7 +284,8 @@
           "from": 222,
           "text": "Women's prison where Gavroche's mother is held."
         }
-      ]
+      ],
+      "parent": "paris"
     },
     {
       "id": "madelonettes",
@@ -293,7 +304,8 @@
           "from": 222,
           "text": "Prison where Gavroche's sisters are held."
         }
-      ]
+      ],
+      "parent": "paris"
     },
     {
       "id": "barriere-du-maine",
@@ -316,7 +328,8 @@
           "from": 240,
           "text": "City gate where Valjean and Cosette watch the chain-gang pass at dawn."
         }
-      ]
+      ],
+      "parent": "paris"
     },
     {
       "id": "larks-meadow",
@@ -339,7 +352,8 @@
           "from": 232,
           "text": "Field where Éponine finds Marius with an address to give him."
         }
-      ]
+      ],
+      "parent": "paris"
     },
     {
       "id": "rue-plumet",
@@ -374,7 +388,8 @@
           "from": 264,
           "text": "House that Marius finds shut up and empty."
         }
-      ]
+      ],
+      "parent": "paris"
     },
     {
       "id": "rue-de-l-homme-arme",
@@ -401,7 +416,8 @@
           "from": 352,
           "text": "Valjean's lodging, empty now of Cosette."
         }
-      ]
+      ],
+      "parent": "paris"
     },
     {
       "id": "place-de-la-bastille",
@@ -424,7 +440,8 @@
           "from": 268,
           "text": "Square where the people of the faubourg join General Lamarque's funeral procession."
         }
-      ]
+      ],
+      "parent": "paris"
     },
     {
       "id": "the-elephant-of-the-bastille",
@@ -463,7 +480,8 @@
           "from": 299,
           "text": "Where one of the two great barricades of June 1848 stood, at the canal."
         }
-      ]
+      ],
+      "parent": "paris"
     },
     {
       "id": "rue-de-la-verrerie",
@@ -486,7 +504,8 @@
           "from": 261,
           "text": "No. 16: the address Marius scratches on Cosette's garden wall."
         }
-      ]
+      ],
+      "parent": "paris"
     },
     {
       "id": "rue-de-thorigny",
@@ -505,7 +524,8 @@
           "from": 272,
           "text": "Marais street where four old gossips howl at Gavroche."
         }
-      ]
+      ],
+      "parent": "paris"
     },
     {
       "id": "marche-saint-jean",
@@ -528,7 +548,8 @@
           "from": 274,
           "text": "Square where Gavroche joins Enjolras's armed band."
         }
-      ]
+      ],
+      "parent": "paris"
     },
     {
       "id": "rue-des-billettes",
@@ -547,7 +568,8 @@
           "from": 276,
           "text": "Marais street where a tall grey-haired stranger joins the marching band."
         }
-      ]
+      ],
+      "parent": "paris"
     },
     {
       "id": "saint-merry",
@@ -566,7 +588,8 @@
           "from": 269,
           "text": "Church whose tocsin sounds through the night of 5 June."
         }
-      ]
+      ],
+      "parent": "paris"
     },
     {
       "id": "saint-eustache",
@@ -585,7 +608,8 @@
           "from": 227,
           "text": "Great church beside the Halles."
         }
-      ]
+      ],
+      "parent": "paris"
     },
     {
       "id": "the-barricade",
@@ -598,7 +622,7 @@
         48.8627
       ],
       "radiusKm": 0.05,
-      "today": "The street disappeared when the Rue Rambuteau was cut through in the 1840s.",
+      "today": "The street disappeared when the Rue Rambuteau was cut through under Louis-Philippe.",
       "tagline": [
         {
           "from": 264,
@@ -612,7 +636,8 @@
           "from": 321,
           "text": "The barricade, taken by the troops on 6 June."
         }
-      ]
+      ],
+      "parent": "paris"
     },
     {
       "id": "royal-printing-office",
@@ -631,7 +656,8 @@
           "from": 298,
           "text": "Printing-house in the Marais whose National Guard post fires blindly at Gavroche's handcart."
         }
-      ]
+      ],
+      "parent": "paris"
     },
     {
       "id": "the-sewers",
@@ -654,7 +680,8 @@
           "from": 329,
           "text": "Dark labyrinth under the Right Bank where Valjean wanders with Marius on his back."
         }
-      ]
+      ],
+      "parent": "paris"
     },
     {
       "id": "sewer-outlet",
@@ -677,7 +704,8 @@
           "from": 335,
           "text": "Where the Grand Sewer meets the Seine, between the Pont de Jéna and the Pont des Invalides, barred by a locked grating."
         }
-      ]
+      ],
+      "parent": "paris"
     },
     {
       "id": "the-fontis",
@@ -720,7 +748,8 @@
           "from": 329,
           "text": "Bridge by the Châtelet, at the heart of the old city."
         }
-      ]
+      ],
+      "parent": "paris"
     },
     {
       "id": "pont-notre-dame",
@@ -739,7 +768,8 @@
           "from": 341,
           "text": "Bridge by the Place du Châtelet, where the Seine runs in a rapid between the piles; here Javert's last walk ends."
         }
-      ]
+      ],
+      "parent": "paris"
     },
     {
       "id": "blaru-bottom",
@@ -751,7 +781,7 @@
         2.56,
         48.899
       ],
-      "radiusKm": 1.0,
+      "radiusKm": 1,
       "today": "Woods around Montfermeil, east of Paris; much is now built over.",
       "tagline": [
         {
@@ -786,7 +816,8 @@
           "from": 350,
           "text": "Church where Marius and Cosette are married."
         }
-      ]
+      ],
+      "parent": "paris"
     },
     {
       "id": "pont-aux-choux",
@@ -803,13 +834,14 @@
       "tagline": [
         {
           "from": 271,
-          "text": "Spot on the boulevard by the Marais, named for an old bridge."
+          "text": "Little street off the boulevard by the Marais, where Gavroche finds only a pastrycook's open."
         },
         {
           "from": 350,
           "text": "Where the wedding carriages stop beside a cartload of maskers."
         }
-      ]
+      ],
+      "parent": "paris"
     },
     {
       "id": "blancs-manteaux",
@@ -832,7 +864,8 @@
           "from": 359,
           "text": "Point beyond which the old man in black no longer walks."
         }
-      ]
+      ],
+      "parent": "paris"
     }
   ],
   "settings": {

@@ -1040,7 +1040,7 @@
     "chapter": 47,
     "kind": "theme",
     "title": "The itch of knowing",
-    "text": "Hugo digresses on idle people who spy on their neighbours at their own expense, purely to know. Madame Victurnien spends thirty-five francs on a trip to Montfermeil. A woman's ruin starts with gossip paid for out of someone else's spite.",
+    "text": "Hugo digresses on idle people who spy on their neighbours at their own expense, purely to know. Madame Victurnien spends thirty-five francs on a trip to Montfermeil. A woman's ruin starts with a stranger's curiosity, paid for out of her own pocket.",
     "themes": [
       "poverty"
     ]
@@ -1655,7 +1655,7 @@
     "chapter": 67,
     "kind": "craft",
     "title": "Look behind you",
-    "text": "Fantine sees Javert first and can only sign to Valjean to turn around. Hugo ends the chapter on her terror and his turning. It is the third chapter in a row to end on a sudden recognition.",
+    "text": "Fantine sees Javert first and can only sign to Valjean to turn around. Hugo ends the chapter on her terror and his turning.",
     "themes": []
   },
   {
@@ -2313,7 +2313,7 @@
     "chapter": 91,
     "kind": "question",
     "title": "A small square chest",
-    "text": "Boulatruelle saw a strong man he knew 'from the galleys' carry something square into the thicket by moonlight and come out with only a pick and shovel. The chapter is placed straight after the report about missing money. What do you make of the timing?",
+    "text": "Boulatruelle saw a strong man he knew 'from the galleys' carry something square into the thicket by moonlight and come out with only a pick and shovel. Why does Hugo hand this story to a drunken road-mender, of all witnesses?",
     "themes": []
   },
   {
@@ -2422,7 +2422,7 @@
     "chapter": 95,
     "kind": "motif",
     "title": "Mademoiselle Dog-lack-name",
-    "text": "Madame Thénardier calls her 'that other beast', 'Mademoiselle Dog-lack-name', 'Mam'selle Toad'. Cosette is never addressed by her name in this chapter. In a book where names carry dignity, she is refused one.",
+    "text": "Madame Thénardier calls her 'that other beast', 'Mademoiselle Dog-lack-name', 'Mam'selle Toad'. Cosette is never addressed by her name in this chapter, as if she had no right to one.",
     "themes": [
       "names"
     ]
@@ -2493,7 +2493,7 @@
     "chapter": 98,
     "kind": "craft",
     "title": "Back up the same afternoon",
-    "text": "Hugo leaves Cosette with the stranger and rewinds to that afternoon in Paris to follow the man's day. It is the same backward step he used for Valjean's arrival in Digne. We see the stranger from outside, through what witnesses noticed.",
+    "text": "Hugo leaves Cosette with the stranger and rewinds to that afternoon in Paris to follow the man's day. We see the stranger from outside, through what witnesses noticed.",
     "themes": []
   },
   {
@@ -2646,7 +2646,7 @@
     "chapter": 102,
     "kind": "motif",
     "title": "Fantine's note",
-    "text": "Thénardier demands a paper signed by the mother, and the stranger hands him exactly that: Fantine's note ordering Cosette delivered to the bearer. The reader recognises it from Montreuil. Thénardier mutters that the signature is 'fairly well imitated' and lets it go.",
+    "text": "Thénardier demands a paper signed by the mother, and the stranger hands him exactly that: Fantine's note ordering Cosette delivered to the bearer. Thénardier mutters that the signature is 'fairly well imitated' and lets it go.",
     "themes": [
       "parenthood",
       "names"
@@ -2674,7 +2674,7 @@
     "chapter": 103,
     "kind": "craft",
     "title": "Jean Valjean was not dead",
-    "text": "Hugo opens with the flat statement and then compresses months of flight into a paragraph: a swim underwater, a moored boat, a country house that clothes escaped convicts, a 'mole's track' through southern France. After eleven chapters of 'the stranger', the name returns in the first line.",
+    "text": "Hugo opens with the flat statement and then compresses months of flight into a paragraph: a swim underwater, a moored boat, a country house that clothes escaped convicts, a 'mole's track' through southern France. After chapters of 'the stranger', the name returns in the first line.",
     "themes": [
       "names"
     ]
@@ -3473,7 +3473,7 @@
   {
     "chapter": 136,
     "kind": "craft",
-    "title": "The shortest chapter in the Parenthesis",
+    "title": "A very short chapter",
     "text": "Two hundred and thirty-four words weigh the right to live apart against its abuses. After pages of attack and defence, Hugo compresses the dilemma into paradoxes. Brevity here is a sign of balance.",
     "themes": []
   },

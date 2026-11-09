@@ -132,7 +132,11 @@
       "tagline": [
         {
           "from": 2,
-          "text": "Mountain village and old bishopric of the diocese; the Bishop rides in on an ass."
+          "text": "Ancient episcopal city in the mountains of the diocese."
+        },
+        {
+          "from": 3,
+          "text": "Ancient episcopal city of the diocese, where the Bishop rides in on an ass."
         }
       ]
     },
@@ -473,6 +477,10 @@
         {
           "from": 98,
           "text": "Paris, where a white-haired stranger in a yellow coat looks for lodgings on its southern edge."
+        },
+        {
+          "from": 147,
+          "text": "The city of the gamin: its boulevards, faubourgs and ragged outskirts."
         }
       ]
     },
@@ -745,7 +753,7 @@
       ],
       "radiusKm": 0.2,
       "parent": "paris",
-      "today": "Closed in 1824, when the Montparnasse cemetery replaced it; built over.",
+      "today": "Historically closed in 1824, when the Montparnasse cemetery opened (Hugo keeps it in use until after 1830); built over.",
       "tagline": [
         {
           "from": 120,
@@ -2506,7 +2514,7 @@
           "via": [
             [
               2.36,
-              49.0
+              49
             ],
             [
               2.3,
@@ -2726,20 +2734,40 @@
         {
           "chapter": 103,
           "from": "boulevard-de-l-hopital",
+          "to": "porte-saint-martin",
+          "mode": "foot",
+          "via": [
+            [
+              2.3665,
+              48.8445
+            ],
+            [
+              2.369,
+              48.853
+            ],
+            [
+              2.3645,
+              48.864
+            ]
+          ]
+        },
+        {
+          "chapter": 103,
+          "from": "porte-saint-martin",
           "to": "chelles",
           "mode": "road",
           "via": [
             [
-              2.366,
-              48.845
+              2.4,
+              48.872
             ],
             [
-              2.44,
-              48.848
+              2.47,
+              48.876
             ],
             [
-              2.52,
-              48.86
+              2.53,
+              48.879
             ]
           ]
         },
