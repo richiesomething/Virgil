@@ -1202,5 +1202,810 @@
     "chapter": 146,
     "text": "The Christian idea that the innocent may take on suffering to atone for the guilty, as Christ did; the nuns' 'reparation' for the sins of the world is its daily practice. Valjean, who understands a convict's expiation for himself, is stopped short by this other kind, and it humbles him.",
     "quote": "“The most divine of human generosities, the expiation for others.”"
+  },
+  {
+    "term": "Gamin",
+    "kind": "word",
+    "chapter": 147,
+    "text": "The Paris street boy: a child of seven to thirteen who lives more in the street than at home, ragged, cheeky, quick and free. The word was still new and slangy when Hugo wrote, and Hapgood keeps it, sometimes adding 'street arab', the English equivalent of the day. Book I of this volume is a portrait of the type rather than of any one child.",
+    "quote": "the child is called the gamin"
+  },
+  {
+    "term": "Homuncio",
+    "kind": "reference",
+    "chapter": 147,
+    "text": "Latin, 'little man', a word used by the Roman comic playwright Plautus. Hugo likes to dress the gutter child in classical tags: the effect is half mock-heroic and half tender. He keeps calling the gamin 'the homuncio' in the chapters that follow.",
+    "quote": "Homuncio, Plautus would say."
+  },
+  {
+    "term": "Calls gay women 'thou'",
+    "kind": "custom",
+    "chapter": 147,
+    "text": "French has two words for 'you': the polite vous and the familiar tu ('thou'), kept for family, close friends, children and inferiors. A small boy who says tu to prostitutes ('gay women' in Victorian English) is claiming to be their equal and their pal. Hapgood often renders tu as 'thou' to keep the nuance.",
+    "quote": "calls gay women “thou,”"
+  },
+  {
+    "term": "Street arab",
+    "kind": "word",
+    "chapter": 148,
+    "text": "Victorian English for a homeless or half-wild city child, from the idea of the wandering Bedouin. Hapgood uses it as a gloss on gamin; to Hugo's readers the French word carried more cheek and less pity.",
+    "quote": "The gamin—the street arab—of Paris is the dwarf of the giant."
+  },
+  {
+    "term": "'To eat dandelions by the root'",
+    "kind": "foreign",
+    "chapter": 148,
+    "text": "A translation of the French slang manger les pissenlits par la racine, 'to be dead and buried', still in use today, much like English 'pushing up daisies'. It is the first of the many street sayings Hugo collects in this book.",
+    "quote": "to be dead is “to eat dandelions by the root;”"
+  },
+  {
+    "term": "'Making the bridge of arts'",
+    "kind": "lore",
+    "chapter": 148,
+    "text": "A pun on the Pont des Arts, the footbridge across the Seine by the Louvre, which charged a toll. In heavy rain gamins laid planks across flooded gutters and charged passers-by a sou to cross: their own toll bridge.",
+    "quote": "which he calls “making the bridge of arts,”"
+  },
+  {
+    "term": "Loques",
+    "kind": "word",
+    "chapter": 148,
+    "text": "French for 'rags'. Here it is the gamins' private currency, scraps of worked copper picked up in the street, which pass from hand to hand at a fixed value among the children.",
+    "quote": "This curious money, which receives the name of loques—rags"
+  },
+  {
+    "term": "Talleyrand",
+    "kind": "history",
+    "chapter": 148,
+    "text": "Charles-Maurice de Talleyrand (1754–1838), the bishop turned diplomat who served the Revolution, Napoleon, the Bourbons and Louis-Philippe in turn. He was famous for cynical one-liners. Hugo gives the gamin as many sayings as Talleyrand, and more honesty.",
+    "quote": "this child has as many of them as Talleyrand"
+  },
+  {
+    "term": "Titi",
+    "kind": "word",
+    "chapter": 149,
+    "text": "Parisian slang for a gamin at the theatre, perched in the cheapest seats under the roof. Hugo makes him the winged form of the street boy, as the moth is of the larva. The word survives as the name of the cheeky Paris urchin type.",
+    "quote": "he was the street arab, he becomes the titi"
+  },
+  {
+    "term": "Paradise (the theatre gallery)",
+    "kind": "custom",
+    "chapter": 149,
+    "text": "The highest, cheapest gallery of a theatre, under the roof, was called le paradis in French, as 'the gods' in English. Hugo plays on the name: the stuffy, filthy 'keel' of the upturned ship becomes heaven because the children are happy there.",
+    "quote": "the name of Paradise"
+  },
+  {
+    "term": "Mademoiselle Mars",
+    "kind": "history",
+    "chapter": 149,
+    "text": "Anne Boutet, called Mademoiselle Mars (1779–1847), the leading comic actress of the Comédie-Française for thirty years, admired for her elegance and diction. The gamins' nickname 'Muche' plays on se musser (to hide), mocking her as she aged in young roles.",
+    "quote": "the popularity of Mademoiselle Mars"
+  },
+  {
+    "term": "Matanturlurette",
+    "kind": "word",
+    "chapter": 149,
+    "text": "A nonsense refrain from old popular songs, like 'fol-de-rol'. Setting it beside 'Alleluia', as the Jack-pudding (the fairground clown) beside the De Profundis, is Hugo's way of saying the gamin mixes the sacred and the comic without blinking.",
+    "quote": "tempers Alleluia with Matanturlurette"
+  },
+  {
+    "term": "Adamastor",
+    "kind": "reference",
+    "chapter": 149,
+    "text": "The giant spirit of the Cape of Good Hope in Camões's Portuguese epic 'The Lusiads' (1572), who rises from the storm to warn Vasco da Gama. Hugo's point: faced with an epic monster, the street boy would just call it a bogeyman.",
+    "quote": "If Adamastor were to appear to him"
+  },
+  {
+    "term": "Prudhomme and Fouillou",
+    "kind": "reference",
+    "chapter": 150,
+    "text": "Joseph Prudhomme is the pompous, platitudinous bourgeois invented by the caricaturist Henry Monnier in the 1830s, a byword for smug respectability. Fouillou stands for the poking, rummaging street child (fouiller means to rummage). Hugo pairs them as the two poles of Paris: the lounger who looks on and the gamin who acts.",
+    "quote": "Prudhomme and Fouillou"
+  },
+  {
+    "term": "Currit rota; the Latin potter",
+    "kind": "reference",
+    "chapter": 150,
+    "text": "From Horace's 'Art of Poetry': a potter sets out to make an amphora, but as the wheel turns (currit rota) out comes a mere jug. Hugo reverses the line: Paris starts with a jug of common clay and turns out an amphora. Ionian and Boeotian are the old Greek types of the refined and the dull.",
+    "quote": "currit rota, the Spirit of Paris"
+  },
+  {
+    "term": "Urbis amator, ruris amator",
+    "kind": "reference",
+    "chapter": 151,
+    "text": "Horace opens one of his Epistles by greeting his friend Fuscus, 'lover of the city', from himself, Flaccus, 'lover of the country'. Hugo gives the gamin both loves, which leads him into the waste ground around Paris.",
+    "quote": "Urbis amator, like Fuscus; ruris amator, like Flaccus"
+  },
+  {
+    "term": "Banlieue",
+    "kind": "word",
+    "chapter": 151,
+    "text": "The ring of half-rural land and villages just outside a French city's limits, beyond the toll barriers. Hugo calls it the 'limbo' of Paris, neither town nor country: quarries, market gardens, waste ground and cheap tea-gardens, where runaway children play.",
+    "quote": "the banlieue of Paris is another"
+  },
+  {
+    "term": "The wall of Grenelle 'speckled with balls'",
+    "kind": "place",
+    "chapter": 151,
+    "text": "The plain of Grenelle, south-west of the city by the Champ-de-Mars, was where military executions were carried out by firing squad; the wall behind the condemned was pocked with bullet marks. Hugo lists it among the bleak landmarks of the outskirts he roamed as a young man.",
+    "quote": "the hideous wall of Grenelle all speckled with balls"
+  },
+  {
+    "term": "Half-farthings",
+    "kind": "money",
+    "chapter": 151,
+    "text": "Hapgood's English for the liard, the smallest copper coin of old France, worth a quarter of a sou. It was already out of use by the 1820s. The children quarrelling over them are quarrelling over almost nothing.",
+    "quote": "quarrelling over half-farthings"
+  },
+  {
+    "term": "'The swallows of the bridge of Arcola'",
+    "kind": "history",
+    "chapter": 152,
+    "text": "A notorious band of homeless children who slept under the arches of the Pont d'Arcole, by the Hôtel de Ville, and lived by petty theft; their case caused a scandal in the 1840s. Hugo cites them as the darker side of the Paris street child.",
+    "quote": "“the swallows of the bridge of Arcola.”"
+  },
+  {
+    "term": "Colbert and the galley-slaves",
+    "kind": "history",
+    "chapter": 152,
+    "text": "Jean-Baptiste Colbert, Louis XIV's great minister, built up the French navy in the 1660s, and the Mediterranean galleys needed rowers. Courts were urged to sentence as many men to the oar as possible: Protestants (Huguenots) for refusing a Catholic gesture such as baring the head to a procession, and vagrant boys of fifteen.",
+    "quote": "Colbert had the commissioners of provinces and the parliaments make as many convicts as possible."
+  },
+  {
+    "term": "The king's baths of purple",
+    "kind": "history",
+    "chapter": 152,
+    "text": "In 1750 a rumour ran through Paris that police were kidnapping children so that a sick Louis XV could bathe in their blood; riots broke out and several people were hanged. The lawyer Edmond Barbier recorded it in his journal. The exempts were police officers of the old regime.",
+    "quote": "the king’s baths of purple. Barbier speaks ingenuously of these things"
+  },
+  {
+    "term": "Claude Gueux",
+    "kind": "reference",
+    "chapter": 153,
+    "text": "A short story Hugo himself published in 1834, about a starving workman jailed for theft who kills a cruel prison director and is guillotined. Hugo is drily claiming that the word gamin first got into print through his own pen.",
+    "quote": "It is in a little work entitled “Claude Gueux” that this word made its appearance."
+  },
+  {
+    "term": "Samson and the Abbé Montès",
+    "kind": "history",
+    "chapter": 153,
+    "text": "Samson was the family of hereditary Paris executioners who worked the guillotine from Louis XVI to the 1840s; the Abbé Montès was the prison chaplain who rode with the condemned in the cart. To the gamin they are celebrities, the stars of the show at the Place de Grève.",
+    "quote": "Samson and the Abbé Montès are the truly popular names"
+  },
+  {
+    "term": "Lacenaire, Papavoine and the condemned",
+    "kind": "history",
+    "chapter": 153,
+    "text": "Hugo's roll-call of men guillotined in Paris between about 1820 and 1840, as the street boys remember them. Lacenaire was a poet-murderer who became a romantic celebrity; Papavoine killed two children in 1824; Bories was one of the 'four sergeants of La Rochelle' executed for a political plot in 1822, hence the confusion of 'politicians' with assassins.",
+    "quote": "In the brotherhood of gamins Voltaire is not known, but Papavoine is."
+  },
+  {
+    "term": "Epiphonema",
+    "kind": "word",
+    "chapter": 153,
+    "text": "A rhetorical term for a striking exclamation that sums up what came before. Hugo uses the learned word, tongue in cheek, for a street boy's wish to see someone fall from a fifth-floor window.",
+    "quote": "a profound epiphonema"
+  },
+  {
+    "term": "Louis-Philippe and the pear",
+    "kind": "history",
+    "chapter": 154,
+    "text": "In 1831 the caricaturist Charles Philipon drew King Louis-Philippe's heavy, jowly face turning by stages into a pear, and the pear became the opposition's emblem; street boys chalked pears on every wall. In Hugo's anecdote the king himself finishes a child's pear and pays him a louis, with a pun on the king's face being on the coin too.",
+    "quote": "from 1830 to 1848, he scrawled pears on the walls"
+  },
+  {
+    "term": "Evohe",
+    "kind": "reference",
+    "chapter": 154,
+    "text": "Evoe, the ecstatic cry of the worshippers of Bacchus in Greek ritual. Hugo mock-solemnly hears it, and the chants of the Panathenaea (Athens's great festival), in the gamins' warning cry when the police come for the boys bathing in the Seine.",
+    "quote": "one encounters again the ancient Evohe"
+  },
+  {
+    "term": "Tantalus",
+    "kind": "reference",
+    "chapter": 154,
+    "text": "In Greek myth, a king punished in the underworld by standing in water that drains away when he stoops to drink, under fruit that the wind lifts out of reach. 'To play Tantalus' is to long for something forever just out of reach: here, overthrowing the government and getting one's trousers mended.",
+    "quote": "There are two things to which he plays Tantalus"
+  },
+  {
+    "term": "The Papal Nuncio",
+    "kind": "title",
+    "chapter": 154,
+    "text": "The Pope's ambassador to a foreign court, resident in Paris in the Rue de l'Université. The anticlerical gamin thumbs his nose at the gate simply because 'there is a curé there'.",
+    "quote": "It was there, in fact, that the Papal Nuncio lived."
+  },
+  {
+    "term": "Poquelin and Beaumarchais",
+    "kind": "reference",
+    "chapter": 155,
+    "text": "Jean-Baptiste Poquelin is Molière (1622–1673), France's great comic playwright, son of a Paris upholsterer near the market of Les Halles. Beaumarchais (1732–1799), the watchmaker's son who wrote 'The Barber of Seville' and 'The Marriage of Figaro', mocked the nobility with street-wise cheek. Hugo claims both for the gamin's line.",
+    "quote": "There was something of that boy in Poquelin"
+  },
+  {
+    "term": "Camille Desmoulins and Championnet",
+    "kind": "history",
+    "chapter": 155,
+    "text": "Desmoulins was the young journalist who roused the Paris crowd at the Palais-Royal two days before the fall of the Bastille in 1789. General Championnet, a Revolutionary soldier who took Naples in 1799, was said to have forced the clergy there to make the blood of Saint Januarius liquefy on schedule: Hugo's 'treated miracles brutally'.",
+    "quote": "Camille Desmoulins was a native of the faubourgs"
+  },
+  {
+    "term": "Barra the drummer-boy",
+    "kind": "history",
+    "chapter": 155,
+    "text": "Joseph Bara, a boy of thirteen or fourteen serving with the Republican army, killed by Vendéan rebels in 1793; legend says he died crying 'Vive la République' rather than surrender horses. The Republic made him a hero and painters made him an icon. Hugo makes him the gamin turned hero.",
+    "quote": "Barra the drummer-boy was a gamin of Paris"
+  },
+  {
+    "term": "The horse of Scripture says 'Vah!'",
+    "kind": "reference",
+    "chapter": 155,
+    "text": "The war-horse of the Book of Job (39:25), which 'saith among the trumpets, Ha, ha; and he smelleth the battle afar off'. Hugo sets the boy's 'Forward!' beside it. The 'little Theban' who shakes off the lion's skin is the young Hercules.",
+    "quote": "as the horse of Scripture says “Vah!”"
+  },
+  {
+    "term": "Graeculus",
+    "kind": "reference",
+    "chapter": 156,
+    "text": "Latin, 'little Greek': the Roman sneer for the quick-witted, rootless Greeks who lived by their wits in imperial Rome, as tutors, flatterers and jacks-of-all-trades (Juvenal's satire is the classic portrait). Hugo makes the gamin the Paris equivalent: the child of an old civilization, born knowing.",
+    "quote": "like the graeculus of Rome in days gone by"
+  },
+  {
+    "term": "Paris as Rome",
+    "kind": "lore",
+    "chapter": 156,
+    "text": "This chapter is a dizzying catalogue matching every piece of ancient Rome and Greece with something in modern Paris: the Faubourg Saint-Antoine is the Aventine, the hill of the Roman plebs; the Gemonian stairs, where the bodies of the executed were thrown, are replaced by ridicule. Most of the Latin names come from Plautus, Horace and Juvenal. The reader needs none of them to follow the point: everything that ever existed elsewhere exists in Paris.",
+    "quote": "Paris has a capital, the Town-Hall, a Parthenon, Notre-Dame, a Mount Aventine, the Faubourg Saint-Antoine"
+  },
+  {
+    "term": "Pègre",
+    "kind": "word",
+    "chapter": 156,
+    "text": "Paris slang for the underworld of petty thieves, set here beside the lazzarone, the idle street poor of Naples. Faraud, in the same list, is a swaggering dandy of the lower classes, the Paris version of the Spanish majo.",
+    "quote": "its lazzarone is the pègre"
+  },
+  {
+    "term": "Mesmer's tub, Cagliostro, Saint-Germain",
+    "kind": "history",
+    "chapter": 156,
+    "text": "Three famous impostors or wonder-workers of the late eighteenth century in Paris. Franz Mesmer treated patients round a tub of 'magnetised' water; Cagliostro was a Sicilian adventurer who sold elixirs and séances; the Comte de Saint-Germain claimed to be centuries old. Hugo matches them with the oracles and magicians of antiquity.",
+    "quote": "The vat of Trophonius contains nothing that is not in Mesmer’s tub"
+  },
+  {
+    "term": "The miracles of Saint-Médard",
+    "kind": "history",
+    "chapter": 156,
+    "text": "In the 1720s and 1730s crowds of Jansenist devotees gathered at the tomb of the deacon Pâris in the Saint-Médard churchyard, falling into convulsions and claiming miraculous cures, until the king had the cemetery closed. A wit chalked on the gate: 'By order of the King, God is forbidden to work miracles here.'",
+    "quote": "the cemetery of Saint-Médard works quite as good miracles"
+  },
+  {
+    "term": "Mayeux and Mademoiselle Lenormand",
+    "kind": "history",
+    "chapter": 156,
+    "text": "Mayeux was a lewd, boastful hunchback, a stock figure of 1830s caricature and street songs. Marie-Anne Lenormand was the most celebrated fortune-teller of Paris, said to have read the cards for Josephine and Napoleon. Hugo casts them as Paris's Aesop and its witch Canidia.",
+    "quote": "Paris has an Aesop-Mayeux, and a Canidia, Mademoiselle Lenormand"
+  },
+  {
+    "term": "Table-turning",
+    "kind": "history",
+    "chapter": 156,
+    "text": "The spiritualist craze that reached Paris from America in 1853, when people sat round tables waiting for spirits to tilt them and rap out messages. Hugo himself held séances of this kind in exile on Jersey, so his comparison with the oracle of Dodona is not entirely mocking.",
+    "quote": "it makes tables turn as Dodona did tripods"
+  },
+  {
+    "term": "Chodruc Duclos",
+    "kind": "history",
+    "chapter": 156,
+    "text": "A Bordeaux gentleman who, after quarrelling with the Bourbons he had served, paraded the arcades of the Palais-Royal for decades in filthy rags, unshaven, refusing all help, until his death in 1842. He was one of the famous sights of Restoration Paris: a beggar with the bearing of a lord.",
+    "quote": "makes Chodruc Duclos"
+  },
+  {
+    "term": "Basile and Tartuffe",
+    "kind": "reference",
+    "chapter": 156,
+    "text": "Two stage hypocrites. Tartuffe is Molière's sanctimonious impostor (1664), who uses piety to swindle his host; Basile is the oily music-master in Beaumarchais's 'Barber of Seville', famous for his speech on how slander grows. Paris, says Hugo, enjoys them both too much to be shocked.",
+    "quote": "it does not hold its nose before Basile"
+  },
+  {
+    "term": "The bal Mabile and the lorette",
+    "kind": "custom",
+    "chapter": 156,
+    "text": "The bal Mabille was an open-air dance hall off the Champs-Élysées, fashionable from the 1840s. A lorette was a kept woman of the new quarter round the church of Notre-Dame-de-Lorette, a step up from the working grisette. The Barrière du Combat was where animal fights were staged for paying crowds.",
+    "quote": "the dealer in ladies’ wearing apparel there devours the lorette with her eyes"
+  },
+  {
+    "term": "The oath of tennis; the night of the 4th of August",
+    "kind": "history",
+    "chapter": 157,
+    "text": "Two founding moments of the Revolution of 1789. On 20 June the deputies of the Third Estate, locked out of their hall at Versailles, swore in a royal tennis court not to separate until France had a constitution. On the night of 4 August the Assembly abolished feudal privileges in a single sitting.",
+    "quote": "it forces all nations to take the oath of tennis"
+  },
+  {
+    "term": "Washington, Kosciusko, Bolivar, Bozzaris, Riego…",
+    "kind": "history",
+    "chapter": 157,
+    "text": "Hugo's roll of liberators lit by the French example: the American, Polish and South American independence leaders; Markos Botsaris and Kanaris of the Greek war against the Turks; Rafael del Riego, whose rising at the Isle de Léon near Cádiz in 1820 forced a constitution on Spain; the revolutionaries of 1848 at Pest and Venice; Garibaldi at Palermo in 1860; and John Brown at Harper's Ferry in 1859. Byron died at Missolonghi in 1824 while helping the Greeks.",
+    "quote": "Washington, Kosciusko, Bolivar, Bozzaris, Riego, Bem, Manin, Lopez, John Brown, Garibaldi"
+  },
+  {
+    "term": "Bouginier's nose and 'Credeville the thief'",
+    "kind": "lore",
+    "chapter": 157,
+    "text": "Two jokes of Paris art students: the painter Bouginier had an enormous nose, and his fellow students caricatured it on walls wherever they went, reportedly as far as the ruins of Greece; 'Crédeville voleur' was a similar running gag scrawled on monuments. Even when Paris is conquering the world with ideas, says Hugo, it is still a gamin with a stick of charcoal.",
+    "quote": "sketches in charcoal Bouginier’s nose on the wall of the temple of Theseus"
+  },
+  {
+    "term": "Arouet",
+    "kind": "reference",
+    "chapter": 157,
+    "text": "François-Marie Arouet was Voltaire's real name. The list of thinkers who 'prepared' the Revolution (Montesquieu, Diderot, Beaumarchais, Condorcet, Voltaire, Rousseau) ends with Danton, the orator who 'dared' it: Hugo's praise of audacity over theory.",
+    "quote": "that Arouet should prepare it"
+  },
+  {
+    "term": "Fiat lux",
+    "kind": "foreign",
+    "chapter": 157,
+    "text": "Latin, 'let there be light', God's first command in Genesis (1:3). Light is Hugo's word, all through these chapters, for education and progress.",
+    "quote": "The cry: Audacity! is a Fiat lux."
+  },
+  {
+    "term": "Fex urbis; Burke's 'mob'",
+    "kind": "reference",
+    "chapter": 158,
+    "text": "Cicero's contemptuous name for the Roman poor, 'the dregs of the city', and Edmund Burke, the British statesman whose 'Reflections on the Revolution in France' (1790) spoke of the 'swinish multitude'. Hugo throws back the insults and asks why the barefoot poor should be abandoned for not knowing how to read.",
+    "quote": "“Fex urbis,” exclaims Cicero; “mob,” adds Burke"
+  },
+  {
+    "term": "Montfaucon",
+    "kind": "place",
+    "chapter": 158,
+    "text": "A hill north-east of Paris where the great medieval gibbet stood, and which later held the city's horse-knackers' yards and refuse dumps, notorious for stench and rats. The 'knacker of Montfaucon' and the porter of La Râpée, the wine and timber wharf on the Seine, are the two ends of the working poor.",
+    "quote": "the knacker of Montfaucon"
+  },
+  {
+    "term": "The Marseillaise",
+    "kind": "history",
+    "chapter": 158,
+    "text": "The marching song written in 1792 and carried to Paris by volunteers from Marseilles, adopted as the national anthem of the Republic. Under the Restoration it was banned as seditious; to sing it was to declare for revolution.",
+    "quote": "sing the Marseillaises"
+  },
+  {
+    "term": "Boulevard du Temple",
+    "kind": "place",
+    "chapter": 159,
+    "text": "The boulevard on the north-eastern side of Paris lined with popular theatres, circuses and puppet shows, nicknamed the 'Boulevard of Crime' for the melodramas played there. The Cirque (Franconi's equestrian circus) and the Porte Saint-Martin theatre stood nearby, and the Château-d'Eau was a big fountain at the end of the boulevard. It is the natural home of a theatre-loving gamin.",
+    "quote": "people noticed on the Boulevard du Temple, and in the regions of the Château-d’Eau"
+  },
+  {
+    "term": "Eight or nine years after",
+    "kind": "lore",
+    "chapter": 159,
+    "text": "Hugo's way of moving the clock: the second part ended with events of 1823–24, so the story now stands in about 1831–32. He has just spent the whole book on the gamin as a type before introducing one particular boy.",
+    "quote": "Eight or nine years after the events narrated in the second part of this story"
+  },
+  {
+    "term": "'A Pole or an Italian, or even a Spaniard'",
+    "kind": "history",
+    "chapter": 159,
+    "text": "After the failed risings in Poland, Italy and Spain around 1830–31, political refugees poured into Paris, and charities and the government gave them relief. A destitute lodger who says he will answer to any of these nationalities is telling the portress he means to beg under whatever story pays best.",
+    "quote": "if anyone should chance to come and inquire for a Pole or an Italian, or even a Spaniard, perchance, it is I"
+  },
+  {
+    "term": "Sewer-man and ragpicker",
+    "kind": "custom",
+    "chapter": 159,
+    "text": "The two lowest trades of Paris. The égoutier cleaned out the city's drains; the chiffonnier went through the rubbish at night with a basket and a hook, collecting rags for the paper mills, bones and scraps to sell. Hugo puts them at the very bottom of the social ladder the Gorbeau tenants are sliding down.",
+    "quote": "the sewer-man who sweeps up the mud, and the ragpicker who collects scraps"
+  },
+  {
+    "term": "Streets named for provinces and capitals",
+    "kind": "place",
+    "chapter": 160,
+    "text": "The streets round the Temple were laid out under Louis XIV and named after French provinces (Normandie, Saintonge, Poitou, Bretagne). In Hugo's own day the new 'Tivoli' or Europe quarter near the Gare Saint-Lazare got streets named after European capitals (Rome, Londres, Vienne). His 'progression in which progress is visible' is a small joke about a nation widening its horizons.",
+    "quote": "the streets of the new Tivoli quarter have received the names of all the capitals of Europe"
+  },
+  {
+    "term": "Fifteen thousand francs a year",
+    "kind": "money",
+    "chapter": 160,
+    "text": "M. Gillenormand calls himself ruined on an income of 15,000 francs, when a labourer earned perhaps 500 a year and a clerk 1,500: he is comfortably rich by any ordinary measure. His dream of 'a hundred thousand livres income' is the fortune of a great lord. The old man still counts in livres, the money of the old regime, roughly equal to the franc.",
+    "quote": "All he had left, in fact, was an income of about fifteen thousand francs."
+  },
+  {
+    "term": "'The great century'",
+    "kind": "history",
+    "chapter": 160,
+    "text": "Le Grand Siècle: the reign of Louis XIV (1643–1715), the age of Versailles, when a gentleman might beat a servant or an impudent commoner with his cane. M. Gillenormand, born in the 1740s, keeps its manners into the 1830s.",
+    "quote": "he beat people as he had done in the great century"
+  },
+  {
+    "term": "'Carogne'",
+    "kind": "word",
+    "chapter": 160,
+    "text": "An old French insult, 'carrion', used to abuse women and servants: roughly 'you hussy' or 'you wretch'. His oath 'by the pantoufloche of the pantouflochade' is nonsense built on pantoufle, slipper: an old man's comic swearing.",
+    "quote": "“Ah! carogne!”"
+  },
+  {
+    "term": "The Marais",
+    "kind": "place",
+    "chapter": 161,
+    "text": "The old aristocratic quarter of the right bank around the Place Royale (now Place des Vosges) and the Temple, full of seventeenth-century mansions. By the 1820s the nobility had moved west to the Faubourg Saint-Germain and the Marais had become a quiet backwater of old bourgeois and retired families, a fitting home for a relic like M. Gillenormand.",
+    "quote": "He lived in the Marais, Rue des Filles-du-Calvaire, No. 6."
+  },
+  {
+    "term": "Gobelins, Beauvais and Coromandel",
+    "kind": "custom",
+    "chapter": 161,
+    "text": "The Gobelins in Paris and the Beauvais works were the royal tapestry manufactories, whose pastoral scenes covered the walls and chairs of rich eighteenth-century houses. Coromandel lacquer was carved, painted Chinese lacquer named after the Indian coast through which it was traded. M. Gillenormand's rooms are a museum of his youth.",
+    "quote": "furnished to the very ceilings with great Gobelins and Beauvais tapestries representing pastoral scenes"
+  },
+  {
+    "term": "M. de Vivonne",
+    "kind": "history",
+    "chapter": 161,
+    "text": "Louis-Victor de Rochechouart, Duc de Vivonne (1636–1688), General of the Galleys under Louis XIV and brother of the king's mistress Madame de Montespan. Hugo's detail that the straw hangings of the boudoir were woven by galley-slaves to order for a nobleman's mistress is pointed.",
+    "quote": "made on the galleys of Louis XIV and ordered of his convicts by M. de Vivonne for his mistress"
+  },
+  {
+    "term": "Jordaens",
+    "kind": "reference",
+    "chapter": 161,
+    "text": "Jacob Jordaens (1593–1678), the Flemish painter of Antwerp, Rubens's follower, known for big, boisterous, fleshy canvases of feasts and peasants. A Jordaens portrait marks M. Gillenormand as a real connoisseur.",
+    "quote": "painted by Jordaens"
+  },
+  {
+    "term": "Incroyables of the Directory",
+    "kind": "history",
+    "chapter": 161,
+    "text": "The dandies of 1795–99, after the Terror, who wore huge lapels, tight breeches, high cravats and swallowtail coats, and affected a lisp that dropped the letter r ('incoyable!'). M. Gillenormand stopped following fashion then, so in the 1830s he still dresses like a fop of thirty-five years before.",
+    "quote": "it was that of the Incroyables of the Directory"
+  },
+  {
+    "term": "Fob",
+    "kind": "word",
+    "chapter": 161,
+    "text": "A small pocket in the waistband of breeches, made for a watch. A man who 'always thrust his hands into his fobs' strikes the pose of a self-satisfied old beau.",
+    "quote": "He always thrust his hands into his fobs."
+  },
+  {
+    "term": "The Camargo, the Sallé, the Guimard",
+    "kind": "history",
+    "chapter": 162,
+    "text": "The great ballerinas of the eighteenth-century Paris Opéra. Marie Camargo and Marie Sallé were rivals of the 1730s, both praised in Voltaire's verses; Marie-Madeleine Guimard was the star of the 1770s and 80s, famous for her lovers and her mansion. M. Gillenormand's memories run from one to the other.",
+    "quote": "the Camargo and the Sallé"
+  },
+  {
+    "term": "Longchamps",
+    "kind": "custom",
+    "chapter": 162,
+    "text": "Every Holy Week in the eighteenth century, fashionable Paris drove out to the abbey of Longchamp in the Bois de Boulogne, nominally for the services, in fact to show off carriages and the season's clothes. M. Gillenormand's description of the Guimard there is a string of comic fashion names of the day.",
+    "quote": "the last time I saw her at Longchamps"
+  },
+  {
+    "term": "Madame de Boufflers",
+    "kind": "history",
+    "chapter": 162,
+    "text": "Probably the Comtesse de Boufflers (1725–1800), the brilliant hostess of the Temple circle and friend of Rousseau and Hume, whose verdict could make or mar a young man in society. 'A charming fool' is a very eighteenth-century compliment.",
+    "quote": "Madame de Boufflers, having seen him by chance when he was twenty"
+  },
+  {
+    "term": "Corbière, Humann, Casimir Périer",
+    "kind": "history",
+    "chapter": 162,
+    "text": "Politicians of the Restoration and the July Monarchy: Corbière was Charles X's ultra-royalist interior minister, Humann a finance minister from Alsace, and Casimir Périer the banker who led Louis-Philippe's government in 1831–32. To M. Gillenormand, all are vulgar upstarts, whatever their party.",
+    "quote": "Corbière! Humann! Casimir Périer!"
+  },
+  {
+    "term": "'The age of periphrase in verse'",
+    "kind": "reference",
+    "chapter": 162,
+    "text": "Eighteenth-century French poetry avoided plain words for genteel circumlocutions (a cow was 'the heifer of the plain', a fiddle 'the sonorous wood'). Hugo, who had led the Romantic revolt against that style, notes that the same age was frankly coarse in conversation.",
+    "quote": "the age of periphrase in verse was the age of crudities in prose"
+  },
+  {
+    "term": "Luc-Esprit",
+    "kind": "lore",
+    "chapter": 162,
+    "text": "M. Gillenormand's Christian names: Luc (Luke) and Esprit, which in French means both 'spirit' and 'wit'. His godfather chose them as a prophecy that he would be clever; Hugo calls them 'significant'.",
+    "quote": "these two significant names: Luc-Esprit"
+  },
+  {
+    "term": "The Duc de Nivernais and the blue ribbon",
+    "kind": "history",
+    "chapter": 163,
+    "text": "Louis-Jules Mancini-Mazarini, Duc de Nivernais (1716–1798), diplomat, minor poet and the model of a polished grand seigneur, who handed out school prizes in his duchy around Nevers. The blue ribbon was the sash of the Order of the Holy Spirit, the highest order of the French monarchy. M. Gillenormand has treasured his prize-giving for seventy years.",
+    "quote": "he had been crowned by the hand of the Duc de Nivernais"
+  },
+  {
+    "term": "The elixir of gold",
+    "kind": "history",
+    "chapter": 163,
+    "text": "A fashionable eighteenth-century nostrum, sold as 'General Lamotte's drops' and the 'yellow tincture' of the Russian chancellor Bestuzhev, and supposed to cure venereal disease ('the catastrophes of love'). At a louis the half-ounce it was a luxury remedy. Hugo deflates it: it was iron chloride.",
+    "quote": "the elixir of gold, from Bestucheff"
+  },
+  {
+    "term": "'Ninety-three twice'",
+    "kind": "history",
+    "chapter": 163,
+    "text": "A pun on 1793, the year of the Terror, when the Revolution guillotined the king and thousands of suspects. M. Gillenormand, who boasts of having slipped through it, means he hopes to reach the age of ninety-three without living through another such year.",
+    "quote": "“I hope that I shall not see ninety-three twice.”"
+  },
+  {
+    "term": "'National property'",
+    "kind": "history",
+    "chapter": 164,
+    "text": "During the Revolution the lands of the Church and of émigré nobles were confiscated as biens nationaux and sold off. M. Gillenormand has seen inherited estates vanish that way, which is one reason he prefers to sink his capital in an annuity that dies with him.",
+    "quote": "become “national property;”"
+  },
+  {
+    "term": "Three percents and the Great Book",
+    "kind": "money",
+    "chapter": 164,
+    "text": "The 'consolidated three percent' was French government stock paying three per cent a year, recorded in the Grand Livre de la Dette Publique (the Great Book of the Public Debt). Its value rose and fell with every change of regime, and in 1797 the Directory wrote off two-thirds of the debt at a stroke: hence the old man's distrust.",
+    "quote": "he had been present at the avatars of consolidated three percents"
+  },
+  {
+    "term": "The Rue Quincampois",
+    "kind": "history",
+    "chapter": 164,
+    "text": "The narrow Paris street where the Scottish financier John Law ran his Mississippi Company bank in 1719–20, scene of a wild speculative frenzy and then a crash that ruined thousands. 'That's the Rue Quincampoix!' means 'that's a swindle, paper wealth'.",
+    "quote": "“All that’s the Rue Quincampois!”"
+  },
+  {
+    "term": "Servants renamed",
+    "kind": "custom",
+    "chapter": 164,
+    "text": "Old-regime masters often called a servant not by his own name but by his province of origin (Picard, Poitevin, Basque) or gave every maid the same name, as English houses called footmen 'James'. M. Gillenormand keeps the habit: every man is named for his province and every woman is 'Nicolette', even if he must raise her wages to make it stick.",
+    "quote": "When a servant entered his establishment, M. Gillenormand re-baptized him."
+  },
+  {
+    "term": "Cordon bleu",
+    "kind": "word",
+    "chapter": 164,
+    "text": "'Blue ribbon': a first-class cook. The phrase borrowed the name of the royal Order of the Holy Spirit, whose blue sash was the highest honour of the old monarchy. Thirty francs a month was a good wage for a cook, and fifty a very generous one.",
+    "quote": "a cordon bleu, of the lofty race of porters"
+  },
+  {
+    "term": "Silvae sint consule dignae",
+    "kind": "foreign",
+    "chapter": 165,
+    "text": "Latin from Virgil's Fourth Eclogue: 'let the woods be worthy of a consul'. M. Gillenormand twists it into a complaint that if he must be robbed 'as though in a forest', the robbery should at least be worthy of a man of his standing.",
+    "quote": "Silvae sint consule dignae!"
+  },
+  {
+    "term": "The Duc d'Angoulême, bastard of Charles IX",
+    "kind": "history",
+    "chapter": 165,
+    "text": "Charles de Valois (1573–1650), the illegitimate son of King Charles IX, who in his old age married a girl of about twenty and had children by her. Not to be confused with the Restoration Duc d'Angoulême. M. Gillenormand reels off such precedents to show he is quite flattered that a baby is laid at his door at eighty-four.",
+    "quote": "M. le Duc d’Angoulême, the bastard of his Majesty Charles IX"
+  },
+  {
+    "term": "Eighty francs a month",
+    "kind": "money",
+    "chapter": 165,
+    "text": "What M. Gillenormand agrees to pay Magnon for the keep of the two boys she says are his: nearly a thousand francs a year, about two years of a labourer's wages. It is a generous sum for a man who calls himself ruined.",
+    "quote": "promising to pay eighty francs a month for their maintenance"
+  },
+  {
+    "term": "Demonetized sous",
+    "kind": "money",
+    "chapter": 165,
+    "text": "Copper coins withdrawn from circulation and no longer legal tender, worthless in a shop. The miserly priest-brother gave them as alms, keeping the form of charity while giving nothing, 'going to hell by way of paradise'.",
+    "quote": "he never gave them anything except bad or demonetized sous"
+  },
+  {
+    "term": "Faubourg Saint-Germain",
+    "kind": "place",
+    "chapter": 166,
+    "text": "The left-bank quarter of great noble mansions round the Rue de Grenelle and Saint-Sulpice, home of the old aristocracy after the Revolution and the heart of ultra-royalist society under the Restoration. The Rue Servandoni, where M. Gillenormand first lived, runs beside the church of Saint-Sulpice.",
+    "quote": "lived in the Faubourg Saint Germain, Rue Servandoni, near Saint-Sulpice"
+  },
+  {
+    "term": "'Dog's ears'",
+    "kind": "custom",
+    "chapter": 166,
+    "text": "Oreilles de chien: long locks of hair hanging over the ears on either side of the face, a style of the Directory dandies of the 1790s. M. Gillenormand keeps it, like his clothes, from the last fashion he followed.",
+    "quote": "always dressed in “dog’s ears.”"
+  },
+  {
+    "term": "Receiving only in the evening",
+    "kind": "custom",
+    "chapter": 166,
+    "text": "Eighteenth-century society dined early in the afternoon and paid and received calls in the evening by candlelight; the daytime was for business and for people who worked. M. Gillenormand's rule (dinner at five, door open after) is a deliberately antique habit.",
+    "quote": "never to receive anyone whatever except in the evening"
+  },
+  {
+    "term": "Madame la Préfète",
+    "kind": "title",
+    "chapter": 167,
+    "text": "The wife of a prefect, the government's chief official in a département, who presided over official receptions and balls in the provincial capital. In French a wife took her husband's title as a courtesy, so to marry a prefect was to become 'Madame la Préfète'.",
+    "quote": "to be “Madame la Préfète,”"
+  },
+  {
+    "term": "Lancers",
+    "kind": "title",
+    "chapter": 167,
+    "text": "Light cavalry armed with lances, a fashionable arm revived in the French army after Napoleon's Polish lancers. An officer of Lancers had a dashing uniform and a reputation to match.",
+    "quote": "an officer of the Lancers, her grand nephew, named Théodule"
+  },
+  {
+    "term": "Society of the Virgin; the sacred heart",
+    "kind": "custom",
+    "chapter": 167,
+    "text": "Under the Restoration, pious lay associations ('congregations') flourished under Jesuit guidance, and the devotions to the Sacred Heart of Jesus and the Precious Blood were their badges. Liberals mocked them as political as well as religious: piety went with ultra-royalism. Mademoiselle Gillenormand practises the full set.",
+    "quote": "She belonged to the society of the Virgin"
+  },
+  {
+    "term": "Rococo-Jesuit altar",
+    "kind": "reference",
+    "chapter": 167,
+    "text": "The ornate eighteenth-century style of church decoration favoured by the Jesuits: gilded wooden rays, marble clouds and cherubs. Hugo, a lover of Gothic, uses it as a sign of showy, shallow devotion.",
+    "quote": "before a rococo-Jesuit altar"
+  },
+  {
+    "term": "Agnus Dei and Ave Maria",
+    "kind": "foreign",
+    "chapter": 167,
+    "text": "Latin prayers: 'Lamb of God', said at mass before communion, and 'Hail Mary'. Mademoiselle Vaubois knows these and how to make jam, and nothing else.",
+    "quote": "Beyond the Agnus Dei and Ave Maria"
+  },
+  {
+    "term": "M. de Bonald",
+    "kind": "history",
+    "chapter": 168,
+    "text": "Louis de Bonald (1754–1840), the leading philosopher of the counter-revolution, who argued that society rests on God, the king and the father, and who led the ultra-royalists in the Chamber after 1815. To hold one's own against Bonald was a feat in a royalist salon.",
+    "quote": "against M. de Bonald"
+  },
+  {
+    "term": "Ultra-royalist salons",
+    "kind": "history",
+    "chapter": 168,
+    "text": "Under the Restoration, the 'ultras' wanted the old monarchy back whole and thought even Louis XVIII, with his constitutional Charter and moderate ministers, a crypto-Jacobin. They pinned their hopes on the king's brother, the Comte d'Artois. Madame de T.'s salon is a small, poor, fierce outpost of that party.",
+    "quote": "the Jacobinism of Louis XVIII"
+  },
+  {
+    "term": "Napoleon called 'Nicolas'; the federates",
+    "kind": "history",
+    "chapter": 168,
+    "text": "In royalist street songs of 1814–15 Napoleon was mocked as 'Nicolas', a name for a simpleton. The fédérés were the volunteer workers' battalions raised in Paris during the Hundred Days to defend the Emperor; the duchesses' song tells them to tuck their shirt-tails in, a jeer at the white flag of surrender.",
+    "quote": "Napoleon was called “Nicolas,”"
+  },
+  {
+    "term": "The Dessolles ministry pun",
+    "kind": "history",
+    "chapter": 168,
+    "text": "The moderate cabinet of 1818–19 under General Dessolles included Decazes, Louis XVIII's liberal-leaning favourite, and De Serre. The royalist couplet says that to steady the throne one must change 'sol, serre and case', the soil, greenhouse and hut, which sound like the ministers' names. This is the salon's idea of a deadly epigram.",
+    "quote": "Il faut changer de sol, et de serre et de case."
+  },
+  {
+    "term": "Ça ira",
+    "kind": "history",
+    "chapter": 168,
+    "text": "'It'll be fine': the revolutionary song of 1790 whose refrain called for aristocrats to be strung up 'à la lanterne', from the street lamp-posts. The royalists sing it with Bonapartists in place of aristocrats. Hugo's comment: songs, like the guillotine, cut any head.",
+    "quote": "Les Bonapartistes à la lanterne!"
+  },
+  {
+    "term": "The Fualdès affair",
+    "kind": "history",
+    "chapter": 168,
+    "text": "The sensational murder of Antoine Fualdès, a former magistrate, in Rodez in 1817 (Hugo writes 1816); Bastide and Jausion were tried and executed for it. Because Fualdès had served the Empire, the royalist salons sided with the accused.",
+    "quote": "In the Fualdès affair"
+  },
+  {
+    "term": "Lamothe-Valois and the affair of the necklace",
+    "kind": "history",
+    "chapter": 168,
+    "text": "In 1785 the adventuress Jeanne de La Motte-Valois, who claimed descent from the Valois kings, tricked Cardinal de Rohan into buying a fabulous diamond necklace supposedly for Marie-Antoinette, then had it broken up and sold. The scandal stained the queen's name on the eve of the Revolution. Her husband, the Comte de La Motte, escaped with the diamonds; in Madame de T.'s salon he is received with respect.",
+    "quote": "“Do you know? That is the Lamothe of the affair of the necklace.”"
+  },
+  {
+    "term": "Marigny, Du Barry, Guémenée",
+    "kind": "history",
+    "chapter": 168,
+    "text": "Examples of the old nobility's indifference to scandal: Marigny was the brother of Madame de Pompadour, Louis XV's mistress; Jean du Barry was the pimp who launched Jeanne Bécu ('the Vaubernier') as the future Madame du Barry; the Prince de Guémenée went spectacularly bankrupt in 1782. All were welcome in the best houses. Mercury was the god of thieves.",
+    "quote": "Marigny, the brother of the Pompadour, had his entry with M. le Prince de Soubise"
+  },
+  {
+    "term": "The Count de Ruppin",
+    "kind": "history",
+    "chapter": 168,
+    "text": "The incognito under which King Frederick William III of Prussia visited Paris after the allies restored Louis XVIII. Louis treated him like a provincial marquis, as if the house of Bourbon still outranked every other crown, which M. Gillenormand applauds.",
+    "quote": "under the name of the Count de Ruppin"
+  },
+  {
+    "term": "'Sus is superfluous'",
+    "kind": "lore",
+    "chapter": 168,
+    "text": "A pun: a newspaper editor 'suspendu' (suspended) should simply be 'pendu', hanged. The Courrier Français was a leading liberal paper of the Restoration, frequently prosecuted.",
+    "quote": "“Sus is superfluous,” observed M. Gillenormand."
+  },
+  {
+    "term": "Te Deum",
+    "kind": "custom",
+    "chapter": 168,
+    "text": "The Latin hymn of thanksgiving ('We praise thee, O God') sung at state services for victories and royal anniversaries. Every year the Restoration celebrated the return of the Bourbons with one, and Talleyrand, who had served every regime, was naturally there.",
+    "quote": "At the Te Deum on the anniversary of the return of the Bourbons"
+  },
+  {
+    "term": "'Brigand of the Loire'",
+    "kind": "history",
+    "chapter": 168,
+    "text": "After Waterloo the remains of Napoleon's army withdrew behind the Loire and were disbanded there in the autumn of 1815. Royalists called its officers 'the brigands of the Loire', and many were put on half-pay and watched by the police. In the Gillenormand household it is the name for the boy's father.",
+    "quote": "he had for a father “a brigand of the Loire.”"
+  },
+  {
+    "term": "Vernon",
+    "kind": "place",
+    "chapter": 169,
+    "text": "A small Norman town on the Seine about seventy kilometres down-river from Paris, on the road to Rouen, with an old stone bridge and walled gardens running down to the water. Far enough from the capital for an officer under surveillance, close enough to slip into Paris.",
+    "quote": "the little town of Vernon"
+  },
+  {
+    "term": "Half-pay and 'residence'",
+    "kind": "history",
+    "chapter": 169,
+    "text": "The Restoration put thousands of Napoleon's officers on demi-solde, half pay without duties, and sent the suspect ones to live in an assigned town under police watch. The 'demi-soldes', bitter and poor, were a byword for Bonapartist discontent.",
+    "quote": "The Restoration had placed him on half-pay, then had sent him into residence"
+  },
+  {
+    "term": "Ranks granted in the Hundred Days",
+    "kind": "history",
+    "chapter": 169,
+    "text": "Louis XVIII treated everything Napoleon did between his return from Elba and Waterloo as void, so promotions and titles given in those months were not recognised. A colonel and baron made on the field of Waterloo became officially a chef d'escadron again, and his Legion of Honour officer's rosette 'illegal'.",
+    "quote": "did not recognize his quality as an officer of the Legion of Honor, nor his grade of colonel, nor his title of baron"
+  },
+  {
+    "term": "The colonel's campaigns",
+    "kind": "history",
+    "chapter": 169,
+    "text": "Hugo's list runs through the whole revolutionary and Napoleonic saga: the Rhine campaigns of 1792–93, Italy and Lodi (1796), Novi (1799), Ulm and Austerlitz (1805), Eylau and Friedland (1807), Moscow and the Berezina (1812), Leipzig (1813), the defence of France (1814), Elba and Waterloo. A soldier who saw all of these had lived the Empire from end to end.",
+    "quote": "Pontmercy fought at Spire, at Worms, at Neustadt"
+  },
+  {
+    "term": "Captain Louis Hugo at Eylau",
+    "kind": "history",
+    "chapter": 169,
+    "text": "Victor Hugo's uncle, who held the cemetery at Eylau with a single company through the snowstorm battle of February 1807. Hugo's father was also a Napoleonic general, and this personal aside is a sign of how close the Empire's legend was to his own family.",
+    "quote": "the heroic Captain Louis Hugo, the uncle of the author of this book"
+  },
+  {
+    "term": "Cuirassiers",
+    "kind": "title",
+    "chapter": 169,
+    "text": "Heavy cavalry wearing steel breastplates (cuirasses) and helmets, used for massed charges. At Waterloo they made the great charges against the British squares. A 'chief of squadron' commanded a squadron of a cavalry regiment.",
+    "quote": "he was chief of a squadron of cuirassiers"
+  },
+  {
+    "term": "Sir Hudson Lowe",
+    "kind": "history",
+    "chapter": 169,
+    "text": "The British governor of Saint Helena, Napoleon's jailer from 1816 to his death in 1821. He addressed him only as 'General Bonaparte', refusing the imperial title, and Napoleon sent such letters back unopened.",
+    "quote": "the missives of Sir Hudson Lowe addressed to “General Bonaparte.”"
+  },
+  {
+    "term": "Carthaginian prisoners and Flaminius",
+    "kind": "reference",
+    "chapter": 169,
+    "text": "An image from Roman history: Carthaginian captives in Rome who refused to salute a Roman consul, keeping the pride of Hannibal, their general. Flaminius was in fact the consul Hannibal destroyed at Lake Trasimene.",
+    "quote": "there were at Rome Carthaginian prisoners who refused to salute Flaminius"
+  },
+  {
+    "term": "Soulange Bodin",
+    "kind": "history",
+    "chapter": 169,
+    "text": "Étienne Soulange-Bodin (1774–1846), a former soldier who became one of France's great horticulturists and founded the Paris horticultural society. Hugo says the colonel anticipated his beds of heath-mould for rare American and Chinese shrubs.",
+    "quote": "he had forestalled Soulange Bodin"
+  },
+  {
+    "term": "Warden (marguillier)",
+    "kind": "title",
+    "chapter": 169,
+    "text": "A churchwarden: a layman of the parish who sat on the council (the fabrique) managing a church's property and accounts, with a reserved pew. Saint-Sulpice was the great church of the Faubourg Saint-Germain.",
+    "quote": "That worthy priest was the brother of a warden of Saint-Sulpice"
+  },
+  {
+    "term": "St. George's day",
+    "kind": "custom",
+    "chapter": 169,
+    "text": "23 April, the feast of Saint George. In Catholic France a person celebrated the feast of his patron saint, his 'name-day', more than his birthday, so the boy's letters went on New Year's Day and on the name-day of his father, Georges.",
+    "quote": "on the first of January and on St. George’s day"
   }
 ]
