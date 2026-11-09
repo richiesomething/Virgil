@@ -1,0 +1,345 @@
+{
+  "id": "les-miserables",
+  "title": "Les Misérables",
+  "author": "Victor Hugo",
+  "year": 1862,
+  "chapterCount": 365,
+  "blurb": "A convict walks out of the galleys after nineteen years and is turned away at every door, until a bishop treats him as a guest. What he does with that mercy, and who refuses to let him forget what he was, fills five volumes of Paris, poverty, barricades and grace.",
+  "edition": "Standard Ebooks edition of Isabel F. Hapgood’s 1887 translation (five volumes, 48 books, 365 chapters)",
+  "volumes": [
+    {
+      "number": 1,
+      "title": "Book I: A Just Man",
+      "firstChapter": 1,
+      "part": 1
+    },
+    {
+      "number": 2,
+      "title": "Book II: The Fall",
+      "firstChapter": 15,
+      "part": 1
+    },
+    {
+      "number": 3,
+      "title": "Book III: In the Year 1817",
+      "firstChapter": 28,
+      "part": 1
+    },
+    {
+      "number": 4,
+      "title": "Book IV: To Confide Is Sometimes to Deliver Into a Person’s Power",
+      "firstChapter": 37,
+      "part": 1
+    },
+    {
+      "number": 5,
+      "title": "Book V: The Descent",
+      "firstChapter": 40,
+      "part": 1
+    },
+    {
+      "number": 6,
+      "title": "Book VI: Javert",
+      "firstChapter": 53,
+      "part": 1
+    },
+    {
+      "number": 7,
+      "title": "Book VII: The Champmathieu Affair",
+      "firstChapter": 55,
+      "part": 1
+    },
+    {
+      "number": 8,
+      "title": "Book VIII: A Counterblow",
+      "firstChapter": 66,
+      "part": 1
+    },
+    {
+      "number": 9,
+      "title": "Book I: Waterloo",
+      "firstChapter": 71,
+      "part": 2
+    },
+    {
+      "number": 10,
+      "title": "Book II: The Ship Orion",
+      "firstChapter": 90,
+      "part": 2
+    },
+    {
+      "number": 11,
+      "title": "Book III: Accomplishment of the Promise Made to the Dead Woman",
+      "firstChapter": 93,
+      "part": 2
+    },
+    {
+      "number": 12,
+      "title": "Book IV: The Gorbeau Hovel",
+      "firstChapter": 104,
+      "part": 2
+    },
+    {
+      "number": 13,
+      "title": "Book V: For a Black Hunt, a Mute Pack",
+      "firstChapter": 109,
+      "part": 2
+    },
+    {
+      "number": 14,
+      "title": "Book VI: Le Petit-Picpus",
+      "firstChapter": 119,
+      "part": 2
+    },
+    {
+      "number": 15,
+      "title": "Book VII: Parenthesis",
+      "firstChapter": 130,
+      "part": 2
+    },
+    {
+      "number": 16,
+      "title": "Book VIII: Cemeteries Take That Which Is Committed Them",
+      "firstChapter": 138,
+      "part": 2
+    },
+    {
+      "number": 17,
+      "title": "Book I: Paris Studied in Its Atom",
+      "firstChapter": 147,
+      "part": 3
+    },
+    {
+      "number": 18,
+      "title": "Book II: The Great Bourgeois",
+      "firstChapter": 160,
+      "part": 3
+    },
+    {
+      "number": 19,
+      "title": "Book III: The Grandfather and the Grandson",
+      "firstChapter": 168,
+      "part": 3
+    },
+    {
+      "number": 20,
+      "title": "Book IV: The Friends of the A.B.C.",
+      "firstChapter": 176,
+      "part": 3
+    },
+    {
+      "number": 21,
+      "title": "Book V: The Excellence of Misfortune",
+      "firstChapter": 182,
+      "part": 3
+    },
+    {
+      "number": 22,
+      "title": "Book VI: The Conjunction of Two Stars",
+      "firstChapter": 188,
+      "part": 3
+    },
+    {
+      "number": 23,
+      "title": "Book VII: Patron Minette",
+      "firstChapter": 197,
+      "part": 3
+    },
+    {
+      "number": 24,
+      "title": "Book VIII: The Wicked Poor Man",
+      "firstChapter": 201,
+      "part": 3
+    },
+    {
+      "number": 25,
+      "title": "Book I: A Few Pages of History",
+      "firstChapter": 223,
+      "part": 4
+    },
+    {
+      "number": 26,
+      "title": "Book II: Éponine",
+      "firstChapter": 229,
+      "part": 4
+    },
+    {
+      "number": 27,
+      "title": "Book III: The House in the Rue Plumet",
+      "firstChapter": 233,
+      "part": 4
+    },
+    {
+      "number": 28,
+      "title": "Book IV: Succor from Below May Turn Out to Be Succor from on High",
+      "firstChapter": 241,
+      "part": 4
+    },
+    {
+      "number": 29,
+      "title": "Book V: The End of Which Does Not Resemble the Beginning",
+      "firstChapter": 243,
+      "part": 4
+    },
+    {
+      "number": 30,
+      "title": "Book VI: Little Gavroche",
+      "firstChapter": 249,
+      "part": 4
+    },
+    {
+      "number": 31,
+      "title": "Book VII: Slang",
+      "firstChapter": 252,
+      "part": 4
+    },
+    {
+      "number": 32,
+      "title": "Book VIII: Enchantments and Desolations",
+      "firstChapter": 256,
+      "part": 4
+    },
+    {
+      "number": 33,
+      "title": "Book IX: Whither Are They Going?",
+      "firstChapter": 263,
+      "part": 4
+    },
+    {
+      "number": 34,
+      "title": "Book X: The 5th of June, 1832",
+      "firstChapter": 266,
+      "part": 4
+    },
+    {
+      "number": 35,
+      "title": "Book XI: The Atom Fraternizes with the Hurricane",
+      "firstChapter": 271,
+      "part": 4
+    },
+    {
+      "number": 36,
+      "title": "Book XII: Corinthe",
+      "firstChapter": 277,
+      "part": 4
+    },
+    {
+      "number": 37,
+      "title": "Book XIII: Marius Enters the Shadow",
+      "firstChapter": 285,
+      "part": 4
+    },
+    {
+      "number": 38,
+      "title": "Book XIV: The Grandeurs of Despair",
+      "firstChapter": 288,
+      "part": 4
+    },
+    {
+      "number": 39,
+      "title": "Book XV: The Rue de l’Homme Armé",
+      "firstChapter": 295,
+      "part": 4
+    },
+    {
+      "number": 40,
+      "title": "Book I: The War Between Four Walls",
+      "firstChapter": 299,
+      "part": 5
+    },
+    {
+      "number": 41,
+      "title": "Book II: The Intestine of the Leviathan",
+      "firstChapter": 323,
+      "part": 5
+    },
+    {
+      "number": 42,
+      "title": "Book III: Mud but the Soul",
+      "firstChapter": 329,
+      "part": 5
+    },
+    {
+      "number": 43,
+      "title": "Book IV: Javert Derailed",
+      "firstChapter": 341,
+      "part": 5
+    },
+    {
+      "number": 44,
+      "title": "Book V: Grandson and Grandfather",
+      "firstChapter": 342,
+      "part": 5
+    },
+    {
+      "number": 45,
+      "title": "Book VI: The Sleepless Night",
+      "firstChapter": 350,
+      "part": 5
+    },
+    {
+      "number": 46,
+      "title": "Book VII: The Last Draught from the Cup",
+      "firstChapter": 354,
+      "part": 5
+    },
+    {
+      "number": 47,
+      "title": "Book VIII: Fading Away of the Twilight",
+      "firstChapter": 356,
+      "part": 5
+    },
+    {
+      "number": 48,
+      "title": "Book IX: Supreme Shadow, Supreme Dawn",
+      "firstChapter": 360,
+      "part": 5
+    }
+  ],
+  "color": "#2b3a55",
+  "order": 1,
+  "source": "text",
+  "wordCountsApproximate": true,
+  "sourceUrl": "https://standardebooks.org/ebooks/victor-hugo/les-miserables/isabel-f-hapgood",
+  "parts": [
+    {
+      "number": 1,
+      "title": "Volume I: Fantine",
+      "firstChapter": 1
+    },
+    {
+      "number": 2,
+      "title": "Volume II: Cosette",
+      "firstChapter": 71
+    },
+    {
+      "number": 3,
+      "title": "Volume III: Marius",
+      "firstChapter": 147
+    },
+    {
+      "number": 4,
+      "title": "Volume IV: The Idyl in the Rue Plumet and the Epic in the Rue Saint-Denis",
+      "firstChapter": 223
+    },
+    {
+      "number": 5,
+      "title": "Volume V: Jean Valjean",
+      "firstChapter": 299
+    }
+  ],
+  "shortTitle": "Les Misérables",
+  "text": {
+    "status": "shipped",
+    "edition": "Standard Ebooks: Isabel F. Hapgood’s 1887 translation",
+    "license": "Public domain",
+    "sourceUrl": "https://standardebooks.org/ebooks/victor-hugo/les-miserables/isabel-f-hapgood"
+  },
+  "audio": {
+    "status": "shipped",
+    "source": "archive.org",
+    "reader": "LibriVox volunteers",
+    "license": "Public domain (LibriVox)",
+    "url": "https://librivox.org/group/296"
+  }
+}
