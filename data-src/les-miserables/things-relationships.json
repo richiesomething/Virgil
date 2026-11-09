@@ -88,17 +88,6 @@
     ]
   },
   {
-    "a": "monsieur-madeleine",
-    "b": "the-silver-candlesticks",
-    "states": [
-      {
-        "from": 42,
-        "type": "tie",
-        "label": "The one fine thing on the mayor’s mantel"
-      }
-    ]
-  },
-  {
     "a": "cosette",
     "b": "the-silver-candlesticks",
     "states": [
@@ -1709,9 +1698,9 @@
         "label": "Hears footsteps in the garden at night"
       },
       {
-        "from": 245,
+        "from": 247,
         "type": "tie",
-        "label": "Finds a love notebook on her bench"
+        "label": "Reads the love notebook left under a stone on her bench"
       },
       {
         "from": 248,

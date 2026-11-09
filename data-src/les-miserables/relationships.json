@@ -124,17 +124,6 @@
     ]
   },
   {
-    "a": "monsieur-madeleine",
-    "b": "petit-gervais",
-    "states": [
-      {
-        "from": 43,
-        "type": "enemy",
-        "label": "The mayor stops every Savoyard boy to ask his name"
-      }
-    ]
-  },
-  {
     "a": "fantine",
     "b": "tholomyes",
     "states": [
@@ -1157,9 +1146,9 @@
         "label": "From the first glance she loved him too"
       },
       {
-        "from": 245,
+        "from": 247,
         "type": "love",
-        "label": "He leaves his notebook of love on her bench"
+        "label": "She reads the notebook he left under a stone, and knows it is his"
       },
       {
         "from": 248,
@@ -1764,7 +1753,7 @@
       {
         "from": 230,
         "type": "family",
-        "label": "Her father’s go-between, she sends back “biscuit”",
+        "label": "Out of prison, she scouts the Rue Plumet house for the gang and sends back “biscuit”",
         "kin": "parent"
       },
       {
@@ -2003,7 +1992,7 @@
       {
         "from": 216,
         "type": "love",
-        "label": "She finds him hidden under his bed and says nothing"
+        "label": "Sent to search his room, she preens at his mirror and never sees him under the bed"
       }
     ]
   },
@@ -2458,7 +2447,7 @@
     "b": "eponine",
     "states": [
       {
-        "from": 231,
+        "from": 232,
         "type": "friend",
         "label": "A ragged girl waters his garden and asks only for Marius"
       }
