@@ -1,0 +1,217 @@
+[
+  {
+    "id": "mother-innocente",
+    "name": "Mother Innocente",
+    "firstChapter": 125,
+    "importance": "supporting",
+    "group": "The Petit-Picpus convent",
+    "aliases": [
+      { "name": "Mademoiselle de Blemeur", "from": 125, "note": "her name in the world" },
+      { "name": "the prioress", "from": 125 },
+      { "name": "the reverend Mother", "from": 139 }
+    ],
+    "tagline": [
+      { "from": 125, "text": "The learned, merry prioress of the Petit-Picpus, the only cheerful woman in the convent." },
+      { "from": 140, "text": "The prioress who asks the gardener to break the law and bury a saint under the altar." },
+      { "from": 145, "text": "The prioress who admitted Fauchelevent's 'brother' as gardener and his little girl as a charity pupil." }
+    ],
+    "description": [
+      { "from": 125, "text": "Prioress of the Petit-Picpus from 1819 to 1825, re-elected, a short, thick woman of about sixty who sings 'like a cracked pot'. She comes of the family of a nun who wrote lives of the Benedictine saints, and is crammed with Latin, Greek, Hebrew and history, more Benedictine monk than Benedictine nun. Because she is the only merry one in the house, she is adored." },
+      { "from": 139, "text": "Fauchelevent finds her, for once, grave and agitated. He seizes the moment to ask leave for his 'brother', an excellent gardener, to come and help him, with a little granddaughter to be reared in the house. She does not answer. She asks only whether he can find a stout iron bar by evening, and goes off to the chapter." },
+      { "from": 140, "text": "Her talk runs from Dom Mabillon's count of Saint Bernard's letters to the miracles a holy tomb may work, with Fauchelevent agreeing to everything. Mother Crucifixion has died asking to lie in the vault under the chapel altar in the coffin she slept in for twenty years. The law forbids it, the chapter has agreed to it, and the gardener is to raise the slab that night and keep his mouth shut. Fauchelevent promises to fill the empty official coffin with earth. She is grateful, and tells him to bring his brother and the child the day after the burial." },
+      { "from": 145, "text": "She questions the new gardener herself, and Fauchelevent answers for him: Ultime Fauchelevent, from Picquigny, fifty years old, the child's grandfather. She judges that the little girl 'will grow up ugly', which reassures her about a future nun, and admits her as a charity pupil. She orders a second bell for the second gardener." },
+      { "from": 233, "text": "Years later Valjean tells her that his brother's death has left him a small inheritance, so he can pay for Cosette's schooling and take her away. She lets them go." }
+    ],
+    "moments": [
+      { "chapter": 139, "text": "Heard Fauchelevent ask a place for his 'brother' and asked him for an iron bar." },
+      { "chapter": 140, "text": "Ordered Mother Crucifixion buried secretly under the altar." },
+      { "chapter": 145, "text": "Admitted Ultime Fauchelevent as gardener and Cosette as a charity pupil." }
+    ]
+  },
+  {
+    "id": "mother-crucifixion",
+    "name": "Mother Crucifixion",
+    "firstChapter": 138,
+    "importance": "minor",
+    "group": "The Petit-Picpus convent",
+    "tagline": [
+      { "from": 138, "text": "The nun who died at the Petit-Picpus on the night Valjean dropped into its garden." },
+      { "from": 140, "text": "A holy nun who slept twenty years in her coffin and asked to be buried under the altar." },
+      { "from": 145, "text": "Buried in secret under the convent altar, while her official coffin carried someone else." }
+    ],
+    "description": [
+      { "from": 138, "text": "A nun of the Petit-Picpus who has just died. Her death is the convent's great event of the night, and Fauchelevent tells Valjean that her burial is why the house is in a stir." },
+      { "from": 140, "text": "The prioress calls her a saint. A Jansenist lady turned orthodox merely from seeing her at prayer, and the community expects her to work miracles after her death. For twenty years she slept in her own coffin. She died fully conscious, speaking to the nuns and then to the angels, and her last command was to be buried in that coffin in the vault under the chapel altar, not in profane earth. The law forbids burial in convents, so the chapter has decided to do it in secret." },
+      { "from": 141, "text": "Her death leaves two coffins: her own, which will go under the altar, and the empty one the authorities will send for her, which must go to the Vaugirard cemetery with something in it. Valjean proposes to be that something." },
+      { "from": 145, "text": "She lies under the altar as she wished. Hugo calls the burial a venial offence, one of the faults that resemble a duty: the convent dodged Caesar and satisfied God, and nobody knew." }
+    ],
+    "moments": [
+      { "chapter": 140, "text": "Her last wish, burial under the altar, is granted by the chapter." },
+      { "chapter": 143, "text": "Her empty official coffin carries Jean Valjean to the cemetery." },
+      { "chapter": 145, "text": "Lies secretly in the chapel vault." }
+    ]
+  },
+  {
+    "id": "mestienne",
+    "name": "Father Mestienne",
+    "firstChapter": 138,
+    "importance": "minor",
+    "group": "The Petit-Picpus convent",
+    "tagline": [
+      { "from": 138, "text": "The drunken old gravedigger of Vaugirard, Fauchelevent's drinking friend." },
+      { "from": 142, "text": "The gravedigger Fauchelevent was counting on, who turns out to be dead." }
+    ],
+    "description": [
+      { "from": 138, "text": "Gravedigger at the old Vaugirard cemetery, where the nuns of the Petit-Picpus have the privilege of being buried at nightfall. Fauchelevent calls him a friend." },
+      { "from": 141, "text": "The whole plan rests on him. He is a drunkard of the old school, says Fauchelevent: 'The gravedigger puts the corpses in the grave, and I put the gravedigger in my pocket.' Fauchelevent will take him off for a drink while the coffin waits, and come back to dig Valjean out." },
+      { "from": 142, "text": "At the cemetery gate a stranger tells Fauchelevent that Father Mestienne is dead. Fauchelevent had expected anything but that a gravedigger could die. It also turns out that when they drank together, Mestienne was the one who paid." }
+    ],
+    "moments": [
+      { "chapter": 141, "text": "Named as the drunk Fauchelevent will lure away from the grave." },
+      { "chapter": 142, "text": "Reported dead, replaced by Gribier." }
+    ]
+  },
+  {
+    "id": "gribier",
+    "name": "Gribier",
+    "firstChapter": 142,
+    "importance": "minor",
+    "group": "The Petit-Picpus convent",
+    "tagline": [
+      { "from": 142, "text": "The new gravedigger at Vaugirard: sober, educated, and in the way." },
+      { "from": 144, "text": "The gravedigger whose stolen card got Valjean out of his grave." }
+    ],
+    "description": [
+      { "from": 142, "text": "Father Mestienne's successor: 'After Napoleon, Louis XVIII. After Mestienne, Gribier.' Tall, thin, livid and funereal, with the air of a failed doctor. He has been a student and passed his fourth examination; his father meant him for literature, and he still earns money as a public writer. He has seven small children to feed, so he cannot drink. Fauchelevent's offer of a glass gets nowhere." },
+      { "from": 144, "text": "He starts shovelling earth onto the coffin. Fauchelevent sees the corner of the gravedigger's card sticking out of his pocket, slips it out, and points out that the gates will close: without his card Gribier will have to pay a fifteen-franc fine. Gribier runs home to look for it and leaves the old gardener alone with the grave. Fauchelevent later brings his tools back to his garret." },
+      { "from": 145, "text": "Gribier thinks only that Fauchelevent spared him the fine. He never knows what was in the coffin." }
+    ],
+    "moments": [
+      { "chapter": 142, "text": "Introduced himself at the gate: Mestienne is dead." },
+      { "chapter": 144, "text": "Lost his card to Fauchelevent and ran home to fetch it." }
+    ]
+  },
+  {
+    "id": "the-old-woman-of-the-gorbeau-house",
+    "name": "The old woman of the Gorbeau house",
+    "firstChapter": 106,
+    "importance": "minor",
+    "group": "The Gorbeau house",
+    "aliases": [
+      { "name": "the principal lodger", "from": 106, "note": "her title in the house; in fact she is the portress" }
+    ],
+    "tagline": [
+      { "from": 106, "text": "The old 'principal lodger' who keeps house for Valjean and Cosette in the Gorbeau hovel." },
+      { "from": 107, "text": "A deaf, envious, prying old woman who has seen Valjean's thousand-franc note." },
+      { "from": 118, "text": "The portress who told Javert everything and warned him when Valjean made ready to leave." },
+      { "from": 159, "text": "Dead; another old woman just like her has taken her place." }
+    ],
+    "description": [
+      { "from": 106, "text": "The only other person living in the Gorbeau house. She is called the 'principal lodger' but really acts as portress. She let Valjean the room on Christmas eve, believing he was a gentleman ruined by Spanish bonds, coming to live there with his little daughter. He paid six months in advance. She furnished the room and lit the stove for their arrival, and she does their cooking and marketing." },
+      { "from": 107, "text": "A cross-looking creature, with the inquisitiveness of the envious, a little deaf and so talkative. Through a crack in the door she watches Valjean unpick the lining of his coat and take out a thousand-franc note. When he asks her to change it, saying it is his quarterly income, she wonders where he could have got it, and tells the neighbourhood. Later she finds more papers sewn into the coat, and in its pockets a wig, a needle-case and other strange things." },
+      { "from": 108, "text": "Valjean hears a heavy step on the stairs at night and blows out his candle. Next morning she looks at him with her 'little polecat eyes' and says it was a new lodger." },
+      { "from": 118, "text": "Javert easily got her talking. She confirmed the story of the coat lined with money, since she had seen and handled the note, and Javert took a room in the house. When she heard a coin fall in Valjean's room, she guessed he was leaving and hurried to tell Javert." }
+    ],
+    "moments": [
+      { "chapter": 107, "text": "Spied Valjean taking a thousand-franc note from his coat lining." },
+      { "chapter": 108, "text": "Told Valjean the step on the stairs was a new lodger." },
+      { "chapter": 118, "text": "Warned Javert that Valjean meant to leave." }
+    ]
+  },
+  {
+    "id": "maam-bougon",
+    "name": "Ma'am Bougon",
+    "firstChapter": 192,
+    "importance": "minor",
+    "group": "The Gorbeau house",
+    "aliases": [
+      { "name": "Madame Burgon", "from": 192, "note": "her real name; Courfeyrac, who respects nothing, renamed her" }
+    ],
+    "tagline": [
+      { "from": 192, "text": "The old portress of the Gorbeau house, astounded to see Marius go out in his new coat three days running." },
+      { "from": 212, "text": "The portress whose evening out washing dishes leaves the Gorbeau house empty." },
+      { "from": 222, "text": "The portress who tells the singing gamin where his whole family has been taken." }
+    ],
+    "description": [
+      { "from": 192, "text": "The 'principal tenant', portress and housekeeper of the Gorbeau house, the old woman who replaced Valjean's prying landlady. Her life has nothing remarkable in it but three parakeets, one after another. For three francs a month she sweeps Marius's room and brings his hot water, egg and roll. When he goes out in his new coat on three days in a row, she cannot get over it." },
+      { "from": 202, "text": "She is sweeping the doorstep and talking to herself when Marius goes out. Once a pair of old boots went missing from his room and she triumphed, because he never locks his door." },
+      { "from": 212, "text": "Every evening she goes out to wash dishes in town, and she locks the house when she leaves. Jondrette is counting on that: at six o'clock the neighbour will be at dinner and Mother Bougon out, and there will be no one to hear." },
+      { "from": 222, "text": "The night after the ambush a ragged gamin kicks at the locked door, asking to see 'his ancestors'. She tells him his father is at La Force, his mother at Saint-Lazare and his sisters at the Madelonettes. He says 'Ah!', pirouettes, and goes off singing." }
+    ],
+    "moments": [
+      { "chapter": 192, "text": "Thunderstruck by Marius's new coat, three days running." },
+      { "chapter": 215, "text": "Locked up the house and went out as the trap was being set." },
+      { "chapter": 222, "text": "Told Gavroche that his whole family was in prison." }
+    ]
+  },
+  {
+    "id": "jondrette",
+    "name": "Jondrette",
+    "firstChapter": 159,
+    "importance": "major",
+    "group": "The Gorbeau house",
+    "mergedInto": { "id": "thenardier", "from": 220 },
+    "aliases": [
+      { "name": "Fabantou", "from": 209, "note": "the 'dramatic artist' who signed the letter to the gentleman of Saint-Jacques" },
+      { "name": "Monsieur Jondrette", "from": 219, "note": "his wife's slip, explained away as an artistic sobriquet" }
+    ],
+    "tagline": [
+      { "from": 159, "text": "The destitute lodger of the Gorbeau garret, father of a gamin he never thinks of." },
+      { "from": 186, "text": "Marius's neighbour, about to be put out for twenty francs of rent." },
+      { "from": 204, "text": "A begging-letter writer who signs a different name for every patron." },
+      { "from": 206, "text": "A small, grey-bearded man in a woman's chemise who curses the rich and writes for their money." },
+      { "from": 209, "text": "'Fabantou, dramatic artist', putting on a show of misery for M. Leblanc." },
+      { "from": 212, "text": "A man who says he knows his benefactor from eight years ago and is laying a trap for him." },
+      { "from": 219, "text": "The host of a trap who drops his mask and asks his prisoner: 'Do you know me?'" }
+    ],
+    "description": [
+      { "from": 159, "text": "He lives with his wife and two grown daughters in one attic room of the Gorbeau house, the poorest household in a house full of poor people. When he took the room he gave his name as Jondrette, and told the portress that anyone asking for a Pole, an Italian or perhaps a Spaniard meant him. The boy Gavroche is his son. He does not think of him, the mother does not love him, and when the boy visits he finds a cold hearth and cold hearts." },
+      { "from": 186, "text": "In 1831 Marius hears that the Jondrettes, his neighbours across the partition, are to be turned out for twenty francs of rent. He pays it secretly, with five francs more for them." },
+      { "from": 204, "text": "His elder daughter brings Marius a begging letter in the same hand as the four letters Marius found on the boulevard: the same coarse paper, the same tobacco smell, the same spelling mistakes. Those letters were signed Don Alvarès, a Spanish captain; Mistress Balizard, a mother of six; Genflot, a man of letters; and P. Fabantou, a dramatic artist. One writer is behind all four." },
+      { "from": 206, "text": "Through the hole in the wall Marius sees him: about sixty, small, thin and livid, with a cunning, cruel and uneasy look and a long grey beard, in a woman's chemise over muddy trousers. There is no bread in the garret, but there is tobacco. He smokes and writes, raging that even the dead are unequal and that he could eat the whole world. His huge wife calls him her 'little friend'." },
+      { "from": 207, "text": "When word comes that the gentleman from Saint-Jacques is on his way, he stages his misery in minutes. He puts out the fire, kicks the seat out of the chair, has the younger girl put her fist through a windowpane (she cuts her hand), and sends his wife to bed. While they wait he rails against rich men who bring old clothes and bread when what the poor want is money." },
+      { "from": 209, "text": "Before M. Leblanc and his daughter he plays Fabantou: a pupil of Talma, once favoured by fortune and now without bread or fire, his wife ill and his child wounded. He pinches the girl's cut hand to make her cry out. He claims to owe sixty francs of rent by the next day, which Marius knows is a lie. Leblanc leaves five francs and his greatcoat and promises to come back at six with the money. All the while Jondrette studies him strangely and whispers to his wife to take a good look at the man." },
+      { "from": 212, "text": "Alone with his wife he exults: eight years have passed, but he recognises the man. He whispers something about the young lady that puts his wife into a monstrous rage. His 'fortune is made'. At six the house will be empty; the 'Croesus' will pay, and if he does not, 'we'll fix him'. He orders a charcoal brazier and goes out to see 'some people'." },
+      { "from": 215, "text": "Marius follows him through the snow in Leblanc's greatcoat. He visits a hovel in the Rue Gracieuse, buys a large cold chisel at an ironmonger's, and climbs over a low wall where Marius has heard two men plotting with Patron-Minette. That evening he tells his family that all is going well: 'The mousetrap is open. The cats are there.'" },
+      { "from": 217, "text": "The garret is ready: a brazier of glowing charcoal with the chisel heating in it, ropes, iron, a rope ladder. He tests a kitchen knife and sends his wife down with a lantern to admit the visitor and send away his cab." },
+      { "from": 219, "text": "Across the table from Leblanc, who has laid four louis down for the rent, he keeps up his patter: his poverty, his girls, the paper-box trade, thoughts of drowning himself. Meanwhile four men with blackened faces slip in behind him. He offers his one treasure, 'a picture by a master'. Leblanc says it is some tavern signboard worth three francs. Jondrette asks a thousand crowns. Then his eyes flash and he cries out: 'Do you know me?'" }
+    ],
+    "moments": [
+      { "chapter": 186, "text": "Had his rent paid without knowing it by the neighbour, Marius." },
+      { "chapter": 207, "text": "Wrecked his own garret to look poorer before the benefactor came." },
+      { "chapter": 209, "text": "Played Fabantou, the ruined actor, for M. Leblanc." },
+      { "chapter": 212, "text": "Told his wife he had recognised the visitor and would 'fix him'." },
+      { "chapter": 215, "text": "Bought a cold chisel and met with accomplices." },
+      { "chapter": 219, "text": "Sprang his trap: 'Do you know me?'" }
+    ]
+  },
+  {
+    "id": "magnon",
+    "name": "Magnon",
+    "firstChapter": 164,
+    "importance": "supporting",
+    "group": "The Gillenormand household",
+    "aliases": [
+      { "name": "Nicolette", "from": 164, "note": "the name M. Gillenormand gave every maid, Magnon among them" }
+    ],
+    "tagline": [
+      { "from": 164, "text": "One of M. Gillenormand's maids, all of whom he called Nicolette." },
+      { "from": 165, "text": "The dismissed maid who sent M. Gillenormand two newborn boys and is paid to bring them up." },
+      { "from": 230, "text": "A woman watched by the police, a go-between for the underworld with ties to the Thénardiers." },
+      { "from": 249, "text": "The woman who swapped her own dead sons for the Thénardiers' two youngest to keep her eighty francs a month." }
+    ],
+    "description": [
+      { "from": 164, "text": "Every maid in M. Gillenormand's house is renamed Nicolette, and among them was 'a certain Magnon' of whom, Hugo says, more will be heard." },
+      { "from": 165, "text": "Six months after being dismissed, she sent the eighty-four-year-old Gillenormand a yelling newborn boy in a basket and named him as the father. Flattered rather than angry, he denied it and had the child looked after. A year later she sent a second boy. He gave in: both went back to their mother with eighty francs a month for their keep, on condition she sent no more, and he visits them from time to time." },
+      { "from": 171, "text": "The Nicolette now in the Rue des Filles-du-Calvaire is her successor." },
+      { "from": 230, "text": "When Brujon's coded note about 'an affair in the Rue Plumet' leaves La Force, it passes from woman to woman to her. She is strongly suspected by the police but not yet arrested, and she has dealings with the Thénardiers that Hugo promises to explain. She gets it to Éponine, newly out of prison. The answer comes back through her: 'biscuit', nothing to be done." },
+      { "from": 249, "text": "Her two boys died of croup on the same day, one in the morning and one in the evening, and with them went the eighty francs a month. The Thénardiers had two sons of the same age that they did not want, so the little Thénardiers became little Magnons. Thénardier took ten francs a month of the money. The boys were well kept, since profit was attached to them, and better treated by their false mother than they had been by their real one. She played the lady and spoke no slang in front of them. After the Gorbeau arrests the police raided her house in the Rue Clocheperce and took her and her companion, Mamselle Miss. The two boys, out playing in the yard, came back to a locked and empty house, with only a scrap of paper bearing an address." },
+      { "from": 314, "text": "Her two 'sons' are still in the street: the Thénardiers' children, leased to her, attributed to M. Gillenormand, and left like leaves for the wind to blow about." }
+    ],
+    "moments": [
+      { "chapter": 165, "text": "Sent M. Gillenormand two babies and got eighty francs a month for them." },
+      { "chapter": 230, "text": "Passed Brujon's Rue Plumet note to Éponine." },
+      { "chapter": 249, "text": "Arrested in a raid on the Rue Clocheperce, leaving the two boys locked out." }
+    ]
+  }
+]

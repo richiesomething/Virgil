@@ -2053,5 +2053,333 @@
     "chapter": 56,
     "text": "Small towns of the Pas-de-Calais on the road east from Montreuil-sur-Mer toward Arras. Hesdin was a fortified town on the Canche; Saint-Pol-sur-Ternoise a market town on the plateau.",
     "quote": "It is five leagues from here to Hesdin"
+  },
+  {
+    "term": "Alighieri",
+    "kind": "reference",
+    "chapter": 57,
+    "text": "Dante Alighieri, whose Inferno begins with the poet lost in a dark wood and brought to the gate of Hell. Hugo opens his chapter on a single night of conscience by setting it beside Homer's battles, Milton's demons and Dante's circles.",
+    "quote": "Alighieri one day met with a sinister-looking door"
+  },
+  {
+    "term": "the elections",
+    "kind": "history",
+    "chapter": 57,
+    "text": "Restoration elections were held by small colleges of wealthy voters who travelled to the chief town of the arrondissement or département to vote, often with a passport for the journey. That the mayor went 'to the elections' shows he counted among the few with the vote.",
+    "quote": "when he went to the elections"
+  },
+  {
+    "term": "Think! … March on!",
+    "kind": "reference",
+    "chapter": 57,
+    "text": "The legend of the Wandering Jew, Ahasuerus, who mocked Christ on the way to Calvary and was condemned to walk the earth until the Second Coming, driven on by the command 'Walk!' Hugo likens the inner voice that will not let his man stop thinking to that curse.",
+    "quote": "as it said to another condemned man, two thousand years ago, “March on!”"
+  },
+  {
+    "term": "the iron necklet, the green cap",
+    "kind": "lore",
+    "chapter": 57,
+    "text": "Galley dress distinguished terms of sentence: a red cap for a fixed term, a green cap for life. The iron collar (carcan) and the 'post' were the public exposure in the pillory that preceded a convict's departure for the galleys, abolished in 1832.",
+    "quote": "the iron necklet, the green cap",
+    "seeAlso": [
+      64
+    ]
+  },
+  {
+    "term": "penal servitude for life",
+    "kind": "history",
+    "chapter": 57,
+    "text": "Travaux forcés à perpétuité, hard labour for life in the bagne. Under the Penal Code a man already sentenced to hard labour who committed a new crime could receive it, which is why a second theft by an ex-convict, however small, is so dangerous.",
+    "quote": "penal servitude for life",
+    "seeAlso": [
+      63
+    ]
+  },
+  {
+    "term": "Romainville",
+    "kind": "place",
+    "chapter": 57,
+    "text": "A village with a wood on the heights east of Paris, a favourite Sunday spot for lovers gathering lilac in spring. The name surfaces in the man's exhausted mind from a clock-maker's name and an old song, the sort of stray memory a mind seizes on in extremity.",
+    "quote": "Romainville was a little grove near Paris"
+  },
+  {
+    "term": "the terrible cup",
+    "kind": "reference",
+    "chapter": 57,
+    "text": "Christ's agony in the garden of Gethsemane among the olive trees, where he prayed that 'this cup' of suffering might pass from him (Matthew 26:39). Hugo ends the chapter by setting the night's struggle against that one.",
+    "quote": "the terrible cup which appeared to Him"
+  },
+  {
+    "term": "papers in his own handwriting",
+    "kind": "lore",
+    "chapter": 58,
+    "text": "Hugo's narrator presents himself as a historian working from documents, here a written account of a dream left by the man himself. It is a novelist's device for authority and intimacy, like his references to witnesses still alive.",
+    "quote": "It is one of the papers in his own handwriting"
+  },
+  {
+    "term": "mail-wagons",
+    "kind": "custom",
+    "chapter": 59,
+    "text": "The malle-poste, the light, fast government coach that carried the mails at night between towns, with one or two seats for passengers. Hugo describes the old two-wheeled Empire model, yellow with a black mail-box behind.",
+    "quote": "small mail-wagons of the time of the Empire"
+  },
+  {
+    "term": "calash",
+    "kind": "word",
+    "chapter": 59,
+    "text": "A calèche, a low four-wheeled carriage with a folding hood, needing two horses. A wheelwright in a poor town is keeping one for a townsman who uses it 'on the thirty-sixth of the month', a French joke for never.",
+    "quote": "an old calash under the shed yonder"
+  },
+  {
+    "term": "post-horses",
+    "kind": "custom",
+    "chapter": 59,
+    "text": "Fresh horses hired at each posting station along a main road, with a postilion to bring them back. They were the fastest way to travel, but on a crossroad in ploughing season the relays might have no horses to give, and a passport had to be shown.",
+    "quote": "I will take two post-horses"
+  },
+  {
+    "term": "postilion",
+    "kind": "word",
+    "chapter": 59,
+    "text": "The rider who sits on one of the horses, or here on the shaft, to drive and guide, then takes the horses back to their relay. The stable-boy calls himself one to sound grander.",
+    "quote": "who called himself a postilion"
+  },
+  {
+    "term": "whiffletree",
+    "kind": "word",
+    "chapter": 59,
+    "text": "The swinging crossbar to which a horse's traces are hitched, so that its pull reaches the cart evenly. If it breaks, the horse cannot draw at all; a cut branch can stand in for it.",
+    "quote": "the whiffletree broke"
+  },
+  {
+    "term": "Tinques and Mont-Saint-Éloy",
+    "kind": "place",
+    "chapter": 59,
+    "text": "Villages of the Artois plain on the way to Arras. Mont-Saint-Éloy is marked by the ruined towers of its old abbey on a hill north-west of the city. The detour by Carency and Camblin is through real country lanes.",
+    "quote": "towards Tinques, which is only five leagues from Arras"
+  },
+  {
+    "term": "tester",
+    "kind": "word",
+    "chapter": 60,
+    "text": "The canopy over a curtained bed. Hospital beds, like domestic ones, were often hung with curtains for warmth and privacy, which is why Fantine has to push her head through them to listen.",
+    "quote": "staring at the tester of her bed"
+  },
+  {
+    "term": "chinchona",
+    "kind": "word",
+    "chapter": 60,
+    "text": "Cinchona or Peruvian bark, the source of quinine, the standard remedy for fevers. An infusion of it was among the few things a doctor of 1823 could prescribe for a consumptive's fever.",
+    "quote": "an infusion of pure chinchona"
+  },
+  {
+    "term": "the cradle song",
+    "kind": "reference",
+    "chapter": 60,
+    "text": "Fantine's lullaby, with its refrain of pink roses and blue cornflowers and the Virgin bringing linen for a baby, is Hugo's own pastiche of an old French folk romance. Its last turn, from baby clothes to a winding-sheet, is in the folk tradition.",
+    "quote": "This song was an old cradle romance"
+  },
+  {
+    "term": "porte-cochère",
+    "kind": "word",
+    "chapter": 61,
+    "text": "A carriage gateway: a large door opening from the street into an inner courtyard, wide enough for a coach. Inns and town houses had them.",
+    "quote": "entered the porte-cochère of the Hotel de la Poste"
+  },
+  {
+    "term": "return horse",
+    "kind": "foreign",
+    "chapter": 61,
+    "text": "Cheval de retour, slang for a convict who has come back, a repeat offender. It was originally a post-horse being taken back to its home stable. The lawyers in the hall use it as casually as 'old lag'.",
+    "quote": "the “return horse.”"
+  },
+  {
+    "term": "the Limosin woman",
+    "kind": "custom",
+    "chapter": 61,
+    "text": "A woman from the Limousin, in central France. Infanticide by poor unmarried mothers was one of the commonest capital cases at the Assizes; juries often refused to find premeditation, which brought the sentence down from death to hard labour for life.",
+    "quote": "The Limosin woman"
+  },
+  {
+    "term": "the prefecture",
+    "kind": "place",
+    "chapter": 61,
+    "text": "The prefect's official residence and offices. At Arras it occupied the former bishop's palace, confiscated in the Revolution, and while the courthouse was repaired the Assizes sat in its great hall, under the old episcopal ceilings.",
+    "quote": "the prefecture of today was the bishop’s palace before the Revolution"
+  },
+  {
+    "term": "President",
+    "kind": "title",
+    "chapter": 61,
+    "text": "The presiding judge of the Court of Assizes, a councillor of the Royal Court (the appeal court) sent to preside over the session. He questioned the accused and witnesses himself and summed up for the jury; places behind his chair were for privileged spectators.",
+    "quote": "behind Monsieur le President"
+  },
+  {
+    "term": "usher",
+    "kind": "title",
+    "chapter": 61,
+    "text": "The huissier audiencier, the court officer who kept the doors, called witnesses and carried messages to the bench. His sudden deference shows what a mayor's name is worth.",
+    "quote": "An usher stood at the door"
+  },
+  {
+    "term": "Royal Court of Douai",
+    "kind": "history",
+    "chapter": 62,
+    "text": "The cour royale was the regional appeal court; Douai's covered the Nord and the Pas-de-Calais. One of its councillors presided over each quarterly session of the Assizes in the département.",
+    "quote": "The Councillor of the Royal Court of Douai"
+  },
+  {
+    "term": "communes",
+    "kind": "word",
+    "chapter": 62,
+    "text": "The commune is the basic unit of French local government, a town or village with its own mayor. The arrondissement of Montreuil-sur-Mer had about a hundred and forty of them.",
+    "quote": "the hundred and forty communes"
+  },
+  {
+    "term": "Pache, year II",
+    "kind": "history",
+    "chapter": 62,
+    "text": "Jean-Nicolas Pache was minister of war and then mayor of Paris during the Terror. The framed letter, dated in the revolutionary calendar, is about the arrest of deputies in 1793: a relic of the Revolution's own justice hanging in the judges' room.",
+    "quote": "Jean Nicolas Pache, mayor of Paris"
+  },
+  {
+    "term": "article 383 of the Penal Code",
+    "kind": "history",
+    "chapter": 63,
+    "text": "The article of the 1810 Penal Code that punished theft on a public highway with hard labour for life, and with death in aggravated cases. That is why the prosecutor 'reserves' the earlier robbery of the boy for a later trial.",
+    "quote": "article 383 of the Penal Code"
+  },
+  {
+    "term": "Romorantin or Montbrison",
+    "kind": "place",
+    "chapter": 63,
+    "text": "Two small, sleepy provincial towns, used here as Hugo uses Pont-à-Mousson: anywhere far from Paris. He mocks the stately periphrases of courtroom oratory, where a theatre is 'the temple of Melpomene', the Muse of tragedy.",
+    "quote": "at Romorantin or at Montbrison"
+  },
+  {
+    "term": "Bossuet’s chicken",
+    "kind": "reference",
+    "chapter": 63,
+    "text": "In his funeral oration for Anne of Gonzaga, the great preacher Bossuet had to describe a dream in which a hen protected her chicks, and did it in grand style. Hugo cites it to excuse the defence lawyer's lofty treatment of stolen apples.",
+    "quote": "Bénigne Bossuet himself was obliged to allude to a chicken"
+  },
+  {
+    "term": "The Satanic School",
+    "kind": "reference",
+    "chapter": 63,
+    "text": "The poet Robert Southey's sneer (1821) at Byron and Shelley, taken up by French conservative critics against the young Romantics, Hugo among them. The Quotidienne and the Oriflamme were royalist papers. The prosecutor blames the crime on Romantic literature, a fashionable charge.",
+    "quote": "The Satanic School"
+  },
+  {
+    "term": "the tale of Théramène",
+    "kind": "reference",
+    "chapter": 63,
+    "text": "In Racine's tragedy 'Phèdre', Théramène delivers a long, famous speech describing the sea monster that kills Hippolyte. Its set-piece horror, Hugo says, is the model for prosecutors' portraits of the accused as monsters.",
+    "quote": "the tale of Théramène"
+  },
+  {
+    "term": "you cannot take an oath",
+    "kind": "custom",
+    "chapter": 64,
+    "text": "A man sentenced to an 'ignominious' penalty, such as hard labour, lost his civil rights, including the right to testify under oath. Convicts could be heard only 'for information', which is why the President appeals to their conscience instead.",
+    "quote": "you cannot take an oath"
+  },
+  {
+    "term": "central prisons",
+    "kind": "history",
+    "chapter": 64,
+    "text": "The maisons centrales, large prisons created under Napoleon for men serving long terms of 'reclusion' rather than hard labour, with their own grey-and-black uniform. Their workshops produced goods under contract, the 'prison work' that undercut seamstresses' wages.",
+    "quote": "the black and gray waistcoat of the central prisons"
+  },
+  {
+    "term": "laundress at the river",
+    "kind": "custom",
+    "chapter": 64,
+    "text": "Paris washerwomen worked on floating laundry-boats on the Seine or in covered washhouses like that of the Enfants-Rouges, standing in tubs or bending over running water all day in every season. It was one of the hardest and worst-paid trades for women.",
+    "quote": "my daughter, who was a laundress at the river"
+  },
+  {
+    "term": "Shrove-Tuesday",
+    "kind": "custom",
+    "chapter": 64,
+    "text": "Mardi Gras, the last day of Carnival before Lent, when Paris went masked to balls and street festivities. A working girl who went to bed at eight that night was very sober indeed.",
+    "quote": "one Shrove-Tuesday"
+  },
+  {
+    "term": "T. F. P.",
+    "kind": "lore",
+    "chapter": 65,
+    "text": "Travaux Forcés à Perpétuité, hard labour for life. Until 1832 convicts were branded on the shoulder with a hot iron bearing the letters of their sentence, and some tried to burn the mark away. The brand stayed for life.",
+    "quote": "the three letters T. F. P."
+  },
+  {
+    "term": "nearly forty years ago",
+    "kind": "lore",
+    "chapter": 65,
+    "text": "Hugo, writing around 1860, claims that the speech was written down by a witness and still rings in the ears of those who heard it. The narrator's pose as a chronicler of real events with surviving witnesses gives the scene the weight of testimony.",
+    "quote": "nearly forty years ago"
+  },
+  {
+    "term": "first communion",
+    "kind": "custom",
+    "chapter": 67,
+    "text": "French Catholic children made their first communion at about twelve, after catechism classes, girls dressed in white with a veil like little brides. It was a great family occasion and a mark of respectability. Fantine counts the years until her daughter's.",
+    "quote": "Then she will take her first communion"
+  },
+  {
+    "term": "epiphonemas",
+    "kind": "word",
+    "chapter": 68,
+    "text": "An epiphonema is a rhetorical flourish, a sententious exclamation that rounds off an argument. Hugo means that the defence lawyer closed with stock lines about judicial error.",
+    "quote": "some epiphonemas, not very fresh"
+  },
+  {
+    "term": "the Emperor, and not Bonaparte",
+    "kind": "history",
+    "chapter": 68,
+    "text": "Under the Restoration, calling Napoleon 'the Emperor' implied that his reign had been legitimate; loyal royalists said 'Bonaparte' or 'the usurper'. A single word in a speech could betray a man's politics, and here it shocks the royalist President.",
+    "quote": "say the Emperor, and not Bonaparte"
+  },
+  {
+    "term": "leather stock",
+    "kind": "word",
+    "chapter": 68,
+    "text": "A stiff band of leather or cloth worn round the neck in place of a cravat, buckled at the back, part of military and police dress. A buckle slipped round under the ear is, for a man as exact as Javert, a sign of inner upheaval.",
+    "quote": "The buckle of his leather stock was under his left ear"
+  },
+  {
+    "term": "Saint Michael",
+    "kind": "reference",
+    "chapter": 68,
+    "text": "The archangel who leads the armies of heaven and is shown with his foot on the dragon, sword raised, weighing souls. Hugo's 'monstrous Saint Michael' is righteousness without mercy.",
+    "quote": "this monstrous Saint Michael"
+  },
+  {
+    "term": "thumbscrews",
+    "kind": "word",
+    "chapter": 69,
+    "text": "The poucettes were small screw-clamps fastened on a prisoner's thumbs to control him under arrest, a police tool rather than a torture here. Javert threatens them to hurry his man away.",
+    "quote": "or you’ll get the thumbscrews!"
+  },
+  {
+    "term": "Drapeau Blanc",
+    "kind": "history",
+    "chapter": 70,
+    "text": "'The White Flag', an Ultra-royalist newspaper of the Restoration, named after the Bourbon flag. Its old lady subscriber turns the mayor's fall into a lesson for Bonapartists, though nothing connects them.",
+    "quote": "a subscriber to the Drapeau Blanc"
+  },
+  {
+    "term": "blouse",
+    "kind": "word",
+    "chapter": 70,
+    "text": "The loose smock of blue or grey linen worn over other clothes by French workmen, carters and peasants. It was the uniform of the labouring class, and a perfect disguise for a man leaving a town on foot.",
+    "quote": "he was dressed in a blouse"
+  },
+  {
+    "term": "the public grave",
+    "kind": "custom",
+    "chapter": 70,
+    "text": "The fosse commune, a shared trench in the cemetery where the poor were buried free, without a marked plot, the bodies laid side by side and the ground reused after some years. A paid concession was needed for a grave of one's own.",
+    "quote": "She was thrown into the public grave."
   }
 ]
