@@ -768,7 +768,7 @@
     "description": [
       {
         "from": 4,
-        "text": "A wretched man, once a mountebank at fairs and a public letter-writer, condemned for murder. The prison chaplain is ill and the curé refuses to attend 'that mountebank', so the Bishop goes himself, spends the whole day and night with him and turns his despair to light. Next morning he walks beside him through the crowd to the guillotine in his purple camail."
+        "text": "A wretched man, once a mountebank at fairs and a public letter-writer, condemned for murder. The prison chaplain is ill and the curé refuses to attend 'that mountebank', so the Bishop goes himself, spends the whole day with him, forgetting food and sleep, and turns his despair to light. Next morning he walks beside him through the crowd to the guillotine in his purple camail."
       }
     ]
   },
@@ -906,6 +906,251 @@
       {
         "chapter": 20,
         "text": "Catches Jean Valjean stealing a loaf."
+      }
+    ]
+  },
+  {
+    "id": "lacoste",
+    "name": "Lacoste",
+    "firstChapter": 77,
+    "importance": "minor",
+    "group": "History",
+    "tagline": [
+      {
+        "from": 77,
+        "text": "Napoleon's peasant guide at Waterloo, tied to a hussar's saddle."
+      },
+      {
+        "from": 79,
+        "text": "The guide whose shake of the head, Hugo says, began Napoleon's catastrophe."
+      }
+    ],
+    "description": [
+      {
+        "from": 77,
+        "text": "A local peasant, hostile and terrified, pressed into service as Napoleon's guide and attached to the saddle of a hussar. He flinches at every discharge and tries to hide behind the Emperor, who calls him a fool: he will get himself shot in the back."
+      },
+      {
+        "from": 78,
+        "text": "Asked by Napoleon, just before the cuirassiers' charge, whether there is any obstacle on the plateau, he shakes his head."
+      },
+      {
+        "from": 79,
+        "text": "There was one: the hollow road of Ohain, invisible from the French side. Hugo says Napoleon's catastrophe might almost be dated from that peasant's shake of the head."
+      }
+    ]
+  },
+  {
+    "id": "the-district-attorney",
+    "name": "The district-attorney",
+    "firstChapter": 68,
+    "importance": "minor",
+    "group": "Montreuil-sur-Mer",
+    "tagline": [
+      {
+        "from": 68,
+        "text": "The prosecutor at Arras, bent on having a Jean Valjean, who sends Javert the warrant for the mayor."
+      }
+    ],
+    "description": [
+      {
+        "from": 68,
+        "text": "After M. Madeleine's declaration in court he still demands Champmathieu's conviction, against the mood of court, public and jury. When Champmathieu is released, he takes Madeleine instead: he confers with the royalist presiding judge, who had been shocked to hear the mayor say 'the Emperor' rather than 'Bonaparte', and sends a warrant by express messenger for Inspector Javert to arrest the mayor of Montreuil-sur-Mer as the convict Jean Valjean."
+      }
+    ]
+  },
+  {
+    "id": "the-old-portress",
+    "name": "The old portress",
+    "firstChapter": 68,
+    "importance": "minor",
+    "group": "Montreuil-sur-Mer",
+    "tagline": [
+      {
+        "from": 68,
+        "text": "The portress of the mayor's house and infirmary, who never suspects a thing."
+      },
+      {
+        "from": 70,
+        "text": "M. Madeleine's faithful old portress, one of the few in town who keep his memory."
+      }
+    ],
+    "description": [
+      {
+        "from": 68,
+        "text": "Used to armed men asking for the mayor, she innocently points out Fantine's room to Javert."
+      },
+      {
+        "from": 70,
+        "text": "After the arrest she is one of the three or four people in Montreuil-sur-Mer who stay loyal to him. At his usual hour she sets out his key and candlestick as if he were coming home, and stifles a shriek when he walks in. She has tidied his room, keeping the iron ends of his burnt cudgel and the blackened forty-sou piece on the table, and when the police come up the stairs she swears at the top of her voice that not a soul has entered the house all day."
+      }
+    ]
+  },
+  {
+    "id": "the-schoolmaster-of-montfermeil",
+    "name": "The schoolmaster of Montfermeil",
+    "firstChapter": 91,
+    "importance": "minor",
+    "group": "Montfermeil",
+    "tagline": [
+      {
+        "from": 91,
+        "text": "The village schoolmaster who joins Thénardier in trying to worm Boulatruelle's forest secret out of him."
+      }
+    ],
+    "description": [
+      {
+        "from": 91,
+        "text": "With Thénardier he is the most curious about what the road-mender Boulatruelle does in the forest at night. He remarks that in the old days the law would have put Boulatruelle to the water torture; Thénardier proposes the wine test instead, and between them they piece together a few muttered hints of buried treasure."
+      },
+      {
+        "from": 96,
+        "text": "On Christmas Eve he sits drinking at the Thénardiers' table and admires the 'magical effect' of the candles lit in paper funnels along the booths."
+      }
+    ]
+  },
+  {
+    "id": "the-ex-beadle",
+    "name": "The ex-beadle",
+    "firstChapter": 108,
+    "importance": "minor",
+    "group": "Paris",
+    "tagline": [
+      {
+        "from": 108,
+        "text": "An old beggar by a condemned well near Saint-Médard, to whom Jean Valjean gives alms."
+      },
+      {
+        "from": 118,
+        "text": "The old beggar who was a police spy, and whose rags Javert borrowed."
+      }
+    ],
+    "description": [
+      {
+        "from": 108,
+        "text": "A former beadle of seventy-five who crouches by the disused well near Saint-Médard mumbling prayers; people say he belongs to the police. One evening, as Valjean gives him his alms under the lamp, the beggar looks up and Valjean seems to see, not the old beadle's placid face, but a well-known and terrible one. The next evening it is unmistakably the old beadle again."
+      },
+      {
+        "from": 118,
+        "text": "He was a police informer who gave Javert details of 'the mendicant who gives alms'; Javert borrowed his outfit and his place for an evening to get a close look at the man."
+      }
+    ]
+  },
+  {
+    "id": "sister-agatha",
+    "name": "Sister Agatha",
+    "firstChapter": 122,
+    "importance": "minor",
+    "group": "The Petit-Picpus convent",
+    "tagline": [
+      {
+        "from": 122,
+        "text": "The stout portress of the Petit-Picpus, always hurrying through the corridors with her keys."
+      }
+    ],
+    "description": [
+      {
+        "from": 122,
+        "text": "The pupils' 'big big girls', those over ten, nicknamed her Agathocles."
+      }
+    ]
+  },
+  {
+    "id": "madame-albertine",
+    "name": "Madame Albertine",
+    "firstChapter": 123,
+    "importance": "minor",
+    "group": "The Petit-Picpus convent",
+    "tagline": [
+      {
+        "from": 123,
+        "text": "A mysterious mad woman at the Petit-Picpus who is said to 'pass for dead' in the world."
+      }
+    ],
+    "description": [
+      {
+        "from": 123,
+        "text": "Not a nun, but treated with great respect: under thirty, dark and rather pretty, with vague black eyes and hands cold as snow; she glides rather than walks and never speaks. Rumour says her supposed death served some great marriage settlement. She hears the offices alone from the Œil-de-Bœuf gallery, the only place from which the priest can be seen, and when the Duc de Rohan first preaches she half rises and cries 'Ah! Auguste!', then falls still again. Hugo records her as a fact unconnected with his story."
+      },
+      {
+        "from": 124,
+        "text": "She is one of the old society ladies the prioress allows to live in the Little Convent."
+      }
+    ]
+  },
+  {
+    "id": "mademoiselle-bouchard",
+    "name": "Mademoiselle Bouchard",
+    "firstChapter": 123,
+    "importance": "minor",
+    "group": "The Petit-Picpus convent",
+    "tagline": [
+      {
+        "from": 123,
+        "text": "A pretty, daring pupil of the Petit-Picpus who asked the Archbishop for a day's leave."
+      }
+    ],
+    "description": [
+      {
+        "from": 123,
+        "text": "Connected with the Montmorency family, tall and rosy, she bet her companions that she would ask for a day's leave, an enormity in that house. When the Archbishop passed the ranks she stepped out and asked; M. de Quélen smiled and granted three days, and the prioress could do nothing."
+      }
+    ]
+  },
+  {
+    "id": "mother-cineres",
+    "name": "Mother Cineres",
+    "firstChapter": 125,
+    "importance": "minor",
+    "group": "The Petit-Picpus convent",
+    "tagline": [
+      {
+        "from": 125,
+        "text": "The almost blind old Spanish sub-prioress of the Petit-Picpus."
+      }
+    ],
+    "description": [
+      {
+        "from": 125,
+        "text": "Sub-prioress under Mother Innocente in the years 1819 to 1825; in the convent's bell code her signal is one-and-two."
+      }
+    ]
+  },
+  {
+    "id": "the-centenarian-of-fontevrault",
+    "name": "The centenarian of Fontevrault",
+    "firstChapter": 127,
+    "importance": "minor",
+    "group": "The Petit-Picpus convent",
+    "tagline": [
+      {
+        "from": 127,
+        "text": "A hundred-year-old nun from the Abbey of Fontevrault who keeps a secret treasure in her cupboard."
+      }
+    ],
+    "description": [
+      {
+        "from": 127,
+        "text": "Once in society before the Revolution, she talks endlessly of M. de Miromesnil and a Presidentess Duplat, of Fontevrault as a city with streets, of the 'four wines' offered to great lords. A century, the eighteenth, speaks through her. She keeps under lock and key an object she will show no one; when she dies the nuns open the cupboard and find a Faenza platter of little Loves pursued by apothecaries' boys armed with syringes."
+      }
+    ]
+  },
+  {
+    "id": "mother-ascension",
+    "name": "Mother Ascension",
+    "firstChapter": 140,
+    "importance": "minor",
+    "group": "The Petit-Picpus convent",
+    "tagline": [
+      {
+        "from": 140,
+        "text": "A nun 'as strong as a man', named to help Fauchelevent with a secret burial."
+      }
+    ],
+    "description": [
+      {
+        "from": 140,
+        "text": "The prioress tells Fauchelevent that Mother Ascension will help him with the coffin and the vault, and that she will be in the chapel with the four Mother Precentors that night. 'A woman is never a man,' he answers."
       }
     ]
   }

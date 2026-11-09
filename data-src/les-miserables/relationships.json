@@ -3061,5 +3061,291 @@
         "label": "She carries her father’s begging letter to the gentleman"
       }
     ]
+  },
+  {
+    "a": "the-man-in-the-yellow-coat",
+    "b": "cosette",
+    "states": [
+      {
+        "from": 97,
+        "type": "friend",
+        "label": "A stranger silently lifts her heavy bucket in the dark"
+      },
+      {
+        "from": 99,
+        "type": "friend",
+        "label": "He questions her, and starts at her name"
+      },
+      {
+        "from": 100,
+        "type": "friend",
+        "label": "He saves her from the whip and buys her the great doll"
+      },
+      {
+        "from": 101,
+        "type": "friend",
+        "label": "He dresses her in mourning and leads her out of Montfermeil"
+      },
+      {
+        "from": 102,
+        "type": "friend",
+        "label": "He walks into the woods holding her hand"
+      }
+    ]
+  },
+  {
+    "a": "the-man-in-the-yellow-coat",
+    "b": "madame-thenardier",
+    "states": [
+      {
+        "from": 100,
+        "type": "enemy",
+        "label": "She takes him for a beggar and charges double"
+      },
+      {
+        "from": 101,
+        "type": "enemy",
+        "label": "She gladly agrees to be rid of Cosette"
+      }
+    ]
+  },
+  {
+    "a": "the-man-in-the-yellow-coat",
+    "b": "thenardier",
+    "states": [
+      {
+        "from": 100,
+        "type": "enemy",
+        "label": "A shabby guest the innkeeper sizes up"
+      },
+      {
+        "from": 101,
+        "type": "enemy",
+        "label": "Thénardier plays the loving guardian and names his price"
+      },
+      {
+        "from": 102,
+        "type": "enemy",
+        "label": "He shows Fantine’s note and outfaces Thénardier in the forest"
+      }
+    ]
+  },
+  {
+    "a": "thenardier",
+    "b": "the-thenardiers-little-boy",
+    "states": [
+      {
+        "from": 93,
+        "type": "family",
+        "label": "A little son of the inn, left to himself",
+        "kin": "parent"
+      }
+    ]
+  },
+  {
+    "a": "madame-thenardier",
+    "b": "the-thenardiers-little-boy",
+    "states": [
+      {
+        "from": 93,
+        "type": "family",
+        "label": "She loves only her daughters, not her little boy",
+        "kin": "parent"
+      },
+      {
+        "from": 100,
+        "type": "family",
+        "label": "He cries in a corner; no one comforts him",
+        "kin": "parent"
+      }
+    ]
+  },
+  {
+    "a": "eponine",
+    "b": "the-thenardiers-little-boy",
+    "states": [
+      {
+        "from": 93,
+        "type": "family",
+        "label": "The pampered sisters’ little brother",
+        "kin": "sibling"
+      }
+    ]
+  },
+  {
+    "a": "azelma",
+    "b": "the-thenardiers-little-boy",
+    "states": [
+      {
+        "from": 93,
+        "type": "family",
+        "label": "The pampered sisters’ little brother",
+        "kin": "sibling"
+      }
+    ]
+  },
+  {
+    "a": "jondrette",
+    "b": "madame-jondrette",
+    "states": [
+      {
+        "from": 159,
+        "type": "family",
+        "label": "The destitute Jondrette couple of the Gorbeau house",
+        "kin": "spouse"
+      },
+      {
+        "from": 209,
+        "type": "family",
+        "label": "He tells her twice to take a good look at their visitor",
+        "kin": "spouse"
+      },
+      {
+        "from": 212,
+        "type": "family",
+        "label": "He tells her his plan; their fortune is made",
+        "kin": "spouse"
+      },
+      {
+        "from": 219,
+        "type": "family",
+        "label": "She bars the door in the trap",
+        "kin": "spouse"
+      }
+    ]
+  },
+  {
+    "a": "madame-jondrette",
+    "b": "gavroche",
+    "states": [
+      {
+        "from": 159,
+        "type": "family",
+        "label": "The gamin’s mother, who does not love him",
+        "kin": "parent"
+      }
+    ]
+  },
+  {
+    "a": "madame-jondrette",
+    "b": "the-elder-jondrette-girl",
+    "states": [
+      {
+        "from": 204,
+        "type": "family",
+        "label": "Mother of the two Jondrette girls",
+        "kin": "parent"
+      }
+    ]
+  },
+  {
+    "a": "madame-jondrette",
+    "b": "the-younger-jondrette-girl",
+    "states": [
+      {
+        "from": 206,
+        "type": "family",
+        "label": "Mother of the two Jondrette girls",
+        "kin": "parent"
+      }
+    ]
+  },
+  {
+    "a": "madame-jondrette",
+    "b": "monsieur-leblanc",
+    "states": [
+      {
+        "from": 209,
+        "type": "enemy",
+        "label": "She is told to study the charitable gentleman"
+      },
+      {
+        "from": 217,
+        "type": "enemy",
+        "label": "She goes down with a lantern to admit him into the trap"
+      },
+      {
+        "from": 219,
+        "type": "enemy",
+        "label": "She plants herself between him and the door"
+      }
+    ]
+  },
+  {
+    "a": "madame-jondrette",
+    "b": "the-girl-at-the-luxembourg",
+    "states": [
+      {
+        "from": 212,
+        "type": "enemy",
+        "label": "A name whispered about the young lady fills her with rage"
+      }
+    ]
+  },
+  {
+    "a": "jean-valjean",
+    "b": "jeanne-valjean",
+    "states": [
+      {
+        "from": 20,
+        "type": "family",
+        "label": "The widowed sister whose seven children he stole bread for",
+        "kin": "sibling"
+      }
+    ]
+  },
+  {
+    "a": "jean-valjean",
+    "b": "maubert-isabeau",
+    "states": [
+      {
+        "from": 20,
+        "type": "enemy",
+        "label": "The baker whose loaf sent him to the galleys"
+      }
+    ]
+  },
+  {
+    "a": "napoleon",
+    "b": "colonel-pontmercy",
+    "states": [
+      {
+        "from": 169,
+        "type": "work",
+        "label": "The Emperor who made him colonel and baron on the field"
+      }
+    ]
+  },
+  {
+    "a": "marius",
+    "b": "napoleon",
+    "states": [
+      {
+        "from": 173,
+        "type": "friend",
+        "label": "Marius turns Bonapartist and comes to adore the Emperor"
+      },
+      {
+        "from": 180,
+        "type": "friend",
+        "label": "He defends Napoleon passionately at the Café Musain"
+      }
+    ]
+  },
+  {
+    "a": "napoleon",
+    "b": "wellington",
+    "states": [
+      {
+        "from": 73,
+        "type": "enemy",
+        "label": "Opposing commanders at Waterloo"
+      },
+      {
+        "from": 83,
+        "type": "enemy",
+        "label": "Napoleon’s army is routed"
+      }
+    ]
   }
 ]

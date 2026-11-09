@@ -12,7 +12,12 @@ text itself tells the reader who someone is, switch ids from that chapter on.
 | M. Leblanc, "the white-haired man" at the Luxembourg | `monsieur-leblanc` | ch 188–219, as seen by Marius | Jean Valjean. Plain to the reader at ch 220 (Thénardier: the Lark, Montfermeil, Christmas 1823). From 220 use `jean-valjean`. Until then the notes may say Marius does not know who he is; nothing more. |
 | Mlle Lanoire / "Ursule" / the girl at the Luxembourg | `the-girl-at-the-luxembourg` | ch 188–219, Marius's view | Cosette; plain at ch 220 with Leblanc. From 220 use `cosette`. |
 | Jondrette / Fabantou (the Gorbeau neighbour; first named at ch 159 as the gamin's father) | `jondrette` | ch 159–219 | Thénardier; he names himself in Vol. III Bk VIII ch 20 "The Trap" (ch 220). From ch 220 use `thenardier`. |
-| the elder Jondrette girl at the Gorbeau house | `eponine` (one id throughout) | ch 204–219: never use the family name Thénardier for her; Javert names her Éponine at ch 221 | — |
+| the elder / younger Jondrette girl at the Gorbeau house | `the-elder-jondrette-girl`, `the-younger-jondrette-girl` (stand-ins) | ch 202–220 | Éponine and Azelma; Javert names them at ch 221, from where use `eponine` / `azelma`. |
+| Madame Jondrette | `madame-jondrette` (stand-in) | ch 159–219 | Madame Thénardier, from 220. |
+| the man in the yellow coat (the stranger at Montfermeil) | `the-man-in-the-yellow-coat` (stand-in) | ch 97–102 | Jean Valjean, from 103. |
+| the Thénardiers' little boy at the inn | `the-thenardiers-little-boy` (stand-in) | ch 93, 100 | Gavroche, from 222. |
+| the young workman at the barricade | `the-young-workman` (stand-in) | ch 276–292 | Éponine, from 293. |
+| the tall man of the Rue des Billettes | `the-man-of-the-rue-des-billettes` (stand-in) | ch 276–282 | Javert, from 283. |
 | the gamin | `gavroche` | Vol. III Bk I; the narrator names him in Bk I ch 13 and tells us whose son he is there | — |
 | Monseigneur Bienvenu, the Bishop of D— | `bishop-myriel` | Vol. I Bk I–II | — |
 | Petit-Gervais, Champmathieu, Fantine, Cosette (as the Lark at Montfermeil: `cosette`), Javert, Fauchelevent, Sister Simplice, Tholomyès, Marius, M. Gillenormand, Mlle Gillenormand, Théodule, Colonel Pontmercy, M. Mabeuf, Enjolras, Combeferre, Courfeyrac, Prouvaire, Feuilly, Bahorel, Bossuet (Lesgle), Joly, Grantaire, Montparnasse, Babet, Gueulemer, Claquesous, Brujon, Magnon, Azelma, Toussaint, Mother Innocente, Madame Victurnien, Bamatabois | plain kebab-case ids of those names | | |
