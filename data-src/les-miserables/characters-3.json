@@ -428,7 +428,7 @@
         "text": "Took Marius's letter from Gavroche."
       },
       {
-        "chapter": 304,
+        "chapter": 302,
         "text": "Entered the barricade in National Guard uniform."
       },
       {
@@ -531,6 +531,10 @@
       },
       {
         "from": 93,
+        "text": "The Thénardiers' child drudge, whose one terror is being sent to the forest spring at night."
+      },
+      {
+        "from": 95,
         "text": "Eight years old, sent alone into the forest at night for water on Christmas Eve."
       },
       {
@@ -597,7 +601,11 @@
       },
       {
         "from": 93,
-        "text": "Christmas Eve 1823. She is eight, kept as an unpaid servant since her mother's money stopped, with a black eye from a blow, knitting under the table while carters drink. Her one terror is to be sent at night to the spring in the forest. Caught in a lie about the peddler's horse, she is sent, with a bucket bigger than herself and a fifteen-sou piece for bread."
+        "text": "Christmas Eve 1823. Kept as an unpaid servant since her mother's money stopped, she sits in rags under the kitchen table knitting stockings for the Thénardier children while carters and peddlers drink. Her one terror is to be sent at night to the spring in the forest."
+      },
+      {
+        "from": 95,
+        "text": "Eight years old, with a black eye from Madame Thénardier's fist, she is caught in a lie about a peddler's unwatered horse and sent into the dark with a bucket bigger than herself and a fifteen-sou piece for bread."
       },
       {
         "from": 96,
@@ -758,8 +766,8 @@
         "text": "Discovered in her mirror that she is beautiful."
       },
       {
-        "chapter": 245,
-        "text": "Found Marius's notebook under a stone on her bench."
+        "chapter": 247,
+        "text": "Read the unsigned notebook left under a stone on her bench, and knew who wrote it."
       },
       {
         "chapter": 248,

@@ -2306,7 +2306,7 @@
       },
       {
         "from": 245,
-        "text": "A garden where someone leaves a stone, and under it a notebook, on Cosette's bench."
+        "text": "A garden where someone has left a stone on Cosette's bench."
       },
       {
         "from": 248,
@@ -2352,7 +2352,11 @@
       },
       {
         "from": 245,
-        "text": "She finds a stone on her bench by the railing, and under it a notebook of unsigned love thoughts."
+        "text": "She finds a stone on her bench by the railing, where no stone was before, and flees without touching it."
+      },
+      {
+        "from": 246,
+        "text": "Under the stone lies a notebook of unsigned love thoughts."
       },
       {
         "from": 248,

@@ -78,7 +78,7 @@
     "description": [
       { "from": 1, "text": "A little old woman, white-haired, plump, busy and always out of breath, who serves Mademoiselle Baptistine and keeps the Bishop's house. She grumbles at his household budget and worries about his cassocks." },
       { "from": 6, "text": "Three of the four garden plots are hers for vegetables. Each night she locks the silver in the cupboard by the Bishop's bed, though the key is never taken out. She has learned to live with a street door anyone can push open." },
-      { "from": 16, "text": "Full of shop gossip about a barefoot vagabond with a terrible face, she begs leave to have the locksmith put proper locks on the door. A knock interrupts her, and the Bishop says 'Come in'. She cannot even cry out when she sees the man; later she fetches the silver candlesticks and the extra sets of silver on the Bishop's orders." },
+      { "from": 16, "text": "Full of shop gossip about a barefoot vagabond with a terrible face, she begs leave to have the locksmith put proper locks on the door. A knock interrupts her, and the Bishop says 'Come in'. She cannot even cry out when she sees the man." },
       { "from": 26, "text": "At sunrise she finds the silver basket empty in the flowerbed and cries that the man has stolen it. When the Bishop asks whether the silver was ever theirs, and proposes pewter, iron and then wooden spoons, she has no answer." }
     ],
     "moments": [
@@ -249,7 +249,8 @@
       { "from": 68, "text": "After Champmathieu's acquittal a warrant reaches him for the mayor as Jean Valjean. He climbs the infirmary stairs with four soldiers in the yard and the buckle of his stock under his ear, the one sign of an inner earthquake. Standing in Fantine's doorway, his face is that of a demon who has found his damned soul. Hugo insists there is nothing ignoble in him: it is 'the evil of the good'." },
       { "from": 69, "text": "He seizes the mayor by the collar before Fantine, refuses him three days to fetch Cosette, and shouts that there is no mayor, only a convict named Jean Valjean. Fantine dies of it. When Valjean wrenches an iron bar from the bedstead and tells him not to disturb him now, Javert trembles and waits by the door rather than risk losing him. Valjean lays out the dead woman and says, 'Now, I am at your disposal.'" },
       { "from": 70, "text": "Valjean breaks out of the town jail the same night. Javert tracks him to his room, finds Sister Simplice kneeling alone, and because a nun never lies and this one has never lied in her life, takes her 'no' and withdraws without noticing the still-smoking wick." },
-      { "from": 108, "text": "Transferred to Paris on M. Chabouillet's recommendation, he turns up under the rags of the beggar at Saint-Médard, then as a new lodger listening at Valjean's door in the Gorbeau house. Valjean recognises his neck and shoulders from behind and flees with Cosette; Javert, with four men and then a requisitioned patrol, hunts them through the Mouffetard quarter and across the Pont d'Austerlitz to the walls of the Petit-Picpus." },
+      { "from": 108, "text": "He is the face Valjean glimpsed under the rags of the old beggar at Saint-Médard, and the new lodger, 'Monsieur Dumont', who listened at Valjean's door in the Gorbeau house: at dawn Valjean sees the man's back on the stairs and knows the formidable neck and shoulders. That night Valjean leaves with Cosette." },
+      { "from": 113, "text": "With his men and then a requisitioned patrol he hunts Valjean and Cosette through the Mouffetard quarter and across the Pont d'Austerlitz into the lanes of the Petit-Picpus, closing both ends of the street just as they vanish over a wall." },
       { "from": 118, "text": "Hugo tells the chase from his side. He had read that Valjean was dead, then heard of a child stolen at Montfermeil and of 'the beggar who gives alms'. Scrupulous, he would not arrest on a doubt; proud, he told no one at the prefecture whose arrest he planned, and savoured letting his man run a little longer. When he closed the net the fly was gone. He searched the gardens all night, watched the quarter for more than a month, and went back to the prefecture ashamed." },
       { "from": 214, "text": "Eight years on, as the inspector on duty at a police station, he hears young Marius Pontmercy's account of the trap being laid for M. Leblanc in the Gorbeau house, a house he knows. He takes Marius's passkey, gives him two loaded pistols, and tells him to fire into the ceiling when the crime is about to be committed, not too soon. As Marius leaves, he gives his name." },
       { "from": 221, "text": "He had posted his men under the trees and pocketed one of the girls on watch; impatient, he goes up without waiting for the shot and offers his hat for the ruffians' lottery. Thénardier's pistol misfires in his face; he ducks the Thénardier woman's paving-stone and greets each masked man by name. When he turns to the bound victim, the window is open and the rope ladder still swaying. 'The devil! He must have been the most valuable of the lot.'" },
@@ -370,7 +371,8 @@
     "description": [
       { "from": 51, "text": "One of the small-town idlers Hugo describes, a young man with fifteen hundred francs a year who hisses actresses, quarrels with officers and never works. In a narrow-brimmed royalist hat and a great cloak he stands smoking outside the officers' café on a snowy evening and insults a toothless woman in a ball-dress each time she passes; piqued by her silence, he thrusts a handful of snow between her bare shoulders. When she flies at him with her nails and Javert arrives, he slips away." },
       { "from": 52, "text": "Javert calls him a citizen, a householder and an elector, and treats Fantine's attack on him as a crime; the mayor, who has inquired in the square, says the citizen was at fault." },
-      { "from": 63, "text": "At the Arras Assizes he is one of the jurors who will decide Champmathieu's fate, and among the twenty who cry 'M. Madeleine!' when the mayor rises in court." }
+      { "from": 63, "text": "At the Arras Assizes he is one of the jurors who will decide Champmathieu's fate." },
+      { "from": 64, "text": "When a man rises among the privileged spectators behind the court, Bamatabois is among the twenty who recognise him and cry out: 'M. Madeleine!'" }
     ],
     "moments": [
       { "chapter": 51, "text": "Put snow down Fantine's back outside the officers' café." },
@@ -539,7 +541,8 @@
     ],
     "description": [
       { "from": 44, "text": "Secretary to the prefect of police in Paris. It is through his protection that Javert holds the post of inspector at Montreuil-sur-Mer." },
-      { "from": 53, "text": "The night after the scene at the police station, Javert writes a letter and posts it himself to M. Chabouillet; the town assumes it is his resignation. It is to him that Javert's denunciation of the mayor as an ex-convict goes." },
+      { "from": 53, "text": "The night after the scene at the police station, Javert writes a letter and posts it himself to M. Chabouillet; the town assumes it is his resignation." },
+      { "from": 54, "text": "The letter was Javert's denunciation of the mayor as an ex-convict, which Paris answered by calling him mad." },
       { "from": 118, "text": "After Valjean's escape from Montreuil-sur-Mer, Javert's zeal in the Paris search is noticed by M. Chabouillet, who has him attached to the Paris police." }
     ],
     "moments": [
@@ -602,7 +605,8 @@
       { "from": 29, "text": "Listolier's mistress, one of the four grisettes." }
     ],
     "description": [
-      { "from": 29, "text": "Adored by Listolier. Drawn into idleness by nails too pretty to spoil with work, she is one of the experienced three beside the innocent Fantine; she clings to Zéphine in English poses on the outing, mocks Fantine for crying over a horse, hears Favorite's confession about the actor, and credits Tholomyès with the farewell farce. Tholomyès advises her to call herself Rosa." }
+      { "from": 29, "text": "Adored by Listolier. Drawn into idleness by nails too pretty to spoil with work, she is one of the experienced three beside the innocent Fantine." },
+      { "from": 36, "text": "On the outing she clings to Zéphine in English poses, mocks Fantine for crying over a horse, hears Favorite's confession about the actor, and credits Tholomyès with the farewell farce. Tholomyès advises her to call herself Rosa." }
     ],
     "moments": [
       { "chapter": 36, "text": "Cheered Tholomyès for the farewell farce." }
@@ -618,7 +622,8 @@
       { "from": 29, "text": "Fameuil's mistress, one of the four grisettes." }
     ],
     "description": [
-      { "from": 29, "text": "Idolised by Fameuil, whose devotion was won by her roguish way of saying 'Yes, sir'. One of the experienced three, she laughs through the dinner at Bombarda's, prefers the dinners at Édon's, and is left with the others when the men's letter arrives." }
+      { "from": 29, "text": "Idolised by Fameuil, whose devotion was won by her roguish way of saying 'Yes, sir'. She is one of the experienced three beside the innocent Fantine." },
+      { "from": 36, "text": "She laughs through the dinner at Bombarda's, prefers the dinners at Édon's, and is left with the others when the men's letter arrives." }
     ],
     "moments": [
       { "chapter": 36, "text": "Left at Bombarda's with the other girls when the men's letter arrived." }
@@ -634,7 +639,8 @@
       { "from": 29, "text": "A student from Montauban, Favorite's lover." }
     ],
     "description": [
-      { "from": 29, "text": "One of the four provincial students, from Montauban, in love with Favorite, who swears she adores him and privately finds him stingy. He carries her shawl at Saint-Cloud, swells with vanity at her declarations, and prefers the silver knife handles at Bombarda's. He signs the farewell letter with the others, and Favorite decides the farce was his idea." }
+      { "from": 29, "text": "One of the four provincial students, from Montauban, in love with Favorite." },
+      { "from": 36, "text": "Favorite swears she adores him and privately finds him stingy. He carries her shawl at Saint-Cloud, swells with vanity at her declarations, and prefers the silver knife handles at Bombarda's. He signs the farewell letter with the others, and Favorite decides the farce was his idea." }
     ],
     "moments": [
       { "chapter": 36, "text": "Left for Toulouse with the others, signing the farewell letter." }
@@ -650,7 +656,8 @@
       { "from": 29, "text": "A student from Cahors, Dahlia's lover." }
     ],
     "description": [
-      { "from": 29, "text": "One of the four students, from Cahors, who adores Dahlia. On the outing he discusses his professors with Fantine and blows a wooden trumpet bought at Saint-Cloud. He signs the farewell letter and goes home with the rest." }
+      { "from": 29, "text": "One of the four students, from Cahors, who adores Dahlia." },
+      { "from": 36, "text": "On the outing he discusses his professors with Fantine and blows a wooden trumpet bought at Saint-Cloud. He signs the farewell letter and goes home with the rest." }
     ],
     "moments": [
       { "chapter": 36, "text": "Left for Toulouse with the others, signing the farewell letter." }
@@ -666,7 +673,8 @@
       { "from": 29, "text": "A student from Limoges, Zéphine's lover." }
     ],
     "description": [
-      { "from": 29, "text": "One of the four students, from Limoges, who idolises Zéphine. He hums with Dahlia at Bombarda's and talks professors with Fantine. He signs the farewell letter and takes the Toulouse diligence home with the others." }
+      { "from": 29, "text": "One of the four students, from Limoges, who idolises Zéphine." },
+      { "from": 36, "text": "He hums with Dahlia at Bombarda's and talks professors with Fantine. He signs the farewell letter and takes the Toulouse diligence home with the others." }
     ],
     "moments": [
       { "chapter": 36, "text": "Left for Toulouse with the others, signing the farewell letter." }
