@@ -1131,7 +1131,7 @@
     "description": [
       {
         "from": 127,
-        "text": "Once in society before the Revolution, she talks endlessly of M. de Miromesnil and a Presidentess Duplat, of Fontevrault as a city with streets, of the 'four wines' offered to great lords. A century, the eighteenth, speaks through her. She keeps under lock and key an object she will show no one; when she dies the nuns open the cupboard and find a Faenza platter of little Loves pursued by apothecaries' boys armed with syringes."
+        "text": "Once in society before the Revolution, she talks endlessly of M. de Miromesnil and a Presidentess Duplat, of Fontevrault as a city with streets, of the 'four wines' offered to great lords. A century, the eighteenth, speaks through her. She keeps under lock and key an object she shows to no one; when she dies the nuns open the cupboard and find a Faenza platter of little Loves pursued by apothecaries' boys armed with syringes."
       }
     ]
   },
@@ -1151,6 +1151,287 @@
       {
         "from": 140,
         "text": "The prioress tells Fauchelevent that Mother Ascension will help him with the coffin and the vault, and that she will be in the chapel with the four Mother Precentors that night. 'A woman is never a man,' he answers."
+      }
+    ]
+  },
+  {
+    "id": "madame-pontmercy",
+    "name": "M. Gillenormand's younger daughter",
+    "firstChapter": 165,
+    "importance": "minor",
+    "group": "The Gillenormand household",
+    "aliases": [
+      {
+        "name": "Madame Pontmercy",
+        "from": 169
+      }
+    ],
+    "tagline": [
+      {
+        "from": 165,
+        "text": "M. Gillenormand's dead younger daughter, who married a soldier for love."
+      },
+      {
+        "from": 169,
+        "text": "Madame Pontmercy: Colonel Pontmercy's late wife and Marius's mother."
+      },
+      {
+        "from": 262,
+        "text": "The dead daughter whose portrait hangs opposite M. Gillenormand's bed."
+      }
+    ],
+    "description": [
+      {
+        "from": 165,
+        "text": "The daughter of M. Gillenormand's second marriage. She married for love a soldier of fortune who had served the Republic and the Empire, won the cross at Austerlitz and was made colonel at Waterloo, the son-in-law her father calls the disgrace of his family. She died at about thirty."
+      },
+      {
+        "from": 167,
+        "text": "Ten years younger than her sister and nothing like her: a charming, dreamy soul given to flowers, verses and music, wedded in imagination to some vague heroic figure. She married the man of her dreams, and died. Her son is the small boy growing up in his grandfather's house."
+      },
+      {
+        "from": 169,
+        "text": "She was Mademoiselle Gillenormand when Georges Pontmercy married her under the Empire, between two wars; her father consented with a sigh. Marius is her son."
+      },
+      {
+        "from": 262,
+        "text": "Four years after Marius has left, the old man keeps a portrait of her at eighteen opposite his bed, so that it is the first thing he sees on waking, and remarks that it looks like 'him'."
+      }
+    ]
+  },
+  {
+    "id": "mademoiselle-vaubois",
+    "name": "Mademoiselle Vaubois",
+    "firstChapter": 167,
+    "importance": "minor",
+    "group": "The Gillenormand household",
+    "tagline": [
+      {
+        "from": 167,
+        "text": "Mademoiselle Gillenormand's friend at chapel, even stupider than she is."
+      }
+    ],
+    "description": [
+      {
+        "from": 167,
+        "text": "The elder Mademoiselle Gillenormand's companion in her devotions at a rococo chapel; an ancient virgin and a positive blockhead, beside whom Mademoiselle Gillenormand has the pleasure of being an eagle. Beyond the Agnus Dei and the Ave Maria she knows nothing but the ways of making preserves."
+      }
+    ]
+  },
+  {
+    "id": "madame-de-t",
+    "name": "Madame de T.",
+    "firstChapter": 168,
+    "importance": "minor",
+    "group": "The Gillenormand household",
+    "tagline": [
+      {
+        "from": 168,
+        "text": "A poor, proud baroness whose ultra-royalist salon M. Gillenormand rules."
+      },
+      {
+        "from": 170,
+        "text": "The hostess of the salon that is all Marius knows of the world."
+      }
+    ],
+    "description": [
+      {
+        "from": 168,
+        "text": "The Baronne de T., widow of a former ambassador to Berlin who died bankrupt, leaving ten volumes of memoirs on Mesmer. Her salon in the Rue Férou is purely royalist: tea, groans at the century and the charter, songs mocking Napoleon as 'Nicolas'. M. Gillenormand spends two afternoons a week there and reigns as its oracle with the Comte de Lamothe-Valois, bringing his daughter and his small grandson."
+      },
+      {
+        "from": 170,
+        "text": "Her rooms are a mummified society of old marquises, abbés, cardinals and peers, 'ultra' in politics and exquisite in manners. For the boy Marius they are the only window on life, and they make the joyful child grave."
+      }
+    ]
+  },
+  {
+    "id": "abbe-mabeuf",
+    "name": "The Abbé Mabeuf",
+    "firstChapter": 169,
+    "importance": "minor",
+    "group": "Marius and his friends",
+    "tagline": [
+      {
+        "from": 169,
+        "text": "The curé of Vernon, Colonel Pontmercy's only friend there besides the poor."
+      },
+      {
+        "from": 185,
+        "text": "M. Mabeuf's late brother, the curé, who died about 1830."
+      }
+    ],
+    "description": [
+      {
+        "from": 169,
+        "text": "The parish priest of Vernon and brother of the churchwarden M. Mabeuf of Saint-Sulpice. Through his brother, who saw the scarred colonel weeping behind a pillar at mass, he learns the whole story of the father forbidden to see his son, and the two brothers come to venerate the old soldier."
+      },
+      {
+        "from": 171,
+        "text": "When Marius arrives at Vernon too late, the curé is praying and sobbing beside the colonel's body."
+      },
+      {
+        "from": 185,
+        "text": "He died about 1830, and the notary's failure that followed swallowed the ten thousand francs that were all he and his brother had."
+      }
+    ]
+  },
+  {
+    "id": "deux-milliards",
+    "name": "Deux-Milliards",
+    "firstChapter": 214,
+    "importance": "minor",
+    "group": "Patron-Minette",
+    "aliases": [
+      {
+        "name": "Demi-Liard",
+        "from": 214
+      }
+    ],
+    "tagline": [
+      {
+        "from": 214,
+        "text": "A bearded ruffian overheard plotting an 'affair' behind a wall in the snow."
+      },
+      {
+        "from": 221,
+        "text": "One of the three blackened 'chimney-builders' caught in the Gorbeau garret."
+      }
+    ],
+    "description": [
+      {
+        "from": 214,
+        "text": "When Marius repeats to the police inspector the talk he overheard behind the wall in the Rue du Petit-Banquier, the inspector identifies the long-haired man as Brujon and the bearded one as Demi-Liard, alias Deux-Milliards."
+      },
+      {
+        "from": 221,
+        "text": "Taken with the others when the police burst into the garret; Javert greets him by name: 'Good day, Deuxmilliards!'"
+      }
+    ]
+  },
+  {
+    "id": "mamselle-miss",
+    "name": "Mamselle Miss",
+    "firstChapter": 249,
+    "importance": "minor",
+    "group": "Paris",
+    "tagline": [
+      {
+        "from": 249,
+        "text": "An English thief who shares Magnon's lodgings in the Rue Clocheperce."
+      }
+    ],
+    "description": [
+      {
+        "from": 249,
+        "text": "A clever, gallicized English thief, naturalized Parisienne, with wealthy relations and a hand in the theft of medals from the Library and of Mademoiselle Mars's diamonds, whom Hugo calls a celebrity of the court reports. She is seized with Magnon in a police raid on their house, while the two little boys in their care are playing in the yard."
+      },
+      {
+        "from": 250,
+        "text": "To the lost little boys, their mamma is 'a lady who lives with Mamselle Miss'."
+      }
+    ]
+  },
+  {
+    "id": "navet",
+    "name": "Navet",
+    "firstChapter": 278,
+    "importance": "minor",
+    "group": "Paris",
+    "tagline": [
+      {
+        "from": 278,
+        "text": "A street boy, 'Gavroche's friend', who brings Bossuet a message from the boulevard."
+      }
+    ],
+    "description": [
+      {
+        "from": 278,
+        "text": "Sent to Corinthe by a tall fair young man on the boulevard to tell M. Bossuet 'A.B.C.', he delivers it, takes twenty sous from Laigle, refuses breakfast because he belongs in the procession ('I'm the one to shout \"Down with Polignac!\"'), and leaves with a respectful scrape of the foot. Grantaire calls him the purebred gamin."
+      }
+    ]
+  },
+  {
+    "id": "captain-fannicot",
+    "name": "Captain Fannicot",
+    "firstChapter": 310,
+    "importance": "minor",
+    "group": "Paris",
+    "tagline": [
+      {
+        "from": 310,
+        "text": "A National Guard captain who throws his company at the barricade on his own initiative."
+      }
+    ],
+    "description": [
+      {
+        "from": 310,
+        "text": "A bold, impatient bourgeois and fanatical supporter of the government, commanding a suburban company of the National Guard, the company that shot Jean Prouvaire. On 6 June, exasperated by the red flag and the old coat on the barricade and by the generals' delay, he launches his men at the Rue de la Chanvrerie without orders. Two volleys from the barricade cut them down, and he is killed by grapeshot from the army's own gun, which had not been told to stop firing."
+      }
+    ]
+  },
+  {
+    "id": "the-changer",
+    "name": "The Changer",
+    "firstChapter": 363,
+    "importance": "minor",
+    "group": "Paris",
+    "tagline": [
+      {
+        "from": 363,
+        "text": "A costumer of the Paris underworld who hires out respectable clothes to rogues by the day."
+      }
+    ],
+    "description": [
+      {
+        "from": 363,
+        "text": "In a low lodging in the Rue Beautreillis near the Arsenal, an ingenious Jew 'changes villains into honest men' for thirty sous a day: a thief leaves his money, picks the costume for the part he means to play, and goes downstairs a somebody. The clothes always come back. The statesman's suit worn by the visitor Basque shows in to Marius comes from his shop."
+      }
+    ]
+  },
+  {
+    "id": "the-portress-of-the-rue-de-l-homme-arme",
+    "name": "The portress of the Rue de l'Homme-Armé",
+    "firstChapter": 361,
+    "importance": "minor",
+    "group": "Paris",
+    "tagline": [
+      {
+        "from": 361,
+        "text": "The kindly old portress who cooks for Jean Valjean and fetches him a doctor."
+      }
+    ],
+    "description": [
+      {
+        "from": 361,
+        "text": "She makes his scanty meals and scolds him when he leaves her potatoes untouched; she is the only human being he sees. When he stops getting up and eating she tells her husband the old man will not last, and that his daughter must have made a bad marriage, then catches the doctor of the quarter in the street and sends him upstairs."
+      },
+      {
+        "from": 364,
+        "text": "Peering in at the half-open door at the end, she is sent away by the doctor, but calls out first to ask whether he would like a priest. 'I have had one,' he answers."
+      }
+    ]
+  },
+  {
+    "id": "the-doctor-of-the-quarter",
+    "name": "The doctor of the quarter",
+    "firstChapter": 361,
+    "importance": "minor",
+    "group": "Paris",
+    "tagline": [
+      {
+        "from": 361,
+        "text": "The local doctor who finds Jean Valjean dying of grief."
+      }
+    ],
+    "description": [
+      {
+        "from": 361,
+        "text": "Called up by the portress, he examines Jean Valjean and tells her the man is very ill: 'Everything and nothing. He is a man who, to all appearances, has lost some person who is dear to him. People die of that.' He will come again, he says, but someone else must come too."
+      },
+      {
+        "from": 364,
+        "text": "He returns at the end, takes the dying man's pulse and answers Marius's unspoken question with a look."
       }
     ]
   }

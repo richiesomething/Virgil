@@ -1003,5 +1003,206 @@
     "setting": "The barricade, in full daylight",
     "keepInMind": "As he was tied to the taproom table, Javert looked up, recognised Jean Valjean, and said only, 'It is perfectly simple.' Marius, feeling himself already dead, did not ask why M. Fauchelevent had come.",
     "returning": []
+  },
+  {
+    "chapter": 306,
+    "setting": "The barricade, the moment Gavroche gets back",
+    "keepInMind": "At daylight the insurgents walled up the Mondétour lane, leaving themselves a fortress with no way out. A cannon was rolled into the street; its first ball buried itself harmlessly in the rubble. Gavroche was sent off with Marius's farewell to Cosette, and it was Valjean who took it from him.",
+    "returning": []
+  },
+  {
+    "chapter": 307,
+    "setting": "The barricade, under cannon fire",
+    "keepInMind": "Gavroche assured Marius the letter was delivered and said he did not know any M. Fauchelevent. The cannon has switched to grapeshot, and Enjolras, weeping, shot the young artillery sergeant to win a few minutes.",
+    "returning": []
+  },
+  {
+    "chapter": 308,
+    "setting": "Cosette's room in the Rue de l'Homme Armé, at the same dawn",
+    "keepInMind": "Valjean shot down an old woman's mattress from a distant attic window, walked out through the firing to fetch it, and plugged the breach; Enjolras thanked him in the name of the Republic. Cosette knows none of this. Her last act was to give a 'young workman' her note for Marius with the new address.",
+    "returning": []
+  },
+  {
+    "chapter": 309,
+    "setting": "The barricade, later that morning",
+    "keepInMind": "Cosette woke knowing nothing of the fighting, sure that Marius has her letter and will come today.",
+    "returning": []
+  },
+  {
+    "chapter": 310,
+    "setting": "The barricade, the morning of 6 June",
+    "keepInMind": "When a fireman and then an officer climbed onto a roof to spy on the barricade, Valjean knocked the helmet off each with a bullet and killed neither. He will not say why.",
+    "returning": []
+  },
+  {
+    "chapter": 311,
+    "setting": "The barricade, the same morning",
+    "keepInMind": "The zealous suburban National Guard, whose improvised firing squad shot Jean Prouvaire, threw a company at the barricade on its captain's own initiative; it lost fifteen men, and the captain died under his own side's grapeshot.",
+    "returning": []
+  },
+  {
+    "chapter": 312,
+    "setting": "The barricade, toward midday",
+    "keepInMind": "For an hour or two the rising flared elsewhere in Paris, then the troops stamped it out. The men on the barricade know now that they are abandoned and will die hungry.",
+    "returning": []
+  },
+  {
+    "chapter": 313,
+    "setting": "The barricade, after the second cannon arrives",
+    "keepInMind": "Two cannon are battering the crest and the windows to prepare an assault. The barricade's answering volleys cut down most of the gunners but used up nearly all its cartridges, and Gavroche overheard.",
+    "returning": []
+  },
+  {
+    "chapter": 314,
+    "setting": "The Luxembourg garden, at the same hour",
+    "keepInMind": "Gavroche slipped out with a basket to empty the cartridge boxes of dead guardsmen and sang back at every bullet, until a second shot killed him.",
+    "returning": [
+      {
+        "id": "the-two-little-boys",
+        "reminder": "The Thénardiers' two youngest sons, farmed out to Magnon and lost in the streets. Gavroche fed them and sheltered them in the elephant without knowing they were his brothers, and they never came back to the meeting-place."
+      }
+    ]
+  },
+  {
+    "chapter": 315,
+    "setting": "The barricade, the moment Gavroche falls",
+    "keepInMind": "Gavroche lies dead in the street outside the barricade. Hugo stepped away to the Luxembourg, where his two little brothers, knowing nothing, shared a stale brioche fished out of the swans' pond.",
+    "returning": []
+  },
+  {
+    "chapter": 316,
+    "setting": "The barricade, toward noon",
+    "keepInMind": "Marius carried Gavroche back, thinking that Thénardier brought his father back alive and he was bringing the son back dead. The child lies beside Mabeuf under the black shawl. His cartridges gave each man fifteen rounds; Valjean refused his.",
+    "returning": [
+      {
+        "id": "javert",
+        "reminder": "Bound to the taproom table since the night, under sentence to be shot before the barricade falls. He recognised Valjean and said only, 'It is perfectly simple.'"
+      }
+    ]
+  },
+  {
+    "chapter": 317,
+    "setting": "The taproom of Corinthe, as the last attack begins",
+    "keepInMind": "Enjolras decreed that the last man to leave the taproom would shoot the spy. Valjean asked for that as his only reward. Javert said, 'That is just,' and told the insurgents, 'We shall meet again shortly!'",
+    "returning": []
+  },
+  {
+    "chapter": 318,
+    "setting": "The barricade, just before the final assault",
+    "keepInMind": "This chapter pauses before the last fight for Hugo's reflections on the shut houses and why a people abandons a rising that comes too soon. Valjean led Javert into the Mondétour lane, cut his cords, gave him his name and address, and fired into the air. Marius, who had just recognised Javert, heard the shot and believes the inspector dead.",
+    "returning": []
+  },
+  {
+    "chapter": 319,
+    "setting": "The barricade, as the drum beats the charge",
+    "keepInMind": "Hugo's reflections are over and the final assault begins, at noon in broad daylight, against about twenty-six men with almost no ammunition.",
+    "returning": []
+  },
+  {
+    "chapter": 320,
+    "setting": "The barricade, during the final assault",
+    "keepInMind": "The barricade held through ten assaults. Bossuet, Feuilly, Courfeyrac and Combeferre are dead. Enjolras is untouched, Marius exposed and streaming with blood.",
+    "returning": []
+  },
+  {
+    "chapter": 321,
+    "setting": "The first floor of Corinthe, as the soldiers break in",
+    "keepInMind": "The centre gave way. Enjolras held the wine-shop door alone to let the survivors in. Marius fell outside with a broken collarbone and felt an unknown hand seize him. The last defenders are fighting from the first floor with their final cartridges and bottles of acid.",
+    "returning": [
+      {
+        "id": "grantaire",
+        "reminder": "The drunken sceptic, asleep in Corinthe through the whole fight. When Enjolras told him he was incapable of believing or of dying, he answered, 'You will see.'"
+      }
+    ]
+  },
+  {
+    "chapter": 322,
+    "setting": "The barricade, going back to the moment Marius fell",
+    "keepInMind": "Enjolras faced the firing squad, and Grantaire woke, asked to die with him, and fell at his feet. The barricade is taken. What happened to Marius is unknown: all he felt was a hand seizing him as he fell.",
+    "returning": []
+  },
+  {
+    "chapter": 323,
+    "setting": "Beneath Paris: the sewers",
+    "keepInMind": "This chapter steps away from the story to begin Book II, 'The Intestine of the Leviathan', six chapters of Hugo's history and argument about the sewers of Paris. The story is left underground: the hand was Valjean's, and he lifted a grating and carried the unconscious Marius down into a long, silent tunnel.",
+    "returning": []
+  },
+  {
+    "chapter": 324,
+    "setting": "The sewers of Paris through the centuries",
+    "keepInMind": "Still a digression. Hugo has argued that Paris throws twenty-five million francs a year into the river as manure that should feed its fields, and that under the city of light lies a city of mud.",
+    "returning": []
+  },
+  {
+    "chapter": 325,
+    "setting": "The sewers of old Paris, up to 1805",
+    "keepInMind": "Still a digression. Hugo has mapped the sewer network and called the sewer the conscience of the city, the one place where nothing lies.",
+    "returning": []
+  },
+  {
+    "chapter": 326,
+    "setting": "The sewers, 1805 to 1812",
+    "keepInMind": "Still a digression. For centuries the sewer terrified Paris and flooded back into its streets, until in 1805 one man asked to explore it: Bruneseau.",
+    "returning": []
+  },
+  {
+    "chapter": 327,
+    "setting": "The sewers in Hugo's own day",
+    "keepInMind": "Still a digression. Bruneseau's seven-year exploration found dated stones, an orangutan's skeleton and a scrap of Marat's shroud.",
+    "returning": []
+  },
+  {
+    "chapter": 328,
+    "setting": "The sewers, past and future",
+    "keepInMind": "The last chapter of the digression. The modern sewer is clean and almost respectable, and Hugo credits the change to the forgotten Bruneseau.",
+    "returning": []
+  },
+  {
+    "chapter": 329,
+    "setting": "Under the streets near the barricade, the afternoon of 6 June 1832",
+    "keepInMind": "The story resumes after the sewer chapters. Valjean, trapped between the massacre and a guarded street, carried the unconscious, bleeding Marius down through an iron grating. Hugo noted that in 1832 much of the old, unrebuilt sewer still remained.",
+    "returning": []
+  },
+  {
+    "chapter": 330,
+    "setting": "The sewers, the same afternoon",
+    "keepInMind": "Valjean turned away from the outlets that would bring him up in crowded Paris and climbed the Montmartre sewer without knowing where he was. Then he saw his own shadow thrown ahead of him by a lantern: a patrol is behind him.",
+    "returning": []
+  },
+  {
+    "chapter": 331,
+    "setting": "The deserted right bank of the Seine beyond the Pont des Invalides, the same afternoon",
+    "keepInMind": "The patrol listened, heard nothing and moved on toward Saint-Merry. The sergeant's one shot into the dark struck the arch above Valjean's head.",
+    "returning": []
+  },
+  {
+    "chapter": 332,
+    "setting": "The Grand Sewer, about three in the afternoon",
+    "keepInMind": "On the deserted shore a man in rags was trailed by a buttoned-up man of authority, with a hackney-coach following. The fugitive vanished, and the pursuer found only a locked sewer grating that had just been opened with a key. Hugo names neither man.",
+    "returning": []
+  },
+  {
+    "chapter": 333,
+    "setting": "Deeper in the Grand Sewer, going downstream",
+    "keepInMind": "At an air-hole Valjean bound Marius's wounds with his own shirt and read the note in his pocketbook asking that his body be taken to M. Gillenormand, Rue des Filles-du-Calvaire.",
+    "returning": []
+  },
+  {
+    "chapter": 334,
+    "setting": "The sewer, where the floor has turned to mud",
+    "keepInMind": "Hugo broke off to describe quicksand and its equivalent in the old sewers, the fontis, a slough in which men had vanished.",
+    "returning": []
+  },
+  {
+    "chapter": 335,
+    "setting": "The sewer, beyond the fontis",
+    "keepInMind": "Valjean waded into the fontis until only his head was above the mud, holding Marius up, then his foot struck the far edge of the pavement. He climbed out, fell to his knees and prayed.",
+    "returning": []
+  },
+  {
+    "chapter": 336,
+    "setting": "The locked grating at the Seine outlet",
+    "keepInMind": "Valjean reached daylight at the outlet between the Pont de Jéna and the Pont des Invalides, but a heavy, double-locked grating would not move. He collapsed beside Marius, thinking not of himself but of Cosette.",
+    "returning": []
   }
 ]
