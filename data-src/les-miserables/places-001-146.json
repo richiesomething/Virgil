@@ -664,6 +664,10 @@
         {
           "from": 110,
           "text": "Toll bridge over the Seine below the Jardin des Plantes; two sous for a man carrying a child."
+        },
+        {
+          "from": 268,
+          "text": "Bridge where Lafayette bids Lamarque farewell and the riot of 5 June breaks out."
         }
       ]
     },
@@ -1533,6 +1537,10 @@
         {
           "from": 20,
           "text": "Great church of the Left Bank, between the Luxembourg and Saint-Germain."
+        },
+        {
+          "from": 172,
+          "text": "Church where the churchwarden Mabeuf keeps his chair, and tells Marius of the man who stood behind the pillar."
         }
       ]
     },
@@ -1553,6 +1561,10 @@
         {
           "from": 21,
           "text": "The central markets of Paris."
+        },
+        {
+          "from": 285,
+          "text": "Market quarter where the troops bivouac around the black, silent streets of the insurrection."
         }
       ]
     },
@@ -1573,6 +1585,10 @@
         {
           "from": 28,
           "text": "Great parade-ground in front of the École Militaire."
+        },
+        {
+          "from": 263,
+          "text": "Lonely slopes where Valjean sits thinking of England when a warning note drops on his knees."
         }
       ]
     },
@@ -1593,6 +1609,14 @@
         {
           "from": 33,
           "text": "Parish church on the Rue Saint-Jacques, near the Val-de-Grâce."
+        },
+        {
+          "from": 204,
+          "text": "Church where a charitable gentleman hears mass; Jondrette's begging letter seeks him there."
+        },
+        {
+          "from": 234,
+          "text": "Church where Valjean and Cosette give alms to the poor."
         }
       ]
     },
@@ -1613,6 +1637,18 @@
         {
           "from": 34,
           "text": "The great garden of the Left Bank, loved by students and lovers."
+        },
+        {
+          "from": 188,
+          "text": "Garden where Marius notices a white-haired man and a girl on the same bench every day."
+        },
+        {
+          "from": 196,
+          "text": "Garden where the white-haired man and the girl no longer come."
+        },
+        {
+          "from": 314,
+          "text": "Deserted garden where two lost little boys hide by the swans' basin."
         }
       ]
     },
@@ -1633,6 +1669,10 @@
         {
           "from": 98,
           "text": "Triumphal arch on the Grands Boulevards, with a popular theatre beside it."
+        },
+        {
+          "from": 268,
+          "text": "Point on the boulevard to which the crowd at Lamarque's funeral stretches."
         }
       ]
     },
@@ -1653,6 +1693,10 @@
         {
           "from": 109,
           "text": "Street on the Left Bank with a commissary of police’s office."
+        },
+        {
+          "from": 214,
+          "text": "Police post where Marius reports the trap to a tall, stern inspector."
         }
       ]
     },
@@ -1673,6 +1717,10 @@
         {
           "from": 111,
           "text": "Working-class suburb east of the Bastille."
+        },
+        {
+          "from": 227,
+          "text": "The faubourg of the cabinet-makers, Hugo's 'powder-house' of suffering and ideas."
         }
       ]
     },
@@ -1693,6 +1741,10 @@
         {
           "from": 142,
           "text": "The great cemetery on the eastern hills of Paris, burial-place of the well-to-do."
+        },
+        {
+          "from": 365,
+          "text": "A nameless stone under a yew, in a deserted corner near the common grave."
         }
       ]
     }

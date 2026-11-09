@@ -2832,5 +2832,313 @@
         "text": "Thénardier opened the outlet and tore a strip from Marius's coat."
       }
     ]
+  },
+  {
+    "id": "the-silver-candlesticks",
+    "kind": "object",
+    "name": "The Bishop's silver candlesticks",
+    "firstChapter": 6,
+    "importance": "major",
+    "group": "Objects",
+    "tagline": [
+      {
+        "from": 6,
+        "text": "Two massive silver candlesticks, among the few fine things the poor Bishop of Digne has kept."
+      },
+      {
+        "from": 17,
+        "text": "Lit on the Bishop's table in honour of a convict guest."
+      },
+      {
+        "from": 26,
+        "text": "The Bishop's gift to the man who robbed him, with the silver he stole."
+      },
+      {
+        "from": 57,
+        "text": "The one thing from Digne Valjean has kept, on his mantel as M. Madeleine."
+      },
+      {
+        "from": 70,
+        "text": "Wrapped in an old shirt and carried off when Valjean fled Montreuil-sur-Mer."
+      },
+      {
+        "from": 346,
+        "text": "Buried for ten years with Madeleine's fortune in the forest of Montfermeil."
+      },
+      {
+        "from": 362,
+        "text": "Lit in broad daylight in Valjean's lonely room."
+      },
+      {
+        "from": 364,
+        "text": "Left to Cosette: silver, but to Valjean gold and diamonds. He died in their light."
+      }
+    ],
+    "description": [
+      {
+        "from": 6,
+        "text": "The Bishop has given away nearly everything. He still owns six silver knives and forks, a soup-ladle, and two massive silver candlesticks inherited from a great-aunt. He admits it would be hard to give them up. Madame Magloire locks the silver in a cupboard by his bed each night; the key is never taken out."
+      },
+      {
+        "from": 17,
+        "text": "When the convict Jean Valjean is let in and given a place at table, the Bishop says the lamp gives a poor light and has Madame Magloire bring the two candlesticks and light them."
+      },
+      {
+        "from": 19,
+        "text": "At bedtime the Bishop takes one candlestick, gives the other to his guest, and lights him through his own bedroom to the alcove."
+      },
+      {
+        "from": 25,
+        "text": "In the night Valjean takes the basket of silver from the cupboard by the sleeping Bishop's bed, and leaves the candlesticks."
+      },
+      {
+        "from": 26,
+        "text": "Gendarmes bring Valjean back with the silver. The Bishop greets him gladly: 'But I gave you the candlesticks too, which are silver like the rest. Why did you not carry them away?' He hands them over, and tells Valjean in a low voice never to forget that he has promised to use this silver to become an honest man. 'I buy your soul; I withdraw it from black thoughts and the spirit of perdition, and I give it to God.' Valjean has no memory of promising anything."
+      },
+      {
+        "from": 57,
+        "text": "After the theft from Little Gervais, Valjean sold the Bishop's silver but kept the candlesticks to remind himself where he started. He hid everything from the galleys and let the candlesticks be seen: they are the two silver candlesticks on M. Madeleine's mantel. On the night of his struggle over Champmathieu he burns his old convict clothes and seizes the candlesticks to melt them too, and a voice inside him cries 'Jean Valjean!'"
+      },
+      {
+        "from": 70,
+        "text": "Escaped from the town jail, he slips back into his room one last time, tears up an old shirt, and wraps the candlesticks in the strips, eating a crust of prison bread as he works. He leaves his money for the poor and goes."
+      },
+      {
+        "from": 346,
+        "text": "With M. Madeleine's money, withdrawn from Laffitte, he buried the candlesticks in the Blaru-bottom glade of the forest of Montfermeil. They lay there ten years, until he dug them up."
+      },
+      {
+        "from": 362,
+        "text": "On the chimneypiece of his room in the Rue de l'Homme Armé, Valjean puts two wax candles in them and lights them, though it is broad summer daylight, as candles are lit by day in a room where there is a corpse."
+      },
+      {
+        "from": 364,
+        "text": "Dying, he leaves them to Cosette: 'They are of silver, but to me they are gold, they are diamonds; they change candles which are placed in them into wax-tapers.' He does not know whether the man who gave them to him is pleased with him on high; he has done what he could. He dies with their light on his face."
+      }
+    ],
+    "moments": [
+      {
+        "chapter": 17,
+        "text": "Lit for Jean Valjean at the Bishop's table."
+      },
+      {
+        "chapter": 26,
+        "text": "Given to Valjean by the Bishop, who 'bought his soul' for God."
+      },
+      {
+        "chapter": 57,
+        "text": "Nearly melted down on the night of 'A Tempest in a Skull'."
+      },
+      {
+        "chapter": 70,
+        "text": "Wrapped in a shirt and taken from Montreuil-sur-Mer."
+      },
+      {
+        "chapter": 364,
+        "text": "Bequeathed to Cosette as Valjean died."
+      }
+    ]
+  },
+  {
+    "id": "the-forty-sou-piece",
+    "kind": "object",
+    "name": "The forty-sou piece",
+    "firstChapter": 27,
+    "importance": "minor",
+    "group": "Objects",
+    "tagline": [
+      {
+        "from": 27,
+        "text": "A little Savoyard's coin, which Valjean put his foot on and would not give back."
+      },
+      {
+        "from": 57,
+        "text": "The stolen coin that glints in the ashes of Valjean's convict clothes."
+      },
+      {
+        "from": 65,
+        "text": "Valjean's proof to the court at Arras, waiting in his fireplace."
+      },
+      {
+        "from": 90,
+        "text": "The theft that sent Valjean back to the galleys for life."
+      }
+    ],
+    "description": [
+      {
+        "from": 27,
+        "text": "Leaving Digne in turmoil the morning after the Bishop's gift, Valjean sits by a road while a little Savoyard chimney-sweep, Petit-Gervais, plays with his coins. One rolls to Valjean's feet and he puts his foot on it. The child begs for his forty sous, then cries, and Valjean, in a stupor, drives him off. Afterwards he sees the coin, comes to himself in horror, and runs the plain calling the boy's name, in vain. He weeps for the first time in nineteen years."
+      },
+      {
+        "from": 57,
+        "text": "The theft from Little Gervais makes Valjean a second offender, liable to the galleys for life. When he burns his old blouse and knapsack in the fireplace, something sparkles in the ashes: the forty-sou piece."
+      },
+      {
+        "from": 63,
+        "text": "At Arras the prosecution charges that Jean Valjean, just out of Toulon, robbed a Savoyard child on the highway, and reserves the right to try him for it once his identity is proved."
+      },
+      {
+        "from": 65,
+        "text": "Declaring himself, Valjean tells the court: 'You will find at my house, among the ashes in the fireplace, the forty-sou piece which I stole, seven years ago, from Little Gervais.'"
+      },
+      {
+        "from": 70,
+        "text": "The portress has picked it out of the ashes and set it on his table with the iron tips of his cudgel. He leaves them there with a note: these are the forty-sou piece stolen from Little Gervais and the tips of his cudgel, which he mentioned at the Assizes."
+      },
+      {
+        "from": 90,
+        "text": "In 1823 he is tried for the robbery of Petit-Gervais, condemned to death, and reprieved to hard labour for life."
+      }
+    ],
+    "moments": [
+      {
+        "chapter": 27,
+        "text": "Valjean kept it under his foot and drove the child away."
+      },
+      {
+        "chapter": 57,
+        "text": "Found in the ashes of his burnt convict clothes."
+      },
+      {
+        "chapter": 70,
+        "text": "Left on his table with a confession."
+      }
+    ]
+  },
+  {
+    "id": "the-orion",
+    "kind": "object",
+    "name": "The ship Orion",
+    "firstChapter": 92,
+    "importance": "minor",
+    "group": "Objects",
+    "tagline": [
+      {
+        "from": 92,
+        "text": "A battered warship repairing at Toulon, from whose rigging a convict fell and was reported drowned."
+      },
+      {
+        "from": 103,
+        "text": "The ship from which Jean Valjean swam to freedom."
+      }
+    ],
+    "description": [
+      {
+        "from": 92,
+        "text": "A ship of the Mediterranean squadron, later a training ship at Brest, which puts into Toulon in late October 1823 after heavy weather. Convicts are working aboard when a topman loses his footing and is left dangling from a yard. A white-haired life convict breaks his ankle chain with one hammer blow, climbs the rigging and saves him. Coming down, he falls between the ships and is not found. The Toulon paper reports the drowning of convict number 9,430, Jean Valjean."
+      },
+      {
+        "from": 103,
+        "text": "He was not dead. He fell, or rather threw himself, into the sea without his irons, swam underwater to a moored boat, hid there until night, and reached the shore."
+      }
+    ],
+    "moments": [
+      {
+        "chapter": 92,
+        "text": "A convict saved a sailor from its yard and vanished into the harbour."
+      },
+      {
+        "chapter": 103,
+        "text": "Revealed as Jean Valjean's way out of the galleys."
+      }
+    ]
+  },
+  {
+    "id": "the-doll",
+    "kind": "object",
+    "name": "The doll (Catherine)",
+    "firstChapter": 96,
+    "importance": "supporting",
+    "group": "Objects",
+    "aliases": [
+      {
+        "name": "the lady",
+        "from": 96,
+        "note": "what Cosette calls it in the shop window"
+      },
+      {
+        "name": "Catherine",
+        "from": 100,
+        "note": "the name Cosette gives it"
+      }
+    ],
+    "tagline": [
+      {
+        "from": 96,
+        "text": "A magnificent two-foot doll in a Montfermeil toy stall, which Cosette worships from the street."
+      },
+      {
+        "from": 100,
+        "text": "The doll a stranger buys Cosette on Christmas eve, which she names Catherine."
+      },
+      {
+        "from": 146,
+        "text": "The doll Cosette left behind, and misses in the convent."
+      },
+      {
+        "from": 364,
+        "text": "Remembered by Valjean on his deathbed."
+      }
+    ],
+    "description": [
+      {
+        "from": 96,
+        "text": "Opposite the Thénardiers' inn on Christmas eve, a toy stall shows on white napkins an immense doll nearly two feet high, in a pink crepe gown, with gold wheat-ears in real hair and enamel eyes, too dear for any mother in Montfermeil. Cosette, sent out for water, stops before 'the lady' and forgets her errand. She thinks one must be a queen, or at least a princess, to have such a thing."
+      },
+      {
+        "from": 99,
+        "text": "Walking back with the stranger, she tells him Ponine and Zelma will not let her play with their dolls; all she has is a little lead sword."
+      },
+      {
+        "from": 100,
+        "text": "Caught cradling Éponine and Azelma's discarded doll, Cosette is screamed at and weeps. The stranger goes out and comes back with the doll from the stall and sets it in front of her: 'It is for you.' She hardly dares touch it, names it Catherine, and sits on the floor before it, motionless. She goes to bed with it in her arms."
+      },
+      {
+        "from": 101,
+        "text": "Madame Thénardier cannot bear the sight of the doll given to Cosette in front of her own daughters."
+      },
+      {
+        "from": 103,
+        "text": "Carried into Paris on the stranger's back, Cosette falls asleep without letting go of Catherine."
+      },
+      {
+        "from": 105,
+        "text": "In the Gorbeau attic she wakes to find Catherine at the foot of her bed, and plays all day."
+      },
+      {
+        "from": 106,
+        "text": "Valjean spends hours watching her dress and undress her doll and listening to her prattle."
+      },
+      {
+        "from": 146,
+        "text": "In the convent Cosette misses it but dares not say so, until one day she tells Valjean: 'Father, if I had known, I would have brought her away with me.'"
+      },
+      {
+        "from": 220,
+        "text": "Thénardier, unmasking his prisoner in the Gorbeau garret, sneers at him as 'Mister giver of dolls'."
+      },
+      {
+        "from": 352,
+        "text": "Alone on Cosette's wedding night, Valjean lays out her childhood clothes and remembers her no taller than that, with her big doll in her arms."
+      },
+      {
+        "from": 364,
+        "text": "Dying, he reminds her: 'And the big doll! dost thou remember? Thou didst call her Catherine. Thou regrettedest not having taken her to the convent!'"
+      }
+    ],
+    "moments": [
+      {
+        "chapter": 96,
+        "text": "Cosette stood spellbound before it in the toy stall."
+      },
+      {
+        "chapter": 100,
+        "text": "The stranger bought it for Cosette, who named it Catherine."
+      },
+      {
+        "chapter": 146,
+        "text": "Cosette regretted leaving it behind."
+      }
+    ]
   }
 ]

@@ -93,29 +93,6 @@
       ]
     },
     {
-      "id": "saint-sulpice",
-      "name": "Saint-Sulpice",
-      "role": "setting",
-      "firstChapter": 20,
-      "precision": "exact",
-      "lonlat": [
-        2.3349,
-        48.851
-      ],
-      "radiusKm": 0.1,
-      "today": "The church of Saint-Sulpice, 6th arrondissement.",
-      "tagline": [
-        {
-          "from": 20,
-          "text": "Great church of the Left Bank, between the Luxembourg and Saint-Germain."
-        },
-        {
-          "from": 172,
-          "text": "Church where the churchwarden Mabeuf keeps his chair, and tells Marius of the man who stood behind the pillar."
-        }
-      ]
-    },
-    {
       "id": "cafe-musain",
       "name": "The Café Musain",
       "role": "setting",
@@ -185,37 +162,6 @@
       ]
     },
     {
-      "id": "the-luxembourg",
-      "name": "The Luxembourg garden",
-      "role": "setting",
-      "firstChapter": 34,
-      "precision": "exact",
-      "lonlat": [
-        2.337,
-        48.8462
-      ],
-      "radiusKm": 0.5,
-      "today": "The Jardin du Luxembourg, seat of the French Senate.",
-      "tagline": [
-        {
-          "from": 34,
-          "text": "The great garden of the Left Bank, loved by students and lovers."
-        },
-        {
-          "from": 188,
-          "text": "Garden where Marius notices a white-haired man and a girl on the same bench every day."
-        },
-        {
-          "from": 196,
-          "text": "Garden where the white-haired man and the girl no longer come."
-        },
-        {
-          "from": 314,
-          "text": "Deserted garden where two lost little boys hide by the swans' basin."
-        }
-      ]
-    },
-    {
       "id": "rue-de-l-ouest",
       "name": "The house in the Rue de l'Ouest",
       "role": "setting",
@@ -258,29 +204,6 @@
         {
           "from": 185,
           "text": "Little house and garden near the Salpêtrière where the ruined churchwarden lives with Mother Plutarque."
-        }
-      ]
-    },
-    {
-      "id": "rue-de-pontoise",
-      "name": "The police post in the Rue de Pontoise",
-      "role": "setting",
-      "firstChapter": 109,
-      "precision": "approximate",
-      "lonlat": [
-        2.3523,
-        48.8497
-      ],
-      "radiusKm": 0.06,
-      "today": "The Rue de Pontoise, 5th arrondissement, near the Seine.",
-      "tagline": [
-        {
-          "from": 109,
-          "text": "Street on the Left Bank with a commissary of police's office."
-        },
-        {
-          "from": 214,
-          "text": "Police post where Marius reports the trap to a tall, stern inspector."
         }
       ]
     },
@@ -481,33 +404,6 @@
       ]
     },
     {
-      "id": "saint-jacques-du-haut-pas",
-      "name": "Saint-Jacques-du-Haut-Pas",
-      "role": "setting",
-      "firstChapter": 33,
-      "precision": "exact",
-      "lonlat": [
-        2.341,
-        48.8414
-      ],
-      "radiusKm": 0.06,
-      "today": "The church still stands on the Rue Saint-Jacques, 5th arrondissement.",
-      "tagline": [
-        {
-          "from": 33,
-          "text": "Parish church on the Rue Saint-Jacques, near the Val-de-Grâce."
-        },
-        {
-          "from": 204,
-          "text": "Church where a charitable gentleman hears mass; Jondrette's begging letter seeks him there."
-        },
-        {
-          "from": 234,
-          "text": "Church where Valjean and Cosette give alms to the poor."
-        }
-      ]
-    },
-    {
       "id": "place-de-la-bastille",
       "name": "The Place de la Bastille",
       "role": "setting",
@@ -551,29 +447,6 @@
       ]
     },
     {
-      "id": "faubourg-saint-antoine",
-      "name": "The Faubourg Saint-Antoine",
-      "role": "mentioned",
-      "firstChapter": 111,
-      "precision": "exact",
-      "lonlat": [
-        2.379,
-        48.851
-      ],
-      "radiusKm": 0.8,
-      "today": "The Rue du Faubourg-Saint-Antoine, 11th and 12th arrondissements.",
-      "tagline": [
-        {
-          "from": 111,
-          "text": "Working-class suburb east of the Bastille."
-        },
-        {
-          "from": 227,
-          "text": "The faubourg of the cabinet-makers, Hugo's 'powder-house' of suffering and ideas."
-        }
-      ]
-    },
-    {
       "id": "faubourg-du-temple",
       "name": "The Faubourg du Temple",
       "role": "mentioned",
@@ -589,29 +462,6 @@
         {
           "from": 299,
           "text": "Where one of the two great barricades of June 1848 stood, at the canal."
-        }
-      ]
-    },
-    {
-      "id": "champ-de-mars",
-      "name": "The Champ-de-Mars",
-      "role": "setting",
-      "firstChapter": 28,
-      "precision": "exact",
-      "lonlat": [
-        2.2985,
-        48.8558
-      ],
-      "radiusKm": 0.6,
-      "today": "The park beneath the Eiffel Tower, built in 1889.",
-      "tagline": [
-        {
-          "from": 28,
-          "text": "Great parade-ground in front of the École Militaire."
-        },
-        {
-          "from": 263,
-          "text": "Lonely slopes where Valjean sits thinking of England when a warning note drops on his knees."
         }
       ]
     },
@@ -635,52 +485,6 @@
         {
           "from": 261,
           "text": "No. 16: the address Marius scratches on Cosette's garden wall."
-        }
-      ]
-    },
-    {
-      "id": "porte-saint-martin",
-      "name": "The Porte Saint-Martin",
-      "role": "mentioned",
-      "firstChapter": 98,
-      "precision": "exact",
-      "lonlat": [
-        2.3612,
-        48.8695
-      ],
-      "radiusKm": 0.1,
-      "today": "The arch still stands on the Boulevard Saint-Martin.",
-      "tagline": [
-        {
-          "from": 98,
-          "text": "Triumphal arch on the Grands Boulevards, with a popular theatre beside it."
-        },
-        {
-          "from": 268,
-          "text": "Point on the boulevard to which the crowd at Lamarque's funeral stretches."
-        }
-      ]
-    },
-    {
-      "id": "pont-d-austerlitz",
-      "name": "The Pont d'Austerlitz",
-      "role": "setting",
-      "firstChapter": 28,
-      "precision": "exact",
-      "lonlat": [
-        2.3665,
-        48.8445
-      ],
-      "radiusKm": 0.1,
-      "today": "The bridge still links the Gare d'Austerlitz to the Bastille side.",
-      "tagline": [
-        {
-          "from": 28,
-          "text": "Bridge over the Seine below the Jardin des Plantes."
-        },
-        {
-          "from": 268,
-          "text": "Bridge where Lafayette bids Lamarque farewell and the riot of 5 June breaks out."
         }
       ]
     },
@@ -780,29 +584,6 @@
         {
           "from": 227,
           "text": "Great church beside the Halles."
-        }
-      ]
-    },
-    {
-      "id": "les-halles",
-      "name": "Les Halles",
-      "role": "setting",
-      "firstChapter": 21,
-      "precision": "exact",
-      "lonlat": [
-        2.346,
-        48.8618
-      ],
-      "radiusKm": 0.3,
-      "today": "The old market halls were demolished in 1971; the Forum des Halles stands there now.",
-      "tagline": [
-        {
-          "from": 21,
-          "text": "The central markets of Paris."
-        },
-        {
-          "from": 285,
-          "text": "Market quarter where the troops bivouac around the black, silent streets of the insurrection."
         }
       ]
     },
@@ -981,7 +762,8 @@
           "from": 346,
           "text": "Glade in the forest of Montfermeil where M. Madeleine's money lay buried for ten years."
         }
-      ]
+      ],
+      "parent": "montfermeil-forest"
     },
     {
       "id": "saint-paul",
@@ -1049,29 +831,6 @@
         {
           "from": 359,
           "text": "Point beyond which the old man in black no longer walks."
-        }
-      ]
-    },
-    {
-      "id": "pere-lachaise",
-      "name": "Père-Lachaise",
-      "role": "setting",
-      "firstChapter": 142,
-      "precision": "exact",
-      "lonlat": [
-        2.396,
-        48.861
-      ],
-      "radiusKm": 0.6,
-      "today": "Père-Lachaise cemetery, 20th arrondissement.",
-      "tagline": [
-        {
-          "from": 142,
-          "text": "The great cemetery on the eastern hills of Paris, burial-place of the well-to-do."
-        },
-        {
-          "from": 365,
-          "text": "A nameless stone under a yew, in a deserted corner near the common grave."
         }
       ]
     }
@@ -1159,7 +918,8 @@
       "saint-sulpice"
     ],
     "173": [
-      "rue-des-filles-du-calvaire"
+      "rue-des-filles-du-calvaire",
+      "montfermeil"
     ],
     "174": [
       "vernon"

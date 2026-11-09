@@ -2012,5 +2012,159 @@
     "themes": [
       "light-darkness"
     ]
+  },
+  {
+    "chapter": 216,
+    "kind": "motif",
+    "title": "A bloody glow",
+    "text": "The moon on the snow fills Marius's room with twilight; through the hole in the partition comes a reddish light 'which seemed bloody to him', and no sound at all. Hugo stages the waiting like the moment before a curtain rises: crime advancing on one side, justice on the other, and Marius between them in his stockinged feet.",
+    "themes": [
+      "light-darkness"
+    ]
+  },
+  {
+    "chapter": 216,
+    "kind": "craft",
+    "title": "The mirror",
+    "text": "Sent to check that Marius's room is empty, the elder Jondrette girl walks straight to his bed, and past it, to the mirror. She smooths her hair and sings a love song: 'Our loves lasted a whole week.' Hugo turns a moment of pure suspense into a glimpse of a girl wanting to look pretty, in the one room where someone might look at her.",
+    "themes": [
+      "love",
+      "poverty"
+    ]
+  },
+  {
+    "chapter": 216,
+    "kind": "question",
+    "title": "There's no one here",
+    "text": "'I am looking under the bed and the furniture,' she says, while looking only in the mirror. Did she simply not look, or did she choose not to see?",
+    "themes": [
+      "love",
+      "conscience"
+    ]
+  },
+  {
+    "chapter": 216,
+    "kind": "theme",
+    "title": "Green silk boots",
+    "text": "'The idea of standing watch in the snow barefoot!' 'Tomorrow you shall have some dainty little green silk boots!' Jondrette sends his daughters out as lookouts for his crime and pays them in promises. The children are part of the machinery.",
+    "themes": [
+      "parenthood",
+      "poverty"
+    ]
+  },
+  {
+    "chapter": 217,
+    "kind": "craft",
+    "title": "Forge or mouth of hell",
+    "text": "Brazier, chisel heating in the coals, a heap of rope that turns out to be a rope ladder, burglars' tools, a kitchen knife tested on a thumbnail. Hugo lights the room by the brazier and lets the objects speak. 'One felt that there existed in it the anticipation of something terrible.'",
+    "themes": [
+      "light-darkness",
+      "mercy-law"
+    ]
+  },
+  {
+    "chapter": 217,
+    "kind": "motif",
+    "title": "Moonlight in the crimson room",
+    "text": "The white moonlight entering the red garret seems to Marius 'like a thought of heaven mingled with the misshapen reveries of earth'. Hugo notes wryly that he is 'dreamy even in the moment of action'. The light that shows him the scene is also the shadow that hides him when the Jondrette woman comes for his chairs.",
+    "themes": [
+      "light-darkness"
+    ]
+  },
+  {
+    "chapter": 217,
+    "kind": "theme",
+    "title": "To sit on",
+    "text": "'Two chairs will be needed here.' 'What for?' 'To sit on.' The mildness of the answer chills Marius more than the knife. Jondrette even pays for the cab with Marius's own five francs. Everything Marius gave in kindness is being turned to use.",
+    "themes": [
+      "poverty",
+      "mercy-law"
+    ]
+  },
+  {
+    "chapter": 217,
+    "kind": "craft",
+    "title": "The partition cracking",
+    "text": "Marius cocks his pistol; it clicks; Jondrette starts, then laughs: 'It's the partition cracking!' Hugo gives us a near-miss in the dark that tightens everything. The wall that has let Marius hear everything nearly gives him away.",
+    "themes": [
+      "light-darkness"
+    ]
+  },
+  {
+    "chapter": 218,
+    "kind": "craft",
+    "title": "Picture it yourself",
+    "text": "Hugo stops the action to ask the reader to build the scene: the snow like winding-sheets, the black elms, the single candle, two men at a table, the 'female wolf' in the corner and Marius behind the wall, pistol in hand. It is a tableau, the way a stage play would freeze before the climax.",
+    "themes": [
+      "light-darkness",
+      "paris"
+    ]
+  },
+  {
+    "chapter": 218,
+    "kind": "theme",
+    "title": "I shall be able to stop that wretch",
+    "text": "Marius feels horror but no fear. He holds the pistol, believes the police are near, and hopes the clash will at last tell him who the girl and her father are. Hugo marks the mix of motives honestly: the rescuer is also still the lover, waiting for information.",
+    "themes": [
+      "love",
+      "mercy-law"
+    ]
+  },
+  {
+    "chapter": 218,
+    "kind": "motif",
+    "title": "Four louis",
+    "text": "M. Leblanc arrives exactly at six and lays four gold louis on the table, 'for your rent and your most pressing necessities. We will attend to the rest hereafter.' He has kept his word to the letter. His serenity, Hugo says, makes him 'singularly venerable'.",
+    "themes": [
+      "mercy-law",
+      "poverty"
+    ]
+  },
+  {
+    "chapter": 219,
+    "kind": "motif",
+    "title": "Fabantou, alias Jondrette",
+    "text": "The wife slips and calls her husband Jondrette; M. Leblanc notices; 'An artistic sobriquet!' The aliases from the begging letters collide in one room. A man with too many names has trouble keeping them straight.",
+    "themes": [
+      "names"
+    ]
+  },
+  {
+    "chapter": 219,
+    "kind": "craft",
+    "title": "Men with black faces",
+    "text": "One by one, silently, men with blackened faces and bare tattooed arms slip in and sit on the beds. 'Chimney-builders,' says Jondrette. Hugo slows the count, one, then two, then four, so the trap closes on the reader at the same pace it closes on M. Leblanc.",
+    "themes": [
+      "light-darkness",
+      "names"
+    ]
+  },
+  {
+    "chapter": 219,
+    "kind": "theme",
+    "title": "Four sous a day",
+    "text": "Jondrette's long complaint about the paper-box trade, fourteen hours a day, thirteen handlings per box, for four sous, is a stalling tactic. It is also true. Hugo puts an accurate account of sweated labour in the mouth of a man setting a trap. Real misery and its exploitation are tangled together.",
+    "themes": [
+      "poverty"
+    ]
+  },
+  {
+    "chapter": 219,
+    "kind": "motif",
+    "title": "A signboard for a tavern",
+    "text": "The panel that stood face to the wall is turned round: a crude daub with one main figure. Jondrette calls it a masterpiece he loves like his daughters and asks a thousand crowns. M. Leblanc says it is 'some signboard for a tavern, and is worth about three francs'. Marius cannot see it at all.",
+    "themes": [
+      "names",
+      "history"
+    ]
+  },
+  {
+    "chapter": 219,
+    "kind": "question",
+    "title": "Do you know me?",
+    "text": "The whining stops; the little man becomes 'terrible' and shouts the question. The chapter ends on it. Who is Jondrette, and why does he need M. Leblanc to recognise him?",
+    "themes": [
+      "names"
+    ]
   }
 ]
