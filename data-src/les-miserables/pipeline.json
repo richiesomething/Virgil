@@ -2,46 +2,47 @@
   "book": "les-miserables",
   "stages": {
     "manifest": {
-      "status": "pending"
+      "status": "done"
     },
     "text": {
-      "status": "pending"
+      "status": "done"
     },
     "chapters": {
-      "status": "pending"
+      "status": "done"
     },
     "roster": {
-      "status": "pending"
+      "status": "done"
     },
     "reveals": {
-      "status": "pending"
+      "status": "done"
     },
     "cast": {
-      "status": "pending"
+      "status": "done"
     },
     "relationships": {
-      "status": "pending"
+      "status": "done"
     },
     "glossary": {
-      "status": "pending"
+      "status": "done"
     },
     "primers": {
-      "status": "pending"
+      "status": "done"
     },
     "recaps": {
-      "status": "pending"
+      "status": "done"
     },
     "atlas": {
-      "status": "pending"
+      "status": "done"
     },
     "understanding": {
-      "status": "pending"
+      "status": "done"
     },
     "timeline": {
-      "status": "pending"
+      "status": "skipped",
+      "note": "Told largely in order; flashbacks (Waterloo, the convent, Marius's childhood) are placed where Hugo tells them."
     },
     "review": {
-      "status": "pending"
+      "status": "done"
     },
     "publish": {
       "status": "pending"
