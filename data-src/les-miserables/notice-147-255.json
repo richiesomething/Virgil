@@ -2765,5 +2765,166 @@
       "poverty",
       "love"
     ]
+  },
+  {
+    "chapter": 233,
+    "kind": "motif",
+    "title": "A house built to hide",
+    "text": "The Rue Plumet house was made by an eighteenth-century judge to conceal a mistress: a back lodge to hide a child and nurse, a secret door, a walled lane winding a quarter of a league to the Rue de Babylone. Only the birds saw it. Hugo describes its architecture in detail because its whole design is concealment, and its new tenant has a great deal to conceal.",
+    "themes": [
+      "names",
+      "light-darkness"
+    ]
+  },
+  {
+    "chapter": 233,
+    "kind": "craft",
+    "title": "The narrator says it at last",
+    "text": "'This unobtrusive tenant was Jean Valjean, the young girl was Cosette.' Hugo confirms in his own voice what Thénardier shouted in the garret, and adds that the reader 'has, doubtless, been no less prompt than Thénardier' to see it. He kept the secret from Marius for a whole Book, but never really from us.",
+    "themes": [
+      "names"
+    ]
+  },
+  {
+    "chapter": 233,
+    "kind": "theme",
+    "title": "Happiness that might be theft",
+    "text": "Valjean left the convent because he was too happy there. He saw that keeping Cosette among the nuns, letting a vocation 'germinate' in her before she knew life, would be 'to rob a human creature of its nature and to lie to God'. The man once condemned for theft now examines his own love for any trace of stealing. His conscience is still the sharpest thing about him.",
+    "themes": [
+      "conscience",
+      "parenthood",
+      "love"
+    ]
+  },
+  {
+    "chapter": 233,
+    "kind": "motif",
+    "title": "The inseparable",
+    "text": "Valjean carries a small valise with an 'odor of embalming' that he never lets out of his sight and never opens before others. Cosette laughs and says she is jealous of it. Hugo states the fact and offers no explanation.",
+    "themes": [
+      "parenthood"
+    ]
+  },
+  {
+    "chapter": 233,
+    "kind": "theme",
+    "title": "Three addresses",
+    "text": "Besides the Rue Plumet house, Valjean rents two poor rooms in distant quarters, the Rue de l'Ouest and the Rue de l'Homme Armé, so he can vanish at a moment's warning. 'This lofty virtue had three domiciles in Paris for the sake of escaping from the police.' The reader now understands the flat Marius found empty, and the sudden flights.",
+    "themes": [
+      "mercy-law",
+      "names"
+    ]
+  },
+  {
+    "chapter": 234,
+    "kind": "theme",
+    "title": "Better than the master",
+    "text": "Cosette has the pavilion, the tapestries, the heated rooms; Valjean lives in the porter's lodge with a folding bed, no fire, and black bread. 'It is the young lady who is the mistress of this house.' 'And you, monsieur?' 'I am a much better thing than the master, I am the father.' Hugo shows love as self-denial in the smallest household details.",
+    "themes": [
+      "parenthood",
+      "love",
+      "poverty"
+    ]
+  },
+  {
+    "chapter": 234,
+    "kind": "context",
+    "title": "A convict in the National Guard",
+    "text": "The census of 1831 swept 'M. Fauchelevent' into the National Guard, the citizen militia of the July Monarchy. Valjean mounts guard willingly: the uniform is 'a correct disguise which mixed him with everyone'. The escaped galley-slave now patrols for public order. 'Within, the angel, without, the bourgeois.'",
+    "themes": [
+      "mercy-law",
+      "names",
+      "history"
+    ]
+  },
+  {
+    "chapter": 234,
+    "kind": "motif",
+    "title": "Two costumes",
+    "text": "With Cosette he dresses like a retired officer; alone, at night, he wears a workman's blouse and a cap over his face. 'Was this precaution or humility? Both.' The reader now knows what Marius glimpsed near the Invalides. Toussaint calls him a saint; her butcher calls him 'a queer fish'.",
+    "themes": [
+      "names",
+      "poverty"
+    ]
+  },
+  {
+    "chapter": 234,
+    "kind": "context",
+    "title": "The benevolent gentleman",
+    "text": "Valjean takes Cosette to Saint-Jacques-du-Haut-Pas because it is far away, gives generously to the poor of that district, and so draws Thénardier's begging letter. Hugo ties the threads together: his charity is what led him into the trap. Goodness in this book is never safe.",
+    "themes": [
+      "mercy-law",
+      "poverty"
+    ]
+  },
+  {
+    "chapter": 235,
+    "kind": "motif",
+    "title": "The garden that belongs to itself",
+    "text": "Left alone for half a century, the garden has become a thicket 'as impenetrable as a forest, as peopled as a city ... sombre like a cathedral'. Branches and weeds 'married' in 'the holy mystery of fraternity, symbol of the human fraternity'. Hugo makes the wild garden an image of what society might be if nothing blocked 'the sacred effort of things towards life'.",
+    "themes": [
+      "love",
+      "light-darkness"
+    ]
+  },
+  {
+    "chapter": 235,
+    "kind": "theme",
+    "title": "Nothing is small",
+    "text": "The digression widens from a Paris garden to the whole cosmos: 'the radiation of the star profits the rose', a nebula is 'an anthill of stars', and the universe is 'a machine made of mind ... the prime motor of which is the gnat'. It is Hugo's mystical side. Notice how it echoes the book's moral claim that no person is too small to matter.",
+    "themes": [
+      "light-darkness"
+    ]
+  },
+  {
+    "chapter": 236,
+    "kind": "theme",
+    "title": "Paphos made over into Eden",
+    "text": "A garden built for illicit love has 'returned to virginity and modesty' and is now 'arranged for love' of a purer kind. And 'there was, also, in this solitude, a heart which was quite ready'. Hugo is plainly setting a stage. The question is who will walk onto it.",
+    "themes": [
+      "love"
+    ]
+  },
+  {
+    "chapter": 236,
+    "kind": "theme",
+    "title": "Many mothers, no mother",
+    "text": "'All the nuns in the world are not worth as much as one mother in the formation of a young girl's soul.' Cosette had 'many mothers, in the plural', and an old man who 'knew nothing at all'. Hugo warns that convent ignorance leaves the heart to build its romances in the dark. It is one of his clearest statements about what a parent gives.",
+    "themes": [
+      "parenthood",
+      "light-darkness"
+    ]
+  },
+  {
+    "chapter": 236,
+    "kind": "motif",
+    "title": "Black bread",
+    "text": "'If you eat it, I will eat it too.' So Valjean eats white bread to stop Cosette eating black. She scolds him for his cold room and threatens to visit until he lights a fire. The man who went to the galleys over a loaf now gives up his bread of penance for the girl he loves.",
+    "themes": [
+      "love",
+      "parenthood",
+      "poverty"
+    ]
+  },
+  {
+    "chapter": 236,
+    "kind": "theme",
+    "title": "Perhaps this man is my mother",
+    "text": "Cosette prays for a mother she never knew and does not even know her name; whenever she asks, Valjean is silent, and once the smile ends in a tear. 'This silence ... covered Fantine with darkness.' Cosette imagines her mother's soul has passed into the old man. The reader knows the name, and the story, that he cannot bring himself to say.",
+    "themes": [
+      "parenthood",
+      "names",
+      "love"
+    ]
+  },
+  {
+    "chapter": 236,
+    "kind": "question",
+    "title": "Through martyrdom",
+    "text": "Cosette dreams of her mother with great wings and says she must have been 'almost a saint'. Valjean answers: 'Through martyrdom.' Is his silence about Fantine a kindness to Cosette, or a debt he is not paying?",
+    "themes": [
+      "parenthood",
+      "conscience"
+    ]
   }
 ]
