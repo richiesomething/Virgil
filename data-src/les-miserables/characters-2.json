@@ -273,7 +273,7 @@
   {
     "id": "maam-bougon",
     "name": "Ma'am Bougon",
-    "firstChapter": 192,
+    "firstChapter": 159,
     "importance": "minor",
     "group": "The Gorbeau house",
     "aliases": [
@@ -284,6 +284,10 @@
       }
     ],
     "tagline": [
+      {
+        "from": 159,
+        "text": "The old woman who keeps the Gorbeau house and sweeps its stairs."
+      },
       {
         "from": 192,
         "text": "The old portress of the Gorbeau house, astounded to see Marius go out in his new coat three days running."
@@ -298,6 +302,10 @@
       }
     ],
     "description": [
+      {
+        "from": 159,
+        "text": "The portress and housekeeper of the Gorbeau house on the Boulevard de l'Hôpital, a grumbling old woman who does what little cleaning the tenants get."
+      },
       {
         "from": 192,
         "text": "The 'principal tenant', portress and housekeeper of the Gorbeau house, the old woman who replaced Valjean's prying landlady. Her life has nothing remarkable in it but three parakeets, one after another. For three francs a month she sweeps Marius's room and brings his hot water, egg and roll. When he goes out in his new coat on three days in a row, she cannot get over it."
