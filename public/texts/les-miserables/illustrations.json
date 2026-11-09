@@ -264,11 +264,11 @@
       "chapter": 20,
       "from": "Towards the middle of the night Jean Valjean woke.",
       "file": "020-2.webp",
-      "width": 729,
+      "width": 774,
       "height": 1000,
       "caption": "Jean Valjean",
-      "source": "O-091",
-      "credit": "Gustave Brion, Les Misérables, 1862 (Wikimedia Commons)"
+      "source": "O-041",
+      "credit": "After Gustave Brion (1862), Les Misérables vignette, Maison de Victor Hugo / Paris Musées (CC0)"
     },
     {
       "chapter": 21,
@@ -2653,7 +2653,7 @@
       "file": "242-1.webp",
       "width": 817,
       "height": 1000,
-      "caption": "The old man on the stone bench by the hedge",
+      "caption": "M. Mabeuf on the stone bench by the hedge",
       "source": "O-060",
       "to": "What is it, Mother Plutarque?",
       "credit": "Drawing for Part IV, Book IV, “Secours d’en bas peut être secours d’en haut”, Maison de Victor Hugo (Wikimedia Commons)"
@@ -2942,16 +2942,6 @@
       "source": "P-096",
       "to": "Jean Valjean sprang hastily to his feet",
       "credit": "Wood engraving, Maison de Victor Hugo / Paris Musées (CC0)"
-    },
-    {
-      "chapter": 264,
-      "from": "Marius had left M. Gillenormand in despair",
-      "file": "264-1.webp",
-      "width": 1000,
-      "height": 745,
-      "caption": "Marius",
-      "source": "O-084",
-      "credit": "Gustave Brion, “Marius”, photographic reproduction of a drawing, 1862 (Wikimedia Commons)"
     },
     {
       "chapter": 265,
