@@ -3066,5 +3066,168 @@
       "love",
       "parenthood"
     ]
+  },
+  {
+    "chapter": 240,
+    "kind": "craft",
+    "title": "A vision at daybreak",
+    "text": "Hugo builds the chain-gang out of the dark like an apparition: a confused shape, wheels, the clank of something like chains, then faces turned to 'the faces of corpses' by the first light. We see it before we understand it, exactly as Cosette does. Then the sun rises and sets 'fire to all those ferocious heads'.",
+    "themes": [
+      "light-darkness",
+      "mercy-law"
+    ]
+  },
+  {
+    "chapter": 240,
+    "kind": "theme",
+    "title": "Twenty-four men to a chain",
+    "text": "Iron collars, one chain for all, guards with cudgels flogging even the sick, children running behind 'screaming with laughter', an old woman telling her son 'let that be a warning to you!' Hugo calls it Dante's seven circles on the march. This is what the law does with the men Book VII called the products of ignorance and misery.",
+    "themes": [
+      "mercy-law",
+      "poverty"
+    ]
+  },
+  {
+    "chapter": 240,
+    "kind": "theme",
+    "title": "Five and thirty years before",
+    "text": "Valjean cannot move his feet. He remembers that this is the usual route, chosen to keep the convoy out of the king's sight, and that he himself passed this barrier thirty-five years ago. The reader saw him leave Toulon. Here, for the first time in years, his past drives by in daylight with the woman he loves beside him.",
+    "themes": [
+      "mercy-law",
+      "conscience",
+      "history"
+    ]
+  },
+  {
+    "chapter": 240,
+    "kind": "theme",
+    "title": "Are they still men?",
+    "text": "'Father, are they still men?' 'Sometimes,' answers the unhappy man. That night Cosette says that if she met one of those men she would die at the sight. She has no idea what she is saying, or to whom. The single word 'sometimes' carries everything Valjean has lived.",
+    "themes": [
+      "mercy-law",
+      "conscience",
+      "parenthood"
+    ]
+  },
+  {
+    "chapter": 240,
+    "kind": "motif",
+    "title": "Shelter in a uniform",
+    "text": "To take Cosette's mind off the convicts, Valjean takes her to the public fêtes in his National Guard uniform, 'with the vague inward feeling of a man who is betaking himself to shelter'. Earlier he envied a general's gold lace. A uniform is the opposite of a convict's red blouse, and he hides inside it.",
+    "themes": [
+      "names",
+      "mercy-law"
+    ]
+  },
+  {
+    "chapter": 240,
+    "kind": "craft",
+    "title": "What are the galleys like?",
+    "text": "Days later, on a sunny morning, Cosette pulls a daisy apart, 'without a suspicion that to pluck a daisy apart is to do the same by a heart', and asks over her shoulder: 'Father, what are the galleys like?' Hugo ends the chapter on the question, without an answer.",
+    "themes": [
+      "mercy-law",
+      "love"
+    ]
+  },
+  {
+    "chapter": 241,
+    "kind": "craft",
+    "title": "The burn, seen from home",
+    "text": "The morning after the Gorbeau trap, Valjean appears 'calm as was his wont' with a burned arm he explains 'in some way or other', and refuses a doctor. The reader knows exactly how he got it. Hugo makes us see the heroic scene from the other side: at home it looks like a minor accident kept secret.",
+    "themes": [
+      "names",
+      "love"
+    ]
+  },
+  {
+    "chapter": 241,
+    "kind": "theme",
+    "title": "What a good misfortune!",
+    "text": "Nursing him, Cosette returns to his lodge and reads to him, and his fears about the young man dissolve. 'Oh! what a kindly wound!' He even feels grateful to the Thénardiers. The torture they meant for him has given him back his daughter for a month.",
+    "themes": [
+      "love",
+      "parenthood"
+    ]
+  },
+  {
+    "chapter": 241,
+    "kind": "motif",
+    "title": "Light falls into cellars",
+    "text": "'In spring, sad souls grow light, as light falls into cellars at midday.' April brings Cosette back to life without her noticing. Hugo ties the inner weather to the season, as he did when Marius first saw her change on a summer morning.",
+    "themes": [
+      "light-darkness",
+      "love"
+    ]
+  },
+  {
+    "chapter": 242,
+    "kind": "theme",
+    "title": "There is the sun",
+    "text": "Mabeuf owes three quarters' rent, has no wood, no meat, no bread on credit. 'What will you warm yourself with this winter?' 'There is the sun.' His serenity is almost saintly and almost foolish. Gavroche, listening under the hedge, decides not to steal his apples.",
+    "themes": [
+      "poverty",
+      "light-darkness"
+    ]
+  },
+  {
+    "chapter": 242,
+    "kind": "theme",
+    "title": "The hardest of all work is thieving",
+    "text": "Valjean pins Montparnasse to the ground and delivers a long sermon on idleness: the rolling-mill of crime, the rope of torn sheets, the hollowed sou with its watch-spring saw, twenty years in and out at fifty 'broken, bent ... with white locks'. He is describing his own life. The reader has seen the sou; Montparnasse has no idea who is speaking.",
+    "themes": [
+      "mercy-law",
+      "conscience",
+      "poverty"
+    ]
+  },
+  {
+    "chapter": 242,
+    "kind": "motif",
+    "title": "My purse? Here it is",
+    "text": "The sermon ends with Valjean handing over his purse to the young thief, as the Bishop once handed over his candlesticks. 'The blockhead!' says Montparnasse. Hugo has shown us the gesture before. The question is whether it can work twice, on a different kind of man.",
+    "themes": [
+      "mercy-law",
+      "conscience"
+    ]
+  },
+  {
+    "chapter": 242,
+    "kind": "theme",
+    "title": "Fallen from heaven",
+    "text": "Gavroche picks the purse from Montparnasse's pocket and throws it over the hedge to Mabeuf. The money passes from a saint to a thief to a street boy to a starving old man in a few minutes. 'That has fallen from heaven,' says Mother Plutarque. Providence in this book often works through the most unlikely hands.",
+    "themes": [
+      "poverty",
+      "mercy-law",
+      "conscience"
+    ]
+  },
+  {
+    "chapter": 243,
+    "kind": "theme",
+    "title": "Passion calmed or lulled to sleep",
+    "text": "Spring heals Cosette faster than Marius. 'Why! I no longer think of him.' Hugo is blunt about the difference: Marius buries himself in sorrow, Cosette plunges in and comes out again. 'Whose fault was it? No one's.' It is an unusually unromantic observation from a romantic narrator.",
+    "themes": [
+      "love"
+    ]
+  },
+  {
+    "chapter": 243,
+    "kind": "craft",
+    "title": "The lancer again",
+    "text": "The officer passing the gate every day, with waxed moustache and cigar, is Théodule Gillenormand, Marius's cousin, the aunt's favourite and the comic spy of Book III. Hugo enjoys the coincidence. Théodule, for his part, cannot be bothered to look at every girl who looks at him.",
+    "themes": [
+      "love",
+      "names"
+    ]
+  },
+  {
+    "chapter": 243,
+    "kind": "motif",
+    "title": "Marble column or wine-shop post",
+    "text": "An orphan girl's heart is like a vine tendril that clings to whatever is nearest, 'the capital of a marble column or ... the post of a wine-shop'. Hugo warns that a poor unknown young man may be the column and a polished man of the world the post. The image asks the reader to judge suitors from the inside, as he asked us to judge Marius.",
+    "themes": [
+      "love",
+      "parenthood"
+    ]
   }
 ]
