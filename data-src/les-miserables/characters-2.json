@@ -1148,5 +1148,869 @@
         "text": "Showed in a stranger in green spectacles."
       }
     ]
+  },
+  {
+    "id": "digne",
+    "kind": "place",
+    "name": "Digne",
+    "firstChapter": 1,
+    "importance": "minor",
+    "group": "Places",
+    "aliases": [
+      {
+        "name": "D——",
+        "from": 1,
+        "note": "how Hugo often abbreviates it"
+      }
+    ],
+    "tagline": [
+      {
+        "from": 1,
+        "text": "The small mountain see in the south of France where M. Myriel is bishop."
+      },
+      {
+        "from": 15,
+        "text": "The town that turned away a ragged ex-convict from every door but one."
+      },
+      {
+        "from": 27,
+        "text": "Where the Bishop gave Jean Valjean his silver and told him he had bought his soul for God."
+      }
+    ],
+    "description": [
+      {
+        "from": 1,
+        "text": "A cathedral town in the Alps of Provence, seat of the bishop M. Myriel since 1806. Its diocese is nearly all mountain and nearly roadless, with thirty-two curacies and hundreds of chapels, and the Bishop visits them on foot, by cart or on a donkey."
+      },
+      {
+        "from": 2,
+        "text": "Three days after arriving, the Bishop gives his spacious palace to the cramped hospital next door and moves into the hospital's little house. The town calls him Monseigneur Bienvenu."
+      },
+      {
+        "from": 10,
+        "text": "Digne shuns the old member of the Convention who lives alone outside the town as a near-regicide; only its bishop visits him, and kneels for his blessing. After nine years the town loves its bishop, even while it adores the emperor he snubbed."
+      },
+      {
+        "from": 15,
+        "text": "In October 1815 a traveller in rags with a knapsack and a cudgel walks into Digne at dusk. Both inns refuse him, the prison will not take him, a family drives him from its door, and even a dog's kennel throws him out. An old woman points him to the little house beside the Bishop's palace."
+      },
+      {
+        "from": 27,
+        "text": "He leaves Digne the next morning with the Bishop's silver and candlesticks, as if fleeing. On the plain outside the town he steals forty sous from a little Savoyard, searches for the boy in vain, and weeps for the first time in nineteen years. That night he is seen kneeling at the Bishop's door."
+      },
+      {
+        "from": 43,
+        "text": "Early in 1820 the papers announce the death of Monseigneur Bienvenu, Bishop of Digne, blind in his last years and tended by his sister."
+      }
+    ],
+    "moments": [
+      {
+        "chapter": 2,
+        "text": "The Bishop gave his palace to the hospital."
+      },
+      {
+        "chapter": 15,
+        "text": "Every door in town shut on Jean Valjean."
+      },
+      {
+        "chapter": 26,
+        "text": "The Bishop gave Valjean the candlesticks and 'bought his soul' for God."
+      },
+      {
+        "chapter": 43,
+        "text": "The Bishop of Digne died."
+      }
+    ]
+  },
+  {
+    "id": "toulon",
+    "kind": "place",
+    "name": "The galleys of Toulon",
+    "firstChapter": 17,
+    "importance": "minor",
+    "group": "Places",
+    "aliases": [
+      {
+        "name": "the bagne",
+        "from": 20
+      }
+    ],
+    "tagline": [
+      {
+        "from": 17,
+        "text": "The naval prison where Jean Valjean spent nineteen years."
+      },
+      {
+        "from": 54,
+        "text": "The galleys whose old convicts and guards swear they know Jean Valjean."
+      },
+      {
+        "from": 90,
+        "text": "Where Jean Valjean is sent back for life, as convict number 9,430."
+      },
+      {
+        "from": 103,
+        "text": "The prison Valjean escaped by falling into its harbour."
+      }
+    ],
+    "description": [
+      {
+        "from": 17,
+        "text": "The traveller turned away all over Digne tells the Bishop's household plainly what he is: Jean Valjean, nineteen years in the galleys, freed four days ago, carrying a yellow passport that marks him as very dangerous wherever he shows it."
+      },
+      {
+        "from": 20,
+        "text": "He was sent there in 1796 for breaking a baker's window and stealing a loaf for his sister's starving children, and became number 24,601. Attempts to escape stretched five years to nineteen."
+      },
+      {
+        "from": 21,
+        "text": "The galleys made a hard, silent, hating man of him. He was worth four men at the capstan and was nicknamed Jean the Jackscrew after holding up a balcony of the Toulon town hall on his shoulders. He learned to climb the inside angle of two walls with only his back, elbows and heels."
+      },
+      {
+        "from": 54,
+        "text": "Javert was once a guard at Toulon. So the old convicts Brevet, Chenildieu and Cochepaille, and Javert himself, can all swear before the Arras court that the apple-thief Champmathieu is the Jean Valjean they knew there."
+      },
+      {
+        "from": 90,
+        "text": "In July 1823 the recaptured Jean Valjean is tried for robbing Little Gervais, condemned to death and reprieved to hard labour for life, and taken back to Toulon. He is now number 9,430."
+      },
+      {
+        "from": 92,
+        "text": "In late October 1823 the warship Orion puts into Toulon harbour for repairs, and convicts are working aboard when a sailor is left hanging from a yard. The Toulon paper reports that convict 9,430, Jean Valjean, drowned saving him."
+      },
+      {
+        "from": 103,
+        "text": "He threw himself into the harbour unchained, swam underwater to a moored boat, hid there until night, and reached the shore near Cape Brun. From there he made his way north to Paris."
+      },
+      {
+        "from": 253,
+        "text": "Hugo's history of slang goes down to the cellar of the old Châtelet, where men bound for Toulon were chained standing in the mud, and where nearly all the galley songs were born."
+      }
+    ],
+    "moments": [
+      {
+        "chapter": 20,
+        "text": "Jean Valjean became prisoner 24,601 in 1796."
+      },
+      {
+        "chapter": 90,
+        "text": "Valjean was sent back for life as number 9,430."
+      },
+      {
+        "chapter": 92,
+        "text": "A convict fell from the Orion's rigging into the harbour and was reported drowned."
+      }
+    ]
+  },
+  {
+    "id": "montreuil-sur-mer",
+    "kind": "place",
+    "name": "Montreuil-sur-Mer",
+    "firstChapter": 29,
+    "importance": "supporting",
+    "group": "Places",
+    "aliases": [
+      {
+        "name": "M. sur M.",
+        "from": 40,
+        "note": "Hugo's usual abbreviation"
+      }
+    ],
+    "tagline": [
+      {
+        "from": 29,
+        "text": "The northern town where Fantine was born."
+      },
+      {
+        "from": 40,
+        "text": "A town of black-glass trinket makers, made rich by a stranger who arrived in 1815."
+      },
+      {
+        "from": 41,
+        "text": "The prosperous town whose factory owner, M. Madeleine, is now its mayor."
+      },
+      {
+        "from": 57,
+        "text": "The town where Jean Valjean has lived for eight years as M. Madeleine."
+      },
+      {
+        "from": 90,
+        "text": "A town fallen back into poverty since its mayor was arrested."
+      }
+    ],
+    "description": [
+      {
+        "from": 29,
+        "text": "Fantine's birthplace, in the north of France. She had no known parents and no family name, and left it as a child."
+      },
+      {
+        "from": 37,
+        "text": "Left with no money and a child to hide, Fantine thinks of going back to her native town, where someone might know her and give her work, so long as no one learns about Cosette."
+      },
+      {
+        "from": 40,
+        "text": "The town has always lived by imitating English jet and German black glass, a trade held back by the cost of its raw material. At the end of 1815 a stranger in workman's clothes arrived on a December evening, ran into a burning town hall to save two children, and was never asked for his passport. He changed the materials and the method, cut the costs, raised the wages, and made the whole town prosperous. Fantine finds it transformed."
+      },
+      {
+        "from": 41,
+        "text": "Father Madeleine's factory takes anyone willing to be honest, men and women apart. His money builds schools, a hospital wing and a fund for old workmen. In 1820 he is made mayor."
+      },
+      {
+        "from": 44,
+        "text": "The town has one sceptic, the police inspector Javert, who watches the mayor."
+      },
+      {
+        "from": 47,
+        "text": "It is a small town, and in small towns gossip rules. A pious widow pays for a trip to Montfermeil to find out about Fantine's letters, and spreads the news of her child. Fantine is dismissed from the factory in the mayor's name and told to leave the district."
+      },
+      {
+        "from": 49,
+        "text": "She cannot leave for her debts. In the town where she was born she sells her hair, then her two front teeth, and finally herself."
+      },
+      {
+        "from": 57,
+        "text": "The mayor's secret is now told: M. Madeleine is Jean Valjean, who settled here after Digne to hide his name and to do good. The candlesticks on his mantel are the Bishop's."
+      },
+      {
+        "from": 65,
+        "text": "When the mayor of Montreuil-sur-Mer stands up in court at Arras and declares himself Jean Valjean, the town loses him."
+      },
+      {
+        "from": 70,
+        "text": "Javert arrests him beside Fantine's deathbed. He breaks out of the town jail, slips back into his house one last time, and leaves for Paris."
+      },
+      {
+        "from": 90,
+        "text": "Without him the town's prosperity collapses. Rival manufacturers set up, methods and products are debased, workshops close, wages fall, bankruptcy follows, and the poor are left with nothing. Within four years the cost of collecting the district's taxes has doubled."
+      },
+      {
+        "from": 346,
+        "text": "Cosette's six hundred thousand francs are what M. Madeleine earned at Montreuil-sur-Mer, withdrawn from Laffitte's bank in time and buried for ten years in the forest of Montfermeil."
+      }
+    ],
+    "moments": [
+      {
+        "chapter": 40,
+        "text": "A stranger saved two children from the burning town hall on the night he arrived."
+      },
+      {
+        "chapter": 41,
+        "text": "M. Madeleine became mayor."
+      },
+      {
+        "chapter": 47,
+        "text": "Fantine was dismissed from the factory."
+      },
+      {
+        "chapter": 90,
+        "text": "The town's industry collapsed after the mayor's arrest."
+      }
+    ]
+  },
+  {
+    "id": "the-sergeant-of-waterloo",
+    "kind": "place",
+    "name": "The Sergeant of Waterloo (the Montfermeil inn)",
+    "firstChapter": 37,
+    "importance": "supporting",
+    "group": "Places",
+    "aliases": [
+      {
+        "name": "the Thénardiers' inn",
+        "from": 37
+      }
+    ],
+    "tagline": [
+      {
+        "from": 37,
+        "text": "A cook-shop at Montfermeil, near Paris, kept by the Thénardiers, under a sign of one soldier carrying another."
+      },
+      {
+        "from": 39,
+        "text": "The inn where Cosette is a drudge and the Thénardiers' daughters are queens."
+      },
+      {
+        "from": 101,
+        "text": "The inn from which a stranger took Cosette away on Christmas morning, 1823."
+      },
+      {
+        "from": 173,
+        "text": "A failed and shuttered inn; its landlord has vanished."
+      },
+      {
+        "from": 220,
+        "text": "Its old signboard turns up in a Paris garret, offered as 'a picture by a master'."
+      }
+    ],
+    "description": [
+      {
+        "from": 37,
+        "text": "In the spring of 1818 Fantine stops at a low cook-shop in Montfermeil because two little girls are swinging, laughing, in the loop of a chain under a wrecked cart outside it. The sign above the door is a daub of a man carrying a general on his back through smoke and blood, lettered 'Au Sargent de Waterloo'. She asks the landlady to keep her child. A man's voice from inside sets the terms: seven francs a month, fifty-seven francs in advance, and the child's fine clothes into the bargain."
+      },
+      {
+        "from": 38,
+        "text": "The landlord, Thénardier, says he was a sergeant in the 1815 campaign and painted the sign himself to record a feat of arms. Hugo pointedly reserves judgement on how much of that is true. The house is failing, and Fantine's money goes straight to pay one of its notes."
+      },
+      {
+        "from": 39,
+        "text": "The Thénardiers pawn Cosette's clothes, dress her in rags and feed her under the table with the dog and cat, while they keep raising the price they charge her mother. Before she is five she is sweeping, carrying and running errands. The village calls her the Lark."
+      },
+      {
+        "from": 94,
+        "text": "By 1823 the inn is going badly. Thénardier tells customers that at Waterloo he carried a gravely wounded general out of the grapeshot, which is how the house got its sign and its name. Hugo says he in fact followed the armies as a marauding sutler."
+      },
+      {
+        "from": 95,
+        "text": "On Christmas eve 1823 the inn is full of carters and pedlars drinking, and a pedlar's horse needs water. Across the street a toy stall shows a magnificent doll, and Cosette is sent out into the dark to fetch water from the spring."
+      },
+      {
+        "from": 100,
+        "text": "A shabby stranger who came in with her and the bucket is charged double. He buys Cosette the doll from the stall and leaves a gold louis in her wooden shoe."
+      },
+      {
+        "from": 101,
+        "text": "Before dawn he pays a padded bill and fifteen hundred francs to take Cosette away, and the two walk out of Montfermeil on the road to Livry."
+      },
+      {
+        "from": 171,
+        "text": "Colonel Pontmercy's note says the sergeant who saved him now keeps a little inn near Paris, at Chelles or Montfermeil."
+      },
+      {
+        "from": 173,
+        "text": "Marius goes to Montfermeil to find it. The inn has failed and closed, and no one knows where Thénardier has gone."
+      },
+      {
+        "from": 220,
+        "text": "The daub Jondrette tried to sell M. Leblanc for a thousand crowns is the old sign: a battle, smoke, one man carrying another. Marius sees in it his father's rescue."
+      }
+    ],
+    "moments": [
+      {
+        "chapter": 37,
+        "text": "Fantine left Cosette with the Thénardiers here."
+      },
+      {
+        "chapter": 100,
+        "text": "A stranger bought Cosette the doll from the stall across the street."
+      },
+      {
+        "chapter": 101,
+        "text": "Cosette left the inn for good with the stranger."
+      },
+      {
+        "chapter": 173,
+        "text": "Marius found the inn closed and its landlord gone."
+      }
+    ]
+  },
+  {
+    "id": "waterloo",
+    "kind": "place",
+    "name": "Waterloo",
+    "firstChapter": 71,
+    "importance": "supporting",
+    "group": "Places",
+    "aliases": [
+      {
+        "name": "Mont-Saint-Jean",
+        "from": 74,
+        "note": "the plateau at the heart of the battle"
+      },
+      {
+        "name": "the hollow road of Ohain",
+        "from": 77,
+        "note": "the sunken road that swallowed the cuirassiers"
+      }
+    ],
+    "tagline": [
+      {
+        "from": 71,
+        "text": "The Belgian battlefield of 18 June 1815, walked by the narrator in 1861."
+      },
+      {
+        "from": 79,
+        "text": "Where Napoleon's cuirassiers rode into a hidden sunken road and filled it with their bodies."
+      },
+      {
+        "from": 84,
+        "text": "The battle where the Guard died and the Empire ended."
+      },
+      {
+        "from": 89,
+        "text": "A field of the dead, robbed by night, where a prowler pulled an officer named Pontmercy out alive."
+      },
+      {
+        "from": 169,
+        "text": "The battle that made Georges Pontmercy a colonel and a baron, an hour before he fell."
+      }
+    ],
+    "description": [
+      {
+        "from": 71,
+        "text": "In May 1861 the narrator, walking from Nivelles, comes to an old walled farm with a cannonball hole in its gate. It is Hougomont, and he is standing on the field of Waterloo."
+      },
+      {
+        "from": 72,
+        "text": "At Hougomont, Napoleon's first obstacle, three thousand men died in one enclosure; its well was filled with corpses. Now a peasant will explain the battle for three francs."
+      },
+      {
+        "from": 73,
+        "text": "Hugo argues that the rain of 17–18 June lost Napoleon the battle: the wet ground delayed his guns until half-past eleven and gave Blücher time to come. He sets out not to write military history but to judge 'like the populace'."
+      },
+      {
+        "from": 74,
+        "text": "He lays the field out as a capital A: the two roads its legs, the sunken road from Ohain its crossbar, Wellington on the plateau of Mont-Saint-Jean at its apex, Napoleon at its foot."
+      },
+      {
+        "from": 79,
+        "text": "At four o'clock Ney's three thousand five hundred cuirassiers charge up the slope at the English squares, and the leading ranks find the hollow road of Ohain at their horses' feet. It fills with men and horses. Hugo declares that God had decided Napoleon's fall."
+      },
+      {
+        "from": 81,
+        "text": "The 'cloud' Napoleon took for Grouchy is Bülow's Prussians, led out of the woods by a shepherd who knew the one road fit for artillery."
+      },
+      {
+        "from": 84,
+        "text": "The Guard goes into the fight knowing it will die. The army breaks and runs, and the last square, under Cambronne, answers a call to surrender with a single obscene word. Hugo calls that word the true victory of the day."
+      },
+      {
+        "from": 87,
+        "text": "Hugo refuses to like Waterloo. It was the monarchies of Europe defeating the Revolution, and yet even the Restoration that followed had to grant a charter."
+      },
+      {
+        "from": 89,
+        "text": "After the last shot, marauders strip the dead by moonlight. One of them, with a sutler's cart waiting nearby, robs a buried officer in the hollow road and in doing so drags him out alive. The officer thanks his 'rescuer', who gives his name as Thénardier. His own is Pontmercy."
+      },
+      {
+        "from": 94,
+        "text": "In Thénardier's version, told over his inn's counter at Montfermeil, he carried a wounded general out of the grapeshot. His sign shows it."
+      },
+      {
+        "from": 169,
+        "text": "Georges Pontmercy, chief of a squadron of cuirassiers, took the standard of the Lunenburg battalion and threw it at the Emperor's feet, his face cut open. Napoleon made him colonel, baron and officer of the Legion of Honour on the spot. An hour later he fell into the ravine of Ohain."
+      },
+      {
+        "from": 171,
+        "text": "His dying note tells Marius that a sergeant named Thénardier saved his life on that field. Marius believes it, and so the robbery becomes, for him, a debt."
+      },
+      {
+        "from": 180,
+        "text": "At the Café Musain a passing mention of Waterloo sets off Marius's passionate defence of Napoleon before the Friends of the A.B.C."
+      },
+      {
+        "from": 363,
+        "text": "Marius pays the debt at last: 'Waterloo protects you,' he tells Thénardier, and Thénardier corrects him that it was a general."
+      }
+    ],
+    "moments": [
+      {
+        "chapter": 79,
+        "text": "The cuirassiers fell into the hollow road of Ohain."
+      },
+      {
+        "chapter": 84,
+        "text": "Cambronne's last square refused to surrender."
+      },
+      {
+        "chapter": 89,
+        "text": "Thénardier robbed Pontmercy and was thanked for saving him."
+      },
+      {
+        "chapter": 169,
+        "text": "Pontmercy was made colonel and baron by Napoleon on the field."
+      }
+    ]
+  },
+  {
+    "id": "gorbeau-house",
+    "kind": "place",
+    "name": "The Gorbeau house",
+    "firstChapter": 104,
+    "importance": "supporting",
+    "group": "Places",
+    "aliases": [
+      {
+        "name": "the Gorbeau hovel",
+        "from": 104
+      },
+      {
+        "name": "No. 50–52 Boulevard de l'Hôpital",
+        "from": 104
+      }
+    ],
+    "tagline": [
+      {
+        "from": 104,
+        "text": "A decrepit house on the bleak southern edge of Paris, where Valjean hides with Cosette."
+      },
+      {
+        "from": 108,
+        "text": "The hiding-place Valjean flees at night when Javert takes a room in it."
+      },
+      {
+        "from": 159,
+        "text": "A house now full of poor lodgers: the Jondrettes in one garret, a young man called M. Marius next door."
+      },
+      {
+        "from": 205,
+        "text": "Where a hole in a partition lets Marius watch the Jondrettes' den."
+      },
+      {
+        "from": 212,
+        "text": "The house where a trap is being laid for a benefactor."
+      },
+      {
+        "from": 221,
+        "text": "The scene of the Thénardier ambush, raided by Javert."
+      }
+    ],
+    "description": [
+      {
+        "from": 104,
+        "text": "Numbered 50–52 on the Boulevard de l'Hôpital, in the waste lands near the Salpêtrière where Paris turns into nothing. It is known by the name of an old lawyer, Maître Gorbeau, said to have owned it. From the road it looks like a hovel, but it is enormous inside: a door and one big patched window on the street, a steep ladder of a staircase, and a long corridor of rooms more like stalls than chambers. Around it lie the city wall, the road to Bicêtre and the Salpêtrière, neither city nor country."
+      },
+      {
+        "from": 105,
+        "text": "Jean Valjean carries the sleeping Cosette into a prepared attic on Christmas night 1823. In the morning she gets up expecting to work and is told to play. They live there for weeks in great quiet and happiness, he discovering love and she being loved."
+      },
+      {
+        "from": 107,
+        "text": "The only other occupant is the old woman who keeps the house. She watches Valjean, sees his thousand-franc note, and talks about it."
+      },
+      {
+        "from": 108,
+        "text": "A new lodger arrives and listens at Valjean's door by night. Valjean sees his back at dawn and knows him for Javert. He leaves with Cosette at nightfall."
+      },
+      {
+        "from": 118,
+        "text": "Javert had traced 'the beggar who gives alms' here, rented a room, and listened at his door, and the old woman warned him when Valjean was about to go."
+      },
+      {
+        "from": 159,
+        "text": "Eight or nine years later the house is full, every lodger poor. The old portress is dead and another has replaced her. The poorest household is a family of four in one garret who call themselves Jondrette; their son, the gamin Gavroche, visits every two or three months and finds nothing there for him. The neighbour across the partition is a poor young man known as M. Marius."
+      },
+      {
+        "from": 183,
+        "text": "Marius has a fireless closet here for thirty francs a year, and pays the portress three francs a month to sweep it and bring his breakfast."
+      },
+      {
+        "from": 186,
+        "text": "He secretly pays twenty francs of rent to save the Jondrettes from being evicted."
+      },
+      {
+        "from": 202,
+        "text": "By the winter of 1832 almost all the lodgers have gone except Marius and the Jondrettes."
+      },
+      {
+        "from": 205,
+        "text": "High in the thin wall between Marius's room and the Jondrettes' garret he finds a triangular hole. He climbs onto his commode and looks into a filthy den with leprous walls and obscene charcoal drawings, two pallets and a brazier."
+      },
+      {
+        "from": 208,
+        "text": "Through the hole Marius watches the girl of the Luxembourg and M. Leblanc arrive with clothes and blankets for the family he thought he knew."
+      },
+      {
+        "from": 212,
+        "text": "The house will be empty at six: the neighbour dines out, the portress washes dishes in town. Jondrette prepares a brazier, a chisel, ropes and a rope ladder, and four blackened men wait in an empty attic along the corridor."
+      },
+      {
+        "from": 220,
+        "text": "So the house has held them both. The white-haired benefactor tied up in the garret is the man who once fled this house with Cosette, and Jondrette is Thénardier."
+      },
+      {
+        "from": 221,
+        "text": "Javert comes in at the door and takes the whole gang, but the victim gets out through the window."
+      },
+      {
+        "from": 222,
+        "text": "Gavroche kicks at the locked door the next night and is told his whole family is in prison."
+      },
+      {
+        "from": 229,
+        "text": "Marius leaves the house the morning after the ambush, to escape being a witness, and moves in with Courfeyrac."
+      },
+      {
+        "from": 355,
+        "text": "Marius never told Cosette about the Gorbeau drama. Now that he knows her guardian was a convict, he concludes that Valjean fled the ambush because he was a fugitive."
+      },
+      {
+        "from": 363,
+        "text": "Thénardier's letter brings the Jondrette garret straight back to Marius by its smell and handwriting. Marius tells Thénardier he saw him in his lair on the Boulevard de l'Hôpital."
+      }
+    ],
+    "moments": [
+      {
+        "chapter": 105,
+        "text": "Valjean brought Cosette here after Montfermeil."
+      },
+      {
+        "chapter": 108,
+        "text": "Javert took a room; Valjean and Cosette fled."
+      },
+      {
+        "chapter": 205,
+        "text": "Marius found the hole in the partition."
+      },
+      {
+        "chapter": 220,
+        "text": "Jondrette named himself Thénardier in the ambushed garret."
+      },
+      {
+        "chapter": 221,
+        "text": "Javert raided the garret and arrested the gang."
+      }
+    ]
+  },
+  {
+    "id": "petit-picpus",
+    "kind": "place",
+    "name": "The convent of the Petit-Picpus",
+    "firstChapter": 111,
+    "importance": "supporting",
+    "group": "Places",
+    "aliases": [
+      {
+        "name": "No. 62 Rue Petit-Picpus",
+        "from": 119
+      },
+      {
+        "name": "the Bernardines of the Perpetual Adoration",
+        "from": 119
+      }
+    ],
+    "tagline": [
+      {
+        "from": 111,
+        "text": "A lost old quarter of Paris where Valjean, hunted, runs into a blind alley."
+      },
+      {
+        "from": 114,
+        "text": "A vast silent garden behind a high wall, and a dark building where women sing."
+      },
+      {
+        "from": 117,
+        "text": "A convent of cloistered nuns, where old Fauchelevent is gardener."
+      },
+      {
+        "from": 119,
+        "text": "The strictest convent in Paris, where Hugo pauses the story to study the cloister."
+      },
+      {
+        "from": 145,
+        "text": "Valjean's refuge: he is its second gardener, Cosette a pupil."
+      },
+      {
+        "from": 233,
+        "text": "The convent Valjean and Cosette left so that she could choose her own life."
+      }
+    ],
+    "description": [
+      {
+        "from": 111,
+        "text": "Fleeing Javert across the Pont d'Austerlitz, Valjean takes the road to the open country and finds himself in the Petit-Picpus, an old quarter Hugo traces on a 1727 plan of Paris. He is trapped between a blind alley and a sentinel."
+      },
+      {
+        "from": 112,
+        "text": "At the angle of the Rue Droit-Mur and the Rue Polonceau stands a sombre building whose drainpipe will not bear his weight and whose great door is only boarding over stone."
+      },
+      {
+        "from": 113,
+        "text": "He climbs the wall with Cosette tied to a lantern rope and drops into a garden as Javert's men search the alley."
+      },
+      {
+        "from": 114,
+        "text": "Inside: a vast, melancholy garden, façades barred and dark. A hymn of women's voices rises from the building and both of them kneel."
+      },
+      {
+        "from": 115,
+        "text": "Through a lighted window Valjean sees a shrouded figure lying face down with arms outstretched and what looks like a rope round its neck, and flees in terror."
+      },
+      {
+        "from": 117,
+        "text": "A man with a bell on his knee is covering melons against the frost. He is Fauchelevent, the carter Valjean saved, placed here as gardener. The house is a convent; the bell warns the nuns to keep away from the only man allowed in the garden."
+      },
+      {
+        "from": 119,
+        "text": "Number 62 Rue Petit-Picpus: a carriage gate, a stair, a grated hole, a password, and a parlour where a veiled nun may speak and never be seen. It is the convent of the Bernardines-Benedictines of Martin Verga, of the Perpetual Adoration."
+      },
+      {
+        "from": 120,
+        "text": "Their rule: black habits, fasts, scourging, silence, night offices, and the reparation, in which a nun lies twelve hours face down before the sacrament with a rope round her neck. That was the figure Valjean saw. Only the prioress may deal with the outside world, through the parlour."
+      },
+      {
+        "from": 121,
+        "text": "Novices take the veil to the office of the dead. Attached to the convent is a school for well-born girls, who see even their mothers only through bars."
+      },
+      {
+        "from": 124,
+        "text": "The enclosure holds the Great Convent, the school, and the Little Convent, a refuge for old nuns of orders destroyed by the Revolution. The church is built so that no one in the cloister can see a face from outside."
+      },
+      {
+        "from": 125,
+        "text": "In 1819–1825 its prioress is the learned and merry Mother Innocente. The house talks by a code of bells, and the pupils see only two men besides the archbishop and the gardener: an old, ugly chaplain and a hunchbacked drawing-master."
+      },
+      {
+        "from": 129,
+        "text": "By 1840 the school and the Little Convent were gone and the nuns had dwindled to a handful. Hugo explains that he has entered this house because it is part of Jean Valjean's story, and that he looks at it with respect but without belief."
+      },
+      {
+        "from": 137,
+        "text": "Closing his 'Parenthesis' on convents, Hugo condemns monasticism as history but salutes the person who kneels. There must be some, he says, who pray constantly for those who never pray."
+      },
+      {
+        "from": 138,
+        "text": "To stay, Valjean must first get out and come back in by the door. Any man found in the garden would be discovered by the pupils."
+      },
+      {
+        "from": 145,
+        "text": "The plan works. A nun is buried in secret under the chapel altar, Valjean leaves in her official coffin and comes back by the front door as Ultime Fauchelevent, and Cosette is admitted as a charity pupil."
+      },
+      {
+        "from": 146,
+        "text": "Years pass. Valjean gardens beside Fauchelevent, sees Cosette an hour a day, and never goes out. He compares this cloister with the galleys, is humbled by women doing penance for others' sins, and prays every evening outside the chapel window."
+      },
+      {
+        "from": 233,
+        "text": "When Fauchelevent died, Valjean asked himself whether he had the right to keep Cosette there before she was old enough to choose. He took her out of the convent and moved to the Rue Plumet."
+      },
+      {
+        "from": 347,
+        "text": "The nuns, never sure which Fauchelevent Cosette belonged to, give glowing references when Valjean makes her the dead gardener's orphan daughter for her marriage."
+      }
+    ],
+    "moments": [
+      {
+        "chapter": 113,
+        "text": "Valjean scaled the wall with Cosette, escaping Javert."
+      },
+      {
+        "chapter": 117,
+        "text": "Fauchelevent recognised Father Madeleine in the garden."
+      },
+      {
+        "chapter": 145,
+        "text": "Valjean was admitted as gardener and Cosette as pupil."
+      },
+      {
+        "chapter": 233,
+        "text": "Valjean and Cosette left the convent."
+      }
+    ]
+  },
+  {
+    "id": "rue-des-filles-du-calvaire",
+    "kind": "place",
+    "name": "The house in the Rue des Filles-du-Calvaire",
+    "firstChapter": 161,
+    "importance": "minor",
+    "group": "Places",
+    "aliases": [
+      {
+        "name": "No. 6 Rue des Filles-du-Calvaire",
+        "from": 161
+      },
+      {
+        "name": "the Gillenormand house",
+        "from": 161
+      }
+    ],
+    "tagline": [
+      {
+        "from": 161,
+        "text": "M. Gillenormand's house in the Marais, shut all day, open after dinner."
+      },
+      {
+        "from": 175,
+        "text": "The house Marius was ordered out of."
+      },
+      {
+        "from": 338,
+        "text": "Where Marius is carried home, apparently dead, from the barricade."
+      },
+      {
+        "from": 350,
+        "text": "Where Marius and Cosette marry and set up house."
+      },
+      {
+        "from": 356,
+        "text": "The house where M. Fauchelevent is received each evening in a damp room downstairs."
+      }
+    ],
+    "description": [
+      {
+        "from": 161,
+        "text": "M. Gillenormand owns No. 6 in the Marais and lives in a vast first-floor apartment between street and garden, hung with Gobelins and Beauvais tapestries, with a little staircase from his window down into the garden."
+      },
+      {
+        "from": 166,
+        "text": "He retired here after eighty. The door stays shut all day and opens only after dinner at five."
+      },
+      {
+        "from": 171,
+        "text": "Besides the porter, the household is a maid called Nicolette and a valet called Basque."
+      },
+      {
+        "from": 175,
+        "text": "In the salon Marius tells his grandfather what his father was, shouts 'Down with the Bourbons!', and is told 'Be off!'. He leaves with thirty francs."
+      },
+      {
+        "from": 262,
+        "text": "Four years later he rings at its door to ask permission to marry, and leaves it again, insulted."
+      },
+      {
+        "from": 294,
+        "text": "On the barricade Marius writes a note asking that his body be carried to his grandfather, M. Gillenormand, 6 Rue des Filles-du-Calvaire, in the Marais."
+      },
+      {
+        "from": 332,
+        "text": "Deep in the sewer Valjean reads that note in Marius's pocketbook and knows where to take him."
+      },
+      {
+        "from": 338,
+        "text": "Javert's coach stops at its knocker of goat and satyr at night. The porter, Basque, Nicolette and the aunt are woken and Marius is laid on a sofa in the antechamber; the grandfather is left asleep."
+      },
+      {
+        "from": 343,
+        "text": "Marius lies here for months between life and death. Every day a well-dressed white-haired gentleman calls at the porter's lodge and leaves lint."
+      },
+      {
+        "from": 347,
+        "text": "The couple are to live here. The grandfather gives up his own room, hung with buttercup satin, and turns his library into Marius's study."
+      },
+      {
+        "from": 351,
+        "text": "The wedding party comes back here on 16 February 1833. Marius climbs in triumph the stairs he was carried up dying, and at the banquet one armchair beside the bride stays empty."
+      },
+      {
+        "from": 356,
+        "text": "M. Fauchelevent asks to be received not upstairs but in a damp, cobwebbed ground-floor room."
+      },
+      {
+        "from": 358,
+        "text": "Then the fire in that room is not lit, the armchairs go, and he understands he is being shown the door."
+      },
+      {
+        "from": 363,
+        "text": "Here, in Marius's study, Thénardier comes to sell a secret and gives away the truth."
+      }
+    ],
+    "moments": [
+      {
+        "chapter": 175,
+        "text": "Marius was turned out by his grandfather."
+      },
+      {
+        "chapter": 338,
+        "text": "Marius was brought home from the barricade at night."
+      },
+      {
+        "chapter": 351,
+        "text": "The wedding banquet was held here."
+      },
+      {
+        "chapter": 363,
+        "text": "Thénardier's visit revealed who had saved Marius."
+      }
+    ]
   }
 ]

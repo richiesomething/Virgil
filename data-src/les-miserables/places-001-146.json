@@ -1,0 +1,2772 @@
+{
+  "places": [
+    {
+      "id": "digne",
+      "name": "Digne",
+      "role": "setting",
+      "firstChapter": 1,
+      "precision": "exact",
+      "lonlat": [
+        6.2346,
+        44.0918
+      ],
+      "today": "Digne-les-Bains, prefecture of the Alpes-de-Haute-Provence.",
+      "tagline": [
+        {
+          "from": 1,
+          "text": "Small cathedral town in the mountains of Provence, seat of Bishop Myriel’s poor, roadless diocese."
+        },
+        {
+          "from": 15,
+          "text": "Mountain town where every door is shut on a released convict except the Bishop’s."
+        }
+      ]
+    },
+    {
+      "id": "bishops-house",
+      "name": "The Bishop’s house",
+      "role": "setting",
+      "firstChapter": 2,
+      "precision": "approximate",
+      "lonlat": [
+        6.2353,
+        44.0926
+      ],
+      "radiusKm": 0.15,
+      "parent": "digne",
+      "today": "Hugo’s model was Bishop Miollis, Bishop of Digne from 1805 to 1838.",
+      "tagline": [
+        {
+          "from": 2,
+          "text": "The cramped old hospital the Bishop takes in exchange for his palace; its door is never locked."
+        },
+        {
+          "from": 17,
+          "text": "The Bishop’s little house, where a convict is given the alcove bed and the silver candlesticks are lit."
+        },
+        {
+          "from": 26,
+          "text": "The Bishop’s little house, where the gendarmes bring back the silver and the Bishop gives away his candlesticks too."
+        }
+      ]
+    },
+    {
+      "id": "cross-of-colbas",
+      "name": "The Cross of Colbas",
+      "role": "mentioned",
+      "firstChapter": 15,
+      "precision": "approximate",
+      "lonlat": [
+        6.2362,
+        44.0912
+      ],
+      "radiusKm": 0.2,
+      "parent": "digne",
+      "tagline": [
+        {
+          "from": 15,
+          "text": "Digne’s best inn, whose landlord Jacquin Labarre turns the traveller away."
+        }
+      ]
+    },
+    {
+      "id": "the-conventionarys-hut",
+      "name": "G—’s hut",
+      "role": "setting",
+      "firstChapter": 10,
+      "precision": "unknown",
+      "parent": "digne",
+      "tagline": [
+        {
+          "from": 10,
+          "text": "The hidden valley near Digne where the old member of the Convention lives alone and dies."
+        }
+      ]
+    },
+    {
+      "id": "aix",
+      "name": "Aix",
+      "role": "mentioned",
+      "firstChapter": 1,
+      "precision": "exact",
+      "lonlat": [
+        5.4474,
+        43.5297
+      ],
+      "today": "Aix-en-Provence.",
+      "tagline": [
+        {
+          "from": 1,
+          "text": "Old Provençal capital, where Myriel’s father was a magistrate."
+        }
+      ]
+    },
+    {
+      "id": "brignoles",
+      "name": "Brignolles",
+      "role": "mentioned",
+      "firstChapter": 1,
+      "precision": "exact",
+      "lonlat": [
+        6.0614,
+        43.4058
+      ],
+      "today": "Brignoles, Var.",
+      "tagline": [
+        {
+          "from": 1,
+          "text": "Provençal town where Myriel was curé before he became a bishop."
+        }
+      ]
+    },
+    {
+      "id": "senez",
+      "name": "Senez",
+      "role": "mentioned",
+      "firstChapter": 2,
+      "precision": "exact",
+      "lonlat": [
+        6.3975,
+        43.9122
+      ],
+      "tagline": [
+        {
+          "from": 2,
+          "text": "Mountain village and old bishopric of the diocese; the Bishop rides in on an ass."
+        }
+      ]
+    },
+    {
+      "id": "embrun",
+      "name": "Embrun",
+      "role": "mentioned",
+      "firstChapter": 2,
+      "precision": "exact",
+      "lonlat": [
+        6.4956,
+        44.5636
+      ],
+      "tagline": [
+        {
+          "from": 2,
+          "text": "Alpine town with an old cathedral, Notre-Dame d’Embrun."
+        },
+        {
+          "from": 7,
+          "text": "Alpine town whose cathedral sacristy the brigand Cravatte robbed."
+        }
+      ]
+    },
+    {
+      "id": "briancon",
+      "name": "Briançon",
+      "role": "mentioned",
+      "firstChapter": 3,
+      "precision": "exact",
+      "lonlat": [
+        6.6436,
+        44.8986
+      ],
+      "tagline": [
+        {
+          "from": 3,
+          "text": "High Alpine town the Bishop holds up as an example: there widows and orphans mow first."
+        },
+        {
+          "from": 103,
+          "text": "High Alpine town near which the escaped convict left traces of his flight."
+        }
+      ]
+    },
+    {
+      "id": "barcelonnette",
+      "name": "Barcelonnette",
+      "role": "mentioned",
+      "firstChapter": 7,
+      "precision": "exact",
+      "lonlat": [
+        6.6522,
+        44.3872
+      ],
+      "tagline": [
+        {
+          "from": 7,
+          "text": "Alpine valley town; Cravatte’s band hides in the mountains above it."
+        }
+      ],
+      "aliases": [
+        {
+          "name": "Barcelonette",
+          "from": 7
+        }
+      ]
+    },
+    {
+      "id": "grasse",
+      "name": "Grasse",
+      "role": "mentioned",
+      "firstChapter": 2,
+      "precision": "exact",
+      "lonlat": [
+        6.9239,
+        43.6589
+      ],
+      "tagline": [
+        {
+          "from": 2,
+          "text": "Hill town above the Riviera and old seat of a bishop."
+        },
+        {
+          "from": 23,
+          "text": "Perfume town where Valjean, a day out of the galleys, is paid half wages and warned of the prison."
+        }
+      ]
+    },
+    {
+      "id": "toulon",
+      "name": "The galleys of Toulon",
+      "role": "setting",
+      "firstChapter": 17,
+      "precision": "exact",
+      "lonlat": [
+        5.92,
+        43.12
+      ],
+      "today": "The bagne of Toulon, inside the naval arsenal, closed in 1873.",
+      "tagline": [
+        {
+          "from": 17,
+          "text": "Naval port of Provence and its galleys, where Jean Valjean served nineteen years."
+        },
+        {
+          "from": 20,
+          "text": "The galleys where Valjean became No. 24,601 and tried four times to escape."
+        },
+        {
+          "from": 90,
+          "text": "The galleys, to which Valjean is sent back for life as No. 9,430."
+        },
+        {
+          "from": 92,
+          "text": "The naval port, where the damaged Orion puts in for repairs and a convict falls from the rigging."
+        }
+      ],
+      "aliases": [
+        {
+          "name": "Toulon",
+          "from": 17
+        }
+      ]
+    },
+    {
+      "id": "pontarlier",
+      "name": "Pontarlier",
+      "role": "mentioned",
+      "firstChapter": 17,
+      "precision": "exact",
+      "lonlat": [
+        6.3547,
+        46.9035
+      ],
+      "tagline": [
+        {
+          "from": 17,
+          "text": "Town in the Jura, near the Swiss border, where the convict says he is bound; famed for its cheese-dairies."
+        }
+      ]
+    },
+    {
+      "id": "faverolles",
+      "name": "Faverolles",
+      "role": "mentioned",
+      "firstChapter": 20,
+      "precision": "approximate",
+      "lonlat": [
+        3.1764,
+        49.2236
+      ],
+      "radiusKm": 3,
+      "today": "Hugo places it in Brie; the Faverolles he had in mind is usually taken to be this village near Villers-Cotterêts, in the Aisne.",
+      "tagline": [
+        {
+          "from": 20,
+          "text": "Village where Valjean was a tree-pruner and stole a loaf for his sister’s children."
+        }
+      ]
+    },
+    {
+      "id": "bicetre",
+      "name": "Bicêtre",
+      "role": "mentioned",
+      "firstChapter": 20,
+      "precision": "exact",
+      "lonlat": [
+        2.363,
+        48.81
+      ],
+      "today": "Now the Bicêtre hospital, Le Kremlin-Bicêtre.",
+      "tagline": [
+        {
+          "from": 20,
+          "text": "Prison south of Paris where the chain-gangs were riveted before the march to the galleys."
+        }
+      ]
+    },
+    {
+      "id": "cape-brun",
+      "name": "Cape Brun",
+      "role": "mentioned",
+      "firstChapter": 103,
+      "precision": "exact",
+      "lonlat": [
+        5.9686,
+        43.1093
+      ],
+      "tagline": [
+        {
+          "from": 103,
+          "text": "Headland east of Toulon harbour where the swimmer came ashore by night."
+        }
+      ],
+      "aliases": [
+        {
+          "name": "Cap Brun",
+          "from": 103
+        }
+      ]
+    },
+    {
+      "id": "balaguier",
+      "name": "Balaguier",
+      "role": "mentioned",
+      "firstChapter": 103,
+      "precision": "exact",
+      "lonlat": [
+        5.911,
+        43.0944
+      ],
+      "tagline": [
+        {
+          "from": 103,
+          "text": "Shore across Toulon roads, where a country house outfitted escaped convicts with clothes."
+        }
+      ]
+    },
+    {
+      "id": "le-beausset",
+      "name": "Pradeaux, near Le Beausset",
+      "role": "mentioned",
+      "firstChapter": 103,
+      "precision": "approximate",
+      "lonlat": [
+        5.8007,
+        43.1988
+      ],
+      "radiusKm": 3,
+      "tagline": [
+        {
+          "from": 103,
+          "text": "Village north-west of Toulon, the first stage of the escaped convict’s flight."
+        }
+      ]
+    },
+    {
+      "id": "accous",
+      "name": "Accons",
+      "role": "mentioned",
+      "firstChapter": 103,
+      "precision": "approximate",
+      "lonlat": [
+        -0.5987,
+        42.9749
+      ],
+      "radiusKm": 3,
+      "today": "Probably Accous, in the Aspe valley.",
+      "tagline": [
+        {
+          "from": 103,
+          "text": "Pyrenean village where traces of the fugitive were later found."
+        }
+      ]
+    },
+    {
+      "id": "perigueux",
+      "name": "Périgueux",
+      "role": "mentioned",
+      "firstChapter": 103,
+      "precision": "exact",
+      "lonlat": [
+        0.716,
+        45.184
+      ],
+      "tagline": [
+        {
+          "from": 103,
+          "text": "Town in the Périgord, a last trace of the fugitive before Paris."
+        }
+      ],
+      "aliases": [
+        {
+          "name": "Perigueux",
+          "from": 103
+        }
+      ]
+    },
+    {
+      "id": "toulouse",
+      "name": "Toulouse",
+      "role": "mentioned",
+      "firstChapter": 29,
+      "precision": "exact",
+      "lonlat": [
+        1.4442,
+        43.6047
+      ],
+      "tagline": [
+        {
+          "from": 29,
+          "text": "Southern city, Tholomyès’s home."
+        },
+        {
+          "from": 36,
+          "text": "Southern city, where the Toulouse diligence carries the four students home."
+        }
+      ]
+    },
+    {
+      "id": "fontevrault",
+      "name": "Fontevrault",
+      "role": "mentioned",
+      "firstChapter": 127,
+      "precision": "exact",
+      "lonlat": [
+        0.0514,
+        47.181
+      ],
+      "today": "Fontevraud Abbey.",
+      "tagline": [
+        {
+          "from": 127,
+          "text": "Great royal abbey on the Loire, the centenarian nun’s first convent."
+        }
+      ]
+    },
+    {
+      "id": "paris",
+      "name": "Paris",
+      "role": "setting",
+      "firstChapter": 1,
+      "precision": "exact",
+      "lonlat": [
+        2.3488,
+        48.8534
+      ],
+      "tagline": [
+        {
+          "from": 1,
+          "text": "The capital, where Myriel caught Napoleon’s eye."
+        },
+        {
+          "from": 28,
+          "text": "Restoration Paris in 1817, the city of the four students and their grisettes."
+        },
+        {
+          "from": 98,
+          "text": "Paris, where a white-haired stranger in a yellow coat looks for lodgings on its southern edge."
+        }
+      ]
+    },
+    {
+      "id": "saint-cloud",
+      "name": "Saint-Cloud",
+      "role": "setting",
+      "firstChapter": 30,
+      "precision": "exact",
+      "lonlat": [
+        2.215,
+        48.843
+      ],
+      "tagline": [
+        {
+          "from": 30,
+          "text": "Park and palace west of Paris, where the four couples spend their summer Sunday."
+        }
+      ]
+    },
+    {
+      "id": "issy",
+      "name": "Issy",
+      "role": "setting",
+      "firstChapter": 31,
+      "precision": "exact",
+      "lonlat": [
+        2.27,
+        48.824
+      ],
+      "today": "Issy-les-Moulineaux.",
+      "tagline": [
+        {
+          "from": 31,
+          "text": "Village south-west of Paris, with Bourguin’s park and its swing."
+        }
+      ]
+    },
+    {
+      "id": "bombardas",
+      "name": "Bombarda’s",
+      "role": "setting",
+      "firstChapter": 32,
+      "precision": "approximate",
+      "lonlat": [
+        2.3105,
+        48.8652
+      ],
+      "radiusKm": 0.3,
+      "parent": "paris",
+      "tagline": [
+        {
+          "from": 32,
+          "text": "Restaurant in the Champs-Élysées, looking over the quay and the river, where the picnic ends at dinner."
+        },
+        {
+          "from": 36,
+          "text": "Restaurant in the Champs-Élysées where the four girls wait for their ‘surprise’."
+        }
+      ]
+    },
+    {
+      "id": "jardin-des-plantes",
+      "name": "The Jardin des Plantes",
+      "role": "mentioned",
+      "firstChapter": 28,
+      "precision": "exact",
+      "lonlat": [
+        2.3597,
+        48.8437
+      ],
+      "parent": "paris",
+      "tagline": [
+        {
+          "from": 28,
+          "text": "The botanical garden and menagerie on the Left Bank."
+        },
+        {
+          "from": 110,
+          "text": "The botanical garden on the Left Bank, skirted by its lower streets on the way to the river."
+        }
+      ]
+    },
+    {
+      "id": "boulevard-de-l-hopital",
+      "name": "The Boulevard de l’Hôpital",
+      "role": "setting",
+      "firstChapter": 64,
+      "precision": "exact",
+      "lonlat": [
+        2.3595,
+        48.8375
+      ],
+      "parent": "paris",
+      "tagline": [
+        {
+          "from": 64,
+          "text": "Bleak boulevard on the southern edge of Paris, by the Salpêtrière."
+        },
+        {
+          "from": 98,
+          "text": "Bleak, deserted boulevard by the Salpêtrière, where the man in the yellow coat hires a room."
+        }
+      ]
+    },
+    {
+      "id": "gorbeau-house",
+      "name": "The Gorbeau house",
+      "role": "setting",
+      "firstChapter": 104,
+      "precision": "approximate",
+      "lonlat": [
+        2.3585,
+        48.835
+      ],
+      "radiusKm": 0.15,
+      "parent": "boulevard-de-l-hopital",
+      "today": "Demolished; the house and its exact site are Hugo’s, on a boulevard that still exists.",
+      "tagline": [
+        {
+          "from": 104,
+          "text": "Ramshackle tenement, No. 50–52 Boulevard de l’Hôpital, at the corner of the Rue des Vignes-Saint-Marcel."
+        },
+        {
+          "from": 105,
+          "text": "Ramshackle tenement on the Boulevard de l’Hôpital, where Jean Valjean and Cosette take the attic."
+        },
+        {
+          "from": 108,
+          "text": "Ramshackle tenement on the Boulevard de l’Hôpital, which Valjean and Cosette flee by night."
+        }
+      ]
+    },
+    {
+      "id": "saint-medard",
+      "name": "Saint-Médard",
+      "role": "mentioned",
+      "firstChapter": 107,
+      "precision": "exact",
+      "lonlat": [
+        2.3505,
+        48.8399
+      ],
+      "parent": "paris",
+      "tagline": [
+        {
+          "from": 107,
+          "text": "Parish church near the Gorbeau house, where Valjean gives alms at nightfall."
+        }
+      ]
+    },
+    {
+      "id": "rue-des-postes",
+      "name": "The Rue des Postes",
+      "role": "setting",
+      "firstChapter": 109,
+      "precision": "exact",
+      "lonlat": [
+        2.3484,
+        48.8413
+      ],
+      "parent": "paris",
+      "today": "Renamed the Rue Lhomond.",
+      "tagline": [
+        {
+          "from": 109,
+          "text": "Old street of the Mouffetard quarter where Valjean, hidden in a doorway, watches four men confer."
+        }
+      ]
+    },
+    {
+      "id": "pont-d-austerlitz",
+      "name": "The Pont d’Austerlitz",
+      "role": "setting",
+      "firstChapter": 110,
+      "precision": "exact",
+      "lonlat": [
+        2.3661,
+        48.845
+      ],
+      "parent": "paris",
+      "today": "Rebuilt in stone in 1854 on the same site.",
+      "tagline": [
+        {
+          "from": 110,
+          "text": "Toll bridge over the Seine below the Jardin des Plantes; two sous for a man carrying a child."
+        }
+      ]
+    },
+    {
+      "id": "rue-du-chemin-vert",
+      "name": "The Rue du Chemin-Vert-Saint-Antoine",
+      "role": "setting",
+      "firstChapter": 110,
+      "precision": "approximate",
+      "lonlat": [
+        2.37,
+        48.8455
+      ],
+      "radiusKm": 0.25,
+      "parent": "paris",
+      "today": "Hugo’s street; the quarter between the bridge and the Faubourg Saint-Antoine was rebuilt from top to bottom.",
+      "tagline": [
+        {
+          "from": 110,
+          "text": "Little street between two walled timber-yards, opening off the right bank above the bridge."
+        },
+        {
+          "from": 142,
+          "text": "Little street off the right bank, where a deaf fruit-seller minds Cosette for a day."
+        }
+      ]
+    },
+    {
+      "id": "petit-picpus",
+      "name": "The convent of the Petit-Picpus",
+      "role": "setting",
+      "firstChapter": 111,
+      "precision": "approximate",
+      "lonlat": [
+        2.3745,
+        48.847
+      ],
+      "radiusKm": 0.35,
+      "parent": "paris",
+      "today": "The convent, the Rue Polonceau and the Rue Droit-Mur are Hugo’s invention, set on ground later covered by the Mazas prison, the Boulevard Diderot and the Gare de Lyon.",
+      "tagline": [
+        {
+          "from": 111,
+          "text": "Half-forgotten quarter of walls, gardens and convents between the Faubourg Saint-Antoine and La Râpée."
+        },
+        {
+          "from": 117,
+          "text": "Walled convent garden in the Petit-Picpus, where old Fauchelevent is gardener."
+        },
+        {
+          "from": 119,
+          "text": "No. 62 Rue Petit-Picpus, convent of the Bernardines of the Perpetual Adoration."
+        },
+        {
+          "from": 145,
+          "text": "No. 62 Rue Petit-Picpus, the Bernardine convent where Cosette becomes a pupil and Valjean a second gardener."
+        }
+      ],
+      "aliases": [
+        {
+          "name": "No. 62 Rue Petit-Picpus",
+          "from": 119
+        }
+      ]
+    },
+    {
+      "id": "vaugirard-cemetery",
+      "name": "The Vaugirard cemetery",
+      "role": "setting",
+      "firstChapter": 120,
+      "precision": "approximate",
+      "lonlat": [
+        2.3095,
+        48.8415
+      ],
+      "radiusKm": 0.2,
+      "parent": "paris",
+      "today": "Closed in 1824, when the Montparnasse cemetery replaced it; built over.",
+      "tagline": [
+        {
+          "from": 120,
+          "text": "Old cemetery outside the Vaugirard barrier, where the convent’s nuns have a corner of their own."
+        },
+        {
+          "from": 142,
+          "text": "Faded old cemetery off the Boulevard du Maine, which shuts at sundown; next door is the dram-shop Au Bon Coing."
+        }
+      ]
+    },
+    {
+      "id": "barriere-de-monceaux",
+      "name": "The Barrier of Monceaux",
+      "role": "mentioned",
+      "firstChapter": 103,
+      "precision": "exact",
+      "lonlat": [
+        2.3093,
+        48.88
+      ],
+      "parent": "paris",
+      "today": "Its rotunda survives at the entrance to the Parc Monceau.",
+      "tagline": [
+        {
+          "from": 103,
+          "text": "Toll gate in the city wall on the north-west side of Paris."
+        }
+      ]
+    },
+    {
+      "id": "observatoire",
+      "name": "The esplanade of the Observatoire",
+      "role": "mentioned",
+      "firstChapter": 103,
+      "precision": "exact",
+      "lonlat": [
+        2.3368,
+        48.8395
+      ],
+      "parent": "paris",
+      "tagline": [
+        {
+          "from": 103,
+          "text": "Open ground before the Paris Observatory, where the cabriolet sets down a man and a child."
+        }
+      ]
+    },
+    {
+      "id": "villemomble",
+      "name": "Villemomble",
+      "role": "mentioned",
+      "firstChapter": 37,
+      "precision": "exact",
+      "lonlat": [
+        2.5083,
+        48.8836
+      ],
+      "tagline": [
+        {
+          "from": 37,
+          "text": "Village east of Paris, where Fantine leaves the coach to walk to Montfermeil."
+        }
+      ]
+    },
+    {
+      "id": "montfermeil",
+      "name": "Montfermeil",
+      "role": "setting",
+      "firstChapter": 37,
+      "precision": "exact",
+      "lonlat": [
+        2.5685,
+        48.8991
+      ],
+      "tagline": [
+        {
+          "from": 37,
+          "text": "Village on the wooded plateau east of Paris, on the road to nowhere."
+        },
+        {
+          "from": 93,
+          "text": "Forest village short of water, whose only spring by the church end lies a quarter of an hour away."
+        }
+      ]
+    },
+    {
+      "id": "the-sergeant-of-waterloo",
+      "name": "The Sergeant of Waterloo",
+      "role": "setting",
+      "firstChapter": 37,
+      "precision": "approximate",
+      "lonlat": [
+        2.5678,
+        48.8984
+      ],
+      "radiusKm": 0.1,
+      "parent": "montfermeil",
+      "tagline": [
+        {
+          "from": 37,
+          "text": "Thénardier’s cook-shop at Montfermeil, where Fantine leaves Cosette."
+        },
+        {
+          "from": 39,
+          "text": "The Thénardiers’ failing inn, where Cosette drudges and the village calls her the Lark."
+        },
+        {
+          "from": 101,
+          "text": "The Thénardiers’ inn, where a stranger in a yellow coat pays fifteen hundred francs to take Cosette away."
+        }
+      ],
+      "aliases": [
+        {
+          "name": "the Thénardiers’ inn",
+          "from": 37
+        }
+      ]
+    },
+    {
+      "id": "montfermeil-spring",
+      "name": "The spring in the forest",
+      "role": "setting",
+      "firstChapter": 93,
+      "precision": "approximate",
+      "lonlat": [
+        2.573,
+        48.8925
+      ],
+      "radiusKm": 0.3,
+      "parent": "montfermeil",
+      "tagline": [
+        {
+          "from": 93,
+          "text": "The little spring halfway down the slope toward Chelles, where Cosette must fetch water after dark."
+        },
+        {
+          "from": 97,
+          "text": "The forest spring where Cosette fills her bucket alone on Christmas Eve."
+        }
+      ]
+    },
+    {
+      "id": "montfermeil-forest",
+      "name": "The forest of Montfermeil",
+      "role": "setting",
+      "firstChapter": 91,
+      "precision": "approximate",
+      "lonlat": [
+        2.585,
+        48.892
+      ],
+      "radiusKm": 1.2,
+      "parent": "montfermeil",
+      "tagline": [
+        {
+          "from": 91,
+          "text": "The woods round Montfermeil, where legend says the devil buries treasure and Boulatruelle digs."
+        },
+        {
+          "from": 102,
+          "text": "The woods round Montfermeil, where Thénardier catches up with the stranger and the child."
+        }
+      ]
+    },
+    {
+      "id": "chelles",
+      "name": "Chelles",
+      "role": "mentioned",
+      "firstChapter": 93,
+      "precision": "exact",
+      "lonlat": [
+        2.5903,
+        48.8811
+      ],
+      "tagline": [
+        {
+          "from": 93,
+          "text": "Village below Montfermeil toward the Marne."
+        },
+        {
+          "from": 98,
+          "text": "Village on the Lagny road where the traveller leaves the coach after dark."
+        }
+      ]
+    },
+    {
+      "id": "gagny",
+      "name": "Gagny",
+      "role": "mentioned",
+      "firstChapter": 91,
+      "precision": "exact",
+      "lonlat": [
+        2.5347,
+        48.8833
+      ],
+      "tagline": [
+        {
+          "from": 91,
+          "text": "Village on the road below Montfermeil, where Boulatruelle mends the road."
+        }
+      ]
+    },
+    {
+      "id": "lagny",
+      "name": "Lagny",
+      "role": "mentioned",
+      "firstChapter": 91,
+      "precision": "exact",
+      "lonlat": [
+        2.7069,
+        48.8728
+      ],
+      "today": "Lagny-sur-Marne.",
+      "tagline": [
+        {
+          "from": 91,
+          "text": "Market town on the Marne, at the far end of Boulatruelle’s road."
+        },
+        {
+          "from": 98,
+          "text": "Market town on the Marne, served by a coach from Paris."
+        }
+      ]
+    },
+    {
+      "id": "livry",
+      "name": "Livry",
+      "role": "mentioned",
+      "firstChapter": 93,
+      "precision": "exact",
+      "lonlat": [
+        2.5392,
+        48.9194
+      ],
+      "today": "Livry-Gargan.",
+      "tagline": [
+        {
+          "from": 93,
+          "text": "Village north of Montfermeil."
+        },
+        {
+          "from": 101,
+          "text": "Village north of Montfermeil, toward which the stranger and Cosette walk at daybreak."
+        }
+      ]
+    },
+    {
+      "id": "montreuil-sur-mer",
+      "name": "Montreuil-sur-Mer",
+      "role": "setting",
+      "firstChapter": 29,
+      "precision": "exact",
+      "lonlat": [
+        1.7631,
+        50.4639
+      ],
+      "tagline": [
+        {
+          "from": 29,
+          "text": "Small walled town near the Channel coast, Fantine’s birthplace."
+        },
+        {
+          "from": 40,
+          "text": "Fantine’s native town, made prosperous by Father Madeleine’s trade in black glass trinkets."
+        },
+        {
+          "from": 57,
+          "text": "The town where Jean Valjean has lived as M. Madeleine, manufacturer and mayor."
+        },
+        {
+          "from": 90,
+          "text": "The town whose prosperity collapses once its mayor is gone."
+        }
+      ],
+      "aliases": [
+        {
+          "name": "M. sur M.",
+          "from": 40
+        }
+      ]
+    },
+    {
+      "id": "madeleines-factory",
+      "name": "Madeleine’s factory",
+      "role": "setting",
+      "firstChapter": 41,
+      "precision": "approximate",
+      "lonlat": [
+        1.766,
+        50.4628
+      ],
+      "radiusKm": 0.3,
+      "parent": "montreuil-sur-mer",
+      "tagline": [
+        {
+          "from": 41,
+          "text": "The great black-glass works, with separate workrooms for men and women, open to anyone honest."
+        },
+        {
+          "from": 47,
+          "text": "The black-glass works, from whose women’s workroom Fantine is dismissed."
+        }
+      ]
+    },
+    {
+      "id": "the-infirmary",
+      "name": "The infirmary",
+      "role": "setting",
+      "firstChapter": 46,
+      "precision": "approximate",
+      "lonlat": [
+        1.7625,
+        50.4645
+      ],
+      "radiusKm": 0.2,
+      "parent": "montreuil-sur-mer",
+      "tagline": [
+        {
+          "from": 46,
+          "text": "The mayor’s infirmary, kept by nursing sisters."
+        },
+        {
+          "from": 53,
+          "text": "The mayor’s infirmary, where Fantine lies ill under Sister Simplice’s care."
+        },
+        {
+          "from": 69,
+          "text": "The mayor’s infirmary, where Fantine dies."
+        }
+      ]
+    },
+    {
+      "id": "montreuil-police-station",
+      "name": "The police station",
+      "role": "setting",
+      "firstChapter": 52,
+      "precision": "approximate",
+      "lonlat": [
+        1.7638,
+        50.4636
+      ],
+      "radiusKm": 0.15,
+      "parent": "montreuil-sur-mer",
+      "tagline": [
+        {
+          "from": 52,
+          "text": "Where Javert sentences Fantine to six months and the mayor sets her free."
+        }
+      ]
+    },
+    {
+      "id": "hesdin",
+      "name": "Hesdin",
+      "role": "setting",
+      "firstChapter": 56,
+      "precision": "exact",
+      "lonlat": [
+        2.039,
+        50.3738
+      ],
+      "tagline": [
+        {
+          "from": 56,
+          "text": "Town five leagues from Montreuil, the first relay on the Arras road."
+        },
+        {
+          "from": 59,
+          "text": "Town on the Arras road, where the tilbury’s wheel is found to be broken."
+        }
+      ]
+    },
+    {
+      "id": "saint-pol",
+      "name": "Saint-Pol",
+      "role": "mentioned",
+      "firstChapter": 56,
+      "precision": "exact",
+      "lonlat": [
+        2.3361,
+        50.3812
+      ],
+      "today": "Saint-Pol-sur-Ternoise.",
+      "tagline": [
+        {
+          "from": 56,
+          "text": "Town six leagues beyond Hesdin, the second relay on the road to Arras."
+        }
+      ]
+    },
+    {
+      "id": "arras",
+      "name": "Arras",
+      "role": "setting",
+      "firstChapter": 47,
+      "precision": "exact",
+      "lonlat": [
+        2.7775,
+        50.291
+      ],
+      "tagline": [
+        {
+          "from": 47,
+          "text": "Cathedral city and seat of the département."
+        },
+        {
+          "from": 54,
+          "text": "Cathedral city whose Assizes are trying a man arrested nearby as Jean Valjean."
+        }
+      ]
+    },
+    {
+      "id": "arras-assizes",
+      "name": "The Assizes at Arras",
+      "role": "setting",
+      "firstChapter": 61,
+      "precision": "exact",
+      "lonlat": [
+        2.7649,
+        50.2929
+      ],
+      "parent": "arras",
+      "today": "The old bishop’s palace is now the Prefecture of the Pas-de-Calais.",
+      "tagline": [
+        {
+          "from": 61,
+          "text": "The court of Assizes, sitting late in the old bishop’s palace, where Champmathieu is on trial."
+        },
+        {
+          "from": 65,
+          "text": "The courtroom where Jean Valjean names himself before the jury."
+        }
+      ]
+    },
+    {
+      "id": "picquigny",
+      "name": "Picquigny",
+      "role": "mentioned",
+      "firstChapter": 145,
+      "precision": "exact",
+      "lonlat": [
+        2.1436,
+        49.9439
+      ],
+      "tagline": [
+        {
+          "from": 145,
+          "text": "Picard village near Amiens, Fauchelevent’s home country."
+        }
+      ]
+    },
+    {
+      "id": "brussels",
+      "name": "Brussels",
+      "role": "mentioned",
+      "firstChapter": 73,
+      "precision": "exact",
+      "lonlat": [
+        4.3517,
+        50.8503
+      ],
+      "tagline": [
+        {
+          "from": 73,
+          "text": "Capital of the Low Countries, behind Wellington’s lines; the great road runs to it across the battlefield."
+        }
+      ]
+    },
+    {
+      "id": "waterloo",
+      "name": "Waterloo",
+      "role": "setting",
+      "firstChapter": 11,
+      "precision": "exact",
+      "lonlat": [
+        4.405,
+        50.68
+      ],
+      "radiusKm": 3,
+      "today": "The field lies in the communes of Braine-l’Alleud, Lasne and Waterloo; the village itself is four kilometres north.",
+      "tagline": [
+        {
+          "from": 11,
+          "text": "Belgian battlefield where Napoleon’s last army was destroyed on 18 June 1815."
+        },
+        {
+          "from": 71,
+          "text": "The battlefield south of the village of Waterloo, which the narrator walks in May 1861."
+        }
+      ]
+    },
+    {
+      "id": "nivelles",
+      "name": "Nivelles",
+      "role": "mentioned",
+      "firstChapter": 71,
+      "precision": "exact",
+      "lonlat": [
+        4.3244,
+        50.5983
+      ],
+      "tagline": [
+        {
+          "from": 71,
+          "text": "Belgian town from which the narrator walks north toward the battlefield."
+        }
+      ]
+    },
+    {
+      "id": "braine-l-alleud",
+      "name": "Braine-l’Alleud",
+      "role": "mentioned",
+      "firstChapter": 71,
+      "precision": "exact",
+      "lonlat": [
+        4.3683,
+        50.6836
+      ],
+      "tagline": [
+        {
+          "from": 71,
+          "text": "Village whose church tower stands west of the road; one end of the hollow road of Ohain."
+        }
+      ]
+    },
+    {
+      "id": "hougomont",
+      "name": "Hougomont",
+      "role": "setting",
+      "firstChapter": 71,
+      "precision": "exact",
+      "lonlat": [
+        4.396,
+        50.6705
+      ],
+      "parent": "waterloo",
+      "today": "The farm still stands, restored in 2015.",
+      "tagline": [
+        {
+          "from": 71,
+          "text": "Walled farm with a cannonball scar in its gate, the first sight of the battlefield."
+        },
+        {
+          "from": 72,
+          "text": "Château-farm on the French left, where three thousand men died in one enclosure."
+        }
+      ]
+    },
+    {
+      "id": "mont-saint-jean",
+      "name": "Mont-Saint-Jean",
+      "role": "setting",
+      "firstChapter": 73,
+      "precision": "exact",
+      "lonlat": [
+        4.4098,
+        50.6861
+      ],
+      "parent": "waterloo",
+      "tagline": [
+        {
+          "from": 73,
+          "text": "Village and farm on the plateau where Wellington held the high ground."
+        },
+        {
+          "from": 80,
+          "text": "The plateau where the English squares stood for two hours under the cuirassiers."
+        }
+      ]
+    },
+    {
+      "id": "la-belle-alliance",
+      "name": "La Belle-Alliance",
+      "role": "setting",
+      "firstChapter": 74,
+      "precision": "exact",
+      "lonlat": [
+        4.4135,
+        50.6684
+      ],
+      "parent": "waterloo",
+      "tagline": [
+        {
+          "from": 74,
+          "text": "Inn on the Genappe road at the foot of Hugo’s A, where Napoleon stood."
+        }
+      ]
+    },
+    {
+      "id": "rossomme",
+      "name": "Rossomme",
+      "role": "mentioned",
+      "firstChapter": 74,
+      "precision": "approximate",
+      "lonlat": [
+        4.412,
+        50.659
+      ],
+      "radiusKm": 0.5,
+      "parent": "waterloo",
+      "tagline": [
+        {
+          "from": 74,
+          "text": "Farm and heights south of La Belle-Alliance, Napoleon’s first post on the morning of the battle."
+        }
+      ]
+    },
+    {
+      "id": "hollow-road-of-ohain",
+      "name": "The hollow road of Ohain",
+      "role": "setting",
+      "firstChapter": 74,
+      "precision": "approximate",
+      "lonlat": [
+        4.4075,
+        50.6792
+      ],
+      "radiusKm": 0.6,
+      "parent": "waterloo",
+      "today": "Mostly levelled when its banks were dug away to build the Lion Mound.",
+      "tagline": [
+        {
+          "from": 74,
+          "text": "Sunken lane along the crest of Mont-Saint-Jean, the crossbar of Hugo’s A."
+        },
+        {
+          "from": 79,
+          "text": "The sunken lane, invisible from below, into which Ney’s cuirassiers plunge until it is filled."
+        },
+        {
+          "from": 89,
+          "text": "The sunken lane where, that night, a prowler named Thénardier robs an officer named Pontmercy, who thinks himself rescued."
+        }
+      ]
+    },
+    {
+      "id": "lion-mound",
+      "name": "The Lion Mound",
+      "role": "mentioned",
+      "firstChapter": 74,
+      "precision": "exact",
+      "lonlat": [
+        4.4048,
+        50.6784
+      ],
+      "parent": "waterloo",
+      "today": "The Butte du Lion, finished in 1826.",
+      "tagline": [
+        {
+          "from": 74,
+          "text": "The monument raised on the centre of the battlefield, where the last word of the battle was spoken."
+        }
+      ]
+    },
+    {
+      "id": "la-haie-sainte",
+      "name": "La Haie-Sainte",
+      "role": "setting",
+      "firstChapter": 75,
+      "precision": "exact",
+      "lonlat": [
+        4.4116,
+        50.678
+      ],
+      "parent": "waterloo",
+      "tagline": [
+        {
+          "from": 75,
+          "text": "Farm on the Brussels road in front of the English centre, stormed and carried."
+        },
+        {
+          "from": 76,
+          "text": "Farm on the Brussels road, taken by the French; only forty-two of its German defenders survive."
+        }
+      ]
+    },
+    {
+      "id": "papelotte",
+      "name": "Papelotte",
+      "role": "mentioned",
+      "firstChapter": 75,
+      "precision": "exact",
+      "lonlat": [
+        4.4341,
+        50.6801
+      ],
+      "parent": "waterloo",
+      "tagline": [
+        {
+          "from": 75,
+          "text": "Farm on the English left, attacked by Ney and taken."
+        }
+      ]
+    },
+    {
+      "id": "plancenoit",
+      "name": "Plancenoit",
+      "role": "setting",
+      "firstChapter": 77,
+      "precision": "exact",
+      "lonlat": [
+        4.4212,
+        50.6625
+      ],
+      "parent": "waterloo",
+      "tagline": [
+        {
+          "from": 77,
+          "text": "Village behind the French right."
+        },
+        {
+          "from": 81,
+          "text": "Village behind the French right, where Bülow’s Prussians come out of the forest."
+        }
+      ]
+    },
+    {
+      "id": "frischemont",
+      "name": "Frischemont",
+      "role": "mentioned",
+      "firstChapter": 77,
+      "precision": "approximate",
+      "lonlat": [
+        4.444,
+        50.677
+      ],
+      "radiusKm": 0.6,
+      "parent": "waterloo",
+      "tagline": [
+        {
+          "from": 77,
+          "text": "Heights on the far east of the field, the end of the line of English campfires."
+        },
+        {
+          "from": 80,
+          "text": "Heights to the east, where bayonets gleam at five o’clock."
+        }
+      ]
+    },
+    {
+      "id": "wavre",
+      "name": "Wavre",
+      "role": "mentioned",
+      "firstChapter": 78,
+      "precision": "exact",
+      "lonlat": [
+        4.6086,
+        50.7172
+      ],
+      "tagline": [
+        {
+          "from": 78,
+          "text": "Town on the Dyle to the east, where the Prussians are delayed at the bridge."
+        }
+      ]
+    },
+    {
+      "id": "villers-abbey",
+      "name": "The Abbey of Villers",
+      "role": "mentioned",
+      "firstChapter": 131,
+      "precision": "exact",
+      "lonlat": [
+        4.5292,
+        50.5901
+      ],
+      "today": "Villers Abbey, Villers-la-Ville.",
+      "tagline": [
+        {
+          "from": 131,
+          "text": "Ruined abbey near Brussels, whose in pace dungeons Hugo saw himself."
+        }
+      ]
+    }
+  ],
+  "settings": {
+    "1": [
+      "digne",
+      "aix",
+      "brignoles",
+      "paris"
+    ],
+    "2": [
+      "bishops-house",
+      "digne"
+    ],
+    "3": [
+      "digne",
+      "senez",
+      "briancon",
+      "embrun"
+    ],
+    "4": [
+      "digne",
+      "bishops-house"
+    ],
+    "5": [
+      "digne",
+      "bishops-house"
+    ],
+    "6": [
+      "bishops-house"
+    ],
+    "7": [
+      "barcelonnette",
+      "embrun",
+      "digne"
+    ],
+    "8": [
+      "digne"
+    ],
+    "9": [
+      "bishops-house"
+    ],
+    "10": [
+      "the-conventionarys-hut",
+      "digne"
+    ],
+    "11": [
+      "digne",
+      "paris",
+      "waterloo"
+    ],
+    "12": [
+      "digne",
+      "bishops-house"
+    ],
+    "13": [
+      "digne",
+      "bishops-house"
+    ],
+    "14": [
+      "digne",
+      "bishops-house"
+    ],
+    "15": [
+      "digne",
+      "cross-of-colbas"
+    ],
+    "16": [
+      "bishops-house"
+    ],
+    "17": [
+      "bishops-house",
+      "toulon",
+      "pontarlier"
+    ],
+    "18": [
+      "bishops-house",
+      "pontarlier"
+    ],
+    "19": [
+      "bishops-house"
+    ],
+    "20": [
+      "faverolles",
+      "bicetre",
+      "toulon"
+    ],
+    "21": [
+      "toulon"
+    ],
+    "22": [
+      "toulon"
+    ],
+    "23": [
+      "toulon",
+      "grasse",
+      "digne"
+    ],
+    "24": [
+      "bishops-house"
+    ],
+    "25": [
+      "bishops-house"
+    ],
+    "26": [
+      "bishops-house"
+    ],
+    "27": [
+      "digne"
+    ],
+    "28": [
+      "paris"
+    ],
+    "29": [
+      "paris",
+      "montreuil-sur-mer",
+      "toulouse"
+    ],
+    "30": [
+      "saint-cloud"
+    ],
+    "31": [
+      "saint-cloud",
+      "issy",
+      "paris"
+    ],
+    "32": [
+      "bombardas"
+    ],
+    "33": [
+      "bombardas"
+    ],
+    "34": [
+      "bombardas"
+    ],
+    "35": [
+      "bombardas"
+    ],
+    "36": [
+      "bombardas",
+      "toulouse"
+    ],
+    "37": [
+      "the-sergeant-of-waterloo",
+      "montfermeil",
+      "villemomble"
+    ],
+    "38": [
+      "the-sergeant-of-waterloo"
+    ],
+    "39": [
+      "the-sergeant-of-waterloo"
+    ],
+    "40": [
+      "montreuil-sur-mer"
+    ],
+    "41": [
+      "montreuil-sur-mer",
+      "madeleines-factory"
+    ],
+    "42": [
+      "montreuil-sur-mer"
+    ],
+    "43": [
+      "montreuil-sur-mer"
+    ],
+    "44": [
+      "montreuil-sur-mer"
+    ],
+    "45": [
+      "montreuil-sur-mer"
+    ],
+    "46": [
+      "montreuil-sur-mer",
+      "the-infirmary",
+      "madeleines-factory"
+    ],
+    "47": [
+      "madeleines-factory",
+      "montreuil-sur-mer",
+      "montfermeil"
+    ],
+    "48": [
+      "montreuil-sur-mer"
+    ],
+    "49": [
+      "montreuil-sur-mer"
+    ],
+    "50": [
+      "montreuil-sur-mer"
+    ],
+    "51": [
+      "montreuil-sur-mer"
+    ],
+    "52": [
+      "montreuil-police-station"
+    ],
+    "53": [
+      "the-infirmary",
+      "the-sergeant-of-waterloo"
+    ],
+    "54": [
+      "montreuil-sur-mer",
+      "arras"
+    ],
+    "55": [
+      "the-infirmary"
+    ],
+    "56": [
+      "montreuil-sur-mer",
+      "hesdin",
+      "saint-pol",
+      "arras"
+    ],
+    "57": [
+      "montreuil-sur-mer"
+    ],
+    "58": [
+      "montreuil-sur-mer"
+    ],
+    "59": [
+      "hesdin",
+      "montreuil-sur-mer",
+      "arras"
+    ],
+    "60": [
+      "the-infirmary"
+    ],
+    "61": [
+      "arras",
+      "arras-assizes"
+    ],
+    "62": [
+      "arras-assizes"
+    ],
+    "63": [
+      "arras-assizes"
+    ],
+    "64": [
+      "arras-assizes"
+    ],
+    "65": [
+      "arras-assizes"
+    ],
+    "66": [
+      "the-infirmary"
+    ],
+    "67": [
+      "the-infirmary"
+    ],
+    "68": [
+      "the-infirmary"
+    ],
+    "69": [
+      "the-infirmary"
+    ],
+    "70": [
+      "montreuil-sur-mer",
+      "the-infirmary"
+    ],
+    "71": [
+      "hougomont",
+      "nivelles",
+      "braine-l-alleud"
+    ],
+    "72": [
+      "hougomont"
+    ],
+    "73": [
+      "waterloo",
+      "mont-saint-jean"
+    ],
+    "74": [
+      "waterloo",
+      "mont-saint-jean",
+      "hougomont",
+      "la-belle-alliance",
+      "hollow-road-of-ohain"
+    ],
+    "75": [
+      "waterloo",
+      "hougomont",
+      "la-haie-sainte",
+      "papelotte"
+    ],
+    "76": [
+      "mont-saint-jean",
+      "la-haie-sainte"
+    ],
+    "77": [
+      "rossomme",
+      "hollow-road-of-ohain",
+      "waterloo"
+    ],
+    "78": [
+      "la-belle-alliance",
+      "mont-saint-jean"
+    ],
+    "79": [
+      "hollow-road-of-ohain",
+      "mont-saint-jean"
+    ],
+    "80": [
+      "mont-saint-jean"
+    ],
+    "81": [
+      "plancenoit",
+      "waterloo"
+    ],
+    "82": [
+      "waterloo",
+      "mont-saint-jean"
+    ],
+    "83": [
+      "waterloo",
+      "mont-saint-jean"
+    ],
+    "84": [
+      "mont-saint-jean",
+      "rossomme"
+    ],
+    "85": [
+      "waterloo"
+    ],
+    "86": [
+      "waterloo"
+    ],
+    "87": [
+      "waterloo"
+    ],
+    "88": [
+      "paris",
+      "waterloo"
+    ],
+    "89": [
+      "hollow-road-of-ohain",
+      "waterloo"
+    ],
+    "90": [
+      "toulon",
+      "montreuil-sur-mer",
+      "paris"
+    ],
+    "91": [
+      "montfermeil-forest",
+      "montfermeil",
+      "the-sergeant-of-waterloo"
+    ],
+    "92": [
+      "toulon"
+    ],
+    "93": [
+      "montfermeil",
+      "the-sergeant-of-waterloo",
+      "montfermeil-spring"
+    ],
+    "94": [
+      "the-sergeant-of-waterloo"
+    ],
+    "95": [
+      "the-sergeant-of-waterloo"
+    ],
+    "96": [
+      "the-sergeant-of-waterloo"
+    ],
+    "97": [
+      "montfermeil-spring",
+      "montfermeil"
+    ],
+    "98": [
+      "boulevard-de-l-hopital",
+      "chelles",
+      "montfermeil-forest"
+    ],
+    "99": [
+      "montfermeil-forest",
+      "montfermeil"
+    ],
+    "100": [
+      "the-sergeant-of-waterloo"
+    ],
+    "101": [
+      "the-sergeant-of-waterloo"
+    ],
+    "102": [
+      "montfermeil-forest"
+    ],
+    "103": [
+      "toulon",
+      "paris",
+      "boulevard-de-l-hopital"
+    ],
+    "104": [
+      "gorbeau-house"
+    ],
+    "105": [
+      "gorbeau-house"
+    ],
+    "106": [
+      "gorbeau-house"
+    ],
+    "107": [
+      "gorbeau-house",
+      "saint-medard"
+    ],
+    "108": [
+      "gorbeau-house",
+      "saint-medard"
+    ],
+    "109": [
+      "rue-des-postes",
+      "paris"
+    ],
+    "110": [
+      "pont-d-austerlitz",
+      "jardin-des-plantes",
+      "rue-du-chemin-vert"
+    ],
+    "111": [
+      "petit-picpus"
+    ],
+    "112": [
+      "petit-picpus"
+    ],
+    "113": [
+      "petit-picpus"
+    ],
+    "114": [
+      "petit-picpus"
+    ],
+    "115": [
+      "petit-picpus"
+    ],
+    "116": [
+      "petit-picpus"
+    ],
+    "117": [
+      "petit-picpus"
+    ],
+    "118": [
+      "paris",
+      "montfermeil",
+      "gorbeau-house"
+    ],
+    "119": [
+      "petit-picpus"
+    ],
+    "120": [
+      "petit-picpus"
+    ],
+    "121": [
+      "petit-picpus"
+    ],
+    "122": [
+      "petit-picpus"
+    ],
+    "123": [
+      "petit-picpus"
+    ],
+    "124": [
+      "petit-picpus"
+    ],
+    "125": [
+      "petit-picpus"
+    ],
+    "126": [
+      "petit-picpus"
+    ],
+    "127": [
+      "petit-picpus"
+    ],
+    "128": [
+      "petit-picpus"
+    ],
+    "129": [
+      "petit-picpus"
+    ],
+    "130": [
+      "petit-picpus"
+    ],
+    "131": [
+      "petit-picpus",
+      "villers-abbey"
+    ],
+    "132": [
+      "petit-picpus"
+    ],
+    "133": [
+      "petit-picpus"
+    ],
+    "134": [
+      "petit-picpus"
+    ],
+    "135": [
+      "petit-picpus"
+    ],
+    "136": [
+      "petit-picpus"
+    ],
+    "137": [
+      "petit-picpus"
+    ],
+    "138": [
+      "petit-picpus"
+    ],
+    "139": [
+      "petit-picpus"
+    ],
+    "140": [
+      "petit-picpus"
+    ],
+    "141": [
+      "petit-picpus"
+    ],
+    "142": [
+      "vaugirard-cemetery",
+      "petit-picpus"
+    ],
+    "143": [
+      "vaugirard-cemetery"
+    ],
+    "144": [
+      "vaugirard-cemetery"
+    ],
+    "145": [
+      "petit-picpus"
+    ],
+    "146": [
+      "petit-picpus"
+    ]
+  },
+  "journeys": [
+    {
+      "id": "valjean-toulon-to-digne",
+      "name": "Jean Valjean’s walk from Toulon to Digne",
+      "who": [
+        "jean-valjean"
+      ],
+      "legs": [
+        {
+          "chapter": 23,
+          "from": "toulon",
+          "to": "grasse",
+          "mode": "foot",
+          "via": [
+            [
+              6.03,
+              43.21
+            ],
+            [
+              6.31,
+              43.39
+            ],
+            [
+              6.46,
+              43.54
+            ],
+            [
+              6.75,
+              43.62
+            ]
+          ]
+        },
+        {
+          "chapter": 23,
+          "from": "grasse",
+          "to": "digne",
+          "mode": "foot",
+          "via": [
+            [
+              6.81,
+              43.72
+            ],
+            [
+              6.513,
+              43.846
+            ],
+            [
+              6.37,
+              43.955
+            ],
+            [
+              6.28,
+              44.03
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "valjean-to-montreuil",
+      "name": "Jean Valjean crosses France",
+      "who": [
+        "jean-valjean"
+      ],
+      "legs": [
+        {
+          "chapter": 57,
+          "from": "digne",
+          "to": "montreuil-sur-mer",
+          "mode": "land"
+        }
+      ]
+    },
+    {
+      "id": "the-day-at-saint-cloud",
+      "name": "The four couples’ Sunday outing",
+      "who": [
+        "tholomyes",
+        "fantine",
+        "blachevelle",
+        "favorite",
+        "listolier",
+        "dahlia",
+        "fameuil",
+        "zephine"
+      ],
+      "legs": [
+        {
+          "chapter": 30,
+          "from": "paris",
+          "to": "saint-cloud",
+          "mode": "road",
+          "via": [
+            [
+              2.3,
+              48.862
+            ],
+            [
+              2.25,
+              48.85
+            ]
+          ]
+        },
+        {
+          "chapter": 31,
+          "from": "saint-cloud",
+          "to": "issy",
+          "mode": "land",
+          "via": [
+            [
+              2.24,
+              48.83
+            ],
+            [
+              2.29,
+              48.821
+            ]
+          ]
+        },
+        {
+          "chapter": 32,
+          "from": "issy",
+          "to": "bombardas",
+          "mode": "land",
+          "via": [
+            [
+              2.276,
+              48.852
+            ],
+            [
+              2.2865,
+              48.86
+            ],
+            [
+              2.295,
+              48.8738
+            ],
+            [
+              2.304,
+              48.869
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "the-students-go-home",
+      "name": "The Toulouse diligence",
+      "who": [
+        "tholomyes",
+        "blachevelle",
+        "listolier",
+        "fameuil"
+      ],
+      "legs": [
+        {
+          "chapter": 36,
+          "from": "bombardas",
+          "to": "toulouse",
+          "mode": "road",
+          "via": [
+            [
+              2.286,
+              48.858
+            ],
+            [
+              1.909,
+              47.902
+            ],
+            [
+              1.394,
+              46.16
+            ],
+            [
+              1.26,
+              45.83
+            ],
+            [
+              1.53,
+              45.16
+            ],
+            [
+              1.44,
+              44.45
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "fantine-goes-home",
+      "name": "Fantine leaves Paris",
+      "who": [
+        "fantine",
+        "cosette"
+      ],
+      "legs": [
+        {
+          "chapter": 37,
+          "from": "paris",
+          "to": "villemomble",
+          "mode": "road",
+          "via": [
+            [
+              2.39,
+              48.868
+            ],
+            [
+              2.45,
+              48.875
+            ]
+          ]
+        },
+        {
+          "chapter": 37,
+          "from": "villemomble",
+          "to": "montfermeil",
+          "mode": "foot"
+        },
+        {
+          "chapter": 40,
+          "from": "montfermeil",
+          "to": "montreuil-sur-mer",
+          "mode": "road",
+          "via": [
+            [
+              2.36,
+              49.0
+            ],
+            [
+              2.3,
+              49.89
+            ],
+            [
+              1.93,
+              50.18
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "the-night-drive-to-arras",
+      "name": "Montreuil-sur-Mer to Arras and back",
+      "who": [
+        "jean-valjean"
+      ],
+      "legs": [
+        {
+          "chapter": 59,
+          "from": "montreuil-sur-mer",
+          "to": "hesdin",
+          "mode": "road"
+        },
+        {
+          "chapter": 59,
+          "from": "hesdin",
+          "to": "saint-pol",
+          "mode": "road"
+        },
+        {
+          "chapter": 61,
+          "from": "saint-pol",
+          "to": "arras",
+          "mode": "road"
+        },
+        {
+          "chapter": 68,
+          "from": "arras",
+          "to": "montreuil-sur-mer",
+          "mode": "road",
+          "via": [
+            [
+              2.3361,
+              50.3812
+            ],
+            [
+              2.039,
+              50.3738
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "flight-from-montreuil",
+      "name": "Jean Valjean’s flight from Montreuil-sur-Mer",
+      "who": [
+        "jean-valjean"
+      ],
+      "legs": [
+        {
+          "chapter": 70,
+          "from": "montreuil-sur-mer",
+          "to": "paris",
+          "mode": "land"
+        }
+      ]
+    },
+    {
+      "id": "back-to-the-galleys",
+      "name": "Back to the galleys",
+      "who": [
+        "jean-valjean"
+      ],
+      "legs": [
+        {
+          "chapter": 90,
+          "from": "paris",
+          "to": "toulon",
+          "mode": "land",
+          "via": [
+            [
+              3.08,
+              46.99
+            ],
+            [
+              4.83,
+              45.76
+            ],
+            [
+              4.81,
+              43.95
+            ],
+            [
+              5.45,
+              43.53
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "escape-from-the-orion",
+      "name": "From the Orion to Paris",
+      "who": [
+        "jean-valjean"
+      ],
+      "legs": [
+        {
+          "chapter": 103,
+          "from": "toulon",
+          "to": "cape-brun",
+          "mode": "swim",
+          "via": [
+            [
+              5.926,
+              43.113
+            ],
+            [
+              5.935,
+              43.101
+            ],
+            [
+              5.95,
+              43.094
+            ],
+            [
+              5.965,
+              43.1
+            ]
+          ]
+        },
+        {
+          "chapter": 103,
+          "from": "cape-brun",
+          "to": "balaguier",
+          "mode": "land",
+          "via": [
+            [
+              5.93,
+              43.125
+            ],
+            [
+              5.89,
+              43.115
+            ]
+          ]
+        },
+        {
+          "chapter": 103,
+          "from": "balaguier",
+          "to": "le-beausset",
+          "mode": "land"
+        },
+        {
+          "chapter": 103,
+          "from": "le-beausset",
+          "to": "briancon",
+          "mode": "land"
+        },
+        {
+          "chapter": 103,
+          "from": "briancon",
+          "to": "accous",
+          "mode": "land",
+          "via": [
+            [
+              5.4,
+              46.1
+            ],
+            [
+              2.5,
+              43.3
+            ]
+          ]
+        },
+        {
+          "chapter": 103,
+          "from": "accous",
+          "to": "perigueux",
+          "mode": "land"
+        },
+        {
+          "chapter": 103,
+          "from": "perigueux",
+          "to": "paris",
+          "mode": "land"
+        }
+      ]
+    },
+    {
+      "id": "cosette-goes-for-water",
+      "name": "Cosette goes for water",
+      "who": [
+        "cosette"
+      ],
+      "legs": [
+        {
+          "chapter": 97,
+          "from": "the-sergeant-of-waterloo",
+          "to": "montfermeil-spring",
+          "mode": "foot"
+        }
+      ]
+    },
+    {
+      "id": "montfermeil-and-back",
+      "name": "Paris to Montfermeil and back, Christmas 1823",
+      "who": [
+        "jean-valjean",
+        "cosette"
+      ],
+      "legs": [
+        {
+          "chapter": 103,
+          "from": "boulevard-de-l-hopital",
+          "to": "chelles",
+          "mode": "road",
+          "via": [
+            [
+              2.366,
+              48.845
+            ],
+            [
+              2.44,
+              48.848
+            ],
+            [
+              2.52,
+              48.86
+            ]
+          ]
+        },
+        {
+          "chapter": 103,
+          "from": "chelles",
+          "to": "montfermeil-spring",
+          "mode": "foot",
+          "via": [
+            [
+              2.58,
+              48.888
+            ]
+          ]
+        },
+        {
+          "chapter": 103,
+          "from": "montfermeil-spring",
+          "to": "the-sergeant-of-waterloo",
+          "mode": "foot"
+        },
+        {
+          "chapter": 103,
+          "from": "the-sergeant-of-waterloo",
+          "to": "montfermeil-forest",
+          "mode": "foot",
+          "via": [
+            [
+              2.56,
+              48.905
+            ]
+          ]
+        },
+        {
+          "chapter": 103,
+          "from": "montfermeil-forest",
+          "to": "barriere-de-monceaux",
+          "mode": "road",
+          "via": [
+            [
+              2.5,
+              48.9
+            ],
+            [
+              2.38,
+              48.886
+            ],
+            [
+              2.33,
+              48.884
+            ]
+          ]
+        },
+        {
+          "chapter": 103,
+          "from": "barriere-de-monceaux",
+          "to": "observatoire",
+          "mode": "road",
+          "via": [
+            [
+              2.32,
+              48.87
+            ],
+            [
+              2.325,
+              48.855
+            ],
+            [
+              2.335,
+              48.845
+            ]
+          ]
+        },
+        {
+          "chapter": 103,
+          "from": "observatoire",
+          "to": "boulevard-de-l-hopital",
+          "mode": "foot",
+          "via": [
+            [
+              2.346,
+              48.8365
+            ],
+            [
+              2.352,
+              48.835
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "the-night-chase",
+      "name": "The night chase to the Petit-Picpus",
+      "who": [
+        "jean-valjean",
+        "cosette"
+      ],
+      "legs": [
+        {
+          "chapter": 109,
+          "from": "gorbeau-house",
+          "to": "rue-des-postes",
+          "mode": "foot",
+          "via": [
+            [
+              2.3574,
+              48.8399
+            ],
+            [
+              2.353,
+              48.8392
+            ],
+            [
+              2.3509,
+              48.8441
+            ],
+            [
+              2.3513,
+              48.849
+            ],
+            [
+              2.35,
+              48.841
+            ],
+            [
+              2.346,
+              48.8397
+            ]
+          ]
+        },
+        {
+          "chapter": 110,
+          "from": "rue-des-postes",
+          "to": "pont-d-austerlitz",
+          "mode": "foot",
+          "via": [
+            [
+              2.3545,
+              48.842
+            ],
+            [
+              2.3556,
+              48.846
+            ],
+            [
+              2.3625,
+              48.8465
+            ]
+          ]
+        },
+        {
+          "chapter": 110,
+          "from": "pont-d-austerlitz",
+          "to": "rue-du-chemin-vert",
+          "mode": "foot"
+        },
+        {
+          "chapter": 111,
+          "from": "rue-du-chemin-vert",
+          "to": "petit-picpus",
+          "mode": "foot"
+        }
+      ]
+    },
+    {
+      "id": "out-in-a-coffin",
+      "name": "Out of the convent in a coffin",
+      "who": [
+        "jean-valjean",
+        "fauchelevent"
+      ],
+      "legs": [
+        {
+          "chapter": 143,
+          "from": "petit-picpus",
+          "to": "vaugirard-cemetery",
+          "mode": "road",
+          "via": [
+            [
+              2.3661,
+              48.845
+            ],
+            [
+              2.3595,
+              48.8375
+            ],
+            [
+              2.3557,
+              48.832
+            ],
+            [
+              2.3433,
+              48.8318
+            ],
+            [
+              2.3325,
+              48.8345
+            ],
+            [
+              2.3245,
+              48.8375
+            ],
+            [
+              2.3165,
+              48.8405
+            ]
+          ]
+        },
+        {
+          "chapter": 145,
+          "from": "vaugirard-cemetery",
+          "to": "rue-du-chemin-vert",
+          "mode": "foot",
+          "via": [
+            [
+              2.3245,
+              48.8375
+            ],
+            [
+              2.3433,
+              48.8318
+            ],
+            [
+              2.3557,
+              48.832
+            ],
+            [
+              2.3595,
+              48.8375
+            ],
+            [
+              2.3661,
+              48.845
+            ]
+          ]
+        },
+        {
+          "chapter": 145,
+          "from": "rue-du-chemin-vert",
+          "to": "petit-picpus",
+          "mode": "foot"
+        }
+      ]
+    },
+    {
+      "id": "cosette-out-and-in",
+      "name": "Cosette carried out of the convent",
+      "who": [
+        "cosette",
+        "fauchelevent"
+      ],
+      "legs": [
+        {
+          "chapter": 142,
+          "from": "petit-picpus",
+          "to": "rue-du-chemin-vert",
+          "mode": "foot"
+        },
+        {
+          "chapter": 145,
+          "from": "rue-du-chemin-vert",
+          "to": "petit-picpus",
+          "mode": "foot"
+        }
+      ]
+    }
+  ]
+}

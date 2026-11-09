@@ -459,5 +459,182 @@
       { "chapter": 249, "text": "Revealed to have handed her two youngest sons to Magnon." },
       { "chapter": 349, "text": "Died in prison." }
     ]
+  },
+  {
+    "id": "eponine",
+    "name": "Éponine",
+    "firstChapter": 38,
+    "importance": "major",
+    "group": "The Thénardiers",
+    "aliases": [
+      { "name": "Ponine", "from": 99, "note": "what Cosette calls her" },
+      { "name": "the elder Jondrette girl", "from": 221, "note": "as Marius first knew her at the Gorbeau house" },
+      { "name": "the young workman", "from": 293, "note": "her disguise in men's clothes on 4 and 5 June" }
+    ],
+    "tagline": [
+      { "from": 38, "text": "The Thénardiers' elder daughter, named out of a cheap romance." },
+      { "from": 39, "text": "A petted little girl who copies her mother in tormenting Cosette." },
+      { "from": 221, "text": "The starving elder Jondrette girl of the Gorbeau house: Éponine Thénardier, grown up." },
+      { "from": 232, "text": "The street girl who brings Marius the address he begged for, and refuses his money." },
+      { "from": 259, "text": "The girl who holds her own father's gang off the Rue Plumet gate alone." },
+      { "from": 293, "text": "Dead at the barricade in men's clothes, after taking the bullet meant for Marius." },
+      { "from": 294, "text": "The girl who led Marius to the barricade to die with her, and whose brow he kissed." }
+    ],
+    "description": [
+      { "from": 38, "text": "The elder of the two little girls Fantine sees on the swing at Montfermeil in 1818, about two and a half. Her mother took her name from the romances she devours." },
+      { "from": 39, "text": "Her mother adores her, and she and her sister copy their mother in ill-treating Cosette." },
+      { "from": 100, "text": "In 1823 she and Azelma play with their dolls by the fire while Cosette knits under the table. When they tire of their doll and leave it lying, Cosette is caught cradling it; that evening the stranger buys Cosette a far finer one." },
+      { "from": 221, "text": "The narrator names her: the elder Jondrette daughter of the Gorbeau house is Éponine, the Thénardiers' girl. About sixteen, barefoot, emaciated, with missing teeth, a face of fifteen mixed with fifty, she carried her father's begging letters at her own risk. In Marius's room she rummaged and preened at his mirror, wrote 'The bobbies are here' to prove she could spell, and left with his last five francs. When he begged her to find the old gentleman's address, her eyes went dark, but she promised. Posted as a lookout during the trap, she had left her post, and escaped the police." },
+      { "from": 230, "text": "Montparnasse had led her away from her post. Taken later and held at the Madelonettes, she is released for lack of proof, and Magnon sends her to look into 'an affair in the Rue Plumet'. She watches the house for days and reports back a 'biscuit': nothing to be done." },
+      { "from": 232, "text": "It was she who sprang from old Mabeuf's hedge to water his garden, asking only where M. Marius lives. Poorer and prettier after prison, with straw in her hair from a stable loft, she finds him at the Lark's meadow with the address he asked for. She wants him to call her 'thou', and is hurt by his joy; she swears not to give the address to her father, walks ahead so that he will not be seen with 'a woman like me', and lets his five francs fall: 'I don't want your money.'" },
+      { "from": 256, "text": "Having recognised who lived in the Rue Plumet, she first kept the robbers away from the house, then led Marius to it." },
+      { "from": 258, "text": "One evening she stops Marius at the corner of the Rue Plumet with a greeting he answers awkwardly, and leaves abruptly, unable to find words." },
+      { "from": 259, "text": "The next night she follows him, finds the loose bar and sits by the gate in the dark. When six men come to rob the house, led by her father out of prison, she bars the way alone, threatening to scream and bring the police, and laughs that she is a wolf's daughter and does not care whether she is found dead on this pavement or in the nets at Saint-Cloud. Since knowing Marius she no longer talks slang. The gang slinks away." },
+      { "from": 293, "text": "The 'young workman' in velvet trousers who put a hand over a soldier's gun aimed at Marius was Éponine in men's clothes. Shot through the hand and the body, she drags herself to him and dies with her head on his knees. She tells him she led him to the barricade so that they would die together, but could not bear to see him shot first; that the singing boy is her brother; that she kept a letter meant for him. She asks for a kiss on her brow when she is dead, and with her last breath says she believes she was a little in love with him." },
+      { "from": 294, "text": "Hugo explains the rest. Since the night at the gate she had meant to defeat her father's gang and to part Marius from Cosette. Dressed as a boy, she dropped the warning 'Move away from your house' on Jean Valjean's knees; Cosette then gave the 'young workman' at the railings her note for Marius, and Éponine kept it. She called Marius to the barricade from the dark garden in his friends' name. Marius kisses her brow." },
+      { "from": 317, "text": "Her body still lies in the lane behind the little barricade when Jean Valjean leads Javert past it." },
+      { "from": 348, "text": "Her cold brow under his lips is one of the ghosts that haunt the convalescent Marius." }
+    ],
+    "moments": [
+      { "chapter": 38, "text": "Named by her mother after a heroine of romance." },
+      { "chapter": 100, "text": "Left her doll lying; Cosette was caught cradling it." },
+      { "chapter": 221, "text": "Revealed as the elder Jondrette girl who visited Marius; escaped Javert's net." },
+      { "chapter": 232, "text": "Brought Marius the address of the girl he loves." },
+      { "chapter": 259, "text": "Turned her father's gang away from the Rue Plumet." },
+      { "chapter": 293, "text": "Revealed as the young workman who stopped the gun aimed at Marius; died in his arms." }
+    ]
+  },
+  {
+    "id": "azelma",
+    "name": "Azelma",
+    "firstChapter": 38,
+    "importance": "supporting",
+    "group": "The Thénardiers",
+    "aliases": [
+      { "name": "Zelma", "from": 99, "note": "what Cosette calls her" },
+      { "name": "the younger Jondrette girl", "from": 221, "note": "as Marius saw her at the Gorbeau house" }
+    ],
+    "tagline": [
+      { "from": 38, "text": "The Thénardiers' younger daughter, who narrowly escaped being called Gulnare." },
+      { "from": 221, "text": "The younger Jondrette girl, caught by Javert on watch outside the trap." },
+      { "from": 350, "text": "A masker on a carnival cart, set by her father to trail Cosette's wedding." },
+      { "from": 363, "text": "Gone to America with her father." }
+    ],
+    "description": [
+      { "from": 38, "text": "The younger of the two little girls on the swing at Montfermeil, about eighteen months old in 1818. Her mother, fed on romances, nearly named her Gulnare." },
+      { "from": 39, "text": "Like her sister she copies their mother in ill-treating Cosette." },
+      { "from": 100, "text": "On Christmas Eve 1823 she and Éponine play with their doll while Cosette knits under the table, and leave it lying when they tire of it." },
+      { "from": 221, "text": "The younger Jondrette girl of the Gorbeau house is Azelma. Marius saw her sitting half-naked and silent on a pallet; to stage the family's misery for M. Leblanc her father had her put her fist through a windowpane, and then pinched her cut hand to make her shriek. Posted as a lookout during the trap, she was caught by Javert under the trees." },
+      { "from": 230, "text": "Held at the Madelonettes, she is released with her sister for lack of proof." },
+      { "from": 349, "text": "After her mother's death in prison she has sunk out of sight with her father." },
+      { "from": 350, "text": "On Cosette's wedding day she rides a carnival cart as a gaunt young fishwife in a half-mask, hired for the day by the prefecture. Her father, masked beside her, tells her to find out where the wedding is going; she cannot leave the cart." },
+      { "from": 363, "text": "Two days after her father's visit to Marius, she sails with him for America." }
+    ],
+    "moments": [
+      { "chapter": 38, "text": "Named by her mother out of a romance." },
+      { "chapter": 221, "text": "Revealed as the younger Jondrette girl; caught by Javert on watch." },
+      { "chapter": 350, "text": "Masked on a carnival cart beside her father as Cosette's wedding passed." },
+      { "chapter": 363, "text": "Left for America with her father." }
+    ]
+  },
+  {
+    "id": "gavroche",
+    "name": "Gavroche",
+    "firstChapter": 159,
+    "importance": "major",
+    "group": "The Thénardiers",
+    "aliases": [
+      { "name": "Little Gavroche", "from": 159 },
+      { "name": "Monsieur Gavroche", "from": 250, "note": "what he tells Montparnasse to ask for" }
+    ],
+    "tagline": [
+      { "from": 159, "text": "Little Gavroche: a merry, unloved street boy of eleven or so, son of the Jondrettes." },
+      { "from": 222, "text": "The boy who calls to see his 'ancestors' and finds them all in prison: the Thénardiers' son." },
+      { "from": 250, "text": "Lord of the plaster elephant of the Bastille, who takes in two lost little boys for the night." },
+      { "from": 251, "text": "The gamin who climbs a ruined wall to bring down his own father." },
+      { "from": 271, "text": "Off to the insurrection with a pistol that has no trigger." },
+      { "from": 283, "text": "The barricade's gamin, who unmasks the police spy." },
+      { "from": 294, "text": "Marius's messenger, sent out of the barricade with a letter to save his life." },
+      { "from": 313, "text": "Shot dead gathering cartridges outside the barricade, still singing." }
+    ],
+    "description": [
+      { "from": 159, "text": "Eight or nine years on in the story, a boy of eleven or twelve roams the Boulevard du Temple in a man's trousers and a woman's chemise, given him in charity, not by his parents. He is merry because he is free: his father does not think of him and his mother does not love him, so he is an orphan with parents. Every few months he goes 'to see mamma' at the Gorbeau house, where the destitute Jondrettes live in an attic, finds a cold hearth and cold hearts, and says he comes from the street. He is called Little Gavroche, Hugo supposes, because his father is called Jondrette." },
+      { "from": 222, "text": "The night after the ambush he kicks at the locked door of the Gorbeau house to visit 'his ancestors' and learns that his father is at La Force, his mother at Saint-Lazare and his sisters at the Madelonettes. He says 'Ah!', spins on his heel and goes off singing. Since Jondrette is Thénardier, he is the Thénardiers' son and Éponine and Azelma's brother, and the chapter's title makes him the little boy left crying in the dark at the Montfermeil inn in 1823." },
+      { "from": 242, "text": "Hungry and about to raid M. Mabeuf's apple-house, he watches from under a hedge as Montparnasse attacks an old passer-by, who overpowers him, lectures him on idleness and gives him his purse. Gavroche picks the purse from Montparnasse's pocket and tosses it over the hedge to Mabeuf." },
+      { "from": 250, "text": "On a stormy spring night of 1832 he takes up two small lost boys turned out of a barber's shop, spends his last sou on bread for them and keeps the smallest piece, gives his shawl to a shivering beggar-girl, and beds them down in his home: the great crumbling plaster elephant of the Bastille, inside a cage of brass netting against the rats. He tucks in the little one like a mother. Before dawn Montparnasse's call brings him out." },
+      { "from": 251, "text": "Montparnasse needs a small boy to climb a narrow flue to an escaped prisoner stranded on a wall. Gavroche sees the face above him, recognises his father, remarks that it won't hinder, and ties the rope. Then he waits on a fence-post for his father to turn toward him, and when he does not, goes off to get his 'brats' out of bed. He has no idea that the two boys are his own brothers." },
+      { "from": 271, "text": "He gave the two little boys a breakfast, sent them off to look for their parents and never saw them again. As the funeral crowd scatters in panic on 5 June he borrows an old holster pistol from a junk shop and marches off to the fighting singing, then finds it has no trigger. Hugo wonders whether he makes up his own songs." },
+      { "from": 275, "text": "He joins Enjolras's armed band at the Marché Saint-Jean, admires Bahorel for tearing down an archbishop's notice, and leads the way singing toward Saint-Merry." },
+      { "from": 280, "text": "At the barricade of the Rue de la Chanvrerie he is a whirlwind, everywhere at once, demanding a real gun and told that the men come first." },
+      { "from": 283, "text": "Sent out to scout, he first points out the tall recruit from the Rue des Billettes as a police spy who once pulled him off a cornice by the ear. It is Javert. Gavroche leaves with the spy's gun." },
+      { "from": 290, "text": "He warns of the troops with a song and stays on guard alone. When the Municipal Guards climb the barricade a giant raises a bayonet over him, and his borrowed gun is not loaded; Marius, arriving, shoots the man." },
+      { "from": 294, "text": "Marius, knowing now that he is Thénardier's son, sends him out with a farewell letter to Cosette so as to save his life. Gavroche runs off meaning to be back before the barricade falls." },
+      { "from": 296, "text": "In the Rue de l'Homme Armé he smashes the street lantern, refuses a five-franc piece as a bribe and then takes it for his mother, and hands the letter to a bareheaded man who says it is meant for him." },
+      { "from": 298, "text": "On his way back he tips a drunken Auvergnat out of his handcart to take it for the barricade, leaves a receipt signed 'Gavroche', and escapes a quarter of an hour of National Guard musketry, worried only that he will be late." },
+      { "from": 306, "text": "Back at dawn, he tells Marius he left the letter with the porter, and says he does not know M. Fauchelevent." },
+      { "from": 313, "text": "When cartridges run short he slips outside with a bottle basket to empty the cartridge boxes of the dead, answering every bullet with a new couplet about Voltaire and Rousseau. One shot knocks him down; he sits up and sings on, and a second kills him." },
+      { "from": 315, "text": "Marius carries his body back, thinking that he is doing for Thénardier's son what Thénardier did for his father, except that he brings the child back dead. He is laid beside Mabeuf under the black shawl." }
+    ],
+    "moments": [
+      { "chapter": 159, "text": "Introduced as Little Gavroche, the Jondrettes' unloved son." },
+      { "chapter": 222, "text": "Found his whole family in prison, and went off singing." },
+      { "chapter": 242, "text": "Picked Montparnasse's pocket and threw the purse to Mabeuf." },
+      { "chapter": 250, "text": "Sheltered two lost boys in the elephant of the Bastille." },
+      { "chapter": 251, "text": "Climbed the wall to free his father from La Force." },
+      { "chapter": 283, "text": "Unmasked Javert as a spy at the barricade." },
+      { "chapter": 294, "text": "Carried Marius's letter to the Rue de l'Homme Armé." },
+      { "chapter": 313, "text": "Killed outside the barricade while gathering cartridges." }
+    ]
+  },
+  {
+    "id": "the-two-little-boys",
+    "name": "The two little boys",
+    "firstChapter": 249,
+    "importance": "supporting",
+    "group": "The Thénardiers",
+    "aliases": [
+      { "name": "the little Magnons", "from": 249, "note": "the identity they were leased under" }
+    ],
+    "tagline": [
+      { "from": 249, "text": "The Thénardiers' two youngest sons, leased to Magnon and now lost in the streets." },
+      { "from": 250, "text": "The lost boys Gavroche shelters in the elephant, not knowing they are his brothers." },
+      { "from": 314, "text": "Two ragged children in the empty Luxembourg, sharing a cake fished from the swans' basin." }
+    ],
+    "description": [
+      { "from": 249, "text": "Born to the Thénardiers after 1823, they were handed over while still small to the woman Magnon, whose own two boys had died of croup on the same day, so that M. Gillenormand's eighty francs a month for 'his' children would keep coming. Their father drew ten francs a month for the loan. Well fed and dressed, they were treated almost like little gentlemen, better by their false mother than by their real one. When the police raid Magnon's house they are playing in the yard; locked out, they lose the paper with the address they were told to go to, and wander off into the night." },
+      { "from": 250, "text": "About seven and five, neatly dressed, they are shoved weeping out of a barber's shop, and Gavroche takes them home to the elephant of the Bastille. They know only that they have a papa and mamma, and that mamma lives with a lady called Mamselle Miss. The younger asks whether the rats will eat them." },
+      { "from": 271, "text": "Gavroche gave them breakfast and sent them to look for their parents, telling them to come back in the evening. They never came back." },
+      { "from": 314, "text": "On 6 June, ragged now, they slip into the locked Luxembourg and hide by the swans' hutch while a smug bourgeois throws his son's stale brioche to the swans. When he has gone, the elder fishes it out with a stick, keeps the small piece for himself, and gives the larger one to his brother." }
+    ],
+    "moments": [
+      { "chapter": 249, "text": "Locked out after the raid on Magnon's house, and lost." },
+      { "chapter": 250, "text": "Spent the night in the elephant with Gavroche." },
+      { "chapter": 314, "text": "Shared a brioche fished from the Luxembourg basin." }
+    ]
+  },
+  {
+    "id": "boulatruelle",
+    "name": "Boulatruelle",
+    "firstChapter": 91,
+    "importance": "minor",
+    "group": "The Thénardiers",
+    "tagline": [
+      { "from": 91, "text": "An ex-convict road-mender of Montfermeil who digs for treasure in the forest." },
+      { "from": 220, "text": "The drunk asleep on the bed in the Gorbeau trap." },
+      { "from": 342, "text": "Still hunting the forest treasure, he finds only an empty hole." }
+    ],
+    "description": [
+      { "from": 91, "text": "An old road-mender on the Gagny–Lagny road, a former galley-slave under police watch, too servile to gendarmes to be trusted. He took to slipping into the Montfermeil forest with a pickaxe and digging, and the village decided he was after the devil's treasure. Plied with wine by Thénardier and the schoolmaster, he let slip that he once saw a man he 'knew well', a galley comrade by Thénardier's reading, carry a small chest into the thicket and come out with only a pick and shovel. He has dug for the spot in vain." },
+      { "from": 200, "text": "Hugo lists him among the hangers-on of the Patron-Minette gang." },
+      { "from": 220, "text": "He is the old drunk on the bed in the Gorbeau garret, who reels up with a stone-breaker's hammer when the prisoner tries to escape and is felled; Thénardier calls him Boulatruelle and has him swept into a corner." },
+      { "from": 221, "text": "He wakes as Javert makes his arrests, asking Jondrette whether it is all over." },
+      { "from": 342, "text": "His drunkenness that night saved him: the court could not tell whether he was robber or victim. Back at his stones, he glimpses at dawn a man whose back seems familiar, tracks him to the glade called the Blaru-bottom, and arrives to find freshly turned earth, an abandoned pickaxe and an empty hole. 'Thief!' he shrieks at the horizon." },
+      { "from": 346, "text": "The man he saw both times was Jean Valjean, burying and then digging up M. Madeleine's fortune. Valjean left him the pickaxe." }
+    ],
+    "moments": [
+      { "chapter": 91, "text": "Told Thénardier of a stranger burying a chest in the forest." },
+      { "chapter": 220, "text": "Took part, drunk, in the Gorbeau trap." },
+      { "chapter": 342, "text": "Found the treasure hole empty." }
+    ]
   }
 ]

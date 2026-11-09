@@ -2960,5 +2960,371 @@
     "chapter": 89,
     "text": "Hugo's name for night-wandering larvae or spirits of Norman folklore, creatures that haunt ruins. The image fits the furtive figure moving among the dead.",
     "quote": "which ancient Norman legends call the Alleurs"
+  },
+  {
+    "term": "Gazette des Tribunaux",
+    "kind": "history",
+    "chapter": 90,
+    "text": "A Paris daily devoted to court reports, founded in 1825, which made trials a popular reading matter. Before it, news of a provincial case reached the public only in brief paragraphs like the two Hugo 'transcribes' from the Drapeau Blanc and the Journal de Paris.",
+    "quote": "the Gazette des Tribunaux was not yet in existence"
+  },
+  {
+    "term": "the patriarch of Ferney",
+    "kind": "reference",
+    "chapter": 90,
+    "text": "Voltaire, who spent his last twenty years at his château of Ferney near Geneva and was revered there as 'the patriarch'. The newspaper quotes his verse on the little Savoyards who come every year to sweep chimneys.",
+    "quote": "the patriarch of Ferney"
+  },
+  {
+    "term": "commute his penalty",
+    "kind": "custom",
+    "chapter": 90,
+    "text": "Only the king could pardon or commute a sentence. A death sentence reduced to hard labour for life was a common act of royal clemency, and the Constitutionnel, a liberal paper, read it as favour to a man known for his piety.",
+    "quote": "has deigned to commute his penalty"
+  },
+  {
+    "term": "the death of Alexander",
+    "kind": "reference",
+    "chapter": 90,
+    "text": "When Alexander the Great died in 323 BC his generals carved his empire into rival kingdoms. Hugo compares the break-up of Madeleine's industry among squabbling former foremen to that partition.",
+    "quote": "because it occurred after the death of Alexander"
+  },
+  {
+    "term": "the devil’s treasure",
+    "kind": "custom",
+    "chapter": 91,
+    "text": "Hugo's account of a Montfermeil superstition: a horned black man digs holes in the forest at night to hide the devil's treasure, and whoever meets him dies within a week, a month or a year depending on what he does. Tryphon's Latin couplet lists what the digger finds: 'copper, coins, stones, a corpse, ghosts, and nothing'.",
+    "quote": "the devil, from time immemorial, has selected the forest as a hiding-place"
+  },
+  {
+    "term": "Roger Bacon and Charles VI",
+    "kind": "history",
+    "chapter": 91,
+    "text": "Roger Bacon, the thirteenth-century English friar, was credited with the first Western recipe for gunpowder; playing cards were said to have been invented to amuse the mad French king Charles VI around 1392. Hugo uses them to date the devil's later finds.",
+    "quote": "before Roger Bacon’s time, and cards before the time of Charles VI"
+  },
+  {
+    "term": "road-mender",
+    "kind": "custom",
+    "chapter": 91,
+    "text": "Cantonniers kept a stretch of road in repair, breaking stones by the roadside. The administration gave such work, at reduced pay, to released convicts under police supervision who could find nothing else, which is how Boulatruelle lives.",
+    "quote": "employed him at reduced rates as a road-mender"
+  },
+  {
+    "term": "the water test",
+    "kind": "history",
+    "chapter": 91,
+    "text": "Under the old monarchy, judicial torture ('the question') was used to extract confessions; one form forced quantities of water into the accused. It was abolished in 1788. Thénardier's 'wine test' is the tavern version.",
+    "quote": "the water test, for example"
+  },
+  {
+    "term": "Voltairians",
+    "kind": "word",
+    "chapter": 91,
+    "text": "Sceptics and anticlericals who mocked religion in Voltaire's manner, a familiar village type of the Restoration alongside the devout. Their jibe about catching the devil turns the superstition into a joke.",
+    "quote": "The Voltairians added"
+  },
+  {
+    "term": "the Spanish war",
+    "kind": "history",
+    "chapter": 92,
+    "text": "In 1823 a French army under the Duc d'Angoulême invaded Spain at the request of the Holy Alliance to restore the absolute power of Ferdinand VII against the liberal constitution. It was quick and almost bloodless. Hugo calls it a war by Napoleon's generals for Louis XIV's heirs against liberty.",
+    "quote": "“the epoch of the Spanish war.”",
+    "seeAlso": [
+      93
+    ]
+  },
+  {
+    "term": "the hero of Andujar",
+    "kind": "history",
+    "chapter": 92,
+    "text": "The Duc d'Angoulême, nephew of Louis XVIII, issued an ordinance at Andújar curbing royalist reprisals in Spain; the liberal papers gave him the title with irony. The Trocadéro was a fort at Cadiz whose capture ended the war, and gave its name to a square in Paris.",
+    "quote": "“the hero of Andujar,”"
+  },
+  {
+    "term": "the Holy Office",
+    "kind": "history",
+    "chapter": 92,
+    "text": "The Spanish Inquisition, the church tribunal for heresy, abolished by the liberals and the symbol of the absolute monarchy that France was restoring. The 'descamisados', the shirtless, were the Spanish radicals, as the sans-culottes had been the French.",
+    "quote": "the Holy Office"
+  },
+  {
+    "term": "Coblentz",
+    "kind": "history",
+    "chapter": 92,
+    "text": "The Rhineland town where émigré nobles gathered an army against the Revolution in 1791–1792 under the white flag. In 1823 a few French liberals in Spain did the same under the tricolour, against their own country's army.",
+    "quote": "thirty years earlier at Coblentz"
+  },
+  {
+    "term": "Saragossa and Palafox",
+    "kind": "history",
+    "chapter": 92,
+    "text": "The Spanish city whose people, led by General Palafox, held out against two terrible French sieges in 1808–1809. Rostopchin was the Moscow governor blamed for burning the city in 1812; Ballesteros a Spanish general who surrendered in 1823. France, Hugo says, prefers enemies who fight.",
+    "quote": "Soldiers of the war of 1808, on whom Saragossa had fallen"
+  },
+  {
+    "term": "el rey netto",
+    "kind": "foreign",
+    "chapter": 92,
+    "text": "Spanish, 'the king pure and simple': an absolute king without a constitution, the royalists' cry for Ferdinand VII. Hugo's warning is that a French government able to impose one in Madrid might be tempted to try at home.",
+    "quote": "el rey netto"
+  },
+  {
+    "term": "machineel tree",
+    "kind": "reference",
+    "chapter": 92,
+    "text": "The manchineel, a tropical tree whose sap and fruit are poisonous; legend held that sleeping in its shade was fatal. Hugo's image for a regime trusting the loyalty of its army.",
+    "quote": "in the shadow of a machineel tree"
+  },
+  {
+    "term": "ship of the line",
+    "kind": "word",
+    "chapter": 92,
+    "text": "The largest class of sailing warship, with two or three gun decks and up to 120 cannon, built to fight in the line of battle. Convicts from the bagne worked in Toulon's naval arsenal and were sent aboard ships under repair.",
+    "quote": "A ship of the line is one of the most magnificent combinations"
+  },
+  {
+    "term": "yard and foot-rope",
+    "kind": "word",
+    "chapter": 92,
+    "text": "A yard is the long horizontal spar from which a square sail hangs; sailors working the sail stood on a foot-rope slung beneath it. The topman is the sailor stationed aloft on the tops of the masts.",
+    "quote": "he seized the footrope"
+  },
+  {
+    "term": "Livry and Chelles",
+    "kind": "place",
+    "chapter": 93,
+    "text": "Villages on either side of Montfermeil east of Paris, Chelles in the Marne valley with the remains of a royal abbey. The plateau between the Ourcq and the Marne was wooded and dry, so water had to be fetched from springs and ponds.",
+    "quote": "Montfermeil is situated between Livry and Chelles"
+  },
+  {
+    "term": "Christmas eve",
+    "kind": "custom",
+    "chapter": 93,
+    "text": "Christmas in rural France was a church feast with a midnight mass, a late supper and a fair, not a day of family presents; children set out a shoe by the hearth for a small gift. A travelling fair has set up its booths in the village for the feast.",
+    "quote": "On Christmas eve itself"
+  },
+  {
+    "term": "kaleidoscope",
+    "kind": "history",
+    "chapter": 93,
+    "text": "The optical toy of mirrors and coloured glass, invented by the Scot David Brewster in 1816 and a craze across Europe in the following years. With a ribbed tin lamp it dates the Thénardiers' room to 1823.",
+    "quote": "a kaleidoscope and a lamp of ribbed tin"
+  },
+  {
+    "term": "cat-o’-nine-tails",
+    "kind": "word",
+    "chapter": 93,
+    "text": "A whip of several knotted cords on a handle, used in armies and navies for flogging. Hanging on a nail in the chimney-corner, it is the household's instrument for one child only.",
+    "quote": "a cat-o’-nine-tails was hanging on a nail"
+  },
+  {
+    "term": "wooden shoes",
+    "kind": "custom",
+    "chapter": 93,
+    "text": "Sabots, shoes carved from a single block of wood, worn by peasants and the poor, often without stockings. Cosette wears them on bare feet in winter while she knits woollen stockings for the Thénardier girls.",
+    "quote": "her bare feet were thrust into wooden shoes",
+    "seeAlso": [
+      100
+    ]
+  },
+  {
+    "term": "Abbé Delille",
+    "kind": "reference",
+    "chapter": 94,
+    "text": "Jacques Delille (1738–1813), a fashionable poet and translator of Virgil, admired in his day and soon ridiculed. Thénardier looks like his portraits; his heroes Voltaire, Raynal and Parny were all freethinking writers of the eighteenth century.",
+    "quote": "the portraits of the Abbé Delille"
+  },
+  {
+    "term": "filousophe",
+    "kind": "word",
+    "chapter": 94,
+    "text": "A pun on 'filou' (swindler) and 'philosophe', the eighteenth-century name for the freethinking men of letters. Hugo's coinage for a cheat who talks like a philosopher.",
+    "quote": "A filousophe, a scientific thief."
+  },
+  {
+    "term": "the Champ d’Asile",
+    "kind": "history",
+    "chapter": 94,
+    "text": "'Field of Refuge', a colony founded in Texas in 1818 by exiled Bonapartist officers. Liberals and Bonapartists in France subscribed money for it, a safe political gesture; it collapsed within months.",
+    "quote": "He had subscribed for the Champ d’Asile."
+  },
+  {
+    "term": "quibus",
+    "kind": "word",
+    "chapter": 94,
+    "text": "Slang for money, from a Latin legal phrase; 'to have the quibus' is to be in funds. Hugo names exactly where Thénardier's came from.",
+    "quote": "“some quibus,”"
+  },
+  {
+    "term": "exposing the crown",
+    "kind": "history",
+    "chapter": 94,
+    "text": "A parliamentary phrase: to drag the monarch's name into public debate, which ministers were bound to avoid. Madame Thénardier never contradicts her husband 'before strangers'.",
+    "quote": "“exposing the crown.”"
+  },
+  {
+    "term": "fifteen-sou piece",
+    "kind": "money",
+    "chapter": 95,
+    "text": "A small silver coin worth three-quarters of a franc, enough for a large loaf. For Cosette it is a sum she is responsible for and cannot replace.",
+    "quote": "Here’s a fifteen-sou piece."
+  },
+  {
+    "term": "midnight mass",
+    "kind": "custom",
+    "chapter": 96,
+    "text": "The first mass of Christmas, celebrated at midnight on Christmas eve, to which villagers walked carrying candles. The fair's booths stay lit for them.",
+    "quote": "on their way to the midnight mass"
+  },
+  {
+    "term": "werewolf child",
+    "kind": "lore",
+    "chapter": 97,
+    "text": "Country people believed in the loup-garou, a person turned wolf at night who roamed the fields. A small figure out alone in the dark on Christmas eve is, for a moment, uncanny.",
+    "quote": "Is it a werewolf child?"
+  },
+  {
+    "term": "Henry IV’s frills",
+    "kind": "word",
+    "chapter": 97,
+    "text": "A country name for a crimped wild grass, likened to the stiff pleated ruff worn at the court of Henri IV. Hugo gives the spring's plants their local names.",
+    "quote": "those tall, crimped grasses which are called Henry IV’s frills"
+  },
+  {
+    "term": "Boulevard de l’Hôpital",
+    "kind": "place",
+    "chapter": 98,
+    "text": "A wide, half-empty boulevard on the south-east edge of Paris, running past the vast Salpêtrière hospital for poor and insane women. The faubourg Saint-Marceau around it was one of the poorest quarters of the city.",
+    "quote": "the Boulevard de l’Hôpital in Paris",
+    "seeAlso": [
+      103
+    ]
+  },
+  {
+    "term": "Choisy-le-Roi",
+    "kind": "place",
+    "chapter": 98,
+    "text": "A town on the Seine south of Paris with a royal château. Louis XVIII, too lame to walk, drove there almost daily at a gallop, so the poor women of the quarter told the time by his carriage.",
+    "quote": "King Louis XVIII went nearly every day to Choisy-le-Roi"
+  },
+  {
+    "term": "the Golden Fleece, the cross of Saint Louis",
+    "kind": "history",
+    "chapter": 98,
+    "text": "Royal orders of chivalry worn by Louis XVIII: the Habsburg and Spanish Order of the Golden Fleece, the military Order of Saint Louis, and the Order of the Holy Spirit with its wide blue ribbon, the highest order of the French monarchy. His hair is powdered in the style called 'royal bird'.",
+    "quote": "the Golden Fleece, the cross of Saint Louis"
+  },
+  {
+    "term": "the bodyguard",
+    "kind": "history",
+    "chapter": 98,
+    "text": "The Gardes du Corps, the king's mounted household troops in silver-laced uniforms, restored in 1814. The Duc de Havré was one of their captains, riding in the royal carriage.",
+    "quote": "surrounded by a squadron of the bodyguard"
+  },
+  {
+    "term": "Porte Saint-Martin",
+    "kind": "place",
+    "chapter": 98,
+    "text": "A triumphal arch of Louis XIV on the boulevards, and the popular theatre beside it, home of melodrama. From the boulevard the coaches for the eastern suburbs left from inns in the nearby alleys.",
+    "quote": "the theatre of the Porte Saint-Martin"
+  },
+  {
+    "term": "twenty-sou piece",
+    "kind": "money",
+    "chapter": 100,
+    "text": "A silver one-franc coin, worth more than the lost fifteen sous; Madame Thénardier notices and keeps quiet. A night's lodging at the inn was normally twenty sous.",
+    "quote": "it was a twenty-sou piece"
+  },
+  {
+    "term": "brave homme",
+    "kind": "foreign",
+    "chapter": 100,
+    "text": "'Good fellow' or 'my good man', the patronising way of speaking to a working man or a beggar. The switch to 'Monsieur' marks Madame Thénardier's change of mind about her guest's purse.",
+    "quote": "brave homme or bonhomme"
+  },
+  {
+    "term": "corpus delicti",
+    "kind": "foreign",
+    "chapter": 100,
+    "text": "Latin legal term, 'the body of the crime': the object or evidence proving that an offence was committed. Hugo applies it with mock solemnity to the Thénardier girls' doll.",
+    "quote": "the corpus delicti"
+  },
+  {
+    "term": "the Duchesse de Berry",
+    "kind": "history",
+    "chapter": 100,
+    "text": "The widow of the murdered Duc de Berry and mother of the Bourbons' young heir, a celebrated figure at court. Saying 'Your Majesty' to her is Madame Thénardier's idea of absurd deference.",
+    "quote": "as though to the Duchesse de Berry!"
+  },
+  {
+    "term": "Courrier Français",
+    "kind": "history",
+    "chapter": 100,
+    "text": "A liberal opposition newspaper of the Restoration. Thénardier reading it, three times over, fits his pose as a Bonapartist and liberal.",
+    "quote": "began to read the Courrier Français"
+  },
+  {
+    "term": "shoes in the chimney",
+    "kind": "custom",
+    "chapter": 100,
+    "text": "On Christmas eve French children set a shoe on the hearth for the Christ Child, or a 'good fairy', to fill with a small present or coin by morning. A ten-sou piece was a modest gift; a gold louis would be a fortune.",
+    "quote": "children place their shoes in the chimney on Christmas eve"
+  },
+  {
+    "term": "orange flowers",
+    "kind": "custom",
+    "chapter": 100,
+    "text": "Brides wore a wreath of orange blossom, real or wax, a symbol of purity, and kept it afterwards under a glass globe on the mantelpiece. Thénardier has bought one second-hand for show.",
+    "quote": "a woman’s headdress in silver wire and orange flowers"
+  },
+  {
+    "term": "the hundredths",
+    "kind": "history",
+    "chapter": 101,
+    "text": "The 'centimes additionnels', surcharges added to direct taxes to fund local government, alongside the trade licence (patente) and the door and window tax. Madame Thénardier lists them all to plead poverty.",
+    "quote": "the door and window tax, the hundredths!"
+  },
+  {
+    "term": "Castlereagh",
+    "kind": "history",
+    "chapter": 101,
+    "text": "Lord Castlereagh, the British foreign secretary who negotiated the peace settlement and the indemnity France had to pay the allies after 1815. Hugo compares Thénardier's dissatisfaction with his bill to his.",
+    "quote": "the accent of Castlereagh auditing France’s bill"
+  },
+  {
+    "term": "twenty-franc pieces of the Restoration",
+    "kind": "money",
+    "chapter": 101,
+    "text": "Gold twenty-franc coins struck under Louis XVIII bore his bare head with a short tied-back queue in place of Napoleon's laurel wreath. Hugo calls it 'Prussian', a sneer at a king restored by foreign armies.",
+    "quote": "perfectly new twenty-franc pieces of the Restoration"
+  },
+  {
+    "term": "dressed in mourning",
+    "kind": "custom",
+    "chapter": 101,
+    "text": "Black clothes were worn for a set period after a death in the family, by children as well as adults. A child walking out of the village all in black is plainly mourning someone.",
+    "quote": "a little girl dressed in mourning"
+  },
+  {
+    "term": "Livry and Bondy",
+    "kind": "place",
+    "chapter": 102,
+    "text": "Villages north of Montfermeil on the way back toward Paris, at the edge of the great forest of Bondy, long known for its highwaymen. The aqueduct of the old Abbey of Chelles crossed the woods there.",
+    "quote": "in the direction of Livry and Bondy"
+  },
+  {
+    "term": "Balaguier",
+    "kind": "place",
+    "chapter": 103,
+    "text": "A headland across the harbour from Toulon, with Cape Brun on the other side of the roadstead. Hugo names real places along an escaped convict's route, and a house that served as a 'dressing-room' where fugitives exchanged their convict red for ordinary clothes.",
+    "quote": "in the neighborhood of Balaguier"
+  },
+  {
+    "term": "Barrier Monceaux",
+    "kind": "place",
+    "chapter": 103,
+    "text": "One of the toll gates in the customs wall round Paris, on the north-west side. Entering the city there and crossing it by cab to the Observatoire, then on foot through the poor streets of the Ourcine and the Glacière, made the route hard to follow.",
+    "quote": "by way of the Barrier Monceaux"
   }
 ]

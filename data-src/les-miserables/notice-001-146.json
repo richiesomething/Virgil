@@ -3,14 +3,14 @@
     "chapter": 1,
     "kind": "craft",
     "title": "A slow, sideways opening",
-    "text": "Hugo opens a novel called Les Misérables with a contented old bishop and admits that his first details have 'no connection whatever with the real substance' of the story. He is setting a moral standard first. Whoever arrives later will be measured against this man.",
+    "text": "Hugo opens a novel called Les Misérables with a contented old bishop and admits that his first details have 'no connection whatever with the real substance' of the story. He is setting a moral standard first. Book One is a measuring stick, held up before anyone else arrives.",
     "themes": []
   },
   {
     "chapter": 1,
     "kind": "context",
     "title": "A good man and a great man",
-    "text": "The meeting with Napoleon is set in 1804, the year he crowned himself emperor. Myriel's reply turns the hierarchy upside down: the Emperor is merely great, the priest is good, and each may profit from the other. The book will keep weighing goodness against greatness.",
+    "text": "The meeting with Napoleon is set in 1804, the year he crowned himself emperor. Myriel's reply turns the hierarchy upside down: the Emperor is merely great, the priest is good, and each may profit from the other. Goodness against greatness: the novel's first scene sets the two side by side.",
     "themes": []
   },
   {
@@ -59,7 +59,7 @@
     "chapter": 4,
     "kind": "theme",
     "title": "The road the fault has travelled",
-    "text": "'Examine the road over which the fault has passed.' The Bishop judges a wrong by how a person was brought to it. If the weak and the poor go wrong, he says, the guilt lies with the strong who left them in darkness. Hold this rule up against every judgement made in the book.",
+    "text": "'Examine the road over which the fault has passed.' The Bishop judges a wrong by how a person was brought to it. If the weak and the poor go wrong, he says, the guilt lies with the strong who left them in darkness. Hugo offers it as a measure for every judgement a reader is asked to make.",
     "themes": [
       "mercy-law"
     ]
@@ -100,7 +100,7 @@
     "chapter": 6,
     "kind": "craft",
     "title": "An inventory",
-    "text": "Hugo walks through the house room by room and stops to count the silver: six forks and spoons, a soup ladle, two massive candlesticks. Inventories in novels are rarely innocent. You can feel the narrator wanting you to know exactly what is in that cupboard, and that its key stays in the lock.",
+    "text": "Hugo walks through the house room by room and stops to count the silver: six forks and spoons, a soup ladle, two massive candlesticks. You can feel the narrator wanting you to know exactly what is in that cupboard, and that its key stays in the lock.",
     "themes": []
   },
   {
@@ -139,7 +139,7 @@
     "chapter": 8,
     "kind": "theme",
     "title": "A philosophy for the rich",
-    "text": "The senator's materialism, enjoy everything and fear nothing after death, is witty and comfortable. The Bishop's answer is to agree with it ironically and point out that only the rich can afford it. Unbelief, here, is a luxury good, and religion is left to the poor like a cheap substitute dish.",
+    "text": "The senator's materialism, enjoy everything and fear nothing after death, is witty and comfortable. The Bishop's answer is to pretend to admire it and point out that only the rich can afford it. Unbelief, here, is a luxury good, and religion is left to the poor like a cheap substitute dish.",
     "themes": []
   },
   {
@@ -187,8 +187,7 @@
     "title": "An argument with two strong sides",
     "text": "Hugo lets G— land real blows: the crimes of the monarchy against the crimes of the Terror, the child Louis XVII against Cartouche's brother. He does not make the revolutionary a straw man. The chapter's title calls him an 'unknown light'.",
     "themes": [
-      "revolution",
-      "light-darkness"
+      "revolution"
     ]
   },
   {
@@ -343,9 +342,7 @@
     "kind": "context",
     "title": "The fruitières",
     "text": "The cheese-dairies of the Jura were real village co-operatives where poor peasants pooled their milk. The Bishop dwells on them because they offer a man without a past an honest trade and a community. It is advice disguised as small talk.",
-    "themes": [
-      "poverty"
-    ]
+    "themes": []
   },
   {
     "chapter": 19,
@@ -386,7 +383,7 @@
     "chapter": 20,
     "kind": "theme",
     "title": "A man becomes a number",
-    "text": "At Toulon he becomes 24,601. Hugo strips Valjean's identity layer by layer: family, place, name. The chapter ends with a question about his soul, which Hugo will now try to answer.",
+    "text": "At Toulon he becomes 24,601. Hugo strips Valjean's identity layer by layer: family, place, name. The chapter ends with a question about what happened inside that soul.",
     "themes": [
       "names"
     ]
@@ -414,7 +411,7 @@
     "chapter": 21,
     "kind": "craft",
     "title": "Jean the Jackscrew",
-    "text": "Hugo spends real care on Valjean's body: worth four men at the capstan, able to climb a wall's corner with back and heels, nicknamed after holding up a balcony's caryatid. Physical facts like these are the kind a novel files away. The man's strength is now part of who he is.",
+    "text": "Hugo spends real care on Valjean's body: worth four men at the capstan, able to climb a wall's corner with back and heels, nicknamed after holding up a balcony's caryatid. The galleys have made him a formidable body as well as a hardened mind.",
     "themes": []
   },
   {
@@ -440,7 +437,7 @@
     "chapter": 22,
     "kind": "question",
     "title": "Who shall resuscitate it?",
-    "text": "The chapter ends on a question: who will bring back a soul that has sunk in the social night? It is the first open question the novel asks about Valjean, and it is left hanging just before the theft.",
+    "text": "The chapter ends on a question: who can bring back a soul that has sunk in the social night? Hugo asks it while Valjean lies asleep in the Bishop's house, and leaves it open.",
     "themes": [
       "conscience"
     ]
@@ -605,7 +602,7 @@
     "chapter": 28,
     "kind": "theme",
     "title": "No trivial facts",
-    "text": "Hugo defends his catalogue: there are no small facts in humanity, and the face of a century is made of the faces of its years. It is a theory of history from below, and it justifies the many digressions to come.",
+    "text": "Hugo defends his catalogue: there are no small facts in humanity, and the face of a century is made of the faces of its years. It is a theory of history from below, and a defence of the novelist who stops the story to describe a year.",
     "themes": [
       "paris"
     ]
@@ -756,7 +753,7 @@
     "chapter": 36,
     "kind": "craft",
     "title": "Laughter, then the turn",
-    "text": "The girls laugh, and Fantine laughs with them. Then, an hour later, alone, she weeps, and in the last line Hugo tells us she has a child. The whole long, sunny Book Three has been leading to this one sentence.",
+    "text": "The girls laugh, and Fantine laughs with them. Then, an hour afterwards, alone, she weeps, and in the last line Hugo tells us she has a child. The whole long, sunny Book Three has been leading to this one sentence.",
     "themes": [
       "love"
     ]
@@ -999,7 +996,7 @@
     "chapter": 45,
     "kind": "craft",
     "title": "The sentence that changes the scene",
-    "text": "Javert says he has known only one man who could lift such a weight, a convict at Toulon. From then on the rescue has two audiences. Madeleine looks at the dying man and at Javert and knows what lifting the cart will tell the inspector. He smiles sadly and does it.",
+    "text": "Javert says he has known only one man who could lift such a weight, a convict at Toulon. From then on the rescue has two audiences. Madeleine looks at the dying man and at Javert and understands what lifting the cart would tell the inspector. He smiles sadly and does it.",
     "themes": [
       "conscience",
       "names"
@@ -1011,5 +1008,757 @@
     "title": "The jackscrew",
     "text": "The jackscrew is a quarter of an hour away, and the old man has five minutes. Javert's phrase is that he knew one man 'who could take the place of a screw'. In his mouth a man and a tool are interchangeable.",
     "themes": []
+  },
+  {
+    "chapter": 46,
+    "kind": "craft",
+    "title": "I purchase your horse and cart",
+    "text": "The horse is dead and the cart is wrecked, and Madeleine still 'buys' them for a thousand francs. The polite fiction lets a proud old enemy accept charity without being humiliated. It is the Bishop's tact again, in a businessman's form.",
+    "themes": [
+      "mercy-law"
+    ]
+  },
+  {
+    "chapter": 46,
+    "kind": "motif",
+    "title": "A wolf in its master's clothes",
+    "text": "When Javert first sees Madeleine wearing the mayor's scarf, he shudders like a watchdog that smells a wolf dressed as its master. Hugo returns to the animal image from Javert's introduction. The dog now has to bow to the man he suspects.",
+    "themes": [
+      "mercy-law"
+    ]
+  },
+  {
+    "chapter": 46,
+    "kind": "craft",
+    "title": "Fantine comes home",
+    "text": "The book's two threads meet at the factory door, which Hugo says is like a friend's face to Fantine. She learns a new trade and earns enough to live. The chapter ends on the plainest happiness: 'She is making her living.'",
+    "themes": [
+      "poverty"
+    ]
+  },
+  {
+    "chapter": 47,
+    "kind": "theme",
+    "title": "The itch of knowing",
+    "text": "Hugo digresses on idle people who spy on their neighbours at their own expense, purely to know. Madame Victurnien spends thirty-five francs on a trip to Montfermeil. A woman's ruin starts with gossip paid for out of someone else's spite.",
+    "themes": [
+      "poverty"
+    ]
+  },
+  {
+    "chapter": 47,
+    "kind": "context",
+    "title": "A public letter-writer",
+    "text": "Fantine can sign her name but not write, so she pays a public scribe. In a town of her class, her letters pass through a stranger's hands. Illiteracy makes her secret everyone's business.",
+    "themes": [
+      "poverty"
+    ]
+  },
+  {
+    "chapter": 47,
+    "kind": "theme",
+    "title": "Good because he gave, just because he dismissed",
+    "text": "Fantine assumes the mayor gave her fifty francs because he is kind and dismissed her because he is just. She does not think to appeal. Her humility makes her accept a verdict nobody gave her a chance to answer.",
+    "themes": [
+      "mercy-law"
+    ]
+  },
+  {
+    "chapter": 48,
+    "kind": "theme",
+    "title": "Charity that gives but does not understand",
+    "text": "The superintendent has 'the charity that gives but not the charity that understands and forgives'. She judges and expels Fantine in perfect good conscience. Hugo shows how virtue without mercy can do the work of cruelty.",
+    "themes": [
+      "mercy-law",
+      "conscience"
+    ]
+  },
+  {
+    "chapter": 48,
+    "kind": "theme",
+    "title": "The art of poverty",
+    "text": "Old Marguerite teaches Fantine how to live on nothing: no fire in winter, a coverlet turned into a petticoat and back, supper by the light of a neighbour's window. Hugo describes poverty as a skill to be learned. Twelve sous a day earned, ten owed for the child.",
+    "themes": [
+      "poverty"
+    ]
+  },
+  {
+    "chapter": 48,
+    "kind": "motif",
+    "title": "Her hair",
+    "text": "With everything else gone, combing her long hair in the morning still gives Fantine a moment of pleasure. Hugo makes a point of it at the end of the chapter. It is the last thing that is wholly hers.",
+    "themes": [
+      "poverty"
+    ]
+  },
+  {
+    "chapter": 49,
+    "kind": "theme",
+    "title": "Selling herself by pieces",
+    "text": "First her hair, for ten francs, then two front teeth, for forty, then herself. Each step down is taken for her child, and each is answered by a lie from Montfermeil. Hugo makes the market for a poor woman's body literal, piece by piece.",
+    "themes": [
+      "poverty",
+      "parenthood"
+    ]
+  },
+  {
+    "chapter": 49,
+    "kind": "craft",
+    "title": "Two stories at once",
+    "text": "Hugo tells us at once that the petticoat went to Éponine and that Cosette was never ill. The reader knows the letters are lies; Fantine does not. Our knowledge turns her sacrifices into something hard to watch.",
+    "themes": [
+      "parenthood"
+    ]
+  },
+  {
+    "chapter": 49,
+    "kind": "theme",
+    "title": "Hatred aimed at the wrong man",
+    "text": "Fantine comes to blame Father Madeleine for everything and sings when she passes the factory. Her hatred is understandable and mistaken. Hugo lets the reader see the misdirection, since we know the mayor never knew.",
+    "themes": [
+      "mercy-law"
+    ]
+  },
+  {
+    "chapter": 50,
+    "kind": "theme",
+    "title": "Slavery has not left Europe",
+    "text": "In three hundred words Hugo names Fantine's story: society buying a slave from hunger and cold, a soul for a morsel of bread. Slavery, he says, survives in Europe; it falls on women and is called prostitution. The novel's commentary breaks through the story like a sermon.",
+    "themes": [
+      "poverty",
+      "mercy-law"
+    ]
+  },
+  {
+    "chapter": 50,
+    "kind": "craft",
+    "title": "No bottom",
+    "text": "Fantine believes she has reached the bottom, and Hugo says that is an error: fate is never exhausted. He places this tiny essay between her fall and the next scene. It makes the reader dread what comes next.",
+    "themes": [
+      "light-darkness"
+    ]
+  },
+  {
+    "chapter": 50,
+    "kind": "context",
+    "title": "Christus nos liberavit",
+    "text": "The Latin title means 'Christ has freed us'. Hugo uses it bitterly: Christ's law governs civilisation, he says, but does not yet permeate it. A Christian society still sells women.",
+    "themes": [
+      "poverty"
+    ]
+  },
+  {
+    "chapter": 51,
+    "kind": "context",
+    "title": "Hats as politics",
+    "text": "Hugo notes that under the Restoration royalists wore narrow-brimmed hats called morillos and liberals wore wide bolivars. A dandy's costume was a political badge. Bamatabois wears the royalist kind.",
+    "themes": [
+      "revolution"
+    ]
+  },
+  {
+    "chapter": 51,
+    "kind": "craft",
+    "title": "A Tholomyès in the provinces",
+    "text": "Hugo says Tholomyès, had he stayed home, would have become one of these idle young men. The link makes Bamatabois a type, not just a villain. The same careless class that abandoned Fantine now torments her in the street.",
+    "themes": [
+      "love",
+      "poverty"
+    ]
+  },
+  {
+    "chapter": 51,
+    "kind": "motif",
+    "title": "Snow down a bare back",
+    "text": "Snow forced between bare shoulders is a small, cruel joke for him and a shock for her. Fantine's ball-dress in winter is a working costume, not a choice. Hugo makes the cold itself part of the insult.",
+    "themes": [
+      "poverty"
+    ]
+  },
+  {
+    "chapter": 52,
+    "kind": "theme",
+    "title": "Two men fight over a woman's life",
+    "text": "Javert sees a prostitute who attacked a citizen and elector. The mayor sees a woman driven onto the street and says the highest law is conscience. Fantine watches the two men who hold her life argue, and the one she hated turns out to be her rescuer.",
+    "themes": [
+      "mercy-law",
+      "conscience"
+    ]
+  },
+  {
+    "chapter": 52,
+    "kind": "craft",
+    "title": "The spit and the wiping",
+    "text": "She spits in the mayor's face, and he wipes it away and orders her freed. Hugo lets the insult and the mercy follow without a pause. He does not ask for an apology.",
+    "themes": [
+      "mercy-law"
+    ]
+  },
+  {
+    "chapter": 52,
+    "kind": "theme",
+    "title": "Law against law",
+    "text": "Madeleine wins by citing the code: municipal police matters are the mayor's to judge, and detention without cause is forbidden. Javert bows like a soldier. Mercy here defeats the law by using the law.",
+    "themes": [
+      "mercy-law"
+    ]
+  },
+  {
+    "chapter": 52,
+    "kind": "craft",
+    "title": "A comparison that flickers",
+    "text": "For an instant, Hugo says, a hideous comparison between what this woman is and what this mayor might be passes through Javert's mind. It is the inspector's suspicion surfacing at the worst moment. Hugo shows it and moves on.",
+    "themes": [
+      "names"
+    ]
+  },
+  {
+    "chapter": 53,
+    "kind": "motif",
+    "title": "Two martyrs",
+    "text": "Fantine wakes to find the mayor praying before the crucifix, to the martyr on high, he says, and adds to himself: for the martyr here below. He sees her suffering as sacred. It is the first time anyone in the book has looked at her that way.",
+    "themes": [
+      "mercy-law"
+    ]
+  },
+  {
+    "chapter": 53,
+    "kind": "theme",
+    "title": "A lark becomes a milch cow",
+    "text": "Thénardier pads his bills with the doctors' fees for his own daughters and keeps Cosette because her mother's protector is rich. Hugo gives him one perfect phrase: the lark is turning into a milch cow. The child is an investment.",
+    "themes": [
+      "poverty",
+      "parenthood"
+    ]
+  },
+  {
+    "chapter": 53,
+    "kind": "craft",
+    "title": "A letter posted by hand",
+    "text": "Javert writes to Paris the same night and posts the letter himself. The town assumes he is resigning. Hugo does not say what it contains, and lets the reader worry.",
+    "themes": []
+  },
+  {
+    "chapter": 54,
+    "kind": "theme",
+    "title": "Severe with himself",
+    "text": "Javert asks to be dismissed, not allowed to resign, because he denounced a magistrate wrongly. He has been severe with others all his life and would be a blackguard to spare himself. His rigidity is ugly and also honest; he applies the rule to himself first.",
+    "themes": [
+      "mercy-law",
+      "conscience"
+    ]
+  },
+  {
+    "chapter": 54,
+    "kind": "craft",
+    "title": "The mayor keeps his back turned",
+    "text": "Through most of Javert's confession, Madeleine stays bent over his papers. When the name 'Jean Valjean' comes, he turns livid; when the real Valjean is said to be found, the paper drops from his hand. Hugo makes us read the scene through small physical reactions.",
+    "themes": [
+      "names"
+    ]
+  },
+  {
+    "chapter": 54,
+    "kind": "motif",
+    "title": "How Jean becomes Champ",
+    "text": "Jean Mathieu, said in an Auvergne accent, becomes Chan Mathieu, then Champmathieu. The title makes a joke of the slide. An old man is being convicted partly on the sound of a word.",
+    "themes": [
+      "names",
+      "mercy-law"
+    ]
+  },
+  {
+    "chapter": 54,
+    "kind": "theme",
+    "title": "False kindness",
+    "text": "Javert rejects the mayor's offered hand: the kindness that supports a street-walker against a citizen, he says, disorganises society. In his view mercy is a kind of disorder. That is a coherent philosophy, and Hugo lets him state it plainly.",
+    "themes": [
+      "mercy-law"
+    ]
+  },
+  {
+    "chapter": 55,
+    "kind": "craft",
+    "title": "A woman who has never lied",
+    "text": "Hugo introduces Sister Simplice through one trait: she has never told a lie, not even the small social lies everyone allows. To her Satan has two names, Satan and Lying. In a house where the mayor is hiding a woman's sickness from her, that is a strong trait to place at the bedside.",
+    "themes": [
+      "conscience"
+    ]
+  },
+  {
+    "chapter": 55,
+    "kind": "craft",
+    "title": "A singular tone",
+    "text": "Madeleine commends Fantine to the sister in a tone she recalls afterwards. He stays an hour instead of half an hour, then studies a road map and pencils figures. Hugo gives us only what witnesses saw, and keeps us outside the mayor's head.",
+    "themes": [
+      "conscience"
+    ]
+  },
+  {
+    "chapter": 55,
+    "kind": "context",
+    "title": "Not all of this was known",
+    "text": "Book VII opens by warning that not all of what follows was known at Montreuil-sur-Mer. Hugo poses as a historian reconstructing events from witnesses. The device lets him move from public facts to private ones.",
+    "themes": []
+  },
+  {
+    "chapter": 56,
+    "kind": "motif",
+    "title": "The knocker set down",
+    "text": "Madeleine lifts the priest's knocker, holds it, and sets it down without knocking. Whatever he wanted to confess or ask, he decides not to. Then he takes the long way home to avoid passing that door again.",
+    "themes": [
+      "conscience"
+    ]
+  },
+  {
+    "chapter": 56,
+    "kind": "craft",
+    "title": "A detective in a horse-hirer",
+    "text": "Master Scaufflaire works out the destination from the figures 5, 6 and 8½ left on his mantel: Hesdin, Saint-Pol, Arras. Hugo lets a comic minor character solve the mystery the mayor is trying to keep. The reader knows what is at Arras.",
+    "themes": []
+  },
+  {
+    "chapter": 56,
+    "kind": "craft",
+    "title": "Footsteps overhead",
+    "text": "We see the night only from below: the cashier hears pacing, a cupboard, furniture moved, and sees firelight through a window open in the bitter cold. Hugo then announces that he will tell us what happened in that room. The external view builds pressure for the internal one.",
+    "themes": [
+      "conscience"
+    ]
+  },
+  {
+    "chapter": 57,
+    "kind": "theme",
+    "title": "A tempest in a skull",
+    "text": "Every argument for silence is a good one: a whole town depends on him, Fantine and Cosette depend on him, and the man at Arras is a thief anyway. Hugo makes the wrong choice sound like self-sacrifice. 'I am Madeleine, and Madeleine I remain.' Conscience here has to see through its own best reasoning.",
+    "themes": [
+      "conscience"
+    ]
+  },
+  {
+    "chapter": 57,
+    "kind": "theme",
+    "title": "Two rules that nearly always agree",
+    "text": "Since Digne he has lived by two rules: to hide his name and to sanctify his life. Usually they agree. Now they collide. The Bishop's candlesticks, the mourning, the questions to the Savoyards were all moments when goodness was chosen over safety.",
+    "themes": [
+      "names",
+      "conscience"
+    ]
+  },
+  {
+    "chapter": 57,
+    "kind": "motif",
+    "title": "Into the fire",
+    "text": "He burns the blouse, the knapsack and the thorn cudgel of 1815, and the forty-sou piece glints in the ashes. Then he takes the candlesticks to melt them, and a voice shouts 'Jean Valjean!' He puts them back. The two kinds of object, the convict's relics and the Bishop's gift, cannot be destroyed in the same way.",
+    "themes": [
+      "conscience",
+      "light-darkness"
+    ]
+  },
+  {
+    "chapter": 57,
+    "kind": "context",
+    "title": "Dante and Gethsemane",
+    "text": "Hugo asks us to enter this conscience as Dante entered the gate of hell. He ends by comparing Valjean to another man who pushed away a cup in a garden of olive trees, that is, Christ's night in Gethsemane before the Passion. The references say how serious he thinks this ordinary-looking choice is.",
+    "themes": [
+      "conscience"
+    ]
+  },
+  {
+    "chapter": 57,
+    "kind": "question",
+    "title": "Paradise and demon, hell and angel",
+    "text": "'Remain in paradise and become a demon, or return to hell and become an angel?' The chapter ends with no decision. Which of his arguments for staying silent did you find hardest to dismiss?",
+    "themes": [
+      "conscience",
+      "mercy-law"
+    ]
+  },
+  {
+    "chapter": 58,
+    "kind": "motif",
+    "title": "The dream of the dead town",
+    "text": "He dreams of an empty village where silent, earth-coloured men stand behind every door, and the first one tells him he has been dead a long time. Hugo says Valjean later wrote the dream down. It turns his inner crisis into an image of a living death, a man among the buried.",
+    "themes": [
+      "conscience",
+      "light-darkness"
+    ]
+  },
+  {
+    "chapter": 58,
+    "kind": "craft",
+    "title": "Lanterns like fallen stars",
+    "text": "He wakes and takes the tilbury's two red lanterns for stars fallen to earth. The decision he could not make has been made for him by an order he gave the day before. The portress's 'It is five o'clock' sounds like a summons.",
+    "themes": [
+      "light-darkness",
+      "conscience"
+    ]
+  },
+  {
+    "chapter": 59,
+    "kind": "theme",
+    "title": "Providence as an excuse",
+    "text": "The broken wheel at Hesdin fills him with immense joy: Providence has stopped him, he has honestly done everything, he can turn back. Then a boy fetches an old woman with a cart. Hugo shows how eagerly a conscience accepts any obstacle as permission.",
+    "themes": [
+      "conscience"
+    ]
+  },
+  {
+    "chapter": 59,
+    "kind": "craft",
+    "title": "A road of hindrances",
+    "text": "Broken wheel, bad cart, closed road, broken whiffletree, a missed fact about the hour of the trial. Hugo piles up delays so the reader feels the journey as Valjean does, each one a chance to give up. The tension is not whether he arrives but whether he wants to.",
+    "themes": [
+      "conscience"
+    ]
+  },
+  {
+    "chapter": 59,
+    "kind": "motif",
+    "title": "Another night on the plain",
+    "text": "Cold and starving, he remembers his other night journey on the plain near Digne eight years before. Hugo links this drive to the night after Petit-Gervais. Both are journeys away from and towards himself.",
+    "themes": [
+      "conscience",
+      "light-darkness"
+    ]
+  },
+  {
+    "chapter": 60,
+    "kind": "theme",
+    "title": "The first lie refused",
+    "text": "The maid suggests a small white lie: say the mayor is busy with the council. Sister Simplice blushes, weighs the harm the truth might do, and says only that he has gone away. Fantine fills the silence with hope. The truth, told plainly, does more good than the lie would have.",
+    "themes": [
+      "conscience"
+    ]
+  },
+  {
+    "chapter": 60,
+    "kind": "motif",
+    "title": "A lullaby forgotten for five years",
+    "text": "Waiting for the mayor, Fantine sings in a whisper an old cradle song she sang to Cosette and had not remembered since. The nun weeps. Hugo lets one song carry all the years of separation.",
+    "themes": [
+      "parenthood"
+    ]
+  },
+  {
+    "chapter": 60,
+    "kind": "craft",
+    "title": "Joy as medicine",
+    "text": "The doctor finds her pulse stronger and says great joy has been known to halt even advanced disease. Hugo cuts between Arras and the sickroom so that hope in one place hangs on a decision in the other. The reader carries both.",
+    "themes": [
+      "parenthood"
+    ]
+  },
+  {
+    "chapter": 61,
+    "kind": "craft",
+    "title": "A return ticket",
+    "text": "His first act in Arras is to book a seat on the one o'clock mail back home. The chapter title is wry: on arrival he takes precautions for departure. He still has not decided, and part of him is planning to leave.",
+    "themes": [
+      "conscience"
+    ]
+  },
+  {
+    "chapter": 61,
+    "kind": "craft",
+    "title": "Ice and fire",
+    "text": "A lawyer says the case is over, a woman named Limosin convicted for life, and for a moment Valjean thinks he is too late. Then the lights turn out to be for a second case. Hugo uses a mistaken identity of cases to give us a jolt like the one he feels.",
+    "themes": []
+  },
+  {
+    "chapter": 61,
+    "kind": "motif",
+    "title": "Writing his name",
+    "text": "He tears a leaf from his notebook and writes by a street lantern: M. Madeleine, Mayor of Montreuil-sur-Mer. The name that has protected him for eight years becomes the key that opens the courtroom door.",
+    "themes": [
+      "names"
+    ]
+  },
+  {
+    "chapter": 62,
+    "kind": "theme",
+    "title": "A reputation as a pass",
+    "text": "The usher who turned him away now bows to the ground. The President admits him at once because of what Madeleine has done. He crushes the deferential note as though it tasted bitter. Being honoured feels to him like an accusation.",
+    "themes": [
+      "names"
+    ]
+  },
+  {
+    "chapter": 62,
+    "kind": "motif",
+    "title": "The brass door-handle",
+    "text": "Only a copper knob separates him from the courtroom. It shines at him 'like a terrible star'. He flees down the corridor, stands a quarter of an hour in the dark, and comes back as though someone were leading him. Hugo makes the whole crisis turn on a door handle.",
+    "themes": [
+      "conscience",
+      "light-darkness"
+    ]
+  },
+  {
+    "chapter": 62,
+    "kind": "context",
+    "title": "Pache's letter",
+    "text": "He stares at a framed letter by Pache, mayor of Paris in Year II of the Revolution, and cannot read it. One mayor's relic in front of another mayor who is about to lose his office. Hugo leaves the detail unexplained.",
+    "themes": [
+      "revolution"
+    ]
+  },
+  {
+    "chapter": 63,
+    "kind": "theme",
+    "title": "Shall I become like that again?",
+    "text": "The man on the bench looks like Valjean as he entered Digne: wild-eyed, in a blouse, full of hatred. Seeing him, Valjean sees what he was. The trial of another man becomes a mirror held up to his own past.",
+    "themes": [
+      "conscience",
+      "names"
+    ]
+  },
+  {
+    "chapter": 63,
+    "kind": "motif",
+    "title": "A crucifix in the courtroom",
+    "text": "The scene is his own trial of twenty-seven years ago come back to life, with one difference: a crucifix now hangs above the President. Hugo marks how the Restoration put religion back into the courts. Whether it changed the justice is another question.",
+    "themes": [
+      "mercy-law",
+      "revolution"
+    ]
+  },
+  {
+    "chapter": 63,
+    "kind": "craft",
+    "title": "Satire of the bar",
+    "text": "The defence lawyer concedes most of the case in pompous provincial rhetoric, and the prosecutor turns those concessions into proof. He even blames the crime on romantic literature, a joke at Hugo's own expense. The machinery of justice runs smoothly toward the wrong result.",
+    "themes": [
+      "mercy-law"
+    ]
+  },
+  {
+    "chapter": 63,
+    "kind": "question",
+    "title": "Is Champmathieu innocent?",
+    "text": "Nobody saw him climb the wall; he says he found the branch on the ground. Yet he may have taken it. Does it matter, for the choice in front of Valjean, whether the old man is a thief?",
+    "themes": [
+      "conscience",
+      "mercy-law"
+    ]
+  },
+  {
+    "chapter": 64,
+    "kind": "theme",
+    "title": "Defended by his own poverty",
+    "text": "Champmathieu's rambling speech about M. Baloup and his daughter in the cold wash-house makes the court laugh. It is, in fact, a precise account of how labour wears out the poor. Nobody in the room is listening for that.",
+    "themes": [
+      "poverty",
+      "mercy-law"
+    ]
+  },
+  {
+    "chapter": 64,
+    "kind": "craft",
+    "title": "Famous!",
+    "text": "As each convict swears he is Jean Valjean, the prisoner mutters 'Good!' and 'Famous!' with growing satisfaction. His comic incomprehension is also helplessness. The more certain the witnesses, the less he can defend himself.",
+    "themes": [
+      "names"
+    ]
+  },
+  {
+    "chapter": 64,
+    "kind": "craft",
+    "title": "A voice behind the judges",
+    "text": "The chapter ends on three names cried out, Brevet! Chenildieu! Cochepaille!, and twenty voices answering with a fourth: M. Madeleine! Hugo cuts at the instant of recognition, so the reader hears the name before the man speaks.",
+    "themes": [
+      "names"
+    ]
+  },
+  {
+    "chapter": 65,
+    "kind": "theme",
+    "title": "I am Jean Valjean",
+    "text": "He takes his name back in open court, and with it the galleys. Doing right costs him everything he built. Hugo has made us feel every argument against it, so the plain sentence lands with full weight.",
+    "themes": [
+      "names",
+      "conscience"
+    ]
+  },
+  {
+    "chapter": 65,
+    "kind": "theme",
+    "title": "The galleys make the convict",
+    "text": "He tells the court that he went in a stupid peasant and came out a firebrand; kindness saved him as severity had ruined him. It is the argument of the whole volume, put in the mouth of the man it concerns.",
+    "themes": [
+      "mercy-law",
+      "poverty"
+    ]
+  },
+  {
+    "chapter": 65,
+    "kind": "craft",
+    "title": "Proof by memory",
+    "text": "When the court suggests a doctor, he proves his identity with details only a fellow convict could know: Brevet's checked suspenders, Chenildieu's burn, Cochepaille's tattooed date. The galleys he hid from are his evidence. The hair turned white in an hour is Hugo's outward sign of the night's cost.",
+    "themes": [
+      "names"
+    ]
+  },
+  {
+    "chapter": 65,
+    "kind": "question",
+    "title": "To be envied",
+    "text": "He asks the court to pity him, then says that when he thinks of what he nearly did, he counts himself to be envied. What does he think he has gained?",
+    "themes": [
+      "conscience"
+    ]
+  },
+  {
+    "chapter": 66,
+    "kind": "motif",
+    "title": "The doctor's mirror",
+    "text": "Sister Simplice hands him the little mirror used to test whether a patient still breathes. He sees his white hair and says only 'Well!' Hugo chooses a mirror meant for the dying.",
+    "themes": [
+      "conscience"
+    ]
+  },
+  {
+    "chapter": 66,
+    "kind": "theme",
+    "title": "Can they tell a lie?",
+    "text": "The nun murmurs that they cannot lie to Fantine. He says 'God will inspire us.' Two people committed to truth face a dying woman who believes her child is coming. The chapter ends on her first word: 'And Cosette?'",
+    "themes": [
+      "conscience",
+      "parenthood"
+    ]
+  },
+  {
+    "chapter": 66,
+    "kind": "craft",
+    "title": "Then and now",
+    "text": "Two months earlier, by the same bed, her hair was grey and his was brown. Now hers is grey and his is white. Hugo marks how much has happened to him with a single colour.",
+    "themes": []
+  },
+  {
+    "chapter": 67,
+    "kind": "craft",
+    "title": "The doctor's evasion",
+    "text": "The doctor says the child is here but Fantine must be calm before she sees her. It is a medical lie, and Valjean does not contradict it. Hugo shows how quickly an honest silence becomes a kind of deceit.",
+    "themes": [
+      "conscience"
+    ]
+  },
+  {
+    "chapter": 67,
+    "kind": "motif",
+    "title": "A child singing in the yard",
+    "text": "A little girl sings outside and Fantine is certain it is Cosette. Then come plans for a garden, butterflies, letters, a white veil for first communion. Hugo lets her build a whole future in a few sentences, which makes the end of the chapter brutal.",
+    "themes": [
+      "parenthood"
+    ]
+  },
+  {
+    "chapter": 67,
+    "kind": "craft",
+    "title": "Look behind you",
+    "text": "Fantine sees Javert first and can only sign to Valjean to turn around. Hugo ends the chapter on her terror and his turning. It is the third chapter in a row to end on a sudden recognition.",
+    "themes": []
+  },
+  {
+    "chapter": 68,
+    "kind": "motif",
+    "title": "A buckle under the ear",
+    "text": "Javert looks as correct as ever, except that his stock's buckle sits under his left ear instead of at the back. For a man with no wrinkle in his uniform or his duty, this is an earthquake. Hugo shows inner turmoil through one displaced detail.",
+    "themes": [
+      "mercy-law"
+    ]
+  },
+  {
+    "chapter": 68,
+    "kind": "theme",
+    "title": "The evil of the good",
+    "text": "Javert in triumph is a ferocious archangel, a Saint Michael with his heel on crime. Hugo insists there is nothing base in him: probity and duty, wrongly aimed, remain grand even when hideous. He is to be pitied as every ignorant man who triumphs is pitied.",
+    "themes": [
+      "mercy-law"
+    ]
+  },
+  {
+    "chapter": 68,
+    "kind": "context",
+    "title": "'The Emperor', not 'Bonaparte'",
+    "text": "The presiding judge is offended that Madeleine said 'the Emperor' rather than 'Bonaparte' when pointing to Cochepaille's tattoo. Under the Restoration the word you chose marked your politics. A slip of vocabulary helps get the warrant signed.",
+    "themes": [
+      "revolution"
+    ]
+  },
+  {
+    "chapter": 69,
+    "kind": "theme",
+    "title": "Right on every point",
+    "text": "Javert has a warrant, and he refuses three days' grace because a convict would run. Every step is legal and defensible. The result is a woman dead of shock. Hugo puts the law's correctness and its cost side by side.",
+    "themes": [
+      "mercy-law"
+    ]
+  },
+  {
+    "chapter": 69,
+    "kind": "motif",
+    "title": "'Thou'",
+    "text": "Javert addresses the mayor as 'thou', the form used to convicts and dogs. Fantine hears it and does not understand. The shift in grammar strips away his title before anyone explains anything.",
+    "themes": [
+      "names"
+    ]
+  },
+  {
+    "chapter": 69,
+    "kind": "craft",
+    "title": "No other name from now on",
+    "text": "The narrator says he will call him Jean Valjean and nothing else from now on. Javert shouts that there is no Madeleine and no mayor. Narrator and policeman agree on the name for opposite reasons.",
+    "themes": [
+      "names"
+    ]
+  },
+  {
+    "chapter": 69,
+    "kind": "question",
+    "title": "What did he whisper?",
+    "text": "Valjean bends and whispers something to the dead woman that no one hears, and Sister Simplice always said she saw a smile come to the lips. Hugo keeps the words secret. What do you imagine he promised?",
+    "themes": [
+      "parenthood",
+      "conscience"
+    ]
+  },
+  {
+    "chapter": 70,
+    "kind": "theme",
+    "title": "Two hours to forget",
+    "text": "Within two hours the town has forgotten everything the mayor did. People who found him too good now say they always suspected. Only the old portress, without thinking, hangs his key and sets out his candle. Hugo measures a reputation against a name.",
+    "themes": [
+      "names",
+      "mercy-law"
+    ]
+  },
+  {
+    "chapter": 70,
+    "kind": "theme",
+    "title": "Sister Simplice's lie",
+    "text": "The woman who has never lied tells two lies to Javert, and he believes her because she has never lied. Hugo prays that this lie be counted to her credit in paradise. Conscience here overrules a rule held for a lifetime.",
+    "themes": [
+      "conscience",
+      "mercy-law"
+    ]
+  },
+  {
+    "chapter": 70,
+    "kind": "motif",
+    "title": "The candlesticks go with him",
+    "text": "He leaves his money for the poor and the trial costs, labels the cudgel tips and the forty-sou piece as evidence, and takes only the Bishop's candlesticks, wrapped in strips of shirt. What he keeps tells you what he believes he owes.",
+    "themes": [
+      "light-darkness",
+      "conscience"
+    ]
+  },
+  {
+    "chapter": 70,
+    "kind": "craft",
+    "title": "Her grave resembled her bed",
+    "text": "The curé decides a convict and a prostitute deserve no more and gives Fantine the cheapest burial, in the common pit. Hugo ends Volume One on one flat sentence. The book's first volume closes not with the hero but with the poor woman thrown away.",
+    "themes": [
+      "poverty"
+    ]
   }
 ]
