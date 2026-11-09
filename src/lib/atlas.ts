@@ -239,8 +239,8 @@ export function upcomingSetting(book: BookData, n: number, upTo: number): Place 
   return id ? placeAt(book, id, upTo) : undefined
 }
 
-/** 1–3, 7 style summary of the chapters a place appears in. */
-export function chapterRange(chs: number[]): string {
+/** 1–3, 7 style summary of the chapters a place appears in. `compact` (for a row's side label): more than two runs become "14 chs · 2–26". */
+export function chapterRange(chs: number[], compact = false): string {
   if (!chs.length) return ''
   const runs: string[] = []
   let start = chs[0]
@@ -253,6 +253,7 @@ export function chapterRange(chs: number[]): string {
     runs.push(start === prev ? `${start}` : `${start}–${prev}`)
     start = prev = c
   }
+  if (compact && runs.length > 2) return `${chs.length} chs · ${chs[0]}–${chs[chs.length - 1]}`
   return (chs.length === 1 ? 'Ch ' : 'Chs ') + runs.join(', ')
 }
 

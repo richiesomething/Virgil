@@ -163,7 +163,7 @@ button { font: inherit; color: inherit; }
 .row__body { flex: 1; min-width: 0; display: flex; flex-direction: column; gap: 1px; }
 .row__title { font: 600 1.125rem/1.25 var(--serif); }
 .row__sub { font-size: 0.9375rem; line-height: 1.4; color: var(--muted); }
-.row__meta { font-size: 0.8125rem; color: var(--muted); flex: none; text-align: right; }
+.row__meta { font-size: 0.8125rem; color: var(--muted); flex: none; text-align: right; max-width: 40%; }
 .row .chev { color: var(--muted); }
 .clamp-1 { display: -webkit-box; -webkit-line-clamp: 1; -webkit-box-orient: vertical; overflow: hidden; }
 .clamp-2 { display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; }

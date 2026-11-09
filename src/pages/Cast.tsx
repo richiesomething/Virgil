@@ -273,7 +273,7 @@ function PlaceRow({ p }: { p: Place }) {
         <span className="row__title">{p.name}</span>
         <span className="row__sub clamp-1">{placeTagline(p, upTo)}</span>
       </span>
-      {p.firstChapter === upTo ? <span className="tag tag--new">New</span> : chs.length > 0 && <span className="row__meta">{chapterRange(chs)}</span>}
+      {p.firstChapter === upTo ? <span className="tag tag--new">New</span> : chs.length > 0 && <span className="row__meta">{chapterRange(chs, true)}</span>}
     </a>
   )
 }

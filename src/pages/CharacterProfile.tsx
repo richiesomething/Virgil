@@ -171,7 +171,7 @@ export default function CharacterProfile({ id }: { id: string }) {
                   <span className="row__body">
                     <span className="row__title">{place.name}</span>
                   </span>
-                  <span className="row__meta">{chapterRange(chapters)}</span>
+                  <span className="row__meta">{chapterRange(chapters, true)}</span>
                   <Icon name="chevronRight" className="icon--sm chev" />
                 </a>
               ))}
