@@ -15,6 +15,16 @@
       "credit": "Georges Jeanniot, 1890 edition (Wikimedia Commons)"
     },
     {
+      "chapter": 1,
+      "from": "However that may be, after nine years of episcopal power",
+      "file": "001-2.webp",
+      "width": 330,
+      "height": 588,
+      "caption": "M. Myriel, Bishop of Digne",
+      "source": "O-090",
+      "credit": "Gustave Brion, Les Misérables, 1862 (Wikimedia Commons)"
+    },
+    {
       "chapter": 2,
       "from": "Three days after his arrival, the Bishop visited the hospital",
       "file": "002-1.webp",
@@ -24,6 +34,17 @@
       "source": "J-060",
       "to": "On the following day the thirty-six patients",
       "credit": "Georges Jeanniot, 1890 edition (Wikimedia Commons)"
+    },
+    {
+      "chapter": 2,
+      "from": "The episcopal palace of Digne adjoins the hospital.",
+      "file": "002-2.webp",
+      "width": 784,
+      "height": 1000,
+      "caption": "The episcopal palace of Digne",
+      "source": "O-045",
+      "to": "The episcopal palace was a huge and beautiful house",
+      "credit": "Wood-engraved vignette for Les Misérables, Maison de Victor Hugo / Paris Musées (CC0)"
     },
     {
       "chapter": 3,
@@ -46,6 +67,16 @@
       "credit": "Georges Jeanniot, 1890 edition (Wikimedia Commons)"
     },
     {
+      "chapter": 4,
+      "from": "In the course of one Lent, a youthful vicar came to Digne",
+      "file": "004-2.webp",
+      "width": 746,
+      "height": 1000,
+      "caption": "“There is M. Géborand purchasing paradise for a sou”",
+      "source": "O-047",
+      "credit": "Wood-engraved vignette for Les Misérables, Maison de Victor Hugo / Paris Musées (CC0)"
+    },
+    {
       "chapter": 5,
       "from": "Towards midday, when the weather was fine, he went forth",
       "file": "005-1.webp",
@@ -66,6 +97,16 @@
       "source": "J-045",
       "to": "This plot, consisting of three or four beds",
       "credit": "Georges Jeanniot, 1890 edition (Wikimedia Commons)"
+    },
+    {
+      "chapter": 6,
+      "from": "Nothing is more easy to present to the imagination than the Bishop’s bedchamber",
+      "file": "006-2.webp",
+      "width": 330,
+      "height": 432,
+      "caption": "The Bishop’s bedchamber",
+      "source": "O-042",
+      "credit": "Wood-engraved vignette for Les Misérables, Maison de Victor Hugo / Paris Musées (CC0)"
     },
     {
       "chapter": 7,
@@ -144,6 +185,16 @@
       "credit": "Georges Jeanniot, 1890 edition (Wikimedia Commons)"
     },
     {
+      "chapter": 12,
+      "from": "A bishop is almost always surrounded by a full squadron of little abbés",
+      "file": "012-1.webp",
+      "width": 755,
+      "height": 1000,
+      "caption": "A bishop’s “full squadron of little abbés”",
+      "source": "O-129",
+      "credit": "Edmond Morin, vignette for Les Misérables, Maison de Victor Hugo / Paris Musées (CC0)"
+    },
+    {
       "chapter": 15,
       "from": "The man put his purse back in his pocket",
       "file": "015-1.webp",
@@ -210,6 +261,16 @@
       "credit": "Georges Jeanniot, 1890 edition (Wikimedia Commons)"
     },
     {
+      "chapter": 20,
+      "from": "Towards the middle of the night Jean Valjean woke.",
+      "file": "020-2.webp",
+      "width": 729,
+      "height": 1000,
+      "caption": "Jean Valjean",
+      "source": "O-091",
+      "credit": "Gustave Brion, Les Misérables, 1862 (Wikimedia Commons)"
+    },
+    {
       "chapter": 21,
       "from": "There was at Toulon a school for the convicts",
       "file": "021-1.webp",
@@ -273,6 +334,16 @@
       "credit": "Georges Jeanniot, 1890 edition (Wikimedia Commons)"
     },
     {
+      "chapter": 25,
+      "from": "Suddenly Jean Valjean replaced his cap on his brow",
+      "file": "025-3.webp",
+      "width": 833,
+      "height": 1000,
+      "caption": "With the silver in his knapsack, he bestrides the windowsill",
+      "source": "O-118",
+      "credit": "Émile Bayard, “L’homme réveillé” (Wikimedia Commons)"
+    },
+    {
       "chapter": 26,
       "from": "“My friend,” resumed the Bishop, “before you go, here are your candlesticks",
       "file": "026-1.webp",
@@ -316,6 +387,26 @@
       "credit": "Georges Jeanniot, 1890 edition (Wikimedia Commons)"
     },
     {
+      "chapter": 28,
+      "from": "Louis XVIII, much preoccupied while annotating Horace",
+      "file": "028-2.webp",
+      "width": 330,
+      "height": 296,
+      "caption": "Louis XVIII annotating Horace",
+      "source": "O-131",
+      "credit": "Edmond Morin, vignette for Les Misérables, Maison de Victor Hugo / Paris Musées (CC0)"
+    },
+    {
+      "chapter": 28,
+      "from": "an utopia—a steamboat",
+      "file": "028-3.webp",
+      "width": 1000,
+      "height": 823,
+      "caption": "“A sort of plaything … an utopia—a steamboat”",
+      "source": "O-127",
+      "credit": "Edmond Morin, vignette for Les Misérables, Maison de Victor Hugo / Paris Musées (CC0)"
+    },
+    {
       "chapter": 29,
       "from": "These Parisians came, one from Toulouse",
       "file": "029-1.webp",
@@ -336,6 +427,27 @@
       "source": "J-024",
       "to": "Fantine was beautiful, without being too conscious of it",
       "credit": "Georges Jeanniot, 1890 edition (Wikimedia Commons)"
+    },
+    {
+      "chapter": 31,
+      "from": "They had stoutly shaken the swing attached to the two chestnut-trees",
+      "file": "031-1.webp",
+      "width": 785,
+      "height": 1000,
+      "caption": "The swing between the two chestnut-trees at Issy",
+      "source": "O-124",
+      "credit": "Edmond Morin, vignette for Les Misérables, Maison de Victor Hugo / Paris Musées (CC0)"
+    },
+    {
+      "chapter": 31,
+      "from": "Fantine alone refused to swing.",
+      "file": "031-2.webp",
+      "width": 649,
+      "height": 1000,
+      "caption": "Fantine",
+      "source": "O-012",
+      "to": "“I don’t like to have people put on airs like that,”",
+      "credit": "Portrait plate for Les Misérables (A. Faucheur & C. Danelle), Maison de Victor Hugo / Paris Musées (CC0)"
     },
     {
       "chapter": 33,
@@ -575,6 +687,17 @@
       "credit": "Georges Jeanniot, 1890 edition (Wikimedia Commons)"
     },
     {
+      "chapter": 53,
+      "from": "That same night, Javert wrote a letter.",
+      "file": "053-2.webp",
+      "width": 695,
+      "height": 1000,
+      "caption": "Javert",
+      "source": "O-092",
+      "to": "To Monsieur Chabouillet",
+      "credit": "Gustave Brion, Les Misérables, 1862 (Wikimedia Commons)"
+    },
+    {
       "chapter": 54,
       "from": "Javert entered.",
       "file": "054-1.webp",
@@ -661,6 +784,16 @@
       "credit": "Georges Jeanniot, 1890 edition (Wikimedia Commons)"
     },
     {
+      "chapter": 60,
+      "from": "Sister Simplice blushed faintly, for it was a lie",
+      "file": "060-2.webp",
+      "width": 612,
+      "height": 1000,
+      "caption": "Sister Simplice",
+      "source": "O-062",
+      "credit": "Portrait plate for Les Misérables (A. Faucheur & C. Danelle), Maison de Victor Hugo / Paris Musées (CC0)"
+    },
+    {
       "chapter": 61,
       "from": "It was nearly eight o’clock in the evening when the cart",
       "file": "061-1.webp",
@@ -689,6 +822,27 @@
       "caption": "Climbing the wall or breaking the branch: the theft in the Pierron orchard of which the accused stands charged",
       "source": "P-072",
       "credit": "Wood engraving, Maison de Victor Hugo / Paris Musées (CC0)"
+    },
+    {
+      "chapter": 64,
+      "from": "The prisoner had finally resumed his seat; he arose abruptly",
+      "file": "064-1.webp",
+      "width": 330,
+      "height": 420,
+      "caption": "Champmathieu at the bar, beside his gendarme",
+      "source": "O-128",
+      "to": "“You are very wicked; that you are!",
+      "credit": "Edmond Morin, vignette for Les Misérables, Maison de Victor Hugo / Paris Musées (CC0)"
+    },
+    {
+      "chapter": 64,
+      "from": "The ex-convict Brevet wore the black and gray waistcoat",
+      "file": "064-2.webp",
+      "width": 803,
+      "height": 1000,
+      "caption": "The convict Brevet",
+      "source": "O-039",
+      "credit": "Wood-engraved vignette for Les Misérables, Maison de Victor Hugo / Paris Musées (CC0)"
     },
     {
       "chapter": 65,
@@ -956,18 +1110,8 @@
     },
     {
       "chapter": 90,
-      "from": "Jean Valjean had been recaptured.",
-      "file": "090-1.webp",
-      "width": 729,
-      "height": 1000,
-      "caption": "Jean Valjean",
-      "source": "O-091",
-      "credit": "Gustave Brion, Les Misérables (G. Routledge and Sons), 1862 (Wikimedia Commons)"
-    },
-    {
-      "chapter": 90,
       "from": "A former convict, who had been liberated, named Jean Valjean",
-      "file": "090-2.webp",
+      "file": "090-1.webp",
       "width": 500,
       "height": 299,
       "caption": "“Hidden in some place known to himself alone”",
@@ -1015,6 +1159,27 @@
       "caption": "Montfermeil, on the edge of the tableland between the Ourcq and the Marne",
       "source": "J-064",
       "credit": "Georges Jeanniot, 1890 edition (Wikimedia Commons)"
+    },
+    {
+      "chapter": 94,
+      "from": "So far in this book the Thénardiers have been viewed only in profile",
+      "file": "094-1.webp",
+      "width": 1000,
+      "height": 745,
+      "caption": "The Thénardiers",
+      "source": "O-071",
+      "to": "Thénardier was a small, thin, pale, angular",
+      "credit": "Photographic reproduction of a drawing of the Thénardiers, Les Misérables album, 1880s (Rijksmuseum, Wikimedia Commons)"
+    },
+    {
+      "chapter": 94,
+      "from": "Cosette ran upstairs and down, washed, swept",
+      "file": "094-2.webp",
+      "width": 634,
+      "height": 1000,
+      "caption": "“Cosette ran upstairs and down, washed, swept”",
+      "source": "O-104",
+      "credit": "Émile Bayard, Cosette sweeping, 1862 (Wikimedia Commons)"
     },
     {
       "chapter": 95,
@@ -1179,6 +1344,17 @@
       "source": "P-052",
       "to": "It certainly was Fantine’s signature",
       "credit": "Wood engraving, Maison de Victor Hugo / Paris Musées (CC0)"
+    },
+    {
+      "chapter": 102,
+      "from": "Monsieur-I-don’t-know-your-name",
+      "file": "102-3.webp",
+      "width": 500,
+      "height": 668,
+      "caption": "“Come, Cosette”",
+      "source": "O-117",
+      "to": "The man plunged into the forest with the child",
+      "credit": "Émile Bayard, L’enlèvement de Cosette (Wikimedia Commons)"
     },
     {
       "chapter": 103,
@@ -2331,8 +2507,19 @@
     },
     {
       "chapter": 231,
-      "from": "Father Mabeuf, would you like to have me water your garden",
+      "from": "He had returned home while it was still broad daylight",
       "file": "231-1.webp",
+      "width": 674,
+      "height": 1000,
+      "caption": "M. Mabeuf on his bench in the garden",
+      "source": "O-058",
+      "to": "M. Mabeuf had set himself to turning over and reading",
+      "credit": "Gustave Brion, “Mr Mabeuf”, photographic reproduction of a drawing, 1862 (Wikimedia Commons)"
+    },
+    {
+      "chapter": 231,
+      "from": "Father Mabeuf, would you like to have me water your garden",
+      "file": "231-2.webp",
       "width": 712,
       "height": 1000,
       "caption": "The girl from the hedge waters Father Mabeuf’s garden",
@@ -2372,6 +2559,17 @@
       "source": "P-113",
       "to": "This unobtrusive tenant was Jean Valjean",
       "credit": "Wood engraving, Maison de Victor Hugo / Paris Musées (CC0)"
+    },
+    {
+      "chapter": 235,
+      "from": "The garden thus left to itself for more than half a century",
+      "file": "235-1.webp",
+      "width": 330,
+      "height": 481,
+      "caption": "“Le jardin de la rue Plumet”: the gate half lost in the thicket",
+      "source": "O-137",
+      "to": "In Floréal this enormous thicket",
+      "credit": "Title vignette, “Le jardin de la rue Plumet”, Maison de Victor Hugo (Wikimedia Commons)"
     },
     {
       "chapter": 236,
@@ -2451,8 +2649,19 @@
     },
     {
       "chapter": 242,
-      "from": "While Gavroche was deliberating, the attack took place",
+      "from": "A couple of paces distant, at the foot of the hedge",
       "file": "242-1.webp",
+      "width": 817,
+      "height": 1000,
+      "caption": "The old man on the stone bench by the hedge",
+      "source": "O-060",
+      "to": "What is it, Mother Plutarque?",
+      "credit": "Drawing for Part IV, Book IV, “Secours d’en bas peut être secours d’en haut”, Maison de Victor Hugo (Wikimedia Commons)"
+    },
+    {
+      "chapter": 242,
+      "from": "While Gavroche was deliberating, the attack took place",
+      "file": "242-2.webp",
       "width": 735,
       "height": 1000,
       "caption": "“Here’s a hearty veteran!”: the old man pins Montparnasse to the ground",
@@ -2636,6 +2845,17 @@
       "credit": "Wood engraving, Maison de Victor Hugo / Paris Musées (CC0)"
     },
     {
+      "chapter": 256,
+      "from": "Throughout the whole of the month of May of that year 1832",
+      "file": "256-1.webp",
+      "width": 779,
+      "height": 1000,
+      "caption": "Marius and Cosette on the bench in the garden (title plate to “Enchantments and Desolations”)",
+      "source": "O-112",
+      "to": "What took place between these two beings? Nothing.",
+      "credit": "Title plate to Part IV, Book VIII, “Les enchantements et les désolations”, Maison de Victor Hugo (Wikimedia Commons)"
+    },
+    {
       "chapter": 259,
       "from": "Thus he came to the bar which Marius had loosened",
       "file": "259-1.webp",
@@ -2724,6 +2944,16 @@
       "credit": "Wood engraving, Maison de Victor Hugo / Paris Musées (CC0)"
     },
     {
+      "chapter": 264,
+      "from": "Marius had left M. Gillenormand in despair",
+      "file": "264-1.webp",
+      "width": 1000,
+      "height": 745,
+      "caption": "Marius",
+      "source": "O-084",
+      "credit": "Gustave Brion, “Marius”, photographic reproduction of a drawing, 1862 (Wikimedia Commons)"
+    },
+    {
       "chapter": 265,
       "from": "On the following morning, at dawn, he seated himself on the overturned post",
       "file": "265-1.webp",
@@ -2795,6 +3025,16 @@
       "caption": "Young men mounted on the corner-posts distribute arms",
       "source": "P-085",
       "credit": "Wood engraving, Maison de Victor Hugo / Paris Musées (CC0)"
+    },
+    {
+      "chapter": 270,
+      "from": "During the last two years, as we have said, Paris had witnessed",
+      "file": "270-1.webp",
+      "width": 811,
+      "height": 1000,
+      "caption": "An insurgent with musket and sabre among the paving-stones and casks",
+      "source": "O-020",
+      "credit": "Drawing for Part IV, Book X, “Le 5 juin 1832”, Maison de Victor Hugo (Wikimedia Commons)"
     },
     {
       "chapter": 271,
