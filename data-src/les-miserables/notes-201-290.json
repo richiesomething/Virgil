@@ -84,6 +84,13 @@
     "quote": "Five francs! the shiner! a monarch!"
   },
   {
+    "term": "Commode",
+    "kind": "word",
+    "chapter": 205,
+    "text": "A low chest of drawers, the one solid piece of furniture in Marius's garret. Standing on it brings his eye level with the gap near the ceiling.",
+    "quote": "by mounting on the commode"
+  },
+  {
     "term": "Lavater",
     "kind": "reference",
     "chapter": 206,
@@ -209,6 +216,13 @@
     "quote": "Former property of Gorbeau."
   },
   {
+    "term": "Cold chisel",
+    "kind": "word",
+    "chapter": 215,
+    "text": "A heavy all-steel chisel for cutting metal, struck with a hammer; the name means it works on cold iron, without a forge. Jondrette hides the one he buys under his greatcoat.",
+    "quote": "a huge cold chisel with a white wood handle"
+  },
+  {
     "term": "'Dine like Charles the Tenth'",
     "kind": "history",
     "chapter": 216,
@@ -228,6 +242,13 @@
     "chapter": 217,
     "text": "Diogenes the Cynic was said to search Athens with a lantern for an honest man; Cartouche was the notorious Paris robber chief broken on the wheel in 1721. A thieves' dark-lantern is Diogenes's lamp put to the opposite use.",
     "quote": "worthy of Diogenes turned Cartouche"
+  },
+  {
+    "term": "Louis",
+    "kind": "money",
+    "chapter": 218,
+    "text": "A gold coin of twenty francs, still called a louis after the old royal coins whatever king was on it. Four louis, eighty francs, is far more than the sixty the 'actor' asked for.",
+    "quote": "He laid four louis on the table."
   },
   {
     "term": "The Bourbe",
@@ -284,6 +305,13 @@
     "chapter": 221,
     "text": "Frederick the Great of Prussia reviewed his drilled regiments at Potsdam with a famously cold and complete eye. Javert names each ruffian as he passes them in review, like a general who knows every soldier.",
     "quote": "a glance of a Frederick II at a Potsdam parade"
+  },
+  {
+    "term": "'Like men of Auvergne'",
+    "kind": "custom",
+    "chapter": 221,
+    "text": "Auvergnats, migrants from the poor mountains of central France, did much of Paris's heavy work as water-carriers, coal-heavers and porters, and had a name for settling things with their fists. The phrase means a rough-and-tumble brawl.",
+    "quote": "collaring each other like men of Auvergne"
   },
   {
     "term": "Saint-Lazare and the Madelonettes",
@@ -1378,6 +1406,20 @@
     "quote": "In a garden, a Pamela."
   },
   {
+    "term": "The Champ-de-Mars",
+    "kind": "place",
+    "chapter": 263,
+    "text": "The great parade ground in front of the École Militaire on the left bank, used for reviews and festivals, and empty on ordinary days. Its slopes are where Jean Valjean goes to sit alone and think.",
+    "quote": "the most solitary slopes in the Champ-de-Mars"
+  },
+  {
+    "term": "Passport",
+    "kind": "custom",
+    "chapter": 263,
+    "text": "French subjects needed a passport issued by the authorities to travel inside France or abroad, with name, description and place of residence. For a man living under another name, getting one meant questions he could not safely answer.",
+    "quote": "the difficulty of procuring a passport"
+  },
+  {
     "term": "Pépin and Morey",
     "kind": "history",
     "chapter": 263,
@@ -1829,7 +1871,7 @@
     "term": "Hugo's N of streets",
     "kind": "lore",
     "chapter": 277,
-    "text": "To map the spot Hugo uses the device he used for Waterloo: a letter. Picture an N, its two uprights the Rue Saint-Denis and the Halles, cut by the Rue de la Chanvrerie, the Rue de la Grande-Truanderie and the Rue de la Petite-Truanderie, with the crooked Rue Mondétour slicing across them all.",
+    "text": "To map the spot Hugo uses the device he used for Waterloo: a letter. Picture an N with its top on the Rue Saint-Denis and its foot on the Halles: its two uprights are the Rue de la Grande-Truanderie and the Rue de la Chanvrerie, its crossbar the Rue de la Petite-Truanderie, and the crooked Rue Mondétour slices across all three.",
     "quote": "the simple means which we have already employed in the case of Waterloo"
   },
   {
@@ -1922,5 +1964,278 @@
     "chapter": 278,
     "text": "Charles X's last minister, imprisoned since 1830. Navet's being 'the one to shout Down with Polignac' is a child's bit of borrowed politics, two years out of date.",
     "quote": "I’m the one to shout ‘Down with Polignac!’"
+  },
+  {
+    "term": "Building a barricade",
+    "kind": "custom",
+    "chapter": 279,
+    "text": "Paris had barricaded its streets since 1588, and in 1830 and 1832 the method was well known: tear up the paving-stones (big sandstone cubes laid in sand) with bars and picks, overturn the heaviest vehicle at hand, and pile casks, furniture and stones round it. Here a lime-dealer's dray, the widow's casks and a hijacked omnibus make the core; the whole is done in under an hour.",
+    "quote": "the dray of a lime-dealer named Anceau"
+  },
+  {
+    "term": "'Non licet omnibus adire Corinthum'",
+    "kind": "foreign",
+    "chapter": 279,
+    "text": "Bossuet's pun as he stops an omnibus: the Latin proverb 'Not everyone may go to Corinth' (because pleasure there was costly), where 'omnibus' means 'to everyone'. Here it means: omnibuses do not get past the Corinthe.",
+    "quote": "Non licet omnibus adire Corinthum."
+  },
+  {
+    "term": "A Gothic Pygmalion",
+    "kind": "reference",
+    "chapter": 279,
+    "text": "Pygmalion, the sculptor in Ovid who fell in love with his statue and prayed Venus to bring it to life. Grantaire's version: a medieval mason fell in love with his ugliest gargoyle, and the result was Matelote.",
+    "quote": "a Gothic Pygmalion"
+  },
+  {
+    "term": "Thermopylae and Drogheda",
+    "kind": "history",
+    "chapter": 279,
+    "text": "Leonidas and his three hundred Spartans died holding the pass of Thermopylae against Persia; Cromwell's Puritan army stormed Drogheda in Ireland in 1649 and burned defenders in a church steeple. Enjolras, Spartan and Puritan, would have fought at either.",
+    "quote": "He would have perished at Thermopylae with Leonidas"
+  },
+  {
+    "term": "The hundred-franc fine",
+    "kind": "custom",
+    "chapter": 280,
+    "text": "The police fined householders for anything that fell or was hung out of a window into the street. Mother Hucheloup still smarts at paying a hundred francs over a counterpane and a flowerpot, so Courfeyrac tells her the barricade is her revenge on the government.",
+    "quote": "the government collected a fine of a hundred francs"
+  },
+  {
+    "term": "Lint",
+    "kind": "word",
+    "chapter": 280,
+    "text": "'Charpie': threads picked from old linen, used as dressing to pack wounds before cotton wool came in. Making lint was what women did on the eve of a battle; here the widow and her maids tear up dishcloths for it.",
+    "quote": "tearing up old dishcloths and making lint"
+  },
+  {
+    "term": "Fire-pots from the King's festival",
+    "kind": "history",
+    "chapter": 280,
+    "text": "Louis-Philippe's name-day, Saint Philip's day on 1 May, was the July Monarchy's great holiday, with illuminations. Its leftover fire-pots and carnival torches now light the barricade; they are said to come from the grocer Pépin of the Faubourg Saint-Antoine.",
+    "quote": "a basket filled with fire-pots, “left over from the King’s festival.”"
+  },
+  {
+    "term": "Smashing the lanterns",
+    "kind": "custom",
+    "chapter": 280,
+    "text": "Paris streets were lit by oil lanterns hung on ropes across the roadway. Insurgents broke them first, to darken the approaches and leave the troops blind; here every lantern in the surrounding streets goes.",
+    "quote": "They smashed the only street lantern in the Rue de la Chanvrerie"
+  },
+  {
+    "term": "Casting bullets",
+    "kind": "custom",
+    "chapter": 280,
+    "text": "Insurgents had guns but few cartridges, so they melted lead, pewter or brass and poured it into bullet-moulds, then rolled the balls with powder in paper cartridges. At Corinthe the kitchen fire melts down the widow's mugs, spoons and forks.",
+    "quote": "moulding into bullets, pewter mugs, spoons, forks"
+  },
+  {
+    "term": "'Mother Gibou's tea'",
+    "kind": "reference",
+    "chapter": 280,
+    "text": "A proverbial catch-all mixture from an old comic sketch, 'Madame Gibou's tea' in which everything is thrown into the pot. Gavroche's recipe for a barricade: put everything in.",
+    "quote": "A barricade is Mother Gibou’s tea."
+  },
+  {
+    "term": "The redoubt",
+    "kind": "custom",
+    "chapter": 281,
+    "text": "A redoubt is a small closed fortification. Two barricades at a right angle, the high one across the Rue de la Chanvrerie and the low one across the Rue Mondétour, with the wine-shop at the corner, make one; steps of paving-stones inside let the defenders climb up to fire, a gap at one end lets a man out, and the Rue des Prêcheurs is left open as a line of retreat.",
+    "quote": "The two barricades united formed a veritable redoubt."
+  },
+  {
+    "term": "Folard",
+    "kind": "reference",
+    "chapter": 281,
+    "text": "Jean-Charles de Folard, an eighteenth-century soldier and writer on tactics, whose jargon Hugo borrows for the open line of retreat: a 'branch' of the works.",
+    "quote": "what Folard in his strategical style would have termed a branch"
+  },
+  {
+    "term": "Bearskin caps",
+    "kind": "word",
+    "chapter": 281,
+    "text": "The tall fur caps of grenadiers, worn by the élite companies of the National Guard and the line. 'Not a single bearskin cap or a single bayonet' means no troops at all.",
+    "quote": "without this handful of bold men seeing a single bearskin cap"
+  },
+  {
+    "term": "Thirty cartridges",
+    "kind": "custom",
+    "chapter": 281,
+    "text": "A cartridge was a twist of paper holding a measured charge of powder and a ball, bitten open and rammed down a musket barrel. Thirty each, from Courfeyrac's coffer, is a soldier's allowance for a day's fighting.",
+    "quote": "Each one received thirty cartridges."
+  },
+  {
+    "term": "Manuel and Foy",
+    "kind": "history",
+    "chapter": 282,
+    "text": "Jacques-Antoine Manuel and General Foy, the great liberal orators of the Restoration Chamber. In 1823 Manuel was expelled from the Chamber by force. Prouvaire's poem dates his young love by them: 'Manuel was proud and wise, Foy hurled the thunderbolt.'",
+    "quote": "Manuel était fier et sage"
+  },
+  {
+    "term": "The Prado",
+    "kind": "place",
+    "chapter": 282,
+    "text": "A dance hall on the Île de la Cité, opposite the Palais de Justice, popular with students and grisettes in winter. In the poem the penniless young lawyer takes his girl to dine there.",
+    "quote": "Quand je vous menais au Prado dîner"
+  },
+  {
+    "term": "The Carte du Tendre",
+    "kind": "reference",
+    "chapter": 282,
+    "text": "The 'Map of Tenderness', an allegorical map of the country of love in Madeleine de Scudéry's seventeenth-century novel Clélie, with towns like Tender-on-Inclination. Prouvaire's poem lays it over the Latin Quarter.",
+    "quote": "La carte du Tendre au pays Latin"
+  },
+  {
+    "term": "Malebranche and Lamennais",
+    "kind": "reference",
+    "chapter": 282,
+    "text": "Two philosophers of God: Nicolas Malebranche, the seventeenth-century Oratorian metaphysician, and Félicité de Lamennais, the priest whose liberal Catholicism was condemned by Rome in 1832. The girl in the poem proves divine goodness better than either, with a flower.",
+    "quote": "Mieux que Malebranche et que Lamennais"
+  },
+  {
+    "term": "La Courtille",
+    "kind": "place",
+    "chapter": 282,
+    "text": "A district of cheap taverns at Belleville. On Ash Wednesday morning the carnival crowds came 'down from the Courtille' in a drunken procession of masks and torches; the barricade's torch is one of those carnival torches.",
+    "quote": "on their way to la Courtille"
+  },
+  {
+    "term": "The police card",
+    "kind": "custom",
+    "chapter": 283,
+    "text": "Paris police inspectors carried a small round card under glass with the royal arms and the motto 'Surveillance et vigilance', signed by the Prefect of Police, Henri Gisquet in 1832. Finding it on a man settles who he is.",
+    "quote": "a little round card pasted between two pieces of glass"
+  },
+  {
+    "term": "The post in the taproom",
+    "kind": "lore",
+    "chapter": 283,
+    "text": "The wine-shop's old name, the Pot-aux-Roses, came from a rose-painted post (poteau) that stood in the middle of the room. The prisoner is tied to that same post.",
+    "quote": "that celebrated post in the middle of the room which had formerly given the wine-shop its name"
+  },
+  {
+    "term": "'The mouse who has caught the cat'",
+    "kind": "custom",
+    "chapter": 283,
+    "text": "Gavroche turns round the usual order of things: in the gamin's world the police are the cats and street boys the mice.",
+    "quote": "“It’s the mouse who has caught the cat.”"
+  },
+  {
+    "term": "Themis",
+    "kind": "reference",
+    "chapter": 284,
+    "text": "The Greek goddess of divine law and order, often shown stern and pure. Hugo gives Enjolras, judging the murderer, 'something of the antique Themis': justice with a woman's face.",
+    "quote": "something of the antique Themis"
+  },
+  {
+    "term": "Police agents among the insurgents",
+    "kind": "history",
+    "chapter": 284,
+    "text": "The July Monarchy's police planted informers and agents provocateurs in the secret societies, and some of the loudest men in a crowd were the police's own. Hugo says that in 1848, when the archives were opened, he held the 1832 report on this one.",
+    "quote": "a police agent’s card was found on Le Cabuc"
+  },
+  {
+    "term": "The Morgue",
+    "kind": "place",
+    "chapter": 284,
+    "text": "The Paris mortuary on the Île de la Cité, behind Notre-Dame, where unidentified bodies were laid out behind glass for the public to view and claim. The dead of the June fighting were taken there and searched.",
+    "quote": "when the bodies were taken to the morgue"
+  },
+  {
+    "term": "The Rue de Rivoli under gas",
+    "kind": "place",
+    "chapter": 285,
+    "text": "The arcaded street along the Tuileries, built under Napoleon, the smartest shopping street in Paris, already lit by gas in 1832. A few hundred yards from the barricades, people are eating ices and cakes there; from the Hôtel Meurice, the English travellers' hotel, posting-chaises leave for the country.",
+    "quote": "the gas was burning under the arcades"
+  },
+  {
+    "term": "The Palais-Royal",
+    "kind": "place",
+    "chapter": 285,
+    "text": "The palace of the Orléans family by the Louvre, with arcades of shops, cafés and gaming houses round its garden. Louis-Philippe had lived there before becoming king; on 5 June 1832 cavalry stood in its square.",
+    "quote": "There was cavalry on the Place du Palais-Royal."
+  },
+  {
+    "term": "The Rue du Contrat-Social",
+    "kind": "place",
+    "chapter": 285,
+    "text": "A little street by the market pillars of the Halles, named in the Revolution after Rousseau's Social Contract. The barber's shaving-dish pierced by a stray bullet there, Hugo says, was still hanging in 1848.",
+    "quote": "the Rue du Contrat-Social"
+  },
+  {
+    "term": "The Tower of Saint-Jacques",
+    "kind": "place",
+    "chapter": 286,
+    "text": "The Gothic bell-tower of the vanished church of Saint-Jacques-de-la-Boucherie, near the Seine, the only part left standing after the Revolution. With Saint-Merry it is one of the dark shapes rising over the blacked-out quarter.",
+    "quote": "the tower of Saint-Jacques"
+  },
+  {
+    "term": "Montmirail and Champaubert",
+    "kind": "history",
+    "chapter": 287,
+    "text": "Two of Napoleon's last victories, in February 1814, fought on French soil against invading armies: the very image of a war in defence of the country. Marius, thinking of his father's sword, tells himself that the barricade is something different, a war for an idea.",
+    "quote": "It is no longer Montmirail nor Champaubert"
+  },
+  {
+    "term": "Washington and Camille Desmoulins",
+    "kind": "history",
+    "chapter": 287,
+    "text": "Marius's argument with himself: if George Washington's sword freed America, why should it disown the pike of Camille Desmoulins, who called Paris to arms in July 1789? He decides there is no such thing as foreign or civil war, 'there is only just and unjust war'.",
+    "quote": "By what right should the sword of Washington disown the pike of Camille Desmoulins?"
+  },
+  {
+    "term": "Ambiorix, Artevelde, Marnix, Pelagius",
+    "kind": "history",
+    "chapter": 287,
+    "text": "Leaders of resistance against foreign rule: Ambiorix of the Gauls against Caesar, Jacob van Artevelde of Ghent against France, Marnix for the Dutch against Spain, Pelagius of Asturias against the Moors. Marius sets beside them those who fought a native tyrant, such as Brutus, Étienne Marcel and Coligny.",
+    "quote": "That was the war of Ambiorix, of Artevelde, of Marnix, of Pelagius."
+  },
+  {
+    "term": "Aristogeiton and Thrasybulus",
+    "kind": "history",
+    "chapter": 287,
+    "text": "Aristogeiton killed the Athenian tyrant Hipparchus; Thrasybulus overthrew the Thirty Tyrants. In Marius's reasoning, thinkers like Aeschylus and Diderot open men's minds, and fighters like Thrasybulus and Danton finish the work.",
+    "quote": "After Aeschylus, Thrasybulus"
+  },
+  {
+    "term": "'Mon nez est en larmes'",
+    "kind": "foreign",
+    "chapter": 288,
+    "text": "Gavroche's warning song to the tune of 'Au clair de la lune': 'My nose is in tears, my friend Bugeaud, lend me your gendarmes to have a word with them; in blue greatcoats, the hen in a shako, here come the suburbs!' The 'hen in a shako' is a soldier, and the 'banlieue' the troops brought in from outside Paris.",
+    "quote": "La poule au shako"
+  },
+  {
+    "term": "The statue of the commander",
+    "kind": "reference",
+    "chapter": 288,
+    "text": "In the Don Juan legend (Molière's play, Mozart's Don Giovanni), the stone statue of the murdered Commander walks to the libertine's supper with heavy, terrible steps. Hugo hears the same stony tread in the troops advancing from Saint-Leu.",
+    "quote": "the statue of the commander"
+  },
+  {
+    "term": "'Who goes there?'",
+    "kind": "custom",
+    "chapter": 288,
+    "text": "The sentry's challenge, 'Qui vive?', which demands a side, not a name. Enjolras answers it with 'The French Revolution!'.",
+    "quote": "“The French Revolution!”"
+  },
+  {
+    "term": "Videttes",
+    "kind": "word",
+    "chapter": 288,
+    "text": "Mounted or foot sentries posted ahead of a position to give warning. Enjolras's videttes at the ends of the streets run back when the troops come.",
+    "quote": "the vidette of the Rue de la Petite-Truanderie"
+  },
+  {
+    "term": "'The heart of a Brutus'",
+    "kind": "reference",
+    "chapter": 289,
+    "text": "Lucius Junius Brutus drove the kings out of Rome, and Marcus Brutus killed Caesar; both were heroes to the republicans of the Revolution. Enjolras's verdict on the old man: 'the head of a blockhead and the heart of a Brutus'.",
+    "quote": "The head of a blockhead and the heart of a Brutus"
+  },
+  {
+    "term": "Municipal guards on the barricade",
+    "kind": "history",
+    "chapter": 290,
+    "text": "The Municipal Guard picked tall, seasoned men, many of them ex-soldiers, and sent them in first against barricades with the bayonet rather than firing from a distance. The insurgents hated them more than the line regiments, who were conscripts.",
+    "quote": "Municipal guards of lofty stature were making their way in"
   }
 ]

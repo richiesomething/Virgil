@@ -40,7 +40,7 @@
     "characters": [
       "jean-valjean",
       "cosette",
-      "the-principal-lodger",
+      "the-old-woman-of-the-gorbeau-house",
       "bishop-myriel",
       "fantine",
       "javert"
@@ -59,7 +59,7 @@
     "characters": [
       "jean-valjean",
       "cosette",
-      "the-principal-lodger"
+      "the-old-woman-of-the-gorbeau-house"
     ]
   },
   {
@@ -76,7 +76,7 @@
       "jean-valjean",
       "cosette",
       "javert",
-      "the-principal-lodger",
+      "the-old-woman-of-the-gorbeau-house",
       "the-ex-beadle"
     ]
   },
@@ -245,7 +245,7 @@
       "madame-thenardier",
       "fantine",
       "the-ex-beadle",
-      "the-principal-lodger",
+      "the-old-woman-of-the-gorbeau-house",
       "chabouillet"
     ]
   },
@@ -509,9 +509,9 @@
       "cosette",
       "fauchelevent",
       "javert",
-      "sister-crucifixion",
+      "mother-crucifixion",
       "mother-innocente",
-      "father-mestienne"
+      "mestienne"
     ]
   },
   {
@@ -544,7 +544,7 @@
     "characters": [
       "fauchelevent",
       "mother-innocente",
-      "sister-crucifixion",
+      "mother-crucifixion",
       "mother-ascension",
       "jean-valjean",
       "cosette"
@@ -566,8 +566,8 @@
       "fauchelevent",
       "cosette",
       "mother-innocente",
-      "sister-crucifixion",
-      "father-mestienne",
+      "mother-crucifixion",
+      "mestienne",
       "madame-thenardier"
     ]
   },
@@ -585,8 +585,8 @@
       "fauchelevent",
       "gribier",
       "jean-valjean",
-      "father-mestienne",
-      "sister-crucifixion",
+      "mestienne",
+      "mother-crucifixion",
       "cosette"
     ]
   },
@@ -603,7 +603,7 @@
     "characters": [
       "jean-valjean",
       "fauchelevent",
-      "father-mestienne"
+      "mestienne"
     ]
   },
   {
@@ -621,7 +621,7 @@
       "fauchelevent",
       "gribier",
       "jean-valjean",
-      "father-mestienne",
+      "mestienne",
       "cosette"
     ]
   },
@@ -641,7 +641,7 @@
       "fauchelevent",
       "mother-innocente",
       "gribier",
-      "sister-crucifixion"
+      "mother-crucifixion"
     ]
   },
   {

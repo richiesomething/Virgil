@@ -2166,5 +2166,604 @@
     "themes": [
       "names"
     ]
+  },
+  {
+    "chapter": 220,
+    "kind": "theme",
+    "title": "My name is Thénardier",
+    "text": "'My name is not Fabantou, my name is not Jondrette, my name is Thénardier.' With one sentence the alias falls away, and Hugo announces he will 'henceforth call by no other name' the innkeeper of Montfermeil. The reader has known this man since he bought a child's labour for a few francs a month. Now we watch him try to cash in on her a second time.",
+    "themes": [
+      "names"
+    ]
+  },
+  {
+    "chapter": 220,
+    "kind": "theme",
+    "title": "The man who took the Lark",
+    "text": "Thénardier's tirade gives the game away: Christmas Eve 1823, the yellow greatcoat, the doll, 'that Fantine's child', the cudgel in the forest. The reader saw all of it. M. Leblanc is Jean Valjean, and the girl of the Luxembourg is Cosette, grown up. Marius hears every word and understands almost none of it.",
+    "themes": [
+      "names",
+      "parenthood"
+    ]
+  },
+  {
+    "chapter": 220,
+    "kind": "theme",
+    "title": "Two voices in one conscience",
+    "text": "The name Thénardier knocks the pistol out of Marius's hand. His father's will says 'do him all the good you can'; the scene in front of him says this man is about to commit murder. Hugo gives Marius a full storm in a skull, like the one Valjean once had over Champmathieu: two sacred duties, no way to reconcile them, and seconds to choose.",
+    "themes": [
+      "conscience",
+      "parenthood"
+    ]
+  },
+  {
+    "chapter": 220,
+    "kind": "motif",
+    "title": "The signboard",
+    "text": "The 'painting by David' turns out to be the inn sign: a man carrying another through the smoke of Waterloo. Thénardier claims it shows him saving a general whose name he never caught. Marius sees his father rise from the panel 'like a phantom'. The reader knows what really happened in that sunken road, which makes the sign a lie painted in oils.",
+    "themes": [
+      "history",
+      "parenthood",
+      "names"
+    ]
+  },
+  {
+    "chapter": 220,
+    "kind": "theme",
+    "title": "We are the thermometers",
+    "text": "Called a villain, Thénardier explodes: the rich eat asparagus in January and read the cold in the newspapers; 'We, it is we who are thermometers.' It is one of the most powerful speeches about poverty in the book, and Hugo gives it to a torturer. He calls the outburst 'as hideous as evil, and as heartrending as the truth'.",
+    "themes": [
+      "poverty",
+      "conscience"
+    ]
+  },
+  {
+    "chapter": 220,
+    "kind": "craft",
+    "title": "Why didn't he cry out?",
+    "text": "Thénardier notices that his prisoner has not shouted once, and concludes he has his own reasons to avoid the police. The reader can see why a man with Valjean's past would choose silence even when bound among nine ruffians. Marius, who knows nothing, finds the silence deeply troubling.",
+    "themes": [
+      "mercy-law",
+      "names"
+    ]
+  },
+  {
+    "chapter": 220,
+    "kind": "motif",
+    "title": "Urbain Fabre",
+    "text": "Asked to sign, the prisoner gives a name to match the U. F. on his handkerchief, Urbain Fabre, and a false address that buys time. So the initials Marius kissed were never 'Ursule'. In Hugo's book of names, even the lover's private name for his beloved was built on a borrowed alias.",
+    "themes": [
+      "names",
+      "love"
+    ]
+  },
+  {
+    "chapter": 220,
+    "kind": "motif",
+    "title": "The convict's sou",
+    "text": "Hugo steps out of the scene to describe a sou hollowed into a box holding a watch-spring saw, a 'marvel of industry' made by galley-slaves. Found under the bed afterwards, it explains the cut ropes. The prisoner's past, the patience learned in chains, is what saves him tonight.",
+    "themes": [
+      "mercy-law",
+      "history"
+    ]
+  },
+  {
+    "chapter": 220,
+    "kind": "theme",
+    "title": "Have no more fear of me than I have for you",
+    "text": "Freed, Valjean seizes the white-hot chisel and presses it into his own arm, without a flinch, then throws it into the snow. He will not be made to speak by pain. Hugo says suffering 'vanished in serene majesty'. The man who once stole from a child has become someone torture cannot touch.",
+    "themes": [
+      "conscience",
+      "mercy-law"
+    ]
+  },
+  {
+    "chapter": 220,
+    "kind": "craft",
+    "title": "The bobbies are here",
+    "text": "Marius's solution comes by moonlight: the line the elder daughter scrawled that morning to show off her spelling. Wrapped round plaster and tossed through the hole, it lets him save the victim without betraying his father's saviour. A girl's boast becomes a warning, and a wall becomes a way to speak.",
+    "themes": [
+      "conscience",
+      "light-darkness"
+    ]
+  },
+  {
+    "chapter": 220,
+    "kind": "craft",
+    "title": "Would you like my hat?",
+    "text": "The thieves squabble over who goes down the ladder first and Thénardier mocks the idea of drawing names from a hat. A voice from the doorway offers one. Javert's entrance, hat in hand and smiling, ends the longest chapter of the book on a joke.",
+    "themes": [
+      "mercy-law"
+    ]
+  },
+  {
+    "chapter": 221,
+    "kind": "motif",
+    "title": "Two names for two sisters",
+    "text": "Javert catches the younger girl on watch, Azelma, but not the elder, Éponine, who 'was not at her post'. After two dozen chapters of 'the elder Jondrette girl', Hugo hands her a name in the middle of a police report. Where she was instead, he does not say. The note that saved the prisoner was in her hand.",
+    "themes": [
+      "names"
+    ]
+  },
+  {
+    "chapter": 221,
+    "kind": "craft",
+    "title": "You'll miss fire",
+    "text": "'Come now, don't fire. You'll miss fire.' The pistol misfires. Javert's calm is so complete it seems to command the gun. Hugo plays him almost as comedy here: the 'emperor of the fiends' grants Bigrenaille his tobacco and greets each masked man by name as if taking a roll call.",
+    "themes": [
+      "mercy-law"
+    ]
+  },
+  {
+    "chapter": 221,
+    "kind": "theme",
+    "title": "My daughters!",
+    "text": "Mme Thénardier holds off the police with a paving-stone, shielding her husband with her body. When she is handcuffed, her first cry is 'My daughters!' 'They are in the jug,' says Javert. Whatever else she is, her love for her girls is real. It is the same love the reader saw at Montfermeil, and it still has room for only two.",
+    "themes": [
+      "parenthood",
+      "love",
+      "mercy-law"
+    ]
+  },
+  {
+    "chapter": 221,
+    "kind": "theme",
+    "title": "The most valuable of the lot",
+    "text": "While Javert writes his report, the victim slips out of the window and down the ruffians' own ladder. 'He must have been the most valuable of the lot.' The policeman's instinct is right for reasons he cannot guess. Notice the title: one should always begin by arresting the victims.",
+    "themes": [
+      "mercy-law",
+      "names"
+    ]
+  },
+  {
+    "chapter": 221,
+    "kind": "question",
+    "title": "Who has he missed?",
+    "text": "Javert never saw the prisoner's face clearly, and the man fled rather than give evidence. Marius still does not know who 'M. Leblanc' is, only that he answers to Urbain Fabre and that a criminal called his daughter the Lark. What does Valjean's flight from his rescuers tell you about the life he has been leading since Montfermeil?",
+    "themes": [
+      "mercy-law",
+      "names"
+    ]
+  },
+  {
+    "chapter": 222,
+    "kind": "craft",
+    "title": "A title that points back",
+    "text": "'The Little One Who Was Crying in Volume Two': the title recalls a scene from Montfermeil, when Mme Thénardier wanted nothing to do with a crying child. Hugo now makes the inference that the trap forced. Gavroche, the son of 'Jondrette', is a Thénardier, brother to Éponine and Azelma.",
+    "themes": [
+      "parenthood",
+      "names"
+    ]
+  },
+  {
+    "chapter": 222,
+    "kind": "theme",
+    "title": "I have come to see my ancestors",
+    "text": "Gavroche kicks the door of the Gorbeau house and learns in three lines that his father is in La Force, his mother in Saint-Lazare, his sisters in the Madelonettes. He says 'Ah!', spins on his heel and goes off singing. The whole family is in prison, and the child they kicked into the street is the only one free.",
+    "themes": [
+      "parenthood",
+      "poverty",
+      "mercy-law"
+    ]
+  },
+  {
+    "chapter": 222,
+    "kind": "motif",
+    "title": "A mask of Decrepitude",
+    "text": "Gavroche mocks old Ma'am Bougon as 'an enormous, enormous dog' and tells her she lacks the style of beauty that pleases him. Her face, lit red by a street lantern, floats in the dark 'like a mask of Decrepitude'. The scene is cruel and funny, the gamin's wit from Book I in action.",
+    "themes": [
+      "paris",
+      "light-darkness"
+    ]
+  },
+  {
+    "chapter": 223,
+    "kind": "craft",
+    "title": "A new volume, a history lesson",
+    "text": "Volume IV opens not with Marius or the man who escaped the trap, but with an essay on 1830 and 1831. Hugo steps back from the Gorbeau house to the whole of France. As at Waterloo and the convent, he wants the reader to understand the ground before the story moves across it.",
+    "themes": [
+      "history"
+    ]
+  },
+  {
+    "chapter": 223,
+    "kind": "context",
+    "title": "The July Revolution in brief",
+    "text": "In July 1830 Charles X issued ordinances suspending press freedom and dissolving the Chamber, using the Charter's emergency article. Paris rose for three days, the 'Three Glorious Days', and the Bourbons went into exile. Hugo's summary: 'What it termed its concessions were our conquests; what it termed our encroachments were our rights.'",
+    "themes": [
+      "history",
+      "revolution"
+    ]
+  },
+  {
+    "chapter": 223,
+    "kind": "theme",
+    "title": "Right against fact",
+    "text": "Hugo's key idea is the duel of 'right' and 'fact'. A fact, a regime or an arrangement that merely exists, decays over time if it holds no justice; right stays 'eternally beautiful and pure'. The July Revolution was 'right overthrowing the fact', which is why it could be gentle. Notice how the same contrast could describe a law that punishes a man for a loaf of bread.",
+    "themes": [
+      "revolution",
+      "mercy-law",
+      "history"
+    ]
+  },
+  {
+    "chapter": 223,
+    "kind": "theme",
+    "title": "Fair to the Bourbons",
+    "text": "Hugo does not simply cheer their fall. Under the Restoration, he says, France learned calm debate, liberty of the press and conscience; it was 'the turn of intelligence to have the word'. The Bourbons 'carried away with them respect, but not regret'. This is the same narrator who mocked the ultra salon and still found it touching.",
+    "themes": [
+      "history"
+    ]
+  },
+  {
+    "chapter": 224,
+    "kind": "theme",
+    "title": "The skilful and the sages",
+    "text": "Once a revolution reaches shore, 'the skilful make haste to prepare the shipwreck'. Hugo's contempt is for the 'statesmen' who wrapped the giant-people in flannel and put it to bed. 1830, he says, was 'a revolution arrested midway', half progress, half right.",
+    "themes": [
+      "revolution",
+      "history"
+    ]
+  },
+  {
+    "chapter": 224,
+    "kind": "motif",
+    "title": "A chair is not a caste",
+    "text": "The bourgeoisie, Hugo insists, is not a class but 'the contented portion of the people', the man 'who now has time to sit down'. The danger is sitting down too soon. Compare Gillenormand in his armchair and Marius on his feet, and Thénardier, who boasted of having been 'a bourgeois' himself.",
+    "themes": [
+      "revolution",
+      "poverty"
+    ]
+  },
+  {
+    "chapter": 224,
+    "kind": "context",
+    "title": "The 221 and the best of republics",
+    "text": "'The 221' were the deputies who in March 1830 voted an address of protest against Charles X; after July they offered the crown to Louis-Philippe of Orléans. Lafayette embraced him on the balcony of the Hôtel de Ville and supposedly called the new monarchy 'the best of republics'. Hugo's last line: absolute right protested, then 'retired into the darkness'.",
+    "themes": [
+      "history",
+      "light-darkness"
+    ]
+  },
+  {
+    "chapter": 225,
+    "kind": "craft",
+    "title": "A portrait in contradictions",
+    "text": "Hugo's sketch of Louis-Philippe is one enormous sentence of balanced opposites: 'something of Charlemagne and something of an attorney', 'a gentleman, but not a chevalier', bold abroad and timid at home. The style itself argues that the king was a compromise made flesh: 'Louis Philippe is 1830 made man.'",
+    "themes": [
+      "history"
+    ]
+  },
+  {
+    "chapter": 225,
+    "kind": "theme",
+    "title": "I won seven last night",
+    "text": "The detail Hugo values most is that the king sat up at night going through death sentences to pardon as many as he could. 'What a pity that I was not wounded! Then I might have pardoned!' In a book that began with a bishop at a guillotine and a convict's sentence, a king who fights the scaffold earns Hugo's warmth.",
+    "themes": [
+      "mercy-law"
+    ]
+  },
+  {
+    "chapter": 225,
+    "kind": "context",
+    "title": "Two tombs in exile",
+    "text": "Hugo knew Louis-Philippe and was made a peer of France under him. The king died in exile in England in 1850; Hugo wrote this chapter in exile on Guernsey after opposing Napoleon III. Hence the closing line: no one will say of 'two tombs in exile' that one flattered the other.",
+    "themes": [
+      "history"
+    ]
+  },
+  {
+    "chapter": 225,
+    "kind": "question",
+    "title": "Kindness or greatness?",
+    "text": "'In history, where kindness is the rarest of pearls, the man who is kindly almost takes precedence of the man who is great.' Marius, a few Books ago, worshipped Napoleon's greatness. Which does this book, so far, seem to value more?",
+    "themes": [
+      "history",
+      "mercy-law"
+    ]
+  },
+  {
+    "chapter": 226,
+    "kind": "theme",
+    "title": "Nobody to blame",
+    "text": "Hugo insists the coming conflicts were nobody's crime: the king defends royalty in good faith, democracy attacks in good faith, 'a blind man is no more a criminal than a Vendean is a ruffian'. It is a generous position, and a deliberate one: he wants us to watch the struggle without simple villains.",
+    "themes": [
+      "revolution",
+      "history",
+      "conscience"
+    ]
+  },
+  {
+    "chapter": 226,
+    "kind": "context",
+    "title": "To produce wealth and to share it",
+    "text": "Hugo reduces the socialist thinkers of the 1830s, Saint-Simon, Fourier and others, to two problems: producing wealth and distributing it. England, he says, solves the first and fails the second; communism kills production to divide it. His own answer is to make property 'universal' and education free and compulsory.",
+    "themes": [
+      "poverty",
+      "revolution"
+    ]
+  },
+  {
+    "chapter": 226,
+    "kind": "motif",
+    "title": "Piles of shadows",
+    "text": "The chapter ends in weather: shadows gathering on the horizon, leaves trembling 'at the approach of a storm', cholera, risings at Lyon, the Duchesse de Berry stirring the Vendée. Hugo has used storm imagery for the inner life of his characters. Now the whole country has a tempest in its skull.",
+    "themes": [
+      "light-darkness",
+      "history"
+    ]
+  },
+  {
+    "chapter": 227,
+    "kind": "craft",
+    "title": "History from police files",
+    "text": "Hugo builds this chapter out of overheard remarks, secret reports, torn letters, a recipe for gunpowder found in a drawer. It reads like a dossier. The method makes the insurrection feel like something that grew out of a thousand small acts by ordinary people, not a plan drawn up by a few.",
+    "themes": [
+      "history",
+      "revolution"
+    ]
+  },
+  {
+    "chapter": 227,
+    "kind": "motif",
+    "title": "How is your wife?",
+    "text": "Shopkeepers ask workmen 'How is the rising coming along?' in the tone of 'How is your wife?' A furniture dealer offers his gun. The strangest thing Hugo records is how public and calm it all was: an insurrection preparing 'in the face of the government'.",
+    "themes": [
+      "revolution",
+      "paris"
+    ]
+  },
+  {
+    "chapter": 227,
+    "kind": "theme",
+    "title": "The barbarians of civilization",
+    "text": "Hugo defends the ragged crowds of 1793 from the Faubourg Saint-Antoine: they 'demanded light with the mask of night'. Between them and the gilded men 'glorifying ... the sword, the stake, and the scaffold', he would choose the barbarians. Then he adds a third way: 'progress with a gentle slope'.",
+    "themes": [
+      "revolution",
+      "light-darkness",
+      "poverty"
+    ]
+  },
+  {
+    "chapter": 227,
+    "kind": "context",
+    "title": "The Faubourg Saint-Antoine",
+    "text": "The working-class district east of the Bastille had supplied the crowds of 1789 and 1793 and was the traditional heart of Parisian revolt. Hugo calls it 'that powder-house of suffering and ideas'. The Friends of the A.B.C. appear here too, briefly, as one small cell in a much larger network.",
+    "themes": [
+      "paris",
+      "revolution",
+      "history"
+    ]
+  },
+  {
+    "chapter": 228,
+    "kind": "craft",
+    "title": "A census of the willing",
+    "text": "Enjolras sends each friend to a different corner of Paris, the polytechnic students, the masons, the medical school, the law courts, and keeps the Cougourde for himself. Hugo uses the roll-call to show the reach of the movement and to remind us who each young man is. Marius, 'that abstracted Marius', is the one name missing.",
+    "themes": [
+      "revolution",
+      "paris"
+    ]
+  },
+  {
+    "chapter": 228,
+    "kind": "theme",
+    "title": "I believe in you",
+    "text": "'You do not believe in everything.' 'I believe in you.' Grantaire volunteers for the Barrière du Maine, puts on a red Robespierre waistcoat and whispers 'Be easy.' Enjolras finds him playing dominoes. The joke is sharp, but Grantaire's one faith, in a person rather than a principle, is plain.",
+    "themes": [
+      "love",
+      "revolution"
+    ]
+  },
+  {
+    "chapter": 228,
+    "kind": "motif",
+    "title": "Fanning the ashes",
+    "text": "The workmen of the Barrière du Maine are 'becoming extinguished'; 'those ashes must be fanned into a glow'. Enjolras pictures his friends as a 'powder train' and an 'electric spark', and sees 'a luminous uplifting beneath the gloomy skirts of the future'. For him, revolution is fire and light.",
+    "themes": [
+      "revolution",
+      "light-darkness"
+    ]
+  },
+  {
+    "chapter": 229,
+    "kind": "theme",
+    "title": "The wicked poor man",
+    "text": "Marius flees the Gorbeau house partly from horror at what he saw there, 'a social deformity which is, perhaps, even more terrible than the wicked rich man, the wicked poor man'. After all of Hugo's pleading for the poor, the phrase is a hard one. It admits that misery can produce monsters without excusing the society that made them.",
+    "themes": [
+      "poverty",
+      "conscience"
+    ]
+  },
+  {
+    "chapter": 229,
+    "kind": "theme",
+    "title": "Five francs every Monday",
+    "text": "Marius borrows money for the first time in his life, from Courfeyrac, to send five francs a week to Thénardier in La Force. 'Whence can this come to me?' Thénardier wonders. The son honours his father's debt to the man he just saw torture a prisoner. Is this loyalty, or a refusal to look at what he knows?",
+    "themes": [
+      "parenthood",
+      "conscience",
+      "mercy-law"
+    ]
+  },
+  {
+    "chapter": 229,
+    "kind": "theme",
+    "title": "Thought and reverie",
+    "text": "'Thought is the toil of the intelligence, reverie its voluptuousness. To replace thought with reverie is to confound a poison with a food.' Hugo warns that a poor man who is generous and does not work slides down a slope that ends in 'suicide or crime'. It is a sober passage about a hero the narrator plainly loves.",
+    "themes": [
+      "poverty",
+      "love"
+    ]
+  },
+  {
+    "chapter": 229,
+    "kind": "motif",
+    "title": "Writing to her",
+    "text": "Marius fills a notebook with his purest reveries and calls it 'writing to her'. He does not even know her name: not Ursule, and 'the Lark' is only a nickname he heard from a criminal. Love, Hugo says, 'kindles in the darkness of the heart; the more it has disappeared, the more it beams'.",
+    "themes": [
+      "love",
+      "names",
+      "light-darkness"
+    ]
+  },
+  {
+    "chapter": 229,
+    "kind": "motif",
+    "title": "The Lark's meadow",
+    "text": "A passer-by names a pretty field by the Bièvre 'the Lark's meadow' and adds that Ulbach murdered a shepherdess there, a real crime of 1827. Marius hears only the first word. 'It was absurd, but irresistible.' A place-name becomes a shrine, much as a handkerchief's initials did before.",
+    "themes": [
+      "names",
+      "love",
+      "paris"
+    ]
+  },
+  {
+    "chapter": 229,
+    "kind": "question",
+    "title": "His heroic and his equivocal sides",
+    "text": "Marius now thinks the white-haired workman near the Invalides was M. Leblanc in disguise. Why did he not cry out? Why did he flee the police? Is he the girl's father at all? The reader can answer some of these questions. Marius cannot, and they do not diminish his love.",
+    "themes": [
+      "names",
+      "mercy-law"
+    ]
+  },
+  {
+    "chapter": 230,
+    "kind": "craft",
+    "title": "Loose ends",
+    "text": "Hugo lists what Javert's triumph missed: the victim fled, Montparnasse slipped away with Éponine, and Claquesous vanished from a police carriage between the Gorbeau house and La Force. The chapter is an accounting of escapes. The underworld leaks out of every net the law throws.",
+    "themes": [
+      "mercy-law",
+      "light-darkness"
+    ]
+  },
+  {
+    "chapter": 230,
+    "kind": "theme",
+    "title": "Paws in crime and paws in authority",
+    "text": "Did Claquesous melt into the shadows, or did some police agent let him go because 'such a villain ... might make a very good agent'? Hugo raises the possibility that order and disorder are 'on such intimate juggling terms with the night'. Vidocq, remember, was a convict before he was a policeman. The line between hunter and hunted is not as clean as Javert believes.",
+    "themes": [
+      "mercy-law",
+      "names"
+    ]
+  },
+  {
+    "chapter": 230,
+    "kind": "motif",
+    "title": "Brujon, 1811",
+    "text": "A fortress carved with a nail on the wall of La Force, signed 'Brujon, 1811', by the father of the Brujon of 1832. Crime here runs in families like a trade. Hugo has spent this volume on fathers and sons; this is the darkest version of the inheritance.",
+    "themes": [
+      "parenthood",
+      "mercy-law"
+    ]
+  },
+  {
+    "chapter": 230,
+    "kind": "context",
+    "title": "A postilion into Ireland",
+    "text": "Hugo enjoys the prison slang: a 'postilion' is a pellet of bread with a message inside, thrown over the roofs from one yard to another, 'into Ireland'. A 'biscuit' means 'nothing to be done'. The note passes from Brujon to Babet to a woman in the Salpêtrière to Magnon to Éponine, a whole postal service of the underworld.",
+    "themes": [
+      "paris",
+      "names"
+    ]
+  },
+  {
+    "chapter": 230,
+    "kind": "question",
+    "title": "A gate on a garden",
+    "text": "'Babet. There is an affair in the Rue Plumet. A gate on a garden.' Éponine goes to look, watches the house for days, and sends back a biscuit: nothing to be done. What did she see there that made her call the job off?",
+    "themes": [
+      "conscience"
+    ]
+  },
+  {
+    "chapter": 230,
+    "kind": "craft",
+    "title": "Knotting another thread",
+    "text": "'Often when we think we are knotting one thread, we are tying quite another.' Hugo ends on a proverb about unintended consequences. The book has been full of small acts, a coin given, a coat left behind, a note tossed through a wall, that change things in ways nobody planned.",
+    "themes": [
+      "conscience"
+    ]
+  },
+  {
+    "chapter": 231,
+    "kind": "theme",
+    "title": "When misery looses bonds",
+    "text": "Marius and Mabeuf pass on the boulevard with a melancholy nod and do not speak. 'There comes a moment when misery looses bonds! Two men who have been friends become two chance passersby.' Poverty isolates. Mabeuf, nearly eighty, now eats one egg a day and gives the other to his unpaid servant.",
+    "themes": [
+      "poverty",
+      "love"
+    ]
+  },
+  {
+    "chapter": 231,
+    "kind": "motif",
+    "title": "A tear of dew",
+    "text": "Too weak to draw water from his well, Mabeuf looks up at a sky full of stars and begs for 'A tear of dew! A little pity!' The stars are beautiful and useless. Then a voice in the hedge offers help. Hugo's light imagery turns practical here: what the old man needs is not radiance but rain.",
+    "themes": [
+      "light-darkness",
+      "poverty"
+    ]
+  },
+  {
+    "chapter": 231,
+    "kind": "theme",
+    "title": "Angel or devil",
+    "text": "Éponine waters the whole garden, barefoot, looking like a bat among the flowerbeds. 'You are an angel since you take care of the flowers.' 'No. I am the devil, but that's all the same to me.' Mabeuf blesses her; she calls herself damned. Which of them is right?",
+    "themes": [
+      "poverty",
+      "conscience"
+    ]
+  },
+  {
+    "chapter": 231,
+    "kind": "craft",
+    "title": "A goblin of the Bièvre",
+    "text": "Mabeuf has been reading old books on demons and the goblins said to haunt his very garden. Falling asleep, he wonders whether his visitor was one. Hugo lets the old bookman's superstition frame the scene, so Éponine, who appears and vanishes in the twilight, has something of a spirit about her.",
+    "themes": [
+      "light-darkness"
+    ]
+  },
+  {
+    "chapter": 232,
+    "kind": "theme",
+    "title": "Poorer and prettier",
+    "text": "Éponine has grown 'poorer and prettier, two steps which it had not seemed within her power to take', 'towards the light and towards distress'. Straw in her hair from a stable loft, prison in her face, and yet 'she was beautiful'. Hugo will not let us see her only as the girl of the Gorbeau garret.",
+    "themes": [
+      "poverty",
+      "light-darkness",
+      "love"
+    ]
+  },
+  {
+    "chapter": 232,
+    "kind": "theme",
+    "title": "You have called me Éponine!",
+    "text": "Marius uses her name to make her swear she will not tell her father the address. She hardly hears the oath. 'That's nice! You have called me Éponine!' To him the name is a tool; to her it is a gift. Few moments in the book show so clearly the gap between what each of them wants.",
+    "themes": [
+      "names",
+      "love"
+    ]
+  },
+  {
+    "chapter": 232,
+    "kind": "motif",
+    "title": "I don't want your money",
+    "text": "He fumbles out his only coin, the five francs meant for her father in prison, and puts it in her hand. She lets it fall to the ground. She has told us she would sew his shirt, and asked to see him smile. The one thing she refuses is payment. What does she want instead?",
+    "themes": [
+      "love",
+      "poverty"
+    ]
+  },
+  {
+    "chapter": 232,
+    "kind": "craft",
+    "title": "A woman like me",
+    "text": "'A nice young man like you must not be seen with a woman like me.' Hugo pauses on the word 'woman' in the mouth of a child of not quite sixteen: 'No tongue can express all that lay in that word.' Marius, in ecstasy, notices nothing. The reader is made to notice everything he misses.",
+    "themes": [
+      "poverty",
+      "love"
+    ]
   }
 ]

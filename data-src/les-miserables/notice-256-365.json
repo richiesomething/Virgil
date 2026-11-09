@@ -597,5 +597,393 @@
       "paris",
       "revolution"
     ]
+  },
+  {
+    "chapter": 276,
+    "kind": "craft",
+    "title": "Strangers in the ranks",
+    "text": "Two newcomers join the band, and Hugo names neither. One is a tall, grey-haired man of bold bearing whom none of the leaders knows. The other is a pale, slight young workman who has waited an hour at Courfeyrac's lodge asking for Marius. A crowd on the march takes in anyone. Hugo lets us see them arrive, and does not explain them.",
+    "themes": [
+      "names",
+      "revolution"
+    ]
+  },
+  {
+    "chapter": 276,
+    "kind": "motif",
+    "title": "Monsieur de Courfeyrac",
+    "text": "'If you call me Monsieur de Courfeyrac again, I shall call you Mother de Veuvain.' Courfeyrac's father really was M. de Courfeyrac, but the republican son has dropped the noble particle. On the way to a barricade he will not be given a title even by his portress. In this book names are always a statement of where one stands.",
+    "themes": [
+      "names"
+    ]
+  },
+  {
+    "chapter": 276,
+    "kind": "craft",
+    "title": "A mob does not go where it intends",
+    "text": "The band means to reach Saint-Merry, overshoots it and ends up 'without quite knowing how' in the Rue Saint-Denis. Hugo keeps showing chance at work in history. The great events of a rising are placed by wrong turnings, a forgotten hat and a coffer fetched from under dirty linen.",
+    "themes": [
+      "history"
+    ]
+  },
+  {
+    "chapter": 277,
+    "kind": "craft",
+    "title": "A letter for a map",
+    "text": "As he drew Waterloo as a capital A, Hugo now draws the Halles quarter as an N, with the Rue de la Chanvrerie as one upright. The digression is doing a practical job: it gives the reader a map of a battlefield before the battle. It also says that this tangle of streets is a real place with a three-hundred-year history.",
+    "themes": [
+      "paris",
+      "history"
+    ]
+  },
+  {
+    "chapter": 277,
+    "kind": "context",
+    "title": "A vanished quarter",
+    "text": "'All of it vanished' when the Mondétour labyrinth was opened up in 1847, and the Rue Rambuteau 'devoured' the old streets. Hugo, writing in exile in the early 1860s, describes a Paris that no longer existed. Like the convent of the Petit-Picpus, the Corinthe is preserved only in his book.",
+    "themes": [
+      "paris",
+      "history"
+    ]
+  },
+  {
+    "chapter": 277,
+    "kind": "motif",
+    "title": "Carpe ho ras",
+    "text": "Father Hucheloup advertises his stuffed carps, 'Carpes au gras', in his own spelling. Rain washes out two letters and leaves 'Carpe ho ras', so that 'knowing no French, he had equalled Horace'. Hugo loves accidents that turn the ordinary into Latin. The wall of a cheap wine-shop now tells its customers to seize the hour.",
+    "themes": [
+      "history"
+    ]
+  },
+  {
+    "chapter": 277,
+    "kind": "theme",
+    "title": "Out of pity",
+    "text": "After Hucheloup's death the cooking turns execrable and the wine worse, and the friends keep coming 'out of pity', as Bossuet says. They eat on credit, pay badly and are always welcome. The Corinthe is a picture of loyalty among poor people: the students and the bearded widow keep each other going.",
+    "themes": [
+      "love",
+      "poverty"
+    ]
+  },
+  {
+    "chapter": 278,
+    "kind": "theme",
+    "title": "A sceptic among believers",
+    "text": "While Paris boils, Grantaire breakfasts on oysters and harangues: creation is bankrupt, God patches events like a tradesman with an empty till, and the one reality is drink. He is the voice of doubt inside the ABC. Hugo gives him wit and some truth, and lets him drink himself away from the cause his friends serve.",
+    "themes": [
+      "revolution",
+      "conscience"
+    ]
+  },
+  {
+    "chapter": 278,
+    "kind": "craft",
+    "title": "Make it here!",
+    "text": "Bossuet, drunk on a windowsill with his back in the rain, sees the band pass the end of the street and bellows to Courfeyrac: 'This is a good place! Make it here!' That is how the barricade of the Rue de la Chanvrerie is placed. Hugo, who has just lectured on the causes of revolt, shows how its sites are chosen, by chance and by friendship.",
+    "themes": [
+      "history"
+    ]
+  },
+  {
+    "chapter": 278,
+    "kind": "question",
+    "title": "Sent to Bossuet, not to me",
+    "text": "Enjolras sends his warning to Bossuet, and Grantaire mutters that Enjolras disdains him. Among all his jokes this is the one remark said without a joke. What does Grantaire want from Enjolras, and why does it matter more to him than the funeral or the riot?",
+    "themes": [
+      "revolution",
+      "love"
+    ]
+  },
+  {
+    "chapter": 279,
+    "kind": "craft",
+    "title": "A city turned into a wall",
+    "text": "Iron bars from the wine-shop grating, paving-stones, a lime-dealer's dray, the widow's empty casks, beams from house-fronts, a passing omnibus: in minutes the street is barred higher than a man. Hugo's catalogue shows the barricade as Paris itself, rearranged. Everyday things of the city become a fortification.",
+    "themes": [
+      "paris",
+      "revolution"
+    ]
+  },
+  {
+    "chapter": 279,
+    "kind": "context",
+    "title": "Non licet omnibus",
+    "text": "Bossuet hands down 'the ladies', takes the omnibus by the bridle and declares in Latin that not everyone may go to Corinth: 'Non licet omnibus adire Corinthum.' The old proverb, from Horace, meant that not everyone can afford the pleasures of Corinth. Here 'omnibus', 'for everyone', is also the vehicle. Even building a barricade, these students make Latin puns.",
+    "themes": [
+      "history"
+    ]
+  },
+  {
+    "chapter": 279,
+    "kind": "theme",
+    "title": "'Let me sleep here'",
+    "text": "Enjolras orders the drunken Grantaire off the barricade, and the rebuke sobers him at once. He looks at Enjolras 'with indescribable gentleness' and asks to sleep there. Enjolras tells him he is incapable of believing, thinking, willing, living and dying. 'You will see,' Grantaire answers, and falls asleep. Grantaire believes in nothing except Enjolras, and Enjolras cannot see it.",
+    "themes": [
+      "revolution",
+      "love"
+    ]
+  },
+  {
+    "chapter": 279,
+    "kind": "theme",
+    "title": "Jesus with Rothschild's fortune",
+    "text": "In his drunken dithyramb Grantaire says that if kind hearts had fat purses there would be no more poor, and imagines Jesus Christ with Rothschild's fortune. It is a joke and also the novel's question in the mouth of its scoffer. Goodness without means has been shown again and again: the bishop, Mabeuf, Marius.",
+    "themes": [
+      "poverty"
+    ]
+  },
+  {
+    "chapter": 280,
+    "kind": "craft",
+    "title": "Consolation, Arab style",
+    "text": "Courfeyrac 'consoles' Mother Hucheloup by telling her that wrecking her shop avenges a fine she once paid, and Hugo caps it with the tale of an Arab father who evened a slap by slapping his daughter's other cheek. Even as the bullets are cast, Hugo keeps the comedy going. These young men laugh at the edge of danger, and the book laughs with them.",
+    "themes": [
+      "revolution"
+    ]
+  },
+  {
+    "chapter": 280,
+    "kind": "motif",
+    "title": "Spoons into bullets",
+    "text": "The establishment's pewter mugs, spoons and forks go into the brazier and come out as bullets; dishcloths become lint for wounds. Notice how the tavern's ordinary life is converted, object by object, into war. Hugo lists the volunteers the same way: a breastplate of grey paper, an awl, a cartridge-box marked 'Public Order'.",
+    "themes": [
+      "revolution"
+    ]
+  },
+  {
+    "chapter": 280,
+    "kind": "theme",
+    "title": "Brothers without names",
+    "text": "Pale young men and bronzed longshoremen work side by side, 'brothers who do not know each other's names'. Hugo makes the barricade a fraternity of strangers, built on a shared hope of help at three in the morning, a sure regiment and Paris rising. The word fraternity on the Republic's banner is lived here for an evening.",
+    "themes": [
+      "revolution",
+      "names"
+    ]
+  },
+  {
+    "chapter": 280,
+    "kind": "theme",
+    "title": "A gun for the children",
+    "text": "Gavroche goes from man to man demanding a real gun; he had one in 1830, he says. Enjolras answers that when there are enough for the men they will give some to the children. 'Gamin!' 'Greenhorn!' The exchange is comic, but it raises a real question the book has carried since the Thénardier children: what place does a child have in the grown-ups' wars?",
+    "themes": [
+      "revolution",
+      "parenthood"
+    ]
+  },
+  {
+    "chapter": 281,
+    "kind": "craft",
+    "title": "Correcting the newspapers",
+    "text": "The papers called the barricade nearly impregnable and as high as a first floor. Hugo corrects them: six or seven feet, with steps inside, a gap at one end, an omnibus pole for a flagstaff. The novelist writes like a military historian checking the record. His precision lets the reader stand inside the redoubt and see its weak points.",
+    "themes": [
+      "history"
+    ]
+  },
+  {
+    "chapter": 281,
+    "kind": "motif",
+    "title": "The coffer opened",
+    "text": "The square coffer Courfeyrac fetched from under his linen is opened on a table: cartridges. 'A tremor and a silence' pass through the bravest. Up to now the day has been flags, songs and furniture. Thirty cartridges to each man turn the street game into something final.",
+    "themes": [
+      "revolution"
+    ]
+  },
+  {
+    "chapter": 281,
+    "kind": "motif",
+    "title": "Waiting in the dusk",
+    "text": "The alarm beating through Paris becomes a noise they no longer hear. They load without haste, Enjolras posts three sentinels, and the twilight thickens among houses 'that seem dead'. Hugo slows the prose to the rhythm of waiting. Darkness is coming in from outside the barricade, and so is something unseen.",
+    "themes": [
+      "light-darkness"
+    ]
+  },
+  {
+    "chapter": 282,
+    "kind": "theme",
+    "title": "Love verses with loaded carbines",
+    "text": "Hugo insists on telling what they did while waiting, 'since it is history': they sat together as in their student days and recited love poems. Prouvaire's poem remembers a garret, a burnt muff, a Dante used as a table for chestnuts. These young men are not only revolutionaries. Their politics come from the same young hearts that wrote poems about love.",
+    "themes": [
+      "love",
+      "revolution"
+    ]
+  },
+  {
+    "chapter": 282,
+    "kind": "craft",
+    "title": "A poem inside the novel",
+    "text": "Hugo stops his prose for verses, a whole poem of youth in the Latin Quarter. Its lightness, against 'the funereal calm of the deserted streets', gives it what he calls a pathetic charm. The poem looks back at a love that has passed, while the men around it wait for the attack.",
+    "themes": [
+      "love"
+    ]
+  },
+  {
+    "chapter": 282,
+    "kind": "motif",
+    "title": "A torch for the flag",
+    "text": "The wax torch is set in a cage of paving-stones so that all its light falls on the red flag and none on the men. Street and barricade sink into gloom; the flag glows, 'its scarlet deepened to a terrible purple'. Hugo stages the barricade like a theatre at night. Only the idea is lit, and the men stay in the dark.",
+    "themes": [
+      "light-darkness"
+    ]
+  },
+  {
+    "chapter": 283,
+    "kind": "craft",
+    "title": "Recognition on a child's face",
+    "text": "Before any word is spoken, Gavroche's face runs through 'every grimace' of disbelief, uncertainty and conviction as he circles the stranger on tiptoe. Hugo stages the unmasking first as mime. Then the questions, and the name: 'Javert.' The tall recruit from the Rue des Billettes has been the hunter all along, and the chapter makes us wait for the word.",
+    "themes": [
+      "names",
+      "mercy-law"
+    ]
+  },
+  {
+    "chapter": 283,
+    "kind": "theme",
+    "title": "The mouse who has caught the cat",
+    "text": "'It's the mouse who has caught the cat,' says Gavroche. Javert, the law in person, is bound to the post in the middle of a wine-shop by rebels. He does not cry out, and raises his head 'with the intrepid serenity of the man who has never lied'. Hugo grants him dignity even in defeat: he is wrong, perhaps, but he is honest.",
+    "themes": [
+      "mercy-law"
+    ]
+  },
+  {
+    "chapter": 283,
+    "kind": "theme",
+    "title": "Judges, not assassins",
+    "text": "'Then finish the business with a blow from a knife.' 'Spy, we are judges and not assassins.' Enjolras claims for the barricade the very thing Javert serves: lawful judgement. Each side calls itself the law. Javert is to be shot ten minutes before the barricade falls, and both men speak of it calmly, as a matter of procedure.",
+    "themes": [
+      "mercy-law",
+      "revolution"
+    ]
+  },
+  {
+    "chapter": 283,
+    "kind": "context",
+    "title": "Prefect Gisquet",
+    "text": "The card found on Javert bears the signature of 'M. Gisquet', the real Prefect of Police of Paris from 1831 to 1836. Hugo threads real names through his invented ones, as he did with Lamarque and Lafayette. A fictional inspector carries a real man's orders, which makes the fiction feel documented.",
+    "themes": [
+      "history"
+    ]
+  },
+  {
+    "chapter": 284,
+    "kind": "theme",
+    "title": "He killed, therefore I killed him",
+    "text": "Enjolras executes Le Cabuc for murdering the old porter, then tells the barricade: 'I have judged myself also.' The reader has seen this rigour before, in Javert asking Madeleine to dismiss him for a mistaken denunciation. Hugo sets the revolutionary and the policeman as mirror images. Both are pure, both are merciless, and both apply their law to themselves.",
+    "themes": [
+      "mercy-law",
+      "conscience"
+    ]
+  },
+  {
+    "chapter": 284,
+    "kind": "theme",
+    "title": "Fatality and Fraternity",
+    "text": "Enjolras calls necessity 'a monster of the old world named Fatality', and says the law of progress is for Fatality to vanish before Fraternity. He uses death but hates it, he says. Hugo calls him 'executioner and priest', and the speech is both a creed and a confession. His friends watch him with admiration mixed with compassion.",
+    "themes": [
+      "revolution"
+    ]
+  },
+  {
+    "chapter": 284,
+    "kind": "craft",
+    "title": "The porter who said no",
+    "text": "The old porter at his window cannot even see who is aiming at him. He says 'That cannot be, gentlemen' and is shot under the chin. Hugo ends the image with a head on the sill and a little white smoke. Like the deaf old woman at the Austerlitz bridge, the first innocent dead of the barricade is someone who only wanted to keep his door shut.",
+    "themes": [
+      "poverty",
+      "mercy-law"
+    ]
+  },
+  {
+    "chapter": 284,
+    "kind": "context",
+    "title": "Le Cabuc and Claquesous",
+    "text": "Hugo offers, as 'a tradition of the police, strange but probably well founded', that Le Cabuc was Claquesous, the masked member of Patron-Minette who slipped away after the Gorbeau arrests. A police card was found on the body; Hugo says he held the 1832 report in 1848. A man whose life was 'all shadows' ends as a riddle, on the edge of both the underworld and the police.",
+    "themes": [
+      "names"
+    ]
+  },
+  {
+    "chapter": 285,
+    "kind": "craft",
+    "title": "A descent through Paris",
+    "text": "Marius walks from the Rue de Rivoli, with its gaslight and ices, through shut shops with chatting merchants, then a silent crowd, then the army's bivouacs, into streets 'like a cellar'. Hugo turns the walk into a cross-section of the city, layer by layer, 'like a descent of black steps'. Each stage is darker and quieter than the one before.",
+    "themes": [
+      "paris",
+      "light-darkness"
+    ]
+  },
+  {
+    "chapter": 285,
+    "kind": "motif",
+    "title": "Two white horses and a shaving dish",
+    "text": "In the black streets Marius meets the two omnibus horses Bossuet unharnessed that morning, still wandering 'with the patience of brutes'. A stray shot pierces a barber's brass dish, 'still to be seen there in 1848'. Hugo uses small physical leftovers of the day, and his own memory of them, to make the night real.",
+    "themes": [
+      "history"
+    ]
+  },
+  {
+    "chapter": 285,
+    "kind": "theme",
+    "title": "The key to the tomb",
+    "text": "To Marius the voice through the twilight sounds like destiny: he wished to die, and 'a hand in the darkness offers the key to the tomb'. Notice that he goes to the barricade as a lover in despair, armed by chance with Javert's pistols, not as a convert to his friends' politics.",
+    "themes": [
+      "love"
+    ]
+  },
+  {
+    "chapter": 286,
+    "kind": "context",
+    "title": "Paris from the air, again",
+    "text": "'An owl's view of Paris' answers a famous chapter in Hugo's Notre-Dame de Paris (1831), 'A Bird's-Eye View of Paris'. There he rebuilt the medieval city from the towers of the cathedral. Here, from above, the old Halles quarter is a black hole in the centre of Paris, with only Saint-Jacques and Saint-Merry rising out of it.",
+    "themes": [
+      "paris"
+    ]
+  },
+  {
+    "chapter": 286,
+    "kind": "motif",
+    "title": "Order means night",
+    "text": "'The insurrection's invisible police keep order, that is, night': every window that showed a candle at dusk received a shot. Hugo turns his central image pair upside down. Here darkness is the rebels' protection, and the light belongs to the bayonets tightening in a ring around them.",
+    "themes": [
+      "light-darkness"
+    ]
+  },
+  {
+    "chapter": 286,
+    "kind": "theme",
+    "title": "The voice from below",
+    "text": "Hugo sets the political battle, the schools against the middle classes, inside a deeper sound. In 'wretched old Paris beneath the splendour of happy Paris', the people roar, a voice 'from below like the lion and from on high like the thunder'. Behind the students' principles he wants us to hear the misery the whole book has described.",
+    "themes": [
+      "revolution",
+      "poverty"
+    ]
+  },
+  {
+    "chapter": 287,
+    "kind": "theme",
+    "title": "The sword that would not come",
+    "text": "Marius thinks of his father's sword, sold by his grandfather, and decides it did well not to come: a sword from Marengo would not go to the Rue de la Chanvrerie. Civil war feels like desecrating Colonel Pontmercy. The dead father has become Marius's conscience. Notice that he argues with his father's ghost before he argues with himself.",
+    "themes": [
+      "parenthood",
+      "conscience"
+    ]
+  },
+  {
+    "chapter": 287,
+    "kind": "question",
+    "title": "Reason or rationalisation?",
+    "text": "Marius works his way to a 'splendid rectification': there is only just and unjust war, and the monarchy is itself a foreigner. Hugo remarks on the soul's strange aptitude for cold reasoning in extremity, 'the thread of the syllogism floating unbroken in the storm'. Has Marius found a conviction, or given grief the reasons it wanted?",
+    "themes": [
+      "revolution",
+      "conscience"
+    ]
+  },
+  {
+    "chapter": 287,
+    "kind": "motif",
+    "title": "A dead man at the window",
+    "text": "When Marius looks up, a spectator above the barricade seems 'singularly attentive': it is the porter killed by Le Cabuc, staring, mouth open, blood trailing down the wall. Hugo makes the dead a witness. Marius came here to look death in the face, and this is the first face he sees.",
+    "themes": [
+      "light-darkness"
+    ]
   }
 ]
