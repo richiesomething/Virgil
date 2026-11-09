@@ -3,5 +3,378 @@
   "source": "Wikimedia Commons; Paris Musées collections",
   "license": "Public domain / CC0",
   "credit": "Period illustration of Les Misérables",
-  "items": []
+  "items": [
+    {
+      "chapter": 1,
+      "from": "In 1815, M. Charles-François-Bienvenu Myriel was Bishop of Digne",
+      "file": "001-1.webp",
+      "width": 500,
+      "height": 296,
+      "caption": "M. Myriel, Bishop of Digne, at his writing-table",
+      "source": "J-015",
+      "credit": "Georges Jeanniot, 1890 edition (Wikimedia Commons)"
+    },
+    {
+      "chapter": 2,
+      "from": "Three days after his arrival, the Bishop visited the hospital",
+      "file": "002-1.webp",
+      "width": 500,
+      "height": 300,
+      "caption": "“It would hold full twenty beds”: the Bishop and the director of the hospital in the palace dining-room",
+      "source": "J-060",
+      "to": "On the following day the thirty-six patients",
+      "credit": "Georges Jeanniot, 1890 edition (Wikimedia Commons)"
+    },
+    {
+      "chapter": 3,
+      "from": "One day he arrived at Senez",
+      "file": "003-1.webp",
+      "width": 500,
+      "height": 303,
+      "caption": "The Bishop dismounts from his ass at the gate of Senez",
+      "source": "J-021",
+      "credit": "Georges Jeanniot, 1890 edition (Wikimedia Commons)"
+    },
+    {
+      "chapter": 4,
+      "from": "One day he rose from his armchair",
+      "file": "004-1.webp",
+      "width": 500,
+      "height": 292,
+      "caption": "“Madame Magloire, fetch me a chair. My greatness does not reach as far as that shelf.”",
+      "source": "J-029",
+      "credit": "Georges Jeanniot, 1890 edition (Wikimedia Commons)"
+    },
+    {
+      "chapter": 147,
+      "from": "Paris has a child, and the forest",
+      "file": "147-1.webp",
+      "width": 487,
+      "height": 302,
+      "caption": "A gamin of Paris on a barge by the Seine",
+      "source": "J-111",
+      "to": "This little being is joyous",
+      "credit": "Georges Jeanniot, 1890 edition (Wikimedia Commons)"
+    },
+    {
+      "chapter": 151,
+      "from": "He who writes these lines has long been",
+      "file": "151-1.webp",
+      "width": 734,
+      "height": 1000,
+      "caption": "On the outskirts of Paris, where the city meets the fields",
+      "source": "P-133",
+      "to": "There is hardly anyone on earth",
+      "credit": "Wood engraving, Maison de Victor Hugo / Paris Musées (CC0)"
+    },
+    {
+      "chapter": 151,
+      "from": "Anyone who, like ourselves, has wandered",
+      "file": "151-2.webp",
+      "width": 722,
+      "height": 1000,
+      "caption": "Ragged children at play in the waste ground beyond the barriers",
+      "source": "P-132",
+      "credit": "Wood engraving, Maison de Victor Hugo / Paris Musées (CC0)"
+    },
+    {
+      "chapter": 154,
+      "from": "Sometimes this gnat—that is what he calls himself",
+      "file": "154-1.webp",
+      "width": 713,
+      "height": 1000,
+      "caption": "The King helps the gamin finish his pear",
+      "source": "P-131",
+      "credit": "Wood engraving, Maison de Victor Hugo / Paris Musées (CC0)"
+    },
+    {
+      "chapter": 159,
+      "from": "Eight or nine years after the events",
+      "file": "159-1.webp",
+      "width": 330,
+      "height": 200,
+      "caption": "A barefoot boy of the streets, eleven or twelve years old",
+      "source": "J-138",
+      "to": "He was a boisterous, pallid, nimble",
+      "credit": "Georges Jeanniot, 1890 edition (Wikimedia Commons)"
+    },
+    {
+      "chapter": 159,
+      "from": "We have forgotten to mention, that on the Boulevard",
+      "file": "159-2.webp",
+      "width": 735,
+      "height": 1000,
+      "caption": "Little Gavroche",
+      "source": "P-134",
+      "to": "Probably because his father",
+      "credit": "Wood engraving, Maison de Victor Hugo / Paris Musées (CC0)"
+    },
+    {
+      "chapter": 160,
+      "from": "In the Rue Boucherat, Rue de Normandie",
+      "file": "160-1.webp",
+      "width": 751,
+      "height": 1000,
+      "caption": "M. Gillenormand",
+      "source": "P-120",
+      "credit": "Wood engraving, Maison de Victor Hugo / Paris Musées (CC0)"
+    },
+    {
+      "chapter": 160,
+      "from": "M. Gillenormand, who was as much alive",
+      "file": "160-2.webp",
+      "width": 330,
+      "height": 204,
+      "caption": "M. Gillenormand has himself shaved by his barber",
+      "source": "J-112",
+      "credit": "Georges Jeanniot, 1890 edition (Wikimedia Commons)"
+    },
+    {
+      "chapter": 165,
+      "from": "With M. Gillenormand, sorrow was converted into wrath",
+      "file": "165-1.webp",
+      "width": 704,
+      "height": 1000,
+      "caption": "A newborn boy is brought to M. Gillenormand in a basket",
+      "source": "P-121",
+      "credit": "Wood engraving, Maison de Victor Hugo / Paris Musées (CC0)"
+    },
+    {
+      "chapter": 167,
+      "from": "Nevertheless, let him who can explain",
+      "file": "167-1.webp",
+      "width": 488,
+      "height": 295,
+      "caption": "Théodule, the officer of Lancers, embraces his great-aunt",
+      "source": "J-132",
+      "credit": "Georges Jeanniot, 1890 edition (Wikimedia Commons)"
+    },
+    {
+      "chapter": 167,
+      "from": "She kept house for her father",
+      "file": "167-2.webp",
+      "width": 330,
+      "height": 519,
+      "caption": "The old bourgeois and his daughter at home",
+      "source": "J-122",
+      "to": "This was his grandson",
+      "credit": "Georges Jeanniot, 1890 edition (Wikimedia Commons)"
+    },
+    {
+      "chapter": 168,
+      "from": "Madame de T. lived far from the Court",
+      "file": "168-1.webp",
+      "width": 488,
+      "height": 303,
+      "caption": "Tea and royalist wit in the salon of Madame de T.",
+      "source": "J-113",
+      "to": "The songs of the fishwomen",
+      "credit": "Georges Jeanniot, 1890 edition (Wikimedia Commons)"
+    },
+    {
+      "chapter": 168,
+      "from": "M. Gillenormand was always accompanied by his daughter",
+      "file": "168-2.webp",
+      "width": 722,
+      "height": 1000,
+      "caption": "M. Gillenormand in the salon, with his daughter",
+      "source": "P-144",
+      "to": "This brigand of the Loire was",
+      "credit": "Wood engraving, Maison de Victor Hugo / Paris Musées (CC0)"
+    },
+    {
+      "chapter": 169,
+      "from": "Anyone who had chanced to pass through the little town of Vernon",
+      "file": "169-1.webp",
+      "width": 330,
+      "height": 199,
+      "caption": "A man with a hoe in his little walled garden by the Seine at Vernon",
+      "source": "J-117",
+      "credit": "Georges Jeanniot, 1890 edition (Wikimedia Commons)"
+    },
+    {
+      "chapter": 169,
+      "from": "By dint of labor, of perseverance",
+      "file": "169-2.webp",
+      "width": 744,
+      "height": 1000,
+      "caption": "“By dint of labor, of perseverance, of attention, and of buckets of water”",
+      "source": "P-142",
+      "credit": "Wood engraving, Maison de Victor Hugo / Paris Musées (CC0)"
+    },
+    {
+      "chapter": 223,
+      "from": "The Restoration had been one of those intermediate phases",
+      "file": "223-1.webp",
+      "width": 500,
+      "height": 305,
+      "caption": "Headpiece to “Well Cut”: an old gentleman at his table, a young man standing before him",
+      "source": "J-147",
+      "to": "Devotion which is weary, heroism which has grown old",
+      "credit": "Georges Jeanniot, 1890 edition (Wikimedia Commons)"
+    },
+    {
+      "chapter": 227,
+      "from": "The Faubourg Saint-Antoine, which was in a dull glow",
+      "file": "227-1.webp",
+      "width": 500,
+      "height": 310,
+      "caption": "Talk in the shadows of the Faubourg Saint-Antoine",
+      "source": "J-181",
+      "to": "Sometimes they went upstairs, to a private room",
+      "credit": "Georges Jeanniot, 1890 edition (Wikimedia Commons)"
+    },
+    {
+      "chapter": 227,
+      "from": "What excited the carpenter and caused him to show",
+      "file": "227-2.webp",
+      "width": 500,
+      "height": 134,
+      "caption": "“Learn this list by heart”: the torn paper picked up by the carpenter",
+      "source": "J-146",
+      "to": "Health and Fraternity",
+      "credit": "Georges Jeanniot, 1890 edition (Wikimedia Commons)"
+    },
+    {
+      "chapter": 228,
+      "from": "One o’clock was striking from the Vaugirard steeple",
+      "file": "228-1.webp",
+      "width": 500,
+      "height": 302,
+      "caption": "The Richefeu smoking-room: Grantaire at dominoes",
+      "source": "J-183",
+      "to": "Plague take it!",
+      "credit": "Georges Jeanniot, 1890 edition (Wikimedia Commons)"
+    },
+    {
+      "chapter": 229,
+      "from": "At seven o’clock on the following morning, Marius returned",
+      "file": "229-1.webp",
+      "width": 734,
+      "height": 1000,
+      "caption": "Marius’s few belongings leave the Gorbeau house on a handcart",
+      "source": "P-080",
+      "to": "Ma’am Bougon was convinced that Marius",
+      "credit": "Wood engraving, Maison de Victor Hugo / Paris Musées (CC0)"
+    },
+    {
+      "chapter": 229,
+      "from": "When you have ascended the Rue Saint-Jacques",
+      "file": "229-2.webp",
+      "width": 500,
+      "height": 307,
+      "caption": "The old market-gardener’s house by the meadow near the Gobelins",
+      "source": "J-155",
+      "to": "As the place is worth looking at, no one goes thither",
+      "credit": "Georges Jeanniot, 1890 edition (Wikimedia Commons)"
+    },
+    {
+      "chapter": 229,
+      "from": "It chanced that Marius’ solitary strolls led him",
+      "file": "229-3.webp",
+      "width": 700,
+      "height": 1000,
+      "caption": "“It is the Lark’s meadow”",
+      "source": "P-082",
+      "to": "And every day he returned to that meadow of the Lark",
+      "credit": "Wood engraving, Maison de Victor Hugo / Paris Musées (CC0)"
+    },
+    {
+      "chapter": 231,
+      "from": "Father Mabeuf, would you like to have me water your garden",
+      "file": "231-1.webp",
+      "width": 712,
+      "height": 1000,
+      "caption": "The girl from the hedge waters Father Mabeuf’s garden",
+      "source": "P-081",
+      "to": "No,” she replied. “I am the devil",
+      "credit": "Wood engraving, Maison de Victor Hugo / Paris Musées (CC0)"
+    },
+    {
+      "chapter": 299,
+      "from": "A quarter of a league away, from the corner",
+      "file": "299-1.webp",
+      "width": 500,
+      "height": 301,
+      "caption": "The deserted street before the barricade of the Faubourg du Temple, June 1848",
+      "source": "J-189",
+      "to": "the spaces beneath the portes-cochères were encumbered",
+      "credit": "Georges Jeanniot, 1890 edition (Wikimedia Commons)"
+    },
+    {
+      "chapter": 302,
+      "from": "They obeyed. After the expiration of a few minutes",
+      "file": "302-1.webp",
+      "width": 500,
+      "height": 294,
+      "caption": "The five chosen men, and only four uniforms",
+      "source": "J-204",
+      "to": "The fifth man was saved.",
+      "credit": "Georges Jeanniot, 1890 edition (Wikimedia Commons)"
+    },
+    {
+      "chapter": 304,
+      "from": "The five chosen men left the barricade",
+      "file": "304-1.webp",
+      "width": 729,
+      "height": 1000,
+      "caption": "“Before setting out, they embraced those who remained”",
+      "source": "P-002",
+      "credit": "Wood engraving, Maison de Victor Hugo / Paris Musées (CC0)"
+    },
+    {
+      "chapter": 304,
+      "from": "At Enjolras’ command, four insurgents unbound Javert",
+      "file": "304-2.webp",
+      "width": 500,
+      "height": 305,
+      "caption": "Javert is bound to the table while a man on the threshold looks on",
+      "source": "J-220",
+      "to": "It is perfectly simple",
+      "credit": "Georges Jeanniot, 1890 edition (Wikimedia Commons)"
+    },
+    {
+      "chapter": 306,
+      "from": "The captain of the piece was a handsome sergeant",
+      "file": "306-1.webp",
+      "width": 500,
+      "height": 289,
+      "caption": "The young sergeant of artillery falls beside his gun",
+      "source": "J-222",
+      "to": "He had to be carried away and replaced",
+      "credit": "Georges Jeanniot, 1890 edition (Wikimedia Commons)"
+    },
+    {
+      "chapter": 308,
+      "from": "Cosette dressed herself very hastily",
+      "file": "308-1.webp",
+      "width": 500,
+      "height": 297,
+      "caption": "Cosette at her window, watching the sky for Marius",
+      "source": "J-223",
+      "to": "They were the reports of the cannon",
+      "credit": "Georges Jeanniot, 1890 edition (Wikimedia Commons)"
+    },
+    {
+      "chapter": 308,
+      "from": "A few feet below Cosette’s window",
+      "file": "308-2.webp",
+      "width": 722,
+      "height": 1000,
+      "caption": "Cosette gazes at the martins’ nest below her window",
+      "source": "P-011",
+      "credit": "Wood engraving, Maison de Victor Hugo / Paris Musées (CC0)"
+    },
+    {
+      "chapter": 310,
+      "from": "He commanded men as resolute as himself",
+      "file": "310-1.webp",
+      "width": 500,
+      "height": 303,
+      "caption": "Fannicot’s National Guards cut down in the smoke before the barricade",
+      "source": "J-225",
+      "to": "The intrepid and imprudent Fannicot was one of the dead",
+      "credit": "Georges Jeanniot, 1890 edition (Wikimedia Commons)"
+    }
+  ]
 }
