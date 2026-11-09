@@ -447,7 +447,7 @@
       "caption": "Fantine",
       "source": "O-012",
       "to": "“I don’t like to have people put on airs like that,”",
-      "credit": "Portrait plate for Les Misérables (A. Faucheur & C. Danelle), Maison de Victor Hugo / Paris Musées (CC0)"
+      "credit": "Gustave Brion, “Fantine”, photographic reproduction of the drawing (A. Faucheur & C. Danelle), Maison de Victor Hugo / Paris Musées (CC0)"
     },
     {
       "chapter": 33,
@@ -791,7 +791,7 @@
       "height": 1000,
       "caption": "Sister Simplice",
       "source": "O-062",
-      "credit": "Portrait plate for Les Misérables (A. Faucheur & C. Danelle), Maison de Victor Hugo / Paris Musées (CC0)"
+      "credit": "Gustave Brion, “Sœur Simplice”, photographic reproduction of the drawing (A. Faucheur & C. Danelle), Maison de Victor Hugo / Paris Musées (CC0)"
     },
     {
       "chapter": 61,
@@ -1114,7 +1114,7 @@
       "file": "090-1.webp",
       "width": 500,
       "height": 299,
-      "caption": "“Hidden in some place known to himself alone”",
+      "caption": "A man digging alone in the woods: “he has hidden it in some place known to himself alone”",
       "source": "J-066",
       "credit": "Georges Jeanniot, 1890 edition (Wikimedia Commons)"
     },
@@ -1162,19 +1162,8 @@
     },
     {
       "chapter": 94,
-      "from": "So far in this book the Thénardiers have been viewed only in profile",
-      "file": "094-1.webp",
-      "width": 1000,
-      "height": 745,
-      "caption": "The Thénardiers",
-      "source": "O-071",
-      "to": "Thénardier was a small, thin, pale, angular",
-      "credit": "Photographic reproduction of a drawing of the Thénardiers, Les Misérables album, 1880s (Rijksmuseum, Wikimedia Commons)"
-    },
-    {
-      "chapter": 94,
       "from": "Cosette ran upstairs and down, washed, swept",
-      "file": "094-2.webp",
+      "file": "094-1.webp",
       "width": 634,
       "height": 1000,
       "caption": "“Cosette ran upstairs and down, washed, swept”",
@@ -2129,18 +2118,8 @@
     },
     {
       "chapter": 188,
-      "from": "Marius was, at this epoch, a handsome young man",
-      "file": "188-1.webp",
-      "width": 1000,
-      "height": 745,
-      "caption": "Marius",
-      "source": "O-084",
-      "credit": "Gustave Brion, Marius, 1862, from an album of Les Misérables drawings (Wikimedia Commons)"
-    },
-    {
-      "chapter": 188,
       "from": "Nevertheless, there existed in all the immensity",
-      "file": "188-2.webp",
+      "file": "188-1.webp",
       "width": 330,
       "height": 203,
       "caption": "The bearded old woman who swept out Marius’ chamber",
@@ -3222,16 +3201,6 @@
       "credit": "Wood engraving, Maison de Victor Hugo / Paris Musées (CC0)"
     },
     {
-      "chapter": 285,
-      "from": "Proceeding from circuit to circuit, he reached a lane",
-      "file": "285-1.webp",
-      "width": 500,
-      "height": 300,
-      "caption": "Night in the deserted streets: the stray omnibus horses",
-      "source": "J-149",
-      "credit": "Georges Jeanniot, 1890 edition (Wikimedia Commons)"
-    },
-    {
       "chapter": 289,
       "from": "He strode straight up to Enjolras, the insurgents withdrawing",
       "file": "289-1.webp",
@@ -3732,19 +3701,8 @@
     },
     {
       "chapter": 341,
-      "from": "The darkness was complete. It was the sepulchral moment",
-      "file": "341-1.webp",
-      "width": 500,
-      "height": 305,
-      "caption": "Night above the rapids of the Seine at the Pont au Change",
-      "source": "J-210",
-      "to": "Javert bent his head and gazed. All was black.",
-      "credit": "Georges Jeanniot, 1890 edition (Wikimedia Commons)"
-    },
-    {
-      "chapter": 341,
       "from": "All at once he took off his hat and placed it on the edge of the quay",
-      "file": "341-2.webp",
+      "file": "341-1.webp",
       "width": 735,
       "height": 1000,
       "caption": "“A tall black figure … appeared erect upon the parapet of the quay”",
@@ -3754,7 +3712,7 @@
     {
       "chapter": 341,
       "from": "and fell straight down into the shadows",
-      "file": "341-3.webp",
+      "file": "341-2.webp",
       "width": 1000,
       "height": 884,
       "caption": "“And fell straight down into the shadows”",
@@ -3815,17 +3773,6 @@
       "credit": "Georges Jeanniot, 1890 edition (Wikimedia Commons)"
     },
     {
-      "chapter": 347,
-      "from": "Cosette, happy as the angels, was enthusiastic",
-      "file": "347-1.webp",
-      "width": 500,
-      "height": 313,
-      "caption": "M. Gillenormand brings out the old finery of his chests for Cosette",
-      "source": "J-218",
-      "to": "He rifled his respectable chests of drawers",
-      "credit": "Georges Jeanniot, 1890 edition (Wikimedia Commons)"
-    },
-    {
       "chapter": 350,
       "from": "The sidewalks were overflowing with pedestrians",
       "file": "350-1.webp",
@@ -3857,16 +3804,6 @@
       "source": "P-013",
       "to": "You shall not escape two sermons",
       "credit": "Wood engraving, Maison de Victor Hugo / Paris Musées (CC0)"
-    },
-    {
-      "chapter": 353,
-      "from": "He remained there until daylight, in the same attitude",
-      "file": "353-1.webp",
-      "width": 500,
-      "height": 308,
-      "caption": "Jean Valjean prostrate in the dark until daylight",
-      "source": "J-206",
-      "credit": "Georges Jeanniot, 1890 edition (Wikimedia Commons)"
     },
     {
       "chapter": 354,
