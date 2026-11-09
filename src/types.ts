@@ -120,6 +120,8 @@ export interface BookData {
   insights?: Insight[]
   afterword?: Afterword
   timeline?: TimelineEvent[]
+  /** True while `notes` and `insights` (shipped as a second chunk, src/books/<id>/extra.json) are still loading. */
+  extrasPending?: boolean
 }
 
 /** 'tie' is used for every link that involves an object or place. */

@@ -46,6 +46,8 @@ export default function Glossary() {
     return [...m.entries()].map(([k, list]) => ({ key: k, title: k, list }))
   }, [shown, view, book])
 
+  if (book.extrasPending) return <h1 className="large-title">Glossary</h1>
+
   if (upTo === 0 || all.length === 0) {
     return (
       <div>

@@ -1,6 +1,6 @@
 import { useCallback, useEffect, useMemo, useRef, useState } from 'react'
 import type { BookData } from '../types'
-import { loadBook, loadDetails } from '../books'
+import { loadBook, loadDetails, loadExtras } from '../books'
 import { useCopy } from '../lib/copies'
 import { getProgress, setProgressRaw, useBookmark } from '../lib/progress'
 import { href, settleScroll, useLocation } from '../lib/router'
@@ -51,6 +51,10 @@ export default function BookShell({ bookId }: { bookId: string }) {
     p.then((b) => {
       if (!live) return
       setBook(b)
+      if (b.extrasPending)
+        loadExtras(bookId)
+          .then((x) => live && setBook({ ...b, ...x, extrasPending: false }))
+          .catch(() => live && setFailed(true))
       // Chapter details are only read on chapter pages: fetch them once the book is on screen.
       const idle = (window as Window & { requestIdleCallback?: (cb: () => void) => void }).requestIdleCallback ?? ((cb: () => void) => setTimeout(cb, 300))
       idle(() => loadDetails(bookId).catch(() => {}))

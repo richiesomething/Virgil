@@ -25,6 +25,8 @@ for (const book of readdirSync(root, { withFileTypes: true })
   }
   const meta = JSON.parse(readFileSync(join(root, book, 'book.json'), 'utf8'))
   const data = JSON.parse(readFileSync(join(root, book, 'data.json'), 'utf8'))
+  const extraFile = join(root, book, 'extra.json')
+  if (existsSync(extraFile)) Object.assign(data, JSON.parse(readFileSync(extraFile, 'utf8')))
   // Chapter details live in their own file (loaded lazily by the app); put them back for the checks.
   const detailsFile = join(root, book, 'details.json')
   if (existsSync(detailsFile)) {

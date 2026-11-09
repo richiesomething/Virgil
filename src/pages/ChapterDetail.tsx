@@ -62,7 +62,7 @@ function ReadChapter({ n }: { n: number }) {
   const people = charactersInChapter(book, ch, upTo)
   const insights = insightsForChapter(book, n, upTo)
   const requested = (loc.query.get('tab') as Tab) ?? 'summary'
-  const tab: Tab = (requested === 'notes' && !noteCount) || (requested === 'insights' && !insights.length) ? 'summary' : requested
+  const tab: Tab = !book.extrasPending && ((requested === 'notes' && !noteCount) || (requested === 'insights' && !insights.length)) ? 'summary' : requested
   const volume = meta.volumes.find((v) => v.number === ch.volume)
   const part = volume?.part ? meta.parts?.find((p) => p.number === volume.part) : undefined
   const partShort = part?.title.split(':')[0]

@@ -2,6 +2,8 @@
 //   data-src/<book>/  (book.json, chapters-*.json, characters-*.json, … — see docs/data-format.md)
 //   → src/books/<book>/book.json   metadata, loaded up front for the library
 //   → src/books/<book>/data.json   everything else, code-split per book
+//   → src/books/<book>/extra.json  glossary notes and insights, loaded just after data.json
+//   → src/books/<book>/details.json chapter details, loaded on demand
 //   → src/books/<book>/atlas/*.json  map drawings (basemaps come from scripts/atlas/build-basemaps.mjs)
 // Usage: node scripts/merge-data.mjs [book]   (no argument: every book in data-src/)
 import { existsSync, mkdirSync, readFileSync, readdirSync, writeFileSync } from 'node:fs'
@@ -154,7 +156,10 @@ function mergeBook(book) {
   if (data.themes || insights.length) log.push(`${data.themes?.length ?? 0} themes, ${insights.length} insights${data.afterword ? ', afterword' : ''}${data.timeline ? `, ${data.timeline.length} timeline events` : ''}`)
 
   writeFileSync(join(outDir, 'book.json'), JSON.stringify(meta, null, 2) + '\n')
-  writeFileSync(join(outDir, 'data.json'), JSON.stringify(data) + '\n')
+  // Glossary notes and insights (large, and never needed before the first screen) ship as their own chunk, loaded right after.
+  const { notes: extraNotes, insights: extraInsights, ...core } = data
+  writeFileSync(join(outDir, 'data.json'), JSON.stringify(core) + '\n')
+  writeFileSync(join(outDir, 'extra.json'), JSON.stringify({ notes: extraNotes, ...(extraInsights ? { insights: extraInsights } : {}) }) + '\n')
   writeFileSync(join(outDir, 'details.json'), JSON.stringify(details) + '\n')
   console.log(`✓ ${book}: ${log.join(' · ')}`)
 }

@@ -4,7 +4,8 @@ import type { BookData, BookMeta } from '../types'
 // Adding a book needs no code: its book.json is found here and its data.json is loaded on demand.
 
 const metas = import.meta.glob<BookMeta>('./*/book.json', { eager: true, import: 'default' })
-const datas = import.meta.glob<Omit<BookData, 'meta'>>('./*/data.json', { import: 'default' })
+const datas = import.meta.glob<Omit<BookData, 'meta' | 'notes' | 'insights'>>('./*/data.json', { import: 'default' })
+const extraFiles = import.meta.glob<Pick<BookData, 'notes' | 'insights'>>('./*/extra.json', { import: 'default' })
 const detailFiles = import.meta.glob<string[][]>('./*/details.json', { import: 'default' })
 
 /** Metadata for every book in the library (cheap; loaded up front). */
@@ -12,7 +13,10 @@ export const library: BookMeta[] = Object.values(metas).sort((a, b) => (a.order 
 
 const cache = new Map<string, Promise<BookData>>()
 
-/** Full book data is code-split so the library stays fast as it grows. */
+/**
+ * Book data is code-split so the library stays fast as it grows. This resolves with the core data, whose
+ * glossary notes and insights are still empty (`extrasPending`); loadExtras fills them in.
+ */
 export function loadBook(id: string): Promise<BookData> | undefined {
   const meta = library.find((b) => b.id === id)
   const load = datas[`./${id}/data.json`]
@@ -21,7 +25,7 @@ export function loadBook(id: string): Promise<BookData> | undefined {
     cache.set(
       id,
       load()
-        .then((data) => ({ meta, ...data }))
+        .then((data) => ({ meta, notes: [], ...data, extrasPending: !!extraFiles[`./${id}/extra.json`] }))
         .catch((e) => {
           cache.delete(id) // let the next visit try again
           throw e
@@ -45,4 +49,21 @@ export function loadDetails(id: string): Promise<string[][]> {
       }),
     )
   return details.get(id)!
+}
+
+const extras = new Map<string, Promise<Pick<BookData, 'notes' | 'insights'>>>()
+
+/** A book's glossary notes and insights: the second chunk, fetched as soon as the core data is on screen. */
+export function loadExtras(id: string): Promise<Pick<BookData, 'notes' | 'insights'>> {
+  const load = extraFiles[`./${id}/extra.json`]
+  if (!load) return Promise.resolve({ notes: [] })
+  if (!extras.has(id))
+    extras.set(
+      id,
+      load().catch((e) => {
+        extras.delete(id)
+        throw e
+      }),
+    )
+  return extras.get(id)!
 }
