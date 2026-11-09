@@ -766,5 +766,388 @@
     "setting": "The convent of the Petit-Picpus, 1824",
     "keepInMind": "This chapter steps away from the story to describe the rule of the house. The convent behind the wall belongs to the Bernardines of the Perpetual Adoration: men are refused, and a nun may be heard through the parlour grating but not seen.",
     "returning": []
+  },
+  {
+    "chapter": 121,
+    "setting": "Inside the Petit-Picpus convent: novices and pupils",
+    "keepInMind": "Hugo's tour of the convent continues, away from the story. The nuns live by fasts, silence, night offices and the twelve-hour 'reparation' lying prostrate with a rope round the neck, which may remind you of the figure Valjean glimpsed through the window.",
+    "returning": []
+  },
+  {
+    "chapter": 122,
+    "setting": "The convent's boarding-school",
+    "keepInMind": "Still Hugo's portrait of the convent. A boarding-school of well-born girls is attached to it; they see even their mothers only through the parlour bars.",
+    "returning": []
+  },
+  {
+    "chapter": 123,
+    "setting": "The convent school: refectory, garden and dormitories",
+    "keepInMind": "Hugo is gathering the childhood that fills the gloomy cloister: recreation hours in the garden and the pupils' sayings, which he says he collected there.",
+    "returning": []
+  },
+  {
+    "chapter": 124,
+    "setting": "The enclosure of the Petit-Picpus: its three houses",
+    "keepInMind": "These convent chapters are anecdotes and description and do not move the plot: silent meals, forbidden reading, a mad nun, a flute heard from the Rue Droit-Mur.",
+    "returning": []
+  },
+  {
+    "chapter": 125,
+    "setting": "The Petit-Picpus, 1819 to 1825: its people",
+    "keepInMind": "The enclosure holds the Great Convent of the nuns, the boarding-school, and the Little Convent of aged nuns from orders the Revolution destroyed, all divided by a church built so that no outsider can see a face.",
+    "returning": []
+  },
+  {
+    "chapter": 126,
+    "setting": "The convent's ground plan",
+    "keepInMind": "Note the prioress, Mother Innocente, and the code of bells by which this silent house speaks. Apart from the archbishop and the gardener, the pupils see only two men, both carefully chosen.",
+    "returning": []
+  },
+  {
+    "chapter": 127,
+    "setting": "The Little Convent",
+    "keepInMind": "Hugo has mapped the enclosure: a sunken garden radiating from a central fir, its walls far higher inside than out, bounded by the Rue Polonceau and the Rue Droit-Mur, the streets Valjean fled through.",
+    "returning": []
+  },
+  {
+    "chapter": 128,
+    "setting": "Other convent parlours, and the origins of the order",
+    "keepInMind": "The digression goes on. The last chapter was a comic tale of a hundred-year-old nun and the secret treasure she kept locked away.",
+    "returning": []
+  },
+  {
+    "chapter": 129,
+    "setting": "The Petit-Picpus from the Restoration onward",
+    "keepInMind": "Hugo has traced how the Perpetual Adoration was founded. Valjean and Cosette are still in the gardener's hut, where the story left them.",
+    "returning": []
+  },
+  {
+    "chapter": 130,
+    "setting": "Hugo's 'Parenthesis': the convent as an idea",
+    "keepInMind": "Book VII is a 'Parenthesis': these chapters step away from the story entirely to reflect on convents and prayer. Hugo has stated his stance: respect without belief, and vigilance against a past that disguises itself as the future.",
+    "returning": []
+  },
+  {
+    "chapter": 131,
+    "setting": "The Parenthesis: the convent judged by history",
+    "keepInMind": "Hugo called this book a drama whose chief personage is the Infinite, and the convent one of man's instruments for reaching toward it, hideous on one side and sublime on the other.",
+    "returning": []
+  },
+  {
+    "chapter": 132,
+    "setting": "The Parenthesis: respecting the past",
+    "keepInMind": "Hugo condemned monasticism by history and reason, citing the in pace dungeon he saw for himself at the Abbey of Villers.",
+    "returning": []
+  },
+  {
+    "chapter": 133,
+    "setting": "The Parenthesis: the convent in principle",
+    "keepInMind": "Hugo will respect the past only on condition that it consents to be dead, and fights it where it insists on living, while refusing to exaggerate.",
+    "returning": []
+  },
+  {
+    "chapter": 134,
+    "setting": "The Parenthesis: prayer",
+    "keepInMind": "In principle, Hugo granted, the convent rests on the right of association and practises equality: its members share the same cell and bread and elect those they obey. He ended by asking what these kneeling people are doing.",
+    "returning": []
+  },
+  {
+    "chapter": 135,
+    "setting": "The Parenthesis: the goodness of prayer",
+    "keepInMind": "They pray. Hugo described prayer as the contact of two infinities, one above us and one within, and called for crushing fanaticism while venerating the infinite.",
+    "returning": []
+  },
+  {
+    "chapter": 136,
+    "setting": "The Parenthesis: blaming with care",
+    "keepInMind": "All sincere prayer is good, Hugo says; denying the infinite leads to nihilism, and faith and love are the two motors of progress.",
+    "returning": []
+  },
+  {
+    "chapter": 137,
+    "setting": "The Parenthesis: faith and law",
+    "keepInMind": "The convent, Hugo says, is a contradiction, supreme egoism yielding supreme self-sacrifice. One may frown at it, but never sneer. This is the last chapter of the Parenthesis.",
+    "returning": []
+  },
+  {
+    "chapter": 138,
+    "setting": "Fauchelevent's hut in the convent garden, the morning after Valjean came over the wall",
+    "keepInMind": "The story resumes after nineteen chapters on the convent. Valjean and Cosette are hiding with the gardener, who promised to ask no questions; outside, Javert's men are watching the streets.",
+    "returning": [
+      {
+        "id": "jean-valjean",
+        "reminder": "The ex-convict who was M. Madeleine. Reported drowned at Toulon, he took Cosette from the Thénardiers and escaped Javert by climbing into the convent garden."
+      },
+      {
+        "id": "cosette",
+        "reminder": "Fantine's daughter, about eight, rescued from the Thénardiers; she calls Valjean 'father'."
+      },
+      {
+        "id": "fauchelevent",
+        "reminder": "The old carter whom M. Madeleine pulled from under his cart and found a post as gardener in a Paris convent. He wears a bell so the nuns can avoid him."
+      }
+    ]
+  },
+  {
+    "chapter": 139,
+    "setting": "The prioress's parlour, the same day",
+    "keepInMind": "A nun has just died, and the pupils would discover any strange man in the garden: to stay, Valjean must first get out and come back in by the door as a newcomer. Fauchelevent has been summoned to the prioress.",
+    "returning": [
+      {
+        "id": "mother-innocente",
+        "reminder": "The prioress of the Petit-Picpus, a learned and merry nun; only she may deal with outsiders."
+      }
+    ]
+  },
+  {
+    "chapter": 140,
+    "setting": "The parlour, a quarter of an hour later",
+    "keepInMind": "Fauchelevent asked the prioress to take on his 'brother', a fine gardener, and a little girl to be raised in the house. She answered only by asking whether he could get a stout iron bar to serve as a lever by evening.",
+    "returning": []
+  },
+  {
+    "chapter": 141,
+    "setting": "Fauchelevent's hut, soon afterwards",
+    "keepInMind": "The dead nun, Mother Crucifixion, asked to be buried in her own coffin under the chapel altar, which the law forbids. Fauchelevent must help in secret and fill the empty official coffin with earth; then he may bring his brother and the child.",
+    "returning": []
+  },
+  {
+    "chapter": 142,
+    "setting": "The Boulevard du Maine and the Vaugirard cemetery, the next afternoon",
+    "keepInMind": "Valjean's plan: he will be nailed into the empty official coffin and carried to Vaugirard, where Fauchelevent will get the drunken gravedigger, Father Mestienne, out of the way and dig him up.",
+    "returning": []
+  },
+  {
+    "chapter": 143,
+    "setting": "Inside the coffin, the same afternoon",
+    "keepInMind": "Mestienne is dead. The new gravedigger, Gribier, never drinks, and the hearse has stopped beside an open grave.",
+    "returning": []
+  },
+  {
+    "chapter": 144,
+    "setting": "Above the grave, the same moments",
+    "keepInMind": "Lowered into the grave, Valjean heard the prayers and the footsteps going away, then earth falling on the lid. One of his air holes was stopped up, and he lost consciousness.",
+    "returning": []
+  },
+  {
+    "chapter": 145,
+    "setting": "The Rue Petit-Picpus, an hour later, after dark",
+    "keepInMind": "Fauchelevent stole Gribier's card and sent him running home for it, opened the coffin, and found Valjean alive. They buried the empty coffin and left the cemetery with the card.",
+    "returning": []
+  },
+  {
+    "chapter": 146,
+    "setting": "The convent, after Valjean's admission",
+    "keepInMind": "Valjean has been taken in as the gardener's brother under the name Ultime Fauchelevent, and Cosette as a charity pupil, because the prioress judged she would grow up plain.",
+    "returning": []
+  },
+  {
+    "chapter": 147,
+    "setting": "Paris: the street child",
+    "keepInMind": "A new volume begins, and this chapter steps away from the story to portray the gamin, the Paris street boy; the whole of Book I is an essay on him. We left Valjean gardening in the convent and Cosette growing up there over many years.",
+    "returning": []
+  },
+  {
+    "chapter": 148,
+    "setting": "Paris: the gamin's ways",
+    "keepInMind": "Still Hugo's portrait of the Paris street boy: ragged, homeless and foul-mouthed, yet innocent at heart. 'It is my little one,' says the city.",
+    "returning": []
+  },
+  {
+    "chapter": 149,
+    "setting": "Paris: the gamin at the theatre",
+    "keepInMind": "The gamin has his own trades, his own scrap-copper coinage and a quick, cynical wit.",
+    "returning": []
+  },
+  {
+    "chapter": 150,
+    "setting": "Paris: the gamin and the lounger",
+    "keepInMind": "At night the gamin becomes the irreverent titi of the theatre gallery, and nothing frightens or astonishes him.",
+    "returning": []
+  },
+  {
+    "chapter": 151,
+    "setting": "The banlieue: the fringe of Paris beyond the barriers",
+    "keepInMind": "Hugo's essay on the gamin continues. He set the street boy and the idle lounger side by side as the two extremes of Paris.",
+    "returning": []
+  },
+  {
+    "chapter": 152,
+    "setting": "Paris and its abandoned children",
+    "keepInMind": "The banlieue, the melancholy half-wild fringe of the city, is the whole world to the gamin; nothing exists for him two leagues beyond the barriers.",
+    "returning": []
+  },
+  {
+    "chapter": 153,
+    "setting": "Paris: the gamins as a caste",
+    "keepInMind": "Hundreds of children are abandoned in Paris every year, yet the city's air, Hugo says, keeps its street boys inwardly intact. Under the old monarchy such children were sent to the galleys.",
+    "returning": []
+  },
+  {
+    "chapter": 154,
+    "setting": "Paris: the gamin in summer, on the river and in the streets",
+    "keepInMind": "The gamins form almost a caste, ranked by scars, left-handedness and, above all, by attending executions.",
+    "returning": []
+  },
+  {
+    "chapter": 155,
+    "setting": "The gamin and the Gallic spirit",
+    "keepInMind": "The gamin swims naked in the Seine, draws pears on walls, hates priests and knows every policeman in Paris by sight.",
+    "returning": []
+  },
+  {
+    "chapter": 156,
+    "setting": "Paris as the sum of history",
+    "keepInMind": "Gaminerie, Hugo says, is a shade of the old Gallic spirit, and the street boy can turn from scapegrace to hero in a moment, like the drummer-boy Barra.",
+    "returning": []
+  },
+  {
+    "chapter": 157,
+    "setting": "Paris and the world",
+    "keepInMind": "Since the gamin expresses Paris, Hugo has widened his essay into a portrait of the city itself: Athens, Rome and Jerusalem in one.",
+    "returning": []
+  },
+  {
+    "chapter": 158,
+    "setting": "The faubourgs of Paris and their people",
+    "keepInMind": "Paris sets the fashion and the law for the world, Hugo says, and its secret is daring.",
+    "returning": []
+  },
+  {
+    "chapter": 159,
+    "setting": "The Boulevard du Temple, Paris, eight or nine years after the events of Volume II",
+    "keepInMind": "Hugo's essay ended with the Paris populace as a grown-up gamin, barefoot and unlettered, who could be made sublime by education. The story now resumes years later; we left Valjean and Cosette inside the convent.",
+    "returning": []
+  },
+  {
+    "chapter": 160,
+    "setting": "The Marais, Paris, around 1831",
+    "keepInMind": "The street boy is Little Gavroche, unloved son of the destitute Jondrettes, who live in the old Gorbeau house where Valjean and Cosette once hid. Their neighbour there is a very poor young man called M. Marius, and Hugo has promised to explain who he is.",
+    "returning": []
+  },
+  {
+    "chapter": 161,
+    "setting": "M. Gillenormand's house in the Rue des Filles-du-Calvaire",
+    "keepInMind": "M. Gillenormand is over ninety, loud, hale and quick with his cane: a bourgeois relic of the eighteenth century, with an unmarried daughter past fifty whom he scolds like a child.",
+    "returning": []
+  },
+  {
+    "chapter": 162,
+    "setting": "M. Gillenormand's youth and opinions",
+    "keepInMind": "Gillenormand dresses like a dandy of the Directory, has had two wives, and holds the French Revolution to be a heap of blackguards.",
+    "returning": []
+  },
+  {
+    "chapter": 163,
+    "setting": "M. Gillenormand's prides and hopes",
+    "keepInMind": "He cherishes memories of the opera beauties of his youth and despises the politicians of the day. His godfather named him Luc-Esprit.",
+    "returning": []
+  },
+  {
+    "chapter": 164,
+    "setting": "M. Gillenormand's household",
+    "keepInMind": "He adores the Bourbons, has a horror of 1789, and means to live to a hundred.",
+    "returning": []
+  },
+  {
+    "chapter": 165,
+    "setting": "M. Gillenormand's family",
+    "keepInMind": "He renames every manservant after his province and calls every maid Nicolette, including a certain Magnon, now dismissed.",
+    "returning": []
+  },
+  {
+    "chapter": 166,
+    "setting": "Gillenormand's habits, from the early Restoration on",
+    "keepInMind": "Magnon sent the old man two baby boys, naming him as father; flattered, he denied it but pays for both. Of his two daughters, the younger married for love a soldier of the Empire, made colonel at Waterloo, whom Gillenormand calls the disgrace of his family, and she died.",
+    "returning": []
+  },
+  {
+    "chapter": 167,
+    "setting": "The Gillenormand household",
+    "keepInMind": "Gillenormand lived near Saint-Sulpice during the early Restoration and moved to the Marais only after eighty. His door stays shut all day; he receives only after dinner at five.",
+    "returning": []
+  },
+  {
+    "chapter": 168,
+    "setting": "The Rue Servandoni and an ultra-royalist salon, about 1817",
+    "keepInMind": "Living with Gillenormand are his elder daughter, a prude and bigot who keeps house for him, and a small boy, his grandson, whom he bullies and idolises.",
+    "returning": []
+  },
+  {
+    "chapter": 169,
+    "setting": "Vernon, a little town on the Seine, in the same years",
+    "keepInMind": "In Madame de T.'s salon the old man's handsome little grandson was pitied as 'poor child', because his father was 'a brigand of the Loire': Gillenormand's despised son-in-law.",
+    "returning": []
+  },
+  {
+    "chapter": 170,
+    "setting": "Madame de T.'s salon, through Marius's boyhood",
+    "keepInMind": "The scarred old soldier growing flowers at Vernon is Colonel Georges Pontmercy, made baron at Waterloo, and the boy is his son Marius. Gillenormand took Marius from him on pain of disinheritance; the colonel watches him secretly at mass, and Marius has been taught to think of him with shame.",
+    "returning": []
+  },
+  {
+    "chapter": 171,
+    "setting": "Paris and Vernon, 1827",
+    "keepInMind": "Raised in Madame de T.'s fossilised salon, Marius has grown into a grave, proud, fanatical young royalist who does not much love his grandfather and is gloomy about his father. He is now a law student.",
+    "returning": []
+  },
+  {
+    "chapter": 172,
+    "setting": "Saint-Sulpice, one Sunday",
+    "keepInMind": "Marius reached Vernon too late: his father died rising to meet him. Marius kept the colonel's note, which leaves him the title of baron and asks him to do all the good he can to a sergeant named Thénardier who saved his life at Waterloo. You saw that night on the battlefield: the 'rescue' was a robbery. Within three days Marius had forgotten his father.",
+    "returning": []
+  },
+  {
+    "chapter": 173,
+    "setting": "Paris, after three days away",
+    "keepInMind": "Old M. Mabeuf, a churchwarden at Saint-Sulpice, told Marius how a poor father came secretly for years to gaze at the son he was forbidden to see: Colonel Pontmercy. Marius then asked his grandfather for three days' leave, which the old man took for a love affair.",
+    "returning": []
+  },
+  {
+    "chapter": 174,
+    "setting": "The Gillenormand house, some time later",
+    "keepInMind": "Marius has read the history of the Republic and the Empire, come to adore his father and Napoleon, had cards engraved 'Le Baron Marius Pontmercy', looked in vain for Thénardier at Montfermeil, and wears something on a black ribbon round his neck.",
+    "returning": [
+      {
+        "id": "theodule",
+        "reminder": "Lieutenant Théodule, Mademoiselle Gillenormand's favourite: a lancer grand-nephew of the old man."
+      }
+    ]
+  },
+  {
+    "chapter": 175,
+    "setting": "Paris, after Théodule's trip to Vernon",
+    "keepInMind": "Sent by the aunt to spy on Marius, Théodule found that the 'lass' was a grave: Marius sobbing on the grave of Colonel Baron Pontmercy at Vernon.",
+    "returning": []
+  },
+  {
+    "chapter": 176,
+    "setting": "The Latin Quarter of Paris, about 1828",
+    "keepInMind": "Marius shouted 'Down with the Bourbons!' at his grandfather and was turned out with thirty francs; the medallion holding his father's note was lost on the stairs. This chapter pauses the story to introduce a group of young republicans.",
+    "returning": []
+  },
+  {
+    "chapter": 177,
+    "setting": "Outside the Café Musain, one afternoon",
+    "keepInMind": "The Friends of the A.B.C. are a small secret society of republican students meeting at the Café Musain: Enjolras the chief, Combeferre, Courfeyrac, Bossuet (also called Laigle), Joly, Bahorel, Prouvaire, Feuilly, and the sceptic Grantaire, who believes only in Enjolras.",
+    "returning": []
+  },
+  {
+    "chapter": 178,
+    "setting": "The Latin Quarter, the days that follow",
+    "keepInMind": "Laigle answered to Marius's name at a law-school roll-call and was struck off himself. Courfeyrac took the homeless Marius to lodge beside him at the hôtel de la Porte-Saint-Jacques.",
+    "returning": []
+  },
+  {
+    "chapter": 179,
+    "setting": "The back room of the Café Musain, a winter evening",
+    "keepInMind": "Marius calls himself a 'democrat-Bonapartist'. The Friends' irreverent talk has begun to unsettle the convictions he had just won, and none of them says 'the Emperor'.",
+    "returning": []
+  },
+  {
+    "chapter": 180,
+    "setting": "The back room of the Café Musain, the same evening",
+    "keepInMind": "The talk has run from Grantaire's drunken scorn for every nation to Courfeyrac throwing a copy of the Charter into the fire. Marius has mostly listened.",
+    "returning": []
   }
 ]

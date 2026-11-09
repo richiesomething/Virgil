@@ -1721,7 +1721,7 @@
     "chapter": 311,
     "kind": "context",
     "title": "Old women and chamber-pots",
-    "text": "When crockery rains on the troops from the roofs of the Rue Planche-Mibray, Marshal Soult remembers what Marshal Suchet said at the siege of Saragossa in 1809: beware of old women and their chamber-pots. Saragossa held out house by house against Napoleon's army. Hugo's real incidents of the 6th of June show the city resisting in small, scattered ways.",
+    "text": "When crockery rains on the troops from the roofs of the Rue Planche-Mibray, Marshal Soult recalls Suchet's saying at Saragossa: 'We are lost when the old women empty their pots de chambre on our heads.' Saragossa had resisted Napoleon's armies house by house in 1808 and 1809. Hugo's real incidents of the 6th of June show a city resisting in small, scattered ways.",
     "themes": [
       "history"
     ]
@@ -2101,6 +2101,417 @@
     "kind": "motif",
     "title": "Below the noon",
     "text": "Above, the June sun, the assault, the tocsin. Three metres down, 'profound peace, absolute silence and night'. The noise of the taken wine-shop reaches Valjean only as a murmur. Hugo moves his hero from the most public place in Paris into the most hidden one in a single paragraph.",
+    "themes": [
+      "light-darkness"
+    ]
+  },
+  {
+    "chapter": 323,
+    "kind": "craft",
+    "title": "A sewer book that starts with money",
+    "text": "Hugo opens his history of the sewers like an accountant: Paris throws twenty-five million francs a year into the river as human manure that could feed the fields. The digression is not a detour from his themes. The city wastes what could end hunger, and Hugo says better drainage would 'lighten the problem of misery'. The sewer becomes another chapter on poverty.",
+    "themes": [
+      "poverty",
+      "paris"
+    ]
+  },
+  {
+    "chapter": 323,
+    "kind": "motif",
+    "title": "Lutetia beneath Paris",
+    "text": "Beneath the city of light lies another city, 'Lutetia, the city of mud', with its own streets, crossroads and blind alleys. Lutetia was the Roman name of Paris. Hugo makes the underground a double of the surface: the oldest, dirtiest self of the capital, still there under the boulevards.",
+    "themes": [
+      "light-darkness",
+      "paris"
+    ]
+  },
+  {
+    "chapter": 323,
+    "kind": "context",
+    "title": "Liebig and the petrels",
+    "text": "Hugo cites Justus von Liebig, the German chemist who founded agricultural chemistry and warned that cities were robbing the soil. The 'fleets that go to the South Pole for the dung of petrels' are the guano trade: in the mid-nineteenth century Europe imported vast quantities of bird droppings from Pacific islands as fertiliser.",
+    "themes": [
+      "history"
+    ]
+  },
+  {
+    "chapter": 324,
+    "kind": "theme",
+    "title": "The conscience of the city",
+    "text": "'The sewer is the conscience of the city.' Everything ends there and nothing lies: the bottle-end confesses drunkenness, the apple-core 'that had literary opinions' becomes an apple-core again, everything rouged is washed clean. In a book full of masks and false names, Hugo finds one place where the masks come off.",
+    "themes": [
+      "conscience",
+      "names"
+    ]
+  },
+  {
+    "chapter": 324,
+    "kind": "theme",
+    "title": "Asylum for the hunted",
+    "text": "The sewer has hidden everything the law persecuted: medieval rebels, Huguenots, bandits, thieves and free thinkers. 'Villon within converses with Rabelais without.' Hugo lists outlaws and martyrs together without sorting them. Like the convent and the garret, the sewer is one more refuge for people society hunts.",
+    "themes": [
+      "history",
+      "mercy-law"
+    ]
+  },
+  {
+    "chapter": 324,
+    "kind": "craft",
+    "title": "Murderers scrubbing in the dark",
+    "text": "Hugo imagines the great killers of French history, Louis XI, Charles IX and his mother, Richelieu, kneeling in the sewer's gloom 'with a scrap of shroud for an apron, sponging out their work'. The Saint Bartholomew massacre filters through its stones drop by drop. The image makes the sewer the place where official history is cleaned up.",
+    "themes": [
+      "history"
+    ]
+  },
+  {
+    "chapter": 325,
+    "kind": "theme",
+    "title": "Filth that comes back",
+    "text": "Old Paris could 'no more sweep out filth than abuses'. Sometimes the sewer overflowed and the city tasted its own dirt, 'a resemblance to remorse that served as a warning badly received'. Hugo makes the sewer a picture of a buried conscience. What a city refuses to face rises up through the gratings.",
+    "themes": [
+      "conscience",
+      "paris"
+    ]
+  },
+  {
+    "chapter": 325,
+    "kind": "context",
+    "title": "Bruneseau",
+    "text": "Pierre-Emmanuel Bruneseau was a real inspector of works who surveyed and cleared the sewers of Paris from 1805. Hugo stages his introduction to Napoleon at the height of the Empire, between Marengo and Austerlitz: the most intrepid man in the Empire is not a soldier but a man who wants to go down into the sewer.",
+    "themes": [
+      "history"
+    ]
+  },
+  {
+    "chapter": 325,
+    "kind": "motif",
+    "title": "A Columbus of the cesspool",
+    "text": "The sewer was the lower world, 'Daedalus backing up Babel'; not even the police explored it. 'Yet the cesspool found its Christopher Columbus.' Hugo frames the exploration of darkness as a voyage of discovery, the same heroic language he gives the barricade, turned now towards the city's underside.",
+    "themes": [
+      "light-darkness"
+    ]
+  },
+  {
+    "chapter": 326,
+    "kind": "motif",
+    "title": "Marat's shroud",
+    "text": "On a hinge at the mouth of the Grand Sewer hangs a rag of fine batiste with a marquis's coronet: a piece of Marat's shroud, the only fine linen in his house, kept from a youthful love affair with a great lady. From the Pantheon to the rats. Bruneseau's men leave it hanging 'from scorn or respect, both of which Marat deserved'.",
+    "themes": [
+      "revolution",
+      "history"
+    ]
+  },
+  {
+    "chapter": 326,
+    "kind": "craft",
+    "title": "An inventory of the buried",
+    "text": "Dated stones from 1550, dungeons with an iron collar still hanging, a Huguenot medal of a pig in a cardinal's hat, an orangutan escaped from the Jardin des Plantes. Hugo lists the finds like an archaeologist. The sewer keeps what the city above forgot, and each object is a small piece of history.",
+    "themes": [
+      "history"
+    ]
+  },
+  {
+    "chapter": 326,
+    "kind": "theme",
+    "title": "A night battle",
+    "text": "Eight of the twenty labourers refuse to go on; men faint in the foul air, one vanishes into a bottomless hole. Hugo's sources are the details 'Bruneseau left out of his official report'. As with the barricade, he goes looking for the unrecorded courage of ordinary workmen.",
+    "themes": [
+      "poverty",
+      "history"
+    ]
+  },
+  {
+    "chapter": 327,
+    "kind": "craft",
+    "title": "A tradesman turned councillor of state",
+    "text": "The modern sewer is clean, straight and correct, 'like a tradesman who has become a councillor of state'. A gut is now a gallery; the classical alexandrine seems to have taken refuge in its vault. It still smells faintly, 'like Tartuffe after confession'. Hugo's comedy is aimed at respectability, which he finds an improvement and still a little suspect.",
+    "themes": [
+      "paris"
+    ]
+  },
+  {
+    "chapter": 327,
+    "kind": "theme",
+    "title": "The man everyone forgets",
+    "text": "'It is more than progress; it is transmutation.' Hugo credits the change to Bruneseau, 'the man everyone forgets'. Throughout this book history's real benefactors are obscure: a bishop in a small diocese, a manufacturer in a provincial town, a sewer inspector. The famous names are elsewhere.",
+    "themes": [
+      "history"
+    ]
+  },
+  {
+    "chapter": 328,
+    "kind": "theme",
+    "title": "Bravery without bulletins",
+    "text": "Monnot built a sewer in four months of day-and-night work and died of it; Duleau vaulted three thousand metres and died. Quicksands swallow men at Belleville, typhus soaks into the workmen. 'There are no bulletins for such bravery, more useful than that of the battlefield.' Coming straight after the barricade, the comparison is pointed.",
+    "themes": [
+      "history",
+      "revolution"
+    ]
+  },
+  {
+    "chapter": 328,
+    "kind": "context",
+    "title": "Paris rebuilt underground",
+    "text": "Hugo writes in the 1860s, when the engineer Eugène Belgrand was rebuilding the Paris sewers on a vast scale under Napoleon III and Haussmann. He stresses that the sewers of 1832 were 'far from today's': the old gothic sewer still gaped open in many streets. The reader who has just watched Valjean go down a grating knows which sewer he is in.",
+    "themes": [
+      "paris",
+      "history"
+    ]
+  },
+  {
+    "chapter": 328,
+    "kind": "theme",
+    "title": "Health and misery",
+    "text": "Hugo ends where he began: wash the sewer back onto the fields and the city will 'gain in health and lose in misery'. For ten centuries, he says, the cesspool has been the disease of Paris. His sewer chapters are part of the same argument as the rest of the book: misery is a social problem, with causes that can be changed.",
+    "themes": [
+      "poverty"
+    ]
+  },
+  {
+    "chapter": 329,
+    "kind": "craft",
+    "title": "The map he does not have",
+    "text": "Hugo names every gallery Valjean passes, the Montmartre sewer, the Plâtrière, the Rue du Cadran, and then tells us Valjean knows none of them. The reader walks with a map and the hero walks blind. The suspense comes from that gap: we can see the dead ends he is trying to feel his way past.",
+    "themes": [
+      "paris"
+    ]
+  },
+  {
+    "chapter": 329,
+    "kind": "motif",
+    "title": "In the belly of the monster",
+    "text": "'Like the prophet, he was in the belly of the monster.' Valjean, carrying a man who may be dead, walks in the dark like Jonah in the whale. Then he sees his own shadow thrown ahead of him: a light behind. Here light is the danger, 'the gloomy star of the police rising in the sewer'.",
+    "themes": [
+      "light-darkness"
+    ]
+  },
+  {
+    "chapter": 329,
+    "kind": "theme",
+    "title": "From the barricade to the living city",
+    "text": "A rumble overhead tells Valjean he is passing from the Paris 'petrified by the uprising' into the living city. He chose to climb instead of following the slope to the river, so as not to come out with two bleeding men in the busiest spot in Paris. Notice that his old convict's instincts, avoiding the crowd, keeping to the walls, are what guide him now.",
+    "themes": [
+      "mercy-law"
+    ]
+  },
+  {
+    "chapter": 330,
+    "kind": "motif",
+    "title": "The lantern saw him badly",
+    "text": "'If he saw the lantern well, the lantern saw him badly: it was light and he was shadow.' Hugo turns his oldest image pair around once more. The police carry the light, and the darkness keeps the fugitive. Valjean stops, and the sound stops. Everything hangs 'on that thread'.",
+    "themes": [
+      "light-darkness"
+    ]
+  },
+  {
+    "chapter": 330,
+    "kind": "craft",
+    "title": "A shot for his conscience",
+    "text": "Before leaving, the sergeant fires one shot into the dark 'to satisfy his policeman's conscience'. The ball strikes the vault above Valjean's head. Hugo's irony is light: a duty done blindly, by a man who believes there is no one there. The law shoots in the dark and misses.",
+    "themes": [
+      "mercy-law"
+    ]
+  },
+  {
+    "chapter": 331,
+    "kind": "craft",
+    "title": "Two men at a distance",
+    "text": "Two men walk along the right bank, one trying to get away without seeming to, the other following without seeming to hurry, 'like a game of checkers played at a distance'. Hugo says the reader might recognise them at closer range, and does not bring us closer. He is teasing us, and the pleasure of the chapter is in the guessing.",
+    "themes": [
+      "names"
+    ]
+  },
+  {
+    "chapter": 331,
+    "kind": "context",
+    "title": "Red rather than blue",
+    "text": "The pursuer's aim, Hugo says, was to dress the ragged man more warmly, 'in red rather than blue'. Convicts in the galleys wore red jackets; the blue is the workman's blouse. Notice the police's steady habit: while a revolution may be breaking out across Paris, an agent is still patiently 'spinning' a thief.",
+    "themes": [
+      "mercy-law"
+    ]
+  },
+  {
+    "chapter": 331,
+    "kind": "question",
+    "title": "A government key",
+    "text": "The fugitive vanishes through an iron sewer gate on the shore and locks it behind him. 'That is too much! A government key!' How does a ragged thief come to hold a key to the city's underworld, and what is it used for? The pursuer settles behind the rubbish to wait.",
+    "themes": [
+      "mercy-law"
+    ]
+  },
+  {
+    "chapter": 332,
+    "kind": "craft",
+    "title": "Bandages and hatred",
+    "text": "Valjean tears up his own shirt to bind Marius's wounds, checks that the heart still beats, then gazes at him 'with inexpressible hatred'. Hugo puts the two feelings in the same paragraph without choosing between them. The title, 'He Also Bears His Cross', tells us which of them controls what he does.",
+    "themes": [
+      "conscience",
+      "love"
+    ]
+  },
+  {
+    "chapter": 332,
+    "kind": "motif",
+    "title": "The forgotten roll",
+    "text": "In Marius's pocket Valjean finds a roll 'forgotten there the evening before', the penny roll Marius bought and forgot during his day of despair. It keeps Valjean alive. With it is the pocketbook: 'Carry my body to my grandfather.' The small things a young man forgot when he wanted to die become the means of saving him.",
+    "themes": [
+      "poverty"
+    ]
+  },
+  {
+    "chapter": 332,
+    "kind": "motif",
+    "title": "'In the night'",
+    "text": "Asked where he was, Hugo says, Valjean would have answered: 'In the night.' The reader has street names to light the march; Valjean has only fading light at the air-holes and a thinning rumble of carriages above. 'Suddenly the darkness became terrible.' Hugo ends the chapter at that sentence.",
+    "themes": [
+      "light-darkness"
+    ]
+  },
+  {
+    "chapter": 333,
+    "kind": "craft",
+    "title": "A digression at the worst moment",
+    "text": "Valjean feels the pavement turn to mud beneath him, and Hugo stops to describe the quicksands of Brittany and Scotland. The traveller sinks slowly, sees villages, sails and birds, until a hand waves above the sand and disappears. The pause stretches the suspense almost past bearing, and it shows us exactly what Valjean is walking into.",
+    "themes": [
+      "history"
+    ]
+  },
+  {
+    "chapter": 333,
+    "kind": "theme",
+    "title": "A deformed death",
+    "text": "Death on a pyre or in a shipwreck can be great, Hugo says. Death in mire is 'filthy and humiliating'; everywhere else the grave is sinister, 'here it is deformed'. The book has always cared about dignity at the end of a life. Here it imagines an end with no dignity at all.",
+    "themes": [
+      "poverty"
+    ]
+  },
+  {
+    "chapter": 333,
+    "kind": "theme",
+    "title": "The sewer extinguishes love",
+    "text": "The young Vicomte d'Escoubleau, fleeing a jealous duke, hid in a sewer and was swallowed; his mistress called for her smelling-bottle 'and forgot to weep'. 'Hero refuses to wash Leander, and Thisbe stops her nose at Pyramus.' Hugo's sour joke about lovers is set against the man in the dark carrying his rival on his back.",
+    "themes": [
+      "love"
+    ]
+  },
+  {
+    "chapter": 334,
+    "kind": "motif",
+    "title": "A mother in the Flood",
+    "text": "Up to his armpits, then to his chin, Valjean holds Marius above the water 'like the mother holding up her child in the old paintings of the Deluge'. Hugo has told us Valjean's love for Cosette held every kind of love, 'even a mother included'. Here that love is given, physically, to the young man who is taking her away.",
+    "themes": [
+      "parenthood"
+    ]
+  },
+  {
+    "chapter": 334,
+    "kind": "theme",
+    "title": "Mud that bears one man",
+    "text": "'Mud dense enough to bear one man could not bear two; singly, each might have got out.' Valjean could save himself by letting go. He goes on, holding up the dying man. Hugo states the choice in one plain sentence and does not stop to praise it.",
+    "themes": [
+      "conscience"
+    ]
+  },
+  {
+    "chapter": 334,
+    "kind": "motif",
+    "title": "A strange light",
+    "text": "His foot finds the far edge of the sunken pavement. He climbs out, falls on his knees, and 'reflecting that this was only just', prays. He rises shivering, foul-smelling, bent under Marius, 'with his soul filled with a strange light'. Out of the deepest mire in the book Hugo brings his hero up lit from within.",
+    "themes": [
+      "light-darkness"
+    ]
+  },
+  {
+    "chapter": 335,
+    "kind": "craft",
+    "title": "An outlet that is a prison",
+    "text": "After the fontis, white daylight at the end of the vault: the way out. Valjean runs, and finds a heavy double-locked grating, 'one of the prison locks old Paris loved', in an arch built like a prison wicket. Flies pass through the bars. He has escaped from the barricade 'only into a prison'. The title warns us of the disappointment before it happens.",
+    "themes": [
+      "mercy-law"
+    ]
+  },
+  {
+    "chapter": 335,
+    "kind": "theme",
+    "title": "Thinking of Cosette",
+    "text": "Collapsed beside Marius, at the last drop of anguish, 'he was thinking neither of himself nor of Marius. He was thinking of Cosette.' After all his struggle, the chapter's last thought is for the person he has done all this for, who does not know where either man is.",
+    "themes": [
+      "love"
+    ]
+  },
+  {
+    "chapter": 336,
+    "kind": "craft",
+    "title": "Valjean veiled, Thénardier unmasked",
+    "text": "'Half shares.' Thénardier stands in the light of the grating; Valjean, mud-covered and bloody, has his back to it. 'The duel began between Valjean veiled and Thénardier unmasked.' Hugo arranges the light so that one man is recognised and the other is not, and Valjean keeps his back turned through the whole scene.",
+    "themes": [
+      "light-darkness",
+      "names"
+    ]
+  },
+  {
+    "chapter": 336,
+    "kind": "theme",
+    "title": "Waterloo again",
+    "text": "Thénardier takes Valjean for a murderer, searches both men's pockets, takes every sou, and opens the gate. At Waterloo he robbed a man he thought dead and was thanked as a rescuer. Here, for his own reasons, he again saves the living while robbing them. 'Providence in horrible guise', Hugo calls it: the good angel rising from the earth in Thénardier's shape.",
+    "themes": [
+      "mercy-law",
+      "history"
+    ]
+  },
+  {
+    "chapter": 336,
+    "kind": "motif",
+    "title": "A strip of cloth",
+    "text": "With a pickpocket's skill Thénardier tears a strip from Marius's coat and hides it under his blouse, and Valjean does not notice. Hugo shows us a theft that the man beside him does not see. He also tells us the oiled hinges show the gate opens 'more often than anyone supposed'.",
+    "themes": [
+      "mercy-law"
+    ]
+  },
+  {
+    "chapter": 336,
+    "kind": "theme",
+    "title": "Paris the killer",
+    "text": "Thénardier gives the 'idiot' advice: a rope, a stone, the river. 'The river is the true grave, Paris the killer, and justice asks no questions.' It is the voice of the underworld, sure that a body in the Seine is no one's business. Hugo lets him talk, and the speech tells us how he sees the city.",
+    "themes": [
+      "paris",
+      "mercy-law"
+    ]
+  },
+  {
+    "chapter": 337,
+    "kind": "motif",
+    "title": "The river with the sound of a kiss",
+    "text": "Out of the miasma, the pure evening air, the river flowing 'with the sound of a kiss', birds saying good night in the elms, the first stars. For a few seconds Valjean is bathed in prayer. Hugo gives his hero and the reader one breath of beauty before the next blow falls.",
+    "themes": [
+      "light-darkness"
+    ]
+  },
+  {
+    "chapter": 337,
+    "kind": "theme",
+    "title": "'Jean Valjean'",
+    "text": "Javert does not recognise him. 'Who is I?' 'Jean Valjean.' The man who has hidden for years behind the names Madeleine and Fauchelevent gives his true name to the one person who can send him back to the galleys. He asks only to carry Marius home first. He has considered himself Javert's prisoner, he says, since the morning.",
+    "themes": [
+      "names",
+      "mercy-law"
+    ]
+  },
+  {
+    "chapter": 337,
+    "kind": "craft",
+    "title": "A face that contracts",
+    "text": "Javert's face 'contracted as it always did when anyone thought him capable of a concession', but he does not say no. He wets his handkerchief and wipes Marius's brow; he still does not say 'thou'; he does not ask how the man came from the barricade. Hugo shows us the cracks through small actions while Javert says nothing.",
+    "themes": [
+      "mercy-law",
+      "conscience"
+    ]
+  },
+  {
+    "chapter": 337,
+    "kind": "motif",
+    "title": "The corpse, the spectre and the statue",
+    "text": "In the hackney-coach the lamplight flashes at intervals on three figures: 'the corpse, the spectre and the statue'. Marius unconscious, Valjean grey with mud, Javert rigid. They drive towards the Marais 'in a glacial silence'. Hugo reduces the three men to emblems, as if they were already figures in a legend.",
     "themes": [
       "light-darkness"
     ]

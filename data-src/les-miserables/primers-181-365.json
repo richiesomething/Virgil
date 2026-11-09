@@ -239,5 +239,497 @@
     "setting": "The stairs and boulevard outside the Gorbeau house, as the visitors leave",
     "keepInMind": "Posing as the ruined actor Fabantou, Jondrette claimed he owes sixty francs by tonight. M. Leblanc gave five francs and his greatcoat and promised to come back at six with the sixty. Jondrette twice told his wife to take a good look at him.",
     "returning": []
+  },
+  {
+    "chapter": 211,
+    "setting": "The stairs and corridor of the Gorbeau house, a few minutes later",
+    "keepInMind": "Marius ran down to follow the visitors' cab, but he had given his money to the girl and could not pay a cab of his own, so he lost them. Coming back, he saw Jondrette, wearing M. Leblanc's greatcoat, talking on the boulevard with a prowler who looked like Panchaud, alias Bigrenaille.",
+    "returning": []
+  },
+  {
+    "chapter": 212,
+    "setting": "Marius's room, with his ear to the partition",
+    "keepInMind": "The elder Jondrette girl offered to do anything for Marius, and he asked her to find the address of the old gentleman and his daughter, promising her whatever she likes. Then, through the wall, he heard Jondrette say that he has recognised the visitor.",
+    "returning": []
+  },
+  {
+    "chapter": 213,
+    "setting": "Marius leaves the Gorbeau house, that same afternoon",
+    "keepInMind": "Jondrette says he knew M. Leblanc eight years ago, whispered a name about the young lady that threw his wife into a rage, and boasted that his fortune is made. Leblanc is to return at six, when the house is empty, and if he will not give in, 'we'll fix him'. Jondrette went out to see some people and ordered a charcoal brazier.",
+    "returning": []
+  },
+  {
+    "chapter": 214,
+    "setting": "The police station at No. 14 Rue de Pontoise",
+    "keepInMind": "On his way, Marius overheard two men sitting behind a wall in the snow discussing an 'affair' that cannot fail with the help of Patron-Minette, the gang of Babet, Gueulemer, Claquesous and Montparnasse.",
+    "returning": []
+  },
+  {
+    "chapter": 215,
+    "setting": "The snowy Rue Mouffetard quarter, about three in the afternoon",
+    "keepInMind": "The inspector Marius told knows the Gorbeau house and the gang. He took Marius's passkey, gave him two loaded pistols, and told him to fire one when the crime is about to be committed, not too soon. He is Javert, the inspector who unmasked Valjean at Montreuil-sur-Mer and hunted him through Paris to the convent wall; Marius knows nothing of that.",
+    "returning": [
+      {
+        "id": "bossuet",
+        "reminder": "Lesgle de Meaux, the bald, cheerfully unlucky member of the A.B.C. who answered for Marius at roll-call and got himself struck off instead."
+      }
+    ]
+  },
+  {
+    "chapter": 216,
+    "setting": "Marius's dark room in the Gorbeau house, about half past five",
+    "keepInMind": "Marius shadowed Jondrette as he bought a heavy cold chisel and climbed the wall in the Rue du Petit-Banquier. Back home, he glimpsed four men sitting motionless in an empty attic along his corridor. He has Javert's two pistols.",
+    "returning": []
+  },
+  {
+    "chapter": 217,
+    "setting": "Marius's room, a few minutes before six",
+    "keepInMind": "Jondrette has told his family, 'The mousetrap is open. The cats are there.' Sent to search Marius's room, the elder girl looked only in his mirror and reported no one there. Both girls are now posted outside as lookouts.",
+    "returning": []
+  },
+  {
+    "chapter": 218,
+    "setting": "Marius at the peephole, as six o'clock is about to strike",
+    "keepInMind": "The garret is lit by a brazier with the chisel heating in it; there are ropes and a rope ladder by the door. Madame Jondrette took Marius's two chairs without seeing him. Jondrette tested a knife, and Marius cocked his pistol.",
+    "returning": []
+  },
+  {
+    "chapter": 219,
+    "setting": "The Jondrettes' garret, just after six",
+    "keepInMind": "M. Leblanc arrived calm and laid four louis on the table for the rent. His cab has been sent away, he and Jondrette sit facing each other, and Marius believes the police are waiting outside for his shot.",
+    "returning": []
+  },
+  {
+    "chapter": 220,
+    "setting": "The Jondrettes' garret, a moment later",
+    "keepInMind": "Four men with blackened faces slipped in and sat on the bed behind M. Leblanc. When Leblanc valued Jondrette's 'picture by a master' at three francs, Jondrette dropped his mask and thundered, 'Do you know me?' Marius's signal to Javert is a shot into the ceiling.",
+    "returning": []
+  },
+  {
+    "chapter": 221,
+    "setting": "Outside the Gorbeau house, earlier that same evening",
+    "keepInMind": "Jondrette is Thénardier, the innkeeper of Montfermeil, and he named his prisoner as the man who carried off 'the Lark' at Christmas 1823: the reader can now see that M. Leblanc is Jean Valjean and his daughter is Cosette. Marius did not know them. Hearing the name his father told him to honour, he could not fire, and tossed in the elder girl's warning note instead. Valjean burned his own arm with the red-hot chisel to show he could not be made to talk. Javert appeared in the doorway.",
+    "returning": []
+  },
+  {
+    "chapter": 222,
+    "setting": "The Boulevard de l'Hôpital and the Gorbeau house, the following night",
+    "keepInMind": "Javert arrested Thénardier, his wife and the gang. He caught the younger daughter, Azelma, on watch outside; the elder, Éponine, got away. When he turned to the bound victim, the window was open and the man was gone.",
+    "returning": [
+      {
+        "id": "gavroche",
+        "reminder": "Little Gavroche, the merry, unloved street boy of the boulevards, son of the 'Jondrettes', which makes him a Thénardier. He comes home only every few months to 'see mamma'."
+      }
+    ]
+  },
+  {
+    "chapter": 223,
+    "setting": "No scene: Volume IV opens with the history of 1830 to 1832",
+    "keepInMind": "This chapter steps away from the story to explain the Revolution of July 1830 and the two restless years after it. The story is left with the Thénardiers and their gang in prison, Valjean and Cosette gone without a trace, and Marius still not knowing who they are.",
+    "returning": []
+  },
+  {
+    "chapter": 224,
+    "setting": "No scene: Hugo's history of 1830 continues",
+    "keepInMind": "Still history, not story. Hugo has explained how the Restoration fell in July 1830 by treating the nation's charter as a gift it could take back.",
+    "returning": []
+  },
+  {
+    "chapter": 225,
+    "setting": "No scene: a portrait of King Louis Philippe",
+    "keepInMind": "Still history. The 'statesmen' of 1830 stopped the revolution halfway and found their man in Louis Philippe d'Orléans, crowned by the deputies and Lafayette at the Hôtel de Ville.",
+    "returning": []
+  },
+  {
+    "chapter": 226,
+    "setting": "No scene: France under Louis Philippe, up to early 1832",
+    "keepInMind": "Hugo has painted Louis Philippe as a rare, decent man in a false position. Now he turns to what was pressing on the regime as 1832 began, which brings the history back toward the story.",
+    "returning": []
+  },
+  {
+    "chapter": 227,
+    "setting": "The Faubourg Saint-Antoine, towards the end of April 1832",
+    "keepInMind": "Hugo has shown the July monarchy squeezed by legitimists and republicans, by social distress and by unrest abroad, and 1832 opening with the feeling that something was coming. This chapter is still history, drawn from police reports, but it ends with Paris's secret societies.",
+    "returning": []
+  },
+  {
+    "chapter": 228,
+    "setting": "A secret meeting at the Café Musain, spring 1832",
+    "keepInMind": "In the faubourgs men are swearing oaths, making cartridges and hiding powder, and the secret societies of Paris are counting their members. The Friends of the A.B.C. are among them.",
+    "returning": [
+      {
+        "id": "enjolras",
+        "reminder": "Chief of the Friends of the A.B.C., a grave, beautiful young republican who told Marius, 'My mother is the Republic.'"
+      },
+      {
+        "id": "combeferre",
+        "reminder": "The philosopher of the A.B.C., who answered Marius's praise of Napoleon with two words: 'To be free.'"
+      },
+      {
+        "id": "feuilly",
+        "reminder": "A self-taught orphan workman, a fan-maker, the one man of the people among the A.B.C. students."
+      },
+      {
+        "id": "grantaire",
+        "reminder": "The A.B.C.'s drunken sceptic, who believes in nothing except Enjolras."
+      }
+    ]
+  },
+  {
+    "chapter": 229,
+    "setting": "The Gorbeau house on the night of the ambush, and the weeks that follow",
+    "keepInMind": "Marius saw Javert's ambush end with the gang arrested and the victim escaped through the window. He heard Thénardier call the girl 'the Lark' and still does not know who she or her father are. His father's will binds him to help Thénardier, who is now in prison.",
+    "returning": []
+  },
+  {
+    "chapter": 230,
+    "setting": "After the Gorbeau ambush, from Javert's side and inside La Force prison",
+    "keepInMind": "Marius left the Gorbeau house that night to live with Courfeyrac and avoid testifying. Every Monday he sends five borrowed francs to Thénardier in La Force. He spends his days in a lonely field by the Gobelins that someone called 'the Lark's meadow'.",
+    "returning": [
+      {
+        "id": "montparnasse",
+        "reminder": "The youngest of Patron-Minette's four chiefs, a pretty, pomaded youth under twenty who kills to dress well."
+      },
+      {
+        "id": "brujon",
+        "reminder": "One of Patron-Minette's troupe, among the ruffians Javert named at the Gorbeau ambush."
+      },
+      {
+        "id": "magnon",
+        "reminder": "M. Gillenormand's former maid, who twice sent him a baby boy, named him as the father, and got him to pay for both children."
+      }
+    ]
+  },
+  {
+    "chapter": 231,
+    "setting": "M. Mabeuf's garden at Austerlitz, one dry evening",
+    "keepInMind": "From La Force, Brujon sent out a note about a house with a garden gate in the Rue Plumet. It went through Magnon to Éponine, newly out of prison, and came back marked 'biscuit': nothing to be done there.",
+    "returning": [
+      {
+        "id": "mabeuf",
+        "reminder": "Marius's old friend, the gentle churchwarden who loves only plants and old books. Ruined after 1830, he lives in a cottage at Austerlitz near the Salpêtrière with his housekeeper Mother Plutarque."
+      }
+    ]
+  },
+  {
+    "chapter": 232,
+    "setting": "The Lark's meadow, a Monday morning some days later",
+    "keepInMind": "A tall, ragged girl watered M. Mabeuf's dying garden and asked only where M. Marius could be found. He sent her to the Lark's meadow.",
+    "returning": []
+  },
+  {
+    "chapter": 233,
+    "setting": "A hidden house in the Rue Plumet, Faubourg Saint-Germain",
+    "keepInMind": "Éponine has offered to take Marius to the girl's address, and he made her swear not to tell her father. The story now turns to Jean Valjean and Cosette, the 'M. Leblanc' and daughter of Marius's story, last followed by the narrator when Valjean was passing as the gardener's brother at the Petit-Picpus convent.",
+    "returning": [
+      {
+        "id": "fauchelevent",
+        "reminder": "The old gardener of the Petit-Picpus convent, once saved from under his cart by M. Madeleine. He got Valjean into the convent in a coffin and passed him off as his brother, Ultime Fauchelevent."
+      },
+      {
+        "id": "mother-innocente",
+        "reminder": "The learned prioress of the Petit-Picpus convent, who took on Fauchelevent's 'brother' as a second gardener and his little girl as a pupil."
+      }
+    ]
+  },
+  {
+    "chapter": 234,
+    "setting": "The Rue Plumet house and Valjean's household",
+    "keepInMind": "Since 1829 Valjean has rented a hidden house in the Rue Plumet, with a secret way out into the Rue de Babylone. He lives there with Cosette and an old servant, Toussaint, having left the convent so that Cosette could choose her own life.",
+    "returning": []
+  },
+  {
+    "chapter": 235,
+    "setting": "No scene: the overgrown garden of the Rue Plumet",
+    "keepInMind": "This chapter steps away from the story for a meditation on the wild garden behind the gate. Cosette has the comfortable pavilion, Valjean a bare lodge at the back; he serves in the National Guard as M. Fauchelevent, and they go out only by the Rue de Babylone door.",
+    "returning": []
+  },
+  {
+    "chapter": 236,
+    "setting": "The Rue Plumet, from the time Cosette left the convent",
+    "keepInMind": "The garden has been left to itself for half a century and grown into a thicket. Hugo used it to argue that nothing in nature is small and everything is bound to everything else.",
+    "returning": [
+      {
+        "id": "fantine",
+        "reminder": "Cosette's mother, who sold her hair and teeth to pay for her child and died in Montreuil-sur-Mer as Javert seized Valjean at her bedside."
+      }
+    ]
+  },
+  {
+    "chapter": 237,
+    "setting": "The Rue Plumet, as Cosette grows up",
+    "keepInMind": "Cosette left the convent at fourteen, plain and half-educated, adoring Valjean. She does not know her mother's name, and when she asks, he is silent.",
+    "returning": []
+  },
+  {
+    "chapter": 238,
+    "setting": "The Luxembourg, the same months, seen from Cosette's side",
+    "keepInMind": "Cosette found in her mirror that she had become beautiful, and soon she was dressing as well as any woman in Paris, while Valjean watched with dread. This was the change Marius saw in the Luxembourg after six months away.",
+    "returning": []
+  },
+  {
+    "chapter": 239,
+    "setting": "The Luxembourg, seen from Valjean's side",
+    "keepInMind": "The exchange of glances that troubled Marius troubled Cosette too. She steered her father toward his bench, and the two adored each other at a distance without a word.",
+    "returning": []
+  },
+  {
+    "chapter": 240,
+    "setting": "The Barrière du Maine, at dawn one October day",
+    "keepInMind": "Valjean sensed Marius, set small traps for him, and after Marius followed them home to the Rue de l'Ouest and questioned the porter, stopped going to the Luxembourg. Cosette has grown pale and silent, and father and daughter suffer side by side without speaking of it.",
+    "returning": []
+  },
+  {
+    "chapter": 241,
+    "setting": "The Rue Plumet, that winter and spring",
+    "keepInMind": "At dawn Valjean and Cosette watched the chain-gang pass on its way to the galleys. Valjean was petrified, and Cosette later asked him what the galleys are like. The reader has already seen, from Marius's side, how Valjean spent one February evening in the Gorbeau garret.",
+    "returning": []
+  },
+  {
+    "chapter": 242,
+    "setting": "The empty lands beyond the Salpêtrière, near M. Mabeuf's garden, one evening",
+    "keepInMind": "Valjean's burned arm kept him in bed a month; Cosette nursed him, and their old closeness came back with the spring.",
+    "returning": [
+      {
+        "id": "gavroche",
+        "reminder": "The Thénardiers' son, the street boy who found his parents and sisters taken to prison after the Gorbeau ambush, said 'Ah!', and went off singing."
+      },
+      {
+        "id": "montparnasse",
+        "reminder": "The young dandy of Patron-Minette who kills to dress well; he slipped away from the Gorbeau ambush."
+      }
+    ]
+  },
+  {
+    "chapter": 243,
+    "setting": "The Rue Plumet, April 1832",
+    "keepInMind": "Since the Luxembourg walks stopped, Cosette has lost sight of Marius. Meanwhile Gavroche stole a purse back from Montparnasse after an old passer-by gave it to him, and tossed it over the hedge to M. Mabeuf.",
+    "returning": [
+      {
+        "id": "theodule",
+        "reminder": "Marius's cousin, the handsome lancer lieutenant whom his aunt tried to install as a substitute grandson; M. Gillenormand ended by calling him a fool."
+      }
+    ]
+  },
+  {
+    "chapter": 244,
+    "setting": "The Rue Plumet, the first fortnight of April, with Valjean away",
+    "keepInMind": "Cosette's grief over Marius is fading. She has started watching for the handsome lancer, Théodule, who passes the gate every day. Marius, meanwhile, is sinking toward despair.",
+    "returning": []
+  },
+  {
+    "chapter": 245,
+    "setting": "The stone bench by the garden railings, an evening in April",
+    "keepInMind": "Cosette heard footsteps in the garden at night and saw a man's shadow in a round hat beside her own. Valjean watched for three nights and laughed it off as the shadow of a chimney-pot.",
+    "returning": []
+  },
+  {
+    "chapter": 246,
+    "setting": "The notebook Cosette found under the stone",
+    "keepInMind": "A large stone appeared on Cosette's bench while she was away from it. Under it next morning she found an unaddressed envelope with a little notebook of numbered pages in a fine hand.",
+    "returning": []
+  },
+  {
+    "chapter": 247,
+    "setting": "Cosette, as she finishes reading the notebook",
+    "keepInMind": "The notebook is a string of unsigned thoughts on love, on parted lovers, on a lost address and a smile under a white crape bonnet.",
+    "returning": []
+  },
+  {
+    "chapter": 248,
+    "setting": "The Rue Plumet garden, at dusk that evening",
+    "keepInMind": "Cosette knew at once who wrote the notebook. The lancer now looks hideous to her, and she has fallen back in love, crediting angels with bringing the pages.",
+    "returning": []
+  },
+  {
+    "chapter": 249,
+    "setting": "The Thénardier family's history since 1823, then the streets after the Gorbeau arrests",
+    "keepInMind": "Marius and Cosette met at last in her garden, kissed, and only at the end told each other their names. The story now goes back to the Thénardiers: the parents are in prison after the Gorbeau ambush, Éponine is free, and Gavroche roams the streets.",
+    "returning": [
+      {
+        "id": "magnon",
+        "reminder": "M. Gillenormand's former maid, who made him pay for two little boys she said were his. Brujon's note from La Force went through her to Éponine."
+      },
+      {
+        "id": "madame-thenardier",
+        "reminder": "Thénardier's huge, coarse wife, who loved her daughters and not her son, and threw a paving-stone at Javert at the Gorbeau house; she is in prison."
+      }
+    ]
+  },
+  {
+    "chapter": 250,
+    "setting": "The streets of Paris, a freezing, stormy spring evening in 1832",
+    "keepInMind": "The Thénardiers had two more sons after 1823 and handed them to Magnon to replace her own two dead boys, so that M. Gillenormand's money would keep coming. After the police raided Magnon's house, the little boys were locked out, lost the address they had been given, and are wandering the streets. Gavroche has never known they exist.",
+    "returning": []
+  },
+  {
+    "chapter": 251,
+    "setting": "La Force prison, the same stormy night",
+    "keepInMind": "Gavroche took in two lost little boys, fed them, and bedded them down inside the plaster elephant of the Bastille. Montparnasse told him Babet had escaped, and before dawn called him out to lend a hand.",
+    "returning": [
+      {
+        "id": "brujon",
+        "reminder": "Patron-Minette's man in La Force since the Gorbeau ambush, who smuggled out the note about the Rue Plumet."
+      },
+      {
+        "id": "gueulemer",
+        "reminder": "The colossus of Patron-Minette, a cold-blooded assassin, arrested by Javert at the Gorbeau house."
+      }
+    ]
+  },
+  {
+    "chapter": 252,
+    "setting": "No scene: Book VII, 'Slang', is an essay on argot",
+    "keepInMind": "This chapter steps away from the story to defend and explore thieves' slang; the next four chapters are all essay. The story is left after the escape from La Force, where Gavroche climbed a flue and brought down his own father. The two little boys he sheltered are his brothers, though he does not know it.",
+    "returning": []
+  },
+  {
+    "chapter": 253,
+    "setting": "No scene: the essay on slang continues",
+    "keepInMind": "Still a digression. Hugo has argued that slang is the language of misery itself, and that the historian of a society's depths has as serious a job as the historian of its kings and battles.",
+    "returning": []
+  },
+  {
+    "chapter": 254,
+    "setting": "No scene: the essay on slang continues",
+    "keepInMind": "Still a digression. Hugo has traced slang's borrowings from a dozen languages and its three roots: invented words, metaphor, and deformed words.",
+    "returning": []
+  },
+  {
+    "chapter": 255,
+    "setting": "No scene: the last chapter of the essay on slang",
+    "keepInMind": "Hugo has shown slang's songs turning from lament to insolent gaiety in the eighteenth century, a warning sign he thinks the French Revolution headed off. He now draws his conclusions.",
+    "returning": []
+  },
+  {
+    "chapter": 256,
+    "setting": "The Rue Plumet garden, May 1832",
+    "keepInMind": "The story resumes after the slang chapters. Marius and Cosette met at last in her garden at dusk, kissed, and exchanged names: Marius, Cosette. Valjean knows nothing of it.",
+    "returning": [
+      {
+        "id": "eponine",
+        "reminder": "The Thénardiers' elder daughter, out of prison, who promised to lead Marius to the girl's address though she plainly loves him herself. When he offered her five francs she let the coin fall."
+      }
+    ]
+  },
+  {
+    "chapter": 257,
+    "setting": "The Rue Plumet garden, May 1832, while cholera ravages Paris",
+    "keepInMind": "Marius slips in every evening through a loose bar in the gate. Their love is chaste: one first kiss, hands held, nonsense talked. Cosette has told him her real name is Euphrasie.",
+    "returning": []
+  },
+  {
+    "chapter": 258,
+    "setting": "The Rue Plumet household, the same weeks",
+    "keepInMind": "Marius and Cosette have told each other almost nothing beyond their names. He has never mentioned the Gorbeau ambush or her father's strange flight from it.",
+    "returning": []
+  },
+  {
+    "chapter": 259,
+    "setting": "The Rue Plumet at nightfall, 3 June 1832",
+    "keepInMind": "Courfeyrac noticed Marius coming home at one in the morning but could not get a name out of him. One evening, at the corner of the Rue Plumet, Éponine stopped Marius; he answered awkwardly, and she left without finding words.",
+    "returning": [
+      {
+        "id": "thenardier",
+        "reminder": "Éponine's father, the former innkeeper of Montfermeil, who escaped from La Force over the wall on the night Gavroche climbed up with the rope."
+      }
+    ]
+  },
+  {
+    "chapter": 260,
+    "setting": "The Rue Plumet, after the ruffians leave",
+    "keepInMind": "Éponine sat guard beside the loose bar and faced down six robbers, her own father among them, threatening to scream and bring the police until they withdrew.",
+    "returning": []
+  },
+  {
+    "chapter": 261,
+    "setting": "Inside the Rue Plumet garden, that same evening",
+    "keepInMind": "While Éponine held the gate and the gang gave way to her, Marius was in the garden with Cosette. Hugo now goes back to the two of them.",
+    "returning": []
+  },
+  {
+    "chapter": 262,
+    "setting": "M. Gillenormand's house in the Rue des Filles-du-Calvaire, the next day",
+    "keepInMind": "Valjean has told Cosette to be ready to travel, perhaps to England, within the week. Penniless, Marius swore he will die if she goes, said he would 'try something', and scratched his address, 16 Rue de la Verrerie, on the garden wall.",
+    "returning": [
+      {
+        "id": "monsieur-gillenormand",
+        "reminder": "Marius's grandfather, now past ninety-one, who drove him out four years ago over his father and has secretly pined for him ever since."
+      },
+      {
+        "id": "mademoiselle-gillenormand",
+        "reminder": "Marius's prim aunt, who keeps her father's house and kept sending Marius money he returned."
+      }
+    ]
+  },
+  {
+    "chapter": 263,
+    "setting": "The Champ-de-Mars, about four in the afternoon of the same day",
+    "keepInMind": "Marius asked his grandfather's leave to marry Mademoiselle Fauchelevent. The old man softened, then assumed she was a lancer's conquest and advised him to make her his mistress. Marius said farewell and left, and M. Gillenormand collapsed calling his name.",
+    "returning": []
+  },
+  {
+    "chapter": 264,
+    "setting": "Marius's wanderings after leaving his grandfather",
+    "keepInMind": "Valjean has resolved on England because he has seen Thénardier prowling the quarter. That morning he found '16 Rue de la Verrerie' scratched on his garden wall, and on the Champ-de-Mars a figure in a grey blouse dropped a note on his knees: 'Move away from your house.'",
+    "returning": []
+  },
+  {
+    "chapter": 265,
+    "setting": "M. Mabeuf's cottage at Austerlitz, the spring of 1832",
+    "keepInMind": "Marius took Javert's two pistols, wandered for a night and a day, and on the evening of 5 June found Cosette's house shut and empty. Resolved to die, he heard a voice he half knew call through the trees that his friends were waiting at the barricade of the Rue de la Chanvrerie.",
+    "returning": [
+      {
+        "id": "mabeuf",
+        "reminder": "Marius's old friend the botanist, growing poorer by the month at Austerlitz with his housekeeper Mother Plutarque. A purse dropped over his hedge one night; Gavroche threw it."
+      }
+    ]
+  },
+  {
+    "chapter": 266,
+    "setting": "No scene: Book X, 'The 5th of June, 1832', opens with an essay",
+    "keepInMind": "This chapter steps away from the story to ask what a revolt is made of. The story stands on 5 June 1832: fighting has broken out in Paris, Marius is heading for a barricade with Javert's pistols, and old Mabeuf, who has sold his last book, has walked out toward the shooting.",
+    "returning": []
+  },
+  {
+    "chapter": 267,
+    "setting": "No scene: Hugo's essay on revolt continues",
+    "keepInMind": "Hugo has set out the cautious 'golden mean' case against riots, that they cost money, hurt trade and end in massacres, and rejected it for looking only at effects. Now he looks for causes.",
+    "returning": []
+  },
+  {
+    "chapter": 268,
+    "setting": "Paris, spring 1832, up to the funeral of General Lamarque on 5 June",
+    "keepInMind": "Hugo has distinguished insurrection, the whole nation rising against a usurping part, from revolt, a part attacking the whole. He has promised to tell one little-known episode of 5 and 6 June 1832 that he saw himself. Cholera has hung over Paris for three months.",
+    "returning": []
+  },
+  {
+    "chapter": 269,
+    "setting": "Paris, the afternoon of 5 June 1832",
+    "keepInMind": "General Lamarque's funeral crossed an armed, agitated Paris. At the Austerlitz bridge a horseman raised a red flag, dragoons met the crowd, shots were fired, and the riot exploded.",
+    "returning": []
+  },
+  {
+    "chapter": 270,
+    "setting": "Paris away from the fighting, the evening of 5 June",
+    "keepInMind": "Within hours barricades rose at twenty points, armourers' shops were looted, and by five o'clock a third of Paris was in the insurgents' hands. As night fell the government hesitated and the tocsin of Saint-Merry began to ring.",
+    "returning": []
+  },
+  {
+    "chapter": 271,
+    "setting": "The boulevards, as Lamarque's funeral crowd scatters, 5 June",
+    "keepInMind": "The history chapters end here, and Hugo follows his own characters into the riot.",
+    "returning": [
+      {
+        "id": "gavroche",
+        "reminder": "Thénardier's son, the street boy who sheltered two lost little boys in the elephant of the Bastille and climbed the La Force wall to free his father. He does not know the boys are his brothers."
+      }
+    ]
+  },
+  {
+    "chapter": 272,
+    "setting": "The Marais, Gavroche on the march",
+    "keepInMind": "Gavroche borrowed an old holster-pistol from a junk shop and set off for the fighting singing, then found it has no trigger.",
+    "returning": []
   }
 ]

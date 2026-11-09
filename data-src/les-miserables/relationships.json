@@ -2120,8 +2120,7 @@
       {
         "from": 249,
         "type": "family",
-        "label": "Raised as her dead sons; lost in the streets after the raid",
-        "kin": "parent"
+        "label": "Passed off as her own dead sons; lost in the streets after the raid"
       }
     ]
   },
@@ -2133,6 +2132,933 @@
         "from": 249,
         "type": "friend",
         "label": "Partners in a baby swap that keeps the money flowing"
+      }
+    ]
+  },
+  {
+    "a": "enjolras",
+    "b": "combeferre",
+    "states": [
+      {
+        "from": 176,
+        "type": "friend",
+        "label": "The two guiding spirits of the Friends of the A.B.C."
+      },
+      {
+        "from": 302,
+        "type": "friend",
+        "label": "Together they send the fathers home from the barricade"
+      },
+      {
+        "from": 319,
+        "type": "friend",
+        "label": "Combeferre falls; Enjolras fights on"
+      }
+    ]
+  },
+  {
+    "a": "enjolras",
+    "b": "grantaire",
+    "states": [
+      {
+        "from": 176,
+        "type": "friend",
+        "label": "The sceptic who believes in nothing but Enjolras"
+      },
+      {
+        "from": 228,
+        "type": "friend",
+        "label": "Trusted with a mission, Grantaire is found at dominoes"
+      },
+      {
+        "from": 279,
+        "type": "friend",
+        "label": "Enjolras tells him he is incapable of believing or dying"
+      },
+      {
+        "from": 321,
+        "type": "friend",
+        "label": "Grantaire wakes, asks to die with him, and falls at his feet"
+      }
+    ]
+  },
+  {
+    "a": "enjolras",
+    "b": "courfeyrac",
+    "states": [
+      {
+        "from": 176,
+        "type": "friend",
+        "label": "Fellow members of the A.B.C."
+      },
+      {
+        "from": 274,
+        "type": "friend",
+        "label": "They lead the armed band together"
+      },
+      {
+        "from": 319,
+        "type": "friend",
+        "label": "Courfeyrac is killed in the final assault"
+      }
+    ]
+  },
+  {
+    "a": "enjolras",
+    "b": "marius",
+    "states": [
+      {
+        "from": 180,
+        "type": "friend",
+        "label": "Marius defends Napoleon; Enjolras answers, “My mother is the Republic”"
+      },
+      {
+        "from": 292,
+        "type": "friend",
+        "label": "After Marius saves the barricade Enjolras names him chief"
+      },
+      {
+        "from": 320,
+        "type": "friend",
+        "label": "The last two leaders left standing"
+      }
+    ]
+  },
+  {
+    "a": "enjolras",
+    "b": "jean-prouvaire",
+    "states": [
+      {
+        "from": 176,
+        "type": "friend",
+        "label": "The gentle poet among his friends"
+      },
+      {
+        "from": 292,
+        "type": "friend",
+        "label": "They hear Prouvaire shot by the troops"
+      }
+    ]
+  },
+  {
+    "a": "enjolras",
+    "b": "feuilly",
+    "states": [
+      {
+        "from": 176,
+        "type": "friend",
+        "label": "Orphaned fan-maker, the self-taught worker among the students"
+      },
+      {
+        "from": 319,
+        "type": "friend",
+        "label": "Feuilly falls in the final assault"
+      }
+    ]
+  },
+  {
+    "a": "enjolras",
+    "b": "bahorel",
+    "states": [
+      {
+        "from": 274,
+        "type": "friend",
+        "label": "Enjolras rebukes him for wasting his wrath"
+      },
+      {
+        "from": 290,
+        "type": "friend",
+        "label": "Bahorel is the first of them killed"
+      }
+    ]
+  },
+  {
+    "a": "enjolras",
+    "b": "bossuet",
+    "states": [
+      {
+        "from": 278,
+        "type": "friend",
+        "label": "Bossuet hails the band and picks the spot for the barricade"
+      },
+      {
+        "from": 319,
+        "type": "friend",
+        "label": "Bossuet is killed in the final assault"
+      }
+    ]
+  },
+  {
+    "a": "bossuet",
+    "b": "joly",
+    "states": [
+      {
+        "from": 176,
+        "type": "friend",
+        "label": "Inseparable friends of the A.B.C."
+      },
+      {
+        "from": 278,
+        "type": "friend",
+        "label": "Breakfasting together at Corinthe when the riot arrives"
+      }
+    ]
+  },
+  {
+    "a": "bossuet",
+    "b": "grantaire",
+    "states": [
+      {
+        "from": 278,
+        "type": "friend",
+        "label": "Drinking companions at Corinthe"
+      }
+    ]
+  },
+  {
+    "a": "bossuet",
+    "b": "marius",
+    "states": [
+      {
+        "from": 177,
+        "type": "friend",
+        "label": "He answered to Marius’s name at roll-call and was struck off himself"
+      }
+    ]
+  },
+  {
+    "a": "courfeyrac",
+    "b": "marius",
+    "states": [
+      {
+        "from": 177,
+        "type": "friend",
+        "label": "He takes in the homeless Marius"
+      },
+      {
+        "from": 181,
+        "type": "friend",
+        "label": "He helps Marius sell his clothes to pay his debts"
+      },
+      {
+        "from": 229,
+        "type": "friend",
+        "label": "Marius lodges with him after the ambush"
+      },
+      {
+        "from": 258,
+        "type": "friend",
+        "label": "He cannot get a name out of the lovesick Marius"
+      },
+      {
+        "from": 290,
+        "type": "friend",
+        "label": "Marius’s shot saves him on the barricade"
+      },
+      {
+        "from": 319,
+        "type": "friend",
+        "label": "Courfeyrac is killed"
+      }
+    ]
+  },
+  {
+    "a": "combeferre",
+    "b": "marius",
+    "states": [
+      {
+        "from": 180,
+        "type": "friend",
+        "label": "“To be free”: Combeferre’s answer to Marius’s Napoleon"
+      },
+      {
+        "from": 315,
+        "type": "friend",
+        "label": "They run out together, too late, for Gavroche"
+      }
+    ]
+  },
+  {
+    "a": "courfeyrac",
+    "b": "mabeuf",
+    "states": [
+      {
+        "from": 275,
+        "type": "friend",
+        "label": "Courfeyrac tells the old man there will be fighting, and he follows"
+      }
+    ]
+  },
+  {
+    "a": "enjolras",
+    "b": "mabeuf",
+    "states": [
+      {
+        "from": 274,
+        "type": "friend",
+        "label": "A very old man marching unarmed among the students"
+      },
+      {
+        "from": 289,
+        "type": "friend",
+        "label": "Mabeuf dies raising the flag; Enjolras kisses his brow"
+      }
+    ]
+  },
+  {
+    "a": "mabeuf",
+    "b": "colonel-pontmercy",
+    "states": [
+      {
+        "from": 169,
+        "type": "friend",
+        "label": "Churchwarden friend of the exiled colonel at Vernon"
+      }
+    ]
+  },
+  {
+    "a": "mabeuf",
+    "b": "marius",
+    "states": [
+      {
+        "from": 172,
+        "type": "friend",
+        "label": "The old churchwarden who tells him of his father’s secret visits"
+      },
+      {
+        "from": 184,
+        "type": "friend",
+        "label": "One of his two friends in poverty"
+      },
+      {
+        "from": 231,
+        "type": "friend",
+        "label": "He sends a ragged girl to Marius at the Lark’s meadow"
+      }
+    ]
+  },
+  {
+    "a": "mabeuf",
+    "b": "mother-plutarque",
+    "states": [
+      {
+        "from": 185,
+        "type": "work",
+        "label": "His faithful housekeeper in his slide into poverty"
+      },
+      {
+        "from": 265,
+        "type": "work",
+        "label": "He sells his last book when she falls ill"
+      }
+    ]
+  },
+  {
+    "a": "mabeuf",
+    "b": "eponine",
+    "states": [
+      {
+        "from": 231,
+        "type": "friend",
+        "label": "A ragged girl waters his garden and asks only for Marius"
+      }
+    ]
+  },
+  {
+    "a": "mabeuf",
+    "b": "gavroche",
+    "states": [
+      {
+        "from": 242,
+        "type": "friend",
+        "label": "The gamin tosses a stolen purse over the hedge to him"
+      }
+    ]
+  },
+  {
+    "a": "enjolras",
+    "b": "gavroche",
+    "states": [
+      {
+        "from": 274,
+        "type": "friend",
+        "label": "The gamin joins Enjolras’s band"
+      },
+      {
+        "from": 283,
+        "type": "friend",
+        "label": "Sent out to scout, he first unmasks the spy"
+      },
+      {
+        "from": 313,
+        "type": "friend",
+        "label": "Gavroche is shot gathering cartridges"
+      }
+    ]
+  },
+  {
+    "a": "marius",
+    "b": "gavroche",
+    "states": [
+      {
+        "from": 290,
+        "type": "friend",
+        "label": "Marius’s pistols save the gamin on the barricade"
+      },
+      {
+        "from": 294,
+        "type": "friend",
+        "label": "He sends Gavroche off with his farewell letter"
+      },
+      {
+        "from": 306,
+        "type": "friend",
+        "label": "Gavroche lies that he delivered it"
+      },
+      {
+        "from": 315,
+        "type": "friend",
+        "label": "Marius carries back his body"
+      }
+    ]
+  },
+  {
+    "a": "the-man-of-the-rue-des-billettes",
+    "b": "enjolras",
+    "states": [
+      {
+        "from": 276,
+        "type": "friend",
+        "label": "A tall grey-haired stranger joins the column unnoticed"
+      },
+      {
+        "from": 280,
+        "type": "friend",
+        "label": "He works on the small barricade"
+      }
+    ]
+  },
+  {
+    "a": "javert",
+    "b": "enjolras",
+    "states": [
+      {
+        "from": 283,
+        "type": "enemy",
+        "label": "Unmasked as a spy, he is bound to the post under Enjolras’s sentence"
+      },
+      {
+        "from": 292,
+        "type": "enemy",
+        "label": "“Your friends have just shot you”"
+      },
+      {
+        "from": 304,
+        "type": "enemy",
+        "label": "Enjolras gives him water and has him tied to the table"
+      },
+      {
+        "from": 316,
+        "type": "enemy",
+        "label": "Enjolras decrees the last man out shall shoot him"
+      }
+    ]
+  },
+  {
+    "a": "javert",
+    "b": "gavroche",
+    "states": [
+      {
+        "from": 283,
+        "type": "enemy",
+        "label": "The gamin unmasks him as the spy who once pulled his ear"
+      },
+      {
+        "from": 288,
+        "type": "enemy",
+        "label": "Gavroche carries off his gun"
+      }
+    ]
+  },
+  {
+    "a": "javert",
+    "b": "marius",
+    "states": [
+      {
+        "from": 214,
+        "type": "work",
+        "label": "The inspector who arms Marius to spring the police trap"
+      },
+      {
+        "from": 220,
+        "type": "work",
+        "label": "Marius fails to give the signal; Javert comes anyway"
+      },
+      {
+        "from": 317,
+        "type": "enemy",
+        "label": "Marius recognises the prisoner and hears the shot"
+      },
+      {
+        "from": 338,
+        "type": "work",
+        "label": "Javert brings him home, unconscious, from the sewer"
+      },
+      {
+        "from": 355,
+        "type": "work",
+        "label": "Marius believes Valjean killed him"
+      },
+      {
+        "from": 363,
+        "type": "work",
+        "label": "Marius learns Javert drowned himself"
+      }
+    ]
+  },
+  {
+    "a": "javert",
+    "b": "thenardier",
+    "states": [
+      {
+        "from": 221,
+        "type": "enemy",
+        "label": "Javert arrests him in the Gorbeau garret"
+      },
+      {
+        "from": 251,
+        "type": "enemy",
+        "label": "Thénardier breaks out of La Force"
+      },
+      {
+        "from": 337,
+        "type": "enemy",
+        "label": "Javert was the pursuer he used Valjean to throw off"
+      }
+    ]
+  },
+  {
+    "a": "javert",
+    "b": "madame-thenardier",
+    "states": [
+      {
+        "from": 221,
+        "type": "enemy",
+        "label": "She hurls a paving-stone at him and is arrested"
+      }
+    ]
+  },
+  {
+    "a": "javert",
+    "b": "azelma",
+    "states": [
+      {
+        "from": 221,
+        "type": "enemy",
+        "label": "He catches her on watch outside the ambush"
+      }
+    ]
+  },
+  {
+    "a": "javert",
+    "b": "montparnasse",
+    "states": [
+      {
+        "from": 230,
+        "type": "enemy",
+        "label": "Montparnasse slips through his net on the night of the raid"
+      }
+    ]
+  },
+  {
+    "a": "javert",
+    "b": "claquesous",
+    "states": [
+      {
+        "from": 230,
+        "type": "enemy",
+        "label": "His prisoner vanishes on the way to La Force"
+      }
+    ]
+  },
+  {
+    "a": "jondrette",
+    "b": "bigrenaille",
+    "states": [
+      {
+        "from": 210,
+        "type": "work",
+        "label": "Jondrette confers on the boulevard with a prowler like Bigrenaille"
+      }
+    ]
+  },
+  {
+    "a": "thenardier",
+    "b": "babet",
+    "states": [
+      {
+        "from": 221,
+        "type": "work",
+        "label": "Patron-Minette accomplice in the Gorbeau ambush"
+      },
+      {
+        "from": 259,
+        "type": "work",
+        "label": "In the gang that tries the Rue Plumet house"
+      }
+    ]
+  },
+  {
+    "a": "thenardier",
+    "b": "gueulemer",
+    "states": [
+      {
+        "from": 221,
+        "type": "work",
+        "label": "Patron-Minette accomplice in the Gorbeau ambush"
+      },
+      {
+        "from": 251,
+        "type": "work",
+        "label": "Breaks out of La Force the same night"
+      },
+      {
+        "from": 259,
+        "type": "work",
+        "label": "In the gang that tries the Rue Plumet house"
+      }
+    ]
+  },
+  {
+    "a": "thenardier",
+    "b": "claquesous",
+    "states": [
+      {
+        "from": 221,
+        "type": "work",
+        "label": "Patron-Minette accomplice in the Gorbeau ambush"
+      },
+      {
+        "from": 259,
+        "type": "work",
+        "label": "In the gang that tries the Rue Plumet house"
+      }
+    ]
+  },
+  {
+    "a": "thenardier",
+    "b": "montparnasse",
+    "states": [
+      {
+        "from": 221,
+        "type": "work",
+        "label": "The pretty young killer of Patron-Minette who escaped the raid"
+      },
+      {
+        "from": 251,
+        "type": "work",
+        "label": "He fetches Gavroche to get Thénardier over the wall"
+      },
+      {
+        "from": 259,
+        "type": "work",
+        "label": "In the gang that tries the Rue Plumet house"
+      }
+    ]
+  },
+  {
+    "a": "thenardier",
+    "b": "brujon",
+    "states": [
+      {
+        "from": 221,
+        "type": "work",
+        "label": "Patron-Minette accomplice in the Gorbeau ambush"
+      },
+      {
+        "from": 251,
+        "type": "work",
+        "label": "They break out on the same stormy night"
+      },
+      {
+        "from": 259,
+        "type": "work",
+        "label": "Brujon reads bad omens and calls off the Rue Plumet job"
+      }
+    ]
+  },
+  {
+    "a": "thenardier",
+    "b": "boulatruelle",
+    "states": [
+      {
+        "from": 91,
+        "type": "friend",
+        "label": "The innkeeper plies the road-mender with wine for his secret"
+      }
+    ]
+  },
+  {
+    "a": "babet",
+    "b": "gueulemer",
+    "states": [
+      {
+        "from": 199,
+        "type": "friend",
+        "label": "Two of the four who rule the Paris underworld as Patron-Minette"
+      }
+    ]
+  },
+  {
+    "a": "montparnasse",
+    "b": "claquesous",
+    "states": [
+      {
+        "from": 199,
+        "type": "friend",
+        "label": "Two of the four who rule the Paris underworld as Patron-Minette"
+      }
+    ]
+  },
+  {
+    "a": "brujon",
+    "b": "babet",
+    "states": [
+      {
+        "from": 230,
+        "type": "work",
+        "label": "From prison Brujon sends him word of a job in the Rue Plumet"
+      }
+    ]
+  },
+  {
+    "a": "montparnasse",
+    "b": "eponine",
+    "states": [
+      {
+        "from": 230,
+        "type": "friend",
+        "label": "He leads her off her lookout post on the night of the raid"
+      },
+      {
+        "from": 259,
+        "type": "enemy",
+        "label": "She threatens to scream and turns him and the gang away"
+      }
+    ]
+  },
+  {
+    "a": "montparnasse",
+    "b": "gavroche",
+    "states": [
+      {
+        "from": 242,
+        "type": "enemy",
+        "label": "The gamin picks the ruffian’s pocket"
+      },
+      {
+        "from": 250,
+        "type": "friend",
+        "label": "He tells Gavroche that Babet has escaped"
+      },
+      {
+        "from": 251,
+        "type": "friend",
+        "label": "He calls Gavroche out to help with a jailbreak"
+      }
+    ]
+  },
+  {
+    "a": "enjolras",
+    "b": "le-cabuc",
+    "states": [
+      {
+        "from": 284,
+        "type": "enemy",
+        "label": "Enjolras executes him for murdering the porter"
+      }
+    ]
+  },
+  {
+    "a": "jean-valjean",
+    "b": "toussaint",
+    "states": [
+      {
+        "from": 233,
+        "type": "work",
+        "label": "Stammering servant he rescued from the hospital"
+      }
+    ]
+  },
+  {
+    "a": "toussaint",
+    "b": "cosette",
+    "states": [
+      {
+        "from": 233,
+        "type": "work",
+        "label": "Their servant in the Rue Plumet"
+      },
+      {
+        "from": 237,
+        "type": "work",
+        "label": "Her remark tells Cosette she has grown beautiful"
+      },
+      {
+        "from": 245,
+        "type": "work",
+        "label": "Cosette has her bar the house in fright"
+      }
+    ]
+  },
+  {
+    "a": "fauchelevent",
+    "b": "cosette",
+    "states": [
+      {
+        "from": 145,
+        "type": "friend",
+        "label": "He passes the child off as his granddaughter at the convent"
+      }
+    ]
+  },
+  {
+    "a": "mother-innocente",
+    "b": "fauchelevent",
+    "states": [
+      {
+        "from": 139,
+        "type": "work",
+        "label": "The prioress hears the gardener’s plea for his “brother”"
+      },
+      {
+        "from": 140,
+        "type": "work",
+        "label": "She has him bury Mother Crucifixion secretly under the altar"
+      }
+    ]
+  },
+  {
+    "a": "mother-innocente",
+    "b": "cosette",
+    "states": [
+      {
+        "from": 145,
+        "type": "work",
+        "label": "The prioress admits her as a charity pupil"
+      }
+    ]
+  },
+  {
+    "a": "mother-innocente",
+    "b": "jean-valjean",
+    "states": [
+      {
+        "from": 145,
+        "type": "work",
+        "label": "She questions the new gardener and takes him on"
+      }
+    ]
+  },
+  {
+    "a": "fauchelevent",
+    "b": "gribier",
+    "states": [
+      {
+        "from": 142,
+        "type": "enemy",
+        "label": "A sober new gravedigger who ruins the gardener’s plan"
+      },
+      {
+        "from": 144,
+        "type": "enemy",
+        "label": "Fauchelevent steals his card to get him away from the grave"
+      }
+    ]
+  },
+  {
+    "a": "fauchelevent",
+    "b": "mestienne",
+    "states": [
+      {
+        "from": 141,
+        "type": "friend",
+        "label": "The drunken gravedigger he counts on to distract"
+      },
+      {
+        "from": 142,
+        "type": "friend",
+        "label": "Mestienne has died"
+      }
+    ]
+  },
+  {
+    "a": "jean-valjean",
+    "b": "enjolras",
+    "states": [
+      {
+        "from": 301,
+        "type": "friend",
+        "label": "An unknown man urges the barricade to stay and die in protest"
+      },
+      {
+        "from": 302,
+        "type": "friend",
+        "label": "His uniform lets a fifth man go home"
+      },
+      {
+        "from": 307,
+        "type": "friend",
+        "label": "He fetches a mattress under fire; Enjolras thanks him for the Republic"
+      },
+      {
+        "from": 316,
+        "type": "friend",
+        "label": "He asks, as his reward, to shoot the spy"
+      }
+    ]
+  },
+  {
+    "a": "jean-valjean",
+    "b": "gavroche",
+    "states": [
+      {
+        "from": 296,
+        "type": "friend",
+        "label": "The gamin hands him the letter for Cosette, for five francs"
+      }
+    ]
+  },
+  {
+    "a": "jean-valjean",
+    "b": "boulatruelle",
+    "states": [
+      {
+        "from": 346,
+        "type": "enemy",
+        "label": "The road-mender who saw him dig up his buried treasure"
+      }
+    ]
+  },
+  {
+    "a": "javert",
+    "b": "sister-simplice",
+    "states": [
+      {
+        "from": 70,
+        "type": "enemy",
+        "label": "The nun who has never lied tells him two lies to save Valjean"
+      }
+    ]
+  },
+  {
+    "a": "the-elder-jondrette-girl",
+    "b": "monsieur-leblanc",
+    "states": [
+      {
+        "from": 207,
+        "type": "work",
+        "label": "She carries her father’s begging letter to the gentleman"
       }
     ]
   }

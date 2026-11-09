@@ -215,7 +215,7 @@
       },
       {
         "from": 83,
-        "text": "At nightfall, with his army dissolving, he is found turning back alone toward the field, haggard, and is led away."
+        "text": "At nightfall, with his army dissolving, Bertrand and Bernard catch him by the coat in a meadow near Genappe, haggard, leading his horse, turning back alone toward Waterloo."
       },
       {
         "from": 88,
@@ -447,6 +447,465 @@
       {
         "from": 98,
         "text": "In 1823 he drives nearly every day to Choisy-le-Roi, a fat, crafty-eyed king who cannot walk and so loves to gallop. The people of the quarter call him 'the government'."
+      }
+    ]
+  },
+  {
+    "id": "louis-philippe",
+    "name": "Louis Philippe",
+    "firstChapter": 224,
+    "importance": "minor",
+    "group": "History",
+    "tagline": [
+      {
+        "from": 224,
+        "text": "The Duc d'Orléans, made King of the French by the men of 1830 to say 'Halt' to the revolution."
+      },
+      {
+        "from": 225,
+        "text": "The bourgeois king: in Hugo's portrait a good man and a good prince, if too much a paternal king."
+      }
+    ],
+    "description": [
+      {
+        "from": 224,
+        "text": "Louis Philippe d'Orléans, of the younger branch of the Bourbons. When the July Revolution of 1830 overthrew Charles X, the bourgeoisie and the 'statesmen' needed a man to stop it halfway, a revolution and a stability at once. The 221 deputies made him king and Lafayette crowned him at the Hôtel de Ville, calling it 'the best of republics'."
+      },
+      {
+        "from": 225,
+        "text": "Hugo's long portrait: careful, sober, patient and brave, a king in broad daylight who went out with his umbrella under his arm. Exile had recommended him to the throne: he had sold a horse for bread in Switzerland and taught mathematics at Reichenau. Hugo charges royalty and the reign with the repression of the street, but testifies for the man, who sat up at night revising death sentences and fought the guillotine case by case."
+      },
+      {
+        "from": 269,
+        "text": "On 5 June 1832, with a third of Paris in the insurgents' hands, he remains serene."
+      }
+    ]
+  },
+  {
+    "id": "lafayette",
+    "name": "Lafayette",
+    "firstChapter": 268,
+    "importance": "minor",
+    "group": "History",
+    "tagline": [
+      {
+        "from": 268,
+        "text": "The old hero of two revolutions, who bids Lamarque farewell at the Austerlitz bridge."
+      }
+    ],
+    "description": [
+      {
+        "from": 268,
+        "text": "The Marquis de Lafayette, veteran of the American War of Independence and of 1789, who had crowned Louis Philippe at the Hôtel de Ville in 1830. At Lamarque's funeral on 5 June 1832 he speaks the farewell at the Austerlitz bridge. When a horseman with a red flag appears he turns away; the crowd shouts 'Lafayette to the Town-hall!' and drags his carriage along the Quai Morland."
+      },
+      {
+        "from": 270,
+        "text": "Among the rumours that night: Lafayette, ill as he is, has said he will follow wherever there is room for a chair."
+      }
+    ]
+  },
+  {
+    "id": "general-lamarque",
+    "name": "General Lamarque",
+    "firstChapter": 264,
+    "importance": "minor",
+    "group": "History",
+    "tagline": [
+      {
+        "from": 264,
+        "text": "The general whose funeral Marius's friends are going to on 5 June 1832."
+      },
+      {
+        "from": 268,
+        "text": "Soldier of the Empire and opposition deputy, whose funeral sets Paris alight."
+      }
+    ],
+    "description": [
+      {
+        "from": 264,
+        "text": "Jean-Maximilien Lamarque, a general of the Empire and a liberal deputy. On the morning of 5 June 1832 Courfeyrac, Enjolras, Feuilly and Combeferre are setting out for his funeral, and ask Marius to come."
+      },
+      {
+        "from": 268,
+        "text": "He had the bravery of the battlefield under the Empire and of the tribune under the Restoration, hated Wellington, kept the sadness of Waterloo for seventeen years, and died clasping a sword given him by the officers of the Hundred Days. The people dreaded his death as a loss, the government as an occasion. His funeral procession, crossing an armed and restless Paris, is the spark of the June rising."
+      }
+    ]
+  },
+  {
+    "id": "monsieur-laffitte",
+    "name": "Monsieur Laffitte",
+    "firstChapter": 68,
+    "importance": "minor",
+    "group": "History",
+    "tagline": [
+      {
+        "from": 68,
+        "text": "The great Paris banker, to whom a letter is posted in haste from Montreuil-sur-Mer."
+      },
+      {
+        "from": 90,
+        "text": "The banker from whom more than half a million francs was withdrawn before the mayor's arrest."
+      }
+    ],
+    "description": [
+      {
+        "from": 68,
+        "text": "Jacques Laffitte, the most famous banker in Paris, governor of the Bank of France and a liberal deputy. Back from Arras before dawn, Jean Valjean posts a letter to him before going to Fantine."
+      },
+      {
+        "from": 90,
+        "text": "The royalist paper reports that before his arrest the former mayor withdrew more than half a million francs, honestly earned, from M. Laffitte, and that no one knows where he has hidden it."
+      }
+    ]
+  },
+  {
+    "id": "madame-de-genlis",
+    "name": "Madame de Genlis",
+    "firstChapter": 124,
+    "importance": "minor",
+    "group": "History",
+    "tagline": [
+      {
+        "from": 124,
+        "text": "The old novelist and educator who spent six months as a lady resident at the Petit-Picpus."
+      }
+    ],
+    "description": [
+      {
+        "from": 124,
+        "text": "Félicité de Genlis, novelist, educator of the Orléans princes and a famous literary figure of the old regime. Around 1820 she asked to enter the convent as a lady resident on the Duc d'Orléans's recommendation; the vocal mothers fluttered because she wrote romances, but she said she detested them. Very old, still playing the harp, superstitious and a Latinist, she left after six or eight months complaining that the garden had no shade, and left pasted in a cupboard five lines of Latin verse meant to frighten away robbers."
+      },
+      {
+        "from": 125,
+        "text": "The convent's bell code gave her her own peal: four-four, heard very often."
+      }
+    ]
+  },
+  {
+    "id": "duc-de-rohan",
+    "name": "The Duc de Rohan",
+    "firstChapter": 123,
+    "importance": "minor",
+    "group": "History",
+    "tagline": [
+      {
+        "from": 123,
+        "text": "A young priest of high rank, once a musketeer, whose sermon draws a cry from the mad Madame Albertine."
+      }
+    ],
+    "description": [
+      {
+        "from": 123,
+        "text": "Louis-François-Auguste de Rohan-Chabot: officer of the Red Musketeers in 1815 as Prince de Léon, then a priest, peer of France and vicar-general of the Archbishop of Paris, dying in 1830 as cardinal and Archbishop of Besançon. When he first preaches at the Petit-Picpus, Madame Albertine half rises and cries 'Ah! Auguste!', and his name really is Auguste. The schoolgirls, who cannot see him through the curtain, know his sweet, shrill voice and dream of his well-dressed hair and elegant cassock."
+      }
+    ]
+  },
+  {
+    "id": "archbishop-de-quelen",
+    "name": "Archbishop de Quélen",
+    "firstChapter": 123,
+    "importance": "minor",
+    "group": "History",
+    "tagline": [
+      {
+        "from": 123,
+        "text": "The Archbishop of Paris, who grants a bold schoolgirl three days' leave."
+      }
+    ],
+    "description": [
+      {
+        "from": 123,
+        "text": "Hyacinthe-Louis de Quélen, Archbishop of Paris from 1821. On one of his visits to the Petit-Picpus, when Mademoiselle Bouchard steps out of the ranks to ask for a day's leave, he smiles and grants her three, and the prioress can do nothing."
+      }
+    ]
+  },
+  {
+    "id": "comte-de-lamothe-valois",
+    "name": "The Comte de Lamothe-Valois",
+    "firstChapter": 168,
+    "importance": "minor",
+    "group": "History",
+    "tagline": [
+      {
+        "from": 168,
+        "text": "An old count of Madame de T.'s salon, respected as 'the Lamothe of the affair of the necklace'."
+      }
+    ],
+    "description": [
+      {
+        "from": 168,
+        "text": "Husband of the Comtesse de la Motte, who swindled a cardinal over a diamond necklace in the scandal that disgraced Marie Antoinette's court in 1785. In 1815 he is seventy-five, silent and sententious, cold and angular, with polished manners and long legs in burnt-sienna trousers. He is the other oracle of Madame de T.'s royalist salon beside M. Gillenormand, held in consideration for his 'celebrity' and, strangely, for his name of Valois."
+      }
+    ]
+  },
+  {
+    "id": "bruneseau",
+    "name": "Bruneseau",
+    "firstChapter": 325,
+    "importance": "minor",
+    "group": "History",
+    "tagline": [
+      {
+        "from": 325,
+        "text": "The man who first explored the sewers of Paris, 'the most intrepid man in the Empire'."
+      },
+      {
+        "from": 327,
+        "text": "The forgotten man behind the revolution in the Paris sewer."
+      }
+    ],
+    "description": [
+      {
+        "from": 325,
+        "text": "Pierre-Emmanuel Bruneseau, an official of the Paris sanitation service under the Empire. In 1805 the Minister of the Interior told Napoleon he had met the most intrepid man in the Empire: a man who wanted to visit the sewers, which even the police feared to enter."
+      },
+      {
+        "from": 326,
+        "text": "From 1805 to 1812 he led a seven-year campaign underground against pestilence and suffocation. Some labourers refused, men fainted and vanished into holes; he read dated stones marking the work of earlier centuries and found an orang-utan's skeleton and, hanging from a grating's hinge, a rag of fine batiste that was a scrap of Marat's shroud."
+      },
+      {
+        "from": 327,
+        "text": "The clean, straight modern sewer, Hugo says, is his work, though everyone has forgotten him."
+      }
+    ]
+  },
+  {
+    "id": "the-senator",
+    "name": "The senator",
+    "firstChapter": 2,
+    "importance": "minor",
+    "group": "Digne, 1815",
+    "tagline": [
+      {
+        "from": 2,
+        "text": "A senator of the Empire near Digne who complains of the Bishop's carriage allowance."
+      },
+      {
+        "from": 8,
+        "text": "The self-made 'philosopher' senator who preaches materialism to the Bishop over dessert."
+      }
+    ],
+    "description": [
+      {
+        "from": 2,
+        "text": "A senator of the Empire, once of the Council of the Five Hundred, with a fine senatorial seat near Digne. When the Bishop claims his allowance for carriage and journeys, he writes an angry note to the minister of public worship: these priests are all greedy, and he is for Caesar alone."
+      },
+      {
+        "from": 8,
+        "text": "A clever old attorney who made his way without letting conscience or sworn faith get in the road, kind to his relations, and educated just enough to think himself a disciple of Epicurus. Slightly drunk at the prefect's table, he expounds to the Bishop a materialism that frees a man from all scruple. The Bishop applauds him with irony: a fine philosophy for great lords, which lets them devour everything with an easy conscience, while belief in God is left to the people like the goose stuffed with chestnuts that is the poor man's truffled turkey."
+      }
+    ]
+  },
+  {
+    "id": "madame-de-lo",
+    "name": "Madame de Lô",
+    "firstChapter": 4,
+    "importance": "minor",
+    "group": "Digne, 1815",
+    "tagline": [
+      {
+        "from": 4,
+        "text": "A countess related to the Bishop who loves to list her sons' 'expectations'."
+      }
+    ],
+    "description": [
+      {
+        "from": 4,
+        "text": "The Comtesse de Lô, a distant relative of the Bishop, often recites in front of him the inheritances awaiting her three sons from old relations near death. Once he answers with a saying from St Augustine: 'Place your hopes in the man from whom you do not inherit.'"
+      }
+    ]
+  },
+  {
+    "id": "monsieur-geborand",
+    "name": "Monsieur Géborand",
+    "firstChapter": 4,
+    "importance": "minor",
+    "group": "Digne, 1815",
+    "tagline": [
+      {
+        "from": 4,
+        "text": "A rich retired cloth merchant of Digne who gives one sou a week after a sermon on hell."
+      }
+    ],
+    "description": [
+      {
+        "from": 4,
+        "text": "A wealthy retired merchant and part-time usurer who made two millions in coarse cloth and never gave alms in his life. After a young vicar's Lenten sermon on hellfire he gives a sou every Sunday to the six old beggar-women at the cathedral door. The Bishop, seeing it, remarks: 'There is M. Géborand purchasing paradise for a sou.'"
+      }
+    ]
+  },
+  {
+    "id": "marquis-de-champtercier",
+    "name": "The Marquis de Champtercier",
+    "firstChapter": 4,
+    "importance": "minor",
+    "group": "Digne, 1815",
+    "tagline": [
+      {
+        "from": 4,
+        "text": "A rich, miserly old marquis of Digne who refuses the Bishop's collection for the poor."
+      }
+    ],
+    "description": [
+      {
+        "from": 4,
+        "text": "A wealthy, avaricious old man, at once ultra-royalist and ultra-Voltairian. When the Bishop begs from him in a Digne drawing-room he answers that he has poor people of his own. 'Give them to me,' says the Bishop."
+      }
+    ]
+  },
+  {
+    "id": "the-condemned-mountebank",
+    "name": "The condemned mountebank",
+    "firstChapter": 4,
+    "importance": "minor",
+    "group": "Digne, 1815",
+    "tagline": [
+      {
+        "from": 4,
+        "text": "A former fairground showman condemned to death at Digne, whom the Bishop attends to the scaffold."
+      }
+    ],
+    "description": [
+      {
+        "from": 4,
+        "text": "A wretched man, once a mountebank at fairs and a public letter-writer, condemned for murder. The prison chaplain is ill and the curé refuses to attend 'that mountebank', so the Bishop goes himself, spends the whole day and night with him and turns his despair to light. Next morning he walks beside him through the crowd to the guillotine in his purple camail."
+      }
+    ]
+  },
+  {
+    "id": "the-town-hall-porter",
+    "name": "The town-hall porter",
+    "firstChapter": 11,
+    "importance": "minor",
+    "group": "Digne, 1815",
+    "tagline": [
+      {
+        "from": 11,
+        "text": "An old guardsman of Austerlitz who lost his post for insulting Louis XVIII; the Bishop made him beadle."
+      }
+    ],
+    "description": [
+      {
+        "from": 11,
+        "text": "Porter of the Digne town-hall, placed there by the Emperor: a non-commissioned officer of the Old Guard, decorated at Austerlitz, a Bonapartist to the bone. He picked the Emperor's head out of his cross rather than wear the Bourbon lilies, and scoffed so loudly at 'the gouty old creature in English gaiters' that he lost his place, with a wife and children to feed. The royalist Bishop reproved him gently and made him beadle of the cathedral."
+      }
+    ]
+  },
+  {
+    "id": "marquise-de-r",
+    "name": "The Marquise de R——",
+    "firstChapter": 15,
+    "importance": "minor",
+    "group": "Digne, 1815",
+    "tagline": [
+      {
+        "from": 15,
+        "text": "The 'good woman' who points the rejected stranger to the Bishop's door."
+      }
+    ],
+    "description": [
+      {
+        "from": 15,
+        "text": "Coming out of the church at night, an old woman finds a man stretched on a stone bench in the cold. He tells her he has knocked at every door in Digne and been driven away; she gives him the four sous in her purse, then points across the street to the small low house beside the bishop's palace and asks whether he has knocked there."
+      }
+    ],
+    "moments": [
+      {
+        "chapter": 15,
+        "text": "Sends the stranger to knock at the Bishop's door."
+      }
+    ]
+  },
+  {
+    "id": "jacquin-labarre",
+    "name": "Jacquin Labarre",
+    "firstChapter": 15,
+    "importance": "minor",
+    "group": "Digne, 1815",
+    "tagline": [
+      {
+        "from": 15,
+        "text": "Landlord of the Cross of Colbas, the best inn in Digne, who turns the stranger out."
+      }
+    ],
+    "description": [
+      {
+        "from": 15,
+        "text": "A man of standing in Digne through his kinsman who keeps the Three Dauphins inn at Grenoble, where Bertrand was said to have plotted the Emperor's return. When the dusty traveller asks for supper, he sends a scribbled note to the town-hall, reads the answer, and tells the man there is no room; when he insists, the host names him, Jean Valjean, and shows him the paper. He is polite to everyone, he says: go away."
+      },
+      {
+        "from": 16,
+        "text": "Madame Magloire's gossip has it that a dangerous vagabond tried Labarre's inn and was refused."
+      }
+    ]
+  },
+  {
+    "id": "mother-gerbaud",
+    "name": "Mother Gerbaud",
+    "firstChapter": 18,
+    "importance": "minor",
+    "group": "Digne, 1815",
+    "tagline": [
+      {
+        "from": 18,
+        "text": "A poor woman of Digne who calls at the Bishop's door with her baby during supper."
+      }
+    ],
+    "description": [
+      {
+        "from": 18,
+        "text": "In Mademoiselle Baptistine's letter, she knocks during the meal with her little one in her arms. The Bishop kisses the child and borrows fifteen sous from his sister to give her."
+      }
+    ]
+  },
+  {
+    "id": "jeanne-valjean",
+    "name": "Jeanne",
+    "firstChapter": 20,
+    "importance": "minor",
+    "group": "Digne, 1815",
+    "aliases": [
+      {
+        "name": "mother Jeanne",
+        "from": 20,
+        "note": "what the family called her"
+      }
+    ],
+    "tagline": [
+      {
+        "from": 20,
+        "text": "Jean Valjean's widowed elder sister, left with seven children when he was sent to the galleys."
+      }
+    ],
+    "description": [
+      {
+        "from": 20,
+        "text": "Older than her brother, she brought him up after their parents died; widowed with seven children, she was in turn kept by his work as a tree-pruner at Faverolles, and would slip the best of his soup into her children's bowls while he pretended not to see. It was for her starving children that he broke the baker's window. After he was taken, the family scattered. In his fourth year at Toulon he heard of her once: in Paris, near Saint-Sulpice, with only her youngest boy, folding sheets in a printing office from six in the morning while the child waited an hour in the dark courtyard for the school to open. He never heard of her again."
+      }
+    ]
+  },
+  {
+    "id": "maubert-isabeau",
+    "name": "Maubert Isabeau",
+    "firstChapter": 20,
+    "importance": "minor",
+    "group": "Digne, 1815",
+    "tagline": [
+      {
+        "from": 20,
+        "text": "The baker of Faverolles whose window Jean Valjean broke for a loaf of bread."
+      }
+    ],
+    "description": [
+      {
+        "from": 20,
+        "text": "Baker on the Church Square at Faverolles. One Sunday evening in a hard winter he heard his shop grating struck, saw an arm come through the broken glass and take a loaf, and ran the thief down: it was Jean Valjean, his arm still bleeding."
+      }
+    ],
+    "moments": [
+      {
+        "chapter": 20,
+        "text": "Catches Jean Valjean stealing a loaf."
       }
     ]
   }

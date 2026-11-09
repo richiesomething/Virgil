@@ -42,6 +42,13 @@
     "quote": "En voyant Lafayette"
   },
   {
+    "term": "A hundred sous",
+    "kind": "money",
+    "chapter": 293,
+    "text": "A five-franc piece, the coin Marius once pressed on the starving girl by the washerwomen's boulevard and she refused. To a penniless student it was real money, several days' food; she remembers that he could not afford it.",
+    "quote": "You gave me a hundred sous"
+  },
+  {
     "term": "Sealing a letter",
     "kind": "custom",
     "chapter": 294,
@@ -54,13 +61,6 @@
     "chapter": 294,
     "text": "The formal French way of addressing a letter, repeating the title: the first “Monsieur” is the salutation, the second goes with the name. “At M. Courfeyrac’s” means care of Courfeyrac, with whom Marius had been lodging.",
     "quote": "To Monsieur, Monsieur Marius Pontmercy"
-  },
-  {
-    "term": "The Marais",
-    "kind": "place",
-    "chapter": 294,
-    "text": "The old aristocratic quarter on the right bank, east of the Hôtel de Ville, full of seventeenth-century mansions gone quiet and middle-class by the 1830s. M. Gillenormand's house in the Rue des Filles-du-Calvaire and the Rue de l’Homme Armé both lie in it, a short walk from the fighting round Saint-Merry and the Halles.",
-    "quote": "Rue des Filles-du-Calvaire, No. 6, in the Marais"
   },
   {
     "term": "Barneville",
@@ -455,6 +455,41 @@
     "quote": "this epaulement"
   },
   {
+    "term": "Arms piled",
+    "kind": "custom",
+    "chapter": 306,
+    "text": "Infantry at rest stood their muskets in little pyramids, three or four locked together by the bayonets, ready to be snatched up. A battalion with arms piled is waiting, not attacking, but it closes the street.",
+    "quote": "A battalion of the line whose arms were piled in the Rue de la Petite Truanderie"
+  },
+  {
+    "term": "Mattress at the window",
+    "kind": "custom",
+    "chapter": 307,
+    "text": "Parisians in riot quarters stuffed mattresses into their windows against stray bullets, since packed wool or straw stops a musket ball that would go through a shutter. This one hangs from two cords over the poles where the household dried its linen, and the barricade needs it to deaden the grapeshot.",
+    "quote": "The mattress, placed crosswise, supported at the bottom on two poles for drying linen, was upheld at the top by two ropes"
+  },
+  {
+    "term": "The marksmanship of a poacher",
+    "kind": "lore",
+    "chapter": 307,
+    "text": "The chapter's title recalls what the reader learned of the young tree-pruner of Faverolles: he was a fine shot and something of a poacher, which counted against him at his trial in 1796. The same eye now cuts two cords at the top of a six-storey house.",
+    "quote": "Jean Valjean took aim at the attic window and fired."
+  },
+  {
+    "term": "Crinoline in their locks",
+    "kind": "custom",
+    "chapter": 308,
+    "text": "Writing in the 1860s, the age of the hooped crinoline skirt and of hair built up over pads and horsehair, Hugo contrasts it with the plain smoothed bands and curls of 1832, when a girl could do her hair in a few minutes.",
+    "quote": "when women did not swell out their curls and bands with cushions and puffs, and did not put crinoline in their locks"
+  },
+  {
+    "term": "The martins' nest",
+    "kind": "word",
+    "chapter": 308,
+    "text": "House martins, small blue-black and white swallows, build cup-shaped mud nests under cornices and eaves and return to them every spring. Cosette, who cannot see the street, watches the parent birds feeding their brood.",
+    "quote": "there was a martin’s nest"
+  },
+  {
     "term": "Fireman's helmet",
     "kind": "custom",
     "chapter": 309,
@@ -537,6 +572,20 @@
     "chapter": 311,
     "text": "Soult, one of Napoleon's marshals, was Louis-Philippe's minister of war in 1832. In the Peninsular War the French took Saragossa in 1809 only after weeks of house-to-house fighting against the whole population; the remark Hugo gives to Marshal Suchet, about old women emptying chamber-pots on the soldiers, is the old campaigner's knowledge that a city is lost once its households join in.",
     "quote": "We are lost when the old women empty their pots de chambre on our heads."
+  },
+  {
+    "term": "The Rue Planche-Mibray",
+    "kind": "place",
+    "chapter": 311,
+    "text": "A short, crowded old street running up from the Pont Notre-Dame towards the Hôtel de Ville, one of the poorest corners of the centre. Pottery thrown from its roofs at the troops was the sign Soult feared: the households joining in.",
+    "quote": "In the Rue Planche-Mibray, they threw old pieces of pottery"
+  },
+  {
+    "term": "The Porte Saint-Martin and the cuirassiers",
+    "kind": "place",
+    "chapter": 311,
+    "text": "The Porte Saint-Martin is a triumphal arch of Louis XIV on the northern boulevards, a usual place for crowds and trouble. Cuirassiers were heavy cavalry in steel breastplates; the army used them to clear the open boulevards, where barricades could not hold.",
+    "quote": "In front of the Porte Saint-Martin, a young man, armed with a rifle, attacked alone a squadron of cavalry"
   },
   {
     "term": "Madame Scarron",
@@ -782,20 +831,6 @@
     "chapter": 318,
     "text": "Corinth was the rich and artistic Greek city; Sybaris in southern Italy was so luxurious that “sybarite” came to mean a pampered voluptuary. A civilising people should be artistic, Hugo says, but not soft.",
     "quote": "Corinth, yes; Sybaris, no."
-  },
-  {
-    "term": "Alexander on the elephant",
-    "kind": "reference",
-    "chapter": 318,
-    "text": "Alexander the Great's conquests reached India, where his armies met war elephants. Hugo's image of the modern spirit: Greek genius (art) carried by Indian strength (science).",
-    "quote": "Alexander on the elephant"
-  },
-  {
-    "term": "Babylon and Carthage",
-    "kind": "reference",
-    "chapter": 318,
-    "text": "Hugo's examples of civilisations sunk in idol-worship (Babylon) and in trade (Carthage, the merchant rival of Rome), against Athens and Rome, which kept an ideal.",
-    "quote": "Babylon has no ideal; Carthage has no ideal."
   },
   {
     "term": "A Missouri or a South Carolina",
@@ -1680,13 +1715,6 @@
     "quote": "that there should exist for the locomotive a road to Damascus"
   },
   {
-    "term": "Operated on for the cataract",
-    "kind": "word",
-    "chapter": 341,
-    "text": "Cataract surgery, removing or pushing aside the clouded lens, was done without anaesthetic, and patients suddenly saw light again after years of blur. Javert's conscience undergoes the same painful restoration of sight.",
-    "quote": "a conscience abruptly operated on for the cataract"
-  },
-  {
     "term": "The station-house table",
     "kind": "custom",
     "chapter": 341,
@@ -2030,13 +2058,6 @@
     "quote": "I regret the bride’s garter."
   },
   {
-    "term": "Florian and the Galland Indies",
-    "kind": "reference",
-    "chapter": 347,
-    "text": "Florian was a captain of dragoons who wrote sentimental pastorals, and Les Indes galantes is Rameau's opera-ballet of 1735. The grandfather's eighteenth century, where a soldier could be a shepherd poet and the world was ribbons and roses.",
-    "quote": "one found means to call oneself Florian"
-  },
-  {
     "term": "Rigadoons and M. Royer-Collard",
     "kind": "history",
     "chapter": 347,
@@ -2051,32 +2072,11 @@
     "quote": "from the cathedral of Rheims to the pagoda of Chanteloup"
   },
   {
-    "term": "Argyraspides and Prince Aldobrandini",
-    "kind": "reference",
-    "chapter": 347,
-    "text": "The Argyraspides were the “silver shields”, the elite guard of Alexander the Great; the Aldobrandini were a princely Roman family whose famous ancient fresco shows a wedding. The grandfather piles up learned splendours for the bridegroom.",
-    "quote": "every recently made bridegroom ought to be Prince Aldobrandini"
-  },
-  {
     "term": "The nuptials of Amphitrite",
     "kind": "reference",
     "chapter": 347,
     "text": "Amphitrite, sea-goddess and bride of Neptune, was painted riding in a shell-chariot drawn by sea-monsters, with Tritons blowing conch shells: the favourite wedding allegory of eighteenth-century ceilings. The couplet he quotes, about Triton's conch “ravishing whoever heard it”, is a jingle on rhyme alone.",
     "quote": "The nuptials of Amphitrite"
-  },
-  {
-    "term": "Euchology",
-    "kind": "word",
-    "chapter": 347,
-    "text": "A prayer book (from the Greek for “prayer-word”), here the French paroissien containing the offices of the Church. Mademoiselle Gillenormand reads hers in one corner of the house while the lovers whisper in another.",
-    "quote": "read her euchology"
-  },
-  {
-    "term": "Saxe porcelain",
-    "kind": "word",
-    "chapter": 347,
-    "text": "Meissen porcelain from Saxony, the first true porcelain made in Europe, famous for its dainty figurines. The grandfather's choice of a nude girl with a muff for the bridal chimneypiece is pure eighteenth century.",
-    "quote": "a little figure in Saxe porcelain"
   },
   {
     "term": "A study required by the council of the order",
@@ -2212,46 +2212,11 @@
     "quote": "At the top of the Pont-aux-Choux, there was a stoppage."
   },
   {
-    "term": "Mid-Lent",
-    "kind": "custom",
-    "chapter": 350,
-    "text": "Mi-Carême, the Thursday in the middle of Lent, when Carnival masquerades briefly returned, especially the washerwomen's festival. The wagons of maskers were expected on both days.",
-    "quote": "If they were missing on a Shrove Tuesday, or at the Mid-Lent"
-  },
-  {
     "term": "The chariot of Thespis and the hackney-coach of Vadé",
     "kind": "reference",
     "chapter": 350,
     "text": "Thespis, the legendary first actor of Greece, was said to tour with his players in a cart; Vadé was the eighteenth-century poet of the fishmarket, inventor of the “poissard” style in the slang of the Halles. Hugo's pair: Greek tragedy began on a wagon, Paris low comedy rides in a cab.",
     "quote": "Greece stood in need of the chariot of Thespis, France stands in need of the hackney-coach of Vadé."
-  },
-  {
-    "term": "Twenty sous Tournois",
-    "kind": "money",
-    "chapter": 350,
-    "text": "The livre tournois, minted at Tours, was the money of account of the French kings; twenty sous made one livre. Hugo cites Louis XI's accounts to show that wagons of masqueraders paid for by the authorities go back to the fifteenth century.",
-    "quote": "“twenty sous, Tournois, for three coaches of mascarades in the crossroads.”"
-  },
-  {
-    "term": "Cuckoo carriage, imperial and rumble",
-    "kind": "word",
-    "chapter": 350,
-    "text": "A coucou was an old two-wheeled public coach for the suburbs, cramped and slow; the imperial was the roof where luggage or extra passengers rode, the rumble the seat at the back. The maskers hang from every part of whatever they hire.",
-    "quote": "some ancient cuckoo carriage, whose imperial they load down"
-  },
-  {
-    "term": "Collé, Panard and Piron",
-    "kind": "reference",
-    "chapter": 350,
-    "text": "Three eighteenth-century writers of bawdy songs and epigrams, the poets of the wine-shop and the cellar club. The masqueraders' banter is theirs, with slang added.",
-    "quote": "Collé, Panard and Piron flow from it"
-  },
-  {
-    "term": "Roquelaure",
-    "kind": "history",
-    "chapter": 350,
-    "text": "The Duc de Roquelaure, a courtier of Louis XIV famous as the king's jester and for coarse wit. Kings have their Roquelaure, says Hugo, and the populace its Merry-Andrew.",
-    "quote": "The King has Roquelaure, the populace has the Merry-Andrew."
   },
   {
     "term": "Loup",
@@ -2324,13 +2289,6 @@
     "quote": "a Venetian lustre with flat plates"
   },
   {
-    "term": "Fortunatus beside Fortunata",
-    "kind": "reference",
-    "chapter": 351,
-    "text": "Fortunatus was the lucky hero of a European folk-tale, given a purse that was never empty. The grandfather's Latin-sounding joke sets the lucky groom by his lucky bride in the empty chair.",
-    "quote": "Fortunatus beside Fortunata"
-  },
-  {
     "term": "Estelle and Némorin",
     "kind": "reference",
     "chapter": 351,
@@ -2397,7 +2355,7 @@
     "term": "Fustian and ticking",
     "kind": "word",
     "chapter": 352,
-    "text": "Fustian is a thick, hard-wearing twilled cloth of cotton and linen, used for working clothes and children's garments; ticking is the striped cotton that covers mattresses and pillows. A bare pillow in its ticking, without a case, marks a bed no one will use.",
+    "text": "Fustian is a thick, hard-wearing twilled cloth of cotton and linen, used for working clothes and children's garments; ticking is the striped cotton that covers mattresses and pillows. A bare pillow in its ticking, without a case, marks a bed stripped and left empty.",
     "quote": "the fustian bodice, which was very thick"
   },
   {
@@ -2618,13 +2576,6 @@
     "quote": "The good women of the quarter said: “He is an innocent.”"
   },
   {
-    "term": "Vernon",
-    "kind": "place",
-    "chapter": 360,
-    "text": "The small town on the Seine in Normandy, between Paris and Rouen, where Colonel Pontmercy lived in retirement growing flowers, and where he is buried. Marius takes his wife to the grave.",
-    "quote": "They had been to Vernon. Marius had taken Cosette to his father’s grave."
-  },
-  {
     "term": "The portress",
     "kind": "custom",
     "chapter": 361,
@@ -2735,13 +2686,6 @@
     "chapter": 363,
     "text": "A letter of change (bill of exchange) was a written order to pay; when the debtor failed to pay, the creditor had it formally “protested” before a notary, and could have him jailed in the debtors' prison, at Paris the prison of Clichy. Marius sees his father's dying wish as a bill drawn on him that he has not yet honoured.",
     "quote": "the letter of change drawn from the depths of the tomb by his father upon him, Marius, had been protested up to that day"
-  },
-  {
-    "term": "Pas de Calais",
-    "kind": "place",
-    "chapter": 363,
-    "text": "The department in the far north of France on the Channel coast, containing Arras and Montreuil-sur-Mer. Marius begins the story of M. Madeleine as a lawyer would, with the place and the year.",
-    "quote": "In a certain arrondissement of the Pas de Calais, there was, in 1822"
   },
   {
     "term": "The Moniteur notice of 15 June 1832",
