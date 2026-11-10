@@ -194,3 +194,18 @@ test('Monte Cristo opens with the spoiler guard off: every chapter page is reada
   await page.goto('/#/b/monte-cristo/chapters/40')
   await expect(page.getByText('Chapter 40 is still ahead of you')).toBeVisible()
 })
+
+test('the chapter guide opens a chapter’s insights inside the reader, and only once the chapter is reached', async ({ page }) => {
+  await open(page, '#/b/twenty-thousand-leagues/read/3', { 'twenty-thousand-leagues': 5 })
+  await page.getByRole('button', { name: /Chapter 3 guide/ }).click()
+  const sheet = page.locator('.sheet')
+  await expect(sheet.locator('.insight').first()).toBeVisible()
+  await expect(sheet.getByRole('link', { name: /Open the chapter page/ })).toHaveAttribute('href', /chapters\/3\?tab=insights/)
+  await page.keyboard.press('Escape')
+  await expect(page.locator('.reader__label')).toContainText('Chapter 3')
+
+  await page.goto('/#/b/twenty-thousand-leagues/read/6')
+  await page.getByRole('button', { name: /Chapter 6 guide/ }).click()
+  await expect(page.locator('.sheet')).toContainText('open once you’ve finished it')
+  await expect(page.locator('.sheet .insight')).toHaveCount(0)
+})

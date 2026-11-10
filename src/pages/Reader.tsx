@@ -1,3 +1,4 @@
+import ChapterGuide from '../components/ChapterGuide'
 import { Fragment, memo, useCallback, useEffect, useMemo, useRef, useState } from 'react'
 import Icon from '../components/Icon'
 import { Segmented, Sheet } from '../components/ui'
@@ -89,10 +90,11 @@ function closeReader(bookId: string, n: number, upTo: number) {
   else navigate(n <= upTo ? href('b', bookId, 'chapters', n) : href('b', bookId))
 }
 
-function ReaderTop({ n, right, timeLeft, listen, onListen }: { n: number; right?: React.ReactNode; timeLeft?: string; listen?: boolean; onListen?: () => void }) {
+function ReaderTop({ n, right, timeLeft, listen, onListen, onGuide }: { n: number; right?: React.ReactNode; timeLeft?: string; listen?: boolean; onListen?: () => void; onGuide?: () => void }) {
   const { book, upTo, openPicker } = useBook()
   const ch = n <= upTo ? chapter(book, n, upTo) : null
   const [open, setOpen] = useState(false)
+  const [guide, setGuide] = useState(false)
   const { rsvpWpm, rsvpFont, audioRate, textScale } = prefs.use()
   const narrated = hasAudio(book.meta)
   return (
@@ -113,10 +115,16 @@ function ReaderTop({ n, right, timeLeft, listen, onListen }: { n: number; right?
           <Icon name="headphones" />
         </button>
       )}
+      <button className="icon-btn reader__companion" aria-label={`Chapter ${n} guide: insights, notes and people`} onClick={() => (onGuide?.(), setGuide(true))}>
+        <Icon name="sparkle" />
+      </button>
       <button className="icon-btn reader__aa" aria-label="Reading settings" onClick={() => (ensureAtkinson(), setOpen(true))}>
         <span aria-hidden="true">Aa</span>
       </button>
       {right}
+      <Sheet open={guide} onClose={() => setGuide(false)} title={ch?.title ? `Chapter ${n} · ${ch.title}` : `Chapter ${n}`} size="large">
+        <ChapterGuide n={n} />
+      </Sheet>
       <Sheet open={open} onClose={() => setOpen(false)} title="Reading">
         <p className="group-title">Theme</p>
         <ThemePicker />
@@ -710,6 +718,7 @@ function ChapterReader({ n }: { n: number }) {
 
   useEffect(() => {
     const onKey = (e: KeyboardEvent) => {
+      if (document.querySelector('.sheet')) return // a sheet over the reader has the keys (Escape closes it, not the reader)
       if ((e.target as HTMLElement)?.tagName === 'INPUT' && e.key !== 'Escape') return
       if (e.key === ' ') ((e.preventDefault()), toggle())
       else if (e.key === 'ArrowLeft') listenRef.current ? skip(-15) : seek(sentenceStartBefore(chapterTokens!, idx.current, true))
@@ -770,6 +779,11 @@ function ChapterReader({ n }: { n: number }) {
                 <button className="btn btn--primary btn--lg btn--block" onClick={() => navigate(href('b', id, 'read', n + 1), { replace: true })}>
                   Next chapter <Icon name="chevronRight" />
                 </button>
+                {n <= upTo && (
+                  <a className="btn btn--secondary btn--block" href={href('b', id, 'chapters', n) + (book.insights?.some((i) => i.chapter === n) ? '?tab=insights' : '')}>
+                    <Icon name="sparkle" /> What to notice in Chapter {n}
+                  </a>
+                )}
                 {ahead && (
                   <>
                     <p className="muted small">
@@ -803,10 +817,10 @@ function ChapterReader({ n }: { n: number }) {
                   className="btn btn--secondary btn--block"
                   onClick={() => {
                     setBookmark(n)
-                    navigate(href('b', id, 'chapters', n))
+                    navigate(href('b', id, 'chapters', n) + (book.insights?.some((i) => i.chapter === n) ? '?tab=insights' : ''))
                   }}
                 >
-                  Finished · back to Virgil
+                  <Icon name="sparkle" /> Finished · what to notice
                 </button>
               </>
             )}
@@ -829,6 +843,9 @@ function ChapterReader({ n }: { n: number }) {
         n={n}
         listen={listen}
         onListen={toggleListen}
+        onGuide={() => {
+          if (!listen) pause()
+        }}
         right={
           <Segmented<View>
             label="Reader view"

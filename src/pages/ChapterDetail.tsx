@@ -76,6 +76,9 @@ function ReadChapter({ n }: { n: number }) {
       </p>
       <h1 className="page-title">{ch.title || `Chapter ${n}`}</h1>
       <p className="lede">{ch.summary}</p>
+      <div className="chapter-read">
+        <ReadButton n={n} primary={false} again={n <= bookmark} />
+      </div>
 
       <div className="sticky-sub">
         <Segmented<Tab>
@@ -104,8 +107,6 @@ function ReadChapter({ n }: { n: number }) {
             )}
           </div>
         )}
-
-        {tab === 'summary' && <ReadButton n={n} primary={false} again />}
 
         {tab === 'summary' && insights.length > 0 && (
           <button className="card notice-teaser" onClick={() => setTab('insights')}>

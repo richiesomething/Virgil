@@ -969,3 +969,11 @@ a.chip-btn { display: inline-flex; align-items: center; }
 /* A level above the volumes (Hugo's Volumes over his Books). */
 .part-head { font: 600 0.75rem/1.2 var(--sans); letter-spacing: 0.08em; text-transform: uppercase; color: var(--accent); margin: 28px 0 4px; }
 .picker .part-head { margin: 18px 0 0; }
+
+/* Chapter guide: a chapter's insights, notes and people from inside the reader. */
+.chapter-read { margin: 4px 0 14px; }
+.guide { display: grid; gap: 14px; }
+.guide__body { min-height: 120px; }
+.guide__body .insights { margin: 0; }
+.guide .segmented { position: sticky; top: 0; z-index: 1; }
+@media (max-width: 400px) { .reader__top { gap: 0; padding: 0 4px; } .reader__top .icon-btn { width: 36px; min-width: 36px; } .reader__aa { width: 34px; } .reader__top .segmented button { padding: 0 8px; } .reader__label { padding: 6px 2px; } }
