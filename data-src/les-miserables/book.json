@@ -298,6 +298,7 @@
   ],
   "color": "#2b3a55",
   "order": 1,
+  "spoilerGuard": false,
   "source": "text",
   "wordCountsApproximate": true,
   "sourceUrl": "https://standardebooks.org/ebooks/victor-hugo/les-miserables/isabel-f-hapgood",
