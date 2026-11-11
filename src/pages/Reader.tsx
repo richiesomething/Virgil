@@ -216,7 +216,14 @@ function ChapterReader({ n }: { n: number }) {
   const [chapterTokens, setTokens] = useState<ChapterTokens | null>(null)
   const [art, setArt] = useState<IllustrationSet | null>(null)
   const [error, setError] = useState<string | null>(null)
-  const [view, setView] = useState<View>('flash')
+  const [view, setViewState] = useState<View>(() => prefs.get().readerView ?? 'text')
+  /** The reader's chosen view, remembered for next time (Play in Text view switches to Flash for the moment only). */
+  const setView = useCallback((v: View) => {
+    setViewState(v)
+    prefs.set((x) => ({ ...x, readerView: v }))
+  }, [])
+  /** Text view with no narration: a plain page to scroll, like an e-reader. */
+  const [jump, setJump] = useState<{ to: number; k: number } | null>(null)
   const viewRef = useRef(view)
   viewRef.current = view
   const [playing, setPlaying] = useState(false)
@@ -233,6 +240,7 @@ function ChapterReader({ n }: { n: number }) {
   const nextAt = useRef(0)
   const sincePlay = useRef(0)
   const lastSave = useRef(0)
+  const saveSoon = useRef(0)
   const wake = useRef<WakeLockSentinel | null>(null)
   const before = useRef<HTMLSpanElement>(null)
   const pivot = useRef<HTMLSpanElement>(null)
@@ -349,6 +357,18 @@ function ChapterReader({ n }: { n: number }) {
       lastSave.current = performance.now()
     },
     [count, id, n],
+  )
+
+  /** Scrolling the page moves the reading position (to the first paragraph on screen). */
+  const scrolledTo = useCallback(
+    (i: number) => {
+      idx.current = i
+      setPausedIndex(i)
+      if (bar.current) bar.current.value = String(i)
+      clearTimeout(saveSoon.current)
+      saveSoon.current = window.setTimeout(() => persist(i), 400)
+    },
+    [persist],
   )
 
   const stop = useCallback(() => {
@@ -519,7 +539,7 @@ function ChapterReader({ n }: { n: number }) {
     nextAt.current = 0
     playingRef.current = true
     setPlaying(true)
-    setView('flash')
+    setViewState('flash')
     navigator.wakeLock
       ?.request('screen')
       .then((w) => {
@@ -719,6 +739,7 @@ function ChapterReader({ n }: { n: number }) {
   useEffect(() => {
     const onKey = (e: KeyboardEvent) => {
       if (document.querySelector('.sheet')) return // a sheet over the reader has the keys (Escape closes it, not the reader)
+      if (viewRef.current === 'text' && !listenRef.current && e.key !== 'Escape') return // a page to scroll: the keys scroll it
       if ((e.target as HTMLElement)?.tagName === 'INPUT' && e.key !== 'Escape') return
       if (e.key === ' ') ((e.preventDefault()), toggle())
       else if (e.key === 'ArrowLeft') listenRef.current ? skip(-15) : seek(sentenceStartBefore(chapterTokens!, idx.current, true))
@@ -737,6 +758,7 @@ function ChapterReader({ n }: { n: number }) {
   if (listen && !sync) return <ReaderShell n={n} title="" message="Finding the narrator’s place…" />
 
   // Progress: this chapter from the reader's own timing, the rest of the book from word counts.
+  const scrolling = view === 'text' && !listen
   const at = ended ? count : playing ? live : paused
   // The picture for the passage being read, if any: pinned above the words in Flash view and while following the voice.
   const pin = !ended && placed.length ? pinnedAt(placed, para) : null
@@ -852,6 +874,7 @@ function ChapterReader({ n }: { n: number }) {
             value={view}
             onChange={(v) => {
               if (v === 'text' && !listen) pause()
+              if (v === 'flash') show(idx.current)
               setView(v)
             }}
             options={[
@@ -889,10 +912,20 @@ function ChapterReader({ n }: { n: number }) {
           {!playing && <span className="reader__hint muted small">Tap to {listen ? 'listen' : paused > 0 ? 'continue' : 'start'}</span>}
         </button>
       ) : (
-        <TextView bookId={id} chapter={chapterTokens} placed={placed} credit={art?.credit ?? ''} pin={listen && playing ? pin : null} current={listen && playing ? spoken : paused} follow={listen && playing} onPick={(i) => (seek(i), listen ? undefined : setView('flash'))} />
+        <TextView
+          bookId={id}
+          chapter={chapterTokens}
+          placed={placed}
+          credit={art?.credit ?? ''}
+          pin={listen && playing ? pin : null}
+          current={scrolling ? -1 : listen && playing ? spoken : paused}
+          follow={listen && playing}
+          onPick={(i) => listen && seek(i)}
+          scroll={scrolling ? { start: paused, jump, onPosition: scrolledTo, onFinish: finish, n } : undefined}
+        />
       )}
 
-      <div className="reader__controls">
+      <div className={`reader__controls${scrolling ? ' reader__controls--slim' : ''}`}>
         <div className="reader__progress" aria-live="off">
           <span>
             <strong>Chapter {n}</strong> · {chapterPct}%
@@ -909,10 +942,14 @@ function ChapterReader({ n }: { n: number }) {
           style={{ '--fill': `${chapterPct}%` } as React.CSSProperties}
           aria-label="Position in the chapter"
           aria-valuetext={`Word ${paused + 1} of ${count}, ${chapterPct}% of the chapter`}
-          onChange={(e) => seek(Number(e.target.value))}
+          onChange={(e) => {
+            const i = Number(e.target.value)
+            seek(i)
+            if (scrolling) setJump({ to: i, k: performance.now() })
+          }}
         />
         <BookProgress pct={bookPct} chaptersDone={bookmark} total={total} leftMin={bookLeftMin} compact />
-        <div className="reader__row">
+        {!scrolling && <div className="reader__row">
           {listen ? (
             <button className="icon-btn reader__skip" aria-label="Back 15 seconds" onClick={() => skip(-15)}>
               <Icon name="rewind" />
@@ -961,7 +998,7 @@ function ChapterReader({ n }: { n: number }) {
               </button>
             </span>
           )}
-        </div>
+        </div>}
       </div>
     </div>
   )
@@ -972,7 +1009,7 @@ function ChapterReader({ n }: { n: number }) {
 const Paragraph = memo(function Paragraph({ tokens, start, current, onPick }: { tokens: ChapterTokens['tokens']; start: number; current: number; onPick: (i: number) => void }) {
   const here = current >= 0
   return (
-    <p className={here ? 'is-current' : undefined} onClick={() => onPick(start)}>
+    <p className={here ? 'is-current' : undefined} data-start={start} onClick={() => onPick(start)}>
       {here
         ? tokens.map((t, i) => (
             <span key={i} className={start + i === current ? 'reader__word' : undefined}>
@@ -1007,6 +1044,7 @@ function TextView({
   current,
   follow,
   onPick,
+  scroll,
 }: {
   bookId: string
   chapter: ChapterTokens
@@ -1016,6 +1054,8 @@ function TextView({
   current: number
   follow?: boolean
   onPick: (i: number) => void
+  /** Reading by scrolling (no narration): open at `start`, report the first paragraph on screen, and offer to finish at the end. */
+  scroll?: { start: number; jump: { to: number; k: number } | null; onPosition: (i: number) => void; onFinish: () => void; n: number }
 }) {
   const ref = useRef<HTMLDivElement>(null)
   const currentPara = chapter.tokens[current]?.paragraph ?? 0
@@ -1024,9 +1064,53 @@ function TextView({
   const pickRef = useRef(onPick)
   pickRef.current = onPick
   const pick = useCallback((i: number) => pickRef.current(i), [])
-  useEffect(() => {
-    ;(ref.current?.querySelector('.reader__word') ?? ref.current?.querySelector('.is-current'))?.scrollIntoView({ block: 'center' })
+  /** The paragraph holding token i, scrolled to the top of the page (just below a line of the one before). */
+  const scrollToToken = useCallback((i: number) => {
+    const box = ref.current
+    if (!box) return
+    const ps = box.querySelectorAll<HTMLElement>('p[data-start]')
+    let el: HTMLElement | null = null
+    for (const p of ps) {
+      if (Number(p.dataset.start) > i) break
+      el = p
+    }
+    box.scrollTop = el && i > 0 ? Math.max(0, el.offsetTop - 12) : 0
   }, [])
+  const scrollRef = useRef(scroll)
+  scrollRef.current = scroll
+  const chapterRef = useRef(chapter)
+  chapterRef.current = chapter
+  useEffect(() => {
+    if (scrollRef.current) return scrollToToken(scrollRef.current.start)
+    ;(ref.current?.querySelector('.reader__word') ?? ref.current?.querySelector('.is-current'))?.scrollIntoView({ block: 'center' })
+  }, [scrollToToken])
+  const jumpK = scroll?.jump?.k
+  useEffect(() => {
+    if (jumpK && scrollRef.current?.jump) scrollToToken(scrollRef.current.jump.to)
+  }, [jumpK, scrollToToken])
+  // Scrolling: the first paragraph whose text is still on screen is where the reader is.
+  const frame = useRef(0)
+  const onScroll = useCallback(() => {
+    if (!scrollRef.current || frame.current) return
+    frame.current = requestAnimationFrame(() => {
+      frame.current = 0
+      const box = ref.current
+      const sc = scrollRef.current
+      if (!box || !sc) return
+      const top = box.scrollTop + 16
+      // At the very bottom the whole chapter has been seen.
+      if (box.scrollTop + box.clientHeight >= box.scrollHeight - 4) return sc.onPosition(chapterRef.current.tokens.length - 1)
+      let at = 0
+      for (const p of box.querySelectorAll<HTMLElement>('p[data-start]')) {
+        if (p.offsetTop + p.offsetHeight > top) {
+          at = Number(p.dataset.start)
+          break
+        }
+      }
+      sc.onPosition(at)
+    })
+  }, [])
+  useEffect(() => () => cancelAnimationFrame(frame.current), [])
   // Following the voice: the line being read sits on the guide in the middle of the screen. The text moves up one
   // line at a time, as the reading reaches the next line; never otherwise. A reader who scrolls gets four seconds to look around.
   // (Also re-run when a picture pins or unpins above, since the box changes height.)
@@ -1061,7 +1145,7 @@ function TextView({
       {pin && <PinnedFigure bookId={bookId} placed={pin} credit={credit} />}
       <div className="reader__textbox">
         {follow && <div className="reader__guide" aria-hidden="true" />}
-        <div className="reader__text prose" ref={ref} onTouchStart={touched} onWheel={touched}>
+        <div className={`reader__text prose${scroll ? ' reader__text--scroll' : ''}`} ref={ref} onTouchStart={touched} onWheel={touched} onScroll={scroll ? onScroll : undefined}>
           {paragraphs.map((p, pi) => {
             const here = p.tokens[0].paragraph === currentPara
             const after = figures.get(pi)
@@ -1080,6 +1164,14 @@ function TextView({
               </Fragment>
             )
           })}
+          {scroll && (
+            <div className="reader__finish">
+              <p className="muted small">End of Chapter {scroll.n}</p>
+              <button className="btn btn--primary btn--block" onClick={scroll.onFinish}>
+                <Icon name="check" /> Finish Chapter {scroll.n}
+              </button>
+            </div>
+          )}
         </div>
       </div>
     </div>

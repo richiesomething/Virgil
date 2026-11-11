@@ -1,6 +1,14 @@
 import { test, expect, type Page } from '@playwright/test'
 import { fileURLToPath } from 'node:url'
 
+// These tests were written for the Flash view; the reader now opens in Text view unless the reader chose Flash.
+test.beforeEach(async ({ context }) => {
+  await context.addInitScript(() => {
+    const p = JSON.parse(localStorage.getItem('virgil:prefs:v1') || '{}')
+    if (!('readerView' in p)) localStorage.setItem('virgil:prefs:v1', JSON.stringify({ ...p, readerView: 'flash' }))
+  })
+})
+
 // The fixtures are six chapters of 20,000 Leagues (public domain), imported into The Pearl,
 // which also has six chapters. node tests/fixtures/make.cjs rebuilds them.
 const fixture = (name: string) => fileURLToPath(new URL('../fixtures/' + name, import.meta.url))
@@ -32,7 +40,7 @@ for (const file of ['leagues.epub', 'leagues.pdf', 'leagues.txt']) {
     await page.getByRole('tab', { name: 'Text' }).click()
     await expect(page.locator('.reader__text p').first()).toContainText('DURING THE PERIOD')
     // Running heads and page numbers must not have leaked into the text.
-    const text = await page.locator('.reader__text').textContent()
+    const text = (await page.locator('.reader__text p').allTextContents()).join(' ')
     expect(text).not.toMatch(/TWENTY THOUSAND LEAGUES UNDER THE SEAS/)
     expect(text).not.toMatch(/\s\d{1,2}\s[A-Z]/)
   })

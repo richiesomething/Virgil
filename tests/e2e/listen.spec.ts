@@ -2,6 +2,14 @@ import { test, expect, type Page } from '@playwright/test'
 import { fileURLToPath } from 'node:url'
 import { readFileSync } from 'node:fs'
 
+// These tests were written for the Flash view; the reader now opens in Text view unless the reader chose Flash.
+test.beforeEach(async ({ context }) => {
+  await context.addInitScript(() => {
+    const p = JSON.parse(localStorage.getItem('virgil:prefs:v1') || '{}')
+    if (!('readerView' in p)) localStorage.setItem('virgil:prefs:v1', JSON.stringify({ ...p, readerView: 'flash' }))
+  })
+})
+
 // Listen mode, with archive.org replaced by a local tone so the test needs no network.
 const tone = readFileSync(fileURLToPath(new URL('../fixtures/tone.mp3', import.meta.url)))
 

@@ -976,4 +976,11 @@ a.chip-btn { display: inline-flex; align-items: center; }
 .guide__body { min-height: 120px; }
 .guide__body .insights { margin: 0; }
 .guide .segmented { position: sticky; top: 0; z-index: 1; }
-@media (max-width: 400px) { .reader__top { gap: 0; padding: 0 4px; } .reader__top .icon-btn { width: 36px; min-width: 36px; } .reader__aa { width: 34px; } .reader__top .segmented button { padding: 0 8px; } .reader__label { padding: 6px 2px; } }
+@media (max-width: 400px) { .reader__label-title { display: none; } .reader__top { gap: 0; padding: 0 4px; } .reader__top .icon-btn { width: 36px; min-width: 36px; } .reader__aa { width: 34px; } .reader__top .segmented button { padding: 0 8px; } .reader__label { padding: 6px 2px; } }
+
+/* Text view without narration: a page to scroll, like an e-reader. */
+.reader__text--scroll p { cursor: text; }
+.reader__text--scroll { padding-bottom: 24px; }
+.reader__finish { max-width: 36rem; margin: 24px auto 8px; display: grid; gap: 10px; text-align: center; padding-top: 16px; border-top: 1px solid var(--line, rgba(0,0,0,.1)); }
+.reader__controls--slim { padding-top: 2px; padding-bottom: calc(6px + env(safe-area-inset-bottom)); }
+.reader__controls--slim .reader__progress { font-size: 0.75rem; }

@@ -1,5 +1,13 @@
 import { test, expect, type Page } from '@playwright/test'
 
+// These tests were written for the Flash view; the reader now opens in Text view unless the reader chose Flash.
+test.beforeEach(async ({ context }) => {
+  await context.addInitScript(() => {
+    const p = JSON.parse(localStorage.getItem('virgil:prefs:v1') || '{}')
+    if (!('readerView' in p)) localStorage.setItem('virgil:prefs:v1', JSON.stringify({ ...p, readerView: 'flash' }))
+  })
+})
+
 /** Set the bookmark before the app loads (progress is read once at startup). */
 async function open(page: Page, hash: string, progress: Record<string, number>) {
   await page.goto('/')
@@ -49,15 +57,33 @@ test('reads the up-next chapter, pauses, keeps the position, and marks it finish
   expect(progress['monte-cristo']).toBe(3)
 })
 
-test('text view shows the chapter and tapping a paragraph moves the position', async ({ page }) => {
+test('text view is a page to scroll: the position follows the scroll, survives a reload, and Flash picks up there', async ({ page }) => {
   await open(page, '#/b/twenty-thousand-leagues/read/1', { 'twenty-thousand-leagues': 0 })
   await page.getByRole('tab', { name: 'Text' }).click()
   const paras = page.locator('.reader__text p')
   expect(await paras.count()).toBeGreaterThan(5)
-  const first = (await paras.nth(2).textContent())!.split(' ')[0]
+  // No play controls while reading by scrolling; tapping the text doesn't switch views.
+  await expect(page.locator('.reader__play')).toHaveCount(0)
   await paras.nth(2).click()
-  await expect(page.locator('.rsvp')).toBeVisible()
+  await expect(page.locator('.reader__text')).toBeVisible()
+  // Scroll so paragraph 6 is at the top.
+  const first = (await paras.nth(6).textContent())!.split(' ')[0]
+  await page.locator('.reader__text').evaluate((box) => {
+    const p = box.querySelectorAll('p')[6] as HTMLElement
+    box.scrollTop = p.offsetTop - 4
+  })
+  await expect(page.locator('.reader__progress')).not.toContainText('· 0%')
+  await page.waitForTimeout(600)
+  await page.reload()
+  await expect(page.locator('.reader__text')).toBeVisible()
+  await expect.poll(() => page.locator('.reader__text').evaluate((b) => b.scrollTop)).toBeGreaterThan(100)
+  await page.getByRole('tab', { name: 'Flash' }).click()
   await expect(page.locator('.rsvp')).toHaveText(first)
+  // The bottom of the page offers to finish the chapter.
+  await page.getByRole('tab', { name: 'Text' }).click()
+  await page.locator('.reader__text').evaluate((b) => (b.scrollTop = b.scrollHeight))
+  await page.getByRole('button', { name: 'Finish Chapter 1' }).click()
+  await expect(page.getByText('The end of')).toBeVisible()
 })
 
 test('with the spoiler guard on, chapters past the bookmark can be read, but finishing one does not move the bookmark by itself', async ({ page }) => {

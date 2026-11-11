@@ -61,6 +61,8 @@ export interface Prefs {
   textScale: number
   /** The reader opens in Listen mode (narration) rather than Read mode. */
   listen: boolean
+  /** How the reader shows the text: one word at a time ('flash') or as pages to scroll ('text'). The last one chosen. */
+  readerView: 'flash' | 'text'
   /** Narration speed, 0.7–2. */
   audioRate: number
   theme: Theme
@@ -77,6 +79,7 @@ export const prefs = createStore<Prefs>('virgil:prefs:v1', {
   rsvpFont: 'literata',
   textScale: 1,
   listen: false,
+  readerView: 'text',
   audioRate: 1,
   theme: 'system',
   planPromptDismissed: [],
